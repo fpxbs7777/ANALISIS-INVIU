@@ -9,3 +9,5 @@ coronar bases/todo_yfinance_checkpoint.json
 *.checkpoint.json
 .pytest_cache/
 data_cache/*.log
+# quantum-lens subrepo (clonado como subdirectorio, historial separado)
+quantum-lens/
