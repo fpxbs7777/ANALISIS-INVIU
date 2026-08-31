@@ -1,0 +1,1380 @@
+DATA SCIENCE AND
+MACHINE LEARNING
+Mauricio Labadie, PhD
+Quantitative Trader
+Credit Suisse
+London, UK
+Lectures in Quantitative Finance
+Facultad de Ciencias - UNAM
+Mexico City, 27 February – 1 March 2018
+1 ML - Mauricio Labadie
+
+Disclaimer
+Everything I say during these lectures, in written and/or orally:
+www.svsamiti.org
+ Is my own and personal opinion
+ Does not represent my employer’s point of view
+ Does not commit me or my employer to anything
+ It is meant to be solely for educational purposes
+ Does not constitute any kind of investment advice
+2 ML - Mauricio Labadie
+
+A bit about myself
+3 ML - Mauricio Labadie
+
+Table of Contents
+1. Introduction
+ What is Machine Learning?
+ Training, Cross-validation and Test sets
+2. Linear regression
+ Definition of the cost function
+ Closed-form solution
+ Overfitting, bias, variance, regularisation
+3. Logistic regression
+ Example Classification of trading flow based on “good” or “bad” returns
+ Single-class vs Multi-class logistic regression
+ Gradient Descent
+4. Neural Networks
+ Forward and backward propagation
+ Learning algorithm and caveats
+ Research example: prediction of prices with high frequency data on limit order books
+4 ML - Mauricio Labadie
+
+1. Introduction
+5 ML - Mauricio Labadie
+
+References on Machine Learning
+blog.netapp.com
+ CalTech
+ Stanford
+ Online lectures
+ Coursera MOOC
+ Machine Learning
+ Machine Learning
+ Yaser Abu-Mostafa
+ Andrew Ng
+ Book: “Learning from Data”
+ YouTube videos
+ Neural Networks Demystified
+ Welch Labs
+6 ML - Mauricio Labadie
+
+Am I qualified to give these lectures?
+ Of course
+ Because I have this!
+I approve!
+wikipedia.org
+#einsteinapproves
+ OK Seriously, this MOOC is very good and I highly recommend you to take it
+ It is free... unless you want to have this diploma in LinkedIn :P
+ I have no commission if you sign up :P
+7 ML - Mauricio Labadie
+
+Definitions of Machine Learning
+ The term “Machine Learning” (ML) was coined in 1959 by Arthur Samuel
+ He defined ML as a field of study
+ that gives computers the ability to learn
+ without being explicitly programmed
+ There is another ML definition from Tom Mitchell in 1998
+ He defined ML as a well-posed learning problem: cdn-images-1.medium.com
+ A computer program is said to learn from experience E
+ with respect to some task T
+ and some performance measure P
+ if its performance on T
+ as measured by P
+ improves with experience E Experience E
+images.idgesg.net
+Task T Performance P Task T Performance P1
+P1 > P
+8 ML - Mauricio Labadie
+
+Data Scientist = do a MOOC?
+ New kid on the block?
+ Mathematical tools from at least 1700s (Newton,
+Lagrange, Legendre, Cauchy, Bayes)
+ Informal Learning?
+ Requires at least undergraduate level in Probability,
+Statistics, Linear Algebra, Multivariate Calculus,
+Numerical Methods and Programming
+ Jack of all trades and modeller - OK
+ Mathematics has always been the language of Science and
+Economics
+ The new “universal language” is now data analysis:
+crunching numbers and separating data signals from noise
+ Machine Learning?
+ ML is useful, but it is NOT the only way we deal with data
+ Actuaries do Machine Learning too!
+ Linear regression is Machine Learning!
+9 ML - Mauricio Labadie
+
+Professionals vs Amateurs
+"Everybody can fit, but the ability to deal with overfitting is what
+www.tucsondjservice.com
+separates professionals from amateurs in Machine Learning.“
+Yaser Abu-Mostafa, CalTech
+ The biggest minds in Machine Learning and AI are all PhDs:
+ Andrew Ng – PhD @ Berkeley
+ Yaser Abu-Mostafa – PhD @ CalTech
+ Yann LeCun – PhD @ UPMC
+ The biggest companies in AI are led by PhDs:
+pbs.twimg.com
+ Deep Blue (beat Chess champion Kasparov)
+ Murray Campbell – PHD @ Carnegie Mellon
+ Deep Mind (beat Go champion)
+ Demis Hassabis – PhD @ University College London
+ Open AI (beat the DOTA 2 champion 1v1)
+ Ilya Sutskever – PhD @ University of Toronto
+10 M L - Mauricio Labadie
+
+Data Science and the Scientific Method
+ Data gathering
+ Before Big Data this was very complicated
+ Now Big Data makes this much easier (but not trivial)
+ Data cleaning and labelling
+ This requires deep insight and knowledge of the problem
+ For example, removing outliers and re-scaling variables
+ Choice of the model
+ Inputs: parameters, variables, etc
+ Outputs: performance/error measure
+ Separating the data in subsamples
+ Training set
+ Cross Validation set (optional)
+ Test set
+images.carsondellosa.com
+11 ML - Mauricio Labadie
+
+Training, Cross-validation and Test
+ Training set
+ In-sample data
+ We can do whatever we want in this set to improve the model
+ This is where we calibrate the parameters
+ In other words, where the “machine learns”
+ Cross-Validation set
+ “In-sample bis” or “pre-out-of-sample”
+ It is used to compare different models
+ E.g. choosing the degree of a polynomial linear regression
+ We treat this set as a pre-test set
+ Test set
+ Out-of-Sample
+ This is where we evaluate the chosen model
+ It is generally used to compute the accuracy of the model
+ Rule of thumb for a data set
+ 70% training, 30% test
+ 60% training, 20% cross-validation, 20% test
+12 M L - Mauricio Labadie
+Google images
+
+Overfitting: definition
+ The goal is to approximate the “true” objective function 𝑓(𝑥)
+ We assume there is a pattern, otherwise there is nothing to do
+ We start with a family of possible functions
+ For example, linear functions (Linear Regression)
+•
+Let us denote the family as ℎ(𝑥;𝜃)
+ 𝑥 are the features
+i.sportstalkflorida.com
+ 𝜃 are the parameters
+•
+We need to decide what kind of approximation we want
+ Do we want to be very good in the Training set?
+ Or to have comparable errors in Training and Validation sets?
+ We cannot have both in general, unless we compromise
+•
+Very good in-sample is not always a blessing
+ By forcing a very high accuracy in the Training set we could be
+sacrificing predictive power on the Test set
+ In other words, we could be fitting the noise, not the signal
+ This is known as overfitting
+i.pinimg.com
+13 ML - Mauricio Labadie
+
+Overfitting: bias and variance
+ We need to choose the right model
+ Too simple underfitting
+ Too complex  overfitting
+ High bias  underfitting
+ The errors in Training and Validation are comparable
+ The model performs well
+ But the errors are too high in the Training and Validation sets
+ The model cannot do better with the current complexity vitalflux.com
+ High variance  overfitting
+ The error in the Training set is small
+ But the error in the Validation set is big
+ We need to give up some accuracy on the Training set
+ So we can reduce error in the Validation set
+ Rule of thumb for “sweet spot” of model complexity:
+ Number of features ≤ number of samples / 10
+www.learnopencv.com
+14 ML - Mauricio Labadie
+
+Example of Overfitting
+ Support Vector Machines
+ Gaussian Kernel
+ 𝐶 = 1, 𝜎 = 0.1
+decrease 𝜎
+“Overfit”
+“increase 𝜎
+Underfit”
+ You will do this in the ML MOOC
+from Stanford - Coursera
+15 ML - Mauricio Labadie
+
+2. Linear Regression
+16 ML - Mauricio Labadie
+
+Linear regression explained
+ We start with a real-valued objective
+ 𝑦 ∈ 𝑅
+ That can be described with 𝑁 features
+ 𝑥 = (1,𝑥 ,…, 𝑥 )
+1 𝑁
+ Assume that a linear combination of the features
+ 𝜃 + 𝜃 𝑥 + ⋯+ 𝜃 𝑥 = 𝑥𝜃
+0 1 1 𝑁 𝑁
+ Can approximate the objective
+ 𝑥𝜃 ≈ 𝑦
+ Given a set of 𝑀 samples and their respective objectives
+algo-trades.com
+ 𝑥 1 ,𝑦 1 , 𝑥 2 ,𝑦 2 ,…, 𝑥 𝑀 ,𝑦 𝑀
+ We want to find the parameters that better approximate the objective
+𝜃
+0
+𝜃
+ 𝜃 = 1 → 𝑥 𝑚 𝜃 ≈ 𝑦 𝑚 for all 𝑚 = 1,…,𝑀
+⋮
+𝜃
+𝑁
+17 ML - Mauricio Labadie
+
+Defining the cost function
+ Define the Cost function as the error between the objective and our approximation
+𝑀
+1
+2
+𝐶𝑜𝑠𝑡 𝜃 = ℎ 𝑥(𝑚);𝜃 − 𝑦(𝑚)
+2𝑀
+𝑚=1
+ Recall that ℎ 𝑥(𝑚);𝜃 = 𝑥(𝑚)𝜃, hence
+𝑀
+1
+2
+𝐶𝑜𝑠𝑡 𝜃 = 𝑥(𝑚)𝜃 − 𝑦(𝑚)
+2𝑀
+𝑚=1
+ Let us write the equation in vectorial form. If we define
+1 𝑥 (1) ⋯ 𝑥 (1) 𝑦(1)
+1 𝑁
+1 𝑥 (2) ⋯ 𝑥 (2) 𝑦(2)
+𝑋 = 1 𝑁 , 𝑌 =
+⋮ ⋮ ⋱ ⋮ ⋮
+1 𝑥 (𝑀) ⋯ 𝑥 (𝑀) 𝑦(𝑀)
+1 𝑁
+cdn2.content.compendiumblog.com
+•
+Then
+1
+𝐶𝑜𝑠𝑡 𝜃 = 𝑋𝜃 − 𝑌 𝑇 𝑋𝜃 − 𝑌
+2𝑀
+18 ML - Mauricio Labadie
+
+Minimising the cost function
+•
+We just wrote the cost function as
+1
+𝐶𝑜𝑠𝑡 𝜃 = 𝑋𝜃 − 𝑌 𝑇 𝑋𝜃 − 𝑌
+2𝑀
+ If we want to minimise the Cost we need to compute its gradient
+1
+𝛻 𝐶𝑜𝑠𝑡 𝜃 = 𝑋𝑇 𝑋𝜃 − 𝑌
+𝜃
+𝑀
+•
+Making 𝛻 𝐶𝑜𝑠𝑡 𝜃 = 0 we found the optimal parameters
+𝜃
+𝜃 = (𝑋𝑇𝑋)−1𝑋𝑇𝑌
+•
+Let us see that 𝜃 we just found is a global minimum:
+ The Hessian (matrix of second derivatives) is 𝐻 = 1 𝑋𝑇𝑋
+𝑀
+
+It is positive-definite because for any vector 𝑤 ≠ 0 we have
+1
+𝑤𝑇𝐻𝑤 = 𝑋𝑤 𝑇 𝑋𝑤 > 0
+𝑀
+19 ML - Mauricio Labadie
+
+Overfitting a linear regression
+𝐹 𝑥 = 1 + 𝑥 + 𝑥2 + 𝑥3
+ We have 10 samples and we use a 10-degree polynomial to fit
+ We are not following our rule of thumb:
+ Number of features ≤ number of samples / 10
+20 ML - Mauricio Labadie
+
+Fixing overfitting: regularisation
+ We add a penalty to the cost function to “force 𝜽 to be small”
+𝑀 𝑁
+1 𝜆
+𝐶𝑜𝑠𝑡 𝜃 = ℎ 𝑥(𝑚);𝜃 − 𝑦(𝑚) 2 + 𝜃 2
+𝑛
+2𝑀 2𝑀
+𝑚=1 𝑛=1
+•
+Define 𝐽 as the identity matrix but with a zero in its first entry:
+exclude 𝜃
+0 0 ⋯ 0 0
+0 1 ⋯ 0
+𝐽 =
+⋮ ⋮ ⋱ ⋮
+0 0 ⋯ 1
+•
+Then
+1 𝜆
+𝐶𝑜𝑠𝑡 𝜃 = 𝑋𝜃 − 𝑌 𝑇 𝑋𝜃 − 𝑌 + 𝐽𝜃 𝑇(𝐽𝜃)
+2𝑀 2𝑀 spiritclothing.ie
+ The gradient is
+1 𝜆
+𝛻 𝐶𝑜𝑠𝑡 𝜃 = 𝑋𝑇 𝑋𝜃 − 𝑌 + 𝐽𝜃
+𝜃
+𝑀 𝑀
+•
+Therefore
+𝜃 = (𝑋𝑇𝑋 + 𝜆𝐽)−1𝑋𝑇𝑌
+•
+The regularisation will make it harder for ℎ 𝑥;𝜃 to take very convoluted shapes
+
+Smoother shape  Reduced variance
+
+“Less is more”
+21 ML - Mauricio Labadie cdn.shopify.com
+
+3. Logistic Regression
+22 ML - Mauricio Labadie
+
+Logistic regression explained
+ We start with a binary objective
+ 𝑦 ∈ {0,1}
+ That can be described with a number of features
+ 𝑥 = (1,𝑥 ,…, 𝑥 )
+1 𝑁
+ Assume that a linear combination of the features
+ 𝜃 + 𝜃 𝑥 + ⋯+ 𝜃 𝑥 = 𝑥𝜃
+0 1 1 𝑁 𝑁
+ Together with a logistic function
+ 𝑧 → ℎ(𝑧) ∈ (0,1)
+ Can approximate the probability of the objective
+ ℎ 𝑥𝜃 ≈ 𝑃[𝑦 = 1]
+ We want to find the parameters that better approximate the probability of the objective
+𝜃
+0
+𝜃
+ 𝜃 = 1 → ℎ(𝑥 𝑚 𝜃) ≈ 𝑃[𝑦 𝑚 = 1] for all 𝑚 = 1,…,𝑀
+⋮
+𝜃
+𝑁
+23 ML - Mauricio Labadie
+
+Classification boundaries
+24 ML - Mauricio Labadie
+
+Example: “toxicity” of trades
+ We label trades based on execution costs:
+ “Good” if the cost is lower than expected
+ “Toxic” if the cost is higher than expected
+ To determine the label, for each trade we have defined a
+metric called “toxicity”
+ Good if Toxicity < 1
+ Toxic if Toxicity > 1
+ Why this is important?
+ “Good” trades can be executed with simple
+algorithms (e.g. VWAP)
+ “Toxic” trades require sophisticated executions (and
+probably human intervention)
+ Goal:
+ Build a classification model that, given a trade,
+will label it as Good or Toxic
+25 ML - Mauricio Labadie
+
+Preparing the data
+ Five features to explain “Toxicity” of a trade
+ Train set
+ 60% i.e. 7,369 samples
+ Here we calibrate the ML model
+ Optimal parameters for the logistic regression
+ Cross-validation set
+ 20% i.e. 2,456 samples
+ Here we pick the optimal threshold for the
+logistic regression
+ Test set
+ 20% i.e. 2,456 samples
+ Here we only check the accuracy of the model
+26 ML - Mauricio Labadie
+
+Training the ML model
+ Preparing the data
+ Transform Toxicity into booleans
+ Normalise the variables
+ Substracting the mean
+ Dividing by range, either max-min or std dev
+ Training the ML model
+ It is just one line of code!
+ Predicting outcomes based on the ML model
+ Compute the logistic with the calibrated parameters
+ Compute the accuracy of the model in the training set
+27 ML - Mauricio Labadie
+
+Training for Good
+ Features that matter (p-value < 0.05):
+ None
+ SpreadBps
+ Factor1
+ Features that we can ignore:
+ VolatilityPct
+ AdvPct
+ Factor2
+28 ML - Mauricio Labadie
+
+Cross-validation for Good
+ Pick optimal threshold that maximises
+accuracy:
+ 0.49 and 0.5
+ I love symmetry
+ Hence I choose 0.5
+static7.depositphotos.com
+29 ML - Mauricio Labadie
+
+Test for Good: we are done, right?
+ This result seems OK
+ 69% accuracy
+ Better than random coin toss i.e. 50%
+•
+Better than 2/3 of chance
+ In line with the accuracy in the training
+set i.e. 69%
+30 ML - Mauricio Labadie
+
+Not really…
+ Only 2% of samples have ℎ > 0.5
+ We know that around 33% of samples are good
+ Around 67% accuracy by predicting “not
+good”
+ Using ℎ ≡ 1
+ We predict all samples are not good
+ So a constant prediction is as good as our
+sophisticated ML model?
+ Thank you ML, you are so useful!
+ We need to change our approach
+ ML is a continuous iterative process
+31 ML - Mauricio Labadie
+
+Choose the threshold differently
+ Let us compare our predictions vs the actual values:
+Actual
+1 0
+True False
+d 1
+e Positive Positive
+t
+c
+i
+d
+e False True
+r
+P 0
+Negative Negative
+ We will use the F1-Score
+𝑇𝑟𝑢𝑒 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠
+ Precision 𝑃 =
+𝑃𝑟𝑒𝑑𝑖𝑐𝑡𝑒𝑑 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠
+𝑇𝑟𝑢𝑒 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠
+ Recall 𝑅 =
+𝐴𝑐𝑡𝑢𝑎𝑙 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠
+𝑃𝑅
+ 𝐹 = 2
+𝑃+𝑅 www.ancientpages.com
+ Choose the threshold in cross-validation that maximises F
+32 ML - Mauricio Labadie
+
+Comparing Accuracy and F1 Score
+ Best accuracy is for threshold = 0.9
+ But we are almost predicting all samples are
+not Good, i.e. ℎ ≡ 1
+ Best F1 score is for threshold = 0.11:
+ But we are almost predicting all samples are
+Good, i.e. ℎ ≡ 0
+ What if we add Accuracy and F1 score?
+ We are trying to predict well without being
+either ℎ ≡ 0 or ℎ ≡ 1
+ Best threshold is 0.41
+ Accuracy is 49%
+ F1 Score is 0.33
+ It is around the median for h
+33 ML - Mauricio Labadie
+
+Test for Good 2: nailed it already?
+ This result seems better than the previous
+one:
+ Lower accuracy: 49%
+ Random choice of Good, Neutral and
+Toxic is around 33%
+ 95% confidence assuming Bernoulli is
+0.33∗0.67
+ 1.96 ∗ ~2%
+2456
+ In general terms, the in-sample accuracy
+should be similar to out-of-sample accuracy
+34 ML - Mauricio Labadie
+
+Logistics for multi-class problems
+ We know how to deal with binary classifications
+ Good
+ Neutral
+ Toxic
+ But what if we have multiple classes?
+ Toxicity: Good, Neutral, Toxic
+ Number recognition: 0,1,2,3,4,5,6,7,8,9
+ Chess: pick which piece to move
+ MMORPGs: pick what spell/skill to use
+ Maximise DPS, aggro, defence, heals, etc
+ The philosophy of the One vs All approach
+ We already have the single-class logistics
+http://assets1.ignimgs.com
+ We can compare them all and pick the best
+35 ML - Mauricio Labadie
+
+One vs All: from single logistics …
+ We choose Good, Neutral and Toxic based on 33% quantiles of toxicity
+ We run 3 logistic regressions, one for each class type
+ This gives us 3 sets of optimal parameters for the 3 logistics
+36 ML - Mauricio Labadie
+
+… to the best outcome
+ We have computed 3 logistic regressions
+ Good
+ Neutral
+ Toxic
+ We now apply the One vs All method:
+ Label each sample based on the highest logistic value
+www.tes.com
+ Here we do not need to calibrate the threshold for classification
+ Only need Train set and Test set, no Cross-validation set
+37 ML - Mauricio Labadie
+
+One vs All: comparing logistics
+ Let us focus on only one feature
+ For example, Factor1
+ Make zero all other factors
+ If Factor1 increases then:
+ Less likely to be a good sample
+ More likely to be a toxic sample
+ Neutral is more or less invariant
+ We could try again without the Neutral class
+ Homework!
+38 ML - Mauricio Labadie knowyourmeme.com
+
+One vs All: Results
+ Did we succeed in the ML model for toxicity?
+ Statistically speaking, yes
+ Predictive power (in-sample and out-of-sample) above 33% with 95% confidence
+ But in practice, is this model good enough to trade real money?
+ I think it is a very good start
+ But we could do much better if we work the model a bit more
+ What can be done?
+ Use regularisation to compute the optimal parameters
+ Add more features
+ If you do not know what features to add, use Neural Networks (tomorrow)
+39 ML - Mauricio Labadie
+T
+T
+r
+e
+a
+s
+in
+t S
+S
+e
+e
+t
+t
+A c c
+3
+3
+u
+7
+7
+r
+. 8
+. 6
+a
+8
+6
+c
+%
+%
+y
+E
+1
+1
+r
+.
+.
+r
+1
+4
+o
+4
+0
+r
+%
+%
+C o n
+L o
+f i
+w
+d e
+e
+n
+r
+3
+3
+c
+B
+6
+6
+e
+o
+.
+.
+u
+7
+2
+I n
+n
+3
+6
+t
+d
+%
+%
+e r v
+U
+a
+p
+l
+p
+9
+e
+5 %
+r
+3
+3
+B
+9
+9
+o
+.
+.
+0
+0
+u
+2
+6
+n
+%
+%
+d
+S i g n i
+Y
+Y
+f
+e
+e
+i c
+s
+s
+a n t
+
+Gradient Descent explained
+ What happens if we do not have a closed-form solution of the
+parameters?
+ We need to find the minimum numerically
+ Gradient Descent for a function 𝐶(𝜃)
+ Move in the direction where 𝐶(𝜃) has fastest decrease
+ That is −𝛻𝐶 𝜃
+•
+We will move in the parameter space at a given learning rate 𝛼
+ludovicarnold.altervista.org
+ 𝜃 𝑘 + 1 = 𝜃 𝑘 − 𝛼𝛻𝐶(𝜃(𝑘))
+•
+Sometimes it is written as a “programming update”
+ 𝜃:= 𝜃 − 𝛼𝛻𝐶(𝜃)
+40 ML - Mauricio Labadie
+
+Gradient Descent and convergence
+•
+The learning algorithm for gradient descent, we just found, is
+qph.ec.quoracdn.net
+ 𝜃:= 𝜃 − 𝛼𝛻𝐶(𝜃)
+ Initial condition is important
+ Esp. when the cost function is not convex
+ We could converge towards a local minimum instead
+ This is one of the biggest headaches in Neural Networks
+ Learning rate is important
+ Small learning rate could take ages to converge
+ Big learning rate could “overshoot” the target and diverge
+•
+Rule of thumb:
+ Plot 𝐶(𝜃(𝑘)) vs iteration 𝑘 to check if it is decreasing
+media.licdn.com
+41 ML - Mauricio Labadie
+
+Gradient Descent for logistic regression
+•
+For Logistic Regression, the cost function we will use is
+𝑀
+1
+𝐶𝑜𝑠𝑡 𝜃 = − 𝑦𝑚 logℎ 𝑥(𝑚)𝜃 − (1 − 𝑦𝑚)log(1 − ℎ 𝑥(𝑚)𝜃 )
+𝑀
+𝑚=1
+ This cost function is convex in ℎ 𝑥(𝑚)𝜃 and has a unique global minimum.
+ If we compute the partial derivatives, using ℎ′ = ℎ(1− ℎ) we obtain
+𝑀
+𝜕𝐶𝑜𝑠𝑡 1
+= (ℎ 𝑥 𝑚 𝜃 − 𝑦𝑚)𝑥 (𝑚)
+𝑛
+𝜕𝜃 𝑀
+𝑛
+𝑚=1
+• Coincidentally, this is the same derivative form for the Linear Regression, but different ℎ 𝑥(𝑚)𝜃 .
+•
+In vectorial form
+1
+𝛻 𝐶𝑜𝑠𝑡 = 𝑋𝑇 ℎ 𝑋𝜃 − 𝑌
+𝜃
+𝑀
+•
+In consequence, the learning algorithm is
+1
+𝜃:= 𝜃 − 𝛼 𝑋𝑇 ℎ 𝑋𝜃 − 𝑌
+𝑀
+42 ML - Mauricio Labadie
+si.com
+
+Gradient Descent with regularisation
+•
+We just add the regularisation term, as before
+𝑀 𝑁
+1 𝜆
+𝐶𝑜𝑠𝑡 𝜃 = − 𝑦𝑚logℎ 𝑥(𝑚)𝜃 − (1− 𝑦𝑚)log(1− ℎ 𝑥(𝑚)𝜃 ) + 𝜃 2
+𝑛
+𝑀 2𝑀
+𝑚=1 𝑛=1
+ The gradient in vectorial form is easy to compute:
+1 𝜆
+𝛻 𝐶𝑜𝑠𝑡 = ℎ 𝑋𝜃 − 𝑌 𝑇𝑋 + 𝐽𝜃
+𝜃
+𝑀 𝑀
+•
+In consequence, the learning algorithm is
+1 𝜆
+𝜃:= 𝜃 − 𝛼 ℎ 𝑋𝜃 − 𝑌 𝑇𝑋 + 𝐽𝜃
+𝑀 𝑀
+i.pinimg.com
+cdn.shopify.com
+43 ML - Mauricio Labadie
+
+4. Neural Networks
+44 ML - Mauricio Labadie
+
+Nonlinear classification: motivation
+𝑥
+ How do we deal with a nonlinear classification problem? 2
+ 𝑦 = 1 in the first and third quadrant
+ 𝑦 = 0 in the second and fourth quadrant
+𝑦 = 0 𝑦 = 1
+ Let us simplify the problem
+ 𝑥 , 𝑥 ∈ {−1,1} 𝑥
+1 2 1
+ 𝑦 = 1 for (𝑥 , 𝑥 ) = (1,1) or (−1,−1)
+1 2
+ 𝑦 = 0 for (𝑥 , 𝑥 ) = (1,−1) or (−1,1)
+𝑦 = 1 𝑦 = 0
+1 2
+•
+If we want to use the logistic regression, we can:
+ Add features that are nonlinear in the original features (𝑥 , 𝑥 )
+1 2
+ Use the fact that
+ ℎ(𝑧) ≈ 0 for 𝑧 ≤ −5
+ ℎ(𝑧) ≈ 1 for 𝑧 ≥ +5
+•
+Of course, it will only work if we know (or at least suspect) what
+nonlinear features to add
+
+What features could be good candidates?
+45 ML - Mauricio Labadie
+
+Solution via nonlinear logistic
+𝑥
+ Let us try quadratic terms 2
+ 𝑥 = 1,𝑥 ,𝑥 ,𝑥 ,𝑥 ,𝑥 = 1,𝑥 ,𝑥 ,𝑥 2,𝑥 2,𝑥 𝑥
+1 2 3 4 5 1 2 1 2 1 2
+ We need 𝜃𝑇 = 𝜃 ,𝜃 ,𝜃 ,𝜃 ,𝜃 ,𝜃 such that 𝑦 = 0 𝑦 = 1
+0 1 2 3 4 5
+ ℎ(𝑥𝜃) ≈ 1 for (𝑥 , 𝑥 ) = (1,1) or (−1,−1)
+1 2
+ ℎ(𝑥𝜃) ≈ 0 for (𝑥 , 𝑥 ) = (1,−1) or (−1,1) 𝑥
+1 2 1
+• 𝑦 = 1 𝑦 = 0
+But we know that this can be translated into
+ 𝑥𝜃 ≥ 5 for (𝑥 , 𝑥 ) = (1,1) or (−1,−1)
+1 2
+ 𝑥𝜃 ≤ −5 for (𝑥 , 𝑥 ) = (1,−1) or (−1,1)
+1 2
+𝒙 𝒙 𝟓𝒙 𝒙 𝒉(𝟓𝒙 𝒙 )
+• There are several solutions, but a very simple one is 𝟏 𝟐 𝟏 𝟐 𝟏 𝟐
+ 𝜃𝑇 = 0,0,0,0,0,5 1 1 5 1
+-1 1 -5 0
+•
+But what if we do not have the intuition for quadratic terms?
+-1 -1 5 1
+•
+Or if the quadratic solution did not work?
+1 -1 -5 0
+
+We need a systematic way to add extra nonlinear features
+46 ML - Mauricio Labadie
+
+What is a logistic unit?
+1
+𝜃
+0
+𝜃 ℎ
+1
+𝑥
+1
+𝑧 𝑎
+𝜃
+2
+ Signal  Activation function
+𝑥
+2  𝑧 = 𝜃𝑥  𝑎 = ℎ(𝑧)
+ Weights or parameters
+ Input  𝜃 = 𝜃 ,𝜃 ,𝜃  Red ball  sum  Green arrow 
+0 1 2
+apply logistic function
+1  Blue arrow  product
+ 𝑥 = 𝑥
+1
+𝑥
+2
+ For simplicity, we will merge the signal 𝑧 and the activation 𝑎 in the red ball
+ In Neural Networks jargon, a logistic unit is called a “neuron”
+47 ML - Mauricio Labadie
+
+Combining logistic units
+ Blue arrow  product
+1  Red ball  sum and activation
+1
+𝜃(1)  𝑎(1) = 𝑥
+1
+𝑥
+2
+1
+𝑎 (2)
+1 (1) (1) (1)
+𝜃 𝜃 𝜃
+ 𝜃(1) = 10 11 12
+(1) (1) (1)
+𝜃 𝜃 𝜃
+20 20 20
+𝑥
+1 𝜃(2) 𝑎 (3)
+1
+ 𝑧(2) = 𝜃(1)𝑎(1)
+𝑎 (2)
+2
+1
+𝑥
+2  𝑎(2) =
+ℎ(𝑧 2 )
+ 𝜃(2) = 𝜃 (2) 𝜃 (2) 𝜃 (2)
+10 11 12
+Layer 1 Layer 2 Layer 3
+ 𝑧(3) = 𝜃(2)𝑎(2)
+1
+ 𝑎(3) =
+ℎ(𝑧 3 )
+48 ML - Mauricio Labadie
+
+Nonlinear classification example
+𝑥
+ Let us go back to our example 2
+ 𝑥 , 𝑥 ∈ {−1,1}
+1 2
+ 𝑦 = 1 for (𝑥 , 𝑥 ) = (1,1) or (−1,−1)
+1 2
+ 𝑦 = 0 for (𝑥
+1
+, 𝑥
+2
+) = (1,−1) or (−1,1) 𝑦 = 0 𝑦 = 1
+ Let us divide the problem in 3 logistic units: 𝑥
+1
+1. First quadrant: “AND” unit
+ 𝑎 (2) = 1 for (𝑎 (1), 𝑎 (1)) = (1,1) and zero elsewhere 𝑦 = 1 𝑦 = 0
+1 1 2
+2. Third quadrant: “AND” unit
+ 𝑎 (2) = 1 for (𝑎 (1), 𝑎 (1)) = (−1,−1) and zero elsewhere
+2 1 2
+3. “OR” unit
+ 𝑎 (3) = 0 for (𝑎 (2), 𝑎 (2)) = (0,0) and 1 elsewhere
+1 1 2
+𝒙 𝒙 𝑎 (2) 𝑎 (2) 𝑎 (3)
+𝟏 𝟐 1 2 1
+ This can be achieved by choosing:
+1 1 1 0 1
+−15 10 10
+ 𝜃(1) = 1 -1 0 0 0
+−15 −10 −10
+ 𝜃(2) = −5 10 10 -1 1 0 0 0
+-1 -1 0 1 1
+49 ML - Mauricio Labadie
+
+General shape of a Neural Network
+𝜃(1)
+𝜃(2) 𝜃(𝑙−1) 𝜃(𝑙)
+𝜃(𝐿−1)
+𝑎 1 (2) 𝑎 (3) ⋯ 𝑎 1 (𝑙) 𝑎 1 (𝑙+1) ⋯
+1
+𝑥
+1
+𝑥
+2
+𝑎
+2
+(2) 𝑎
+2
+(3) ⋯ 𝑎
+2
+(𝑙) 𝑎
+2
+(𝑙+1) ⋯ 𝑎
+1
+(𝐿)
+⋮ ⋮
+⋮
+⋮ ⋮
+𝑥 𝑁 𝑎 𝑠 2 (2) 𝑎 𝑠 3 (3) ⋯ 𝑎 𝑠 𝑙 (𝑙) 𝑎 𝑠 𝑙+1 (𝑙+1) ⋯
+ We have 𝐿 layers
+ 1 input layer 𝑙 = 1, 1 output layer 𝑙 = 𝐿 and 𝐿 − 2 hidden layers 1 < 𝑙 < 𝐿
+ The network is called deep learning if there are multiple hidden layers (3 or more hidden layers)
+ In Layer 𝑙 we have 𝑠 units or neurons (not counting the bias unit)
+𝑙
+ 𝑎 (𝑙) is the activation of the 𝑖-th unit in Layer 𝑙
+𝑖
+ 𝑎(𝑙) = ℎ(𝑧(𝑙) )
+ 𝜃(𝑙) is the matrix of weights for the transition from Layer 𝑙 to Layer 𝑙 + 1
+ 𝑧(𝑙+1) = 𝜃(𝑙)𝑎(𝑙)
+ It has size (𝑆 ) × (𝑆 + 1) (counting the bias unit)
+𝑙+1 𝑙
+50 ML - Mauricio Labadie
+
+Cost Function
+•
+The cost function to use is the same as in logistic regression
+𝑀
+1
+𝐶𝑜𝑠𝑡 𝜃 = − 𝑦𝑚 logℎ 𝑥(𝑚);𝜃 − (1− 𝑦𝑚)log(1− ℎ 𝑥(𝑚);𝜃 )
+𝑀
+𝑚=1
+ However, here the function ℎ 𝑥(𝑚);𝜃 is not a simple logistic but the result of compounding several layers of
+logistic units:
+ 𝜃 represents the vector of all weights
+𝜃 1 (:)
+1
+ 𝜃 = 𝜃(2)(:) where 𝜃 𝑙 (:) is the “unrolled” vector version of the matrix 𝜃 𝑙 e.g. 1 2 → 2
+⋮ 3 4 3
+4
+𝜃(𝐿−1)(:)
+•
+In the case of regularisation, the cost function becomes
+𝑀 𝐿−1 𝑆 𝑆
+𝑙 𝑙+1
+1 𝜆
+𝐶𝑜𝑠𝑡 𝜃 = − 𝑦𝑚logℎ 𝑥(𝑚);𝜃 − (1 − 𝑦𝑚)log(1 − ℎ 𝑥(𝑚);𝜃 ) + [𝜃 𝑙 ]2
+𝑖𝑗
+𝑀 2𝑀
+𝑚=1 𝑙=1 𝑖=1 𝑗=1
+• The very nonlinear nature of ℎ 𝑥(𝑚);𝜃 complicates the task of calibrating the parameters 𝜃:
+
+There can be thousands of partial derivatives (esp. true for deep learning)
+
+There can be multiple local minima, making the numerical solution dependent on initial conditions
+51 ML - Mauricio Labadie
+
+Forward propagation
+𝜃(1) 𝜃(2) 𝜃(𝑙−1) 𝜃(𝑙) 𝜃(𝐿−1)
+𝑎 1 (2) 𝑎 (3) ⋯ 𝑎 1 (𝑙) 𝑎 1 (𝑙+1) ⋯
+1
+𝑥
+1
+𝑥 𝑎 (2) 𝑎 (3) ⋯ 𝑎 (𝑙) 𝑎 (𝑙+1) ⋯ 𝑎 (𝐿)
+2 2 2 2 2 1
+⋮ ⋮ ⋮ ⋮ ⋮
+𝑥 𝑁 𝑎 (2) 𝑎 (3) ⋯ 𝑎 (𝑙) 𝑎 (𝑙+1) ⋯
+𝑠 𝑠 𝑠 𝑠
+2 3 𝑙 𝑙+1
+𝜃 1 (:) 𝑥
+1
+• We start with a given set of weights 𝜃 = 𝜃 2 (:) and an input 𝑎(1) = 𝑥 2
+⋮
+⋮
+𝜃(𝐿−1)(:) 𝑥 𝑁
+•
+We then propagate the values all along the network:
+𝒛(𝒍+𝟏) = 𝜽(𝒍)𝒂(𝒍) …(𝟏)
+𝒂(𝒍+𝟏) = 𝒉 𝒛 𝒍+𝟏 …(𝟐)
+•
+We end with the output 𝑦 of the network, which we can compare to the real output 𝑦:
+𝒚 = 𝒂(𝑳) …(𝟑)
+52 ML - Mauricio Labadie
+
+Backward propagation
+•
+From forward propagation we have:
+𝜃 (𝑙) ℎ
+𝑎 𝑗 (𝑙) 𝑖𝑗 𝑧 (𝑙+1) 𝑎 (𝑙+1) 𝑧 𝑙+1 = 𝜃(𝑙)𝑎(𝑙)
+𝑖 𝑖
+𝑠
+𝑙
+𝑧 𝑙+1 = 𝜃 (𝑙) 𝑎 (𝑙)
+𝑖 𝑖𝑗 𝑗
+𝑗=1
+𝑎 𝑙 = ℎ(𝑧 𝑙 )
+𝑎 𝑙 = ℎ(𝑧 𝑙 )
+𝑖 𝑖
+•
+By the chain rule
+𝜕 𝜕 𝜕𝑧 𝑙+1
+𝑖
+𝐶𝑜𝑠𝑡 𝜃 = 𝐶𝑜𝑠𝑡 𝜃
+𝜕𝜃 𝑙 𝜕𝑧 𝑙+1 𝜕𝜃 𝑙
+𝑖𝑗 𝑖 𝑖𝑗
+•
+Define
+𝝏
+(𝒍+𝟏)
+𝜹 ≔ 𝑪𝒐𝒔𝒕 𝜽 …(𝟒)
+𝒊
+𝝏𝒛 𝒍+𝟏
+𝒊
+•
+Therefore
+𝝏
+𝑪𝒐𝒔𝒕 𝜽 = 𝜹 (𝒍+𝟏) 𝒂 𝒍 …(𝟓)
+𝒍 𝒊 𝒋
+𝝏𝜽
+𝒊𝒋
+ We will compute the deltas backwards, starting from 𝑙 = 𝐿.
+53 ML - Mauricio Labadie
+
+Delta for final layer 𝐿
+•
+In the case of a single example (𝒙,𝒚) we have
+𝐶𝑜𝑠𝑡 𝜃 = − 𝑦logℎ(𝜃(𝐿−1)𝑎(𝐿−1)) − (1− 𝑦)log(1− ℎ(𝜃(𝐿−1)𝑎(𝐿−1)))
+ Its partial derivative is
+𝜕 𝜕 𝜕
+𝐶𝑜𝑠𝑡 𝜃 = − 𝑦 logℎ(𝜃(𝐿−1)𝑎(𝐿−1)) − (1 − 𝑦) log(1− ℎ(𝜃(𝐿−1)𝑎(𝐿−1)))
+(𝐿−1) (𝐿−1) (𝐿−1)
+𝜕𝜃 𝜕𝜃 𝜕𝜃
+1𝑗 1𝑗 1𝑗
+ Let us compute:
+𝜕 ℎ′
+logℎ(𝜃(𝐿−1)𝑎(𝐿−1)) = 𝑎 (𝐿−1)
+𝜕𝜃 (𝐿−1) ℎ 𝑗
+1𝑗
+𝜕 ℎ′
+log(1 − ℎ(𝜃(𝐿−1)𝑎(𝐿−1)) = = 𝑎 (𝐿−1)
+𝜕𝜃 (𝐿−1) 1 − ℎ 𝑗
+1𝑗
+ Using ℎ′ = ℎ(1− ℎ) and simplifying we obtain
+𝜕
+𝐶𝑜𝑠𝑡 𝜃 = ℎ(𝜃 𝐿−1 𝑎 𝐿−1 )− 𝑦 𝑎 𝐿−1
+(𝐿−1) 𝑗
+𝜕𝜃
+1𝑗
+ Define
+𝜹 (𝑳) = 𝒂 𝑳 − 𝒚 …(𝟔)
+𝟏 𝟏
+ Using 𝑎 𝐿 = ℎ(𝜃 𝐿−1 𝑎 𝐿−1 ) we obtain
+𝝏
+𝑪𝒐𝒔𝒕 𝜽 = 𝜹 (𝑳) 𝒂 𝑳−𝟏 …(𝟕)
+(𝑳−𝟏) 𝟏 𝒋
+𝝏𝜽
+𝟏𝒋
+54 ML - Mauricio Labadie
+
+Deltas for general layers
+ℎ
+𝜃(𝑙) 𝑧 (𝑙+1) 𝑎 (𝑙+1) • From forward propagation we have:
+ℎ 1 1
+𝑧 (𝑙) 𝑎 (𝑙)
+𝑖 𝑖 ⋮ ⋮ 𝑠 𝑙
+𝑧 𝑙+1 = 𝜃 (𝑙) 𝑎 (𝑙)
+ℎ 𝑗 𝑗𝑖 𝑖
+𝑧 (𝑙+1) 𝑎 (𝑙+1) 𝑖=1
+𝑗 𝑗
+𝑎 𝑙 = ℎ(𝑧 𝑙 )
+𝑖 𝑖
+⋮ ⋮
+ℎ
+𝑧 (𝑙+1) 𝑎 (𝑙+1)
+𝑠 𝑠
+𝑙 𝑙
+ For 𝑙 < 𝐿 we have
+𝑠 𝑠
+𝜕 𝑙 𝜕𝐶𝑜𝑠𝑡 𝜃 𝜕𝑧 (𝑙+1) 𝜕𝑎 𝑙 𝑙
+𝐶𝑜𝑠𝑡 𝜃 = × 𝑗 × 𝑖 = 𝛿 (𝑙+1) × 𝜃 (𝑙) × ℎ′(𝑧 𝑙 )
+𝜕𝑧 (𝑙) 𝜕𝑧 (𝑙+1) 𝜕𝑎 𝑙 𝜕𝑧 (𝑙) 𝑗 𝑗𝑖 𝑖
+𝑖 𝑗 𝑖 𝑖
+𝑗=1 𝑗=1
+ Therefore
+𝒔
+𝒍
+𝜹 𝒍 = 𝒉′ 𝒛 𝒍 𝜹 𝒍+𝟏 𝜽 𝒍 …(𝟖)
+𝒊 𝒊 𝒋 𝒋𝒊
+𝒋=𝟏
+ In vectorial form, using the Matlab operator ".∗ " for element-wise multiplication, (8) becomes
+𝑻
+𝜹 𝒍 = 𝒉′ 𝒛 𝒍 .∗ 𝜽 𝒍 𝜹 𝒍+𝟏 …(𝟗)
+55 ML - Mauricio Labadie
+
+Learning algorithm
+ Start with a training set 𝑥1,𝑦1 ,…, 𝑥𝑚,𝑦𝑚 ,…(𝑥𝑀,𝑦𝑀)
+ Randomly initialise weights 𝜃
+(𝑙)
+ Initialise gradients ∆ = 0 for all layers 𝑙 = 1,…,𝐿
+𝑖𝑗
+ Loop: for every training example
+𝑥𝑚,𝑦𝑚
+ Forward propagation to compute 𝑎(𝑙) for all layers 𝑙 = 1,…,𝐿
+ Backward propagation to compute 𝛿(𝑙) for all layers 𝑙 = 2,…,𝐿
+ Update gradients: ∆ (𝑙) = ∆ (𝑙) + 1 𝛿 (𝑙+1) 𝑎 𝑙
+𝑖𝑗 𝑖𝑗 𝑖 𝑗
+𝑀
+ Add regularisation (optional but recommended)
+(𝑙) (𝑙) (𝑙)
+ ∆ = ∆ + 𝜆𝜃 if 𝑗 ≠ 0
+𝑖𝑗 𝑖𝑗 𝑖𝑗
+ Update 𝜃 via gradient descent
+(𝑙) (𝑙) (𝑙)
+ 𝜃 = 𝜃 − 𝛼∆
+𝑖𝑗 𝑖𝑗 𝑖𝑗
+ Repeat until convergence
+ Repeat for more random initialisations www.gettyimages.com
+ Keep the value of 𝜃 such that the cost function is the smallest amongst all random initialisations
+56 ML - Mauricio Labadie
+
+5. Neural Networks
+Example of HFT price prediction
+57 ML - Mauricio Labadie
+
+Neural Networks are black boxes!
+ More hidden layers
+wallpaperlayer.com
+ More complicated nonlinear transformations
+ More difficult to interpret the effect of each parameter in the outcome
+•
+You do not fully understand what is going on
+ You cannot explain the “nonlinear factors” the model is picking
+ Like Forrest Gump’s boxes of chocolates:
+ “You never know what you are going to get”
+ It is difficult to audit a neural network model
+•
+You normally hit a local minimum, not the global minimum
+ The local minimum depends on the initial conditions
+ Several random initialisations are needed to get a better local minima
+•
+But the black box approach works!
+ Neural networks have shown their worth in multiple applications
+ Deep learning is impressive
+ Even if its Black Box is actually “darker than black”
+ih1.redbubble.net
+58 ML - Mauricio Labadie
+
+Neural Networks and HFT
+•
+Justin Sirignano, “Deep Learning for Limit Order Books”, preprint ArXiv 2016
+•
+In a Model-driven approach we decide the equations and relations governing the dynamics of the system
+
+Market orders follow a Poisson process (no-memory) or a Hawkes processes (memory)
+
+The Limit Order Book (LOB) replenishes itself at a certain rate
+
+The mid-price follows a stochastic process e.g. Ito process, Levy process
+•
+In a Data-driven approach there are no assumptions on the dynamics of the system
+
+Conditional probability of future prices given the current state of the LOB
+
+Given the volumes and prices of several levels of the LOB at time 𝑡
+
+Predict the future best bid and ask prices at time 𝑡 + ℎ
+powerlisting.wikia.com
+swisscognitive.ch
+59 ML - Mauricio Labadie
+
+Discrete LOB model
+•
+The LOB model
+
+The paper builds a joint distribution of best bid and ask prices at time 𝑡 + ℎ
+
+Conditioned on the state of the LOB at time 𝑡
+
+10 bid and ask levels of the LOB, including best bid and ask prices www.paneuropeannetworks.com
+•
+Adding spacial distribution to neural networks
+
+Standard neural networks have outputs on a finite set
+
+The paper extends this to an infinite, discrete output set e.g. 𝑍
+•
+Adding “closeness” in the LOB
+
+Normally, all samples in a neural network are independent
+
+But in reality, if two samples are “close” then they should behave “similarly”
+
+The spacial neural networks allows to define a probability notion of “closeness”
+•
+The bid-ask spread is not constant i.e. the bid and ask prices do not move together “in lockstep”
+
+For the majority of the NASDAQ stocks, more than 50% time there is no lockstep move
+
+For half of the NASDAQ stocks, they move in locksteps only of the17% of the time
+www.pinterest.es
+60 ML - Mauricio Labadie
+
+Hypotheses
+•
+Infinite price levels for the LOB
+
+Price levels in 𝑍 (zero is best ask price)
+
+For classical neural networks it has to be capped e.g. [−50,50]
+arxiv.org/pdf/1601.01987.pdf
+•
+Bid and ask price distributions
+
+Some research consider them separately and independent
+
+But then they need to add a variable for the spread
+
+Constant or mean-reverting
+
+This paper models bid and ask prices together
+•
+Fixed time horizon of ℎ = 1 second
+
+NASDAQ is open from 9:30 to 16:00
+
+6.5 hours  23,400 seconds
+
+This is enough to calibrate the model on a daily basis
+
+In the paper the training sample is 500 NASDAQ stocks over 20 months in 2014-2015
+•
+A 1-second forecast of price moves qualifies as HFT model
+61 ML - Mauricio Labadie
+
+Results
+𝜃(1) 𝜃(2) 𝜃(3) 𝜃(4) 𝜃(5)
+𝑎
+1
+(2) 𝑎
+1
+(3) 𝑎
+1
+(4) 𝑎
+1
+(5)
+𝑥
+−50
+⋮
+𝑎 (2) 𝑎 (3) 𝑎 (4) 𝑎 (5)
+2 2 2 2
+𝑥 𝑎 (6)
+0 1
+⋮ ⋮ ⋮ ⋮ ⋮
+𝑥 50 𝑎 (2) 𝑎 (3) 𝑎 (4) 𝑎 (5)
+50 50 50 50
+•
+Neural networks outperform nonlinear logistic regressions
+
+Neural networks have lower out-of-sample error
+•
+The spacial neural network outperforms standard neural networks
+
+And there are less parameters due to its local spacial structure (170,000 vs 20,000)
+62 ML - Mauricio Labadie
+
+5. Conclusions
+63 ML - Mauricio Labadie
+
+We do not fear ML jargon anymore
+• • •
+Data Science Logistic regression Logistic unit
+• • •
+Machine Learning Classification boundary Nonlinear features
+• • •
+Cost function Accuracy Neural Networks
+• • •
+Linear regression Confidence Interval Weights
+• • •
+Training a model Precision Hidden layer
+• • •
+Cross-validation Recall Deep Learning
+• • •
+Test set F1 score Forward propagation
+• • •
+Overfitting Single class Backward propagation
+• • •
+Bias Multi class Non-convex optimisation
+• • •
+Variance One vs All Random initialisation
+• • •
+Regularisation Gradient descent Data-driven approach
+•
+Learning rate
+souleater.wikia.com
+64 ML - Mauricio Labadie
+
+References on ML (updated)
+Books on Statistical Learning
+ Hastie, Tibshirani et al “Elements of
+Statistical Learning” (Data mining,
+Inference, Prediction)
+ Hastie, Tibshirani et al “An introduction
+to Statistical Learning” (with applications
+to R)
+There is a MOOC associated to them as well
+ CalTech
+ Stanford
+ Online lectures
+ Coursera MOOC
+ Machine Learning
+ Machine Learning
+ Yaser Abu-Mostafa
+ Andrew Ng
+ Book: “Learning from Data”
+ YouTube videos
+ Neural Networks Demystified
+ Welch Labs
+65 ML - Mauricio Labadie
+
+Thank you for your
+attention
+66 ML - Mauricio Labadie

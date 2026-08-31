@@ -1,0 +1,769 @@
+# -*- coding: utf-8 -*-
+"""
+================================================================================
+  PORTFOLIO OPTIMIZER — yfinance Edition
+  Agente Productor CNV | Análisis Cuantitativo de Portafolios
+================================================================================
+  Unifica: distribuciones, CAPM/beta, optimización Markowitz, PCA y frontera
+  eficiente, usando series históricas REALES via yfinance.
+  Los pesos se obtienen por optimización numérica (no simulados).
+================================================================================
+  Dependencias:  pip install yfinance numpy pandas scipy matplotlib
+================================================================================
+"""
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy.stats as st
+import scipy.optimize as op
+import yfinance as yf
+import warnings
+warnings.filterwarnings("ignore")
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CONFIGURACIÓN GLOBAL
+# ─────────────────────────────────────────────────────────────────────────────
+
+TICKERS = [
+    "GGAL.BA", "YPFD.BA", "BMA.BA", "PAMP.BA", "TECO2.BA",
+    "SUPV.BA", "CEPU.BA", "COME.BA", "TXAR.BA", "ALUA.BA",
+    "EDN.BA",  "TGSU2.BA","MIRG.BA","TRAN.BA", "CRES.BA",
+    "HARG.BA", "IRSA.BA", "LOMA.BA", "VALO.BA", "AGRO.BA"
+]
+
+BENCHMARK    = "^MERV"          # benchmark para el cálculo de beta
+START_DATE   = "2022-01-01"     # inicio de la ventana histórica
+END_DATE     = None             # None = hoy
+NOTIONAL_MM  = 1.0              # nocional en millones USD (referencia)
+FACTOR       = 252              # días hábiles al año
+DECIMALS     = 5
+TARGET_RETURN = None            # None = media del universo
+
+# Factores para análisis multifactorial
+FACTORES = {
+    '^SPX': 'S&P 500',
+    '^IXIC': 'NASDAQ',
+    '^MXX': 'IPC México',
+    '^STOXX': 'STOXX Europa 600',
+    '^GDAXI': 'DAX',
+    '^FCHI': 'CAC 40',
+    '^VIX': 'Índice de Volatilidad',
+    'XLK': 'Sector Tecnología',
+    'XLF': 'Sector Financiero',
+    'XLV': 'Sector Salud',
+    'XLE': 'Sector Energía',
+    'XLC': 'Sector Servicios de Comunicación',
+    'XLY': 'Sector Consumo Discrecional',
+    'XLP': 'Sector Consumo Básico',
+    'XLI': 'Sector Industrial',
+    'XLB': 'Sector Materiales',
+    'XLRE': 'Sector Inmobiliario',
+    'XLU': 'Sector Servicios Públicos',
+    'SPY': 'ETF S&P 500',
+    'EWW': 'ETF MSCI México',
+    'IVW': 'ETF S&P 500 Crecimiento',
+    'IVE': 'Sector Valor',
+    'IWM': 'Sector Crecimiento',
+    'QUAL': 'Calidad',
+    'MTUM': 'Momentum',
+    'SIZE': 'Tamaño',
+    'USMV': 'Mínima Volatilidad',
+    '^MERV': 'Índice MERVAL',
+    'DX-Y.NYB': 'Índice Dólar'
+}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 1. DESCARGA Y PREPARACIÓN DE SERIES TEMPORALES
+# ─────────────────────────────────────────────────────────────────────────────
+
+def download_prices(tickers: list, start: str, end=None) -> pd.DataFrame:
+    """
+    Descarga precios de cierre ajustados para la lista de tickers.
+    Elimina activos con datos insuficientes (< 60 observaciones).
+    Retorna DataFrame de precios diarios con fechas como índice.
+    """
+    print(f"\n[→] Descargando datos para {len(tickers)} activos desde {start} ...")
+    raw = yf.download(tickers, start=start, end=end, auto_adjust=True, progress=False)
+
+    # Soporte multi-índice y single-ticker
+    if isinstance(raw.columns, pd.MultiIndex):
+        prices = raw["Close"].copy()
+    else:
+        prices = raw[["Close"]].copy()
+        prices.columns = tickers
+
+    # Filtrar columnas con datos insuficientes
+    valid = prices.columns[prices.count() >= 60].tolist()
+    dropped = set(tickers) - set(valid)
+    if dropped:
+        print(f"  [!] Activos descartados por datos insuficientes: {dropped}")
+    prices = prices[valid].dropna(how="all")
+    print(f"  [✓] Activos válidos: {valid}")
+    return prices
+
+
+def compute_returns(prices: pd.DataFrame) -> pd.DataFrame:
+    """Retornos logarítmicos diarios."""
+    return np.log(prices / prices.shift(1)).dropna()
+
+
+def download_factor_returns(factores: dict, start: str, end=None) -> pd.DataFrame:
+    """
+    Descarga retornos de factores para análisis multifactorial.
+    Retorna DataFrame de retornos diarios para cada factor.
+    """
+    print(f"\n[→] Descargando datos para {len(factores)} factores desde {start} ...")
+    tickers = list(factores.keys())
+    raw = yf.download(tickers, start=start, end=end, auto_adjust=True, progress=False)
+    
+    if isinstance(raw.columns, pd.MultiIndex):
+        prices = raw["Close"].copy()
+    else:
+        prices = raw[["Close"]].copy()
+        prices.columns = tickers
+    
+    # Filtrar columnas con datos insuficientes
+    valid = prices.columns[prices.count() >= 60].tolist()
+    dropped = set(tickers) - set(valid)
+    if dropped:
+        print(f"  [!] Factores descartados por datos insuficientes: {dropped}")
+    prices = prices[valid].dropna(how="all")
+    
+    returns = compute_returns(prices)
+    print(f"  [✓] Factores válidos: {valid}")
+    return returns
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 2. ESTADÍSTICAS DISTRIBUCIONALES (una acción)
+# ─────────────────────────────────────────────────────────────────────────────
+
+class Distribution:
+    """
+    Calcula y reporta estadísticas distribucionales completas para un activo.
+    Incluye: media, volatilidad, Sharpe, VaR 95%, skewness, kurtosis, Jarque-Bera.
+    """
+
+    def __init__(self, ticker: str, returns: pd.Series, factor: int = FACTOR, decimals: int = DECIMALS):
+        self.ticker    = ticker
+        self.vector    = returns.dropna().values
+        self.factor    = factor
+        self.decimals  = decimals
+        self.size      = len(self.vector)
+        # métricas (se calculan en compute_stats)
+        self.mean_annual       = None
+        self.volatility_annual = None
+        self.sharpe_ratio      = None
+        self.var_95            = None
+        self.skewness          = None
+        self.kurtosis          = None
+        self.jb_stat           = None
+        self.p_value           = None
+        self.is_normal         = None
+
+    def compute_stats(self):
+        v = self.vector
+        self.mean_annual       = np.mean(v) * self.factor
+        self.volatility_annual = np.std(v)  * np.sqrt(self.factor)
+        self.sharpe_ratio      = (self.mean_annual / self.volatility_annual
+                                  if self.volatility_annual > 0 else 0.0)
+        self.var_95    = np.percentile(v, 5)
+        self.skewness  = st.skew(v)
+        self.kurtosis  = st.kurtosis(v)
+        self.jb_stat   = self.size / 6 * (self.skewness**2 + 0.25 * self.kurtosis**2)
+        self.p_value   = 1 - st.chi2.cdf(self.jb_stat, df=2)
+        self.is_normal = self.p_value > 0.05
+        return self
+
+    def summary(self) -> dict:
+        return {
+            "ticker":            self.ticker,
+            "mean_annual":       round(self.mean_annual,       self.decimals),
+            "volatility_annual": round(self.volatility_annual, self.decimals),
+            "sharpe_ratio":      round(self.sharpe_ratio,      self.decimals),
+            "var_95":            round(self.var_95,            self.decimals),
+            "skewness":          round(self.skewness,          self.decimals),
+            "kurtosis":          round(self.kurtosis,          self.decimals),
+            "jb_stat":           round(self.jb_stat,           self.decimals),
+            "p_value":           round(self.p_value,           self.decimals),
+            "is_normal":         self.is_normal,
+        }
+
+    def plot_histogram(self, ax=None):
+        title = (
+            f"{self.ticker}\n"
+            f"μ={self.mean_annual:.4f}  σ={self.volatility_annual:.4f}  "
+            f"Sharpe={self.sharpe_ratio:.4f}\n"
+            f"VaR95={self.var_95:.4f}  Skew={self.skewness:.4f}  "
+            f"Kurt={self.kurtosis:.4f}  Normal={self.is_normal}"
+        )
+        standalone = ax is None
+        if standalone:
+            fig, ax = plt.subplots(figsize=(9, 4))
+        ax.hist(self.vector, bins=80, alpha=0.75, edgecolor="none", color="#7B9CDA")
+        ax.set_title(title, fontsize=8)
+        ax.set_xlabel("Retorno diario")
+        ax.set_ylabel("Frecuencia")
+        ax.grid(True, alpha=0.3)
+        if standalone:
+            plt.tight_layout()
+            plt.show()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 3. CAPM — BETA Y CORRELACIÓN
+# ─────────────────────────────────────────────────────────────────────────────
+
+class CAPM:
+    """
+    Regresión lineal retorno_activo ~ alpha + beta * retorno_benchmark.
+    Opera sobre series de retornos ya calculadas (sin re-descargar).
+    """
+
+    def __init__(self, benchmark_returns: pd.Series, security_returns: pd.Series,
+                 benchmark_name: str = "benchmark", security_name: str = "security"):
+        self.bench_name  = benchmark_name
+        self.sec_name    = security_name
+        # alinear por fecha
+        df = pd.concat([benchmark_returns, security_returns], axis=1, join="inner").dropna()
+        df.columns = ["bench", "sec"]
+        self.x = df["bench"].values
+        self.y = df["sec"].values
+        self.alpha       = None
+        self.beta        = None
+        self.p_value     = None
+        self.correlation = None
+        self.r_squared   = None
+        self.null_hypothesis = None
+
+    def compute(self):
+        slope, intercept, r, p, _ = st.linregress(self.x, self.y)
+        self.alpha       = round(intercept, DECIMALS)
+        self.beta        = round(slope,     DECIMALS)
+        self.p_value     = round(p,         DECIMALS)
+        self.correlation = round(r,         DECIMALS)
+        self.r_squared   = round(r**2,      DECIMALS)
+        self.null_hypothesis = p > 0.05
+        return self
+
+    def summary(self) -> dict:
+        return {
+            "security":    self.sec_name,
+            "alpha":       self.alpha,
+            "beta":        self.beta,
+            "correlation": self.correlation,
+            "r_squared":   self.r_squared,
+            "p_value":     self.p_value,
+            "null_hyp":    self.null_hypothesis,
+        }
+
+    def plot(self):
+        predictor = self.alpha + self.beta * self.x
+        title = (
+            f"Regresión CAPM | {self.sec_name} vs {self.bench_name}\n"
+            f"alpha={self.alpha}  beta={self.beta}  "
+            f"corr={self.correlation}  R²={self.r_squared}  p={self.p_value}"
+        )
+        plt.figure(figsize=(7, 5))
+        plt.scatter(self.x, self.y, alpha=0.4, s=10, color="#7B9CDA")
+        plt.plot(self.x, predictor, color="#E88C8C", linewidth=1.5)
+        plt.title(title, fontsize=9)
+        plt.xlabel(self.bench_name)
+        plt.ylabel(self.sec_name)
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 4. GESTOR DE PORTAFOLIOS — VARIANZA-COVARIANZA Y OPTIMIZACIÓN
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _portfolio_variance(weights, mtx_cov):
+    return float(weights @ mtx_cov @ weights)
+
+
+class PortfolioManager:
+    """
+    Gestiona la optimización de portafolios usando series históricas reales.
+    Tipos disponibles: min-variance-l1, min-variance-l2, long-only,
+                       equi-weight, volatility-weighted, markowitz.
+    """
+
+    def __init__(self, returns: pd.DataFrame, notional_mm: float = NOTIONAL_MM, factor: int = FACTOR):
+        self.returns      = returns          # DataFrame de retornos diarios
+        self.tickers      = list(returns.columns)
+        self.n            = len(self.tickers)
+        self.notional_mm  = notional_mm
+        self.factor       = factor
+        self.mtx_cov      = None
+        self.mtx_corr     = None
+        self.mean_vec     = None            # retornos anualizados por activo
+        self.vol_vec      = None            # volatilidades anualizadas por activo
+        self.metrics_df   = None
+
+    # ── 4.1 COVARIANZA ────────────────────────────────────────────────────────
+    def compute_covariance(self):
+        mtx = self.returns.values
+        self.mtx_cov  = np.cov(mtx, rowvar=False) * self.factor
+        self.mtx_corr = np.corrcoef(mtx, rowvar=False)
+        self.mean_vec = self.returns.mean().values * self.factor
+        self.vol_vec  = self.returns.std().values  * np.sqrt(self.factor)
+        self.metrics_df = pd.DataFrame({
+            "ticker":      self.tickers,
+            "return_ann":  np.round(self.mean_vec, DECIMALS),
+            "vol_ann":     np.round(self.vol_vec,  DECIMALS),
+            "sharpe":      np.round(
+                np.where(self.vol_vec > 0, self.mean_vec / self.vol_vec, 0), DECIMALS),
+        })
+        return self
+
+    # ── 4.2 OPTIMIZACIÓN ─────────────────────────────────────────────────────
+    def compute_portfolio(self, portfolio_type: str = "equi-weight",
+                          target_return: float = None) -> "PortfolioOutput":
+
+        x0  = np.array([1 / self.n] * self.n)
+        eps = 1e-4
+
+        # Restricciones
+        l1_eq   = {"type": "eq", "fun": lambda x: np.sum(np.abs(x)) - 1}
+        l2_eq   = {"type": "eq", "fun": lambda x: np.sum(x**2) - 1}
+        non_neg = [(0, None)] * self.n
+
+        if target_return is None:
+            tr = float(np.mean(self.mean_vec))
+        else:
+            tr = float(np.clip(target_return,
+                               self.mean_vec.min() + eps,
+                               self.mean_vec.max() - eps))
+        ret_eq = {"type": "eq", "fun": lambda x, r=tr: self.mean_vec @ x - r}
+
+        weights = x0.copy()
+
+        if portfolio_type == "min-variance-l1":
+            res = op.minimize(_portfolio_variance, x0, args=(self.mtx_cov,),
+                              constraints=[l1_eq], method="SLSQP")
+            weights = res.x
+
+        elif portfolio_type == "min-variance-l2":
+            res = op.minimize(_portfolio_variance, x0, args=(self.mtx_cov,),
+                              constraints=[l2_eq], method="SLSQP")
+            weights = res.x
+
+        elif portfolio_type == "long-only":
+            res = op.minimize(_portfolio_variance, x0, args=(self.mtx_cov,),
+                              constraints=[l1_eq], bounds=non_neg, method="SLSQP")
+            weights = res.x
+
+        elif portfolio_type == "markowitz":
+            res = op.minimize(_portfolio_variance, x0, args=(self.mtx_cov,),
+                              constraints=[l1_eq, ret_eq], bounds=non_neg, method="SLSQP")
+            weights = res.x
+
+        elif portfolio_type == "volatility-weighted":
+            inv_vol = 1 / np.where(self.vol_vec > 0, self.vol_vec, 1e-8)
+            weights = inv_vol
+
+        # else: equi-weight → x0
+
+        # Normalizar con norma L1
+        norm = np.sum(np.abs(weights))
+        if norm > 0:
+            weights /= norm
+
+        return self._build_output(portfolio_type, weights, tr)
+
+    # ── 4.3 OUTPUT ────────────────────────────────────────────────────────────
+    def _build_output(self, ptype: str, weights: np.ndarray,
+                      target_return: float) -> "PortfolioOutput":
+        port_ret_series = (self.returns * weights).sum(axis=1)
+        ret_ann  = float(self.mean_vec @ weights)
+        vol_ann  = float(np.sqrt(_portfolio_variance(weights, self.mtx_cov)))
+        sharpe   = ret_ann / vol_ann if vol_ann > 0 else 0.0
+
+        alloc_df = self.metrics_df.copy()
+        alloc_df["weights"]    = np.round(weights, 6)
+        alloc_df["alloc_mm"]   = np.round(self.notional_mm * weights, 6)
+
+        out = PortfolioOutput(
+            ptype         = ptype,
+            tickers       = self.tickers,
+            weights       = weights,
+            returns_series= port_ret_series,
+            ret_annual    = ret_ann,
+            vol_annual    = vol_ann,
+            sharpe        = sharpe,
+            target_return = target_return,
+            alloc_df      = alloc_df,
+            notional_mm   = self.notional_mm,
+        )
+        out._compute_tail_stats()
+        return out
+
+
+class PortfolioOutput:
+    """Contenedor de resultados de un portafolio optimizado."""
+
+    def __init__(self, ptype, tickers, weights, returns_series,
+                 ret_annual, vol_annual, sharpe, target_return, alloc_df, notional_mm):
+        self.type           = ptype
+        self.tickers        = tickers
+        self.weights        = weights
+        self.returns_series = returns_series
+        self.ret_annual     = ret_annual
+        self.vol_annual     = vol_annual
+        self.sharpe         = sharpe
+        self.target_return  = target_return
+        self.alloc_df       = alloc_df
+        self.notional_mm    = notional_mm
+        # tail stats
+        self.var_95    = None
+        self.skewness  = None
+        self.kurtosis  = None
+        self.jb_stat   = None
+        self.p_value   = None
+        self.is_normal = None
+
+    def _compute_tail_stats(self):
+        v = self.returns_series.values
+        n = len(v)
+        self.var_95   = np.percentile(v, 5)
+        self.skewness = st.skew(v)
+        self.kurtosis = st.kurtosis(v)
+        self.jb_stat  = n / 6 * (self.skewness**2 + 0.25 * self.kurtosis**2)
+        self.p_value  = 1 - st.chi2.cdf(self.jb_stat, df=2)
+        self.is_normal = self.p_value > 0.05
+
+    def print_summary(self):
+        print(f"\n{'─'*55}")
+        print(f"  PORTAFOLIO : {self.type.upper()}")
+        print(f"  Notional   : USD {self.notional_mm:.2f} MM")
+        print(f"  Retorno    : {self.ret_annual:.4%}")
+        print(f"  Volatilidad: {self.vol_annual:.4%}")
+        print(f"  Sharpe     : {self.sharpe:.4f}")
+        print(f"  VaR 95%    : {self.var_95:.4%}")
+        print(f"  Skewness   : {self.skewness:.4f}")
+        print(f"  Kurtosis   : {self.kurtosis:.4f}")
+        print(f"  Normal?    : {self.is_normal}")
+        print(f"{'─'*55}")
+        df = self.alloc_df[self.alloc_df["weights"] > 0.001].copy()
+        df = df.sort_values("weights", ascending=False)
+        print(df[["ticker", "weights", "return_ann", "vol_ann", "sharpe", "alloc_mm"]].to_string(index=False))
+        print(f"{'─'*55}")
+
+    def plot_histogram(self, ax=None):
+        title = (
+            f"Portafolio: {self.type}\n"
+            f"Ret={self.ret_annual:.4f}  Vol={self.vol_annual:.4f}  "
+            f"Sharpe={self.sharpe:.4f}  VaR95={self.var_95:.4f}\n"
+            f"Skew={self.skewness:.4f}  Kurt={self.kurtosis:.4f}  "
+            f"Normal={self.is_normal}"
+        )
+        standalone = ax is None
+        if standalone:
+            fig, ax = plt.subplots(figsize=(9, 4))
+        ax.hist(self.returns_series.values, bins=80, alpha=0.75,
+                edgecolor="none", color="#9BBFA8")
+        ax.set_title(title, fontsize=8)
+        ax.set_xlabel("Retorno diario del portafolio")
+        ax.set_ylabel("Frecuencia")
+        ax.grid(True, alpha=0.3)
+        if standalone:
+            plt.tight_layout()
+            plt.show()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 5. FRONTERA EFICIENTE
+# ─────────────────────────────────────────────────────────────────────────────
+
+def compute_efficient_frontier(manager: PortfolioManager, n_points: int = 60,
+                               include_special: bool = True):
+    """
+    Traza la Frontera Eficiente de Markowitz y marca portafolios especiales.
+    """
+    min_r = float(manager.mean_vec.min())
+    max_r = float(manager.mean_vec.max())
+    targets = np.linspace(min_r * 1.05, max_r * 0.95, n_points)
+
+    vols, rets = [], []
+    for tr in targets:
+        try:
+            p = manager.compute_portfolio("markowitz", tr)
+            vols.append(p.vol_annual)
+            rets.append(p.ret_annual)
+        except Exception:
+            pass
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.scatter(vols, rets, s=8, color="#7B9CDA", alpha=0.7, label="Frontera eficiente")
+
+    if include_special:
+        specials = {
+            "Min-Var L1":       manager.compute_portfolio("min-variance-l1"),
+            "Long-Only":        manager.compute_portfolio("long-only"),
+            "Equi-Weight":      manager.compute_portfolio("equi-weight"),
+            "Vol-Weighted":     manager.compute_portfolio("volatility-weighted"),
+            "Markowitz (μ)":    manager.compute_portfolio("markowitz"),
+        }
+        colors   = ["#E88C8C", "#F5D5A0", "#9BBFA8", "#C5A8D5", "#7B9CDA"]
+        markers  = ["o", "^", "s", "D", "P"]
+        for (lbl, p), c, m in zip(specials.items(), colors, markers):
+            ax.scatter(p.vol_annual, p.ret_annual, s=120, color=c, marker=m,
+                       zorder=5, label=f"{lbl}  (Sharpe={p.sharpe:.2f})")
+
+    ax.set_xlabel("Volatilidad anualizada", fontsize=11)
+    ax.set_ylabel("Retorno anualizado",     fontsize=11)
+    ax.set_title("Frontera Eficiente de Markowitz", fontsize=13, fontweight="bold")
+    ax.legend(fontsize=8, loc="lower right")
+    ax.grid(True, alpha=0.25)
+    plt.tight_layout()
+    plt.show()
+    return specials
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 6. PCA
+# ─────────────────────────────────────────────────────────────────────────────
+
+def compute_pca(manager: PortfolioManager, plot: bool = True) -> dict:
+    """
+    Descomposición espectral de la matriz de varianza-covarianza.
+    Retorna autovalores, autovectores y varianza explicada acumulada.
+    """
+    eigenvalues, eigenvectors = np.linalg.eigh(manager.mtx_cov)
+    # eigh devuelve orden ascendente → invertir para orden descendente
+    idx          = np.argsort(eigenvalues)[::-1]
+    eigenvalues  = eigenvalues[idx]
+    eigenvectors = eigenvectors[:, idx]
+    var_explained = eigenvalues / eigenvalues.sum()
+    cumvar        = np.cumsum(var_explained)
+
+    print("\n── PCA — Varianza Explicada ──────────────────────────")
+    for i, (ev, ve, cv) in enumerate(zip(eigenvalues, var_explained, cumvar)):
+        print(f"  PC{i+1:02d}  λ={ev:.4f}  var={ve:.2%}  acum={cv:.2%}")
+        if cv >= 0.95:
+            print(f"  [!] {i+1} componentes explican ≥95% de la varianza.")
+            break
+
+    if plot:
+        fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+        axes[0].bar(range(1, len(var_explained)+1), var_explained * 100, color="#7B9CDA", alpha=0.8)
+        axes[0].set_title("Varianza explicada por componente (%)")
+        axes[0].set_xlabel("Componente Principal")
+        axes[0].set_ylabel("%")
+        axes[0].grid(True, alpha=0.3)
+
+        axes[1].plot(range(1, len(cumvar)+1), cumvar * 100, color="#E88C8C", marker="o", ms=4)
+        axes[1].axhline(95, color="gray", linestyle="--", linewidth=0.8)
+        axes[1].set_title("Varianza acumulada (%)")
+        axes[1].set_xlabel("Número de Componentes")
+        axes[1].set_ylabel("%")
+        axes[1].grid(True, alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+    return {
+        "eigenvalues":   eigenvalues,
+        "eigenvectors":  eigenvectors,
+        "var_explained": var_explained,
+        "cumvar":        cumvar,
+        "min_var_port":  eigenvectors[:, -1],   # último autovector (mínima varianza)
+        "pca1":          eigenvectors[:, 0],
+        "pca2":          eigenvectors[:, 1],
+    }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. MATRIZ DE CORRELACIÓN — HEATMAP
+# ─────────────────────────────────────────────────────────────────────────────
+
+def plot_correlation_heatmap(manager: PortfolioManager):
+    corr = pd.DataFrame(manager.mtx_corr,
+                        index=manager.tickers,
+                        columns=manager.tickers)
+    fig, ax = plt.subplots(figsize=(12, 10))
+    im = ax.imshow(corr.values, cmap="RdBu_r", vmin=-1, vmax=1, aspect="auto")
+    plt.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
+    ax.set_xticks(range(len(manager.tickers)))
+    ax.set_yticks(range(len(manager.tickers)))
+    ax.set_xticklabels(manager.tickers, rotation=45, ha="right", fontsize=8)
+    ax.set_yticklabels(manager.tickers, fontsize=8)
+    ax.set_title("Matriz de Correlación del Universo", fontsize=12, fontweight="bold")
+    for i in range(len(manager.tickers)):
+        for j in range(len(manager.tickers)):
+            ax.text(j, i, f"{corr.values[i,j]:.2f}",
+                    ha="center", va="center", fontsize=5, color="black")
+    plt.tight_layout()
+    plt.show()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 8. TABLA RESUMEN CAPM — TODOS LOS ACTIVOS vs BENCHMARK
+# ─────────────────────────────────────────────────────────────────────────────
+
+def compute_capm_table(returns_df: pd.DataFrame,
+                       bench_series: pd.Series,
+                       bench_name: str = BENCHMARK) -> pd.DataFrame:
+    rows = []
+    for ticker in returns_df.columns:
+        capm = CAPM(bench_series, returns_df[ticker],
+                    benchmark_name=bench_name, security_name=ticker)
+        capm.compute()
+        rows.append(capm.summary())
+    df = pd.DataFrame(rows).sort_values("beta", ascending=False)
+    print("\n── Tabla CAPM ─────────────────────────────────────────")
+    print(df.to_string(index=False))
+    return df
+
+
+def compute_portfolio_capm_vs_factors(portfolios: dict,
+                                      factor_returns: pd.DataFrame,
+                                      factores: dict = FACTORES) -> pd.DataFrame:
+    """
+    Calcula CAPM (alpha, beta, correlación) para todos los portafolios vs todos los factores.
+    Retorna un DataFrame con los resultados.
+    """
+    rows = []
+    print("\n── CAPM de Portafolios vs Factores ───────────────────")
+    
+    for port_name, portfolio in portfolios.items():
+        port_returns = portfolio.returns_series
+        
+        for factor in factor_returns.columns:
+            if factor in factores:
+                factor_name = factores[factor]
+                # Alinear series por fecha
+                aligned_port, aligned_factor = port_returns.align(factor_returns[factor], join='inner')
+                
+                if len(aligned_port) > 30:  # Mínimo de observaciones
+                    capm = CAPM(aligned_factor, aligned_port,
+                               benchmark_name=factor_name, security_name=port_name)
+                    capm.compute()
+                    
+                    rows.append({
+                        'portafolio': port_name,
+                        'factor_ticker': factor,
+                        'factor_nombre': factor_name,
+                        'alpha': capm.alpha,
+                        'beta': capm.beta,
+                        'correlacion': capm.correlation,
+                        'r_squared': capm.r_squared,
+                        'p_value': capm.p_value
+                    })
+    
+    df = pd.DataFrame(rows)
+    if not df.empty:
+        # Ordenar por portafolio y luego por beta absoluto
+        df['beta_abs'] = df['beta'].abs()
+        df = df.sort_values(['portafolio', 'beta_abs'], ascending=[True, False])
+        df = df.drop('beta_abs', axis=1)
+        
+        # Mostrar tabla formateada
+        pd.set_option('display.max_rows', None)
+        pd.set_option('display.width', None)
+        print(df.to_string(index=False))
+        pd.reset_option('display.max_rows')
+        pd.reset_option('display.width')
+    else:
+        print("  [!] No se pudieron calcular CAPM para los portafolios vs factores")
+    
+    return df
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 9. REPORTE DE DISTRIBUCIONES — TODOS LOS ACTIVOS
+# ─────────────────────────────────────────────────────────────────────────────
+
+def compute_distribution_table(returns_df: pd.DataFrame) -> pd.DataFrame:
+    rows = []
+    for ticker in returns_df.columns:
+        d = Distribution(ticker, returns_df[ticker])
+        d.compute_stats()
+        rows.append(d.summary())
+    df = pd.DataFrame(rows).sort_values("sharpe_ratio", ascending=False)
+    print("\n── Tabla Distribuciones ───────────────────────────────")
+    print(df.to_string(index=False))
+    return df
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 10. MAIN — EJECUCIÓN COMPLETA
+# ─────────────────────────────────────────────────────────────────────────────
+
+def main():
+    print("=" * 60)
+    print("  PORTFOLIO OPTIMIZER — yfinance | CNV AP")
+    print("=" * 60)
+
+    # ── A. Descarga de datos ──────────────────────────────────────
+    prices = download_prices(TICKERS, START_DATE, END_DATE)
+    returns_df = compute_returns(prices)
+    valid_tickers = list(returns_df.columns)
+
+    # ── B. Benchmark ──────────────────────────────────────────────
+    bench_price = download_prices([BENCHMARK], START_DATE, END_DATE)
+    bench_price.columns = [BENCHMARK]
+    bench_returns = compute_returns(bench_price)[BENCHMARK]
+
+    # ── C. Tabla de distribuciones ────────────────────────────────
+    dist_table = compute_distribution_table(returns_df)
+
+    # ── D. Tabla CAPM ─────────────────────────────────────────────
+    capm_table = compute_capm_table(returns_df, bench_returns)
+
+    # ── E. Gestor de portafolios ──────────────────────────────────
+    mgr = PortfolioManager(returns_df, NOTIONAL_MM)
+    mgr.compute_covariance()
+
+    print("\n── Métricas individuales ──────────────────────────────")
+    print(mgr.metrics_df.sort_values("sharpe", ascending=False).to_string(index=False))
+
+    # ── F. Heatmap de correlación ─────────────────────────────────
+    plot_correlation_heatmap(mgr)
+
+    # ── G. PCA ───────────────────────────────────────────────────
+    pca_results = compute_pca(mgr)
+
+    # ── H. Portafolios óptimos ───────────────────────────────────
+    tipos = ["min-variance-l1", "min-variance-l2", "long-only",
+             "equi-weight", "volatility-weighted", "markowitz"]
+    portfolios = {}
+    for ptype in tipos:
+        tr = TARGET_RETURN if ptype == "markowitz" else None
+        p = mgr.compute_portfolio(ptype, tr)
+        portfolios[ptype] = p
+        p.print_summary()
+
+    # ── I. CAPM de Portafolios vs Factores ───────────────────────
+    factor_returns = download_factor_returns(FACTORES, START_DATE, END_DATE)
+    capm_vs_factors = compute_portfolio_capm_vs_factors(portfolios, factor_returns, FACTORES)
+
+    # ── J. Histogramas en grilla ──────────────────────────────────
+    fig, axes = plt.subplots(2, 3, figsize=(15, 8))
+    axes = axes.flatten()
+    for ax, (ptype, p) in zip(axes, portfolios.items()):
+        p.plot_histogram(ax=ax)
+    plt.suptitle("Distribución de Retornos — Portafolios Óptimos", fontsize=12, fontweight="bold")
+    plt.tight_layout()
+    plt.show()
+
+    # ── K. Frontera Eficiente ────────────────────────────────────
+    special_ports = compute_efficient_frontier(mgr)
+
+    # ── L. Portafolio Markowitz detallado ────────────────────────
+    port_mk = portfolios["markowitz"]
+    print("\n── PORTAFOLIO MARKOWITZ — Posiciones seleccionadas ──")
+    df_sel = port_mk.alloc_df[port_mk.alloc_df["weights"] > 0.005].sort_values(
+        "weights", ascending=False)
+    print(df_sel.to_string(index=False))
+
+    print("\n[✓] Análisis completo finalizado.")
+    return portfolios, dist_table, capm_table, pca_results, capm_vs_factors
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+if __name__ == "__main__":
+    portfolios, dist_table, capm_table, pca_results, capm_vs_factors = main()

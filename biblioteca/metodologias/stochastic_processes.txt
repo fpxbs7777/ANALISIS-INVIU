@@ -1,0 +1,182 @@
+Mauricio Labadie, PhD
+Visiting Professor
+Facultad de Ciencias, UNAM
+Mexico City
+Seminario de Finanzas Cuantitativas con Python
+Mexico City, 2021
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 1
+
+• or simply is a standard Brownian motion (SBM) if:
+• The mapping is continuous
+•
+• For any the increment is independent of
+for all
+• is a Normal (Gaussian) random variable (r.v.) of mean
+zero and variance
+• Properties of the SBM. If is an SBM then:
+• is an SBM
+• For any (cid:2870) is an SBM
+• For fixed is an SBM
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 2
+
+https://scottbembenek.com/
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 3
+
+• An Itô diffusion or Itô process satisfies the Stochastic Differential
+Equation (SDE)
+where
+• and b are square integrable (at least locally)
+• is an SBM
+• The discrete version of the Itô process (a.k.a. Euler scheme) is
+• The integral version of the Itô process is
+(cid:3047) (cid:3047)
+(cid:2868) (cid:2868)
+To define the second integral we approximate via step functions and take limits
+(cid:2870)
+using Lebesgue’s Dominated Convergence in
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 4
+
+If is a standard Normal r.v. then
+• is NOT an SBM
+• No independence of increments
+• Path by path they are not the same a.s.
+• But it has the same distribution law i.e.
+Based on the previous approximation, we will use the following intuitions:
+• We can assume
+• This is true in terms of standard deviation because (cid:2870)
+• We can simulate Brownian increments as
+• This is the heart of the Euler scheme to simulate SDEs
+• In the SDE
+• For short times the “noise” part wins
+• For long times the “deterministic” part wins
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 5
+
+• Let be an Itô diffusion i.e.
+(cid:2870)
+and let be a function. Then
+is again an Itô process and
+(cid:2870)
+(cid:2870)
+(cid:2870)
+(cid:2870)
+where is computed according to the rules
+•
+•
+• If we develop all terms in then (omitting arguments for clarity):
+(cid:2870)
+(cid:2870)
+(cid:2870)
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 6
+
+• If is a (cid:2870) function then its Taylor expansion to second order is
+(cid:2870)
+(cid:2870)
+(cid:2870)
+(cid:2870) (cid:2870)
+(cid:2870)
+(cid:2870)
+• Remember that we use the intuition
+• In a differential we only keep terms of order in . Therefore:
+• (cid:2870) because it is of order
+• because it is of order
+• (cid:2870) has only one term of order in namely
+• Therefore, in differential form the only terms that survive are
+(cid:2870)
+(cid:2870)
+(cid:2870)
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 7
+
+• The Geometric Brownian Motion (GBM) is defined as
+where and are constants.
+• Observe that assuming GBM prices is equivalent of assuming that the returns
+follow a Brownian motion with drift:
+• We have seen that this assumption is not true in reality, but it is widely used
+because of the nice properties of the Brownian motion
+• In order to have more realistic models for prices, we can add more “flavour”
+• Local rate and volatility i.e. and
+• Stochastic rate and volatility
+• Ornstein-Uhlenbeck:
+• Cox-Ingersoll-Ross:
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 8
+
+• Assume a GBM for prices:
+• Apply Itô’s lemma with
+(cid:2870)
+(cid:2870)
+(cid:2870)
+(cid:2870) (cid:2870)
+(cid:2870)
+(cid:2870)
+• In integral form we have
+(cid:2870)
+• Taking exponential we finally obtain
+(cid:2870)
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 9
+
+• Assume the price follows a GBM:
+where is the risk-free interest rate, that we assume constant.
+• Suppose we have a portfolio consisting on one call option and shares on
+the underlying (a.k.a. the hedge):
+• Using Itô’s lemma and assuming constant we obtain
+(cid:2870)
+(cid:2870) (cid:2870)
+(cid:2870)
+(cid:3105)(cid:3004)
+• If we choose (a.k.a. delta hedging) then the portfolio is completely
+(cid:3105)(cid:3020)
+deterministic:
+(cid:2870)
+(cid:2870) (cid:2870)
+(cid:2870)
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 10
+
+• On the other hand, the cash value of the deterministic portfolio grows at the
+risk-free rate:
+• If we assume that there is no arbitrage then both portfolio expressions are
+the same.
+(cid:3105)(cid:3004)
+• In consequence, after recalling that it follows that:
+(cid:3105)(cid:3020)
+(cid:2870)
+(cid:2870) (cid:2870)
+(cid:2870)
+• Eliminating the and regrouping we obtain the Black-Scholes equation:
+(cid:2870)
+(cid:2870) (cid:2870)
+(cid:2870)
+• This equation has a terminal condition at maturity time i.e. the payoff
+of a call option of strike :
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 11
+
+• After performing some hardcore changes of variables, the Black-Scholes
+equation can be transformed into the heat equation
+(cid:2870)
+(cid:2870)
+with a certain initial condition
+(cid:2868)
+• If the initial condition is nice enough then there is a unique solution:
+(cid:2868)
+(cid:2878)(cid:2998)
+(cid:2868)
+(cid:2879)(cid:2998)
+where is the Heat Kernel defined as
+(cid:2870)
+• If you are courageous enough, you could prove by brute force that the heat
+kernel solves the heat equation
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 12
+
+• From the shape of the Heat Kernel we can see that it is related to
+a Gaussian or Normal density function of mean and variance
+• Therefore, it should not be a surprise that the exact solution to the Black-
+Scholes equation is related to the standard normal distribution
+• The value of a call option in terms of its parameters is:
+(cid:2879)(cid:3045)((cid:3021)(cid:2879)(cid:3047))
+(cid:2869) (cid:2870)
+where
+(cid:2870)
+(cid:2869)
+(cid:2870) (cid:2869)
+and is the cumulative distribution function of the standard Normal r.v.
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 13
+
+22/03/2021 Stochastic Processes - Mauricio Labadie PhD 14

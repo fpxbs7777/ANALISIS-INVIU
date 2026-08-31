@@ -1,0 +1,11 @@
+.env
+noticias_*.csv
+__pycache__/
+*.pyc
+# Archivos grandes >100MB (limite GitHub)
+todo_yfinance_checkpoint.json
+coronar bases/todo_yfinance_checkpoint.json
+**/todo_yfinance_checkpoint.json
+*.checkpoint.json
+.pytest_cache/
+data_cache/*.log

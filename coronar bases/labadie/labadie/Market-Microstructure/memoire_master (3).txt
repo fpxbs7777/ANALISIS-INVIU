@@ -1,0 +1,1789 @@
+Optimal algorithmic trading and market microstructure
+Mauricio Labadie, Charles-Albert Lehalle
+To cite this version:
+Mauricio Labadie, Charles-Albert Lehalle. Optimal algorithmic trading and market microstructure. 2010.
+⟨hal-00590283v2⟩
+HAL Id: hal-00590283
+https://hal.science/hal-00590283v2
+Submittedon6Jun2011
+HAL is a multi-disciplinary open access archive L’archiveouvertepluridisciplinaireHAL,estdes-
+for the deposit and dissemination of scientific re- tinée au dépôt et à la diffusion de documents scien-
+searchdocuments,whethertheyarepublishedornot. tifiquesdeniveaurecherche,publiésounon,émanant
+Thedocumentsmaycomefromteachingandresearch des établissements d’enseignement et de recherche
+institutionsinFranceorabroad,orfrompublicorpri- français ou étrangers, des laboratoires publics ou
+vateresearchcenters. privés.
+HALAuthorization
+
+Optimal algorithmic trading
+and market microstructure
+Mauricio LABADIE
+Charles-Albert LEHALLE
+October 2010
+
+R´esum´e
+Lafronti`ereefficienteestunconceptcl´edanslaTh´eorieModerneduPortefeuille. Ennousbasant
+sur cette id´ee, nous allons construire des courbes de trading optimal pour des diff´erents types de
+portefeuilles. Ces courbes correspondent aux strat´egies de trading algorithmique qui minimisent
+l’esp´erancedescouˆtsdetransaction,i.e. l’effetjointdel’impactdemarch´eetlerisquedemarch´e.
+On va ´etudier cinq strat´egies de portefeuille. Pour les trois premi`eres (un seul actif, multi-
+actifs et portefeuille balanc´e) on assumera que les sous-jacents suivent une diffusion Gaussienne,
+tandis que pour les deux derniers on supposera qu’il existe une combinaison d’actifs telle que le
+portefeuille correspondant suit une dynamique de retour `a la moyenne. Les courbes de trading
+optimal peuvent ˆetre calcul´ees en resolvant un probl`eme d’optimisation dans RN, ou` N est le
+nombre (pr´e-d´etermin´e) de temps de trading. Dans quatre cas sur cinq, on obtient un simple
+algorithme r´ecursif de la forme
+x = F(x ,x ),
+n+1 n n−1
+sous les contraintes x = 1 et x = 0.
+0 N+1
+On va resoudre l’algorithme r´ecursif en utilisant la m´ethode de tir (en anglais shooting
+method), une technique num´erique des ´equations diff´erentielles. Cette m´ethode a l’avantage
+que son ´equation correspondante est toujours unidimensionnelle, quoi qu’il soit le nombre de
+temps de trading N. De plus, cette technique peut ˆetre appliqu´ee aussi `a des portefeuilles plus
+g´en´eraux, pour lesquels l’´equation a tant des dimensions comme le nombre de sous-jacents mais
+elle reste toujours ind´ependant de N.
+Cette nouvelle approche pourrait int´eresser des traders haute-fr´equence et des courtiers
+´electroniques.
+i
+
+Abstract
+The efficient frontier is a core concept in Modern Portfolio Theory. Based on this idea, we will
+construct optimal trading curves for different types of portfolios. These curves correspond to
+the algorithmic trading strategies that minimize the expected transaction costs, i.e. the joint
+effect of market impact and market risk.
+Wewillstudyfiveportfolio tradingstrategies. For the firstthree(single-asset, generalmulti-
+asseet and balanced portfolios) we will assume that the underlyings follow a Gaussian diffusion,
+whereas for the last two portfolios we will suppose that there exists a combination of assets such
+that the corresponding portfolio follows a mean-reverting dynamics. The optimal trading curves
+can be computed by solving an optimization problem in RN, where N is the (pre-determined)
+numberoftradingtimes. Infouroutofthefivecases,wewillobtainasimple,recursivealgorithm
+of the form
+x = F(x ,x ),
+n+1 n n−1
+under the constraints x = 1 and x = 0.
+0 N+1
+We will solve the recursive algorithm using the shooting method, a numerical technique for
+differential equations. This method has the advantage that its corresponding equation is always
+one-dimensional regardless of the number of trading times N. Moreover, this technique can be
+also applied to more general portfolios, for which the equation has as many dimensions as the
+number of assets but it is still independent of N.
+This novel approach could be appealing for high-frequency traders and electronic brokers.
+ii
+
+Contents
+1 Introduction 1
+1.1 Modern Portfolio Theory (MPT) and efficient frontier . . . . . . . . . . . . . . . 1
+1.2 Capital Asset Pricing Model (CAPM) and betas . . . . . . . . . . . . . . . . . . 3
+1.3 Optimal trading curve . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+1.4 The scope of this m´emoire . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+2 Market microstructure 8
+2.1 Hypotheses behind MPT and CAPM: The Efficient Market Theory . . . . . . . . 8
+2.2 Market structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+2.2.1 Market types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+2.2.2 Tick and fixing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+2.2.3 Market orders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+2.3 Transaction costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.4 Monitoring trading: Benchmarks . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.4.1 Pre-trade benchmarks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.4.2 Intraday benchmarks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.4.3 Post-trade benchmarks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+3 Algorithmic trading 15
+3.1 Some facts on algorithmic trading . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+3.1.1 Empirical evidence favoring algorithmic trading over human trading . . . 15
+3.2 Algorithmic trading and its multiple faces . . . . . . . . . . . . . . . . . . . . . . 16
+3.3 Basic bricks for algorithmic trading . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+3.3.1 Impact-driven algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+3.3.2 Cost-driven algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+3.3.3 Opportunistic algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+3.4 Building complex algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+4 Optimal trading for Gaussian assets and portfolios 21
+4.1 Single assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+4.1.1 Model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+4.1.2 Optimization program . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+4.2 Multi-asset portfolios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+iii
+
+CONTENTS iv
+4.2.1 Model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+4.2.2 Optimization program . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+4.3 Balanced portfolios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+5 Optimal trading for mean-reverting portfolios 27
+5.1 General mean-reverting portfolios . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+5.1.1 The model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+5.1.2 Wealth process and optimization program . . . . . . . . . . . . . . . . . . 28
+5.2 Simplified model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+5.3 The shooting method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+5.3.1 Description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+5.3.2 Application to optimal trading curves . . . . . . . . . . . . . . . . . . . . 32
+5.4 Numerical example using Matlab . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+6 Conclusions 35
+6.1 Optimal trading curves. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+6.1.1 Recursive algorithms and shooting method . . . . . . . . . . . . . . . . . 35
+6.1.2 Dynamic programming and optimal control . . . . . . . . . . . . . . . . . 35
+6.1.3 Nonlinear transaction costs . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+6.2 Normal returns vs real returns: stylized facts . . . . . . . . . . . . . . . . . . . . 36
+6.3 Some alternative models in Economics and Finance . . . . . . . . . . . . . . . . . 37
+6.3.1 GARCH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+6.3.2 L´evy distributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+6.3.3 Student distributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+6.3.4 Fractional Brownian motion . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+6.3.5 Multifractal Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+6.3.6 Adaptive markets and agent-based models . . . . . . . . . . . . . . . . . . 40
+6.4 Taking a stand: quantitative vs discretionary trading . . . . . . . . . . . . . . . . 40
+6.5 A final thought: how would be the trader of the future? . . . . . . . . . . . . . . 41
+References 42
+
+Chapter 1
+Introduction
+The Modern Portfolio Theory (MPT) and the Capital Asset Pricing Model (CAPM) are mile-
+stones in asset pricing and management in both the academy and the industry. These two
+theories are elegant theoretical achievements that have revolutionized the vision of Finance and
+Economics. We will review both theories in order to get some insight on the relationship be-
+tween risk and return. Afterwards we will apply the same ideas for trading strategies in order
+to minimize the associated transaction costs.
+1.1 Modern Portfolio Theory (MPT) and efficient frontier
+MPT (or Markowitz Portfolio) was developed by Markowitz in 1952. The idea behind MPT
+is simple yet insightful. Imagine a market with two assets A and B, in which we invest today
+(t = 0)andattimet = 1werecoverourinitialinvestmentplustheprofitsoftheperiod. Assume
+that the probability distributions of A and B are known, i.e. their means r , r and variances
+A B
+σ , σ are information available to everybody.
+A B
+Suppose r > r and σ > σ . Then we have two natural choices:
+A B A B
+• Maximize profits regardless of the risk (i.e. variance). In this case we choose asset A.
+• Minimize risk regardless of profit. In this case we choose B.
+Now suppose that the correlation ρ between both assets is negative and that short-selling is
+not allowed. Then there exists an investment strategy ω ∈ (0,1) such that the corresponding
+portfolio
+P = ωA+(1−ω)B
+has minimal variance, i.e. σ < σ . Portfolio P is called the minimal variance portfolio (see
+P B
+Figure 1.1).
+In general, if the market consists on N assets A ,...,A , there is an investment strategy
+1 N
+N
+(cid:88)
+ω ≥ 0, i = 1,...,N; ω = 1
+i i
+i=1
+1
+
+2
+Figure 1.1: Theeffectofdiversification. Ifthecorrelationρ=0(dottedline)thentheminimalvariance
+portfolio is asset B. However, if ρ<0 (solid line) there is a portfolio P with less variance than B (called
+minimal variance portfolio).
+such that the portfolio
+N
+(cid:88)
+P = ω A
+i i
+i=1
+has minimal variance, i.e.
+σ ≤ min{σ : i = 1,...,N}. (1.1)
+P i
+Moreover, if at least one of the correlations is negative then inequality (1.1) is strict.
+Now suppose we want to minimize the variance of our portfolio P for a given target return
+r. Then the optimization program is to minimize σ under the constraints
+P
+N N
+(cid:88) (cid:88)
+ω ≥ 0, i = 1,...,N; ω = 1; ω r = r.
+i i i i
+i=1 i=1
+Analogously,foragivenrisklevelσwecanmaximizetheportfolioreturnr undertheconstraints
+p
+N
+(cid:88)
+ω ≥ 0, i = 1,...,N; ω = 1; σ = σ.
+i i P
+i=1
+Graphing the optimal pair (r ,σ ) we obtain a curve called efficient frontier (see Figure 1.2).
+P P
+Its name comes from the fact that the porfolios on it are the most efficient ones: they maximize
+returns for a given risk level, or equivalently, they minimize risks for a given target return.
+
+3
+Figure 1.2: Efficient frontier. The curve separates the admissible portfolios (i.e. those satisfying the
+contraints) from the non-admissible ones. A portfolio P on the efficient frontier minimizes the risk
+(volatility) for a given level of return, or equivalently maximizes the return for a given level of risk.
+1.2 Capital Asset Pricing Model (CAPM) and betas
+MPT is a great idea that relies on the calculation of the variance-covariance matrix. However,
+when the number of assets grows it becomes very hard to calculate. Indeed, For N assets, since
+the N ×N variance-covariance matrix is symmetric it has N(N +1)/2 degrees of freedom (See
+Table 1.1).
+N N(N +1)/2 Index with N components
+5 15 -
+10 55 -
+15 120 -
+20 210 -
+30 465 Dow Jones, DAX
+40 820 CAC 40
+50 1,275 EUROSTOXX
+100 5,050 FTSE
+225 25,425 NIKKEI
+500 125,250 S&P
+Table 1.1: Even for the smallest indices (i.e. N = 30), the number of correlations that have to be
+calculated exceeds 450. This number quickly reaches 1000, even before N =50.
+In order to overcome this difficulty, we could try to calculate first a market portfolio, which
+includes all available assets, and then compare this market portfolio with each and every one
+
+4
+of the single assets. If we proceed this way then the number of degrees of freedom is 2(N +1):
+N +1 volatilities and N +1 correlations. This is far more manageable than the N(N +1)/2
+degrees of freedom in MPT.
+ThisistheideabehindCAPM,whichwasdevelopedbySharpe,aPhDstudentofMarkowitz,
+in 1964. According to CAPM, the return of an asset i is
+cov(ri,rM)
+ri = rf +β (rM −rf)+ε , β = , (1.2)
+iM i iM var(rM)
+where ri is the return of asset i, rf the return of the risk-free asset (e.g. Treasure bonds) and
+rM the market return. β is the marginal contribution of asset i to market risk, also known
+iM
+as the systematic risk or market risk, whereas ε is the idiosyncratic risk. The idiosincratic risk
+i
+can be eliminated via diversification, whereas the systematic risk is inherent of the market and
+cannot be diversified away.
+Now let us study the relative returns with respect to the risk-free asset. Taking expectations
+in (1.2) it follows that that the expected return of asset i over the risk-less rate r is
+f
+E(ri−rf) = β E(rM −rf). (1.3)
+iM
+As we can see from (1.2), the beta of asset i (i.e. its systematic risk β ) acts as an amplifier
+iM
+of the expected market returns (see Figure 1.3).
+Figure 1.3: Beta. The market portfolio m has β =1. For assets such that β >1 both profits and losses
+are amplified, whereas for assets such that β <1 both profits and losses are reduced.
+
+5
+1.3 Optimal trading curve
+When it comes to intraday trading strategies we have the following dilemma, also known as the
+trader’s dilemma: If we trade slow then prices will move away from their current quote, i.e. we
+are facing a market risk; however, if we trade fast then our order will drive quotes away from
+the current one, i.e. we will have a great market impact (see Figure 1.4).
+Figure 1.4: Trader’s dilemma. Trading faster reduces market risk but increases market impact, whereas
+trading slower reduces market impact but increases market risk.
+Recall that in MPT we optimize the joint effect of two oppossite forces: minimizing the
+risk of the portfolio and maximizing the (expected) return. Following the idea of the efficient
+frontier, it seems natural to build up an optimization program that minimizes simultaneously
+both the market risk and the market impact.
+Suppose we need to sell a certain amount of asset S during the day. We split the trading
+orderinexactlyN smallsub-ordersofsizeν , n = 1,...,N. Thegoalistofindtherighttrading
+n
+proportions
+N
+(cid:88)
+ν ≥ 0, i = 1,...,N; ν = 1,
+i n
+n=1
+that minimize the expected loss due to market risk and market impact.
+As we will see in later chapters, the set of minimizers constitute a curve, the optimal trading
+curve. For a given risk level (variance), the trading strategy P on the optimal trading curve is
+theonethatminimizestheexpectedmarketcosts, i.e. thejointeffectsofmarketriskandmarket
+impact. Conversely, given a level of expected market costs, the optimal strategy P minimizes
+the market risk (variance) (see Figure 1.3).
+
+6
+Figure1.5: OptimalTradingcurve. TradingstrategiesP onthecurveminimizethejointeffectofmarket
+risk (variance) and market impact (expected market costs).
+The optimal trading strategy is thus the vector of proportions (ν ,...,ν ) that must be
+1 N
+exchanged at each trading time. It is customary to describe trading curves not in terms of the
+number of assets exchanged but in terms of the remaining assets in the portfolio:
+N
+(cid:88)
+(x ,...,x ), x = 1, x = 0, x = ν ∀n = 1,...,N.
+0 N+1 0 N+1 n i
+i=n
+1.4 The scope of this m´emoire
+The goal of this m´emoire is to describe thoroughly the construction of the optimal trading curve
+(x ,...,x ) for different market models and portfolio strategies.
+0 N+1
+In Chapter 2 we will study the market microstructure. We will see how the hypotheses of
+MPT and CAPM, i.e. the Efficient Market Theory, are all violated in real markets. We will
+focus in particular on the effect of transaction costs and market impact. We will also review the
+benchmarks used for monitoring trades.
+Roughly speaking, a trading strategy is algorithmic if it is stripped of human decisions (and
+emotions). In Chapter 3 we will describe what is algorithmic trading and we will survey the
+basic strategies in algorithmic trading, which are the building blocks of almost any systematic
+trading strategy can be constructed. We will also show evidence that favors algorithmic trading
+over human trading.
+In Chapter 4 we will construct the optimal trading curve (x ,...,x ) under normality
+0 N+1
+assumptions, i.e. the asset is supposed to follow a Brownian motion. This chapter will be based
+on the article of Almgren and Chriss [1] for single assets and on the work of Lehalle [14] for
+
+7
+multi-asset and balanced portfolios.
+In Chapter 5 we will construct again the optimal trading curve (x ,...,x ), but following
+0 N+1
+Lehalle [14] we will consider that the portfolio has a mean-reverting dynamics. We will solve
+analytically and numerical a simplified case of a mean-reverting portfolio using the shooting
+method, a numerical technique used in differential equations. The novelty of our approach is the
+alternative optimization program we use: we will construct the optimal trading curve using a
+1-dimensional algorithm regardless of the total number of trades N. Being more advantageous
+than the classical approaches based on functional optimization in RN, this approach could be
+of interest for systematic brokers and traders.
+Chapter 6 is the final chapter. We will make some remarks on the portfolio models we
+have presented and mention some possible extensions. We will also review several alternative
+models for time series that could be used to describe markets more accurately. Finally, we
+will comment on the pros and cons of automated (algorithmic-based) trading with respect to
+discretionary (human-based) trading.
+
+Chapter 2
+Market microstructure
+2.1 Hypotheses behind MPT and CAPM: The Efficient Market
+Theory
+Despite the beauty and simplicity of MPT and CAPM, the theory they rely on, i.e. the Efficient
+Market Theory (EMT) is too reductionistic and idealistic when compared with real market con-
+ditions. Therefore, MPT and CAPM must be handled with care since they both can lead to
+wrong conclusions.
+Let us study each one of the hypotheses of the EMT, the framework in which MPT and
+CAPM were developed.
+1. Existence of a single market price.
+According to the theory, market prices reflect the fundamental value of assets. However,
+the very notion of price is very ambiguous. Indeed, in any market we have several prices
+coexisting simultaneously: ask price, bid price, mid-point, last traded price, average price,
+etc. Moreover, this single-price assumption ignores the price formation process, which
+depends on the subtleties of each market and explains why do we have different prices at
+different markets and .
+2. Information is complete and perfect.
+According to EMT, economic information is complete, perfect and everyone has access
+to it. Therefore, if investors are rational they will all have the same expectations on the
+future behavior of assets. In practice this is not true because there exists an asymmetry of
+information. Indeed, not only information has a price (e.g. real-time access via Bloomberg
+or Reuters) but also markets have different degrees of transparency (e.g. dark pools).
+3. All investors are equal.
+If all investors were rational and share the same information then they would all have
+the same expectations on the future value of assets, and in consequence they would all
+have the same behavior. However, since there is a huge heterogeneity of investors it is not
+8
+
+9
+realisticatalltoconsiderthatallinvestorsareequal,astheEMTdoes. Indeed,eachsingle
+investor has a personal strategy (long-only, long-short, hedging, speculation, arbitrage), a
+time horizon (ranging from several years to milliseconds) and an asset preference (equities,
+foreign exchange, interest rates, credit, derivatives, venture capital).
+4. Agents are infinitely rational.
+All agents (i.e. market participants) are suppose to have a utility function that describes
+all their preferences, which they try to maximize. This hypothesis rises two questions. On
+the one hand, investors do have personal biases due to their beliefs (politics, culture and
+religion), which are hard to quantify. On the other hand, there is abundant evidence of
+herd behavior and self-fulfilling anticipations.
+5. No endogenous crashes.
+The EMT affirms that market prices reflect the fundamental value of the assets, and that
+thesepricesonlymoveduetounpredictableeventsornews. Underthisframework,crashes
+can only be exogenous, never provoked by the inner dynamics of the markets. However, in
+the past hundred years we have had several crashes, most of them caused by the markets
+themselves : the Great Depression in 1929, the “Black Monday” on October 19 1987, the
+Internet bubble in 2000, the subprime in 2008 and the flash crash on May 6 2010.
+Since none of these hypothesis is fully verified in real markets, it is important to be aware
+of the limits of the EMT approach. This is particularly true for constructing market models,
+especially if the goal is to exploit trading opportunities. The discipline known as market mi-
+crostructure aims to understand the effect of these factors (among others) in order to better
+understand the markets.
+2.2 Market structure
+Among the microstructure effects, market structure is one of the most important ones, just
+behind transaction costs. Unlike the assumptions of the EMT, where all markets are treated
+in a democratic fashion, the microstructure theory states that the specific organization of each
+market determines the price-formation processes and its intrinsic trading dynamics.
+Understandingthewayeachmarketworksiscrucialforalltraders, especiallyhigh-frequency
+traders who try to reap profits from small anomalies in intraday prices, without being exposed
+to market trends. Here we will survey the different kinds of markets and orders. For further
+references we invite the reader to check Barry Johnson [13] and Fabrice Riva [21].
+2.2.1 Market types
+There are three types of markets: order-driven markets, quote-driven markets and hybrid mar-
+kets.
+
+10
+In an Order-driven market all traders participate equally, placing orders on an order
+book that are matched following a consistent set of priority rules. In general, first and second
+priority in the order book are given to price and time, respectively. However, there are markets
+with a membership priority, which is placed between price and time. A remarkable feature of
+order-driven markets is their degree of automatization, which makes this kind of markets very
+appealing for automated trading, in particular for high-frequency strategies.
+InaQuote-driven markettradersmusttransactwithdealersormarketmakerswhoquote
+prices at which they will buy and sell a given quantity. Since the role of the market maker is to
+provide liquidity, the prices they quote are firm.
+A Hybrid market is in principle an order-driven market, but they allow direct negotiation
+between counterparties if the trading volumes are sufficiently big.
+2.2.2 Tick and fixing
+Independently of their kind, all markets share two specific intraday trading characteristics, the
+tick and the fixing.
+A tick is the smallest price change available. As a rule of thumb, the more liquid the asset
+is, the tighter its bid-ask spread is. However, if the tick size is too big then even for the most
+liquidassetsthespreadwillbelargebecauseitisalwaysamultipleofthetick. Theticksizealso
+affectsthevolatility: ifthetickisbigtheneventheslightestchangeinpricehasastrongimpact.
+A fixing is a market period with discontinuous price quotes. It has two stages: a pre-fixing
+period when buy/sell orders are cumulated but not executed, and a trading period where all
+cumulated orders are traded at a fixed price. In practice, this unique price is such that the
+number of exchanges is maximized, i.e. it is a walrasian equilibrium price. There are several
+reasons for a fixing: during the opening, it allows a more efficient price discovery mechanism,
+whereas for the closing it reduces the volatility and the price manipulation. There also exist
+non-schedule fixings. For example, if the volatility is too high then the stock exchange can call
+a fixing, which lasts 5 minutes. This permits to stop the abnormal price trend and facilitates
+the return to the normal equilibrium.
+2.2.3 Market orders
+A Market order is an instruction to trade a given quantity at the best price possible. Market
+orders demand liquidity because their focus is on completing the order. Therefore, the main risk
+is the uncertainty of the ultimate execution price: if the volume at the current market price is
+not enough then the market order jumps to the next level of the order book; this process goes
+on until the order is fully executed.
+A Limit order is an instruction to trade a given quantity at a specified price or better. A
+buy limit order must execute at or below this limit price, whereas a sell order must execute at
+
+11
+or above its limit price.
+A Market-to-limit order is an hybrid instruction constituted by a market order with an
+implicit price limit. When the order arrives it behaves as a market order, seeking liquidity at
+the best price available, which we call the entry price. As soon as the order starts to execute,
+it becomes a limit-order with limit price equals to the entry price. Unlike a traditional market
+order, a market-to-limit order does not sweep the order book. If there is insufficient liquidity
+available at the best price, the order will convert into a standing limit order for the residual
+amount.
+A Stop order is an extension of the market-to-limit order with a limit price further away
+from the last execution price, i.e. the trading is activated or stopped when a certain threshold
+price is reached. There are three important examples of stop orders. Stop-loss orders are
+designed to protect a potential gain: for buy (resp. sell) orders the execution is stopped if prices
+go above (resp. below) the threshold. Contingent or if-touched orders remain hidden until
+the threshold is reached, in which case they become active; hence, they are the mirror orders of
+stop-loss. Stop limit orders have two thresholds, one that activates the order and the other one
+that deactivates it, and as such they are a hybrid built with one stop-loss and one contingent
+order.
+An Iceberg order is an order with a small part visible in the order book and a significantly
+largerhiddenvolume. Theseordersslicethetotalamounttobeexchangedintoseveraltranches.
+The first tranche constitutes the visible part, and as soon as it is completely executed the next
+tranche becomes visible. Theinterestof iceberg ordersis that they provide anautomated slicing
+programforordersofbigsize. However,thehiddentrancheslosetimepriorityintheorderbook;
+they only have price priority.
+A Peg order is an instruction with a dynamic limit price. The price is automatically
+adjusted according to the evolution the spread: for buy (resp. sell) orders they always hit the
+best bid (resp. ask) price. In consequence, peg orders are always first in price priority and
+second in time priority. There are also peg orders with stop-limits, which follow the best price
+until it reaches the deactivating threshold.
+2.3 Transaction costs
+Transaction costs are by far the most important of the microstructure effects, not only because
+theyaredeterminantfactorsinhigh-frequencytradingbutalsbecauseallmarketsparticularities
+and trading mechanisms can be interpreted as friction factors, and as such they are included in
+the transaction costs. A profitable trading strategy in theory could not be so in practice be-
+causetransactioncostsarebiggerthantheexpectedgains. Therefore,itisimportanttoquantify
+thetransactioncostsbeforelaunchingthetradingstrategy,inparticularforthemostactiveones.
+Transaction costs can be explicit or implicit, but in any case it is important to monitor them
+
+12
+and have an idea of the impact they have on the trading strategy. We will survey the most
+important transaction costs from the most visible ones to the most hidden ones.
+Commissions, which are the most obvious cost component, represent the broker compen-
+sation.
+Fees are charges that may be levied by floor brokers and exchanges. They also include the
+costs of clearing and settlement. In general, fees are already included in the comission charge.
+Taxes are generally charged on the realized profits from capital gains. However, there are
+stock markets (e.g. UK) where there is a duty on share purchases for non-members, and there
+is a current debate on whether this measure should be extended to other markets.
+Spread costs are the only compensation that market makers and traders receive for pro-
+viding liquidity. As we have mentioned before, the spread usually reflects the liquidity of an
+asset and strongly depends on the tick size. For single executions, spreads are straightforward
+to calculate, but for trades that are split up into several small orders we need to track down the
+spread costs for each executed order separately.
+Delay costsreflectanypricechangebetweenthetimewhenthedecisiontoinvestwasmade
+and the actual time when the order started to be executed. Delay costs can be a substantial
+proportion of overall costs, particularly for assets with high volatility and/or whose price is
+trending unfavorably.
+Market impact represents how much effect does the trading order have on the price: larger
+orders will result in a bigger impact than smaller ones. This effect decreases significantly as liq-
+uidity (i.e. the available trading volume) increases. Market impact can be split into temporary
+and permanent. The temporary market impact reflects the overall cost incurred by demanding
+immediacy. The permanent impact carries the information leakage: the trade unveils a different
+long-term price expectation, hence the price is adjusted accordingly in the long term.
+Price trends can affect a trade in a significant way. Indeed, if there is an upward trend
+then the best strategy is to buy early and sell later, whereas for a downward trend we should
+sell early and buy later. Therefore, if we entered into the wrong position we will be paying the
+trend, especially if the benchmark we are using to monitor our trade is the closing price.
+Market risk or timing risk reflects the uncertainty of prices as time passes. It is related to
+volatility because the more volatile is an asset, the more likely it is to drift away from its initial
+price. Therefore, market risk can have a considerable cost for strategies based on volatile assets
+and/or orders that have a long trading horizon.
+Opportunity costs represent missed opportunities due to incomplete trading orders or
+unfavorable market conditions. This costs are generally tracked using a paper portfolio, i.e. a
+theoretical, ideal trading strategy that we are trying to replicate.
+
+13
+In the next chapters we will build several microstructure models focussed on market impact
+and market risk. It is important to notice that we are not losing any generality because fixed
+and liquidity costs (commisions, fees, taxes and spreads) can be incorporated in the market
+impact function, whereas delay and opportunity costs can be related to market risk.
+2.4 Monitoring trading: Benchmarks
+Choosing the right benchmark is of utmost importance because it is the measure stick that
+determines whether a trading strategy is profitable or not. A good benchmark should be easy
+to track, verifiable and provide an accurate measurement. There are three kinds of benchmarks:
+pre-trade, intraday and post-trade.
+2.4.1 Pre-trade benchmarks
+They have the advantage that they are easily determined and immediately available for com-
+parison. The most used ones are previous close (i.e. last quote yesterday), opening price
+(first quote today), decision price (price at the moment when the investor decided to trade)
+and arrival price (price when the broker started to execute the order).
+Since pre-trade benchmarks do not influence or get influenced by the market, they are objec-
+tive measures for transaction costs. However, a substantial price shift during the day can make
+the bechmark less meaningful because the traded orders will be compared to a price they could
+never have achieved.
+2.4.2 Intraday benchmarks
+They are average prices that try to reflect more accurately the intraday market conditions than
+pre-trade benchmarks do.
+OHLC is the average of four numbers: Open, High, Low, and Close. It used to be a proxy
+for mean market price, but given the available amount of data nowadays it has lost its appeal.
+Notice that OHLC being an average of only four points, it is only meaningful if the market is
+not volatile because it can be easily distorted by extreme values.
+TWAP (Time Weighted Average price) is an average of the observed trade prices over a
+time period. TWAP is a dynamic benchmark because for each new trade it incorporates a new
+price to the existing ones and updates the average. Notice that since all values for TWAP have
+the same weight, extreme prices can have a large effect on it.
+VWAP (Volume Weighted Average Price) is the total traded value over the total traded
+quantity, and as such it gives the fairest indication on how do market prices have moved over a
+time period. Unlike TWAP, where all prices have the same weight, VWAP weights each traded
+price by its corresponding traded size. Therefore, small trades at extreme prices are smoothed
+
+14
+out whereas the largest trades will dominate the average. However, VWAP is not very accurate
+for large trades. Indeed, if an order represents an important percentage of the day’s trading (i.e.
+over 30%) then VWAP has no meaning as a performance measure because the trade will have a
+great impact on the average. VWAP can also lead to artificially poorer performances for assets
+that are volatile or markets that have a strong trend.
+2.4.3 Post-trade benchmarks
+We have two important post-trade benchmarks: closing and implementation shortfall.
+Closing prices are a very popular benchmark, widely used as a milestone for marking to
+market and for profit and loss because it is a succint summary of price changes during the day.
+However, closing prices have the same disadvantage than opening prices: they do not reflect the
+trading conditions trhoughout the day. In consequence, although closing prices are a popular
+benchmark, they are not the best reference for performance analysis.
+Implementation Shortfall (IS) is a measure of the total transaction costs. It consists
+on comparing the actual performance of the portfolio with its paper equivalent, i.e. a virtual
+portfolio traded at benchmark prices:
+IS = Returns of paper portfolio−Returns of real portfolio.
+In order to describe IS more precisely, let us first make some definitions. Let X be the intended
+investment, p the price when the investment decision was made, p the final market price,
+D F
+p the price when the order started to be executed (i.e. the arrival price), ν the size of the
+A n
+individual executions and p the achieved prices. Under this framework, the transaction costs
+n
+are
+N (cid:32) N (cid:33)
+(cid:88) (cid:88)
+IS = X(p −p )+ ν (p −p )+ X − ν (p −p )+ explicit costs.
+A D n n A n F A
+(cid:124) (cid:123)(cid:122) (cid:125)
+n=1 n=1
+Delaycosts
+(cid:124) (cid:123)(cid:122) (cid:125) (cid:124) (cid:123)(cid:122) (cid:125)
+tradingcosts opportunitycosts
+Observe that if all the order was executed, i.e.
+N
+(cid:88)
+X = ν ,
+n
+n=1
+then the only transaction costs are the delay and explicit costs,
+N
+(cid:88)
+IS = ν (p −p )+ explicit costs.
+n n D
+n=1
+
+Chapter 3
+Algorithmic trading
+3.1 Some facts on algorithmic trading
+There are two different classifications of trading strategies: on the one hand we have algorithmic
+vs human trading, whereas on the other hand we have high vs low frequency trading. It is
+important to stress that both classifications are not at all exclusive. Indeed, a high frequency
+trader can be algorithmic or human as long as it trades actively; on the contrary, an algorithm
+can decide to trade and hold a position on an illiquid asset for a long time horizon.
+There is no strict distinction between high and low frequency trading. However, as a rule
+of thumb , practitioners set the threshold at 15 minutes: we are in the high frequency regime
+if the time between trades is less than 15 minutes and in the low frequency regime if the time
+between trades is greater than 15 minutes (see Lehalle and Rosenbaum [15]).
+3.1.1 Empirical evidence favoring algorithmic trading over human trading
+AccordingtoHendershottandRiordan[12],high-frequencytrading(HFT)hascurrentlystronger
+presence than any other trading strategy (discretionary trading included). The authors present
+two main reasons to support this statement. First, HFT firms are just 2% of the 20,000 trading
+firms in the US but nevertheless they hold 73% of stock trading in the US and 40% in Europe.
+Second, in the German stock market (Deutsche Boerse), automated HFT dominates Human
+HFT: algorithms count for more than 52% of total liquidity demand and 50% of total liquidity
+offer.
+Hendershott and Riordan also present empirical evidence that algorithmic traders are more
+efficient than human traders. They monitored the German stock market and compared the
+behavior of algorithmic and human traders. On Xetra, the electronic trading platform of the
+German stock market, they observed that algorithms and humans have different trading pat-
+terns:
+• Algorithmictradersaremorepresentintransactionsofsmallersizethanhumansandtheir
+15
+
+16
+participation rate is decreasing in size.
+• Human traders are more present in transactions of bigger size than algorithms and their
+participation rate is increasing in size.
+• Given an algorithmic order of very small size, there is a 48% probability that the trade
+that follows will be very small and algorithm-generated as well.
+Concerning the behavior of algorithmic traders in terms of liquidity and price discovery, the
+authors found the following facts:
+• Algorithmic traders improve the bid-ask spread: they are liquidity consumers when it is
+cheap(i.e. narrowspreads)andproviderswhenitisexpensive(i.e. bigspreads). Moreover,
+they are within the spread more frequently than humans.
+• Algorithmic traders contribute for 51% to price discovery whereas human contribute for
+only 39%.
+• Automated traders do not increase market volatility. All the opposite, they lower the
+volatility by keeping steady the available liquidity level.
+3.2 Algorithmic trading and its multiple faces
+Let us describe the different types of algorithmic trading.
+Systematic trading,alsocalledautomated trading,consistsonadoptingthesameapproach
+for each trade, i.e. following a pre-determined set of rules to trade in a specific way. For ex-
+ample, we can fix entry or exit thresholds in order to start or stop trading. The rules behind a
+systematic trading algorithm can be simple or complex, but the nature is always the same : to
+repeat a given strategy over and over again.
+In Quantitative trading, sometimes referred to as black-box trading, the trading rules are
+enforced by adopting propietary quantitative models. Such models are called black-boxes since
+they are closely guarded and only known by a few. Quantitative trading is sometimes confused
+with algorithmic trading. However, the former instigate trades whereas the latter merely exe-
+cute them. In consequence, the goals of quantitative trading are wider than those of systematic
+trading. Quantitative trading is considered the most scientific kind of trading because traders
+buildtheirownmarketmodelsinordertodefinetradingstrategies. Inconsequence,quantitative
+tradingaimstomakemoneybecauseofabetterunderstandingofmarkets,whereasdiscretionary
+trading prefers a heuristic approach based on experience.
+High frequency trading aims to take advantage of opportunities intraday. This kind of
+trading is a specialized form of quantitative trading focussed on exploiting short term gains.
+Frequently, high frequency traders take relatively market neutral positions, i.e. a net exposure
+to market equal to zero, whose only goal is to profit from price discrepancies (i.e. market mi-
+crostructure). It is important to stress that high frequency traders need instant response to
+
+17
+market changes; in fact, the decision-making time in HFT is measured in milliseconds. This is
+the main reason why they invest on huge computing power and on direct market access (e.g.
+they rent clusters next to the stock exchanges they trade).
+Statistical arbitrage represents a systematic trading approach based on a fusion between
+real-timeandhistoricaldataanalysis. Thegoalistotakeadvantageofthemispricingoffinancial
+instruments while minimizing overall risk. Frequently, statistical arbitrage relies on black-box
+strategiesbasedoninnovativetoolsborrowedfromEconomicsandScience, e.g. timeseries, data
+mining, artificial intelligence, agent-based models and fractals.
+3.3 Basic bricks for algorithmic trading
+There are hundreds of different trading algorithms available. However, we can decompose them
+intoahandfulofbasicalgorithmsregroupedinthreemaincategories: impact-driven,cost-driven
+and opportunistic.
+3.3.1 Impact-driven algorithms
+They aim to minimize market impact by slicing a big trading order into smaller child orders.
+The core impact-driven algorithms here are three: TWAP, VWAP and POV.
+Time Weighted Average Price (TWAP) slices one big order of size X into N equal child
+orders of size X/N, which are uniformly traded during a pre-determined time horizon. This
+means that each time-step a child order of size X/N is executed, independently of both market
+and volume price. Since this trading algorithm is extremely predictable, common variation of
+TWAP include small random perturbations of both the pre-determined trading times and child
+order size to reduce detectability.
+Volume Weighted Average Price (VWAP) corresponds to the overall turnover divided
+by the total volume, hence large trades have more impact on the benchmark price than small
+ones. Unlike TWAP, when the only thing that matters is to trade regularly throughout the day,
+for VWAP we also need to trade in the right proportions, which are defined statistically follow-
+ing historical volume profiles. The performance of VWAP algorithms depends on how historical
+volume profiles are calculated and how well they forecast market volumes. In consequence, they
+are vulnerable to sudden shifts in trading volume or liquidity.
+Percent of Volume (POV) aims to trade a fixed percentage of the current market volume.
+Unlike TWAP or VWAP, where the trading pattern is predetermined, the trading schedule
+for POV is dynamically determined. Since POV does not predict market volumes, common
+variations include historical analysis of volume profiles in order to anticipate upcoming trading
+volumes.
+
+18
+3.3.2 Cost-driven algorithms
+They try to reduce the effect of overall transaction costs such as market impact and market risk.
+Implementation Shortfall (IS) represents the difference between the price at which the
+investor decides to trade and the average execution price that is actually achieved, hence IS
+algorithms strike the right balance between market impact and market risk. Frequently, IS al-
+gorithms trade most of the order at the beginning of the execution because prices are closest to
+their benchmark. There are three optimization steps to do for IS algorithms. First, we deter-
+mine the optimal trading horizon, depending on the order size and historical market volumes.
+Second, we decide the trading schedule, e.g. the number of trades and the time between trades.
+Third, we determine the sizes of each one of the child trades.
+The trading strategies of the following chapters are all IS algorithms. We will assume that
+both the optimal trading horizon and schedule are already determined, so we will only have to
+worry about the optimal slicing of the order.
+Market Close (MC) is an algorithm used when the benchmark is the close price, as it is
+the case of many trading firms. Since the bechmark is unknown until the end of the day, MC
+algorithms will try to trade near the closing time. MC is the mirror of IS: just as IS algorithms
+determinetheoptimalendingtime,MCalgorithmscalculatetheoptimalstartingtime. Common
+variations of MC include a minimum (or maximum) order size allowed to participate in the close
+auction.
+3.3.3 Opportunistic algorithms
+They seek to take advantage whenever market conditions (price, liquidity, volatility or another
+factor) are favorable.
+Price Inline (PI) algorithms are based on an impact-driven trading algorithm (e.g. VWAP
+or POV) to which they add a price adaptive functionality (i.e. a price sensitivity factor). PI
+algorithms adapt their strategy to the market price in a similar way to how POV algorithms
+adjust to market volume: they alter their trading pattern based on how does the market price
+compare to the benchmark. Common variations include aggressive or passive behaviors, de-
+pending on whether the participation rate is increased when prices are favorable or unfavorable,
+respectively. An aggressive strategy assumes that trends are short-lived and will soon revert
+whereas passive strategies rely on the trend persisting. Therefore, the choice between aggressive
+and passive relies on an a priori on the market behavior.
+Liquidity-driven (LD) algorithms are the second-generation of simple rule-based order
+routing. The current world market is fragmented because there are several execution venues
+that compete with the traditional stock exchanges. In consequence, liquidity has become a cru-
+cial asset, and as such it must be tracked closely. LD algorithms aim to capture the liquidity as
+soon as it appears. In order to do so, LD algorithms follow in general two rules: First, they slice
+
+19
+the original order into small child orders that are sent to different execution venues. Second,
+they search hidden liquidity on each of the venues (e.g. iceberg or pegged orders). If the trading
+constraints imposed on a LD algorithm are too tight, there is a risk that the full order will
+not be completely executed. In practice, LD algorithms have some finish-up logic that avoids
+this scenario. It is worth to mention that the original LD algorithms were designed for trading
+illiquid assets, for which the signalling (i.e. informational) risk is a determinant factor.
+Pair trading (PT), by far the basic tool for statistical arbitrage, consists on buying one as-
+set while simultaneously selling another. This strategy is market neutral because the risk on the
+long side offsets the risk on the short side. However, this strategy only works if the two chosen
+assets are sufficiently correlated. PT assumes that the spread (i.e. the difference in prices) has
+a mean-reverting behavior. When the spread crosses a threshold, a trading signal is activated:
+if the spread goes above the upper threshold we sell the spread, whereas if it goes below the
+lower threshold we buy the spread. We exit the position when the spread crosses the benchmark
+(see Figure 3.1). Traders use different statistical tools to determine the benckmark and the
+upper and lower thresholds. The simplest case is to choose the mean (or a moving average) as
+benchmark, whereas the upper and lower thresholds are placed two standard deviations above
+or below the man, respectively.
+Figure 3.1: Pair trading. When the spread leaves the stripe between the upper and lower threshold
+we enter the position, i.e. we trade the spread. We exit the position as soon as the spread coincides
+with its mean, making a profit equal to half the stripe (double-headed arrows). This process is repeated
+throughout the day.
+3.4 Building complex algorithms
+Using the basic algorithms we have just described we can construct more complex algorithms.
+We will mention here three of the most common ones.
+
+20
+Portfolio trading, also known as basket or program trading, provides investors with the
+alternative to trade multiple assets in one go rather than trading them individually. This type
+of trading is provided by brokers, who generally use automated trading in order to execute the
+orders. There are two main advantages for portfolio trading over trading single stocks. First,
+trading a whole basket of assets is more cost-effective than trading the assets individually. Sec-
+ond, a portfolio has a diversification effect that tends to decrease its volatility.
+In the following chapters we study in more detail some of these portfolio trading strategies.
+They belong to the IS category because they aim to minimize the joint effect of market risk and
+market impact.
+Multi-leg (ML) is the next level of complexity of pair trading. It consists on trading several
+assets according to a benchmark price: we go long the undervalued assets and short the over-
+valued ones. They are widely used for term-structure arbitrage, i.e. we trade the same assets
+but with different maturities (e.g. bonds, futures and options). ML algorithms are also used for
+carry trade (borrow at a low interest rate and deposit on a high one) and for trading specific
+optional profiles (e.g. bull/bear spreads, collars, butterflies, condors, straddles and strangles).
+Multi-asset (MA) algorithms started with derivatives trading. Derivatives depend on sev-
+eral factors such as underlying price, volatility, dividends, interest rates and time to maturity.
+Sometimes a trader wants to hedge the derivative, i.e. neutralize its sensitivity with respect
+to one of the factors. For example, Delta-hedging consists on trading a certain amount of the
+underlying, which in the right proportions eliminates the sensibility of the option to changes
+on the underlying. There is also Vega-hedging (with respect to volatility), Rho-hedging (time
+to maturity) and Gamma-hedging (big changes in the underlying), for which it is necessary to
+include other assets to the portfolio.
+Investment banks used MA trading to hedge their positions, not only in vanilla derivatives
+but also in structured products, which are a combination of cash and derivatives. Two examples
+of these structured products are principal protected notes (bond + option) and equity linked
+notes(corporatebond+option+creditdefaultrisk). Hedgefundsandpropietarytradingdesks
+are also interested in MA trading for cross-asset arbitrage. Some of the most used strategies are
+index arbitrage (futures vs stocks), basis trading (futures vs bonds), option arbitrage (options
+vs stocks) and credit arbitrage (CDS or convertible bonds vs stocks).
+
+Chapter 4
+Optimal trading for Gaussian assets
+and portfolios
+As we have stressed in previous chapters, the performance of trading algorithms depends on
+how well they process historical and real-time data and predict future market conditions. It is
+therefore evident that the accuracy of the forecasting model is of paramount importance.
+As we mentioned before, when we trade we try to do so in an optimal way, i.e. minimizing
+simultaneously our market impact and market risk. To achieve this goal under the framework
+of systematic trading strategies, we need to construct an algorithm with market data as inputs
+and trading sizes as outputs. In this chapter we will construct two models for Implementation
+Shortfall algorithms, for which we will assume that the assets follow a Gaussian diffusion.
+4.1 Single assets
+4.1.1 Model
+WewillsupposethatallassetsareGaussian. Moreprecisely,foranyassetS wheren = 1,...,N
+n
+are the trading times, we have
+S = S +σ ε , (4.1)
+n+1 n n+1 n+1
+where σ > 0 for all n and (ε ) are i.i.d.1 Normal random variables of mean zero and
+n n 1≤n≤N
+variance 1. Following Almgren and Chriss [1], we will model the market impact as a function h
+depending on the average trading on each interval. More precisely, let
+N
+(cid:88)
+(ν ,...,ν ), ν = 1
+1 N n
+n=1
+be the number of units we trade at each time n. Then our assumption is that, for any n,
+h = h(ν ).
+n n
+1 Independent and identically distributed.
+21
+
+22
+Under this framework, we can calculate the wealth process (i.e. the full trading revenue
+upon completion of all trades):
+N
+(cid:88)
+W = δ ν (S +δ h(ν )), (4.2)
+n n n n n
+n=1
+whereδ = 1ifwebuyattimenandδ = −1ifwesell. Tosimplifytheanalysiswewillsuppose
+n n
+that the trading strategy is long-only, i.e. δ = 1 for all n. We will also assume that the market
+n
+impact function h is linear and piecewise constant. More precisely, we will suppose that
+σ ν
+n n
+h(ν ) = η , η > 0, (4.3)
+n
+V
+n
+with V the historical volume of the asset at time n. It is worth to remark that in Almgren and
+n
+Chriss [1] the market impact is h(ν ) = ην . However, in (4.3) we are assuming that the market
+n n
+impact is proportional to the volatility of the asset and inversely proportional to the available
+volume, as it is done in Lehalle [14].
+Under these conditions, the wealth process (4.2) in its simplified form is
+N N
+W = (cid:88) ν S +η (cid:88) σ n ν2. (4.4)
+n n V n
+n
+n=1 n=1
+In order to optimize (4.4) it is desirable to eliminate the dependence of W with respect to
+the random process (S ) .
+n 1≤n≤N
+Using
+n
+(cid:88)
+S = S + σ ε
+n 0 i i
+i=1
+we have
+N N N n
+(cid:88) (cid:88) (cid:88)(cid:88)
+ν S = ν S + ν σ ε .
+n n n 0 n i i
+n=1 n=1 n=1i=1
+However, a simple computation shows that
+N n N (cid:32) N (cid:33)
+(cid:88)(cid:88) (cid:88) (cid:88)
+ν σ ε = σ ε ν .
+n i i n n i
+n=1i=1 n=1 i=n
+Therefore, if we define x as the remaining quantity of asset to buy at time n, i.e.
+n
+N
+(cid:88)
+x = ν , ν = x −x ,
+n i n n n+1
+i=n
+we obtain that
+N N
+(cid:88) (cid:88)
+ν S = S + σ ε x .
+n n 0 n n n
+n=1 n=1
+
+23
+In summary, (4.4) can be rewritten as a function of (x ,...,x ), i.e.
+1 n
+N N
+W(x ,...,x ) = S + (cid:88) σ ε x +η (cid:88) σ n (x −x )2. (4.5)
+1 n 0 n n n n n+1
+V
+n
+n=1 n=1
+4.1.2 Optimization program
+We compute the expectation and variance of the wealth process (4.5) as functions of x ,
+n
+N
+E(W) = S +η (cid:88) σ n (x −x )2, (4.6)
+0 n n+1
+V
+n
+n=1
+N
+(cid:88)
+V(W) = x2σ2.
+n n
+n=1
+Our goal is to find the trading strategy (x ,...,x ) that minimizes the expected market costs,
+1 N
+represented by the wealth process W, for a given level of risk aversion λ. Therefore, we have to
+minimize the cost functional
+J (x ,...,x ) = E(W)+λV(W)
+λ 1 N
+N N
+= S +η (cid:88) σ n (x −x )2+λ (cid:88) x2σ2.
+0 V n n+1 n n
+n
+n=1 n=1
+The partial derivative of J with respect to x is
+λ n
+∂J σ σ
+λ = −2η n−1 (x −x )+2η n (x −x )+2λσ2x . (4.7)
+∂x V n−1 n V n n+1 n n
+n n−1 n
+Let us compute the Hessian matrix of J ,
+λ
+ 2ησ /V +2ησ /V +2λσ2 if m = n,
+ n−1 n−1 n n n
+∂2   −2ησ /V if m = n−1,
+J = n−1 n−1
+∂x ∂x λ −2ησ /V if m = n+1,
+n m  n n
+
+ 0 otherwise.
+If η = 0 then the Hessian matrix of J is diagonal and has positive eigenvalues, which implies
+λ
+that the unique critical point of J is a global minimum. By continuity of the eigenvalues, if η
+λ
+is small then all critical points of J are still minima.
+λ
+To find the minimum of J we equate (4.7) to zero. We thus obtain the optimal trading
+λ
+curve as a solution to the recursive algorithm
+(cid:18) D σ2 (cid:19) D σ
+x = 1+ n−1 +λ n x − n−1 x , D = η n , (4.8)
+n+1 n n−1 n
+D D D V
+n n n n
+under the constraints x = 1 and x = 0 (see Figure 1.3).
+0 N+1
+
+24
+Figure 4.1: Optimal Trading curve. The curve describes the trading schedule that minimizes the joint
+effect of market impact and market risk.
+4.2 Multi-asset portfolios
+This section generalizes the previous ideas to the case of multi-asset Gaussian portfolios.
+4.2.1 Model
+We will consider here N trading dates and a portfolio of K assets S = (S1,...,SK). For any n
+we define the asset vector S = (S1,...,SK), whose dynamics is supposed to be Gaussian, i.e.
+n n n
+S = S +E , (4.9)
+n+1 n n+1
+where (E ) are i.i.d. K-dimensional Gaussian vectors with mean zero and covariance
+n 1≤n≤N
+matrix S . Following Almgren and Chriss [1] again, we will model the market impact as a
+n
+function
+h = h(νk),
+n n
+where
+N
+(cid:88)
+(νk,...,νk), νk = 1 for all k = 1,...,K
+1 N n
+n=1
+are the number of units of asset k that are traded at time n. We define as before xk as the
+n
+remaining quantity of asset k to buy at time n, i.e.
+N
+(cid:88)
+xk = νk, νk = xk −xk .
+n n n n n+1
+i=n
+Under this framework, we can calculate the wealth process (i.e. the full trading revenue upon
+completion of all trades):
+K N
+(cid:88)(cid:88)
+W = δkν (Sk +δkh(νk)). (4.10)
+n n n n n
+k=1n=1
+
+25
+As in the single-asset case we will suppose that δk = 1 for all pairs (n,k) and that
+n
+σkνk
+h(νk) = ηk n n, ηk > 0, (4.11)
+n Vk
+n
+with σk and Vk the volatility and the historical volume of the asset k at time n, respectively.
+n n
+Repeating the arguments for the single-asset case it can be shown that the wealth process
+(4.12) in its simplified form is
+(cid:88)
+K
+(cid:88)
+K
+(cid:88)
+N
+(cid:88)
+K
+(cid:88)
+N σk
+W = Sk + Ekxk + ηk n(xk −xk )2. (4.12)
+0 n n Vk n n+1
+k=1 k=1n=1 k=1n=1 n
+4.2.2 Optimization program
+Computing the expectation and the variance in (4.12) yields
+(cid:88)
+K
+(cid:88)
+K
+(cid:88)
+N σk
+E(W) = Sk + ηk n(x −x )2, (4.13)
+0 Vk n n+1
+k=1 k=1n=1 n
+N
+(cid:88)
+V(W) = x(cid:48) S x , x = (x1,...,xK).
+n n n n n n
+n=1
+We are looking for the strategy (x ,...,x ) that minimizes the cost functional
+1 N
+J (x ,...,x ) = E(W)+λV(W)
+λ 1 N
+(cid:88)
+K
+(cid:88)
+N (cid:32)
+(cid:88)
+K σk (cid:33)
+= Sk + λx(cid:48) S x + ηk n(x −x )2 . (4.14)
+0 n n n Vk n n+1
+k=1 n=1 k=1 n
+As in the single-asset case, if ηk = 0 for all k = 1,...,K then the unique critical point of
+J is a minimum. In consequence, if the vector η = (η1,...,ηK) is sufficiently small then the
+λ
+critical points of J are still minima.
+λ
+Notice that J is a functional of the variables xk. Therefore, in order to find its minimum
+λ n
+we have to solve the K ×N scalar equations
+∂J
+λ
+= 0, k = 1,...,K n = 1,...N.
+∂xk
+n
+This is equivalent to solving the N vectorial equations for the corresponding gradients, i.e.
+∂J
+λ
+= 0, n = 1,...N.
+∂x
+n
+After some computations we obtain the recursive algorithm
+x = (cid:0) 1+D−1D +λD−1S (cid:1) x −D−1D x , (4.15)
+n+1 n n−1 n n n n n−1 n−1
+
+26
+where D is the K ×K diagonal matrix with kth element
+n
+ηkσk
+Dk = n .
+n Vk
+n
+Therefore, theoptimaltradingcurvesolvestherecursivealgorithm(4.15)for(x ,...,x )under
+1 N
+the constraints xk = 1 and xk = 0 for all k = 1,...,K.
+0 N+1
+4.3 Balanced portfolios
+We will study now a particular case of multi-asset Gaussian portfolio, the so-called balanced
+portfolio. Let us suppose that that there is a unique trading strategy
+N
+(cid:88)
+(ν˜ ,...,ν˜ ), ν˜ = 1, (4.16)
+1 N n
+n=1
+such that the trading schedule of any asset k is a constant multiple of it. More precisely, we will
+assume that for any k = 1,...,K there exists πk > 0 such that
+νk = πkν˜ for all n = 1,...,N.
+n n
+πk is thus the total number of shares of asset k to be traded. Under this framework we also have
+N N
+(cid:88) (cid:88)
+xk = νk = πkν˜
+n i i
+i=n i=n
+N
+(cid:88)
+= πk ν˜ = πkx˜ . (4.17)
+i n
+i=n
+Define π = (π1,...,πK). From (4.16) and (4.17) it follows that the wealth process (4.12) for
+a balanced portfolio takes the form
+(cid:88)
+N
+(cid:88)
+N (cid:32)
+(cid:88)
+K (cid:33)
+(cid:88)
+N (cid:32)
+(cid:88)
+K σk (cid:33)
+W = Sn+ x˜ Ekπk + (x˜ −x˜ )2 ηk(πk)2 n ,
+0 n n n n+1 Vk
+n=1 n=1 k=1 n=1 k=1 n
+whereas the cost functional (4.14) becomes
+J (x˜ ,...,x˜ ) = (cid:88) K Sk +λ (cid:88) N (x˜ )2(cid:0) π(cid:48)S π (cid:1) + (cid:88) N (x˜ −x˜ )2 (cid:32) (cid:88) K ηk(πk)2 σ n k (cid:33) .
+λ 1 N 0 n n n n+1 Vk
+k=1 n=1 n=1 k=1 n
+As we have already seen before, if η = (η1,...,ηK) is small then the minimum of J exists.
+λ
+After some calculations it can be shown that the optimal trading curve (x˜ ,...,x˜ ) solves the
+1 N
+recursive algorithm
+x˜ = (cid:18) 1+ D n π −1 +λ π(cid:48)S n π (cid:19) x˜ − D n π −1x˜ , Dπ = (cid:88) K (πk)2ηk σ n k , (4.18)
+n+1 Dπ Dπ n Dπ n−1 n Vk
+n n n n
+k=1
+under the constraints x˜ = 1 and x˜ = 0.
+1 N+1
+
+Chapter 5
+Optimal trading for mean-reverting
+portfolios
+In this chapter we will still assume that the assets still follow a Gaussian diffusion. However, we
+will suppose that there exists a non-gaussian asset such that the corresponding portfolio has a
+mean-reverting dynamics.
+5.1 General mean-reverting portfolios
+5.1.1 The model
+We start with a multi-asset Gaussian portfolio S = (S1,...,SK) with dynamics
+S = S +E , n = 1,...,N
+n+1 n n+1
+where(E ) arei.i.d. K-dimensionalGaussianvectorswithcovariancematrixS . Suppose
+n 1≤n≤N n
+that we decide to trade portfolio S in balanced mode and that there exists an asset A (with
+finite standard deviation σA) such that the portfolio
+K
+(cid:88)
+C = πkSk +A
+n n n
+k=1
+has a mean-reverting dynamics. We will assume that C follows an Ornstein-Uhlenbeck process,
+i.e.
+dC = γ(M −C )dt+σdW , (5.1)
+t t t
+where M is the mean. The speed parameter γ determines how fast does the process converge
+to its mean. The discrete version of (5.3) is the so-called auto-regressive process of order one
+(AR(1)),
+C = C +γ(M −C )+σε , (5.2)
+n+1 n n n+1
+where (ε ) are i.i.d normal random variables. For the sake of simplicity we will suppose
+n 1≤n≤N
+that M = 0. Under this considerations, (5.2) becomes
+C = (1−γ)C +σε . (5.3)
+n+1 n n+1
+27
+
+28
+Finally, using induction on (5.3) yields
+n
+(cid:88)
+C = (1−γ)nC + (1−γ)n−iσε . (5.4)
+n 0 i
+i=1
+5.1.2 Wealth process and optimization program
+We normalize portfolio C, i.e.
+(cid:88) K πk 1 (cid:88) K
+C = Sk + A , m = πk +1,
+n m n m n
+k=1 k=1
+and assume that portfolio C is balanced, i.e. for all n we have
+πkν ν
+νk = n k = 1,...,K and νA = n .
+n m n m
+As in the previous chapter, we will suppose that the portfolio is long in all assets and that
+the market impact is
+σkνk
+ηk n n for asset Sk, k = 1,...,K
+Vk
+n
+σAνA
+ηA n n for asset A.
+VA
+n
+We readily compute,
+N N (cid:32) n (cid:33)
+(cid:88) (cid:88) (cid:88)
+ν C = ν (1−γ)nC + (1−γ)n−iσε
+n n n 0 i
+n=1 n=1 i=1
+N N n
+(cid:88) (cid:88)(cid:88)
+= ν (1−γ)nC + ν (1−γ)n−iσε
+n 0 n i
+n=1 n=1i=1
+N N N
+(cid:88) (cid:88)(cid:88)
+= ν (1−γ)nC + ν (1−γ)i−nσε
+n 0 i n
+n=1 n=1i=n
+N N (cid:32) N (cid:33)
+(cid:88) (cid:88) (cid:88)
+= ν (1−γ)nC + σε ν (1−γ)i−n
+n 0 n i
+n=1 n=1 i=n
+and we find that the wealth process W takes the form
+N N (cid:32) N (cid:33) N
+W = (cid:88) ν n (1−γ)nC + (cid:88) σε n (cid:88) ν (1−γ)i−n + (cid:88) b (ν )2, (5.5)
+0 i n n
+m m
+n=1 n=1 i=n n=1
+where
+1 (cid:32) (cid:88) K σk σA (cid:33)
+b = ηk(πk)2 n +ηA n .
+n m2 Vk VA
+n n
+k=1
+
+29
+Unfortunately, the wealth process W(ν ,...,ν ) given in (5.5) does not admit a reduced
+1 N
+representationintermsof(x ,...,x ),whichimpliesthatthereisnoexplicitrecursivealgorithm
+1 N
+for the optimal trading curve. In consequence, in order to construct the optimal trading curve it
+is necessary find a minimum of the cost functional J (ν ,...,ν ) via an optimization program
+λ 1 N
+in RN under the constraints
+N
+(cid:88)
+ν ≥ 0 for all n = 1,...,N and ν = 1.
+n n
+n=1
+5.2 Simplified model
+We would like to have some insight on the shape of the optimal trading curve for mean-reverting
+portfolio. For that purpose, let us consider a simplified mean-reverting model.
+Recall the recursive form for C given in (5.4) and observe that it can also be expressed as
+n
+n−1
+(cid:88)
+C = (1−γ)nC + (1−γ)i−1σε . (5.6)
+n 0 n−i+1
+i=1
+We propose a new portfolio process C satisfying
+n
+n
+(cid:88)
+C˜ = (1−γ)nC + (1−γ)i−1σε . (5.7)
+n 0 i
+i=1
+Notice that our simplified model (5.7) is just the original AR(1) model given in (5.6) after a
+permutation on the normal random variables, i.e.
+C˜ ↔ C
+n n
+ε ↔ ε .
+i n−i+1
+Unlike the full mean-reverting model, the new process (5.7) does admit a wealth process W
+with explicit dependence on (x ,...,x ). Indeed,
+1 N
+N N (cid:32) n−1 (cid:33)
+(cid:88) (cid:88) (cid:88)
+ν C˜ = ν (1−γ)nC + (1−γ)i−1σε
+n n n 0 i
+n=1 n=1 i=1
+N N n
+(cid:88) (cid:88)(cid:88)
+= ν (1−γ)nC + ν (1−γ)i−1σε
+n 0 n i
+n=1 n=1i=1
+N N N
+(cid:88) (cid:88)(cid:88)
+= ν (1−γ)nC + ν (1−γ)n−1σε
+n 0 i n
+n=1 n=1i=n
+N N (cid:32) N (cid:33)
+(cid:88) (cid:88) (cid:88)
+= ν (1−γ)nC + (1−γ)n−1σε ν
+n 0 n i
+n=1 n=1 i=n
+N N
+(cid:88) (cid:88)
+= ν (1−γ)nC + (1−γ)n−1σε x .
+n 0 n n
+n=1 n=1
+
+30
+We thus obtain that the wealth process is
+N N N
+W = (cid:88) (x n −x n+1 ) (1−γ)nC + (cid:88) x n (1−γ)n−1σ ε + (cid:88) b (x −x )2, (5.8)
+0 n n n n n+1
+m m
+n=1 n=1 n=1
+where
+1 (cid:32) (cid:88) K σk σA (cid:33)
+b = ηk(πk)2 n +ηA n .
+n m2 Vk VA
+n n
+k=1
+Computing the expectation and the variance of the wealth function W we obtain the cost
+functional
+J (x ,...,x ) = (cid:88) N C 0 (1−γ)n(x −x )+λ (cid:88) N σ2 (1−γ)2n−2(x )2+ (cid:88) N b (x −x )2.
+λ 1 N m n n+1 m2 n n n n+1
+n=1 n=1 n=1
+(5.9)
+As we have already seen before, if η = (η1,...,ηK,ηA) is small enough then J has a
+λ
+minimum. In order to find this minimum, we compute the partial derivatives of J ,
+λ
+∂J 2λ
+λ = −γ(1−γ)n−1C + (1−γ)2n−2σ2x +2b (x −x )−2b (x −x ),
+∂x 0 m2 n n n n+1 n−1 n−1 n
+n
+and equate them to zero. We thus obtain the following recursive algorithm for the optimal
+trading curve,
+x = γ(1−γ)n−1U + (cid:0) 1+λ(1−γ)2n−2Z +B (cid:1) x −B x , (5.10)
+n+1 n n n n n n−1
+where
+C σ2 b
+0 n−1
+U = − , Z = , B = ,
+n 2b m n b m2 n b
+n n n
+which has to be solved under the constraints x = 1, x = 0.
+0 N+1
+InSection5.3wewillmakeadetourtotherealmofdifferentialequationsinordertodescribe
+a numerical method for solving recursive algorithms, called the shooting method. In Section
+5.4 we will program the shooting method in Matlab and construct the optimal trading curve
+associated to the algorithm (5.10).
+5.3 The shooting method
+5.3.1 Description
+Consider the initial-value problem
+y(cid:48)(cid:48) = g(y,y(cid:48)); t ∈ [a,b], y(a) = A, y(cid:48)(a) = α, (5.11)
+
+31
+where g is a bounded and differentiable function. According to the standard theory of Ordinary
+Differential Equations (ODE), the initial value problem (5.11) has a unique solution y(t).1
+Now consider the boundary problem
+y(cid:48)(cid:48) = g(y,y(cid:48)); t ∈ [a,b], y(a) = A ∈ R, y(b) = B ∈ R. (5.12)
+It is not evident that (5.12) has a solution. However, we can try to translate the boundary prob-
+lem(5.12)intoaninitial-valueproblemoftype(5.11), forwhichweknowthatsolutionsdoexist.
+The shooting method consists exactly in this translation. Given α ∈ R, the initial-value
+problem (5.11) has a solution y(t,α). To solve the boundary problem (5.12), we need to find α
+0
+such that y(b;α ) = B. Roughly speaking, we are playing with the“ shooting angle” α in order
+0
+to “hit” B at t = b (see Figure 5.1).
+Figure 5.1: The shooting method. Varying the “angle of shooting” α we can find the right angle α
+0
+such that the curve y(t,α) that ”hits the target”, i.e. y(b;α )=B.
+0
+In consequence, the boundary problem (5.12) reduces to find a zero of the function
+F(α) = y(b,α)−B,
+which can be solved using any numerical method, e.g. bisection or Newton (see Stoer and Bu-
+lirsch [22] for mode details).
+Theshootingmethodisalsovalidforsystemsofsecond-orderODEs. Indeed,theinitial-value
+problem
+y(cid:48)(cid:48) = g(y,y(cid:48)); t ∈ [a,b], y(a) = A ∈ RK, y(cid:48)(a) = α ∈ RK,
+1Strictlyspeaking,thesolutiony(t)onlyexistslocally,butitisgloballydefinedifgandallitspartialderivatives
+are continuous and bounded. See Perko [20] for more details.
+
+32
+admits a unique solution y(t,α), which permits to define the functional
+F(α) = y(b,α)−B.
+5.3.2 Application to optimal trading curves
+Suppose we have already found the optimal trading curve (x ,...,x ) via a recursive algorithm
+1 N
+of the form, i.e.
+x = F(x ,x ) (5.13)
+n+1 n n−1
+under the constraints x = 1 and x = 0. Using an induction argument it can be shown that
+0 N+1
+x is a function of x and x for n ≥ 2. By induction we obtain that x is a function of x ,
+n 0 1 N+1 1
+i.e.
+x = F(x ),
+N+1 1
+becausex hasbeenalreadyfixedtobeequalto1. Ifwedefinex = αthenαisafreeparameter
+0 1
+that completely determines the optimal trading curve. An important remark is that α can be
+related to the the slope of the trading curve at x because
+0
+x −x
+1 0
+= α−1.
+1−0
+By considering α as the “slope” we can see an analogy of the optimal trading curve with the
+shooting method. Under this new framework, our optimization problem reduces to find a zero
+of x = F(α), i.e. a number α such that F(α ) = 0.
+N+1 0 0
+The beauty of the analogy with the shooting method is that we are working with a 1-
+dimensional function F(x ) instead of the N-dimensional functional J (x ,...,x ). In conse-
+1 λ 1 N
+quence, using the shooting method we are always solving a 1D problem regardless of the number
+of trades N. This fact renders our algorithm very appealing for high frequency trading.
+In summary, the shooting method can be used to find optimal trading curves as long as the
+optimization program admits a recursive algorithm of the form
+x = F(x ,x ),
+n+1 n n−1
+where x ∈ RK is given and x = (0,...,0). This condition is rather general because it is
+0 N+1
+satisfied by a large class of algorithms, e.g. single asset (4.8), balanced portfolio, multi-asset
+portfolio (4.15), (4.18) and simplified mean-reverting (5.10).
+5.4 Numerical example using Matlab
+We solved numerically the trading algorithm (5.10),
+x = γ(1−γ)n−1U +(2+λ(1−γ)2n−2)x −x ,
+n+1 n n−1
+with the constraints x = 1 and x = 0. We programmed the shooting method in Matlab for
+0 N+1
+the values U = 0.1, λ = 0.2 and N = 100. The free parameter α = x lies in [0,1]. Since for any
+1
+
+33
+γ ∈ (0,1) we found that F(0) < 0 and F(1) > 0, we only need to construct a simple bisection
+method (i.e. nested intervals) in order to find the zero of the function F.
+Let us describe the bisection method we used:
+• We start with the interval I = [0,1] with F(0) < 0 and F(1) > 0.
+1
+• If F(1/2) > 0 then we choose the interval I = [0,1/2] because F changes sign inside. If
+2
+F(1/2) < 0 then the sign changes in I = [1/2,1]
+2
+• Given the interval I = [a ,b ] with F(a ) < 0 and F(b ) > 0, define r = (a + b )/2,
+j j j j j j j
+i.e. the mid-point of I . If F(r) > 0 then define I = [a ,r], whereas if F(r) < 0 then
+j j+1 j
+I = [r,b ].
+j+1 j
+• Proceeding this way we can find α such that F(α ) = 0.
+0 0
+• Theoptimaltradingcurveisnowcompletelydeterminedusingx = 1andx = α . Notice
+0 1 0
+that by construction we necessarily have x = 0.
+N+1
+Figure 5.2: Optimal trading curves as a function of the speed parameter γ.
+The graph of the optimal trading curve for three different values of γ is given in Figure 5.2.
+From the shape of the curves we can infer the following facts:
+• For big γ (e.g. γ = 0.80) the mean-reverting process is stronger than the diffusion process.
+Therefore, we are only minimizing the market impact, which implies that the trading
+strategy looks like the a straight line.
+
+34
+• However, for small γ (e.g. γ = 0.15) the mean-reverting process is almost inexistent, i.e.
+we have only a diffusion process. Hence, the optimal strategy is to trade more at the
+beginning of the execution in order to minimize the market risk.
+Inthegraphofthetradingcurvewithγ = 0.15wecanseethattherearetwodistincttrading
+patterns:
+• At the beginning of the execution we minimize the market risk by trading as fast as
+possible. At n = 15 we have already executed 70% of the order.
+• For the rest of the execution (i.e. the remaining 85 trades) we minimize the market impact
+by trading the remaining 30% of the portfolio as slow as possible.
+When we switch from a trading pattern to the other, the amount of shares x remaining in the
+portfolioisanincreasingfunctionofγ: ifγ issmallthenxissmall, andvice-versa. Thistwo-fold
+pattern is also visible for γ = 0.40, but when γ → 1 the market risk disappears and we have
+only the trading pattern that minimizes market impact. Such a behavior was to be expected
+from a dynamics similar to an Ornstein-Uhlenbeck process because for short times the leading
+√
+term is of order t, i.e. the diffusion term σdW , whereas for large times the leading term is of
+t
+order t, i.e. the drift term γ(M −C )dt, which in the long run converges to the mean M.
+t
+
+Chapter 6
+Conclusions
+6.1 Optimal trading curves
+6.1.1 Recursive algorithms and shooting method
+As we have shown, the theoretical framework for optimal trading curves is analogue to the effi-
+cient frontier, which is one of core results of Modern Portfolio Theory (MPT) and Capital Asset
+Pricing Model (CAPM). The idea of the efficient frontier comes from the fact that investors
+want to maximize his return given a risk budget, or equivalently to minimize his risk given a
+target or fixed return.
+In this work we explicitly computed the optimal trading curves for single assets and portfo-
+lios. Moreover, they are algebraic and have a nice graphic interpretation in terms of the trading
+schedule of the portfolio, which grants flexibility to the trader and lets him monitor the execu-
+tion of his trading schedule at all times, so he can adjust the parameters on the run if necessary.
+Thesameapproachholdsforothertradingstrategies, andcouldalsobeappliedforothermarket
+models.
+We have used the shooting method, a well-known numerical technique in differential equa-
+tions, to solve the optimization of the trading curve. With this technique we can find optimal
+trading curve as long as the optimization program admits an explicit recursive algorithm of the
+form
+x = F(x ,x ),
+n+1 n n−1
+where x is given and x = (0,...,0).
+0 N+1
+6.1.2 Dynamic programming and optimal control
+If a recursive algorithm is not possible, we have to try a different approach. Our first suggestion
+is the method of dynamic programming.
+SeveralproblemsinFinanceandEconomicsinvolvethemaximizationofautilityfunction(or
+the minimization of a cost/hedging function) under some constraints. When the functions are
+35
+
+36
+deterministic the optimization program is easily achieved using Lagrange multipliers as before;
+however, if the utility function depends explicitly on stochastic processes we need to maximize
+it over a certain range of possible choices (called controls).
+In the Black-Scholes framework, there is a unique hedging strategy, which leads to a lin-
+ear partial differential equation (PDE). In practice, however, there are cases where the hedging
+strategyisnotuniqueandotherwhereitdoesnotevenexist. Inthosenon-Black-Scholesscenar-
+ios we end up dealing with more complicated PDEs, either nonlinear equations or inequalities,
+which solutions (called viscosity solutions) can only be found numerically (see Evans [8]).
+TheapplicationofthedynamicprogrammingprincipleinBouchardet al [4]involvesstochas-
+tic targeting, where the admissible controls satisfy some given constraints (e.g. a fixed number
+of trades, a maximum/minimum level of volume per trade and/or fixed trading dates). This
+leadstocomplicatedbutfascinatingmathematics,whichiscurrentlyafertilegroundofresearch.
+6.1.3 Nonlinear transaction costs
+In the seminal work of Almgren and Chriss [1], the liquidity cost per share traded is a linear
+function of trading rate or of block size, and that the only source of uncertainty in execution
+is the volatility of the underlying asset. Researchers are currently looking for more complex
+transaction cost functions. Almgren [2] proposed nonlinear transaction cost functions, where
+market impact cost per share are a power law function of the trading rate. Almgren et al [3]
+analyzed real data and found that market impact is a power law of exponent 3/5 of block size,
+with specific dependence on trade duration, daily volume and volatility.
+For the reader interested in these nonlinear models for transaction costs we suggest to start
+with Bouchaud and Potters [7], Almgren et al [3] and the references therein.
+6.2 Normal returns vs real returns: stylized facts
+According to the Efficient Market Theory (EMT), the future states of world markets and their
+respective probabilities are known. In other words, the distribution of prices at any time is
+known by all and every agent. However, instead of estimating the distribution directly from
+the empirical data, the mainstream economic theory supposes a priori that the distribution is
+(log)normal. This is scientifically wrong because it is the facts that determine the models, not
+vice versa.
+After studying carefully the real distributions of financial returns, the empirical evidence
+showsthat, despitetheheterogeneityoftheassets(commodities, fixedincome, foreignexchange,
+equities, credit), they all share the same properties. These pattern are very recurrent, almost
+ubiquitous, and they appear regardless of the time-scale of the returns (intra-day, week, month,
+year). For all these reasons, the distinctive characteristics of real returns have been elevated to
+the status of facts: they are called stylized facts (Embrechts et al [19]).
+
+37
+The real distribution of any financial assets has the following stylized facts, as it is shown in
+Embrechts et al [19] and Veredas [23] :
+• It is approximately symmetric.
+• It has fat tails, i.e. extreme returns are more likely to happen that the normal theory
+would forecast.
+• It has a high peak (i.e. leptokurtic).
+• There is weak autocorrelation between the returns for different days, i.e. conditional
+expected returns are close to zero.
+• There is a high autocorrelation in the fluctuations of returns, i.e. in the absolute value of
+square returns.
+• Volatility varies over time and presents clustering patterns, i.e. there are periods of high
+volatility and others of low volatility.
+6.3 Some alternative models in Economics and Finance
+It is important to remark that a normal distribution does not satisfy any of these properties.
+Therefore, it is necessary to use more accurate distributions to approach real financial mar-
+kets. There are several models that are becoming serious alternatives to the (flawed) normal
+distribution.
+6.3.1 GARCH
+We want to to take into account the stylized facts, but perhaps we do not want to abandon
+completely the idea of normal returns. In that case we could suppose a normal distribution, not
+on the unconditional returns but on the conditional ones, and that the volatility at a given time
+depends on past volatilities and returns. A natural step forward is the GARCH (Generalized
+Autoregressive Conditional Heteroskedasticity) model, published by Robert F. Engle in 1982.1
+Suppose that today is time t and that the information available is up to yesterday, i.e. F .
+t−1
+Wewillassumethattheconditionalreturnstodayr |F arenormal,andthattoday’svolatility
+t t−1
+t depends on the volatility and return levels of yesterday, i.e.
+r |F ∼ N(µ,h ),
+t t−1 t
+h |F = h(r ,h ).
+t t−1 t−1 t−1
+More precisely, the conditional returns and volatility have the form
+1/2
+r = µ+h z , z ∼ N(0,1) i.i.d. (6.1)
+t t−1 t t
+h = ω+α(r −µ)2+βh .
+t t−1 t−1
+1 Robert F. Engle won the Nobel prize in Economics in 2003 for his GARCH model.
+
+38
+Model (6.1) satisfies all the stylized facts : returns are not autocorrelated yet they are not in-
+dependent, there is volatility clustering and the unconditional GARCH distribution has more
+kurtosis than the normal distribution.
+There are several generalizations of the GARCH model :
+• Asymmetric versions of GARCH : they have non-zero skewness.
+• GARCH(p,q) : The conditional volatility depends on several past levels of volatility and
+returns :
+1/2
+r = µ+h z , z ∼ N(0,1) i.i.d. (6.2)
+t t−1 t t
+q p
+(cid:88) (cid:88)
+h = ω+ α (r −µ)2+ β h .
+t i t−i j t−j
+i=1 j=1
+6.3.2 L´evy distributions
+The tails of a Gaussian distribution decay exponentially fast :
+N(x) ∼ exp
+(cid:0) −x2(cid:1)
+.
+x→±∞
+Therefore, any distribution whose tails decay slower is a good candidate for a fat tail modeling.
+In that sense, L´evy (also called Pareto) distributions are a natural choice because they decay
+following a power-law (see e.g. Bouchaud and Potters [7]) :
+µAµ
+L (x) ∼ ± , 0 < µ < 2, Aµ > 0.
+µ x→±∞ |x|1+µ ±
+Some L´evy distributions carry an asymmetry parameter β that measures the relative weight of
+the positive and negative tails. Since in the limit µ = 2 we recover the Gaussian distribution,
+L´evy distributions are generalizations of normal distributions. However, their tails are a bit too
+fat: forµ < 2thevarianceisinfiniteandforµ ≤ 1eventhemeanisinfinite. Inordertoovercome
+this problem we can use a truncated L´evy distribution, which is L´evy in an intermediate regime
+|x| << +∞ and exponential at the tails (hence still fatter than the Gaussian) :
+P(x) ∼ exp(−α|x|), α > 0
+x→±∞
+Thisallowstohavefinitemomentsofallorder,andinparticularthemostusefulonesinFinance :
+first (the mean), second (variance), third (skewness) and fourth (kurtosis).
+6.3.3 Student distributions
+BesidestruncatedL´evydistributions, Studentdistributionsarealsocompatiblewiththestylized
+facts,
+(cid:20) x2(cid:21)−(1+ν)/2
+S (x) = c(ν) 1+ , 1 ≤ ν < +∞,
+ν
+ν
+
+39
+where c(ν) is a normalizing constant. A remarkable property of the Student distribution is
+that the parameter ν determines the tail behavior : the tails got heavier as ν decreases. Since
+in the limit ν → +∞ the distribution S (x) tends towards the normal, Student distributions
+µ
+are generalizations of Gaussian distributions. Moreover, unlike the pure L´evy distributions, the
+parameter ν can be chosen such that the real distribution and the Student one have exactly
+the same finite (resp. inifinte) moments (see Bouchard and Potters [7]). Using the Student
+distribution we can construct a non-Gaussian GARCH model, where the residuals are no longer
+Gaussian but Student :
+1/2
+r = µ+h z , z ∼ Student(0,1,ν) i.i.d. (6.3)
+t t−1 t t
+h = ω+α(r −µ)2+βh .
+t t−1 t−1
+6.3.4 Fractional Brownian motion
+One of the properties of the Brownian motion B (i.e. normal increments) is that they are
+proportional to the square root of the time step, i.e.
+B(t)−B(s) ∝ |t−s|1/2.
+The fractional Brownian motion BH of Hurst exponent H ∈ (0,1) is a generalization of this
+fact :
+BH(t)−BH(s) ∝ |t−s|H.
+The process BH possess the following properties (Bouchaud and Potters [7] and Mandelbrot
+[18]) :
+• If H = 1/2 the returns are not correlated and BH is the Brownian motion (also called
+white noise).
+• If H > 1/2 the returns are positively correlated ( and the process is called red noise).
+• If H < 1/2 the returns are negatively correlated (blue noise).
+Mandelbrot [18] reckons that there are a lot of financial assets whose returns are positively
+correlated (e.g. Apple). This fact is a flagrant violation of the EMT, which cannot explain the
+phenomenon. Other phenomena outside the scope of the EMT (yet always present in financial
+markets) are bubbles, crashes, herd behavior and long-run trends.
+6.3.5 Multifractal Models
+According to Mandelbrot [18], trading time is relative: there are periods of high market activity
+when news do not stop arriving and prices change very rapidly, but there are also periods of
+very few market activity when prices are rather quiet and news are scarce (see Mandelbrot [18]).
+A multifractal model can be constructed as a mix of two fractals : a fractal mother determining
+the dynamics of market prices and a fractal father representing the trading time relativity.
+Mandelbrot’s choice for the fractal mother and father is the fractional Brownian Motion, whose
+Hurst exponents can be calibrated using market data. The main feature of multifractals is
+
+40
+that, unlike fractional Brownian motion and classical fractals, they are not scale-invariant by
+construction. In consequence, short-term and long-term behaviors are different. This is crucial
+for understanding the dynamics of real markets and microstructure effects in trading patterns.
+6.3.6 Adaptive markets and agent-based models
+A very clever way to think about Economics in general and financial markets in particular
+is borrowed from the Theory of Eolution. Andrew Lo and Doyne Farmer [9], [17] consider
+that we should be looking at financial markets from a biological perspective, i.e. within an
+evolutionary point of view. In their opinion, markets, instruments and participants interact and
+evolve dynamically according to the “law” of Economic Selection (i.e. the equivalent to Natural
+Selection). Financial agents compete, learn and adapt, but not necessarily in an optimal fashion
+(there is asymmetry of information and emotions that bias the decision-making process of each
+individual). When market condition change, new trading strategies emerge and replace the old
+onesthatareobsoleteforthecurrentcontext. Eventually, thenewstrategieswillinturnbecome
+obsolete and be replaced; and the evolutionary cycle will continue ad infinitum.
+6.4 Taking a stand: quantitative vs discretionary trading
+There is an interesting debate between quantitative and discretionary traders. There are several
+seminars and discussion groups on the topic in universities, financial firms and the Internet.
+The idea of technology eventually replacing humans is very recurrent in every field. In trading,
+however, it is not far from reality because trading floors and brokers are becoming electronic
+and automated.
+Iwouldliketodrawthereader’sattentiontotheonlineannouncementforaseminaronquan-
+titative trading that will be held next autumn in Paris, France (Quant Invest 2010, November
+29 - December 10) :
+“Manager vs Machine :
+The investment universe is densely populated with skilled managers all hunting for
+elusive alpha. Amongst these managers a new breed is emerging: Generation Q -
+the investment managers that are backed by an arsenal of quantitative techniques
+and strategies that consistently give them the edge over others in the market.
+Quantitative managers take a scientific approach to financial markets, stripping hu-
+man emotions such as fear and greed out of the equation. Instinct and intuition play
+little part in strategies that employ immense computing power.
+Thedisciplinedprocessthatunderpinsquantitativeinvestmentstrategiesmeansthat
+whilethemodelsthemselvesarecomplextheinvestmentphilosophyofaquantitative
+manager is highly transparent.”
+As long as the market in question is electronic and liquid, quantitative approaches are better
+positioned to capture short-living profit opportunities. Indeed, some of the most sophisticated
+
+41
+algorithms can monitor several hundreds of variables simultaneously, hence they beat any hu-
+man trader in terms of reactivity and accuracy. However, there is a strong point supporting
+human trading. When markets are illiquid and/or OTC (as it is the case for credit derivatives
+such as CDS), human traders are necessary because prices and volumes are negotiated directly
+with dealers and market makers. Moreover, a trader has to anticipate the impact of news on
+the course of equities and credit spreads, which is not easy to quantify. Nevertheless, in order to
+build up a profitable trading book, any trader has to rely on some quantitative signals, models
+and forecasts of volatility, correlation, volume, market impact, transaction costs, spreads, etc.
+Indeed, there are a lot of players in the marked nowadays, which means that simple rules of
+thumb and easy profitable opportunities do not longer exist. In addition, the current trend in
+Finance favors the homogenization of OTC markets via clearing houses and standard products.
+This could eventually lead to more liquid credit markets, thus opening the gate for algorithmic
+trading.
+In my opinion, all market participants will eventually become quantitative to a higher or
+lesser extent. The only ones that can be spared from the trend are long-term investors, but they
+willputtheirmoneyinthehandsofmanagersrelyingonquantitativesignalsand/oralgorithms.
+6.5 A final thought: how would be the trader of the future?
+My personal opinion is that algorithms will substitute humans in the execution processes. Bro-
+kers are becoming more electronic and automated, and the trend will continue to widespread in
+the whole financial industry. My bet is that the ”trader of the future” will be less operational
+and more intellectual: he will be less involved in eye-blinking reactivity of buy-sell gunfire type
+and much more involved in thinking, e.g. calibrating his algorithms on the run and creating
+new automated strategies. Therefore, human traders are not disappearing, they will just evolve
+and become more tech-friendly.
+Let me try to explain better what I mean with“on the run”. I am thinking on a semi-
+automated kind of trading, as in the following examples :
+• An algorithm that can be easily adapted, e.g. changing the knock-in or knock-out thresh-
+olds at any time.
+• An algorithm that you can switch off in order to trade by yourself for a while because
+there is new information coming and the AI will not be able to incorporate. After the
+opportunity is gone you turn the switch the algorithm on again.
+It is like an airplane: when there is turbulence the human pilot takes full control, but in general
+he only monitors the automatic pilot. In the short run we will only have the sophisticated
+version of old trading style, but eventually the “rules of thumb” will be less and less useful
+due to automated trading, which is faster and more accurate when dealing with empirical rules.
+Therefore, I believe, in the long run humans will not be involved in trade-by-trade decision
+making, except in rare and profitable occasions when there is a need of inspiration, and much
+more involved in programming and calibrating algorithms.
+
+Bibliography
+[1] Robert Almgren, Neil Chriss, Optimal execution of portfolio transactions. Journal of Risk,
+Vol. 3, No. 2, 2010, pp. 5-39.
+[2] Robert Almgren, Optimal execution with nonlinear impact functions and trading-enhanced
+risk. Applied Mathematical Finance 10, pp. 1-18.
+[3] RobertAlmgren, Chee Thum, Emmanuel Hauptman, HongLi, Equity market impact.Risk,
+July 2005, pp. 57-62.
+[4] Bruno Bouchard, Ngoc-Minh Dang and Charles-Albert Lehalle, Optimal control of trading
+algorithms: a general impulse control approach. Preprint.
+[5] Jean-Philippe Bouchaud, Economics needs a scientific revolution. Nature, Vol. 45, p. 30,
+October 2008.
+[6] Jean-Philippe Bouchaud, The (unfortunate) complexity of the economy. Physics World,
+April 2009.
+[7] Jean-PhilippeBouchaud,MarcPotters,Theory of financial risk and derivative pricing,2nd.
+edition, Cambridge, 2003.
+[8] Laurence C. Evans, An introduction to mathematical optimal control theory. Course notes,
+University of California, Berkeley, 2010.
+[9] J. Doyne Farmer, Andrew W. Lo, Frontiers of finance: Evolution and efficient markets.
+Proc. Natl. Acad. Sci. USA, Vol. 96, pp. 9991-9992, August 1999.
+[10] Carole Gresse, Evaluation d’actifs. Course notes, University Paris-Dauphine, 2010.
+[11] Larry Harris, Trading and exchanges : market microstructure for practitionners. Oxford
+University Press, 2002.
+[12] TerrenceHendershott,RyanRiordan,AlgorithmicTradingandInformation.Workingpaper
+SSRN, September 2009.
+[13] Barry Johnson, Algorithmic trading and DMA. 4Myeloma Press, USA, 2010.
+[14] Charles-Albert Lehalle, Rigorous strategic trading : balanced portfolio and mean reversion.
+Journal of Trading, Summer 2009, pp. 40-46.
+42
+
+BIBLIOGRAPHY 43
+[15] Charles-Albert Lehalle, Mathieu Rosenbaum, Trading haute fr´equence. Course notes, EN-
+SAE, 2010.
+[16] Franc¸ois-Serge Lhabitant, Handbook of hedge funds. John Wiley and Sons, 2006.
+[17] Andrew W. Lo, The Adaptive Market Hypothesis. The Journal of Portfolio Management,
+30th anniversary issue, pp. 15-29, 2004.
+[18] Benoˆıt Mandelbrot, The (mis)behaviour of markets. Profile Books, 2008.
+[19] Alexander J. McNeil, Ru¨diger Frey, Paul Embrechts, Quantitative Risk Management: Con-
+cepts, Techniques, and Tools. Princeton University Press, 2005.
+[20] Laurence Perko, Differential equations and dynamical systems. Springer, USA, 2001.
+[21] Fabrice Riva, Microstructure des march´es financiers. Course notes, University Paris-
+Dauphine, 2010.
+[22] Josef Stoer, Roland Bulirsch, Introduction to numerical analysis. Springer, USA, 1983.
+[23] David Veredas, Financial time series. Course notes, University Paris-Dauphine, 2010.

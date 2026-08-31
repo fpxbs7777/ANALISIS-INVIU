@@ -1,0 +1,5546 @@
+Cap 10 3/31/04 11:26 AM Page 343
+10
+Bonos
+10.1 CONCEPTOS BÁSICOS DE INSTRUMENTOS DE 10.5 VALUACIÓN DE UN BONO A TASA VARIABLE
+DEUDA 10.5.1 Primer método: utilizar la tasa de inte-
+10.1.1 Definiciones y clasificaciones generales rés actual para todos los cupones de
+10.1.2 Indicadores básicos renta
+10.1.2.1 Valor residual 10.5.2 Segundo método: proyectar una úni-
+10.1.2.2 Monto en circulación (millones ca tasa de swap para todo el flujo del
+de $ a valor nominal) bono aproximado por el promedio
+10.1.2.3 Renta anual (coupon yield, %) de vida del bono
+10.1.2.4 Tasa interna de retorno TIR (yield 10.5.3 Tercer método: calcular tasas de inte-
+to maturity —YTM— o discoun- rés implícitas o forwards
+ted cash-flow yield —DCFY—) 10.6 RENDIMIENTO DE UN BONO
+10.1.2.5 Intereses corridos ($) 10.6.1 Rendimiento corriente (Current Yield)
+10.1.2.6 Precio clean (limpio) o dirty (sucio) 10.6.2 Tasa interna de rendimiento (yield to
+10.1.2.7 Valor técnico ($) maturity) (TIR)
+10.1.2.8 Paridad (%) 10.6.3 Yield to call (TIR hasta el momento
+10.2 TIPOS DE INSTRUMENTOS DE RENTA FIJA del call)
+10.2.1 Bonos cupón cero (zero coupon 10.6.4 Stripped yield
+bonds) 10.6.5 TIR de un portafolio
+10.2.2 Bonos amortizables 10.6.6 Rendimiento total de un bono (total
+10.2.3 Bonos con período de gracia return)
+10.2.4 Bonos a tasa fija o a tasa variable 10.7 SPREADS DE BONOS
+10.2.5 Bonos que incluyen contingencias 10.7.1.1 ¿Cómo se mide el riesgo
+10.3 VALUACIÓN DE UN BONO en los países emergentes? El EM-
+10.3.1 Flujo de fondos esperados BI,el EMBI+ y el EMBI Global
+10.4 LA CURVA DE RENDIMIENTOS Y LA ESTRUCTURA 10.7.1.2 Criterios de liquidez
+TEMPORAL DE LA TASA DE INTERÉS (ETTI) 10.7.1.3 Reglas adicionales
+10.4.1 Análisis de la curva de los bonos del 10.8 RIESGOS IMPLÍCITOS DE LA INVERSIÓN EN
+tesoro americano de contado BONOS
+10.4.2 Tasas de interés implícitas o forwards 10.8.1 Riesgo de variación en las tasas de in-
+10.4.3 ¿Cómo se explican las diferentes for- terés
+mas que puede tomar la ETTI? 10.8.1.1 Variaciones no homogéneas en
+10.4.4 La estructura temporal para bonos la estructura temporal de las ta-
+con riesgo de crédito (soberanos o sas de interés
+>
+corporativos) 10.8.2 Riesgo de reinversión
+
+Cap 10 3/31/04 11:26 AM Page 344
+10.8.3 Riesgo de ejercicio de un callable 10.13 DURATION Y CONVEXITY DE UN PORTAFOLIO
+bond y riesgo de prepago (prepay- DE BONOS
+ment risk) 10.14 DOLLAR VALUE OF A BASIS POINT (DV01) (VA-
+10.8.4 Riesgo de crédito LOR EN DÓLARES DE UN PUNTO BÁSICO)
+10.8.4.1 Riesgo de cesación de pago (de- 10.15 CÁLCULO DE LA ESTRUCTURA TEMPORAL DE TA-
+fault) o de insolvencia SAS DE INTERÉS O CURVA DE RENDIMIENTOS
+10.8.4.2 Spread por riesgo de crédito PARA BONOS DE PAÍSES EMERGENTES CON DIS-
+(credit spread risk) TINTAS ESTRUCTURA
+10.8.4.3 Riesgo de disminución de califi- 10.15.1 Relación entre la forma de la curva
+cación (downgrade risk) de rendimientos y el ciclo econó-
+10.8.5 Riesgo de iliquidez mico
+10.8.6 Riesgo de tipo de cambio 10.16 COVENANTS O INDENTURES (CLÁUSULAS DE
+10.8.7 Riesgo de inflación o de disminución PROTECCIÓN)
+en el poder de compra 10.16.1 Concepto
+10.8.8 Riesgos eventuales 10.16.2 Funciones de los covenants
+10.8.9 Herramientas para evaluar las vulne- 10.16.3 Diferencias de covenants en deuda
+rabilidades macroeconómicas y la bancaria y deuda en mercados
+probabilidad de un país de entrar en 10.16.4 Tipos de covenants
+default 10.16.5 Tendencia de los covenants en
+10.9 CALIFICADORAS DE RIESGO América Latina durante 2001
+10.10 MEDIDAS DE RIESGO DE UN BONO 10.16.6 Cálculo de ratios proforma
+10.10.1 Necesidad de una medida única 10.16.7 Covenants en empresas de capital
+que permita comparar el riesgo de privado (private equity)
+distintos bonos 10.17 CONSECUENCIAS DE NO INCLUIR DETERMINA-
+10.10.2 Relación entre la duration y la varia- DOS COVENANTS, BUENOS AIRES EMBOTELLA-
+ción porcentual de un bono DORA (BAESA) A FINES DE 1999
+10.11 CONVEXITY 10.17.1 Background
+10.11.1 Variación del precio de un bono 10.17.2 Fases de la reestructuración
+debido a la convexity 10.17.3 Conclusión
+10.12 APROXIMACIÓN DEL CAMBIO PORCENTUAL DEL
+PRECIO DE UN BONO USANDO LA DURATION Y
+LA CONVEXITY
+
+Cap 10 3/31/04 11:27 AM Page 345
+VALUACIÓN DE ACCIONES 345
+10.1 CONCEPTOS BÁSICOS DE Lehman Brothers, con el significado de cada
+INSTRUMENTOS DE DEUDA concepto, que luego será ampliado en el pre-
+sente capítulo.
+10.1.1 Definiciones y
+A la información sobre los activos de ren-
+clasificaciones generales
+ta fija puede accederse a través de fuentes
+L
+os activos de renta fija son activos que públicas o privadas. Entre las distintas fuen-
+se caracterizan por tener un flujo futu- tes de información cabe citar a Bloomberg,
+ro de amortización (capital) y renta (in- Reuters, Bolsa de Comercio, entre otras.
+terés) conocido al momento de adquirir el Cualquiera sea la fuente de información,
+activo, dado que en las condiciones de emi- existen conceptos básicos que se repiten en
+sión se encuentra el mismo. Dadas las carac- ellas y no pueden desconocerse para inter-
+terísticas de estos instrumentos, se los llama pretar correctamente tendencias individua-
+de renta fija, por el pago de un interés aso- les o de mercado.
+ciado al instrumento de préstamo, o sea de
+una renta fija. De más está aclarar que este
+10.1.2 Indicadores básicos
+interés puede ser fijo o variable.
+Los usados para el análisis de instrumen-
+Es posible distinguir diferentes clases de tos de renta fija son los siguientes:
+activos de renta fija dependiendo de cómo se
+pagan los intereses y el capital de acuerdo 10.1.2.1 Valor residual
+con sus condiciones de emisión, que serán
+El VR es la porción del título que aún no
+descriptos a lo largo de este capítulo:
+amortizó; sus valores van a estar entre los si-
+• Bonos con tasas de interés fija o variable guientes límites:
+• Bonos con amortizaciones de capital du- 0% < VR < 100%
+rante la vida del bono o al vencimiento
+El valor residual se reduce en cada perío-
+• Bonos con período de gracia o sin él do de amortización en la porción que lo es-
+tablezcan las condiciones de emisión. Es un
+• Bonos con capitalización de intereses
+dato relevante para el cálculo del valor téc-
+• Bonos con cupones escalonados nico del bono. Para calcular el monto efecti-
+vo de la inversión es necesario multiplicar
+• Bonos cupón cero
+la cotización (cada 100 de VR) por el valor
+• Bonos con contingencias residual actual.
+Las condiciones de emisión incluyen, ade-
+Ejem plo
+más:
+10-1-1
+• Fecha de emisión y de vencimiento del Dada la cotización del Bono A a $99,30,
+bono con un valor residual de 25%, entonces el
+monto efectivo a pagar por una lámina de
+• Amortizaciones de capital y pago de inte-
+100 del Bono A será $24,825 (99,30 X 0,25).
+reses (calendario)
+• Tasa de interés aplicable 10.1.2.2 Monto en circulación
+(millones de $ a valor nominal)
+• Monto emitido
+Es la diferencia entre el monto original-
+Muchos de estos elementos se pueden ob-
+mente emitido y el monto no colocado, las
+servar en la planillas que habitualmente pu-
+amortizaciones, los rescates anticipados y
+blican los distintos bancos de inversión.
+las tenencias del sector público, adicionán-
+En la página siguiente se muestra una dole las ampliaciones de capital; todo a valor
+planilla, en este caso publicada por el Banco nominal.
+
+SONAREBOS
+Y
+SEIDARB
+SONOB
+SOICERP
+NEMUSER
+20/70/80
+la
+erreiC
+ed
+soicerP
+DEPPIRTS
+DEDNELB
+)MMP(
+10VD
+noitaruD
+)MMP(
+10VD
+noitaruD
+daerpS
+.morP
+daerpS
+etneirroC
+oicerP
+oñamaT
+/síaP
+ysT
+drpS
+ysT
+drpS
+voS
+daerpS
+RIT
+ysT
+drpS
+ysT
+drpS
+hcneB
+hcneB
+adiV
+ledoM
+RIT
+.midneR
+nópuC
+.arpC
+.otV
+)MM(
+nópuC
+onoB anitnegrA
+2.5-
+8.1
+75.0-
+91.0
+91.0
+84523
+97.823
+02.5
+08.1
+75.0-
+91.0
+1
+78623
+05.1
+14623
+97.823
+15.751
+52.3
+00.91
+50/13/3
+764,8
+52.18+L
+BRF
+08.245
+02.01
+26.21
+42.0
+46.1
+3086
+35.17
+02.472-
+01.133
+83.6-
+07.7
+03
+5001
+7.02
+489
+45.51
+12.7
+839.2
+00.34
+32/13/3
+631,4
+52.18+L
+tnuocsiD
+05.256
+05.9
+71.51
+22.0
+02.1
+8047
+62.77
+09.203
+09.203
+40.7
+40.7
+03
+179
+7.02
+159
+12.51
+59.31
+00.6
+00.34
+32/13/3
+984,21
+0.6..00.4
+raP
+01.93
+06.83
+11.2
+90.2
+90.2
+1256
+49.86
+08.83
+08.83
+01.2
+01.2
+5
+1946
+02.5
+9746
+49.86
+48.73
+00.7
+05.81
+80/91/21
+654,11
+00.7
+8 peRgrA
+08.01
+07.01
+76.0
+76.0
+76.0
+41001
+31.301
+08.01
+08.01
+86.0
+86.0
+01
+1389
+6.41
+3679
+31.301
+90.17
+573.11
+00.61
+71/03/1
+575,4
+573.11
+71 peRgrA lizarB
+06.89-
+04.871
+89.1-
+95.3
+95.3
+3381
+64.22
+04.69-
+00.181
+49.1-
+46.3
+5
+2481
+8.5
+8181
+64.22
+58.6
+521.3
+00.94
+21/51/4
+484,8
+5.78+L
+BCD
+09.263
+00.99
+92.6
+17.1
+24.4
+2891
+84.42
+08.052-
+01.825
+43.4-
+51.9
+03
+456
+8.12
+336
+40.21
+87.5
+260.3
+00.75
+42/51/4
+682,7
+52.18+L
+Z tnuocsiD
+07.047
+03.78
+97.21
+15.1
+16.3
+6891
+83.42
+06.205
+06.205
+86.8
+86.8
+03
+795
+8.12
+675
+74.11
+26.01
+00.6
+05.65
+42/51/4
+984,01
+00.6..00.4
+LZ raP
+07.17202.662
+56.3
+85.3
+85.3
+2681
+88.22
+04.962
+04.962
+26.3
+26.3
+5
+5881
+3.7
+8281
+88.22
+64.02
+05.41
+578.07
+90/51/01
+000,2
+05.41
+90 peRzrB
+08.07200.162
+51.4
+00.4
+00.4
+6271
+10.22
+05.372
+05.372
+91.4
+91.4
+03
+1561
+5.71
+7361
+10.22
+16.12
+57.21
+00.95
+02/51/1
+000,1
+57.21
+02 peRzrB aibmoloC
+2.45
+2.45
+55.0
+55.0
+55.0
+9611
+45.31
+07.35
+07.35
+45.0
+45.0
+0
+6711
+6.0
+2811
+45.31
+54.4
+52.7
+05.69
+30/51/2
+002
+52.7
+30 peRloC
+1.551
+7.451
+84.1
+84.1
+84.1
+143
+39.5
+02.451
+02.451
+714.1
+74.1
+2
+113
+6.1
+243
+39.5
+11.7
+52.7
+00.201
+40/32/2
+052
+52.7
+40 peRloC
+7.662
+2.462
+6.2
+85.2
+85.2
+535
+97.8
+02.462
+02.462
+85.2
+85.2
+3
+795
+1.3
+135
+97.8
+79.8
+439.8
+00.101
+50/31/8
+005
+439.8
+50 peRloC rodaucE
+8.343
+1.333
+28.4
+76.4
+76.4
+1141
+77.81
+09.043
+09.043
+87.4
+87.4
+01
+6931
+3.01
+7631
+77.81
+72.71
+21
+05.96
+21/51/11
+052,1
+21
+21
+peRaucE
+9.913
+2.703
+81.6
+39.5
+39.5
+0421
+64.71
+06.323
+06.323
+52.6
+52.6
+03
+6911
+1.82
+2811
+64.71
+78.11
+5
+57.94
+03/51/8
+005,2
+5
+03
+peRaucE ocixeM
+7.9001
+2.662
+98.01
+78.2
+49.5
+674
+67.9
+04.529
+04.529
+89.9
+89.9
+03
+661
+5.71
+251
+61.7
+78.6
+52.6
+00.19
+91/13/21
+112,6
+52.6
+A raP
+3.962
+2.762
+83.2
+63.2
+63.2
+032
+55.5
+01.762
+01.762
+63.2
+63.2
+3
+472
+7.2
+522
+55.5
+28.8
+57.9
+05.011
+50/6/4
+000,1
+57.9
+50 SMU
+9.814
+9.214
+75.3
+25.3
+25.3
+272
+26.6
+05.314
+05.314
+25.3
+25.3
+5
+952
+5.4
+562
+26.6
+87.8
+578.9
+05.211
+70/51/1
+005,1
+578.9
+70 SMU
+7.184
+2.374
+24.4
+43.4
+43.4
+00.903
+62.7
+09.574
+09.574
+63.4
+63.4
+5
+323
+7.5
+003
+62.7
+21.8
+526.8
+52.601
+80/21/3
+000,1
+526.8
+80 SMU
+Cap 10 3/31/04 11:27 AM Page 346
+
+Cap 10 3/31/04 11:27 AM Page 347
+VALUACIÓN DE ACCIONES 347
+Definiciones Analíticas
+Características generales
+Tamaño (MM) Monto en circulación, medido en millones de U$S
+Vencimiento (Vto.) Fecha de vencimiento del bono
+Precio Compra Precio de cierre comprador en el mercado de valores.
+Cupón Corriente cupón de intereses en curso
+Rendimiento Corriente Rendimiento total del bono en un período de un año, suponiendo que el bono es
+comprado y vendido al mismo precio.
+Medidas Blended (medidas del flujo general)
+TIR Tasa interna de rendimiento de todo el flujo del bono
+Spread Model Spread, expresado en puntos básicos, entre la TIR de todo el flujo del bono y el
+punto del plazo de vida promedio interpolado sobre la curva de rendimientos mo-
+delada de la US Treasury
+Promedio Vida Promedio ponderado de vida para la recuperación del capital.
+Spread Bench Spread, expresado en puntos básicos, entre la TIR de todo el flujo del bono y la TIR
+del bono del tesoro americano más cercana en términos de plazo promedio de vida
+Benchmark El bono del tesoro americano corriente con un vencimiento muy cercano al plazo
+promedio ponderado de vida del bono en cuestión
+Spread Duration Duration respecto a cambios en el spread de riesgo país, manteniendo la curva de
+rendimientos de los bonos del tesoro americano constante
+Treasury Duration Duration respecto a cambios en la curva de bonos del tesoro americano, mante-
+niendo el spread de riesgo país de los bonos constante
+Spread DV01 Valor en dólares por millón de valor nominal (u$s) de un cambio de 1 punto básico
+en el spread de riesgo país manteniendo la curva de rendimientos de los bonos del
+tesoro americano constante, y atribuíble solamente al spread duration
+Treasury DV01 Valor en dólares por millón de valor nominal (u$s) de un cambio de 1 punto básico
+en los bonos del tesoro americano, manteniendo el spread de riesgo país del bono
+constante, y atribuíble solamente al treasury duration
+Medidas Stripped (medidas del flujo de riesgo país)
+TIR Tasa interna de rendimiento atribuible solamente a los flujos no garantizados
+Spread Spread adicional sobre el US Treasury STRIP, o sea, lo que evalúa sobre los flujos no
+garantizados
+Sovereign Duration Duration respecto a cambios en el stripped spread, manteniendo la curva de rendi-
+mientos de los bonos del tesoro americano constante, y que corresponden estricta-
+mente al componente soberano del precio del bono
+Spread Duration Duration respecto a cambios en el stripped spread , manteniendo la curva de rendi-
+mientos de los bonos del tesoro americano constante
+Treasury Duration Duration respecto a cambios en la curva de bonos del tesoro americano, mante-
+niendo el stripped spread constante
+Spread DV01 Valor en dólares por millón de valor nominal (u$s) de un cambio de 1 punto básico
+en el stripped spread manteniendo la curva de rendimientos de los bonos del teso-
+ro americano constante, y atribuíble solamente al strippedspread duration
+Treasury DV01 Valor en dólares por millón de valor nominal (u$s) de un cambio de 1 punto básico
+en los bonos del tesoro americano, manteniendo el stripped constante, y atribuíble
+solamente al stripped spread duration
+
+Cap 10 3/31/04 11:27 AM Page 348
+348 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indica el valor total en términos nomina- Hay diferencias entre YTM y DCFY. Yield
+les de la emisión que dispone el mercado. to maturity (YTM) es la TIR de un bono que
+amortiza el principal al vencimiento
+10.1.2.3 Renta anual (coupon
+Discounted cash-flow yield (DCFY): es la
+yield, %)
+TIR de bonos con amortizaciones parciales
+Es el rendimiento sobre el valor nominal hasta el vencimiento.
+(VN) del bono. Por lo que es una tasa de interés
+En Argentina y algunos otros países se uti-
+nominal anual comparable con las tasas vigen-
+lizan ambas definiciones en forma indistinta,
+tes de mercado.
+como tasa interna de retorno. La convención
+Renta($) = Renta anual(%) X VR($) es expresar la TIR en términos anuales. Cabe
+aclarar que ésta no es representativa como
+Donde
+medida de rendimiento cuando el bono se
+vende antes de su vencimiento, dado que la
+VR($) = VR(%) X 100
+misma nos da una medida de retorno pero a
+vencimiento.
+Dado un bono de 100 VN que
+Ejem plo paga un interés semestral Ejem plo
+10-1-2 igual a la tasa LIBOR (= 5%), en- Los datos del cuadro siguien- 10-1-3
+te surgen de un bono hipo-
+tonces la renta anual será la ta-
+tético. Los pagos de la renta son semestrales,
+sa LIBOR aplicada al período corriente
+la amortización al vencimiento y la duration
+(coupon yield = 5%). Este valor se actualiza al
+es de cinco años.
+principio de cada período de renta según las
+condiciones de emisión. Cotización
+Indicadores A la par Sobre Bajo
+básicos la par la par
+10.1.2.4 Tasa interna de retorno
+TIR (yield to maturity —YTM— o Precio $1.000 $1.100 $900
+discounted cash-flow yield (limpio)
+—DCFY—) VN $1.000 $1.000 $1.000
+Se conoce por estas siglas a la tasa de rendi- VR 100% 100% 100%
+TIR (YTM) 8% 6,22% 10,02%
+miento que iguala el valor presente de los
+Coupon 8% 8% 8%
+flujos (intereses + amortizaciones parciales)
+yield
+con el precio corriente del bono (inversión
+inicial). Dado que el cupón es fijo, la única forma de
+ajustar el rendimiento total del bono (TIR) an-
+c c c
+P= 1 + 2 +...+ n te cambios en las situaciones de mercado es
+(1+TIR)1/m (1+TIR)2/m (1+TIR)n/m
+ajustar el precio por sobre o por debajo de la
+par.
+donde;
+P: precio del bono o inversión inicial Cuando un bono cotiza a la par: la TIR (YTM)
+coincide con la coupon yield;
+Ct: cupones o pagos de amortización e in-
+Cuando un bono cotiza sobre la par o bajo
+tereses
+la par se verifica la relación “a mayor precio,
+n: cantidad de períodos desde el momen- menor TIR” y viceversa.
+to actual hasta la madurez
+m: cantidad de pagos de cupones de inte- 10.1.2.5 Intereses corridos ($)
+reses anuales
+Son los intereses devengados hasta el mo-
+TIR: tasa interna de retorno anual mento actual, durante el período en curso.
+
+Cap 10 3/31/04 11:27 AM Page 349
+VALUACIÓN DE ACCIONES 349
+En el momento de inicio de cada período La paridad se utiliza para el análisis de se-
+de renta, éstos son igual a cero. ries históricas, porque permite la compara-
+ción de cotizaciones a lo largo del tiempo,
+Su cálculo es: Intereses corridos ($)
+evitando que los intereses corridos y los cor-
+=Renta anual ($) ¥ (días corridos en el pe-
+tes de cupón distorsionen las tendencias im-
+ríodo corriente/días en el año)
+plícitas en los precios (ganancias de capital).
+Existen distintas convenciones para cal- Aunque no debe olvidarse que para el cálcu-
+cular los días corridos del período en curso y lo del rendimiento total deben tenerse en
+el total de días en el año: cuenta las ganancias por cobro de cupones
+de interés.
+30/360: asume que cada mes tiene 30 días
+®
+y el año, 360 días. En Excel se puede aplicar
+la fórmula DAYS 360 (para la versión en in-
+10.2 TIPOS DE INSTRUMENTOS
+glés) o DÍAS 360 (para la versión en español)
+DE RENTA FIJA
+Actual/360: asume la cantidad exacta de
+Existen diversos instrumentos de renta fi-
+días que hay en el período en curso y un año ja clasificados en función de distintas carac-
+de 360 días. terísticas. Por ejemplo, los bonos cupón cero
+(zero coupon)son aquellos que no pagan inte-
+Actual/365: ídem anterior pero con un
+reses durante la vida del bono. Esta modali-
+año que tiene 365 días.
+dad es característica de los bonos cortos (por
+ejemplo, las letras argentinas y los treasury
+10.1.2.6 Precio clean (limpio)
+bills norteamericanos). A su vez, los bonos
+o dirty (sucio)
+pueden pagar el capital al vencimiento final,
+La diferencia radica en que el precio clean
+bullet, o en cuotas durante la vida del mismo
+no incluye en el precio de cotización el inte-
+hasta su vencimiento. En este último caso se
+rés del cupón corriente, mientras que el pre-
+dice que los bonos son amortizables: con cada
+cio dirty sí lo hace. El cotizar clean no afecta
+amortización el capital adeudado va disminu-
+la trayectoria del precio si el mismo no varía.
+yendo y al remanente se lo conoce como va-
+Casi todos los bonos del mundo cotizan en la
+lor residual. Los bonos pueden pagar
+modalidad clean. Debe tenerse presente que intereses luego de un período de gracia. Esto
+cuando se compra un bono que cotiza clean, es habitual en países emisores que ofrecen a
+lo que efectivamente se paga es el precio los tenedores de su deuda canjear bonos emi-
+clean más los intereses corridos. tidos anteriormente por un nuevo bono, que
+si bien no paga intereses durante los prime-
+10.1.2.7 Valor técnico ($) ros años, los capitaliza. Capitalizar significa,
+Es el valor de rescate del título al momen- en este contexto, que los intereses generarán
+to actual un capital mayor al valor nominal (base 100).
+El capital a amortizar sería el capital inicial
+Valor técnico = VR ($) + Intereses corridos más los intereses devengados hasta el mo-
+mento de amortización. Este tipo de bono be-
+10.1.2.8 Paridad (%) neficia, por un lado, al emisor, quien logra
+cierto período de gracia antes de tener que
+Es la relación entre el precio del título y
+cubrir los pagos de intereses, y por otro lado
+su valor técnico
+al tenedor, quien obtiene un pago en especie
+Paridad (%) = Inversión inicial/valor técnico a cambio de un interés algo mayor. Los bo-
+nos pueden pagar tasas fijas de interés; en es-
+Cuando la paridad es igual, mayor o me- tos casos las mismas se fijan al momento de
+nor a 100%, el bono cotiza, respectivamente la emisión, o sea se fijan cuáles serán los cu-
+a la par, sobre la par o bajo la par. pones que irá pagando el título a lo largo de
+
+Cap 10 3/31/04 11:27 AM Page 350
+350 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+la vida del bono. También los bonos pueden menos, con la modalidad de bonos cupón ce-
+pagar intereses con tasas prefijadas pero es- ro, llamados letras de tesorería (Treasury
+calonadas. Los bonos también pueden pagar Bills); los bonos con vencimientos de 2 años
+tasas variables de interés; entonces estos bo- o más se emiten con cupones, llamados no-
+nos pagan un interés que se ajusta a una tasa tas (treasury notes) (de 2 a 5 años) y los bo-
+que va variando con el transcurso del tiem- nos (treasury bonds) (de 5 a 30 años).
+po. Una tasa muy utilizada en este sentido
+Ahora bien, si el Estado norteamericano
+como tasa variable básica es la tasa interban-
+emite bonos cupón cero hasta un año de pla-
+caria londinense LIBOR (London Interbank
+zo, ¿cómo es que se ofrecen bonos cupón ce-
+Offered Rate), que es la tasa promedio de las
+ro del gobierno hasta 30 años? Porque existe
+que se prestan entre los bancos de Londres y
+lo que se llama el programa armado por la
+que se fija a las 11 horas.
+Reserva Federal, US Treasury STRIPS, o sea
+negociación separada de cupones y del capi-
+10.2.1 Bonos cupón cero
+tal registrado. ¿Cómo funciona esto?
+(zero coupon bonds):
+En agosto de 1982 Merrill Lynch creó los
+Características:
+primeros documentos sintéticos de bonos cu-
+• Son emitidos con un descuento respecto
+pón cero, llamados (TIGR) (Treasury Income
+de su valor nominal
+Growth Receips), y Salomon Brothers los
+• No hay pago de intereses (CAT) (Certificates of Accrual on Treasury Se-
+curities). ¿En qué consistían? Ambos bancos
+• El capital se devuelve, a su valor nominal,
+tomaban un bono con cupones de intereses y
+al vencimiento
+capital por separado. Este proceso de separar
+Ejemplos: cada uno de los cupones de intereses así co-
+mo el capital, para vender activos contra ellos,
+• US Treasury STRIPS (Separate Trading of
+se llama “coupon stripping” o “separación de
+Registered Interest and Principal Securi-
+cupones”. A pesar de que el instrumento usa-
+ties)
+do no es emitido por el gobierno de EE.UU.,
+• Cetes del gobierno mexicano el bono subyacente depositado en el banco en
+custodia es una obligación del gobierno, por
+• Letes del gobierno argentino o Lebac del
+lo tanto su flujo de fondos es cierto.
+BCRA
+El programa STRIPS facilitó el estripeo de
+A continuación se ampliará el concepto
+los bonos, dado que todos son bonos elegibles
+de bonos cupón cero del gobierno america-
+y por lo tanto son una obligación directa del
+no (US Treasury STRIPS): Estos bonos, así
+gobierno. Más aun, cuando la liquidación de
+como todos los bonos del tesoro americano,
+los US treasury strips en la actualidad se hace
+son considerados por los participantes del
+en el sistema propio de la Reserva Federal.
+mercado como libres de riesgo de crédito.
+Las tasas de interés de estos bonos son las ta- Es por eso que se dice que existe una cur-
+sas de interés de referencia usadas a través va de bonos cupón cero del gobierno ameri-
+de la economía americana y también en los cano entre 0 y 30 años. Más adelante se verá
+mercados de capitales. En general los parti- cómo se utilizan para calcular spreads sobre
+cipantes hablan de la tasa de rendimiento o otros bonos no gubernamentales.
+tasas de interés de instrumentos de renta
+que no son bonos del tesoro americano co-
+10.2.2 Bonos amortizables
+mo negociándose por encima (o por debajo)
+de un bono del tesoro americano particular. Características:
+La práctica usual del tesoro americano es • El capital se devuelve en cuotas a lo largo
+emitir bonos, con vencimientos a un año o de la vida del bono.
+
+Cap 10 3/31/04 11:27 AM Page 351
+VALUACIÓN DE ACCIONES 351
+• Los intereses se pagan junto con algunas Ejemplos:
+o con todas las cuotas de amortización.
+La tasa fija del par argentino sube del 4%
+Ejemplos: al 6%.
+El FRB argentino amortiza el capital semes- La tasa del discount argentino es Libor
+tralmente 5% hasta su vencimiento.El Boden más 13/16 anual.
+2012 de Argentina amortiza el capital en 8
+cuotas de 12.5% cada una a partir del tercer
+10.2.5 Bonos que incluyen
+año hasta su vencimiento.
+contingencias
+Característica general:
+10.2.3 Bonos con período
+de gracia • Adiciona a cualquiera de las modalidades
+anteriores un derecho adicional.
+Características:
+Características particulares:
+• El capital comienza a devolverse después
+de m períodos de gracia. • Bono convertible:
+• Los intereses se pueden pagar: • Combina las características de un bono or-
+dinario y de un warrant (opción a largo
+— Desde el momento 0
+plazo)
+— Capitalizarse hasta que se pague la pri-
+• Recibe pago de intereses y capital como
+mera cuota de amortización y luego
+un bono ordinario
+pagarse junto con las cuotas de amorti-
+zación • Se puede canjear, mediante los warrants,
+por una nueva emisión de acciones
+Ejemplos:
+Bonos con opciones
+El Argentina Global 18 o 31
+Combina un bono con una opción
+FRB (Boden 2012) : es un bono que paga
+intereses desde el momento 0 y el capital a Callable bonds:
+partir del tercer año.
+• Bonos que se emiten con un call a favor
+del emisor, quien los puede rescatar en
+10.2.4 Bonos a tasa fija o a un determinado momento futuro del tiem-
+tasa variable po a un precio fijo.
+Características: Putable bonds
+• Su definición depende de que la tasa de Bonos que se emiten con un put a favor
+interés que paguen sea fija o variable del inversor, quien lo puede vender en un
+momento futuro a un precio fijo.
+• La forma de emisión dependerá de:
+Bonos con contingencias: como se vio an-
+— La estructura de activos y pasivos del
+teriormente, se pueden definir de dos tipos:
+emisor
+bonos convertibles y bonos con opciones
+— Las perspectivas de tasa de interés
+Bonos convertibles:estos bonos dan al tene-
+— Las condiciones del mercado (a veces, dor el derecho de convertirlo en un número
+en vez de emitir con tasa fija se emite predeterminado de acciones ordinarias del
+con tasa variable y se hace un swap (pa- emisor a un precio determinado. Por lo tanto
+se) a fija simultáneamente; este con- es un bono corporativo común que se le adi-
+cepto se ampliará en la sección de ciona un warrant, o sea una opción de largo
+instrumentos derivados) plazo, a favor del inversor.
+
+Cap 10 3/31/04 11:27 AM Page 352
+352 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+¿En qué casos una empresa emitirá un bo-
+Fig.
+no convertible? En aquellos casos de empre-
+10 - 1
+sas que tienen un buen proyecto, pero que
+45%
+generará flujo de fondos después de un tiem-
+po. Es por eso que financieramente a la em-
+presa le resulta muy difícil soportar la carga n e
+ó bl
+f
+g
+i
+a
+n
+r
+a
+.
+n
+P
+c
+o
+i
+r
+e r
+l
+a
+o
+d
+ta
+e
+n
+l
+t
+c
+o
+u
+,
+p
+e
+ó
+m
+n
+i
+n
+te
+o r
+u
+m
+n
+a
+b
+l
+o
+q
+n
+u
+o
+e
+c
+d
+o
+e
+n
+b
+v
+e
+e
+r
+r
+ía
+ti b
+p
+l
+a
+e
+-
+A
+c
+ci
+n v
+erti
+o
+que paga un menor cupón, pero le da la posi- c
+o
+n
+bilidad al tenedor del bono de convertirlo en o
+B
+acciones a un precio determinado.
+Luego se verá, al referirse a valuación, Precio del
+que si bien el costo inicial para la empresa activo
+luce bajo, en caso de que el proyecto sea exi-
+toso resultará más oneroso para la empresa.
+Debe recordarse que en caso de ser ejercida secuente pérdida de capital que ocasionaría.
+la opción, la emisión de nuevas acciones ge- Debe tenerse presente que el emisor no de-
+nerará una dilución del capital. bería causarle una pérdida de capital muy
+grande al acreedor, pues si no le resultaría
+El número de acciones ordinarias que el
+muy difícil volver a colocar títulos en el
+tenedor de bonos recibirá de ejercer el wa-
+mercado. En Argentina los Bonos de Inver-
+rrant se denomina “ratio de conversión”, el
+sión y Crecimiento serie 5, que pagaban un
+que se extenderá a lo largo de la vida del bo-
+cupón muy alto, fueron rescatados antes del
+no o en una porción del mismo. El precio al
+vencimiento sin pérdida de capital para el
+que puede comprar la acción, o precio de
+inversor. Otros bonos que suelen ser rescata-
+ejercicio, será similar al valor par del bono
+dos antes de tiempo son los bonos de agen-
+convertible/ratio de conversión. Si el precio
+cia de EE.UU., cuando las tasas de interés
+de la acción se encuentra por encima del
+bajan y se van rescatando las hipotecas. Los
+precio de ejercicio, el precio del bono con-
+calls adheridos es una cláusula muy común
+vertible se comportará como la acción,
+en las obligaciones negociables y eurobonos,
+mientras que si el precio se encuentra por
+por lo que hay que leer bien las cláusulas de
+debajo del mismo, caerá mucho menos que
+emisión (covenants o indentures).
+la acción, pues se devolverá el 100% del ca-
+pital (fig. 10-1). Putable bonds:un bono de estas caracterís-
+ticas le da al inversor la posibilidad de ven-
+Callable bond:un bono de estas caracterís-
+der el bono al emisor a un determinado
+ticas le da la posibilidad al emisor de resca-
+precio de ejercicioen un momento futuro
+tar el bono en un momento futuro del
+del tiempo, que al igual que con los callable
+tiempo a un precio de ejercicio determina-
+bonds está muy cerca de la par. Esto se da en
+do, en general muy cerca de la par. ¿Por qué
+general cuando con posterioridad a la emi-
+una empresa o gobierno estaría tentada de
+sión del bono las condiciones de mercado
+rescatar el bono? Pues pueden haber cam-
+empeoran para la empresa. En este caso el
+biado las condiciones del mercado moneta-
+precio no caerá abruptamente, sino que de-
+rio y puede conseguir una mejor tasa (más
+bería mantenerse cerca del precio de ejerci-
+baja) emitiendo un bono nuevo con menor
+cio por la posibilidad de ser vendido a la
+cupón. Es por ello que se dice que el precio
+empresa muy cerca de la par. Es común po-
+de los callable bonds no debería superar
+ner esta cláusula cuando un emisor quiere
+nunca por mucho el precio de ejercicio (o
+salir al mercado a colocar bonos a un plazo
+sea, muy cerca de la par) por la posibilidad
+que el mercado considera muy largo; se le
+que tiene el bono de ser rescatado y la con-
+
+VALUACIÓN DE ACCIONES 353
+pone uno o más puts a plazos más cortos sa- la investigación de la tasa de rendi-
+tisfaciendo la demanda. También es muy co- miento ofrecida por bonos comprables
+mún en las obligaciones negociables y los en el mercado. Por bonos comparables
+eurobonos. se entiende bonos de la misma calidad
+crediticia y del mismo plazo promedio
+Veamos en la fig. 10-2la trayectoria de un
+(en realidad con la misma duration,
+bono sin opciones, así como la de los calla-
+término que se explicará luego).
+bles y putables bonds
+Es importante tener esta cláusula en
+cuenta principalmente a la hora de calcular
+las medidas de rendimiento y riesgo, en
+o
+donde se debe ser conservador y calcular
+tanto la TIR como las medidas de riesgo al
+momento del call y del put, como se verá
+posteriormente.
+Donde:
+10.3 VALUACIÓN DE UN BONO P = precio del bono.
+El precio de un bono al igual que el de Ct = cupones que pueden ser de intere-
+cualquier activo se define como el valor ac- ses, de amortización o de intereses más
+tual o valor presente de los futuros flujos de amortización.
+fondos esperados de dicho activo desconta-
+TIR = Tasa Interna de Retorno de bonos
+comparables.
+n = cantidad de períodos desde el
+momento actual hasta la madurez.
+Callablebond m = cantidad de pagos anuales.
+10.3.1 Flujo de fondos
+esperados
+Putablebond
+de
+E
+e
+s
+m
+to
+is
+d
+ió
+e
+n
+p
+.
+e
+L
+n
+a
+d
+s
+e
+m
+rá
+i s
+d
+m
+e
+a
+l
+s
+a s
+d e
+c
+t
+o
+e
+n
+r
+d
+m
+ic
+in
+io
+a
+n
+rá
+e
+n
+s
+Bono
+si el cupón de intereses del bono es
+sin
+opción cierto (o sea que paga una tasa fija a lo
+largo de la vida del bono) o incierto (o
+sea si paga una tasa de interés variable,
+como puede ser la tasa Libor). Por otra
+TIR
+E parte, las mismas dirán si la amortiza-
+1
+ción tiene lugar toda al vencimiento
+(bono bullet) o si se realizarán amorti-
+dos a una determinada tasa de rendimiento. zaciones parciales (bono amortizable).
+Por lo tanto, para valuar el precio de un bo-
+Supóngase un bono con un plazo de 3
+no se requieren dos elementos:
+años, que devuelve todo el capital al final; la
+1. Estimar el flujo de fondos esperados, frecuencia de pagos es anual y tiene un cu-
+que en el caso de los bonos es el flujo pón de intereses del 10% anual. Este bono
+de intereses y la devolución del capital. tendría un flujo de fondos cierto, a saber:
+2. Estimar la tasa de descuento apropiada
+que en el caso de los bonos resulta de
+oicerP
+Cap 10 3/31/04 11:27 AM Page 353
+c c c
+P= 1 + 2 +...+ n
+(1+TIR)1/m (1+TIR)2/m (1+TIR)n/m
+∑ n C
+P= t
+(1+TIR)t/n
+t=1
+Fig.
+10 - 2
+E = precio de ejercicio del call y del put.
+1
+10 10 10 100
+P= + + +
+(1+TIR)1/1 (1+TIR)2/1 (1+TIR)3/1 (1+TIR)3/1
+
+Cap 10 3/31/04 11:27 AM Page 354
+354 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Ahora supóngase un bono de las mismas bonos de un mismo nivel de crédito y sus
+características que el anterior pero con la di- vencimientos. Esta curva es vital para iden-
+ferencia que la tasa de interés a pagar es la tificar diferencias entre las tasas de corto y
+Libor de un año (se sabe que la Libor actual largo plazo, que permiten comprender las
+de 1 año es de aproximadamente 2%). ¿Cual tendencias de mercado (por ejemplo, a tra-
+será el flujo de fondos esperado? vés de los ciclos económicos, permite mar-
+car una expansión, un auge o una recesión)
+2 Libor Libor 100
+P= + + + así como tomar decisiones acerca de los ins-
+(1+TIR)1/1 (1+TIR)2/1 (1+TIR)3/1 (1+TIR)3/1
+trumentos de renta fija.
+Como se puede apreciar, existen 2 flujos En síntesis, la yield curve nos indicará el
+ciertos (el de la tasa Libor actual y la devolu- efecto del plazo sobre el rendimiento de los
+ción del capital al final). Pero hay 2 flujos bonos de igual calidad.
+que no se conocen hoy:
+Para construir una yield curve pura se
+a) La tasa Libor que regirá por un año necesita contar con un mercado lo sufi-
+dentro de un año. cientemente amplio y líquido, de modo de
+encontrar en él instrumentos para todos los
+b) La tasa Libor que regirá por un año
+períodos, emitidos por un mismo emisor
+dentro de 2 años.
+con la misma calidad crediticia.
+Es por ello que en los bonos de tasa varia-
+La forma gráfica de representar esta es-
+ble es indispensable algún tipo de proyección
+tructura de tasas de interés es poner en el
+o pronóstico de la tasa que regirá en los dife-
+eje de las ordenadas la TIR de los bonos, y
+rentes períodos futuros. Para ello existen di-
+en el eje de las abscisas, la fecha de madura-
+versas metodologías de cálculo, pero primero
+ción de los mismos. Luego se verá cómo de-
+se debe introducir el concepto de estructura
+be modificarse el eje de las abscisas para
+temporal de tasa de interés, así como el con-
+bonos en los que la estructura de los flujos
+cepto de tasa de interés implícita o forward.
+de los distintos bonos no son iguales, como,
+Luego se retomará la valuación de un bono a
+por ejemplo, los bonos emitidos por los dis-
+tasa variable.
+tintos países emergentes.
+Sin embargo, antes de pasar a estudiar la
+¿Qué forma puede tomar la ETTI? La for-
+estructura temporal de tasa de interés, se ve-
+ma típica de la ETTI es de pendiente positi-
+rá la valuación de un bono cupón cero:
+va, aunque también puede ser decreciente
+El mismo es = M/(1 + r)n; donde M es el (“inverted”), con forma de joroba (“hum-
+capital final. ped”) o simplemente plana (“flat”).
+Por lo tanto, el valor del bono es el valor En la fig. 10-3hay cuatro formas de curva
+actual del monto al vencimiento. Por ejem- de rendimiento hipotéticas
+plo, un bono que vence en 10 años a una tasa
+Posteriormente se verá qué implican las
+de rendimiento requerido de 7,5% valdría:
+distintas formas de la ETTI desde el punto
+P = 100/(1,075)10 = 48,52 de vista económico, tanto para un país don-
+de no existe riesgo de crédito como para los
+que sí los hay (o sea, probabilidad de default
+10.4 LA CURVA DE RENDIMIENTOS en un país emergente).
+Y LA ESTRUCTURA TEMPORAL DE
+Dado que el rendimiento de los bonos del
+LA TASA DE INTERÉS (ETTI)
+tesoro, como se ha dicho anteriormente, se
+La curva de rendimientos (yield curve) es toma como referencia para determinar el
+la descripción gráfica de la relación entre los rendimiento de cualquier activo con riesgo,
+rendimientos observados en el mercado de todos los participantes del mercado de bonos
+
+Cap 10 3/31/04 11:27 AM Page 355
+VALUACIÓN DE ACCIONES 355
+están interesados en conocer la relación en- paquete de bonos cupón cero y descontar a
+tre el rendimiento y el plazo para los bonos cada uno de ellos por la tasa de interés co-
+del tesoro americano; es así que se comen- rrespondiente al período en que dicho flujo
+zará con ella para luego introducir la rela- se genera. Esta analogía entre un bono y un
+ción para bonos con riesgo de crédito. paquete de bonos cupón cero es válida, por-
+que de otro modo se podría arbitrar y gene-
+10.4.1 Análisis de la curva rar una ganancia.
+de los bonos del tesoro
+Entonces, para poder determinar el valor
+americano de contado
+de cada uno de los bonos cupón cero es ne-
+Si bien la curva de rendimientos típicamen- cesario conocer el rendimiento de los bonos
+te se construye sobre la base de las TIR obser- cupón cero con igual vencimiento. La curva
+vadas y los plazos de vencimiento, se puede que indica la relación entre la madurez de
+calcular la curva de rendimientos teórica a cada bono del tesoro americano cupón cero
+partir de la curva de rendimientos esperados, y su rendimiento se conoce como curva de
+tomando la relación de los rendimientos de tasas contado (Spot Rate Curve.) En realidad
+los bonos cupón cero del gobierno americano esta curva se deriva teóricamente, porque
+y bonos con cupones y sus vencimientos. no hay bonos cupón cero para todos los pla-
+En la medida en que la curva real difiera zos, como se explicó anteriormente.
+de esta curva teórica, habría posibilidades de
+La derivación teórica de la curva de tasas
+arbitraje.
+contado se realiza a través del método de
+Dado que el precio de los bonos resulta de “bootstrapping”, que implica construirla a
+descontar el flujo de fondos que el bono pro- partir de la observación de los rendimientos
+mete pagar a una determinada tasa de inte- de los bonos del tesoro americanos y los cu-
+rés, se podría considerar cada bono como un pones de dichos bonos. La idea fundamental
+Fig.
+Curva de rendimiento normal Curva de rendimiento invertida
+TIR 10 - 3TIR
+Duration Duration
+Curva de rendimiento con joroba Curva de rendimiento plana
+TIR TIR
+Duration Duration
+
+Cap 10 3/31/04 11:27 AM Page 356
+356 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+es igualar el precio del bono americano al 10.4.2 Tasas de interés
+paquete de bonos cupón cero. Es decir, el va- implícitas o forwards
+lor presente del cash-flow o precio del bono
+Se ha visto cómo la estructura temporal
+americano debe ser igual a la suma de los
+sirve para calcular la curva hipotética de ta-
+bonos cupón cero descontados a sus corres-
+sas de contado. Pero también se puede utili-
+pondientes tasas contado.
+zar la estructura temporal para inferir la
+¿Cómo es el método de bootstrapping? Da- expectativa del mercado respecto de las ta-
+dos los datos, se comienza por los bonos más sas de interés contado en el futuro.
+cortos y se considera como incógnita la tasa
+Las tasas futuras (implícitas o forwards)
+más próxima en plazo desconocida. Las in-
+pueden deducirse de la curva teórica anterior.
+cógnitas resueltas son nuevos datos a medida
+Tomemos como caso un individuo con un
+que se extiende el proceso en el tiempo.
+horizonte de inversión de un año al que se
+Así se puede construir la curva teórica de le presentan las siguientes alternativas de
+rendimientos. Supóngase que la letra de teso- inversión:
+rería del bono del tesoro americano de 6 me-
+• Una letra de tesorería americana con ven-
+ses rinde 7,90%. Dado que dicha letra es un
+cimiento en un año.
+bono cupón cero, es la tasa de interés de con-
+tado. A su vez, la letra de 1 año rinde 8,4%, • Un letra de tesorería americana con ven-
+que también es la tasa de contado por ser un cimiento en 6 meses, a cuyo vencimiento
+bono cupón cero. Ahora, dadas estas tasas de compra otro bono del tesoro americano al
+contado, se pueden calcular la tasa de conta- mismo plazo.
+do para un bono cupón cero de 1,5 años.
+El inversor será indiferente entre estas al-
+El valor o precio de un bono cupón cero ternativas siempre que las mismas produz-
+de 1,5 años deberá ser igual al valor presen- can igual retorno o la misma cantidad de
+te de los flujos de fondos del bono del tesoro pesos en el horizonte de inversión. El inver-
+con cupones de 1,5 años, donde la tasa usa- sor hoy conoce la tasa a un año y la tasa a 6
+da para descontar esos flujos de fondos es la meses pero desconoce la tasa por 6 meses
+tasa contado correspondiente a cada flujo. dentro de 6 meses, o sea la tasa implícita o
+Para ello veamos el ejemplo 10.4.1. forward.
+Ejem plo B
+10-4-1 ono VN = 100 (adaptado de Fabbozi, F: Bond Markets, análisis and strategies)
+Plazo años Cupón TIR Precio
+0,50 0 7,90 96,27
+1 0 8,40 92,25
+1,5 8,50 8,90 99,45
+Dado que las tasas de 0,5 y 1 año son bonos cupón cero, son las tasas teóricas; pero nos fal-
+ta la tasa de 1,5 años. Para ello se debe hacer:
+El valor presente de los flujos de fondos del bono con cupones semestrales a 1,5 años es:
+4,25 4,25 104,25
++ +
+1/2 2/2 3/2
+(1+ Z ) (1+ Z ) (1+ Z )
+1 2 3
+Donde:
+Z = tasa contado teórica anual para el 1er. semestre
+1
+>
+Z = tasa contado teórica anual para el 2do. semestre
+2
+Z = tasa contado teórica anual par el 3er. semestre
+3
+
+Cap 10 3/31/04 11:27 AM Page 357
+VALUACIÓN DE ACCIONES 357
+Dado que Z = 7,90% y Z = 8,40%, resta averiguar Z
+1 2 3
+4,25 4,25 104,25
++ +
+1/2 2/2 3/2
+(1.079) (1.084) (1+ Z )
+3
+despejando queda el valor de
+Z = 9,14%
+3
+siendo Z = 9,14% el valor teórico equivalente de la tasa de contado de 1,5 años
+3
+Así se puede continuar realizando con todo los bonos del tesoro y se construiría la curva de
+rendimientos de contado teórica:
+C* C* C* C* + 100
+Pn = + + + ... +
+1/m 2/m 3/m n/m
+(1+ Z ) (1+ Z ) (1+ Z ) (1+ Z )
+1 2 3 n
+Donde Pn = es el precio del bono del tesoro americano con n períodos al vencimiento.
+C* = pago semianual del cupón de intereses para el bono con cupones
+m = la cantidad de veces que paga intereses en el año (semestral)
+Z = para t = 1,2,....n - 1 es el valor teórico para las tasas de interés de contado
+t
+La fórmula se rescribe así:
+m/n
+C*+100
+Z = - 1
+n n-1
+∑ 1
+Pn - C*
+t/m
+(1+ Z )
+t=1 t
+En realidad, esta curva teórica de la tasa de interés de contado debería coincidir con las TIR
+observadas de los bonos cupón cero del gobierno americano, conocidas como US Treasury
+Strips, vistas anteriormente. La curva de bono de US Treasury Strips se puede ver en Bloom-
+berg, Wall Street Journal, Reuters, entre otros. A veces la teórica y la real difieren, pues los bo-
+nos Strips no son tan líquidos como los bonos con cupones y por eso a veces cotizan con un
+premio por liquidez.
+Adicionalmente, el inversor sabe que si $X (1 + Z )1/2 (1 + f)1/2 = $100
+1
+invierte hoy en una letra del tesoro a un
+La indiferencia entre las alternativas re-
+año, recibirá $100 en un año.
+sulta de igualarlas, o sea:
+Por lo tanto, el precio del bono hoy debie-
+100 100
+ra ser: =
+(1+Z )2/2 (1+Z )1/2(1+f)1/2
+100/(1 + Z )2/2 2 1
+2
+f = [(1 + z )2/2/(1 + z1)1/2]2-1
+Si comprase por $X el bono a 6 meses y lo 2
+reinvirtiese a una tasa desconocida, debería
+Se trata, entonces, de una tasa implícita
+obtener $100 para que las alternativas de in-
+en la curva teórica, fundamental a la hora de
+versión le resultasen indiferentes.
+evaluar bonos, o sea la tasa contado que el
+Por ende, la segunda alternativa debería mercado espera que rija por 6 meses dentro
+expresarse como: de 6 meses.
+
+Cap 10 3/31/04 11:27 AM Page 358
+358 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Utilizando la tasa de interés de 6 meses y a) Teoría de las expectativas puras.
+un año del ejemplo anterior, se puede calcu-
+b) Teoría del premio por la liquidez.
+lar la tasa implícita
+c) Teoría del hábitat preferido.
+2
+ (1,084) 
+f=   - 1=0,089 Estas tres teorías comparten la hipótesis
+ (1,079)1/2
+respecto al comportamiento de las tasas de
+De esta forma se podrían calcular todas corto plazo y también asumen que las tasas
+las tasas implícitas o forwards para cada uno forwards negociadas en los contratos de lar-
+de los momentos en el futuro para cada ho- go plazo corrientes están muy relacionadas
+rizonte de inversión respecto de la expectativa de mercado sobre
+las tasas de interés futuras de corto plazo. En
+La fórmula general sería, tomando a Z
+n lo que difieren es en si hay otros factores
+como la tasa contado semianual
+que afectan las tasas forwards o no. Para la
+ n+t 1 /t teoría de las expectativas puras no hay otro
+(1+Z )
+n f t =   (1+ n Z +t )n   - 1 factor sistemático que las afecta, mientras
+n que para las otras sí.
+Siendo ¶ la tasa forward o implícita n pe-
+n t 1. Teoría de las expectativas
+ríodos desde ahora por tperíodos. Por ej., ¶
+2 1
+sería las forward semestral 1 año (2 perío- a) Teoría de las expectativas puras: según
+dos) desde ahora. esta teoría, las tasas forwards exclusi-
+vamente representan la expectativa
+El principio de cálculo de la tasa de inte-
+de tasas futuras. En términos estadís-
+rés implícita o forward se basa en el supues-
+ticos serían un estimador insesgado
+to de que los rendimientos para un período
+de las tasas contado que regirán en el
+dado son todos iguales, sin importar qué
+futuro. Así, la curva de rendimientos
+plazo de los bonos sean mantenidos a lo lar-
+reflejará la expectativa actual del mer-
+go del período.
+cado de la familia de tasas de interés
+O sea, será lo mismo mantener un bono de corto plazo futuras: si la curva es
+de 5 años por 5 años que mantener una se- con pendiente positiva, indicaría que
+cuencia de bonos de 1 año durante 5 años. las tasas de corto plazo van a subir, y
+viceversa si es invertida, o bien se
+En general la relación entre una tasa con-
+mantendrá si es plana.
+tado del período t, la tasa contado de 6 me-
+ses y las tasas implícitas de 6 meses es la ¿Cómo explicaría esta teoría la pen-
+siguiente: diente positiva de la curva? Si se parte
+de una estructura plana y los partici-
+Z = [(1 + Z ) (1 + ¶ ) (1 + ¶ ) (1 + 3¶ ) ... pantes del mercado esperan que las
+t 1 1 1 2 1 1
+tasas de interés de corto plazo suban
+... (1 + ¶ )]1/t - 1 en el futuro, que harán? los inverso-
+t 1
+res de largo plazo, no querrán com-
+prar bonos de largo plazo pues si la
+10.4.3 ¿Cómo se explican
+tasas suben, los precios de los bonos
+las diferentes formas que
+de largo caerán. Preferirán invertir
+puede tomar la ETTI?
+en bonos de corto temporalmente
+Existen dos teorías que la explican: 1) teo-
+hasta que suban las tasas. Los especu-
+ría de las expectativas; 2) teoría de la seg-
+ladores que esperan que las tasas su-
+mentación de mercados.
+ban, venderán o se irán cortos bonos
+Existen 3 formas principales dentro de la de largo plazo esperando que el pre-
+teoría de las expectativas: cio caiga e invertirán el producido en
+
+Cap 10 3/31/04 11:27 AM Page 359
+VALUACIÓN DE ACCIONES 359
+bonos de corto y los tomadores de lar- de rendimientos refleja la expectativa
+go plazo, tomarán ahora en el largo de las tasas futuras así como el premio
+plazo por temor a que suban las tasas. por liquidez, rechaza el hecho de que
+Estas respuestas tenderán a dismi- el premio por liquidez aumente uni-
+nuir la demanda de bonos de largo e formemente con el plazo. Según esta
+incrementan la demanda de bonos de teoría los inversores intentarán liqui-
+corto, produciendo que la curva se dar sus inversiones en el menor plazo
+empine. Lamentablemente esta teo- posible mientras que los tomadores de
+ría tiene un problema importante y préstamo querrán tomar largo. Por lo
+es que no tiene en cuenta el riesgo tanto, dado que oferta y demanda de
+que se corre por invertir en bonos lar- fondos para un mismo plazo no se en-
+gos. Pues supone que el precio de los cuentran, algunos inversores o toma-
+bonos se podrían conocer con certeza dores serán inducidos a cambiar el
+hoy. En consecuencia se podría co- plazo de la inversión o el financia-
+nocer hoy el rendimiento total de las miento, pero para ello deben ser com-
+inversiones con certeza y con inde- pensados con un apropiado premio
+pendencia del plazo de cuando fue- por el riesgo cuyo tamaño reflejará la
+ron comprados o vendidos los bonos. extensión de la aversión al riesgo.
+b) Teoría del premio por la liquidez. La Por lo tanto, según esta teoría la cur-
+va de rendimientos reflejará no sólo
+falla de la teoría de las expectativas
+la expectativa de tasas de interés si no
+puras es que no considera el riesgo
+también un premio por el riesgo, po-
+asociado de invertir en bonos, o sea
+sitivo o negativo, que induzca a los
+que no existe certeza de cuál va a ser
+participantes del mercado a cambiar
+el rendimiento total de la inversión
+sus preferencias por el plazo.
+por un período, al tener un bono con
+un plazo de vencimiento mayor que 2. Teoría de la segmentación de mercado.
+un año y la incertidumbre se incre- Esta teoría también reconoce que hay
+menta sistemáticamente con el plazo hábitat preferidos y lo que mejor expli-
+del bono. ca la forma de la curva de rendimientos
+es la restricción del manejo de activos
+Por lo tanto, esta teoría dice que para
+(ya sean regulatorios o autoimpuestos)
+tentar a un inversor a tener bonos lar-
+y los prestamistas (tomadores) restrin-
+gos se le debe ofrecer al menos una
+giendo sus préstamos (financiaciones)
+tasa de interés que sea mayor al pro-
+a determinado plazo. Para esta teoría
+medio de las futuras tasas esperadas,
+la forma de la curva de rendimientos
+en un “premio por el riesgo asumido”,
+es determinada por la oferta y deman-
+que se incrementa cuanto mayor sea
+da de activos dentro de cada plazo.
+el plazo del bono.
+Un curva de rendimientos con pen-
+10.4.4 La estructura temporal
+diente positiva puede bien reflejar ex-
+para bonos con riesgo de
+pectativas de que las futuras tasas de
+crédito (soberanos
+interés o a) subirán, b) se manten- o corporativos)
+drán o bajarán, pero con un “premio
+La forma de cálculo de la ETTI para bo-
+por liquidez” subiendo lo suficiente-
+nos corporativos difiere de la de los bonos
+mente fuerte para producir una curva
+del tesoro americano, pues el precio de es-
+con pendiente positiva
+tos bonos no sólo refleja la tasa libre de ries-
+c) Teoría del hábitat preferido. Si bien es- go sino un “premio por el riesgo” por la
+ta teoría también asume que la curva probabilidad de default.
+
+Cap 10 3/31/04 11:27 AM Page 360
+360 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+En la práctica, la tasa contado más usada mico puede identificarse a partir de la pen-
+para descontar los flujos es la tasa libre de diente de la curva de rendimientos. Dicha
+riesgos más un spread de crédito constante. pendiente puede resumirse por la diferencia
+Sin embargo, el riesgo de crédito aumenta entre las tasas de interés corrientes de largo
+con el plazo, por lo tanto se debería calcular plazo y corto plazo. Este diferencial es usado
+mejor una estructura temporal de los a menudo como un predictor del crecimien-
+spreads de riesgo de crédito. to, la inflación, la tasas de interés y las deci-
+siones de política monetaria. Una curva con
+Para poder entender cómo construir una
+pendiente positiva está asociada con un in-
+curva véase el ejemplo 10-4-2.
+cremento del producto del período siguiente,
+En la práctica el problema de aplicar esta así como con un incremento de la inflación
+técnica es que a veces no hay suficientes bo- futura y en las tasas de interés de corto plazo.
+nos, emitidos por un mismo emisor, como
+para construir una curva de
+spreads de bonos cupón cero. Por Se toman 4 bonos: 2 bonos cupón ce-
+Ejem plo
+lo tanto, lo que se suele hacer es ro del gobierno americano y dos bo-
+10-4-2
+construir una curva genérica de nos corporativos o soberanos de países
+spreads de bonos cupón cero por emergentes con riesgo de crédito.
+calificación crediticia y por indus-
+TIPO PLAZO (AÑOS) PRECIO TIR
+tria tomando datos de mercado.
+Treasury 1 93,19 7,30%
+En la fig. 10-4 se pude ver una
+Corp o Soberano 1 92,81 7,75%
+curva teórica de spreads de crédi-
+Treasury 2 92,31 8,32%
+to según la calificación.
+Corp o Soberano 2 91,90 8,81%
+Cuanto más baja sea la califica-
+El bono corporativo o soberano se vende a un precio menor
+ción crediticia, mayor pendiente
+para reflejar la probabilidad de que el emisor entre en de-
+tendrá la curva.
+fault. Para que el rendimiento esperado de tener ambos bo-
+En forma similar se suele cons- nos sea igual, el precio del bono corporativo o soberano
+truir la denominada Rating Curve debería ser igual al precio del bono del tesoro americano
+(curva de calificación) (fig. 10-5). por la probabilidad de solvencia (o sea, que no entra en de-
+Se toma un bono similar en plazo fault).
+de diferentes países; se pone el
+Precio del bono corporativo o soberano cupón cero = pre-
+spread para cada calificación cre- cio del bono cupón cero del gobierno americano ¥ (proba-
+diticia y se puede evaluar cuanto
+bilidad de solvencia).
+bajaría o subiría ese spread en ca-
+so de una recalificación crediticia Si Probabilidad de default = (1 – Probabilidad de solvencia),
+entonces:
+A posteriori de explicar la du-
+ration, se volverá sobre el tema Precio del bono corp o sob cupón cero = Precio del bono
+de la curva de rendimientos y có- del gob amer cupón cero ¥ (1 - Prob de default)
+mo se determina empíricamente Así, despejando
+para países emergentes o merca-
+1 - precio bono corp o soberano cupón cero
+dos en donde todos los bonos tie- Probabilidad =
+nen distinta estructura, y qué de default Precio bono cupón cero gob. norteamericano
+modificaciones se deben hacer a
+Para nuestro ejemplo:
+la ETTI pura.
+Prob de default = (1 - 92,81)/93,19 = 0,41% para 1er año,
+¿Existe alguna relación entre la
+forma de la ETTI, la inflación y el y (1 - 91,90)/92,31 = 0,44% para el 2do año.
+ciclo económico? El ciclo econó-
+
+VALUACIÓN DE ACCIONES 361
+En cambio, una curva con pendiente ne-
+gativa se asocia como un indicador de rece-
+siones futuras. Debe tenerse presente que
+esta relación se observa en países en los
+cuales no existe riesgo de default. En aque-
+llos países o mercados con riesgo de default
+la pendiente de la ETTI sólo refleja una si-
+tuación de riesgo. Este concepto se ampliará
+más cuando se desarrolle la ETTI en países
+emergentes.
+Un ejemplo de la capacidad predictiva de
+la ETTI podría consistir en el cálculo de una
+serie histórica del diferencial de tasas de in-
+terés de largo plazo y corto plazo, y su con-
+frontación con la tasa de crecimiento del PBI
+de ese país.
+El 1ro de octubre de 1987 se produce el
+crash en el mercado bursátil, provocando
+sucesivas bajas en las tasas de corto. A pe-
+sar de estas bajas, el diferencial de tasas se
+mantuvo casi constante adelantando una ta-
+sa de crecimiento del producto cercana al
+4% en 1988.
+La recesión de principios de los 90 (suba
+de costos, guerra en oriente medio y caída
+récord en el nivel de confianza del consumi-
+dor) también fue “anunciada” (8 meses an-
+tes) por la curva: en enero de 1989, en pleno
+auge, la tasa de corto plazo habría comenza-
+do a superar a la de largo plazo.
+Vencimiento (años) En 1991 las tasas ya estaban dando una
+pauta de que el fin de la recesión se acerca-
+Esto se puede ver para el período 1979- ba. El spread entre la tasa de corto y largo se
+1996 para los EE.UU., como en la fig. 10-6. incrementó, presagiando la recuperación de
+1992 (2,6%).
+Se puede observar que en junio de 1978,
+en pleno auge de la economía, la curva de Si bien en 1993, el producto continuó in-
+rendimientos empezó a tener pendiente ne- crementándose, comenzó a disminuir el
+gativa, anticipando la recesión que comenzó spread entre las tasas anticipando la política
+en enero de 1980. En octubre de 1982, en más restrictiva que sobrevino en 1994.
+plena contracción, el diferencial de tasas de
+Esto es un ejemplo del poder predictivo
+largo y corto plazo pasó a ser positivo, a me-
+de la curva
+dida que se vislumbraba el fin de la recesión.
+La pendiente de la curva estaba presagiando Debe aclararse que, en general, las tasas
+la fuerte recuperación del producto que se de corto plazo son manejadas por los bancos
+produciría en 1983. centrales, mientras que las tasas de largo
+)stniop
+sisab(
+daerpS
+A A A A A A BBB Duration
+BBB
+A
+AA
+AAA
+RIT
+Cap 10 3/31/04 11:27 AM Page 361
+Fig.
+10 - 5
+Fig.
+10 - 4
+
+Cap 10 3/31/04 11:27 AM Page 362
+362 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+plazo lo son por el mercado: las tasas de cor- o una sola cifra) alrededor de los cuales se
+to plazo están fuertemente influenciadas espera que fluctúe la tasa de fondos federa-
+por las acciones de política monetaria del les de mercado: La Reserva Federal operará
+Banco Central. Por su parte, las tasas de lar- en el mercado abierto con el propósito de
+go plazo comprenden las expectativas que mantener las tasas en esos niveles. La varia-
+tiene el mercado respecto de la inflación y ción resultante induce a que otras tasas de
+el tipo de cambio futuros. En el caso especí- interés de la economía cambien en el mis-
+fico de los EE.UU., la Reserva Federal utiliza mo sentido.
+dos instrumentos de política monetaria: a)
+En el caso de las tasas de largo plazo el bo-
+las operaciones de mercado abierto, b) las ta-
+no más negociado es el de 10 años de plazo:
+sas de descuento (discount rate). Esta última
+hasta 1999 el más negociado era el bono de
+es la tasa a la cual la Reserva Federal presta
+30 años; pero como la Reserva Federal co-
+fondos a los bancos (ya sea por problemas
+menzó a rescatarlo, se vio influenciado por
+temporales de liquidez, por cuestiones esta-
+cuestiones técnicas y fue desplazado por el
+cionales, etc.) y el organismo puede aumen-
+bono a 10 años. A su vez, en otros países
+tarla o disminuirla según sus objetivos.
+también el de 10 años es el más usado.
+La tasa de fondos federales (fed funds ra-
+te) es una tasa libre, no regulada directa-
+10.5 VALUACIÓN DE UN BONO
+mente por la Reserva Federal, y es el precio
+A TASA VARIABLE
+que se paga por el dinero en el circuito in-
+terbancario (usualmente los préstamos por Luego de haber explicado el cálculo de la
+un día, por lo cual también suele denomi- tasa de interés forward o implícita, o sea lo
+narse tasa “overnight”). Si bien esta tasa no que el mercado espera que sean las tasas de
+es controlada directamente por la Reserva interés contado en el futuro, se puede reto-
+Federal, la misma puede dar a conocer de- mar el cálculo del precio de un bono a tasa
+terminados lineamientos (puede ser rangos variable.
+Fig.
+Spread tasa T. bond 30 - Libor 180 d.
+10 - 6
+vs. tasa de crecimiento del PBI de los EE.UU.
+Puntos un año después
+básicos
+800
+¿PBI de 1998?
+600 Recesión-enero 1980
+400
+200
+0
+-200
+-400 Recesión-julio 1990
+-600
+Recesión-julio 1981
+-800 Spread PBI
+-1000
+E E E E E E E E E E E
+S M S M S M S M S M S M S M S M S M S M S M
+n n n n n n n n n n n
+e a e a e a e a e a e a e a e a e a e a e a
+e e e e e e e e e e e
+p y p y p y p y p y p y p y p y p y p y p y
+t o t o t o t o t o t o t o t o t o t o t o
+7 7 8 8 8 8 8 9 9 9 9
+7 9 1 3 5 7 9 1 3 5 7
+Fuente: IAMC
+
+Cap 10 3/31/04 11:27 AM Page 363
+VALUACIÓN DE ACCIONES 363
+Se recordará que el precio de un bono es de cada cupón, según la tasa swap negociada
+el valor actual de los futuros flujos de fon- para el promedio de vida del bono. Como se
+dos. En el ejemplo anterior se suponía un verá más adelante, en el capítulo de deriva-
+bono a 3 años de plazo, bullet, que iba a pa- dos, en el swap se busca una única tasa fija
+gar tasa Libor de un año, sabiendo que la ta- para todo el período que haga equivalente el
+sa actual era 2%. La pregunta que se hacía flujo de tasa fija con el de tasa variable. Esta
+era cuál era el flujo de fondos esperado. equivalencia tiene un costo, ya que la tasa
+variable lleva implícito un riesgo de volatili-
+2 Libor Libor 100 dad De allí surge que la tasa de swap se coti-
+P= + + +
+(1+TIR)1/1 (1+TIR)2/1 (1+TIR)3/1 (1+TIR) za tomando como referencia la tasa del
+correspondiente US Treasury STRIP de un
+bono de similar madurez, adicionándole un
+Dado que los flujos de los años 2 y 3 no se
+spread (por ejemplo, 50 puntos básicos) pa-
+conocen, hay que hacer un pronóstico o pro-
+ra reflejar ese riesgo. El problema con este
+yección de esa tasa para obtener esos flujos.
+método es que a veces no hay swaps para bo-
+Para ello existen distintas metodologías nos mayores de 10 años e incluso los swaps
+de cálculo. estándar se cotizan para Libor de 180 días,
+cuando a veces los swaps requieren Libor de
+10.5.1 Primer método: utilizar 360 días o diferentes. En este ejemplo se de-
+la tasa de interés actual para berían reemplazar los 3 flujos de Libor por
+todos los cupones de renta una única tasa de swap.
+Supone una estructura de tasas de interés
+10.5.3 Tercer método: calcular
+plana. No refleja las expectativas del merca-
+tasas de interés implícitas
+do. Se toma la tasa de interés de contado vi-
+o forwards
+gente y esa tasa se aplica a la totalidad de los
+cupones del bono. Es un método sencillo, Una vez conocidas las tasas de contado es
+pero que no tiene en cuenta la expectativa posible determinar las tasas a futuro usando
+del mercado acerca de la evolución de la el principio de arbitraje entre el mercado de
+curva de rendimientos, dado que se asigna contado y el mercado de futuros. Considere-
+la misma tasa a lo largo de la vida del bono. mos un inversor que tiene las siguientes alter-
+En nuestro ejemplo, a los dos flujos de los nativas: comprar un bono con vencimiento
+años 2 y 3 se le pondría la Libor de hoy, o dentro de 1 año o comprar un bono cuyo
+sea 2%. Este método no es correcto dado que vencimiento opera dentro de 6 meses y rein-
+al no reflejar las expectativas del mercado vertir el resultante por 6 meses más adqui-
+respecto de las tasas de interés futuras no riendo otro bono cuyo vencimiento sea a los
+permite realizar comparaciones coherentes 6 meses subsiguientes de vencido el prime-
+con bonos con cupón de renta fija. ro. Este inversor será indiferente a cualquie-
+ra de las dos alternativas, si ambas producen
+10.5.2 Segundo método: el mismo rendimiento. El inversor tiene co-
+proyectar una única tasa de swap nocimiento de las tasas de contado para 6
+para todo el flujo del bono meses y para 1 año al momento de decidir la
+aproximado por el promedio inversión, pero desconoce la tasa de contado
+de vida del bono para 6 meses que se va a operar dentro de 6
+meses. Para que no haya ningún tipo de ar-
+Supone convertir todos los flujos de tasa
+bitraje, la tasa de 6 meses que se operará
+variable a una única tasa fija. Esto es equiva-
+dentro de 6 meses debe responder a la si-
+lente a decir que se realiza un Swap (pase)
+guiente ecuación.
+de tasas para pasar de un flujo de tasa varia-
+ble a otro de tasa fija determinando el valor (1 + z )2 = (1 + z ) . (1 + ¶ )
+2 1 i 1
+
+Cap 10 3/31/04 11:27 AM Page 364
+364 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Donde: cho activo. En el caso de los instrumentos de
+deuda, dichas medidas de rendimiento espe-
+z = tasa de contado para el plazo de 1
+2 rado son distintas que en el caso de las accio-
+año (efectiva semestral).
+nes, por lo tanto se introducirán las distintas
+z = tasa de contado para el plazo de 6 medidas de rendimiento conocidas.
+1
+meses (efectiva semestral).
+¶ = tasa de futuro presente implícita pa- 10.6.1 Rendimiento corriente
+i 1
+ra dentro de 6 meses, por el plazo de 6 me- (Current Yield)
+ses (efectiva semestral) El rendimiento corriente (RC) de un bono
+se define como el cupón anual corriente del
+Se ve que la fórmula anterior es la misma
+bono dividido el precio de mercado. Hay
+que se usó para calcular las tasas implícitas,
+que tener presente que se debe tomar el pre-
+pero sólo en forma semestral en vez de anual.
+cio de mercado limpio (clean)
+Este procedimiento, como se vio anterior-
+mente, permite calcular toda la estructura RC = Cupón anual corriente/precio
+temporal de tasas implícitas. Por lo tanto, ca-
+Por ejemplo, supongamos que el cupón
+da cupón será reemplazado por la expectati-
+anual corriente de un bono bullet con cupón
+va que se tiene hoy respecto de la tasa de
+a 3 años es 8% y que se vende a un precio en
+interés futura.
+el mercado de 80. El RC será 10%.
+En síntesis, este método permite estimar
+el valor de los cupones de un bono a tasa va- RC = 8/80 = 10%
+riable, pero en función de las expectativas
+Como se puede apreciar, es una medida si-
+del mercado, aspecto que no tiene en cuenta
+milar al dividendo de una acción. ¿Qué signi-
+el primer método. Este método sería el más
+fica esta medida? Mide el rendimiento anual
+adecuado aunque obviamente es más com-
+por intereses que un inversor tendrá en cada
+plejo que el primero o el segundo.
+uno de los años que se posea el bono. Por lo
+tanto, como se aprecia, no toma en cuenta la
+ganancia o pérdida del capital que el inversor
+Para hacer comparaciones entre bonos a tasa va-
+tendría por comprar el bono con un descuen-
+riable y tasa fija,los bonos a tasa variable deben
+to o con un premio por sobre el valor nomi-
+convertirse a tasa fija proyectando la tasa de inte-
+nal. Tampoco toma en cuenta el valor tiempo
+rés esperada para cada uno de los períodos.
+del dinero. En nuestro ejemplo, no se toma
+en cuenta la ganancia de capital anual que se
+Antes de pasar a los distintas medidas de
+obtendrá por comprar el bono a un precio de
+rendimiento de un bono, debe tenerse en
+mercado de 80 y recibir 100 al vencimiento.
+cuenta que un bono que cotiza con un premio
+Como se aprecia, es una medida de rendi-
+o descuento, a medida que pasa el tiempo irá
+miento incompleta. Entonces, si es incomple-
+variando su precio, aun si su rendimiento
+ta, ¿para qué y por qué se usa? Es de utilidad
+permanece constante, porque al vencimien-
+pues: 1) cuando un inversor compra un ins-
+to el precio necesariamente debe ser igual a
+trumento de renta fija, le interesa conocer su
+su valor nominal (fig. 10-7).
+“renta fija” en cada uno de los períodos. En
+nuestro ejemplo seria 10% anual. A su vez,
+muchos inversores para asegurarse un flujo
+10.6 RENDIMIENTO DE UN BONO
+de fondos constante a lo largo de un período,
+Cuando un inversor decide invertir en un por ejemplo 1 año, compran bonos que pa-
+instrumento de deuda, así como en cual- guen cupones en diferentes momentos del
+quier instrumento de riesgo, desea saber año, por ejemplo uno en diciembre y junio, y
+cuál va a ser el rendimiento esperado de di- otro en marzo y septiembre. 2) Muchos inver-
+
+Cap 10 3/31/04 11:27 AM Page 365
+VALUACIÓN DE ACCIONES 365
+sores institucionales, como los FCI, tienen co- c c c
+P= 1 + 2 +...+ n
+mo objetivo lograr un alto ingreso corriente (1+TIR)1/m (1+TIR)2/m (1+TIR)n/m
+con estabilidad de capital. Incluso otros pa-
+gan una renta en forma periódica, por lo que o
+esta medida es importante. Más aun, en aque-
+c c c
+llos lugares en donde estos inversores están P= 1 + 2 +...+ n
+(1+TIR/m)1 (1+TIR/m)2 (1+TIR/m)n
+exentos del impuesto a la renta. 3) Si el RC es
+superior al costo de fondeo, al inversor le re-
+Según la TIR sea anual (TIR) o semianual
+sultará menos oneroso mantener una posi-
+(TIR/m).
+ción comprada, lo que se llama “cost of carry
+positivo” o “costo de acarreo positivo”. El cálculo de la TIR requiere un proceso
+de prueba y error. Lo importante es que esta
+Un detalle adicional es que muchos clien-
+medida de rendimiento tiene en cuenta no
+tes que compran bonos lo hacen por el inte-
+sólo la ganancia por intereses sino la ganan-
+rés que les despierta el cobro de un cupón
+cia o pérdida de capital que el inversor pue-
+alto, cuando en realidad lo que debería inte-
+de tener si mantiene el bono hasta el
+resarles es el rendimiento corriente.
+vencimiento. A su vez, considera el timing
+Por ejemplo, uno puede tener un bono de los flujos de fondos.
+que pague un interés anual del 4%, pero se
+Es de destacar que el cálculo de la TIR re-
+vende a $40, el inversor recibirá periódica-
+cae sobre 3 supuestos fundamentales:
+mente un RC de 10% y no de 4%.
+1. Que el bono se mantiene hasta el ven-
+Para solucionar el problema que tiene esta
+cimiento.
+medida, que es incompleta, se tiene la TIR.
+2. Que se cobran todos los cupones del
+bono.
+10.6.2 Tasa interna de rendimiento
+(yield to maturity) (TIR) 3. Que todos los cupones son reinverti-
+Como se vio al principio del capítulo, la dos a la misma tasa.
+TIR es aquella tasa que iguala el flujo de un Por lo tanto, se puede apreciar que la TIR
+bono con su valor inicial o precio. es un rendimiento esperado sólo si se cum-
+plen los 3 supuestos arriba men-
+Precio
+Premium
+bond Fig.
+cio
+S
+n
+i
+a
+b
+d
+i
+o
+e
+s
+n
+.
+es difícil que alguien
+10 - 7
+se gane la TIR, por cumplimien-
+to de los supuestos anteriores, se
+ganará algo muy similar y es una
+de las mejores herramientas de
+que se dispone para el cálculo de
+rendimiento y para hacer com-
+Par Current coupon bond
+paraciones.
+value
+¿Cuál es la relación entre la ta-
+sa del cupón anual, el rendimien-
+Día de vencimiento
+to corriente y la TIR?
+Día de compra
+Un Par Value (o Current cou-
+pon) Bond es aquel en el cual el
+Discountbond p
+lo
+r
+r
+e c
+n
+i
+o
+o
+m
+d
+i
+e
+n
+m
+al.
+ercado es igual al va-
+
+Cap 10 3/31/04 11:27 AM Page 366
+366 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+P = VN C/VN = C/P = TIR Lo más común en este tipo de bonos es
+calcular la TIR al vencimiento y la yield to
+El bono cotiza al valor nominal pues la ta-
+call, y seleccionar la medida de rendimiento
+sa del cupón es la “JUSTA”, en el sentido que
+más baja que en general será la yield to call,
+iguala la tasa de interés corriente en el mer-
+pues hay que ser conservador en el análisis.
+cado y está representada por la TIR.
+Un Premium Bondtiene un precio de mer- 10.6.4 Stripped yield
+cado que excede el valor nominal.
+Existen algunos bonos en países emer-
+gentes donde una parte está garantizado por
+P > VN C/VN > C/P > TIR
+bonos del tesoro de EE.UU. Este, por ejem-
+El bono cotiza con premio porque la tasa plo, es el caso de los bonos bradies de Argen-
+del cupón es “alta” en relación con la tasa co- tina, como el bono par y bono discount.
+rriente en el mercado. Estos bonos surgieron de la reestructuración
+de la deuda externa Argentina, realizada en
+Un Discount Bond tiene un precio de mer-
+1993, sobre la deuda impaga durante la dé-
+cado menor que valor nominal.
+cada de los 80. La particularidad de estos bo-
+P < VN C/VN< C/P < TIR nos es que el capital final y los 2 primeros
+cupones de intereses están garantizados por
+La tasa del cupón va a ser menor que el bonos del gobierno americano cupón cero,
+rendimiento corriente, el cual va a ser me- que es “libre de riesgo”.
+nor que la tasa interna de retorno.
+Ambos bonos tienen un plazo de vida de
+30 años, son bullet y mientras el bono par
+10.6.3 Yield to call (TIR
+paga una tasa fija semestral de entre el 4% y
+hasta el momento del call)
+el 6%, el bono discount paga una tasa varia-
+Esta medida de rendimiento se usa para ble semestral Libor + 13/16.
+aquellos bonos que pueden ser rescatados
+CAPITAL INTERÉS
+antes del vencimiento. El flujo de fondos
+usado para computar las yield to call son 100 C 1 + C 2
+aquellas que se obtendrán en el caso de que (1+r )30 (1+r )2 (1+r )2
+f f f
+el bono fuese rescatado en la primera fecha
+del call. Por lo tanto, la yield to call es aque-
+En ambos casos, lo que hizo el gobierno
+lla tasa que iguala el valor presente de los
+argentino para garantizar el pago de capital
+flujos de fondos con el precio del bono, si el
+es comprar un bono cupón cero del gobier-
+bono es mantenido hasta la primera fecha
+no americano de Vn = 100, por lo tanto, en
+de poder ejercerse el call
+30 años el bono cupón cero permitirá devol-
+ver el capital. Lo mismo para los dos prime-
+C C C M*
+P= 1 + 2 + + ros cupones de intereses, cuya garantía va
+(1+TIR)1 (1+TIR)2 (1+TIR)n* (1+TIR)n*
+rotando: en la medida que se pague el pri-
+o mer cupón, se garantizan los dos subsiguien-
+tes y así sucesivamente.
+∑ n* C M*
+P= (1+TIR)t + (1+TIR)n* Por lo tanto, en este tipo de bonos un in-
+t=1 versor al comprarlos está adquiriendo dos
+Donde: cosas en uno: por un lado, riesgo americano
+y por el otro, riesgo emergente.
+M* = precio de ejercicio del bono (en $).
+Para poder calcular el rendimiento de la
+n* = número de períodos hasta la prime-
+porción sujeta a riesgo emergente o porción
+ra fecha de call.
+no garantizada, primero se debe sustraer la
+
+Cap 10 3/31/04 11:27 AM Page 367
+VALUACIÓN DE ACCIONES 367
+parte garantizada. El rendimiento o TIR de la y dicho país no quiebra, al realizar los cálcu-
+porción no garantizada es la stripped yield. los de rendimiento al final, dicho inversor
+¿habrá obtenido la stripped yield? La res-
+Para su cálculo, supóngase un bono a 30
+puesta es no, pues es la TIR solamente de los
+años que paga intereses anuales fijos del 6%,
+flujos de la porción no garantizada. El rendi-
+estando garantizados por bonos cupón cero
+miento que obtiene es la TIR de todo el flujo
+del gobierno americano los 2 primeros cupo-
+del bono que se conoce como blended yield.
+nes de intereses y el capital final, y que di-
+cho bono se vende a un valor de 70. A su ¿Existe alguna forma de ganarse la strip-
+vez, la tasa del bono cupón cero a 30 años es ped yield? Sí, debería comprarse el bono con
+5% y 2%, y 2,5% para 1 y 2 años respectiva- garantía y vender simultáneamente un bono
+mente. El flujo de dicho bono se puede es- del tesoro americano o un futuro del mismo
+cribir como sigue: por la parte proporcional de lo que está ga-
+6 6 6 6 rantizado.
+70= + + + +...
+(1+0,02)1 (1+0,025)2 (1+Sy)3 (1+Sy)4
+10.6.5 TIR de un portafolio
+6 6 Para un correcto cálculo de la TIR
+...+ +
+(1+Sy)30 (1+0,05)30 de un portafolio debería determinar-
+se el flujo de fondos de todo el porta-
+Sy = stripped yield folio y determinar aquella tasa que iguale el
+valor presente de los cupones de todos los
+Este bono, que vale 70, tiene 34,73 que es-
+flujos de fondos con el valor de mercado del
+tán garantizados.
+portafolio. Dado que esto puede resultar un
+34,73= 6 + 6 + 100 poco engorroso, una proxy muy usada es es-
+(1+0,02)1 (1+0,025)2 (1+0,05)30 timar el promedio ponderado de la TIR de
+los bonos que componen el portafolio. Los
+Por lo tanto, (70 - 34,73 = 35,26) es la par- resultados son una buena proxy:
+te del precio que no está garantizada.
+TIR = TIR . X + TIR . X +...+ TIR . X
+Calculando la TIR del flujo de fondos de p a a b b n n
+la porción no garantizada respecto del valor o
+del bono neto de la porción garantizada, se
+n
+∑
+obtiene la stripped yield. TIR = TIR × X
+p t t
+6 6 6 t=1
+35,26= + + ...+
+(1+Sy)3 (1+Sy)4 (1+Sy)30
+10.6.6 Rendimiento total
+de un bono (total return)
+Como se puede observar,la stripped yield no es
+A diferencia de la TIR, que supone que to-
+ni más ni menos que la TIR de los flujos de riesgo
+dos los cupones van a ser reinvertidos a la
+soberano o no garantizado.
+misma tasa, el retorno total es una medida
+de rendimiento que incorpora un supuesto
+Obsérvese que en caso de default un bo- explícito respecto de la tasa de reinversión.
+no de estas características nunca valdrá ce-
+El primer paso para calcular el retorno to-
+ro, sino el valor presente de la porción de los
+tal de un bono es calcular el total de dólares
+flujos garantizados.
+futuros que resultará de invertir en un bono
+La pregunta que surge ahora es: supónga- suponiendo una tasa de reinversión. Para di-
+se que un inversor se compra el bono presen- cho cálculo se deben suponer las tasas de
+tado más arriba, lo mantiene al vencimiento reinversión de los cupones que se van colo-
+
+Cap 10 3/31/04 11:27 AM Page 368
+368 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+cando, así como el precio al que se venderá riesgo país, es que debe pagar por endeudar-
+el bono al final del período del horizonte de se en el mercado 6% más que el rendimien-
+inversión. Dicho valor se debe aplicar sobre to de un bono cupón cero del gobierno
+la inversión inicial. americano de plazo equivalente.
+En fórmula se tiene:
+10.7.1.1 ¿Cómo se mide el riesgo
+  1/h en los países emergentes? El EMBI,
+Retorno $ totales a futuro
+=   - 1 el EMBI+ y el EMBI Global
+total  Precio de compra del bono 
+El banco de Inversión JP Morgan* Chase
+desde 1990 que viene publicando 3 índices
+Donde h es el número de años del hori-
+importantes que son usados como índices de
+zonte de inversión. Dicha fórmula dará el
+referencia para aquellos inversores que in-
+rendimiento total anual de la inversión.
+vierten en los países emergentes, así como
+para la determinación de las mediciones del
+10.7 SPREADS DE BONOS riesgo país.
+Como se vio en la estructura temporal de El Emerging Market Bond Index (EMBI)
+bonos de riesgo de crédito, es necesario cal- es un índice de rendimiento total que inten-
+cular el spread sobre una tasa libre de riesgo ta replicar el mercado negociado de bonos
+que se toma como base para saber el nivel bradies denominados en dólares y otros bo-
+de tasas que ofrece dicho crédito, o, en el ca- nos soberanos reestructurados similares. El
+so de un país, para saber el riesgo país. La EMBI fue construido, comenzando el 31 de
+medida más utilizada es el spread sobre los diciembre de 1990, usando la metodología
+US Treasury STRIPS: Esta medida es la dife- adaptada del índice de bonos gubernamen-
+rencia entre la TIR de un bono y la TIR de tales de JP Morgan. El objetivo fue crear un
+un bono cupón cero del gobierno de EE.UU. índice de referencia que en forma precisa y
+de igual plazo. Para el caso de los bonos ga- objetiva reflejara el rendimiento producido
+rantizados, se toma la stripped yield, obte- por las ganancias de precios y los ingresos
+niéndose lo que se conoce como stripped por intereses de un portafolio “pasivo” de los
+spread y sirve para medir el riesgo país de la bonos de mercados emergentes negociados;
+parte no garantizada. Es muy común expre- o sea, para aquellos inversores que siguen
+sar este spread en puntos básicos. Debe te- un índice. El índice EMBI es construido co-
+nerse en cuenta que 100 puntos básicos es mo un promedio ponderado por la capitali-
+equivalente a 1% de tasa de interés. Por lo zación del mercado y totalmente invertido
+tanto, si un país tiene 600 puntos básicos de en cada uno de los momentos. Los rendi-
+Como se dijo anteriormente, un CÁLCULO DEL RENDIMIENTO convertir el bono en accio-
+bono convertible es un portafo- DE UN BONO CONVERTIBLE nes, por lo que debe abonar
+lio de dos instrumentos: a) un por este derecho de alguna
+POR ACCIONES
+bono directo y b) un warrant. manera. Generalmente la pri-
+Warrant: es un call, pero escrito sobre nuevas ac- ma abonada está expresada en el cupón del con-
+ciones de la empresas (el call es sobre acciones ya vertible, que es menor al de un bono de similares
+existentes). De todas formas está perfectamente características pero que no se puede convertir.
+correlacionado con un call, por lo que se valúa
+Véase el siguiente ejemplo de cálculo:
+de forma similar a aquél.
+(cid:127) Supuestos:
+El inversor que compra un bono convertible está
+adquiriendo, como se dijo antes, el derecho a Madura en 25 años, cuando puede convertirse
+
+Cap 10 3/31/04 11:27 AM Page 369
+VALUACIÓN DE ACCIONES 369
+Tasa libre de riesgo Rf = 14,5% (tasa de bono del Q1 = 61,991% y Q2 = 38,009%
+tesoro americano de 25 años) Conozco Kb = 17% sobre la base de preimpues-
+Tasa del cupón del convertible Rc = 10% tos o 17% X (1 - t) si le descuento los impuestos,
+Tasa de mercado Rb (a la que se descuenta un por lo que el único dato faltante es Kw, el costo
+bono similar no convertible) = 17% del capital del warrant.
+Precio de conversión S = $28 (por cada 1.000 VN Para estimar Kw utilizo el CAPM, por lo que se
+de bono se recibe 35,71 acciones) puede aproximar dicho costo sobre la base de la
+siguiente recta:
+Precio de la acción hoy P = $25
+Kw = Rf + [E(Rm) – Rf] X beta (warrant)
+Retorno esperado del mercado E(Rm) = 20,6%.
+Se puede aproximar con la suma de la tasa de Se ha dicho que un warrant está perfectamente
+crecimiento real de la economía más un ajuste correlacionado con un call; en este caso, con un
+por tasa de inflación esperada más un “precio del call a 25 años el precio de ejercicio es 28. Por lo
+riesgo” tanto, restaría calcular el beta del call menciona-
+do. Esto puede hacerse considerando la siguien-
+Beta (acción ) = 1,5 (la de la acción a convertir)
+te fórmula:
+Volatilidad de la acción = 30%
+Beta (warrant) = Beta (call) = N(d1) X P/C X Beta
+No hay dividendo y se convierte en bloque
+(acción)
+La valuación requiere el uso de dos modelos: uno
+Donde d1 = {[ln (P/S) + Rf * T]/VOLAT X*÷T)]} +
+de valuación de opciones (Black-Scholes, modelo
+{1/2 VOLAT * ÷T}
+binomial, etc.) y el Capital Asset Pricing Model
+Donde T está expresado en años (aquí T = 25) y
+(CAPM), ya que
+N(d1) es el valor correspondiente a la tabla de dis-
+C = B + W,
+tribución normal acumulativa; C es el valor del
+El convertible es un bono común más un wa- call estimado por cualquiera de los métodos des-
+rrant, por lo que el costo del capital de un con- criptos.
+vertible será la suma ponderada del costo del
+En este ejemplo se halló un valor del call de
+bono y del warrant:
+24,74 y un valor para d1 de 3,09114, al que le
+Kc = Kb X Q1 + Kw X Q2 corresponde un N(d1) de 0,999, por lo que
+donde Q1 corresponde a la porción del bono in- Beta (warrant) = 25/24,74 X (0,999) X 1,5 =
+cluida en el convertible y Q2 a la del warrant: 1,514
+Q1 = B/(B + W) Q2 = W/(B + W) Por lo que
+Para estimar B, simplemente descuento los cupo- Kw = 14,5% + (20,6% - 14,5%) 1,514 = 23,74%
+nes del convertible y su capital final de $1.000 a
+De donde surge un costo del capital para el con-
+la tasa de mercado del 17%, lo que me da un va-
+vertible de:
+lor presente del bono de:
+Kc = 17% X 0,61991 + 23,74% X 0,38009 =
+B = 619,91, por lo que
+19,56%
+W = 1.000 - B = 380,09
+Nótese que dicho costo casi duplica al del cupón
+Por lo que del convertible (10%).
+mientos de los bonos individuales son calcu- mente ponderando el rendimiento de los bo-
+lados basándose en los cambios de precios nos en la proporción de su capitalización de
+compradores sobre una base diaria, así como mercado.
+del interés ganado de acuerdo con el cupón En lo que se refiere a cuáles son los crite-
+devengado y las convenciones de pago. El rios aplicados para que un bono sea incluido
+rendimiento total del EMBI se calcula diaria- en el índice, caben citar 2 criterios de elegibi-
+
+Cap 10 3/31/04 11:27 AM Page 370
+370 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+lidad: los bonos deben estar denominados en o mayor por 3 meses consecutivos, o L3 o
+dólares y tener un mínimo de emisión rema- mayor por 6 meses consecutivos.
+nente de $500 millones. Dado que las emi-
+Para que un bono pueda ser excluido del
+siones del EMBI están limitadas a bonos
+índice EMBI+/EMBI debe calificar como L4
+líquidos, cada uno de ellos puede ser com-
+por 6 meses consecutivos o L5 por un mes.
+prado y vendido de inmediato y cuentan con
+cotización diaria a través de diversos hacedo-
+10.7.1.3 Reglas adicionales
+res de mercados (market makers) con un
+spread de compra/venta bajo. Así, el EMBI Un bono puede adicionarse al índice si su
+resulta ser un índice de referencia replicable plazo de vida remanente hasta el vencimien-
+contra el cual la performance de un inversor to es mayor que 2,5 años. Una vez que está
+puede compararse de una manera realista. en el índice, debe permanecer allí hasta 1 año
+El EMBI+, introducido en 1995 con datos antes se su vencimiento, suponiendo que
+desde el 31 de diciembre de 1993, fue creado reúne los criterios de liquidez (cuadro 10-1).
+para cubrir la necesidad de los inversores de
+• El EMBI+ y el EMBI tiene un techo credi-
+contar con un índice de referencia más am-
+ticio de BBB+/Baa1. Cuando a un país le
+plio que el provisto por el EMBI, al incluir los
+es asignada una calificación A-/A3 o ma-
+bonos globales y otra deuda voluntaria nue-
+yor por S&P o Moody’s respectivamente,
+va emitida durante los 90. Para poder incluir
+es excluido del índice a fin del mes del re-
+otros mercados en el más amplio EMBI+,
+balanceo.
+fue necesario relajar los estrictos criterios de
+liquidez contenidos en el EMBI. Desde el 30 • Una vez excluido de cualquiera de los ín-
+de septiembre de 1998 el EMBI y el EMBI+ dices el bono no puede reentrar por los
+usan el mismo criterio para adicionar o su- próximos 12 meses.
+primir instrumentos del índice, implicando
+algunas modificaciones a las reglas del EMBI
+que son designadas para proveer estabilidad 10.8 RIESGOS IMPLÍCITOS DE LA
+adicional a la composición del índice duran- INVERSIÓN EN BONOS
+te condiciones de mercado volátiles. Al invertir en bonos el inversor se enfren-
+El EMBI Global, introducido en julio de ta a 2 riegos básicos: 1) la fluctuación del
+1999, expandió la composición respecto de su precio, si el tenedor no está dispuesto a te-
+predecesor, el EMBI+, usando otro proceso ner el título hasta el vencimiento y 2) el ries-
+de selección de países y admitien- go de crédito, o sea que el deudor no pague
+do instrumentos menos líquidos.
+En vez de seleccionar países según ¿Dónde se pueden encontrar los EMBI?
+un cierto nivel de calificación cre-
+Prensa financiera
+diticia soberano, como se hace con
+el EMBI+, el EMBI Global define Barron’s semanal
+mercados de países emergentes IFR semanal
+con una combinación de ingreso
+Servicios de noticias de mercado Ticker/Página
+per capita definido por el Banco
+Mundial y la historia de reestructu- Bloomberg diariamente JPMX <go>
+ración de deuda de cada país. Reuters diariamente EMBI
+Telerate diariamente 1787
+10.7.1.2 Criterios de liquidez
+Servicios cuantitativos
+Para que un bono pueda ser adi-
+cionado al EMBI+/EMBI, debe ca- DRI diariamente
+lificar como: L1 por un mes, o L2 Datastream diariamente
+Ibbotsen Associates mensualmente
+
+Cap 10 3/31/04 11:27 AM Page 371
+VALUACIÓN DE ACCIONES 371
+Cuadro
+interés estuviesen en un
+10-1
+3%, dicho inversor no es-
+taría dispuesto a vender
+sus títulos a valor par sa-
+Definiciones de calificación de liquidez
+biendo que luego tendría
+Mínimo monto que invertir el resultante
+en circulación Promedio de spread a una tasa menor, por lo
+remanente entre compra y venta Cotizado por:
+cual pedirá por sus títu-
+L1 2.000 mm < 3/8 punto Todos los corredo- los un mayor valor que
+res designados compense la perdida que
+representa reinvertir a
+L2 1.000 mm < 3/4 punto Por lo menos la mi-
+tad de los corredo- una tasa menor. Ya que
+res designados el precio del bono fluc-
+túa en forma inversa a
+L3 500 mm < 1 1/2 puntos Por lo menos un
+las tasas de interés, el
+cuarto de los corre-
+riesgo derivado en la
+dores designados
+fluctuación de las mis-
+L4 500 mm < 3 puntos Por lo menos 1 co-
+mas se denomina riesgo
+rredor designado
+de tasa de interés. En con-
+L5 500 mm > 3 puntos No cotizado por diciones normales este
+ninguno de los co- tipo de riesgo es el que
+rredores designados
+más afecta al precio de
+los títulos en el mercado
+de bonos.
+la obligación contraída al vencimiento. Estos
+Impacto en bonos con opciones. Dependien-
+riesgos a su vez se descomponen en varias
+do de la dirección en que las tasas varíen,
+categorías, ya que la fluctuación de los pre-
+afectarán en forma distinta a los títulos con
+cios dependen de varias variables y la posi-
+opciones que a los libres de opciones. Por
+bilidad de que el emisor no responda a la
+ejemplo, si las tasas de interés declinan, el
+deuda puede ser causal de varios motivos.
+aumento en el precio de un callable bond se-
+rá menor que el de un bono de las mismas
+10.8.1 Riesgo de variación
+características sin opciones. Asimismo, en
+en las tasas de interés
+los casos de bonos con caps, floors o collars,
+Como se verá mas adelante, el precio de la variación en las tasas puede disparar la
+un bono (a tasa fija) depende de las tasas de restricción afectando el precio de los mis-
+interés que se negocian en el mercado. Su re- mos en forma distinta a un bono de simila-
+lación con la misma es inversa, ya que si las res características sin opciones
+tasas aumentan, el precio del bono disminu-
+Como consecuencia del riesgo de crédito,
+ye, y viceversa. Como primera aproximación,
+aquellos bonos que tienen similar estructura
+si tenemos un inversor que posee un bono
+se negocian a tasas diferentes, por lo cual el
+cuyo cupón devenga un 5% y las tasas en el
+efecto que surge de variaciones en las tasas
+mercado están en un 7%, si el mismo quiere
+de interés los afectan de manera diferente.
+deshacerse de sus tenencias y reinvertir el re-
+sultante a la tasa que rige en el mercado, ten- En el caso de títulos a tasa variable, la va-
+dría que vender el título debajo de la par, ya riación en el precio como consecuencia de la
+que no encontraría ningún inversor dispues- fluctuación de las tasas de interés es conside-
+to a comprar un activo que rinde un 5% exis- rablemente menor. Generalizando, sin tener
+tiendo otras alternativas de inversión que en cuenta el riesgo de crédito, un título a ta-
+rinden un 7%; análogamente, si las tasas de sa variable al momento de pago de cupón (ex
+
+Cap 10 3/31/04 11:27 AM Page 372
+372 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+cupón) cotiza a valor par; luego, dependien- todas las tasas se mueven en la misma cuan-
+do de las oscilaciones en la tasa de interés en tía y en la misma dirección, lo que se deno-
+el mercado, éste cotizará sobre la par, bajo la mina cambios paralelos en la ETTI. Asumir
+par o a la par, llegando a cotizar a la par al que ésta se mueve en forma paralela repre-
+momento de pago del próximo cupón. La senta sólo una aproximación a fin de evitar
+fluctuación que se da en el intervalo de pago la complejidad de analizar las variaciones en
+entre un cupón y otro se debe principalmen- los precios ante los movimientos no parale-
+te a que como el cupón de un título a tasa va- los de la ETTI.
+riable se determina según la tasa de mercado
+antes del pago del cupón, y ésta rige para to-
+10.8.2 Riesgo de reinversión
+do el periodo de pago del mismo (no así para
+Cuando se negocia un bono, lo que se es-
+los próximos), las fluctuaciones que se den
+tá negociando es la tasa de rendimiento que
+entre la fecha de pago de este cupón y el pró-
+dicha inversión nos proporcionará. Por
+ximo afectarán el precio, solamente por la di-
+ejemplo, podemos adquirir un bono cuya
+ferencia de tasa que existe entre este cupón
+rentabilidad será 10%; lo que nos está indi-
+y la tasas en el mercado en el momento de
+cando esto es que hasta la fecha de venci-
+valuación, no afectando a los sucesivos cupo-
+miento este titulo nos arrojará una ganancia
+nes (como ocurre en el caso de un título a ta-
+del 10% efectivo periódico. Como se vio, es-
+sa fija). El efecto de ésta depende del tiempo
+ta tasa de rentabilidad tiene un supuesto
+que transcurra hasta realizar el próximo pa-
+muy importante para que se cumpla: que los
+go en el que se determinará la nueva tasa.
+cupones restantes se reinviertan a la misma
+La medida de riesgo de tasa de interés por tasa. Como las tasas en el mercado fluctúan
+excelencia es la duration, la cual se desarro- constantemente y por lo tanto el precio de
+llará adelante. los títulos también, es factible que los próxi-
+mos cupones que un bono pague no se rein-
+10.8.1.1 Variaciones no viertan a la tasa de rendimiento a la cual se
+homogéneas en la estructura adquirió el título: a esto se lo denomina ries-
+temporal de las tasas de interés go de reinversión.
+En el punto precedente se explicó que el
+10.8.3 Riesgo de ejercicio
+precio de un bono está sujeto a variaciones
+de un callable bond y riesgo
+derivadas de las oscilaciones en la tasa de
+de prepago (prepayment risk)
+mercado. Esto es así en forma general, pero
+en la realidad no tenemos una sola tasa sino Los bonos que incluyen la opción para el
+una diversidad de tasas negociadas hoy para emisor de amortización total o parcial (pre-
+distintos plazos (tasas contado) y un conjun- payment option) o un call provision conlle-
+to de tasas que se están negociando hoy para van un riesgo adicional, que es el de que el
+períodos futuros (forward rates). Al conjunto emisor ejerza su derecho. De ser así, para el
+total de estas tasas, como se vio, se lo deno- tenedor tienen las siguientes desventajas.
+mina estructura temporal de las tasas de in-
+• El patrón de flujos de fondos de estos bo-
+terés (ETTI). Como en la ETTI las tasas no
+nos es desconocido para el inversor ya
+varían todas siempre en la misma cuantía ni
+que éste no sabe, a la fecha de adquisición
+en la misma dirección, el punto en cuestión
+del mismo, si el emisor ejercerá su dere-
+es que la variación en el precio de un título
+cho o no.
+dependerá de la estructura del mismo y de
+su exposición frente a la ETTI, lo que deno- • Como el inversor ejercerá el derecho
+minamos riesgo de curva de rendimientos cuando las tasas en el mercado estén por
+(yield curve risk). La implicación de ésta es debajo de las tasa de cupón, el mismo es-
+que el riesgo de tasa de interés asume que tá sujeto al riesgo de reinversión.
+
+Cap 10 3/31/04 11:27 AM Page 373
+VALUACIÓN DE ACCIONES 373
+• La apreciación potencial del precio de es- nir como la tasa mínima que un inversor es-
+tos bonos se ve reducido frente aquellos tá dispuesto a invertir por considerar que la
+bonos con las mismas características y li- misma es una inversión segura; por otra
+bres de opciones. parte, tenemos la prima de riesgo, que es la
+tasa adicional que un inversor demanda por
+Por estas desventajas el tenedor de un ca-
+el riesgo que incurre. El credit spread no es
+llable bond está sujeto a lo que se denomina
+ni mas ni menos que la prima de riesgo. El
+call risk y el tenedor de un bono con una op-
+riesgo es que aumente o disminuya y se lo
+ción de prepago (prepayment option) está su-
+denomina credit spread risk. Este riesgo exis-
+jeto al riesgo de prepago (prepayment risk).
+te para un emisor en particular, para un sec-
+tor de la economía o para una economía en
+10.8.4 Riesgo de crédito sí misma. Un ejemplo muy evidente es el
+Un inversor que otorga un préstamo me- caso de los títulos emitidos por la Republica
+diante la adquisición de un bono está sujeto Argentina, los cuales, medidos por el índice
+al riesgo de crédito, el cual implica la pérdida de riesgo país aumentaron de 800 puntos a
+del monto invertido debido a que el emisor, principios de 1990 hasta 6.000 a mediados
+por el motivo que fuere, no cancela la obli- de 2002.
+gación contraída. Lo podemos clasificar en
+10.8.4.3 Riesgo de disminución
+tres tipos.
+de calificación (downgrade risk)
+10.8.4.1 Riesgo de cesación de La misma calificadora de riesgos que
+pago (default) o de insolvencia evalúa el riesgo de default periódicamente
+pueden aumentar, mantener o disminuir
+El riesgo de default se define como el que
+las calificaciones según lo que muestran los
+corre el inversor de que el emisor del título
+indicadores de calidad crediticia. Una dis-
+no pueda hacer frente a sus obligaciones en
+minución en la calificación implícitamente
+tiempo y forma. Generalmente cuando un
+afecta el precio, debido a que dicha emisión
+emisor entra en default, el tenedor no pier-
+tiene asociado un riesgo mayor. Asimismo,
+de todo el monto invertido, ya que en la ma-
+ciertos inversores institucionales y fondos
+yoría de los casos se refinancia la obligación,
+de inversión solamente pueden invertir en
+ya sea mediante otro bono o mediante otro
+títulos con una calificación mínima deter-
+instrumento, aplicándole una cierta quita al
+minada, por lo cual si la emisión que man-
+capital adeudado (tasa de recupero). El ries-
+tienen estos inversores en cartera sufriera
+go de default es juzgado por las calificacio-
+una baja de calificación por debajo de los
+nes de calidad que hacen las calificadoras
+parámetros requeridos, estos inversores se
+de riesgo, como Moody’s Investor Service,
+verían obligados a vender todas sus tenen-
+Standard and Poor’s Corporation y Duff and
+cias de esa emisión afectando el precio del
+Phelps, entre otras, así como por los princi-
+mismo (por lo general son grandes fondos
+pales departamentos de crédito de los ban-
+de inversión o de pensión que tienen gran-
+cos de inversión.
+des cantidades en cartera, por lo cual la
+venta masiva de los títulos afectan de man-
+10.8.4.2 Spread por riesgo de
+era considerable el precio a la baja). El ries-
+crédito (credit spread risk)
+go al que un inversor está expuesto de que
+Al analizar el riesgo de tasa de interés lo una emisión en particular sufra una baja de
+relacionamos en forma directa con las varia- calificación se denomina Downgrade risk y
+ciones en las tasas del mercado. Dichas va- el mismo está relacionado de cerca con el
+riaciones se pueden descomponer en dos credit spread risk, ya que si el primero au-
+partes: por un lado tenemos la variación en menta, el segundo en consecuencia tam-
+la tasa libre de riesgo, la cual podemos defi- bién lo hará.
+
+Cap 10 3/31/04 11:27 AM Page 374
+374 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+10.8.5 Riesgo de iliquidez 10.8.7 Riesgo de inflación
+o de disminución en el
+Cuando un inversor desea vender un bo-
+poder de compra
+no antes de la fecha de vencimiento, sabe
+que podrá realizarlo a un precio cercano al El riesgo de inflación o de disminución
+de cotización que rija a la fecha. Dentro del del poder de compra surge debido a la varia-
+mercado para un activo determinado existe ción que sufre el flujo de fondos que deven-
+lo que se llama “bid price”, que es el precio garáel bono, medido en moneda homogénea.
+al que los operadores están dispuestos a Por lo cual, frente a un contexto inflaciona-
+comprar, y el “ask price” que es el precio al rio los futuros pagos que generará un bono
+que los mismos están dispuestos a vender. en particular serán erosionados, obteniendo
+Cuando el mercado se torna ilíquido estos un rendimiento menor en términos reales.
+dos precios difieren sustancialmente, no pu- Para protegerse de la inflación en los EE.UU.
+diéndose efectuar operación alguna hasta existen los denominados TIPS, que son bo-
+que alguna de las partes ajusta su precio a lo nos del tesoro americano ajustados por la in-
+requerido por la otra. Asimismo, el tiempo flación, lo que permite evitar este riesgo.
+que demora realizar la transacción aumenta
+considerablemente respecto del que demo- 10.8.8 Riesgos eventuales
+raría en una situación de liquidez. El riesgo
+de iliquidez es el que un inversor tiene al Dentro de esta clasificación están aque-
+querer liquidar su tenencia y no poder reali- llos riesgos que no derivan de los factores
+zarla en forma inmediata, teniendo que ven- que se dan en la economía y que pueden
+der por un precio muy inferior al precio de afectar una emisión en particular, un sec-
+cotización. En general el mercado se torna tor de la economía o toda una economía en
+muy ilíquido cuando la volatilidad en los sí. Como ejemplos podemos citar desastres
+precios es muy alta, y se da en forma cons- naturales (terremotos, inundaciones, hura-
+tante para algunas emisiones que de por sí canes, etc.), guerras, ataques terroristas,
+no tienen liquidez, ya sea porque el monto cambios en las regulaciones o cambios polí-
+en circulación es muy pequeño o porque la ticos profundos que pongan en una situa-
+mayoría de la emisión fue absorbida por ción de imposibilidad de cumplir con sus
+grandes inversores los cuales están dispues- obligaciones a determinados sectores o
+tos a mantenerla hasta la fecha de venci- afecten toda la economía, como en Argenti-
+miento. Una medida de las condiciones de na a principios de 2002. También es un ries-
+liquidez es el “market bid-ask” spread (spread go latente para el caso de bonos corporativos
+de mercado entre compra y venta) y el mis- cuando se producen compras hostiles y
+mo es la diferencia entre la mejor oferta de reestructuraciones que alteran la capacidad
+venta y la mejor oferta de compra. del emisor del repago en las condiciones
+pactadas.
+10.8.6 Riesgo de tipo de Dentro de este tipo de riesgos se puede
+cambio incluir el riesgo de refinanciación, o sea,
+aquel que se corre por no poder refinanciar
+Aquellos bonos cuyos pagos no son reali-
+la deuda una vez vencida.
+zados en la moneda doméstica del país del
+tenedor hacen que éste no sepa con certeza Con el fin de medir el riesgo de refinan-
+su valor, el cual dependerá del tipo de cam- ciación, a mediados de 2001 el grupo San-
+bio al momento de cada pago. El flujo de tander comenzó a publicar una serie de
+fondos generado por el título es indepen- indicadores para las empresas argentinas,
+diente del tipo de cambio de la moneda del muchas de las cuales terminaron refinan-
+país del inversor, lo que genera un riesgo ciando su deuda. Véase el apartado que si-
+adicional llamado riesgo de tipo de cambio. gue para esa fecha.
+
+Cap 10 3/31/04 11:27 AM Page 375
+VALUACIÓN DE ACCIONES 375
+Debe aclararse que a la par de que ningu- minos generales, ya en esa época se podía
+no de los indicadores expuestos más arriba argumentar mediante estos ratios que el sec-
+debe ser leído de manera aislada, los mis- tor corporativo presentaba un alto riesgo de
+mos por supuesto no intentan agotar la per- refinanciación, que finalmente ocurrió.
+cepción sobre la empresa. Ahora bien, si de
+Uno de los riesgos que más desvela a los
+la lectura de la tablas se puede encontrar pa-
+inversores es el riesgo de crédito, en especial
+ra dicho período que 17 de las 28 compañías
+el riesgo de que el país en que se invierte en-
+analizadas mostraban un ratio de cobertura
+de intereses mayor a 2x, mientras que sí se tre en default. Visto de otra manera, lo que
+observaba el ratio de disponibilidad inme- también desvela es cuál es el spread sobera-
+diata, tan sólo tres del total mostraban un no de equilibrio. El nivel de spread justo será
+número mayor que 1x. Respecto del ratio de una función de la probabilidad de que dicho
+liquidez, sólo cinco empresas de las analiza- país defaultee sus obligaciones externas. La
+das (Clisa, Imasac, Impsat, Telecom y TGS) probabilidad estará en función de variables
+mostraban un número mayor que 1x. En tér- relacionadas con la solvencia del país, liqui-
+El objetivo de los indicado- RIESGO DE REFINANCIACIÓN mostrar la disponibilidad in-
+res a mostrar es dar a cono- Y LIQUIDEZ mediata de efectivo de la
+cer la posición de liquidez compañía para afrontar el pa-
+que tienen las compañías así como también ob- go de intereses. Finalmente el ratio de liquidez es
+tener alguna conjetura sobre las necesidades fi- un indicador de corto plazo que mezcla los con-
+nancieras de las mismas en el corto plazo. Se ha ceptos de liquidez inmediata (caja más inversio-
+remitido a los últimos balances presentados en nes de corto plazo) y generación de caja (EBITDA)
+la Bolsa de Comercio de Bs. As. Se trata de un en relación a la deuda de corto plazo y los intere-
+análisis estático. ses que la compañía debe pagar.
+El difícil acceso al crédito en el que se ha visto en- Este último ratio es el que mejor refleja la necesi-
+vuelto el mercado de deuda corporativa durante dad de refinanciación de una compañía. Cuanto
+los últimos meses ha incrementado sustancial- menor es el mismo, mayor es la necesidad de refi-
+mente el riesgo de refinanciación, haciendo que nanciación y mayor el riesgo en términos de ese
+la liquidez de las compañías cobre mayor relevan- concepto. Sin embargo existen algunos atenuan-
+cia a la hora de evaluar si pueden o no enfrentar tes. En el caso de aquellas compañías con un ba-
+sus compromisos de deuda especialmente en el jo índice de liquidez pero cuya composición
+corto plazo. accionaria mayoritaria pertenece a grandes gru-
+Se focaliza el análisis en tres ratios: pos extranjeros, el riesgo de refinanciación tiende
+a ser menor. Como contraparte de un bajo índice
+1. cobertura de intereses: EBITDA sobre intere-
+de liquidez, un alto nivel del mismo puede en al-
+ses, entendiendo por EBITDA al beneficio de
+gunas circunstancias no necesariamente implicar
+la compañía antes de intereses, impuestos y
+buenas noticias. Podría darse el caso en el que
+amortizaciones.
+una compañía se haga de liquidez para enfrentar
+2. disponibilidad inmediata: caja más inversiones
+un posible concurso de acreedores. También,
+de corto plazo sobre intereses.
+aunque este enfoque es más propio del analista
+3. liquidez: EBITDA más caja sobre deuda de cor- de acciones que del de renta fija, no podemos ol-
+to plazo más intereses. vidar que el exceso de caja en la empresa habla
+El primer ratio muestra la generación de caja co- de una cierta desconfianza de los accionistas pa-
+mo cobertura del resultado financiero generado ra con su propio negocio. >
+por pasivos, mientras que el segundo trata de
+
+376 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+seseretni
+ed
+arutreboc
+y
+adued
+,sedadilibinopsiD
+)%(
+PC
+vnI
++
+ajaC
+)llim
+s$u(
+adueD
+/ADTIBE
+ograL
+adueD
+otroC
+adueD
+latoT
+ograL
+adueD
+otroC
+adueD
+PC
+vnI
++
+ajaC
+aíñapmoC
+seseretnI
+ozalP
+ozalP
+ozalP
+ozalP
+lliM
+s$u
+mirT
+ahceF
+)ecb
+omitlÚ(
+11,2
+%7,2
+%9,5
+4,773
+6,752
+8,911
+01,7
+3T
+10-ram
+)snoC(
+nicA
+10,2
+%7,0
+%7,9
+5,005
+9,464
+6,53
+05,3
+2T
+10-nuj
+loS
+leD
+.uA
+97,1
+%6,1
+%6,5
+6,138
+6,146
+0,091
+06,01
+2T
+10-nuj
+nóisivelbaC
+20,01-
+%0,81
+—
+0,512
+0,512
+0,0
+08,83
+2T
+10-nuj
+ITC
+86,2
+%7,7
+%0,01
+1,826
+7,453
+4,372
+03,72
+2T
+10-nuj
+ocsiD
+94,5
+%9,9
+%8,61
+8,455
+8,843
+0,602
+06,43
+2T
+10-nuj
+ronedE
+94,0
+%3,1
+%6,21
+6,992
+1,751
+5,241
+08,1
+2T
+10-nuj
+ograF
+62,4
+%0,2
+%0,7
+5,993
+4,903
+1,09
+03,6
+2T
+10-nuj
+sagorteM
+2,2
+%2,3
+%9,6
+6,415
+0,053
+6,461
+03,11
+2T
+10-nuj
+mocivoM
+93,2
+%2,2
+%6,2
+9,928
+0,054
+9,973
+09,9
+2T
+10-nuj
+lanacitluM
+82,1
+%4,5
+%8,11
+8,866
+6,854
+2,012
+08,42
+2T
+10-nuj
+etroN
+4,2
+%3,81
+%5,33
+0,9252
+0,7361
+0,298
+00,992
+2T
+10-nuj
+)snoC(
+CP
+41,0
+%6,6
+%0,21
+5,091
+5,221
+0,86
+01,8
+3T
+10-ram
+rocnaS
+88,0-
+%9,4
+%3,31
+2,591
+5,241
+7,25
+00,7
+2T
+10-nuj
+ocediS
+41,5
+%9,5
+%5,22
+0,2452
+0,7102
+0,525
+00,811
+2T
+10-nuj
+moceleT
+12,9
+%4,2
+%6,1
+0,0412
+0,068
+0,0821
+00,12
+3T
+10-nuj
+acinófeleT
+62,4
+%4,1
+%9,21
+2,9401
+2,549
+0,401
+05,31
+2T
+10-nuj
+SGT
+95,31
+%0,3
+%3,1
+0,1982
+0,548
+0,6402
+00,52
+2T
+10-nuj
+FPY
+rednatnaS
+opurG
+-
+oíR
+ocnaB
+:etneuF
+Cap 10 3/31/04 11:27 AM Page 376
+
+VALUACIÓN DE ACCIONES 377
+Fuente:
+Banco
+Río
+-
+Grupo
+Santander
+YPF
+0,21
+1,79
+0,75
+0,01
+0,76
+0,22
+0,31
+TGS
+0,29
+5,32
+1,31
+0,09
+1,40
+0,09
+0,94
+Telefónica
+0,20
+2,23
+0,69
+0,02
+0,71
+0,46
+0,77
+Telecom
+1,16
+4,85
+0,84
+0,19
+1,03
+0,22
+1,08
+Sideco
+0,38
+-12,00
+-0,23
+0,10
+-0,13
+0,16
+0,59
+Sancor
+0,24
+41,24
+0,05
+0,08
+0,13
+0,24
+0,68
+PC
+(Cons)
+2,41
+8,49
+0,29
+0,29
+0,58
+0,31
+0,89
+Norte
+0,52
+10,85
+0,24
+0,10
+0,34
+0,33
+1,06
+Multicanal
+0,18
+6,40
+0,30
+0,02
+0,32
+0,93
+2,03
+Movicom
+0,35
+7,25
+0,36
+0,06
+0,42
+0,36
+1,12
+Metrogas
+0,42
+6,19
+0,61
+0,06
+0,67
+0,15
+0,66
+Fargo
+0,16
+28,45
+0,21
+0,07
+0,28
+0,22
+2,39
+Edenor
+1,31
+3,82
+0,62
+0,15
+0,77
+0,22
+0,60
+Disco
+0,58
+5,00
+0,39
+0,09
+0,48
+0,62
+1,43
+CTI
+2,67
+-1,48
+-10,02
+2,67
+-7,35
+0,00
+0,41
+Cablevisión
+0,18
+8,11
+0,41
+0,04
+0,45
+0,38
+1,67
+Au.
+Del
+Sol
+0,15
+10,77
+0,79
+0,06
+0,85
+0,15
+2,10
+Acin
+(Cons)
+0,17
+4,44
+0,53
+0,04
+0,57
+0,52
+1,63
+(Último
+bce)
+Intereses
+EBITDA
+Dda
+CP
++
+Int
+Dda
+CP
++
+Int
+(a)
++
+(b)
+PN
+PN
+Compañía
+Caja
++
+Inv
+CP
+Deuda/
+(a)EBITDA/
+(b)Caja
++
+Inv
+CP
+Ratio
+de
+Liq.
+Deuda
+CP/
+Total
+Deuda/
+Ratios
+de
+deuda,
+disponibilidad
+inmediata
+y
+liquidez
+Cap 10 3/31/04 11:27 AM Page 377
+
+Cap 10 3/31/04 11:27 AM Page 378
+378 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+dez, trayectoria en el pago de la deuda y tam- Spread = ¶ (GROWTH, TAMRES, TXDY, NBB,
+bién las condiciones financieras globales. XGD, MISAL, LIBOR, DEF)
+Cada banco de inversión desarrolla sus Donde:
+modelos: aquí se presentará el modelo desa-
+GROWTH: crecimiento del PBI Real de lar-
+rrollado por Ades A., Kaune F., Leme P., Ma-
+go plazo: manteniendo todo lo demás cons-
+sih R. y Tenengauzer, D. (junio de 2000),
+tante; cuanto mayor es el crecimiento, mejor
+analistas de Goldman Sachs, en un trabajo
+será la posición fiscal con lo cual el país está
+publicado llamado “Introducing GS-ESS: A
+en mejor posición para realizar pagos exter-
+new framework for assesing fair values in
+nos, por lo que se debe esperar un signo ne-
+emerging markets and currency debt”.
+gativo de esta variable.
+La mayoría de los modelos de equilibrio de
+TAMRES: ratio de amortizaciones exter-
+spreads de bonos comienzan por la especifi-
+nas totales sobre reservas internacionales
+cación de los determinantes de la probabili-
+brutas. Cuando las condiciones de liquidez
+dad de default y relacionan la probabilidad
+son amplias, es posible renovar las amortiza-
+de default con un spread.
+ciones y viceversa. Por lo tanto, esta variable
+Las principales variables que pueden debería tener un signo positivo.
+afectar el spread se clasifican en un princi-
+TXDY: ratio de deuda externa total sobre
+pio en 4 grandes grupos:
+PBI. Cuanto mayor es el ratio de deuda so-
+a) Variables de solvencia. Muestran la ha- bre PBI, mayor es el esfuerzo de transferen-
+bilidad del país de pagar en el largo cia que debe hacer el país para pagar sus
+plazo = crecimiento de PBI, saldo de obligaciones. El coeficiente debería tener
+cuentas fiscales y la cuenta corriente, signo positivo.
+y stock de deuda pública.
+NBB: ratio de saldo del balance fiscal no-
+b) Variables de liquidez. Si bien el gobier- minal sobre PBI. Cuanto más débil sea la po-
+no puede ser solvente, puede tener sición fiscal, mayor será la probabilidad de
+dificultad en asegurarse la moneda lo- que un shock externo termine en un default.
+cal o extranjera o ambas para hacer la Debiera tener signo negativo.
+transferencia (del pago del cupón de
+XGD: ratio de exportaciones de bienes y
+intereses o de capital): servicio de
+servicios sobre PBI. Este ratio se usa para
+deuda, reservas internacionales, so-
+medir el grado de apertura de la economía.
+brevaluación o subvaluación del tipo
+Tradicionalmente, economías, más abiertas
+de cambio y resultado fiscal.
+tenderán a estar asociadas con spreads más
+c) Shocks externos. O sea, como influyen bajos y con posibilidad de absorber mejor
+los shocks externos sobre la econo- shocks externos que una economía más ce-
+mía: tasas de interés internacionales, rrada. Debería tener signo negativo.
+términos de comercio, entre otros.
+MISAL: desequilibrio del tipo de cambio
+d) Variables dummy. Estas variables toman real. Sobrevaluaciones del tipo de cambio
+el valor 1 si un grupo de individuos (o tienden a estar asociadas con crisis de la mo-
+países) comparten ciertas caracterís- neda y del balance de pagos, lo que conduce
+ticas, o cero (0) si comparten otra. Por a dificultades en el servicio de la deuda. De-
+ejemplo, si un país pertenece a América bería tener signo positivo.
+Latina, la variable será 1, y 0 de otra
+LIBOR: liquidez global: se puede usar co-
+manera.
+mo proxy de la liquidez global el promedio
+Así el modelo se especificó como se ponderado por PBI de las tasas de interés no-
+muestra a continuación. minales de la economía del G-7. Un incre-
+
+Cap 10 3/31/04 11:27 AM Page 379
+VALUACIÓN DE ACCIONES 379
+mento en esta variable debería incrementar Se puede observar que todos los coefi-
+los spreads en los mercados de los países cientes responden con sus signos teórica-
+emergentes, dado que limitaría el atractivo mente esperados y son estadísticamente
+para invertir en los emergentes (respecto de significativos
+los desarrollados) y reduciría el flujo de fon-
+En la última columna se muestra una es-
+dos a los mercados. Signo positivo.
+timación de cómo los spreads cambiarían
+DEFAULT: historia de default: los inverso- dado un incremento del 1% en cada una de
+res requerirán una compensación por poseer las variables explicativas. Por ejemplo, si el
+bonos de países que reestructuraron su deu- PBI real de largo plazo se incrementó en un
+da en el pasado, porque se toma el track re- 1%, manteniendo las demás variables cons-
+cord del servicio de deuda como un indicador tantes, eso reduciría el spread de equilibro
+del nivel de compromiso del país en honrar de largo plazo en alrededor de 7 puntos bási-
+su deuda. Alternativamente, los inversores cos. Como se ve, la variable que más inci-
+distinguirán entre bonos que corresponden a dencia sobre el spread tiene es si el país
+deuda reestructurada (bradies) y los que no reestructuró su deuda o no.
+(eurobonos o globales). Esta segunda dummy También se puede ver por el coeficiente
+fue la que tuvo significado estadístico. Por lo de determinación ajustado (R2 - bar), que
+tanto, la variable dummy que tome valor 1 muestra que la variación en los spreads sobe-
+corresponde a deuda reestructurada y 0 de ranos se explica en un 55% por las variables
+otra manera. Signo positivo. explicativas. Cuando se interpreta esta esta-
+dística, es importante notar que el modelo es
+En el cuadro 10-2que sigue se muestra el
+armado para predecir variable de spreads de
+resumen estadístico de la variable depen-
+equilibrio de largo plazo. Por lo tanto, no ne-
+diente (stripped spread), así como el país y
+cesariamente se debería esperar un alto gra-
+tipo de bono, junto con la media muestral y
+do de ajuste, porque esto implicaría, por
+su desviación estándar
+definición, que los actuales niveles despreads
+El cuadro 10-3 muestra los resultados ob- están desarbitrados en alguna magnitud del
+tenidos de la regresión múltiple. nivel de largo plazo (cuadro 10-4).
+Cuadro
+Estadística descriptiva 10-2
+País Nombre Comienzo Total Spread Desvío std.
+del bono de la muestra obs. medio del spread
+Argentina Republic 17 Ene-96 50 535 119
+Brasil Republic 27 Nov-96 40 633 226
+Bulgaria IAB11 Ene-96 50 965 390
+China Republic 08 Ago-96 43 147 65
+Colombia Republic 07 Feb-96 49 401 198
+Indonesia Republic 06 Oct-96 41 557 427
+Corea Republic 08 Ene-96 50 336 175
+Malasia Petronas 09 Nov-96 40 289 257
+México UMS26 May-96 46 422 102
+Perú PEPDI 17 Dic-96 39 477 133
+Filipinas Republic 19 Jun-97 33 443 141
+Polonia PLPDI 14 Ene-96 50 268 180
+Rusia 28 Nov-96 40 2928 1553
+Sudáfrica Republic 09 Oct-96 41 400 192
+Venezuela Republic 27 Ene-96 50 658 274
+Total Panel 822 551 432
+Nota: todos los spreads son promedios mensuales.
+
+Cap 10 3/31/04 11:27 AM Page 380
+380 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Cuadro
+Estimación del modelo de largo plazo
+10-3
+Impacto en el spread de 1% de incre
+mento en las variables explicativas
+Variable Coeficiente t-estadístico asintótico (en puntos básicos)
+Intercepción -439,3 -2,7
+Crecimiento del PBI -691,3 -5,1 -7
+real de largo plazo
+Ratio amortizaciones 162,1 8,3 2
+/reservas
+Ratio deuda externa 7,5 10,1 7
+/PBI
+Saldo del presupuesto -34,2 -2,0 -34
+nominal fiscal
+Ratio NFGS exporta- -2,57 -5,8 -3
+ciones/PBI
+Desequilibrio tipo de 210,4 2,2 2
+cambio real
+Libor de largo plazo 45,3 1,7 45
+Dummy de reestruc- 165,0 5,0 165,1 (si el país reestructura)
+turación de deuda
+Significante Conclusión
+R cuadrado 0,55
+F-Statistic 58,019 1% Variables explicativas conjuntamen-
+te significativas
+Breusch-Pagan LM 2,21 No Residuos no están cross-correlacio-
+nados
+Posteriormente, usando los coeficientes ción para juzgar si, por ejemplo, el rendi-
+estimados se construyó una serie de los miento que ofrecen los spreads soberanos
+spreads soberanos de equilibrio que predice son suficientes para compensar al inversor
+el modelo y la diferencia con los spreads ac- por los riesgos asociados. GS-ESS puede tam-
+tuales, lo que marcaría sobrevaluación o sub- bién ser útil para pronosticar TIRES de los
+valuación. Este ejemplo se hizo para mayo bonos soberanos en el largo plazo.
+de 00, que en el cuadro se refiere a la colum-
+na “may-00 GS-ESS”. Y la que sigue en cuanto
+10.8.9 Herramientas para evaluar
+al spread está sobrevaluado o subvaluado.
+las vulnerabilidades macroeconó-
+En ese momento se veía que de los 15 paí- micas y la probabilidad de un país
+ses considerados, 2 países están caros respec- de entrar en default
+to del valor justo, 12 están subvaluados y uno
+La decisión de declarar el default de la
+está muy cerca del equilibrio. De los créditos
+deuda se toma luego de un proceso penoso
+más líquidos, Venezuela es el más subvalua-
+en el que el país (o sus autoridades) agoni-
+do e Indonesia es el más sobrevaluado.
+zan sobre dicha decisión. Los temores de ser
+Entonces ¿cómo debe usarse el modelo segregados de la comunidad financiera in-
+GS-ESS? El mismo provee medidas de valua- ternacional, de estar sujetos a sanciones de
+
+Cap 10 3/31/04 11:27 AM Page 381
+VALUACIÓN DE ACCIONES 381
+Cuadro
+10-4
+Spread soberanos de equilibrio
+País Nombre del bono Spread mayo-00 GS-ESS mayo 00 Mayo – 00 sub (-) o Valuación
+sobre (+) Valuación may-00
+Argentina República 17 665 455 -210 Barato
+Brasil República 27 720 473 -247 Barato
+Bulgaria IAB 11 728 542 -186 Barato
+China República 08 158 153 -5 Justo
+Colombia República 07 836 316 -520 Barato
+Indonesia República 06 578 743 165 Caro
+Corea República 08 214 165 -49 Barato
+Malasia 09 221 190 -31 Barato
+Méjico UMS 16 374 322 -52 Barato
+Perú PEPDI 17 575 442 -133 Barato
+Filipinas República 19 600 361 -239 Barato
+Polonia PLPDI 14 197 302 105 Caro
+Rusia 28 1150 932 -218 Barato
+Sudáfrica República 09 388 271 -117 Barato
+Venezuela República 27 893 363 -530 Barato
+Nota: todos los spreads son promedios mensuales. Fuente: GS-ESS estimados.
+comercio exterior o de ser repudiados eco- 3. Estimar la probabilidad de default de
+nómica y políticamente constituyen la per- los bonos soberanos.
+cepción de que entrar en default es muy
+4. Sustentabilidad de la deuda y escena-
+costoso. La experiencia histórica refuerza es-
+rios de reestructuración de la deuda.
+ta percepción a la luz de las prolongadas ne-
+gociaciones que han seguido a cada default 5. Estimación del impacto financiero del
+en las últimas décadas. default.
+La idea de esta sección es proveer una se- 6. Estimación de los efectos sobre el ni-
+rie de herramientas que permitan a un obser- vel de actividad del default.
+vador independiente juzgar la probabilidad
+Estas herramientas son parte del trabajo
+de default. También se desea proveer la cla-
+realizado por Federico Sturzenneger: “De-
+ve para una evaluación de los posibles esce-
+fault Episodes in the 90’s: Factbook, Tool-kit
+narios de reestructuración y las posibles
+and Preliminary Lessons”, Business School,
+implicaciones reales y financieras de tal
+Universidad Torcuato Di Tella, junio de 2002.
+evento. El análisis de las herramientas se di-
+vide en 6 ejercicios básicos. Herramienta 1: establecer un sistema de se-
+ñales de alerta.
+La idea es proveer todos los elementos
+necesarios para que el analista pueda apli- Objetivo: identificar indicadores económicos
+car directamente las herramientas al país de que puedan anticipar el riesgo de problemas
+análisis. con la deuda.
+Las 6 herramientas son: Cómo definir el escenario macroeconó-
+mico que desate un problema de deuda es
+1. Establecer un sistema de señales de
+una de las tareas más importantes de un
+alerta.
+analista. A ello ayuda el trabajo de Goldman
+2. Análisis de solvencia estático. Sachs (GS-ESS) tomado por Sturzenegger.
+Sus principales variables son las que siguen.
+
+Cap 10 3/31/04 11:27 AM Page 382
+382 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Variables de solvencia Herramienta 2: indicadores estáticos de sol-
+vencia.
+a) Crecimiento del PBI real de largo pla-
+zo (GROWTH) Objetivo: proveer indicadores de problemas
+de deuda.
+b) Ratio de deuda externa total sobre PBI
+(TXDY) Los dos ratios más importantes de deuda
+son: a) (deudas/PBI) que mide el tamaño
+c) Ratio de saldo fiscal nominal sobre
+del stock de deuda relativo a la economía;
+PBI (NBB)
+b) (pago de intereses anuales/PBI) (I/PBI).
+d) Ratio de exportaciones de bienes y El a) mide cuán grande es la carga de la deu-
+servicios sobre PBI (XGD) da para ese país y es la proxy más general
+para ver la problemática de la deuda. El b)
+e) Valuación mal hecha del tipo de cam-
+muestra la carga impuesta sobre el país pa-
+bio real (MISAL)
+ra los pagos de intereses. A su vez el ratio
+Variables de liquidez (I/deuda) mide el costo promedio de la deu-
+da. En la medida de que la economía se
+f) Liquidez global (LIBOR)
+acerca a una situación de default, el costo
+g) Ratio de amortizaciones externas tota- marginal de la deuda sube al infinito, mien-
+les sobre reservas internacionales tras que el costo promedio permanece rela-
+brutas (TAMRE) tivamente bajo.
+Variables de historial Para medir el peso de los pagos de intere-
+h) Historia de default (DEFAULT) ses sobre el presupuesto fiscal se usa el ratio
+intereses/ingresos totales o impositivos. Si
+Ahora bien, ¿cómo puede usarse el mode-
+el ratio es muy alto, indica que una amplia
+lo anterior? De dos maneras. La primera, co-
+fracción de los ingresos gubernamentales se
+mo se vio anteriormente, es una estimación
+usa para pagar servicios de la deuda. Esta si-
+parcial en la cual el analista puede apreciar
+tuación es preocupante, por lo menos en tér-
+los cambios en una variable específica para
+minos de asegurar a los acreedores que el
+estimar el impacto en los spreads soberanos
+país será capaz de mantener el sustento po-
+de equilibrio.
+lítico para seguir honrando la deuda.
+Alternativamente, el analista puede en-
+Si bien hay muchos indicadores de deuda
+contrar datos para cada una de estas varia-
+(deuda/exportaciones, intereses/exporta-
+bles e incluirlas en la regresión que se
+ciones, amortizaciones/reservas, etc.) en el
+expone más abajo multiplicando el valor de
+cuadro 10-5 se muestran los principales ra-
+cada variable por su coeficiente.
+tios de deuda para algunas economías emer-
+gentes.
+S = -439,3 - 691,3 GROWTH
+Mientras que estos indicadores nos per-
+El resultado dará el spread teórico o de
+miten identificar los casos más problemáti-
+equilibrio que se puede ser usar con la he-
+cos, es difícil juzgar un país con problemas
+rramienta 3, para juzgar la probabilidad teó-
+sólo mirando los indicadores estáticos. ¿Por
+rica de default.
+qué? Porque los problemas de deuda, por de-
+El analista debería comparar el spread es- finición, son intertemporales. No es tan im-
+timado con el stripped spread actual de los portante cómo está hoy el país respecto del
+bonos de ese país. Si los spreads de los bonos tema sino qué es lo que piensa el mercado o
+soberanos del país son menores que los esti- los analistas como estará en el futuro. Cómo
+mados con los coeficientes de arriba, enton- tener en cuenta el futuro es el objeto de la
+ces la deuda del país es probablemente más herramienta 4. Sin embargo, a pesar de sus
+riesgosa que lo que el mercado cree. limitaciones, el análisis de los ratios de deu-
+
+Cap 10 3/31/04 11:27 AM Page 383
+VALUACIÓN DE ACCIONES 383
+da es uno de los métodos más importantes Para ver el modelo para un bono con un
+usado por los analistas sobre problemas de plazo mayor, ver el trabajo mencionado.
+deuda.
+El analista puede utilizar el cuadro 10-5
+Herramienta 3: estimación de la proba- para evaluar con rapidez la probabilidad de
+bilidad de default con un valor de recupe- que el país que es objeto de análisis se
+ro fijo declare en default. Por ejemplo, para un
+valor de recupero del 50% y un spread de
+Objetivo: estimar la probabilidad de de-
+350 puntos básicos, el cuadro indica que el
+fault implícita en el precio de los bonos sobe-
+mercado está asignando un 6,3% de proba-
+ranos
+bilidad de default en el próximo año.
+El procedimiento que a continuación se
+No hay una manera evidente de determi-
+describe es una forma simple de estimar la
+nar los valores de recupero. En el recuadro
+probabilidad implícita de default (IPD) medi-
+de la página siguiente pueden observarse
+ante el uso de datos de spreads de bonos so-
+recientes experiencias e índices de referen-
+beranos.
+cia alternativos.
+IPD = [S (1 + r)/S (1 + r) + (1 + r-R)]
+La herramienta 4 provee alguna pista de
+cómo calcular el valor de recupero en cada
+para un bono de un período.
+caso de ejercicios de sustentabilidad de
+Donde el spread es deuda.
+S = [1 + i/1 + r] - 1 = i - r/1 + r Herramienta 4: sustentabilidad de la deuda
+Objetivo: juzgar si el gobierno será capaz de
+En esta expresión, (i) es la TIR del euro-
+honrar sus obligaciones de deuda y analizar los
+bono soberano.
+potenciales escenarios de reestructuración.
+(r) es la TIR de las letras del tesoro de
+El cuadro 10-6 permite responder qué su-
+EE.UU., con igual plazo y tamaño que el bo-
+perávit primario que debería tener el gobier-
+no soberano.
+no para que la deuda sea sustentable. Se
+{R] es el valor de recupero histórico de los considera una tasa de interés anual del 7%,
+bonos. para diferentes tasas de crecimiento de PBI y
+Cuadro
+10-5
+Año terminado Arg. Ecuador Pakistán Rusia Ucrania Colombia México VenezuelaPolonia
+después de crisis (2000) (1998) (1998) (1997) (1999)
+Interés/PBI 3,4 3,2 7,1 4,8 2,4 5,0 2,6 3,3 2,9
+Interés/impuestos 26,1 44,9 52,2 48,4 7,4 25,3 25,7 18,7 11,0
+Interés/deuda 7,5 4,0 7,5 9,0 3,8 9,8 9,4 9,3 7,4
+Deuda/PBI 44,9 80,0 94,3 52,5 62,8 50,8 27,7 35,3 39,1
+Arg, Ucrania y Rusia Colombia, Venezuela Países en Desarrollo
+México y Polonia (2000)
+Interés/PBI 3,5 3,5 2,0
+Interés/impuestos 27,3 20,2 N/A
+Interés/deuda 6,8 9,0 5,0
+Deuda/PBI 53,4 38,2 22,6
+
+384 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+stock inicial de deuda. Por ejemplo,
+Estimación del valor de recupero
+si la Argentina tiene un ratio deu-
+da/PBI de 130% y se espera que
+Senior secured 67,13
+crezca al 2%, necesita un superávit Senior unsecured 46,53
+primario de 6,1% para honrar la Jarrow et al (1997) Senior subordinated 32,10
+deuda. Average 1974-1991 Subordinated 26,44
+Junior subordinated 17,95
+En el cuadro 10-7 figuran los
+Weighted average 39,22
+mismos datos para países que rees-
+Merrick (1999) Russian eurobond 13,0
+tructuraron su deuda. Excepto Pa-
+Pre-GKO Default Subsample: 27,3
+kistán, todos los países alcanzaron
+23/7/1998 - 14/8/1998
+la sustentabilidad en el período
+Post-GKO Default Subsample 10,3
+posdefault.
+17/8/1998 - 14/12/1998
+¿Como hay que usar el cuadro Argentina: 49,6
+con el fin de anticipar un escenario
+Pre-GKO Default Subsample 51,2
+de reestructuración?
+23/7/1998 - 14/8/1998
+El cuadro también sirve para ver Post-GKO Default Subsample 49,3
+qué tipo de reestructuración se ne- 17/8/1998 - 14/12/1998
+cesita para que la deuda sea susten- Sosa Navarro (2002) Argentina: 10/12/01 - 20/12/01 21,7
+table. Siguiendo con el ejemplo de Argentina post default: 21/12/01 20,8
+Probabilidad implícita de default
+Cuadro
+i 5%
+10-5
+Valor recuperable (como % del principal)
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+50 0,5% 0,6% 0,7% 0,8% 0,9% 1,2% 1,5% 2,1% 3,4%
+100 1,1% 1,2% 1,4% 1,6% 1,9% 2,3% 2,9% 4,0% 6,5%
+150 1,6% 1,8% 2,1% 2,4% 2,8% 3,4% 4,3% 5,9% 9,5%
+200 2,2% 2,4% 2,7% 3,1% 3,7% 4,5% 5,7% 7,7% 12,3%
+250 2,7% 3,0% 3,4% 3,9% 4,6% 5,5% 7,0% 9,5% 14,9%
+300 3,2% 3,6% 4,0% 4,6% 5,4% 6,5% 8,3% 11,2% 17,4%
+350 3,7% 4,1% 4,7% 5,4% 6,3% 7,6% 9,5% 12,8% 19,7%
+400 4,2% 4,7% 5,3% 6,1% 7,1% 8,5% 10,7% 14,4% 21,9%
+450 4,7% 5,3% 5,9% 6,8% 7,9% 9,5% 11,9% 15,9% 24,0%
+500 5,2% 5,8% 6,5% 7,5% 8,7% 10,4% 13,0% 17,4% 25,9%
+550 5,7% 6,4% 7,1% 8,2% 9,5% 11,4% 14,2% 18,8% 27,8%
+600 6,2% 6,9% 7,7% 8,8% 10,3% 12,3% 15,3% 20,1% 29,6%
+650 6,7% 7,4% 8,3% 9,5% 11,0% 13,2% 16,3% 21,4% 31,3%
+700 7,2% 8,0% 8,9% 10,2% 11,8% 14,0% 17,4% 22,7% 32,9%
+750 7,7% 8,5% 9,5% 10,8% 12,5% 14,9% 18,4% 24,0% 34,4%
+800 8,1% 9,0% 10,1% 11,4% 13,2% 15,7% 19,4% 25,1% 35,9%
+850 8,6% 9,5% 10,6% 12,1% 14,0% 16,6% 20,3% 26,3% 37,3%
+900 9,0% 10,0% 11,2% 12,7% 14,7% 17,4% 21,3% 27,4% 38,7%
+950 9,5% 10,5% 11,7% 13,3% 15,4% 18,1% 22,2% 28,5% 39,9%
+1000 10,0% 11,0% 12,3% 13,9% 16,0% 18,9% 23,1% 29,6% 41,2%
+1050 10,4% 11,5% 12,8% 14,5% 16,7% 19,7% 24,0% 30,6% 42,4%
+1100 10,8% 12,0% 13,3% 15,1% 17,4% 20,4% 24,8% 31,6% 43,5%
+1150 11,3% 12,4% 13,9% 15,7% 18,0% 21,2% 25,7% 32,6% 44,6%
+1200 11,7% 12,9% 14,4% 16,2% 18,6% 21,9% 26,5% 33,5% 45,7%
+1250 12,1% 13,4% 14,9% 16,8% 19,3% 22,6% 27,3% 34,4% 46,7%
+1300 12,6% 13,8% 15,4% 17,4% 19,9% 23,3% 28,1% 35,3% 47,6%
+1350 13,0% 14,3% 15,9% 17,9% 20,5% 24,0% 28,8% 36,2% 48,6%
+>
+socisáb
+sotnup
+ne
+daerpS
+Cap 10 3/31/04 11:27 AM Page 384
+
+VALUACIÓN DE ACCIONES 385
+Probabilidad implícita de default (continuación)
+i 5%
+Valor recuperable (como % del principal)
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+1400 13,4% 14,7% 16,4% 18,4% 21,1% 24,6% 29,6% 37,0% 49,5%
+1450 13,8% 15,2% 16,9% 19,0% 21,7% 25,3% 30,3% 37,8% 50,4%
+1500 14,2% 15,6% 17,4% 19,5% 22,3% 25,9% 31,0% 38,7% 51,2%
+1550 14,6% 16,1% 17,8% 20,0% 22,8% 26,6% 31,7% 39,4% 52,0%
+1600 15,0% 16,5% 18,3% 20,5% 23,4% 27,2% 32,4% 40,2% 52,8%
+1650 15,4% 16,9% 18,8% 21,0% 24,0% 27,8% 33,1% 40,9% 53,6%
+1700 15,8% 17,4% 19,2% 21,5% 24,5% 28,4% 33,8% 41,7% 54,3%
+1750 16,2% 17,8% 19,7% 22,0% 25,0% 29,0% 34,4% 42,4% 55,1%
+1800 16,6% 18,2% 20,1% 22,5% 25,6% 29,6% 35,1% 43,1% 55,8%
+1850 17,0% 18,6% 20,6% 23,0% 26,1% 30,2% 35,7% 43,7% 56,4%
+1900 17,4% 19,0% 21,0% 23,5% 26,6% 30,7% 36,3% 44,4% 57,1%
+1950 17,7% 19,4% 21,4% 24,0% 27,1% 31,3% 36,9% 45,0% 57,7%
+2000 18,1% 19,8% 21,9% 24,4% 27,6% 31,8% 37,5% 45,7% 58,3%
+2500 21,6% 23,6% 25,9% 28,8% 32,3% 36,8% 42,9% 51,2% 63,6%
+3000 24,9% 27,0% 29,6% 32,6% 36,4% 41,2% 47,4% 55,8% 67,7%
+3500 27,9% 30,2% 32,9% 36,1% 40,1% 45,0% 51,2% 59,5% 71,0%
+4000 30,7% 33,1% 35,9% 39,3% 43,3% 48,3% 54,5% 62,7% 73,7%
+4500 33,2% 35,7% 38,7% 42,1% 46,2% 51,2% 57,4% 65,4% 75,9%
+5000 35,6% 38,2% 41,2% 44,7% 48,8% 53,8% 60,0% 67,7% 77,8%
+5500 37,8% 40,5% 43,5% 47,0% 51,2% 56,2% 62,3% 69,8% 79,4%
+6000 39,9% 42,6% 45,7% 49,2% 53,4% 58,3% 64,3% 71,6% 80,8%
+Argentina y suponiendo que el superávit Aquí hay dos posturas: quienes sostienen
+primario que puede alcanzar es el 2% en vez que el default reduce los costos financieros
+del 6,1%, según estimaciones de los analis- porque ubica al país cerca de la sustentabili-
+tas, para saber qué tipo de reestructuración dad y reduce los ratios de deuda, lo que per-
+es necesaria hay que moverse hacia arriba mite tentar a los futuros acreedores a ofrecer
+en la columna de tasa de crecimiento del menores tasas de financiamiento, y quienes
+PBI. Interpolando se ve que el número es sostienen que el costo de reputación de una
+42,5%, o sea sólo si la deuda se reduce a al- decisión de default incrementa los costos ha-
+rededor de 42,5% podrá ser sustentable, da- cia el futuro, haciendo más cara la deuda en
+da la tasa de crecimiento de la economía y la medida que los acreedores temen una re-
+el superávit primario posible de 2%. Como currencia del evento. A su vez, la quita del
+la deuda representa el 130% del PBI,tiene capital reduce los costos financieros directa-
+que ser reducida al 32,7% (42,5/130) de su mente por los menores niveles de deuda.
+nivel original, lo que provoca una quita del
+El cuadro 10-8 muestra los resultados
+capital de alrededor de 67,3%.
+según el modelo de Goldman Sachs (GS-ESS),
+Herramienta 5: estimación del impacto fi- para escenarios en los cuales la deuda debe
+nanciero del default renovarse cada año en un 12,5%, 25% o 50%.
+Objetivo: tener un juicio sobre los costos o be-
+Herramienta 6: estimación del efecto sobre el
+neficios financieros de una decisión de default.
+nivel de actividad.
+Los defaults tienen 2 costos potenciales:
+Objetivo: estimar las implicancias del de-
+diferentes costos financieros cuando el go-
+fault sobre la economía real.
+bierno vuelve a los mercados y posiblemente
+peor performance de crecimiento. Ésta y la En dicho estudio se ve que la decisión de
+próxima herramienta permiten evaluar esto. default implica un escenario posterior en
+socisáb
+sotnup
+ne
+daerpS
+Cap 10 3/31/04 11:27 AM Page 385
+
+386 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Superávit primario permanente necesario
+i 7%
+Porcentaje de crecimiento del PBI
+1,0% 2,0% 3,0% 4,0% 5,0% 6,0%
+35% 2,0% 1,6% 1,3% 1,0% 0,7% 0,3%
+40% 2,2% 1,9% 1,5% 1,1% 0,7% 0,4%
+45% 2,5% 2,1% 1,7% 1,3% 0,8% 0,4%
+50% 2,8% 2,3% 1,9% 1,4% 0,9% 0,5%
+55% 3,1% 2,6% 2,1% 1,5% 1,0% 0,5%
+60% 3,4% 2,8% 2,2% 1,7% 1,1% 0,6%
+65% 3,6% 3,0% 2,4% 1,8% 1,2% 0,6%
+70% 3,9% 3,3% 2,6% 2,0% 1,3% 0,7%
+75% 4,2% 3,5% 2,8% 2,1% 1,4% 0,7%
+80% 4,5% 3,7% 3,0% 2,2% 1,5% 0,7%
+85% 4,8% 4,0% 3,2% 2,4% 1,6% 0,8%
+90% 5,0% 4,2% 3,4% 2,5% 1,7% 0,8%
+95% 5,3% 4,4% 3,6% 2,7% 1,8% 0,9%
+100% 5,6% 4,7% 3,7% 2,8% 1,9% 0,9%
+110% 6,2% 5,1% 4,1% 3,1% 2,1% 1,0%
+120% 6,7% 5,6% 4,5% 3,4% 2,2% 1,1%
+130% 7,3% 6,1% 4,9% 3,6% 2,4% 1,2%
+140% 7,9% 6,5% 5,2% 3,9% 2,6% 1,3%
+150% 8,4% 7,0% 5,6% 4,2% 2,8% 1,4%
+160% 9,0% 7,5% 6,0% 4,5% 3,0% 1,5%
+donde aumenta de una manera drástica la partamentos de análisis crediticio, tienen en
+inestabilidad macroeconómica. Los resulta- cuenta la opinión de empresas de calificación
+dos empíricos se pueden observar en dicho privada, llamadas calificadoras de riesgo (ra-
+estudio. ting agencies). Las calificadoras de riesgo más
+conocidas son: 1) Moody’s Investor Services,
+2) Standard and Poor’s corporation, 3) Duff
+10.9 CALIFICADORAS DE RIESGO
+and Phelps, y 4) Fitch Investor services.
+Si bien la mayoría de los grandes inverso-
+res institucionales, así como los principales Standard and Poor’s publicó recientemen-
+bancos de inversión, tienen sus propios de- te que en el 2001 un total de 14 empresas to-
+IBP
+erbos
+acilbúp
+adueD
+Cap 10 3/31/04 11:27 AM Page 386
+Cuadro
+10-6
+Cuadro Sustentabilidad de la deuda antes y después del default
+10-7 Indicadores de países antes y después del default
+Argentina Ecuador Pakistán Rusia Ucrania
+Antes Después Antes Después Antes Después Antes Después Antes Después
+2000 2002 2000 2002 2000 2002 2000 2002 2000 2002
+Deuda gobierno/PBI 44,9 130,0 80,0 106,8 94,3 98,0 52,5 64,3 62,8 44,1
+Balance primario/PBI
+(datos actuales) 0,4 ? 2,9 7,6 -0,3 1,2 -2,0 5,0 0,9 2,5
+Balance primario
+Requerido/PBI para 2,5 7,1 4,4 5,8 5,1 5,3 2,9 3,5 3,4 2,4
+Sustentabilidad
+
+VALUACIÓN DE ACCIONES 387
+150%
+26,40%
+24,30%
+20,70%
+-1,30%
+-2,40%
+-4,30%
+-26,80%-27,10%
+-27,50%
+-50,00%
+-49,60%
+-49,00%
+-71,00%
+-70,20%
+-68,70%
+140%
+24,60%
+22,70%
+19,40%
+-1,20%
+-2,30%
+-4,00%
+-25,00%-25,30%
+-25,70%
+-46,70%
+-46,30%
+-45,70%
+-66,30%
+-65,50%
+-64,10%
+130%
+22,80%
+21,00%
+18,00%
+-1,20%
+-2,10%
+-3,70%
+-23,20%-23,40%
+-23,80%
+-43,40%
+-43,00%
+-42,40%
+-61,60%
+-60,80%
+-59,50%
+120%
+21,10%
+19,40%
+16,60%
+-1,10%
+-1,90%
+-3,40%
+-21,40%-21,60%
+-22,00%
+-40,00%
+-39,70%
+-39,20%
+-56,80%
+-56,10%
+-54,90%
+110%
+19,30%
+17,80%
+15,20%
+-1,00%
+-1,80%
+-3,10%
+-19,70%-19,80%
+-20,20%
+-36,70%
+-36,40%
+-35,90%
+-52,10%
+-51,40%
+-50,40%
+100%
+17,60%
+16,20%
+13,80%
+-0,90%
+-1,60%
+-2,80%
+-17,80%-18,00%
+-18,30%
+-33,40%
+-33,10%
+-32,60%
+-47,40%
+-46,80%
+-45,80%
+95%
+16,70%
+15,40%
+13,10%
+-0,80%
+-1,50%
+-2,70%
+-17,00%-17,10%
+-17,40%
+-31,70%
+-31,40%
+-31,00%
+-45,00%
+-44,40%
+-43,50%
+90%
+15,80%
+14,60%
+12,40%
+-0,80%
+-1,50%
+-2,60%
+-16,10%-16,20%
+-16,50%
+-30,00%
+-29,80%
+-29,40%
+-42,60%
+-42,10%
+-41,20%
+85%
+14,90%
+13,80%
+11,80%
+-0,80%
+-1,40%
+-2,40%
+-15,20%-15,30%
+-15,60%
+-28,40%
+-28,10%
+-27,70%
+-40,20%
+-39,80%
+-38,90%
+80%
+14,10%
+12,90%
+11,10%
+-0,70%
+-1,30%
+-2,30%
+-14,30%-14,40%
+-14,70%
+-26,70%
+-26,50%
+-26,10%
+-37,90%
+-37,40%
+-37,60%
+75%
+13,20%
+12,10%
+10,40%
+-0,70%
+-1,20%
+-2,10%
+-13,40%-13,50%
+-13,70%
+-25,00%
+-24,80%
+-24,50%
+-35,50%
+-35,10%
+-34,30%
+70%
+12,30%
+11,30%
+9,70%
+-0,60%
+-1,10%
+-2,00%
+-12,50%-12,60%
+-12,80%
+-23,30%
+-23,20%
+-22,80%
+-33,10%
+-32,70%
+-32,00%
+65%
+11,40%
+10,50%
+9,00%
+-0,60%
+-1,00%
+-1,80%
+-11,60%-11,70%
+-11,90%
+-21,70%
+-21,50%
+-21,20%
+-30,80%
+-30,40%
+-29,80%
+60%
+10,50%
+9,70%
+8,30%
+-0,50%
+-1,00%
+-1,70%
+-10,70%-10,80%
+-11,00%
+-20,00%
+-19,90%
+-19,60%
+-28,40%
+-28,10%
+-27,50%
+55%
+9,70%
+8,90%
+7,60%
+-0,50%
+-0,90%
+-1,60%
+-9,80%
+-9,90%
+-10,10%
+-18,30%
+-18,20%
+-18,00%
+-23,00%
+-25,70%
+-25,20%
+50%
+8,80%
+8,10%
+6,90%
+-0,40%
+-0,80%
+-1,40%
+-8,90%
+-9,00%
+-9,20%
+-16,70%
+-16,50%
+-16,30%
+-23,70%
+-23,40%
+-22,90%
+45%
+7,80%
+7,30%
+6,20%
+-0,40%
+-0,70%
+-1,30%
+-8,00%
+-8,10%
+-8,20%
+-15,00%
+-14,90%
+-14,70%
+-21,30%
+-21,00%
+-20,60%
+40%
+7,00%
+6,50%
+5,50%
+-0,40%
+-0,60%
+-1,10%
+-7,10%
+-7,20%
+-7,30%
+-13,30%
+-13,20%
+-13,10%
+-18,90%
+-18,70%
+-18,30%
+35%
+6,20%
+5,70%
+4,80%
+-0,30%
+-0,60%
+-1,00%
+-6,30%
+-6,30%
+-6,40%
+-11,70%
+-11,60%
+-11,40%
+-16,60%
+-16,40%
+-16,00%
+30%
+5,30%
+4,90%
+4,10%
+-0,30%
+-0,50%
+-0,90%
+-5,40%
+-5,40%
+-5,50%
+-10,00%
+-9,90%
+-9,80%
+-14,20%
+-14,00%
+-13,70%
+25%
+4,40%
+4,00%
+3,50%
+-0,20%
+-0,40%
+-0,70%
+-4,50%
+-4,50%
+-4,60%
+-8,30%
+-8,30%
+-8,20%
+-11,80%
+-11,70%
+-11,40%
+20%
+3,50%
+3,20%
+2,80%
+-0,20%
+-0,40%
+-0,70%
+-3,60%
+-3,60%
+-3,70%
+-6,70%
+-6,60%
+-6,50%
+-9,50%
+-9,40%
+-9,20%
+15%
+2,60%
+2,40%
+2,10%
+-0,10%
+-0,20%
+-0,40%
+-2,70%
+-2,70%
+-2,70%
+-5,00%
+-5,00%
+-4,90%
+-7,10%
+-7,00%
+-6,90%
+10%
+1,8%
+1,60%
+1,40%
+-0,10%
+-0,20%
+-0,30%
+-1,80%
+-1,80%
+-1,80%
+-3,30%
+-3,30%
+-3,30%
+-4,70%
+-4,70%
+-4,60%
+50%
+25%
+12,5%
+50%
+25%
+12,5%
+50%
+25%
+12,5%
+50%
+25%
+12,5%
+50%
+25%
+12,5%
+Roll-Over
+deuda
+Roll-Over
+deuda
+Roll-Over
+deuda
+Roll-Over
+deuda
+Roll-Over
+deuda
+0%
+10%
+20%
+30%
+40%
+Reducción
+de
+deuda
+Cap 10 3/31/04 11:27 AM Page 387
+Deuda como porcentaje del PBI
+C
+1 u
+0 a
+- d
+8 r
+o
+
+Cap 10 3/31/04 11:27 AM Page 388
+388 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+madoras de préstamos con calificación cre- 10.10 MEDIDAS DE RIESGO
+diticia no pudieron pagar sus deudas por 4,2 DE UN BONO
+miles de millones de dólares. Según ellos es-
+Como se vio, hay distintos riesgos que
+to es bajo en términos internacionales y en
+afectan el precio de un bono. El más impor-
+especial con EE.UU. También comentó que
+tante es el cambio del precio ante una varia-
+más del 20% de las emisiones han sido de al-
+ción en las tasas de interés de mercado.
+to rendimiento (high yield).
+Antes de evaluar las distintas medidas de
+Las calificadoras evalúan la calidad de los
+riesgo de un bono se deben ver los diversos
+bonos y los ranquea en categorías de acuer-
+factores que afectan el precio de un bono:
+do con la probabilidad relativa de default (no
+pagar). 1. El precio de los bonos está inversamente
+relacionado con su rendimiento.
+Para ellos high grade (grado alto) significa
+bajo riesgo de crédito o, de otra manera, alta Implicación: cuando las tasas de interés
+probabilidad de pago futuro, y low grade (gra- de mercado caen, el precio de los bonos su-
+do bajo), lo inverso. be, y viceversa (fig. 10-8).
+Qué significan las distintas calificaciones
+2. Para una tasa de cupón dada y TIR ini-
+para las 2 principales agencias de califica-
+cial, cuanto mayor sea el plazo del bono,
+ción —Standard and Poor’s y Moody’s Inves-
+mayor será la variación porcentual del
+tor Services— se puede ver en el cuadro 10-9
+precio ante un cambio determinado en
+Es necesario mencionar que, en la práctica,
+las tasas de interés.
+la calificación que más es tenida en cuenta
+es la de deuda soberana extranjera en mone- Implicación: los bonos a más largo plazo
+da extranjera y de largo plazo, ya que en ca- son más riesgosos que los bonos a plazos más
+da agencia existen distintas calificaciones en cortos, para una determinada variación en la
+función del plazo y de la denominación de tasa de interés; pero también tienen mayo-
+la moneda. res posibilidades de ganar si las tasas bajan.
+Cuadro
+Sistema de calificación de riesgos
+10-9
+Calificación*
+Moody’s S&P Significado
+Categoría de inversión (investment grade)
+Aaa AAA Poseen el menor riesgo de inversión y la mayor capacidad actual de pa-
+go del principal y de los intereses. Aunque se produzcan cambios, es
+altamente improbable que afecten la capacidad de pago futura del emisor.
+Aa AA Títulos de muy alta calidad. Alta capacidad de pagar los intereses y el
+principal. Ante cambios en variables muy específicas su capacidad de
+pago futura se verá afectada, aunque muy poco.
+A A Títulos de alta capacidad de pago de intereses y el principal, a pesar de
+que son más susceptibles a efectos adversos en las condiciones econó-
+micas que las categorías anteriores.
+Baa BBB Tienen una adecuada capacidad de pago de los intereses y el principal.
+Ante circunstancias desfavorables tienen probabilidades de que se de-
+bilite la capacidad de pago futura.
+Categorías especulativas (high yield o junk bonds)
+Ba BB Bajo nivel de especulación y calidad media. Los pagos de intereses y
+del capital se presentan adecuados en el presente aunque no están to-
+talmente protegidos ante cambios importantes en un futuro. >
+
+VALUACIÓN DE ACCIONES 389
+B B Carecen de características de inversión deseables. La capacidad de pa
+gos futuros de intereses y principal puede verse bastante afectada en
+el tiempo.
+Caa CCC Títulos de capacidad regular. Baja capacidad de pago de sus obligacio
+nes. Tiene altas probabilidades de entrar en default.
+Ca CC Nivel alto de especulación y baja calidad. Estas emisiones usualmente
+están en default o tienen otros notables defectos.
+C C Tienen las perspectivas más pobres de alcanzar una condición de in
+versión real. No se esperan cambios en su capacidad de pago, aun an
+te mejorías en las condiciones.
+D Esta deuda se encuentra en situación de default y el pago de los intere
+ses y el principal están atrasados.
+E** Los emisores no proporcionan información representativa o válida
+1,2,3 + o - Las categorías se pueden modificar adicionándoles los signos + o -,
+1,2,3 para mostrar posiciones relativas y así proveer clasificaciones de
+riesgo más exactas.
+*Calificaciones de deuda de largo plazo. **Corresponde al sistema de calificación adoptado en Argentina.
+Fuente IAMC.
+3. Para un plazo determinado y una TIR
+inicial, cuanto menor sea la tasa del cu-
+pón, mayor será la variación porcentual
+del precio ante una variación determina-
+da en las tasas de interés.
+Implicación: bonos con tasas de cupón
+más bajas son más riesgosos que bonos con
+una tasa de cupón más alta, dado el mismo
+plazo para ambos bonos, pero también tienen
+más posibilidades de ganar si las tasas bajan.
+Tanto en los casos de los factores 2 y 3, los
+bonos son más sensibles pues en ambos ca-
+sos la recuperación del capital invertido se
+difiere en el tiempo, por lo que están más ex-
+puestos a las variaciones de tasas de interés.
+TIR
+Las tres propiedades anteriores se pueden
+apreciar en el siguiente ejemplo, en el que En el cuadro 10-10 se puede ver el efecto
+se verá el cambio porcentual y en pesos pa- de los 3 factores anteriores. El primer factor
+ra los 4 bonos. decía que si la TIR sube, el precio del bono
+baja y viceversa. El segundo factor, el plazo,
+Precio de 4 bonos, valuados a la TIR ini-
+también se cumple, dado que manteniendo
+cial del 9%
+lo demás constante, la variación en el precio
+Características Precio es mayor cuanto mayor es el plazo del bono.
+En cuanto al tercer factor, el cupón., se cum-
+Cupón 9%, 5 años: 100,0000
+ple a nivel porcentual pero no a nivel de pre-
+Cupón 9%, 20 años: 100,0000
+cio; pero lo que más importa es a nivel %,
+Cupón 5%, 5 años: 84,1746
+que es lo que al inversor le interesa.
+Cupón 5%, 20 años: 63,1968
+oicerP
+Cap 10 3/31/04 11:27 AM Page 389
+Fig.
+10 - 8
+
+Cap 10 3/31/04 11:27 AM Page 390
+390 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+4. El cambio porcentual en el valor de un una reducción en las tasas de interés va
+bono para un cambio en la TIR es mayor siempre a exceder la baja del precio para
+cuanto mas chica es la TIR inicial. un incremento de la tasa equivalente.
+Bono a 15 años, 10% de cupón (cuadro Implicación: habrá incentivos para cons-
+10-11). truir un portafolio “mas convexo” que otro,
+pues se obtendría un mayor rendimiento en
+Como se puede observar en el cuadro 10-
+un mercado “bullish” (baja de tasas) o “bea-
+10, si la TIR aumenta 25 puntos básicos, la
+rish” (suba de tasas) (fig. 10-9).
+variación en el precio del bono es superior
+si se parte de una TIR del 8% (2,08%) que si
+Lo que significa esta propiedad es que da-
+se parte de una TIR del 11% (1,86%).
+da la forma convexa que sigue el precio de
+5. Para una tasa de cupón dada y un deter- un bono, los bonos suben más de lo que ba-
+minado plazo, el incremento del precio por jan para un movimiento equivalente de ta-
+Cuadro
+10-10
+Variación del precio en pesos
+La TIR Variación en 9%, 9%, 5% 5%
+cambia a: basis points 5 años 20 años 5 años 20 años
+6,00% -300 12,7953 34,6722 11,5603 25,2458
+7,00% -200 8,3166 21,3551 7,5088 15,4481
+8,00% -100 4,0554 9,8964 3,6591 7,114
+8,50% -50 2,0027 4,7693 1,8063 3,418
+8,90% -10 0,3966 0,9267 0,3576 0,6625
+8,99% -1 0,0396 0,0921 0,0356 0,0658
+9,01% 1 -0,0396 -0,0919 -0,0357 -0,0657
+9,10% 10 -0,3947 -0,9135 -0,3559 -0,6523
+9,50% 50 -1,9541 -4,4408 -1,7614 -3,1636
+10,00% 100 -3,8609 -8,5795 -3,4789 -6,0945
+11,00% 200 -7,5376 -16,0461 -6,7875 -11,3352
+12,00% 300 -11,0401 -22,5694 -9,9349 -15,8588
+Variación del precio en porcentual
+La TIR Variación en 9%, 9%, 5% 5%
+cambia a: basis points 5 años 20 años 5 años 20 años
+6,00% -300 12,80% 34,67% 13,73% 39,95%
+7,00% -200 8,32% 21,36% 9,92% 24,44%
+8,00% -100 4,06% 9,90% 4,35% 11,26%
+8,50% -50 2,00% 4,77% 2,15% 5,41%
+8,90% -10 0,40% 0,93% 0,42% 1,05%
+8,99% -1 0,04% 0,09% 0,04% 0,10%
+9,01% 1 -0,04% -0,09% -0,04% -0,10%
+9,10% 10 -0,40% -0,91% -0,42% -1,03%
+9,50% 50 -1,95% -4,44% -2,09% -5,01%
+10,00% 100 -3,86% -8,58% -4,13% -9,64%
+11,00% 200 -7,54% -16,05% -8,06% -17,94%
+12,00% 300 -11,04% -22,57% -11,89% -25,09%
+
+VALUACIÓN DE ACCIONES 391
+sas. Esto no sólo tiene implicaciones para
+un bono en particular, sino también para
+portafolios, pues se puede construir un por-
+tafolio alternativo al A (el B) con la misma
+TIR y el mismo precio —y, por lo tanto, con
+igual riesgo— pero con mayor convexidad, P
+2
+Cuadro
+10-11
+P
+Yield Precio Variación precioVariación % 0
+B
+0,08 117,29
+P
+0,0825 114,9 2,39 2,08% 1
+0,085 112,58 2,32 2,06%
+0,0875 110,33 2,25 2,04%
+0,009 108,14 2,19 2,02% A
+TIR
+0,11 92,73 1,74 1,88% T 2 T 0 T 1
+0,1125 91,04 1,69 1,86%
+0,115 89,39 1,65 1,84% El ejemplo 10-10-2 permite una mejor
+0,1175 87,79 1,6 1,82% comprensión de este tema.
+0,12 86,24 1,55 1,81%
+Entonces, como se puede apreciar en el
+ejemplo, se pueden tener dos bonos con
+lo que permitirá proteger más al inversor en igual plazo de vencimiento, en este caso 3
+momentos de suba de tasas de interés y le años, pero al tener estructuras distintas pue-
+potenciará el precio en caso de baja de tasas den tener durations distintas.
+de interés (debe tenerse en cuenta, como se
+La pregunta que surge es ¿cómo se inter-
+verá después, que esto es válido siempre y
+preta la duration? O sea, ¿qué significa que
+cuando la variación en la ETTI sea paralela)
+en este caso un bono tenga una duration de
+2,73 años y otro de 2,32 años ?
+10.10.1 Necesidad de una
+Primera interpretación: la duration de un
+medida única que permita
+bono es el plazo de vida de un bono cupón
+comparar el riesgo de
+cero equivalente.
+distintos bonos
+Si uno describe un bono con cupones co-
+Dado que cada principio supone que to-
+mo único flujo de fondos (bono cupón cero)
+dos los factores permanecen constantes, sal-
+en vez de una serie de flujos de fondos, el
+vo el que se está examinando, y dos bonos
+plazo de vida de ese único flujo de fondos
+pueden tener factores positivos y negativos
+sirve como la duration del bono.
+que los afecten al mismo tiempo, se hace di-
+fícil comparar la sensibilidad de los distin- Como en todo promedio, hay un pequeño
+tos bonos ante variaciones en las tasas de error en usar una sola fecha como “proxy” de
+interés (ejemplo 10-10-1). una secuencia de flujos de fondos. O sea que
+el bono anterior de 3 años con una duration
+de 2,73 años es como si tuviera un bono cu-
+Como se puede apreciar,la duration mide el pro-
+pón cero equivalente de 2,73 años.
+medio ponderado del plazo o la vida de un bono.
+El ponderador de ese promedio es el valor en el Segunda interpretación: la duration es el
+presente de los cupones,dividido por el precio. punto futuro en el tiempo en el cual en pro-
+oicerP
+Cap 10 3/31/04 11:27 AM Page 391
+Fig.
+10 - 9
+Convex. price
+yield curve
+
+Cap 10 3/31/04 11:27 AM Page 392
+392 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+S
+Ejem plo
+10-10- 1 upóngase que se tienen los siguientes bonos:
+• Bono A: 15 años, cupón 8%, yield 11,94%
+• Bono B: 20 años, cupón 8%, yield 13,73%
+Se espera que los rendimientos de los bonos bajen y los precios suban. Usted ha sido contra-
+tado para asesorar sobre qué bono comprar para un horizonte de un mes. ¿Qué bono reco-
+mienda , el A o B?
+Sensibilidad del precio de los bonos
+Bono A Bono B
+Var.Yield Yield Precio Var.% Yield Precio Var.%
+-2% 9,94 86,68 16,01 11,73 73,78 16,01
+antes cbio. 11,94 74,66 0 13,73 63,25 0
++2% 13,94 65,06 -12,87 15,73 55,15 -12,8
+Por el factor plazo convendría el bono B y por la TIR, el bono A. En este caso los dos factores
+opuestos (plazo y yield) se compensan.
+Por lo tanto, es necesario contar con una medida de la sensibilidad del precio del bono (RIES-
+GO) que resuma los distintos factores que afectan el precio (el plazo, la tasa del cupón y del
+yield-to-maturity).
+Tal medida se llama duration.
+ 
+(A+ R)
+ 
+n t
+= ∑  (1+ TIR)  ×
+Duration t
+ p 
+t=1
+ 
+ 
+donde:
+A + R es el cupón corriente de renta o amortización, o ambas.
+p es el precio del bono, es decir la suma de los flujos descontados.
+TIR es la tasa interna de rendimiento anual
+n es el número de períodos hasta el vencimiento
+t es el plazo en años dado el momento actual hasta el pago de cada cupón (de intereses,
+de amortización o de ambos).
+medio el inversor habría recibido la mitad de del bono, en la cual los flujos de fondos son
+su inversión original, ajustado por el valor expresados en términos de valor en el pre-
+tiempo del dinero. sente (fig. 10-10).
+Tercera interpretación: la duration es el Veamos la relación que existe entre las pro-
+punto de balance (definido con un término piedades que afectan el precio de un bono y las
+empleado en ingeniería) del flujo de fondos propiedades de la duration.
+
+Cap 10 3/31/04 11:27 AM Page 393
+VALUACIÓN DE ACCIONES 393
+Ejem plo Supóngase que se tiene un bono con las siguientes características: plazo, 3
+10-10- 2 años; interés, 10%; frecuencia, anual; precio, 100; TIR, \10%, bullet. ¿Cuál es la
+duration de este bono?
+10 10 110
++ + =
+(1,10) 1 (1,10) 2 (1,10) 3
+Ésta es la primera parte de la fórmula, o sea la sumatoria del valor presente de los cupones.
+Como se ha visto en la fórmula de valor de un bono, dicha suma da el precio de un bono.
+10 10 110
++ + =
+1 2 3
+(1,10) (1,10) (1,10)
+100 100 100
+9,09% + 8,26% + 82,64% =
+Dado que el precio del bono determinado en el paso anterior se ha dividido por el precio del
+bono, la sumatoria corresponde al 100% y lo que se determina es la ponderación que tiene
+cada uno de los cupones dentro del bono. Como se aprecia, el cupón que más peso tiene
+es el tercero, con un 82,64% de ponderación.
+Por último, se debe multiplicar cada ponderación de los cupones por el período en que se
+paga cada cupón
+9,09% X 1 + 8,26% X 2 + 82,64% X 3 =
+La duration de este bono es de 2,73 años.
+Ahora supóngase el mismo bono pero en vez de ser bullet, amortiza 50% en el 2do año y 50%
+en el tercero. La fórmula de duration sería:
+10 60 55
++ + =
+1 2 3
+(1,10) (1,10) (1,10)
+×1 ×2 ×3
+100 100 100
+Dt = 9,09% X 1 + 49,59% X 2 + 41,32% X 3 = 2,32 años
+Dado que el recupero de la inversión se realiza antes, pues se amortiza en 2 veces, cambia la
+ponderación de los cupones. Ahora el que más pondera es el cupón del año 2 y la duration
+de 2,32 años se acerca más a 2 que a 3 años.
+1. Tasa del cupón. Manteniendo lo demás Hasta aquí vimos que la duration es útil co-
+igual, si la tasa del cupón es menor, la mo forma de medir la sensibilidad del precio
+duration será mayor y mayor será el de un bono ante variaciones en las tasas de
+porcentaje de variación del precio. interés. Ahora se cuantificará tal sensibilidad.
+2. TIR. Manteniendo todo lo demás igual,
+si la TIR es mayor, la duration dismi- 10.10.2 Relación entre
+nuye y menor la variación porcentual la duration y la variación
+del precio. porcentual de un bono
+Var. % del precio de un bono AP/P =-Du-
+3. Plazo del bono. Manteniendo todo lo de-
+ration modificada ¥ (Var. de la TIR) ¥ 100
+más igual, si la vida del bono es mayor,
+la duration también es más larga y ma- Por otra parte, la duration modificada
+yor la variación porcentual del precio. surge de la expresión que sigue.
+
+Cap 10 3/31/04 11:27 AM Page 394
+394 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Duration modificada =-10,40 ¥ (-0,001) ¥ 100 = 1,04% Real =
+1,03%(1,05%).
+(1+TIR/k)
+Donde k es la cantidad de veces que paga A continuación se verá el poder de pre-
+el cupón de renta en el año. dicción de la duration ante una variación del
+yield del 2%.
+Para el cálculo de la duration modificada
+tomemos el ejemplo del bono a 20 años, cu- Si la TIR sube de 9% a 11% = AP/P =...
+pón 5%, con una TIR de 9%, pagos semes-
+trales, bullet y un precio de 63,1968 de la -10,40 ¥ (0,02) ¥ 100 = -20,80% Real =
+tabla de las propiedades. La duration de este -17,94%.
+bono es 10,87 años.
+Si yield baja de 9 a 7 = AP/P =...
+10,87
+=10,4 ...= -10,40 ¥ (-0,02) ¥ 100 = 20,80% Real =
+(1+0,09/2)
+24,44%.
+Ahora se verá cómo se puede usar la du-
+En estos últimos 2 casos se aprecia que la
+ration para predecir el cambio en el precio
+duration fue un predictor un poco impreciso
+del bono ante distintos cambios en la tasa de
+respecto del precio futuro del bono.
+interés.
+Conclusiones de la duration
+¿Cuánto se modifica el precio del bono
+ante una variación de la TIR del 0,1%? 1. Sólo para cambios porcentuales “peque-
+ños”, la duration es una buena aproxi-
+Si la TIR aumenta de 9 a 9,10 = AP/P =...
+mación de la variación del precio.
+...= -10,40 ¥ (0,001) ¥ 100 = -1,04% Real = -
+2. La duration estima un cambio porcen-
+1,03%.
+tual “simétrico” del precio del bono,
+Como se aprecia, la duration fue un buen que no es una propiedad de la relación
+predictor (-1,04%) cuando la variación real que existe entre precio y TIR ya que
+ha sido -1,03%. La variación real se mide ese precio sube más que lo que baja.
+descontando el flujo del bono a una TIR de
+3. La mayor limitación de la duration es
+9,10% y luego fijándose cuánto varió el pre-
+que asume cambios paralelos en la cur-
+cio como consecuencia de dicho cambio.
+va de rendimientos, lo que no siempre
+Si la TIR baja de 9% a 8,90% = AP/P =... ocurre.
+Fig.
+10 - 10 Flujo de
+fondos
+futuros
+Hoy (nominales)
+Valor
+presente de
+los futuros
+Hoy
+flujos de
+fondos
+∆ Vencimiento
+Duration
+
+VALUACIÓN DE ACCIONES 395
+Como regla práctica,se dice que la duration mo-
+dificada mide la variación porcentual del precio de
+un bono ante una variación de 1% en la TIR del
+bono.Por ejemplo,supóngase un bono que tenga
+una TIR de 12%,un precio de mercado de 80 y una
+duration modificada de 2.Lo que dice la duration
+modificada es que si la TIR se va de 12% a 13%,el
+precio del bono cae 2%,o sea se va a 78,40.
+La duration modificada en términos mate- P 0
+máticos es la derivada primera del precio res-
+pecto de variaciones en las tasas de interés.
+(fig. 10-11).
+10.11 CONVEXITY
+TIR
+T
+La duration modificada es una medida de 0
+proyección conservadora, ya que, ante una
+baja en las tasas de interés, predice que el
+precio sube menos de lo que realmente sube
+10.11.1 Variación del
+y ante una suba de tasas, predice que baja
+precio de un bono debido
+más de lo que realmente baja. Este disenso
+a la convexity
+entre lo que predice la duration y la varia-
+ción que realmente ocurre en el precio del
+(1⁄2) ¥ convexity ¥ (variación del yield)2¥ 100 =
+bono se debe a la “convexidad” que muestra
+Para el mismo bono de 20 años que se cal-
+la relación precio/TIR de un bono.
+culó la duration, la convexity es 160,86 y la
+variación del precio debido a la convexity es:
+La convexity se puede definir como la di-
+(para una variación del yield del 2%).
+ferencia entre el precio actual del bono y el
+proyectado por la duration modificada. En (1⁄2) ¥ 160,86 ¥ (0,02)2¥ 100 = 3,22%
+términos porcentuales, es el cambio en el
+precio que no es atribuible a la duration Algunas propiedades de la convexity son
+modificada. las siguientes (fig. 10-12, pág. ):
+La convexity es la tasa de variación de la 1. Se relaciona en forma directa con la
+duration ante variaciones en el yield. En duration del bono. Cuanto más largo
+términos matemáticos, es la segunda deri- es el bono, mayor es su convexidad.
+vada del precio respecto de cambios en el
+2. Es una función creciente de la duration.
+yield:
+3. Está más positivamente influida por una
+baja en los yields que por una suba.
+10.12 APROXIMACIÓN DEL `
+donde, CAMBIO PORCENTUAL DEL
+PRECIO DE UN BONO USANDO
+k, veces que el cupón paga intereses en el
+LA DURATION Y LA CONVEXITY
+año; 2, semestral
+La variación total del precio es la suma de
+PVCF = valor presente del flujo de fondos la variación debida a la duration modificada
+oicerP
+Cap 10 3/31/04 11:27 AM Page 395
+Fig.
+10 - 11
+Precio actual
+Efecto de la
+“convexidad”
+
+
+
+Precio estimado
+por la duration
+Convexity 1 ∑ m t × (t+1)×PVCF
+=
+(en años) 1+(TIR/k) ∆ 2 k ×K × Precio
+t=1
+
+Cap 10 3/31/04 11:27 AM Page 396
+396 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Convexity para un bono de 5 años, precio 100, cu-
+Ejem plo
+pón 9%, y yield inicial 9%.
+ción a una hipoteca por un plazo de
+10-11- 1 30 años, reduciendo la duration de la
+cartera de MBS.
+Período t t x (t + 1) flow Cash PVCFt t x (t + 1) x PVCFt Si tanto las tasas de interés co-
+(cid:1)
+mo la duration de la cartera de
+1 2 4,5 4,30622009 8,6124 MBS declinan, los rendimientos
+2 6 4,5 4,12078478 24,7247 de los MBS son menores que los de bo-
+nos normales.
+3 12 4,5 3,94333471 47,3200
+Cuando las tasas de interés su-
+(cid:1)
+4 20 4,5 3,77352604 75,4705
+ben, la gente que ha tomado
+5 30 4,5 3,61102970 108,3309 préstamos, se siente menos in-
+clinada a refinanciarlos, lo que causa
+6 42 4,5 3,45553082 145,1323
+que las tasas de prepago de los MBS
+7 56 4,5 3,30672805 185,1768 caigan por debajo de los niveles norma-
+les. Desde la perspectiva de un tenedor
+8 72 4,5 3,16433307 227,8320
+de MBS, un número muy superior de
+9 90 4,5 3,02806992 272,5263 tomadores de préstamos es probable
+que retengan los préstamos hipoteca-
+10 110 104,5 67,2904427 7401,9487
+rios por los 30 años enteros, incremen-
+Suma 100 8497,0746 tando efectivamente la duration de la
+cartera de MBS.
+Fuente: Douglas “Bond Risk Análisis” (1990).
+Cuando tanto las tasas de in-
+(cid:1)
+terés como la duration de la
+8497,076229
+Convexity = =19,45 cartera de MBS aumentan,
+2× × ×
+(1,045) (2) (2) (100) nuevmente los rendimientos de los
+MBS son menores que los de los bonos
+normales.
+CONVEXIDAD NEGATIVA En un entorno de tasas de interés estable, los
+(cid:1)
+niveles de precancelación de hipotecas perma-
+(cid:1) El fascinante caso de los mortgage-backed secu-
+necen en niveles normales, al igual que los re-
+rities (MBS): activos securitizados garantizados
+pagos de MBS. De este modo la duration de las carteras
+por hipotecas o bonos con garantía hipotecaria.
+de MBS es relativamente constante y los tenedores (in-
+En general, las carteras de MBS emitidas (o sea, versores) de MBS reciben un atractivo rendimiento adi-
+(cid:1)
+bonos garantizados con una cartera de hipote- cional (spread) por sobre el rendimiento de los bonos
+cas) contienen hipotecas de 30 años de plazo. de 10 años del gobierno americano.
+Las cancelaciones anticipadas de estos títulos ocurren
+Cuando tanto lasa tasas de interés como la du-
+cuando los tomadores de préstamos refinancian o reali- (cid:1)
+ration de la cartera de MBS permanecen esta-
+zan un pago extra del capital de sus hipotecas. A las ta-
+bles, los rendimientos de los MBS exceden los
+sas de precancelación normales, las carteras de MBS
+de los bonos normales.
+tienen aproximadamente la misma “duration” de los bo-
+nos de 10 años del gobierno americano. La convexidad juega a favor del rendimiento de
+(cid:1)
+los bonos o de los portafolios de bonos, pero la
+Cuando las tasas de interés descienden, la gente
+(cid:1) convexidad negativa puede ser peligrosa.
+que ha tomado préstamos se siente más inclina-
+da a refinanciarlos, lo que causa que se incre- Cuando los precios de los bonos normales su-
+(cid:1)
+menten los repagos de los MBS. Desde la perspectiva de ben, los precios de los MBS suben en menor
+un tenedor de un MBS, el efectivo reemplaza la exposi- grado. Cuando los precios de los bonos norma-
+
+VALUACIÓN DE ACCIONES
+les bajan, los precios de los MBS bajan en ma-
+yor medida. Esta situación —cuando los rendi-
+mientos de los MBS se ven más perjudicados
+C
+que los bonos normales ante cualquier cambio o
+n
+en las tasas de interés— se llama convexidad ne- v e
+x
+gativa. Éste es el precio que deben pagar los in- id
+a
+v
+e
+e
+xc
+rs
+e
+o
+so
+re
+p
+s
+o
+d
+r
+e
+s o
+M
+b
+B
+re
+S
+e
+p
+l
+o
+d
+r
+e
+t e
+lo
+n
+s
+e
+b
+r
+o
+u
+n
+n
+o s
+r e
+d
+n
+e
+d
+1
+im
+0
+i
+a
+e
+ñ
+n
+o
+to
+s d
+e
+e
+n
+l
+Convexid
+a
+d
+d
+p
+o
+sitiva
+gobierno americano. n
+e
+g
+a
+La convexidad negativa es el resultado tiv
+de las opciones de repago adheridas a a
+los bonos con garantía hipotecaria (MBS).
+más la debida a la convexity, lo que se deno- • Yield disminuye de 9 a 7
+mina price volatility multiplier (PVM).
+Variación por duration = +20,80%
+Para el bono del ejemplo 10-11-1:
+Variación por convexity = +3,22%
+Ante una variación de la TIR de 2%
+Total = -24,02%, real = -24,44%
+• Si la TIR aumenta de 9 a 11
+Así, para grandes movimientos en las
+Variación por duration = -20,80% TIR, una mejor aproximación del movimien-
+to del precio del bono es sumar la variación
+Variación por convexity = +3,22%
+del precio por la duration modificada y por
+Total = -17,58%, real = -17,94% la convexity.
+oicerP
+(cid:1)
+TIR
+s
+o
+ñ
+a o s
+0 ñ
+3 a
+s
+0 o
+1 ñ
+a
+3
+adibed
+oicerp
+led
+nóicairaV
+ytixevnoc
+al
+a
+Variación de los yield
+ytixevnoC
+Cap 10 3/31/04 11:27 AM Page 397
+397
+Fig.
+10 - 12
+Duration modificada
+
+Cap 10 3/31/04 11:27 AM Page 398
+398 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+10.13 DURATION Y CONVEXITY Para aquellos bonos como los de países
+DE UN PORTAFOLIO DE BONOS emergentes, los bonos bradies, que tienen
+una parte garantizada por bono cupón cero
+La duration de un portafolio de bonos se
+del gobierno de los EE.UU. y la otra no ga-
+debería calcular tomado todos sus flujos co-
+rantizada, o de puro riesgo país, el DV01 se
+mo pertenecientes a un solo bono, y la TIR
+puede dividir en 2 medidas:
+del portafolio, como la TIR de un bono.
+Como esto puede ser engorroso, una buena a) Stripped Spread DV01
+proxy de la duration de un portafolio es cal-
+b) US Treasury DV01
+cular el promedio ponderado de la duration
+de los bonos que componen el portafolio. (También se puede calcular de la misma
+manera el spread duration y el US treasury
+Por ejemplo, si se tiene un portafolio de
+duration.)
+40% de un bono con una duration de 2,40 y
+60% de otro bono con un duration de 2,90, Esto es aplicable, por ejemplo, para los
+la duration del portafolio sería bonos par y descuento de Argentina donde
+el capital final y los 2 primeros cupones de
+D = 40% ¥ 2,4 + 60% ¥ 2,90 = 2,7 años
+intereses están garantizados por bonos del
+tesoro americano.
+que es una buena aproximación de la dura-
+tion del portafolio. El mismo criterio se apli- Entonces, al inversor le puede interesar
+ca para la convexity de un portafolio. evaluar la sensibilidad del precio del bono
+ante cambios en la tasa de interés america-
+na por un lado y cambios en el spread de
+10.14 DOLLAR VALUE OF A riesgo país por el otro.
+BASIS POINT (DV01) (VALOR EN
+Es así que el striped spread DV01 se calcu-
+DÓLARES DE UN PUNTO BÁSICO)
+la igual que en la tabla anterior, pero modifi-
+Esta medida mide los cambios en el pre- cándose en un punto básico sólo los flujos no
+cio de un bono ante una variación en un garantizados o de riesgo país, manteniéndo-
+punto básico en las tasas de interés. Debe se constantes los flujos garantizados y medir
+notarse que mide la volatilidad del precio en su efecto en el precio. Si el bono de 20 años
+términos monetarios ($), a diferencia de la anterior hubiera tenido los primeros cupo-
+duration que lo mide en términos porcen- nes de intereses garantizados por el gobierno
+tuales. O sea que el DV01 es expresado como americano y el capital final también, para el
+el valor absoluto de un cambio en la tasa (es cálculo del stripped spread DV01 se hubieran
+como si fuera la duration en términos mone- descontado los flujos no garantizados a 9,01%
+tarios). y los garantizados, a 9%.
+Se puede calcular el DV01 para 4 bonos Para el cálculo del US Treasury DV01 es al
+con una TIR inicial del 9% revés: se mantienen constantes los flujos no
+garantizados (en nuestro ejemplo al 9%) y se
+Bono Precio inicial Precio
+hacen variar sólo los flujos garantizados.
+(9% TIR) al9,01% DV01
+Esta medida (DV01) es muy usada para ar-
+5 años, 100,00 99,9604 0,0396
+bitrajes, dado que su ratio da la cantidad de
+cupón 9%
+nominales que hay que comprar de un bono
+25 años, 100,00 99,9013 0,0987
+por los nominales que se venden del otro.
+cupón 9%
+5 años, 88,1309 88,0945 0,0364 Existen dos medidas más del riesgo de un
+cupón 6% bono que suelen publicar los bancos de in-
+25 años, 70,3570 70,2824 0,0746 versión, pero que adolecen de un factor fun-
+cupón 6% damental: el valor tiempo del dinero
+
+VALUACIÓN DE ACCIONES 399
+a) Promedio ponderado de vida (PPV). 10.15 CÁLCULO DE LA ESTRUCTU-
+Esta medida es similar a la duration, RA TEMPORAL DE TASAS DE INTE-
+con la diferencia de que toma los flu- RÉS O CURVA DE RENDIMIENTOS
+jos a valores corrientes y no a valor PARA BONOS DE PAÍSES
+presente. EMERGENTES CON DISTINTAS
+ESTRUCTURAS
+ 
+  Cuando se vio la curva de rendimientos
+∑ n  (At+Rt)× t se observó que para su construcción, en el
+PPV=
+ ∑ n  eje de las ordenadas se ponía el rendimiento
+t=1  (At+Rt) del bono y en el eje de las abscisas, el plazo
+ 
+t=1 de cada bono. Cuando las estructuras de los
+b) Plazo promedio ponderado (PPP). Es- bonos son diferentes no se puede usar el pla-
+ta medida es muy similar a la ante- zo en el eje de las abscisas. El plazo intenta
+rior. Su diferencia radica en que el medir la sensibilidad del precio de los bonos.
+PPP considera únicamente los cupo- Pero con distintas estructuras (distintos pla-
+nes de amortización, dejando de lado zos, cupones, TIR) puede ser que un bono
+los pagos de intereses. más largo sea menos sensible que un bono
+más corto. Es así que se necesita una medi-
+∑
+n At×t
+PPP= da que homogeinice las diferentes estructu-
+n
+∑ ras para medir la sensibilidad de los precios.
+t=1 At
+Esta medida es la duration, pues, como se
+t=1
+La confección de esta curva es CÁLCULO DE LA CURVA DE En resumen, tendremos tres cur-
+muy simple para el caso de los bo- vas diferentes para los distintos
+RENDIMIENTOS ARGENTINA
+nos del Tesoro Norteamericano, bonos públicos argentinos: la de
+que presentan igual riesgo crediti- títulos denominados en pesos, la
+cio y condiciones de emisión (con la excepción de la de Botes, Bocones, y Brady; y la de Bonex y Globales.
+maturity), pero se complica en el caso argentino. Es por A partir de sus TIR y Duration, podremos graficar las
+ello que en la práctica, la Curva de Rendimientos de curvas. Para ello será necesario confeccionar la recta
+bonos argentinos no presenta la forma regular que de regresión que una los puntos. La función general-
+muestra la de los bonos del Tesoro Norteamericano. mente utilizada es la siguiente:
+Debido a la diversidad de condiciones de emisión de
+TIR= a + b x ln (Duration).
+los títulos de deuda argentinos, se hace necesario ha-
+cer ciertas diferenciaciones en la confec-
+ción de la Curva de Yield argentina. Es por Curvas de rendimientos*
+ello que tomaremos los títulos en pesos por
+12,5%
+un lado y los títulos en dólares por otro .
+PRE 3 PRO 1
+Ambos grupos de títulos representan ries- 11,5% PAR
+gos diferentes y por eso no pueden consi- PRO 4 DISC
+10,5% PRE 1 PRO 2
+derarse en la misma curva. En el caso de BOGX5
+BOGX4 BOGX6
+los títulos en dólares, es común una subcla- 9,5% PRE 4 FRB
+sificación entre los BONEX y los GLOBALES,
+8,5% BOGX3D BOGX
+por un lado; y los BOCON, BOTES y Brady, PRE 2
+por otro. Puede pensarse que los primeros 7,5%
+representan un riesgo de default menor, BONEX 92
+debido a que son títulos que nunca han su- 6,5%
+frido de incumplimiento en sus pagos. 0 2 4 6 8 10
+Duration/Stripped duration
+*al 13/7/98
+RIT
+deppirtS/RIT
+Cap 10 3/31/04 11:27 AM Page 399
+
+Cap 10 3/31/04 11:27 AM Page 400
+400 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+vio, es el plazo de vida de un cupón cero mador de un préstamo, durante toda o parte
+equivalente. Es así que en países emergen- de la vigencia del bono o préstamo, en bene-
+tes la curva de rendimientos se describe en ficio de sus acreedores.
+un espacio rendimiento-duration.
+La no observancia por parte del deudor de
+alguno de los covenants estipulados (luego
+10.15.1 Relación entre la forma de un período preestablecido desde incum-
+de la curva de rendimientos plimiento) constituye un evento de incum-
+y el ciclo económico plimiento del contrato (default), pudiendo
+Anteriormente se ha visto que en un país solicitarse que se haga efectivo el pago.
+donde no existe riesgo de default, la pen-
+diente de la curva se puede usar como un in-
+10.16.2 Funciones de los
+dicador de qué curso tomará la economía.
+covenants
+Pendiente positiva, expansión; pendiente
+Las funciones de los covenants son de
+negativa, recesión. En el caso de las países
+protección de los acreedores:
+emergentes, con riesgo de default, no existe
+tal relación y la forma de la curva lo único Preservar la capacidad de repago
+que refleja es una situación de riesgo (fig.
+• Limitando el endeudamiento del emisor.
+10-13): si tiene pendiente positiva, se estima
+que hay menos riesgo de pago en el corto • Evitando que los fondos generados en la
+plazo que en el largo plazo. Por el contrario, operación se utilicen con otro propósito.
+si la curva tiene pendiente negativa, se su-
+• Protegiendo la base de activos del negocio.
+pone que existe alto riesgo de no pago en el
+corto plazo que en los bonos de largo plazo Protección contra reestructuraciones
+• Limitando cambios en el control de la em-
+presa, takeovers, fusiones.
+10.16 COVENANTS O INDENTURES
+(CLÁUSULAS DE PROTECCIÓN) • Permite renegociar condiciones ante la
+desmejora del riesgo.
+10.16.1 Concepto Protección en caso de default
+Se denominan covenants las restricciones
+• Preservando el grado de privilegio del cré-
+o claúsulas que se compromete a cumplir el
+dito
+deudor, ya sea el emisor de un bono o el to-
+• Limitando el otorgamiento de garantías
+Fig. reales (negative pledge)
+10-13 Dar señales de deterioro del crédito
+TIR Probabilidad Riesgo alto
+• Brindando información en tiempo y forma.
+de default de pago
+• Fijando niveles aceptables de salud finan-
+ciera.
+• Permitiendo la intervención temprana del
+acreedor.
+Evitar actitudes oportunistas de la empresa
+• Limitando la capacidad de realizar inver-
+siones que puedan aumentar el riesgo.
+Riesgo bajo
+de pago
+• Limitando la capacidad de realizar distri-
+Duration buciones a sus accionistas.
+
+Cap 10 3/31/04 11:27 AM Page 401
+VALUACIÓN DE ACCIONES 401
+Según las agencias de riesgo: • Covenants muy restrictivos de un bono
+podrían terminar en un default, por la im-
+1. Los covenants no desempeñan un pa-
+posibilidad de lograr consenso entre los
+pel significativo en la determinación
+tenedores de bonos.
+de los ratings.
+Entonces, ¿cuándo es conveniente aceptar los
+2. Los covenants no atacan los fundamen-
+covenants de los bancos, en lugar de recurrir a
+tos de la fortaleza crediticia del deudor.
+los covenants menos exigentes del mercado?
+3. Normalmente son inconsistentes con
+• Cuando el monitoreo más intenso de los
+el nivel de rating deseado. Su enforce-
+bancos reduce los problemas derivados de:
+ment es dudoso.
+La preocupación de las agencias de riesgo - Asimetría de información entre la em-
+respecto de los covenants es exactamente la presa y sus acreedores.
+opuesta, dado que la fijación de covenants
+- Asimetría de información entre la em-
+muy ajustados puede conducir a su viola-
+presa y los inversores del mercado.
+ción, causando un default que pudo evitarse.
+- Riesgo moral azaroso (Moral hazard)
+(fundamentalmente en el caso de em-
+10.16.3 Diferencias de covenants
+presas pequeñas o de alto crecimiento).
+en deuda bancaria y deuda en
+mercados • Cuando la empresa cree que en el futuro
+• Los bancos son más exigentes en lo que requerirá una flexibilidad para negociar co-
+respecta a la información periódica. venants mayor a la del mercado público.
+• Normalmente los bancos tienen derecho a
+10.16.4 Tipos de covenants
+inspeccionar oficinas e instalaciones del
+deudor. a) Por el tipo de compromiso asumido
+• Los bancos incluyen covenants de mante- • Affirmative covenants (claúsulas afirma-
+nimiento de (Condiciones Financieras tivas): son aquellos compromisos que
+)Financial Condition (endeudamiento, co- indican acciones o situaciones que la
+bertura e intereses, capital de trabajo, pa- empresa debe observar. Por ejemplo,
+trimonio neto) que no son usuales en entrega de información contable, pago
+bonos, pero hay quienes los tienen. de intereses y capital, cumplimiento de
+las leyes.
+• Es común ver en préstamos bancarios to-
+pes máximos al nivel de endeudamiento. • Negative covenants (cláusulas negativas):
+Esto es inusual en bonos, pero hay quie- son aquellos compromisos que indican
+nes los tienen. acciones o situaciones en las que la
+compañía no debe incurrir. Por ejemplo,
+• Es común ver en préstamos bancarios li-
+limitaciones al endeudamiento, limita-
+mitaciones a la realización de inversiones
+ciones a otorgar garantías, limitaciones
+en activo fijo o en otras empresas. Esto es
+a la venta de activos.
+inusual en bonos.
+Estas diferencias obedecen a que: • Financial condition covenants (claúsulas
+de condiciones financieras):son aquellos
+• Los bancos tienen una ventaja comparativa
+que establecen ratios (normalmente
+en negociar, monitorear, exigir el cumpli-
+basados en la información contable)
+miento de covenants y tomar la decisión
+que la compañía debe observar.
+de ejecutar en caso de incumplimiento.
+b) Por el objeto del covenant
+• Los inversores públicos tienen menos ac-
+ceso a la información. c) Pago puntual de intereses y capital
+
+Cap 10 3/31/04 11:27 AM Page 402
+402 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+d) Formales inversiones dentro del negocio. Por
+los fondos no aplicados se requiere
+• Entrega de información.
+una oferta de recompra a los bonis-
+• Cumplimiento de las leyes y normas tas o de precancelación al banco.
+ambientales.
+- En caso de préstamos puente por ven-
+• Impuestos. ta de activos, es usual que se estipule
+que el procedente de la venta sea apli-
+• Mantenimiento de oficinas.
+cado a precancelar el préstamo.
+• Notificaciones.
+- En algunos casos, los lease back de-
+• Derechos de inspección (típicamente ben pasar por los test que se requie-
+en préstamos bancarios). ren para tomar nueva deuda.
+e) Relacionados con la posibilidad de reor- • Limitaciones a la cesión o enmienda de
+ganizar el negocio contratos clave.
+• Mantenimiento del negocio y limita- • Limitaciones a la venta de ciertos acti-
+ción a las actividades actuales. vos clave.
+• Cambio de control (típicamente no es • Mantenimiento de la condición finan-
+un evento de default, sino un put a fa- ciera de subsidiarias clave.
+vor de los tenedores de bonos o una
+h) Relacionados con la posibilidad de con-
+cláusula de prepago del préstamo).
+traer nueva deuda
+• Limitaciones a fusiones, consolidación
+• En la Argentina este tipo de covenant
+y/o venta de una parte sustancial de
+no fue usual en empresade alta calidad
+los activos, normalmente requiere que:
+crediticia (YPF, TASA, TECO, PECOM,
+- No se produzca un evento de default.
+algunas empresas de servicios públi-
+- La empresa pase los test requeridos cos). Tampoco se utilizó en las ON de
+para tomar deuda adicional, sobre la bancos. Por el contrario, fue muy co-
+base del balance proforma de fusión. mún en empresa de mayor riesgo de
+crédito.
+- El patrimonio neto no debería bajar
+de un mínimo preestablecido. • Para poder tomar nueva deuda finan-
+ciera se requiere que la empresa pase
+f) Relacionados con el seniority de la deuda
+ciertos test de condición financiera. Si
+• Pari-passu de acuerdo con el privilegio. no los pasa, no puede tomar nueva
+deuda que no esté incluida en la defi-
+• Negative pledge (garantías negativas)
+nición de endeudamiento permitido.
+(típicamente admite un listado de per-
+mitted liens). En los contratos de préstamos y bonos
+emitidos por empresas argentinas es usual
+g) Relacionados con los activos de la em-
+encontrar los siguientes test:
+presa.
+• Deuda consolidada financiera/EBITDA
+• Limitaciones a las ventas de activos y
+lease back. Normalmente requieren: Apunta, de manera indirecta, a limitar
+- Venta a precio justo de mercado. el peso de los intereses sobre el EBIT-
+DA y a limitar la incidencia del endeu-
+- Porcentaje mínimo de cobro en efec-
+damiento sobre el valor de mercado de
+tivo o títulos de buena calidad.
+los activos (que normalmente se deter-
+- Los fondos deben ser aplicados den- mina como un múltiplo del EBITDA).
+tro de un plazo a repagar deuda o a En Argentina 98 llegó a 6x.
+
+Cap 10 3/31/04 11:27 AM Page 403
+VALUACIÓN DE ACCIONES 403
+• Ratio de cobertura: EBITDA/(intereses mo no supere cierto tope fijado en
++ dividendos de preferidas). En los relación con las utilidades o el cash
+años 1997/1998, en la Argentina era flow (flujo de fondos).
+habitual un máximo entre 1,75x y 2,0x.
+Los topes mas usuales en préstamos y
+• Ratio de Cobertura de cargo fijo (Fixed bonos de empresas argentinas son:
+Charge Coverage Ratio): aplicable en
+- EBITDA acumulado - 1,5 ¥ intereses
+empresa holding.
+acumulados + aumentos de capitas
+Se calcula de la siguiente manera: + una canasta (monto preestableci-
+do que se fija como colchón).
+(Dividendos cobrados + “management
+fees” cobrados - gastos )/(intereses + - 50% de net income + aumentos de
+dividendos preferidos). También entre capital + una canasta.
+1,75x y 2,0x.
+- 50% de adjusted net income + au-
+• Ratio de apalancamiento (Leverage ra- mentos de capital + una canasta.
+tio). Se lo calcula de la siguiente forma:
+Donde adjusted net income se defi-
+(Endeudamiento – efectivo – equiva- ne como:
+lente de efectivo)/Patrimonio neto.
+Resultado ordinario - resultado por
+Lo usual era que este ratio debía ser in- venta de bienes - resultado VPP +
+ferior a 0,60x. amortizaciones + dividendos cobra-
+dos.
+Normalmente estos ratios se calculan so-
+bre la base de la información contable de Es una definición que trata de aproxi-
+los 4 trimestres previos a la fecha en que marse a lo que sería un resultado cash
+se desea incurrir en nueva deuda, ajustan- y normalizado.
+do los datos contables dando efecto a una
+En todos los casos (EBITDA, intereses,
+serie de transacciones que se enumeran en
+aumento de capital, ingreso neto) se
+la definición contractual del covenant co-
+toman los montos acumulados desde
+mo si las mismas hubieran ocurrido el pri-
+el inicio del préstamo.
+mer día del periodo de 4 trimestres bajo
+consideración. Esta limitación no fue usual en empre-
+sa de alta calidad crediticia ni en ON
+i) Relacionados con la posibilidad de hacer
+de bancos.
+pagos a accionistas o terceros afiliados
+• Limitaciones a transacciones con afilia-
+• Limitaciones a restricted payments. La das:
+definición de restricted payment inclu-
+- Deben ser arm’s lenght (empresas
+ye todo aquel pago que se haga a los
+afiliadas).
+accionistas en su condición de tales: di-
+videndos, escisiones, reducción de ca- - Deben ser por escrito.
+pital, etc.
+- Requieren fairness opinion (opinión
+Para realizar un restricted payment justa).
+normalmente se requiere que:
+Normalmente, se admite que ciertas
+- La empresa pase el test para contraer transacciones (honorarios a directores,
+nueva deuda (dando efecto proforma opciones de la empresa, plan de pre-
+también al restricted payment). mios) no cumplan con estos requisitos.
+- El monto acumulado de restricted j) Relacionados con la liquidez de subsidia-
+payments desde el inicio del présta- rias relevantes
+
+Cap 10 3/31/04 11:27 AM Page 404
+404 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Muy usuales en los casos que el deudor es flujo de fondos real neto y los servicios
+una empresa holding, cuyo flujo de caja de- de deuda proyectados para el siguiente
+pende, total o parcialmente, del flujo de caja trimestre.
+de sus subsidiarias.
+• Capital de trabajo= activo corriente -
+• Compromiso de no limitar la capaci- pasivo corriente. Se fija un monto mí-
+dad de pago de dividendos de las sub- nimo del que no se puede bajar.
+sidiarias.
+• Ratio Corriente = activo corriente/pa-
+• Compromiso de no licuar la participa- sivo corriente. Normalmente se fija un
+ción de la empresa holding en las sub- mínimo entre 1,25x y 1,50x.
+sidiarias por debajo de un piso.
+• Ratio de liquidez ácido = (Activo co-
+• Compromiso de no incurrir en deuda rriente - bienes de cambio - gastos paga-
+en las subsidiarias. dos por adelantado)/Pasivo corriente.
+Normalmente se fija un mínimo de
+• Compromiso de no limitar la capacidad
+1,00x.
+de las subsidiarias de pagar su deuda
+con la empresa holding. • Riqueza tangible neta = Patrimonio ne-
+to - valor de libros de activos intangibles
+k) Relacionados con el mantenimiento de
+- valor de libros de cargos diferidos. Es
+cierta condición financiera
+una definición ácida de patrimonio ne-
+to que no considera como activo a los
+Se exige que el deudor cumpla en todo
+activos intangibles. En algunos casos se
+momento o al cierre de cada trimestre con
+estipula que los valores a deducir son
+ciertos ratios financieros, los que se calcu-
+los intangibles y cargos diferidos totales
+lan, generalmente, sobre la base de la infor-
+a valor de libros; en otros, que los valo-
+mación contable (no sobre bases proforma).
+res a deducir son los intangibles y car-
+Estos covenants sólo fueron usuales en gos diferidos generados desde la fecha
+préstamos bancarios a empresas de menor del préstamo y no los existentes antes
+calidad crediticia. Naturalmente, no fueron del desembolso de este último.
+utilizados en las ON de bancos, a los que se
+Normalmente se requiere que el tangi-
+les exige el cumplimiento de las relaciones
+ble net worth no sea menor a un mon-
+técnicas que fija el BCRA.
+to predeterminado incrementado por
+A diferencia de los test para incurrir en los resultados positivos de la compañía
+nueva deuda, el incumplimiento a los test (sin deducir los trimestres en que el re-
+de condición financiera constituye un even- sultado fue negativo).
+to de incumplimiento.
+• Endeudamiento. Se utiliza alguno de
+Los ratios más utilizados y las definicio- los siguientes indicadores:
+nes más usuales son:
+- Tope máximo a la deuda financiera
+• Ratio de cobertura de servicios de deu- consolidada: se fija un monto máxi-
+da (Debt service coverage ratio) = flu- mo que no se puede superar.
+jo de fondos netos /Servicios de capital
+- Ratio de Endeudamiento (ídem ratio
+e interés de la deuda. Donde net cash
+usado como test para la toma de nue-
+flow = EBITDA - impuestos a las ga-
+va deuda). Es usual que este ratio de-
+nancias a pagar. Normalmente, en
+ba ser inferior a 0,60x.
+préstamos de empresas argentinas se
+fija un mínimo entre 1,0 y 1,25, y se - Ratio de deuda total = (Deuda Finan-
+calcula sobre la base de los datos reales ciera - deuda subordinada)/(Deuda
+del último trimestre o sobre la base del financiera + tangible net worth).
+
+Cap 10 3/31/04 11:27 AM Page 405
+VALUACIÓN DE ACCIONES 405
+En la Argentina, durante los años se determinan sobre la base de la informa-
+1998 y 1999 lo normal era un máximo ción contable pura, sino que se calculan so-
+de 0,50x. bre una base proforma.
+l) Relacionados con la posibilidad de reali- Los ratios calculados sobre una base pro-
+zar inversiones forma apuntan a incluir en la información el
+impacto continuado de ciertas transacciones
+• Limitaciones a las inversiones de capi-
+especificas, mostrando cómo hubiera sido la
+tal (capital expenditures): normalmen-
+información contable si esas transacciones se
+te se fija un monto máximo trimestral.
+hubieran realizado en un momento pasado.
+• Limitaciones a inversiones: se conside-
+a) ¿En qué momento?
+ran inversiones la adquisición de parti-
+cipacioneso créditos en otras empresas. El primer día del primer trimestre de los
+Normalmente las inversiones permiti- 4 trimestres anteriores (en adelante, “el día
+das se limitan a inversiones en equiva- inicial”)
+lentes de efectivo más una canasta
+b) ¿Qué transacciones se consideran y
+compuesta por inversiones preestable-
+qué ajuste hay que hacer a la información
+cidas para fines determinados.
+contable?
+Sólo usuales en préstamos bancarios a
+1. La toma de la deuda que se está consi-
+empresas de menor calidad crediticia.
+derando.
+m) Relacionados con el mantenimiento de
+Ajuste a la información contable: au-
+cierto rating mínimo
+menta los intereses contabilizados por
+Otorgan a los acreedores el derecho a un los intereses anuales que devengaría
+put sobre la deuda o a la nueva fijación de la la nueva deuda.
+tasa en caso de disminución de la califica-
+Si los fondos a tomar se aplicaran a la
+ción del emisor o de una subsidiaria clave.
+compra de una empresa o una unidad
+de negocios, se debe incrementar el
+10.16.5 Tendencia de los resultado operativo o los dividendos
+covenants en América Latina cobrados por el resultado operativo o
+durante 2001 los dividendos que haya generado la
+En los préstamos realizados durante di- empresa o unidad de negocios desde
+cho año los covenants y los ratios considera- el día inicial.
+dos se han apartado de lo que fue usual en
+2. La toma de la deuda vigente a ese día.
+años anteriores.
+Ajuste de la información contable: au-
+En esos casos los covenants se han ajusta-
+menta los intereses contabilizados
+do a la dinámica de la negociación, a la si-
+por los intereses que hubieran deven-
+tuación y perspectivas del deudor, y a las
+gado las deudas vigentes desde el día
+exigencias de los bancos.
+inicial hasta el día en que fueron con-
+traídas.
+Incluso algunas de las empresas de mayor
+calidad crediticia han tenido que aceptar al- 3. La cancelación de las deudas que ya
+gunos covenants de mantenimiento de con- no están vigentes.
+dición financiera.
+Ajuste a la información contable: dis-
+minuye los intereses contabilizados
+10.16.6 Cálculo de ratios proforma
+por los intereses devengados por esas
+Como dijimos antes, normalmente los deudas desde el día inicial hasta la fe-
+test de incurrence y de pagos restrictivos no cha de su cancelación.
+
+Cap 10 3/31/04 11:27 AM Page 406
+406 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+4. La venta de activos. Se pueden agrupar en tres categorías:
+Ajuste a la información contable: a) si • Covenants relacionados con la admi-
+se cobró en efectivo, se considerara nistración general del fondo.
+una menor necesidad de financiamien-
+- Monto invertido por empresa.
+to desde el día inicial hasta la fecha de
+cobranza, y en consecuencia disminu- - Uso de deuda.
+yen los intereses contabilizados; b) si
+- Inversiones relacionadas del socio
+se vendió a crédito y el crédito deven-
+principal.
+ga intereses, se aumentan los intereses
+- Reinversión de fondos.
+cobrados desde el día inicial hasta la fe-
+cha de venta; c) disminuye el resultado • Covenants relacionados con las activi-
+operativo o los dividendos por el resul- dades del socio principal.
+tado operativo o los dividendos genera-
+- Inversiones directas en las empresas
+dos desde el día inicial hasta la fecha
+realizadas por el socio principal.
+de venta.
+- Venta de inversiones por parte del
+5. La adquisición de activos.
+socio principal.
+Ajuste a la información contable: igual
+- Plazo mínimo para iniciar un nuevo
+que en la venta, pero en sentido con-
+fund raising para otro fondo.
+trario.
+- Dedicación mínima de tiempo y re-
+6. El efecto de los pagos restringidos , en
+cursos al fondo.
+caso de que se esté considerando la
+realización de un pago de esta natura- - Incorporación de otros socios princi-
+leza. pales.
+Ajuste a la información contable: a) se • Covenants que limitan las inversiones
+considera una mayor necesidad de fi- que se pueden realizar.
+nanciamiento o un menor saldo de
+- % máximo de inversiones en un tipo
+efectivo como si el pago restrictivo se
+de activos.
+hubiera realizado el día inicial. En
+consecuencia, aumenta los intereses - Inversiones en títulos que cotizan.
+pagados o disminuye los intereses co-
+- Inversiones en otros fondos.
+brados. b) Disminuye el patrimonio
+- Inversiones en LBO (en general apli-
+neto.
+cables a fondos de venture capital)
+En la Argentina no se dispone de normas
+- Inversiones en títulos extranjeros.
+contables que regulen la confección de ba-
+lances proforma. En los EE.UU. estos bal- El uso de covenants en private equity se
+ances están regulados por la Reg. S Rule ha ido oncrementando. En una muestra de
+11-01. En la práctica profesional local gene- 140 acuerdos de venture capital (Gompes y
+ralmente se aplica la legislación norteame- Lerner) se encontró que los partnerships
+ricana. constituidos entre 1978 y 1982 contienen
+un promedio de 4 clases de covenants,
+10.16.7 Covenants en empresas mientras que los constituidos entre 1988 y
+de capital privado (private equity) 1992 contienen un promedio de 8 clases de
+covenants.
+Además de las operaciones de financia-
+ción, es muy usual observar covenants en la En esa muestra, más del 75% de los part-
+documentación que rige la constitución de nerships constituidos entre 1988 y 1992 con-
+fondos de private equity. tienen restricciones al tamaño de la
+
+Cap 10 3/31/04 11:27 AM Page 407
+VALUACIÓN DE ACCIONES 407
+Obligaciones Negociables de CableVisión 13,75% con vencimiento el 1 de mayo de
+2009. Principales Covenantsy su cumplimiento hacia fines de 1999.
+Dentro del prospecto de emisión se podían encontrar 4 covenants financieros:
+Covenants financieros
+Requerido Actual
+LTM’s EBITDA/Cash Int. Exp. > 1,75x 1,88x
+T.debt /ann. Quarter EBITDA < 5,5x (6,5 x para bonos) 5,18x
+Senior debt/ann. Quarter EBITDA < 4,5x 4,32x
+Ann. Qurt. EBITDA/pro form debt serv. > 1 1,20x.
+LTM’s EBITDA/Cash Int. Exp.: ratio de generación de caja del negocio de los últimos 12 meses (LTM’s EVI-
+TAD) respeto del servicio de intereses anuales.
+T debt/ann. Quarte EBITDA: ratio de deuda total (T. debt) sobre EBITDA trimestral anualizado.
+Señor Debt/ann. Quarte EBITDA: ratio de deuda senior respecto de EVITAD trimestral anualizado.
+Ann. Quart EBITDA/pro form debt serv.: EBITDA trimestral anualizado dividido servicio de intereses pro-
+forma.
+El ratio de los últimos 12 meses ha sido 1,88 veces, levemente superior a lo que requiere el covenant
+de conbertura (1,75x) entendido como LTM’s EBITDA sobre servicio de intereses, excluidos los ingresos
+financieros, estaba a 1,75 veces en el tercer trimestre de 1999, lo que se incrementó levemente respec-
+to de 1,72 de igual trimestre de 1998. Si se hubieran incluido los servicios de intereses que se devenga-
+ron pero no se pagaron, el ratio hubiera sido 1,39 veces. El ratio de los últimos 12 meses ha sido 1,88
+veces, levemente superior a lo que requiere el covenant (1,75x).
+Como se puede apreciar, todos los otros covenants también se cumplían aunque en situación bastante
+ajustada.
+inversión en una empresa, al uso de deuda, 10.17 CONSECUENCIAS DE NO
+a la inversión relacionada del socio principal INCLUIR DETERMINADOS
+y a nuevos fundraising por parte del socio COVENANTS, BUENOS AIRES
+principal. Más del 60% de los mismos con- EMBOTELLADORA (BAESA)
+tienen restricciones a la realización de in- A FINES DE 1999
+versiones en otros fondos, en títulos que
+cotizan y en LBO (compras apalancadas).
+10.17.1 Background
+El uso de covenants es mayor en las áreas Buenos Aires Embotelladora (BAESA) era
+donde existe mayor posibilidad de compor- la mayor embotelladora de productos Pepsi
+tamiento oportunista del socio principal: in-
+fuera de los EE.UU., con operaciones en Ar-
+versiones en empresas de alta tecnología e
+gentina, Brasil, Chile y Uruguay. La empre-
+inversiones en empresas de start-up.
+sa también distribuía una marca propia de
+La oferta y demanda de fondos en el sec- agua mineral, la cerveza Budweisser y otras
+tor de venture capital afecta el uso de cove- bebidas. En 1994 BAESA invirtió aproxima-
+nants. Los fondos captados en épocas de damente u$s 400 millones en la construc-
+mayor oferta por parte de los inversores tie- ción de infraestructura para la producción y
+nen menos restricciones. comercialización de bebidas suaves en sus
+
+Cap 10 3/31/04 11:27 AM Page 408
+408 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+áreas de franquicias en el sur de Brasil; en combinación de efectivo, nuevas acciones y
+1995 la empresa anunció planes de invertir nueva deuda. En seguida de haberse anuncia-
+u$s 400 millones en sus negocios brasileños. do el plan de reestructuración, los bonos de
+BAESA subieron de un precio de 65 a un pre-
+A partir de 1995, ventas menores a las es-
+cio cerca de los 70. Un mes después, luego de
+peradas en Argentina y Brasil condujeron a
+mostrar un resultado trimestral muy pobre,
+una reestructuración de las operaciones, con
+las acciones de BAESA son retiradas de los
+despidos de personal en la Argentina y la se-
+mercados de valores de Buenos Aires y New
+paración de las operaciones de manufactura
+York, dado que el patrimonio neto cayó en te-
+y distribución en Brasil. La performance ope-
+rreno negativo, luego de que la empresa mos-
+rativa de la empresa fue muy afectada por
+trara 5 trimestres seguidos de pérdida.
+costos de inicio de la expansión en Minas Ge-
+rais y Mato Grosso do Sul en marzo de 1996. En un esfuerzo por hacerse de efectivo,
+BAESA vendió su unidad de Costa Rica por
+En febrero de 1996, BAESA emitió eurobo-
+una suma de dinero no revelada y la unidad
+nos por u$s 200 millones, principalmente
+brasileña, así como plantas de embotella-
+para refinanciar deuda de corto plazo. La
+miento, a Companhia Cervejaria Brahma
+emisión fue calificada como BB- por Stan-
+por u$s 10 millones en efectivo y u$s 45 mi-
+dard and Poor’s, quien justificó dicha nota
+llones en deuda. Además, los acreedores bra-
+en un decrecimiento en los volúmenes de
+sileños otorgaron un perdón por u$s 85
+venta, el aumento de la competencia de los
+millones de deuda, dejando solamente u$s
+productos de la empresa Coca-Cola.
+25 millones de deuda en Brasil.
+En enero de 1998 los acreedores y accio-
+10.17.2 Fases de la
+nistas aceptaron el plan de BAESA presenta-
+reestructuración
+do en julio de 1997, que implicaba resolver el
+En julio de 1996 Pepsi tomó el control del
+conflicto fuera de los tribunales. En él BAESA
+management de BAESA. A pesar de la dismi-
+acordaba intercambiar u$s 213 millones de
+nución de costos instrumentada, la perfor-
+nueva deuda y 98% del capital accionario por
+mance operativa en los primeros nueve
+los u$s 700 millones de deuda existente.
+meses de 1998 se deterioró más aún y BAE-
+SA incumplió los covenants de deuda sobre
+10.17.3 Conclusión
+los u$s 200 millones que vencían más los u$s
+545 millones en deuda de corto plazo. Algu- Durante 1999 la performance operativa
+nos meses después dejó de pagar los intere- de BAESA continuó deteriorándose. Debido
+ses y los pagos de capital que eran exigibles. que la emisión no contenía covenants que
+restringían realizar fuertes inversiones o
+En octubre los accionistas iniciaron accio-
+mantener determinados ratios financieros
+nes legales en los EE.UU., aduciendo que el
+mínimos, la empresa incurrió en u$s 700 mi-
+management no representó adecuadamente
+llones de deuda mientras que las estadísti-
+las condiciones financieras de BAESA y artifi-
+cas de crédito se deterioraron al punto de
+cialmente infló el valor de su deuda y el capi-
+que le fue imposible cumplir con su servicio
+tal. Poco después BAESA eludió la liquidación
+de deuda, tanto de intereses como de capi-
+acordando con los tenedores de bonos diferir
+tal. El plan de reestructuración concluyó
+los pagos de capital e intereses por 6 meses.
+con una fuerte pérdida para los tenedores de
+La empresa a su vez recibió un compromiso
+bonos, dado que la empresa intercambió u$s
+de Pepsi por u$s 40 millones.
+113 millones de deuda nueva y 98% del capi-
+En abril de 1997, después de que finalizara tal de BAESA (valuado en u$s 80 millones)
+el período de no innovar, BAESA anunció un por u$s 700 millones de deuda existente, re-
+plan de reestructuración donde eliminaría el sultando en un retorno de aproximadamen-
+stock existente y le daría a los acreedores una te 27 centavos por cada dólar invertido.

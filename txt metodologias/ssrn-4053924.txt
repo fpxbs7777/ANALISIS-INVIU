@@ -1,0 +1,1194 @@
+Impermanent loss and slippage in Automated Market Makers
+1
+(AMMs) with constant-product formula
+2
+Mauricio Labadie1*
+3
+1Faculty of Sciences, Universidad Nacional Aut´onoma de M´exico (UNAM), Mexico
+4
+City, Mexico.
+5
+*Email: mauricio.labadie@ciencias.unam.mx
+6
+Abstract
+7
+Automated Market Makers (AMMs) are the main liquidity providers in the Decentralised
+8
+Finance (DeFi) space. They are programmes that follow some coded rules to determine and
+9
+adjustpricesandvolumes. Amongstthoserules,themostcommononeistheconstant-product
+10
+formula, which is followed by the most important AMMs in DeFi: Uniswap in the Ethereum
+11
+blockchain [Unia] and Raydium in the Solana blockchain [Raya]. In this paper we explain the
+12
+mathematical formulas that are used to compute prices and volumes in AMMs with constant-
+13
+productformulas,andutilisethisframeworktostudytheeffectofpriceandvolumechangeson
+14
+AMMsfromtwopointsofview: (1)theliquidityprovider’s(i.e. theAMM)and(2)thetrader’s
+15
+(who initiates the swap). For the liquidity provider we analyse the impermanent loss and how
+16
+it behaves with respect to changes in price and available liquidity. For the trader we compute
+17
+the slippage and show that this is exactly the impermanent gain (i.e. negative impermanent
+18
+loss)oftheAMM.Wealsoanalysetheeffectofliquiditybalance/imbalanceintheAMMonthe
+19
+resultingswapprices: theAMMwillfavourswapsthathelpittomaintainabalancedpooland
+20
+penalise swaps that push the pool out of its balance. Finally, we show how the “impermanent
+21
+loss” behaves with respect to reversion in prices: the loss will disappear if there is a complete
+22
+u-turn in prices (hence the adjective “impermanent”), but if we perform some actions before
+23
+the price reversion is complete the impermanent loss can become permanent.
+24
+Contents
+25
+1 Automated Market Makers (AMMs) and traditional market makers (MMs) 2
+26
+2 Mathematical framework for AMMs 3
+27
+2.1 Rules and equations governing the AMM mechanics . . . . . . . . . . . . . . . . . . 3
+28
+2.2 Deducing the Balanced liquidity provision . . . . . . . . . . . . . . . . . . . . . . . . 4
+29
+2.3 Duality between prices and token amounts . . . . . . . . . . . . . . . . . . . . . . . . 6
+30
+1
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+3 Impermanent loss and price changes 6
+31
+3.1 Token X rises to 6 USD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+32
+3.2 Token X drops to 4 USD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+33
+3.3 Under a price change, the impermanent loss is invariant with respect to the initial
+34
+liquidity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+35
+4 Impermanent loss and liquidity consumption 11
+36
+4.1 Trader buys 5 tokens X from the AMM . . . . . . . . . . . . . . . . . . . . . . . . . 11
+37
+4.2 Trader sells 5 tokens X to the AMM . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+38
+4.3 Impermanent gain and slippage are decreasing in the available liquidity . . . . . . . 13
+39
+5 Slippage and liquidity balance/imbalance within the AMM 13
+40
+5.1 Trader buys in a balanced liquidity pool . . . . . . . . . . . . . . . . . . . . . . . . . 14
+41
+5.2 Trader buys the token with smaller liquidity in the pool . . . . . . . . . . . . . . . . 15
+42
+5.3 Trader buys the token with greater liquidity in the pool . . . . . . . . . . . . . . . . 15
+43
+6 Impermanent loss and price reversion 16
+44
+6.1 The impermanent loss disappears when there is price reversion . . . . . . . . . . . . 16
+45
+6.2 The impermanent loss may become permanent if some liquidity is withdrawn . . . . 18
+46
+7 Conclusions 19
+47
+8 See also 20
+48
+1 Automated Market Makers (AMMs) and traditional mar-
+49
+ket makers (MMs)
+50
+Automated Market Makers (AMMs) play the role of liquidity providers in protocols or projects in
+51
+theDecentralisedFinance(DeFi)space. AMMsareprogrammes,hencetheyoperatewithouthuman
+52
+intervention, following a number of rules that govern the way these AMMs provide liquidity and
+53
+adjust prices.
+54
+Atraditionalmarketmaker(MM)buysandsellsanasset,providingliquiditytopotentialbuyers
+55
+or sellers. The MM will quote two prices: the ask price at which they are willing to sell, and the
+56
+bid price at which they are willing to buy. The difference between these two prices is know as the
+57
+(bid-ask) spread; this spread is the remuneration of the MM for providing liquidity: they sell at a
+58
+higher price and buy at a lower price.
+59
+When you trade with an automated Market Maker (AMM), instead of buying and selling one
+60
+token you enter a swap i.e. you exchange one token for another token. This sounds different than
+61
+the MM, but it is not really: when you buy an asset to an MM you pay them with a currency, say
+62
+USD; when you sell the asset you provide the latter to the MM in exchange of a certain amount of
+63
+USD. Therefore, if we see the asset as token X and the USD currency as token Y then MMs and
+64
+AMM are actually the same.
+65
+2
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+The key concept of spread for an MM is translated as slippage cost for AMMs. Indeed, just like
+66
+the spread helps the MM to avoid adverse selection (in a nutshell, to be on the wrong side of the
+67
+trade when prices have a trend), the slippage helps the AMM to keep in balance the two assets in
+68
+its liquidity pool. More precisely, the slippage in the AMM can be thought as the half spread in
+69
+the MM: in both cases these two quantities are the extra cost relative to the market price (current
+70
+swap value for the AMM, current mid price for the MM) that the trader incurs when dealing with
+71
+an AMM or a MM.
+72
+2 Mathematical framework for AMMs
+73
+2.1 Rules and equations governing the AMM mechanics
+74
+There are a few rules for AMMs to compute the right prices for a swap and calculate the corre-
+75
+sponding impermanent loss for the trade. Let us assume that we have two tokens in a pool, namely
+76
+token X and token Y, and that we are the only liquidity providers for the pool. For any time
+77
+t ≥ 0 we denote x(t) the total number of tokens X in the pool, P (t) the price of token X and
+78 X
+N :=x(t)P (t)thenotionaloftokenX i.e. itsvalueinUSD.Thevariablescorrespondingtotoken
+79 X X
+Y are y(t) for the number of tokens Y, P (t) for their price and N (t) for their notional.
+80 Y Y
+Figure 1: Constant-product formula for different values of k. Notice that the price adjustment is a
+power law, which is superlinear.
+1. Constant-product formula. TheavailableliquidityintokenswithintheAMMisinvariant:
+81
+x(t)y(t)=k for all t≥0 (1)
+where k >0 is constant (see Figure 1).
+82
+2. Balanced liquidity provision. We start with a balanced liquidity provision, i.e. we deposit
+83
+a 50/50 distribution of USD value of token X and Y into the AMM. This implies that our
+84
+initial notionals are equal
+85
+N (0)=N (0)
+X Y
+3
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+No matter what happens during the time interval [0,T], our liquidity provision should always
+86
+remain at equilibrium i.e.
+87
+N (t)=x(t)P (t)=y(t)P (t)=N (t) for all t∈[0,T]. (2)
+X X Y Y
+ItisimportanttoremarkthatEquation(2)isnotanextraassumptionbutratheraconsequence
+88
+ofchoosingtheproduct-invariantformula(1). WewillprovethisresultinSubsection2.2below.
+89
+3. Liquidity position. Our total liquidity provision in USD within the AMM pool is:
+90
+Liquidity(t)=N (t)+N (t)=x(t)P (t)+y(t)P (t) for all t≥0. (3)
+X Y X Y
+4. Hold position. The value of the position if we held the tokens X and Y instead of using
+91
+them to provide liquidity to the AMM:
+92
+Hold(t)=x(0)P (t)+y(0)P (t) for all t≥0. (4)
+X Y
+Observe that both the liquidity and hold positions are marked to market i.e. prices are com-
+93
+puted at the current time t. However, the number of tokens in the hold position is constant
+94
+and equal to the initial liquidity provision.
+95
+5. Impermanent loss. It is the difference between the hold position and the liquidity position,
+96
+either in USD or in percentage points
+97
+LossUsd(t) = Hold(t)−Liquidity(t), (5)
+LossUsd(t)
+LossPct(t) = ,
+Hold(t)
+for all t≥0.
+98
+2.2 Deducing the Balanced liquidity provision
+99
+Suppose that we have a function f(x,y) and that we can only choose points (x,y) that satisfy a
+100
+constraint of the form g(x,y)=k. If the point (x ,y ) is a maximum or minimum of f(x,y) along
+101 0 0
+the curve g(x,y)=k then there exists λ̸=0 such that
+102
+∇f(x ,y )=λ∇g(x ,y ).
+0 0 0 0
+Moreover, critical points of f(x,y) under the constraint g(x,y)=k are critical points of the uncon-
+103
+strained functional (called Lagrangian)
+104
+L(x,y,λ)=f(x,y)−λ[g(x,y)−k]. (6)
+4
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+In other words, with Equation (6) we transformed the 2-dimensional problem of maximising f(x,y)
+105
+under the constraint g(x,y) = k to the 3-dimensional problem of maximising L(x,y,λ) without
+106
+constraints. For a proof of this result, which is called the “Lagrange Multiplier Theorem”, we
+107
+recommend to check [MT11] and/or [Wik].
+108
+Let us come back to our case of an AMM. The constraint is the constant-product formula i.e.
+109
+g(x,y)=xy.
+The function f that we aim to maximise is the total liquidity provision (3) i.e.
+110
+f(x,y)=xP +yP . (7)
+X Y
+Bysolvingthisproblem,whatwedoistofindtheoptimalnumberoftokens(x,y)thatmaximise
+111
+theUSDvalueofthetotalliquidityprovision,undertheconstraintoftheconstant-productformula.
+112
+If (x ,y ,λ ) is a critical point of the Lagrangian
+113 0 0 0
+L(x,y,λ)=xP +yP −λ[xy−k]
+X Y
+then the following equations are satisfied:
+114
+∂L
+(x ,y ,λ ) = P −λ y =0, (8)
+∂x 0 0 0 X 0 0
+∂L
+(x ,y ,λ ) = P −λ x =0,
+∂y 0 0 0 Y 0 0
+∂L
+(x ,y ,λ ) = x y −k =0.
+∂λ 0 0 0 0 0
+The last equation in (8) simply states that the critical point (x ,y ) satisfies the constraint i.e. the
+115 0 0
+constant-product formula xy =k. From the first and second equations in (8) we obtain
+116
+P P
+X =λ = Y ,
+y 0 x
+0 0
+which is exactly (2), as we claimed.
+117
+118
+The principles we applied here are quite standard in Microeconomics. Indeed, the function (7)
+119
+is the Budget Line, the product xy is the Utility Function, and for any k >0 the constant-product
+120
+curve xy =k is called an Indifference Curve: the AMM is indifferent of the choice of a point on the
+121
+curve since all of them have the same utility, namely k. Therefore, what we did in this section was
+122
+to maximise the budget under the constraint of a fixed utility level k, given the current prices P
+123 X
+and P . For more details on Budget Lines and Indifference curves we suggest to start with [Hel].
+124 Y
+5
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+2.3 Duality between prices and token amounts
+125
+There is a “principle of duality” in Equation (2), in the sense that we can either assume that the
+126
+prices P (t) and P (t) are given and then compute the token amounts x(t) and y(t), or either
+127 X Y
+assume that the token amounts are given and compute the implied prices that satisfy the balance
+128
+condition (2). Let us elaborate this point in detail.
+129
+On the one hand we have a traditional MM. As we assumed in Subsection 2.2, the MM will
+130
+have the two prices P (t) and P (t) as exogenous or independent variables, and then they will
+131 X Y
+optimally adjust their liquidity provision x(t) and y(t) to satisfy the two constraints, namely the
+132
+constant-product formula (1) and the constant-notional formula or balanced liquidity provision (2).
+133
+On the other hand, we have an AMM like Uniswap in the Ethereum blockchain [Unia]. If the
+134
+prices P (t) and P (t) were coming from an external source then data risk on the price feed that is
+135 X Y
+used,butalsoacoderiskontheactualprogramwithintheAMM(knownas“smartcontract”)that
+136
+computes the optimal liquidity distribution x(t) and y(t). In order to eliminate these two sources of
+137
+risk, Uniswap uses what we call the “principle of duality”: instead of having the prices P (t) and
+138 X
+P (t) as independent variables and the token amounts x(t) and y(t) as dependent variables (like
+139 Y
+the traditional MM does), Uniswap (or any other AMM) uses the token amounts as independent
+140
+variables and compute the prices endogenously as a function of these token amounts.
+141
+Inthelightofthis“principleofduality”betweenpricesP (t)andP (t)andtokenamountsx(t)
+142 X Y
+and y(t), we can either consider (1) that the prices move first (based on the chosen price feed) and
+143
+then the token amounts have to be optimally adjusted by the MM, or (2) that the token amounts
+144
+move first (due to swaps arriving at the AMM or changes in its liquidity provision) and then the
+145
+endogenous prices are optimally adjusted. Regardless of whether we take the point of view of the
+146
+MM or the AMM, in both cases the end result is that the balance condition (2) holds.
+147
+In our subsequent analysis and examples, we will assume the point of view of a MM: just like
+148
+ourselves, we assume that the reader is familiar with basic economic and financial concepts like
+149
+utility functions, budget lines, market making and liquidity provision. Therefore, we will assume
+150
+that price changes occur first and then and compute the corresponding token amounts. However,
+151
+thereadercantakethepointofviewoftheAMMwithoutanylossofgenerality: inthisframework,
+152
+the formulas we will present are reverse-engineering the token amounts (which occurred first) from
+153
+their impact in the observable prices (which occurred second).
+154
+3 Impermanent loss and price changes
+155
+Let us start with the following values:
+156
+P (0) = 5 USD,
+X
+P (0) = 2 USD.
+Y
+Let us assume that, at start, the AMM is empty and we are the only liquidity providers. In
+157
+order to comply with Rule (2) i.e. a balanced liquidity provision (equilibrium condition) we need to
+158
+6
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+provide the same liquidity in USD for both tokens. For this reason, we will assume
+159
+N (0) = 500 USD,
+X
+N (0) = 500 USD.
+Y
+Therefore, the initial liquidity provision in tokens is
+160
+x(0) = 100 tokens,
+y(0) = 250 tokens.
+From these values we can readily compute the constant in Rule (1) (constant-product formula):
+161
+k =x(0)y(0)=100×250=25,000.
+3.1 Token X rises to 6 USD
+162
+Suppose that at time t>0 there is a change in prices:
+163
+P (t) = 6 USD,
+X
+P (t) = 2 USD.
+Y
+Since the equilibrium condition (2) must hold then we have
+164
+P (t)
+y(t)= X x(t). (9)
+P (t)
+Y
+From Equations (1) and (9) we obtain
+165
+P (t) P (t)
+k =x(t)y(t)=x(t)× X x(t)= X x2(t).
+P (t) P (t)
+Y Y
+In consequence,
+166
+(cid:115)
+P (t)
+x(t)= k Y . (10)
+P (t)
+X
+Equations (9) and (10) are everything we need to re-calibrate the number of tokens X and Y
+167
+whenever a price change occurs. After some straightforward algebra we can make x(t) and y(t) to
+168
+be dependent only on the prices P (t) and P (t). In the end we arrive to a neat expression for x(t)
+169 X Y
+and y(t), that we place below and inside a nice box for posterity:
+170
+(cid:113)
+x(t) = kPY(t),
+(cid:113) PX(t) (11)
+y(t) = kPX(t).
+PY(t)
+7
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+Let us now compute all quantities at time t:
+171
+(cid:115)
+P (t)
+x(t) = k Y
+P (t)
+X
+(cid:114)
+2
+= 25,000×
+6
+= 91.2871 tokens X,
+172
+(cid:115)
+P (t)
+y(t) = k X
+P (t)
+Y
+(cid:114)
+6
+= 25,000×
+2
+= 273.8613 tokens Y,
+173
+Liquidity(t) = x(t)P (t)+y(t)P (t)
+X Y
+= 91.2871×6+273.8613×2
+= 1,095.4452 USD,
+174
+Hold(t) = x(0)P (t)+y(0)P (t)
+X Y
+= 100×6+250×2
+= 1,100 USD,
+175
+LossUsd(t) = Hold(t)−Liquidity(t)
+= 1,100−1,095.4452
+= 4.5548 USD,
+176
+LossUsd(t)
+LossPct(t) =
+Hold(t)
+4.5548
+=
+1,100
+= 0.414%.
+Observethaninthiscaseboththeholdandtheliquiditypositionsareprofitable: bothnotionals
+177
+areabovetheoriginal1,000USD(500USDforeachtokenX andY). However,thereisanimperma-
+178
+nentlossof0.414%: thismeansthatbyprovidingliquiditytotheAMMweobtainaslightlysmaller
+179
+gain than if we just held the tokens: the total notionals are 1,095.4452 and 1,100 USD respectively.
+180
+We should not mistake our liquidity provision with the total liquidity available in the AMM.
+181
+Indeed, in the example above we started depositing 100 tokens X and 250 tokens Y into the AMM,
+182
+8
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+andinexchangewereceivedsomeLiquidityProvision(LP)tokensissuedbytheAMMowner. After
+183
+the price move, if we redeem all of our LP tokens we will receive 91.2871 tokens X and 273.8613
+184
+tokens Y. The total value of the LP token is thus 1,095.4452 USD, which includes a small loss
+185
+relative to holding the tokens instead of providing liquidity. However, this loss will only be realised
+186
+if we redeem the LP tokens: if the price of token X reverts back to 5 USD then the loss disappears:
+187
+this is why it is called “impermanent loss”. We will discuss this feature in great detail later on.
+188
+3.2 Token X drops to 4 USD
+189
+The initial conditions are the same as before:
+190
+P (0) = 5 USD,
+X
+P (0) = 2 USD,
+Y
+N (0) = 500 USD,
+X
+N (0) = 500 USD,
+Y
+x(0) = 100 tokens X,
+y(0) = 250 tokens Y,
+k = 25,000.
+At time t we have
+191
+P (t) = 4 USD,
+X
+P (t) = 2 USD.
+Y
+Performing the corresponding computations yields:
+192
+(cid:114)
+2
+x(t) = 25,000× =111.8034,
+4
+(cid:114)
+4
+y(t) = 25,000× =223.6068,
+2
+Liquidity(t) = 111.8034×4+223.6068×2=894.4272,
+Hold(t) = 100×4+500×1=900,
+LossUsd(t) = 900−894.4272=5.5728,
+5.5728
+LossPct(t) = =0.619%.
+900
+Therefore, there is an impermanent loss of 0.619% due to the price change.
+193
+9
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+3.3 Under a price change, the impermanent loss is invariant with respect
+194
+to the initial liquidity
+195
+Inthecaseofapricemove,theimpermanentlossinpercentagetermsisconstantwithrespecttothe
+196
+initial liquidity provision. We can see that this is true in Figure 2, where all curves are overlapped,
+197
+but let us explain the rationale behind.
+198
+If we increase M times the initial notional of token X, that is N (0), then by Rule (2) we
+199 X
+need to increase N (0) M times as well. Consequently, the initial number of tokens x(0) and
+200 Y
+y(0) is increased M times, which in turn means the constant k in Rule (1) is increased M2 times.
+201
+When computing all variables at time t all formulas involve M linearly, hence they are all increased
+202
+M times, in particular Liquidity(t), Hold(t) and LossUsd(t). Finally, in Equation (5) the ratio
+203
+LossUsd(t)/Hold(t) cancels out the effect of the M factor, and in consequence the impermanent
+204
+loss in percentage terms is invariant with respect to M.
+205
+Finally, in Figure 2 we can also observe that whenever there is a price move there is always
+206
+an impermanent loss, which increases as prices drift away from their initial value, and its rate of
+207
+increase is faster than linear.
+208
+Figure 2: (a) The impermanent loss is always positive on a price move and increases as prices move
+further away from their initial value. (b) The impermanent loss is constant regardless of the size of
+our liquidity provision.
+10
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+4 Impermanent loss and liquidity consumption
+209
+Let us consider the same parameters as in the previous section. The initial conditions are thus:
+210
+P (0) = 5 USD,
+X
+P (0) = 2 USD,
+Y
+N (0) = 500 USD,
+X
+N (0) = 500 USD,
+Y
+x(0) = 100 tokens X,
+y(0) = 250 tokens Y,
+k = 25,000.
+4.1 Trader buys 5 tokens X from the AMM
+211
+Letussupposethatthereisatraderwhowantstobuy5tokensX withaUSDvalueof5eachfrom
+212
+the AMM: that means a total value of 25 USD. Since the transactions are performed via a swap,
+213
+the trader will in theory pay 12.5 tokens Y with a USD value of 2 each to settle the trade: that is
+214
+a total cost of 25 USD. However, due to the rules governing the AMM there will be some slippage
+215
+i.e. anextracostintermsoftokenY forthetradertoclosetheswap. Letusseehowthiscostarises.
+216
+217
+The trader buys 5 tokens X at time t>0, hence
+218
+x(t)=95 tokens X.
+From Rule (1) we can compute the amount of tokens Y that the AMM needs to hold:
+219
+k 25,000
+y(t)= = =263.1579 tokens Y.
+x(t) 95
+From the trader’s perspective, the cost of the trade is slightly higher than expected: instead of
+220
+the theoretical cost of 12.5 tokens Y, the trader pays to the AMM
+221
+263.1579−250=13.1579 tokens Y
+to settle the swap. This corresponds to a slippage (i.e. extra cost) of
+222
+13.1579−12.5=0.6579 tokens Y,
+which translates into a slippage of
+223
+0.6579×2=1.3158 USD,
+11
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+or
+224
+1.3158/25=5.263%.
+From the liquidity provider’s perspective, there is a profit on the swap. Indeed, their liquidity
+225
+and hold positions are
+226
+Liquidity(t) = 95×5+263.1579×2=1,001.3158,
+Hold(t) = 100×5+250×2=1,000,
+which implies that the impermanent loss is
+227
+1,000−1,001.3158=−1.3158 USD,
+or
+228
+−1.3158/1,000=−1.3158%.
+Since the impermanent loss in this case is negative, the liquidity provider actually made a profit.
+229
+Let us say there is an “impermanent gain” when the impermanent loss is negative. As before, the
+230
+impermanent gain will only be realised if we redeem our LP tokens.
+231
+NoticethattheslippageinUSDforthetraderandtheimpermanentgaininUSDfortheliquidity
+232
+provider is the same. This is true because the swap is a zero sum gain: the frictions incurred by
+233
+the trader (as slippage) are captured by the liquidity provider (as impermanent gain). In the light
+234
+of this, we can use the slippage as a proxy for both market impact and liquidity depth within the
+235
+AMM.
+236
+4.2 Trader sells 5 tokens X to the AMM
+237
+In this case the trader who wants to sell 5 tokens X (with a USD value of 5 each) to the AMM and
+238
+use the proceeds to hopefully buy 12.5 tokens Y (with a USD value of 2 each). However, due to the
+239
+rules governing the AMM there will be some slippage i.e. an extra cost in terms of token X for the
+240
+trader to close the swap.
+241
+242
+Since the trader sells 5 tokens X then
+243
+x(t)=105 tokens X.
+From Rule (1) we necessarily have
+244
+k 25,000
+y(t)= = =238.0952 tokens Y.
+x(t) 105
+From the trader’s perspective, the proceeds of the sale of 5 tokens X is not the theoretical 12.5
+245
+12
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+tokens Y but a slightly lower amount:
+246
+250−238.0952=11.9048 tokens Y.
+In consequence, there is a slippage (i.e. extra cost) of
+247
+(12.5−11.9048)×2=1.1904 USD,
+or
+248
+1.1904/25=4.762%.
+From the liquidity provider’s perspective:
+249
+Liquidity(t) = 105×5+238.10×2=1,001.1904,
+Hold(t) = 100×5+500×1=1,000,
+and therefore their impermanent gain in the swap is
+250
+1,001.1904−1,000=1.1904
+or
+251
+1.1904/1,000=0.119%.
+Again, the slippage and the impermanent gain in USD are equal.
+252
+4.3 Impermanent gain and slippage are decreasing in the available liq-
+253
+uidity
+254
+As we can see in Figure 3, if the available liquidity in the AMM increases then eventually both the
+255
+impermanent gain and the slippage reduce to zero. Therefore, the exchange becomes more efficient
+256
+with more available liquidity, since the friction or market impact (either impermanent loss/gain or
+257
+slippage) disappears. Moreover, in USD terms the slippage of the trader and the impermanent gain
+258
+of the liquidity provider are equal: in a zero-sum game “one (wo)man’s fun is another’s hell”.
+259
+5 Slippage and liquidity balance/imbalance within the AMM
+260
+Even if prices are the same, if the available liquidity within the AMM is not balanced (i.e. 50/50 in
+261
+notional), the swap rate offered by the AMM will change. Let us see how this is true.
+262
+13
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+Figure 3: When there is a trade (a) the negative impermanent loss of the liquidity provider (hence
+a profit) is increasing with respect to the AMM volume in USD, and (b) the slippage of the trader
+is decreasing. Eventually, both converge to zero.
+5.1 Trader buys in a balanced liquidity pool
+263
+Assume a 50/50 liquidity pool i.e. a balanced pool. As usual, we assume the following values:
+264
+P (0) = 5 USD,
+X
+P (0) = 2 USD,
+Y
+N (0) = 500 USD,
+X
+N (0) = 500 USD.
+Y
+Therefore,
+265
+x(0) = 100 tokens X,
+y(0) = 250 tokens Y,
+k = 100×250=25,000.
+If the trader buys 5 tokens X then
+266
+x(t) = 100−5=95,
+k 25,000
+y(t) = = =263.1579.
+x(t) 95
+In the end, the price the trader pays for the swap is
+267
+TraderCost(t)=y(t)−y(0)=263.1579−250=13.1579 tokens Y.
+14
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+5.2 Trader buys the token with smaller liquidity in the pool
+268
+Let us assume that the liquidity pool is not balanced and that there are more tokens Y than tokens
+269
+Y in notional. More precisely, suppose that we have
+270
+P (0) = 5 USD,
+X
+P (0) = 2 USD,
+Y
+x(0) = 50 tokens X,
+y(0) = 500 tokens Y.
+Therefore,
+271
+k = 50×500=25,000,
+N (0) = 50×5=250 USD,
+X
+N (0) = 500×2=1000 USD.
+Y
+If the trader buys 5 tokens X then
+272
+x(t) = 50−5=45,
+k 25,000
+y(t) = = =555.5556,
+x(t) 45
+TraderCost(t) = y(t)−y(0)=555.5556−500=55.5556 tokens Y.
+Since direction of the trader’s swap is increasing the imbalance, they get a worst swap rate than
+273
+inthebalancedcase. Indeed,giventhebigimbalanceinnotionalsandtheconstant-productformula,
+274
+the extra cost is ridiculously high:
+275
+55.5556
+−1=322.22%
+13.1579
+more expensive that the balanced case.
+276
+5.3 Trader buys the token with greater liquidity in the pool
+277
+Let us assume that there are more tokens X than tokens X in notional. More precisely, suppose
+278
+that we have
+279
+P (0) = 5 USD,
+X
+P (0) = 2 USD,
+Y
+x(0) = 200 tokens X,
+y(0) = 125 tokens Y.
+15
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+Therefore,
+280
+k = 200×125=25,000,
+N (0) = 200×5=1000 USD,
+X
+N (0) = 125×2=250 USD.
+Y
+If the trader buys 5 tokens X then
+281
+x(t) = 200−5=195,
+k 25,000
+y(t) = = =128.2051,
+x(t) 195
+TraderCost(t) = y(t)−y(0)=128.2051−125=3.2051 tokens Y.
+Since the direction of the trader’s swap is helping to reduce the imbalance, they get a better
+282
+swap rate than in the balanced case, resulting in an incredibly large price discount:
+283
+3.2051
+−1=−75.641%.
+13.1579
+These examples are of course very dramatic in liquidity imbalance and unlikely to happen in
+284
+reality. However, they highlight how important it is for liquidity providers and swap traders to
+285
+deal with balanced pools when the AMMs follow the constant-product formula. In addition, the
+286
+examples stress the potential profitability of arbitrages when the pools are not balanced.
+287
+6 Impermanent loss and price reversion
+288
+6.1 The impermanent loss disappears when there is price reversion
+289
+Let us assume the usual initial conditions as before, i.e.
+290
+P (0) = 5 USD,
+X
+P (0) = 2 USD,
+Y
+N (0) = 500 USD,
+X
+N (0) = 500 USD,
+Y
+x(0) = 100 tokens,
+y(0) = 250 tokens,
+k = 25,000.
+The initial liquidity provision is
+291
+Liquidity(0)=N (0)+N (0)=500+500=1,000 USD. (12)
+X Y
+16
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+Suppose that at t=t the price of token X drops: 5→4 USD:
+292 1
+P (t ) = 4 USD,
+X 1
+P (t ) = 2 USD.
+Y 1
+Therefore, as before, we have
+293
+(cid:115) (cid:114)
+P (t ) 2
+x(t ) = k Y 1 = 25,000× =111.8034,
+1 P (t ) 4
+X 1
+(cid:115) (cid:114)
+P (t ) 4
+y(t ) = k X 1 = 25,000× =223.6068,
+1 P (t ) 2
+Y 1
+N (t ) = x(t )P (t )=111.8034×4=447.2136,
+X 1 1 X 1
+N (t ) = y(t )P (t )=223.6068×2=447.2136.
+Y 1 1 Y 1
+The liquidity provision at t=t is thus
+294 1
+Liquidity(t )=N (t )+N (t )=447.2136+447.2136=894.4272, (13)
+1 X 1 Y 1
+which represents a loss of 1,000−894.4272 = 105.5728 USD with respect to the initial liquidity
+295
+supply that the liquidity provider deposited within the AMM.
+296
+In t=t the price of token X returns to its initial value: 4→5 USD:
+297 2
+P (t ) = 5 USD,
+X 2
+P (t ) = 2 USD.
+Y 2
+Therefore,
+298
+(cid:115) (cid:114)
+P (t ) 2
+x(t ) = k Y 2 = 25,000× =100,
+2 P (t ) 5
+X 2
+(cid:115) (cid:114)
+P (t ) 5
+y(t ) = k X 2 = 25,000× =250,
+2 P (t ) 2
+Y 2
+N (t ) = x(t )P (t )=100×5=500,
+X 2 2 X 2
+N (t ) = y(t )P (t )=250×2=500.
+Y 2 2 Y 2
+The liquidity provision at t=t is then
+299 2
+Liquidity(t )=N (t )+N (t )=500+500=1,000. (14)
+2 X 2 Y 2
+From Equations (12)-(14) we observe that the impermanent loss due to the price drop of token
+300
+X at t=t was completely reverted when the price came back to its initial value at t=t . This is
+301 1 2
+exactly why it is called an “impermanent” loss: it reverts to zero when prices return to their initial
+302
+17
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+state.
+303
+6.2 The impermanent loss may become permanent if some liquidity is
+304
+withdrawn
+305
+As we saw in the previous section, the impermanent loss reverted to zero when the prices reverted
+306
+totheirinitialstateatt=t . Thisisageneralprinciple, notaparticularfeaturefromourexample.
+307 2
+Indeed, observe the pricing formulas under a price move in Equation (11):
+308
+(cid:115)
+P (t )
+x(t ) = k Y 2 ,
+2 P (t )
+X 2
+(cid:115)
+P (t )
+y(t ) = k X 2 .
+2 P (t )
+Y 2
+Not only these expressions have no dependence of the previous states but they only depend on the
+309
+current price levels P (t ) and P (t ) as well as the constant k. Under the assumption of prices
+310 X 2 Y 2
+reverting i.e. P (t ) = P (0) and P (t ) = P (0), the only way we can have x(t ) ̸= x(0) and/or
+311 X 2 X Y 2 Y 2
+y(t ) ̸= y(0) is by varying k. In normal conditions this is impossible because, by definition of the
+312 2
+constant-product formula, k is constant. However, if before the price reversion is completed we
+313
+withdraw some liquidity then effectively k can decrease, and in consequence the final liquidity may
+314
+differ from the initial liquidity.
+315
+316
+Let us see this more clearly in an example. Let us assume the chain of events in the previous
+317
+section and place ourselves at t=t :
+318 1
+P (t ) = 4,
+X 1
+P (t ) = 2,
+Y 1
+x(t ) = 111.8034,
+1
+y(t ) = 223.6068,
+1
+N (t ) = 447.2136,
+X 1
+N (t ) = 447.2136,
+Y 1
+Liquidity(t ) = 894.4272.
+1
+Imagine now that at time t′ ∈ (t ,t ) we panicked. More precisely, suppose that we decided to
+319 1 2
+remove 10% of our liquidity provision from the AMM and exchange it to USD. This means that we
+320
+have
+321
+PanicCash(t′)=Liquidity(t )×0.1=894.4272×0.1=89.4427 USD
+1
+in addition to our remaining liquidity provision. In consequence, we have the following state at
+322
+18
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+t=t′:
+323
+P (t′) = 4,
+X
+P (t′) = 2,
+Y
+x(t′) = 111.8034×0.9=100.6231
+y(t′) = 223.6068×0.9=201.2461.
+Since the liquidity provision within the AMM has changed, the constant k needs to be recom-
+324
+puted:
+325
+k =x(t′)y(t′)=100.6231×201.2461=20,250<25,000.
+Now let us place ourselves at time t=t where the price reversion occurred:
+326 2
+P (t ) = 5,
+X 2
+P (t ) = 2,
+Y 2
+k = 20,250.
+In consequence,
+327
+(cid:115) (cid:114)
+P (t ) 2
+x(t ) = k Y 2 = 20,250× =90,
+2 P (t ) 5
+X 2
+(cid:115) (cid:114)
+P (t ) 5
+y(t ) = k X 2 = 20,250× =225,
+2 P (t ) 2
+Y 2
+Liquidity(t ) = x(t )P (t )+y(t )P (t )
+2 2 X 2 2 Y 2
+= 90×5+225×2=900.
+The total value of our portfolio is thus
+328
+Portfolio(t )=PanicCash(t )+Liquidity(t )=89.4427+900=989.4427,
+2 2 2
+which is strictly smaller than the initial portfolio
+329
+Portfolio(0)=Liquidity(0)=1,000.
+7 Conclusions
+330
+1. AMMs are close relatives of MMs: if we see the security as a first token and the currency paid
+331
+for said security as a second token, dealing with an MM becomes a swap in the AMM sense.
+332
+2. The slippage a trader incurs when dealing with AMMs can be interpreted as the half spread
+333
+in MMs: both are deviations from the current market price due to the trade. As such, they
+334
+can be considered as a proxy for market impact and depth of liquidity within an AMM.
+335
+19
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+3. Undertheeffectofapricemove,theimpermanentlossinpercentageisinvarianttotheavailable
+336
+liquidity: nomatterhowbigistheavailableliquidity,AMMswillalwayslosethesameamount
+337
+in percentage points when prices move. This is very similar to the “adverse selection” that
+338
+traditional MMs suffer when providing liquidity.
+339
+4. The impermanent loss due to price moves grows faster than linear.
+340
+5. AMMs become more efficient as their liquidity increases: the slippage decrease and converges
+341
+to zero.
+342
+6. Having a balanced pool in notional terms is crucial for price discovery and to maintain the
+343
+current price levels. If the pool is imbalanced then, compared to the balanced case, the swap
+344
+costforthetraderwillbehigher(resp. lower)thanexpectediftheirtransactionamplify(resp.
+345
+decrease) the current imbalance.
+346
+7. The price differences due to liquidity imbalances can be quite dramatic: due to the constant-
+347
+productformula,thepricesmoveawayfromtheirequilibriumfollowingapowerlawdynamics,
+348
+which is much faster than linear.
+349
+8. The impermanent loss disappears when there is price reversion: all state variables return to
+350
+their initial values, hence it is as if “nothing had happened”.
+351
+9. However,ifwewithdrawsomeliquiditybeforethepricereversioniscompleted,wecouldrealise
+352
+some of the impermanent loss, effectively rendering it “permanent”.
+353
+8 See also
+354
+AgoodentrypointtotheworldofDecentralisedFinance(DeFi)andcryptocurrenciesaretheworks
+355
+ofCampbellR.Harvey. Mr. Harveywroteapaper[HRS21a], whichlaterbecameabook[HRS21b],
+356
+and whose content is covered in detail in his Coursera Specialisation in DeFi [Har].
+357
+The most important AMM in the DeFi space is Uniswap in the Ethereum blockchain [Unib]: al-
+358
+thoughUniswapissecond-placeintotalvaluelocked(TVL,equivalentofmarketshare)inEthereum
+359
+behindCurve[Cur](accordingtoDeFiLlama[Llaa]),itwasthefirstDeFiofferingAMMsandswaps
+360
+inanyblockchain. IntheUniswapDocspagethereisextensiveinformationaboutAMMs,including
+361
+the constant-product formula [Unia], whilst in the Research section [Unic] there are some academic
+362
+papersonAMMs. ThereareotherseveralAMMsintheEthereumblockchainthathaveahighrank
+363
+of TVL e.g. Sushiswap [Sus]. For the Solana blockchain, Raydium [Rayb] and Saber [Sab] are the
+364
+biggest AMMs in TVL (according to DeFi Llama [Llab]), although there are a few other AMMs
+365
+that are increasing their size and are worth to mention e.g. Orca [Orc].
+366
+There are other online resources that are useful. Fow a quick review of AMMs, liquidity pools,
+367
+staking and yield farming we suggest to start with the blog [Aca]. For a simple calculator of
+368
+impermanent loss under a price move you could visit [dai].
+369
+20
+Electronic copy available at: https://ssrn.com/abstract=4053924
+
+References
+370
+[MT11] Jerrold E. Marsden and Anthony J. Tromba. Vector Calculus. W. H. Freeman, 2011.
+371
+[HRS21a] Campbell R. Harvey, Ashwin Ramachandran, and Joey Santoro. “DeFi and the Future
+372
+of Finance”. In: SSRN (2021). url: https://ssrn.com/abstract=3711777.
+373
+[HRS21b] Campbell R. Harvey, Ashwin Ramachandran, and Joey Santoro. DeFi and the Future
+374
+of Finance. Wiley, 2021.
+375
+[Aca] AAX Academy. Solana Summer: The Long Guide to Yield Farming On Solana and
+376
+Ethereum. url: https://academy.aax.com/en/solana-summer-the-long-guide-
+377
+to-yield-farming-on-solana-and-ethereum.
+378
+[Cur] Curve. Main Page. url: https://curve.fi/.
+379
+[dai] dailydefi.org. Impermanent loss calculator. url: https://dailydefi.org/tools/
+380
+impermanent-loss-calculator/.
+381
+[Har] CampbellR.Harvey.CourseraSpecialization:DecentralizedFinance(DeFi):TheFuture
+382
+of Finance. url: https://www.coursera.org/specializations/decentralized-
+383
+finance-duke.
+384
+[Hel] Economics Help. Indifference Curves. url: https://www.economicshelp.org/blog/
+385
+glossary/indifference-curves/.
+386
+[Llaa] Defi Llama. Ethereum TVL rankings. url: https://defillama.com/chain/Ethereum.
+387
+[Llab] Defi Llama. Solana TVL rankings. url: https://defillama.com/chain/Solana.
+388
+[Orc] Orca. About. url: https://learn.orca.so.
+389
+[Raya] Raydium. FAQ: Which curves do liquidity pools on Raydium use? url: https://
+390
+raydium.gitbook.io/raydium/trading-on-serum/faq#which-curves-do-
+391
+liquidity-pools-on-raydium-use.
+392
+[Rayb] Raydium. Main Page. url: https://raydium.io.
+393
+[Sab] Saber. Main Page. url: https://saber.so/.
+394
+[Sus] Sushiswap. Main Page. url: https://sushi.com/.
+395
+[Unia] Uniswap. Constant product formula. url: https://docs.uniswap.org/protocol/V2/
+396
+concepts/advanced-topics/understanding-returns.
+397
+[Unib] Uniswap. Ecosystem. url: https://uniswap.org/ecosystem.
+398
+[Unic] Uniswap. Research. url: https://docs.uniswap.org/protocol/V2/concepts/
+399
+advanced-topics/research.
+400
+[Wik] Wikipedia. Lagrange Multiplier. url: https://en.wikipedia.org/wiki/Lagrange_
+401
+multiplier.
+402
+21
+Electronic copy available at: https://ssrn.com/abstract=4053924

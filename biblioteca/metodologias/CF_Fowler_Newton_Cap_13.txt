@@ -1,0 +1,838 @@
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+CAPÍTULO 13
+LA “NIIF PARA LAS PYMES”
+13,1. INTRODUCCIÓN
+En julio de 2009, el IASB emitió un juego diferenciado de NC al que de-
+nominó:
+IFRS for SMEs. International Financial Reporting
+Standard (IFRS) for Small and Medium-sized Entities
+(SMES)
+Su traducción oficial al español fue publicada por la Fundación IFRS con
+el título:
+NIIF para las PYMES. Norma Internacional de Informa-
+ción Financiera (NIIF) para Pequeñas y Medianas En-
+tidades (PYMES)
+Ambas publicaciones (así como sus fundamentos y cierto material
+ilustrativo) pueden consultarse o bajarse sin cargo desde http://
+www.ifrs.org/lFRS+for+SMEs/lFRS+for+SMEs.htm.
+Algunas observaciones al empleo de la expresión “NIIF para las
+PYMES”:
+a) en español, las siglas (como PYME) no deben escribirse en plu-
+ral(l);
+b) la palabra “pyme” ha sido incorporada al DRAE(2);
+c) no se advierte ninguna razón para preceder “PYMES” con la pa-
+labra “las” que da idea de “todas” y no figura en el original en in-
+glés.
+(1) Diccionario Panhispánico de Dudas, Real Academia Española, 2005, entrada corres-
+pondiente a la palabra sigla, numeral 3 (plural).
+(2) Diccionario de la Real Academia Española, vigésima segunda edición, http://www.
+rae.es.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+520 ENRIQUE FOWLER NEWTON
+Como traducción, habríamos preferido “NIIF para pymes” Más ade-
+lante veremos que la denominación en inglés también es inadecua-
+da porque:
+a) este juego de NC es, en realidad, “para entidades sin obligación
+pública de rendir cuentas”;
+b) puede haber entidades sin esa obligación pública que sean gran-
+des de tamaño, así como entidades pequeñas que la tengan.
+Pese a lo indicado, en nuestros libros usamos la expresión “NIIF para
+las PYMES” (entre comillas) para que no queden dudas de que nos
+referimos al pronunciamiento del IASB.
+En este capítulo analizaremos las principales características de tal pro-
+nunciamiento.
+Los componentes de la “NIIF para las PYMES” que tratan cuestiones
+específicas se estudian en Contabilidad Superior, sexta edición, La
+Ley, 2010.
+13,2. ANTECEDENTES GENERALES Y EMISIÓN
+En el capítulo 10, objetamos la emisión de NC diferenciadas pero enun-
+ciamos los principales argumentos de quienes abogan por la sanción de ese
+tipo de regulaciones para su aplicación por entidades de menor tamaño o
+que no tengan una responsabilidad pública de rendir cuenta.
+Las discusiones vienen de décadas atrás. Los argumentos que se han es-
+grimido en ellas y que nos parecen más relevantes han sido considerados en
+la sección 10,10.
+En las páginas 561-566 de la cuarta edición de este libro (La Ley,
+2005) resumimos las discusiones habidas en los Estados Unidos has-
+ta 2005 y la propuesta contenida en un informe de 2000 presentado
+por el Grupo de Trabajo Intergubernamental de Expertos sobre Nor-
+mas Internacionales de Contabilidad y Presentación de Informes a la
+Conferencia de 2000 de la United Nations Conference on Trade and
+Development (UNCTAD, Conferencia de las Naciones Unidas sobre
+Comercio y Desarrollo).
+En abril de 1998, el IASC inició un proyecto sobre la cuestión, pero no
+arribó a ninguna conclusión.
+En julio de 2000, el representante de ese organismo en uno de los grupos
+de trabajo de la UNCTAD informó que el Comité no planeaba emitir, en el
+futuro previsible, NIC para pymes (3).
+(3) Informe de la UNCTAD, párrafo 41.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+13. LA “NllF PARA LAS PYMES” 521
+No obstante, en la última declaración que emitió la IASC antes de su di-
+solución (4), se indicaba que:
+a) en los años previos, la Junta del IASC había detectado varios indicado-
+res de la existencia de una fuerte demanda sobre la aplicación de NC
+de información para empresas pequeñas;
+b) esto se había notado primero en países en vías de desarrollo o en tran-
+sición hacia economías de mercado;
+c) gente de esos países había comentado que las NIC se habían vuelto
+cada vez más complejas por haberse centrado en las necesidades de
+las más grandes compañías multinacionales y de los usuarios situados
+en los mayores mercados de capitales;
+d) también había demandas de ese tipo en los países desarrollados;
+e) había negocios pequeños interesados en aplicar las NIC para lograr
+comparabilidad con los negocios más grandes;
+f) el IASC reconocía que podían existir argumentos para tener NC dife-
+rentes para negocios pequeños y grandes, lo que ya existía en el Reino
+Unido;
+g) también consideraba que:
+1) raramente podrían encontrarse argumentos a favor del estableci-
+miento de diferencias en las normas de reconocimiento y medi-
+ción para negocios grandes y pequeños;
+2) en cambio, podía haberlos respecto de las normas de exposición;
+h) también podría ayudarse a los negocios pequeños produciendo mate-
+rial explicativo y orientativo y, tal vez, formatos estándar;
+i) el IASB debería considerar las posibilidades indicadas.
+Apenas instalado, el IASB encaró el proyecto que culminó con la emisión
+de la “NIIF para las PYMES” Lo hizo siguiendo los procedimientos estableci-
+dos para la emisión de los componentes de las NIIF y contando con la opi-
+nión favorable de los fideicomisarios de la IASCF (actual Fundación IFRS) y
+del (-omite Asesor.
+Los detalles pueden encontrarse en los fundamentos de las conclu-
+siones de la “NIIF para las PYMES”
+13,3. SU EMISIÓN FRENTE A LA CONSTITUCIÓN DE LA IASCF
+La Constitución de la IASCF (hoy, IFRS Foundation) que estaba vigente
+cuando se aprobó la “NIIF para las PYMES” mencionaba, como primer obje-
+tivo de esa organización el de:
+(4) Statement by (he Board of the IASC, diciembre de 2000.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+522 ENRIQUE FOWLER NEWTON
+(...) desarrollar, buscando el interés público, un úni-
+co conjunto de normas contables de carácter global
+que sean de alta calidad, comprensibles y de cumpli-
+miento obligado, que requieran información de alta
+calidad, transparente y comparable en los estados fi-
+nancieros y en otros tipos de información financie-
+ra, para ayudar a los participantes en los mercados
+de capitales de todo el mundo, y a otros usuarios, a
+tomar decisiones económicas (5).
+Quienes aprobaron la “NIIF para las PYMES” afirman que la expresión
+“un único conjunto” significa que todas las entidades que estén en circuns-
+tancias similares deberían seguir las mismas normas. A nuestro juicio, esta
+es una interpretación retorcida de la Constitución de la IASCF porque dos
+conjuntos de normas no constituyen “un único conjunto”
+Por lo tanto, coincidimos con Leisenring en que la sanción de la “NIIF
+para las PYMES” es incoherente con la citada Constitución (6).
+13,4. INEXISTENCIA DE UN MARCO CONCEPTUAL DE
+REFERENCIA
+No existe un MC de la “NIIF para las PYMES” El IASB las desarrolló me-
+diante:
+a) la extracción de los conceptos fundamentales del MC de las NIIF y de
+los principios y guías obligatorias relacionadas con ellas;
+b) la consideración de las modificaciones que se consideraron apropia-
+das en función de las necesidades de los usuarios y de evaluaciones de
+costo/beneficio (7).
+En cambio, fundamentó la decisión de no elaborar un MC de la “NIIF
+para las PYMES” de este modo:
+El Consejo rechazó la alternativa “del nuevo comienzo”
+porque dicho enfoque podría haber resultado en dife-
+rentes objetivos de los informes financieros, dife-
+rentes características cualitativas de la información
+financiera, diferentes definiciones de los elementos
+de los estados financieros y diferentes conceptos de
+reconocimiento y medición. El Consejo concluyó que el
+enfoque “del nuevo comienzo” seria costoso en tiempo
+y dinero y, finalmente, inútil. Esto es así porque,
+en la opinión del Consejo, hay suficiente convergen-
+(5) Constitución de la IASCF (2005, modificada en 2007 y 2009), párrafo 2(a).
+(6) NlIF para las PYMES. párrafo OC6.
+(7) Ibídem, párrafo FC95.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+13. LA “NllF PARA LAS PYMES” 523
+cia en las necesidades de los usuarios con respecto a
+los estados financieros con propósito de información
+general de entidades con obligación pública de rendir
+cuentas y sin ella.
+Nos parece que la última frase de la transcripción está en contradicción
+con:
+a) el argumento de que los usuarios de las entidades a las que está diri-
+gida la “NIIF para las PYMES” tendrían necesidades de información
+diferenciadas;
+b) la posibilidad, citada en la frase anterior, de que un MC de la “NIIF
+para las PYMES” enuncie objetivos de los estados financieros, cuali-
+dades de la información financiera, definiciones de elementos y con-
+ceptos de reconocimiento y medición distintos a los enunciados en el
+MC de las NIIF.
+13,5. COMPONENTES
+La “NIIF para las PYMES” se presenta en un único pronunciamiento,
+cuya parte normativa figura en 35 secciones y un glosario, que ocupan 220
+páginas, de las que 205 corresponden a material normativo (8).
+La sección 1 se refiere al concepto de “PYMES” utilizado en la norma;
+La 2 contiene conceptos y principios generales referidos a cuestiones que
+normalmente aparecerían en un MC;
+Las restantes:
+a) fijan reglas sobre cuestiones específicas de reconocimiento, medición
+y exposición contable;
+b) están divididas en párrafos de igual autoridad, salvo por lo que sigue;
+c) contienen, en algunos casos, guías de implementación sin carácter
+normativo.
+13,6. ALCANCE PRETENDIDO
+La denominación del pronunciamiento bajo análisis conduce a la supo-
+sición de que se lo elaboró pensando en su aplicación por parte de emisores
+de estados financieros que cumplan alguna condición relacionada con sus
+tamaños (pequeño, mediano). Por otra parte, la palabra pyme tiene, según el
+DRAE, el siguiente significado:
+(8) Los números corresponden al texto original en inglés.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+524 ENRIQUE FOWLER NEWTON
+Empresa mercantil, industrial, etc., compuesta por un
+número reducido de trabajadores, y con un moderado
+volumen de facturación.
+Sin embargo, el IASB elaboró la “NIIF para las PYMES” con la intención
+de que alcancen a los emisores de estados financieros de propósito general
+que no tengan la obligación pública de rendir cuenta (9). Se considera que
+una entidad la tiene cuando:
+a) sus instrumentos de deuda o de patrimonio se negocian en un merca-
+do público; o
+b) está en proceso de emitir esos instrumentos para su negociación en
+un mercado público; o
+c) uno de sus negocios principales es el mantenimiento de activos en
+una capacidad fiduciaria para un grupo amplio de terceros (10).
+Ejemplos de entidades del último tipo; bancos, cooperativas de cré-
+dito, compañías aseguradoras, agentes de bolsa y fondos de inver-
+sión.
+Esto implica que la denominada “NIIF para las PYMES” es en realidad
+una “NIIF para entidades sin obligación pública de rendir cuenta” El IASB
+informó que utilizó la expresión entrecomillada en primer término debido
+a su reconocimiento universal. El argumento nos parece falaz porque dicho
+reconocimiento existe pero con referencia al significado que el término tiene
+para la RAE o a conceptos parecidos.
+En el resto del capítulo, y salvo que el contexto indique otra cosa, las
+referencias que hagamos a “PYMES” deben entenderse hechas a las
+entidades sin obligación pública de rendir cuenta.
+El IASB estima que las entidades para las que fue diseñada la “NIIF para
+las PYMES” representan el 95 por ciento de todas las empresas alrededor del
+mundo.
+13,7. APLICACIÓN LOCAL
+Como en el caso de las NIIF, son los organismos emisores de NC locales
+o
+regionales los que deben definir si requerirán o aceptarán que determinados
+emisores de estados financieros apliquen la “NIIF para las PYMES”
+(9) Ibídem, párrafos 1.1 y 1.2.
+(10) Ibídem, párrafo 1.3.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+13. LA “NllF PARA LAS PYMES” 525
+Como este pronunciamiento fue diseñado pensando en entidades que
+no lengan obligación pública de rendir cuenta, un organismo local o regional
+no debería requerir o admitir su aplicación a un emisor que tenga tal obliga-
+ción. Si esto ocurriera, tal aplicación entraría en conflicto con la propia “NIIF
+para las PYMES” pues esta establece que en los estados financieros no debe
+decirse que éstos fueron preparados de acuerdo con aquéllas, aunque efecti-
+vamente se las hubiere aplicado (11).
+13,8. MATERIAL ACOMPAÑANTE
+El material acompañante de la “NIIF para las PYMES” incluye:
+a) un prólogo;
+b) las guías y ejemplos que aparecen dentro de las secciones 21, 22 y 23
+del pronunciamiento;
+c) una tabla de derivación, que permite relacionar cada sección de la
+“NIIF para las PYMES” con los componentes correlativos de las NIIF
+que se utilizaron como fuentes;
+d) estados financieros ilustrativos;
+e) una lista de verificación del contenido de la información complemen-
+taria preparada aplicando estas NC;
+f) la lista de los votantes a favor (trece) y en contra (uno: James Leinsen-
+ring);
+g) sus respectivos fundamentos.
+13,9. EL GRUPO DE IMPLEMENTACIÓN PARA PYMES
+Existe un SME Implementation Group (SMEIG, Grupo de Implementa-
+ción para PYMES), que:
+a) considerará los problemas de aplicación de la “NIIF para las PYMES”;
+b) desarrollará guías bajo la forma de preguntas y respuestas;
+c) efectuará recomendaciones al IASB sobre la necesidad de hacer cam-
+bios a las normas, teniendo en cuenta:
+1) los problemas de implementación que no pueden resolverse me-
+diante preguntas y respuestas;
+(11) Ibídem. párrafo 1.5.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+526 ENRIQUE FOWLER NEWTON
+2) los cambios habidos en las NIIF desde la emisión o última actuali-
+zación de la “NIIF para las PYMES” (12).
+Estaba previsto que el grupo fuera integrado con no menos de 12 y no
+más de 20 miembros no remunerados, a ser nombrados por los fideicomisa-
+rios de la Fundación IFRS, con sujeción a ciertos requisitos (13). Sin embargo,
+a comienzos de 2011 tiene 22 integrantes (14).
+También podrá contar con observadores, con voz pero sin voto (15).
+Para la confección de las preguntas y respuestas existen ciertas reglas. Si
+cuatro o más miembros del IASB objetan un consenso del SMEIG, se requiere
+la aprobación del Consejo (16).
+Los textos finales de las preguntas y respuestas se publicarán en la Inter-
+net(17).
+13,10. OTRAS CUESTIONES REFERIDAS A LA “NIIF
+PARA LAS PYMES” COMO PRODUCTO
+A) AUTOSUFICIENCIA
+A diferencia del borrador de norma, la “NIIF para las PYMES” es autosufi-
+ciente, en el sentido de que no condene referencias cruzadas a las NIIF, salvo
+dos que permiten aplicar las reglas de reconocimiento y medición contable
+de instrumentos financieros contenidas en la NIC 39 en reemplazo de las in-
+cluidas en las dos secciones de la “NIIF para las PYMES” que se refieren a
+esos elementos de los estados financieros (18).
+B) AUSENCIA DE INTERPRETACIONES
+No está prevista la emisión de interpretaciones de la “NIIF para las
+PYMES” que por otra parte incorporan los conceptos contenidos en varias
+interpretaciones de las NIIF.
+En cambio, se publicarán “preguntas y respuestas” (sin fuerza normati-
+va), según lo que expusimos en la sección 13,9.
+(12) IASCF, Terms of Reference and Operating Procedures for the SME Implementation
+Group, 2010, párrafo 9.
+(13) Ibídem, párrafos 11-12.
+(14) Entre ellos, dos argentinos: Hernán Casinelli y Jorge José Gil.
+(15) Terms of Reference, párrafo 13.
+(16) Ibídem, párrafos 19-31.
+(17) Ibídem, párrafo 32.
+(18) NIIF para las PYMES, párrafos 11.2 y 12.2.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+13. LA “NllF PARA LAS PYMES” 527
+c) CLARIDAD
+La “NIIF para las PYMES” es de fácil lectura.
+D) MODIFICACIONES
+El IASB considera que necesitará actualizar el texto de la “NIIF para las
+PYMES” después de los dos primeros años de experiencia (2010-2011). Se
+supone que el proceso comenzará en 2012 y culminará en 2013, para que los
+cambios entren en vigencia en 2014.
+Luego, se harán revisiones cada tres años, aproximadamente.
+En octubre de 2010 se difundieron unas correcciones editoriales al texto
+de la “NIIF para las PYMES” (una especie de/e de erratas).
+Coherentemente, los cambios que en los intervalos se hagan a las NIIF no
+serán trasladados automáticamente a la “NIIF para las PYMES” (19).
+E) IDIOMAS Y TRADUCCIONES
+En esta materia, vale lo expuesto para las NIIF en el capítulo anterior.
+A diciembre de 2010 se habían completado nueve traducciones.
+La efectuada al idioma español incluye al material acompañante.
+F) DERECHOS DE AUTOR
+Los derechos de autor sobre la “NIIF para las PYMES” pertenecen a la
+Fundación IFRS, pero ésta permite el acceso gratuito al pronunciamiento y a
+su material acompañante.
+13,11. APLICACIÓN INICIAL
+No hay normas especiales para la aplicación inicial de la “NIIF para las
+PYMES”
+13,12. CALIDAD
+En un primer análisis, consideramos que la “NIIF para las PYMES” no es
+de alta calidad, porque:
+(19) NIIF para las PYMES, párrafo P17.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+528 ENRIQUE FOWLER NEWTON
+a) fue elaborada partiendo de las NIIF que, por lo indicado en la sección
+12,7, nos merecen la misma calificación;
+b) incluye simplificaciones en materia de medición contable.
+Como aspecto positivo, señalemos que el número de alternativas acep-
+tadas en la “NIIF para las PYMES” es inferior al previsto en las NIIF, aunque
+esto se logró en muchos casos eliminando la alternativa más compleja, aun-
+que fuere mejor que la adoptada.
+Lamentablemente, una de esas alternativas es la de aplicar la NIC 39 para
+los instrumentos financieros, lo que a su vez abre la posibilidad de ejercerla
+denominada opción del valor razonable para cada uno de ellos en forma in-
+dividual, lo que lleva la posibilidad da manipulación de la información con-
+table a un nivel extremo.
+Describimos la OVR y su versión NIIF en las páginas 275-277 de Con-
+tabilidad Superior, sexta edición, La Ley, 2010.
+13,13. ACEPTACIÓN
+En septiembre de 2010, Paul Pacter informó que en 66 jurisdicciones se
+habían adoptado la “NIIF para las PYMES” o existían planes para hacerlo
+dentro de los siguientes tres años, con diversas modalidades (20).
+El caso argentino será tratado en el capítulo 14.
+Se conocen proyectos locales de NC basados en la “NIIF para las PYMES”
+pero no idénticos a ella.
+13,14. RESUMEN
+La “NIIF para las PYMES” fue emitida por el IASB en julio de 2009. Pese
+a su denominación, está pensada para entidades sin obligación pública de
+rendir cuenta. Se estima que éstas constituyen el 95 por ciento de las empre-
+sas en el mundo.
+Su emisión parece contrariar a la Constitución de la IASCF vigente cuan-
+do se las sancionó, ya que ésta habla del desarrollo de un “único conjunto” de
+normas contables de carácter global.
+La “NIIF para las PYMES” no tiene un MC. El IASB las desarrolló median-
+te:
+(20) hltp://www.ifrs.org/NR/rdonlyres/2E9A6554-83FD-4B50-9D34-3822374F059CC
+presentationAdoptionandlmplementationSMEs.pdf.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+13. LA “NllF PARA LAS PYMES” 529
+a) la extracción de los conceptos fundamentales del MC de las NIIF y de
+los principios y guías obligatorias relacionadas con ellas;
+b) la consideración de las modificaciones que se consideraron apropia-
+das en función de las necesidades de los usuarios y de evaluaciones de
+costo/beneficio.
+Su parte normativa ocupa poco más de 200 páginas de fácil lectura y está
+dividida en 35 secciones y un glosario y acompañada con diversos materia-
+les.
+Como la “NIIF para las PYMES” fue diseñada pensando en entidades que
+no tengan obligación pública de rendir cuenta, un organismo local o regional
+no debería requerir o admitir su aplicación a un emisor que tenga tal obliga-
+ción. Si esto ocurriera, tal aplicación entraría en conflicto con la propia “NIIF
+para las PYMES”
+Un Grupo de Implementación considerará los problemas de aplicación
+de la “NIIF para las PYMES” desarrollará guías no obligatorias bajo la forma
+de preguntas y respuestas (para cuya elaboración y aprobación hay un re-
+glamento) y efectuará recomendaciones al IASB sobre la necesidad de hacer
+cambios a las normas.
+No está prevista la emisión de interpretaciones de la “NIIF para las
+PYMES”
+Consideramos que la “NIIF para las PYMES” no es de alta calidad, porque
+fue elaborada partiendo de las NIIF (que a nuestro juicio tampoco lo son) y
+porque incluye simplificaciones en materia de medición contable. El número
+de alternativas aceptadas en la “NIIF para las PYMES” es inferior al previsto
+en las NIIF pero esto se logró en muchos casos eliminando la alternativa más
+compleja, aunque fuere mejor que la adoptada.
+El pronunciamiento ya ha sido adoptado en algunos países.
+13,15. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para
+que una aseveración sea correcta debe serlo totalmente.
+a) La “NIIF para las PYMES” es el componente de las NIIF que se re-
+fiere a la presentación de estados financieros de las entidades sin
+obligación pública de rendir cuenta.
+b) La “NIIF para las PYMES” es un pronunciamiento que el IASB ela-
+boró sobre la base de un MC especialmente diseñado al efecto.
+c) La “NIIF para las PYMES” no contiene referencias a las NIIF.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+530 ENRIQUE FOWLER NEWTON
+2. Explique qué es, para el IASB, una entidad con obligación pública de
+rendir cuenta.
+3. Indique qué carácter tendrán las “preguntas y respuestas” que en el
+futuro elabore el SMEIG.
+4. El autor de este libro considera que la “NIIF para las PYMES” no es de
+“alta calidad” Indique cuál es su argumento principal.
+13,16. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y
+EJERCICIOS
+1. a) Incorrecto. El cuerpo normativo que se propone en la “NIIF para
+las PYMES” es independiente de las NIIF.
+b) Incorrecto. No se diseñó ningún MC específico.
+c) Incorrecto. Hay dos que permiten aplicar las reglas de reconoci-
+miento y medición contable contenidas en la NIC 39 en reemplazo
+de las incluidas en las dos secciones de la “NIIF para las PYMES”
+que regulan el tratamiento contable de los instrumentos financie-
+ros.
+2. Se considera que una entidad tiene tal obligación cuando:
+a) sus instrumentos de deuda o de patrimonio se negocian en un
+mercado público; o
+b) está en proceso de emitir esos instrumentos para su negociación
+en un mercado público; o
+c) uno de sus negocios principales es el mantenimiento de activos en
+una capacidad fiduciaria para un grupo amplio de terceros.
+3. Tendrán carácter de guía (no normativa).
+4. El argumento principal es que la “NIIF para las PYMES” se basa en las
+NIIF, que tampoco son (en opinión del autor) de alta calidad.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos

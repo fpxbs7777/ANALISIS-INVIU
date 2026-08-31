@@ -1,0 +1,25 @@
+import yfinance as yf
+
+def obtener_info_ticker(simbolo):
+    ticker = yf.Ticker(simbolo)
+    
+    # El método .info contiene sector e industria
+    info = ticker.info
+    
+    sector = info.get('sector', 'No disponible')
+    industria = info.get('industry', 'No disponible')
+    nombre = info.get('longName', 'Nombre no encontrado')
+    
+    print(f"Ticker: {simbolo}")
+    print(f"Empresa: {nombre}")
+    print(f"Sector: {sector}")
+    print(f"Industria: {industria}")
+    print("-" * 30)
+
+# Ejemplo con un solo ticker
+obtener_info_ticker("AAPL")
+
+# Ejemplo con varios tickers
+tickers = ["MSFT", "GGAL", "TSLA"]
+for t in tickers:
+    obtener_info_ticker(t)

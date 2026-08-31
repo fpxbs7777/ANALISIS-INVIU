@@ -1,0 +1,3 @@
+KEYS BINANCE (Demo Testnet)
+API KEY= (completar en variables de entorno)
+SECRET KEY= (completar en variables de entorno)

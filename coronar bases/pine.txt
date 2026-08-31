@@ -1,0 +1,1312 @@
+// @version=6
+indicator("Dashboard Fundamental PRO V13", overlay=true)
+
+// ══════════════════════════════════════════════════════════════
+// DASHBOARD FUNDAMENTAL PRO V13
+// Mejoras vs V12:
+// 1. Sin hardcode de factores — todo calculado dinámicamente
+// 2. Sistema de fuentes con niveles 1-5 (TV/calc/adj~/est?/N/D)
+// 3. Soporte PAMP en ARS: detección automática mismatch moneda
+// 4. CEDEARs: detección y advertencia
+// 5. Recorrido normalizado 0-100 desde mín histórico absoluto
+// 6. Factor EBITDA derivado de EQUITY_IN_EARNINGS dinámico
+// 7. Cap EMBI dinámico en lugar de fijo 15%
+// 8. Inflación forward desde ARINFEXP cuando disponible
+// 9. FCF: distingue capex de capital de trabajo
+// 10. EPS: detección automática de moneda (ARS vs USD)
+// ══════════════════════════════════════════════════════════════
+
+// ── DEBUG ──────────────────────────────────────────────────────
+debug_mode = input.bool(false, "Modo debug")
+
+// ══════════════════════════════════════════════════════════════
+// COLORES
+// ══════════════════════════════════════════════════════════════
+color C_HEADER = #0d1117
+color C_BG     = #131722
+color C_TEXT   = #8992A6
+color C_WHITE  = #E0E0E0
+color C_GOLD   = #C9A84C
+color C_UP     = #26A65B
+color C_DOWN   = #A93226
+color C_HOLD   = #B8860B
+color C_TRAP   = #6A0DAD
+color C_WARN   = #E67E22
+color C_INFO   = #2E86C1
+color C_NEUT   = #4A90A4
+color C_NA     = #5A6272
+
+// ══════════════════════════════════════════════════════════════
+// SISTEMA DE NIVELES DE FUENTE
+// Nivel 1 = TV directo consistente    → verde,  sin prefijo
+// Nivel 2 = Reconstruido componentes  → dorado, prefijo ≈
+// Nivel 3 = Ajustado macro/VPP        → naranja, prefijo ~
+// Nivel 4 = Estimado proxy sectorial  → gris,   prefijo ?
+// Nivel 5 = No disponible             → rojo,   prefijo ✗
+// ══════════════════════════════════════════════════════════════
+f_nivel_color(nivel) => 
+    nivel == 1 ? C_UP : nivel == 2 ? C_GOLD : nivel == 3 ? C_WARN : nivel == 4 ? C_TEXT : C_DOWN
+
+f_nivel_prefijo(nivel) => 
+    nivel == 1 ? "" : nivel == 2 ? "≈" : nivel == 3 ? "~" : nivel == 4 ? "?" : "✗"
+
+// ══════════════════════════════════════════════════════════════
+// AUTO-DETECCIÓN: TIPO DE TICKER, MONEDA, SECTOR
+// ══════════════════════════════════════════════════════════════
+string ticker_clean = str.upper(syminfo.ticker)
+
+// Ratio ADR/CEDEAR automático
+var int adr_ratio_auto = 1
+if ticker_clean == "PAM" or ticker_clean == "PAMP"
+    adr_ratio_auto := 25
+else if ticker_clean == "GGAL"
+    adr_ratio_auto := 10
+else if ticker_clean == "BMA"
+    adr_ratio_auto := 10
+else if ticker_clean == "SUPV"
+    adr_ratio_auto := 5
+else if ticker_clean == "TGS"
+    adr_ratio_auto := 5
+else if ticker_clean == "LOMA"
+    adr_ratio_auto := 5
+else if ticker_clean == "CEPU"
+    adr_ratio_auto := 5
+else if ticker_clean == "CRESY"
+    adr_ratio_auto := 10
+else if ticker_clean == "TEO"
+    adr_ratio_auto := 5
+else if ticker_clean == "YPF"
+    adr_ratio_auto := 1
+else if ticker_clean == "GLOB"
+    adr_ratio_auto := 1
+else if ticker_clean == "MELI"
+    adr_ratio_auto := 1
+
+bool is_adr_arg = adr_ratio_auto > 1
+
+// Detección de tipo de cotización
+bool precio_en_ars  = syminfo.currency == "ARS"
+bool es_cedear      = precio_en_ars and not (syminfo.country == "AR") and str.contains(ticker_clean, "D")
+bool es_accion_byma = precio_en_ars and not es_cedear
+
+// Empresas argentinas que reportan en USD (moneda funcional USD)
+bool reporta_en_usd = es_accion_byma and (ticker_clean == "PAMP" or ticker_clean == "YPFD" or ticker_clean == "TXAR" or ticker_clean == "TGSU2" or ticker_clean == "COME" or ticker_clean == "TRAN")
+
+bool reporta_en_ars = es_accion_byma and not reporta_en_usd
+bool hay_mismatch_moneda = reporta_en_usd  // precio ARS, financials USD
+
+// Flags de sector y país
+bool is_adr_arg_flag    = adr_ratio_auto > 1
+string desc_lower = not na(syminfo.description) ? str.lower(syminfo.description) : ""
+
+// Detección automática de sector por descripción
+bool is_financial_by_desc = str.contains(desc_lower, "bank") or str.contains(desc_lower, "banco") or str.contains(desc_lower, "bancario") or str.contains(desc_lower, "holding") or str.contains(desc_lower, "financial services")
+bool is_energy_by_desc    = str.contains(desc_lower, "energy") or str.contains(desc_lower, "energ") or str.contains(desc_lower, "oil") or str.contains(desc_lower, "petrol") or str.contains(desc_lower, "gas") or str.contains(desc_lower, "power")
+bool is_utility_by_desc   = str.contains(desc_lower, "utility") or str.contains(desc_lower, "utilities") or str.contains(desc_lower, "electric") or str.contains(desc_lower, "water") or str.contains(desc_lower, "distribuidora")
+bool is_healthcare_by_desc = str.contains(desc_lower, "health") or str.contains(desc_lower, "pharm") or str.contains(desc_lower, "medical") or str.contains(desc_lower, "biotech")
+bool is_tech_by_desc      = str.contains(desc_lower, "tech") or str.contains(desc_lower, "software") or str.contains(desc_lower, "technology") or str.contains(desc_lower, "internet") or str.contains(desc_lower, "ecommerce")
+
+// Combinar sector TV con detección por descripción
+bool is_financial       = syminfo.sector == "Finance" or syminfo.sector == "Financial" or is_financial_by_desc
+bool is_energy          = syminfo.sector == "Energy" or is_energy_by_desc
+bool is_utility         = syminfo.sector == "Utilities" or is_utility_by_desc
+bool is_healthcare      = syminfo.sector == "Healthcare" or is_healthcare_by_desc
+bool is_tech            = syminfo.sector == "Technology" or is_tech_by_desc
+
+bool is_arg_company     = syminfo.country == "AR" or is_adr_arg_flag or es_accion_byma
+bool is_pam             = ticker_clean == "PAM" or ticker_clean == "PAMP"
+bool is_arg_energy_expansion = is_pam or (syminfo.country == "AR" and is_energy)
+
+bool sector_regulado_auto = is_utility or is_energy or is_healthcare or str.contains(desc_lower, "regulad")
+
+// Umbrales automáticos por sector
+float liq_min_auto      = is_financial ? 1.0 : (is_arg_energy_expansion ? 1.0 : (sector_regulado_auto ? 1.1 : 1.2))
+float deuda_eb_max_auto = is_financial ? 999.0 : (is_arg_energy_expansion ? 4.0 : (sector_regulado_auto ? 5.0 : 3.5))
+float caja_pct_auto     = is_financial ? 0.60 : (is_arg_energy_expansion ? 0.25 : (sector_regulado_auto ? 0.30 : 0.35))
+
+// Ventanas por temporalidad
+int lookback_hist_auto = timeframe.isintraday ? 200 : (timeframe.isweekly ? 260 : (timeframe.ismonthly ? 120 : 520))
+int lookback_corr_auto = timeframe.isintraday ? 60  : (timeframe.isweekly ? 104 : (timeframe.ismonthly ? 60  : 252))
+
+// ══════════════════════════════════════════════════════════════
+// TIPO DE CAMBIO — TCN CONTABLE PROXY
+// ══════════════════════════════════════════════════════════════
+float fx_oficial_raw    = request.security("FX_IDC:USDARS", "D", close, ignore_invalid_symbol=true)
+float fx_oficial_sma    = request.security("FX_IDC:USDARS", "D", ta.sma(close, 20), ignore_invalid_symbol=true)
+float tcn_proxy         = not na(fx_oficial_sma) ? fx_oficial_sma : (not na(fx_oficial_raw) ? fx_oficial_raw : na)
+float tcn_proxy_prev12  = request.security("FX_IDC:USDARS", "D", ta.sma(close, 20), ignore_invalid_symbol=true)[252]
+float tcn_proxy_prev36  = request.security("FX_IDC:USDARS", "D", ta.sma(close, 20), ignore_invalid_symbol=true)[756]
+
+// Factor de conversión precio → USD (para tickers ARS con financials en USD)
+float factor_precio_a_usd = hay_mismatch_moneda and not na(tcn_proxy) and tcn_proxy > 0 ? 1.0 / tcn_proxy : 1.0
+
+// Precio normalizado a USD para cálculo de múltiplos
+float precio_comparable = close * factor_precio_a_usd
+
+// ══════════════════════════════════════════════════════════════
+// EMBI ARGENTINA — CAP DINÁMICO
+// ══════════════════════════════════════════════════════════════
+float embi_raw = request.security("ECONOMICS:AREMBIG", "D", close, ignore_invalid_symbol=true)
+
+// Cap dinámico: entre 8% en escenario favorable y 20% en crisis
+float embi_percentil_proxy = not na(embi_raw) ? math.min(1.0, embi_raw / 2000.0) : 0.5
+float sovereign_spread_cap = 0.08 + (embi_percentil_proxy * 0.12)
+float sovereign_spread_dynamic = not na(embi_raw) ? (embi_raw / 10000.0) : (is_pam ? 0.045 : (syminfo.country == "AR" ? 0.08 : 0.0))
+float sovereign_spread = math.max(0.02, math.min(sovereign_spread_cap, sovereign_spread_dynamic))
+
+// ══════════════════════════════════════════════════════════════
+// INFLACIÓN Y DEVALUACIÓN
+// ══════════════════════════════════════════════════════════════
+float arie_actual   = request.security("ARIE", "D", close, ignore_invalid_symbol=true)
+float arie_prev365  = request.security("ARIE", "D", close, ignore_invalid_symbol=true)[365]
+float arie_prev90   = request.security("ARIE", "D", close, ignore_invalid_symbol=true)[90]
+
+var float inflacion_yoy = na
+if not na(arie_actual) and not na(arie_prev365) and arie_prev365 > 0
+    inflacion_yoy := (arie_actual / arie_prev365 - 1.0) * 100.0
+
+var float inflacion_3m = na
+if not na(arie_actual) and not na(arie_prev90) and arie_prev90 > 0
+    inflacion_3m := (arie_actual / arie_prev90 - 1.0) * 100.0
+
+// Fallback TV
+float inflacion_yoy_tv = request.security("ECONOMICS:ARINFYOY", "M", close, ignore_invalid_symbol=true)
+if na(inflacion_yoy) and not na(inflacion_yoy_tv)
+    inflacion_yoy := inflacion_yoy_tv
+
+// Inflación esperada (forward)
+float inflacion_esperada   = request.security("ECONOMICS:ARINFEXP", "M", close, ignore_invalid_symbol=true)
+float inflacion_mensual_tv = request.security("ECONOMICS:ARCPI",    "M", close, ignore_invalid_symbol=true)
+
+float arie_trend_3m   = request.security("ARIE", "D", ta.sma(close, 90), ignore_invalid_symbol=true)
+float arie_trend_prev = request.security("ARIE", "D", ta.sma(close, 90), ignore_invalid_symbol=true)[90]
+float inflacion_proyectada_proxy = not na(arie_trend_3m) and not na(arie_trend_prev) and arie_trend_prev > 0 ? (math.pow(arie_trend_3m / arie_trend_prev, 4.0) - 1.0) * 100.0 : na
+
+// Inflación forward
+float inflacion_forward = not na(inflacion_esperada) ? inflacion_esperada : not na(inflacion_proyectada_proxy) ? inflacion_proyectada_proxy : inflacion_yoy
+
+// Devaluación
+float usdars_actual = not na(tcn_proxy) ? tcn_proxy : request.security("FX_IDC:USDARS", "M", close, ignore_invalid_symbol=true)
+float usdars_prev12 = not na(tcn_proxy_prev12) ? tcn_proxy_prev12 : request.security("FX_IDC:USDARS", "M", close, ignore_invalid_symbol=true)[12]
+
+var float devaluacion_yoy = na
+if not na(usdars_actual) and not na(usdars_prev12) and usdars_prev12 > 0
+    devaluacion_yoy := (usdars_actual / usdars_prev12 - 1.0) * 100.0
+
+var float diferencial_inf_dev = na
+if not na(inflacion_yoy) and not na(devaluacion_yoy)
+    diferencial_inf_dev := inflacion_yoy - devaluacion_yoy
+
+// Diferencial forward
+float diferencial_forward = not na(inflacion_forward) and not na(devaluacion_yoy) ? inflacion_forward - devaluacion_yoy : diferencial_inf_dev
+
+bool costo_presionado    = not na(diferencial_inf_dev) and diferencial_inf_dev > 5.0
+bool margen_beneficiado  = not na(diferencial_inf_dev) and diferencial_inf_dev < -5.0
+
+// ══════════════════════════════════════════════════════════════
+// DATOS FINANCIEROS — TV RAW
+// ══════════════════════════════════════════════════════════════
+float current_r   = request.financial(syminfo.tickerid, "CURRENT_RATIO",              "FQ",  ignore_invalid_symbol=true)
+float debt_eq     = request.financial(syminfo.tickerid, "DEBT_TO_EQUITY",             "FQ",  ignore_invalid_symbol=true)
+float debt_ebitda = request.financial(syminfo.tickerid, "DEBT_TO_EBITDA",             "FQ",  ignore_invalid_symbol=true)
+float ev_ebitda   = request.financial(syminfo.tickerid, "ENTERPRISE_VALUE_EBITDA",    "FQ",  ignore_invalid_symbol=true)
+float cur_assets  = request.financial(syminfo.tickerid, "TOTAL_CURRENT_ASSETS",       "FQ",  ignore_invalid_symbol=true)
+float cur_liab    = request.financial(syminfo.tickerid, "TOTAL_CURRENT_LIABILITIES",  "FQ",  ignore_invalid_symbol=true)
+float tot_assets  = request.financial(syminfo.tickerid, "TOTAL_ASSETS",               "FQ",  ignore_invalid_symbol=true)
+float tot_equity  = request.financial(syminfo.tickerid, "TOTAL_EQUITY",               "FQ",  ignore_invalid_symbol=true)
+float tot_debt    = request.financial(syminfo.tickerid, "TOTAL_DEBT",                 "FQ",  ignore_invalid_symbol=true)
+float tot_inv     = request.financial(syminfo.tickerid, "TOTAL_INVENTORY",            "FQ",  ignore_invalid_symbol=true)
+float bvps        = request.financial(syminfo.tickerid, "BOOK_VALUE_PER_SHARE",       "FQ",  ignore_invalid_symbol=true)
+float debt_short  = request.financial(syminfo.tickerid, "SHORT_TERM_DEBT",            "FQ",  ignore_invalid_symbol=true)
+float debt_long   = request.financial(syminfo.tickerid, "LONG_TERM_DEBT",             "FQ",  ignore_invalid_symbol=true)
+float net_income  = request.financial(syminfo.tickerid, "NET_INCOME",                 "TTM", ignore_invalid_symbol=true)
+float gross_profit= request.financial(syminfo.tickerid, "GROSS_PROFIT",               "TTM", ignore_invalid_symbol=true)
+float tot_revenue = request.financial(syminfo.tickerid, "TOTAL_REVENUE",              "TTM", ignore_invalid_symbol=true)
+float ebitda_tv   = request.financial(syminfo.tickerid, "EBITDA",                     "TTM", ignore_invalid_symbol=true)
+float ebit        = request.financial(syminfo.tickerid, "EBIT",                       "TTM", ignore_invalid_symbol=true)
+float eps_raw_tv  = request.financial(syminfo.tickerid, "EARNINGS_PER_SHARE_BASIC",   "TTM", ignore_invalid_symbol=true)
+float capex       = request.financial(syminfo.tickerid, "CAPITAL_EXPENDITURES",       "TTM", ignore_invalid_symbol=true)
+float op_cf       = request.financial(syminfo.tickerid, "CASH_F_OPERATING_ACTIVITIES","TTM", ignore_invalid_symbol=true)
+float da          = request.financial(syminfo.tickerid, "DEPRECIATION_AMORTIZATION_CASH_FLOW", "TTM", ignore_invalid_symbol=true)
+float equity_earnings = request.financial(syminfo.tickerid, "EQUITY_IN_EARNINGS",    "TTM", ignore_invalid_symbol=true)
+float delta_recv  = request.financial(syminfo.tickerid, "CHANGE_IN_RECEIVABLES",     "TTM", ignore_invalid_symbol=true)
+float div_yield   = request.financial(syminfo.tickerid, "DIVIDEND_YIELD",            "TTM", ignore_invalid_symbol=true)
+
+// Márgenes TV raw
+float gross_mar_tv_raw  = request.financial(syminfo.tickerid, "GROSS_MARGIN",  "TTM", ignore_invalid_symbol=true)
+float net_mar_tv_raw    = request.financial(syminfo.tickerid, "NET_MARGIN",    "TTM", ignore_invalid_symbol=true)
+float ebitda_mar_tv_raw = request.financial(syminfo.tickerid, "EBITDA_MARGIN", "TTM", ignore_invalid_symbol=true)
+
+// FCF histórico anual
+float op_cf_fy_cur = request.financial(syminfo.tickerid, "CASH_F_OPERATING_ACTIVITIES", "FY", ignore_invalid_symbol=true)
+float op_cf_fy_1   = request.financial(syminfo.tickerid, "CASH_F_OPERATING_ACTIVITIES", "FY", ignore_invalid_symbol=true)[1]
+float op_cf_fy_2   = request.financial(syminfo.tickerid, "CASH_F_OPERATING_ACTIVITIES", "FY", ignore_invalid_symbol=true)[2]
+float op_cf_fy_3   = request.financial(syminfo.tickerid, "CASH_F_OPERATING_ACTIVITIES", "FY", ignore_invalid_symbol=true)[3]
+float capex_fy_cur = request.financial(syminfo.tickerid, "CAPITAL_EXPENDITURES", "FY", ignore_invalid_symbol=true)
+float capex_fy_1   = request.financial(syminfo.tickerid, "CAPITAL_EXPENDITURES", "FY", ignore_invalid_symbol=true)[1]
+float capex_fy_2   = request.financial(syminfo.tickerid, "CAPITAL_EXPENDITURES", "FY", ignore_invalid_symbol=true)[2]
+float capex_fy_3   = request.financial(syminfo.tickerid, "CAPITAL_EXPENDITURES", "FY", ignore_invalid_symbol=true)[3]
+
+float fcf_fy_real_cur = not na(op_cf_fy_cur) and not na(capex_fy_cur) ? op_cf_fy_cur + capex_fy_cur : na
+float fcf_fy_real_1   = not na(op_cf_fy_1)   and not na(capex_fy_1)   ? op_cf_fy_1   + capex_fy_1   : na
+float fcf_fy_real_2   = not na(op_cf_fy_2)   and not na(capex_fy_2)   ? op_cf_fy_2   + capex_fy_2   : na
+float fcf_fy_real_3   = not na(op_cf_fy_3)   and not na(capex_fy_3)   ? op_cf_fy_3   + capex_fy_3   : na
+
+// ══════════════════════════════════════════════════════════════
+// NORMALIZACIÓN DE ESCALA
+// ══════════════════════════════════════════════════════════════
+f_norm(v) =>
+    na(v) ? na : (math.abs(v) > 100.0 ? na : (math.abs(v) > 10.0 ? v / 100.0 : v))
+
+float gross_mar_tv  = f_norm(gross_mar_tv_raw)
+float net_mar_tv    = f_norm(net_mar_tv_raw)
+float ebitda_mar_tv = f_norm(ebitda_mar_tv_raw)
+
+// ══════════════════════════════════════════════════════════════
+// DETECCIÓN DE MONEDA DEL EPS
+// ══════════════════════════════════════════════════════════════
+float pe_test_usd = not na(eps_raw_tv) and eps_raw_tv > 0 and not na(precio_comparable) ? precio_comparable / eps_raw_tv : na
+float pe_test_ars = not na(eps_raw_tv) and eps_raw_tv > 0 and not na(close) ? close / eps_raw_tv : na
+
+bool eps_parece_usd  = not na(pe_test_usd) and pe_test_usd > 2.0  and pe_test_usd < 80.0
+bool eps_parece_ars  = not na(pe_test_ars) and pe_test_ars > 2.0  and pe_test_ars < 80.0
+
+// Resolución de moneda EPS
+string eps_moneda = hay_mismatch_moneda and eps_parece_usd and not eps_parece_ars ? "USD" : hay_mismatch_moneda and eps_parece_ars and not eps_parece_usd ? "ARS" : hay_mismatch_moneda and eps_parece_usd and eps_parece_ars ? "ambig" : not hay_mismatch_moneda ? "native" : "indet"
+
+// EPS normalizado a USD
+float eps_normalizado = eps_moneda == "ARS" and not na(tcn_proxy) and tcn_proxy > 0 ? eps_raw_tv / tcn_proxy : (eps_moneda == "USD" or eps_moneda == "native" or eps_moneda == "ambig") ? eps_raw_tv : na
+
+// Sufijo de advertencia para EPS
+string eps_moneda_sufijo = eps_moneda == "ARS" ? "÷TCN" : eps_moneda == "ambig" ? "⚠mon" : eps_moneda == "indet" ? "⚠?" : ""
+
+// ══════════════════════════════════════════════════════════════
+// RESOLUCIÓN DINÁMICA DE EBITDA
+// ══════════════════════════════════════════════════════════════
+
+// Márgenes calculados manualmente para validación
+float mar_bruto_m   = not na(tot_revenue) and tot_revenue > 0 ? gross_profit / tot_revenue : na
+float mar_neto_m    = not na(tot_revenue) and tot_revenue > 0 ? net_income   / tot_revenue : na
+float mar_ebitda_m  = not na(tot_revenue) and tot_revenue > 0 ? ebitda_tv    / tot_revenue : na
+float mar_bruto_mn  = f_norm(mar_bruto_m)
+float mar_neto_mn   = f_norm(mar_neto_m)
+float mar_ebitda_mn = f_norm(mar_ebitda_m)
+
+// Diferencias TV vs calculado
+float diff_eb = na(ebitda_mar_tv) or na(mar_ebitda_mn) ? na : math.abs(ebitda_mar_tv - mar_ebitda_mn)
+float diff_gm = na(gross_mar_tv)  or na(mar_bruto_mn)  ? na : math.abs(gross_mar_tv  - mar_bruto_mn)
+float diff_nm = na(net_mar_tv)    or na(mar_neto_mn)   ? na : math.abs(net_mar_tv    - mar_neto_mn)
+
+bool eb_tv_ok      = not na(ebitda_mar_tv) and math.abs(ebitda_mar_tv) < 1.0
+bool gm_tv_ok      = not na(gross_mar_tv)  and math.abs(gross_mar_tv)  < 1.05
+bool nm_tv_ok      = not na(net_mar_tv)    and math.abs(net_mar_tv)    < 0.80
+bool eb_m_ok       = not na(mar_ebitda_mn) and math.abs(mar_ebitda_mn) < 1.0
+bool gm_m_ok       = not na(mar_bruto_mn)  and math.abs(mar_bruto_mn)  < 1.05
+bool eb_consistente = na(diff_eb) ? false : diff_eb < 0.15
+bool gm_consistente = na(diff_gm) ? false : diff_gm < 0.15
+bool nm_consistente = na(diff_nm) ? false : diff_nm < 0.15
+
+// VPP material
+float eq_earn_abs = not na(equity_earnings) ? math.abs(equity_earnings) : 0.0
+bool tiene_vpp_material = not na(equity_earnings) and not na(ebit) and math.abs(ebit) > 0 and eq_earn_abs / math.abs(ebit) > 0.15
+
+// Proporción VPP → EBITDA según sector
+float vpp_a_ebitda_ratio = is_financial ? 0.0 : (sector_regulado_auto ? 0.65 : 0.50)
+
+// Contribución VPP al EBITDA ajustado
+float vpp_contrib = tiene_vpp_material and equity_earnings > 0 ? equity_earnings * vpp_a_ebitda_ratio : 0.0
+
+// Efecto macro sobre margen
+float efecto_macro = not na(diferencial_forward) ? math.max(-0.15, math.min(0.15, diferencial_forward * (-0.003))) : 0.0
+
+// ── Resolución nivel a nivel ─────────────────────────────────
+var float ebitda_resuelto = na
+var int   ebitda_nivel    = 5
+var string ebitda_fuente  = "N/D"
+
+// Nivel 1: TV directo consistente
+float tv_margin_check = not na(ebitda_tv) and not na(tot_revenue) and tot_revenue > 0 ? ebitda_tv / tot_revenue : na
+bool tv_ebitda_plausible = not na(tv_margin_check) and tv_margin_check > 0.0 and tv_margin_check < 0.95
+if tv_ebitda_plausible and eb_consistente and not tiene_vpp_material
+    ebitda_resuelto := ebitda_tv
+    ebitda_nivel    := 1
+    ebitda_fuente   := "TV"
+
+// Nivel 2: Reconstruido desde EBIT + DA
+else if not na(ebit) and not na(da)
+    float ebitda_recalc = ebit + da
+    float rec_m = not na(tot_revenue) and tot_revenue > 0 ? ebitda_recalc / tot_revenue : na
+    if not na(rec_m) and rec_m > 0.0 and rec_m < 0.95
+        ebitda_resuelto := ebitda_recalc
+        ebitda_nivel    := 2
+        ebitda_fuente   := "≈EBIT+DA"
+
+// Nivel 3a: TV + VPP dinámico + macro (holdings con afiliadas)
+if ebitda_nivel >= 1 and tiene_vpp_material and not na(ebitda_tv)
+    float base = not na(ebitda_resuelto) ? ebitda_resuelto : ebitda_tv
+    ebitda_resuelto := (base + vpp_contrib) * (1.0 + efecto_macro)
+    ebitda_nivel    := 3
+    string vpp_str  = not na(equity_earnings) ? "VPP" : ""
+    string embi_str = not na(embi_raw) ? "+EMBI" : ""
+    string macro_str = not na(diferencial_forward) ? "+macro" : ""
+    ebitda_fuente   := "~" + vpp_str + embi_str + macro_str
+
+// Nivel 3b: Solo ajuste macro para empresa ARG sin afiliadas relevantes
+else if ebitda_nivel == 1 and is_arg_company and not na(diferencial_forward) and math.abs(diferencial_forward) > 10.0
+    ebitda_resuelto := ebitda_tv * (1.0 + efecto_macro)
+    ebitda_nivel    := 3
+    ebitda_fuente   := "~macro"
+
+// Nivel 4: Estimación por margen sectorial
+else if ebitda_nivel == 5 and not na(tot_revenue)
+    float margen_est = is_financial ? 0.35 : (sector_regulado_auto ? 0.40 : (is_arg_energy_expansion ? 0.45 : 0.25))
+    ebitda_resuelto := tot_revenue * margen_est
+    ebitda_nivel    := 4
+    ebitda_fuente   := "?sect"
+
+// Validación de rango del factor resultante
+float ajuste_ebitda_factor = not na(ebitda_resuelto) and not na(ebitda_tv) and math.abs(ebitda_tv) > 0 ? ebitda_resuelto / ebitda_tv : 1.0
+bool factor_razonable = ajuste_ebitda_factor > 0.7 and ajuste_ebitda_factor < 4.0
+
+float ebitda = factor_razonable ? ebitda_resuelto : ebitda_tv
+string ebitda_fuente_final = factor_razonable ? ebitda_fuente : "TV!rng"
+int    ebitda_nivel_final  = factor_razonable ? ebitda_nivel  : 2
+float  ajuste_ebitda_final = factor_razonable ? ajuste_ebitda_factor : 1.0
+
+// ══════════════════════════════════════════════════════════════
+// RESOLUCIÓN DE REVENUE (detección intercompany)
+// ══════════════════════════════════════════════════════════════
+bool rev_consistente_interno = not na(tot_revenue) and not na(gross_profit) and gross_profit > 0 and gross_profit < tot_revenue * 1.05
+bool rev_posible_subcomp = is_arg_company and not na(tot_revenue) and eq_earn_abs > tot_revenue * 0.10
+
+var float rev_ttm_resuelto = tot_revenue
+var int   rev_nivel = 5
+var string rev_fuente = "N/D"
+
+if rev_consistente_interno and not rev_posible_subcomp
+    rev_ttm_resuelto := tot_revenue
+    rev_nivel        := 1
+    rev_fuente       := "TV"
+else if rev_consistente_interno and rev_posible_subcomp
+    rev_ttm_resuelto := tot_revenue
+    rev_nivel        := 3
+    rev_fuente       := "~intcomp"
+else if not na(gross_profit) and gross_profit > 0
+    rev_ttm_resuelto := gross_profit / 0.35
+    rev_nivel        := 4
+    rev_fuente       := "?gp"
+else
+    rev_nivel := 5
+    rev_fuente := "N/D"
+
+// ══════════════════════════════════════════════════════════════
+// FCF — DISTINGUIR CAPEX DE CAPITAL DE TRABAJO
+// ══════════════════════════════════════════════════════════════
+float fcf_ttm_real = not na(op_cf) and not na(capex) ? op_cf + capex : na
+
+// Flujo operativo sin efecto de capital de trabajo (cuentas a cobrar)
+float op_cf_sin_wc = not na(op_cf) and not na(delta_recv) ? op_cf - delta_recv : op_cf
+
+bool fcf_pos       = not na(fcf_ttm_real) and fcf_ttm_real > 0
+bool op_cf_pos     = not na(op_cf) and op_cf > 0
+bool op_cf_wc_pos  = not na(op_cf_sin_wc) and op_cf_sin_wc > 0
+
+float capex_int    = not na(capex) and not na(tot_revenue) and tot_revenue > 0 ? math.abs(capex) / tot_revenue : na
+bool capex_alto    = not na(capex_int) and capex_int > 0.15
+
+// Clasificación del FCF negativo
+bool fcf_neg_por_cobranza = not na(fcf_ttm_real) and fcf_ttm_real < 0 and not na(delta_recv) and delta_recv < 0 and op_cf_wc_pos
+
+bool fcf_neg_3y = not na(fcf_fy_real_cur) and fcf_fy_real_cur < 0 and not na(fcf_fy_real_1) and fcf_fy_real_1 < 0 and not na(fcf_fy_real_2) and fcf_fy_real_2 < 0
+
+bool var_debt_yoy_flag = false  // se calcula más adelante, flag provisional
+
+bool op_cf_tend_pos  = not na(op_cf) and op_cf > 0
+var bool debt_no_acelera = true  // se actualiza más adelante
+
+bool fcf_neg_valido_capex  = not fcf_pos and op_cf_pos and capex_alto and is_arg_energy_expansion and not fcf_neg_3y
+
+bool fcf_neg_valido_rigi   = is_pam and op_cf_pos and capex_alto and op_cf_tend_pos
+
+bool fcf_neg_por_wc_solo   = fcf_neg_por_cobranza and not capex_alto
+
+// Tipo de FCF negativo para mostrar en tabla
+string fcf_tipo = fcf_pos ? "FCF+" : (fcf_neg_valido_rigi ? "FCF⟳RIGI" : (fcf_neg_valido_capex ? "FCF⟳inv" : (fcf_neg_por_cobranza ? "FCF⟳cob" : "FCF-")))
+
+bool fcf_neg_valido = fcf_neg_valido_capex or fcf_neg_valido_rigi
+
+// FCF fuente
+int    fcf_nivel  = not na(fcf_ttm_real) ? (fcf_neg_valido_rigi or fcf_neg_valido_capex ? 3 : 1) : 5
+string fcf_fuente = not na(fcf_ttm_real) ? (fcf_neg_por_cobranza ? "~cob" : (fcf_neg_valido ? "~inv" : "TV")) : "N/D"
+
+// ══════════════════════════════════════════════════════════════
+// EARNINGS — DATOS HISTÓRICOS
+// ══════════════════════════════════════════════════════════════
+var int eps_hits_total        = 0
+var int eps_total_reports     = 0
+var float eps_avg_surprise    = 0.0
+var float eps_volatility_avg  = 0.0
+var float eps_volatility_samples = 0.0
+var int n_sur_q               = 0
+var float[] earn_act_hist     = array.new_float(0)
+var float[] earn_est_hist     = array.new_float(0)
+var float[] earn_sur_hist     = array.new_float(0)
+var float   last_earn_act     = na
+var float[] price_react_hist  = array.new_float(0)
+var string next_earnings_date = "S/D"
+var float next_eps_estimate   = na
+var int last_earnings_bar     = na
+var float[] pe_hist           = array.new_float(0)
+
+float earn_actual   = request.earnings(syminfo.tickerid, earnings.actual,   ignore_invalid_symbol=true)
+float earn_estimate = request.earnings(syminfo.tickerid, earnings.estimate,  ignore_invalid_symbol=true)
+
+// PASO 1: detectar si es un reporte nuevo
+bool es_reporte_nuevo = not na(earn_actual) and (na(last_earn_act) or math.abs(earn_actual - last_earn_act) > 0.0001)
+
+// PASO 2: acumular arrays (solo si es nuevo)
+if es_reporte_nuevo
+    last_earn_act := earn_actual
+    float sur_q = not na(earn_estimate) and earn_estimate != 0.0 ? (earn_actual - earn_estimate) / math.abs(earn_estimate) * 100.0 : na
+    float price_react = not na(close) and not na(close[1]) and close[1] != 0 ? (close - close[1]) / close[1] * 100.0 : na
+    array.unshift(earn_act_hist,   earn_actual)
+    array.unshift(earn_est_hist,   earn_estimate)
+    array.unshift(earn_sur_hist,   sur_q)
+    array.unshift(price_react_hist, price_react)
+    if array.size(earn_act_hist) > 32
+        array.pop(earn_act_hist)
+        array.pop(earn_est_hist)
+        array.pop(earn_sur_hist)
+        array.pop(price_react_hist)
+
+// PASO 3: contadores (mismo guard, separado)
+if es_reporte_nuevo and not na(earn_estimate)
+    if earn_actual > earn_estimate
+        eps_hits_total += 1
+    eps_total_reports += 1
+    float cur_sur = array.size(earn_sur_hist) > 0 ? array.get(earn_sur_hist, 0) : na
+    if not na(cur_sur)
+        eps_avg_surprise := ((eps_avg_surprise * (eps_total_reports - 1)) + cur_sur) / eps_total_reports
+    float cur_react = array.size(price_react_hist) > 0 ? array.get(price_react_hist, 0) : na
+    if not na(cur_react)
+        eps_volatility_avg := ((eps_volatility_avg * eps_volatility_samples) + math.abs(cur_react)) / (eps_volatility_samples + 1)
+        eps_volatility_samples += 1
+
+float future_eps_est = request.earnings(syminfo.tickerid, earnings.estimate, ignore_invalid_symbol=true)
+if not na(future_eps_est) and (na(next_eps_estimate) or math.abs(future_eps_est - next_eps_estimate) > 0.0001)
+    next_eps_estimate := future_eps_est
+
+if not na(earn_actual) and (na(last_earn_act) or math.abs(earn_actual - last_earn_act) > 0.0001)
+    last_earnings_bar := bar_index
+
+int bars_since_last = not na(last_earnings_bar) ? bar_index - last_earnings_bar : na
+int bars_to_next    = not na(bars_since_last) ? math.max(0, 65 - bars_since_last) : na
+next_earnings_date := not na(bars_to_next) and bars_to_next == 0 ? "Esta semana" : not na(bars_to_next) ? "~" + str.tostring(bars_to_next) + " días háb." : "S/D"
+
+float eps_fq   = earn_actual
+float eps_fq_1 = array.size(earn_act_hist) > 1 ? array.get(earn_act_hist, 1) : na
+float eps_fq_4 = array.size(earn_act_hist) > 4 ? array.get(earn_act_hist, 4) : na
+
+// ══════════════════════════════════════════════════════════════
+// VARIACIONES PERÍODO A PERÍODO
+// ══════════════════════════════════════════════════════════════
+f_prev_1(metric) => ta.valuewhen(ta.change(metric) != 0, metric[1], 0)
+f_prev_4(metric) => ta.valuewhen(ta.change(metric) != 0, metric[1], 3)
+
+float raw_rev    = request.financial(syminfo.tickerid, "TOTAL_REVENUE", "TTM", ignore_invalid_symbol=true)
+float raw_ebitda = ebitda
+float raw_debt   = request.financial(syminfo.tickerid, "TOTAL_DEBT",    "FQ",  ignore_invalid_symbol=true)
+float raw_eq     = request.financial(syminfo.tickerid, "TOTAL_EQUITY",  "FQ",  ignore_invalid_symbol=true)
+
+float rev_ttm_0 = raw_rev
+float rev_ttm_1 = f_prev_1(raw_rev)
+float rev_ttm_4 = f_prev_4(raw_rev)
+float ebitda_t0 = raw_ebitda
+float ebitda_t1 = f_prev_1(raw_ebitda)
+float ebitda_t4 = f_prev_4(raw_ebitda)
+float fcf_ttm_0 = fcf_ttm_real
+float fcf_ttm_1 = f_prev_1(nz(fcf_ttm_real))
+float fcf_ttm_4 = f_prev_4(nz(fcf_ttm_real))
+float debt_fq_0 = raw_debt
+float debt_fq_1 = f_prev_1(raw_debt)
+float debt_fq_4 = f_prev_4(raw_debt)
+float eq_fq_0   = raw_eq
+float eq_fq_4   = f_prev_4(raw_eq)
+
+f_var(curr, prev) => na(curr) or na(prev) or prev == 0 ? na : math.max(-1000.0, math.min(1000.0, (curr - prev) / math.abs(prev) * 100.0))
+f_varfmt(v) => na(v) ? "N/A" : ((v >= 0 ? "+" : "") + str.tostring(v, "#.#") + "%")
+f_varcol(v) => na(v) ? C_TEXT : (v > 0 ? C_UP : (v < 0 ? C_DOWN : C_TEXT))
+
+float var_eps_qoq    = f_var(eps_fq,    eps_fq_1)
+float var_eps_yoy    = f_var(eps_fq,    eps_fq_4)
+float var_rev_qoq    = f_var(rev_ttm_0, rev_ttm_1)
+float var_rev_yoy    = f_var(rev_ttm_0, rev_ttm_4)
+float var_fcf_qoq    = f_var(fcf_ttm_0, fcf_ttm_1)
+float var_fcf_yoy    = f_var(fcf_ttm_0, fcf_ttm_4)
+float var_ebitda_qoq = f_var(ebitda_t0, ebitda_t1)
+float var_ebitda_yoy = f_var(ebitda_t0, ebitda_t4)
+float var_debt_qoq   = f_var(debt_fq_0, debt_fq_1)
+float var_debt_yoy   = f_var(debt_fq_0, debt_fq_4)
+float var_eq_yoy     = f_var(eq_fq_0,   eq_fq_4)
+float var_op_cf_qoq  = f_var(op_cf, request.financial(syminfo.tickerid, "CASH_F_OPERATING_ACTIVITIES","TTM",ignore_invalid_symbol=true)[1])
+float var_op_cf_yoy  = f_var(op_cf, request.financial(syminfo.tickerid, "CASH_F_OPERATING_ACTIVITIES","TTM",ignore_invalid_symbol=true)[4])
+
+// Actualizar flag deuda para FCF
+debt_no_acelera := not na(var_debt_yoy) and var_debt_yoy < 20.0
+
+// ══════════════════════════════════════════════════════════════
+// PRECIO AJUSTADO PARA MÚLTIPLOS
+// ══════════════════════════════════════════════════════════════
+float price_adj = hay_mismatch_moneda ? precio_comparable : (is_adr_arg ? close / adr_ratio_auto : close)
+
+// ══════════════════════════════════════════════════════════════
+// MÚLTIPLOS DE VALUACIÓN
+// ══════════════════════════════════════════════════════════════
+float eps_para_pe = not na(eps_normalizado) ? eps_normalizado : eps_raw_tv
+
+float shares_calc  = not na(net_income) and not na(eps_para_pe) and eps_para_pe != 0 ? net_income / eps_para_pe : na
+float fcf_ps_real  = not na(fcf_ttm_real) and not na(shares_calc) and shares_calc > 0 ? fcf_ttm_real / shares_calc : na
+float div_per_share = not na(div_yield) and not na(close) and close > 0 ? (div_yield / 100.0) * close : na
+float payout_ratio  = not na(div_per_share) and not na(eps_para_pe) and eps_para_pe > 0 ? (div_per_share / eps_para_pe) * 100.0 : na
+
+float pe      = not na(eps_para_pe) and eps_para_pe > 0 ? price_adj / eps_para_pe : na
+float pb      = not na(bvps)    and bvps    > 0 ? price_adj / bvps    : na
+float p_fcf   = not na(fcf_ps_real) and fcf_ps_real > 0 ? price_adj / fcf_ps_real : na
+float fcf_yld = price_adj > 0 and not na(fcf_ps_real) and fcf_ps_real > 0 ? (fcf_ps_real / price_adj) * 100.0 : na
+
+bool pb_ok   = not na(pb)    and pb    > 0 and pb    < 200
+bool pfcf_ok = not na(p_fcf) and p_fcf > 0 and p_fcf < 500
+bool fcfy_ok = not na(fcf_yld) and math.abs(fcf_yld) < 100
+bool pe_escala_ok      = not na(pe) and pe > 2.0  and pe < 60.0
+bool pe_ratio_plausible = not na(pe) and pe > 1.5  and pe < 150.0
+bool pe_ok    = not na(pe)    and pe > 0 and pe < 1000 and pe_escala_ok
+
+// EV/EBITDA manual
+float cash_direct   = request.financial(syminfo.tickerid, "CASH_N_SHORT_TERM_INVESTMENTS", "FQ", ignore_invalid_symbol=true)
+float caja_proxy = not na(cash_direct) ? cash_direct : (not na(cur_assets) ? cur_assets * caja_pct_auto : na)
+float mktcap_proxy  = not na(price_adj) and not na(shares_calc) ? price_adj * shares_calc : na
+float ev_manual     = not na(mktcap_proxy) and not na(tot_debt) and not na(caja_proxy) ? mktcap_proxy + tot_debt - caja_proxy : na
+float ev_ebitda_manual = not na(ev_manual) and not na(ebitda_t0) and ebitda_t0 > 0 ? ev_manual / ebitda_t0 : na
+float ev_ebitda_use = not na(ev_ebitda_manual) ? ev_ebitda_manual : ev_ebitda
+bool  ev_ebitda_neg = not na(ev_ebitda_use) and ev_ebitda_use < 0
+bool  ev_ebitda_discrepancia = not na(ev_ebitda) and not na(ev_ebitda_manual) and ev_ebitda_manual > 0 and math.abs(ev_ebitda - ev_ebitda_manual) / ev_ebitda_manual > 0.30
+
+// Deuda neta
+float deuda_neta_proxy  = not na(tot_debt) and not na(caja_proxy) ? tot_debt - caja_proxy : na
+float dn_ebitda_denom   = not na(ebitda) and ebitda > 0 ? ebitda : na
+float dn_ebitda         = not na(deuda_neta_proxy) and not na(dn_ebitda_denom) and dn_ebitda_denom > 0 ? deuda_neta_proxy / dn_ebitda_denom : na
+
+// Deuda/EBITDA ajustado
+float debt_ebitda_adj = not na(tot_debt) and not na(ebitda) and ebitda > 0 ? tot_debt / ebitda : na
+
+// ══════════════════════════════════════════════════════════════
+// RATIOS FINANCIEROS
+// ══════════════════════════════════════════════════════════════
+float prueba_ac = not na(cur_liab) and cur_liab > 0 ? (cur_assets - nz(tot_inv)) / cur_liab : na
+float tot_liab  = not na(tot_assets) and not na(tot_equity) ? tot_assets - tot_equity : na
+float solvencia = not na(tot_liab) and tot_liab > 0 ? tot_assets / tot_liab : na
+
+// ROE / ROA
+float roe_raw = not na(net_income) and not na(tot_equity) and tot_equity > 0 ? net_income / tot_equity : na
+float roa_raw = not na(net_income) and not na(tot_assets) and tot_assets > 0 ? net_income / tot_assets : na
+float roe_n   = f_norm(roe_raw)
+float roa_n   = f_norm(roa_raw)
+bool roe_ok   = not na(roe_n) and roe_n > -2.0  and roe_n < 2.0
+bool roa_ok   = not na(roa_n) and roa_n > -0.50 and roa_n < 0.50
+
+// Márgenes finales
+float gross_mar_use = not na(gross_mar_tv) and gm_consistente ? gross_mar_tv : (not na(mar_bruto_mn) and math.abs(mar_bruto_mn) < 1.05 ? mar_bruto_mn : na)
+float net_mar_use = not na(net_mar_tv) and nm_consistente ? net_mar_tv : (not na(mar_neto_mn) and math.abs(mar_neto_mn) < 0.80 ? mar_neto_mn : na)
+float ebitda_mar_use = ebitda_nivel_final <= 2 ? (not na(ebitda_mar_tv) and eb_consistente ? ebitda_mar_tv : (not na(mar_ebitda_mn) ? mar_ebitda_mn : na)) : (not na(ebitda) and not na(tot_revenue) and tot_revenue > 0 ? ebitda / tot_revenue : na)
+
+// NOPAT / ROIC / WACC
+float ebit_para_nopat = not na(ebit) ? ebit : (not na(ebitda) and not na(da) ? ebitda - da : na)
+float tax_rate_use    = is_arg_energy_expansion ? 0.35 : (is_financial ? 0.30 : 0.25)
+float nopat = not na(ebit_para_nopat) ? ebit_para_nopat * (1.0 - tax_rate_use) : (not na(net_income) ? net_income : na)
+float cap_inv = nz(tot_equity) + nz(tot_debt)
+float roic    = cap_inv > 0 and not na(nopat) ? nopat / cap_inv : na
+
+float debt_ratio   = not na(tot_debt) and not na(tot_equity) and (tot_debt + tot_equity) > 0 ? tot_debt / (tot_debt + tot_equity) : 0.3
+float equity_ratio = 1.0 - debt_ratio
+
+// Beta rolling 252 barras vs SPY
+float spy_close = request.security("SPY", timeframe.period, close, ignore_invalid_symbol=true)
+float beta_cov_acc = 0.0, beta_ret_acc = 0.0
+float beta_mkt_acc = 0.0, beta_mkt2_acc = 0.0
+int   beta_n_pts   = 0
+for i = 0 to 251
+    float c_i  = close[i]
+    float c_i1 = close[i+1]
+    float s_i  = spy_close[i]
+    float s_i1 = spy_close[i+1]
+    if not na(c_i) and not na(c_i1) and c_i1 != 0 and not na(s_i) and not na(s_i1) and s_i1 != 0
+        float r_s = (c_i - c_i1) / c_i1
+        float r_m = (s_i - s_i1) / s_i1
+        beta_cov_acc  += r_s * r_m
+        beta_ret_acc  += r_s
+        beta_mkt_acc  += r_m
+        beta_mkt2_acc += r_m * r_m
+        beta_n_pts    += 1
+
+float beta_cov     = beta_n_pts > 0 ? (beta_cov_acc / beta_n_pts)  - (beta_ret_acc / beta_n_pts) * (beta_mkt_acc / beta_n_pts) : 0.0
+float beta_var     = beta_n_pts > 0 ? (beta_mkt2_acc / beta_n_pts) - (beta_mkt_acc / beta_n_pts) * (beta_mkt_acc / beta_n_pts) : 0.0
+var float beta_rolling = beta_n_pts > 60 and beta_var > 0 ? beta_cov / beta_var : (is_arg_energy_expansion ? 1.2 : 1.0)
+beta_rolling := math.max(0.3, math.min(3.0, beta_rolling))
+
+float us10y      = request.security("US10Y", "D", close, ignore_invalid_symbol=true) / 100.0
+float us10y_rate = not na(us10y) ? us10y : 0.045
+float erp_auto   = 0.055
+
+float kd_base    = is_arg_energy_expansion ? 0.085 : (is_financial ? 0.055 : 0.065)
+float kd_spread = not na(debt_ebitda) and debt_ebitda > 4.0 ? 0.02 : (not na(debt_ebitda) and debt_ebitda > 2.5 ? 0.01 : 0.0)
+float kd_auto    = (kd_base + kd_spread) * (1.0 - tax_rate_use)
+float ke_auto    = us10y_rate + beta_rolling * erp_auto + sovereign_spread
+float wacc_calc  = (equity_ratio * ke_auto) + (debt_ratio * kd_auto)
+
+float spread_eva = not na(roic) and not na(wacc_calc) ? (roic * 100.0) - (wacc_calc * 100.0) : na
+
+// ══════════════════════════════════════════════════════════════
+// CÁLCULO RECORRIDO NORMALIZADO 0–100
+// ══════════════════════════════════════════════════════════════
+
+// Precio de referencia para recorrido: siempre en USD
+float high_ref = hay_mismatch_moneda and not na(tcn_proxy) and tcn_proxy > 0 ? high / tcn_proxy : high
+float low_ref  = hay_mismatch_moneda and not na(tcn_proxy) and tcn_proxy > 0 ? low  / tcn_proxy : low
+float close_ref = hay_mismatch_moneda and not na(tcn_proxy) and tcn_proxy > 0 ? close / tcn_proxy : close
+
+// Ventana corta
+float hist_max_cp  = ta.highest(high_ref,  lookback_hist_auto)
+float hist_min_cp  = ta.lowest (low_ref,   lookback_hist_auto)
+float hist_range_cp = hist_max_cp - hist_min_cp
+
+// Ventana larga
+float hist_max_lp  = ta.highest(high_ref,  1040)
+float hist_min_lp  = ta.lowest (low_ref,   1040)
+float hist_range_lp = hist_max_lp - hist_min_lp
+
+// Ventana máxima disponible
+int lookback_max = 5000
+float hist_max_abs = ta.highest(high_ref,  lookback_max)
+float hist_min_abs = ta.lowest (low_ref,   lookback_max)
+float hist_range_abs = hist_max_abs - hist_min_abs
+
+// Recorrido normalizado 0-100 en cada ventana
+float recorrido_cp  = hist_range_cp  > 0 ? ((close_ref - hist_min_cp)  / hist_range_cp)  * 100.0 : na
+float recorrido_lp  = hist_range_lp  > 0 ? ((close_ref - hist_min_lp)  / hist_range_lp)  * 100.0 : na
+float recorrido_abs = hist_range_abs > 0 ? ((close_ref - hist_min_abs) / hist_range_abs) * 100.0 : na
+
+// Recorrido principal
+float recorrido_pct = recorrido_cp
+
+// Zona según recorrido corto
+string rec_zona = na(recorrido_pct) ? "N/A" : (recorrido_pct >= 85 ? "TECHO" : (recorrido_pct >= 65 ? "ALTO" : (recorrido_pct >= 35 ? "MEDIO" : (recorrido_pct >= 15 ? "BAJO" : "SUELO"))))
+color rec_color = na(recorrido_pct) ? C_TEXT : (recorrido_pct >= 85 ? C_DOWN : (recorrido_pct >= 65 ? C_WARN : (recorrido_pct >= 35 ? C_HOLD : C_UP)))
+
+float dist_al_max  = hist_range_cp > 0 ? ((hist_max_cp - close_ref) / close_ref)  * 100.0 : na
+float dist_del_min = hist_range_cp > 0 ? ((close_ref - hist_min_cp) / hist_min_cp) * 100.0 : na
+
+// Advertencia de distorsión
+string rec_advertencia = hay_mismatch_moneda ? "⚠TCN actual" : ""
+
+// ══════════════════════════════════════════════════════════════
+// PERCENTIL PER HISTÓRICO
+// ══════════════════════════════════════════════════════════════
+if pe_ok
+    array.push(pe_hist, pe)
+    if array.size(pe_hist) > 520
+        array.shift(pe_hist)
+
+// ══════════════════════════════════════════════════════════════
+// CORRELACIÓN EPS vs PRECIO
+// ══════════════════════════════════════════════════════════════
+var float pearson_r = na
+int n_corr_points = array.size(earn_sur_hist)
+if n_corr_points >= 4
+    float cx  = 0.0
+    float cy  = 0.0
+    float cxy = 0.0
+    float cx2 = 0.0
+    float cy2 = 0.0
+    for i = 0 to n_corr_points - 1
+        float x = array.get(earn_sur_hist,   i)
+        float y = array.get(price_react_hist, i)
+        if not na(x) and not na(y)
+            cx  += x
+            cy  += y
+            cxy += x * y
+            cx2 += x * x
+            cy2 += y * y
+    float n   = n_corr_points
+    float num = (n * cxy) - (cx * cy)
+    float den = math.sqrt(((n * cx2) - (cx * cx)) * ((n * cy2) - (cy * cy)))
+    float pr  = den != 0 ? num / den : na
+    pearson_r := not na(pr) ? math.max(-1.0, math.min(1.0, pr)) : na
+
+float r_squared   = not na(pearson_r) ? math.max(0.0, math.min(1.0, pearson_r * pearson_r)) : na
+bool  corr_valida = n_corr_points >= 8
+bool  corr_positiva = not na(pearson_r) and pearson_r > 0
+bool  r2_insuf    = na(r_squared) or r_squared < 0.05
+
+string corr_label = not corr_valida ? "n insuf (" + str.tostring(n_corr_points) + ")" : na(r_squared) ? "N/A" : (r_squared >= 0.70 ? "Alta" : (r_squared >= 0.40 ? "Moderada" : (r_squared >= 0.15 ? "Baja" : "Sin corr")))
+color corr_color = not corr_valida ? C_NA : na(r_squared) ? C_TEXT : (r_squared >= 0.70 ? C_UP : (r_squared >= 0.40 ? C_GOLD : (r_squared >= 0.15 ? C_WARN : C_DOWN)))
+
+bool precio_vs_eps_ok = corr_valida and not na(r_squared) and r_squared >= 0.40 and corr_positiva
+
+// ══════════════════════════════════════════════════════════════
+// CAPA 1 — CONTADOR RIESGOS ESTRUCTURALES
+// ══════════════════════════════════════════════════════════════
+bool signos_ok = not na(tot_revenue) and not na(gross_profit) ? (tot_revenue > 0 and gross_profit <= tot_revenue * 1.05) : true
+bool datos_ok_strict = roe_ok and roa_ok and signos_ok and eb_tv_ok and gm_tv_ok
+
+int capa1_riesgo = 0
+float debt_ebitda_for_riesgo = not na(debt_ebitda_adj) ? debt_ebitda_adj : (not na(debt_ebitda) ? debt_ebitda : na)
+capa1_riesgo := (not is_financial) and (na(current_r) or current_r < 1.0) ? capa1_riesgo + 1 : capa1_riesgo
+capa1_riesgo := (not is_financial) and (na(solvencia) or solvencia < 1.5)  ? capa1_riesgo + 1 : capa1_riesgo
+capa1_riesgo := not is_financial and not fcf_pos and not op_cf_pos and not fcf_neg_valido ? capa1_riesgo + 1 : capa1_riesgo
+capa1_riesgo := not is_financial and not na(debt_ebitda_for_riesgo) and debt_ebitda_for_riesgo > 4.0 ? capa1_riesgo + 1 : capa1_riesgo
+capa1_riesgo := not is_financial and not na(spread_eva) and spread_eva <= 0.0 ? capa1_riesgo + 1 : capa1_riesgo
+if (sector_regulado_auto or is_arg_energy_expansion) and not is_financial
+    capa1_riesgo := capa1_riesgo > 0 ? capa1_riesgo - 1 : capa1_riesgo
+bool capa1_falla = capa1_riesgo >= 3
+
+// ══════════════════════════════════════════════════════════════
+// DIAGNÓSTICO DE TENSIONES
+// ══════════════════════════════════════════════════════════════
+bool tension_eps_fcf     = not is_financial and not na(var_eps_yoy) and not na(var_fcf_yoy) and var_eps_yoy > 0.10 and var_fcf_yoy < -0.10
+bool tension_deuda_fcf   = not is_financial and not na(var_debt_yoy) and not na(var_fcf_yoy) and var_debt_yoy > 0.05 and var_fcf_yoy < -0.10
+bool tension_pfcf_per    = not is_financial and not na(p_fcf) and not na(pe) and p_fcf > 25.0 and pe < 10.0
+bool tension_capex_fcf   = not is_financial and not fcf_pos and op_cf_pos and capex_alto
+bool tension_payout_fcf  = not is_financial and not fcf_pos and not na(payout_ratio) and payout_ratio > 50.0
+
+// ══════════════════════════════════════════════════════════════
+// CONFIANZA AUTOMÁTICA DE DATOS
+// ══════════════════════════════════════════════════════════════
+float confianza_score = 100.0
+if not eb_consistente
+    confianza_score := confianza_score - 20.0
+if not gm_consistente
+    confianza_score := confianza_score - 20.0
+if not nm_consistente
+    confianza_score := confianza_score - 15.0
+if not roe_ok
+    confianza_score := confianza_score - 15.0
+if not roa_ok
+    confianza_score := confianza_score - 10.0
+if not signos_ok
+    confianza_score := confianza_score - 20.0
+if hay_mismatch_moneda
+    confianza_score := confianza_score - 10.0
+if ebitda_nivel_final >= 3
+    confianza_score := confianza_score - 10.0
+if ebitda_nivel_final == 4
+    confianza_score := confianza_score - 15.0
+if eps_moneda == "ambig" or eps_moneda == "indet"
+    confianza_score := confianza_score - 10.0
+
+string confianza_txt = confianza_score >= 80.0 ? "Alta (" + str.tostring(confianza_score, "#.") + "%)" : confianza_score >= 50.0 ? "Media ("  + str.tostring(confianza_score, "#.") + "%)" : "Baja ("   + str.tostring(confianza_score, "#.") + "%) ⚠"
+color confianza_col = confianza_score >= 80.0 ? C_UP : (confianza_score >= 50.0 ? C_GOLD : C_WARN)
+
+// ══════════════════════════════════════════════════════════════
+// CAGR FCF REAL EN USD
+// ══════════════════════════════════════════════════════════════
+float tcn_ratio_3y = not na(tcn_proxy) and not na(tcn_proxy_prev36) and tcn_proxy_prev36 > 0 ? tcn_proxy_prev36 / tcn_proxy : 1.0
+float cagr_fcf = not na(fcf_fy_real_cur) and not na(fcf_fy_real_3) and fcf_fy_real_3 > 0 ? math.pow((fcf_fy_real_cur / fcf_fy_real_3) * tcn_ratio_3y, 1.0/3.0) - 1.0 : na
+string cagr_fcf_text  = na(cagr_fcf) ? "N/A" : str.tostring(cagr_fcf * 100, "#.#") + "% (USD real)"
+color  cagr_fcf_color = na(cagr_fcf) ? C_TEXT : (cagr_fcf > 0.05 ? C_UP : (cagr_fcf > 0.0 ? C_GOLD : C_DOWN))
+
+// ══════════════════════════════════════════════════════════════
+// CONDICIONES VEREDICTO
+// ══════════════════════════════════════════════════════════════
+bool b_liq   = is_financial or (not na(current_r)   and current_r   > liq_min_auto)
+bool b_solv  = is_financial or (not na(solvencia)   and solvencia   > 1.5)
+bool b_debeb = is_financial or (not na(debt_ebitda_for_riesgo) and debt_ebitda_for_riesgo < deuda_eb_max_auto)
+bool b_acida = is_financial or (not na(prueba_ac)   and prueba_ac   > 0.8)
+bool b_eva   = is_financial or (not na(spread_eva)  and spread_eva  > 0.0)
+bool b_roe = precio_en_ars or is_arg_energy_expansion ? true : (datos_ok_strict and not na(roe_n) and roe_n > 0.10)
+bool b_roa = precio_en_ars or is_arg_energy_expansion ? true : (datos_ok_strict and not na(roa_n) and roa_n > 0.05)
+bool b_lev   = not na(debt_eq)     and debt_eq     < 0.8
+bool b_gmar  = not na(gross_mar_use) and gross_mar_use > 0.25
+bool b_nmar  = not na(net_mar_use)   and net_mar_use   > 0.05
+bool b_ebmar = not na(ebitda_mar_use) and ebitda_mar_use > 0.15
+bool b_fcf   = fcf_pos or fcf_neg_valido
+bool b_opcf  = op_cf_pos
+bool b_cagr  = not na(cagr_fcf) and cagr_fcf > 0.05
+bool b_eveb  = not na(ev_ebitda_use) and ev_ebitda_use < 10.0
+bool b_pb    = pb_ok and pb < 1.5
+bool b_pb_g  = pb_ok and pb < 1.0
+bool b_pfcf  = not is_arg_energy_expansion and pfcf_ok and p_fcf < 15.0
+bool b_fcfy  = not is_arg_energy_expansion and fcfy_ok and fcf_yld > 5.0
+
+// ══════════════════════════════════════════════════════════════
+// TABLA
+// ══════════════════════════════════════════════════════════════
+var table T = table.new(position.top_right, 12, 20, border_width=1, border_color=color.new(color.gray, 80), frame_width=1, frame_color=color.new(color.gray, 60))
+
+f_trend(qoq, yoy) => na(qoq) or na(yoy) ? "—" : qoq > 0 and yoy > 0 and qoq > yoy ? "↑↑Accel" : qoq > 0 and yoy > 0 ? "↑Crece" : qoq > 0 and yoy <= 0 ? "↑Recup" : qoq <= 0 and yoy > 0 ? "↓Desac" : qoq <= 0 and yoy <= 0 and qoq < yoy ? "↓↓Det" : "↓Contra"
+
+rev_fmt(v)    => na(v) ? "N/A" : str.tostring(v / 1e9, "#.##") + "B"
+ebitda_fmt(v) => na(v) ? "N/A" : str.tostring(v / 1e9, "#.##") + "B"
+fcf_fmt(v)    => na(v) ? "N/A" : str.tostring(v / 1e9, "#.##") + "B"
+
+if barstate.islast
+    // ── Percentil PER ──────────────────────────────────────────
+    var float pc   = 0.0
+    var bool b_per = false
+    int sz = array.size(pe_hist)
+    if sz > 0 and pe_ok
+        int cnt = 0
+        for i = 0 to sz - 1
+            if array.get(pe_hist, i) < pe
+                cnt += 1
+        pc    := (cnt * 100.0) / sz
+        b_per := pc <= 40
+    bool b_val = b_per or b_pb or b_pfcf or b_fcfy or b_eveb
+
+    // ── Score CNV ──────────────────────────────────────────────
+    var int score_cnv = 0
+    if b_liq
+        score_cnv := score_cnv + 1
+    if b_solv
+        score_cnv := score_cnv + 1
+    if b_debeb
+        score_cnv := score_cnv + 1
+    if b_eva
+        score_cnv := score_cnv + 1
+    if b_fcf or fcf_neg_valido
+        score_cnv := score_cnv + 1
+    bool eva_negativo = not na(spread_eva) and spread_eva <= 0.0
+    int score_cnv_efectivo = eva_negativo ? math.min(score_cnv, 3) : score_cnv
+    string score_cnv_txt = "CNV " + str.tostring(score_cnv_efectivo) + "/5" + (eva_negativo ? "⚠EVA-" : "")
+    color score_cnv_col = score_cnv_efectivo >= 4 ? C_UP : (score_cnv_efectivo >= 3 ? C_GOLD : (score_cnv_efectivo >= 2 ? C_WARN : C_DOWN))
+    string perfil_cnv = score_cnv_efectivo >= 4 ? "Apto conservador" : (score_cnv_efectivo >= 3 ? "Apto moderado" : (score_cnv_efectivo >= 2 ? "Solo agresivo" : "No apto"))
+
+    // ── Veredicto ──────────────────────────────────────────────
+    var string vtext  = "— NEUTRAL / ESPERAR"
+    var color  vcol   = C_HOLD
+    var string vhoriz = ""
+
+    bool capa2_tension_critica = tension_eps_fcf and tension_deuda_fcf
+    bool capa2_fcf_ok   = is_financial ? true : (b_fcf or b_opcf)
+    bool capa3_val_ok   = b_val
+    bool capa4_rec_alto = not na(recorrido_pct) and recorrido_pct >= 85
+    bool capa4_rec_bajo = not na(recorrido_pct) and recorrido_pct <= 15
+    bool es_trampa_corr = b_val and not precio_vs_eps_ok and not na(recorrido_pct) and recorrido_pct >= 75
+
+    // RIGI
+    bool pam_rigi_crecimiento = is_pam and op_cf_pos and capex_alto and (not na(var_rev_yoy) and var_rev_yoy > 10.0 or not na(var_ebitda_yoy) and var_ebitda_yoy > 10.0)
+
+    // Capa 0: CEDEARs
+    if es_cedear
+        vtext  := "◎ CEDEAR"
+        vcol   := C_INFO
+        vhoriz := "Ratio CEDEAR — ver subyacente"
+    // Capa 0b: Mismatch moneda sin resolver
+    else if hay_mismatch_moneda and eps_moneda == "indet"
+        vtext  := "⚠ MON.INDET"
+        vcol   := C_WARN
+        vhoriz := "EPS moneda no determinada"
+    // Capa 0c: Moneda ARS pura (reporta en ARS)
+    else if reporta_en_ars
+        vtext  := "⚠ MONEDA LOCAL"
+        vcol   := C_WARN
+        vhoriz := "Convertir financials a USD"
+    // Capa 1: Riesgo estructural
+    else if capa1_falla
+        vtext  := "✗ RIESGO " + str.tostring(capa1_riesgo)
+        vcol   := C_DOWN
+        vhoriz := "Corto: salir"
+    // Capa 2a: Tensión EPS vs FCF
+    else if capa2_tension_critica
+        vtext  := "⚠ TRAMPA E/F"
+        vcol   := C_TRAP
+        vhoriz := "Esperar EPS"
+    // Capa 2b: Trampa valuación
+    else if tension_pfcf_per
+        vtext  := "⚠ TRAMPA VAL"
+        vcol   := C_TRAP
+        vhoriz := "Med: validar"
+    // Capa 2c: Trampa correlación
+    else if es_trampa_corr
+        vtext  := "⚠ TRAMPA R²"
+        vcol   := C_TRAP
+        vhoriz := "Corto: evitar"
+    // Capa 3a: RIGI expansión PAM
+    else if pam_rigi_crecimiento
+        vtext  := "▲ RIGI EXPANSIÓN"
+        vcol   := C_UP
+        vhoriz := "Med-L: ciclo inversor RIGI"
+    // Capa 3b: Ciclo inversor ARG energy
+    else if is_arg_energy_expansion and (fcf_pos or fcf_neg_valido) and op_cf_pos and capa1_riesgo < 3
+        vtext  := fcf_pos ? "▲ CRECIMIENTO" : "▲ EXPANSIÓN"
+        vcol   := C_UP
+        vhoriz := "Med-L: ciclo inversor"
+    // Capa 4: Sin caja
+    else if not capa2_fcf_ok and not is_financial
+        vtext  := tension_capex_fcf ? "◎ FCF-CAPEX" : "⚠ SIN CAJA"
+        vcol   := tension_capex_fcf ? C_INFO : C_TRAP
+        vhoriz := tension_capex_fcf ? "Med: post-Q" : "Esperar FCF"
+    // Capa 5a: Óptima con todo alineado
+    else if capa3_val_ok and b_eva and precio_vs_eps_ok and fcf_pos
+        vtext  := b_pb_g ? "★ ÓPTIMA (G)" : "▲ ÓPTIMA"
+        vcol   := C_UP
+        vhoriz := capa4_rec_bajo ? "Largo: asim" : (capa4_rec_alto ? "Med: reduc" : "Med-L: OK")
+    // Capa 5b: Especulativa
+    else if capa3_val_ok and not b_eva and fcf_pos
+        vtext  := "△ ESPEC"
+        vcol   := C_UP
+        vhoriz := "Med: revisar EVA"
+    // Capa 5c: Mantener
+    else if not capa3_val_ok and b_eva and capa2_fcf_ok and fcf_pos
+        vtext  := "◈ MANTENER"
+        vcol   := color.teal
+        vhoriz := "Largo: acum"
+    // Capa 5d: R² débil
+    else if not precio_vs_eps_ok and capa3_val_ok and capa2_fcf_ok and fcf_pos
+        vtext  := "△ R² DÉBIL"
+        vcol   := C_UP
+        vhoriz := "Med: macro"
+
+    // DDJJ si aplica
+    bool requiere_ddjj = capa1_riesgo >= 3 or (not na(recorrido_pct) and recorrido_pct >= 85 and not b_eva)
+    if requiere_ddjj and not str.contains(vtext, "DDJJ")
+        vtext := vtext + " ⚠DDJJ"
+
+    // ══════════════════════════════════════════════════════════
+    // RENDER TABLA
+    // ══════════════════════════════════════════════════════════
+
+    // ── Fila 0: Título ─────────────────────────────────────────
+    table.merge_cells(T, 0, 0, 5, 0)
+    table.cell(T, 0, 0, "DASHBOARD FUNDAMENTAL V13", text_color=C_WHITE, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    table.merge_cells(T, 6, 0, 11, 0)
+    table.cell(T, 6, 0, syminfo.ticker + " " + syminfo.currency, text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+
+    // ── Fila 1: Header dinámico con info de conversión ─────────
+    string w_txt = debug_mode ? "β=" + str.tostring(beta_rolling,"#.##") + " n=" + str.tostring(beta_n_pts) + " | Ke=" + str.tostring(ke_auto*100,"#.#") + "%" + " | Kd=" + str.tostring(kd_auto*100,"#.#") + "%" + " | WACC=" + str.tostring(wacc_calc*100,"#.#") + "%" : (datos_ok_strict ? "✔ Datos OK" : (not eb_tv_ok    ? "⚠ EBITDA/Rev>100%" : (not gm_tv_ok    ? "⚠ M.Bruto>105%" : (not eb_consistente ? "⚠ EBITDA TV≠calc" : (not gm_consistente ? "⚠ M.Bruto TV≠calc" : "⚠ ROE/ROA raro")))))
+
+    color w_col = datos_ok_strict ? color.teal : C_WARN
+    table.merge_cells(T, 0, 1, 5, 1)
+    table.cell(T, 0, 1, w_txt, text_color=w_col, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+
+    string moneda_nota = hay_mismatch_moneda ? (syminfo.ticker + " ARS→USD | TCN≈" + str.tostring(tcn_proxy,"#") + " | PER/PB/PFCF en USD" + (eps_moneda != "native" ? " | EPS " + eps_moneda + eps_moneda_sufijo : "")) : es_cedear ? syminfo.ticker + " CEDEAR | ver subyacente" : (syminfo.ticker + " " + syminfo.currency + (is_adr_arg ? " | ADR " + str.tostring(adr_ratio_auto) + ":1" : "") + " | β=" + (not na(beta_rolling) ? str.tostring(beta_rolling,"#.##") : "N/A") + " | WACC=" + (not na(wacc_calc) ? str.tostring(wacc_calc*100,"#.#") + "%" : "N/A") + (is_arg_energy_expansion ? " | EB_adj=" + str.tostring(ajuste_ebitda_final,"#.##") + "x" : "") + (not na(dn_ebitda) ? " | DN/EB≈" + str.tostring(dn_ebitda,"#.##") + "x" : ""))
+
+    table.merge_cells(T, 6, 1, 11, 1)
+    table.cell(T, 6, 1, moneda_nota, text_color=hay_mismatch_moneda ? C_WARN : C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+
+    // ── Fila 2: MACRO ──────────────────────────────────────────
+    string inf_str  = na(inflacion_yoy) ? "N/D" : str.tostring(inflacion_yoy, "#.#") + "%"
+    string dev_str  = na(devaluacion_yoy) ? "N/D" : str.tostring(devaluacion_yoy, "#.#") + "%"
+    string dif_str  = na(diferencial_inf_dev) ? "N/D" : (diferencial_inf_dev > 0 ? "+" : "") + str.tostring(diferencial_inf_dev,"#.#") + "pp"
+    string inf_fwd  = not na(inflacion_forward) and inflacion_forward != inflacion_yoy ? " fwd:" + str.tostring(inflacion_forward,"#.#") + "%" : ""
+    color dif_col   = na(diferencial_inf_dev) ? C_TEXT : (costo_presionado ? C_DOWN : (margen_beneficiado ? C_UP : C_HOLD))
+    string macro_note = costo_presionado ? "⚠ Inf>Dev: costos caros" : (margen_beneficiado ? "✓ Dev>Inf: costos baratos" : "→ Inf-Dev ok")
+    if is_arg_energy_expansion
+        macro_note += costo_presionado ? " | Costos laborales ARS↑" : (margen_beneficiado ? " | Costos ARS baratos" : " | Dif.equilibrado")
+
+    table.cell(T, 0, 2, "▸ MACRO", text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    table.cell(T, 1, 2, inf_str + inf_fwd, text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 2, 2, dev_str, text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 3, 2, dif_str, text_color=dif_col, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.merge_cells(T, 4, 2, 7, 2)
+    table.cell(T, 4, 2, macro_note, text_color=dif_col, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    string embi_str = na(embi_raw) ? "N/D" : str.tostring(embi_raw,"#") + "bps"
+    string cap_str  = not na(sovereign_spread_cap) ? " cap=" + str.tostring(sovereign_spread_cap*100,"#.#") + "%" : ""
+    table.merge_cells(T, 8, 2, 11, 2)
+    table.cell(T, 8, 2, "EMBI=" + embi_str + cap_str, text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+
+    // ── Fila 3: Headers de sección ─────────────────────────────
+    table.cell(T, 0, 3, "▸ SALUD",  text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 1, 3, "Valor",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 2, 3, "OK?",      text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 3, 3, "Umbral",   text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 4, 3, "▸ RENTA",  text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 5, 3, "Valor",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 6, 3, "OK?",      text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 7, 3, "Fuente",   text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 8, 3, "▸ VALUA",  text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 9, 3, "Valor",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 10, 3, "OK?",     text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 11, 3, "Umbral",  text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+
+    // ── Fila 4: Liquidez / ROIC-WACC / PER ────────────────────
+    table.cell(T, 0, 4, "Liq", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 1, 4, na(current_r) ? "N/A" : str.tostring(current_r,"#.##"), text_color=b_liq ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 2, 4, b_liq ? "✔" : "✘", text_color=b_liq ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 3, 4, ">" + str.tostring(liq_min_auto,"#.#"), text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 4, 4, "ROIC-W", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 5, 4, na(spread_eva) ? "N/A" : str.tostring(spread_eva,"+#.##;-#.##") + "%", text_color=b_eva ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 6, 4, b_eva ? "EVA+" : "EVA-", text_color=b_eva ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 7, 4, "NOP/CI", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    // PER
+    string per_nota = hay_mismatch_moneda ? "USD/TCN" : (is_pam ? "⚠imp.dif" : "")
+    string per_v = not pe_ok ? (pe_ratio_plausible ? (pe_escala_ok ? "⚠moneda?" : "⚠EscalaEPS") : "⚠RatioADR?") : str.tostring(pe,"#.#") + "x" + (eps_moneda_sufijo != "" ? eps_moneda_sufijo : "")
+    string per_pct   = not pe_ok ? "N/A" : "p" + str.tostring(pc,"#") + "%"
+    string per_label = pc <= 25 ? "MB" : (pc <= 40 ? "Bar" : (pc <= 60 ? "Neut" : "Car"))
+    color  per_col   = pc <= 25 ? C_UP  : (pc <= 40 ? C_UP  : (pc <= 60 ? C_HOLD : C_DOWN))
+    table.cell(T, 8, 4, "PER" + (hay_mismatch_moneda ? "₀" : ""), text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 4, per_v, text_color=per_col, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 4, per_pct, text_color=per_col, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 11, 4, per_label + (per_nota != "" ? " " + per_nota : ""), text_color=per_col, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+
+    // ── Fila 5: Acidez / ROE / P/FCF ──────────────────────────
+    table.cell(T, 0, 5, "Acid", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 1, 5, na(prueba_ac) ? "N/A" : str.tostring(prueba_ac,"#.##"), text_color=b_acida ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 2, 5, b_acida ? "✔" : "✘", text_color=b_acida ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 3, 5, ">0.8", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    color  roe_c = precio_en_ars ? C_NA : (not datos_ok_strict ? C_WARN : b_roe ? C_UP : C_DOWN)
+    string roe_v = precio_en_ars ? "N/A(ARS)" : (not na(roe_n) ? str.tostring(roe_n*100,"#.#") + "%" : "N/A")
+    string roe_f = precio_en_ars ? "—" : (is_financial ? "✔" : (not datos_ok_strict ? "⚠" : b_roe ? "✔" : "✘"))
+    table.cell(T, 4, 5, "ROE", text_color=roe_c, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 5, 5, roe_v, text_color=roe_c, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 6, 5, roe_f, text_color=roe_c, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 7, 5, is_financial ? "banco" : (precio_en_ars ? "⚠ARS" : (datos_ok_strict ? ">10%" : "moneda?")), text_color=is_financial ? C_GOLD : (precio_en_ars ? C_WARN : (datos_ok_strict ? C_TEXT : C_WARN)), bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    string pfcf_v = is_financial ? "N/A(Fin)" : not pfcf_ok ? (na(p_fcf) ? "N/A" : "⚠moneda?") : str.tostring(p_fcf,"#.#") + "x"
+    string pfcf_f = is_financial ? "—" : not pfcf_ok ? "⚠" : (b_pfcf ? "Bar" : (p_fcf < 25 ? "Just" : "Car"))
+    color pfcf_c = is_financial ? C_NEUT : not pfcf_ok ? C_WARN : (b_pfcf ? C_UP : (p_fcf < 25 ? C_HOLD : C_DOWN))
+    table.cell(T, 8, 5, "PFCF",  text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 5, pfcf_v,  text_color=pfcf_c, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 5, pfcf_f, text_color=pfcf_c, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 11, 5, "<15x", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+
+    // ── Fila 6: Solvencia / ROA / P/Book ──────────────────────
+    table.cell(T, 0, 6, "Solv", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 1, 6, na(solvencia) ? "N/A" : str.tostring(solvencia,"#.##"), text_color=b_solv ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 2, 6, b_solv ? "✔" : "✘", text_color=b_solv ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 3, 6, ">1.5", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    color  roa_c = precio_en_ars ? C_NA : (not datos_ok_strict ? C_WARN : b_roa ? C_UP : C_DOWN)
+    string roa_v = precio_en_ars ? "N/A(ARS)" : (not na(roa_n) ? str.tostring(roa_n*100,"#.#") + "%" : "N/A")
+    string roa_f = precio_en_ars ? "—" : (is_financial ? "✔" : (not datos_ok_strict ? "⚠" : b_roa ? "✔" : "✘"))
+    table.cell(T, 4, 6, "ROA", text_color=roa_c, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 5, 6, roa_v, text_color=roa_c, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 6, 6, roa_f, text_color=roa_c, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 7, 6, is_financial ? "banco" : (precio_en_ars ? "⚠ARS" : (datos_ok_strict ? ">5%" : "moneda?")), text_color=is_financial ? C_GOLD : (precio_en_ars ? C_WARN : (datos_ok_strict ? C_TEXT : C_WARN)), bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    string pb_v = not pb_ok ? (na(pb) ? "N/A" : "⚠moneda?") : str.tostring(pb,"#.##") + "x"
+    string pb_f = not pb_ok ? "⚠" : (b_pb_g ? "Gr" : (b_pb ? "Val" : "Neut"))
+    color  pb_c = not pb_ok ? C_WARN : (b_pb ? C_UP : C_HOLD)
+    table.cell(T, 8, 6, "PB",    text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 6, pb_v,    text_color=pb_c,   bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 6, pb_f,   text_color=pb_c,   bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 11, 6, "<1.5x",text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+
+    // ── Fila 7: D/Eq / M.Bruto / EV/EBITDA ───────────────────
+    table.cell(T, 0, 7, "D/Eq", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 1, 7, precio_en_ars ? "⚠ARS" : (na(debt_eq) ? "N/A" : str.tostring(debt_eq,"#.##")), text_color=precio_en_ars ? C_WARN : (b_lev ? C_UP : C_DOWN), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 2, 7, precio_en_ars ? "—" : (b_lev ? "✔" : "✘"), text_color=precio_en_ars ? C_WARN : (b_lev ? C_UP : C_DOWN), bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 3, 7, precio_en_ars ? "⚠ARS" : "<0.8", text_color=precio_en_ars ? C_WARN : C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    bool   gm_using_manual = na(gross_mar_tv) and not na(mar_bruto_mn)
+    color  gm_c = na(gross_mar_use) ? C_WARN : ((not gm_using_manual and not gm_consistente) ? C_WARN : (b_gmar ? C_UP : C_DOWN))
+    string gm_v = na(gross_mar_use) ? "N/D⚠" : str.tostring(gross_mar_use*100,"#.#") + "%"
+    string gm_f = na(gross_mar_use) ? "⚠" : not gm_consistente ? "~" : b_gmar ? "✔" : "✘"
+    string gm_src = gm_tv_ok and gm_consistente ? "TV" : gm_m_ok ? "calc" : "N/D"
+    table.cell(T, 4, 7, "M.Brut", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 5, 7, gm_v,     text_color=gm_c,   bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 6, 7, gm_f,     text_color=gm_c,   bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 7, 7, gm_src,   text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    string eveb_v = is_financial ? "N/A(Fin)" : ev_ebitda_neg ? "N/V (neg)" : na(ev_ebitda_use) ? "N/A" : (ev_ebitda_discrepancia ? "~" + str.tostring(ev_ebitda_use,"#.#") + "x⚠" : str.tostring(ev_ebitda_use,"#.#") + "x")
+    string eveb_f = is_financial ? "—" : ev_ebitda_neg ? "N/V" : (b_eveb ? "Bar" : (not na(ev_ebitda_use) and ev_ebitda_use < 15 ? "Just" : "Car"))
+    color eveb_c = is_financial ? C_NEUT : ev_ebitda_neg or ev_ebitda_discrepancia ? C_WARN : (b_eveb ? C_UP : (not na(ev_ebitda_use) and ev_ebitda_use < 15 ? C_HOLD : C_DOWN))
+    table.cell(T, 8, 7, "EV/EB",  text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 7, eveb_v,   text_color=eveb_c, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 7, eveb_f,  text_color=eveb_c, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 11, 7, "<10x",  text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+
+    // ── Fila 8: D/EB / M.Neto / CORR header ───────────────────
+    bool tiene_ajuste = ebitda_nivel_final >= 3
+    table.cell(T, 0, 8, tiene_ajuste ? "D/EB*" : "D/EB", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    string deb_v = is_financial ? "N/A(Fin)" : tiene_ajuste ? (str.tostring(debt_ebitda,"#.##") + "x (adj:" + str.tostring(debt_ebitda_adj,"#.##") + "x)") : (na(debt_ebitda) ? "N/A" : str.tostring(debt_ebitda,"#.##") + "x")
+    table.cell(T, 1, 8, deb_v, text_color=is_financial ? C_NEUT : (b_debeb ? C_UP : C_DOWN), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 2, 8, is_financial ? "—" : (b_debeb ? "✔" : "✘"), text_color=is_financial ? C_NEUT : (b_debeb ? C_UP : C_DOWN), bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 3, 8, "<" + str.tostring(deuda_eb_max_auto,"#.#") + "x", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    bool   nm_using_manual = na(net_mar_tv) and not na(mar_neto_mn)
+    color  nm_c = na(net_mar_use) ? C_WARN : ((not nm_using_manual and not nm_consistente) ? C_WARN : (b_nmar ? C_UP : C_DOWN))
+    string nm_v = na(net_mar_use) ? "N/D⚠" : str.tostring(net_mar_use*100,"#.#") + "%"
+    string nm_f = na(net_mar_use) ? "⚠" : not nm_consistente ? "~" : b_nmar ? "✔" : "✘"
+    string nm_src = nm_tv_ok and nm_consistente ? "TV" : not na(mar_neto_mn) ? "calc" : "N/D"
+    table.cell(T, 4, 8, "M.Net", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 5, 8, nm_v,    text_color=nm_c,   bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 6, 8, nm_f,    text_color=nm_c,   bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 7, 8, nm_src,  text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 8, 8, "▸ CORR", text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 9, 8, "Pear",  text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 10, 8, "R²",   text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 11, 8, "Cal",  text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+
+    // ── Fila 9: CORR datos / REC header ───────────────────────
+    string r_v  = na(pearson_r) ? "N/A" : str.tostring(pearson_r,"#.###")
+    string r2_v = na(r_squared) ? "N/A" : str.tostring(r_squared*100,"#.#") + "%"
+    table.cell(T, 8, 9, "▸ CORR", text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 9, 9, r_v,      text_color=corr_color, bgcolor=C_HEADER, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 9, r2_v,    text_color=corr_color, bgcolor=C_HEADER, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 11, 9, corr_label, text_color=corr_color, bgcolor=C_HEADER, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 0, 9, "▸ REC",  text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 1, 9, "Pos",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 2, 9, "Zona",   text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 3, 9, "Min",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 4, 9, "Max",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 5, 9, "Pot",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 6, 9, "^Min",   text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 7, 9, "LP/Abs", text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_right)
+
+    // ── Fila 10: Recorrido normalizado 0-100 ──────────────────
+    string rec_v    = na(recorrido_pct) ? "N/A" : str.tostring(recorrido_pct,"#.#") + "%"
+    string rec_lp_v = na(recorrido_lp)  ? "N/A" : str.tostring(recorrido_lp,"#.#") + "%"
+    string rec_abs_v = na(recorrido_abs) ? "N/A" : str.tostring(recorrido_abs,"#.#") + "%"
+    string hist_min_v = na(hist_min_cp) ? "N/A" : str.tostring(hist_min_cp, "#.##") + (hay_mismatch_moneda ? "USD" : "")
+    string hist_max_v = na(hist_max_cp) ? "N/A" : str.tostring(hist_max_cp, "#.##") + (hay_mismatch_moneda ? "USD" : "")
+    string pot_v       = na(dist_al_max)  ? "N/A" : "+" + str.tostring(dist_al_max,"#.#") + "%"
+    string desde_min_v = na(dist_del_min) ? "N/A" : "+" + str.tostring(dist_del_min,"#.#") + "%"
+
+    table.cell(T, 0, 10, "Rec 0→100", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 1, 10, rec_v,      text_color=rec_color, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 2, 10, rec_zona,   text_color=rec_color, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 3, 10, hist_min_v, text_color=C_UP,      bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 4, 10, hist_max_v, text_color=C_DOWN,    bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 5, 10, pot_v,      text_color=C_UP,      bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 6, 10, desde_min_v,text_color=C_GOLD,    bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 7, 10, "LP=" + rec_lp_v + " |Abs=" + rec_abs_v + (rec_advertencia != "" ? " " + rec_advertencia : ""), text_color=rec_advertencia != "" ? C_WARN : C_TEXT, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+
+    // ── Fila 10 / col 8-11: HIST header ───────────────────────
+    table.cell(T, 8, 10, "▸ HIST",  text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 9, 10, "Actual",  text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 10, 10, "QoQ",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 11, 10, "YoY",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+
+    // ── Fila 11: DIAG + Revenue ────────────────────────────────
+    table.cell(T, 0, 11, "▸ DIAG",  text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.merge_cells(T, 1, 11, 7, 11)
+    string d_eb_diff = na(diff_eb) ? "N/A" : str.tostring(diff_eb*100,"#.#") + "pp"
+    string d_gm_diff = na(diff_gm) ? "N/A" : str.tostring(diff_gm*100,"#.#") + "pp"
+    string wacc_str  = not na(wacc_calc) ? str.tostring(wacc_calc*100,"#.#") + "%" : "N/A"
+    string vpp_str2  = tiene_vpp_material ? " | VPP=" + str.tostring(eq_earn_abs/1e6,"#") + "M" : ""
+    string fcf_tipo_diag = " | FCF:" + fcf_tipo
+    string mismatch_nota = hay_mismatch_moneda ? " | ⚠ARS→USD" : ""
+    string diag_txt = "M.EB TV/C:" + d_eb_diff + " | M.Br:" + d_gm_diff + " | WACC:" + wacc_str + " | Conf:" + confianza_txt + vpp_str2 + fcf_tipo_diag + (is_arg_energy_expansion ? " | EB_adj=" + str.tostring(ajuste_ebitda_final,"#.##") + "x[" + ebitda_fuente_final + "]" : "") + mismatch_nota
+    table.cell(T, 1, 11, diag_txt, text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    
+    // Revenue con fuente
+    string rev_label_txt = rev_nivel == 1 ? "Revenue" : (rev_nivel == 3 ? "Revenue~" : "Revenue?")
+    color  rev_col_txt   = f_nivel_color(rev_nivel)
+    table.cell(T, 8, 11, rev_label_txt, text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 11, f_nivel_prefijo(rev_nivel) + rev_fmt(rev_ttm_resuelto), text_color=rev_col_txt, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 11, f_varfmt(var_rev_qoq), text_color=f_varcol(var_rev_qoq), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 11, 11, f_varfmt(var_rev_yoy), text_color=f_varcol(var_rev_yoy), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+
+    // ── Fila 12: CORR+ / EBITDA ────────────────────────────────
+    table.cell(T, 0, 12, "▸ CORR+", text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.merge_cells(T, 1, 12, 7, 12)
+    string eps_fq_v  = not na(eps_fq) ? str.tostring(eps_fq,"#.###") : "N/A"
+    string eps_qoq_v = not na(var_eps_qoq) ? str.tostring(var_eps_qoq,"#.#") + "%" : "N/A"
+    string eps_yoy_v = not na(var_eps_yoy) ? str.tostring(var_eps_yoy,"#.#") + "%" : "N/A"
+    string dir_v     = r2_insuf ? "Sin corr" : (corr_positiva ? "Positiva" : "INVERSA⚠")
+    string corr_full = "R=" + (na(pearson_r) ? "N/A" : str.tostring(pearson_r,"#.###")) + " R²=" + (na(r_squared) ? "N/A" : str.tostring(r_squared*100,"#.#") + "%") + " " + dir_v + " | EPS=" + eps_fq_v + " QoQ=" + eps_qoq_v + " YoY=" + eps_yoy_v + (is_arg_energy_expansion ? " | ⚠corr limitada" : "") + (eps_moneda_sufijo != "" ? " | EPS " + eps_moneda : "")
+    table.cell(T, 1, 12, corr_full, text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    
+    // EBITDA con fuente dinámica
+    string eb_label = ebitda_nivel_final == 1 ? "EBITDA" : (ebitda_nivel_final == 2 ? "EBITDA≈" : (ebitda_nivel_final == 3 ? "EBITDA~" : (ebitda_nivel_final == 4 ? "EBITDA?" : "EBITDA✗")))
+    table.cell(T, 8, 12, eb_label, text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 12, is_financial ? "N/A(Fin)" : (f_nivel_prefijo(ebitda_nivel_final) + ebitda_fmt(ebitda)), text_color=is_financial ? C_NEUT : f_nivel_color(ebitda_nivel_final), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 12, is_financial ? "—" : f_varfmt(var_ebitda_qoq), text_color=is_financial ? C_NEUT : f_varcol(var_ebitda_qoq), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 11, 12, is_financial ? "—" : ebitda_fuente_final, text_color=f_nivel_color(ebitda_nivel_final), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+
+    // ── Fila 13: ESTADO / FCF ──────────────────────────────────
+    table.cell(T, 0, 13, "▸ ESTADO", text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 1, 13, "Veredicto",text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 2, 13, "Horiz",    text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 3, 13, "",         bgcolor=C_HEADER)
+    table.cell(T, 4, 13, "ESTADO",   text_color=C_WHITE, bgcolor=vcol, text_size=size.tiny, text_halign=text.align_left)
+    table.cell(T, 5, 13, vtext,      text_color=C_WHITE, bgcolor=vcol, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 6, 13, vhoriz,     text_color=C_WHITE, bgcolor=vcol, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 7, 13, "",         bgcolor=vcol)
+    
+    // FCF con clasificación de tipo
+    string fcf_lbl = ebitda_nivel_final >= 3 ? "FCF*" : (fcf_neg_valido ? "FCF~" : "FCF")
+    string fcf_display = is_financial ? "N/A(Fin)" : f_nivel_prefijo(fcf_nivel) + fcf_fmt(fcf_ttm_real) + (fcf_neg_valido or fcf_neg_por_cobranza ? "⟳" : "")
+    color fcf_col_d = is_financial ? C_NEUT : fcf_pos ? f_nivel_color(fcf_nivel) : fcf_neg_por_cobranza ? C_WARN : fcf_neg_valido ? C_INFO : C_DOWN
+    table.cell(T, 8, 13, fcf_lbl,     text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 13, fcf_display, text_color=fcf_col_d, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 13, is_financial ? "—" : f_varfmt(var_fcf_qoq), text_color=is_financial ? C_NEUT : f_varcol(var_fcf_qoq), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 11, 13, is_financial ? "—" : fcf_fuente, text_color=f_nivel_color(fcf_nivel), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+
+    // ── Fila 14: FACTORES ──────────────────────────────────────
+    string f_adr    = is_adr_arg ? "ADR=" + str.tostring(adr_ratio_auto) + ":1|" : ""
+    string f_conv   = hay_mismatch_moneda ? "ARS→USD=" + str.tostring(factor_precio_a_usd,"#.####") + "|" : ""
+    string f_beta   = "β=" + (not na(beta_rolling) ? str.tostring(beta_rolling,"#.##") : "N/A")
+    string f_wacc   = "|WACC=" + (not na(wacc_calc) ? str.tostring(wacc_calc*100,"#.#") + "%" : "N/A")
+    string f_eb     = ebitda_nivel_final >= 3 and not na(ajuste_ebitda_final) ? "|EB[" + ebitda_fuente_final + "]=" + str.tostring(ajuste_ebitda_final,"#.##") + "x" : ""
+    string f_reg    = sector_regulado_auto ? "|Reg" : ""
+    string f_thresh = "|L>" + str.tostring(liq_min_auto,"#.#") + "|D/EB<" + str.tostring(deuda_eb_max_auto,"#.#") + " | " + score_cnv_txt + "→" + perfil_cnv
+    
+    table.merge_cells(T, 0, 14, 11, 14)
+    table.cell(T, 0, 14, "▸ FACTORES: " + f_adr + f_conv + f_beta + f_wacc + f_eb + f_reg + f_thresh, text_color=score_cnv_col, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+
+    // ── Fila 15: EPS SURPRISES header + EPS hist ──────────────
+    table.cell(T, 0, 15, "▸ EPS SURP",text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    table.cell(T, 1, 15, "Real",       text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 2, 15, "Sorp%",      text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 3, 15, "Rtg",        text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 4, 15, "Streak",     text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 5, 15, "",           bgcolor=C_HEADER)
+    table.cell(T, 6, 15, "",           bgcolor=C_HEADER)
+    table.cell(T, 7, 15, "",           bgcolor=C_HEADER)
+    table.cell(T, 8, 15, "EPS", text_color=C_TEXT, bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 9, 15, not na(eps_fq) ? str.tostring(eps_fq,"#.####") + eps_moneda_sufijo : "N/A", text_color=not na(eps_fq) and eps_fq > 0 ? C_UP : C_DOWN, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 10, 15, f_varfmt(var_eps_qoq), text_color=f_varcol(var_eps_qoq), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 11, 15, f_varfmt(var_eps_yoy), text_color=f_varcol(var_eps_yoy), bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+
+    // ── Fila 16: EPS Surprise data ─────────────────────────────
+    n_sur_q := array.size(earn_sur_hist)
+    int streak_b_q = 0
+    if n_sur_q > 0
+        for i = 0 to n_sur_q - 1
+            float v = array.get(earn_sur_hist, i)
+            if not na(v) and v > 0.0
+                streak_b_q += 1
+            else if not na(v) and v <= 0.0
+                break
+    float last_rep_q = n_sur_q > 0 ? array.get(earn_act_hist,  0) : na
+    float last_est_q = n_sur_q > 0 ? array.get(earn_est_hist,  0) : na
+    float last_sur_q = n_sur_q > 0 ? array.get(earn_sur_hist,  0) : na
+    float eps_prob_acierto = eps_total_reports > 0 ? (eps_hits_total * 100.0) / eps_total_reports : 0.0
+    string eps_prob_str = eps_total_reports < 8 ? "Insuf. (<8Q)" : (eps_total_reports <= 11 ? str.tostring(eps_prob_acierto,"#") + "% (IC mod)" : str.tostring(eps_prob_acierto,"#") + "%")
+    color eps_prob_color = eps_total_reports < 8 ? C_WARN : (eps_prob_acierto >= 70 ? C_UP : eps_prob_acierto >= 50 ? C_HOLD : C_DOWN)
+    string sur_v_q = na(last_sur_q) ? "N/A" : str.tostring(last_sur_q,"#.##") + "%"
+    string rep_v_q = na(last_rep_q) ? "N/A" : str.tostring(last_rep_q,"#.####")
+    string sur_rating_q = na(last_sur_q) ? "N/D" : last_sur_q >= 10.0 ? "★★★ Beat+" : last_sur_q >=  5.0 ? "★★ Beat" : last_sur_q >=  0.0 ? "★ Inline" : last_sur_q >= -5.0 ? "⚠ Miss" : "⚠⚠ Miss-"
+    color sur_c_q = na(last_sur_q) ? C_TEXT : last_sur_q >= 5.0 ? C_UP : last_sur_q >= 0.0 ? C_HOLD : C_DOWN
+
+    table.cell(T, 0, 16, rep_v_q,     text_color=C_WHITE,        bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 1, 16, sur_v_q,     text_color=sur_c_q,        bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 2, 16, sur_rating_q,text_color=sur_c_q,        bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    table.cell(T, 3, 16, streak_b_q > 0 ? str.tostring(streak_b_q) + "Q" : "—", text_color=eps_prob_color, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+    string d_eb_tv2 = na(ebitda_mar_tv) ? "N/A" : str.tostring(ebitda_mar_tv*100,"#.#") + "%"
+    string d_eb_m2  = na(mar_ebitda_mn) ? "N/A" : str.tostring(mar_ebitda_mn*100,"#.#") + "%"
+    string d_eb_dif2 = na(diff_eb) ? "—" : str.tostring(diff_eb*100,"#.#") + "pp"
+    table.cell(T, 4, 16, "EBITDA TV", text_color=C_TEXT,         bgcolor=C_BG, text_halign=text.align_left, text_size=size.tiny)
+    table.cell(T, 5, 16, d_eb_tv2,    text_color=eb_tv_ok ? C_TEXT : C_WARN, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 6, 16, d_eb_m2,     text_color=eb_m_ok  ? C_TEXT : C_WARN, bgcolor=C_BG, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 7, 16, d_eb_dif2,   text_color=eb_consistente ? C_TEXT : C_WARN, bgcolor=C_BG, text_halign=text.align_center, text_size=size.tiny)
+
+    // ── Fila 17: STATS EPS ─────────────────────────────────────
+    table.cell(T, 0, 17, "▸ STATS EPS", text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    table.merge_cells(T, 1, 17, 11, 17)
+    table.cell(T, 1, 17, "T=" + str.tostring(eps_total_reports) + " | H=" + str.tostring(eps_hits_total) + " | Prob=" + eps_prob_str + " | SorpProm=" + (na(eps_avg_surprise) ? "N/A" : str.tostring(eps_avg_surprise,"#.##") + "%") + " | Vol=" + (na(eps_volatility_avg) ? "N/A" : str.tostring(eps_volatility_avg,"#.##") + "%") + (eps_moneda_sufijo != "" ? " | EPS_mon=" + eps_moneda : ""), text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+
+    // ── Fila 18: PROX CITA ────────────────────────────────────
+    table.cell(T, 0, 18, "▸ PROX CITA", text_color=C_GOLD, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+    table.cell(T, 1, 18, next_earnings_date, text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 2, 18, "EPS Est", text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 3, 18, na(next_eps_estimate) ? "N/A" : str.tostring(next_eps_estimate,"#.####"), text_color=C_WHITE, bgcolor=C_HEADER, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 4, 18, "Prob", text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 5, 18, eps_prob_str, text_color=eps_prob_color, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 6, 18, "VolEsp", text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 7, 18, na(eps_volatility_avg) ? "N/A" : "+/-" + str.tostring(eps_volatility_avg,"#.##") + "%", text_color=C_INFO, bgcolor=C_HEADER, text_halign=text.align_right, text_size=size.tiny)
+    table.cell(T, 8, 18, "FCF CAGR", text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 9, 18, cagr_fcf_text, text_color=cagr_fcf_color, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_center)
+    table.cell(T, 10, 18, "",  bgcolor=C_HEADER)
+    table.cell(T, 11, 18, "",  bgcolor=C_HEADER)
+
+    // ── Fila 19: LEYENDA DE FUENTES ───────────────────────────
+    table.merge_cells(T, 0, 19, 11, 19)
+    table.cell(T, 0, 19, "Fuentes: TV=directo | ≈=reconstruido | ~=ajust.VPP/macro | ?=estimado sect. | !rng=fuera rango | ⟳=ciclo inversor/cobranza", text_color=C_TEXT, bgcolor=C_HEADER, text_size=size.tiny, text_halign=text.align_left)
+
+plot(na, display=display.none)

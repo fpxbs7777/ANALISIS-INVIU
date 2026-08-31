@@ -1,0 +1,664 @@
+{
+  "fecha": "2026-08-16",
+  "fuente": "yfinance Ticker.news",
+  "drivers": [
+    {
+      "ticker": "^TNX",
+      "nombre": "Bonos / Tasas (TNX 10Y)",
+      "dimension": "tasas",
+      "precio_6m": 15.779088505133231,
+      "noticias": 10,
+      "score_neto": -3,
+      "temas": [
+        "inflacion",
+        "tasas",
+        "geopolitica"
+      ]
+    },
+    {
+      "ticker": "TLT",
+      "nombre": "Bonos largos (TLT)",
+      "dimension": "tasas",
+      "precio_6m": -6.467493483996922,
+      "noticias": 10,
+      "score_neto": 0,
+      "temas": [
+        "tasas",
+        "riesgo_mdo",
+        "geopolitica"
+      ]
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "nombre": "Dolar (DXY)",
+      "dimension": "dolar",
+      "precio_6m": 2.428975804863409,
+      "noticias": 10,
+      "score_neto": 2,
+      "temas": [
+        "dolar",
+        "tasas",
+        "crecimiento"
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "nombre": "Acciones (SPY)",
+      "dimension": "riesgo",
+      "precio_6m": 14.459110126358743,
+      "noticias": 10,
+      "score_neto": 2,
+      "temas": [
+        "tasas",
+        "crecimiento",
+        "inflacion"
+      ]
+    },
+    {
+      "ticker": "^VIX",
+      "nombre": "Volatilidad (VIX)",
+      "dimension": "riesgo",
+      "precio_6m": -29.76836196643593,
+      "noticias": 10,
+      "score_neto": 2,
+      "temas": [
+        "riesgo_mdo",
+        "tasas",
+        "geopolitica"
+      ]
+    },
+    {
+      "ticker": "GLD",
+      "nombre": "Oro (GLD)",
+      "dimension": "oro",
+      "precio_6m": -13.216027144562103,
+      "noticias": 10,
+      "score_neto": 0,
+      "temas": [
+        "oro",
+        "inflacion",
+        "crecimiento"
+      ]
+    },
+    {
+      "ticker": "GDX",
+      "nombre": "Mineras de oro (GDX)",
+      "dimension": "oro",
+      "precio_6m": -13.4404472701243,
+      "noticias": 10,
+      "score_neto": 3,
+      "temas": [
+        "oro",
+        "inflacion",
+        "crecimiento"
+      ]
+    },
+    {
+      "ticker": "XLE",
+      "nombre": "Energia (XLE)",
+      "dimension": "energia",
+      "precio_6m": 15.480960194864135,
+      "noticias": 10,
+      "score_neto": 1,
+      "temas": [
+        "energia",
+        "inflacion",
+        "geopolitica"
+      ]
+    },
+    {
+      "ticker": "USO",
+      "nombre": "Petroleo (USO)",
+      "dimension": "energia",
+      "precio_6m": 66.0981323098347,
+      "noticias": 10,
+      "score_neto": 1,
+      "temas": [
+        "energia",
+        "inflacion",
+        "geopolitica"
+      ]
+    },
+    {
+      "ticker": "XLK",
+      "nombre": "Tech (XLK)",
+      "dimension": "riesgo",
+      "precio_6m": 36.48114904405071,
+      "noticias": 10,
+      "score_neto": 3,
+      "temas": [
+        "crecimiento",
+        "inflacion",
+        "energia"
+      ]
+    },
+    {
+      "ticker": "EWY",
+      "nombre": "Corea (EWY)",
+      "dimension": "geopolitica",
+      "precio_6m": 34.16436803419827,
+      "noticias": 10,
+      "score_neto": 1,
+      "temas": [
+        "oro",
+        "tasas",
+        "crecimiento"
+      ]
+    },
+    {
+      "ticker": "FXI",
+      "nombre": "China (FXI)",
+      "dimension": "geopolitica",
+      "precio_6m": -9.074050306796156,
+      "noticias": 10,
+      "score_neto": 0,
+      "temas": [
+        "geopolitica",
+        "dolar",
+        "riesgo_mdo"
+      ]
+    }
+  ],
+  "coherencia": [
+    {
+      "claim": "Shock de tasas (Cap.3, alerta_1994): TNX sube y bonos caen",
+      "activo": "SI",
+      "veredicto": "mixto (hay temas de apoyo y de oposicion)",
+      "temas_observados": "tasas, inflacion, geopolitica, energia"
+    },
+    {
+      "claim": "Commodities / energia lideran (CRB al alza; Stage 4)",
+      "activo": "SI",
+      "veredicto": "CONFIRMA el analisis",
+      "temas_observados": "energia, inflacion, geopolitica, riesgo_mdo"
+    },
+    {
+      "claim": "Riesgo geopolitico sobre suministro (Hormuz/Irán) presiona energia",
+      "activo": "SI",
+      "veredicto": "CONFIRMA el analisis",
+      "temas_observados": "energia, geopolitica, oro, dolar"
+    },
+    {
+      "claim": "Dolar firme (DXY al alza en 6m)",
+      "activo": "SI",
+      "veredicto": "mixto (hay temas de apoyo y de oposicion)",
+      "temas_observados": "dolar, tasas, crecimiento, oro"
+    },
+    {
+      "claim": "Inflacion aun elevada / presion de costos",
+      "activo": "SI",
+      "veredicto": "CONFIRMA el analisis",
+      "temas_observados": "tasas, inflacion, energia, riesgo_mdo"
+    },
+    {
+      "claim": "Consumidor debil (XLY/XLP negativo, defensivas resistiendo)",
+      "activo": "SI",
+      "veredicto": "CONFIRMA el analisis",
+      "temas_observados": "tasas, inflacion, energia, riesgo_mdo"
+    },
+    {
+      "claim": "Volatilidad contenida (VIX bajo): complacencia tipica de late-cycle",
+      "activo": "SI",
+      "veredicto": "sin evidencia noticiosa directa",
+      "temas_observados": "tasas, inflacion, energia, riesgo_mdo"
+    }
+  ],
+  "interpretacion": [
+    "Narrativa dominante: tasas, inflacion, energia, riesgo_mdo.",
+    "El motor marca **Stage 4 (bonos caen, acciones/comm suben)**: bonos caen mientras acciones y commodities suben. Las noticias de energia (24) y tasas (32) son las que sostienen esa lectura reflacionaria.",
+    "Temas geopoliticos (21 noticias) dan contexto al alza de energia/oro: el shock es de oferta (stagflation), no un boom de demanda clasico.",
+    "El oro aparece 21 veces; con DXY +2.4% y oro subiendo por miedo, la relacion dolar->oro del motor (correlacion negativa) queda en tension."
+  ],
+  "titulares": [
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-17 01:01",
+      "titulo": "Asian Currencies Strengthen Amid Reduced Fed Rate-Hike Expectations",
+      "resumen": "Asian currencies strengthened slightly against the dollar amid reduced Fed rate-hike expectations that could bolster risk appetite.",
+      "fuente": "The Wall Street Journal",
+      "sentimiento": -1,
+      "temas": "tasas,dolar,riesgo_mdo"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-17 00:55",
+      "titulo": "Nikkei Rises 0.5%; Weaker 2Q GDP Growth Could Prompt a BOJ Hold",
+      "resumen": "The Nikkei Stock Average rose 0.5% in early trade, aided by preliminary estimates showing weaker-than-expected 2Q GDP growth.",
+      "fuente": "The Wall Street Journal",
+      "sentimiento": 1,
+      "temas": "crecimiento"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-16 23:57",
+      "titulo": "“That Ain’t Okay:” Dave Ramsey Blasts Couple With $150,000 in Cash and a $60,000 Car Loan",
+      "resumen": "A caller with a paid-off house, a six-figure salary, and six figures in savings thought he was doing everything right. Dave Ramsey told him that kind of financial comfort can quietly cost a fortune.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 0,
+      "temas": ""
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-16 14:46",
+      "titulo": "High Dividend ETFs Are Beating the S&P 500 by 9 Points in 2026 and These 3 Pay Up to 4 Percent While Doing It",
+      "resumen": "After a decade of chasing growth, dividend investors are finally having their moment in 2026, but not all high-yield ETFs are winning the same way or for the same reasons.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 0,
+      "temas": "tasas,crecimiento"
+    },
+    {
+      "ticker": "GDX",
+      "fecha": "2026-08-16 14:21",
+      "titulo": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
+      "resumen": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has legs depends on a handful of cost and macro variables that could flip the story overnight.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 0,
+      "temas": "inflacion,oro"
+    },
+    {
+      "ticker": "XLK",
+      "fecha": "2026-08-16 11:43",
+      "titulo": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
+      "resumen": "Tech just got cheaper without a bear market taking a wrecking ball to stock prices.",
+      "fuente": "Yahoo Finance",
+      "sentimiento": 0,
+      "temas": "inflacion"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-16 10:46",
+      "titulo": "The Cavs' Tristan Thompson Told Teammates to Long Bitcoin: 'Stack Digital Gold, Buy it Every Day'",
+      "resumen": "NBA champion Tristan Thompson on Tuesday said he shorted HYPE at $61 and exited with a profit, while telling teammates to buy Bitcoin every single day. Why Thompson Is Buying Bitcoin Daily? Thompson appeared on Anthony Pompliano’s podcast, saying he...",
+      "fuente": "Benzinga",
+      "sentimiento": 1,
+      "temas": "oro"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-16 10:20",
+      "titulo": "New surveys show central banks are ditching the dollar and buying more gold instead — should you follow along?",
+      "resumen": "The Official Monetary and Financial Institutions Forum (OMFIF) noted the trend as a first.",
+      "fuente": "Moneywise",
+      "sentimiento": 0,
+      "temas": "oro,dolar"
+    },
+    {
+      "ticker": "GLD",
+      "fecha": "2026-08-16 00:39",
+      "titulo": "Which Gold ETF Is the Better Buy: iShares' IAU or State Street's GLD?",
+      "resumen": "Both funds track physical gold with nearly identical returns, but IAU's lower 0.25% expense ratio could compound into meaningful savings over decades for buy-and-hold investors.",
+      "fuente": "Motley Fool",
+      "sentimiento": 0,
+      "temas": "oro"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-15 22:45",
+      "titulo": "JEPQ vs. SPYI: Nearly Identical Yields, and One ETF Charges You Twice the Fee",
+      "resumen": "Two ETFs with nearly identical monthly payouts are built on completely different engines, and choosing the wrong one based on yield alone could cost you far more than the fee difference suggests.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 0,
+      "temas": "tasas"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-15 19:39",
+      "titulo": "Trump Family’s World Liberty Financial Gets Preliminary Approval to Launch a Bank",
+      "resumen": "The Office of the Comptroller of the Currency gives the flagship crypto venture a conditional approval to be a trust bank.",
+      "fuente": "The Wall Street Journal",
+      "sentimiento": 0,
+      "temas": "dolar"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-15 18:23",
+      "titulo": "DIVO or JEPI: Which Monthly Dividend Actually Protects Your Principal?",
+      "resumen": "Both DIVO and JEPI hand you a monthly paycheck funded by covered calls on blue-chip stocks, but one of them has been quietly compounding your principal while the other trades that growth away for a fatter yield.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 1,
+      "temas": "tasas,crecimiento"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-15 17:41",
+      "titulo": "Which Is the Better ETF, State Street's Broad Market Exposure Through SPY or Invesco's Tech-Focused QQQ?",
+      "resumen": "QQQ delivered higher returns while SPY sports lower fees and a higher dividend yield.",
+      "fuente": "Motley Fool",
+      "sentimiento": 0,
+      "temas": "tasas"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-15 17:32",
+      "titulo": "Social Security Pays the Average Couple $3,120 a Month. Here’s the Portfolio It Takes to Match It.",
+      "resumen": "Most retirement plans treat Social Security as a bonus, but pricing out what it actually takes to replace that monthly check from a private portfolio reveals just how much government backing most households are quietly depending on.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 0,
+      "temas": ""
+    },
+    {
+      "ticker": "GDX",
+      "fecha": "2026-08-15 04:26",
+      "titulo": "Our Newmont Stock Pick Still Glitters After 66% Gains. Stay Bullish.",
+      "resumen": "Newmont Corp  has returned 66% in the year since we recommended it as a Barron’s stock pick, handily beating out the 30% increase in the  over the period.  For Newmont, the historic rally in precious metals has certainly helped, as the price of gold climbed to a record $5,589 an ounce earlier this year.  Newmont is positioned to continue capitalizing on its sector-leading position with elevated metals prices driving record cash flow and earnings.",
+      "fuente": "Barrons.com",
+      "sentimiento": 1,
+      "temas": "inflacion,oro,crecimiento"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-15 01:08",
+      "titulo": "Montana Aerospace AG (MTASF) (Q2 2026) Earnings Call Highlights: Strong Organic Growth and ...",
+      "resumen": "EBITDA up 12.2% to EUR 87.1 million, with Aerostructure segment margin expanding to 18.3% and a clear path to net cash by year-end.",
+      "fuente": "GuruFocus.com",
+      "sentimiento": 1,
+      "temas": "crecimiento"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-14 21:35",
+      "titulo": "World Liberty Gets Conditional OCC Approval to Issue USD1 Through National Trust Bank",
+      "resumen": "World Liberty Financial (CRYPTO: $WLFI) has moved closer to bringing its USD1 (CRYPTO: $USD1) stablecoin under a fe...",
+      "fuente": "CryptoProwl",
+      "sentimiento": 0,
+      "temas": "dolar"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-14 21:12",
+      "titulo": "Oil prices rally, US data dents chances of Fed rate hike",
+      "resumen": "By Chris Prentice and Amanda Cooper NEW YORK/LONDON, Aug 14 (Reuters) - U.S. and European shares fell on Friday and oil prices rose more than $1 a barrel as markets monitored tense U.S.-Iran talks and",
+      "fuente": "Reuters",
+      "sentimiento": 0,
+      "temas": "tasas,inflacion,energia,geopolitica"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-14 21:09",
+      "titulo": "World Liberty Wins Bank Charter From Trump-Appointed Regulator for $4 Billion Stablecoin",
+      "resumen": "A Trump-appointed regulator cleared World Liberty to run its own bank and issue the $4 billion USD1 stablecoin.",
+      "fuente": "BeInCrypto",
+      "sentimiento": 0,
+      "temas": "dolar"
+    },
+    {
+      "ticker": "DX-Y.NYB",
+      "fecha": "2026-08-14 20:10",
+      "titulo": "Treasury Yield Curve Steepens Ahead of Fed Minutes",
+      "resumen": "Signs of cooling inflation and growth bolstered odds of another Fed hold in September, weighing on shorter-term yields, while long-term yields rose on fiscal concerns.",
+      "fuente": "The Wall Street Journal",
+      "sentimiento": 0,
+      "temas": "tasas,inflacion,crecimiento"
+    },
+    {
+      "ticker": "XLE",
+      "fecha": "2026-08-14 20:06",
+      "titulo": "Sector Update: Energy Stocks Rise Friday",
+      "resumen": "Energy stocks rose Friday with the NYSE Energy Sector Index gaining 1.3% and the State Street Energy",
+      "fuente": "MT Newswires",
+      "sentimiento": 1,
+      "temas": "energia"
+    },
+    {
+      "ticker": "^VIX",
+      "fecha": "2026-08-14 20:02",
+      "titulo": "S&P 500 Pulls Back from High as Market's Fear Gauge Keeps Its Cool",
+      "resumen": "The S&P 500 on Friday pulled back from its record high after another soft economic data release, but the market’s fear gauge continued to snooze.  The S&P 500 was down 0.2%.  The Nasdaq Composite was down 0.3%.",
+      "fuente": "Barrons.com",
+      "sentimiento": 1,
+      "temas": ""
+    },
+    {
+      "ticker": "GLD",
+      "fecha": "2026-08-14 19:45",
+      "titulo": "Gold Just Ripped Higher on an Ugly Jobs Report, and It’s Still Well Off Its Record. Buy GLDM Now?",
+      "resumen": "Gold surged after a bruising jobs report, but GLDM still sits well below its 2026 record, and that gap creates a very different conversation than buying bullion at a peak.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 1,
+      "temas": "oro,empleo"
+    },
+    {
+      "ticker": "TLT",
+      "fecha": "2026-08-14 19:37",
+      "titulo": "ETF Zoo: Substance Over Shenanigans Still Matters in ETFs",
+      "resumen": "<p>Are the days numbered for 351 exchanges, box spread, and dividend-avoiding ETFs? Tune into this episode of <em>ETF Zoo</em> to find out, plus learn why markets seem to care less and less about the struggling consumer, and what the recent NEOS acquisition could indicate for the future of the options income category. </p>",
+      "fuente": "etf.com",
+      "sentimiento": 0,
+      "temas": ""
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-14 19:34",
+      "titulo": "Cash Pays 3.8% and the Fed May Hike. This T-Bill Fund Pays the Same but Sends No Tax Bill Until You Sell",
+      "resumen": "Two funds chase the same short-Treasury yield, but one sends a tax bill every single month while the other lets gains sit untouched until you decide to sell. For high-bracket investors with taxable accounts, that timing difference is worth more than it looks.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 0,
+      "temas": "tasas"
+    },
+    {
+      "ticker": "TLT",
+      "fecha": "2026-08-14 18:41",
+      "titulo": "Peter Schiff Says The Asset Everyone Calls Safe Is Down 50%, What Does Bitcoin Do Now?",
+      "resumen": "Peter Schiff says the world's safest asset lost half its value. Here is what the bond selloff means for Bitcoin.",
+      "fuente": "BeInCrypto",
+      "sentimiento": 0,
+      "temas": "riesgo_mdo"
+    },
+    {
+      "ticker": "GLD",
+      "fecha": "2026-08-14 18:18",
+      "titulo": "Gold Rally Is Missing One Key Ingredient",
+      "resumen": "One major source of demand has barely returned",
+      "fuente": "GuruFocus.com",
+      "sentimiento": 1,
+      "temas": "oro,crecimiento"
+    },
+    {
+      "ticker": "XLE",
+      "fecha": "2026-08-14 17:54",
+      "titulo": "Sector Update: Energy Stocks Rise Friday Afternoon",
+      "resumen": "Energy stocks were higher Friday afternoon, with the NYSE Energy Sector Index rising 1.4% and the St",
+      "fuente": "MT Newswires",
+      "sentimiento": 1,
+      "temas": "energia"
+    },
+    {
+      "ticker": "XLK",
+      "fecha": "2026-08-14 17:21",
+      "titulo": "Exchange-Traded Funds Mixed, US Equities Fall After Midday",
+      "resumen": "Broad Market Indicators Broad-market exchange-traded fund IWM rose and IVV edged lower. Active",
+      "fuente": "MT Newswires",
+      "sentimiento": -1,
+      "temas": ""
+    },
+    {
+      "ticker": "XLE",
+      "fecha": "2026-08-14 17:21",
+      "titulo": "Exchange-Traded Funds Mixed, US Equities Fall After Midday",
+      "resumen": "Broad Market Indicators Broad-market exchange-traded fund IWM rose and IVV edged lower. Active",
+      "fuente": "MT Newswires",
+      "sentimiento": -1,
+      "temas": ""
+    },
+    {
+      "ticker": "GDX",
+      "fecha": "2026-08-14 15:47",
+      "titulo": "Investors Are Betting Big on Gold Again, but Silver Is Still the Better Buy",
+      "resumen": "Gold just posted a 10% surge in a single month and fund flows into miners are hitting year-long highs, but one overlooked metal has quietly tripled gold's returns over the same period and has a demand story that gold simply cannot match.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 1,
+      "temas": "oro,crecimiento"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-14 15:42",
+      "titulo": "Broadcom is Down Over 3 Months: One Wall Street Pro Sees 60%+ Gains Ahead",
+      "resumen": "Broadcom sat out the AI rally that sent its closest peers surging double digits, yet one major Wall Street desk just set a price target that would make it the biggest winner in the group by a wide margin.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 1,
+      "temas": ""
+    },
+    {
+      "ticker": "GLD",
+      "fecha": "2026-08-14 15:00",
+      "titulo": "U.S. Dollar to Slip Ahead? ETFs in Focus",
+      "resumen": "The U.S. dollar could face downside risks as cooling inflation and softer jobs data reduce Fed rate-hike bets. Here are ETF strategies to follow.",
+      "fuente": "Zacks",
+      "sentimiento": -1,
+      "temas": "tasas,inflacion,dolar,empleo,riesgo_mdo"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-14 15:00",
+      "titulo": "U.S. Dollar to Slip Ahead? ETFs in Focus",
+      "resumen": "The U.S. dollar could face downside risks as cooling inflation and softer jobs data reduce Fed rate-hike bets. Here are ETF strategies to follow.",
+      "fuente": "Zacks",
+      "sentimiento": -1,
+      "temas": "tasas,inflacion,dolar,empleo,riesgo_mdo"
+    },
+    {
+      "ticker": "^TNX",
+      "fecha": "2026-08-14 14:52",
+      "titulo": "Treasury Yields, Dollar Fall as Data Support Fed Hold",
+      "resumen": "Treasury yields are on pace for a weekly decline following signs of cooling inflation that bolster odds of a Fed hold, not hike, next month. Oil prices edge higher as the supply chain remains choked in the Middle East and the White House threatens Iran with more economic isolation.",
+      "fuente": "Barrons.com",
+      "sentimiento": -1,
+      "temas": "tasas,inflacion,energia,dolar,geopolitica"
+    },
+    {
+      "ticker": "TLT",
+      "fecha": "2026-08-14 14:41",
+      "titulo": "Cooling Inflation Likely to Aid These ETF Areas",
+      "resumen": "Cooling inflation and weaker job data ease Fed hike bets, but Hormuz tensions increase oil risks. See how QQQ, IWM and TLT may respond.",
+      "fuente": "Zacks",
+      "sentimiento": -1,
+      "temas": "tasas,inflacion,energia,geopolitica,riesgo_mdo"
+    },
+    {
+      "ticker": "SPY",
+      "fecha": "2026-08-14 14:36",
+      "titulo": "SoundHound Shed a Quarter of Its Value Over 12 Months: 167% Gains To Follow Says A Prominent Analyst",
+      "resumen": "SoundHound's stock has cratered over the past year even as its revenue keeps beating expectations, and one prominent analyst sees that disconnect resolving in a dramatic way that would leave today's sellers looking very wrong.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 1,
+      "temas": ""
+    },
+    {
+      "ticker": "XLE",
+      "fecha": "2026-08-14 14:00",
+      "titulo": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
+      "resumen": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks.",
+      "fuente": "Zacks",
+      "sentimiento": 0,
+      "temas": "inflacion,energia,geopolitica,riesgo_mdo"
+    },
+    {
+      "ticker": "GLD",
+      "fecha": "2026-08-14 14:00",
+      "titulo": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
+      "resumen": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks.",
+      "fuente": "Zacks",
+      "sentimiento": 0,
+      "temas": "inflacion,energia,geopolitica,riesgo_mdo"
+    },
+    {
+      "ticker": "XLK",
+      "fecha": "2026-08-14 14:00",
+      "titulo": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
+      "resumen": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks.",
+      "fuente": "Zacks",
+      "sentimiento": 0,
+      "temas": "inflacion,energia,geopolitica,riesgo_mdo"
+    },
+    {
+      "ticker": "USO",
+      "fecha": "2026-08-14 14:00",
+      "titulo": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
+      "resumen": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks.",
+      "fuente": "Zacks",
+      "sentimiento": 0,
+      "temas": "inflacion,energia,geopolitica,riesgo_mdo"
+    },
+    {
+      "ticker": "^TNX",
+      "fecha": "2026-08-14 13:33",
+      "titulo": "S&P 500 on Pace for Third Week of Gains and Another Record",
+      "resumen": "The S&P 500 kicked off Friday’s session on pace to end its third straight week of gains with another record. The market benchmark rose 0.1%. The Dow Jones Industrial Average fell 114 points, or 0.2%. The Nasdaq Composite was up 0.",
+      "fuente": "Barrons.com",
+      "sentimiento": 1,
+      "temas": ""
+    },
+    {
+      "ticker": "USO",
+      "fecha": "2026-08-14 13:24",
+      "titulo": "Sector Update: Energy Stocks Edge Higher Pre-Bell Friday",
+      "resumen": "Energy stocks were edging higher pre-bell Friday, with the State Street Energy Select Sector SPDR ET",
+      "fuente": "MT Newswires",
+      "sentimiento": 0,
+      "temas": "energia"
+    },
+    {
+      "ticker": "XLE",
+      "fecha": "2026-08-14 13:24",
+      "titulo": "Sector Update: Energy Stocks Edge Higher Pre-Bell Friday",
+      "resumen": "Energy stocks were edging higher pre-bell Friday, with the State Street Energy Select Sector SPDR ET",
+      "fuente": "MT Newswires",
+      "sentimiento": 0,
+      "temas": "energia"
+    },
+    {
+      "ticker": "EWY",
+      "fecha": "2026-08-14 13:20",
+      "titulo": "Korean Stocks Rally Again Overnight. KOSPI Closes Up 2.41% As SK Hynix and Samsung Rally.",
+      "resumen": "A single investor day in Milpitas just sent shockwaves through Seoul, and the ripple effects are repricing an entire asset class that Korean giants are preparing to take public.",
+      "fuente": "24/7 Wall St.",
+      "sentimiento": 1,
+      "temas": ""
+    },
+    {
+      "ticker": "USO",
+      "fecha": "2026-08-14 13:13",
+      "titulo": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday Amid Retail Sales Data",
+      "resumen": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+      "fuente": "MT Newswires",
+      "sentimiento": 0,
+      "temas": "crecimiento"
+    },
+    {
+      "ticker": "XLK",
+      "fecha": "2026-08-14 13:13",
+      "titulo": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday Amid Retail Sales Data",
+      "resumen": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+      "fuente": "MT Newswires",
+      "sentimiento": 0,
+      "temas": "crecimiento"
+    },
+    {
+      "ticker": "GLD",
+      "fecha": "2026-08-14 13:13",
+      "titulo": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday Amid Retail Sales Data",
+      "resumen": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+      "fuente": "MT Newswires",
+      "sentimiento": 0,
+      "temas": "crecimiento"
+    },
+    {
+      "ticker": "XLE",
+      "fecha": "2026-08-14 13:13",
+      "titulo": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday Amid Retail Sales Data",
+      "resumen": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+      "fuente": "MT Newswires",
+      "sentimiento": 0,
+      "temas": "crecimiento"
+    },
+    {
+      "ticker": "XLK",
+      "fecha": "2026-08-14 12:00",
+      "titulo": "Which ETFs Will Pay Off Soon? Follow The Money!",
+      "resumen": "S&P 500 investors can't decide if they should be bullish or playing it safe. But corporate profit guidance for next year can provide a clue.",
+      "fuente": "Investor's Business Daily",
+      "sentimiento": 1,
+      "temas": "crecimiento"
+    }
+  ]
+}

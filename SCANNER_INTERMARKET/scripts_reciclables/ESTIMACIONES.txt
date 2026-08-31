@@ -1,0 +1,80 @@
+import yfinance as yf
+import pandas as pd
+import numpy as np
+
+def auditoria_completa_mercado(lista_tickers):
+    hoy = pd.Timestamp.now(tz='UTC')
+    resumen_final = []
+
+    print(f"🚀 INICIANDO AUDITORÍA FORENSE: {len(lista_tickers)} ACTIVOS\n")
+
+    for simbolo in lista_tickers:
+        try:
+            ticker = yf.Ticker(simbolo)
+            # Traemos suficiente historial
+            df_earnings = ticker.get_earnings_dates(limit=32)
+            if df_earnings is None or df_earnings.empty:
+                continue
+
+            df_earnings.index = df_earnings.index.tz_convert('UTC') if df_earnings.index.tz else df_earnings.index.tz_localize('UTC')
+
+            # --- 1. HISTORIAL DE 8 TRIMESTRES (2 AÑOS) ---
+            pasados = df_earnings[df_earnings.index < hoy].sort_index(ascending=False).dropna(subset=['Reported EPS']).head(8)
+            futuros = df_earnings[df_earnings.index >= hoy].sort_index(ascending=True).head(1)
+
+            if pasados.empty: continue
+
+            print(f"=== AUDITORÍA DE {simbolo} (Últimos 8 balances) ===")
+            print(pasados[['EPS Estimate', 'Reported EPS', 'Surprise(%)']].to_string())
+
+            # --- 2. ESTADÍSTICAS ---
+            hits = (pasados['Reported EPS'] > pasados['EPS Estimate']).sum()
+            prob_acierto = (hits / len(pasados)) * 100
+            avg_sorpresa = pasados['Surprise(%)'].mean()
+
+            # --- 3. VOLATILIDAD REAL (Swing de 10 días) ---
+            historia = ticker.history(period="3y")
+            movimientos = []
+            for fecha in pasados.index:
+                inicio, fin = fecha - pd.Timedelta(days=5), fecha + pd.Timedelta(days=5)
+                ventana = historia.loc[inicio:fin]
+                if not ventana.empty:
+                    mov = (ventana['Close'].max() - ventana['Close'].min()) / ventana['Close'].min()
+                    movimientos.append(mov)
+            
+            vol_avg = np.mean(movimientos) * 100 if movimientos else 0
+
+            # --- 4. PROYECCIÓN 2026 ---
+            proxima_cita = "S/D"
+            eps_est = 0
+            if not futuros.empty:
+                proxima_cita = futuros.index[0].strftime('%d-%m-%Y')
+                eps_est = futuros['EPS Estimate'].iloc[0]
+                print(f"\n🔮 PROYECCIÓN PARA EL {proxima_cita}:")
+                print(f"   - EPS Est.: {eps_est} | Prob. Acierto: {prob_acierto}% | Vol. Esperada: +/-{vol_avg:.2f}%")
+            
+            print("-" * 60)
+
+            # Guardar para el panel final
+            resumen_final.append({
+                'Ticker': simbolo,
+                'Fecha 2026': proxima_cita,
+                'EPS Est.': eps_est,
+                'Prob. Acierto': f"{prob_acierto:.0f}%",
+                'Sorpresa Prom.': f"{avg_sorpresa:.2f}%",
+                'Volatilidad': f"{vol_avg:.2f}%"
+            })
+
+        except Exception as e:
+            print(f"❌ Error analizando {simbolo}: {e}")
+
+    # Panel final comparativo
+    df_resumen = pd.DataFrame(resumen_final)
+    print("\n" + "="*30)
+    print("📊 PANEL GENERAL DE BATTLECARDS")
+    print("="*30)
+    print(df_resumen.to_string(index=False))
+
+# LISTA DE ACTIVOS A AUDITAR
+activos = ["JPM", "GS", "KO", "PEP", "AMD", "TSM", "MSFT", "TSLA"]
+auditoria_completa_mercado(activos)

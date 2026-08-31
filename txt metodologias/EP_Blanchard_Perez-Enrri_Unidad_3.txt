@@ -1,0 +1,2233 @@
+Macroeconomía
+Teoría y Política Económica con
+aplicaciones a América Latina
+Olivier Blanchard
+Daniel Pérez Enrri
+Prentice Hall
+México, 2000
+Este material se utiliza con fines
+exclusivamente didácticos
+1
+
+CAPÍTULO 11. LA APERTURA DE LOS MERCADOS DE BIENES Y
+FINANCIEROS
+Hasta ahora hemos supuesto que la economía no interactuaba con el resto del mundo. Es hora ya de
+abandonar esté supuesto. Casi todas las economías del mundo son abiertas y en ellas ejerce una
+influencia extraordinaria lo que ocurre en el resto del mundo.
+La apertura engloba tres conceptos distintos:
+(1) La apertura de los mercados de bienes: es la oportunidad de los consumidores y de las
+empresas de elegir entre los bienes interiores y los extranjeros. No existe ningún país en el que esta
+posibilidad esté totalmente libre de restricciones: incluso los países más comprometidos con el libre
+comercio tienen aranceles y cuotas sobre, al menos, algunos bienes extranjeros (los aranceles son
+impuestos sobre los bienes importados y las cuotas son restricciones de las cantidades de bienes que
+pueden importarse). Al mismo tiempo, en la mayoría de los países los aranceles medios son bajos y
+están reduciéndose. Por emplear una analogía que ha utilizado Estados Unidos en sus tratos
+comerciales con Japón, en la mayoría de los países el terreno de juego —entre los bienes interiores
+y los extranjeros— no está del todo nivelado, pero normalmente tampoco es muy inclinado.
+(2) La apertura de los mercados financieros: es la oportunidad de los inversores financieros de
+elegir entre los activos financieros interiores y los extranjeros. Hasta hace poco, incluso algunos de
+los países más ricos, como Francia e Italia, tenían controles de capitales, que son rigurosas
+restricciones de los activos extranjeros que sus residentes podían tener, así como de los activos
+interiores que los extranjeros podían tener. Estas restricciones están desapareciendo rápidamente,
+por lo que los mercados financieros mundiales están cada vez más integrados.
+En América Latina, Chile es uno de los países que ha tenido gran racionalidad acerca del manejo de
+los capitales especulativos, con ciertos controles a los ingresos y salidas de fondos de corto plazo.
+Se aplican ciertos impuestos cuando los plazos de retiro de las inversiones financieras y sus
+beneficios son menores que un año.
+Esta medida de política le permitió a Chile tener una recesión menor en 1995, cuando se produjo el
+efecto tequila.
+(3) La apertura de los mercados de factores: es la oportunidad de las empresas de elegir el lugar
+en el que quieren producir y la posibilidad de los trabajadores de elegir el lugar en el que quieren
+trabajar y de emigrar o no. Las tendencias también están claras en este caso: las empresas piensan
+más dónde van a situar sus nuevas plantas. Las compañías multinacionales tienen plantas en
+muchos países y trasladan sus actividades por todo el mundo para aprovechar los bajos costes. Una
+gran parte del debate sobre el Acuerdo Norteamericano de Libre Comercio (NAFTA) firmado en
+1993 por Estados Unidos, Canadá y México giró en torno a sus implicaciones para el traslado de
+empresas norteamericanas a México. La emigración de los países de bajos salarios a otros de
+salarios más altos es una candente cuestión política en numerosos países, desde Alemania hasta
+Estados Unidos.
+Tanto en este como en los tres capítulos siguientes centraremos la atención en las implicaciones de
+la apertura de los mercados de bienes y de los financieros. Dejamos de lado por ahora las
+implicaciones de la apertura de los mercados de factores, debido a que para abordarlas es
+necesario analizar el lado de la oferta de la economía más detalladamente de lo que lo hemos hecho
+hasta aquí. De momento mantendremos nuestro supuesto -nuestro último gran supuesto
+excesivamente simplificador- de que las empresas están dispuestas a ofrecer lo que se demande al
+nivel de precios existente.
+2
+
+En la Argentina, existieron distintos períodos con mayor o menor apertura económica. Hasta la
+década del treinta, la economía se caracterizó por ser más abierta: período primario exportador. Luego,
+devino un período más cerrado al comercio exterior que se extendió hasta la década del ochenta: período de
+sustitución de importaciones. En los 90, la particularidad fue un aumento de la apertura con una reducción
+importante de aranceles.
+Durante muchos años se produjeron ciclos que generaban recesiones con superávit comercial en el
+mercado de bienes, o déficit cuando la economía se expandía. La incorporación de la Argentina en el
+Mercosur dio un gran impulso al comercio internacional.
+Cuadro 11.1A Comercio mundial (en miles de millones de dólares).
+EE.UU Canadá Brasil México Francia Alemania Italia España Japón
+Año Imp. Exp. Imp. Exp. Imp. Exp. Imp. Exp. Imp. Exp. Imp. Exp. Imp. Exp. Imp. Exp. Imp. Exp.
+(CIF) (FOB) (CIF) (FOB) CIF) (FOB) (CIF) (FOB) CIF) (FOB) (CIF) (FOB) (CIF) (FOB) (CIF) (FOB) (CIF) (FOB)
+269,9 200,5 64,8 76.7 16,8 21,9 8,0 21,8 105,9 94,9 152,9 169,4 79,8 72,9 29,2 19,7 126,4 147,0
+1983
+346,4 224,0 77,8 90,3 15,2 27,0 11,8 24,4 104,3 97,6 153,0 171,7 85,2 74,6 28,8 23,5 136,2 169,7
+1984
+352,5 218,8 80,6 91,0 14,3 25,6 14,0 22,1 108,3 101,7 158,5 183,9 87,8 76,7 30,0 24,2 130,5 177,2
+1985
+382,3 227,2 85,1 90,2 15,6 22,3 12,0 16,3 129,4 124,9 190,9 243,3 99,5 97,6 35,1 27,2 127,6 210,8
+1986
+424,4 254,1 92,6 98,2 16,6 26,2 12,7 20,9 158,5 148,4 228,4 294,2 125,2 116,4 49,1 34,2 151,0 231,3
+1987
+459,5 322,4 112,7 117,1 16,1 33,8 19,6 20,8 178,9 167,8 250,5 323,3 138,6 127,9 59,6 40,3 187,4 264,9
+1988
+492,9 363,8 119,8 121,8 19,1 34,4 24,4 23,0 193,0 179,4 269,7 341,2 153,0 140,6 71,0 43,4 209,7 273,9
+1989
+517,0 393,6 124,4 127,6 22,5 31,4 30,0 27,1 234,4 216,6 346,2 410,1 182,0 170,5 87,5 55,6 235,4 287,6
+1990
+508,4 421,7 124,8 127,2 23,0 31,6 38,1 27,3 231,8 217,1 389,9 402,8 182,7 169,5 93,9 60,2 237,0 314,8
+1991
+553,9 448,2 129,3 134,4 23,1 35,8 48,2 27,7 239,6 235,9 402,4 422,3 188,5 178,2 99,8 64,3 233,2 339,9
+1992
+603,4 464,8 138,7 144,7 27,7 38,6 50,1 30,2 201,8 209,3. 327,0 362,1 148,3 169,2 82,4 63,1 241,6 362,2
+1993
+689,2 512,5 155,1 165,4 36,0 43,6 61,0 34,5 230,2 235,9 381,9 427,2 167,7 189,8 92,5 73,3 275,2 397,0
+1994
+771,0 584,7 168,4 192,2 53,8 46,5 46,9 48,4 275,0 286,7 448,1 511,8 204,1 231,3 115,0 91,7 335,9 443,1
+1995
+822,0 625,1 175,2 201,6 56,9 47,7 61,2 59,1 277,7 288,5 458,8 524,2 208,1 252,0 121,8 102,0 349,2 410,9
+1996
+899,0 688,7 200,9 214,4 65,0 53,0 76,7 65,3 269,5 290,0 445,5 512,4 208,3 238,2 122,7 104,4 338,8 421,0
+1997
+224,6 172,9 52,0 53,3 13,4 11,9 21,1 16,1 69,9 74,5 111,4 127,7 54,1 57,4 30,9 26,1 75,2 98,0
+19981Trim.
+234,4 170,6 53,7 54,8 14,6 14,1 21,6 16,9 71,1 75,9 114,3 134,8 55,8 63,2 33,6 28,9 66,9 93,9
+IITrim.
+238,4 160,4 47,9 50,2 15,3 13,5 21,0 15,3 66,5 71,0 111,5 13 L.0 s/í s/í 31,7 24,8 67,4 94,3
+llITrim.
+Fuente: FIDE-Centro de Estudios Avanzados de la Universidad de Lomas de Zamora, Anuario Estadístico.
+Este cuadro nos permite analizar los déficit o superávit comerciales de diferentes países. Por
+ejemplo, en 1994 México presentaba un déficit comercial muy elevado. Las exportaciones fueron de U$S
+34.500 millones y las importaciones, de U$S 61.000 millones. Es decir que si sumamos los déficit
+comerciales de los años anteriores y les agregamos los intereses de la deuda que no están incluidos, era
+razonable pensar que México iba a sufrir, con este déficit en cuenta corriente global, una gran crisis.
+Casos y aplicaciones
+a) Del cuadro 11.1A, observe la evolución del superávit/déficit comercial de Japón y la expansión de
+algunas economías europeas y de Canadá.
+11.1 La apertura de los mercados de bienes
+La figura 11.1 representa la evolución de las exportaciones y las importaciones de Estados Unidos
+desde 1929 en porcentaje del PIB. Las "exportaciones de Estados Unidos" significan las exportaciones
+procedentes de Estados Unidos; las "importaciones de Estados Unidos" significan las importaciones a
+Estados Unidos. Lo que llama la atención es el aumento que han experimentado estos porcentajes con el paso
+del tiempo. Las exportaciones y las importaciones, que todavía en la década de 1960 representaban el 5 %
+del PIB, actualmente representan más del 10 %. Eso significa que Estados Unidos comercia con el resto del
+mundo mucho más que hace treinta años.
+
+Si se examina más de cerca la figura 11.1, también se observan otros dos rasgos interesantes. El
+primero es la enorme reducción experimentada tanto por las exportaciones como por las importaciones entre
+1929 y 1936. Esta reducción se debió en gran parte a la ley Smoot-Hawley de 1930, ahora de infausto
+recuerdo: En un intento encaminado a ayudar a la economía de Estados Unidos a recuperarse de la Gran
+Depresión, esta ley elevó enormemente los aranceles con el fin de aumentar la demanda de bienes interiores.
+Como consecuencia, otros países tomaron represalias (subiendo los aranceles sobre los bienes de Estados
+Unidos) y el comercio mundial experimentó una enorme reducción. Smoot y Hawley, los dos autores de la
+ley, tuvieron otro fugaz momento de fama en 1993 durante un debate televisado sobre el NAFTA, cuando el
+vicepresidente de Estados Unidos, Albert Gore, mostró a H. Ross Perol una foto de ellos para recordar a los
+norteamericanos los peligros que se corrían oponiéndose al libre comercio.
+En segundo lugar, aunque las importaciones y las exportaciones han seguido más o menos la misma
+tendencia, también se han distanciado durante largos períodos, generando durante mucho tiempo superávit o
+déficit comerciales (recuérdese que en el capítulo 3 vimos que la balanza comercial es igual a la diferencia
+entre las exportaciones y las importaciones; cuando es positiva, hay un superávit comercial, y cuando es
+negativa, hay un déficit comercial). Se destacan dos episodios: los grandes superávit comerciales de finales
+de los años 40 y los grandes déficit comerciales de los años 80. Los superávit de fines de los años 40 se
+debieron a la labor de reconstrucción realizada en Europa tras la Segunda Guerra Mundial, lo que provocó
+grandes exportaciones de Estados Unidos a Europa. La causa de los déficit comerciales de mediados de los
+años 80 —que han disminuido, pero no han desaparecido, en los años 90— fue principalmente la
+combinación de las políticas fiscal y monetaria de Estados Unidos. En el capítulo 13 examinaremos estos
+déficit.
+Figura 11.1 Las exportaciones y las importaciones de Estados Unidos en porcentaje del PIB, 1929-1994.
+Las exportaciones y las importaciones de Estados Unidos, que representaban un 5 % del P18 en la década de 1960,
+representan actualmente más del 10 %.
+Fuente: National Income and Produce Accounts.
+Dada la gran cantidad de debates existentes sobre la transformación que está sufriendo Estados
+Unidos como consecuencia del comercio, tal vez parezca sorprendentemente pequeño un volumen de
+comercio (medido a través del cociente entre las exportaciones o las importaciones y el PIB) del orden del
+10% del PIB. Sin embargo, el volumen de comercio no es necesariamente un buen índice del grado de
+apertura. Muchos sectores pueden estar expuestos a la competencia extranjera sin que los efectos de esta
+competencia se traduzcan en un aumento de las importaciones: al ser competitivos y mantener sus precios en
+un nivel suficientemente bajo, estos sectores pueden conservar su cuota del mercado interior y mantener
+alejadas a las importaciones. Eso sugiere que la proporción de la producción agregada formada por bienes
+comerciables —bienes que compiten con los bienes extranjeros en los mercados interiores o extranjeros—
+podría ser un índice de la apertura mejor que la tasa de exportaciones o la de importaciones. Se estima que
+actualmente esa cifra gira en tomo al 50 o 60 % en Estados Unidos.
+Sigue siendo cierto que Estados Unidos, cuyas exportaciones representan alrededor del 10 % del
+PIB, tiene uno de los cocientes entre las exportaciones y el PIB más bajos de los países ricos. El cuadro 11.1
+contiene los cocientes correspondientes a algunos países de la OCDE. Este cuadro muestra que Estados
+Unidos y Japón, cuyos cocientes giran en torno al 10% se encuentran en el extremo inferior de la lista. Los
+países europeos grandes, como Alemania y el Reino Unido, tienen cocientes que son el doble o el triple de
+
+altos. Y la evidencia de algunos países europeos más pequeños llama aun más la atención. ¡Las tasas de
+exportaciones van desde el 36 % en Suiza hasta el 71 % en Bélgica y el 89 % en Luxemburgo! (la tasa de
+Luxemburgo plantea una rara posibilidad: ¿Podría tener un país unas exportaciones mayores que su PIB y,
+por lo tanto, un cociente mayor que 1? La respuesta es afirmativa y se expone en el recuadro titulado
+"¿Pueden ser las exportaciones mayores que el PIB?").
+¿Indican estas cifras que Estados Unidos tiene más barreras comerciales, por ejemplo, que el Reino
+Unido o Luxemburgo? No. Los principales factores que explican estas diferencias son la geografía y el
+tamaño. La distancia de otros mercados explica en buena medida el bajo cociente japonés. Por otra parte,
+cuanto menor sea el país, más ha de especializarse en unos cuantos productos y, por lo tanto, tiene un
+elevado nivel tanto de importaciones como de exportaciones: el PIB de Bélgica representa alrededor de un
+5% del PIB de Estados Unidos y el de Luxemburgo representa menos del 0,3 %. Es evidente que ni Bélgica
+ni Luxemburgo pueden producir toda la gama de bienes que produce, por ejemplo, Estados Unidos.
+TEMAS CONCRETOS
+¿Pueden ser las exportaciones mayores que el PIB?
+¿Puede tener un país unas exportaciones mayores que su PIB y, por lo tanto, una tasa de
+exportaciones mayor que 1?
+A primera vista, parece que la respuesta es que los países no pueden exportar más de lo que
+producen, por lo que la tasa debe ser menor que 1. Pero esta respuesta no es correcta. La clave está en darse
+cuenta de que las exportaciones y las importaciones pueden ser exportaciones e importaciones de bienes
+intermedios.
+Resultará útil un ejemplo. Pensemos en un país que importa bienes intermedios por un valor de U$S
+1.000 millones. Supongamos que los transforma en bienes finales utilizando solamente trabajo. Supongamos
+que los salarios totales son iguales a U$S 200 millones y que no hay beneficios. El valor de los bienes finales
+es, pues, igual a 1.200 millones. Supongamos que se exportan bienes finales por un valor de 1.000 millones y
+que el resto se consume en el país.
+Por lo tanto, las exportaciones y las importaciones son ambas iguales a 1.000 millones. ¿Cuál es el
+PIB de la economía? Recuérdese que el PIB es el valor añadido en la economía; por consiguiente, es igual a
+200 millones, por lo que el cociente entre las exportaciones y el PIB es igual a 5.
+Las exportaciones pueden ser, pues, superiores al PIB. Es lo que ocurre, de hecho, en muchos países
+pequeños que viven de las actividades portuarias y de importación-exportación, en los que las exportaciones
+y las importaciones son, de hecho, muy superiores al PIB. Ocurre incluso en pequeños países en los que la
+industria manufacturera desempeña un importante papel. Singapur es un país de ese tipo. En 1994, su
+cociente entre las exportaciones y el PIB fue del 140 %.
+Cuando hablemos en el texto de las exportaciones y las importaciones, nos referiremos normalmente
+a las exportaciones y las importaciones de bienes finales, pero solo para simplificar el análisis. Recuérdese
+que las exportaciones y las importaciones, tal como se miden, se refieren a las exportaciones y las
+importaciones de todos los bienes y servicios, desde las materias primas hasta los productos intermedios y
+los bienes finales.
+Cuadro 11.1 Cocientes entre las exportaciones y el PIB de algunos países de la OCDE, 1994.
+País Tasa de exportaciones País Tasa de exportaciones
+(%) (%)
+Estados Unidos 10,6 Suiza 35,8
+Japón 9,4 Austria 38,0
+Alemania 33,0 Bélgica 71,2
+Reino Unido 26,0 Luxemburgo* 89,0
+*La cifra de Luxemburgo se refiere a 1992.
+Fuente: FMI International Financial Statistics, diciembre de 1995.
+¿En qué sentido nos obliga la apertura de los mercados de bienes a revisar la forma de examinar su
+equilibrio? Cuando hemos analizado las decisiones de los consumidores en el mercado de bienes, hasta ahora
+hemos centrado la atención en su decisión de ahorrar o de consumir. Pero cuando los mercados de bienes
+
+están abiertos, los consumidores tienen que tomar otra gran decisión: comprar bienes interiores o comprar
+bienes extranjeros. También han de tomarla otros compradores —las empresas, el Estado— y los
+compradores extranjeros. Si deciden comprar más bienes interiores, aumenta su demanda y, por lo tanto,
+también la producción interior. Si deciden comprar más bienes extranjeros, entonces es la producción
+extranjera la que aumenta.
+En las decisiones de los consumidores y de las empresas es fundamental el precio de los bienes
+extranjeros expresado en bienes interiores. Este precio relativo se denomina tipo de cambio real. Este no
+puede observarse directamente, por lo que el lector no lo encontrará hojeando el periódico; lo que encontrará
+en él serán los tipos de cambio nominales, es decir, los precios relativos de las monedas. Más adelante, en
+este capítulo se examinarán estos y cómo se utilizan para calcular los tipos de cambio reales.
+Las exportaciones e importaciones argentinas y el Mercosur
+Evolución del Mercosur
+El proceso de integración latinoamericana comenzó a mediados de la década de 1950. Desde
+entonces se desarrollaron diversos mecanismos de integración, tales como la Asociación Latinoamericana de
+Libre Comercio, el Mercado Común Centroamericano y la Comunidad Económica del Caribe. Estos modelos
+se sustentaban en una industrialización encuadrada en los parámetros del mercado mundial y su
+globalización.
+En la década de 1970 se verificó un fuerte incremento del intercambio intrarregional como
+consecuencia fundamentalmente del crecimiento general del comercio, y no del efecto de un esfuerzo de
+integración comercial de los países de la región. Los modelos teóricos integracionistas de los años 80 tenían
+como objetivo principal fortalecer la cooperación y la integración regionales como un medio para insertarse
+de manera activa en el mercado mundial, sumándose al desarrollo de este tanto en materia de producción
+como en tecnología y comercio. En tal sentido, se instituyó la Asociación Latinoamericana de Integración
+(ALADI), suscripta por los gobiernos de la Argentina, Bolivia, Brasil, Colombia, Chile, Ecuador, México,
+Paraguay, Perú, Uruguay y Venezuela.
+Es así que el contexto internacional dentro del cual se inscriben América Latina y el Caribe en los
+años 90 muestra tendencias que revelan la conformación de poderosos bloques o conglomerados económicos
+y financieros.
+El proceso de constitución del Mercosur
+Dentro de los mencionados acuerdos de carácter parcial celebrados en el marco de la ALADI se
+destaca la Declaración de Iguazú, firmada entre los gobiernos de la Argentina y Brasil en noviembre de
+1985. A través de ella se dispuso la creación de la Comisión Mixta de Cooperación e Integración Bilateral,
+orientada a incrementar la negociación intrarregional y con el resto del mundo.
+El 29 de julio de 1986 se firmó, en Buenos Aires, el Acta para la Integración Argentino-Brasileña
+(Tratado Alfonsín-Sarney), instrumento que estableció el Programa de Integración y Cooperación
+Económica entre ambos países (PICE). Este programa incluía acuerdos comerciales y fijaba mecanismos de
+desgravación arancelaria y eliminación de medidas paraarancelarias, a partir de la incorporación de
+productos en listas comunes mutuamente convenidas.
+El proceso culminó el 29 de noviembre de 1988 con la firma del Tratado de Integración,
+Cooperación y Desarrollo entre la Argentina y Brasil (PICAB), el cual entró en vigencia el 23 de agosto de
+1989.
+Este conjunto de acuerdos ha permitido incrementar sensiblemente las corrientes comerciales entre
+los países mencionados, constituyéndose en la base para la profundización del proceso de integración
+regional.
+El Tratado de Asunción
+El proceso de integración fue consolidándose hasta culminar, el 26 de marzo de 1991, con el Tratado
+de Asunción, mediante el cual los gobiernos de la Argentina, Brasil, Paraguay y Uruguay dispusieron
+constituir a partir de 1995 un mercado común, cuyos principales fundamentos se mencionan seguidamente:
+(cid:131) Libre comercio de bienes, servicios y factores productivos entre los países, mediante la
+eliminación de los derechos aduaneros y restricciones paraarancelarias.
+
+(cid:131) Fijación de un arancel externo común y adopción de una política comercial común en
+relación con terceros Estados o bloques regionales y la coordinación de las posiciones en
+foros económicos comerciales regionales e internacionales.
+(cid:131) Coordinación de políticas macroeconómicas y de comercio exterior, agrícolas,
+industriales, fiscales, monetarias, cambiarías y de capitales, de servicios, aduaneras, de
+transportes y comunicaciones y otras que se acuerden.
+Durante el período de transición, se adoptaron diversos instrumentos para la constitución del
+mercado común; merece mencionarse el Programa de Liberación Comercial, consistente en rebajas
+arancelarias progresivas, lineales y automáticas. A esto se le agrega la eliminación de restricciones no
+arancelarias o medidas de efectos equivalentes, así como otras limitaciones al comercio entre los países del
+bloque y los acuerdos sectoriales dirigidos a optimizar la utilización y movilidad de los factores de
+producción y a alcanzar escalas operativas eficientes.
+En lo que atañe a la estructura orgánica del Mercosur, se señala que el Consejo del Mercado Común
+se creó como el órgano superior del bloque, correspondiéndole la conducción política y la toma de decisiones
+para asegurar la consecución de los objetivos y plazos establecidos. Asimismo, el grupo Mercosur es el
+organismo que tiene como función controlar el cumplimiento del Tratado, proponiendo medidas tendientes a
+la aplicación del Programa de Liberación Comercial, a la coordinación de las políticas macroeconómicas y a
+la negociación de los acuerdos frente a terceros países; además, se fija el cronograma de trabajo que asegura
+el avance hacia la constitución del Mercosur.
+En síntesis, los acuerdos alcanzados en las cumbres de Buenos Aires y de Ouro Preto (Brasil) en
+agosto y diciembre de 1994, respectivamente, sentaron las bases para la concreción definitiva del Mercosur,
+el cual se inició el 1° de enero de 1995 en forma de unión aduanera.
+Características
+El Mercosur ocupa un espacio territorial de 11.9 millones de km2, lo que significa el 65 % del área
+total de América Latina (18 millones de km2) y casi el 9 % de la superficie mundial. Supera en casi cuatro
+veces al espacio de la UE. Tiene alrededor de 204 millones de habitantes, que constituyen cerca del 50 % de
+la población latinoamericana y más de la mitad (55 %) de la UE (372 millones). El PIB del bloque durante
+1996 representó el 3.7 % del producto mundial y fue de alrededor de U$S 1 billón, de los cuales el 97 % fue
+generado entre Brasil y la Argentina. Asimismo, el intercambio comercial en el mismo año superó los U$S
+160 millones, magnitud cercana al 40 % de las transacciones de América Latina. Adicionalmente, cabe
+destacar que en el Mercosur están radicadas las 40 empresas más importantes de América Latina.
+En virtud de lo mencionado, el Mercosur se configura como el cuarto gran conglomerado mundial,
+luego de la UE, el NAFTA y los países pertenecientes a la Cuenca del Pacífico.
+Cuadro 11.1B El comercio de la Argentina con el Mercosur (en millones de dólares).
+Ex porta c io nes I mp o rta ci o nes Sa l do
+Brasil Paraguay Uruguay Mercosur Brasil Paraguay Uruguay Mercosur Brasil Paraguay Uruguay Mercosur
+Período
+1980 765.0 189.4 182.3 1136.7 1072.0 85.0 148.0 1305.0 -307.0 104.4 34.3 -168.3
+1981 595.1 169.2 128.1 892.4 893.0 92.0 121.0 1106.0 -297.9 77.2 7.1 -213.6
+1982 567.6 145.1 155.5 868.2 688.0 49.0 90.0 827.0 -120.4 96.1 65.5 41.2
+1983 358.3 87.2 76.8 522.3 667.0 39.0 89.0 795.0 -308.7 48.2 -12.2 -272.7
+1984 478.2 94.4 82.9 655.5 831.0 50.0 98.0 979.0 -352.8 44.4 -15.1 -323.5
+1985 496.3 72.2 99.0 667.5 612.0 20.0 66.0 698.0 -115.7 52.2 33.0 -30.5
+1986 698.1 67.4 129.3 894.8 691.0 47.0 93.0 831.0 7.1 20.4 36.3 63.8
+1987 539.3 60.9 168.4 768.6 819.0 70.0 114.0 1003.0 -279.7 -9.1 54.4 -234.4
+1988 607.9 79.9 187.4 875.2 971.0 68.0 131.0 1170.0 -363.1 11.9 56.4 -294.8
+1989 1124.0 96.3 207.7 1428.0 721.0 49.0 99.0 869.0 403.0 47.3 108.7 559.0
+1990 1422.7 147.4 262.6 1832.7 715.1 39.8 78.5 833.4 707.6 107.6 184.1 999.3
+1991 1488.5 177.9 310.8 1977.2 1531.9 40.3 166.0 1738.2 -43.4 137.6 144.8 239.0
+1992 1671.3 271.9 383.6 2326.8 3366.6 62.4 247.4 3676.4 - 209.5 136.2 -1349.6
+1695.3
+1993 2814.2 357.8 512.0 3684.0 3663.9 67.4 297.4 4028.7 -849.7 290.4 214.6 -344.7
+1994 3654.8 498.5 650.4 4803.7 4325.1 63.3 395.4 4783.8 -670.3 435.2 255.0 19.9
+1995 5484.1 631.4 654.2 6769.7 4174.5 139.8 279.3 4593.6 1309.6 491.6 374.9 2176.1
+1996 6614.8 584.2 719.4 7918.4 5325.7 182.1 292.6 5800.4 1289.1 402.1 426.8 2118.0
+1997 8127.1 623.5 840.1 9590.7 6914.0 319.6 371.0 7604.6 1213.1 303.9 469.1 1986.1
+1997(*) 7484.9 569.6 763.5 8818.0 6331.1 294.1 330.8 6956.0 1153.8 275.5 432.7 1862.0
+1998(*) 7278.2 542.4 755.4 8576.0 6612.4 326.6 487.8 7426.8 665.8 215.8 267.6 1149.2
+
+(*) Primeros once meses.
+Fuentes: Centro de Estudios Avanzados de la Universidad de Lomas de Zamora-FIDE
+La apertura del comercio con Brasil, en un proceso de integración tendiente a una unión aduanera, ha
+cambiado estructuralmente el perfil del comercio en el área del Mercosur. Brasil y la Argentina representan
+más del 90 % de todas las transacciones. También puede observarse en el cuadro siguiente un aumento de las
+manufacturas de origen industrial (MOI), ya sean bienes de consumo o bienes de capital.
+En síntesis, la apertura a un mercado integrado regionalmente ha producido cierto desvío del
+comercio de otras áreas del mundo hacia la región del Mercosur que tiene un arancel externo común. Esta
+protección ha generado no solo una expansión muy dinámica en las exportaciones e importaciones de bienes
+y servicios, sino también un cambio en las estructuras del comercio.
+La composición de las exportaciones argentinas ha tendido a incorporar otras manufacturas de origen
+industrial (MOI) y no solamente productos primarios o manufacturas de origen agropecuario (MOA). .
+Luego de la devaluación de Brasil en 1999, el Mercosur se encontró en una encrucijada.
+Principalmente, porque ha implicado una pérdida relativa de la competitividad de la Argentina con respecto a
+Brasil, dado que aquella tiene convertibilidad y anclaje cambiario. La dinámica del comercio tuvo un freno
+en 1999.
+Cuadro 11.1 C Las exportaciones argentinas al Mercosur (en millones de dólares).
+Denominación 1990 1991 1992 1993 1994 1995 1996 1997 1998(•)
+Total general 1832.3 1974.2 2327.0 3661.4 4740.0 6769.8 7918.4 9290.4 8576.3
+Productos primarios 580.7 620.1 772.2 909.5 1121.2 1425.5 1540.2 1560.7 1680.2
+Animales vivos 2.5 2.1 2.5 4.2 40.1 80.0 28.7 16.0 3.0
+Pescados y mariscos sin elaborar 44.8 9.5 4.1 9.3 10.7 12.7 19.4 19.5 18.7
+Miel 2.1 1.4 0.5 1.3 1.4 2.6 1.8 1.6 2.2
+Hortalizas y legumbres sin elaborar 41.2 64.2 67.0 74.4 137.7 141.6 130.5 214.3 250.3
+Frutas frescas 75.0 74.7 53.9 55.6 55.3 141.4 155.0 139.3 116.8
+Cereales 379.3 381.4 556.6 726.4 721.6 922.9 943.2 839.3 1083.4
+Semillas y frutos oleaginosos 5.0 58.8 51.5 5.8 24.9 9.0 22.6 17.0 19.1
+Tabaco sin elaborar 3.6 7.5 8.9 6.1 14.3 15.1 16.7 28.4 21.5
+Lanas sucias 1.9 2.9 1.8 1.1 9.2 14.5 8.0 3.6 4.5
+Fibra de algodón 7.1 9.6 17.0 14.1 92.5 69.6 194.5 253.8 105.6
+Resto de primarios 18.2 8.0 8.4 11.2 13.5 16.1 19.8 27.9 46.1
+Manufacturas de origen 366.7 402.3 360.0 512.1 858.0 1231.6 1322.7 1442.3 1314.6
+agropecuario (MOA)
+Carnes 56.7 30.7 19.9 30.0 82.5 136.7 116.3 95.9 50.2
+Pescados y mariscos elaborados 2.0 31.6 23.8 40.2 66.6 107.9 123.2 127.4 91.8
+Productos lácteos y huevos 63.1 37.5 23.0 60.0 117.4 220.0 230.0 236.8 237.2
+Otros productos de origen animal 0.5 0.7 0.5 0.8 1.1 1.4 1.6 1.7 1.2
+Frutas secas o procesadas 10.5 14.0 10.9 12.7 19.6 17.8 19.9 18.0 17.4
+Café, té, yerba mate y especias 3.9 3.6 5.0 6.5 7.5 17.5 15.8 13.7 10.2
+Productos de molinería 25.4 33.0 24.1 31.1 59.6 59.2 116.3 158.3 112.9
+Grasas y aceites 30.4 50.7 44.1 75.3 167.6 144.8 117.8 138.8 201.2
+Azúcar y artículos de confitería 3.7 7.9 20.2 14.2 14.1 35.2 39.6 39.6 39.1
+Preparados hortalizas, legumbres y 61.1 48.3 34.3 41.3 53.4 85.6 110.7 115.7 118.1
+frutas
+Bebidas, líquidos alcohólicos y 13.2 8.4 17.6 22.4 36.0 74.2 49.5 56.3 49.7
+vinagre
+Residuos y desperdicios de la ind. 0.9 1.5 2.2 5.7 6.7 11.3 19.4 35.9 13.3
+aIim.
+Extractos curtientes y tintóreos 1.6 1.0 2.1 2.0 1.5 1.9 3.3 3.0 2.1
+Pieles y cueros 68.1 110.7 100.5 120.7 131.9 131.0 122.2 115.5 99.0
+Lanas elaboradas (lanas y pelos) 1.1 0.5 2.0 0.8 1.0 1.4 0.5 0.8 0.4
+Resto de manufacturas de origen 24.5 22.2 29.8 48.4 91.5 185.7 236.6 284.9 270.8
+agropec.
+Manufacturas de origen industrial 776.5 796.6 906.2 1567.1 1992.2 3167.1 3504.5 4894.8 4881.8
+(MOI)
+Productos químicos y conexos 174.2 174.5 208.3 243.3 336.4 433.3 482.3 296.8 592.0
+Materias plásticas artificiales 55.1 61.7 78.3 82.5 109.1 191.5 221.5 218.6 228.0
+Caucho y sus manufacturas 21.7 17.0 15.7 29.5 53.7 79.6 79.5 94.5 87.7
+Manufac. de cuero, marroquinería, 0.5 1.4 6.0 6.1 6.3 7.8 3.1 5.7 5.4
+etc.
+Papel, cartón, imprenta y 56.9 36.0 27.2 39.7 60.7 165.4 184.1 221.4 216.2
+publicaciones
+Textiles y confecciones 60.7 62.5 53.8 93.9 131.2 260.0 225.1 242.8 211.5
+
+Calzado y sus partes componentes 6.8 9.9 7.5 15.5 19.9 52.9 38.5 70.9 38.6
+Manufacturas de piedras, yeso, etc. 26.7 19.0 17.9 24.5 33.5 51.1 43.5 55.9 44.3
+Piedras, metales preciosos y sus 0.3 0.1 0.1 0.9 1.2 1.0 1.5 0.3 0.4
+manufac.
+Metales comunes y sus manufacturas 653 74.0 63.1 115.9 94.0 166.1 180.2 232.7 214.0
+Máquinas y aparatos, material 177.8 182.9 171.5 303.9 357.3 576.2 577.1 842.4 609.3
+eléctrico
+Material de transporte 96.4 137.9 237.4 583.8 756.8 1121.0 1396.7 2522.3 2566.6
+Otras manufacturas de origen 33.9 19.7 19.4 27.6 32.1 61.2 71.4 90.5 67.8
+industrial
+Combustibles y energía 108.4 155.2 288.6 672.7 768.6 945.6 1551.0 1392.6 699.7
+Derivados de combustibles minerales 108.4 155.2 288.6 672.7 768.6 945.6 1551.0 1392.6 699.7
+(*) Primeros once meses.
+Fuentes: INDEC-FIDE.
+Casos y aplicaciones
+a) En el cuadro 11.1B, observe la evolución de las exportaciones e importaciones a los
+países del Mercosur. ¿Cuándo se comienza a tener saldo de balanza comercial
+positivo?
+b) Del cuadro 11.1C, ¿cuál de los rubros de las exportaciones ha aumentado en mayor
+proporción? ¿A qué se debe dicho cambio?
+Gráfico 11.1 D Evolución de las exportaciones y las importaciones en la Argentina (1987-1998).
+Gráfico 11.1E Evolución de las exportaciones y las importaciones en Brasil (1990-1998) en dólares constantes.
+En ambos países puede observarse que a partir de la implementación de los planes de Estabilización
+(Plan de Convertibilidad 1990 en la Argentina y Plan Real 1994 en Brasil), la balanza comercial pasó a ser
+deficitaria. Esto es consecuencia principalmente de un aumento de las importaciones a una mayor tasa de
+crecimiento que las exportaciones. Existen diversas opiniones que tienden a explicar y dar una solución a
+dichos desajustes. Algunos economistas han opinado que era el resultado previsible de la combinación de la
+
+apreciación de las monedas, la apertura comercial y el ingreso de capitales especulativos. Tal situación era
+insostenible a mediano plazo porque aumentaba los pasivos externos y provocaba una competencia desleal.
+Otros, en cambio, atribuyeron dicho aumento a un cambio de estructura en las economías que tenía
+como objetivo el aumento de la productividad. Por lo tanto, el desajuste de la cuenta corriente era un signo
+positivo porque facilitaría el crecimiento.
+Los tipos de cambio nominales
+Los tipos de cambio nominales entre las monedas se expresan de dos formas: (1) el número de
+unidades de la moneda extranjera que recibimos a cambio de una unidad de la moneda nacional o (2) el
+número de unidades de la moneda nacional que podemos obtener a cambio de una unidad de la moneda
+extranjera. Por ejemplo, en diciembre de 1995 el tipo de cambio nominal entre el dólar y la moneda alemana,
+el marco alemán (DM), se expresaba de la forma siguiente: DM 1,43 por U$S 1 o, en otras palabras, U$S
+0,70 por DM 1.
+En este libro, definimos el tipo de cambio nominal de la siguiente manera: es el número de
+unidades de la moneda nacional que podemos obtener por una unidad de la moneda extranjera o, en otras
+palabras, el precio de la moneda extranjera expresado en la moneda nacional; lo representamos por medio
+de E. Por ejemplo, cuando observamos el tipo de cambio entre Alemania y Estados Unidos desde el punto de
+vista de este último país (por lo que la moneda nacional es el dólar), E representa el número de dólares que
+pueden obtenerse por DM 1: por ejemplo, en diciembre de 1995, 0,70. Para abreviar, hablamos del tipo de
+cambio U$S/DM (dólares por marco)1. Para convertir los dólares en marcos, dividimos simplemente por E.
+Para convertir los marcos en dólares, multiplicamos por E.
+Los tipos de cambio entre las monedas extranjeras y el dólar varían todos los días; de hecho, cada
+minuto. Estas variaciones se denominan apreciaciones nominales o depreciaciones nominales (apreciaciones
+o depreciaciones, para abreviar). Una apreciación de la moneda nacional es una subida de su precio
+expresado en una moneda extranjera. Dado que, según nuestra definición, el tipo de cambio es el precio de la
+moneda extranjera expresado en la moneda nacional, una apreciación corresponde a una reducción del tipo
+de cambio, E.
+Este razonamiento es más intuitivo de lo que parece a primera vista: consideremos el caso del dólar y
+el marco (de nuevo desde el punto de vista de Estados Unidos). Una apreciación del dólar significa que su
+valor sube expresado en marcos. En otras palabras, el marco vale menos dólares, lo cual equivale a decir que
+el tipo de cambio ha bajado. Asimismo, una depreciación del dólar significa que el dólar está bajando
+expresado en marcos y, por lo tanto, corresponde a un aumento de E2.
+Aunque es casi seguro que el hecho de que una apreciación corresponda á una bajada del tipo de
+cambio y una depreciación a una subida confundirá al lector al principio —confunde a muchos economistas
+1 Advertencia: la convención de definir los tipos de cambio romo el precio de la moneda extranjera expresado en la
+moneda nacional se sigue de una manera bastante general en los artículos y libros de economía publicados en Estados
+Unidos. Sin embargo, en Europa los economistas suelen utilizar otra definición que describe los tipos de cambio como
+el precio de la moneda nacional expresado en la moneda extranjera (por ejemplo, dólares por libra en el Reino Unido).
+2 Tal vez haya visto el lector otros dos términos para referirse a las variaciones de los tipos de cambio: "revaluaciones"
+y "devaluaciones". Estos se emplean cuando los países tienen tipos de cambio fijos, sistema en el que dos o más países
+mantienen un tipo de cambio fijo entre sus monedas. En esa clase de sistema, las reducciones del tipo de cambio, que
+son, por definición, sucesos infrecuentes, se denominan revaluaciones (en lugar de "apreciaciones"). Las subidas del
+tipo de cambio se denominan devaluaciones (en lugar de "depreciaciones"). En el capítulo 13 analizamos
+detalladamente los tipos de cambio fijos. En la Argentina, ron la ley de convertibilidad la relación nominal del tipo de
+cambio es de 1 a 1, es decir, Si = USS 1. En las décadas del setenta y ochenta, la Argentina tenía lo que se denomina
+devaluaciones periódicas de sus monedas respecto del dólar. Lo población y los economistas se refieren mas a la
+relación pesos/dólares En Brasil, la relación está dada por real/dólar; cuando se produjo la devaluación del real en
+1999, el dólar pasó de valer 1 real a valer 2 reales en el mercado. ¿Qué significa? Podríamos decir también que 2
+reales por dólares equivalente a 50 centavos de dólar por real. En la Argentina, también en la década del ochenta se
+produjeron muchas "devaluaciones" entendidas como el caso mencionado de Europa, valor de la moneda local en
+términos de la moneda extranjera.
+Estos criterios pueden confundirse con los adoptados en Estados Unidos, pero se deja constancia de que significan lo
+mismo.
+En síntesis, se pueden medir las relaciones entre monedas según que se incorpore la moneda extranjera con respecto
+ala local, dólares por real o dólares por pesos, y aquí nos referimos a apreciación o bien, real por dólar o pesos por
+dólar como el enfoque europeo que podemos llamar revaluación o devaluación.
+
+profesionales—, acabará pareciéndole natural a medida que comprenda mejor la macroeconomía de una
+economía abierta. Hasta entonces tal vez le resulte útil consultar la figura 11.2, que resume la terminología.
+Concluidos los prolegómenos, en la figura 11.3 representamos la evolución del tipo de cambio entre
+el dólar y el marco desde 1970. Este tiene dos importantes características:
+1. La subida tendencial del tipo de cambio, la depreciación tendencial del dólar frente al marco
+en los últimos veinticinco años. En 1970, un marco valía algo más de U$S 0,25.En el último
+trimestre de 1994 —que es la última observación de la figura—, valía 0,65. Y, como hemos
+visto antes, en diciembre de 1995 el dólar se había depreciado aun más y el marco valía 0,70,
+es decir, casi tres veces más que en 1970.
+2. Las grandes fluctuaciones del tipo de cambio. En el espacio de cinco años, a principios de
+los años 80, el valor del marco bajó de 0,57 a 0,30. En otras palabras, la tasa media de
+apreciación del dólar registrada desde principios de 1980 hasta finales de 1984 fue del 12 %
+al año. Esta apreciación se invirtió totalmente en los tres años siguientes: entre principios de
+1985 y fines de 1987, la tasa anual media de depreciación del dólar con respecto al marco
+fue del 20 %. A fines de 1987, el marco volvía a valer cerca de 0,60.
+La figura 11.3 solo nos indica las oscilaciones del precio relativo de las dos monedas. Sin embargo,
+para los turistas alemanes que estén considerando la posibilidad de visitar Estados Unidos, la cuestión no es
+únicamente saber cuántos dólares pueden obtener por DM 1, sino también cuántos bienes comprarán con los
+dólares. De poco les sirve obtener más dólares por marco si en Estados Unidos los precios de los bienes
+expresados en dólares han subido proporcionalmente. Asimismo, la empresa norteamericana que esté
+pensando en exportar a Alemania necesita saber no solo cuál es el tipo de cambio nominal, sino también el
+precio en marcos de los productos alemanes con los que tendrá que competir. Esto nos acerca más a donde
+queremos llegar, a saber, el cálculo de los tipos de cambio reales.
+Tipo de cambio nominal Precio del DM en dólares
+(E) Número de dólares por DM
+(S/DM)
+Apreciación del dólar: Baja el precio del DM en
+Sube el valor del dólar dólares
+o
+Cae el número de dólares por
+DM
+E ↓
+Depreciación del dólar: Sube el precio del DM en
+Baja el valor del dólar dólares
+o
+Sube el número de dólares por
+DM
+E↑
+Figura 11.2 El tipo de cambio nominal, la apreciación y la depreciación: Estados Unidos y Alemania (desde al punto
+de vista de Estados Unidos)
+
+Figura 11.3 El tipo de cambio nominal entre el dólar y el marco alemán, 1970-1994.
+En la primera mitad de la década de 1980, el dólar experimentó una brusca apreciación y en la segunda mitad, una
+depreciación igualmente brusca.
+Fuente: OCDE, Main Economic Indicators
+Cuadro 11.3A Tipos de cambio nominales de algunos países.
+Cotizaciones con respecto al dólar (promedios anuales).
+Tasa de variación
+1995 1996 1997 1998 1999(*) 99/95 99/98
+Alemania 1.43 1.50 1.74 1.75 1.82 27.1 3.7
+Chile 396.8 423.00 419.42 460.41 493.23 24.3 7.1
+Corea del Sur 771.27 838.00 965.25 1388.13 1200.30 55.6 -13.5
+Japón 103.21 108.82 121.66 130.86 119.12 15.4 -9.0
+Malasia 2.50 2.52 2.87 3.90 3.80 52.0 -2.5
+México 7.70 7.90 7.89 9.19 9.69 25.8 5.4
+Singapur 1.42 1.40 1.49 1.66 1.71 20.2 2.7
+Taiwán 26.49 27.50 28.92 33.42 32.61 23.1 -2.4
+Tailandia 25.19 25.60 31.76 40.23 37.16 47.5 -7.6
+(*) Primeros seis meses.
+Fuentes: INDEC; FIDE.
+Del cuadro de referencia puede concluirse que durante el período 1995-1999, la mayoría de los
+países tuvieron una depreciación de sus monedas con respecto al dólar. Como ejemplo, analicemos los casos
+de los países asiáticos como Japón, Corea y Tailandia, donde las monedas tuvieron devaluaciones
+importantes que significaron una apreciación del dólar con respecto a esas monedas o, lo que es lo mismo,
+una depreciación de las monedas asiáticas respecto al dólar.
+Cuadro 11.3B Evolución de los tipos de cambio (unidad de moneda por dólar estadounidense).
+Año Franco Marco Libra Yen
+Deg francés Aleman esterlina
+1984 1.01 8.74 2.85 0.86 237.50
+1985 0.92 8.99 2.94 0.77 238.50
+1986 0.83 6.93 2.17 .68 168.50
+1987 0.72 6.01 1.80 0.61 144.64
+1988 0.74 5.96 1.76 0.56 128.15
+1989 0.77 5.38 1.88 0.61 137.96
+1990 0.70 5.45 1.62 0.56 144.79
+1991 0.71 5.64 1.66 0.57 134.71
+1992 0.72 5.29 1.56 0.52 126.65
+1993 0.72 5.66 1.65 0.67 111.20
+1994 0.69 5.55 1.62 0.65 102.36
+1995 0.67 4.95 1.43 0.64 103.21
+1996 0.70 5.12 1.50 0.64 108.82
+1997 0.74 5.84 1.73 0.61 121.18
+1998 0.72 5.88 1.76 0.60 130.77
+Fuentes: CEPAL; FIDE
+
+Si quisiéramos observar otros países en una serie más extensa, durante quince años, veríamos que los
+tipos de cambio tuvieron fluctuaciones. Por ejemplo, el valor del yen con respecto al dólar era alto en los
+años 80, se fortaleció a principios de los 90 pero en 1998 se produjo una devaluación que significó más yen
+por cada dólar o, lo que es lo mismo, el dólar se fortaleció con respecto al yen. Este análisis podría ser
+realizado como trabajo práctico para todas las monedas del cuadro.
+Otro ejemplo para comprender esas relaciones en esta serie puede verse con respecto al marco
+alemán, lo que ya fue explicado en la figura 11.3. En 1985, por cada dólar podían comprarse tres marcos, es
+decir, la relación era de tres marcos por dólar o bien, 1/3 de dólar por marco alemán.
+En 1994 este valor fue de DM 1,62 por dólar o, lo que es lo mismo, con cada dólar comprábamos
+menos marcos. Analizando la evolución del marco desde 1985, este se fue fortaleciendo con respecto al
+dólar, dado que debíamos dar cada vez menos marcos por dólar. En 1994, el marco se fortaleció con respecto
+al dólar o, lo que es lo mismo, los dólares por marcos alemanes aumentaron, es decir, se debilitó el dólar con
+respecto al marco, y el tipo de cambio "E" se incrementó en términos de dólares por marcos.
+La dificultad de este análisis surge de la relación que se decida entre las monedas. Cuando decimos
+que el real se devaluó de uno a dos, pasamos de un real por dólar a dos reales: decimos que el tipo de cambio
+de reales por dólares se incrementó. En otras palabras, el real se debilitó respecto del dólar y este se
+fortaleció.
+Los tipos de cambio reales
+¿Cómo calculamos el tipo de cambio real entre Estados Unidos y Alemania?
+Supongamos que Alemania solo produjera un bien, por ejemplo, automóviles Mercedes SL (éste es
+uno de esos supuestos totalmente contrarios a la realidad, pero seremos más realistas más adelante), y que
+Estados Unidos también produjera solamente un bien, por ejemplo, el Cadillac Seville.
+Sería fácil calcular el tipo de cambio real, es decir, el precio de los bienes alemanes expresado en
+bienes norteamericanos. En Alemania, el precio de un Mercedes es de DM 100.000. El primer paso
+consistiría en convertir este precio en un precio en dólares. Un marco vale U$S 0,70, por lo que el precio de
+un Mercedes en dólares es 100.000 ∞ 0,70 = U$S 70.000. El segundo paso sería calcular el cociente entre el
+precio del Mercedes en dólares y el precio del Cadillac en dólares. En Estados Unidos, el precio de un
+Cadillac es de U$S 41.000. Por lo tanto, el precio de un Mercedes expresado en Cadillacs —es decir, el tipo
+de cambio real entre Estados Unidos y Alemania— sería U$S 70.000/U$S 41.000 = 1,71.
+Pero Alemania y Estados Unidos no solo producen Mercedes y Cadillacs, por lo que queremos
+calcular un tipo de cambio real que refleje el precio relativo de todos los bienes producidos en Alemania
+expresado en función de todos los bienes producidos en Estados Unidos. El cálculo del párrafo anterior nos
+da una pista sobre el procedimiento. En lugar de utilizar el precio de un Mercedes en marcos y el precio de
+un Cadillac en dólares, debemos utilizar un índice de precios en marcos de todos los bienes producidos en
+Alemania y un índice de precios en dólares de todos los bienes producidos en Estados Unidos. Eso es
+exactamente lo que hacen los deflactores del PIB que introdujimos en el capítulo 2: estos son, por definición,
+índices de precios del conjunto de bienes y servicios finales que se producen en una economía.
+Por lo tanto, sean P el deflactor del PIB de Estados Unidos, P* el deflactor del PIB de Alemania (por
+regla general, representaremos las variables extranjeras por medio de un asterisco) y E el tipo de cambio
+nominal entre el dólar y el marco. La figura 11.4 muestra los pasos que hay que seguir para calcular el tipo
+de cambio real. El precio de los bienes alemanes en marcos es P*. Multiplicándolo por el tipo de cambio, E,
+obtenemos el precio de los bienes alemanes en dólares, EP*. El precio de los bienes norteamericanos en
+dólares es P. Por lo tanto, el tipo de cambio real, que es el precio de los bienes alemanes expresado en bienes
+norteamericanos, que denominaremos e (la letra griega épsilon minúscula), viene dado por:
+EP*
+ε= (11.1)
+P
+Obsérvese que, a diferencia del precio del Mercedes expresado en Cadillacs, el tipo de cambio real
+es un número-índice y, por lo tanto, no tiene un nivel natural, debido a que los deflactores del PIB utilizados
+para calcular el tipo de cambio real son índices y, por consiguiente, no tienen un nivel natural; como vimos
+en el capituló 2, son iguales a 1 en el año que se elija como año base. Pero aunque el nivel del tipo de cambio
+real es arbitrario; no ocurre así con sus variaciones. Estas nos indican si los bienes extranjeros están
+volviéndose más o menos caros que los interiores.
+
+Una subida del precio relativo de los bienes interiores expresado en bienes extranjeros se denomina
+apreciación real; una reducción se denomina depreciación real. El término real, por oposición a nominal,
+indica que ahora estamos refiriéndonos a las variaciones del precio relativo de los bienes y no al precio
+relativo de las monedas. Dado que, según nuestra definición del tipo de cambio real, este es el precio de los
+bienes extranjeros expresado en bienes interiores, una apreciación real corresponde a un descenso del tipo de
+cambio real, ε Asimismo, una depreciación real corresponde a una subida de ε. Estas relaciones se resumen
+en la figura 11.5, que corresponde a la 11.2, pero en esta ocasión se refieren al tipo de cambio real.
+La figura 11.6 representa la evolución del tipo de cambio real entre Estados Unidos y Alemania entre
+1970 y 1994. Para mayor comodidad, también reproduce la evolución del tipo de cambio nominal de la
+figura 11.3. Los deflactores del PIB se han elegido de tal forma que sean iguales a 1 en 1987, por lo que en
+ese año el tipo de cambio nominal y el real son iguales por definición.
+La figura 11.6 tiene dos importantes características:
+1. La depreciación real registrada desde 1970 ha sido menor que la nominal. Aunque el valor del
+marco ha aumentado un 3,6 % al año, en promedio, con respecto al dólar, el precio de los bienes
+alemanes expresado en bienes norteamericanos solo ha subido un 2,1 % al año en promedio.
+Precio de los bienes Precio de los bienes Tiempo de
+alemanes en DM alemanes en dólares cambio real
+P* EP*
+EP*
+ε=
+P
+Precio de los bienes norteamericanos en dólares P
+Figura 11.4 El cálculo del tipo de cambio real.
+Tipo de cambio real (ε): Precio de los bienes alemanes expresado
+en bienes norteamericanos
+Apreciación real: Cae el precio de los bienes alemanes
+Los bienes norteamericanos expresado en bienes norteamericanos
+son relativamente más caros ε↓
+Depreciación real: Sube el precio de los bienes alemanes
+Los bienes norteamericanos expresado en bienes norteamericanos
+son relativamente menos caros ε↑
+Figura 11.5 El tipo de cambio real. la apreciación real y la depreciación real: Estados Unidos y
+Alemania (desde el punto de vista de Estados Unidos).
+Para comprender a qué se debe la diferencia, obsérvese que por definición el tipo de cambio real es
+igual al nominal (E) multiplicado por el cociente entre el nivel alemán de precios y el norteamericano, P*/P.
+Desde 1970, la inflación anual ha sido, en promedio, un 1,5 % menor en Alemania que en Estados Unidos,
+por lo que el nivel alemán de precios ha subido más lentamente que el norteamericano: P*/P ha disminuido.
+Por lo tanto, aunque el tipo de cambio nominal ha subido un 3,6 % al año en promedio, la relación de precios
+ha disminuido un 1,5 % al año en promedio, provocando una subida del tipo de cambio real del 2,1 % al año.
+
+Figura 11.6 Tipos de cambio reales y nominales entre Estados Unidos y Alemania, 1970-1994.
+Salvo porque existe una diferencia en la tendencia, el tipo de cambio nominal y el real han evolucionado de una forma muy
+parecida desde 1970.
+Fuente: OCDE, Main Economic Indicators; Junta de Gobernadores del Sistema de la Reserva Federal.
+Para que esta explicación resulte más intuitiva, pensemos en los turistas alemanes que visitaron por
+última vez Estados Unidos en 1970. Cuando se preparen para el viaje que van a realizar en esta ocasión,
+observarán que con un marco compran más dólares (la depreciación nominal del dólar), pero que el coste de
+las cosas ha subido en Estados Unidos significativamente más que en Alemania (debido a la diferencia de
+inflación). Por lo tanto, el viaje es más barato hoy que en 1970, pero menos de lo que sugeriría la gran
+depreciación nominal del dólar.
+Pensemos el mismo caso para el año 2000 entre el turismo de la Argentina y Brasil. A los turistas
+argentinos, el fortalecimiento del peso en relación con el real o, lo que es lo mismo, la devaluación de Brasil
+generó un cambio de precios relativos que implicó un encarecimiento para los turistas brasileños que
+viajaron a los Estados Unidos o a la Argentina. Por supuesto, los argentinos que viajaron después de la
+devaluación compraron más bienes valuados en reales por cada peso. En consecuencia, compraron más
+bienes o servicios brasileños, ya que la devaluación en Brasil no se tradujo en un aumento proporcional de
+sus precios internos.
+2. Las grandes oscilaciones del tipo de cambio nominal registradas durante la década de 1980 que
+hemos visto en la figura 11.3 también se reflejan en el tipo de cambio real. Esto no es muy
+sorprendente. Dado que las tasas de inflación de Alemania y Estados Unidos no son muy diferentes,
+las variaciones de la relación de precios P*/P son lentas. Así, de un año a otro o incluso en un
+período de varios años, las variaciones del tipo de cambio real e se deben principalmente a las
+variaciones del tipo de cambio nominal E. Desde principios de 1980 hasta fines de 1984, la tasa
+media de apreciación fue del 15 % al año. Esta cifra es más alta que la tasa anual de apreciación
+nominal correspondiente a ese mismo período. La razón se halla en que no solo se apreció el dólar
+frente al marco sino que, además, la inflación también era más alta en Estados Unidos que en
+Alemania. Esta apreciación real, al igual que la nominal, se invirtió totalmente en los tres años
+siguientes. Entre comienzos de 1985 y fines de 1987, la tasa media de depreciación real fue del 21 %
+al año.
+Nos queda un último paso. Hasta ahora hemos centrado la atención en los tipos de cambio nominales
+y reales entre Estados Unidos y Alemania. Pero Estados Unidos comercia con muchos otros países; además
+de Alemania. El cuadro 11.2 muestra la composición geográfica de su comercio en lo que respecta tanto a las
+exportaciones como a las importaciones. Las cifras se refieren únicamente al comercio de mercancías, es
+decir, a las exportaciones y las importaciones de bienes; no comprenden las exportaciones e importaciones
+de servicios, como los servicios de viaje y el turismo, de las que no existe esta descomposición.
+Canadá y Europa occidental representan entre el 40 y el 46 % (lo que depende de que se examinen
+las importaciones o las exportaciones) del comercio de mercancías de Estados Unidos. Pero el comercio con
+Japón y con el resto de Asia representa una proporción cada vez mayor. Es interesante el hecho de que el
+comercio está mucho más desequilibrado con Japón y con el resto de Asia que con Canadá y Europa
+occidental. En 1994, el volumen en dólares de exportaciones de bienes de Estados Unidos a Japón era menos
+de la mitad del volumen en dólares de importaciones de bienes de Estados Unidos procedentes de Japón.
+
+Este déficit del comercio de mercancías con Japón se ha convertido en un importante motivo de tensión entre
+los dos países. En el capítulo 14 volveremos a analizar esta cuestión.
+¿Cómo pasamos de los tipos de cambio reales bilaterales, como el tipo de cambio real entre
+Estados Unidos y Alemania (el prefijo "bi" de la palabra bilateral significa dos, por lo que se refiere al tipo
+de cambio entre un par de países), a los tipos de cambio reales multilaterales? La respuesta es sencilla. Si
+queremos medir el precio medio de los bienes norteamericanos en relación con los de todos sus socios
+comerciales, debemos utilizar como ponderaciones la proporción del comercio de Estados Unidos con cada
+uno de los países. Utilizando las proporciones de las exportaciones, podemos calcular un tipo de cambio real
+de las "exportaciones, y utilizando las proporciones de las importaciones, podemos calcular un tipo de
+cambio real de las "importaciones". Como los economistas normalmente no quieren seguir la evolución de
+dos tipos de cambio diferentes, utilizan un tipo de cambio que es una media de las proporciones de las
+exportaciones y las importaciones. Esta es la variable a la que nos referiremos cuando hablemos del tipo de
+cambio multilateral real de Estados Unidos o simplemente del tipo de cambio real de Estados Unidos.
+Otros nombres que se utilizan son tipo de cambio real ponderado por el comercio o tipo de cambio real
+efectivo.
+La figura 11.7 muestra la evolución de este tipo de cambio real multilateral, es decir, del precio
+medio de los bienes extranjeros en relación con los norteamericanos, desde 1960 hasta 1994. Como en el
+caso de los tipos de cambio reales que hemos visto antes, es un número-índice. Por lo tanto, su nivel es
+arbitrario; en este caso, se ha elegido de tal manera que fuera 1 en 1987.
+Cuadro 11.2 La composición por países del comercio de mercancías de Estados Unidos, 1994.
+Ex po r ta c io n e s a I m po rta c i o n es a
+Países Miles de millones de U$S Porcentaje Miles de millones de U$S Porcentaje
+Canadá 115 23 131 20
+Europa occidental 115 23 133 20
+Japón 47 9 119 18
+México 51 10 50 7
+Asia* 83 17 157 23
+OPEP** 17 3 31 5
+Otros 74 15 48 7
+Total 502 100 669 100
+* Excluido Japón.
+** OPEP: Organización de Países Exportadores de Petróleo.
+Fuente: Survey of Current Business, marzo de 1995, pág.82.
+La figura 11.7 muestra que en la década de 1980 la evolución del tipo de cambio multilateral es
+paralela a la del tipo de cambio real entre Alemania y Estados Unidos que hemos visto en la figura 11.6: los
+bienes extranjeros eran mucho menos caros que los norteamericanos a mediados de la década de 1980 que a
+comienzo o fines de la misma. En otras palabras, a principios de los años 80 se registró una gran apreciación
+real de los bienes norteamericanos seguida de una depreciación real casi de la misma magnitud. Esta gran
+oscilación que, como hemos visto, tiene sus orígenes en la evolución del tipo de cambio nominal llama tanto
+la atención que se le han dado varios nombres, desde "ciclo del dólar" hasta el más gráfico de "danza del
+dólar". Resulta tentador pensar que es una de las causas de los grandes déficit comerciales de Estados Unidos
+que también caracterizaron una gran parte de la década de 1980. La labor de los capítulos siguientes será en
+parte comprender a qué se debieron estas oscilaciones y cómo afectaron estas variaciones del tipo de cambio
+real al déficit comercial y a la actividad económica.
+
+Figura 11.7 El tipo de cambio real efectivo de Estados Unidos, 1970-1994.
+La gran apreciación real registrada en la primera mitad de la década de 1980 fue seguida de una depreciación real de
+la misma magnitud en la segunda mitad. Estas grandes oscilaciones registradas en la década de 1980 se denominan a
+veces 'la danza del dólar".
+Fuente: Junta de Gobernadores del Sistema de la Reserva Federal.
+Tomemos en cuenta la fórmula
+EP*
+ε=
+P
+por la que definíamos tipo de cambio real. Asimismo, si consideráramos como año base 1990 y le diéramos
+valor 100, el tipo de cambio real en términos de la moneda nacional por dólar de cada país de América
+Latina a considerar, y lo ajustamos, según la fórmula anterior, por el precio mayorista de dólares,
+deflacionados por el IPC de cada país, podríamos comparar el tipo de cambio real de algunos países en los
+años 80 y 90.
+Estos datos fueron analizados por las Naciones Unidas en su Comisión Económica para América
+Latina y procesados por varios institutos de investigación en América Latina, como se indica en el siguiente
+cuadro:
+Cuadro 11.7A Tipo de cambio real
+Promedio 1994/Promedio
+País 1986-1990 1991 1992 1993 1994 1986-1990
+Colombia 90.6 101.5 91.6 87.8 76.0 0.84
+Chile 105.0 97.9 90.9 91.4 88.2 0.84
+México 117.9 90.5 83.4 78.7 81.8 0.69
+Argentina 118.4 64.9 57.7 54.9 53.4 0.45
+Brasil 132.2 115.7 126.6 126.3 103.2 0.78
+Fuentes: Instituto de Economía del Sector Público (Brasil; Frenkel, R., Fanelli, J. y Damill, M."De México a México". Desarrollo
+Económico, vol.36, verano de 1996.
+De este cuadro comparativo de tipos de cambios reales puede observarse que, en el período 1986-
+1990, el tipo de cambio era alto para toda la región con respecto al índice de 1990 igual a 100, a excepción
+de Colombia. Las causas habían sido las devaluaciones durante el período y están relacionadas con la tasa de
+inflación elevada.
+Durante el período 1991-1994 observamos una apreciación importante de las monedas para México
+y la Argentina, es decir, un fortalecimiento de las mismas con respecto al dólar o, lo que es lo mismo, un
+retraso cambiarlo significativo. Las políticas macroeconómicas de estabilización con anclaje cambiario
+nominal fueron la causa de este desfasaje y también afectaron en el período la competitividad y el déficit
+comercial de estos países.
+Este desfasaje, en un contexto de mayor apertura comercial con baja de aranceles e ingresos de
+capital, provocó un incremento relevante de las importaciones a un ritmo mayor que la tasa de crecimiento
+de las exportaciones.
+Chile no tuvo tantas fluctuaciones en su tipo de cambio real durante el período 1986-1994.
+
+Brasil, después del Plan Real en 1993, comenzó a apreciar su tipo de cambio que impactó en el
+comercio exterior del Mercosur favoreciendo las exportaciones argentinas hacia Brasil en el período 1994-
+1998. Luego esta tendencia se vio afectada por la devaluación de 1999.
+Brasil y Chile tuvieron políticas cambiarias, monetarias y fiscales más flexibles que la Argentina y
+México, con una intervención directa para sostener el tipo de cambio.
+Recordemos que si un país, como el caso argentino, tiene una ley de convertibilidad con un anclaje
+rígido cambiario y el nivel de precios mayoristas domésticos se incrementa durante algunos años, el tipo de
+cambio real cae si esta tasa de inflación es mayor que la de Estados Unidos.
+Para la Argentina, estudios recientes del tipo de cambio han demostrado en una serie anual más
+amplia que, con una relación de año base = 1 en 1986, la década del ochenta tuvo un tipo de cambio real
+promedio aproximadamente igual al doble que el de la década del noventa
+Gráfico 11.7B Evolución del tipo de cambio real
+Fuente: Centro de Investigaciones Económica de la Universidad de Palermo. serie de documentos N° II
+11.2 La apertura de los mercados financieros
+La apertura de los mercados financieros permite a los inversores financieros mantener tanto activos
+nacionales como extranjeros, diversificar, pues, su cartera y especular sobre las variaciones de los tipos de
+interés extranjeros frente a los nacionales, los tipos de cambio, etc. ¡Y vaya que diversifican y especulan!
+Dado que la compraventa de activos extranjeros implica como parte de la operación la compraventa de
+monedas extranjeras (llamadas divisas), el volumen de transacciones realizadas en los mercados de divisas
+da una idea de la importancia de las transacciones financieras internacionales. En 1994, el volumen mundial
+diario de transacciones de divisas fue de U$S 1 billón, de los cuales el 80% —alrededor de 800.000
+millones— fue en dólares.
+Para hacemos una idea de la magnitud de estas cifras, recordemos que en el capítulo 3 vimos que la
+media anual de exportaciones e importaciones de Estados Unidos es del orden de U$S 800.000 millones.
+Esta cifra se refiere a todo el año y, por lo tanto, corresponde a alrededor de 2.000 millones al día. Así pues,
+si las únicas transacciones de dólares que se efectuasen en los mercados de divisas fueran las realizadas, en
+uno de los lados, por exportadores americanos que venden las divisas que han obtenido por la venta de sus
+productos, y en el otro, por importadores americanos que compran las divisas que necesitan para adquirir
+bienes extranjeros, el volumen de transacciones sería igual a 2.000 millones diarios, es decir, alrededor del
+0,25 % del volumen real de transacciones realizadas en los mercados de divisas en las que intervienen
+dólares. La mayoría de las transacciones no están relacionadas, pues, con el comercio sino con la
+compraventa de activos financieros. El volumen de transacciones realizadas los mercados de divisas no solo
+es elevado sino que también está aumentando rápidamente. El volumen de transacciones de divisas que se
+realizan en Nueva York es actualmente 12 veces mayor que en 1980. Una vez más, esta actividad se debe
+principalmente al aumento que han experimentado las transacciones financieras en los últimos quince años
+más que a un incremento del comercio.
+
+Por lo que se refiere al país en su conjunto, la apertura de los mercados financieros tiene otra
+importante implicación. Permite al país incurrir en superávit comerciales y déficit comerciales. Recuérdese
+que un país que incurre en un déficit comercial está comprando más al resto del mundo de lo que está
+vendiéndole. Por lo tanto, debe pedir prestada la diferencia. Esto se consigue haciendo atractivo para los
+inversores financieros extranjeros aumentar sus tenencias de activos nacionales, es decir, prestar al país.
+Examinemos ahora más detenidamente la relación entre el comercio y los movimientos financieros.
+Cuadro 11.7C Flujos de capitales en América Latina.
+Entrada de capitales Déficit comercial Déficit de cta. Cte.
+Países 1991 – 1993 1994 1991 – 1993 1994 1991 – 1993 1994
+Colombia 1.853 3.075 -2.535 2.160 -1.055 3.020
+Chile 7.729 3.145 -374 -605 3.513 645
+México 75.005 10.500 63.213 23.645 59.184 30.600
+Argentina 29.374 10.238 8.130 6.000 14.828 11.118
+Brasil 19.483 13.060 -89.897 -11.300 -4.186 3.060
+América Latina y Caribe 165.915 47.265 18.139 19.200 97.922 52.300
+Fuente: Frenkel, R.. Faneri,J. y Damill, M.,"De México a México', Desarrollo Económico, vol. 36. verano de 1996.
+El cuadro 11.7C nos muestra la afluencia de los capitales a los principales países de América Latina.
+Los ingresos de capitales en todos los casos, fueron siempre superiores a los desequilibrios de la cuenta
+corriente y sirvieron para acumular reservas. El 80 % de los capitales totales fueron a México, Argentina y
+Brasil.
+La balanza de pagos
+Las transacciones de un país con el resto del mundo se resumen por medio de una serie de cuentas
+llamada balanza de pagos. El cuadro 11.3 presenta la balanza de pagos de Estados Unidos correspondiente a
+1994. Obsérvese que se compone de dos partes separadas por una línea. Por este motivo, las transacciones se
+denominan transacciones por encima de la línea o transacciones por debajo de la línea.
+La cuenta corriente. Examinemos primero las transacciones por encima de la línea, todas las cuales
+registran los pagos efectuados a y por el resto del mundo. Se denominan transacciones por cuenta corriente.
+Cuadro 11.3 La balanza de pagos de Estados Unidos, 1994.
+Cuenta corriente
+Exportaciones 698
+Importaciones 804
+Balanza Comercial (déficit = -) (1) -106
+Renta de inversiones recibida 134
+Renta de inversiones pagada 150
+Renta neta de inversiones (2) -16
+Transferencias netas recibidas (3) -34
+Balanza por cuenta corriente (déficit = -) (1) + (2) + (3) -156
+C ue n ta d e c a p i ta l
+Aumento de las tendencias extranjeras de activos norteamericanos 314
+Aumento de las tendencias norteamericanas de activos extranjeros 125
+Aumento neto de las tendencias extranjeras/ 189
+Entradas netas de capital en Estados Unidos
+Discrepancia estadística 33
+Fuente: Survey of Current Business, marzo de 1995, 56. Todas las cifras están expresadas en miles de millones de dólares.
+Las dos primeras líneas indican las exportaciones y las importaciones de bienes y servicios de
+Estados Unidos. Las exportaciones generan pagos del resto del mundo y las importaciones generan pagos al
+resto del mundo.
+
+En 1994, las importaciones fueron superiores a las exportaciones, lo que provocó un déficit
+comercial de U$S 106.000 millones (obsérvese que las cifras correspondientes a las exportaciones y las
+importaciones son diferentes de las que aparecen en el cuadro 11.2, debido a que ahora comprenden tanto los
+bienes como los servicios).
+Las exportaciones y las importaciones no son las únicas fuentes de pagos a y del resto del mundo.
+Los residentes norteamericanos reciben renta procedente de inversiones por sus tenencias de activos
+extranjeros y los residentes extranjeros reciben renta procedente de inversiones por sus tenencias de activos
+norteamericanos. En 1994, la renta procedente de inversiones del resto del mundo fue de U$S 134.000
+millones y la renta procedente de inversiones pagada a los extranjeros fue de 150.000 millones, por lo que la
+balanza neta fue de -16.000 millones.
+Por último, los países conceden y reciben ayuda exterior; su valor neto se registra como
+transferencias netas recibidas. En 1994, estas ascendieron a U$S -34.000 millones. Esta cantidad negativa
+refleja el hecho de que Estados Unidos ha sido tradicionalmente un donante neto de ayuda exterior.
+Por lo tanto, sumando todos los pagos a y del resto del mundo, los pagos netos fueron iguales a U$S
+-106.000 - U$S 16.000 - U$S 34.000 = U$S -156.000 millones. Este total es la balanza por cuenta corriente.
+En 1994, Estados Unidos incurrió en un déficit por cuenta corriente de U$S 156.000 millones, lo que
+representa alrededor de 2,3 % de su PIB.
+La cuenta de capital. El déficit por cuenta corriente de Estados Unidos registrado en 1994 implicó que este
+país tuvo que pedir prestados U$S 156.000 millones al resto del mundo o, en otras palabras, que las tenencias
+extranjeras netas de activos norteamericanos tuvieron que aumentar en 156.000 millones. Las cifras por
+debajo de la línea describen cómo se consiguió este resultado. Las transacciones situadas por debajo de la
+línea se denominan transacciones por cuenta de capital.
+El aumento de las tenencias norteamericanas de activos extranjeros registrado en 1994 fue de U$S
+125.000 millones. Pero al mismo tiempo, el aumento de las tenencias extranjeras de activos norteamericanos
+fue de 314.000 millones. Por lo tanto, el aumento neto del endeudamiento exterior de Estados Unidos, que
+también se denomina flujos netos de capital hacia Estados Unidos, fue igual a U$S 314.000 - U$S 125.000
+= U$S 189.000 millones.
+¿No deberían ser los flujos netos de capital iguales al déficit por cuenta corriente? Conceptualmente,
+la respuesta es sí, pero no en la práctica. Las cifras correspondientes a las transacciones por cuenta corriente
+y por cuenta de capital proceden de distintas fuentes: aunque deberían dar las mismas respuestas,
+normalmente no ocurre así. En 1994, la diferencia entre las dos, la discrepancia estadística, fue de U$S
+33.000 millones3
+Cuadro 11.3A Evolución de la balanza de pagos de la Argentina.
+Concepto 1990 1991 1992 1993(1) 1994(1) 1995(1) 1er trim.
+1996(1)
+Cuenta corriente 4832 -256 -6440 -7047 -9365 -2399 -1451
+Exportaciones 15054 14747 15143 15624 18509 23859 5432
+Bienes 12354 11978 12235 13117 15839 20969 4690
+Servicios reales 2700 2769 2908 2507 2670 2890 742
+Importaciones 7046 11835 18792 20710 25604 23776 6306
+Bienes 4079 8275 14872 15543 20078 18728 4632
+Servicios reales 2967 3560 3920 5167 5526 5048 1674
+Balance de bienes 8275 3703 -2637 -2426 -4239 2241 58
+Balance de servicios reales -267 -791 -1012 -2660 -2856 -2158 -932
+Intereses -3538 -3135 -2695 -1099 -1320 -1290 -182
+Ganados 2072 2061 1514 2124 2920 4136 959
+Sector público 205 304 381 -- -- -- --
+Sector privado 1867 1757 1133 -- -- -- --
+Pagados 5610 5196 4209 3223 4240 5426 1141
+3 Otro problema estadístico: es evidente que la suma de los déficit por cuenta corriente de todos los países debe ser
+igual a cero. El déficit-de en país debería reflejarse en forma de superávit en los demás considerados en su conjunto,
+pero no es así. Si sumamos los déficit por cuenta corriente publicados en todos los países del mundo, el resultado
+indicaría que el mundo está incurriendo en un gran déficit por cuenta corriente. Algunos economistas dicen en broma
+que la explicación es el comercio no registrado con los marcianos. Casi todos los demás creen que es un error de
+medición.
+
+Sector público 5073 4711 3749 -- -- -- --
+Sector privado 537 435 460 -- -- -- --
+Utilidades y dividendos(1) -635 -827 -845 -1273 -1270 -1624 --
+Balance de servicios financieros -4173 -3962 -3540 -2375 -2590 -2914 --
+Transferencias unilaterales 997 794 749 411 320 432 55
+Cuenta de capital -1266 2984 10266 11528 9926 2330 1626
+Sector privado(2) -3572 -8334 8736 5229 5237 9665 253
+Sector público(3) 2306 11318 1530 6299 4689 -7335 1373
+Variación de reservas internacionales
+(+ aumento) 3566 2728 3826 4481 561 -69 175
+(1) Datos preliminares
+(2) Incluye errores y comisiones
+(3) Incluye el ajuste por las variaciones por tipo de pase de los activos de reservas internacionales
+Fuente: RDE, con datos oficiales.
+Casos y aplicaciones
+a) Compare el comportamiento de la cuenta capital de Estados Unidos en relación con la Argentina
+para 1994.
+Cuadro 11.3B Evolución de la balanza de pagos de Brasil.
+1975-79 1980-82 1983-89 1990-96 1990 1991 1992 1993 1994 1995
+Balanza comercial (1.9) (0.3) 12.4 7.4 10.8 10.6 15.2 13.3 10.5 (3.4)
+Servicios financieros a (2.5) (8.9) (9.6) (8.3) (9.7) (8.6) (7.3) (8.3) (6.3) (8.2)
+Servicios (otros) (2.5) 4.5 (4.1) (7.5) (5.6) (5.0) (4.1) (7.3) (8.4) (10.4)
+Cuenta corriente (6.9) (13.6) (1.2) (6.2) (3.8) (1.4) 6.1 (0.6) (1.7) (18.0)
+Cuenta de capital 7.5 10.1 (5.1) 14.7 (4.7) (4.1) 25.3 10.1 14.3 29.4
+Errores y omisiones (0.2) (0.4) (0.4) 0.2 (0.3) 0.9 (1.4) (1.1) 0.3 2.1
+Reservas (variación) b 0.4 (3.9) (6.7) 8.6 (8.8) (4.6) 30.0 8.4 12.9 13.5
+Cuenta de capital 4.5 4.6 (1.3) 2.6 (1.1) (1.1) 6.8 2.4 2.5 4.1
+(% del PIB nominal)
+a Intereses pagados y estimación de atrasos; excluye utilidades, las que se contabilizan en servicios.
+b Cuenta corriente + Cuenta de capital + Errores y omisiones
+Fuente: Banca Central de Brasil - actualizado a partir del Boletín del Banco Central de marzo de 1997.
+Analizando el cuadro expuesto arriba, podemos observar cómo la cuenta corriente, en el período
+1975-1992, ha tenido un comportamiento inestable aunque siempre fue deficitaria a excepción del año 1992,
+en el que se revierte la tendencia. Después del mismo, presentó nuevamente crecientes déficit.
+Casos y aplicaciones
+a) Analice el comportamiento de la cuenta corriente de la Argentina y Brasil.
+El PIB frente al PNB: el ejemplo de Kuwait
+¿Debería definirse el valor agregado de una economía abierta como el valor agregado interiormente
+(es decir, dentro del país) o como el valor agregado por los factores de producción de propiedad nacional?
+Estos no tienen por qué ser iguales: parte de la producción interior puede haber sido elaborada con capital
+propiedad de extranjeros y parte de la producción extranjera puede haber sido elaborada por capital
+propiedad de ciudadanos nacionales.
+La respuesta es que ninguna de las definiciones es buena, por lo que los economistas utilizan las
+dos. El producto interior bruto (PIB), que es el indicador que hemos utilizado hasta ahora, corresponde al
+valor agregado interiormente. El producto nacional bruto (PNB) corresponde al valor agregado por
+factores de producción de propiedad nacional. Por lo tanto, el PNB es igual al PIB más los pagos netos a los
+factores efectuados por el resto del mundo. Mientras que actualmente el indicador más mencionado es el
+PIB, el PNB se utilizaba frecuentemente hasta hace unos años, y el lector aún lo encontrará a menudo en la
+prensa y las revistas científicas.
+En la mayoría de los países, la diferencia entre el PNB y el PIB es normalmente pequeña, ya que los
+pagos que reciben los factores nacionales del resto del mundo son aproximadamente iguales a los que se
+realizan a los factores extranjeros. Por ejemplo, en Estados Unidos el PIB fue de U$S 6,736 billones en
+1994, mientras que el PNB fue de 6,727 billones.
+
+Pero existen algunas excepciones. Una es Kuwait. Cuando se descubrió petróleo en Kuwait, su
+gobierno decidió que una parte de los ingresos derivados del petróleo se ahorraría y se invertiría en el
+extranjero en lugar de gastarla, con el fin de proporcionar a las futuras generaciones kuwaitíes renta derivada
+de inversiones cuando se acabaran los ingresos generados por el petróleo. Como consecuencia, Kuwait
+acumuló grandes activos extranjeros, por lo que actualmente recibe del resto del mundo un gran volumen de
+renta procedente de inversiones. El cuadro 1 indica el PIB, el PNB y los pagos netos a los factores de
+Kuwait.
+Obsérvese que el PNB es mucho mayor que el PIB durante todo el período. Pero obsérvese, también
+que los pagos netos a los factores han disminuido desde 1989, debido a que Kuwait ha tenido que pagar a sus
+aliados una parte del coste de la Guerra del Golfo y de la reconstrucción tras la guerra. Como consecuencia,
+los activos extranjeros y los pagos recibidos del extranjero por los factores han ido disminuyendo
+ininterrumpidamente.
+Cuadro 1 El PIB, el PNB y los pagos netos a los factores en Kuwait, 1988-1994.
+Año PIB PNB Pagos netos
+a los factores
+1988 5.773 7.765 1.992
+1989 7.143 9.562 2.419
+1990 5.307 7.503 2.196
+1991 3.130 4.674 1.544
+1992 5.518 7.009 1.491
+1993 7.134 8.283 1.149
+1994 7.214 8.272 1.058
+Todas las cifras se han expresado en millones de dinares kuwaitles; 1 dinar = 3,3 dólares (1994).
+Fuente: FMI, International Financial Statistics, mayo de 1995.
+La elección entre los activos nacionales y los extranjeros
+La apertura de los mercados financieros implica que los inversores financieros tienen que elegir entre
+los activos nacionales y los extranjeros.
+Tal vez parezca que tenemos que examinar, al menos, dos nuevas decisiones: la decisión de tener
+dinero nacional en lugar de extranjero y la decisión de tener activos rentables nacionales en lugar de
+extranjeros. Pero recuérdese por qué tenemos dinero: para realizar transacciones. Para una persona que viva
+en Estados Unidos y que, por lo tanto, realice sus transacciones principal o enteramente en dólares, apenas
+tiene sentido tener divisas: no puede utilizarlas para realizar transacciones, y si el objetivo es tener activos
+extranjeros, las divisas son claramente menos deseables que los bonos extranjeros, que rinden intereses4. Por
+lo tanto, la única decisión que tenemos que estudiar es la elección entre los activos nacionales y los activos
+extranjeros que rinden intereses. Supongamos de momento que son bonos nacionales y extranjeros a un año.
+Consideremos, por ejemplo, la elección entre los bonos a un año norteamericanos y los alemanes.
+Supongamos que decidimos tener bonos norteamericanos. Sea i el tipo de interés nominal de Estados Unidos
+t
+a un año existente en el año t. En ese caso, como muestra la figura 11.8, por cada dólar que invirtamos en
+bonos norteamericanos, obtendremos (1 + i) dólares el año que viene.
+t
+Supongamos que decidimos, por el contrario, tener bonos alemanes. Para comprarlos, debemos
+comprar primero marcos alemanes. Sea E el tipo de cambio nominal entre el dólar y el marco. Así, por cada
+t
+dólar recibiremos (1/E) marcos. Sea i* el tipo de interés nominal a un año de los bonos alemanes (en
+t t
+marcos). El año que viene tendremos (l/E)(l + i*) marcos. Entonces tendremos que convertirlos en dólares.
+t t
+Si esperamos que el tipo de cambio nominal sea Ee el año que viene, cabe esperar que por cada dólar que
+t+1
+invirtamos tengamos el próximo año (1/E)( l + i*) Ee dólares. Esta serie de pasos se representa en la
+t t t+1
+segunda parte de la figura 11.8.
+4 Deben hacerse dos matizaciones. En primer lugar, los extranjeros que realizan actividades ilegales suelen tener
+dólares porque estos pueden intercambiarse fácilmente y no dejan huella. Por otra parte, en las épocas en las que la
+inflación es muy alta, el público utiliza a veces una moneda extranjera, que suele ser el dólar, para realizar algunas
+transacciones interiores. Este fenómeno se conoce con el nombre de dolarización de la economía y a él volveremos en
+el capítulo 21. Según algunas estimaciones recientes de investigadores del Fed, tal vez más de la mitad de los dólares
+emitidos se encuentra fuera de Estados Unidos. Aquí prescindiremos de este aspecto de la realidad.
+
+Enseguida analizaremos más detalladamente esta expresión. Pero obsérvese ya su implicación
+básica. Cuando valoramos el atractivo de los bonos alemanes, no podemos observar simplemente los tipos de
+interés de Alemania y de Estados Unidos; también debemos valorar lo que creemos que ocurrirá con el tipo
+de cambio entre el dólar y el marco entre este año y el que viene.
+Partamos ahora del mismo supuesto que ya postulamos cuando analizamos la elección entre los
+bonos a corto y largo plazo o entre los bonos y las acciones. Supongamos que nosotros y otros inversores
+financieros solo queremos tener el activo que tiene la tasa más alta de rendimiento. En ese caso, para tener
+tanto bonos alemanes como norteamericanos, estos deben tener la misma tasa esperada de rendimiento, por
+lo que debe cumplirse la siguiente relación de arbitraje:
+1+ i = ⎜ ⎛ 1 ⎟ ⎞( 1+ i* )( Ee ) (11.2)
+t ⎜ ⎝ E ⎟ ⎠ t+1 t+1
+t
+La ecuación (11.2) se denomina relación de paridad descubierta de los tipos de interés o simplemente
+condición de la paridad de los tipos de interés5.
+Año t Año t + 1
+→ 1+i
+Bonos norteamericanos $ 1 $ ( )
+t
+⎛ 1 ⎞( )
+⎜ ⎟1+i* Ee +1
+Bonos alemanes $ 1 $ ⎜ E ⎟ t t
+⎝ ⎠
+t
+↓ ↑
+⎛ 1 ⎞ ⎛ 1 ⎞( )
+DM⎜ ⎜ E ⎟ ⎟ → DM ⎜ ⎜ E ⎟ ⎟1+i t *
+⎝ ⎠ ⎝ ⎠
+t t
+Recuerde:
+*Para convertir dólares en DM se divide por E.
+*Para convertir DM en dólares se multiplica por E.
+Figura 11.8 Rendimientos esperados de la tenencia de bonos norteamericanos o alemanes a un año.
+El supuesto de que los inversores financieros solo tendrán los bonos cuya tasa esperada de
+rendimiento sea más alta es claramente demasiado restrictivo por dos razones. En primer lugar, no tiene en
+cuenta los costes de transacción: la compraventa de bonos alemanes exige tres transacciones distintas, cada
+una de las cuales tiene un coste. En segundo lugar, no tiene en cuenta el riesgo: el tipo de cambio de un año a
+otro es incierto, por lo que tener bonos alemanes es más arriesgado para un inversor norteamericano que
+tener bonos norteamericanos. Pero no es muy disparatado como caracterización de los movimientos de
+capitales entre los grandes mercados financieros del mundo (Nueva York, Francfort, Londres y Tokio). Las
+pequeñas variaciones de los tipos de interés y los rumores de apreciación o depreciación inminente pueden
+provocar movimientos de miles de millones de dólares en unos minutos. En el caso de los países ricos, el
+supuesto del arbitraje de la ecuación (11.2) recoge la realidad de una manera bastante aproximada. Otros
+países cuyos mercados de capitales son más pequeños y están menos desarrollados o tienen distintos tipos de
+controles de capitales tienen menos margen para elegir su tipo de interés de lo que implica la ecuación
+(11.2).
+Para tener una idea mejor de lo que implica el arbitraje, formulemos la ecuación (11.2) de la manera
+siguiente:
+⎛ E e − E ⎞
+( ) ⎜1 + t+1 t ⎟
+1 + i = 1 + i* ⎜ E ⎟
+t t t
+⎜ ⎟
+⎝ ⎠
+(11.3)
+5 Profundizando. La palabra "descubierta" se utiliza para distinguirla de otra relación llamada condición de la
+paridad cubierta de los tipos de interés. Era condición se obtiene examinando la siguiente decisión. La primera opción
+es tener bonos norteamericanos a un año. La segunda es comprar marcos alemanes hoy, comprar bonos alemanes a un
+año con los ingresos y acordar vender los marcos por dólares dentro de un año a un precio predeterminado, llamado
+tipo de cambio a plazo. La tasa de rendimiento de estas dos opciones, que puede obtenerse sin riesgo alguno hoy, debe
+ser la misma. La condición de la paridad cubierta de los tipos de interés es una condición de arbitraje sin riesgo.
+
+Esta ecuación indica la relación entre el tipo de interés nominal nacional, el tipo de interés nominal
+extranjero y la tasa esperada de depreciación. Recuérdese que un aumento de E es una depreciación, por lo
+que (Ee - E)/ E es la tasa esperada de depreciación de la moneda nacional (si se espera que la moneda
+t+ 1 t t
+nacional se aprecie, este término es negativo). En la medida en que los tipos de interés o la tasa esperada de
+depreciación no sean demasiado altos —por ejemplo, inferiores al 20 % al año—, la siguiente ecuación es
+una buena aproximación de la (11.3)6:
+Ee −E
+1 ≈i∗ + t+1 t
+t t E
+t
+(11.4)
+Esta es la relación que debe recordar el lector: el arbitraje implica que el tipo de interés nacional
+debe ser (aproximadamente) igual al tipo de interés extranjero más la tasa esperada de depreciación de la
+moneda nacional.
+Apliquemos esta ecuación a los bonos norteamericanos frente a los alemanes. Supongamos que los
+tipos interés nominales a un año de Estados Unidos y de Alemania son del 5,8 y 3,9 %, respectivamente
+(estos eran los valores que tenían los dos tipos de interés en diciembre de 1995). ¿Deberíamos tener bonos
+alemanes o norteamericanos? Depende de que esperemos que el dólar se deprecie frente al marco en una
+cuantía superior o inferior a 5,8% - 3,9% = 1,9% el próximo año. Si esperamos que el dólar se deprecie más
+del 1,9 %, entonces, a pesar de que el tipo de interés es más bajo en Alemania que en Estados Unidos,
+invertir en bonos alemanes es más atractivo que invertir en bonos norteamericanos. Teniendo bonos
+alemanes, obtendremos menos marcos al año a partir de ahora, pero los marcos también valdrán más en
+dólares dentro de un año, lo que hace que la inversión en bonos alemanes sea más atractiva que la inversión
+en bonos norteamericanos. Sin embargo, si esperamos que el dólar se deprecie menos del 1,9 % o incluso
+que se aprecie, ocurre lo contrario y los bonos norteamericanos son más atractivos que alemanes. El arbitraje
+nos indica que los mercados financieros deben de estar esperando, en promedio, una depreciación del dólar
+con respecto al marco de alrededor del 1,9 % el próximo año, y esa es la razón por la que los inversores
+financieros están dispuestos a tener bonos alemanes a pesar de que su tipo de interés es más bajo (en el
+recuadro titulado "¿Debemos comprar bonos brasileños?" ponemos otro ejemplo).
+¿Debemos comprar bonos brasileños?
+Retrocedamos a septiembre de 1993 (elegimos esta fecha porque el elevadísimo tipo de interés
+existente en Brasil en ese momento nos permite plantear muy gráficamente la observación que queremos
+hacer). Los bonos brasileños tienen un tipo de interés mensual del 36,9 %. Este parece muy atractivo en
+comparación con el tipo anual del 3 % de los bonos norteamericanos. ¿Debemos comprar bonos brasileños?
+El análisis del texto indica que para decidir necesitamos un elemento más importante, que es la tasa
+esperada de apreciación del dólar frente al cruzeiro (nombre que tenía la moneda brasileña en ese momento;
+ahora se denomina real). Necesitamos esta información porque (como muestra claramente la figura 11.8) el
+rendimiento en dólares de invertir en bonos brasileños a un mes es:
+( 1+i* )E t e +1 = ( 1,369 ) E t e +1
+t E E
+t t
+¿Qué tasa de depreciación del cruzeiro debemos esperar para el próximo mes? Supongamos que la
+tasa de depreciación del mes que viene será igual a la tasa de depreciación del mes pasado. Sabemos que
+100.000 cruzeiros, que valían U$S 1,01 a fines de julio de 1993, solo valían U$S 0,75 a fines de agosto de
+1993. Por lo tanto, si la depreciación continúa a la misma tasa, el rendimiento de invertir en bonos brasileño
+durante un mes es:
+( 1+i* )E t e +1 = ( 1,369 ) ⎜ ⎛0,75 ⎟ ⎞ =1,017
+t E ⎝1,01⎠
+t
+6 Este resultado se deduce de la proposición 3 del apéndice 3.
+
+Por lo tanto, la tasa esperada de rendimiento en dólares de tener bonos brasileños es (1,017 - 1) =
+1,7 % al mes solamente, no el 36,9 % al mes que parecía tan atractivo. Obsérvese que un 1,7 % al mes aun
+es mucho más alto que la tasa mensual de rendimiento de los bonos norteamericanos. Pero pensemos en el
+riesgo y en los costes de transacción, todos los elementos de los que prescindimos cuando formulamos la
+condición de arbitraje. Si los tenemos en cuenta, podríamos muy bien decidir mantener los fondos fuera de
+Brasil.
+La relación de arbitraje entre los tipos de interés y los tipos de cambio de la ecuación (11.4)
+desempeñará un papel fundamental en los siguientes capítulos. Sugiere que a menos que los participantes en
+los mercados financieros y en los mercados de divisas esperen grandes depreciaciones o apreciaciones, el
+tipo de interés nacional y el extranjero probablemente variarán en gran medida de la misma forma. Tomemos
+el caso extremo de dos países que se comprometen a mantener su tipo de cambio bilateral en un valor fijo. Si
+los mercados tienen fe en este compromiso, esperarán que el tipo de cambio permanezca constante y la
+depreciación esperada será igual a cero. En ese caso, la condición de arbitraje implica que los tipos de interés
+de los dos países tendrán que variar exactamente de la misma forma. Como veremos, los gobiernos no se
+comprometen casi nunca de una manera absoluta a mantener el tipo de cambio, sino que suelen tratar de
+evitar que experimente grandes fluctuaciones, lo cual limita, a su vez, enormemente el grado en que pueden
+permitir que su tipo de interés se aleje de los tipos de interés de otros países.
+¿En qué medida evolucionan realmente de la misma forma los tipos de interés nominales de los
+grandes países? La figura 11.9 representa la evolución de los tipos de interés nominales anuales a un año de
+Estados Unidos y Alemania desde 1970. La impresión es que evolucionan de una forma muy parecida, pero
+no idéntica. Los tipos de interés eran altos (desde el punto de vista histórico) en ambos países a mediados de
+los años 70, bajos a finales de esa década y muy altos a principios de los 80. Han descendido en general
+desde entonces en ambos países. Al mismo tiempo, las diferencias entre los dos a veces son grandes. En
+1984, el tipo de interés alemán era cerca de 5 puntos porcentuales inferior al norteamericano. En 1992, en
+cambio, el tipo de interés alemán era cerca de 6 puntos porcentuales superior al norteamericano. Los dos
+tipos solo han vuelto a converger a partir de 1994. En los próximos capítulos nos preguntaremos por qué
+surgieron estas diferencias y cuáles fueron sus consecuencias.
+11.3 Conclusiones y avance
+Hemos creado el marco necesario para analizar la economía abierta. La apertura de los mercados de
+bienes permite elegir entre los bienes interiores y los extranjeros. Esta elección depende principalmente del
+tipo de cambio real, es decir, del precio relativo de los bienes extranjeros expresado en bienes interiores. La
+apertura de los mercados financieros permite elegir entre los activos nacionales y los extranjeros. Esta
+elección depende principalmente de su tasa relativa de rendimiento, la cual depende, a su vez, de los tipos de
+interés nacionales y extranjeros y de la tasa esperada de depreciación de la moneda nacional.
+En el siguiente capítulo analizamos las implicaciones de la apertura de los mercados de bienes. En el
+capítulo 13 introducimos la apertura de los mercados financieros. En el capítulo 14 volvemos a introducir el
+papel de las expectativas, por lo que uniremos las dos principales extensiones del modelo IS-LM que hemos
+visto hasta ahora: el papel de las expectativas, y la apertura de la economía.
+
+Figura 11.9 Tipos de interés nominales a un año de Estados Unidos y Alemania, 1970-1995.
+Los tipos de interés nominales de Estados Unidos y Alemania han evolucionado casi al unísono en los últimos
+veinticinco años.
+Fuente: OCDE. Main Economic Indicators.
+RESUMEN
+♦ La apertura de los mercados de bienes permite a las personas y a las empresas elegir entre los bienes
+interiores y los extranjeros. La apertura de los mercados financieros permite a los inversores
+financieros tener activos financieros nacionales o extranjeros.
+♦ El tipo de cambio nominal es el precio de una unidad de moneda extranjera expresado en la moneda
+nacional. Así, desde el punto de vista de Estados Unidos, el tipo de cambio nominal entre Estados
+Unidos y Alemania es el número de dólares por marco.
+♦ Una apreciación nominal (o apreciación, para abreviar) es una subida del precio relativo de la
+moneda nacional expresado en monedas extranjeras. Dada la definición del tipo de cambio,
+corresponde a una bajada de este. Una depreciación nominal (o depreciación, para abreviar) es un
+descenso del precio relativo de la moneda nacional expresado en monedas extranjeras; corresponde a
+una subida del tipo de cambio.
+♦ El tipo de cambio real es el precio relativo de los bienes extranjeros expresado en bienes interiores.
+Es igual al tipo de cambio nominal multiplicado por el nivel de precios extranjero dividido por el
+nivel de precios interior.
+♦ Una apreciación real es una subida del precio relativo de los bienes interiores expresado en bienes
+extranjeros. Corresponde a una reducción del tipo de cambio real. Una depreciación real es una
+reducción del precio relativo de los bienes interiores. Corresponde a una subida del tipo de cambio
+real.
+♦ El tipo de cambio real multilateral, o tipo de cambio real para abreviar, es una media ponderada de
+los tipos de cambio reales bilaterales, en la que las ponderaciones son iguales a las proporciones que
+representa el comercio de los distintos países.
+♦ La balanza de pagos registra las transacciones de un país con el resto del mundo. La balanza por
+cuenta corriente es igual a la suma de la balanza comercial, la renta neta procedente de inversiones y
+las transferencias netas recibidas del resto del mundo. La balanza por cuenta de capital es igual a los
+flujos de capital procedentes del resto del mundo menos los flujos de capital hacia el resto del
+mundo.
+♦ La cuenta comente y la cuenta de capital son imágenes gemelas. Los déficit por cuenta corriente se
+financian con flujos netos de capital procedentes del resto del mundo; por lo tanto, por medio de un
+superávit por cuenta de capital. Asimismo, los superávit por cuenta corriente corresponden a déficit
+por cuenta de capital.
+♦ La paridad descubierta de los tipos de interés (o paridad de los tipos de interés, para abreviar) es una
+condición de arbitraje que establece que las tasas esperadas de rendimiento de los bonos nacionales y
+extranjeros expresadas en moneda nacional deben ser iguales. La paridad de los tipos de interés
+implica que el tipo de interés nacional es aproximadamente igual al extranjero más la tasa esperada
+de depreciación de la moneda nacional.
+TÉRMINOS CLAVE
+♦ apertura de los mercados de bienes
+♦ aranceles
+♦ cuotas
+♦ apertura de los mercados financieros
+♦ controles de capitales
+♦ apertura de los mercados de factores
+♦ Acuerdo Norteamericano de Libre Comercio (NAFTA)
+♦ Mercosur
+♦ bienes comerciables
+♦ tipo de cambio real
+
+♦ tipo de cambio nominal
+♦ apreciación (nominal, real)
+♦ depreciación (nominal, real)
+♦ tipos de cambio fijos
+♦ revaluación
+♦ devaluación
+♦ comercio de mercancías
+♦ tipos de cambio reales bilaterales
+♦ tipos de cambio reales multilaterales
+♦ tipo de cambio real ponderado por el comercio o tipo de cambio real efectivo
+♦ divisas
+♦ balanza de pagos
+♦ por encima de la línea, por debajo de la línea
+♦ cuenta corriente
+♦ renta procedente de inversiones
+♦ transferencias netas recibidas
+♦ cuenta de capital
+♦ flujos netos de capital
+♦ discrepancia estadística
+♦ producto interior bruto (PIB) frente a producto nacional bruto (PNB)
+♦ relación de paridad descubierta de los tipos de interés o condición de la paridad de los tipos de
+interés
+PREGUNTAS Y PROBLEMAS
+1. ¿Cómo nos afectan las importaciones? Piense en los bienes o servicios importados que ha
+utilizado recientemente.
+2. ¿Cuál de los bienes y servicios siguientes son comerciables y cuáles no? Explique en cada caso su
+respuesta brevemente:
+a) Automóviles.
+b) Computadoras.
+c) Cortes de pelo.
+d) Comidas en restaurantes.
+3. Suponga lo siguiente:
+(i) Los únicos bienes que hay en el mundo son trigo norteamericano y vino francés.
+(ii) En Estados Unidos, el precio de un quintal de trigo es de USS 5.
+Halle el tipo de cambio real (el precio de los bienes extranjeros expresado en bienes interiores) entre
+Estados Unidos y Francia cuando:
+a) Un franco francés vale U$S 0,20 y el precio de una botella de vino es de F 25 en Francia. -
+b) Un franco francés vale U$S 0,20 y el precio de una botella de vino es de F 30 en Francia.
+c) Un franco francés vale U$S 0,25 y el precio de una botella de vino es de F 30 en Francia.
+4. En la Argentina, durante el período 1991-1999, cuando se implementó un modelo de
+convertibilidad, ¿habría disfrutado usted de un bienestar mayor veraneando en Miami o en cualquier
+playa de la Argentina?
+¿Por qué?
+5. Suponga que se necesitan F 5 para comprar U$S 1 y que el nivel de precios es 1,2 en Francia y 1,5
+en Estados Unidos:
+a) ¿Cuál es el tipo de cambio real entre Estados Unidos y Francia (el precio de los bienes
+franceses expresado en bienes norteamericanos)? [Pista: calcule primero el tipo de cambio
+nominal como el precio de un franco en dólares.]
+b) ¿Qué ocurriría con el tipo de cambio real si el dólar subiera a F 8? Dé una respuesta
+numérica.
+c) Comparando las respuestas a las preguntas a y b, ¿se trata de una apreciación real o de
+una depreciación real del dólar? ¿De qué porcentaje?
+6. Suponga lo siguiente:
+(i) El tipo de interés es del 6 % en Estados Unidos.
+
+(ii) El tipo de interés es del 1 % en Japón.
+(iii) El tipo de cambio nominal actual (el precio de un yen en dólares) es 0,01.
+(iv) El tipo de cambio nominal esperado para el próximo año es 0,011.
+a) ¿Cuántos dólares esperaría obtener un residente en Estados Unidos por cada dólar
+invertido en bonos japoneses a un año?
+b) Prescindiendo del riesgo y de los costes de transacción, ¿debería preferir un residente
+norteamericano invertir en bonos norteamericanos o en bonos japoneses?
+c) ¿Cuántas yenes esperaría obtener un residente de Japón por cada yen invertido en bonos
+norteamericanos a un año?
+d) Prescindiendo del riesgo y de los costes de transacción, ¿debería preferir un residente de
+Japón invertir en bonos norteamericanos o en bonos japoneses?
+e) ¿Cuál es la tasa esperada de apreciación o de depreciación del dólar?
+f) Muestre que los datos de i-iv no son coherentes con la paridad descubierta de los tipos de
+interés [utilice la fórmula de aproximación (11.4) del texto].
+LECTURAS COMPLEMENTARIAS
+Sachs, Jeffrey y Larrain, Felipe, Macroeconomía en la economía global, Prentice Hall, México, 1994.
+Ferrucci, Ricardo, Instrumental para el estudio de la economía argentina Ed. Macchi, Buenos Aires, 1997.
+Ffrench-Davis, Ricardo y Reisen, Helmut, Flujos de capital e inversión productiva, McGraw-Hill, Buenos
+Aires,1997.
+Si quiere saber más sobre el comercio internacional y la economía internacional, un libro de texto muy bueno
+es el de Paul Krugman y Maurice Obstfeld, International Economics, Theory and Policy, Harper Collins,
+Nueva York, 1996, 4ª ed.
+
+CAPÍTULO 12. EL MERCADO DE BIENES EN UNA ECONOMÍA ABIERTA
+En 1994, la economía de Brasil entró en un sendero virtuoso de expansión por el Plan Real de
+estabilización. Este proceso, aunque cíclico, continuó hasta 1999. La Argentina se benefició por
+ello, exportó más bienes a Brasil. Es decir, la tonificación de la demanda agregada y el incremento
+de la absorción doméstica del socio más grande del Mercosur impactaron favorablemente en las
+importaciones del mismo y en las exportaciones de la Argentina. La devaluación de Brasil en 1999
+provocó una abrupta caída de la demanda y la producción en dicho país. Su recesión afecta
+significativamente el comercio exterior de la Argentina, ya que recordemos que Brasil representa el
+30 % del total de ventas que la Argentina hace al exterior y cerca del 50 % de sus exportaciones de
+manufacturas.
+En conclusión, en una economía abierta existe interdependencia entre la demanda doméstica de un
+país y las importaciones y exportaciones del socio comercial.
+En 1995-1996, con la crisis del tequila, la Argentina fue beneficiada con el aumento de las
+exportaciones a Brasil que le permitieron salir más rápidamente de la recesión y recuperarse en
+esos años.
+La realidad fue que, aunque en 1995 hubo una recesión, esta caída abrupta de la actividad
+económica hubiera sido mucho mayor si no fuera por el aumento de la demanda externa que
+compensó en parte la caída de la demanda doméstica.
+El mismo caso se dio para Estados Unidos en 1993 con su reactivación; tras tres años de
+crecimiento bajo o nulo, todos los países del mundo se alegraron, no por amor a Estados Unidos
+sino porque
+veían que el aumento de su producción significaba un aumento de la demanda no solo de bienes
+norteamericanos sino también de bienes extranjeros. Para ellos, este aumento de la demanda
+significaba mayores exportaciones a Estados Unidos, una mejora de su posición comercial, un
+incremento de la producción y, por lo tanto, la posibilidad de salir más deprisa de sus propias
+recesiones.
+Esta historia plantea algunas cuestiones. ¿Una expansión extranjera puede sacar realmente a otro
+país de una recesión? Si existen relaciones tan estrechas entre los países, ¿no deberían coordinarse
+sus políticas macroeconómicas? En caso afirmativo, ¿por qué parece tan difícil conseguirlo? Estas
+son algunas de las cuestiones que abordamos en este capítulo.
+12.1 La relación IS en la economía abierta
+Cuando supusimos en capítulos anteriores, que la economía estaba cerrada al comercio, no fue
+necesario distinguir entre la demanda nacional de bienes y la demanda de bienes interiores: eran claramente
+lo mismo. Ahora, la distinción es importante: una parte de la demanda nacional corresponde a bienes
+extranjeros y una parte de la demanda de bienes interiores procede de extranjeros. Examinemos más
+detenidamente esta distinción.
+La demanda de bienes interiores
+En una economía abierta, la demanda de bienes interiores es:
+Z ≡C +l +G−εQ+ X (12.1)
+La suma de los tres primeros términos —el consumo (C), la inversión (I) y el gasto público (G)—
+constituye la demanda nacional de bienes. Si la economía estuviera cerrada, C + I + G también sería la
+demanda de bienes interiores. Esta es la razón por la que hasta ahora solo hemos examinado C + I + G. Pero
+ahora realizaremos dos ajustes.
+En primer lugar, debemos restar las importaciones, es decir, la parte de la demanda nacional que
+recae en los bienes extranjeros. Debemos tener cuidado en este caso. Los bienes extranjeros son diferentes de
+los interiores, por lo que no podemos restar simplemente la cantidad de importaciones Q; si la restáramos,
+restaríamos las manzanas (los bienes extranjeros) de las naranjas (los bienes interiores). Debemos expresar
+primero el valor de las importaciones en bienes interiores. Eso es lo que representa εQ en la ecuación (12.1).
+
+Como hemos visto ε es el tipo de cambio real, es decir, el precio relativo de los bienes extranjeros expresado
+en bienes interiores. Por lo tanto ε Q es el valor de las importaciones expresado en bienes interiores1.
+En segundo lugar, debemos sumar las exportaciones, es decir, la demanda de bienes interiores que
+procede del extranjero y que se recoge por medio del término X en la ecuación (12.1).
+Los determinantes de la demanda de bienes interiores
+Una vez enumerados los componentes de la demanda, la siguiente tarea consiste en especificar sus
+determinantes. Comencemos por los tres primeros: C, I y G.
+Los determinantes de C, I y G. Ahora que estamos suponiendo que la economía es abierta, ¿cómo
+debemos modificar nuestras descripciones anteriores del consumo, la inversión y el gasto público? No
+mucho, por no decir nada. Lo decidan que gastar los consumidores sigue dependiendo de su renta y de su
+riqueza. Aunque el tipo de cambio real afecta sin duda a la composición del gasto de consumo en bienes
+interiores y extranjeros, no existe ninguna razón evidente por la que deba afectar al nivel global de consumo.
+Lo mismo ocurre con la inversión: el tipo de cambio real puede muy bien influir en la decisión de las
+empresas de comprar máquinas interiores o extranjeras, pero no debe afectar a la inversión total.
+Se trata de una buena noticia, ya que implica que podemos utilizar las descripciones del consumo, la
+inversión y el gasto público que hemos realizado antes. Lo hacemos y suponemos que la demanda nacional,
+C + I + G, viene dada por:
+C(Y −T )+ I(Y,r)+ G
+(+) (+,-)
+Suponemos que el consumo depende de la renta disponible (Y- T) y que la inversión depende de la
+producción (Y) y del tipo de interés real (r). Consideramos dado el gasto público (G). Obsérvese que dejamos
+de lado de momento muchos refinamientos que hemos introducido en capítulos anteriores, como la dinámica
+y las expectativas. El objetivo es analizar un elemento cada vez con el fin de comprender los efectos de la
+apertura de la economía; más adelante reintroducimos algunos de esos refinamientos,
+Los determinantes de las importaciones. ¿De qué depende la cantidad de importaciones Q?
+Principalmente, del nivel global de demanda nacional: cuanto mayor es la demanda nacional, mayor es la
+demanda de todos los bienes, tanto interiores como extranjeros. Es aquí donde encaja el párrafo con el que
+iniciamos este capítulo: en 1993, el resto del mundo quería que Estados Unidos se recuperara porque esa
+recuperación elevaría las importaciones de Estados Unidos. Pero Q también depende claramente del tipo de
+cambio real: cuanto más alto es el precio de los bienes extranjeros en relación con los interiores, menor es la
+demanda relativa de bienes extranjeros y menor la cantidad de importaciones.
+Expresamos, pues, las importaciones de la forma siguiente:
+( )
+Q=Q Y,ε (12.2)
+(+,-)
+Las importaciones dependen de la renta, Y: un aumento de la renta provoca un incremento de las
+importaciones2. Las importaciones también dependen del tipo de cambio real. Recuérdese que el tipo de
+1 En el capítulo 3 prescindimos de esta cuestión y restamos simplemente Q, lo cual era un error; nuestra excusa para
+proceder así es que no queríamos tener que hablar demasiado pronto del tipo de cambio real y complicar así las cosas.
+2 Profundizando. Aquí estamos haciendo algo de trampa. Nuestro análisis sugiere que debemos utilizar la demanda
+interior, C + I + G. en lugar de la renta, Y. Podríamos discutir incluso el supuesto de que las importaciones dependen
+de /a suma de la demanda interior y no de su composición: podría muy bien ocurrir que el peso de las importaciones en
+la inversión fuera diferente del peso de las importaciones en el consumo. Por ejemplo, muchos países pobres importan
+la mayor parte de su equipo de capital, pero consumen principalmente bienes interiores. En ese aso. la composición de
+la demanda sería esencial para las-importaciones. Dejarnos a un lado estas complicaciones, pero volveremos a esta
+cuestión más adelante en este capítulo.
+
+cambio real, ε, es el precio relativo de los bienes extranjeros expresado en bienes interiores. Una subida del
+tipo de cambio real encarece relativamente los bienes extranjeros y, por lo tanto, provoca una reducción de la
+cantidad de importaciones, Q3. Este efecto negativo que produce el tipo de cambio real en las importaciones
+se recoge por medio del signo negativo situado debajo de ε en la ecuación de las importaciones.
+Los determinantes de las exportaciones. Las exportaciones de un país son, por definición, 1as
+importaciones de otro. Por lo tanto, cuando examinamos los determinantes de las exportaciones de Estados
+Unidos, podemos preguntamos qué determina las importaciones extranjeras. De esa forma, podemos
+basamos en nuestro análisis de los determinantes de las importaciones del apartado anterior. Es probable que
+las importaciones extranjeras dependan de la actividad extranjera y del precio relativo de los bienes
+extranjeros. Por lo tanto, podemos formular:
+X = X(Y*, ε)
+(+, +)
+(12.3)
+Y* es el nivel de producción del resto del mundo o simplemente la producción extranjera
+(recuérdese que los asteriscos se refieren a las variables extranjeras). Un incremento de la producción
+extranjera provoca un aumento de la demanda extranjera de todos los bienes, parte de la cual recae en los
+bienes norteamericanos, provocando así un aumento de las exportaciones de Estados Unidos. Un aumento de
+ε—una subida del precio relativo de los bienes extranjeros expresado en bienes norteamericanos— hace que
+los bienes norteamericanos sean relativamente más atractivos y, por lo tanto, provoca un aumento de las
+exportaciones.
+Podemos resumir lo que hemos aprendido hasta ahora en la figura 12.1A, que representa los distintos
+componentes de la demanda en relación con la producción, manteniendo constantes todas las demás
+variables que afectan a la demanda (el tipo de interés, los impuestos, el gasto público, la producción
+extranjera y el tipo de cambio real).
+La línea DD representa la demanda nacional, C + I + G, en función de la producción. Esta relación
+entre la demanda y la producción resulta familiar por capítulos anteriores. Según nuestros supuestos
+habituales, su pendiente es positiva, pero menor que 1: un aumento de la producción —en otras palabras, de
+la renta, ya que las dos siguen siendo iguales en la economía abierta— eleva la demanda, pero en una cuantía
+inferior a dicho aumento. En ausencia de buenas razones en contra, trazamos esta y otras relaciones de este
+capítulo por medio de líneas rectas en lugar de curvas, únicamente por razones estéticas; ninguno de los
+análisis siguientes depende de ese supuesto.
+Para hallar la demanda de bienes interiores, debemos restar primero las importaciones. De esa
+manera, obtenemos la línea AA: la distancia entre DD y AA es igual al valor de las importaciones, ε Q. Dado
+que la cantidad de importaciones aumenta con la renta, la distancia entre las dos líneas aumenta con la renta.
+Podemos hacer dos observaciones sobre la línea AA que nos resultarán útiles más adelante en este capítulo.
+En primer lugar, AA es más plana que DD: cuando aumenta la renta, parte de la demanda nacional adicional
+es una demanda de bienes extranjeros y no de bienes interiores. Por lo tanto, cuando aumenta la renta, la
+demanda nacional de bienes interiores aumenta menos que la demanda nacional total. En segundo lugar, en
+la medida en que parte de la demanda adicional sea una demanda de bienes interiores, AA tiene pendiente
+positiva: un incremento de la renta provoca un cierto aumento de la demanda de bienes interiores.
+3 Obsérvese que cuando ε aumenta y Q disminuye, lo que ocurre con el valor de las importaciones expresado en bienes
+interiores, ε Q, es ambiguo. Más adelante en este capítulo volveremos a analizar esta cuestión
+
+Figura 12.1 La demanda de bienes interiores y las exportaciones netas.
+La demanda nacional de bienes es una función creciente de la renta. La demanda de bienes interiores se halla restando
+el valor de las importaciones de la demanda interior y, a continuación, sumando las exportaciones.
+Por último, debemos sumar las exportaciones. De esa manera, obtenemos la línea ZZ, que se
+encuentra por encima de la AA. La distancia entre ZZ y AA es igual a las exportaciones. Dado que estas no
+dependen de la producción interior, la distancia entre ZZ y AA es constante, por lo que las dos líneas son
+paralelas. Como AA es más plana que DD, ZZ también es más plana que DD.
+La figura 12.1A también nos permite caracterizar la conducta de las exportaciones netas —la
+diferencia entre las exportaciones y las importaciones — (X - εQ) en función de la producción (recuérdese
+que las exportaciones netas son sinónimo de balanza comercial, por lo que unas exportaciones netas
+positivas corresponden a un superávit comercial y unas exportaciones netas negativas corresponden a un
+déficit comercial). Por ejemplo, en el nivel de producción Y, las exportaciones están representadas por la
+distancia AC y las importaciones, por la distancia AB, por lo que las exportaciones netas están representadas
+por la distancia BC.
+La línea NX de la figura 12.1B muestra la relación entre las exportaciones netas y la producción. Las
+exportaciones netas son una función decreciente de la producción: cuando esta aumenta, las importaciones
+aumentan y las exportaciones no varían, por lo que disminuyen las exportaciones netas. Llamemos Y al
+TB
+nivel de producción en el que el valor de las importaciones es exactamente igual a las exportaciones, por lo
+que las exportaciones netas son iguales a cero. Los niveles de producción superiores a Y provocan un
+TB
+aumento de las importaciones y, por lo tanto, un déficit comercial. Los niveles de producción inferiores a Y
+TB
+provocan una disminución de las importaciones y, por lo tanto, un superávit comercial.
+12.2 El nivel de producción de equilibrio y la balanza comercial
+El mercado de bienes se encuentra en equilibrio cuando la producción interior es igual a la demanda
+de bienes interiores; por lo tanto, cuando:
+Y = Z
+Reuniendo las relaciones que hemos obtenido para los distintos componentes de Z, tenemos que:
+Y = C(Y - T) + I(Y, r) + G - εQ(Y, ε) + X(Y*, ε)
+(12.4)
+
+Esta condición de equilibrio determina la producción en función de todas las variables que
+consideramos dadas, desde los impuestos hasta el tipo de cambio real y la producción extranjera. Esta
+relación no es especialmente sencilla, por lo que la figura 12.2 ofrece una caracterización gráfica más fácil de
+comprender. La demanda se mide en el eje de ordenadas y la producción (en otras palabras, la renta), en el de
+abscisas. La línea ZZ representa la demanda en función de la producción; esta línea reproduce exactamente la
+ZZ de la figura 12.1A. Como hemos visto en esa figura, ZZ tiene pendiente positiva, pero inferior a 1.
+El nivel de producción de equilibrio se encuentra en el punto en el que la demanda es igual a la
+producción y, por lo tanto, en el punto de intersección de la línea ZZ y la recta de 45°: el punto A de la figura,
+al cual le corresponde el nivel de producción Y.
+La figura 12.2B reproduce la 12.1B, representando las exportaciones netas como una función
+decreciente de la producción. No existe razón alguna para que el nivel de producción de equilibrio, Y, sea
+igual que el nivel de producción en el que el comercio está equilibrado, Y . Tal como hemos representado la
+TB
+figura, la producción de equilibrio va acompañada de un déficit comercial igual a la distancia BC.
+Ahora disponemos de los instrumentos necesarios para responder a las preguntas que formulamos al
+comienzo de este capítulo.
+12.3 Un aumento de la demanda interior o extranjera
+Comencemos con una variación que ya es una vieja conocida, un incremento del gasto público, y
+pasemos a continuación a examinar los efectos de un aumento de la actividad extranjera.
+Un aumento del gasto público
+Supongamos que la economía se encuentra en una recesión y que el gobierno está considerando la
+posibilidad de incrementar el gasto público. ¿Cómo afectará esta medida a la producción y a la balanza
+comercial?
+La figura 12.3 muestra la respuesta. La demanda es inicialmente ZZ y el equilibrio se encuentra en
+el punto A, en el que la producción es igual a Y. Supongamos —aunque, como hemos visto, no hay razón
+alguna para que eso sea cierto en general — que el comercio se encuentra inicialmente en equilibrio, por lo
+que Y e Y son iguales.
+TB
+Figura 12.2 El nivel de producción de equilibrio y las exportaciones netas.
+El mercado de bienes se encuentra en equilibrio cuando la producción es igual a la demanda de bienes interiores. En el
+nivel de producción de equilibrio, la balanza comercial puede mostrar un déficit o un superávit.
+¿Qué ocurre si el gobierno eleva el gasto en ΔG? En cualquier nivel de producción, la demanda es
+mayor en ΔG, por lo que la curva de demanda se desplaza hacia arriba en ΔG, de ZZ a ZZ'. El punto de
+equilibrio se traslada de A a A' y la producción aumenta de Y a Y'. El aumento de la producción es claramente
+mayor que el incremento del gasto público. Se produce un efecto multiplicador.
+
+Hasta ahora lo ocurrido parece muy similar a lo que sucedía en la economía cerrada anteriormente.
+Examinémosla, sin embargo, más detenidamente.
+Ahora la balanza comercial resulta afectada. Como el gasto público no entra directamente ni en la
+relación de exportaciones ni en la relación de importaciones, la línea que representa las exportaciones netas
+en función de la producción en la figura 12.3B no se desplaza. El aumento de la producción de Y a Y'
+provoca, pues, un déficit comercial igual a BC.
+Ahora el gasto público no solo provoca un déficit comercial sino que su influencia en la producción
+es menor que en la economía cerrada. Recuérdese que cuanto menor es la pendiente de la relación de
+demanda, menor es el multiplicador. Por ejemplo, si ZZ es plana, el multiplicador es simplemente igual a 1.
+Y recuérdese que en la figura 12.1 hemos visto que la relación de demanda ZZ es más plana que la relación
+de demanda de la economía cerrada, DD. Por lo tanto, el multiplicador es menor en la economía abierta.
+Figura 12.3 Los efectos de un aumento del gasto público.
+Un aumento del gasto público provoca un aumento de la producción y un déficit comercial.
+El déficit comercial y el multiplicador menor se deben a la misma causa: ahora un aumento de la
+demanda no solo es un aumento de la demanda de bienes interiores, sino también un aumento de la demanda
+de bienes extranjeros. Por lo tanto, cuando aumenta la renta, el efecto producido en la demanda de bienes
+interiores es menor que en una economía cerrada, lo que hace que el multiplicador sea más pequeño. Y como
+parte del aumento de la demanda es un aumento de la demanda de importaciones —y las exportaciones no
+varían—, el resultado es un déficit comercial.
+Estas dos implicaciones son importantes. En una economía abierta, un aumento de la demanda
+nacional influye en la producción menos que en una economía cerrada y produce un efecto negativo en la
+balanza comercial. De hecho, cuanto más abierta es la economía, menor es la influencia en la producción y
+mayor es el efecto negativo producido en la balanza comercial. Tomemos, por ejemplo, el caso de Bélgica,
+que tiene un cociente entre las importaciones y el PIB algo superior al 70 %. Esta cifra implica que cuando la
+demanda aumenta en Bélgica, alrededor del 70 % de este aumento se traduce en un incremento de las
+importaciones y solo el 30 % en un incremento de la demanda de bienes interiores. Por lo tanto, es probable
+que el efecto de un incremento del gasto público sea un gran aumento del déficit comercial de Bélgica y un
+pequeño aumento de la producción, por lo que la expansión de la demanda nacional es una medida bastante
+poco atractiva para Bélgica. Incluso en el caso de Estados Unidos, que tiene una tasa de importaciones del
+orden del 10 % solamente, un aumento de la demanda va acompañado de un cierto deterioro de la posición
+comercial (esta conclusión se analiza más extensamente en el recuadro titulado "Multiplicadores: Bélgica
+frente a Estados Unidos").
+
+Multiplicadores: Bélgica frente a Estados Unidos
+Si suponemos que las diversas relaciones de la ecuación (12.4) son lineales, podemos calcular la
+influencia del gasto público, de la producción extranjera, etc., tanto en la producción como en la balanza
+comercial. En este recuadro centramos la atención en las diferencias entre los efectos del gasto público en un
+país grande como Estados Unidos y en uno pequeño como Bélgica.
+Supongamos que el consumo aumenta con la renta disponible y que la inversión aumenta con la
+producción y disminuye con el tipo de interés real:
+C = c + c (Y - T)
+o 1
+I = d + d Y - d r
+o 1 2
+Para simplificar el análisis, prescindimos de las variaciones del tipo de cambio real y suponemos que
+este es igual a 1. También suponemos que las importaciones son proporcionales a la producción interior y
+que las exportaciones son proporcionales a la producción extranjera:
+Q = q Y
+1
+X = x Y*
+1
+De la misma manera que nos hemos referido a c con el nombre de propensión marginal a consumir,
+1
+q es la propensión marginal a importar.
+1
+La condición de equilibrio es que la producción debe ser igual a la demanda de bienes interiores:
+Y = C + I + G – Q + X
+Recuérdese que estamos suponiendo que ε es igual a 1. Sustituyendo los componentes por las
+expresiones anteriores, tenemos que:
+Y= [c + c (Y- T)] + (d + d Y- d r) + G – q Y+ x Y*
+o 1 o 1 2 1 1
+Reagrupando términos, tenemos que:
+Y= (c + d – q )Y + (c + d – c T – d r + G + x Y*)
+1 1 1 o o 1 2 1
+Sacando en factor común Y y despejando, tenemos que:
+1 ( )
+Y = c +d −cT −d r +G+ xY*
+1− ( c +d −q ) 0 0 1 2 1
+1 1 1
+La producción es igual al multiplicador por el último término entre paréntesis, que recoge el efecto
+de todas las variables que consideramos dadas a la hora de explicar la producción.
+Consideremos el multiplicador. Más concretamente, consideremos el término (c + d – q ) del
+1 1 1
+denominador. Al igual que en la economía cerrada, (c + d ) indica la influencia de un aumento de la
+1 1
+producción en la demanda de consumo y de inversión; (– q ) recoge el hecho de que parte del aumento de la
+1
+demanda no es un aumento de la demanda de bienes interiores sino de bienes extranjeros. En el caso extremo
+en el que toda la demanda adicional es demanda de bienes extranjeros —es decir, cuando q = c + d – , un
+1 1 1
+aumento de la producción no influye en la demanda de bienes interiores; en ese caso, el multiplicador es
+igual a 1. En general, q es menor que (c + d ), por lo que el multiplicador es mayor que 1. Pero es menor
+1 1 1
+de lo que sería en una economía cerrada.
+Utilizando esta ecuación, podemos caracterizar fácilmente los efectos de un incremento del gasto
+público de G. El aumento de la producción es igual al multiplicador por la variación del gasto público; por lo
+tanto,
+1
+ΔY = ΔG
+( )
+1− c +d −q
+1 1 1
+
+El aumento de las importaciones provocado por el incremento de la producción implica una
+variación de las exportaciones netas de:
+ΔNX = −q ΔY
+1
+q
+= − 1 ΔG
+( )
+1− c +d −q
+1 1 1
+Veamos qué implican estas fórmulas dando valores numéricos a los parámetros. Supongamos que c
+1
++ d es igual a 0,6. ¿Qué valor deberíamos elegir para q ? En el capítulo 11 hemos visto que, en general,
+1 1
+cuanto mayor es el país, más autosuficiente es y menos importa del extranjero. Elijamos, pues, dos valores de
+q : uno bajo, por ejemplo, 0,1, para un país grande como Estados Unidos, y uno más alto, por ejemplo, 0,4,
+1
+para uno pequeño como Bélgica. Obsérvese que podemos concebir q /(c + d ) como la proporción del
+1 1 1
+aumento de la demanda que recae en las importaciones, por lo que una manera equivalente de formular
+nuestras elecciones de q es que en el país grande 1/6 de la demanda recae en las importaciones frente a 4/6
+1
+en el país pequeño.
+En el caso del país grande, los efectos sobre la producción y sobre la balanza comercial vienen dados
+por:
+1
+ΔY = ΔG = −0,2ΔG
+( )
+1− 0,6−0,1
+y por:
+−0,1
+ΔNX = −0,1ΔY = ΔG = −0,2ΔG
+( )
+1− 0,6−0,1
+En el caso del país pequeño, estos efectos vienen dados por:
+1
+ΔY = ΔG =1,25ΔG
+( )
+1− 0,6−0,4
+y por:
+−0,4
+ΔNX = −0,4ΔY = ΔG = −0,5ΔG
+( )
+1− 0,6−0,4
+Estos cálculos muestran cuán diferentes son las disyuntivas a las que se enfrentan ambos países. En
+el país grande, la influencia de un aumento de G en la producción es grande y la influencia en la balanza
+comercial es pequeña. En el país pequeño, la influencia en la producción es pequeña y el deterioro de la
+balanza comercial es igual a la mitad del incremento del gasto público.
+Este ejemplo muestra claramente hasta qué punto la apertura ata las manos de las autoridades
+económicas en los países pequeños. A lo largo del libro iremos viendo más ejemplos de esta proposición.
+Podríamos pensar en una comparación análoga de las relaciones comerciales entre Brasil y la
+Argentina.
+Un aumento de la demanda extranjera
+Consideremos ahora un aumento de la actividad extranjera, a saber, un aumento de Y*. Este podría
+deberse a un incremento del gasto público extranjero G*, la misma medida que acabamos de analizar, pero
+ahora en el extranjero. Pero no es necesario saber de dónde procede para analizar su influencia en la
+economía nacional.
+La figura 12.4 muestra la influencia de un aumento de Y* en la producción interior y en la balanza
+comercial. La demanda inicial de bienes es ZZ en la figura 12.4A. El equilibrio se encuentra en el punto A
+con un nivel de producción Y. Supongamos que el comercio está equilibrado, por lo que en la figura 12.4B
+las exportaciones netas correspondientes a Y son iguales a cero.
+Resultará útil trazar en la figura 12.4A la línea DD que corresponde a la demanda nacional de bienes
+C + 1 + G en función de la renta. Como hemos mostrado en la figura 12.1, esta línea es más inclinada que
+
+ZZ. La diferencia entre ZZ y DD es igual a las exportaciones netas, por lo que si el comercio está equilibrado
+en el punto A, entonces ZZ y DD se cortan en el punto A.
+Examinemos ahora los efectos de un aumento de la producción extranjera, ΔY*. El efecto directo es
+un aumento de las exportaciones norteamericanas de la misma cuantía representado por ΔX. Dado un nivel
+de producción, este aumento de las exportaciones provoca un incremento de la demanda de bienes
+norteamericanos en ΔX. , por lo que la línea que indica la demanda de bienes interiores en función de la
+producción se desplaza hacia arriba en ΔX de ZZ a ZZ'. Como las exportaciones aumentan en ΔX en un nivel
+de producción dado, la línea que representa las exportaciones netas en función de la producción en la figura
+12.4B también se desplaza hacia arriba en ΔX, de NX a NX'.
+Figura 12.4 Los efectos de un aumento de la demanda extranjera.
+Un aumento de la demanda extranjera provoca un aumento de la producción y un superávit comercial.
+El nuevo equilibrio se encuentra en el punto A' con un nivel de producción Y'. El aumento de la
+producción extranjera provoca un incremento de la producción interior. La vía es evidente: el aumento de la
+producción extranjera provoca un incremento de las exportaciones de bienes interiores, el cual eleva, a su
+vez, la producción interior y la demanda nacional de bienes a través del multiplicador.
+¿Qué ocurre con la balanza comercial? Sabemos que las exportaciones aumentan. Pero ¿podría
+ocurrir que el aumento de la producción interior provocara un aumento tan grande de las importaciones que
+la balanza comercial empeorara realmente? La respuesta es negativa: la balanza comercial debe mejorar.
+Para ver por qué, volvamos a la figura 12.4A. Cuando aumenta la demanda extranjera, la demanda
+de bienes interiores se desplaza hacia arriba de ZZ a ZZ'. Pero la línea DD, que indica la demanda nacional de
+bienes en función de la producción, no se desplaza. En el nuevo nivel de producción de equilibrio Y' la
+demanda nacional está representada por la distancia DC y la demanda de bienes interiores, por DA'. Las
+exportaciones netas están representadas, pues, por la distancia CA', que como DD es necesariamente inferior
+a ZZ', es necesariamente positiva. Por lo tanto, aunque aumentan las importaciones, estas no contrarrestan el
+aumento de las exportaciones, por lo que la balanza comercial mejora.
+Juegos a los que juegan los países
+Hasta ahora hemos extraído dos conclusiones básicas:
+(cid:131) Un aumento de la demanda nacional provoca un incremento de la producción, pero
+también un déficit comercial (hemos examinado un incremento del gasto público,
+
+pero los resultados serían los mismos en el caso de una reducción de los impuestos,
+un aumento del gasto en consumo, etc.).
+(cid:131) Un aumento de la demanda extranjera (que podría deberse a los mismos cambios
+que antes, que ahora ocurren en el extranjero) provoca un incremento de la
+producción interior y un, superávit comercial.
+A los gobiernos no les gustan los déficit comerciales y tienen buenas razones para ello. La principal
+es la siguiente: un país que incurre sistemáticamente en un déficit comercial acumula deuda frente al resto
+del mundo y, por lo tanto, tiene que pagar unos intereses cada vez mayores al resto del mundo. No es de
+extrañar, pues, que los países prefieran que aumente la demanda extranjera (lo que provoca una mejora de la
+balanza comercial) a que aumente la demanda nacional (lo que provoca un deterioro de la balanza
+comercial).
+Estas preferencias pueden tener desastrosas implicaciones. Consideremos un grupo de países que
+comercian mucho entre sí, por lo que un aumento de la demanda en uno cualquiera de ellos se traduce en
+gran medida en un aumento de la demanda de bienes producidos en los demás países. Supongamos que todos
+ellos atraviesan una recesión y que la balanza comercial de todos está aproximadamente en equilibrio. Cada
+uno puede mostrarse muy reacio a toda la mar medidas para aumentar la demanda nacional. Si lo hiciera, el
+resultado podría ser un pequeño aumento producción, pero también un déficit comercial mayor. Por lo tanto,
+es posible que cada país espere a que los otros aumenten su propia demanda. Pero si todos esperan, no ocurre
+nada y la recesión puede perdurar.
+¿Existe alguna vía para salir de esta situación? Por supuesto que existe, al menos en teoría. Si todos
+los países coordinan su política macroeconómica con el fin de aumentar la demanda nacional
+simultáneamente, pueden aumentarla sin aumentar su déficit comercial (entre ellos; su déficit comercial con
+respecto al resto del mundo sí aumentará). La razón es evidente: el aumento coordinado de la demanda
+provoca un aumento tanto de las exportaciones como de las importaciones en cada país. Sigue siendo cierto
+que el aumento de la demanda nacional provoca un incremento de las importaciones; pero este es
+contrarrestado por el de las exportaciones, que se debe al aumento de la demanda extranjera.
+La coordinación es, de hecho, una palabra que suelen invocar los gobiernos. Las siete mayores
+potencias económicas del mundo, el llamado G-7 (Estados Unidos, Japón, Francia, Alemania, el Reino
+Unido, Italia y Canadá), se reúnen periódicamente para analizar su situación económica; el comunicado final
+raras veces deja de mencionar la coordinación. Pero la evidencia muestra que la coordinación
+macroeconómica entre los países dista mucho de ser absoluta. Los economistas han identificado algunas
+poderosas razones por las que ocurre esto.
+En primer lugar, la coordinación puede implicar que algunos países tengan que hacer más que otros.
+Supongamos, en nuestro ejemplo, que solo algunos se encuentran en una recesión. Los que no se hallan en
+esa situación se mostrarán reacios a aumentar su propia demanda; pero sino la aumentan, los que la
+incrementen incurrirán en un déficit comercial frente a los que no la incrementen. O supongamos que
+algunos ya tienen un gran déficit presupuestario. Estos países no querrán bajar los impuestos o incrementar
+más el gasto y pedirán a otros que asuman una parte mayor del ajuste. Esos otros pueden muy bien mostrarse
+reacios a hacerlo.
+En segundo lugar, los países tienen poderosos incentivos para prometer que van a coordinarse y
+después no cumplir esa promesa. Una vez que todos se han puesto de acuerdo, por ejemplo, en elevar el
+gasto, cada uno tiene un incentivo para no cumplir el acuerdo, beneficiándose así del aumento de la demanda
+registrado en los otros y viendo mejorar su posición comercial. Pero si todos hacen trampa o, al menos, no
+hacen todo lo que han prometido, la demanda no aumentará lo suficiente para salir de la recesión.
+Estas preocupaciones distan de ser abstractas. Los países de la UE, que están realmente integrados,
+han padecido en los últimos veinte años frecuentes problemas de coordinación. A fines de la década de 1970,
+un intento fallido de coordinarse hizo que la mayoría de los países se les quitaran las ganas de intentarlo otra
+vez. A principios de los años 80, el intento de los socialistas franceses de actuar por su cuente provocó un
+gran déficit comercial en Francia y, finalmente, un cambio de política. A partir de entonces, la mayoría de
+los países decidieron que era mejor esperar que aumentara la demanda extranjera que elevar la suya propia.
+Algunos economistas atribuyen en parte los malos resultados macroeconómicos obtenidos por Europa en la
+década de 1980 precisamente a este juego de esperar a los demás. Explicaremos brevemente lo ocurrido en
+Francia4: en mayo de 1981, el Partido Socialista ganó las elecciones. Ante una economía que tenía más del
+7% de desempleo, los socialistas crearon un programa destinado a elevar la demanda por medio de políticas
+4 Para más información sobre la política económica francesa en la década de 1980, véase Muet, Pierre-Alain y
+Fonteneau, Alain, Reflation and Austerity: Economic Policy under Mitterand, Berg, Nueva York, 1990
+
+sociales y subvenciones más generosas para la creación de empleo. Se elevaron las prestaciones sociales y
+las pensiones. Se creó empleo público, así como nuevos programas de formación para los jóvenes y los
+desempleados. El cuadro 1 resume los resultados macroeconómicos de la política.
+La expansión fiscal es bastante visible en los datos: el presupuesto, que estaba equilibrado en 1980,
+incurrió en un déficit del 2,8% del PIB en 1982. Las consecuencias para el crecimiento también son visibles.
+En 1981-1982, el crecimiento medio fue del 1,85%, tasa de crecimiento que no es muy impresionante, pero
+si muy superior a la desalentadora tasa media del 0,45% registrada en la UE en esos dos mismos años.
+No obstante, los socialistas abandonaron su política en marzo de 1983. La última línea del cuadro 1
+indica por qué. Al expandirse Francia más de prisa que sus socios comerciales, su déficit comercial
+experimentó un enorme aumento. Aunque el gobierno hubiera tolerado esos déficit comerciales, los
+mercados financieros —que ya estaban nerviosos por la victoria de los socialistas— obligaron a devaluar el
+franco 3 veces en 18 meses (recuérdese que en el capítulo 11 vimos que cuando los países tratan de mantener
+un tipo cambio fijo —como es el caso de Francia en ese momento—, las depreciaciones se denominan
+devaluaciones; más adelante veremos los mecanismos que provocan esas devaluaciones). La primera
+devaluación fue del 8,5% frente al marco alemán en octubre de 1981; la segunda, del 10% frente al marco
+alemán en junio de 1982; y la tercera, del 8% frente al marco alemán en marzo de 1983. Es mismo mes, el
+gobierno francés, que no estaba dispuesto a que el franco sufriera más ataques y al que preocupaba el déficit
+comercial, renunció a su intento de utilizar políticas de demanda para reducir el desempleo y optó por una
+nueva política de “austeridad”destinada a conseguir una baja inflación, el equilibrio presupuestario y
+comercial y a evitar una nueva devaluación. Esta política ha sido mantenida hasta la fecha por los distintos
+gobiernos franceses tanto de izquierda como de derecha.
+Cuadro I Agregados macroeconómicos, Francia 1980-1983
+1980 1981 1982 1983
+Crecimiento del PIB (%) 1,6 1,2 2,5 0,7
+Crecimiento de la UE (%) 1,4 0,2 0,7 1,6
+Superávit presupuestario 0,0 -1,9 -2,8 -3,2
+Superávit por cuenta corriente -0,6 -0,8 -2,2 -0,9
+El superávit presupuestario y el superávit por cuenta corriente se expresan en porcentaje del PIB. El signo negativo
+indica un déficit. El crecimiento de la UE se refiere a la tasa media de crecimiento de los países de la Unión Europea.
+Fuente: OCDE, Economic Outlook, diciembre de 1993
+Así como en el caso de Francia de principios de los 80 se provocaron devaluaciones, en la Argentina
+y Brasil las políticas macroeconómicas requieren también una racionalidad, continuidad y coordinación con
+instrumentos monetarios, cambiarios, comerciales y fiscales que tengan en cuenta la restricción externa.
+También se deben tener en cuenta no solo los acuerdos del Mercosur, sino también aquellos de la
+Organización Mundial del Comercio (OMC). La coordinación de políticas será esencial para el futuro del
+Mercosur.
+Necesidades de coordinación en la nueva etapa del Mercosur
+Los grandes cambios que se produjeron en la economía brasileña pusieron en evidencia la necesidad
+de una etapa de ajustes en el Mercosur. Además, se presentaron factores adversos, tanto externos como
+internos, en las economías de Brasil y la Argentina, de los cuales se indican los más importantes:
+(cid:131) Deterioro de los precios de los commodities, los cuales afectaron a ambas economías.
+(cid:131) Caída del comercio mundial, debido principalmente al estancamiento de las economías de
+Japón, los países asiáticos y los latinoamericanos.
+(cid:131) Medidas proteccionistas por parte de los países desarrollados (medidas antidumping y
+subsidios agribusiness).
+(cid:131) Reducción del comercio intrarregional del Mercosur.
+La devaluación de Brasil en 1999 trajo como consecuencia una modificación significativa de los
+precios relativos, además de alterar la competitividad de bienes y servicios entre ambos países. Después de la
+devaluación, la Argentina resultó menos competitiva con respecto a su mayor socio del Mercosur. Recuperar
+la competitividad es el mayor desafío que tiene que enfrentar la economía de la Argentina. Ello se debe
+principalmente a que Brasil es el socio comercial más importante y, como tal, absorbe cerca del 30 % de las
+exportaciones totales de la Argentina, además de ser el único socio con que la misma presenta superávit
+comercial.
+
+En este contexto, surge como una prioridad la convergencia macroeconómica entre los países de la
+región.
+En el debate teórico y académico existen dos posturas contrapuestas: una de ellas es la de los
+devaluacionistas y la otra, la de los deflacionistas. Ambas corrientes coinciden en que la Argentina debe
+lograr incrementar el nivel de competitividad relativa (no solo con Brasil, sino también con el resto del
+mundo), así como la credibilidad externa e interna, y su nivel de empleo y de crecimiento.
+En síntesis, en esta etapa crítica que atraviesa el Mercosur es indispensable, para mantener y
+profundizar las relaciones comerciales, la coordinación de políticas macroeconómicas. Para ello, se deben
+conciliar los intereses de los países miembros en lo que se relacione con las políticas públicas, políticas
+externas, desarrollo industrial, infraestructura básica, entre otros.
+12.4 La depreciación, la balanza comercial y la producción
+Supongamos que el gobierno de Estados Unidos toma medidas que conducen a una depreciación del
+dólar (en el capítulo 13 veremos qué medidas podrían ser estas; de momento, supondremos que el gobierno
+puede elegir simplemente el tipo de cambio).
+Recuérdese que el tipo de cambio real viene dado por:
+EP*
+ε≡
+P
+El tipo de cambio real, ε (el precio relativo de los bienes extranjeros expresado en bienes interiores),
+es igual al tipo de cambio nominal, E (el precio relativo de la moneda extranjera expresada en la moneda
+nacional), multiplicado por el nivel de precios extranjero, P*, dividido por el nivel de precios interior, P.
+Según nuestro supuesto de que los niveles de precios están dados, una depreciación nominal se traduce, pues,
+en una depreciación real de la misma cuantía. Más concretamente, si el dólar se deprecia frente al yen un 5 %
+(una depreciación nominal) y si los niveles de precios de Japón y Estados Unidos no varían, los bienes
+norteamericanos serán un 5 % más barato que los japoneses (una depreciación real)5.
+Veamos ahora cómo afecta esta depreciación real a la balanza comercial y la producción de Estados
+Unidos.
+La depreciación y la balanza comercial: la condición Marshall-Lerner
+Recordemos la definición de exportaciones netas:
+NX ≡ X −εQ
+Sustituyendo X y Q por sus expresiones de las ecuaciones (12.2) y (12.3), tenemos que:
+NX = X ( Y*,ε ) −εQ ( Y,ε )
+Como el tipo de cambio real ε figura en tres lugares, esta ecuación muestra claramente que la
+depreciación real —un aumento de ε — afecta a la balanza comercial a través de tres vías:
+1. Aumenta X. La depreciación, que abarata relativamente los bienes norteamericanos en el
+extranjero, provoca un aumento de la demanda extranjera y, por lo tanto, un aumento de las
+exportaciones norteamericanas.
+2. Disminuye Q. La depreciación, que encarece relativamente los bienes extranjeros en
+Estados Unidos, provoca un desplazamiento de la demanda nacional hacia los bienes
+interiores, lo que da lugar a una reducción de la cantidad de importaciones.
+3. Sube el precio relativo de las importaciones, ε. Esta subida tiende a elevar la factura de
+importaciones, ε Q. Ahora cuesta más comprar la misma cantidad de importaciones.
+Por lo tanto, para que la balanza comercial mejore tras una depreciación, las exportaciones deben
+aumentar lo suficiente y las importaciones deben disminuir lo suficiente para compensar la subida del precio
+de las importaciones. La condición en la que una depreciación real provoca un aumento de las exportaciones
+netas se conoce con el nombre de condición Marshall-Lerner6. Se deduce en términos más formales en el
+apéndice de este capítulo. Resulta que —con la salvedad que haremos cuando introduzcamos la dinámica
+5 Una vez que hayamos analizado el lado de la oferta, volveremos a estudiar los efectos de una depreciación nominal y
+tendremos en cuenta los ajustes del nivel de precios.
+6 El nombre se debe a los dos economistas que la formularon primero: Alfred Marshall y Abba Lerner
+
+más adelante en este capítulo— esta condición se satisface en realidad. Por lo tanto, en el resto del libro
+supondremos que un aumento de ε, una depreciación real, provoca un incremento de las exportaciones netas.
+Los efectos de una depreciación
+Hasta ahora hemos examinado los efectos directos de una depreciación sobre la balanza comercial,
+es decir, los efectos, dadas la producción norteamericana y la extranjera. Pero los efectos no acaban aquí.
+La variación de las exportaciones netas altera, a su vez, la producción interior, lo que afecta aun más las
+exportaciones netas.
+Dado que los efectos de una depreciación real son muy parecidos a los de un aumento de la
+producción extranjera, podemos utilizar la misma figura que hemos empleado antes, la 12.4, para mostrar los
+efectos de un aumento de la producción extranjera.
+Al igual que ocurre con un aumento de la producción extranjera, una depreciación provoca,
+cualquiera que sea el nivel de producción, un aumento de las exportaciones netas (suponiendo, como lo
+hacemos, que se cumple la condición Marshall-Lemer). Por consiguiente, tanto la relación de demanda (ZZ
+en la figura 12.4A) como la relación de exportaciones netas (NX en la figura 12.4B) se desplazan hacia
+arriba. El equilibrio se traslada de A a A'; la producción aumenta de Y a Y'. De acuerdo con el mismo
+argumento que hemos empleado antes, la balanza comercial mejora: el aumento de las importaciones
+provocado por el incremento de la producción es menor que la mejora directa de la balanza comercial
+provocada por la depreciación. En suma, la depreciación provoca un desplazamiento de la demanda, tanto
+extranjera como interior, en favor de los bienes interiores, lo cual provoca, a su vez, un aumento de la
+producción interior y una mejora de la posición comercial.
+Aunque una depreciación y un aumento de la producción extranjera provocan el mismo efecto en la
+producción nacional y en la balanza comercial, existe una diferencia sutil, pero importante, entre los dos.
+Una depreciación actúa encareciendo relativamente los bienes extranjeros, pero eso significa que, dada la
+renta de los individuos, empeora su bienestar, ya que ahora tienen que pagar más por los bienes extranjeros.
+Este mecanismo se deja sentir sobre todo en los países que sufren una gran depreciación. Los gobiernos que
+tratan de conseguir una gran depreciación suelen encontrarse con huelgas y disturbios, ya que la población
+reacciona a la enorme subida de los precios de los bienes importados. Un ejemplo reciente es México, donde
+la gran depreciación del peso registrada en 1994-1995—de $ 3,44 por dólar en noviembre de 1994 a 5,88 en
+mayo de 1995— provocó un gran empeoramiento del nivel de vida de los trabajadores y grandes tensiones
+sociales7.
+La combinación de políticas de tipo de cambio y fiscal
+Supongamos que un gobierno quiere reducir el déficit comercial sin alterar el nivel de producción.
+No dará resultado una depreciación: reduciría el déficit, pero también elevaría la producción. Tampoco dará
+resultado una contracción fiscal: reduciría el déficit comercial, pero también la producción. ¿Qué debe hacer
+el gobierno? La respuesta es sencilla: utilizar la combinación correcta de depreciación y contracción fiscal.
+La figura 12.5 muestra cuál debería ser esta combinación.
+El equilibrio se encuentra inicialmente en el punto A de la figura 12.5A y va acompañado de un nivel
+de producción Y; el déficit comercial está representado por la distancia BC en la figura 12.5B. Si el gobierno
+desea eliminar el déficit comercial sin alterar la producción, debe hacer dos cosas.
+En primer lugar, debe conseguir una depreciación suficiente para eliminar el déficit comercial en el
+nivel inicial de producción. Por lo tanto, la depreciación debe ser tal que desplace la relación de
+exportaciones netas de NX a NX' en la figura 12.5B.
+El problema estriba en que esta depreciación y el aumento correspondiente de las exportaciones
+netas también desplazan la relación de demanda de la figura 12.5A de ZZ a ZZ'. En ausencia de otras
+medidas, el equilibrio se desplazaría de A a A' y la producción aumentaría de Y a Y'. Para evitar este efecto, el
+gobierno debe reducir el gasto público con el fin de desplazar ZZ' de nuevo a ZZ. Esta combinación de
+depreciación y contracción fiscal provoca el mismo nivel de producción y mejora la balanza comercial.
+7 Profundizando. Existe una alternativa a las huelgas y los disturbios, a saber, pedir- conseguir una subida salarial.
+Pero si suben los salarios, probablemente también subirán los precios de los bienes interiores, lo que provocará una
+depreciación real menor. Para analizar este mecanismo, necesitamos examinar el lado de la oferta más detalladamente
+de lo que lo hemos hecho hasta ahora. Luego volveremos a analizar la dinámica de la depreciación, las variaciones
+salariales y las variaciones de los precios.
+
+Cabe extraer una conclusión general de este ejemplo. En la medida en que al gobierno le preocupe
+tanto el nivel de producción como la balanza comercial, tiene que utilizar simultáneamente tanto la política
+fiscal como la política de tipo de cambio. Acabamos de ver una combinación de ese tipo. El cuadro 12.1
+muestra otras, lo que depende del nivel de producción y de la posición comercial iniciales. Tomemos, por
+ejemplo, la casilla situada en la esquina superior derecha del cuadro. La producción inicial es demasiado baja
+(en otras palabras, el desempleo es demasiado alto) y la economía tiene un déficit comercial. Una
+depreciación será útil tanto en el frente del comercio como en el de la producción: reduce el déficit comercial
+y eleva la producción. Pero no existe razón alguna para que la depreciación consiga tanto el aumento
+correcto de la producción como la eliminación del déficit comercial. Según la situación inicial y la influencia
+relativa de la depreciación en la producción y en la balanza comercial, es posible que el gobierno tenga que
+complementar la depreciación con un aumento o una reducción del gasto público. Esta ambigüedad se
+representa con las interrogaciones del cuadro. Asegúrese el lector de que comprende la lógica que subyace a
+las otras tres casillas.
+Figura 12.5 Reducción del déficit comercial sin alterar la producción.
+Para reducir el déficit comercial sin alterar la producción, el gobierno debe conseguir una depreciación y reducir al
+mismo tiempo el gasto público.
+12.5 Análisis dinámico: la curva J
+Hasta ahora hemos prescindido en este capítulo de la dinámica. Es el momento de volver a
+introducirla. La dinámica del consumo, la inversión, las ventas y la producción que hemos visto
+anteriormente es tan relevante para la economía abierta como para la cerrada. Pero existen efectos dinámicos
+adicionales que se deben a la dinámica de las exportaciones y las importaciones. Son estos los que queremos
+destacar aquí.
+Cuadro 12.1 Combinaciones de políticas de tipo de cambio y fiscal.
+Condiciones iniciales Superávit comercial Superávit fiscal
+Bajo nivel de producción ε? G↑- ε↑-G?
+Elevado nivel de producción ε↓ G? Ε?G↓
+Volvamos a examinar los efectos del tipo de cambio sobre la balanza comercial. Hemos afirmado
+antes que una depreciación provoca un aumento de las exportaciones y una reducción de las importaciones,
+pero estos efectos no se producen, desde luego, de la noche a la mañana. Pensemos, por ejemplo, en los
+efectos dinámicos de una depreciación del dólar del 10 %. En los primeros meses posteriores a la
+
+depreciación, es probable que sus efectos se reflejen mucho más en los precios que en las cantidades. El
+precio de las importaciones de Estados Unidos sube y el de las exportaciones norteamericanas al extranjero
+baja8. Pero la cantidad de importaciones y de exportaciones probablemente se ajustará con lentitud: los
+consumidores tardan un tiempo en darse cuenta de que han variado los precios relativos, las empresas tardan
+un tiempo en optar por proveedores más baratos, etc. Por lo tanto, una depreciación puede muy bien
+provocar un empeoramiento inicial de la balanza comercial; ε aumenta, pero ni X ni Q se ajustan mucho
+inicialmente, lo que provoca una disminución de las exportaciones netas, X - εQ.
+A medida que pasa el tiempo, aumentan los efectos de las variaciones de los precios relativos tanto
+de las exportaciones como de las importaciones. Las exportaciones aumentan y las importaciones
+disminuyen. Si finalmente se cumple la condición Marshall-Lemer —y hemos afamado que se cumple—, la
+respuesta de las exportaciones y de las importaciones acaba siendo más intensa que el efecto negativo
+relacionado con los precios y el efecto final de la depreciación es una mejora de la balanza comercial.
+La figura 12.6 recoge este ajuste representando la evolución de la balanza comercial en respuesta a
+una depreciación real. El déficit comercial existente antes de la depreciación es OA. Esta eleva inicialmente
+el déficit comercial a OB: ε aumenta, pero ni Q ni X varían de inmediato. Con el paso del tiempo, las
+exportaciones aumentan y las importaciones disminuyen, reduciendo el déficit comercial. Finalmente (si se
+satisface la condición Marshall-Lerner), la balanza comercial mejora en comparación con su nivel inicial; eso
+es lo que ocurre a partir del punto C de la figura. Los economistas llaman curva J a este proceso de ajuste
+porque —hay que reconocer que con un poco de imaginación— la curva de la figura se parece a una "J":
+primero va hacia abajo y después, hacia arriba.
+La importancia de los efectos dinámicos que produce el tipo de cambio real en la balanza comercial
+puede mostrarse simplemente examinando la evidencia de Estados Unidos correspondiente a mediados de los
+años 80. La figura 12.7 representa la balanza comercial de Estados Unidos en comparación con el tipo de
+cambio real de Estados Unidos en la década de 1980. Como ya hemos visto, en el periodo 1980-1985 se
+registró una enorme apreciación real y en el periodo 1985-1988, una enorme depreciación real. Pasando a la
+balanza comercial, que se expresa en porcentaje del PIB, hay dos hechos evidentes:
+1. Las variaciones del tipo de cambio real se tradujeron, de hecho, en variaciones paralelas de las
+exportaciones netas. La apreciación fue acompañada de un gran empeoramiento de la balanza
+comercial y la depreciación posterior fue acompañada de una gran mejora de la balanza
+comercial.
+FIGURA 12.6 La curva J.Una depreciación real provoca inicialmente un deterioro ya continuación, una mejora de la
+balanza comercial.
+2 Sin embargo, hubo un gran retardo en la respuesta de la balanza comercial a las variaciones del
+tipo de cambio real. Obsérvese que entre 1981 y 1983 el déficit comercial fue bajo, mientras el
+dólar se apreciaba. Y obsérvese que la continua depreciación del dólar registrada a partir de 1985
+no se tradujo en una mejora de la balanza comercial hasta 1987: la curva J funcionó en los dos
+casos9.
+8 Profundizando. Sin embargo, el precio de los bienes importados puede no subir un 10 %. Subiría un 10 % si los
+importadores ajustaran totalmente su precio en dólares para tener en cuenta la depreciación del dólar. Para conservar
+su cuota mercado o parque se han comprometido anteriormente a entregar los pedidos aun determinado precio en
+dólares, podrían muy bien decidir traspasar a los precios solo una parte de la depreciación del dólar y reducir sus
+márgenes de beneficios. Eso es lo que se observa, de hecho, en la práctica: aunque los precios de las importaciones
+responden a las depreciaciones, no lo hacen en la misma cuantía. Lo mismo ocurre con los precios de las
+exportaciones. Aquí prescindimos de estas complicaciones.
+9 De hecho, los retardos de 1985-1988 fueron excepcionalmente largos y llevaron a algunos economistas a poner en
+duda en ese momento que existiera una relación entre el tipo de cambio real y la balanza comercial.
+
+En general, la evidencia econométrica sobre la relación dinámica entre las exportaciones, las
+importaciones y el tipo de cambio real sugiere que en todos los países de la OCDE una depreciación real
+acaba provocando una mejora de la balanza comercial. Pero también sugiere que este proceso lleva algún
+tiempo, normalmente entre seis meses y un año. Estos retardos tienen implicaciones no solo para los efectos
+de una depreciación sobre la balanza comercial, sino también para sus efectos sobre la producción. Si una
+depreciación reduce inicialmente las exportaciones netas, también ejerce inicialmente un efecto contractivo
+en la producción. Por lo tanto, si un gobierno recurre a una depreciación tanto para mejorar la balanza
+comercial como para aumentar la producción interior, durante algún tiempo los efectos serán contrarios a los
+deseados.
+También con la depreciación nominal de los países asiáticos y de Brasil, se produjo una mejora del
+tipo de cambio real y de la balanza comercial. En efecto, estos países devaluaron nominalmente, en
+promedio, alrededor de un 40 %. Sin embargo, los precios en 1998 y 1999 se incrementaron, en promedio,
+no más de un 20 % aproximadamente. Este proceso mejoró las exportaciones y frenó ciertas importaciones,
+bajando el déficit del sector externo.
+No obstante, en las tres décadas anteriores a los 90 en América Latina, y en particular en la
+Argentina y Brasil, las devaluaciones provocaron alta inflación y poco impacto en el tipo de cambio real. En
+estos países semiindustrializados, las devaluaciones tienen un impacto en el balance comercial diferente que
+en los países más desarrollados. En un país industrializado una devaluación nominal tiende a cambiar los
+precios relativos de los bienes transables internacionalmente, mejorando realmente el tipo de cambio y las
+exportaciones netas (X-Q) En los países semiindustrializados de América Latina, la estructura asimétrica del
+comercio exterior está caracterizada, cómo en el caso particular de la Argentina, por exportaciones de bienes
+primarios (alimentos y materias primas) e importaciones de insumos y partes industriales demandados por
+los sectores secundario y terciario. Esta estructura productiva genera ante una devaluación nominal un
+impacto distinto de la devaluación en un país industrial. Como dijimos, en un país industrial funciona el
+efecto precio; en un país como la Argentina, funciona el efecto ingreso o reducción de la actividad
+económica. Una devaluación nominal tiene poco efecto en las exportaciones. El impacto se da en general en
+el aumento de los precios, básicamente de los aumentos de bienes transables que reducen el salario real, la
+demanda agregada y la producción. Esta caída de la actividad económica provoca una reducción de las
+importaciones y la mejora de la balanza comercial.
+En síntesis, se reducen las importaciones por el efecto ingreso y las exportaciones crecen muy poco
+(respuesta muy lenta en el tiempo ante una devaluación nominal). Piense usted que la respuesta a un cambio
+de los precios de los alimentos que exporta la Argentina es muy lenta. Si los productores agropecuarios
+tienen señales de buenos precios ante una devaluación, hay un retraso en el tiempo mientras siembran
+cereales o crían ganado, que implica una reacción no muy rápida de las exportaciones ante una devaluación.
+Por otro lado, un productor italiano que recibe mejores precios por su bien industrial exportable, ante una
+devaluación real es probable que incorpore un turno más de trabajo nocturno o nuevas máquinas y
+rápidamente tenga exportados sus productos a la comunidad europea; es decir, ese país mejora su balanza
+comercial vía aumento de las exportaciones (efecto precio) muy distinto del caso argentino que, en general,
+ajustaba su sector externo reduciendo las importaciones por caída de la producción nacional (efecto ingreso).
+12.6 El ahorro, la inversión y los déficit comerciales
+En el capítulo 3 vimos que podíamos formular la condición de equilibrio del mercado de bienes
+como la condición según la cual la inversión debe ser igual al ahorro privado y al público. Ahora formulamos
+la condición correspondiente a la economía abierta. Partimos de nuestra condición de equilibrio:
+Y = C + I + G – ε Q + X
+Restando C + T de ambos miembros y basándonos en que el ahorro privado es S = Y - C - T,
+tenemos que:
+S = I + G – T – ε Q + X
+Basándonos en la definición de exportaciones netas NX = X - ε Q y reorganizando, tenemos que:
+NX = S + (T - G) - 1
+(12.5)
+
+Figura 12.7 El tipo de cambio real y el cociente entre las exportaciones netas y el PIB: Estados Unidos, 1980-1990.
+La apreciación y la depreciación reales del dólar registradas en la década de 1980 se tradujeron en un aumento y, a
+continuación, en una disminución de los déficit comerciales. Sin embargo, hubo un gran retardo en la influencia del
+tipo de cambio real en la balanza comercial.
+Fuentes: Nacional lncome and Product Accounts: Junta de Gobernadores del Sistema de la Reserva Federal.
+Esta condición establece que en el equilibrio la balanza comercial (NX) debe ser igual al ahorro —
+privado (S) y público (T – G) — menos la inversión (I). Por lo tanto, un superávit comercial corresponde a
+un exceso del ahorro sobre la inversión y un déficit comercial corresponde a un exceso de la inversión sobre
+el ahorro.
+Una manera de comprender de forma más intuitiva esta relación es recordar el análisis de la cuenta
+corriente y la cuenta de capital del capítulo 11, según el cual un superávit comercial implica un préstamo
+neto al resto del mundo y un déficit comercial implica un préstamo neto del resto del mundo. Consideremos,
+pues, el caso de un país que invierte más de lo que ahorra, por lo que S + (T - G) -I es negativo. Ese país
+debe pedir prestada la diferencia al resto del mundo, por lo que debe incurrir en un déficit comercial
+Obsérvense algunas de las implicaciones de la ecuación (12.5):
+(cid:131) Un aumento de la inversión debe traducirse en un incremento del ahorro privado o
+público en un déficit comercial.
+(cid:131) Un aumento del déficit presupuestario debe traducirse en un aumento del ahorro
+privado, una reducción de la inversión o un déficit comercial.
+(cid:131) Un país que tenga una elevada tasa de ahorro, privado y público, debe tener una
+elevada tasa de inversión o un elevado superávit comercial.
+Obsérvese también lo que no dice la ecuación (12.5). No dice, por ejemplo, si y en qué condiciones
+se traduce un déficit presupuestario en un déficit comercial, en un aumento del ahorro privado o en una
+reducción de la inversión. Para responder a esa pregunta, debemos averiguar explícitamente qué ocurre con
+la producción y con sus componentes basándonos en los supuestos que hemos postulado sobre el consumo, la
+inversión, las exportaciones y las importaciones. Podemos hacerlo utilizando la ecuación (12.1) —como
+hemos hecho a lo largo de todo este capítulo— o la (12.5), ya que las dos son equivalentes. Sin embargo,
+recomendamos encarecidamente al lector que utilice la (12.1), ya que la (12.5) puede ser muy engañosa, si
+no se tiene cuidado. Consideremos, por ejemplo, el siguiente argumento (tan habitual, que es muy posible
+que haya leído algún argumento similar en la prensa):
+Es evidente que un país no puede reducir su déficit comercial por medio de una
+depreciación. Obsérvese la ecuación (12.5). Esta muestra que el déficit comercial es igual a
+la inversión menos el ahorro privado y el público. ¿Por qué iba a afectar una depreciación
+al ahorro o a la inversión? Entonces,¿cómo puede afectar al déficit comercial?
+El argumento puede parecer convincente, pero sabemos que es falso. Antes hemos mostrado que una
+depreciación provoca (si se cumple la condición Marshall-Lemer) un aumento de la producción y una mejora
+de la posición comercial. Entonces, ¿qué está mal en el argumento anterior? Una depreciación afecta, en
+realidad, al ahorro y a la inversión al afectar a la demanda de bienes interiores y, por lo tanto, al elevar la
+
+producción. El aumento de la producción provoca un incremento del ahorro con respecto a la inversión o, en
+otras palabras, una reducción del déficit comercial.
+Una buena manera de asegurarse de que se comprende el contenido de este capítulo es retroceder y
+examinar los diversos casos que hemos analizado, desde las variaciones del gasto público hasta las
+variaciones de la producción extranjera, las combinaciones de depreciación y contracción fiscal, etc.
+Averigüe el lector qué ocurre en cada caso con cada uno de los cuatro componentes de la ecuación (12.5): el
+ahorro privado, el ahorro público (en otras palabras, el superávit presupuestario), la inversión y la balanza
+comercial. Asegúrese, como siempre, de que puede explicarlo verbalmente. Si lo hace, ya está en
+condiciones de pasar al capítulo 13.
+RESUMEN
+♦ En una economía abierta, la demanda de bienes interiores es igual a la demanda nacional de bienes
+(consumo más inversión más gasto público) menos las importaciones más las exportaciones.
+♦ Un aumento de la demanda nacional provoca un incremento menor de la producción en una
+economía abierta que en una cerrada, debido a que una parte de la demanda adicional es una
+demanda de importaciones. También provoca un empeoramiento de la balanza comercial.
+♦ Un aumento de la demanda extranjera provoca un incremento de la producción interior (como
+consecuencia del aumento de las exportaciones) y una mejora de la balanza comercial.
+♦ Dado que los aumentos de la demanda extranjera mejoran la balanza comercial y los aumentos de la
+demanda nacional la empeoran, los gobiernos pueden sentirse tentados a esperar que los aumentos de
+la demanda extranjera saquen a su país de una recesión. Cuando un grupo de países atraviesa una
+recesión, la coordinación puede ayudarlos a salir de ella.
+♦ Si se satisface la condición Marshall-Lemer —y la evidencia econométrica sugiere que así es—, una
+depreciación real provoca un aumento de las exportaciones netas y, por lo tanto, una mejora de la
+posición comercial.
+♦ La respuesta habitual de la balanza comercial a una depreciación real es primero un deterioro y
+después una mejora. Este proceso de ajuste se conoce con el nombre de "curva J".
+♦ La condición de equilibrio del mercado de bienes puede formularse como la condición según la cual
+el ahorro (público y privado) menos la inversión debe ser igual a la balanza comercial. Un superávit
+comercial corresponde a un exceso del ahorro sobre la inversión y un déficit comercial a un exceso
+de la inversión sobre el ahorro.
+TÉRMINOS CLAVE
+♦ demanda de bienes interiores
+♦ demanda nacional de bienes
+♦ propensión marginal a importar
+♦ coordinación
+♦ G-7
+♦ condición Marshall-Lemer
+♦ curva J
+PREGUNTAS Y PROBLEMAS
+1. En este capítulo trazamos una nítida distinción entre la "demanda de bienes interiores" y la
+"demanda nacional de bienes". ¿Qué diferencia conceptual existe entre ellas? Si conoce el valor
+de la demanda nacional de bienes, ¿cómo obtendría el valor de la demanda de bienes interiores?
+2. A menudo se afirma que los déficit presupuestarios provocan déficit comerciales. Valiéndose de
+lo que ha aprendido en este capítulo, explique por qué podría ser cierto.
+3. Durante una recesión, ¿deben tener más interés en coordinar su política los países pequeños o los
+grandes? ¿Por qué?
+4. Suponga que el mercado de bienes de una economía abierta se caracteriza por las siguientes
+ecuaciones de conducta:
+
+C = 400 + 0,5Y
+D
+1 = 700 - 4.000i + 0,2Y
+G = 200
+T = 200
+X = 100 + 0,1Y* + 100 ε
+Q = 0,1Y-50 ε
+ε = 2,0
+Y* = 1.000
+donde X es la cantidad de exportaciones, Q es la cantidad de importaciones, ε es el tipo de cambio real e Y*
+es la producción extranjera.
+a) Suponiendo que el tipo de interés es del 10 %n (0,10), halle el PIB de equilibrio. [Pista:
+utilice la condición de equilibrio del mercado de bienes en una economía abierta, la ecuación
+(12.4) del texto.]
+b) Halle los valores de C, I, G y las exportaciones netas y verifique que la demanda de
+bienes interiores es igual al valor hallado en la parte a.
+c) Suponga que el gasto público aumenta de 200 a 400:
+(i) Halle de nuevo el PIB de equilibrio.
+(ii) Halle C, I, G y las exportaciones netas y verifique la igualdad de la demanda de
+bienes interiores y el PIB.
+(iii) ¿Qué ha ocurrido con las exportaciones netas como consecuencia del aumento
+de G? Explique su respuesta.
+d) Vuelva a los supuestos iniciales de este problema. Continúe suponiendo que el tipo de
+interés es del 10 %. Suponga ahora que la producción extranjera aumenta de 1.000 a 1.200:
+(i) Halle de nuevo el PIB de equilibrio.
+(ii) Halle C, I, G y las exportaciones netas y verifique que la demanda de bienes
+interiores es igual al PIB.
+(iii) ¿Qué ha ocurrido con las exportaciones netas? Explique por qué la respuesta es
+diferente de la que ha obtenido al aumentar el gasto público en la misma cuantía.
+5. Hemos señalado que una gran devaluación puede provocar huelgas y disturbios, ya que eleva los
+precios de los bienes importados y, por lo tanto, el coste de vida. Entonces, ¿por qué no querría un
+gobierno adoptar la política contraria, a saber, una gran apreciación?
+6. ¿Qué combinación de política fiscal y de política del tipo de cambio debe introducir el gobierno si
+quiere:
+a. elevar la producción y mejorar la balanza comercial?
+b. reducir la producción y mejorar la balanza comercial?
+7. Suponga que el gobierno desea eliminar un déficit comercial, pero no quiere que varíe el nivel de
+producción. ¿Qué medidas debe adoptar? Explique qué ocurre con el gasto privado, el gasto público
+y la inversión.
+LECTURAS COMPLEMENTARIAS
+Diamand, Marcelo, Doctrinas económicas, desarrollo e independencia, Ed. Paidós, Buenos Aires, 1973.
+Giannetti da Fonseca, Roberto, "El Mercosur en el cambio del milenio", revista Archivos del Presente, N°17,
+1999.
+Pérez Enrri, Daniel, Teoría y política económica actual, Centro de Estudios en Economía Aplicada de la
+Facultad de Ciencias Económicas de la Universidad de Buenos Aires.
+Para todos los casos analizados existe evidencia empírica de los impactos de las devaluaciones en América
+Latina. Ver:
+Fanelli, José María, Estabilidad, reforma estructural y crecimiento: reflexiones sobre el régimen de
+convertibilidad en la Argentina, Universidad de Palermo-CEDES, serie de documentos de economía,
+NE 8. Díaz Alejandro, Carlos E, Ensayos sobre la historia económica argentina, Amorrortu
+Editores, Buenos Aires, 1983.
+Ferrer, Aldo, La economía argentina, Fondo de Cultura Económica, Buenos Aires, 1976.
+Para un buen análisis de la relación entre los déficit comerciales, los déficit presupuestarios, el ahorro priva-
+do y la inversión, véase Bosworth, Barry, Saving and Investment in a Global Economy, Brookings
+Institution, Washington, 1993.
+
+APÉNDICE
+Deducción de la condición Marshall-Lerner
+Partamos de la definición de exportaciones netas, NX ≡ X - εQ, y supongamos que el comercio está
+equilibrado inicialmente, por lo que X = εQ. La condición Marshall-Lerner es la condición según la cual una
+depreciación real, un aumento de ε, provoca un incremento de las exportaciones netas.
+Para deducir esta condición, consideremos una subida del tipo de cambio real de Δε. La variación de
+la balanza comercial se obtiene, pues, de la manera siguiente:
+ΔNX = ΔX – εΔQ – QΔε
+El primer término del segundo miembro (ΔX) es la variación de las exportaciones, el segundo (εΔQ)
+es el tipo de cambio real multiplicado por la variación de la cantidad de importaciones y el tercero (QΔε) es
+la cantidad de importaciones multiplicada por la variación del tipo de cambio real.
+Dividiendo los dos miembros de la ecuación por X, tenemos que:
+ΔNX ΔX ΔQ QΔε
+= −ε −
+X X X X
+Basémonos en el hecho de que εQ = X para sustituir ε/X por 1/Q en el segundo término del segundo
+miembro y Q/X por 1/ε en el tercer término del segundo miembro. Una vez realizadas estas sustituciones,
+tenemos que:
+ΔNX ΔX ΔQ Δε
+= − −
+X X X ε
+Esta ecuación establece que la variación de la balanza comercial en respuesta a una depreciación
+real, normalizada por las exportaciones, es igual a la suma de tres términos. El primero es la variación
+proporcional de las exportaciones, ΔX/X, provocada por la depreciación real. El segundo es igual a menos la
+variación proporcional de las importaciones, -ΔQ/Q, provocada por la depreciación real. El tercero es igual a
+menos la variación proporcional del tipo de cambio real, -Δε/ε, o, en otras palabras, menos la tasa de
+depreciación real.
+La condición Marshall-Lemer es la condición según la cual la suma de estos tres términos es
+positiva. Si se satisface, una depreciación real provoca una mejora de la balanza comercial.
+Será útil un ejemplo. Supongamos que una depreciación del 1 % provoca un incremento relativo de
+las exportaciones del 0,9 % y una reducción relativa de las importaciones del 0,8 (la evidencia econométrica
+sobre la relación de las exportaciones y las importaciones con los tipos de cambio reales sugiere que estas
+cifras son razonables), En ese caso, el segundo miembro de la ecuación es igual a 0,9 % - (-0,8 %) — 1 % =
+0,7 %. Por lo tanto, la balanza comercial mejora: se satisface la condición Marshall-Lemer.

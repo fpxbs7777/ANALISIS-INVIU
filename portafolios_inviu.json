@@ -1,0 +1,61 @@
+{
+  "fecha_corte": "2026-08-25",
+  "cuentas": [
+    {
+      "nombre": "BERTUCCI, JAVIER MARCELO",
+      "cuenta": "264900",
+      "perfil": "Moderado",
+      "patrimonio_usd": 16876.32,
+      "moneda_base": "ARS",
+      "cash": {
+        "USD": 10011.57,
+        "ARS": 1028223.09,
+        "USD_C": 0
+      },
+      "tenencias": [
+        {"ticker": "PAMP", "tipo": "accion", "cantidad": 74, "pp": 5345.75, "ultimo": 5085.0, "monto_ars": 376290.0, "sector": "Energia", "notas": "local Argentina"},
+        {"ticker": "AMZN", "tipo": "cedear", "cantidad": 109, "pp": null, "ultimo": 2915.0, "monto_ars": 317735.0, "sector": "Discrecional", "cedear_ratio": 1, "notas": "recorte 218->109; pp sin informar en snapshot"},
+        {"ticker": "GOOGL", "tipo": "cedear", "cantidad": 61, "pp": 9765.98, "ultimo": 9610.0, "monto_ars": 586210.0, "sector": "Comunicacion", "cedear_ratio": 1},
+        {"ticker": "IBM", "tipo": "cedear", "cantidad": 4, "pp": null, "ultimo": 24680.0, "monto_ars": 98720.0, "sector": "Tecnologia", "cedear_ratio": 1, "notas": "nueva posicion; pp sin informar"},
+        {"ticker": "MU", "tipo": "cedear", "cantidad": 1, "pp": null, "ultimo": 298050.0, "monto_ars": 298050.0, "sector": "Tecnologia", "cedear_ratio": 1, "notas": "nueva posicion; pp sin informar"},
+        {"ticker": "NU", "tipo": "cedear", "cantidad": 16, "pp": null, "ultimo": 11730.0, "monto_ars": 187680.0, "sector": "Financieras", "cedear_ratio": 1, "notas": "nueva posicion; pp sin informar"},
+        {"ticker": "NVDA", "tipo": "cedear", "cantidad": 56, "pp": null, "ultimo": 14270.0, "monto_ars": 799120.0, "sector": "Tecnologia", "cedear_ratio": 1, "notas": "59->56; pp sin informar en snapshot"},
+        {"ticker": "SMH", "tipo": "cedear", "cantidad": 2, "pp": 18864.39, "ultimo": 17820.0, "monto_ars": 35640.0, "sector": "Tecnologia", "cedear_ratio": 1},
+        {"ticker": "SPY", "tipo": "cedear", "cantidad": 331, "pp": 20017.22, "ultimo": 20430.0, "monto_ars": 6762330.0, "sector": "Benchmark", "cedear_ratio": 1},
+        {"ticker": "TSM", "tipo": "cedear", "cantidad": 1, "pp": 74800.06, "ultimo": 74125.0, "monto_ars": 74125.0, "sector": "Tecnologia", "cedear_ratio": 1},
+        {"ticker": "URA", "tipo": "cedear", "cantidad": 3, "pp": 13119.09, "ultimo": 15040.0, "monto_ars": 45120.0, "sector": "Energia", "cedear_ratio": 1},
+        {"ticker": "XLE", "tipo": "cedear", "cantidad": 6, "pp": null, "ultimo": 49980.0, "monto_ars": 299880.0, "sector": "Energia", "cedear_ratio": 1, "notas": "nueva posicion; pp sin informar"}
+      ]
+    },
+    {
+      "nombre": "VISCARRA BELARDE, GONZALO MARTIN",
+      "cuenta": "200349",
+      "perfil": "Arriesgado",
+      "patrimonio_usd": 16116.42,
+      "moneda_base": "ARS",
+      "cash": {
+        "USD": 193.13,
+        "ARS": 1027913.59,
+        "USD_C": 21.69
+      },
+      "tenencias": [
+        {"ticker": "AO28", "tipo": "bono", "cantidad": 477, "pp": 140130.0, "ultimo": 146890.0, "monto_ars": 700665.3, "sector": "Bonos", "notas": "argentina"},
+        {"ticker": "CRCEO", "tipo": "bono", "cantidad": 96, "pp": 8136.17, "ultimo": 4000.0, "monto_ars": 3840.0, "sector": "Bonos", "notas": "argentina"},
+        {"ticker": "IRCFO", "tipo": "bono", "cantidad": 54, "pp": 32409.26, "ultimo": 78500.0, "monto_ars": 42390.0, "sector": "Bonos", "notas": "argentina"},
+        {"ticker": "IRCPO", "tipo": "bono", "cantidad": 38, "pp": 117524.86, "ultimo": 168900.0, "monto_ars": 64182.0, "sector": "Bonos", "notas": "argentina"},
+        {"ticker": "YMCIO", "tipo": "bono", "cantidad": 201, "pp": 72367.25, "ultimo": 142770.0, "monto_ars": 286967.7, "sector": "Bonos", "notas": "argentina"},
+        {"ticker": "AAPL", "tipo": "cedear", "cantidad": 270, "pp": 19873.46, "ultimo": 23970.0, "monto_ars": 6471900.0, "sector": "Tecnologia", "cedear_ratio": 1},
+        {"ticker": "CEG", "tipo": "cedear", "cantidad": 58, "pp": 9846.90, "ultimo": 9830.0, "monto_ars": 570140.0, "sector": "Energia", "cedear_ratio": 1},
+        {"ticker": "CVS", "tipo": "cedear", "cantidad": 200, "pp": 10054.26, "ultimo": 10060.0, "monto_ars": 2012000.0, "sector": "Salud", "cedear_ratio": 1},
+        {"ticker": "GOOGL", "tipo": "cedear", "cantidad": 50, "pp": 3145.40, "ultimo": 9430.0, "monto_ars": 471500.0, "sector": "Comunicacion", "cedear_ratio": 1},
+        {"ticker": "LMT", "tipo": "cedear", "cantidad": 65, "pp": 33754.80, "ultimo": 48220.0, "monto_ars": 3134300.0, "sector": "Industrial", "cedear_ratio": 1},
+        {"ticker": "NU", "tipo": "cedear", "cantidad": 280, "pp": 9234.95, "ultimo": 10760.0, "monto_ars": 3012800.0, "sector": "Financieras", "cedear_ratio": 1},
+        {"ticker": "PEP", "tipo": "cedear", "cantidad": 296, "pp": 11674.50, "ultimo": 12240.0, "monto_ars": 3623040.0, "sector": "Staples", "cedear_ratio": 1},
+        {"ticker": "PFE", "tipo": "cedear", "cantidad": 62, "pp": 7579.84, "ultimo": 10420.0, "monto_ars": 646040.0, "sector": "Salud", "cedear_ratio": 1},
+        {"ticker": "SLV", "tipo": "cedear", "cantidad": 84, "pp": 17721.39, "ultimo": 15630.0, "monto_ars": 1312920.0, "sector": "Metales", "cedear_ratio": 1},
+        {"ticker": "URA", "tipo": "cedear", "cantidad": 35, "pp": 13396.26, "ultimo": 14310.0, "monto_ars": 500850.0, "sector": "Energia", "cedear_ratio": 1},
+        {"ticker": "XLE", "tipo": "cedear", "cantidad": 8, "pp": 24839.98, "ultimo": 48420.0, "monto_ars": 387360.0, "sector": "Energia", "cedear_ratio": 1}
+      ]
+    }
+  ]
+}

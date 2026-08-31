@@ -1,0 +1,3437 @@
+get /api/v2/portafolio/{pais}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "pais": "estados_Unidos",
+  "activos": [
+    {
+      "cantidad": 0,
+      "comprometido": 0,
+      "puntosVariacion": 0,
+      "variacionDiaria": 0,
+      "ultimoPrecio": 0,
+      "ppc": 0,
+      "gananciaPorcentaje": 0,
+      "gananciaDinero": 0,
+      "valorizado": 0,
+      "titulo": {
+        "simbolo": "string",
+        "descripcion": "string",
+        "pais": "estados_Unidos",
+        "mercado": "bCBA",
+        "tipo": "oPCIONES",
+        "plazo": "t0",
+        "moneda": "peso_Argentino"
+      },
+      "parking": {
+        "disponibleInmediato": 0
+      }
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+pais	
+argentina
+
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/portafolio/argentina'
+Request URL
+https://api.invertironline.com/api/v2/portafolio/argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Tue, 14 Apr 2026 00:41:43 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "149",
+  "x-volterra-location": "sp4-sao"
+}
+
+get /api/v2/datos-perfil
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "nombre": "string",
+  "apellido": "string",
+  "numeroCuenta": "string",
+  "dni": "string",
+  "cuitCuil": "string",
+  "sexo": "string",
+  "perfilInversor": "string",
+  "actualizarDDJJ": true,
+  "actualizarTestInversor": true,
+  "esBajaArrepentimiento": true,
+  "email": "string",
+  "cuentaAbierta": true,
+  "actualizarTyC": true,
+  "actualizarTyCApp": true
+}
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/datos-perfil'
+Request URL
+https://api.invertironline.com/api/v2/datos-perfil
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Tue, 14 Apr 2026 01:17:45 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "139",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+post /api/v2/Cotizaciones/MEP
+Response Class (Status 200)
+double
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+cotizacionModel	
+{
+  "simbolo": "string",
+  "idPlazoOperatoriaCompra": 0,
+  "idPlazoOperatoriaVenta": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "simbolo": "string",
+  "idPlazoOperatoriaCompra": 0,
+  "idPlazoOperatoriaVenta": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "simbolo": "string", \ 
+   "idPlazoOperatoriaCompra": 0, \ 
+   "idPlazoOperatoriaVenta": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/Cotizaciones/MEP'
+Request URL
+https://api.invertironline.com/api/v2/Cotizaciones/MEP
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:09:37 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "129",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+AsesoresShow/HideList OperationsExpand Operations
+post /api/v2/Asesor/Movimientos
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+requestModel	
+{
+  "clientes": [
+    0
+  ],
+  "from": "2026-04-18T03:09:06.184Z",
+  "to": "2026-04-18T03:09:06.184Z",
+  "dateType": "string",
+  "status": "string",
+  "type": "string",
+  "country": "string",
+  "currency": "string",
+  "cuentaComitente": "string"
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "clientes": [
+    0
+  ],
+  "from": "2026-04-18T03:09:06.184Z",
+  "to": "2026-04-18T03:09:06.184Z",
+  "dateType": "string",
+  "status": "string",
+  "type": "string",
+  "country": "string",
+  "currency": "string",
+  "cuentaComitente": "string"
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "clientes": [ \ 
+     0 \ 
+   ], \ 
+   "from": "2026-04-18T03:09:06.184Z", \ 
+   "to": "2026-04-18T03:09:06.184Z", \ 
+   "dateType": "string", \ 
+   "status": "string", \ 
+   "type": "string", \ 
+   "country": "string", \ 
+   "currency": "string", \ 
+   "cuentaComitente": "string" \ 
+ }' 'https://api.invertironline.com/api/v2/Asesor/Movimientos'
+Request URL
+https://api.invertironline.com/api/v2/Asesor/Movimientos
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:12:33 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "405",
+  "x-volterra-location": "sp4-sao"
+}
+
+AsesoresOperarShow/HideList OperationsExpand Operations
+post /api/v2/asesores/operar/VenderEspecieD
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+vm	
+{
+  "idClienteAsesorado": 0,
+  "fondosParaOperacion": 0,
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "validez": "2026-04-18T03:09:06.223Z",
+  "idCuentaBancaria": 0,
+  "tipoOrden": "precioLimite",
+  "plazo": "t0",
+  "idFuente": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "idClienteAsesorado": 0,
+  "fondosParaOperacion": 0,
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "validez": "2026-04-18T03:09:06.223Z",
+  "idCuentaBancaria": 0,
+  "tipoOrden": "precioLimite",
+  "plazo": "t0",
+  "idFuente": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "idClienteAsesorado": 0, \ 
+   "fondosParaOperacion": 0, \ 
+   "mercado": "bCBA", \ 
+   "simbolo": "string", \ 
+   "cantidad": 0, \ 
+   "precio": 0, \ 
+   "validez": "2026-04-18T03:09:06.223Z", \ 
+   "idCuentaBancaria": 0, \ 
+   "tipoOrden": "precioLimite", \ 
+   "plazo": "t0", \ 
+   "idFuente": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/asesores/operar/VenderEspecieD'
+Request URL
+https://api.invertironline.com/api/v2/asesores/operar/VenderEspecieD
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:13:33 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "143",
+  "x-volterra-location": "sp4-sao"
+}
+
+AsesoresTestInversorShow/HideList OperationsExpand Operations
+get /api/v2/asesores/test-inversor
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "instrumentosInvertidosAnteriormente": {
+    "instrumentos": [
+      {
+        "id": 0,
+        "nombre": "string"
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  },
+  "nivelesConocimientoInstrumentos": {
+    "niveles": [
+      {
+        "id": 0,
+        "nombre": "string",
+        "opcionElegida": 0,
+        "opciones": [
+          {
+            "id": 0,
+            "nombre": "string"
+          }
+        ]
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  },
+  "plazosInversion": {
+    "plazos": [
+      {
+        "id": 0,
+        "nombre": "string"
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  },
+  "edadesPosibles": {
+    "edades": [
+      {
+        "id": 0,
+        "nombre": "string"
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  },
+  "objetivosInversion": {
+    "objetivos": [
+      {
+        "id": 0,
+        "nombre": "string"
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  },
+  "polizasSeguro": {
+    "polizas": [
+      {
+        "id": 0,
+        "nombre": "string"
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  },
+  "capacidadesAhorro": {
+    "capacidadesAhorro": [
+      {
+        "id": 0,
+        "nombre": "string"
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  },
+  "porcentajesPatrimonioDedicado": {
+    "porcentajesPatrimonioDedicado": [
+      {
+        "id": 0,
+        "nombre": "string"
+      }
+    ],
+    "pregunta": "string",
+    "order": 0
+  }
+}
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/asesores/test-inversor'
+Request URL
+https://api.invertironline.com/api/v2/asesores/test-inversor
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:13:53 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "128",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/asesores/test-inversor
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "perfilSugerido": {
+    "nombre": "string",
+    "detalle": "string",
+    "perfilComposiciones": [
+      {
+        "nombre": "string",
+        "porcentaje": 0
+      }
+    ]
+  },
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+respuestaInversor	
+{
+  "enviarEmailCliente": true,
+  "instrumentosInvertidosAnteriormente": [
+    0
+  ],
+  "nivelesConocimientoInstrumentos": [
+    0
+  ],
+  "idPlazoElegido": 0,
+  "idEdadElegida": 0,
+  "idObjetivoInversionElegida": 0,
+  "idPolizaElegida": 0,
+  "idCapacidadAhorroElegida": 0,
+  "idPorcentajePatrimonioDedicado": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "enviarEmailCliente": true,
+  "instrumentosInvertidosAnteriormente": [
+    0
+  ],
+  "nivelesConocimientoInstrumentos": [
+    0
+  ],
+  "idPlazoElegido": 0,
+  "idEdadElegida": 0,
+  "idObjetivoInversionElegida": 0,
+  "idPolizaElegida": 0,
+  "idCapacidadAhorroElegida": 0,
+  "idPorcentajePatrimonioDedicado": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "enviarEmailCliente": true, \ 
+   "instrumentosInvertidosAnteriormente": [ \ 
+     0 \ 
+   ], \ 
+   "nivelesConocimientoInstrumentos": [ \ 
+     0 \ 
+   ], \ 
+   "idPlazoElegido": 0, \ 
+   "idEdadElegida": 0, \ 
+   "idObjetivoInversionElegida": 0, \ 
+   "idPolizaElegida": 0, \ 
+   "idCapacidadAhorroElegida": 0, \ 
+   "idPorcentajePatrimonioDedicado": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/asesores/test-inversor'
+Request URL
+https://api.invertironline.com/api/v2/asesores/test-inversor
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:14:11 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "130",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/asesores/test-inversor/{idClienteAsesorado}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "perfilSugerido": {
+    "nombre": "string",
+    "detalle": "string",
+    "perfilComposiciones": [
+      {
+        "nombre": "string",
+        "porcentaje": 0
+      }
+    ]
+  },
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+idClienteAsesorado	
+5555
+path	integer
+respuestaInversor	
+{
+  "enviarEmailCliente": true,
+  "instrumentosInvertidosAnteriormente": [
+    0
+  ],
+  "nivelesConocimientoInstrumentos": [
+    0
+  ],
+  "idPlazoElegido": 0,
+  "idEdadElegida": 0,
+  "idObjetivoInversionElegida": 0,
+  "idPolizaElegida": 0,
+  "idCapacidadAhorroElegida": 0,
+  "idPorcentajePatrimonioDedicado": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "enviarEmailCliente": true,
+  "instrumentosInvertidosAnteriormente": [
+    0
+  ],
+  "nivelesConocimientoInstrumentos": [
+    0
+  ],
+  "idPlazoElegido": 0,
+  "idEdadElegida": 0,
+  "idObjetivoInversionElegida": 0,
+  "idPolizaElegida": 0,
+  "idCapacidadAhorroElegida": 0,
+  "idPorcentajePatrimonioDedicado": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "enviarEmailCliente": true, \ 
+   "instrumentosInvertidosAnteriormente": [ \ 
+     0 \ 
+   ], \ 
+   "nivelesConocimientoInstrumentos": [ \ 
+     0 \ 
+   ], \ 
+   "idPlazoElegido": 0, \ 
+   "idEdadElegida": 0, \ 
+   "idObjetivoInversionElegida": 0, \ 
+   "idPolizaElegida": 0, \ 
+   "idCapacidadAhorroElegida": 0, \ 
+   "idPorcentajePatrimonioDedicado": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/asesores/test-inversor/5555'
+Request URL
+https://api.invertironline.com/api/v2/asesores/test-inversor/5555
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:14:36 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "130",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+MiCuentaShow/HideList OperationsExpand Operations
+get /api/v2/estadocuenta
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "cuentas": [
+    {
+      "numero": "string",
+      "tipo": "inversion_Argentina_Pesos",
+      "moneda": "peso_Argentino",
+      "disponible": 0,
+      "comprometido": 0,
+      "saldo": 0,
+      "titulosValorizados": 0,
+      "total": 0,
+      "margenDescubierto": 0,
+      "saldos": [
+        {
+          "liquidacion": "inmediato",
+          "saldo": 0,
+          "comprometido": 0,
+          "disponible": 0,
+          "disponibleOperar": 0
+        }
+      ],
+      "estado": "operable"
+    }
+  ],
+  "estadisticas": [
+    {
+      "descripcion": "string",
+      "cantidad": 0,
+      "volumen": 0
+    }
+  ],
+  "totalEnPesos": 0
+}
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/estadocuenta'
+Request URL
+https://api.invertironline.com/api/v2/estadocuenta
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:15:34 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "532",
+  "x-volterra-location": "sp4-sao"
+}
+
+get /api/v2/portafolio/{pais}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "pais": "estados_Unidos",
+  "activos": [
+    {
+      "cantidad": 0,
+      "comprometido": 0,
+      "puntosVariacion": 0,
+      "variacionDiaria": 0,
+      "ultimoPrecio": 0,
+      "ppc": 0,
+      "gananciaPorcentaje": 0,
+      "gananciaDinero": 0,
+      "valorizado": 0,
+      "titulo": {
+        "simbolo": "string",
+        "descripcion": "string",
+        "pais": "estados_Unidos",
+        "mercado": "bCBA",
+        "tipo": "oPCIONES",
+        "plazo": "t0",
+        "moneda": "peso_Argentino"
+      },
+      "parking": {
+        "disponibleInmediato": 0
+      }
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+pais	
+estados_Unidos
+
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/portafolio/estados_Unidos'
+Request URL
+https://api.invertironline.com/api/v2/portafolio/estados_Unidos
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:16:20 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "395",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/portafolio/{pais}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "pais": "estados_Unidos",
+  "activos": [
+    {
+      "cantidad": 0,
+      "comprometido": 0,
+      "puntosVariacion": 0,
+      "variacionDiaria": 0,
+      "ultimoPrecio": 0,
+      "ppc": 0,
+      "gananciaPorcentaje": 0,
+      "gananciaDinero": 0,
+      "valorizado": 0,
+      "titulo": {
+        "simbolo": "string",
+        "descripcion": "string",
+        "pais": "estados_Unidos",
+        "mercado": "bCBA",
+        "tipo": "oPCIONES",
+        "plazo": "t0",
+        "moneda": "peso_Argentino"
+      },
+      "parking": {
+        "disponibleInmediato": 0
+      }
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+pais	
+argentina
+
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/portafolio/argentina'
+Request URL
+https://api.invertironline.com/api/v2/portafolio/argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:16:38 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "519",
+  "x-volterra-location": "sp4-sao"
+}
+
+get /api/v2/operaciones/{numero}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "numero": 0,
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "moneda": "peso_Argentino",
+  "tipo": "compra",
+  "fechaAlta": "2026-04-18T03:09:06.309Z",
+  "validez": "2026-04-18T03:09:06.309Z",
+  "fechaOperado": "2026-04-18T03:09:06.309Z",
+  "estadoActual": "iniciada",
+  "estados": [
+    {
+      "detalle": "string",
+      "fecha": "2026-04-18T03:09:06.309Z"
+    }
+  ],
+  "aranceles": [
+    {
+      "tipo": "string",
+      "neto": 0,
+      "iva": 0,
+      "moneda": "string"
+    }
+  ],
+  "operaciones": [
+    {
+      "fecha": "2026-04-18T03:09:06.309Z",
+      "cantidad": 0,
+      "precio": 0
+    }
+  ],
+  "precio": 0,
+  "cantidad": 0,
+  "monto": 0,
+  "fondosParaOperacion": 0,
+  "montoOperacion": 0,
+  "modalidad": "precio_Limite",
+  "arancelesARS": 0,
+  "arancelesUSD": 0,
+  "plazo": "sinValor"
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+numero	
+5555
+path	integer
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/operaciones/5555'
+Request URL
+https://api.invertironline.com/api/v2/operaciones/5555
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:17:06 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "149",
+  "x-volterra-location": "sp4-sao"
+}
+
+get /api/v2/operaciones
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "numero": 0,
+    "fechaOrden": "2026-04-18T03:09:06.321Z",
+    "tipo": "string",
+    "estado": "iniciada",
+    "mercado": "string",
+    "simbolo": "string",
+    "cantidad": 0,
+    "monto": 0,
+    "modalidad": "precio_Limite",
+    "precio": 0,
+    "fechaOperada": "2026-04-18T03:09:06.321Z",
+    "cantidadOperada": 0,
+    "precioOperado": 0,
+    "montoOperado": 0,
+    "plazo": "sinValor"
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+filtro.numero	
+5555
+Ejemplo: 0, 11122
+
+query	integer
+filtro.estado	
+todas
+Estados para filtrar, desagregados en el resultado final Ejemplo: Todas, Pendientes, Terminadas, Canceladas
+
+query	string
+filtro.fechaDesde	
+2016-01-23
+Ejemplo: 2016-08-01 , 2016-01-23
+
+query	date-time
+filtro.fechaHasta	
+2016-08-01
+Ejemplo 2016-10-15 23:00:00 , 2016-05-01
+
+query	date-time
+filtro.pais	
+argentina
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/operaciones?filtro.numero=5555&filtro.estado=todas&filtro.fechaDesde=2016-01-23&filtro.fechaHasta=2016-08-01&filtro.pais=argentina'
+Request URL
+https://api.invertironline.com/api/v2/operaciones?filtro.numero=5555&filtro.estado=todas&filtro.fechaDesde=2016-01-23&filtro.fechaHasta=2016-08-01&filtro.pais=argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:17:58 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "521",
+  "x-volterra-location": "sp4-sao"
+}
+
+get /api/v2/operaciones
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "numero": 0,
+    "fechaOrden": "2026-04-18T03:09:06.321Z",
+    "tipo": "string",
+    "estado": "iniciada",
+    "mercado": "string",
+    "simbolo": "string",
+    "cantidad": 0,
+    "monto": 0,
+    "modalidad": "precio_Limite",
+    "precio": 0,
+    "fechaOperada": "2026-04-18T03:09:06.321Z",
+    "cantidadOperada": 0,
+    "precioOperado": 0,
+    "montoOperado": 0,
+    "plazo": "sinValor"
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+filtro.numero	
+5555
+Ejemplo: 0, 11122
+
+query	integer
+filtro.estado	
+todas
+Estados para filtrar, desagregados en el resultado final Ejemplo: Todas, Pendientes, Terminadas, Canceladas
+
+query	string
+filtro.fechaDesde	
+2016-01-23
+Ejemplo: 2016-08-01 , 2016-01-23
+
+query	date-time
+filtro.fechaHasta	
+2016-08-01
+Ejemplo 2016-10-15 23:00:00 , 2016-05-01
+
+query	date-time
+filtro.pais	
+estados_Unidos
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/operaciones?filtro.numero=5555&filtro.estado=todas&filtro.fechaDesde=2016-01-23&filtro.fechaHasta=2016-08-01&filtro.pais=estados_Unidos'
+Request URL
+https://api.invertironline.com/api/v2/operaciones?filtro.numero=5555&filtro.estado=todas&filtro.fechaDesde=2016-01-23&filtro.fechaHasta=2016-08-01&filtro.pais=estados_Unidos
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:18:20 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "521",
+  "x-volterra-location": "sp4-sao"
+}
+
+NotificacionShow/HideList OperationsExpand Operations
+get /api/v2/Notificacion
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "titulo": "string",
+  "mensaje": "string",
+  "link": "string"
+}
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/Notificacion'
+Request URL
+https://api.invertironline.com/api/v2/Notificacion
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:18:39 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "131",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+OperarShow/HideList OperationsExpand Operations
+get /api/v2/operar/CPD/PuedeOperar
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "operatoriaHabilitada": true
+}
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/operar/CPD/PuedeOperar'
+Request URL
+https://api.invertironline.com/api/v2/operar/CPD/PuedeOperar
+Response Body
+no content
+Response Code
+0
+Response Headers
+{
+  "error": "no response from server"
+}
+
+get /api/v2/operar/CPD/{estado}/{segmento}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "fechaActualizacion": "string",
+  "subasta": [
+    {
+      "subasta": "string",
+      "segmento": "string",
+      "inicio": "string",
+      "cierre": "string",
+      "fechaPago": "2026-04-18T03:09:06.344Z",
+      "duracion": "string",
+      "tasaCompra": "string",
+      "tasaVenta": "string",
+      "monto": "string",
+      "cheques": "string",
+      "concertacion": "string",
+      "estado": "string",
+      "sgr": "string",
+      "librador": "string",
+      "almacenadora": "string",
+      "montoInvertir": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+estado	
+string
+path	string
+segmento	
+string
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/operar/CPD/string/string'
+Request URL
+https://api.invertironline.com/api/v2/operar/CPD/string/string
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:21:18 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "400",
+  "x-volterra-location": "sp4-sao"
+}
+
+get /api/v2/operar/CPD/Comisiones/{importe}/{plazo}/{tasa}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "moneda": "string",
+  "montoInversion": "string",
+  "comision": "string",
+  "derechoMercado": "string",
+  "ivaComision": "string",
+  "ivaDerechoMercado": "string",
+  "montoTotalInversion": "string"
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+importe	
+1000
+path	double
+plazo	
+t0
+path	integer
+tasa	
+10
+path	double
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/operar/CPD/Comisiones/1000/t0/10'
+Request URL
+https://api.invertironline.com/api/v2/operar/CPD/Comisiones/1000/t0/10
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:21:42 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "401",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/operar/CPD
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "idTransaccion": 0
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+model	
+{
+  "idSubasta": 0,
+  "tasa": 0,
+  "fuente": "compra_Venta_Por_Web"
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "idSubasta": 0,
+  "tasa": 0,
+  "fuente": "compra_Venta_Por_Web"
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "idSubasta": 0, \ 
+   "tasa": 0, \ 
+   "fuente": "compra_Venta_Por_Web" \ 
+ }' 'https://api.invertironline.com/api/v2/operar/CPD'
+Request URL
+https://api.invertironline.com/api/v2/operar/CPD
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:22:02 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "421",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/operar/Token
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "token": "string",
+  "expiration": "2026-04-18T03:09:06.373Z"
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+requestTokenDDJJ	
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "monto": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "monto": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "mercado": "bCBA", \ 
+   "simbolo": "string", \ 
+   "cantidad": 0, \ 
+   "monto": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/operar/Token'
+Request URL
+https://api.invertironline.com/api/v2/operar/Token
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:22:21 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "154",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/operar/Vender
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Data Type
+ModelExample Value
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "validez": "2026-04-18T03:09:06.390Z",
+  "tipoOrden": "precioLimite",
+  "plazo": "t0",
+  "idFuente": 0
+}
+
+post /api/v2/operar/Comprar
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Data Type
+ModelExample Value
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "plazo": "t0",
+  "validez": "2026-04-18T03:09:06.408Z",
+  "tipoOrden": "precioLimite",
+  "monto": 0,
+  "idFuente": 0
+}
+
+post /api/v2/operar/rescate/fci
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Data Type
+ModelExample Value
+{
+  "simbolo": "string",
+  "cantidad": 0,
+  "soloValidar": true
+}
+
+
+post /api/v2/operar/VenderEspecieD
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+vm	
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "validez": "2026-04-18T03:09:06.444Z",
+  "idCuentaBancaria": 0,
+  "tipoOrden": "precioLimite",
+  "plazo": "t0",
+  "idFuente": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "validez": "2026-04-18T03:09:06.444Z",
+  "idCuentaBancaria": 0,
+  "tipoOrden": "precioLimite",
+  "plazo": "t0",
+  "idFuente": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "mercado": "bCBA", \ 
+   "simbolo": "string", \ 
+   "cantidad": 0, \ 
+   "precio": 0, \ 
+   "validez": "2026-04-18T03:09:06.444Z", \ 
+   "idCuentaBancaria": 0, \ 
+   "tipoOrden": "precioLimite", \ 
+   "plazo": "t0", \ 
+   "idFuente": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/operar/VenderEspecieD'
+Request URL
+https://api.invertironline.com/api/v2/operar/VenderEspecieD
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:33:40 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "399",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+post /api/v2/operar/ComprarEspecieD
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+vm	
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "plazo": "t0",
+  "validez": "2026-04-18T03:09:06.465Z",
+  "tipoOrden": "precioLimite",
+  "monto": 0,
+  "idFuente": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "mercado": "bCBA",
+  "simbolo": "string",
+  "cantidad": 0,
+  "precio": 0,
+  "plazo": "t0",
+  "validez": "2026-04-18T03:09:06.465Z",
+  "tipoOrden": "precioLimite",
+  "monto": 0,
+  "idFuente": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "mercado": "bCBA", \ 
+   "simbolo": "string", \ 
+   "cantidad": 0, \ 
+   "precio": 0, \ 
+   "plazo": "t0", \ 
+   "validez": "2026-04-18T03:09:06.465Z", \ 
+   "tipoOrden": "precioLimite", \ 
+   "monto": 0, \ 
+   "idFuente": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/operar/ComprarEspecieD'
+Request URL
+https://api.invertironline.com/api/v2/operar/ComprarEspecieD
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:34:11 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "405",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/operar/suscripcion/fci
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Data Type
+ModelExample Value
+{
+  "simbolo": "string",
+  "monto": 0,
+  "soloValidar": true
+}
+
+
+OperatoriaSimplificadaShow/HideList OperationsExpand Operations
+get /api/v2/OperatoriaSimplificada/MontosEstimados/{monto}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "montoDolar": 0,
+  "montoBrutoPesos": 0,
+  "montoNetoPesos": 0,
+  "comisionCompra": 0,
+  "comisionVenta": 0,
+  "comisionCompraIVA": 0,
+  "comisionVentaIVA": 0,
+  "derechoMercadoCompra": 0,
+  "derechoMercadoVenta": 0
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+monto	
+100
+path	double
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/OperatoriaSimplificada/MontosEstimados/100'
+Request URL
+https://api.invertironline.com/api/v2/OperatoriaSimplificada/MontosEstimados/100
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:35:08 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "498",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+get /api/v2/OperatoriaSimplificada/{idTipoOperatoria}/Parametros
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "horarioApertura": "2026-04-18T03:09:06.502Z",
+  "horarioCierre": "2026-04-18T03:09:06.502Z",
+  "esHorarioValido": true,
+  "idTipoOperacion": "mEP",
+  "idProducto": "sin_Producto",
+  "nombre": "string",
+  "descripcion": "string",
+  "simboloTituloCompra": "string",
+  "simboloTituloVenta": "string",
+  "montoLimiteMinimo": 0,
+  "montoLimiteMaximo": 0,
+  "monedaMontoLimite": 0,
+  "tiempoExpiracionPreOrden": 0,
+  "idPlazoOperatoriaCompra": 0,
+  "idPlazoOperatoriaVenta": 0,
+  "fechaConcertacionDolarMep": "2026-04-18T03:09:06.502Z"
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+idTipoOperatoria	
+55454
+path	integer
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/OperatoriaSimplificada/55454/Parametros'
+Request URL
+https://api.invertironline.com/api/v2/OperatoriaSimplificada/55454/Parametros
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:35:33 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "500",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+get /api/v2/OperatoriaSimplificada/Validar/{monto}/{idTipoOperatoria}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+monto	
+5454
+path	double
+idTipoOperatoria	
+545
+path	integer
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/OperatoriaSimplificada/Validar/5454/545'
+Request URL
+https://api.invertironline.com/api/v2/OperatoriaSimplificada/Validar/5454/545
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:35:59 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "129",
+  "x-volterra-location": "sp4-sao"
+}
+
+get /api/v2/OperatoriaSimplificada/VentaMepSimple/MontosEstimados/{monto}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "montoPesos": 0,
+  "montoBrutoDolar": 0,
+  "montoNetoDolar": 0,
+  "comisionCompra": 0,
+  "comisionVenta": 0,
+  "comisionCompraIVA": 0,
+  "comisionVentaIVA": 0,
+  "derechoMercadoCompra": 0,
+  "derechoMercadoVenta": 0
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+monto	
+4455
+path	double
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/OperatoriaSimplificada/VentaMepSimple/MontosEstimados/4455'
+Request URL
+https://api.invertironline.com/api/v2/OperatoriaSimplificada/VentaMepSimple/MontosEstimados/4455
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:36:24 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "129",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/Cotizaciones/MEP
+Response Class (Status 200)
+double
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+cotizacionModel	
+{
+  "simbolo": "string",
+  "idPlazoOperatoriaCompra": 0,
+  "idPlazoOperatoriaVenta": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "simbolo": "string",
+  "idPlazoOperatoriaCompra": 0,
+  "idPlazoOperatoriaVenta": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "simbolo": "string", \ 
+   "idPlazoOperatoriaCompra": 0, \ 
+   "idPlazoOperatoriaVenta": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/Cotizaciones/MEP'
+Request URL
+https://api.invertironline.com/api/v2/Cotizaciones/MEP
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:09:37 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "129",
+  "x-volterra-location": "sp4-sao"
+}
+
+post /api/v2/OperatoriaSimplificada/Comprar
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ok": true,
+  "messages": [
+    {
+      "title": "string",
+      "description": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+model	
+{
+  "monto": 0,
+  "idTipoOperatoriaSimplificada": 0,
+  "idCuentaBancaria": 0
+}
+
+Parameter content type: 
+application/json
+body	
+ModelExample Value
+{
+  "monto": 0,
+  "idTipoOperatoriaSimplificada": 0,
+  "idCuentaBancaria": 0
+}
+Hide Response
+Curl
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "monto": 0, \ 
+   "idTipoOperatoriaSimplificada": 0, \ 
+   "idCuentaBancaria": 0 \ 
+ }' 'https://api.invertironline.com/api/v2/OperatoriaSimplificada/Comprar'
+Request URL
+https://api.invertironline.com/api/v2/OperatoriaSimplificada/Comprar
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:36:59 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "128",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+PerfilShow/HideList OperationsExpand Operations
+get /api/v2/datos-perfil
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "nombre": "string",
+  "apellido": "string",
+  "numeroCuenta": "string",
+  "dni": "string",
+  "cuitCuil": "string",
+  "sexo": "string",
+  "perfilInversor": "string",
+  "actualizarDDJJ": true,
+  "actualizarTestInversor": true,
+  "esBajaArrepentimiento": true,
+  "email": "string",
+  "cuentaAbierta": true,
+  "actualizarTyC": true,
+  "actualizarTyCApp": true
+}
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/datos-perfil'
+Request URL
+https://api.invertironline.com/api/v2/datos-perfil
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 03:37:21 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "138",
+  "x-volterra-location": "sp4-sao"
+}
+
+
+
+TitulosShow/HideList OperationsExpand Operations
+get /api/v2/Titulos/FCI
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "variacion": 0,
+    "ultimoOperado": 0,
+    "horizonteInversion": "string",
+    "rescate": "t0",
+    "invierte": "string",
+    "tipoFondo": "plazo_fijo_pesos",
+    "avisoHorarioEjecucion": "string",
+    "tipoAdministradoraTituloFCI": "cONVEXITY",
+    "fechaCorte": "2026-04-18T03:09:06.567Z",
+    "codigoBloomberg": "string",
+    "perfilInversor": "string",
+    "informeMensual": "string",
+    "reglamentoGestion": "string",
+    "variacionMensual": 0,
+    "variacionAnual": 0,
+    "montoMinimo": 0,
+    "simbolo": "string",
+    "descripcion": "string",
+    "pais": "estados_Unidos",
+    "mercado": "bCBA",
+    "tipo": "oPCIONES",
+    "plazo": "t0",
+    "moneda": "peso_Argentino"
+  }
+]
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/Titulos/FCI'
+Request URL
+https://api.invertironline.com/api/v2/Titulos/FCI
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:09:20 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "497",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Titulos/FCI/{simbolo}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "variacion": 0,
+  "ultimoOperado": 0,
+  "horizonteInversion": "string",
+  "rescate": "t0",
+  "invierte": "string",
+  "tipoFondo": "plazo_fijo_pesos",
+  "avisoHorarioEjecucion": "string",
+  "tipoAdministradoraTituloFCI": "cONVEXITY",
+  "fechaCorte": "2026-04-18T03:09:06.577Z",
+  "codigoBloomberg": "string",
+  "perfilInversor": "string",
+  "informeMensual": "string",
+  "reglamentoGestion": "string",
+  "variacionMensual": 0,
+  "variacionAnual": 0,
+  "montoMinimo": 0,
+  "simbolo": "string",
+  "descripcion": "string",
+  "pais": "estados_Unidos",
+  "mercado": "bCBA",
+  "tipo": "oPCIONES",
+  "plazo": "t0",
+  "moneda": "peso_Argentino"
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+simbolo	
+al30
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/Titulos/FCI/al30'
+Request URL
+https://api.invertironline.com/api/v2/Titulos/FCI/al30
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:09:32 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "500",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Titulos/FCI/TipoFondos
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "identificador": "plazo_fijo_pesos",
+    "nombre": "string"
+  }
+]
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/Titulos/FCI/TipoFondos'
+Request URL
+https://api.invertironline.com/api/v2/Titulos/FCI/TipoFondos
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:09:40 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "128",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Cotizaciones/MEP/{simbolo}
+Response Class (Status 200)
+double
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+simbolo	
+al30
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/Cotizaciones/MEP/al30'
+Request URL
+https://api.invertironline.com/api/v2/Cotizaciones/MEP/al30
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:10:03 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "130",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Titulos/FCI/Administradoras
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "identificador": "plazo_fijo_pesos",
+    "nombre": "string"
+  }
+]
+
+
+Response Content Type 
+application/json
+Hide Response
+Curl
+curl -X GET --header 'Accept: text/html' 'https://api.invertironline.com/api/v2/Titulos/FCI/Administradoras'
+Request URL
+https://api.invertironline.com/api/v2/Titulos/FCI/Administradoras
+Response Body
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+Response Code
+403
+Response Headers
+{
+  "content-length": "520",
+  "content-type": "text/html",
+  "date": "Sat, 18 Apr 2026 04:11:42 GMT",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "492",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{mercado}/Titulos/{simbolo}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "simbolo": "string",
+  "descripcion": "string",
+  "pais": "estados_Unidos",
+  "mercado": "bCBA",
+  "tipo": "oPCIONES",
+  "plazo": "t0",
+  "moneda": "peso_Argentino"
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+mercado	
+bCBA
+
+path	string
+simbolo	
+alua
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/bCBA/Titulos/alua'
+Request URL
+https://api.invertironline.com/api/v2/bCBA/Titulos/alua
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:11:56 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "130",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{mercado}/Titulos/{simbolo}/Opciones
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "simboloSubyacente": "string",
+    "fechaVencimiento": "2026-04-18T03:09:06.618Z",
+    "tipoOpcion": "string",
+    "simbolo": "string",
+    "descripcion": "string",
+    "pais": "estados_Unidos",
+    "mercado": "bCBA",
+    "tipo": "oPCIONES",
+    "plazo": "t0",
+    "moneda": "peso_Argentino"
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+mercado	
+bCBA
+
+path	string
+simbolo	
+ggal
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/bCBA/Titulos/ggal/Opciones'
+Request URL
+https://api.invertironline.com/api/v2/bCBA/Titulos/ggal/Opciones
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:12:09 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "129",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{pais}/Titulos/Cotizacion/Instrumentos
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "instrumento": "string",
+    "pais": "estados_Unidos"
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+pais	
+argentina
+
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/argentina/Titulos/Cotizacion/Instrumentos'
+Request URL
+https://api.invertironline.com/api/v2/argentina/Titulos/Cotizacion/Instrumentos
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:12:19 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "130",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Cotizaciones/{Instrumento}/{Pais}/Todos
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "titulos": [
+    {
+      "simbolo": "string",
+      "puntas": {
+        "cantidadCompra": 0,
+        "precioCompra": 0,
+        "precioVenta": 0,
+        "cantidadVenta": 0
+      },
+      "ultimoPrecio": 0,
+      "variacionPorcentual": 0,
+      "apertura": 0,
+      "maximo": 0,
+      "minimo": 0,
+      "ultimoCierre": 0,
+      "volumen": 0,
+      "cantidadOperaciones": 0,
+      "fecha": "2026-04-18T03:09:06.637Z",
+      "tipoOpcion": "string",
+      "precioEjercicio": 0,
+      "fechaVencimiento": "string",
+      "mercado": "string",
+      "moneda": "string",
+      "descripcion": "string",
+      "plazo": "string",
+      "laminaMinima": 0,
+      "lote": 0
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+Instrumento	
+titulospublicos
+path	string
+Pais	
+argentina
+path	string
+cotizacionInstrumentoModel.instrumento	
+titulosPublicos
+query	string
+cotizacionInstrumentoModel.pais	
+argentina
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/Cotizaciones/titulospublicos/argentina/Todos?cotizacionInstrumentoModel.instrumento=titulosPublicos&cotizacionInstrumentoModel.pais=argentina'
+Request URL
+https://api.invertironline.com/api/v2/Cotizaciones/titulospublicos/argentina/Todos?cotizacionInstrumentoModel.instrumento=titulosPublicos&cotizacionInstrumentoModel.pais=argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:12:52 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "129",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Cotizaciones/{Instrumento}/{Panel}/{Pais}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "titulos": [
+    {
+      "simbolo": "string",
+      "descripcion": "string",
+      "puntas": {
+        "cantidadCompra": 0,
+        "precioCompra": 0,
+        "precioVenta": 0,
+        "cantidadVenta": 0
+      },
+      "ultimoPrecio": 0,
+      "variacionPorcentual": 0,
+      "apertura": 0,
+      "maximo": 0,
+      "minimo": 0,
+      "ultimoCierre": 0,
+      "volumen": 0,
+      "cantidadOperaciones": 0,
+      "fecha": "2026-04-18T03:09:06.650Z",
+      "tipoOpcion": "string",
+      "precioEjercicio": 0,
+      "fechaVencimiento": "string",
+      "mercado": "string",
+      "moneda": "string"
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+Instrumento	
+acciones
+path	string
+Panel	
+acciones
+path	string
+Pais	
+argentina
+path	string
+panelCotizacion.instrumento	
+acciones
+query	string
+panelCotizacion.panel	
+argentina
+query	string
+panelCotizacion.pais	
+argentina
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/Cotizaciones/acciones/acciones/argentina?panelCotizacion.instrumento=acciones&panelCotizacion.panel=argentina&panelCotizacion.pais=argentina'
+Request URL
+https://api.invertironline.com/api/v2/Cotizaciones/acciones/acciones/argentina?panelCotizacion.instrumento=acciones&panelCotizacion.panel=argentina&panelCotizacion.pais=argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:13:35 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "377",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{mercado}/Titulos/{simbolo}/CotizacionDetalle
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ultimoPrecio": 0,
+  "variacion": 0,
+  "apertura": 0,
+  "maximo": 0,
+  "minimo": 0,
+  "fechaHora": "2026-04-18T03:09:06.671Z",
+  "tendencia": "sube",
+  "cierreAnterior": 0,
+  "montoOperado": 0,
+  "volumenNominal": 0,
+  "precioPromedio": 0,
+  "moneda": "peso_Argentino",
+  "precioAjuste": 0,
+  "interesesAbiertos": 0,
+  "puntas": [
+    {
+      "cantidadCompra": 0,
+      "precioCompra": 0,
+      "precioVenta": 0,
+      "cantidadVenta": 0
+    }
+  ],
+  "cantidadOperaciones": 0,
+  "simbolo": "string",
+  "pais": "estados_Unidos",
+  "mercado": "bCBA",
+  "tipo": "oPCIONES",
+  "descripcionTitulo": "string",
+  "plazo": "t0",
+  "laminaMinima": 0,
+  "lote": 0,
+  "cantidadMinima": 0,
+  "puntosVariacion": 0
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+mercado	
+bCBA
+
+path	string
+simbolo	
+ggal
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/bCBA/Titulos/ggal/CotizacionDetalle'
+Request URL
+https://api.invertironline.com/api/v2/bCBA/Titulos/ggal/CotizacionDetalle
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:13:47 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "128",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/cotizaciones-orleans/{Instrumento}/{Pais}/Todos
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "titulos": [
+    {
+      "simbolo": "string",
+      "puntas": {
+        "cantidadCompra": 0,
+        "precioCompra": 0,
+        "precioVenta": 0,
+        "cantidadVenta": 0
+      },
+      "ultimoPrecio": 0,
+      "variacionPorcentual": 0,
+      "apertura": 0,
+      "maximo": 0,
+      "minimo": 0,
+      "ultimoCierre": 0,
+      "volumen": 0,
+      "cantidadOperaciones": 0,
+      "fecha": "2026-04-18T03:09:06.684Z",
+      "tipoOpcion": "string",
+      "precioEjercicio": 0,
+      "fechaVencimiento": "string",
+      "mercado": "string",
+      "moneda": "string",
+      "descripcion": "string",
+      "plazo": "string",
+      "laminaMinima": 0,
+      "lote": 0
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+Instrumento	
+cedears
+path	string
+Pais	
+argentina
+path	string
+cotizacionInstrumentoModel.instrumento	
+cedears
+query	string
+cotizacionInstrumentoModel.pais	
+argentina
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/cotizaciones-orleans/cedears/argentina/Todos?cotizacionInstrumentoModel.instrumento=cedears&cotizacionInstrumentoModel.pais=argentina'
+Request URL
+https://api.invertironline.com/api/v2/cotizaciones-orleans/cedears/argentina/Todos?cotizacionInstrumentoModel.instrumento=cedears&cotizacionInstrumentoModel.pais=argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:14:12 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "131",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{pais}/Titulos/Cotizacion/Paneles/{instrumento}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "instrumento": "string",
+    "pais": "estados_Unidos"
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+pais	
+estados_Unidos
+
+path	string
+instrumento	
+adrs
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/estados_Unidos/Titulos/Cotizacion/Paneles/adrs'
+Request URL
+https://api.invertironline.com/api/v2/estados_Unidos/Titulos/Cotizacion/Paneles/adrs
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:14:55 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "131",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/cotizaciones-orleans/{Instrumento}/{Pais}/Operables
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "titulos": [
+    {
+      "simbolo": "string",
+      "puntas": {
+        "cantidadCompra": 0,
+        "precioCompra": 0,
+        "precioVenta": 0,
+        "cantidadVenta": 0
+      },
+      "ultimoPrecio": 0,
+      "variacionPorcentual": 0,
+      "apertura": 0,
+      "maximo": 0,
+      "minimo": 0,
+      "ultimoCierre": 0,
+      "volumen": 0,
+      "cantidadOperaciones": 0,
+      "fecha": "2026-04-18T03:09:06.707Z",
+      "tipoOpcion": "string",
+      "precioEjercicio": 0,
+      "fechaVencimiento": "string",
+      "mercado": "string",
+      "moneda": "string",
+      "descripcion": "string",
+      "plazo": "string",
+      "laminaMinima": 0,
+      "lote": 0
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+Instrumento	
+futuros
+path	string
+Pais	
+argentina
+path	string
+cotizacionInstrumentoModel.instrumento	
+futuros
+query	string
+cotizacionInstrumentoModel.pais	
+argentina
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/cotizaciones-orleans/futuros/argentina/Operables?cotizacionInstrumentoModel.instrumento=futuros&cotizacionInstrumentoModel.pais=argentina'
+Request URL
+https://api.invertironline.com/api/v2/cotizaciones-orleans/futuros/argentina/Operables?cotizacionInstrumentoModel.instrumento=futuros&cotizacionInstrumentoModel.pais=argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:15:09 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "132",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{Mercado}/Titulos/{Simbolo}/Cotizacion
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "ultimoPrecio": 0,
+  "variacion": 0,
+  "apertura": 0,
+  "maximo": 0,
+  "minimo": 0,
+  "fechaHora": "2026-04-18T03:09:06.727Z",
+  "tendencia": "sube",
+  "cierreAnterior": 0,
+  "montoOperado": 0,
+  "volumenNominal": 0,
+  "precioPromedio": 0,
+  "moneda": "peso_Argentino",
+  "precioAjuste": 0,
+  "interesesAbiertos": 0,
+  "puntas": [
+    {
+      "cantidadCompra": 0,
+      "precioCompra": 0,
+      "precioVenta": 0,
+      "cantidadVenta": 0
+    }
+  ],
+  "cantidadOperaciones": 0,
+  "descripcionTitulo": "string",
+  "plazo": "string",
+  "laminaMinima": 0,
+  "lote": 0
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+mercado	
+bcba
+query	string
+simbolo	
+alua
+query	string
+model.simbolo	
+alua
+Ejemplo: ALUA, APBR
+
+query	string
+model.mercado	
+bCBA
+Ejemplo: Rofx, BCBA
+
+query	string
+model.plazo	
+t0
+T0 = Inmediato T+1 = 24 Horas T+2 = 72 Horas
+
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/{Mercado}/Titulos/{Simbolo}/Cotizacion?mercado=bcba&simbolo=alua&model.simbolo=alua&model.mercado=bCBA&model.plazo=t0'
+Request URL
+https://api.invertironline.com/api/v2/{Mercado}/Titulos/{Simbolo}/Cotizacion?mercado=bcba&simbolo=alua&model.simbolo=alua&model.mercado=bCBA&model.plazo=t0
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:16:42 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "502",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/cotizaciones-orleans-panel/{Instrumento}/{Pais}/Todos
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "titulos": [
+    {
+      "simbolo": "string",
+      "puntas": {
+        "cantidadCompra": 0,
+        "precioCompra": 0,
+        "precioVenta": 0,
+        "cantidadVenta": 0
+      },
+      "ultimoPrecio": 0,
+      "variacionPorcentual": 0,
+      "apertura": 0,
+      "maximo": 0,
+      "minimo": 0,
+      "ultimoCierre": 0,
+      "volumen": 0,
+      "cantidadOperaciones": 0,
+      "fecha": "2026-04-18T03:09:06.748Z",
+      "tipoOpcion": "string",
+      "precioEjercicio": 0,
+      "fechaVencimiento": "string",
+      "mercado": "string",
+      "moneda": "string",
+      "descripcion": "string",
+      "plazo": "string",
+      "laminaMinima": 0,
+      "lote": 0
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+Instrumento	
+letras
+path	string
+Pais	
+argentina
+path	string
+cotizacionInstrumentoModel.instrumento	
+letras
+query	string
+cotizacionInstrumentoModel.pais	
+argentina
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/cotizaciones-orleans-panel/letras/argentina/Todos?cotizacionInstrumentoModel.instrumento=letras&cotizacionInstrumentoModel.pais=argentina'
+Request URL
+https://api.invertironline.com/api/v2/cotizaciones-orleans-panel/letras/argentina/Todos?cotizacionInstrumentoModel.instrumento=letras&cotizacionInstrumentoModel.pais=argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:17:03 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "375",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Titulos/FCI/Administradoras/{administradora}/TipoFondos
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "administradora": "string",
+    "identificadorTipoFondoFCI": "plazo_fijo_pesos",
+    "nombreTipoFondoFCI": "string"
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+administradora	
+convexity
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: text/html' 'https://api.invertironline.com/api/v2/Titulos/FCI/Administradoras/convexity/TipoFondos'
+Request URL
+https://api.invertironline.com/api/v2/Titulos/FCI/Administradoras/convexity/TipoFondos
+Response Body
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+Response Code
+403
+Response Headers
+{
+  "content-length": "520",
+  "content-type": "text/html",
+  "date": "Sat, 18 Apr 2026 04:18:17 GMT",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "123",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/cotizaciones-orleans-panel/{Instrumento}/{Pais}/Operables
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "titulos": [
+    {
+      "simbolo": "string",
+      "puntas": {
+        "cantidadCompra": 0,
+        "precioCompra": 0,
+        "precioVenta": 0,
+        "cantidadVenta": 0
+      },
+      "ultimoPrecio": 0,
+      "variacionPorcentual": 0,
+      "apertura": 0,
+      "maximo": 0,
+      "minimo": 0,
+      "ultimoCierre": 0,
+      "volumen": 0,
+      "cantidadOperaciones": 0,
+      "fecha": "2026-04-18T03:09:06.774Z",
+      "tipoOpcion": "string",
+      "precioEjercicio": 0,
+      "fechaVencimiento": "string",
+      "mercado": "string",
+      "moneda": "string",
+      "descripcion": "string",
+      "plazo": "string",
+      "laminaMinima": 0,
+      "lote": 0
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+Instrumento	
+chpd
+path	string
+Pais	
+argentina
+path	string
+cotizacionInstrumentoModel.instrumento	
+cHPD
+query	string
+cotizacionInstrumentoModel.pais	
+argentina
+query	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/cotizaciones-orleans-panel/chpd/argentina/Operables?cotizacionInstrumentoModel.instrumento=cHPD&cotizacionInstrumentoModel.pais=argentina'
+Request URL
+https://api.invertironline.com/api/v2/cotizaciones-orleans-panel/chpd/argentina/Operables?cotizacionInstrumentoModel.instrumento=cHPD&cotizacionInstrumentoModel.pais=argentina
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:17:40 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "129",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{mercado}/Titulos/{simbolo}/CotizacionDetalleMobile/{plazo}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+{
+  "operableCompra": true,
+  "operableVenta": true,
+  "visible": true,
+  "ultimoPrecio": 0,
+  "variacion": 0,
+  "apertura": 0,
+  "maximo": 0,
+  "minimo": 0,
+  "fechaHora": "2026-04-18T03:09:06.794Z",
+  "tendencia": "sube",
+  "cierreAnterior": 0,
+  "montoOperado": 0,
+  "volumenNominal": 0,
+  "precioPromedio": 0,
+  "moneda": "peso_Argentino",
+  "precioAjuste": 0,
+  "interesesAbiertos": 0,
+  "puntas": [
+    {
+      "cantidadCompra": 0,
+      "precioCompra": 0,
+      "precioVenta": 0,
+      "cantidadVenta": 0
+    }
+  ],
+  "cantidadOperaciones": 0,
+  "simbolo": "string",
+  "pais": "estados_Unidos",
+  "mercado": "bCBA",
+  "tipo": "oPCIONES",
+  "descripcionTitulo": "string",
+  "plazo": "t0",
+  "laminaMinima": 0,
+  "lote": 0,
+  "cantidadMinima": 0,
+  "puntosVariacion": 0
+}
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+mercado	
+bCBA
+
+path	string
+simbolo	
+ggal
+path	string
+plazo	
+t0
+
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/bCBA/Titulos/ggal/CotizacionDetalleMobile/t0'
+Request URL
+https://api.invertironline.com/api/v2/bCBA/Titulos/ggal/CotizacionDetalleMobile/t0
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:17:51 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "130",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/Titulos/FCI/Administradoras/{administradora}/TipoFondos/{tipoFondo}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "variacion": 0,
+    "ultimoOperado": 0,
+    "horizonteInversion": "string",
+    "rescate": "t0",
+    "invierte": "string",
+    "tipoFondo": "plazo_fijo_pesos",
+    "avisoHorarioEjecucion": "string",
+    "tipoAdministradoraTituloFCI": "cONVEXITY",
+    "fechaCorte": "2026-04-18T03:09:06.813Z",
+    "codigoBloomberg": "string",
+    "perfilInversor": "string",
+    "informeMensual": "string",
+    "reglamentoGestion": "string",
+    "variacionMensual": 0,
+    "variacionAnual": 0,
+    "montoMinimo": 0,
+    "simbolo": "string",
+    "descripcion": "string",
+    "pais": "estados_Unidos",
+    "mercado": "bCBA",
+    "tipo": "oPCIONES",
+    "plazo": "t0",
+    "moneda": "peso_Argentino"
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+administradora	
+cONVEXITY
+
+path	string
+tipoFondo	
+plazo_fijo_pesos
+
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: text/html' 'https://api.invertironline.com/api/v2/Titulos/FCI/Administradoras/cONVEXITY/TipoFondos/plazo_fijo_pesos'
+Request URL
+https://api.invertironline.com/api/v2/Titulos/FCI/Administradoras/cONVEXITY/TipoFondos/plazo_fijo_pesos
+Response Body
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+Response Code
+403
+Response Headers
+{
+  "content-length": "520",
+  "content-type": "text/html",
+  "date": "Sat, 18 Apr 2026 04:18:24 GMT",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "124",
+  "x-volterra-location": "sp4-sao"
+}
+get /api/v2/{mercado}/Titulos/{simbolo}/Cotizacion/seriehistorica/{fechaDesde}/{fechaHasta}/{ajustada}
+Response Class (Status 200)
+OK
+
+ModelExample Value
+[
+  {
+    "ultimoPrecio": 0,
+    "variacion": 0,
+    "apertura": 0,
+    "maximo": 0,
+    "minimo": 0,
+    "fechaHora": "2026-04-18T03:09:06.829Z",
+    "tendencia": "sube",
+    "cierreAnterior": 0,
+    "montoOperado": 0,
+    "volumenNominal": 0,
+    "precioPromedio": 0,
+    "moneda": "peso_Argentino",
+    "precioAjuste": 0,
+    "interesesAbiertos": 0,
+    "puntas": [
+      {
+        "cantidadCompra": 0,
+        "precioCompra": 0,
+        "precioVenta": 0,
+        "cantidadVenta": 0
+      }
+    ],
+    "cantidadOperaciones": 0,
+    "descripcionTitulo": "string",
+    "plazo": "string",
+    "laminaMinima": 0,
+    "lote": 0
+  }
+]
+
+
+Response Content Type 
+application/json
+Parameters
+Parameter	Value	Description	Parameter Type	Data Type
+mercado	
+bCBA
+
+path	string
+simbolo	
+alua
+path	string
+fechaDesde	
+2026-01-01
+path	date-time
+fechaHasta	
+2026-08-223
+path	date-time
+ajustada	
+ajustada
+
+path	string
+Hide Response
+Curl
+curl -X GET --header 'Accept: application/json' 'https://api.invertironline.com/api/v2/bCBA/Titulos/alua/Cotizacion/seriehistorica/2026-01-01/2026-08-223/ajustada'
+Request URL
+https://api.invertironline.com/api/v2/bCBA/Titulos/alua/Cotizacion/seriehistorica/2026-01-01/2026-08-223/ajustada
+Response Body
+{
+  "message": "Authorization has been denied for this request."
+}
+Response Code
+401
+Response Headers
+{
+  "cache-control": "no-cache",
+  "content-length": "68",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sat, 18 Apr 2026 04:19:11 GMT",
+  "expires": "-1",
+  "pragma": "no-cache",
+  "server": "volt-adc",
+  "x-envoy-upstream-service-time": "131",
+  "x-volterra-location": "sp4-sao"
+}

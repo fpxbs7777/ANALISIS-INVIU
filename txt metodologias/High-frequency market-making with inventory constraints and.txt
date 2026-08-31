@@ -1,0 +1,1478 @@
+High-frequency market-making with inventory constraints and
+directional bets
+Pietro FODRA 1 Mauricio LABADIE 2
+November 27, 2024
+Abstract
+Inthispaperweextendthemarket-makingmodelswithinventoryconstraintsofAvellanedaand
+Stoikov (High-frequency trading in a limit-order book, Quantitative Finance Vol.8 No.3 2008) and
+Gu´eant, Lehalle and Fernandez-Tapia (Dealing with inventory risk, Preprint 2011) to the case of a
+rather general class of mid-price processes, under either exponential or linear PNL utility functions,
+and we add an inventory-risk-aversion parameter that penalises the marker-maker if she finishes her
+day with a non-zero inventory. This general, non-martingale framework allows a market-maker to
+make directional bets on market trends whilst keeping under control her inventory risk. In order to
+achieve this, the marker-maker places non-symmetric limit orders that favour market orders to hit
+her bid (resp. ask) quotes if she expects that prices will go up (resp. down).
+Withthisinventory-risk-aversionparameter,themarket-makerhasnotonlydirectcontrolonher
+inventory risk but she also has indirect control on the moments of her PNL distribution. Therefore,
+this parameter can be seen as a fine-tuning of the marker-maker’s risk-reward profile.
+In the case of a mean-reverting mid-price, we show numerically that the inventory-risk-aversion
+parameter gives the market-maker enough room to tailor her risk-reward profile, depending on her
+risk budgets in inventory and PNL distribution (especially variance, skewness, kurtosis and VaR).
+For example, when compared to the martingale benchmark, a market can choose to either increase
+her average PNL by more than 15% and carry a huge risk, on inventory and PNL, or either give up
+5% of her benchmark PNL to increase her control on inventory and PNL, as well as increasing her
+Sharpe ratio by a factor bigger than 2.
+Keywords: Quantitative Finance, high-frequency trading, market-making, limit-order book, inventory
+risk, optimisation, stochastic control, Hamilton-Jacobi-Bellman, PNL distribution.
+1 Introduction
+Market-makers
+A market-maker is a trader who buys and sells assets in a stock exchange. The difference with any other
+market agent is that the market-maker is bound to make firm quotes: once she shows a buying/selling
+1EXQIM(EXclusiveQuantitativeInvestmentManagement). 24RuedeCaumartin75009Paris(France)andUniversit´e
+Paris-Diderot. 4PlaceJussieu75005Paris(France). E-mail: pietro.fodra@exqim.com
+2EXQIM.Correspondingauthor. E-mail: mauricio.labadie@exqim.com,mauricio.labadie@gmail.com
+1
+2102
+nuJ
+12
+]RT.nif-q[
+1v0184.6021:viXra
+
+2 Pietro FODRA · Mauricio LABADIE
+quantity at a certain price, she is engaged to trade under those conditions. As liquidity provider, a
+market-maker receives a compensation: she buys at a lower price (bid) and sells at a higher price (ask).
+This difference is called the spread.
+A market maker is exposed to two main risks, adverse selection and inventory risk. Adverse selection
+means that if the market-maker sells (resp. buys) an asset it is not necessarily good news, it could mean
+that her ask (resp. bid) price is lower (resp. higher) than it should on the current market conditions.
+Inventory risk comesintoplaybyinbalancesinthearrivalofbuyingandsellingorders: sincethemarket-
+maker quotes both bid and ask prices, her net position depends on which quotes are executed and in
+which quantities. A market maker uses the spread to both control her inventory and compensate herself
+from adverse selection. In a nutshell, a market-maker loses money against informed traders, but she
+covers that loss by making noise (i.e. un-informed) traders pay the spread on each transaction.
+In order to create a market-making strategy, we need to consider three factors: price, spread and
+inventory. Theprice isoftenthemid-price,i.e. theaveragebetweenthecurrentaskandbidpricesofthe
+market. The spread of the market-maker is her only control on her PNL and inventory throughout the
+trading day. It is true that the market maker can affect the mid-price by improving the current ask and
+bid market quotes, but since that would normally trigger a market order that consumes the offer, in a
+first approach we can consider that the mid price cannot be affected by the quotes of the market maker.
+Main features of the present article
+In this article we extend the current stochastic-control models of market-making, in particular those of
+Avellaneda and Stoikov [1] and Lehalle et al [6].
+Wemanagedtofindclosed-formsolutionsfortheoptimalask/bidquotesofamarket-makingformid-
+price dynamics that are not necessarily martingale, which can be interpreted of directional bets on price
+trends. Although our approach is based on optimal stochastic-control and nonlinear-PDE techniques,
+the philosophy is very simple: given the utility function we choose a possible form of the solution of the
+nonlinear PDE equation (i.e. we make an ansatz); we plug this ansatz into the equation and compute
+the(implicit)optimalcontrols; wethenplugthe(implicit)controlsandseparatetheequationintoseveral
+simpler ones, normally linear; we then compute explicitly the controls and the solution for the equation.
+Sometimes it is impossible to find explicitly the controls for the solution, but for a sub-solution it
+is always possible (at least for the class of processes and utility functions we are dealing with). In that
+framework,thecontrolsdonotoptimisetheutilityfunctionbutgivealowerboundofthepotentiallosses.
+Itisworthtomentionthat,forpractitioners,itisbettertohaveexplicitcontrolsthatminimisepotential
+losses (a sub-solution) than highly implicit, numerically-intensive controls that optimise the PNL.
+Our approach can be applied to any utility functions, not only exponential as in Avellaneda and
+Stoikov [1] and Lehalle et al [6], provided it is explicit enough to admit an ansatz. This gives a lot of
+flexibility to the market-maker for the choice of her risk-reward profile. Of course, selecting a mid-price
+dynamic determines the class of utility functions that we can choose from because the utility function
+hastobefinite(a.s.). However,withthemostrecurrentmid-pricemodelssuchasmartingales,Brownian
+motion with drift, Ornstein-Uhlenbeck (resp. Black-Scholes) a linear (resp. exponential) utility function
+
+High-frequency market-making with inventory constraints and directional bets 3
+is finite.
+We add a new parameter, which models the inventory-risk aversion of the market-maker. As it will
+be shown in the numerical simulations, this parameter guarantees that the trading algorithm will end
+the day with a flat inventory, which is the goal of a market-maker. Moreover, it also allows the market
+maker to control its directional bets via exposure to price movements intraday.
+We show that the inventory-risk-aversion parameter not only exerces direct control on the inventory
+riskdirectlybutitalsohassomeindirectcontrolontheriskinthePNLdistributionofthemarket-maker
+(i.e. on the first four moments namely mean, variance, skewness and kurtosis). Moreover, this relation
+can be also inverted: the parameter of the exponential utility function has direct control on the PNL
+distributionandindirectlycontrolstheinventoryrisk. Thiscanbeinterpretedasahighrisk-highreward
+scenario: big exposure to extreme events, either via fat tails or directional bets, improves the average
+PNL.
+Organisation of the study
+The goal of this study is to find the optimal ask and bid quotes for a high-frequency market-maker that,
+under the framework of a directional bet on the market trend, simultaneously maximise her PNL and
+minimise her inventory risk. The main inspiration is the paper of Avellaneda and Stoikov [1], who found
+via stochastic control the optimal bid and ask quotes for a high-frequency market-maker. The second
+inspiration comes from Lehalle et al [6], who formalised the findings of Avellaneda and Stoikov [1]. It
+is also worth to mention that the Hamilton-Jacobi-Bellman framework we use was originally set by Ho
+and Stoll [8], but in neither of these three articles the effect of a directional market bet on the PNL
+distribution was considered.
+In Chapter 2 we set the framework under which we will be working, which is stochastic control and
+Hamilton-Jacobi-Bellman equations. In Section 3 we completely solve the optimal control problem for
+a linear utility function and an arbitrary Markov process by finding explicitly the unique solution. In
+Section4weperturbatethelinearutilityfunctionviaaquadraticinventorypenalty. Byusingfirst-order
+approximations on the arrival of orders to the limit-order book, we find explicitly the (approximate)
+solutions and their corresponding optimal controls, which are perturbations of the closed-form solution
+and controls we found in Section 3. In Section 5 we extend the results of Avellaneda and Stoikov [1]
+and Lehalle et al [6] for exponential utility functions. We show that their approach can be used to
+moregeneralprocessthanarithmeticBrownianmotionandwithinventory-riskaversion. InSection6we
+performnumericalsimulationstoshowhowdirectionalbetsonthemarkettrendaffectthemarket-making
+strategies. Wealsoassesstheeffectoftheinventory-risk-aversionparameteronthePNLdistributionand
+the inventory risk and show that this parameter controls directly the inventory risk and indirectly the
+PNL distribution.
+
+4 Pietro FODRA · Mauricio LABADIE
+2 Stochastic control framework
+Setting of the problem
+We suppose that the mid-price process S(t) follows an Itˆo diffusion, i.e.
+dS(t)=b(t,S(t))dt+σ(t,S(t))dW(t) (1)
+where W(t) is a standard Brownian motion in a filtered probability space (Ω,F,F=(F ) ,P).
+t 0≤t≤T
+A market-maker can control her ask and bid quotes, which we denote p+(t) and p−(t) respectively.
+Instead of working with the market-maker’s prices we will rather work with the market-maker’s spreads,
+i.e
+δ+(t):=p+(t)−S(t), δ−(t):=S(t)−p−(t).
+Themarket-maker’sspreadsareassumedastwopredictableprocesses. Underthesevariables,themarket-
+maker’s bid-ask spread is thus δ++δ− ≥0 (see Figure 1).
+Figure 1. Description of the intensity λ± of limit orders (LOs) as a function of the distances (δ+,δ−).
+As usual, δ± (cid:55)→λ±(δ±) is decreasing: the closer we are to the mid-price, the more likely our LOs are
+executed. Here we explicited the exponential decay we will use in our model.
+Strictly speaking, we should consider that δ+ ≥0 and δ− ≥0. However, these constraints render the
+optimisationproblemveryhardtosolveexplicitlyduetoboundaryeffectsatδ± =0. Inconsequence,and
+sinceourgoalistohaveexplicitlythevaluesoftheoptimaldistances(δ+,δ−)oftheoptimalmarket-maker
+∗ ∗
+quotes (p+,p− ), we will assume in our analysis that δ± ∈R. However, in our numerical simulations we
+∗ ∗
+interpret δ± ≤0 as a market order (see Figure 2).
+
+High-frequency market-making with inventory constraints and directional bets 5
+Figure 2. Extrapolation of the intensities λ± of limit orders (LOs) when δ± ≤0 (dotted lines). For our
+simulations, when δ± ≤0 we will assume they are market orders.
+In addition to the mid-price process S(t) and the predictable processes (δ+,δ−), we will consider two
+other processes. On the one hand, the inventory Q(t) ∈ Z, which varies with the execution of the limit
+orders placed by the market-maker; on the other hand, the cash process X(t) ∈ R, which also varies as
+the market-maker buys or sells the asset.
+We will assume that the dynamics of Q(t) and X(t) are governed by
+dQ(t) = dN−(t)−dN+(t),
+dX(t) = (cid:2) S(t)+δ+(cid:3) dN+(t)− (cid:2) S(t)−δ−(cid:3) dN−(t),
+where N±(t) are two independent Poisson processes of intensity λ±(δ±) and δ± (cid:55)→λ±(δ±) is decreasing.
+In that framework, the PNL or wealth of the market-maker is
+PNL(t)=X(t)+Q(t)S(t)∈R.
+Finally, we will also assume that the market-maker has a utility function φ(s,q,x) and an associated
+value function
+(cid:104) (cid:16) (cid:17)(cid:105)
+u(t,s,q,x):= max E φ S(T),Q(T),X(T)
+t,s,q,x
+(δ+,δ−)
+wheret∈[0,T]isthecurrenttime, s=S(t)isthecurrentmid-priceoftheasset, x=X(t)isthecurrent
+cash and q =Q(t) is the current inventory level.
+It is worth to mention that all these assumptions are also present (explicitly or implicitly) in both
+Avellaneda and Stoikov [1] and Lehalle et al [6].
+The Hamilton-Jacobi-Bellman equation
+Let us give a heuristic interpretation of the Hamilton-Jacobi-Bellman equation in terms of the two in-
+finitesimal operators, one on the continuous variable s and the other on the jump variables (q,x), as well
+as of the stochastic controls (δ+,δ−).
+
+6 Pietro FODRA · Mauricio LABADIE
+First, suppose q and x fixed. Since the continuous variable s follows (1), from Feynmann-Kac repre-
+sentation formula we have that if (t,s)(cid:55)→u (t,s,q,x) satisfies
+C
+1
+(∂ +L)u =0, L:=b(t,s)∂ + σ2(t,s)∂ , u (T,s,q,x)=φ(s,q,x) (2)
+t C s 2 ss C
+then (see e.g. Pham [9])
+(cid:104) (cid:16) (cid:17)(cid:105)
+u (t,s,q,x)=E φ S(T),q,x) .
+C t,s
+Second, suppose now that s is fixed. We model the arrival of orders to the limit-order Book as two
+independent Poisson Process, N+ for the ask quotes and N− for the bid quotes , with intensity λ±
+(respectively).
+• Fortheaskquote,weassumethatλ+ dependsonthedistancetothemid-prices,i.e. λ+ =λ+(δ+).
+Moreover, since buying market orders favour ask quotes with the smallest spread δ+, it is natural
+to assume that δ+ (cid:55)→ λ+(δ+) is increasing, i.e. the probability of execution for the market-maker
+decreases as she moves her ask quote further away from the mid price.
+• Analogously, for the bid quote we have λ− =λ−(δ−) and δ− (cid:55)→λ−(δ−) increasing.
+The jump variables (q,x) are related via the arrival of market orders that hit the quotes of the
+market-maker:
+• SupposeabuyingmarketorderofoneshareofS hitstheaskquoteofthemarket-maker. Itfollows
+then that x(cid:55)→x+(s+δ+) and q (cid:55)→q−1.
+• Analogously, if a selling market order of one share hits her bid quote then x (cid:55)→ x+(s−δ−) and
+q (cid:55)→q+1.
+Under this framework, we have that the value function of the jump (q,x)(cid:55)→u (t,s,q,x) satisfies
+D
+∂ u +λ+(δ+) (cid:2) u (t,s,q−1,x+(s+δ+))−u (t,s,q,x) (cid:3) (3)
+t D D D
++λ−(δ−) (cid:2) u (t,s,q+1,x−(s−δ−))−u (t,s,q,x) (cid:3) = 0.
+D D
+u(T,s,q,x) = φ(s,q,x).
+Third, let us now put together the continuous and jump dynamics (2)-(3). Suppose that the market-
+maker’s spread quotes (δ+,δ−) are known (i.e. deterministic), the value function u(t,s,q,x) satisfies has
+the following infinitesimal generator (see e.g. Ho and Stoll [8]):
+(∂ +L)u+λ+(δ+) (cid:2) u(t,s,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3) (4)
+t
++λ−(δ−) (cid:2) u(t,s,q+1,x−(s−δ−))−u(t,s,q,x) (cid:3) = 0.
+u(T,s,q,x) = φ(s,q,x).
+Fourth, notice that (4) is valid only when the spread quotes (δ+,δ−) are known, but in the current
+case they are part of the set of unknowns of the problem. In consequence, from the stochastic control
+theory it follows that the value function u(t,s,q,x) with unknown controls (δ+,δ−) is solution of the
+Hamilton-Jacobi-Bellman equation
+(∂ +L)u+maxλ+(δ+) (cid:2) u(t,s,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3) (5)
+t
+δ+
++maxλ−(δ−) (cid:2) u(t,s,q+1,x−(s−δ−))−u(t,s,q,x) (cid:3) = 0,
+δ−
+u(T,s,q,x) = φ(s,q,x).
+
+High-frequency market-making with inventory constraints and directional bets 7
+In general we should use sup instead of max in (5), but if we assume that b(t,s) and σ(t,s) are Lipschitz
+and that the jump dynamic (3) is bounded then the supremum is attained and the solution u(t,s,q,x) is
+unique, as in the particular cases we will consider here.
+Fifth, Avellaneda and Stoikov [1] showed that, given the empirical evidence provided by the current
+research in Econophysics e.g. Potters and Bouchaud [10], we can assume that λ±(δ) = Ae−kδ. Under
+this framework, the Hamilton-Jacobi-Bellman (5) becomes
+(∂ +L)u+maxAe−kδ+(cid:2) u(t,s,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3) (6)
+t
+δ+
++maxAe−kδ−(cid:2) u(t,s,q+1,x−(s−δ−))−u(t,s,q,x) (cid:3) = 0,
+δ−
+u(T,s,q,x) = φ(s,q,x),
+Solving the Hamilton-Jacobi-Bellman equation
+Equation (6) is the one we will consider in the rest of the present work. The steps to solve it are as
+follows:
+1. Based on the utility function φ(s,q,x) we make an ansatz, i.e. we guess the general form of the
+solution of the on Hamilton-Jacobi-Bellman equation. For example, if
+φ(s,q,x)=x+ϕ(s,q)
+we will use
+u(t,s,q,x)=x+v(t,s,q). (7)
+2. We substitute the ansatz on the HJB in order to find an easier HJB equation for v. We use this
+new HJB equation to find the optimal controls (δ+,δ−) that maximize the jump. With the ansatz
+∗ ∗
+(7) the optimal controls are
+1 1
+δ+ = −s+v(t,s,q)−v(t,s,q−1), δ− = +s−v(t,s,q+1)+v(t,s,q).
+∗ k ∗ k
+3. We substitute the optimal controls on the HJB equation: the resulting equation is called the
+verification equation. In our case it is
+A(cid:16) (cid:17)
+(∂ t +L)v+ k e−kδ ∗ + +e−kδ ∗ − = 0,
+v(T,s,q) = ϕ(s,q),
+which is highly nonlinear because δ± =δ±(v).
+∗ ∗
+4. We solve the verification equation via the Feynmann-Kac representation formula in order to find
+an explicit expression of the optimal controls. Indeed, for an equation of the form
+(∂ +L)w+f(δ+,δ−,t,s,q,x) = 0,
+t ∗ ∗
+w| = g(δ+,δ−,s,q,x),
+t=T ∗ ∗
+
+8 Pietro FODRA · Mauricio LABADIE
+where (δ+,δ−) do not depend on w, the (unique) solution is (see e.g. Pham [9])
+∗ ∗
+(cid:34) (cid:35)
+(cid:90) T
+w(t,s,q,x)=E f(δ+,δ−,ξ,S(ξ),q,x)dξ+g(δ+,δ−,S(T),q,x) ,
+t,s,q,x ∗ ∗ ∗ ∗
+t
+where E is the conditional expectation given S(t)=s, Q(t)=q and X(t)=x
+t,s,q,x
+5. Alternatively, we could express the optimal quotes in terms of the market-maker’s bid-ask spread
+ψ :=δ++δ−
+∗ ∗ ∗
+and the mid-point of the spread (called the indifference price)
+r :=
+1(cid:0) p++p−(cid:1)
+=s+
+1(cid:0) δ+−δ−(cid:1)
+.
+∗ 2 ∗ ∗ 2 ∗ ∗
+Notice that if δ+ =δ− then r (t)=s=S(t). Therefore, r −s measures the level of asymmetry of
+∗ ∗
+the quotes with respect to the mid-price s.
+3 Linear utility function
+Let us suppose that the utility function is linear, i.e.
+φ(s,q,x)=x+qs.
+Then the corresponding value function is
+u(t,s,q,x)= max E [X(T)+Q(T)S(T)], (8)
+t,s,q,x
+(δ+,δ−)
+where X(t) is the cash process, Q(t) the inventory process, S(t) the price process and E is the con-
+t,s,q,x
+ditional expectation given S(t)=s, Q(t)=q and X(t)=x. Alternatively, this corresponds to choosing
+the final condition as φ(s,q,x)=x+qs.
+X(T)+Q(T)S(T)isthefinalvalueofthemarket-maker’sportfolio,andcorrespondstothefinalPNL
+of the market-maker. Indeed, X(T) the cash she holds whilst Q(T)S(T) the cash value of her inventory:
+she holds Q(T) assets and clears them at (unitary) price S(T) on the close auction.
+Ansatz
+Fromthefinalcondition(i.e. theutilityfunction)φ(s,q,x)=x+qswewillsearchasolutionoftheform
+u(t,s,q,x)=x+θ (t,s)+qθ (t,s). (9)
+0 1
+Plugging (9) into (6) yields
+(∂ +L)(θ +qθ )+maxAe−kδ+(cid:2) s+δ+−θ (cid:3) +maxAe−kδ−(cid:2) −s+δ−+θ (cid:3) = 0,
+t 0 1 1 1
+δ+ δ−
+θ (T,s) = 0,
+0
+θ (T,s) = s.
+1
+
+High-frequency market-making with inventory constraints and directional bets 9
+Computing the optimal controls
+Define
+f+(δ+):=Ae−kδ+(cid:2) s+δ+−θ (cid:3) .
+1
+Using Calculus we obtain that the maximum is attained at
+1
+δ+ = −s+θ .
+∗ k 1
+Analogously, if
+f−(δ−):=Ae−kδ−(cid:2) −s+δ−+θ (cid:3)
+1
+then
+1
+δ− = +s−θ .
+∗ k 1
+In consequence, the optimal quotes (δ+,δ−), spread ψ and indifference price r are
+∗ ∗ ∗ ∗
+1 2
+δ± = ±(θ −s), ψ =δ++δ− = , r =θ .
+∗ k 1 ∗ ∗ ∗ k ∗ 1
+Solving the verification equation
+Since
+A A
+f+(δ+)= e−k(θ1−s), f+(δ+)= ek(θ1−s)
+∗ ek ∗ ek
+it follows that the ansatz θ +qθ solves the verification equation
+0 1
+2A
+(∂ +L)(θ +qθ )+ cosh[k(θ −s)] = 0 (10)
+t 0 1 ek 1
+θ (T,s) = 0.
+0
+θ (T,s) = s.
+1
+We separate (10) in terms of the powers of q, one equation for q0 = 1 and another for q1 = q. With
+this procedure we obtain two coupled equations,
+2A
+(∂ +L)θ + cosh[k(θ −s)] = 0 (11)
+t 0 ek 1
+θ (T,s) = 0,
+0
+and
+(∂ +L)θ = 0 (12)
+t 1
+θ (T,s) = s.
+1
+ApplyingtheFeynman-Kacformulato(12)andrecursivelyto(11)yields,respectively(seee.g. Pham
+[9]),
+(cid:40) (cid:41)
+2A (cid:90) T (cid:104) (cid:16) (cid:17)(cid:105)
+θ (t,s)=E [S(T)], θ (t,s)= E cosh k θ (ξ,S(ξ))−S(ξ) dξ .
+1 t,s 0 ek t,s 1
+t
+
+10 Pietro FODRA · Mauricio LABADIE
+In consequence,
+1 2
+δ± = ±(E [S(T)]−s) , ψ = , r =E [S(T)]
+∗ k t,s ∗ k ∗ t,s
+and
+(cid:40) (cid:41)
+2A (cid:90) T (cid:104) (cid:16) (cid:17)(cid:105)
+u(t,s,q,x)=x+ E cosh k θ (ξ,S(ξ))−S(ξ) dξ +qE [S(T)].
+ek t,s 1 t,s
+t
+In particular, since cosh(α)≥1 and cosh(α)=1 ⇐⇒ α=0 we obtain that
+2A
+u(t,s,q,x)≥u(t,s,q,x):=x+ (T −t)+qE [S(T)]
+ek t,s
+and u(t,s,q,x) = u(t,s,q,x) ⇐⇒ θ (ξ,S(ξ)) = S(ξ) for all ξ ∈ [t,T]. Since t ∈ [0,T] is arbitrary then
+1
+taking ξ = t we have that u(t,s,q,x) = u(t,s,q,x) ⇐⇒ s = E [S(T)], i.e. if and only if S(t) is a
+t,s
+martingale.
+Results
+Let us summarise all our findings.
+Theorem 1 Consider the Hamilton-Jacobi-Bellman problem
+(∂ +L)u+maxAe−kδ+(cid:2) u(t,s,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3)
+t
+δ+
++maxAe−kδ−(cid:2) u(t,s,q+1,x−(s−δ−))−u(t,s,q,x) (cid:3) = 0,
+δ−
+u(T,s,q,x) = x+qs,
+which corresponds to a linear utility function φ(s,q,x)=x+qs, value function
+u(t,s,q,x)= max E [X(T)+Q(T)S(T)]
+t,s,q,x
+(δ+,δ−)
+and stochastic controls (δ+,δ−). Then:
+
+High-frequency market-making with inventory constraints and directional bets 11
+1. The optimal controls (δ+,δ−), spread ψ and indifference price r (i.e. the centre of the spread) of
+∗ ∗ ∗ ∗
+the market-maker are
+1 2
+δ± = ±(E [S(T)]−s) ψ =δ++δ− = , r =E [S(T)].
+∗ k t,s ∗ ∗ ∗ k ∗ t,s
+2. The (unique) solution of the HJB problem is
+(cid:40) (cid:41)
+2A (cid:90) T (cid:104) (cid:16) (cid:17)(cid:105)
+u(t,s,q,x)=x+ E cosh k θ (ξ,S(ξ))−S(ξ) dξ +qE [S(T)].
+ek t,s 1 t,s
+t
+3. The solution u(t,s,q,x) is bounded from below by
+2A
+u(t,s,q,x):=x+ (T −t)+qE [S(T)]
+ek t,s
+and
+u(t,s,q,x)=u(t,s,q,x) ⇐⇒ s=E [S(T)],
+t,s
+i.e. if and only if S(t) is a martingale. In this case we have
+1
+r (t)=S(t), δ± = and u(t,s,q,x)=x+qs.
+∗ ∗ k
+Remarks
+• The worst price dynamic for the PNL-based utility function (8) is a martingale, in the sense that
+withanyotherpricedynamicthePNLisgreater. Butobservethattheoptimalspreadψ iscentred
+∗
+aroundr =E [S(T)]andnotarounds=S(t). Inconsequence,ifthemarket-makerconsidersthat
+∗ t,s
+the current mid-price s has deviated from its fundamental value r then she can make directional
+∗
+bets via her bid-ask quotes, which yields a higher PNL than the martingale assumption if the bet
+is correct.
+• Applying perturbation methods on the variable q of the form
+u(t,s,q,x)=x+θ (t,s)+qθ (t,s)+q2θ (t,s)+··· ,
+0 1 2
+is a very rough approximation, to say the least. Indeed, as Lehalle et al [6] pointed out, q is an
+integer, i.e. discrete and not small, and as such a perturbation method on q cannot be performed.
+However,oncetheansatzisshowntosolvetheverificationequation,thenbyuniquenessitcoincides
+withthesolutionoftheoriginalproblem. Therefore, theseparationoftheequationintotwoterms,
+one with q0 and another with q1, is justified a posteriori via the maximum principle (i.e. existence
+and uniqueness) for the Hamilton-Jacobi-Bellman equation, and as such it does not rely at all on
+perturbation methods, as Avellaneda and Stoikov [1] suggested.
+
+12 Pietro FODRA · Mauricio LABADIE
+• In Theorem 1 we have implicitly assumed that the value function u(t,s,q,x) is finite when we
+applied the Fenmann-Kac formula. However, this is valid if and only if
+(cid:40) (cid:41)
+(cid:90) T (cid:104) (cid:16) (cid:17)(cid:105)
+E cosh k θ (ξ,S(ξ))−S(ξ) dξ <∞, θ (t,s)=E [S(T)]. (13)
+t,s 1 1 t,s
+t
+If S(t) is a martingale then (13) holds trivially. For a non-martingale mid-price process S(t), two
+sufficient conditions for (13) to hold are (i) the conditional expectation E [S(T)] is affine on s
+t,s
+and (ii) the moment-generating function M (λ) = E[exp{λS(t)}] is finite for all λ ∈ R. This is
+Z
+the case for any Gaussian Markov process, e.g. an arithmetic Brownian motion with drift and the
+Ornstein-Uhlenbeck process. However, (13) does not hold for the geometric Brownian motion with
+drift.
+4 Linear utility function with inventory penalty
+With the linear utility function there is no penalty if at the end of the trading day the market-maker
+carries a huge inventory. In order to force a liquidation of the inventory before the end of the day, we
+propose the following utility function,
+φ(s,q,x)=x+qs−ηq2, η ≥0,
+which is the PNL with a quadratic penalty on the inventory. The associated value function is
+u(t,s,q,x)= max E [X(T)+Q(T)S(T)−ηQ2(T)], (14)
+t,s,q,x
+(δ+,δ−)
+A quadratic penalty function for a market-maker is already known in the literature (see e.g. Stoll
+[11]).
+Ansatz
+Given the form of the utility function, we will search a solution of the form
+u(t,s,q,x)=x+θ (t,s)+qθ (t,s)−ηq2θ (t,s). (15)
+0 1 2
+Plugging (15) into (6) yields
+(∂ +L)(θ +qθ −ηq2θ )+maxAe−kδ+(cid:2) s+δ+−θ −η(1−2q)θ (cid:3)
+t 0 1 2 1 2
+δ+
++maxAe−kδ−(cid:2) −s+δ−+θ −η(1+2q)θ (cid:3) = 0,
+1 2
+δ−
+θ (T,s) = 0,
+0
+θ (T,s) = s.
+1
+θ (T,s) = 1.
+2
+
+High-frequency market-making with inventory constraints and directional bets 13
+Computing the optimal controls
+As in the previous section, if
+f+(δ+):=Ae−kδ+(cid:2) s+δ+−θ −η(1−2q)θ (cid:3)
+1 2
+then
+1
+δ+ = −s+θ +η(1−2q)θ .
+∗ k 1 2
+On the other hand, if
+f−(δ−):=Ae−kδ−(cid:2) −s+δ−+θ −η(1+2q)θ (cid:3)
+1 2
+then
+1
+δ− = +s−θ +η(1+2q)θ .
+∗ k 1 2
+In consequence, the optimal quotes (δ+,δ−), spread ψ and indifference price r are
+∗ ∗ ∗ ∗
+1 2
+δ± = +ηθ ±(θ −s−2qηθ ) , ψ =δ++δ− = +2ηθ , r =θ −2ηqθ .
+∗ k 2 1 2 ∗ ∗ ∗ k 2 ∗ 1 2
+Solving the equation with linear jumps
+We fix q ∈Z and define the jump functional
+A (cid:16) (cid:17)
+J q (δ ∗ +,δ ∗ −):= ek e1−kδ ∗ + +e1−kδ ∗ − ,
+whose first-order Taylor expansion (i.e. its Fr´echet derivative) is
+J (δ+,δ−) = A (cid:0) 4−k(δ++δ−) (cid:1) +O (cid:0) |1−kδ+|2+|1−kδ−|2(cid:1)
+q ∗ ∗ ek ∗ ∗ ∗ ∗
+=
+A
+(2−kηθ )+O
+(cid:0) |1−kδ+|2+|1−kδ−|2(cid:1)
+.
+ek 2 ∗ ∗
+Since at first order the jumps are independent of q, it follows that
+θ(t,s,q)=θ (t)+qθ (t,s)−ηq2θ (t)
+0 1 2
+solves
+A
+(∂ +L)θ+ (2−kηθ ) = 0
+t ek 2
+θ(T,s,q) = qs−ηq2.
+We separate (16) in terms of the powers of q, one equation for q0 = 1 and another for q1 = q. With
+this procedure we obtain three coupled equations,
+A
+∂ θ + (2−kηθ ) = 0 (16)
+t 0 ek 2
+θ (T) = 0,
+0
+
+14 Pietro FODRA · Mauricio LABADIE
+(∂ +L)θ = 0 (17)
+t 1
+θ (T,s) = s,
+1
+and
+∂ θ = 0 (18)
+t 2
+θ (T) = 1.
+2
+In consequence,
+A
+θ =1, θ (t,s)=E [S(T)], θ (t)= (2−kη)(T −t).
+2 1 t,s 0 ek
+Finding a sub-solution
+Since
+e A k (cid:16) e1−kδ ∗ + +e1−kδ ∗ − (cid:17) ≥ e A k (cid:0) 4−k(δ ∗ ++δ ∗ −) (cid:1)
+thenthesolutionoftheequationwithlinearjump(i.e. first-orderTaylor)isasub-solutionoftheoriginal
+problem with exponential jump. In other words, if we define
+u(t,s,q,x):=x+θ (t)+qθ (s,t)−ηq2θ (t),
+0 1 2
+where θ (t), θ (s,t) and θ (t) are defined as above then
+0 1 2
+u(t,s,q,x)≤u(t,s,q,x),
+i.e. it is a sub-solution of the HJB equation.
+Results
+Let us summarise all our findings.
+Theorem 2 Consider the Hamilton-Jacobi-Bellman problem
+∂ u+Lu+maxAe−kδ+(cid:2) u(t,s,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3)
+t
+δ+
++maxAe−kδ−(cid:2) u(t,s,q+1,x−(s−δ−))−u(t,s,q,x) (cid:3) = 0,
+δ−
+u(T,s,q,x) = x+qs−ηq2,
+which corresponds to a linear utility function with quadratic inventory penalty φ(s,q,x) = x+qs−ηq2,
+value function
+u(t,s,q,x)= max E (cid:2) X(T)+Q(T)S(T)−ηQ2(T) (cid:3)
+t,s,q,x
+(δ+,δ−)
+and stochastic controls (δ+,δ−). Then:
+
+High-frequency market-making with inventory constraints and directional bets 15
+1. Let u(t,s,q,x) be the (unique) solution of the HJB equation. Then
+A
+u(t,s,q,x):=x+ (2−kη)(T −t)+qE [S(T)]−ηq2
+ek t,s
+is a sub-solution of the HJB equation and u(t,s,q,x)≥u(t,s,q,x).
+2. With the linear aproximation of the jumps, or equivalently using the HJB of the sub-solution u, the
+optimal controls (δ+,δ−), spread ψ and indifference price r are
+∗ ∗
+1 2
+δ± = +η±(E [S(T)]−s−2qη) , ψ =δ++δ− = +2η, r =E [S(T)]−2ηq.
+∗ k t,s ∗ ∗ ∗ k ∗ t,s
+General inventory penalties
+Suppose that the utility function is now
+φ(s,q,x)=x+qs−ηq2π(s), η ≥0,
+where s(cid:55)→π(s) is continuous and for s≥0 it is non-decreasing and non-negative. For example, if π ≡1
+we recover the previous case whilst if π(s) = s2 we recover the classical mean-variance PNL criterion.
+The associated value function is
+u(t,s,q,x)= max E [X(T)+Q(T)S(T)−ηQ2(T)π(S(T))]. (19)
+t,s,q,x
+(δ+,δ−)
+With the ansatz
+u(t,s,q,x)=x+θ (t,s)+qθ (t,s)−ηq2θ (t,s) (20)
+0 1 2
+it can be shown that the functions θ −θ solve the equations
+0 2
+A
+(∂ +L)θ + (2−kηθ ) = 0 (21)
+t 0 ek 2
+θ (T) = 0,
+0
+(∂ +L)θ = 0 (22)
+t 1
+θ (T,s) = s,
+1
+and
+(∂ +L)θ = 0 (23)
+t 2
+θ (T) = π(s),
+2
+whose explicit solutions are
+(cid:34) (cid:35)
+2A ηA (cid:90) T
+θ (t,s)=E [π(S(T))], θ (t,s)=E [S(T)], θ (t,s)= (T −t)− E θ (ξ,S(ξ))dξ .
+2 t,s 1 t,s 0 ek e t,s 2
+t
+In the light of these results, we have the following extension of Theorem 2 to a general penalty function
+π.
+
+16 Pietro FODRA · Mauricio LABADIE
+Theorem 3 Consider the Hamilton-Jacobi-Bellman problem
+∂ u+Lu+maxAe−kδ+(cid:2) u(t,s,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3)
+t
+δ+
++maxAe−kδ−(cid:2) u(t,s,q+1,x−(s−δ−))−u(t,s,q,x) (cid:3) = 0,
+δ−
+u(T,s,q,x) = x+qs−ηq2π(s),
+whichcorrespondstoalinearutilityfunctionwithquadraticinventorypenaltyφ(s,q,x)=x+qs−ηq2π(s),
+value function
+u(t,s,q,x)= max E (cid:2) X(T)+Q(T)S(T)−ηQ2(T)π(S(T)) (cid:3)
+t,s,q,x
+(δ+,δ−)
+and stochastic controls (δ+,δ−). Then:
+1. If u(t,s,q,x) is the (unique) solution of the HJB equation then
+(cid:34) (cid:35)
+2A ηA (cid:90) T
+u(t,s,q,x):=x+ (T −t)− E θ (ξ,S(ξ))dξ +qE [S(T)]−ηq2θ (t,s),
+ek e t,s 2 t,s 2
+t
+where θ (t,s)=E [π(S(T))], is a sub-solution of the HJB equation and u(t,s,q,x)≤u(t,s,q,x).
+2 t,s
+2. With the linear aproximation of the jumps, or equivalently using the HJB of the sub-solution u, the
+optimal controls (δ+,δ−), spread ψ and indifference price r are
+∗ ∗
+1 2
+δ± = +η±(E [S(T)]−s−2qηE [π(S(T))]) , ψ =δ++δ− = +2η,
+∗ k t,s t,s ∗ ∗ ∗ k
+r =E [S(T)]−2ηqE [π(S(T))].
+∗ t,s t,s
+Remarks
+• The optimal controls depend on the ansatz we make on the utility function u(t,s,q,x), i.e. on
+the functions θ (t,s) and θ (t). However, without the linear aproximation of the jumps our ansatz
+1 2
+cannot give the solution: in fact, there is no solution with the chosen ansatz. That said, given that
+the sub-solution u is explicit, and by definition it provides a lower bound on the real solution u, we
+canconsiderthatthequoteswehavefoundareoptimalforthesub-solution,whichisalowerbound
+on the (penalised) PNL. Under that spirit, the optimal quotes can be interpreted as conservative
+estimates of the real optimal quotes, since they minimise the potential drops on the PNL.
+• If η = 0 we recover the optimal controls and the sub-solution of the linear case without inventory
+penalty, i.e. Theorem 1. Therefore, our linear approximation of the jumps is consistent, in the
+sense that it provides a perturbation of the optimal quotes in terms of the ”inventory-risk” or
+”risk-aversion” parameter η.
+• When η > 0 the spread ψ widens and the indifference price r shifts downwards (resp. upwards)
+∗ ∗
+if the inventory is positive (resp. negative), which is in line with the intuition on the inventory
+
+High-frequency market-making with inventory constraints and directional bets 17
+risk. Indeed, if the net position of the market-maker is long (resp. short) then she will improve the
+current ask (resp. bid) quote to lure buyers (resp. sellers), and simultaneously she will try to hide
+her bid (resp. ask) quote deep into the limit-order Book to deter sellers (resp. buyers). By doing
+so, shefavourstheprobabilityofbeingexecutedinthedirectionthatmakeshertogobacktozero.
+• Notice that since the linear approximation of the jump functional (i.e. its Fr´echet derivative)
+does not depend on q, the solution u of the approximate verification equation does not rely on
+perturbationmethodsandasymptoticexpansionsonq. Ofcourse,thesolutionutotheverification
+equation with exponential jumps will indeed depend on q, and as such an approach similar to
+Lehalle et al [6] is needed in order to deal with the discrete variable q.
+• ForTheorems2and3weareassumingthatthecorrespondingvaluefunctionu(t,s,q,x)isfinitein
+order to apply the Feynmann-Kac formula. In the current framework, given a mid-price dynamic
+we choose the penalty function π such that u(t,s,q,x) is finite. In that spirit, if S(t) is Gaussiann
+(e.g. arithmetic Brownian motion or Ornstein-Ulenbeck) or a martingale (even with jumps) then
+π ≡1 suffices, whilst if S(t) is a geometric Brownian motion then π(s)=s2 is a viable candidate.
+• As we mentioned above, it is easy to find sufficient conditions to ensure boundedness of the value
+function u for η >0. If u is the explicit solution without inventory constraints of theorem 1 then
+η 0
+the maximum principle shows that u ≤ u ≤ u . Therefore, if u is finite then u is bounded.
+η η 0 0 η
+This is true for processes S(t) such that E [S(T)] is affine in s, i.e.
+t,s
+E [S(T)]=α(t)+β(t)s, α,β ∈C0[0,T].
+t,s
+In particular, u is bounded if S(t) is an arithmetic Brownian motion or an Ornstein-Uhlenbeck
+η
+process.
+5 Exponential utility function
+ThiscasehasbeenentirelysolvedbyAvellanedaandStoikov[1]andLehalleet al [6]whenthemid-price
+isaBrownianmotion. Inthissectionweshowthattheirapproachcanbeeasilyextendedtoseveralother
+mid-price dynamics, e.g. Ornstein-Uhlenbeck.
+Let us suppose that the utility function is exponential φ(s,q,x) = −exp{−γ(x+qs)}, whose core-
+sponding value function is
+(cid:104) (cid:110) (cid:16) (cid:17)(cid:111)(cid:105)
+u(t,s,q,x)= max E −exp −γ X(T)+Q(T)S(T) , (24)
+t,s,q,x
+(δ+,δ−)
+Ansatz
+From the form of the utility function we will search a solution of the form
+u(t,s,q,x)=−exp{−γ(x+θ(t,s,q)}, θ(t,s,q)=θ (t)+qθ (t,s)+q2θ (t). (25)
+0 1 2
+
+18 Pietro FODRA · Mauricio LABADIE
+Plugging (25) into (6) yields the Hamilton-Jacobi-Bellman for θ(t,s,q), i.e.
+(∂ +L)θ− 1 σ2γ(∂ θ)2+ A maxe−kδ+(cid:2) 1−exp{−γ(s+δ+−θ +(1−2q)θ )} (cid:3)
+t 2 s γ δ+ 1 2
++ A maxAe−kδ−(cid:2) 1−exp{−γ(−s+δ−+θ +(1+2q)θ )} (cid:3) ] = 0, (26)
+γ δ− 1 2
+θ(T,s) = x+qs,
+Computing the optimal controls
+For the function
+f+(δ+):= A e−kδ+(cid:2) 1−exp{−γ(s+δ+−θ +(1−2q)θ )} (cid:3)
+γ 1 2
+its maximum is attained at
+1 (cid:16) γ(cid:17)
+δ+ = log 1+ −s+θ −(1−2q)θ .
+∗ γ k 1 2
+Analogously, if
+f−(δ−):= A maxAe−kδ−(cid:2) 1−exp{−γ(−s+δ−+θ +(1+2q)θ )} (cid:3)
+γ δ− 1 2
+then
+1 (cid:16) γ(cid:17)
+δ− = log 1+ +s−θ −(1+2q)θ .
+∗ γ k 1 2
+In consequence, the optimal quotes (δ+,δ−), spread ψ and indifference price r are
+∗ ∗ ∗ ∗
+1 (cid:16) γ(cid:17) 2 (cid:16) γ(cid:17)
+δ± = log 1+ −θ ±(θ −s+2qθ ), ψ = log 1+ −2θ , r =θ +2qθ . (27)
+∗ γ k 2 1 2 ∗ γ k 2 ∗ 1 2
+Solving the equation with linear jumps
+For q ∈Z fixed we define the jump functional as J :R2 →R as
+q
+A (cid:16) (cid:17)
+J q (δ ∗ +,δ ∗ −):= k+γ e−kδ ∗ + +e−kδ ∗ − . (28)
+The first-order Taylor expansion of J (i.e. its Fr´echet derivative) is
+q
+J (δ+,δ−) = A (cid:0) 2−k(δ++δ−) (cid:1) +O (cid:0) |1−kδ+|2+|1−kδ−|2(cid:1)
+q ∗ ∗ k+γ ∗ ∗ ∗ ∗
+=
+2A (cid:18)
+1−
+k
+log
+(cid:16)
+1+
+γ(cid:17)
++kθ
+(cid:19)
++O
+(cid:0) |1−kδ+|2+|1−kδ−|2(cid:1)
+.
+k+γ γ k 2 ∗ ∗
+Therefore, at first order we have that J = J for all q ∈ Z, i.e. the jumps are independent of q. In
+q 0
+consequence,
+θ(t,s,q)=θ (t)+qθ (t,s)+q2θ (t)
+0 1 2
+
+High-frequency market-making with inventory constraints and directional bets 19
+solves
+1 2A (cid:18) k (cid:16) γ(cid:17) (cid:19)
+(∂ +L)(θ +qθ +q2θ )− q2σ2γ(∂ θ )2+ 1− log 1+ +kθ = 0
+t 0 1 2 2 s 1 k+γ γ k 2
+θ(T,s,q) = qs.
+We separate (29) in terms of the powers of q, one equation for q0 = 1 and another for q1 = q. With
+this procedure we obtain three coupled equations,
+2A (cid:18) k (cid:16) γ(cid:17) (cid:19)
+∂ θ + 1− log 1+ +kθ = 0 (29)
+t 0 k+γ γ k 2
+θ (T) = 0,
+0
+(∂ +L)θ = 0 (30)
+t 1
+θ (T,s) = s,
+1
+and
+1
+∂ θ − σ2γ(∂ θ )2 = 0 (31)
+t 2 2 s 1
+θ (T) = 0.
+2
+Applying the Feynman-Kac formula to (30) we find
+θ (t,s)=E [S(T)].
+1 t,s
+Integrating (31) we obtain
+1 (cid:90) T (cid:16) (cid:17)2
+−θ (t)= γ σ2(ξ,S(ξ)) ∂ θ (ξ,S(ξ)) dξ.
+2 2 s 1
+t
+However, the ansatz we have made implies that θ is independent of s. Therefore, in order to solve (31)
+2
+we need to assume the following conditions on the price process S(t):
+σ =σ(t), E [S(T)]=α(t,T)+sβ(t,T).
+t,s
+In consequence,
+1 (cid:90) T
+θ (t)=− γ σ2(ξ)β2(ξ,T)dξ.
+2 2
+t
+Finally, integrating (30) yields
+2A (cid:18) k (cid:16) γ(cid:17)(cid:19) kγA (cid:90) T (cid:40) (cid:90) T (cid:41)
+θ (t)= 1− log 1+ (T −t)− σ2(ξ)β2(ξ,T)dξ dζ.
+0 k+γ γ k k+γ
+t ζ
+
+20 Pietro FODRA · Mauricio LABADIE
+Finding a sub-solution
+Since
+k+ A γ (cid:16) e−kδ ∗ + +e−kδ ∗ − (cid:17) ≥ k+ A γ (cid:0) 2−k(δ ∗ ++δ ∗ −) (cid:1)
+then the solution of the equation with linear jump (i.e. first-order Taylor expansion)is a sub-solution of
+the original problem with exponential jump. In other words, if we define
+u(t,s,q,x):=−exp (cid:8) −γ (cid:0) x+θ (t)+qθ (s,t)+q2θ (t) (cid:1)(cid:9) ,
+0 1 2
+where θ (t), θ (s,t) and θ (t) are defined as above then
+0 1 2
+u(t,s,q,x)≤u(t,s,q,x).
+Adding a quadratic inventory penalty
+We modify the exponential utility function (24) by adding a quadratic inventory penalty:
+(cid:104) (cid:110) (cid:16) (cid:17)(cid:111)(cid:105)
+u(t,s,q,x)= max E −exp −γ X(T)+Q(T)S(T)−ηQ2(T) . (32)
+t,s,q,x
+(δ+,δ−)
+Under this new penalty framework, the computations are exactly the same as before. The only thing
+that changes is the equation solved by θ (t), i.e.
+2
+1
+∂ θ − σ2γ(∂ θ )2 = 0 (33)
+t 2 2 s 1
+θ (T) = −η,
+2
+whose solution is
+1 (cid:90) T
+θ (t)=−η− γ σ2(ξ)β2(ξ,T)dξ.
+2 2
+t
+This has an impact on θ (t), which has the new form
+0
+2A (cid:18) k (cid:16) γ(cid:17) (cid:19) kγA (cid:90) T (cid:40) (cid:90) T (cid:41)
+θ (t)= 1− log 1+ −kη (T −t)− σ2(ξ)β2(ξ,T)dξ dζ,
+0 k+γ γ k k+γ
+t ζ
+as well as on the optimal quotes, spread and indifference price (27).
+Results
+Let us summarise all our findings.
+Theorem 4 Consider the Hamilton-Jacobi-Bellman problem
+∂ u+Lu+maxAe−kδ+(cid:2) u(t,s,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3)
+t
+δ+
++maxAe−kδ−(cid:2) u(t,s,q+1,x−(s−δ−))−u(t,s,q,x) (cid:3) = 0,
+δ−
+u(T,s,q,x) = −exp{−γ(x+qs−ηq2)},
+
+High-frequency market-making with inventory constraints and directional bets 21
+which corresponds to an exponential utility function φ(s,q,x)=−exp{−γ(x+qs−ηq2)}, value function
+(cid:104) (cid:110) (cid:16) (cid:17)(cid:111)(cid:105)
+u(t,s,q,x)= max E −exp −γ X(T)+Q(T)S(T)−ηQ2(T) ,
+t,s,q,x
+(δ+,δ−)
+and stochastic controls (δ+,δ−). Assume further that the mid-price process
+dS(t)=b(t,S(t))dt+σ(t)dW(t)
+satisfies
+E [S(T)]=α(t,T)+sβ(t,T), ∀(t,s).
+t,s
+Then:
+1. With the linear approximation of the jumps, or equivalently using the HJB of the sub-solution u,
+the optimal controls (δ+,δ−), spread ψ and indifference price r are
+∗ ∗
+1 (cid:16) γ(cid:17) 2 (cid:16) γ(cid:17)
+δ± = log 1+ −θ ±(θ −s+2qθ ), ψ = log 1+ −2θ , r =θ +2qθ ,
+∗ γ k 2 1 2 ∗ γ k 2 ∗ 1 2
+where
+2A (cid:18) k (cid:16) γ(cid:17) (cid:19) kγA (cid:90) T (cid:40) (cid:90) T (cid:41)
+θ (t) = 1− log 1+ −kη (T −t)− σ2(ξ)β2(ξ,T)dζ dξ,
+0 k+γ γ k k+γ
+t ζ
+θ (t,s) = E [S(T)],
+1 t,s
+1 (cid:90) T
+θ (t) = −η− γ σ2(ξ)β2(ξ,T)dξ.
+2 2
+t
+2. Let u(t,s,q,x) be the (unique) solution of the HJB equation. Then
+(cid:110) (cid:16) (cid:17)(cid:111)
+u(t,s,q,x):=−exp −γ x+θ(t,s,q) , θ(t,s,q)=θ (t)+qθ (t,s)+q2θ (t)
+0 1 2
+is a sub-solution of the HJB equation and u(t,s,q,x)≥u(t,s,q,x).
+Remarks
+• Thelinearapproximationofthejumpsturnsouttobeindependentofq,althoughforhigherorders
+thisisnolongertrue. Thismeansthatwearenotperformingperturbationmethodsandasymptotic
+expansions on the (discrete) variable q when we solved the approximate verification equation. Of
+course, if we want to solve the real HJB problem then we need to take into account the discrete
+variable q, which leads to an infinite system of equations as in Lehalle et al [6].
+• Inthecaseofη =0theinventorypenaltytendstozeroast→T. Thisimpliesthatthepenalisation
+is not stong enough to force the market-maker to finish her day with a flat inventory, as it will be
+showninthenumericalsimulations. Therefore,itwasnecesarytoaddan”inventory-risk”parameter
+η >0 in order to ensure a flat inventory at the end of the day.
+
+22 Pietro FODRA · Mauricio LABADIE
+Examples
+• If S(t) is an arithmetic Brownian motion with drift, i.e.
+dS(t)=bdt+σdW(t)
+then
+E [S(T)]=s+b(T −t),
+t,s
+which implies that
+1
+θ =s+b(T −t), θ =−η− γσ2(T −t).
+1 2 2
+In consequence, the optimal controls are
+1 (cid:16) γ(cid:17) 1 (cid:16) (cid:17)
+δ± = log 1+ +η+ γσ2(T −t)± b(T −t)−q[2η+γσ2(T −t)] ,
+∗ γ k 2
+2 (cid:16) γ(cid:17)
+ψ = log 1+ +2η+γσ2(T −t),
+∗ γ k
+(cid:16) (cid:17)
+r = s+b(T −t)−q 2η+γσ2(T −t) .
+∗
+In particular, if b=η =0 we recover the results of Avellaneda and Stoikov [1].
+• If S(t) is an Ornstein-Uhlenbeck process, i.e.
+dS(t)=a(µ−S(t))dt+σdW(t)
+then
+(cid:16) (cid:17)
+E [S(T)]=se−a(T−t)+µ 1−e−a(T−t) ,
+t,s
+which implies that
+(cid:16) (cid:17) γσ2 (cid:16) (cid:17)
+θ =se−a(T−t)+µ 1−e−a(T−t) , θ =−η− 1−e−2a(T−t) .
+1 2 4a
+In consequence, the optimal controls are
+1 (cid:16) γ(cid:17) γσ2 (cid:16) (cid:17)
+δ± = log 1+ +η+ 1−e−2a(T−t)
+∗ γ k 4a
+(cid:18) (cid:16) (cid:17) (cid:20) γσ2 (cid:16) (cid:17)(cid:21)(cid:19)
+± (µ−s) 1−e−a(T−t) −q 2η+ 1−e−2a(T−t) ,
+2a
+2 (cid:16) γ(cid:17) γσ2 (cid:16) (cid:17)
+ψ = log 1+ +2η+ 1−e−2a(T−t) ,
+∗ γ k 2a
+(cid:16) (cid:17) (cid:18) γσ2 (cid:16) (cid:17)(cid:19)
+r = se−a(T−t)+µ 1−e−a(T−t) −q 2η+ 1−e−2a(T−t) .
+∗ 2a
+
+High-frequency market-making with inventory constraints and directional bets 23
+Solving the nonlinear equation: Lehalle’s approach
+Assuming that S(t) is a Brownian motion, Lehalle et al [6] found that the solution u(t,s,q,x) of the
+nonlinearproblemcanbeexplicitlyfound, butthatstudycanbeeasilyextendedtoarithmeticBrownian
+motions with time-dependent volatility and drift.
+Suppose that the mid-price process is of the form
+dS(t)=b(t)dt+σ(t)dW(t),
+where b(t) and σ(t) are uniformly bounded in [0,T]. Let us make the ansatz
+u(t,s,q,x)=−exp{−γ(x+qs)}v (t)−γ/k; v ∈C1(0,T), q ∈Z. (34)
+q q
+Following Lehalle et al [6] it can be shown that the optimal quotes are
+1 (cid:16) γ(cid:17) 1 (cid:18) v (t) (cid:19)
+δ+ = log 1+ + log q ,
+∗ γ k k v (t)
+q−1
+1 (cid:16) γ(cid:17) 1 (cid:18) v (t) (cid:19)
+δ− = log 1+ − log q+1 ,
+∗ γ k k v (t)
+q
+where (v q (t)) q∈Z solves the (infinite) ODE system
+(cid:18) kγq2 (cid:19) (cid:32) (cid:18) k (cid:19)−1−k/γ (cid:33) (cid:16) (cid:17)
+v(cid:48)(t) = σ2(t)−γqb(t) v (t)− A 1+ v (t)+v (t) , (35)
+q 2 q γ q+1 q−1
+v (T) = 1.
+q
+Lehalle et al [6] used a constructive proof to show that (35) has a unique, strictly positive solution in
+(cid:16) (cid:17)
+C∞ [0,T));(cid:96)2(Z) . However, this result can be easily proven in a non-constructive fashion.
+Let E be a Banach space and consider a system on E of the form
+v(cid:48)(t) = F (t,v(t)), (36)
+q q
+v (T) = v >0,
+q q,T
+where F(t,v) = (F q (t,v)) q∈Z : [0,T]×E → E is Lipshitz in v uniformly in t ∈ [0,T]. Applying the
+(cid:16) (cid:17)
+Cauchy-Picard Theorem and the maximum principle for ODEs on the Banach space C1 [0,T);E yield
+existence,uniquenessandpositivityofthesolutionv of (35)(seee.g. Br´ezis[2]). Unfortunately,sincethe
+linear function F (t,v) corresponding to (35) is proportional to q2, we cannot apply the Cauchy-Picard
+q
+Theorem directly. However, if we define
+(cid:26) (cid:27)
+E=(cid:96)∞(Z), F:= v ∈E:supq2v <+∞ , (37)
+q
+q∈Z
+then for t fixed we have that F(t,·) : F → E is linear and bounded, and the bound is uniform in t.
+
+24 Pietro FODRA · Mauricio LABADIE
+Therefore, F(t,v) is Lipschitz in v, uniformly in t. In consequence, we can now apply the Cauchy-Picard
+Theorem to ensure that there exists a unique positive solution of (35).
+Remarks on Lehalle’s approach
+• If instead of the Banach spaces in (37) we use the Hilbert spaces
+ 
+ (cid:88) 
+E=(cid:96)2(Z), F:= v ∈E: q2v <+∞ , (38)
+q
+ q∈Z 
+we recover the framework of Lehalle et al [6].
+• Our proof is non-constructive, which implies that we cannot provide explicit asymptotic estimates
+of the solution v = (v
+q
+) q∈Z. Lehalle et al [6], on the contrary, constructed the operator explicitly,
+and thus they were able to show the asymptotic behaviour of v based on the spectrum of the linear
+operator.
+• Fromtheansatz(34)weseethatthecoefficientsintheODEsystem(35)cannotdependons. This
+rules out mid-price processes whose drift and volatility depend on s, e.g. Ornstein-Uhlenbeck and
+geometricBrownianMotion. However,arithmeticBrownianmotionswithtime-dependentdriftand
+volatility can be used.
+6 Numerical Simulations and sample paths
+We performed several simulations of the optimal market-making strategy, i.e. the spread ψ and the
+∗
+indifferencepricer ,underanOrnstein-Uhlenbeckmid-priceprocess,i.e. amean-revertingpricedynamic
+∗
+of the form
+dS(t)=a(µ−S(t))dt+σdW(t).
+We considered four strategies: linear/exponential utility and mean-reverting /martingale market-making
+assumption. ThisallowsustoassesstheeffectofthedirectionalbetµonthePNLofthemarket-making
+strategy. The parameters we used are k = 100, A = 1500, T = 1 (which corresponds to one trading
+day), n = 1000 (which corresponds to 1000 bid/ask limit orders sent per day, approx. once every 30
+seconds), S(0) = 1, σ = 0.05 (daily volatility of 5%), a = 1 and η = 0.0001 (which is a very small
+inventory-riskaversionbutenoughtoforcetheinventorytoendthedayflatinaverage). Underthesepa-
+rameterswehaveaconstantlinearspreadofψ =0.0202whilsttheexponentialspreadistime-dependent.
+∗
+We chose three different values of µ: 0.98, 1.00 and 1.02. This corresponds, respectively, to a bet
+that the price will go down by 2%, will oscillate around its open price or go up by 2%. We used the
+linear utility function with inventory penalty and two strategies, a mean-reverting strategy (Ornstein-
+Uhlenbeck) with the correct directional bet, and the martingale strategy (arithmetic Brownian motion)
+withnodirectionalbet. Themartingalestrategyperformsapuremarket-makingstrategyunderinventory
+constraints. On the other hand, the mean-reverting strategy performs the same market-market strategy
+than the martingale but it also places directional bets, which can be seen not only in the agressiveness
+of the ask and bid quotes but also in the fact that the algorithm can place market orders.
+
+High-frequency market-making with inventory constraints and directional bets 25
+Figure 3. Simulation of the market-making strategy under a mean-reverting mid-price dynamic with
+(asymptotic) mean µ=0.98. Upper-Left: mid-price (black), optimal ask quote for the market-maker
+(dark blue), optimal bid quote (light green), µ (light blue). Lower-Left: Inventory for the
+mean-reverting process (black) vs the inventory for the martingale (blue). Upper-Right: cash.
+Lower-Right: PNL of the mean reverting process (black) compared with the benchmark, i.e. the PNL
+of the martingale strategy (blue).
+In Figure 3 we have plotted a realisation of the market-making strategy for µ=0.98, i.e. assuming
+that the price will go down by 2% at the end of the day. If the market mid-price –black line– is above
+(resp. below) the optimal ask quote –dark blue– (resp. the optimal bid quote –light green–) then the
+market-maker sells (resp. buys) at market price, which we assume to coincide with the mid-price.
+• The mid-price starts at s = 1.00, it goes up to s = 1.03 at t = 0.1 and stays above s = 1.01 up
+to t = 0.2. Since the bet is that the price will converge down to µ = 0.98, the market-maker sells
+the asset at market price. At t = 0.2 the market-maker has an inventory of q = −170 and a PNL
+below the martingale benchmark: as she sold her assets at the market price (mid-price), she paid
+the spread to mount her directional bet.
+• During the time interval (0.20,0.50) the market-maker buys back her position via limit-orders. In
+order to favour the arrival of selling orders and deter buying orders she plays very aggressive bid
+quotes and very conservative ask quotes, hence the mid-price is closer to her bid quote than her
+
+26 Pietro FODRA · Mauricio LABADIE
+ask quotes. The strategy paid well because at t = 0.5 the mid-price converged to µ = 0.98, her
+inventory went back to zero and her PNL outperformed the martingale benchmark.
+• On (0.50,1.00) the market-maker does not make any directional bet, she only plays the bid-ask
+spread because the mid-price oscillates around µ=0.98. As it can be seen, her bid and ask quotes
+are rather symmetric with respect to the mid-price, i.e. during all this non-directional period
+the strategy makes the same PNL than the martingale benchmark because both lines are almost
+parallel.
+Figure 4. Simulation for µ=1.00.
+In Figure 4 the market-maker assumes that the price will oscillate around µ = 1.00. Therefore,
+her quotes are symmetric near this threshold and are tilted when the prices wander far from it (i.e. she
+makes mean-reverting bets). Therefore, her inventory oscillates from positive on (0.00,0.2) to negative
+on (0.25,0.45), then back to positive and negative again. On (0.85,1.00) there is a huge drop in the
+mid-price, which in absence of inventory risk would imply a consequent positive inventory due to the
+mean-revertingdynamic. However,theinventory-risk-aversionforceshertoavoidadirectionalbetatthe
+end of the day, and as such her strategy is similar to the martingale case. It is worth to mention that
+the mid-price finished the day below the target of 1.00. In consequence, the market-making strategy is
+insensitive to peaks at the end of the day.
+
+High-frequency market-making with inventory constraints and directional bets 27
+Figure 5. Simulation for µ=1.02.
+In Figure 5 the market-maker assumes that the price will converge to µ = 1.02. On (0.00,0.10)
+she mounts an inventory of q = 50 because she bets the mid-price will hit µ = 1.02. She eliminates
+her inventory during (0.20,0.40) using limit-orders with generous ask prices and not-very competitive
+bid prices, which translates into a greater flow of buying orders than selling orders. At t = 0.20 we can
+see that her directional bet has beaten the martingale benchmark. On (0.40,0.70) the mid-price rises
+from µ = 1.02 and comes back, and since the market-maker is betting for a mean-reverting dynamic
+she builds up an inventory of q = −90 at t = 0.55. On (0.85,1.00) the mid-price falls, but instead of
+making a U-turn in her inventory and turn it positive, as a mean-reverting dynamic suggests, she rather
+eliminates slowly her negative inventory by tilting her quotes towards the buying side. By doing so the
+market-maker avoids directional bets and minimises her market impact at the end of the trading day.
+7 Statistics of the PNL distributions
+Comparing linear and exponential utility strategies
+We performed 100,000 simulations with η ∈{0,0.0001,0.001}, γ =1 and µ∈{0.98,1.00,1.02}. The rest
+of the parameters have the same values as for the previous simulations.
+
+28 Pietro FODRA · Mauricio LABADIE
+linear ABM linear MR exp ABM exp MR
+PNL mean 11.039 14.290 10.668 11.084
+std dev 1.013 13.678 0.356 0.520
+”Sharpe” 10.90 1.04 29.97 21.32
+skewness 0.075 -0.550 0.026 -1.008
+kurtosis 5.721 4.692 3.043 6.176
+Jarque Bera 30947.9 16970.7 19.1 58949.6
+VaR 5% 9.430 -10.909 10.086 10.177
+VaR 1% 8.346 -25.726 9.842 9.465
+Inv mean 0.087 -333.297 0.004 -3.311
+std dev 33.258 418.200 7.672 15.227
+skewness -0.005 0.622 0.003 0.007
+kurtosis 2.981 2.346 3.001 3.010
+Jarque Bera 1.8 8232.0 0.2 1.3
+Q(T) 90% [-55,55] [-847,463] [-13,13] [-28,22]
+Table 1A. Statistics of the PNL distribution. µ=0.98, η =0. ABM = arithmetic Brownian Motion
+without drift, MR = mean-reverting. The ”Sharpe” value is the normalised return per risk unit, i.e.
+mean / std dev.
+linear ABM linear MR exp ABM exp MR
+PNL mean 10.982 11.576 10.607 10.945
+std dev 0.412 1.541 0.347 0.444
+”Sharpe” 26.66 7.51 30.57 24.65
+skewness 0.023 -2.164 0.038 -0.605
+kurtosis 3.016 11.418 3.007 4.460
+Jarque Bera 10.2 373263.9 24.7 14982.6
+VaR 5% 10.308 8.640 10.041 10.183
+VaR 1% 10.026 5.794 9.809 9.691
+Inv mean -0.020 -1.739 0.008 -0.785
+std dev 5.025 8.428 4.574 5.696
+skewness 0.006 0.004 -0.001 -0.003
+kurtosis 3.024 2.995 2.965 3.000
+Jarque Bera 3.0 0.4 5.2 0.2
+Q(T) 90% [-8,8] [-16,12] [-8,8] [-10,9]
+Table 1B. Statistics of the PNL distribution. µ=0.98, η =0.0001.
+
+High-frequency market-making with inventory constraints and directional bets 29
+linear ABM linear MR exp ABM exp MR
+PNL mean 10.435 10.494 10.000 10.234
+std dev 0.336 0.364 0.324 0.342
+”Sharpe” 31.06 28.83 27.47 29.92
+skewness 0.023 -0.158 0.037 -0.034
+kurtosis 3.013 3.306 3.021 3.073
+Jarque Bera 9.5 806.5 24.3 41.2
+VaR 5% 9.886 9.889 9.470 9.672
+VaR 1% 9.659 9.594 9.252 9.426
+Inv mean -0.001 -0.018 0.005 -0.020
+std dev 1.667 1.680 1.674 1.673
+skewness -0.011 -0.014 -0.010 -0.001
+kurtosis 3.004 3.030 3.022 3.029
+Jarque Bera 2.2 7.1 3.6 3.5
+Q(T) 90% [-3,3] [-3,3] [-3,3] [-3,3]
+Table 1C. Statistics of the PNL distribution. µ=0.98, η =0.001.
+linear ABM linear MR exp ABM exp MR
+PNL mean 11.030 13.457 10.670 11.039
+std dev 0.992 11.708 0.356 0.501
+”Sharpe” 11.12 1.15 29.97 22.03
+skewness 0.014 -0.676 0.022 -0.864
+kurtosis 5.666 5.176 2.996 5.632
+Jarque Bera 29607.8 27355.7 8.4 41315.1
+VaR 5% 9.460 -8.180 10.086 10.167
+VaR 1% 8.368 -22.205 9.850 9.524
+Inv mean -0.021 0.055 -0.013 0.031
+std dev 33.126 468.213 7.682 15.245
+skewness -0.009 0.000 0.007 0.007
+kurtosis 2.990 1.849 3.024 2.988
+Jarque Bera 1.8 5523.2 3.2 1.5
+Q(T) 90% [-55,55] [-732,731] [-13,13] [-25,25]
+Table 2A. Statistics of the PNL distribution. µ=1.00, η =0.
+
+30 Pietro FODRA · Mauricio LABADIE
+linear ABM linear MR exp ABM exp MR
+PNL mean 10.982 11.453 10.606 10.913
+std dev 0.411 1.317 0.345 0.433
+”Sharpe” 26.72 8.70 30.74 25.20
+skewness 0.029 -2.070 0.036 -0.554
+kurtosis 3.031 10.934 2.992 4.443
+Jarque Bera 17.7 333649.4 22.1 13802.7
+VaR 5% 10.312 8.956 10.043 10.178
+VaR 1% 10.037 6.601 9.813 9.699
+Inv mean -0.006 -0.046 0.016 -0.018
+std dev 5.034 8.378 4.570 5.664
+skewness -0.003 0.006 0.008 -0.001
+kurtosis 2.992 2.974 3.008 2.969
+Jarque Bera 0.5 3.4 1.5 4.0
+Q(T) 90% [-8,8] [-14,14] [-7,8] [-9,9]
+Table 2B. Statistics of the PNL distribution. µ=1.00, η =0.0001.
+linear ABM linear MR exp ABM exp MR
+PNL mean 10.436 10.483 10.000 10.226
+std dev 0.335 0.356 0.325 0.338
+”Sharpe” 31.15 29.45 30.77 30.25
+skewness 0.031 -0.097 0.031 -0.023
+kurtosis 3.001 3.162 2.988 3.069
+Jarque Bera 15.5 266.4 16.5 28.6
+VaR 5% 9.888 9.889 9.469 9.668
+VaR 1% 9.658 9.623 9.246 9.431
+Inv mean -0.011 -0.009 0.005 0.006
+std dev 1.673 1.684 1.672 1.676
+skewness 0.006 -0.004 -0.001 0.002
+kurtosis 3.026 2.992 3.025 3.026
+Jarque Bera 3.6 0.5 2.7 3.0
+Q(T) 90% [-3,3] [-3,3] [-3,3] [-3,3]
+Table 2C. Statistics of the PNL distribution. µ=1.00, η =0.001.
+
+High-frequency market-making with inventory constraints and directional bets 31
+linear ABM linear MR exp ABM exp MR
+PNL mean 11.038 14.230 10.670 11.081
+std dev 1.011 13.653 0.356 0.522
+”Sharpe” 10.92 1.04 29.97 21.23
+skewness 0.015 -0.554 0.021 -0.987
+kurtosis 5.638 4.702 2.986 5.941
+Jarque Bera 29009.6 17181.5 8.0 52288.0
+VaR 5% 9.435 -10.866 10.084 10.168
+VaR 1% 8.332 -26.196 9.849 9.451
+Inv mean 0.045 335.118 -0.013 3.297
+std dev 33.253 417.302 7.641 15.295
+skewness 0.008 -0.626 -0.003 0.006
+kurtosis 3.004 2.358 3.024 2.992
+Jarque Bera 1.2 8241.5 2.5 0.9
+Q(T) 90% [-55,55] [-459,847] [-13,13] [-22,28]
+Table 3A. Statistics of the PNL distribution. µ=1.02, η =0.
+linear ABM linear MR exp ABM exp MR
+PNL mean 10.982 11.581 10.605 10.945
+std dev 0.412 1.517 0.345 0.446
+”Sharpe” 26.66 7.63 30.74 24.54
+skewness 0.031 -2.074 0.028 -0.647
+kurtosis 3.052 10.611 3.011 4.642
+Jarque Bera 27.2 313076.3 13.9 18207.8
+VaR 5% 10.308 8.659 10.039 10.182
+VaR 1% 10.026 5.977 9.807 9.662
+Inv mean -0.003 1.712 0.005 0.795
+std dev 5.024 8.420 4.574 5.681
+skewness 0.001 -0.005 0.010 0.008
+kurtosis 3.006 2.976 2.993 2.980
+Jarque Bera 0.2 2.8 1.9 2.8
+Q(T) 90% [-8,8] [-12,16] [-7,8] [-9,10]
+Table 3B. Statistics of the PNL distribution. µ=1.02, η =0.0001.
+
+32 Pietro FODRA · Mauricio LABADIE
+linear ABM linear MR exp ABM exp MR
+PNL mean 10.436 10.495 10.000 10.234
+std dev 0.335 0.365 0.326 0.342
+”Sharpe” 31.15 28.75 30.67 29.92
+skewness 0.038 -0.154 0.033 -0.061
+kurtosis 3.004 3.348 2.990 3.103
+Jarque Bera 24.0 901.2 18.5 106.9
+VaR 5% 9.890 9.889 9.468 9.669
+VaR 1% 9.666 9.598 9.252 9.414
+Inv mean 0.006 0.022 -0.006 0.018
+std dev 1.678 1.677 1.672 1.671
+skewness 0.002 -0.001 -0.018 -0.001
+kurtosis 3.001 3.030 3.027 3.023
+Jarque Bera 0.0 3.8 8.5 2.2
+Q(T) 90% [-3,3] [-3,3] [-3,3] [-3,3]
+Table 3C. Statistics of the PNL distribution. µ=1.02, η =0.001.
+In Tables 1A-3C we can observe the effect of η on the distribution of PNL and inventory:
+• The ”Sharpe” ratio (that is mean over standard deviation) increased dramatically as η increases
+for the linear utility models: the linear ABM has its ”Sharpe” increased by a factor of 3 whilst
+the linear MR has a factor of 26. The same effect is seen for exponential MR with a factor of 1.5.
+However, for the exponential ABM there is not a significant change.
+• The inventory risk has an impressive reduction as η increases: by a factor of 18 for linear ABM,
+230 for linear MR, 4 for exponential ABM and 8 for exponential MR.
+• The PNL mean decreases as η increases: -5% for linear ABM, -25% for linear MR, -6% for expo-
+nential ABM and -7% for exponential MR.
+• None of the the PNL distributions are not normal, but in all cases the inventory distributions can
+be considered as Gaussian because of their low Jarque-Bera scores.
+Inconsequence,thetotaleffectofηinthelinearmodelsisremarkable: itnotonlyreducestheinventory
+risk, as expected, but as a welcoming side effect it also reduces the risks on the PNL distribution. Of
+course, nothing is free and this control on the risks comes with a reduction of the PNL mean. However,
+with the current framework a market-maker has enough room and tools to improve her PNL, given her
+risk budgets on inventory and PNL distribution.
+The effect of η on the linear-utility strategy
+Aswehavealreadyseen,η hassomeindirectcontrolonthethePNLdistribution,butwewantedtohave
+a more detailed view of this fact. We performed 20,000 Monte-Carlo simulations for µ=1.00. The rest
+of the parameters are as before.
+
+High-frequency market-making with inventory constraints and directional bets 33
+Figure 6. Histogram of PNL as function of η for linear utility function (µ=1.00). Blue: Linear
+martingale. Red: Linear MR. Upper-Left: η =0, Lower-Left: η =0.0001, Upper-Right: η =0.0004,
+Lower-Right: η =0.001.
+Martingale η =0 η =0.0001 η =0.0004 η =0.001
+mean 11.035 13.386 11.452 10.930 10.474
+std dev 1.002 11.800 1.320 0.473 0.356
+”Sharpe” 11.01 1.13 8.68 23.11 29.42
+skewness 0.009 -0.645 -2.037 -0.810 -0.131
+kurtosis 5.754 5.153 10.346 5.100 3.189
+Jarque-Bera 6,322.0 5,250.2 58,797.2 5,863.1 86.6
+VaR 5% 9.447 -8.343 9.001 10.115 9.882
+VaR 1% 8.306 -22.297 6.435 9.502 9.599
+Q(T) 90% [-55,56] [-730,732] [-14,14] [-4,4] [-3,3]
+Table 5. Statistics of the PNL distribution for linear MR as a function of η.
+As we can see in Figure 6 and Table 5, between the martingale strategy and the linear MR strategy
+with η =0.001 we trade 5%of our PNL toobtain a betterSharpe of afactor of 2.7, reduce ourVaR(5%)
+by 8%, our VaR(1%) by 15% and our inventory risk by 95%.
+The effect of γ on the exponential-utility strategy
+We wanted to see if γ can control directly the PNL distribution, as it is expected from an exponential
+utility function due to its variance-reduction features. In order to assess the effect of γ separately from
+η, we performed 20,000 Monte-Carlo simulations for η =0 and µ=1.00. The rest of the parameters are
+as before.
+
+34 Pietro FODRA · Mauricio LABADIE
+Figure 7. Histogram of the PNL as a function of γ for an exponential utility function (µ=1.00). Blue:
+Linear martingale. Red: Exponential MR. Upper-Left: γ =0.1, Lower-Left: γ =0.3, Upper-right:
+γ =0.7, Lower-Right: γ =1.0.
+linear martingale γ =0.1 γ =0.3 γ =0.7 γ =1
+mean 11.023 12.609 11.581 11.193 11.039
+std dev 0.977 3.862 1.230 0.611 0.493
+Sharpe 11.06 3.26 9.42 18.32 22.39
+skewness 0.055 -2.348 -1.881 -1.254 -0.808
+kurtosis 5.411 13.242 10.143 6.939 5.185
+Jarque-Bera 4,853.1 105,790.2 54,307.3 18,172.4 6,154.9
+VaR 5% 9.421 6.225 9.273 10.044 10.186
+VaR 1% 8.330 0.658 7.277 9.106 9.572
+Q(T) 90% [-55,55] [-205,209] [-73,73] [-34,34] [-25,25]
+Table 6. Statistics of the PNL distribution for exponential MR as a function of γ (η =0).
+As we can see in Figure 7 and Table 6, between the linear martingale strategy and the exponen-
+tial MR strategy with γ = 1 we have a better Sharpe of a factor of 2, reduce our VaR(5%) by 8%, our
+VaR(1%)by14%andourinventoryriskby50%. Inconsequence,γ controlsdirectlythePNLdistribution
+andalsohasindirectcontrolontheinventory,buttheeffectofη seemstobestrongerinbothriskfactors.
+Observe that the indirect control of γ on the inventory is less impressive than the indirect control of
+η on the PNL distribution. However, with γ the market-maker is not sacrificing any PNL at alln unlike
+she does with η.
+
+High-frequency market-making with inventory constraints and directional bets 35
+Comparing η = 0.0001 and γ = 0.3
+FromFigures6-7wehavethatthelinearMRwithη =0.0001andtheexponentialMRwithγ =0.3seem
+to have the same (statistical) mode than the bechmark linear martingale. Here we compare these two
+distributions. We performed 20,000 Monte-Carlo simulations for µ=1.00 and kept the other parameters
+unchanged.
+Figure 8. Comparing the PNL histograms for linear MR (η =0.0001) and exponential MR (γ =0.3).
+Blue: Linear MR. Red: Exponential MR.
+γ =0.3 η =0.0001 % change
+mean 11.629 11.452 -1.53
+std dev 1.235 1.320 6.91
+”Sharpe” 9.42 8.68 -7.86
+skewness -1.832 -2.037 11.21
+kurtosis 10.165 10.346 1.78
+Jarque-Bera 53967.9 58797.1 8.95
+VaR 5% 9.305 9.001 3.27
+VaR 1% 7.281 6.435 11.63
+Q(T) 90% [-72,74] [-14,14] -80.8
+Table 7. Statistical comparison between linear MR η =0.001 and exponential γ =0.3. The % change is
+thevariationofthelinearMRwithrespecttotheexponentialMR.Skewnesschangeisinabsolutevalue.
+As we can see in Table 7, seems that the exponential MR has better control on the PNL distribution
+than the linear MR: higher mean, ”Sharpe” and quantiles at 1% and 5% (VaR); smaller standard devi-
+ation, (absolute) skewness and kurtosis. However, the inventory of exponential MR is much higher than
+the inventory of linear MR (5 times bigger).
+
+36 Pietro FODRA · Mauricio LABADIE
+8 Conclusions
+On the market-making model
+• In Theorem 4 we generalised the Avellaneda and Stoikov [1] approach for an exponential utility to
+any Markov process, provided its conditional expectation E [S(T)] is affine in s, which includes
+t,s
+processes like arithmetic Brownian motion with drift or Ornstein-Uhlenbeck process. This allowed
+us to assess the effect of directional bets on the market mid-price on the PNL distribution of a
+high-frequency market-maker. Moreover, we also showed that the results of Lehalle et al [6] can
+be generalised to arithmetic Brownian motions with time-dependent drift and volatility, and that
+their approach cannot be extended further with the ansatz they chose.
+• If instead of an exponential utility function we choose a linear utility function with inventory
+constraints, in Theorems 1-3 we showed that using the same stochastic-control approach we can
+find the optimal controls (i.e. the market-maker bid and ask quotes) for very general Markov
+processes,evenwithjumps(e.g. L´evyprocesses),providedtheinventory-riskpenaltyπ(s)ischosen
+appropriately to ensure the boundedness of the value function u(t,s,q,x). Moreover, the optimal
+controls in the linear case are independent of the volatility of the asset, which is very hard to
+estimate for high-frequency data, and as such the linear case is easier to calibrate with real data
+than the exponential case.
+• Our approach, although based on optimal-control and nonlinear-PDE techniques, is very intuitive:
+choosetherightansatz forthesolution,computethe(implicit)controls,plugthemintotheequation,
+separate the equation into smaller and easier parts and solve them all to have the explicit form of
+the solution and the controls. Moreover, if the full equation is not explicitly solvable, approximate
+the jump part due to inventory: the resulting control is thus optimal for a sub-solution, and as
+such we are controlling the PNL utility function from below, which translates into optimal quotes
+to reduce losses.
+On the role of the parameters η and γ
+• If η increases then the inventory risk decreases and eventually becomes negligeable. This was
+expectedbecausetheparameterη wasaddedasaninventorypenalty. However,asanicesideeffect
+we have that η also reduces the risk on the PNL, in the sense that the variance and the kurtosis
+of the PNL distribution decrease as η increases. In other words, η controls perfectly the inventory
+risk, and by doing so it indirectly controls the PNL distribution.
+• For γ we have the a similar effect, but the other way around. As γ increases the risk on the PNL
+distribution decrease, in particular the first four moments and the VaR. Moreover, as a side effect
+the inventory risk decreases as well. This implies that γ directly controls the PNL distribution and
+indirectly controls the inventory risk.
+• This mirror-like, intertwined role of η and γ highlights a intimate relation between inventory risk
+and the risk on the PNL distribution: if one decreases then necessarily the other has to do the
+same. This implies that a market-maker who chooses to reduce the risk on her PNL distribution
+necessarily reduces her inventory risk; conversely, a market-maker who reduces her inventory risk
+alsoreducestheriskonherPNLdistribution. However, thisriskreductionalsoimpliesareduction
+on the average PNL.
+
+High-frequency market-making with inventory constraints and directional bets 37
+• It seems that the control provided by η on the linear MR is better than the control provided by
+γ on the exponential MR. However, this claim has to be taken with a grain of salt because, for
+η = 0.0001 and γ = 0.3 (where qualitatively both distributions are comparable to the martingale
+benchmark)thelinearMRislessriskyintermsofinventorywhilsttheexponentialMRislessrisky
+in terms of PNL distribution. That said, our numerical simulations show that an increase on η
+(from 0.0001 to 0.001) renders a more drastic reduction on inventory risk and stronger structural
+changes on PNL distribution than an increase on γ of the same order of magnitude (from 0.1 to 1).
+On the directional bets and the risk profiles
+As we have shown in our simulations, there is a clear (and expected) relation between risk and reward.
+• When the market-maker makes a directional bet she improves her PNL up to 25% with respect to
+the martingale benchmark. However, by doing so she has to accept more risk, either on her PNL
+distribution (measured in terms of variance, skewness and kurtosis) or on her inventory.
+• After a directional bet, the market maker can trade some of her excess PNL (over the martingale
+benchmark) for a direct control on her risks. If she chooses to gain direct control on her PNL
+distribution directly (resp. inventory risk) then she gains some reduction on her inventory risk
+(resp. PNL distribution), but the latter cannot be controlled directly. In that spirit, the market-
+maker can choose to use an exponential MR strategy if she prices more dearly her risk on the PNL
+distribution and a linear MR strategy if her biggest concern is the inventory risk.
+• In summary, directional bets enhance the PNL of the market-maker but add extra risk on her
+inventory and PNL distribution; both risks are positively correlated, so if she reduces one directly
+the other is indirectly reduced as well. Therefore, a market-maker in practice has to assess three
+factors, i.e. PNL increase, inventory risk and PNL distribution, in order to choose her optimal
+trading strategy because, in the current set-up at least, there is no strategy that is optimal in all
+three factors.
+Further developments
+• In our model there are no market orders, just limit orders. For the simulations we assumed that
+if δ+ ≤ 0 (resp. δ− ≤ 0) then the market-maker sends a selling (resp. buying) market order that
+∗ ∗
+is executed at the mid-price, i.e. we assumed that the market spread is zero and their impact (or
+cost) on the PNL is |δ±|≥0.
+• For a detailed market-impact analysis, we should add the market spread as another state variable
+andconsiderthatthemarket-maker’slimitordersaffectboththemarketspreadandthemid-price.
+For example, if she improves the best ask (resp. bid) then she reduces the market spread by one
+tick and pushes down (resp. up) the mid-price by half a tick.
+• Another possibility is to incorporate market orders directly into the model and making a clear
+distinction between market and limit orders (see e.g. Guilbaud and Pham [7]). However, the
+currentframeworkdoesnotseemtobeeasilyextendedforthatpurpose,whichsuggeststhatanew
+framework is needed. We are currently working on that direction.
+
+38 Pietro FODRA · Mauricio LABADIE
+• We have assumed that the mid-price is continuous, which can be interpreted in the discretisation
+foroursimulationsasassumingthatthebid-askspreadofthemarket-makerislargewithrespectto
+smallchangesonthemid-price. Thisistrueforassetswhosespreadislargewithrespecttothetick
+size (e.g. equities), but not for futures for which the spread is in average 1-2 ticks, so the smallest
+price move can make the market-maker’s quotes cross the spread. Therefore, another framework
+is necessary to deal with assets whose spread and tick size are comparable. We will address this
+problem in a future work.
+• Our mid-price S(t) is a Markov processes, just like in Avellaneda and Stoikov [1] and Lehalle et
+al. This means that the infinitesimal generator is local, S(t) has zero auto-correlation and the
+Hamilton-Jacobi-Bellman equation is a nonlinear PDE. Now, if we consider a mid-price process
+with non-zero autocorrelation (e.g. fractional Brownian Motion, multifractal processes or Hawkes
+process) then its infinitesimal operator is non-local and its HJB equation is an integro-differential
+equation. However, in this case we cannot invoke the Feynman-Kac formula, which means that our
+approach is no longer valid and another model is necessary (see e.g. Cartea and Jaimungai [3] and
+[4]).
+Acknowledgements
+TheauthorswouldliketothankProf. HuyˆenPham(UniversityParis-Diderot,France)andProf. Mathieu
+Rosenbaum (University Pierre et Marie Curie, France) for their suggestions and kind advice.
+References
+[1] Avellaneda, Stoikov (2008) High-frequency trading in a limit-order book. Quantitative Finance Vol.
+8 No. 3.
+[2] Br´ezis (2005) Analyse Fonctionnelle: th´eorie et applications. Dunod.
+[3] Cartea,Jaimungai(2011)BuyLowSellHigh: AHighFrequencyTradingPerspective.PreprintSSRN.
+[4] Cartea, Jaimungai (2012) Risk Measures and Fine Tuning of High Frequency Trading Strategies.
+Preprint SSRN.
+[5] Fleming, Soner (2006) Controlled Markov processes and viscosity solutions. Springer.
+[6] Gu´eant, Lehalle, Fern´andez-Tapia (2011) Dealing with inventory risk. Preprint.
+[7] Guilbaud, Pham (2011) Optimal high frequency trading with limit and market orders. Preprint, to
+appear in Quantitative Finance.
+[8] Ho, Stoll (1981) Optimal dealer pricing under transactions and return uncertainty. J. Financ. Econ
+Vol. 9 pp. 47-73.
+[9] Pham (2009) Continuous-time stochastic control and optimization with financial applications.
+Springer.
+[10] Potters, Bouchaud (2003) More statistical properties of order books and price impact. Physica A:
+Stat. Mech. Appl. Vol. 299 pp. 133-140.
+
+High-frequency market-making with inventory constraints and directional bets 39
+[11] Stoll (1978) The supply of dealer services in securities markets. Journal of Finance Vol. 33 no. 4 pp.
+1133-1151.

@@ -1,0 +1,2618 @@
+Cuestiones Contables
+Fundamentales
+Enrique Fowler Newton
+La Ley
+Buenos Aires
+2004
+4ª edición actualizada
+ISBN: 987-03-0537-7
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 9. RECONOCIMIENTO Y MEDICIÓN
+DE VARIACIONES PATRIMONIALES
+9,1. INTRODUCCIÓN
+En este capítulo nos referiremos a los criterios generales que la contabilidad debería emplear para
+reconocer y medir las variaciones patrimoniales de los entes.
+(cid:194)Dejamos para Contabilidad superior (cuya quinta edición esperamos ver publicada en
+2005) el estudio de los problemas de reconocimiento y medición contable ocasionados por hechos
+económicos específicos.
+Las cuestiones de registración contable de las variaciones patrimoniales se tratan en
+Contabilidad básica (cuarta edición, La Ley, 2003).
+9,2. RELACIÓN CON LOS REQUISITOS
+DE LA INFORMACIÓN CONTABLE
+En el cap. 2 nos referimos en detalle a las cualidades que debería tener la información contable para
+ser útil. Basándonos en el desarrollo allí efectuado, seguidamente presentamos algunas reglas que deberían
+seguirse para reconocer objetos (elementos de los estados contables), asignarles medidas contables iniciales
+y periódicas y darlos de baja.
+Reglas Conceptos relacionados
+1. Deben reconocerse los elementos (activos, Atingencia, integridad, confiabilidad, aproximación
+pasivos, etcétera) que, de acuerdo con la realidad a la realidad, esencialidad, objetividad,
+económica y no sólo con las formas jurídicas de las verificabilidad y prudencia
+transacciones:
+a) tengan aptitud para afectar los futuros pagos que
+los inversores y acreedores recibirán por sus créditos
+o participaciones o por la venta de ellos;
+b) sean susceptibles de medición objetiva,
+verificable por terceros.
+2. La medición contable de los objetos reconocidos Los mismos enunciados para la regla 1.
+debe resultar en información que:
+a) ayude a evaluar la situación y evolución
+patrimonial y financiera del ente emisor y a
+comprender las causas de los cambios operados en
+ellas;
+b) guarde una correspondencia razonable con los
+fenómenos que pretende describir, considerando la
+sustancia económica de las operaciones y no sólo su
+forma;
+c) no esté afectada por errores u omisiones
+importantes;
+d) sea objetiva y, por ende, verificable.
+Consistentemente:
+
+Reglas Conceptos relacionados
+a) no deben reemplazarse medidas contables
+objetivas por otras que no lo sean;
+b) no debe usarse la prudencia como excusa para
+asignar una menor medida contable al patrimonio.
+3. Deben darse de baja los objetos que hayan Los mismos enunciados para la regla 1.
+perdido su aptitud para afectar los futuros pagos que
+los inversores y acreedores recibirán por sus créditos
+o participaciones o por la venta de ellos.
+4. Las transacciones similares deberían Comparabilidad.
+contabilizarse con las mismas reglas.
+5. A los bienes de naturaleza similar debería Comparabilidad.
+aplicárseles el mismo criterio primario de medición.
+6. Los criterios de reconocimiento, medición y baja Comparabilidad y consistencia (uniformidad).
+deben aplicarse sin variaciones a lo largo del tiempo,
+salvo cuando el cambio pueda justificarse por la
+mejora de la calidad de la información contable o
+por la necesidad de dar cumplimiento a una nueva
+norma.
+7. Cuando existan NC, debe aplicárselas e Sistematicidad.
+informarse este hecho a los usuarios.
+8. Las reglas anteriores pueden omitirse o Significación.
+aplicarse con desviaciones, cuando esto no afecte
+a los usuarios.
+Por su importancia, estas reglas serán repetidas en secciones posteriores.
+9,3. RECONOCIMIENTO Y BAJA CONTABLE
+De acuerdo con lo recién expuesto:
+a) deben reconocerse los objetos (activos, pasivos, etcétera) que, considerando la realidad económica
+y no sólo las formas jurídicas de las transacciones:
+1) tengan aptitud para afectar los futuros pagos que los inversores y acreedores recibirán por
+sus créditos o participaciones o por la venta de ellos;
+2) sean susceptibles de medición objetiva, verificable por terceros;
+b) deben removerse los objetos (anteriormente reconocidos) que hayan perdido la aptitud enunciada
+en a) l);
+c) los criterios de reconocimiento y baja contable deben aplicarse sin variaciones a lo largo del
+tiempo, salvo cuando el cambio pueda justificarse por la mejora de la calidad de la información contable o
+por la necesidad de aplicar una nueva norma.
+Ejemplo de una causa de baja contable una marca desacreditada que no volverá a ser usada y que es
+invendible no tiene valor de cambio ni valor de uso, así que debe ser excluida del activo aunque el ente tenga
+derechos legales sobre ella1.
+Estas ideas aparecen en los MC de la IASB2, la FACPCE3 y la FASB4.
+1 Esto no impide que en los registros contables, con fines de control, se mantenga alguna indicación de dicha titularidad
+legal.
+3
+
+La SFAC 5 establece una condición adicional: la información sobre el objeto a reconocer debería ser
+capaz de hacer una diferencia en las decisiones de los usuarios5. Discrepamos con esta exigencia, pues una
+cosa es que la contabilidad pueda excluir elementos no significativos y otra que deba hacerlo, lo cual podría
+conducir al debilitamiento del control patrimonial, que también se basa en el sistema contable.
+Un fondo fijo de una empresa podría ser lo suficientemente pequeño como para que su exclusión del
+activo no afecte las posibles decisiones de los usuarios de la información contable. Sin embargo, la necesidad
+de vigilar el manejo del dinero asignado al fondo y de verificar periódicamente que su custodio posea los
+valores del caso hacen aconsejable que se lo registre contablemente.
+La contabilidad debería reconocer los elementos de los estados contables enunciados en el cap. 3 que
+cumplan con las definiciones allí presentadas. De ellas, conviene tener muy presentes las de activo y pasivo,
+cuyo resumen repetiremos:
+Un ente tiene un activo cuando, debido a un hecho ya ocurrido, controla los beneficios que
+produce un bien. Este debe tener un valor de cambio o un valor de uso, pudiendo haber tenido un costo
+o no.
+Un activo (distinto al dinero) debe contribuir directa o indirectamente a la generación de
+futuros flujos de fondos. Esto podría resultar de:
+a) su empleo en conjunto con otros activos, para producir bienes o servicios para la venta;
+b) su canje por otro(s) activo(s);
+c) su empleo para cancelar obligaciones; o
+d) su distribución a los propietarios.
+Un ente tiene un pasivo cuando:
+a) está obligado a entregar activos o prestar servicios a otra persona (física o jurídica);
+b) la cancelación de la obligación:
+1) es ineludible o altamente probable;
+2) deberá efectuarse en una fecha determinada o determinable o debido a la
+ocurrencia de cierto hecho o a requerimiento del acreedor;
+c) el hecho o transacción que la ha generado ya ocurrió.
+Los conceptos de activo y pasivo son especialmente importantes porque:
+a) como vimos en el cap. 3, entre los objetos de medición contable existe esta relación:
+Activo Pasivo
++Gastos + Participaciones de accionistas no
++ Pérdidas controlantes en el patrimonio de entidades
++ Impuestos sobre las ganancias controladas
+=
++Participación de los accionistas no + Capital
+controlantes en los resultados de controladas + Resultados anteriores
++ Ingresos
++ Ganancias
+b) consecuentemente, el reconocimiento de cualquiera de estos objetos suele implicar el de otro;
+2 Framework for the Preparation and Presentation of Financial Statements del IASC (adoptado por la IASB),
+1989, ¶ ¶82-98.
+3 Marco conceptual de las normas contables profesionales, RT 16 de la FACPCE, segunda parte, cap. 5.
+4 Recognition and Measurement in Financial Statements of Business Enteprises, Statement on Financial Accounting
+Concepts 5 de la FASB, 1984, ¶ ¶58-77.
+5 SEAC 5, ¶63.
+4
+
+c) la gran mayoría de las variaciones patrimoniales resultan de la aparición, cambio de valor o de-
+saparición de activos o pasivos.
+Ejemplos:
+• Cuando se dan las condiciones necesarias para reconocer una cuenta por cobrar originada en una
+venta de mercaderías se reconocen tanto un activo como un ingreso. Simultáneamente, se da de baja otro
+activo (la mercadería entregada) y se reconoce un gasto (el costo de la mercadería vendida).
+• El aumento en el valor de un bien fácilmente comercializable implica, en caso de ser reconocido
+contablemente, una variación del activo y una ganancia.
+• El incendio y destrucción total de una máquina registrada contablemente implica la desaparición de
+un activo y obliga a reconocer una pérdida.
+También debe recordarse que:
+a) una información contable sólo puede considerarse confiable (creíble) cuando se aproxima a la
+realidad y es verificable;
+b) entre los requisitos para que la información contable se aproxime a la realidad figuran los siguientes:
+1) las mediciones contables deben ser objetivas, considerándose que cada una de ellas lo es
+cuando varios observadores que tienen similar independencia de criterio y que aplican diligentemente las
+mismas NC, arriban a medidas que difieren poco o nada entre sí;
+2) las operaciones y hechos deben contabilizarse y exponerse basándose en su sustancia y
+realidad económica y no en su simple forma legal (la esencia económica debe primar sobre los aspectos
+instrumentales, que podrían no reflejarla adecuadamente).
+Si un ente recibe un rodado a ser pagado en cuotas y pasa a gozar de todas las ventajas y
+obligaciones inherentes a su propietario, la operación debe tratarse como una compra financiada, aunque la
+figura contractual no sea la de compraventa sino la de arrendamiento (leasing). En consecuencia, deben
+reconocerse un activo (el rodado) y un pasivo (la cuenta por pagar al vendedor o al intermediario financiero).
+Como ya expusimos en el cap. 2, las NC suelen poner a la objetividad como requisito para el
+reconocimiento inicial de activos o pasivos y también para el de los cambios de valor de los ya reconocidos.
+Es así que no se reconocen:
+a) la plusvalía (o valor llave) generada por el gerenciamiento exitoso de una empresa, debido a la
+imposibilidad de determinar, sobre bases objetivas:
+1) su valor, dado que el bien no pueden ser vendido separadamente del negocio; o
+2) su costo, que debería resultar de una asignación parcial y arbitraria de los costos
+operativos del negocio;
+b) los cambios de las plusvalías de empresas adquiridas que se hayan reconocido contablemente,
+razón por la cual esos activos suelen mantenerse a su costo, eventualmente reducido por una depreciación
+estimada o por su desvalorización;
+c) los desembolsos a efectuar con motivo de fallos judiciales adversos y altamente probables, cuando
+su importe se desconoce y no existen bases confiables para su determinación.
+El hecho de que un elemento no se reconozca contablemente por la imposibilidad de asignarle alguna
+medición confiable debería ser informado en los estados contables, pero esto no siempre sucede.
+Es raro que dichos estados informen sobre la existencia de los valores llaves generados por el propio
+ente.
+9,4. MEDICIÓN CONTABLE
+(cid:194)Digresión terminológica: la palabra medición se usa tanto para referirse a la actividad de
+asignar medidas como al resultado de ella.
+5
+
+De acuerdo con lo expuesto en el § 9,2:
+a) el proceso de medición de los objetos reconocidos en la contabilidad debe resultar en información que:
+1) ayude a evaluar la situación y la evolución patrimonial y financiera del ente emisor y a
+comprender las causas de los cambios operados en ellas;
+2) guarde una correspondencia razonable con los fenómenos que pretende describir,
+considerando la sustancia económica de las operaciones y no sólo su forma;
+3) no esté afectada por errores u omisiones importantes;
+4) sea objetiva y, por ende, verificable;
+5) pueda ser comparada, por lo que:
+• las transacciones similares deberían contabilizarse con las mismas reglas;
+• a los bienes de naturaleza similar debería aplicárseles el mismo criterio básico de
+medición contable primaria;
+• los criterios de medición deben aplicarse sin variaciones a lo largo del tiempo,
+salvo cuando el cambio pueda justificarse por la mejora de la calidad de la información contable o por la
+necesidad de dar cumplimiento a una nueva NC;
+b) no deben reemplazarse mediciones contables objetivas por otras que no lo sean:
+c) no debe usarse la prudencia como excusa para asignar medidas menores a los patrimonios.
+En los procesos de medición contable hay que aplicar:
+a) en general:
+1) criterios de asignación de medidas basados en algún atributo relevante de los activos o de
+los pasivos (como el costo o el VC para los activos, siempre con el límite del VR);
+2) una unidad de medida; y
+b) en el caso de los resultados acumulados y del período:
+1) algún concepto de mantenimiento del capital (por ejemplo, el financiero); y
+2) si se computase un interés sobre el capital propio, algún criterio para su imputación al
+patrimonio.
+(cid:194)Nos hemos referido a los atributos de los activos y pasivos en los caps. 4 a 7, a la cuestión
+de la unidad de medida en el cap. 8, a los conceptos de mantenimiento de capital en el § 3,5,f) y al
+posible cómputo de un interés propio en el cap. 5.
+Como ya vimos, la cuestión de los criterios de medición contable se relaciona estrechamente con el
+concepto de devengamiento. A su vez, de éste pueden extraerse reglas para el tratamiento que debería darse a:
+a) las contingencias;
+b) los hechos ocurridos entre la fecha de los informes contables y la de su emisión (habitualmente
+llamados hechos posteriores al cierre);
+c) los llamados ajustes de resultados de ejercicios anteriores (AREA).
+En las próximas secciones nos referiremos a estas cuestiones y también al tema de los períodos
+intermedios (los de duración inferior a un ejercicio).
+9,5. EL DEVENGAMIENTO
+A) CONCEPTO
+En forma prácticamente unánime, la doctrina y la mayoría de las NC consideran que los resultados
+deben contabilizarse en los períodos en que se generan, sin entrar a considerar si han afectado los fondos del
+ente. Las únicas excepciones importantes se presentan respecto de los entes gubernamentales que sólo emiten
+informes contables sobre la base de los pagos y cobros que efectúan.
+6
+
+O sea: las variaciones patrimoniales deben reconocerse y medirse siguiendo el criterio de lo
+devengado y no el de lo percibido/pagado. Esto, sin perjuicio de la preparación y presentación de estados
+que muestren las variaciones del efectivo o de algún concepto similar.
+Esta idea aparece en el MC de la IASB6 y en la RT 177 y está implícita en las definiciones de activo
+y pasivo que aparecen en los MC de la IASB, la FACPCE y la FASB.
+(cid:194) Las palabras devengamiento y devengado no integran el idioma español oficial, pero las
+emplearemos debido a su amplia difusión entre los contadores.
+B) LOS “HECHOS GENERADORES”
+Para aplicar la idea anterior, debe definirse el período al cual corresponde o compete cada resultado
+y para esto debe identificarse cuál es su hecho generador. Esta identificación es también necesaria para el
+registro de las transacciones con los propietarios y de las variaciones patrimoniales puramente cualitativas.
+Por ejemplo, la reducción de los resultados acumulados con motivo de su distribución debería
+registrarse cuando el órgano competente toma la decisión que hace nacer el correspondiente pasivo con los
+accionistas.
+En cuanto tiene que ver con el reconocimiento contable de activos y pasivos, la cuestión de los
+hechos generadores está presente en las caracterizaciones de esos elementos que presentamos más arriba (el
+subrayado es añadido):
+Un ente tiene un activo cuando, debido a un hecho ya ocurrido, controla los beneficios que
+produce un bien (…)
+Un ente tiene un pasivo cuando:
+a) está obligado a entregar activos o prestar servicios a otra persona (física o jurídica);
+b) la cancelación de la obligación:
+1) es ineludible o altamente probable;
+2) deberá efectuarse en una fecha determinada o determinable o debido a la
+ocurrencia de cierto hecho o a requerimiento del acreedor;
+c) el hecho o transacción que la ha generado ya ocurrió.
+En relación con la asignación periódica de medidas contables, puede ocurrir que algunos hechos sean
+considerados generadores de variaciones patrimoniales por algunas personas pero no por otras, de acuerdo
+con su visión particular sobre la aptitud de los criterios de medición cuya aplicación sea posible en el caso.
+Así, quienes crean que la medición contable de los activos debe practicarse siempre sobre la base de
+su costo (con el límite del VR), dirán que los cambios en sus VC no son hechos generadores de resultados y
+que, en consecuencia, nada se ha devengado.
+Por el contrario, los defensores de los VC considerarán que los cambios de éstos deben reconocerse
+en los períodos en que ocurren, que dichos cambios son hechos generadores de variaciones patrimoniales y
+que éstas se han devengado.
+C) DIFERENCIAS ENTRE DEVENGAMIENTO Y “REALIZACIÓN”
+Un resultado está realizado cuando proviene de transacciones con terceros, cosa que sucede cuando
+la operación que lo origina queda perfeccionada desde el punto de vista de la legislación o prácticas
+comerciales aplicables.
+6 Framework, ¶22.
+7 Normas contables profesionales: desarrollo de cuestiones de aplicación general, resolución técnica 17 de la
+FACPCE, segunda parte, Framework, ¶22.
+7
+
+Por ejemplo, los ingresos por ventas se consideran realizados:
+a) en el caso de bienes, cundo se transfiere su propiedad;
+b) en el caso de servicios, cuando se los presta.
+Hay quienes consideran que para que un resultado pueda calificarse como realizado debe cumplirse
+un requisito adicional: que se hayan ponderado los riesgos inherentes a la operación que los genera. Sin
+embargo, esta cuestión puede tratarse por separado.
+(cid:194) Digresión terminológica: la palabra realización se utiliza también con el sentido de
+conversión en efectivo, pero ésta es una cuestión que no hace al concepto de devengamiento.
+En un modelo contable que se base en las mediciones históricas y que no reconozca resultados por
+actividades internas o por cambios en los VC, los resultados devengados deberían coincidir con los realizados8.
+En otros modelos, la contabilización de resultados se basa en el devengamiento, aunque no exista
+realización.
+Supongamos que:
+a) en el ejercicio 1, La Revendedora S.A. adquiere bienes de fácil comercialización con un costo
+de $ 350;
+b) al cierre de ese ejercicio los bienes permanecen en el activo y tienen un VNR de $ 354;
+c) en el ejercicio 2, la empresa vende los bienes y obtiene un VNR de $ 360;
+d) no se consideran los efectos de la inflación.
+En una contabilidad que reconozca las variaciones de los VC de estos activos, se computarán estas
+ganancias por la tenencia de los bienes:
+a) en el ejercicio 1:
+354 - 350 = 4
+b) en el ejercicio 2:
+360 - 354 = 6
+La ganancia del ejercicio 1 se realiza en el ejercicio 2.
+En una contabilidad basada estrictamente en los costos históricos, toda la ganancia ($ 10) se imputa-
+ría al ejercicio 2, pues es en éste cuando se realizan los activos.
+De acuerdo con lo expuesto:
+a) todos los resultados realizados están devengados (en el período de realización o en alguno
+anterior); pero:
+b) no todos los resultados devengados están realizados.
+Por lo indicado, y por el progresivo abandono de los modelos contables basados exclusivamente en
+los costos históricos, cabe esperar que el concepto de realización vaya desapareciendo de las codificaciones
+de NC. Sin embargo, hay quienes consideran conveniente que los estados de resultados distingan los
+resultados realizados de los no realizados. En nuestra opinión, esto no aporta información mayormente útil y
+puede confundir a los usuarios de los estados contables.
+(cid:194) En la Argentina, la vieja idea de realización aparece aún en el art. 68 de la LSC, según el cual las
+sociedades comerciales sólo pueden distribuir dividendos por ganancias realizadas y líquidas resultantes de
+un balance confeccionado de acuerdo con la ley9. Al respecto, debe señalarse que:
+8 Dudamos que este modelo tenga alguna aplicación actual.
+9 Liquidas en el sentido de netas y no de convertidas en efectivo.
+8
+
+a) la norma no se refiere a la contabilización de resultados sino a su distribución10;
+b) los organismos nacionales que fiscalizan a las sociedades comerciales:
+1) admiten (y en algunos casos exigen) el empleo de VC y la contabilización de ganancias de
+tenencia de algunos activos;
+2) aceptan que las distribuciones de dividendos se basen en los resultados contabilizados;
+3) consideran, en consecuencia, que la expresión ganancias realizadas debe ser leída como
+ganancias devengadas;
+c) no parecen existir objeciones a esta interpretación, que debería ser convalidada mediante la
+modernización del citado art. 68.
+9,6. LAS CONTINGENCIAS
+A) CONCEPTO
+De acuerdo con los principales MC, existe un activo (distinto al efectivo) cuando el hecho que lo
+ocasionó:
+a) ya ha ocurrido;
+b) es probable que produzca un beneficio económico en el futuro.
+Similarmente, existe un pasivo cuando el hecho generador:
+a) ya ha ocurrido;
+b) es probable que produzca una salida de recursos económicos en el futuro.
+Así, la SFAC 6 (de 1984)11 define (el subrayado es nuestro):
+25. Activos son los probables beneficios económicos futuros obtenidos o controlados por un
+ente en particular como resultado de operaciones u hechos pasados.
+35. Pasivos son los probables sacrificios futuros de beneficios económicos que se originan en
+obligaciones presentes de un ente en particular de transferir activos o de proveer servicios a otras
+entidades en el futuro como consecuencia de hechos u operaciones pasadas.
+46. (…) la existencia o importe (o ambas) de la mayoría de los activos y muchos pasivos
+puede ser probable pero no cierto. Las definiciones de esta Declaración no intentan requerir que la
+existencia y los importes de las partidas sean ciertos para que ellas califiquen como activos, pasivos,
+ingresos, gastos, (…).
+La SFAC 6 aclara que –en las definiciones precedentes– la palabra probable se emplea con su
+significado general de algo que puede ser razonablemente esperado o creído sobre la base de la evidencia
+disponible o de la lógica, pero respecto de lo cual no hay certeza o prueba.
+Dadas estas definiciones, los activos y pasivos pueden ser clasificados en:
+a) contingentes, cuya existencia sólo será confirmada por la ocurrencia o falta de ocurrencia de uno o
+más hechos futuros inciertos;
+b) no contingentes (ciertos).
+(cid:194) Apartándose de la terminología recién presentada y de la empleada en otros artículos y
+obras y en diversos juegos de NC, la IASB emplea otras definiciones. De acuerdo con ellas:
+10 Las restricciones a las distribuciones de resultados no impiden su reconocimiento pero los estados contables deben
+informar sobre los importes restringidos.
+11 Elements of Financial Statements, Statement on Financial Accounting Concepts 6 de la FASB.
+9
+
+a) no son pasivos contingentes los de ocurrencia probable y medición objetiva12;
+b) no son activos contingentes los de concreción virtualmente segura13.
+Esto debe tenerse en cuenta cuando se leen las reglas contenidas en la NIC 37. En los renglones que
+siguen mantendremos el empleo de la terminología que preferimos.
+La incerteza de un hecho futuro implica que éste no puede ser controlado por el ente.
+En la práctica:
+a) la mayoría de los activos son contingentes porque sólo producirán ingresos si ocurren ciertos
+acontecimientos;
+b) la mayoría de las deudas deben ser pagadas, sin que el emisor de los estados contables pueda
+evadirse de esta obligación, de modo que los pasivos contingentes suelen ser pocos en número.
+Ejemplos de activos contingentes:
+a) los créditos, porque podrían no llegar a ser cobrados;
+b) las mercaderías, porque podrían no venderse (o su venta no ser cobrada);
+c) las maquinarias, porque podrían no utilizarse.
+Son ejemplos de pasivos contingentes los ocasionados por:
+a) las garantías por defectos de producción, que pueden ejecutarse o no;
+b) los seguros otorgados, en las compañías que se dedican a ese negocio;
+c) una demanda judicial contra el ente, cuya resolución es incierta.
+B) PROBABILIDAD REMOTA DE OCURRENCIA DEL HECHO CONFIRMATORIO
+(O NO CONFIRMATORIO)
+Cuando la existencia o inexistencia de un activo está sujeta a la concreción (o falta de concreción) de
+un hecho futuro, la probabilidad que pueda asignársele a su ocurrencia (o no-ocurrencia) es un factor clave
+para determinar:
+a) si efectivamente existe un activo o un pasivo;
+b) si debe reconocérselo en la contabilidad.
+Como vimos en el § a), de acuerdo con los principales MC, una de las condiciones que deben
+cumplirse para que exista un activo (distinto al efectivo) o un pasivo, es que el mismo genere una futura
+entrada o salida de recursos económicos. De acuerdo con este concepto, si tal flujo fuese improbable, no
+existiría ningún activo o ningún pasivo.
+Es contradictorio, por lo tanto, que algunos emisores de esos MC hayan aprobado definiciones de
+activos y pasivos contingentes que incluyen a los que tienen una probabilidad remota de ser confirmados por
+hechos futuros.
+Por ejemplo, la NIC 37 incluye estas definiciones:
+Una deuda es una obligación presente del ente que surge de hechos pasados y cuya
+cancelación se espera que resulte en la salida del ente de recursos que conllevan beneficios económicos.
+(…)
+Una deuda contingente es:
+a) una obligación posible que surge de hechos pasados y cuya existencia sólo será
+confirmada por la ocurrencia o no ocurrencia de uno o más hechos futuros que no están enteramente bajo el
+control del ente; o
+12 Provisions, Contingent Liabilities and Contingent Assets, International Accounting Standard 37 de la IASB, ¶10.
+13 NIC 37, ¶33.
+10
+
+b) una obligación presente que surge de hechos pasados pero no es reconocida porque:
+(i) es probable que se vaya a producir una salida de recursos que incorporan
+beneficios económicos para la cancelación de la obligación; o
+(ii) el importe de la obligación no puede ser medido con suficiente fiabilidad14.
+Estas definiciones son intrínsicamente contradictorias porque:
+a) para que algo sea una deuda contingente debería ser también una deuda;
+b) la definición de deuda contingente incluye los casos en que no es probable que se vaya a producir
+una salida de recursos que incorporan beneficios económicos;
+c) la definición de deuda excluye los casos en que no se espera tal salida.
+A octubre de 2004, la IASB tenía previsto reemplazar la última definición por la siguiente:
+Una deuda contingente es una obligación condicional que surge de hechos pasados y que
+puede requerir una salida de recursos que incorporan beneficios económicos sobre la base de la ocurrencia o
+no ocurrencia de uno o más hechos futuros que no están enteramente bajo el control del ente15.
+Esto no soluciona la contradicción porque la expresión puede requerir no incluye la idea de alta
+probabilidad de ocurrencia.
+No obstante, esos mismos organismos han emitido normas según las cuales los activos o pasivos que
+tienen una probabilidad remota de generar entradas o salidas de recursos económicos no deben ser
+reconocidos en la contabilidad. Se trata, por lo tanto, de una cuestión de naturaleza académica que no tiene
+efectos prácticos.
+Si un ente avala una obligación de un tercero y es virtualmente seguro que el deudor la cancelará:
+a) algún contador dirá que no existe pasivo alguno; y
+b) otro considerará que hay un pasivo contingente cuya probabilidad de concreción es remota; pero
+c) raro sería que alguno de los dos propusiera el reconocimiento contable de un pasivo.
+C) UMBRAL PARA EL RECONOCIMIENTO CONTABLE
+DE ACTIVOS Y PASIVOS CONTINGENTES
+Descartado el reconocimiento contable de los efectos de las contingencias remotas, cabe analizar qué
+grado de probabilidad debe tener una contingencia no remota para dar lugar al reconocimiento contable de
+un activo o un pasivo.
+Algunas NC requieren el reconocimiento contable de los efectos de las contingencias de concreción
+probable, pero no definen el grado de probabilidad relacionado con ese concepto. En general, se ha
+interpretado que lo que tales NC exigen es que la probabilidad de concreción del hecho confirmatorio de la
+existencia de un activo o pasivo contingente sea cercana al cien por cien.
+Otras NC aplican la idea de reconocer las contingencias cuya probabilidad de confirmación sea
+superior al 50%.
+A la fecha existe un proyecto de convergencia entre las NC de la IASB y la FASB, que probablemente
+conduzca a la aplicación, por parte de los dos organismos, del criterio del 50%, que ya ha sido utilizado en la
+NIIF 3, sobre combinaciones de negocios16. Se podrá objetar que con ese límite dos contingencias con
+probabilidades de concreción parecidas (sea: del 50,1% y del 49,9%) podrían tratarse diferentemente, pero:
+a) esto sucede siempre que se aplican reglas que recurren a límites numéricos;
+b) el problema no parece tener una solución.
+14 NIC 37, ¶10.
+15 www.iasb.org/docs/projects/conv-ias37-ps.pdf.
+16 Business Combinations, International Financial Reporting Standard 3 de la IASB, Appendix A (Defined Terms),
+donde probable se define como more likely than not.
+11
+
+D) CLASIFICACIÓN DE LAS CONTINGENCIAS POR SU SIGNO
+A veces, se clasifica a las contingencias en:
+a) de ganancias, que implican aumentos del activo o reducciones del pasivo;
+b) de pérdidas, que corresponden al caso contrario.
+Esta clasificación es arbitraria, pues permite que para clasificar una contingencia se aplique más de
+un enfoque, como puede observarse en el siguiente ejemplo.
+Si una empresa tuviese un quebranto impositivo que la ley le permite imputar contra las ganancias
+fiscales de los siguientes cinco ejercicios:
+a) un contador podría decir que la empresa tiene un crédito pero que existe la contingencia (de
+pérdida) de que ese ente no obtenga ganancias impositivas futuras suficientes como para absorber el
+quebranto;
+b) otro podría ver la situación como una contingencia (de ganancia) de que la empresa genere
+ganancias impositivas suficientes para absorber el quebranto, y probablemente caracterizaría al crédito como
+contingente.
+A los fines prácticos, parece haber un acuerdo tácito en que a los efectos de determinar si los efectos
+de una contingencia deben ser reconocidos contablemente debe considerarse la probabilidad de que algo
+ocurra.
+En ejemplo precedente, la existencia o inexistencia de un activo contingente se evaluaría sobre la
+base de la probabilidad de que el quebranto pueda aplicarse contra las ganancias impositivas futuras.
+E) PROBLEMAS RELACIONADOS CON LAS ESTIMACIONES
+DE LOS EFECTOS DE LAS CONTINGENCIAS
+En la práctica, hay casos en que no puede obtenerse una estimación fiable:
+a) de la probabilidad de ocurrencia del hecho confirmatorio; o
+b) de sus efectos patrimoniales.
+Cuando no sea posible estimar el efecto monetario más probable de una contingencia pero sí su
+efecto mínimo, esta porción se considera fiable.
+F) TRATAMIENTO CONTABLE
+Ya hemos visto que sólo deben reconocerse activos y pasivos cuando:
+a) sus hechos generadores ya han ocurrido;
+b) es posible asignarles medidas contables confiables.
+No habiendo razones para obrar de otro modo, esta regla debería aplicarse también a los activos y
+pasivos contingentes.
+Por otra parte, el reconocimiento de activos o pasivos con motivo de la existencia de contingencias
+remotas sería:
+a) inconsistente con las caracterizaciones de esos conceptos, que ya hemos presentado;
+b) imprudente, porque induciría a los lectores de estados contables a suponer que tales contingencias
+tienen alguna probabilidad importante de concreción.
+12
+
+Por lo mismo, tampoco debería darse información sobre contingencias remotas en las notas a los
+estados contables.
+En consecuencia, consideramos adecuadas las siguientes reglas de contabilización de contingencias:
+a) las que superen el umbral establecido al efecto deberían:
+1) reconocerse en el período de su nacimiento, efectuando para ello las estimaciones que
+correspondiere;
+2) informarse en notas a los estados contables;
+b) las remotas no deberían dar lugar al reconocimiento de activos o pasivos ni exponerse en los
+estados contables;
+c) sobre las restantes, debería darse información adecuada en los estados contables.
+(cid:194) Nos referiremos al tipo de información a suministrar en Contabilidad superior.
+En nuestra opinión, los razonamientos precedentes valen tanto para las contingencias favorables
+como para las desfavorables, pues no existen razones valederas para que sea de otro modo, especialmente
+por el hecho de que (ya lo expusimos) una misma contingencia podría ser clasificada como de ganancia o de
+pérdida.
+Sin embargo, algunos emisores de NC:
+a) prohíben, en general, la contabilización de activos contingentes (aunque algunos lo aceptan
+cuando el correspondiente ingreso está virtualmente asegurado);
+b) contradictoriamente, aceptan el reconocimiento contable de créditos contingentes por los
+quebrantos impositivos cuyo aprovechamiento sea probable, aunque éste no esté asegurado.
+Para establecer la prohibición general de reconocer contingencias de ganancias, la FASB ha señalado
+que hacerlo sería reconocer un ingreso antes de su realización17. Este argumento no nos parece bueno
+porque (ya lo mencionamos) la realización no es un requisito para la aplicación del concepto de
+devengamiento.
+9,7. LOS HECHOS POSTERIORES AL CIERRE
+Después de la fecha de los estados contables pueden aparecer:
+a) hechos que brindan elementos de juicio adicionales sobre condiciones que ya existían a la fecha de
+los estados contables;
+b) hechos nuevos, que no se relacionan con situaciones existentes a la fecha de cierre.
+Para la fijación de un límite temporal para la consideración de estos hechos posteriores al cierre, hay
+acuerdo en tomar la fecha de emisión de los estados contables, pues:
+a) es razonable exigir que los responsables de ella consideren los acontecimientos ocurridos hasta ese
+momento;
+b) sería absurdo pedirles que también tomasen en cuenta sucesos que todavía no han ocurrido.
+No debe confundirse la emisión de los estados contables con su aprobación posterior, que
+normalmente está a cargo de otras personas, que no representan a los administradores sino a los propietarios
+del ente (o a los asociados a entidades sin fines de lucro):
+Por ejemplo: en una sociedad anónima argentina, la emisión de los estados contables compete al
+directorio y su aprobación a la asamblea de accionistas.
+17 FASB, Financial Accounting Research System 2003, John Wiley & Sons, 2003, capítulo Current Text (FARS03-CT),
+sección C59 (Contingencies), ¶118.
+13
+
+(cid:194) Digresiones terminológicas:
+1. Por lo expuesto, la expresión hechos posteriores al cierre es imprecisa. Lo que se quiere
+decir es hechos ocurridos entre la fecha de los estados contables y la de su emisión.
+2. Cuando la expresión hechos posteriores se emplea en una descripción del trabajo de
+auditoría, la fecha límite a la que se suele hacer referencia es la del informe profesional, pues sólo
+hasta tal momento puede el auditor recoger elementos de juicio que sustenten dicho informe.
+Los hechos que proveen evidencias adicionales que permitan perfeccionar la medición del
+patrimonio a la fecha a la que se refiere la información contable deben ser tenidos en cuenta.
+Ejemplos:
+a) la información sobre las cobranzas a clientes posteriores a la fecha de cierre debe ser empleada al
+evaluar la probabilidad de convertir sus saldos en efectivo;
+b) la resolución definitiva de un juicio en el cual el ente fue demandado por hechos ya ocurridos a la
+fecha de los estados contables, ayuda a lograr una medición contable más precisa del pasivo.
+Los hechos que no tengan relación alguna con las condiciones existentes a la fecha a la cual
+corresponde la información contable no deben afectar la medición contable del patrimonio a ese momento.
+Esta es una simple aplicación de la idea de que las variaciones patrimoniales deben computarse en el período
+en que se produce su hecho generador.
+Las notas a los estados contables deberían mencionar los hechos nuevos que sean muy importantes
+para las decisiones que deben tomar los usuarios de esos documentos.
+Ejemplos de hechos nuevos que deberían ser informados
+a) cualquier acontecimiento que ponga en peligro la continuidad del ente, como la destrucción de su
+única planta industrial a causa de un siniestro;
+b) importantes pérdidas o ganancias de tenencia atribuibles a hechos poco comunes (por ejemplo:
+una devaluación importante);
+c) una emisión importante de capital;
+d) una fusión con otra persona;
+e) una compra importante de activo fijo.
+No conocemos NC que contradigan las ideas que expusimos en esta sección.
+9,8. RESULTADOS DIFERIDOS
+Cuando las ganancias o pérdidas se determinan aplicando el concepto de mantenimiento del capital
+financiero, las variaciones del patrimonio que no se originen en aportes o retiros de los propietarios
+constituyen resultados de los períodos en que se produce su devengamiento.
+Sin embargo, hay NC que requieren o admiten que las ganancias o pérdidas ocasionadas por el
+mantenimiento de determinados activos o pasivos se excluyan de los resultados acumulados y se mantengan
+en rubros especiales que integran el patrimonio neto, hasta tanto se produzcan determinados acontecimientos.
+Son ejemplos habituales los diferimientos de:
+a) las ganancias de tenencia puestas en evidencia por un revalúo de bienes del activo fijo;
+b) las diferencias de conversión determinadas al convertir los estados contables de ciertos entes por
+métodos distintos al temporal o al de convertir-ajustar;
+c) las ganancias o pérdidas producidas por instrumentos financieros mantenidos como cobertura de
+transacciones futuras.
+Además de estar en conflicto con los principales MC, estos diferimientos crean un nuevo problema
+en los períodos de su desafectación total o parcial, pues:
+14
+
+a) si el importe desafectado se incluye en el resultado del período, éste incluirá una partida que no se
+devengó durante el mismo;
+b) si se lo incorpora directamente a los resultados acumulados, este elemento incluirá ganancias o
+pérdidas que nunca pasaron por ningún estado de resultados.
+Ya expusimos que, en nuestra opinión, los resultados diferidos no deberían existir.
+9,9. LOS AJUSTES DE RESULTADOS DE EJERCICIOS ANTERIORES
+El resultado de un período, determinado aplicando el concepto de ganancia basado en el
+mantenimiento del capital financiero, es igual a la diferencia entre el patrimonio inicial y el final, previa
+exclusión de los efectos de los aportes y retiros de los propietarios.
+Por lo tanto, si se detectasen errores en la determinación del patrimonio inicial o se cambiase el
+criterio para su medición contable, no correspondería distorsionar el resultado del período sino corregir
+el patrimonio inicial por medio del reconocimiento de un ajuste de resultados de ejercicios anteriores
+(AREA).
+Para la aplicación práctica del concepto precedente hay cierto consenso en que:
+a) deben computarse AREA cuando se corrigen errores o se cambian las normas o métodos contables
+para la medición del patrimonio;
+b) no debe hacérselo en los casos de meras correcciones de estimaciones.
+Sin embargo, las NC no siempre respetan estas ideas.
+A) CORRECCIONES DE ERRORES
+Salvo que tenga su origen en una transacción con los propietarios, un error en la medición del
+patrimonio al inicio del período implica el cómputo inadecuado de los resultados acumulados hasta ese
+momento, de modo que el camino para reparar el error es un AREA. En esto parece haber unanimidad y las
+NC de la IASB que admitían otras alternativas ya han perdido vigencia18.
+Los errores referidos se originan en el mal empleo de información disponible a la fecha de
+preparación de los estados contables y son generalmente:
+a) de cálculo;
+b) de mala aplicación de las NC vigentes o de los métodos para llevarlas a la práctica; o
+c) de falta de consideración de información existente.
+Si los estados contables contuviesen información correspondiente a períodos anteriores, sus cifras
+deberían modificarse para que ellas puedan ser válidamente comparadas con las del período corriente. El
+límite a la aplicación de esta idea es la eventual imposibilidad material de asignar los efectos de los errores a
+todos los ejercicios o períodos por los cuales se expone información comparativa.
+B) CORRECCIONES DE ESTIMACIONES
+A diferencia de las correcciones de errores, las de estimaciones resultan de la disponibilidad de
+nuevas evidencias (no disponibles a la fecha de preparación de la información contable anterior) que
+permiten lograr mayor precisión en la evaluación de los efectos económicos de determinados
+acontecimientos.
+Por lo tanto, estas correcciones tienen efectos futuros, no retroactivos.
+No conocemos NC que contradigan estas ideas.
+18 Accounting Policies, Changes in Accounting Estimates and Errors, International Accounting Standard 8 de la IASB,
+¶¶42-43.
+15
+
+C) CAMBIOS DE NORMAS Y MÉTODOS CONTABLES
+Aclaración: nos referimos a cambios de normas y métodos contables porque para aplicar una NC
+puede haber más de un método.
+Por ejemplo: la medición de los costos históricos de los bienes fungibles podría basarse en la
+aplicación de alguno de los métodos de asignación de mediciones a existencias y salidas:
+a) lo primero que entró es lo primero que sale (PEPS);
+b) lo último que entró es lo primero que sale (UEPS);
+c) lo que sale es una mezcla de bienes, por lo que su costeo se efectúa considerando un costo
+promedio ponderado.
+Estos cambios deben estar justificados, cosa que ocurre cuando resultan de:
+a) una imposición legal, que el ente debe acatar;
+b) una modificación en las NCP, que al emisor le conviene acatar para que el auditor de los estados
+contables no incluya una salvedad en su dictamen o emita una opinión adversa;
+c) la adopción de un procedimiento que –dentro de los admitidos por las NCL o NCP– se considera
+más adecuado para brindar información aproximada a la realidad.
+No es justificable (y es contrario a la ética) un cambio de normas hecho para manipular la
+información presentada en los estados contables19.
+Siendo estrictos, todos estos cambios deberían computarse con efecto retroactivo al comienzo del
+ejercicio en que se los contabiliza, para así atenuar su efecto sobre la comparabilidad de sucesivos juegos de
+estados contables.
+Sin embargo, algunas disposiciones modificatorias de NC requieren o admiten que las nuevas reglas
+se apliquen hacia el futuro, sin volver a medir el patrimonio inicial ni computar ningún AREA. Esto es
+razonable en tanto responda a razones de costo/beneficio y no a la mera conveniencia de los emisores de
+estados contables.
+Por ejemplo, si se modifican sustancialmente las normas sobre combinaciones de negocios, podría
+ser engorroso el cálculo de las medidas que habrían tenido (aplicando las nuevas normas) los activos y
+pasivos incorporados por un emisor de estados contables debido a combinaciones efectuadas en años
+anteriores. En un caso así, es razonable que se disponga que las nuevas normas se apliquen a las
+combinaciones efectuadas a partir del primer ejercicio de aplicación de las nuevas normas.
+Si los estados contables contuviesen información correspondiente a períodos anteriores, sus cifras
+deberían modificarse para hacerlas susceptibles de comparaciones válidas con las del período corriente.
+Mecambio S.A. es una empresa situada en un país donde las NC no admiten los ajustes por inflación
+y requieren que la medición contable de las mercaderías para la venta se haga al costo o al VR, lo que sea
+menor:
+Conceptos 2003 2004
+Existencia inicial
+• Costo UEPS 1.300 1.200
+• Costo PEPS 1.470 1.450
+Compras 8.500 8.200
+Existencia final
+19 Sobre las causas de los cambios contables en los Estados Unidos y las motivaciones de las empresas que los
+dispusieron (años atrás), ver:
+PINCUS, Morton y WASLEY, Charles, The incidence of Accounting Changes and Characteristics of Firms
+Making Accounting Changes, Accounting Horizons, junio de 1994, págs. 1-24.
+ZEFF, Stephen y DHARAN, Bala G, Readings & Notes on Financial Accounting, quinta edición, McGraw-
+Hill,1997, págs. 518-567.
+16
+
+• Costo UEPS 1.200
+• Costo PEPS 1.450 1.500
+• Valor recuperable 1.900 2.100
+En sus estados contables por el año 2003, la empresa aplicó el método UEPS y determinó el costo de
+lo vendido en $ 8.600, que se corresponden con el resultado de la cuenta que sigue:
+Existencia inicial 1.300
+Compras 8.500
+Subtotal 9.800
+Existencia final 1.200
+Costo de lo vendido 8.600
+En 2004, la empresa resolvió discontinuar el empleo de UEPS y comenzar con la utilización de
+PEPS. En consecuencia, modificó la medición inicial del costo de las existencias de este modo:
+Medición nueva (PEPS) 1.450
+Medición anterior (UEPS) 1.200
+AREA (incrementa los resultados acumulados) 250
+Consistentemente, el costo de las mercaderías vendidas en 2004 se mide en $ 8.150:
+Existencia inicial 1.450
+Compras 8.200
+Subtotal 9.650
+Existencia final 1.500
+Costo de lo vendido 8.150
+Adicionalmente, se recalcula el costo de lo vendido en 2003 para que quede medido sobre las
+mismas bases que el de 2004:
+Existencia inicial 1.470
+Compras 8.500
+Subtotal 9.970
+Existencia final 1.450
+Costo de lo vendido 8.520
+La cifra así obtenida ($ 8.520) se muestra como dato comparativo (para el ejercicio 2003) en el estado de
+resultados del ejercicio 2004. Los estados contables originales de 2003 no son modificados.
+El tratamiento de este tema en las NC es variado. Desde 2003, la NIC 8 estipula:
+a) que el cambio sólo debe ser hecho si es requerido por ley o por un ente emisor de NC o si resulta
+en una presentación más adecuada de los hechos y las transacciones en los estados contables20;
+b) en los casos de cambios hechos con motivo de la adopción de una NIC debe procederse así:
+1) si ésta contiene normas transitorias que cubran la cuestión, debe aplicárselas21;
+2) en el caso contrario, y siempre que el ajuste pueda ser determinado razonablemente, deben
+corregirse los resultados acumulados iniciales22 y adecuarse la información comparativa23.
+La RT 17 sigue el criterio general de requerir el cómputo de AREA por cambios en las normas y
+métodos contables, pero establece numerosas excepciones a su aplicación24.
+20 NIC 8, ¶14.
+21 NIC 8, ¶19(a).
+22 NIC 8, ¶¶19(b), 42, 46, 49, 52, 54 y56.
+23 NIC 8, ¶22. Los párrafos 23-27 se refieren a los casos en que la corrección retroactiva es impracticable.
+24 RT 17, segunda parte, sección 8.2.
+17
+
+Las NCP estadounidenses requieren que:
+a) los efectos de ciertos cambios se traten como un AREA;
+b) los de otros, se incluyan en el estado de resultados del período, sin corregirse los estados anteriores25.
+Sin embargo, es de esperar que, en el marco del proyecto de convergencia encarado por la IASB y la
+FASB, este organismo acepte el enfoque de la NIC 826.
+9,10. CAMBIOS DE SITUACIÓN DE ACTIVOS O PASIVOS
+Es posible que:
+a) en un momento determinado, un activo o un pasivo cambie de situación;
+b) a consecuencia de este hecho, el atributo (VC, costo histórico u otro) que se venía empleando para
+su medición contable primaria deje de ser el más adecuado a tal efecto.
+En estos casos, lo razonable es adoptar un nuevo criterio de medición del activo o del pasivo, basado
+en el atributo que haya pasado a ser más relevante.
+Ejemplo 1
+Una empresa que revende computadoras, retira a una de ellas de la venta y comienza a emplearla en
+sus oficinas administrativas. En este caso, debería:
+a) discontinuar la aplicación del criterio establecido para la medición contable de las mercaderías de
+reventa (sea: costo de reposición o VNR, el menor importe);
+b) comenzar a aplicar el establecido para los bienes de uso propio (sea: costo histórico menos
+depreciación del bien menos desvalorizaciones computadas como consecuencia de la comparación de la
+medición contable primaria de dichos bienes con su VR).
+Ejemplo 2
+Haciendo uso de una facultad establecida en las condiciones de emisión de un bono a largo plazo, el
+deudor resuelve pagarlo de inmediato. En este caso, debería:
+a) discontinuar la aplicación del criterio establecido para las deudas financieras que no se planea
+cancelar anticipadamente (sea: sumar la medición inicial del pasivo y los intereses devengados con la tasa
+original pactada y restar los pagos ya efectuados)27
+b) comenzar a aplicar el establecido para los pasivos que van a ser cancelados anticipadamente (sea:
+el VD de la deuda, calculado con la tasa de interés que el acreedor aceptaría para su pago adelantado).
+Estos casos son distintos a los considerados en el § 9,9,c), pues los cambios de normas y métodos
+contables allí referidos no obedecen a la modificación de la situación del objeto de medición.
+En general, podemos diferenciar dos situaciones.
+Si un activo o un pasivo pasa a una categoría para cuya medición contable deba emplearse un VC, un
+VPP, un VD o un costo de cancelación, la diferencia entre la medición nueva y la anterior (calculada a la
+fecha del cambio de situación) debería imputarse al resultado del ejercicio. Este es el único criterio
+compatible con el concepto de ganancia basado en el mantenimiento del capital financiero.
+En el caso del ejemplo 2, si la medida contable de la deuda bajase de $ 1.400 a $ 1.200, debería
+reconocerse una ganancia de $ 200.
+25 FARSO3-CT, sección A06 (Accounting Changes), ¶114 y sigts.
+26 Al respecto, ver Accounting Changes and Error Corrections, Proposed Statement of Financial Accounting Standards
+de la FASB, 2003. La FASB planea pronunciarse sobre el tema en el primer trimestre de 2005.
+27 Método de la tasa efectiva, también denominado del costo amortizado.
+18
+
+Inversamente, si un activo o un pasivo pasa de una categoría para cuya medición contable deba
+emplearse un VC, un VPP, un VD o un costo de cancelación a otra para cuya medición deban emplearse
+importes históricos, se considera aceptable:
+a) aplicar el criterio anterior hasta la fecha de cambio de categoría;
+b) considerar la medida contable a dicha fecha como una medición original a los fines de aplicar las
+NC correspondientes a la nueva categoría.
+Este criterio se sustenta:
+a) en todos los casos, en razones prácticas (se evita la reconstrucción de los importes históricos);
+b) en los casos en que el importe previo en libros pasa a considerarse un costo histórico, en el hecho
+de que (a la fecha del cambio de situación), dicho costo debería aproximarse al VC del bien.
+Si la computadora del ejemplo 1 tuviera que ser comprada, tendría un costo igual al que demandaría
+la reposición del bien ya existente, que es el importe por el cual estaba contabilizado el bien (hasta entonces
+destinado a la venta).
+Sólo hemos encontrado reglas generales como las que acabamos de presentar en la RT 1728. En otros
+juegos de NC, los criterios que subyacen en dichas reglas generales aparecen en algunas normas particulares
+aplicables a casos específicos de cambios de situación.
+9,11. LA CUESTIÓN DE LOS PERÍODOS INTERMEDIOS
+Cabe preguntarse si cuando se preparan estados contables a fechas distintas a las de cierre del
+ejercicio anual sería aceptable el empleo de criterios de medición diferenciados. Estas son algunas razones
+que justifican el interrogante:
+a) los ingresos de algunas empresas varían fuertemente entre períodos por motivos de estacionalidad
+(tales los casos de una heladería, un hotel situado en un lugar veraniego, una entidad que dicta cursos de
+capacitación, etcétera);
+b) en algunas industrias existen importantes costos fijos que se incurren en una época del año pero
+benefician las actividades de otros períodos (por ejemplo, las tareas de mantenimiento efectuadas previa
+detención de la actividad fabril);
+c) ciertos costos (o reducciones de ingresos) dependen de los ingresos acumulados durante un
+período (por ejemplo, las bonificaciones por cantidad concedidas a los clientes suelen basarse en las compras
+acumuladas por cada uno de ellos a lo largo de un semestre o un año);
+d) algunos costos son de difícil o costosa cuantificación a fechas intermedias (por ejemplo, el costo
+de las mercaderías vendidas cuando se lo determina a partir de inventarios físicos de las mercaderías);
+e) lo mismo ocurre con algunas pérdidas (por ejemplo, las que se producen en los supermercados por
+pequeños hurtos, para cuya cuantificación es necesaria la toma de un inventario físico al cierre de cada pe-
+ríodo).
+Para el tratamiento de la situación hay dos enfoques básicos. Uno consiste en considerar que cada
+subperíodo contable es una unidad independiente a ser tratada del mismo modo que un ejercicio completo.
+El otro enfoque trata a cada subperíodo como una parte integrante del ejercicio completo, lo que
+lleva a que ciertos costos sean prorrateados sobre la base de estimaciones relativas a lo que ocurrirá a lo largo
+del periodo mayor. Así, por ejemplo, determinados costos fijos incurridos durante un periodo de escasa
+actividad serían diferidos para su correlación con ingresos de períodos futuros.
+Supongamos que:
+a) La actividad de Estacional S.A. se refleja en las siguientes cifras de ventas y costos
+correspondientes a un ejercicio dado
+28 RT 17, segunda parte, sección 2.3.
+19
+
+Trimestre Ventas Costos fijos
+Primero 200 120
+Segundo 400 120
+Tercero 600 120
+Cuarto 800 120
+2.000 480
+b) la suma del costo de las mercaderías vendidas y de los otros costos variables es igual al 45% del
+precio de venta.
+c) los importes expuestos en el cuadro anterior coinciden con los presupuestados.
+Aplicando el primer enfoque, cada trimestre absorbería los costos determinados para el lapso:
+Conceptos Trimestre
+1 2 3 4 Año
+Ventas 200 400 600 800 2.000
+Costos variables (45%) 90 180 270 360 900
+Subtotal 110 220 330 440 1.100
+Costos fijos 120 120 120 120 480
+Resultado -10 100 210 320 620
+Si, en cambio, se aplicase el segundo enfoque:
+a) cada período debería absorber la porción de costos fijos resultante de aplicar a las ventas del lapso
+el porcentaje que resulta de relacionar el total de costos fijos y el total de ventas presupuestadas para el
+ejercicio que es:
+4.800 / 20.000 = 24%
+b) las diferencias entre los costos fijos incurridos y los aplicados se difieren hasta su posterior aplicación.
+Las cifras resultantes de aplicar este criterio son las siguientes:
+Conceptos Trimestre
+1 2 3 4 Año
+Ventas 200 400 600 800 2.000
+Costos variables (45%) 90 180 270 360 900
+Subtotal 110 220 330 440 1.100
+Costos fijos (24%) 48 96 144 192 480
+Resultado 62 124 186 248 620
+La evaluación de los costos fijos diferidos es:
+Conceptos Trimestre
+1 2 3 4
+Diferidos al inicio del trimestre 0 72 96 72
+Incurridos en el trimestre 120 120 120 120
+Absorbidos en el trimestre -48 -96 -144 -192
+Diferidos al final del trimestre 72 96 72 0
+Dados el concepto de devengamiento y las definiciones de activo y pasivo ya presentadas, hay
+consenso en considerar que el enfoque preferible es el primero. No conocemos NC que contradigan esta idea.
+En particular, y como señala la NIC 34:
+a) los ingresos que se reciben cíclica, estacional u ocasionalmente dentro de un ejercicio, no deben
+ser anticipados o diferidos a la fecha de un juego de estados contables intermedios si ello hubiera sido
+inadecuado al cierre del ejercicio;
+20
+
+b) la anticipación o el diferimiento de costos incurridos irregularmente durante el ejercicio sólo
+puede practicarse en los estados intermedios si es también adecuada a la fecha de cierre del ejercicio29.
+Si determinados costos benefician a más de un período, debería activárselos hasta su reconocimiento
+como gasto en los períodos beneficiados. Un ejemplo es el de los costos de mantenimiento con parada de
+planta que se realizan una vez por año.
+Inversamente, puede resultar prudente que las bonificaciones a clientes que se calculan a tasas
+crecientes se distribuyan equitativamente a lo largo de los períodos en que se acumulan, sin esperar a que se
+alcancen los límites de ventas que dan derecho a ellas.
+Bonifico S.A. otorga a sus clientes una bonificación del 10% sobre el importe de las ventas que
+supere (a lo largo de un semestre) el importe de $ 1.000.
+Durante el primer trimestre del año, Las Dunas S.A. efectúa compras por $ 900. Se espera que
+durante el segundo trimestre lo haga por $ 1.100.
+Si en el primer trimestre sólo se consideran las ventas acumuladas en ese período no se computaría
+en resultados ninguna bonificación. En el segundo trimestre, se reconocería como bonificación el 10% de las
+ventas reales del mismo en exceso de $ 100 (total del límite mínimo de $ 1.000 menos ventas reales del
+primer trimestre).
+Pero si en el primer trimestre se considerase la proyección de las ventas para todo el semestre, que es
+lo que nos parece más adecuado, debería reconocerse un pasivo de $ 45 por la parte proporcional de la
+bonificación total a otorgar por el semestre. Los cálculos son:
+• Total estimado de ventas del semestre:
+900 + 1.200 = 2.000
+• Total estimado de bonificaciones del semestre:
+10% de (2.000 - 1.000) = 100
+• Tasa estimada de las bonificaciones sobre las ventas totales:
+100 / 2.000 = 5%
+• Bonificaciones atribuibles a las ventas del primer trimestre:
+5% de 900 = 45
+Y esto es válido tanto en el caso de que ambos trimestres estén incluidos en el mismo ejercicio
+económico como en el contrario.
+Los problemas prácticos o de costo de obtención de la información no justifican el apartamiento al
+concepto de devengamiento. En todo caso, deberán ser superados mediante la realización de estimaciones
+razonables que se basen en métodos que aseguren, con un alto grado de confiabilidad, que de su aplicación
+no surgirán informaciones contables engañosas.
+9,12. APLICACIÓN DEL CONCEPTO DE SIGNIFICACIÓN
+En el § 2,5,a) expusimos que:
+a) hay consenso en considerar que una partida de información es significativa cuando su omisión,
+mala medición contable o inadecuada exposición tiene aptitud para motivar algún cambio en la decisión que
+podría tomar alguno de sus usuarios;
+29 Interim Financial Reporting, International Accounting Standard 34 de la IASB, ¶¶28, 37 y 39.
+21
+
+b) la exclusión de elementos no significativos no es un requisito sino una dispensa, tal como lo es
+una desviación no importante a una NC establecida.
+Para aplicar el concepto de significación, cabe considerar algunos de los requisitos de la información
+contable expuestos en el cap. 2. A partir de su análisis surgen conclusiones como las que siguen.
+Primera: dada su falta de pertinencia no es significativa la omisión o la presentación distorsionada de
+una información que no es de interés para los usuarios de los estados contables.
+Por ejemplo: la falta de información del detalle de cada bien integrante del rubro bienes de uso no es
+un problema significativo.
+Segunda: cuando el tratamiento correcto de una situación no mejora mucho la precisión de las
+mediciones y no se ve afectada la aproximación a la realidad, la aplicación de reglas distintas a las previstas
+por las NC no es un problema significativo.
+Hemos presentado ejemplos en el § 2,5,a).
+Tercera: es significativa cualquier desviación a las normas establecidas que afecte la comparabilidad
+de la información contable. Por esto, las NC suelen requerir la presentación de información sobre los
+cambios de normas y métodos contables que afecten la comparabilidad, con indicación de sus efectos sobre
+los principales componentes de los estados contables.
+Cuarta: en general, es significativo todo problema que enerve la utilidad de los estados contables.
+Esta primera aproximación al problema de la aplicación del concepto de significación no nos libera
+de la realización de algún tipo de evaluación cuantitativa que se base en el concepto general de que algo es
+importante cuando puede afectar la decisión de algún usuario de estados contables.
+Claro está que como el problema tiene que ver con decisiones que podrían ser tomadas por personas
+que son desconocidas por los preparadores de los estados contables y como tales decisiones están
+condicionadas por la conducta humana (que es imprevisible), no hay una solución matemática tipo aplicable
+a todo caso.
+Desde ya, no tendría sentido tratar de resolver el problema sobre la base exclusiva del importe en
+juego, pues la significación de éste sólo puede evaluarse a partir de su comparación con otros. Un error de un
+millón de pesos puede ser muy importante en una empresa muy pequeña y despreciable en otra.
+Lo que debería hacerse es estudiar el efecto del conjunto de desviaciones a las NC sobre los estados
+contables tomados como un todo, utilizando a tal efecto las herramientas de análisis que habitualmente
+emplean sus usuarios y que incluyen (pero no se limitan a) las relaciones entre:
+a) la ganancia bruta (ventas menos costo de lo vendido) y las ventas;
+b) la ganancia del período y el patrimonio invertido;
+c) el resultado generado por el activo y la medida contable de éste;
+d) el costo del pasivo y su importe;
+e) el activo corriente (efectivo y bienes convertibles en efectivo dentro del año de plazo) y el pasivo
+corriente (el que deberá ser cancelado dentro del mismo plazo);
+f) el patrimonio neto y el pasivo.
+(cid:194)Estos temas se tratan más detenidamente en Análisis de estados contables, tercera edición,
+La Ley, 2002.
+Para aplicar adecuadamente estas pautas de evaluación debe imaginarse el efecto de los problemas
+bajo consideración sobre la conducta de los usuarios de estados contables. Todo esto implica algún grado de
+subjetividad, pero peor sería no tener pauta alguna.
+Además, no debe considerarse el efecto del problema sobre una única relación, dado que su cifra
+base podría ser insignificante en sí misma.
+22
+
+Por lo tanto, no son racionales estas conclusiones de la Sexta Asamblea Nacional de Graduados en
+Ciencias Económicas (Buenos Aires, 1960) y la Sexta Conferencia Interamericana de Contabilidad
+(NuevaYork,1960):
+Desde luego que no existe una línea demarcatoria que fije los límites de lo que es y no es
+material y el contador debe aplicar su mejor criterio para resolverlo que corresponda en cada caso.
+Sin embargo, se puede afirmar que cuando el efecto que produce la falta de uniformidad, o cualquier
+causa, es del 5% o más del resultado de un ejercicio, el efecto es material.
+Estos son datos referidos a los resultados contables de Signi S.A. a una fecha dada:
+Conceptos Patrimonio Resultado
+Cifras que deberían haberse
+expuesto de acuerdo con la NC 10.000 50
+Efecto de un error cometido 10 10
+Cifras que aparecen
+en los estados contables 10.010 60
+El efecto del error ($ 10) es el 20% del resultado del ejercicio ($ 50), de modo que la aplicación de la
+regla del 5% llevaría a la conclusión errónea de que el problema es significativo. Sin embargo, poca
+diferencia hace para cualquier usuario de los estados contables que la empresa haya ganado $ 50 o $ 60
+cuando ambas cifras representan menos del 1% del patrimonio.
+La posibilidad de desviarse de la aplicación estricta de NC por falta de significación no ha sido
+contradicha por NC alguna que conozcamos.
+En particular, la NIC 3430 y la RT 1731 aclaran que en los casos de estados contables intermedios, la
+evaluación de la significación:
+a) debe hacerse con referencia a su contenido y no al que podrían tener los estados contables del
+correspondiente ejercicio completo;
+b) debe dar consideración al hecho de que las mediciones presentadas en los estados contables
+intermedios pueden basarse en estimaciones en mayor medida que las mediciones presentadas en los estados
+contables de ejercicio.
+Para finalizar, señalemos que la incorporación intencional de errores no significativos con el
+propósito de manejar los resultados contables es contraria a la ética y puede ser ilegal en algunos países32.
+9,13. RESUMEN
+Las reglas básicas a seguir para reconocer objetos en la contabilidad, asignarles medidas,
+modificarlos y removerlos fueron resumidos en el § 9,2.
+Deben reconocerse los elementos (activos, pasivos, etcétera) que, considerando la realidad
+económica y no sólo las formas jurídicas de las transacciones:
+a) puedan afectar los futuros pagos que los inversores y acreedores recibirán por sus créditos o
+participaciones o por la venta de ellos;
+b) sean susceptibles de medición objetiva, verificable por terceros.
+30 NIC 34, ¶23.
+31 RT 17, segunda parte, ¶2.5.
+32 En los Estados Unidos, el tema preocupa a la SEC, que ha difundido extensas guías para la aplicación del concepto de
+significación por parte de emisores y auditores. Ver:
+Securities and Exchange Commission, Codification of Staff Accounting Bulletins, tópico 1 (Financial
+Statements), sección M (Materiality).
+GRANT, C. Terry; DEPREE Jr., Chauncey M. y GRANT, Gerry H., Earnings Management and the Abuse of
+Materiality, Journal of Accountancy, septiembre de 2000, págs. 41-44.
+23
+
+Deben removerse los objetos que hayan perdido dicha aptitud.
+Los criterios de reconocimiento y baja contable deben aplicarse sin variaciones a lo largo del tiempo,
+salvo cuando el cambio pueda justificarse por la mejora de la calidad de la información contable o por la
+necesidad de aplicar una nueva norma.
+La significación no es una condición para el reconocimiento contable.
+Los conceptos de activo y pasivo deben tenerse especialmente presentes, debido a que, en virtud de
+las relaciones existentes entre los objetos de medición contable:
+a) el reconocimiento de un activo o un pasivo suele implicar el de otro objeto de medición;
+b) la gran mayoría de las variaciones patrimoniales resultan de la aparición, cambio de valor o de-
+saparición de activos o pasivos
+El hecho de que un elemento no se reconozca contablemente por la imposibilidad de asignarle alguna
+medición confiable debería ser informado en los estados contables, pero esto no es habitual.
+La medición de los objetos reconocidos en la contabilidad debe resultar en información que:
+a) ayude a evaluar la situación y evolución patrimonial y financiera del ente emisor y a comprender
+las causas de los cambios operados en ellas;
+b) guarde una correspondencia razonable con los fenómenos que pretende describir, considerando la
+sustancia económica de las operaciones y no sólo su forma;
+c) no esté afectada por errores u omisiones importantes;
+d) sea objetiva y, por ende, verificable;
+e) pueda ser comparada, por lo que:
+1) las transacciones similares deberían contabilizarse con las mismas reglas;
+2) a los bienes de naturaleza similar debería aplicárseles el mismo criterio básico de
+medición contable primaria;
+3) los criterios de medición deben aplicarse sin variaciones a lo largo del tiempo, salvo
+cuando el cambio pueda justificarse por la mejora de la calidad de la información contable o por la necesidad
+de dar cumplimiento a una nueva NC.
+No deben reemplazarse mediciones contables objetivas por otras que no lo sean.
+No debe usarse la prudencia como excusa para asignar menores medidas a los patrimonios.
+En los procesos de medición contable hay que aplicar:
+a) en general, criterios de asignación de medidas basados en algún atributo relevante de los activos o
+de los pasivos y una unidad de medida;
+b) en el caso de los resultados acumulados y del período, algún concepto de mantenimiento del
+capital y, si se computase un interés propio, algún criterio para su imputación al patrimonio.
+Las variaciones patrimoniales deben contabilizarse en los períodos en que se generan, sin entrar a
+considerar si han afectado los fondos del ente (concepto de devengamiento). Para aplicar esta idea debe
+definirse el período al cual corresponde o compete cada resultado y para esto debe identificarse cuál es su
+hecho generador.
+Respecto de determinados hechos, puede existir más de una visión en cuanto a si son generadores de
+variaciones patrimoniales o no lo son. Ocurre, por ejemplo, con los cambios en los VC.
+Un resultado está realizado cuando proviene de transacciones con terceros, cosa que sucede cuando
+la operación que lo origina queda perfeccionada desde el punto de vista de la legislación o prácticas
+comerciales aplicables.
+Todos los resultados realizados están devengados (en el período de realización o en alguno anterior),
+pero no todos los resultados devengados están realizados.
+En general, se considera que la existencia o la medición contable de un activo o de un pasivo es
+contingente cuando depende de que se concreten (o no) uno o más hechos futuros e inciertos a la fecha de la
+medición. Algunas NC:
+a) requieren el reconocimiento contable de los pasivos que probablemente generen salidas de fondos
+(y cuya medición contable pueda efectuarse con fiabilidad); pero
+b) sólo admiten la contabilización de algunos activos contingentes de concreción probable.
+24
+
+En algunas NC, la idea de concreción probable de una contingencia ha sido vinculada con un grado
+de probabilidad cercano a la certeza. Actualmente, parece ganar terreno la idea de que basta una probabilidad
+superior al 50%.
+Las contingencias remotas no deberían dar lugar al reconocimiento de activos o pasivos ni a su
+exposición en los estados contables.
+Entre la fecha a que se refieren los estados contables y la de su emisión suceden hechos que afectan
+patrimonialmente al ente. Por aplicación del concepto de devengamiento, los que brindan elementos de juicio
+adicionales sobre condiciones que ya existían a la fecha de los estados contables y que afectan las
+estimaciones que son necesarias para su preparación, deben ser tenidos en cuenta para perfeccionar las
+medidas presentadas en tales estados. Los hechos nuevos no relacionados con situaciones existentes a la
+fecha de cierre no deben ser contabilizados, pero si fueran importantes deberían ser informados en los
+estados contables.
+El diferimiento de resultados devengados es irrazonable, pero está previsto por algunas NC.
+Deben reconocerse AREA cuando se detectan errores en la medición del patrimonio inicial o se
+cambia el criterio para su cuantificación pero no cuando se corrigen estimaciones contables.
+Si un activo o un pasivo pasa a una categoría para cuya medición contable deba emplearse un VC, un
+VPP, un VD o un costo de cancelación, la diferencia entre la medición nueva y la anterior (calculada a la
+fecha del cambio de situación) debería imputarse al resultado del ejercicio.
+Si un activo o un pasivo pasa de una categoría para cuya medición contable deba emplearse un VC,
+un VPP, un VD o un costo de cancelación a otra para cuya medición deban emplearse importes históricos, se
+considera aceptable mantener la medición anterior y tomarla como medición original a los fines de aplicar
+las NC correspondientes a la nueva categoría.
+Por aplicación del concepto de devengamiento y de las definiciones de activo y pasivo aceptadas por
+las principales NC, hay consenso en considerar que los estados contables por períodos intermedios deberían
+prepararse usando los mismos criterios utilizados para los estados contables de ejercicio.
+Se consideran significativas las partidas o informaciones cuya omisión o inadecuada exposición
+podría provocar un cambio sobre las decisiones a tomar por los usuarios de los estados contables. Para
+imaginar el efecto de cada situación sobre tales decisiones, la información contable debe tomarse en su
+conjunto; no es razonable establecer conclusiones generales a partir de relaciones aisladas o, peor aún,
+considerando exclusivamente el importe en juego. En este marco:
+a) no es significativa la omisión o la presentación distorsionada de una información que no es de
+interés para los usuarios de los estados contables;
+b) la aplicación de reglas distintas a las previstas por las NC no es un problema significativo si no
+afecta la aproximación a la realidad;
+c) es significativa cualquier desviación a las normas establecidas que afecta la comparabilidad de la
+información contable;
+d) en general, es significativo todo problema que enerve la utilidad de los estados contables.
+Las reglas presentadas en este resumen no siempre coinciden con las establecidas en las NC.
+9,14. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para que una aseveración sea
+correcta debe serlo totalmente.
+a) Toda vez que algo califique como activo, debe reconocérselo como tal.
+b) La contabilidad sólo debe reconocer los objetos cuya medición contable sea significativa.
+c) Para la aplicación del concepto de devengamiento es fundamental identificar los períodos en que
+se producen intercambios con terceros
+d) No debe usarse la prudencia como excusa para la asignación de una medida contable defectuosa al
+patrimonio.
+e) Todo costo debe ser reconocido como gasto en el período en que es conocido.
+f) Toda pérdida debe ser reconocida como tal en el período en que se origina.
+g) Es indiscutible que las ganancias y pérdidas devengadas en un ejercicio integran el resultado del
+mismo, siendo éste el tratamiento previsto por las principales NC,
+25
+
+h) La RT 17 considera que las correcciones de errores y estimaciones relacionadas con la
+preparación de los estados contables anteriores constituyen AREA.
+i) Los efectos de cambios retroactivos en la aplicación de los NC deben ser considerados como
+AREA.
+2. Indique con qué requisito de la información contable se relaciona la regla de que a los bienes de
+naturaleza similar debe aplicárseles el mismo criterio primario de medición.
+3. Enuncie ejemplos de activos, pasivos o variaciones patrimoniales que podrían no reconocerse por
+problemas de objetividad.
+4. Enuncie el concepto de devengamiento.
+5. Indique cuál es la condición para que un costo pueda mantenerse como activo del ente.
+6. Resuma las reglas para la contabilización de contingencias que el autor considera adecuadas.
+7. Explique a qué se suele denominar hechos posteriores al cierre y qué tipos de hechos de esta
+índole existen.
+8. Enumere ejemplos de diferimientos de resultados devengados previstos por las NC.
+9. Enuncie en qué casos deberían computarse AREA.
+10. Tipifique los errores contables.
+11. Explique cuál es la idea básica con respecto a la significación de las desviaciones a las NC
+establecidas.
+12. A continuación se enuncian diversas operaciones efectuadas por Tertulia S. A. en un país donde
+no existe el IVA y los precios y las tasas de interés permanecen estables. En relación con cada transacción,
+indique qué importes deberían imputarse al resultado del ejercicio 2004:
+a) Venta de bienes por $ 6.000 originada en un pedido del cliente recibido el 15/12/04, facturada el
+29/12/04, puesta a disposición del cliente el 3/05/05 y cobrada el 7/05/05.
+b) Venta por $ 5.000 correspondiente a un pedido del cliente del 20/12/04, cobrada por adelantado el
+23/12/04, facturada el 31/12/04, producida el 7/05/05 y entregada el 8/05/05.
+c) Venta de $ 4.000 correspondiente a un pedido verbal del cliente recibido el 20/12/04, entregada el
+29/12/04, facturada el 2/05/05 y cobrada el 8/05/05.
+d) Venta de $ 3.000 correspondiente a un pedido del cliente del 30/11/04, entregada y facturada el
+16/12/04, por la que en esa fecha se recibió un pagaré de $ 3.050 con vencimiento el 15/05/05, que incluye
+$ 50 de intereses.
+e) Entrada de efectivo de $ 2.000 el 29/12/04 por el alquiler de un inmueble por el mes de enero de 2005.
+f) Entrada de dinero de $ 1.000 el 3/01/05 por el alquiler de un inmueble por el mes de
+diciembre de 2004.
+13. Durante el ejercicio económico anual terminado el 30/06/04 por Ruper S. A. se produjeron estos
+hechos:
+a) El cliente Singui S. A., que había suspendido sus pagos el 28/06/03 solicitó convocatoria de
+acreedores el 11/07/03. Se estima que su saldo ($ 9.000) no podrá ser cobrado. En el balance al 30/06/03 su
+cuenta se computó por la suma nominal a cobrar.
+b) El cliente Ganadera S. A. perdió la mayoría de sus activos como consecuencia de inundaciones
+que en junio de 2004 afectaron sus campos. Debido a ello, su saldo de $ 4.000 se considera de improbable
+cobranza.
+c) Se resolvió un juicio entablado en diciembre de 1999 por Demandante S. A., que acusó a la
+empresa del uso indebido de una marca. Ruper perdió el juicio y en julio de 2004 debió pagar $ 14.000 en
+concepto de indemnización y gastos diversos. En el balance al 30/06/03 se había analizado la situación con
+los elementos por entonces disponibles y se había considerado prudente registrar un pasivo de $ 8.000.
+d) Se incendió una máquina cuyo costo original había sido de $ 19.000. Al momento del siniestro la
+máquina se encontraba depreciada en un 50%. No existen seguros.
+Analice cada una de las situaciones descriptas e identifique las que, a su juicio, deban dar lugar al
+cómputo de AREA.
+14. Gales S. A. está preparando sus estados contables por el ejercicio económico terminado el
+31/5/04. Entre esa fecha y la de emisión de los correspondientes estados contables se produjeron estos
+hechos:
+26
+
+a) El cliente Riso S. A. suspendió sus pagos el 1/06/ 04 y solicitó convocatoria de acreedores el
+24/06/04. Se estima que su saldo ($ 7.000) no podrá ser cobrado.
+b) El cliente Ganadera S. A. perdió la mayoría de sus activos como consecuencia de inundaciones
+que en junio de 2004 afectaron sus campos. Debido a ello, la cobranza de su saldo de $ 6.000 se considera
+altamente improbable.
+c) El 8/06/04 se produjo una modificación de los tipos de cambio en vigencia que incrementó de
+40.000 a 48.722 la medición en pesos de la única deuda en moneda extranjera. Esta fue pagada el 31/07/04
+mediante el desembolso de 49.764 pesos.
+Clasifique los hechos posteriores arriba presentados e indique cómo deberían ser tratados en los
+estados contables de Gales S. A. al 31/5 /04.
+9,15. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y EJERCICIOS
+1. a) Incorrecto. También se requiere que su medición pueda hacerse con fiabilidad.
+b) Incorrecto. La contabilidad puede (pero no está obligada a) excluir elementos no significativos.
+c) Incorrecto. Lo fundamental es definir el hecho generador de la variación patrimonial. Hay
+resultados que no provienen de intercambios con terceros pero pueden considerarse devengados.
+d) Correcto.
+e) Incorrecto. El costo podría estar vinculado con ingresos futuros.
+f) Correcto.
+g) Incorrecto. Hay NC que requieren el diferimiento de ciertas ganancias y pérdidas devengadas.
+h) Incorrecto. Las correcciones de estimaciones deben asignarse al resultado del período en que se
+las efectúa.
+i) Correcto, en nuestra opinión, pero todavía hay NC que prevén otros tratamientos.
+2. Con el de comparabilidad.
+3. Tres ejemplos son:
+a) la plusvalía (valor llave) generada por una empresa;
+b) los cambios de las plusvalías de empresas adquiridas;
+c) los desembolsos a efectuar con motivo de fallos judiciales adversos y altamente probables,
+cuando su importe se desconoce y no existen bases fiables para su determinación.
+4. Los resultados deben contabilizarse en los períodos en que se generan, sin entrar a considerar si
+han afectado los fondos del ente
+5. El costo debe tener aptitud para generar (por sí o en combinación con otros bienes) un flujo
+positivo de dinero.
+6. Las contingencias cuya concreción sea probable y cuya medición pueda hacerse con fiabilidad
+deberían contabilizarse en el período de su nacimiento. Las remotas no deberían contabilizarse ni exponerse
+en los estados contables. Las restantes deberían informarse en los estados contables.
+7. Son hechos posteriores al cierre los ocurridos entre la fecha de los estados contables y la de su
+emisión. Los hay de dos tipos:
+a) los confirmatorios de situaciones ya existentes a la fecha de cierre, que deben ser considerados
+para perfeccionar las mediciones contables efectuadas a ella;
+b) los completamente nuevos, que deben registrarse en el ejercicio en que se producen, aunque
+deben ser informados si fuesen importantes.
+8. Algunas NC requieren el diferimiento de:
+a) las ganancias de tenencia puestas en evidencia por revalúos de bienes del activo fijo;
+b) las diferencias de conversión determinadas al convertir los estados contables de ciertos entes
+por métodos distintos al temporal o al de convertir-ajustar;
+c) las ganancias o pérdidas producidas por instrumentos financieros mantenidos como cobertura
+de transacciones futuras.
+9. Deberían computarse AREA en los casos de cambios retroactivos en la aplicación de NC y de
+correcciones de errores cometidos en la preparación de estados contables anteriores.
+10. Los errores contables son generalmente:
+a) de cálculo;
+b) de mala aplicación de las NC vigentes o de los métodos para llevarlas a la práctica; o
+c) de falta de consideración de información existente.
+27
+
+11. Se consideran significativas las desviaciones que podrían provocar cambios en las decisiones de
+los usuarios de los estados contables.
+12. a) Ningún importe, pues el hecho sustancial (la puesta a disposición del cliente) es de 2005.
+b) Ningún importe. Los $ 5.000 no son resultado del ejercicio pues la producción y la entrega
+tuvieron lugar en 2005.
+c) $ 4.000 (y su costo), pues tanto la venta como la entrega se produjeron en 2004.
+d) Son atribuibles al ejercicio 2004 los $ 3.000 correspondientes a la venta (entregada en 2004), el
+costo de la mercadería vendida y los intereses devengados entre el 16 y el 31/12/04 que suman $ 24,9033.
+e) Ningún importe, porque el alquiler se devenga en enero de 2005. Al 31/12/04 sólo existe un
+cobro anticipado que debe ser tratado como un pasivo en especie.
+f) $ 1.000 (y cualquier costo relacionado), pues el alquiler se devenga en diciembre de 2004. Al
+31/12/04 hay una cuenta por cobrar que se cancela el 3/01 /05.
+13. a) Al 30/06/03, la incobrabilidad del crédito contra Singui era ya evidente, de modo que debió ser
+considerada en los estados contables a esa fecha. Por lo tanto, en 2004 debe computarse un AREA.
+b) El hecho generador de la incobrabilidad del crédito contra Ganadera es la inundación, que se
+produjo durante el ejercicio 2004. Por lo tanto, es un resultado de este ejercicio y no debe computarse ningún
+AREA.
+c) En el caso hay una corrección de estimación, de modo que no corresponde computar ningún
+AREA.
+d) No corresponde computar ningún AREA sino una pérdida del ejercicio 2004, ya que es en éste
+que se produjo el siniestro.
+14. Si la cesación de pagos se produjo el 1/06/04, debe estar confirmando una situación existente al
+31/5/04, de modo que este hecho debe considerarse para efectuar la medición contable del crédito contra
+Riso.
+Los restantes hechos son nuevos, de modo que deben incidir en el resultado del ejercicio iniciado el
+1/06/04. Si las sumas en juego fueren importantes, correspondería exponer los efectos de estos hechos en
+notas a los estados contables.
+33 Si se los prorratease linealmente, su importe sería $ 25,00.
+28
+
+CAPÍTULO 10. APLICACIONES DEL CONCEPTO DE DEVENGAMIENTO
+10,1. INTRODUCCIÓN
+En este capítulo presentamos consideraciones generales sobre la aplicación del concepto de
+devengamiento y de los criterios generales de reconocimiento y medición contable (expuestos en el capítulo
+anterior) a las principales transacciones y hechos que afectan patrimonialmente a los entes. Al desarrollar
+estas ideas:
+a) no intentaremos cubrir:
+1) todas las situaciones que la práctica presenta;
+2) cuestiones de detalle, como la descripción pormenorizada de los métodos utilizables para
+aplicar los conceptos enunciados;
+b) no nos referiremos:
+1) a la cuestión de la unidad de medida (que hemos tratado en el cap. 8) porque es
+independiente de la de los criterios de reconocimiento y medición contable (éstos pueden aplicarse con
+ajustes por inflación o sin ellos);
+2) a las comparaciones entre las medidas primarias de los activos (y pasivos) y sus
+respectivos VR (o costos de cancelación) porque –para esta obra– consideramos suficiente lo expuesto en el
+cap. 7;
+c) supondremos que, de acuerdo con nuestras preferencias y con lo que ocurre en la práctica:
+1) no se computa ningún interés sobre el capital propio;
+2) para la medición del resultado se aplica el concepto financiero de mantenimiento de capital.
+(cid:194) Las cuestiones de registración contable se tratan en Contabilidad básica, cuarta edición,
+La Ley, 2003.
+Las cuestiones conceptuales de detalle y las correspondientes NC internacionales, argentinas
+y estadounidenses se tratarán en la quinta edición de Contabilidad Superior, que esperamos ver
+publicada en 2005.
+10,2. APORTES DE LOS PROPIETARIOS
+Generalmente, los aportes de los propietarios de los entes con fines de lucro implican
+incorporaciones de activos (dinero o el derecho de recibir dinero, bienes o servicios), de modo que los
+primeros deberían ser contabilizados cuando se den las condiciones para el reconocimiento de los segundos.
+Si los aportes consistiesen en la capitalización de deudas, el aumento patrimonial debería ser
+reconocido cuando el ente haya quedado liberado de esas obligaciones, que por lo tanto deberán darse de
+baja.
+En general, los aportes deben contabilizarse en las fechas en que los propietarios toman los
+correspondientes compromisos.
+Su medición contable debería basarse en los VC de los activos aportados o en los costos de
+cancelación de los pasivos capitalizados, pues son tales atributos los que definen la dimensión del aporte.
+10,3. ADQUISICIONES DE BIENES O SERVICIOS EN GENERAL
+Los bienes o servicios adquiridos deberían:
+a) reconocerse junto con la obligación asumida con sus proveedores (o con la salida de efectivo, si se
+adquiriesen al contado);
+b) medirse inicialmente a sus VC, que generalmente coinciden con sus costos o son cercanos a éstos.
+Los costos de los bienes fácilmente comercializables adquiridos para su reventa superan a sus VC
+(dados por sus VNR) cuando existen precios diferenciados para las compras y las ventas o comisiones a ser
+pagadas por esas transacciones. En estos casos, debería reconocerse una pérdida por la diferencia entre el
+
+costo y el VNR de los bienes. Sin embargo, es frecuente que estos bienes sean incorporados al costo y que el
+reconocimiento de la pérdida mencionada se difiera hasta que la realización de la primera medición contable
+posterior a la compra.
+Las deudas resultantes de la adquisición deberían medirse por la suma que debería haberse pagado al
+contado para no asumir pasivo alguno. Sin embargo, hay NC que admiten o requieren que el pasivo inicial (y
+la porción relacionada del costo de los bienes adquiridos) se mida sobre la base del “precio” facturado, que a
+veces incluye componentes financieros implícitos.
+(cid:194) Nos referimos a esta cuestión en el § 8,4,a).
+10,4. DONACIONES
+Las donaciones recibidas deberían reconocerse cuando, debido a la voluntad del donante, el
+beneficiario obtiene un activo o ve cancelado o disminuido un pasivo.
+Los bienes o servicios recibidos en donación deberían ingresarse a sus VC.
+Cuando la donación consiste en la asunción de un pasivo del beneficiario, debería medírsela sobre la
+base de su costo de cancelación1.
+En la contabilidad del donante, la donación debería reconocerse cuando se toma el compromiso del
+caso. En nuestra opinión, su mejor medición es la que se efectúa considerando, a la fecha de la donación, el
+VC de los bienes entregados o el costo de cancelación de los pasivos asumidos.
+No conocemos NC que contradigan los criterios expuestos en esta sección.
+10,5. CANJES
+En general, la medición original de los bienes o servicios recibidos en canje debería hacerse por los
+mismos importes que si se los hubiese adquirido. Simultáneamente, debería reconocerse un resultado por la
+diferencia entre dicha medida y:
+a) el VNR de los bienes o servicios entregados (el neto que se habría obtenido si se los hubiera
+vendido); más (menos)2;
+b) el efectivo entregado (recibido) o a entregar (a recibir) para liquidar la transacción (si hubiere
+financiación deberían excluirse intereses explícitos o implícitos contenidos en las sumas a pagar o percibir en
+el futuro).
+Hay quienes piensan que esta regla no debería aplicarse cuando:
+a) un bien se canjea por otro que tiene un valor equivalente; y
+b) las NC requieren que este tipo de bienes se midan sobra la base de su costo (menos depreciaciones
+y desvalorizaciones que correspondiere computar).
+Para tales casos, y de acuerdo con esta línea de pensamiento:
+a) el canje no constituiría la culminación de un proceso de generación de ganancias, por lo que no
+debería reconocerse ningún resultado;
+b) el bien recibido debería ingresarse por un importe igual a la medida contable del bien entregado
+más (menos) el efectivo entregado (o recibido) o el VD de la suma a pagar (o a recibir) con motivo del canje.
+Sin embargo, no nos parece razonable que disponiéndose de un VC objetivo y existiendo una
+transacción que convierte al resultado de tenencia en realizado se adopte un criterio tan conservador.
+1 Sobre la aplicación de estas ideas generales, ver WESTWOOD, Mark y MACKENZIE, April (autores principales),
+Accounting by Recipients for Non-Reciprocal Transfers, Excluding Contributions by Owners, IASC, 1999. Se trata de
+un informe preparado por el grupo G4+1.
+2 En el caso de entrega de bienes, por separado debería reconocerse una ganancia o una pérdida por la diferencia entre
+su VNR y su medida contable anterior.
+30
+
+No obstante, la idea que criticamos aparece en algunas NC, con variantes en cuanto a las condiciones
+que deberían darse para su aplicación.
+Así, las NCP estadounidenses disponen que no se reconozca resultado alguno cuando se truequen:
+a) un bien mantenido para su venta por otro a ser vendido en la misma línea, para facilitar las ventas
+a clientes distintos a las partes que intervienen en el intercambio;
+b) un activo productivo que no se mantiene para la venta en el curso ordinario de los negocios por
+otro activo de un interés equivalente para la misma línea de negocios3.
+Suponemos que la aplicación de la regla excepcional al caso a) deviene del hecho de que las NCP
+estadounidenses disponen que las mercaderías para la venta deben medirse aplicando la regla costo o
+mercado el menor. Si la medición contable primaria de esos bienes se efectuase a sus costos de reposición, la
+excepción carecería de sentido.
+Para la IASB, el criterio bajo estudio debe aplicarse sólo al caso de los bienes de uso (propiedad,
+planta y equipo). La NIC 16 anterior a 2003 requería su empleo cuando uno de esos bienes se trocaba por:
+a) otro bien similar a ser empleado en la misma línea de negocios y con un valor razonable similar; o
+b) una participación en otro bien similar4.
+Actualmente, la aplicación de dicho criterio está limitado a los casos en que la transacción de
+intercambio carece de sustancia comercial5. Para la IASB, una transacción tiene tal sustancia cuando:
+a) los riesgos, importes y momentos de los flujos de fondos que producirá el activo recibido defieren
+de los del activo transferido; o
+b) el intercambio modifica el valor específico para el ente de la porción de sus operaciones afectadas
+por la transacción; y
+c) la diferencia indicada en a) o b) es importante en relación con el VC de los activos canjeados6.
+La RT 17 adoptó uno de los criterios de la NIC 16 anterior, al establecer:
+Cuando se truequen bienes de uso que tengan una utilización similar en una misma actividad
+y sus costos de reposición sean similares, no se reconocerán resultados y la medición original de los
+bienes incorporados se hará al importe de la medición contable del activo entregado7.
+10,6. COMPRA O PRODUCCIÓN PARA LAVENTA
+A) CASO GENERAL
+En las empresas con actividad comercial o industrial, el proceso de generación de ganancias está
+integrado –principalmente– por las siguientes etapas:
+a) en la actividad comercial: compra de los bienes (mercaderías de reventa);
+b) en la industrial:
+1) compra de materias primas, materiales y otros insumos (incluyendo el trabajo de las
+personas);
+2) almacenamiento de los insumos físicos (materias primas, materiales);
+3) transformación de ellos en productos terminados;
+c) en ambas:
+3 Financial Accounting Standards Board, Financial Accounting Research System 2003, John Wiley & Sons, 2003,
+capítulo Current Text (FARSO3-CT), sección N35 (Nonmonetary Transactions), ¶108.
+4 Property, Plant and Equipment, International Accounting Standard 16 (revised 1998) del IASC, ¶22.
+5 Property, Plant and Equipment, International Accounting Standard 16 de la IASB, ¶124.
+6 Ibídem, ¶25.
+7 Normas contables profesionales: desarrollo de cuestiones de aplicación general, resolución técnica 17 de la
+FACPCE, segunda parte, sección 4.2.4. La norma omite mencionar la posibilidad de que la diferencia de valores entre
+los bienes trocados se compense en efectivo o mediante la creación de un instrumento financiero.
+31
+
+1) almacenamiento de los bienes disponibles para la venta;
+2) venta;
+3) expedición;
+4) entrega;
+5) cobranza (o venta de los instrumentos financieros que se hubieren recibido con motivo de
+la venta).
+Hay consenso en considerar que la ganancia debería reconocerse aplicando el criterio de realización,
+a cuyo efecto debe considerarse el momento en que la operación queda perfeccionada desde el punto de vista
+legal y de las prácticas comerciales, que es:
+a) el de la entrega de los bienes al comprador; o
+b) el de la puesta de la mercadería a su disposición, si esta modalidad de entrega constase en un
+contrato, ya que el momento del reconocimiento de la variación patrimonial del vendedor no tiene porqué ser
+afectado por la eventual demora del comprador de retirar los bienes;
+La NIC 18 ha sistematizado las condiciones que deben cumplirse para reconocer ingresos
+provenientes de la venta de mercaderías, de este modo:
+a) se han transferido al comprador los riesgos y ventajas inherentes a la propiedad de las mercaderías;
+b) el vendedor no retiene para sí ninguna implicación en la gestión corriente de las mercaderías
+vendidas ni el control efectivo sobre ellas;
+c) el importe del ingreso puede ser medido fiablemente;
+d) es probable que los beneficios económicos asociados con la transacción fluyan hacia la empresa; y
+e) los costos ya incurridos o a ser incurridos en relación con la transacción pueden ser medidos
+fiablemente8.
+Ejemplo de costos del tipo recién indicado: los de las reparaciones que deban efectuarse durante un
+período de garantía contra defectos del producto vendidos.
+La medición contable inicial de las mercaderías de reventa, materias primas y materiales debería
+hacerse a su costo (correspondiente a operaciones de contado), que es representativo de su VC a la fecha de
+incorporación de los bienes.
+Sería razonable que las mediciones contables primarias posteriores de los mismos bienes se hicieran
+a su costo de reposición al contado, en cuyo caso:
+a) se reconocen resultados de tenencia por sus cambios;
+b) el costo de lo vendido se determina sobre la base del costo de reposición a la fecha de la venta,
+que es lo más adecuado para la medición del resultado de la actividad de vender9.
+Supongamos que:
+a) una mercadería se compra en $ 100 y se vende en $ 140 en un momento en que su costo de
+reposición es de $ 126;
+b) no hay costos de enajenación;
+c) los importes indicados están expresados en moneda de poder adquisitivo de la fecha de la venta.
+En una contabilidad basada en los costos históricos, se diría que la ganancia por la venta fue:
+140 - 100 = 40
+Sin embargo, el resultado atribuible a la venta es la diferencia entre el precio de venta y el costo de
+reposición a la fecha de la enajenación:
+140 - 126 = 14
+8 Revenue, International Accounting Standard 18 de la IASB, ¶14.
+9 Este criterio ha sido receptado por la RT 17 en su segunda parte, sección 5.5.4.
+32
+
+Por otra parte, la ganancia total de $ 40 incluye un resultado por la tenencia de la mercadería, igual a:
+126 - 100 = 26
+Sin embargo, el criterio prevaleciente en el mundo para la medición contable periódica de las
+existencias para la venta es el de costo o VNR, el menor10, de modo que:
+a) no se reconocen resultados de tenencia de los bienes para la venta (excepto cuando resultan de las
+comparaciones de las medidas contables primarias con los VR);
+b) el costo de lo vendido es el histórico, lo que resulta en una mala medición del resultado del
+esfuerzo de vender;
+c) es necesario aplicar algún método de asignación de costos a salidas y existencias, como lo primero
+entrado es lo primero salido, lo último entrado es lo primero salido o costo promedio ponderado.
+B) COMPRA Y REVENTA DE BIENES FÁCILMENTE COMERCIALIZABLES
+(cid:194) Caracterizamos a los bienes fácilmente comercializables en el § 6,4,b).
+La reventa de estos bienes es una actividad especulativa, cuyo resultado depende:
+a) en su casi totalidad, de los cambios en los precios de los productos;
+b) eventualmente, y en pequeña medida, de variaciones de los gastos e impuestos que genere la
+disposición de los bienes.
+Su venta no es determinante de los resultados porque no demanda esfuerzos significativos (se trata,
+justamente, de bienes de fácil comercialización). En todo caso, la decisión de no vender puede conducir a la
+obtención de nuevos resultados con motivo de los cambios de precios, gastos e impuestos que se produzcan a
+partir del momento en que la tome.
+En consecuencia, es razonable que:
+a) la medición contable de los bienes se haga a su VC, dado por el VNR (para operaciones al
+contado), que en el caso es también su VR;
+b) se reconozcan (como resultados de tenencia) los cambios en los VC de los bienes;
+c) el costo de lo vendido se determine sobre la base de los VC, asignando a la actividad de vender un
+resultado nulo.
+Las NC que conocemos siguen estos criterios aunque algunas de ellas con variantes (acumulativas)
+como las que siguen:
+Variantes Comentario
+• No permitir la deducción de los gastos de El VNR mide mejor el VC de los activos. No obstante,
+enajenación para determinar los VC de los bienes, la diferencia con el valor razonable de aplicación
+que esas normas denominan valores razonables (fair requerida debería ser pequeña en la mayoría de los
+values). casos.
+• No requerir o no permitir la medición a VC de las El hecho de que un activo financiero vaya a ser
+cuentas por cobrar (titulizadas o no) a ser retenidas mantenido hasta su vencimiento no justifica que su
+hasta el vencimiento, cuando un ente tiene la medición no se practique sobre la base de un VC
+capacidad financiera de hacerlo. En tales casos, estos cuando éste está disponible y es objetivamente
+activos se miden sumando el importe contabilizado determinable.
+inicialmente y los resultados financieros
+devengados, calculados sobre la base de él (si
+hubiera cobros parciales, se los resta)11.
+10 En los Estados Unidos se aplica, como guía, la regla costo o mercado el menor, que describiremos en Contabilidad
+Superior.
+11 Método de la tasa efectiva, también denominado del costo amortizado.
+33
+
+• Requerir que algunas ganancias y pérdidas de El diferimiento de resultados de tenencia mediante
+tenencia correspondientes a determinados activos su imputación transitoria a un rubro especial de
+medidos a su valor razonable se difieran en un rubro patrimonio neto es incompatible con el concepto de
+especial de patrimonio, hasta que el activo sea dado ganancia basado en el mantenimiento del capital
+de baja, momento en el cual los resultados diferidos financiero y distorsiona la medición de los
+se reconocen en resultados12. resultados periódicos, incluyendo los del período de
+desafectación de dicho rubro.
+C) PRODUCCIÓN Y VENTA DE BIENES FÁCILMENTE COMERCIALIZABLES
+1) Consideraciones generales
+Si los bienes fácilmente comercializables se producen, el resultado de la actividad productiva (sea: la
+agrícola) debería diferenciarse del resultado de tenencia de los bienes obtenidos.
+Si la obtención final del producto fuese virtualmente segura y el grado de avance del proceso
+productivo pudiera determinarse sobre bases fiables, deberían aplicarse procedimientos que permitan
+distribuir el resultado del esfuerzo productivo entre los períodos durante los cuales tuvo lugar. A este fin, la
+medición contable de la producción en proceso podría practicarse calculando el porcentaje de avance del
+proceso productivo y aplicándolo a1VNR que se espera obtener de los bienes terminados.
+(cid:194) En el § 6,4,h) dimos algunos ejemplos de bienes a los que les sería aplicable este método
+de medición contable y nos referimos a los problemas que plantea la medición del avance de proceso
+productivo.
+Si las condiciones indicadas no se presentasen, sería más prudente proceder así:
+a) aplicar a los insumos y a la producción en proceso, las reglas que se hayan establecido para los
+bienes que no son fácilmente comercializables (costos históricos o de reposición con el límite del VR);
+b) en el momento de obtención de un bien fácilmente comercializable, reconocer el resultado
+atribuible a la actividad productiva, por la diferencia entre la medición inicial del producto terminado (a su
+VNR) y los correspondientes costos acumulados (históricos o de reposición, lo que corresponda al criterio
+seguido);
+c) con posterioridad a ese momento, aplicar a los bienes producidos las mismas reglas de medición
+contable que a los bienes de fácil comercialización adquiridos.
+Diversas NC siguen estos criterios, pero dentro de las referidas a la actividad agropecuaria, la NIC
+41 establece:
+Es posible que, en algunas circunstancias, no se disponga de valores o precios determinados
+por el mercado para un activo biológico en su condición actual. En tales casos, el ente usará, para
+determinar el valor razonable, el valor presente de los flujos netos de efectivo esperados del activo,
+descontados a una tasa antes de impuestos definida por el mercado13.
+Similarmente, la RT 22 requiere (en tanto se cumplan ciertas condiciones) la aplicación del mismo
+criterio para la medición de los activos biológicos14 cuando:
+a) están en una etapa posterior a la inicial de su desarrollo biológico;
+b) no hay un mercado activo para la venta de los activos en su condición actual;
+c) lo hay para bienes similares que han tenido un proceso de desarrollo más avanzado o completado15.
+12 Corresponde al concepto de resultados diferidos que estudiamos en el § 9,8.
+13 Agriculture, International Accounting Standard 41 de la IASB. ¶20
+14 Plantas y animales vivientes.
+15 Normas contables profesionales: actividad agropecuaria, resolución técnica 22 de la FACPCE, segunda parte,
+sección 7.1.2.1.
+34
+
+Opinamos que estos criterios son inadecuados porque el VD de los futuros flujos de fondos incluye
+los efectos de crecimientos biológicos que aun no se han producido, anticipando así el cómputo de ganancias
+respecto de lo que resultaría de la aplicación estricta del concepto de devengamiento.
+2) Actividad minera
+La minería es una industria extractiva que incluye las siguientes actividades principales:
+a) búsqueda o exploración;
+b) descubrimiento;
+c) extracción del mineral;
+d) acondicionamiento;
+e) si fuere necesario, transporte;
+f) venta o incorporación a otro proceso productivo (como la del petróleo a la elaboración de nafta);
+g) cobranza (de lo vendido) o enajenación de los instrumentos financieros recibidos con motivo
+de la venta.
+Por supuesto, puede haber búsquedas no exitosas.
+Dado que los minerales obtenidos en estas industrias (petróleo, gas, carbón, cobre, oro, etcétera) son
+bienes de fácil comercialización:
+a) su venta no es el principal hecho generador de resultados;
+b) deberían reconocerse como activos los minerales descubiertos, cuando su existencia esté comprobada.
+El descubrimiento es una contingencia positiva, de modo que los costos de exploración deberían ser
+tratados sobre la base de las reglas básicas expuestas en el § 9,6 y considerando las circunstancias de cada
+caso, entre ellas:
+a) si existen elementos que permitan evaluar la probabilidad de que el descubrimiento se concrete;
+b) si es posible obtener una medición fiable de las reservas que podrían descubrirse (si no lo fuera,
+los costos de exploración que no sean aprovechables en exploraciones posteriores no deberían reconocerse
+como activos);
+c) si las búsquedas en subáreas podrían considerarse como partes de un proyecto mayor (que alcance
+al área que las contiene), en cuyo caso sería admisible diferir costos que deberían reconocerse como
+resultados si cada búsqueda se considerase individualmente.
+Cuando un descubrimiento es exitoso, deben reconocerse y medirse las existencias halladas, lo que
+implica la asignación de un resultado a la actividad de exploración. Dado que las cantidades reales de dichas
+existencias sólo podrían conocerse después de su extracción total, debe estimárselas prudentemente, sobre la
+base de informes geológicos fiables.
+Para la medición contable de las existencias comprobadas, podría aplicarse alguno de los tres
+criterios que enunciamos en el § 6,4,g):
+a) precio de mercado del mineral a vender menos costos necesarios para su extracción y colocación
+en el mercado;
+b) VD de los ingresos netos que generará la extracción y venta del mineral;
+c) el importe resultante del criterio b) menos el valor agregado al bien por la actividad de extracción.
+Ya mencionamos que preferimos el criterio c) pero que no se nos ocurre como determinar el valor
+agregado de referencia, por lo que consideramos aceptable el b), ya que el a) no asigna ningún resultado a la
+actividad de extracción.
+Luego, y hasta que los bienes reconocidos estén en condiciones de ser comercializados o
+incorporados a otros procesos, debería procederse:
+a) a la corrección periódica de las estimaciones iniciales, para lo cual debería emplearse la
+información que se vaya obteniendo sobre los costos reales de extracción y comercialización;
+35
+
+b) cuando se reconozcan los VC de estos bienes, al reconocimiento contable de los resultados de
+tenencia ocasionados por los cambios en los precios de los minerales o de los costos de transporte o
+comercialización.
+Desde el momento en que los minerales estén en condiciones de ser comercializados o incorporados
+a otros procesos debería tratárselos como cualesquiera bienes de fácil comercialización.
+El tema no está específicamente tratado en las NIC o en las RT, pero en noviembre de 2000 el IASC
+publicó dos trabajos relacionados con los problemas contables de las industrias extractivas y pidió
+comentarios sobre ellos16. En 2004, la IASB propuso la sanción de una NIIF referida al tratamiento de los
+costos de exploración y evaluación de recursos minerales17 y obtuvo unas 73 cartas con comentarios sobre su
+propuesta18. El 29 de octubre de 2004, se difundió un borrador casi definitivo de lo que sería la NIIF 619,
+cuya sanción se concretaría antes de fin de año, para su entrada en vigencia en 2005.
+Las NCP estadounidenses contienen disposiciones específicas para la industria del petróleo y gas20,
+que no serán aquí estudiadas.
+D) PRODUCCIÓN POSTERIOR A LA VENTA
+En las industrias que realizan obras de envergadura (construcción de caminos, puentes, buques,
+aviones, material ferroviario, ciertos inmuebles, etcétera) es normal que:
+a) la producción comience después de la obtención del correspondiente contrato (que en algunos
+casos puede tener la forma de una orden de compra); y que
+b) el productor perciba parte del precio antes de la entrega definitiva del bien producido.
+Lo mismo ocurre en algunas actividades menores (como la fabricación de muebles) en que esta
+modalidad operativa suele coexistir con la producción para existencia.
+Cuando no hay incertidumbres sobre la venta y el avance del proceso de generación de ganancias
+puede ser medido fiablemente, es razonable aplicar el método de avance de obra (o método del porcentaje de
+completamiento) según el cual la ganancia se reconoce a medida que avanza la producción. No sería lógico
+que el resultado final de la obra se contabilizase recién a su terminación.
+(cid:194) En el § 6,4,h) nos referimos a las características generales del método y a los problemas
+que plantea la medición del avance de proceso productivo.
+Para que la medición del resultado atribuible a cada período sea fiable, deberían cumplirse –en su
+totalidad– las siguientes condiciones:
+a) tanto en los casos de contratos a precio fijo como en los que el constructor factura el costo más un
+margen de ganancia:
+1) es probable que los beneficios económicos asociados al contrato fluyan hacia el ente;
+2) los costos asignables al contrato pueden ser claramente identificados y fiablemente medidos;
+b) en los contratos a precio fijo debe ser posible, además:
+1) la medición fiable del grado de avance del trabajo y de los costos faltantes para su conclusión;
+2) la comparación entre los costos reales incurridos y las estimaciones efectuadas previamente;
+3) la financiación de los trabajos necesarios para terminar la obra.
+Si estas condiciones no se cumpliesen, sería razonable que:
+a) los costos se reconociesen en resultados a medida que se incurren;
+b) sólo se reconozcan ingresos hasta el límite de los costos incurridos que se consideren recuperables.
+16 Extractive Industries (issues paper) y Summary of Issues: Extractive Industries, IASC, 2000.
+17 Exploration for and Evaluation of Mineral Resources, Exposure Draft 6 de la IASB.
+18 www.iasb.org/current/coniment_letters.asp?showPageContent=no&xrnl=16_88_79_06052004.htm.
+19 Exploration for and Evaluation of Mineral Resources, Text at 29 October 2004 (near-final draft), IASB, 2004.
+20 FARS03-CT, sección Oi5 (Oil and Gas Producing Activities).
+36
+
+Si se esperase que los costos del contrato excedan a los ingresos, la correspondiente pérdida debería
+reconocerse de inmediato.
+Las NC suelen contener reglas como las precedentes, con variaciones que no analizaremos aquí.
+E) RECEPCIÓN DE ANTICIPOS
+Un anticipo por una venta implica habitualmente una entrada de dinero, de modo que su medición
+inicial no ocasiona problemas. Si se recibieran instrumentos financieros debería considerarse su VD a la tasa
+pactada o, si ésta no existiera o fuera irreal, a una tasa de mercado.
+Para la medición posterior de los pasivos asumidos, nos parecen adecuados los siguientes criterios:
+Forma de cancelación Medida contable
+Entrega de bienes que se encuentran en existencia. La misma asignada a los bienes.
+Entrega de bienes adquiribles en el mercado. Costo de adquisición y recepción de los bienes más
+costos adicionales requeridos por su entrega al
+acreedor.
+Entrega de bienes que deben ser producidos. Tomar el importe que sea mayor entre las sumas
+recibidas en concepto de anticipos y el costo de
+cancelación de la obligación.
+Prestación de servicios. Idem.
+F) FUTUROS Y “FORWARDS” (OPERACIONES A TÉRMINO)
+Una operación a término es una compraventa en la cual:
+a) el objeto es generalmente un bien de fácil comercialización o un índice de precios;
+b) el precio se fija en el momento del acuerdo;
+c) se establece una fecha de vencimiento;
+d) cuando éste llega:
+1) el vendedor entrega el bien objeto del contrato, y el comprador (o un endosatario del
+contrato) paga el precio (no aplicable cuando el objeto del contrato es un índice); o
+2) una parte paga a la otra la diferencia entre el precio convenido y el precio corriente de la
+mercadería (o, en su caso, entre los correspondientes índices de precios).
+Puede preverse una cláusula a voluntad, que permita a una de las partes anticipar el vencimiento del
+contrato dando cierto preaviso a la otra.
+Una operación a término es distinta de una compra o venta a crédito. En ésta, no hay simultaneidad
+entre la entrega de la mercadería y el pago del precio.
+Suelen distinguirse dos tipos de operaciones a término:
+a) el futuro (future), que se celebra en un mercado regulado, en cuyo caso:
+1) sólo pueden hacerse operaciones a partir de un menú de condiciones (objeto, cantidad por
+lote negociable, plazo, precio);
+2) después de celebrado el contrato, cesa la relación directa entre los compradores y los
+vendedores y comienza a funcionar una especie de cámara compensadora que intermedia entre ellos (un ente
+toma el rol de vendedor frente a todos los compradores y el de comprador frente a todos los vendedores);
+3) esa cámara calcula los precios de liquidación de los contratos no vencidos;
+4) consecuentemente, cualquiera de las partes originales puede cancelar su posición
+(vendiendo si antes compró o viceversa), sin que esto afecte a la otra;
+37
+
+b) el forward21, celebrado fuera de los mercados regulados, que constituye una transacción directa
+entre dos partes que sólo puede ser cancelada por la voluntad de ambas.
+La diferencia entre el precio futuro y el de mercado a la fecha de liquidación de la operación es un
+resultado de especulación que afecta (con signos contrarios) al comprador y al vendedor.
+Durante mucho tiempo, en algunos países existió la práctica de contabilizar estas operaciones una
+vez llegado su vencimiento. En los Estados Unidos, recién en 1998 se adoptó el criterio rector de que todos
+los instrumentos derivados (lo que incluye a los contratos a término) representan derechos y obligaciones que
+cumplen las definiciones de activos o pasivos y deben ser informados en los estados financieros22.
+La falta de reconocimiento de activos y pasivos por contratos a término sería irrazonable porque:
+a) estos contratos crean derechos y obligaciones cuya medición puede practicarse sobre bases objetivas;
+b) la evolución de los precios de los bienes comprados o vendidos a término tiene efectos
+patrimoniales concretos que deberían ser reconocidos;
+c) el diferimiento del resultado ocasionado por el contrato hasta su vencimiento es contrario a la
+aplicación del concepto de devengamiento23.
+En las operaciones a término existen:
+a) para el vendedor, un derecho a recibir moneda y una obligación de entregar cosas;
+b) para el comprador, un derecho a recibir cosas y una obligación de entregar moneda,
+sin perjuicio de que:
+a) las liquidaciones finales se hagan mediante compensaciones, sin entrega física de cosas;
+b) los contratos abiertos tengan su propio valor y se coticen en algún mercado, en cuyo caso entran
+en la categoría de bienes fácilmente comercializables.
+Por lo tanto, lo que debería hacerse es reconocer los activos y pasivos emergentes de estos contratos.
+En los casos de futuros con cotización que califiquen como bienes fácilmente comercializables, las
+partes deberían reconocer ganancias o pérdidas por los cambios en los valores de mercado del contrato24. Al
+vencimiento, los resultados acumulados deberían corresponderse con la suma que una de las partes debería
+pagar a la otra para liquidar la operación.
+Para los futuros sin cotización liquidables por diferencia, debería aplicarse un criterio similar pero
+estimando los valores de los contratos, mediante la comparación de:
+a) el VD del precio concertado;
+b) el precio de mercado del bien objeto del contrato.
+Cuando las operaciones a término se liquidan con entrega de los bienes, tanto el vendedor como el
+comprador a término tienen activos y pasivos, que sería razonable medir así:
+a) en la contabilidad del vendedor:
+1) el derecho a recibir moneda, al VD del precio a recibir;
+2) la obligación de entregar cosas, al costo de cancelación del pasivo;
+b) en la contabilidad del comprador:
+1) el derecho a recibir cosas, de acuerdo con el VC de los bienes objeto del contrato (el VNR
+en el caso de un bien de fácil comercialización o el costo de reposición en el caso contrario);
+2) el pasivo en moneda, al VD del precio a pagar.
+21 No conocemos ninguna traducción que impida la confusión de un forward con un future.
+22 FARS03-CT, sección D50 (Derivative Instruments and Hedging Activities).
+23 Sobre el punto, ver:
+JOHNSON, L. Todd y STOREY, Reed K., Recognition in Financial Statements: Underlying Concepts and
+Practical Conventions, FASB, 1982, págs.249 y sigts.
+24 El valor del contrato podría ser positivo para el comprador y negativo para el vendedor, o viceversa.
+38
+
+(cid:194) Nos referimos a la determinación de los costos de cancelación de las obligaciones de
+entregar cosas en el § 7,12,b).
+De este modo, cada parte va reconociendo, a medida que se producen, los resultados que le ocasiona
+la ejecución del contrato, dada por la diferencia entre las evoluciones de las cotizaciones de los bienes
+vendidos a término y del VD de los precios de futuro.
+10,7. PRODUCCIÓN PARA USO PROPIO
+Algunas empresas producen bienes para uso propio, en lugar de adquirirlos.
+Ejemplos (ya presentados) de bienes de este tipo:
+a) los hilados que se utilizarán como materia prima en la producción de tejidos;
+b) el alimento que el ganado consumirá durante la actividad de su engorde;
+c) una fábrica que se utilizará para las actividades productivas.
+Para estos casos, consideramos razonable lo siguiente:
+a) mientras la producción esté en proceso, efectuar su medición contable primaria a su costo
+corriente (criterio que preferimos)25 o su costo histórico, lo que mejor encuadre en el modelo contable
+adoptado;
+b) cuando la producción finaliza:
+1) incorporar el bien por su VC (el costo que tendría si se lo comprase);
+2) reconocer un resultado por la actividad de producción de ese bien;
+c) en todo momento, tener en cuenta el límite del VR.
+De este modo:
+a) se reconocería el hecho de que la producción del bien intermedio es una actividad autónoma a la
+que debería asignarse un resultado;
+b) pierde significación la discusión sobre la inclusión de costos financieros dentro del costo de
+producción de estos bienes.
+(cid:194) Discutimos este punto e ilustramos nuestra propuesta en el § 5,6,b)2).
+Sin embargo, las NC no suelen prever la aplicación de VC para los bienes intermedios producidos,
+excepto en la actividad agropecuaria.
+10,8. PRESTACIONES DE SERVICIOS
+A) CRITERIO GENERAL
+El hecho generador de los ingresos por servicios es su prestación, de modo que debería asignárselos
+a los períodos en que ella ocurra, siempre que:
+a) su percepción final sea altamente probable;
+b) puedan medirse fiablemente:
+1) el importe a percibir;
+2) el grado de completamiento de la prestación;
+25 La adopción de este criterio implica el reconocimiento de resultados de tenencia por cambios en los costos de
+reposición de los insumos empleados para obtener el bien intermedio.
+39
+
+3) los costos ya incurridos;
+4) los necesarios para el completamiento del servicio.
+Nótese que son criterios similares a los que presentamos respecto de las construcciones.
+B) LAS CUOTAS DE ASOCIADOS A ENTIDADES CIVILES
+Las cuotas de asociados a entidades civiles (por ejemplo: clubes) otorgan el derecho de obtener
+ciertos servicios generales (como el acceso a las instalaciones generales) o específicos (como el uso de una
+pileta de natación). Normalmente, estas cuotas corresponden a lapsos perfectamente definidos, de modo que
+puede asignárselas a ellos.
+Sólo deben reconocerse las cuotas cuya percepción sea probable.
+10,9. COSTOS EN GENERAL
+A) IMPUTACIÓN
+En materia de imputación de costos, hay consenso en la aplicación de tres reglas.
+Primera: los costos vinculados con ingresos determinados son gastos que deben reconocerse como
+tales en los mismos períodos que los primeros (correlación de ingresos y costos).
+Ejemplos de estos costos:
+a) los de las mercaderías vendidas;
+b) la medición contable residual de bienes de uso vendidos;
+c) las comisiones sobre ventas y las cargas sociales (aguinaldos, aportes previsionales) que se
+acumulen con motivo de su liquidación;
+d) los impuestos que gravan ventas y que están a cargo del vendedor.
+Segunda: si el costo no se relaciona con un ingreso específico, pero sí con un período, debe
+imputárselo a éste.
+Tales los casos de:
+a) los sueldos del personal administrativo y las cargas sociales sobre ellos;
+b) los premios pagados por seguros tomados;
+c) un abono mensual por servicios de vigilancia.
+Tercera: los restantes costos deben reconocerse como gastos o pérdidas tan pronto como se los
+conoce.
+Ejemplos:
+a) los gastos de defensa de una marca;
+b) un impuesto de emergencia (“por una sola vez”)
+El gráfico siguiente resume estos conceptos básicos:
+40
+
+Costos de servicios recibidos
+Vinculados con No vinculados con ingresos
+ingresos
+Vinculados con períodos No vinculados con
+períodos
+Futuros Actual
+Se activan (se Se activan (se Se reconocen Se reconocen
+reconocerán como reconocerán como gastos en como gastos o
+gastos en el como gastos en el período pérdidas de
+período de uno o más corriente inmediato
+devengamiento períodos
+del ingreso) futuros)
+Aclaración: si un costo se relaciona en primera instancia con un período y en segunda con un
+ingreso, la regla aplicable es la primera.
+Por ejemplo, el sueldo de un capataz de un sector productivo que corresponda a un mes se incluye
+dentro de los costos de producción de ese período, los que son luego incorporados al costo de los bienes
+producidos, que son imputados a resultados cuando se venden los bienes producidos, lo que puede ocurrir en
+un período posterior.
+Para aplicar las reglas enunciadas puede ser necesaria la realización de distribuciones o
+imputaciones, las que deberían satisfacer las tres condiciones enunciadas en el § 4,4,a):
+a) la imputación debe dividir el importe total de tal manera que la suma de las partes sea igual al todo;
+b) el procedimiento debe dar un resultado único (no debe ser ambiguo);
+c) debe poder demostrarse que el método de imputación seleccionado es el mejor.
+Estos criterios cuentan con aceptación. Aunque conveniente, su mención en las NC no es
+imprescindible porque su aplicación tiene los mismos efectos prácticos que la aplicación de normas
+adecuadas de reconocimiento y medición de activos y pasivos.
+B) MEDICIÓN
+Cuando el costo imputado al resultado de un período se corresponde con la baja, consumo o
+depreciación de un activo, la medición del primero debería practicarse aplicando el criterio empleado para el
+bien en cuestión.
+41
+
+En esta situación se encuentran, por ejemplo:
+a) el costo de las mercaderías vendidas;
+b) la baja de una máquina retirada de servicio y vendida;
+c) el consumo de papelería;
+d) la depreciación de muebles afectados a la función de comercialización.
+En los restantes casos, los costos imputados a resultados deberían medirse como cualesquiera otros:
+aplicando los criterios enunciados en el § 4,4.
+10,10. OPERACIONES FINANCIERAS EN GENERAL
+El reconocimiento de las variaciones patrimoniales ocasionadas por el mantenimiento de activos y
+pasivos financieros se va produciendo a medida que se cambian las medidas contables de ellos. Es de tener
+en cuenta que hay NC que admiten o requieren:
+a) la activación de los costos financieros incurridos para financiar ciertas actividades de producción o
+ciertos activos; o
+b) el diferimiento de algunos resultados financieros mediante su imputación directa al patrimonio,
+creando un rubro que no integra ni el capital ni los resultados acumulados.
+Lo expuesto vale tanto para las operaciones financieras puras como para las emergentes de
+operaciones comerciales (compras y ventas a plazo).
+Por otra parte, la asignación de medidas contables a los activos y pasivos financieros depende de los
+criterios que se hayan fijado al efecto.
+Respecto de las colocaciones de fondos en bienes de fácil comercialización (ejemplo: títulos públicos
+o acciones con cotización), vale lo expuesto en el § 10,6,b).
+Para los créditos que no constituyan bienes de fácil comercialización y para las deudas, podrían
+considerarse estas alternativas:
+a) tomar sus importes originales y agregarle los intereses y actualizaciones devengadas, calculados
+considerando las condiciones originales pactadas (o implícitas en la operación de compra o venta) y el
+tiempo transcurrido y restándole los cupones cobrados (método del interés efectivo26);
+b) considerar los VD de las sumas a cobrar o a pagar, calculados con alguna tasa de mercado de la
+fecha de la medición, lo que implica reconocer resultados por cambios de tasa;
+c) aplicar el criterio b) para las cuentas a cobrar (o pagar) que se planee (y efectivamente se pueda)
+vender (o cancelar) anticipadamente y el a) para las restantes cuentas.
+El criterio a) es el prevaleciente en la contabilidad histórica. El b) parece adecuado para un modelo
+contable que utilice VC en la mayor medida posible. El c) figura en la RT 1727, debido a que ésta adoptó un
+modelo contable que emplea:
+a) VC para los bienes que se planea vender;
+b) medidas basadas en costos históricos para los restantes activos.
+El 21/03/04 se prestan $ 10.000 a sesenta días de plazo y con una tasa efectiva anual de interés del
+10%. Se recibe un pagaré con vencimiento 20/05/04, por el siguiente importe:
+10.000 x (1 + 0,10)60/365 = 10.158
+Al 30/04/04 (fecha de medición) la tasa de interés ha subido al 12% anual.
+La medición resultante de considerar la tasa pactada puede calcularse a partir del importe original y
+el tiempo transcurrido (40 días):
+26 También llamado del costo amortizado.
+27 RT 17, segunda parte, ¶5.2, 5.3, 5.14 y 5.15.
+42
+
+10.000 x (1 + 0,10)40/365 = 10.105
+o del importe a cobrar y el tiempo faltante:
+10.158 / (1 + 0,10)20/365 = 10.105
+La medición basada en la tasa de mercado, la suma a cobrar y el tiempo faltante para el vencimiento es:
+10.158 / (1 + 0,12)20/365 = 10.095
+De emplearse esta medición se reconocería una pérdida por el cambio de tasa, que reduce el precio
+de mercado del activo.
+Empleando las normas de la RT 17, el acreedor mediría la cuenta a cobrar en $ 10.095 si hubiese
+resuelto (y pudiese) vender el crédito y en $ 10.015 en el caso contrario.
+Si la cuenta por cobrar o por pagar fuera sustituida por otra, sería razonable dar de baja a la primera y
+reconocer un nuevo activo o pasivo, de la manera usual. Sin embargo, hay NC que no prevén la aplicación de
+este criterio o lo someten a ciertas condiciones.
+En los casos de cuentas en moneda extranjera, los cálculos deberían hacerse en ella y los importes
+resultantes deberían convertirse a moneda nacional utilizando los tipos de cambio de la fecha de la medición
+que sean aplicables a la liquidación de las correspondientes operaciones.
+10,11. CUBRIMIENTOS
+Algunos entes adquieren activos o toman pasivos para cubrirse, aunque sea parcialmente, de las
+pérdidas que podrían ocasionarles las fluctuaciones de:
+a) los precios de ciertos bienes; o
+b) los flujos futuros de fondos que ocasionará alguna actividad planeada.
+Ejemplos:
+a) habiéndose asumido un pasivo a largo plazo en determinada moneda extranjera, a medida que es
+posible se adquieren títulos de deuda nominados en la misma;
+b) se compran bienes con cotización y simultáneamente opciones para su venta, de modo de limitar
+la pérdida que podría producir una eventual caída de los precios de mercado;
+c) estando prevista (para dentro de dos años) la compra de una maquinaria en dólares, comienzan a
+adquirirse títulos de deuda emitidos en esa moneda.
+A) COBERTURAS RELACIONADAS CON ACTIVOS Y PASIVOS EXISTENTES
+En los casos de coberturas relacionadas con activos y pasivos existentes, las mediciones contables de
+éstos y de los instrumentos de cobertura deben ser coherentes. Esto no ocasiona problemas cuando, como
+consideramos recomendable y como suelen prever diversas NC:
+a) las mediciones contables de los activos (o pasivos) cubiertos se basan en sus VC (o sus costos de
+cancelación);
+b) las correspondientes ganancias y pérdidas de tenencia se imputan a los resultados de los ejercicios
+en que se generan.
+Años atrás, algunas NC preveían que algunos activos financieros se midiesen empleando la regla
+costo o mercado el menor. Dado tal supuesto, se hacía necesaria la aplicación de procedimientos que
+impidiesen que las ganancias o pérdidas de los instrumentos de cobertura se reconociesen totalmente en
+resultados cuando no se procedía del mismo modo con los cambios en los VC de los activos cubiertos. Esto
+dio lugar a la contabilidad de cubrimientos (hedge accounting) cuya regla básica era: las ganancias y
+43
+
+pérdidas que producen los cambios de valor de los instrumentos de cobertura se reconocen como resultados
+junto con las ganancias y pérdidas que producen los cambios de las mediciones contables de los ítems
+cubiertos.
+En la década de los ochenta, las NCP de cierto país establecían lo siguiente:
+a) las transacciones y saldos en moneda extranjera debían convertirse a moneda local empleando los
+tipos de cambio vigentes a las fechas correspondientes;
+b) las diferencias de cambio debían incluirse en el resultado del período en que se generan;
+c) las colocaciones en acciones y títulos públicos con cotización debían medirse aplicando la regla
+costo o VNR, el menor;
+d) no se reconocen los efectos de la inflación.
+El 30/09/80, una empresa tomó una deuda de 1.000 dólares. A esa fecha, el tipo de cambio es de 2,60
+unidades de moneda local por dólar, de modo que la medición inicial del pasivo era de $ 2.600.
+El 30/11/80 invirtió $ 1.000 en títulos nominados en moneda local pero con una cláusula de ajuste
+basada en la evolución de la cotización local del dólar. Lo hizo con la intención de cubrir parcialmente los
+posibles efectos de un aumento de la cotización del dólar.
+Al 31/12/80, el dólar cotizaba a $ 2,90 por unidad y el VNR de los títulos era de $ 1.120.
+Si simplemente se hubiesen aplicado las reglas de medición arriba expuestas, habría ocurrido lo
+siguiente:
+a) el pasivo correspondiente al capital adeudado se llevaría de $ 2.600 a $ 2.900, lo que implicaría el
+cómputo de una pérdida de cambio de $ 300 (separadamente se computarían los intereses, pero esto es
+irrelevante para el propósito del ejemplo);
+b) los títulos se dejarían en $ 1.000 (costo) por ser éste un importe inferior al VNR ($ 1.120).
+Sin embargo, este tratamiento habría resultado excesivamente conservador, incluso en un modelo
+contable basado en mediciones históricas. No debería computarse una pérdida de $ 300 cuando se sabe que
+una parte de ella ($ 120) se recupera por la valorización de los títulos adquiridos como cobertura.
+Con una contabilidad de cubrimientos, la pérdida correspondiente a las operaciones relacionadas se
+habría reducido a $ 180. Por supuesto, este parche obligaba a considerar, como segundo problema, si los
+$ 120 se recuperarían:
+a) sumándolos a la medida contable de los títulos, en cuyo caso éstos no habrían quedado al importe
+menor entre los de costo y VNR; o
+b) restándolos de la medida del pasivo, en cuyo caso ésta no habría quedado de acuerdo al tipo de
+cambio de cierre.
+La aplicación de la regla general enunciada implicaba complicaciones y costos administrativos
+porque era necesario:
+a) establecer bajo qué condiciones podía considerarse que existe un cubrimiento;
+b) identificar las operaciones de cubrimientos;
+c) calcular, en cada cierre contable:
+1) las ganancias y pérdidas de tenencia de los activos y pasivos envueltos en el caso;
+2) los importes netos a imputar a resultados;
+3) los que deben ser diferidos para su absorción en períodos siguientes.
+En resumen: el criterio de emplear VC es superior desde el punto de vista técnico y ocasiona
+menores costos administrativos.
+44
+
+B) COBERTURAS DE TRANSACCIONES PREVISTAS
+Algunas NC requieren que los resultados producidos por los instrumentos financieros que operen
+como coberturas eficaces de los cambios en los flujos de fondos que podría ocasionar una transacción futura
+prevista sean imputados a resultados a medida que se hace lo mismo con la medida inicial del activo o pasivo
+a ser reconocido con motivo de la concreción de la operación.
+Con ese propósito, los resultados producidos por el instrumento de cobertura hasta que la operación
+se concreta, se difieren por medio de una cuenta especial de patrimonio. En ese momento, se procede
+conforme una de estas variantes:
+a) incorporar el saldo de dicha cuenta especial a la medida inicial del activo o pasivo reconocido en
+ese momento;
+b) mantener dicho saldo y reducirlo (contra resultados) en simultáneo con la absorción (también en
+resultados) de dicha medida inicial.
+Si se considerare que la transacción no ocurrirá, los importes acumulados se transfieren a resultados.
+Consideramos que estos procedimientos son insatisfactorios porque:
+a) como expusimos en otras partes de este libro, el empleo de cuentas de patrimonio distintas a las de
+capital y resultados acumulados es incompatible con el concepto de ganancia basado en el mantenimiento del
+capital financiero;
+b) la imputación de los resultados de cobertura acumulados a la medida contable inicial de un activo
+adquirido hace que ésta quede expresada sobre la base de un costo que puede diferir significativamente de su
+VC (el costo de reposición del mismo bien determinado sobre la base de su precio de contado).
+En nuestra opinión, las ganancias o pérdidas generadas por el instrumento de cobertura de una
+transacción futura deberían reconocerse como resultados a medida que se devengan. Por otra parte, el
+diferimiento del resultado de una cobertura es especialmente criticable cuando la transacción futura es la
+adquisición de un activo que deba medirse a su VC, ya que esto obliga al reconocimiento de un resultado
+instantáneo cuando la transacción se concreta.
+Supongamos que:
+a) se planea adquirir una tonelada de cierta materia prima el 1/11/04;
+b) para asegurarse el precio de dicho insumo, en febrero de 2004 se adquirió una opción de compra
+con precio de ejercicio de $ 1.200 por tonelada, pagándose una prima de $ 20;
+c) tanto el insumo como la opción son bienes de fácil comercialización;
+d) al 28/02/04 (fecha de los estados contables), el precio de la tonelada de la materia prima es de
+$ 1.280 y el de la opción es de $ 78;
+e) el 1/03/04 se concreta la compra al mismo precio ($ 1.280), de los cuales se recuperan $ 80 por el
+ejercicio de la opción.
+En una contabilidad a VC, la diferencia entre la prima pagada ($ 20) y el valor final de la opción
+($ 80) debe imputarse a resultados conforme varía dicho valor. Por lo tanto, en el ejercicio terminado el
+28/02/04 debe reconocerse un resultado de:
+78 - 20 = 58
+y en el posterior,
+80 - 78 = 2
+Si estos cambios de valor del instrumento de cobertura se difirieran en un rubro especial de
+patrimonio, el importe acumulado al 1/03/04 ($ 60) se restaría del precio pagado por la materia prima. El
+resultado de esta cuenta es:
+1.280 - 60 = 1.220
+que es el costo que resulta de sumar la prima de la opción ($ 20) y su precio de ejercicio ($ 1.200).
+45
+
+Ahora bien, si la materia prima debiera medirse a un VC dado por su costo de reposición ($ 1.280),
+el 1/03/04 debería contabilizarse un revalúo igual a:
+1.280 - 1.220 = 60
+que incidiría totalmente en el resultado del nuevo ejercicio. Y esto no es razonable, porque de ese importe
+total, sólo $ 2 se originan en cambios de precios del nuevo período. El resto ($ 58) se devengó en el ejercicio
+terminado el 28/02/04.
+Es de señalar que en diciembre de 2000 se conocieron las propuestas de un grupo internacional de
+emisores de normas u otras organizaciones profesionales de Australia, Canadá, Francia, Alemania, Japón,
+Nueva Zelanda, cinco países nórdicos, el Reino Unido y los Estados Unidos, así como la IASC. Ellas
+incluyen la aplicación de las ideas que venimos defendiendo desde hace varios años:
+a) el empleo de VC para la medición contable de todos los instrumentos financieros;
+b) el reconocimiento en resultados de todos los cambios en las mediciones de esos instrumentos,
+incluyendo a los asignados a operaciones de cobertura28.
+Las NC que requieren un tratamiento especial para las coberturas de transacciones futuras, deben
+fijar condiciones que impidan la manipulación de la información contable. Así, la NIC 39 establece que sus
+normas sobre cubrimientos sólo son aplicables cuando:
+a) inicialmente, un instrumento se designa formalmente como de cobertura y existe documentación
+formal que especifica:
+1) la relación de cobertura;
+2) el objetivo de manejo de riesgos;
+3) la estrategia por la cual se tomó la cobertura;
+4) la identificación del instrumento de cobertura, de la partida o transacción cubierta, la
+naturaleza del riesgo cubierto y la forma en que el ente evaluará la eficacia de la cobertura;
+b) se espere que la cobertura sea altamente efectiva;
+c) cuando el objeto de la cobertura es una transacción prevista, que ésta sea altamente probable y
+presente una exposición a las variaciones en los flujos de fondos que termine afectando los resultados;
+d) la eficacia de la cobertura puede ser efectivamente medida;
+e) la cobertura pueda ser evaluada continuamente, de modo que pueda determinarse si ha sido
+altamente efectiva durante los períodos considerados para su designación como tal29.
+A los efectos indicados, la NIC 39 considera que un cubrimiento es efectivo cuando los cambios en
+el valor razonable de los flujos de fondos de la partida cubierta son compensados por los cambios en el valor
+razonable de los flujos de fondos del instrumento de cobertura30.
+10,12. CONSTITUCIÓN DE FIDEICOMISOS
+Hay fideicomiso cuando una persona (el fiduciante) transmite la propiedad fiduciaria de
+determinados bienes a otra (el fiduciario), que se obliga a ejercerla en beneficio de quien se designe en el
+contrato (el beneficiario) y a transmitirla –cuando se cumpla cierto plazo o condición– al fiduciante, al
+beneficiario o a un tercero.
+Cuando se constituye un fideicomiso se crea un patrimonio separado que puede gozar de ciertos
+privilegios, establecidos por la legislación del caso.
+La ley podría, por ejemplo, impedir que los acreedores del fiduciante ejecuten los bienes
+fideicomitidos, salvo cuando su transmisión fiduciaria haya sido dolosa.
+28 Joint Working Group of Standard Setters, Financial Instruments and Similar Items, FASB, 2000, pág. i.
+29 Financial Instruments: Recognition and Measurement, International Accounting Standard 39 de la IASB, ¶88.
+30 NIC 39, ¶9, último párrafo. En los ¶¶AG105-113 se brindan guías para la aplicación de este concepto.
+46
+
+En los últimos tiempos, la figura del fideicomiso ha sido empleada cada vez más con el objeto de
+crear patrimonios de afectación utilizables con fines especiales (por ejemplo: servir de garantía a nuevos
+acreedores).
+A los fines contables, interesa establecer si la transmisión fiduciaria de los bienes puede considerarse
+una venta desde el punto de vista de la realidad económica.
+La Comisión de Estudios sobre Contabilidad (CEC) del CPCECF ha opinado que la transmisión
+fiduciaria debería contabilizarse como una venta cuando se cumplan (totalmente) estos requisitos:
+a) el fiduciante transfiere al fideicomiso los futuros beneficios económicos que producirán los bienes
+fideicomitidos;
+b) el fiduciante no tiene la obligación ni la opción de volver a adquirir los bienes fideicomitidos,
+salvo mediante la igualación de la oferta de un tercero;
+c) la transmisión fiduciaria no se realiza para garantizar deudas del fiduciante o de terceros;
+d) si el fiduciante se obliga a hacerse cargo de pérdidas relacionadas con los bienes fideicomitidos,
+debe ser posible la realización de una estimación razonable de ellas y de los gastos conexos.
+Cuando alguna de estas condiciones no se cumple, se considera que los bienes fideicomitidos siguen
+siendo de propiedad del fiduciante, sin perjuicio de que éste registre como activos y pasivos las prestaciones
+y contraprestaciones vinculadas o relacionadas con la operación31.
+Pensamos que estos criterios son razonables, pues desde el punto de vista de la realidad económica
+sólo hay enajenaciones de bienes cuando se transfieren las ventajas y obligaciones inherentes a su propiedad.
+En los casos en que el fiduciante deba contabilizar la operación como una venta, el fideicomiso
+debería abrir una contabilidad propia.
+No conocemos NC que se refieran específicamente al tema tratado en esta sección.
+10,13. GANANCIAS Y PÉRDIDAS32
+Las ganancias y las pérdidas deberían reconocerse en los períodos en que se produzcan los hechos
+que las generan, siempre que su medición pueda practicarse sobre bases objetivas.
+Si fueran contingentes deberían tenerse en cuenta las consideraciones especiales que presentamos en
+el § 9,6.
+Un siniestro se imputaría al período en que se produjo.
+Una pérdida de cambio ocasionada por un pasivo, al período en que se modificó el tipo de cambio.
+El costo de un juicio que seguramente se perderá, al período en que se produjo el hecho que lo
+generó, siempre que la pérdida pueda medirse sobre bases confiables.
+La contabilización anticipada de pérdidas no es aceptable porque implica un apartamiento al
+concepto de devengamiento. Sin embargo, en las notas a los estados contables debería brindarse información
+sobre las ganancias y pérdidas posteriores al cierre que sean significativas.
+La medición del importe de la pérdida o de la ganancia depende de las circunstancias:
+a) si deviene de un cambio en las medidas contables asignadas a activos o pasivos (como los
+reconocidos para reflejar resultados de tenencia), puede determinarse por diferencia entre la medida anterior
+y la nueva:
+b) si (como en el caso de un siniestro) resulta de la desaparición de un activo o pasivo, debería
+considerarse la medida contable de éste;
+c) si da lugar a la aparición de activos o pasivos (como en el caso de un juicio), debería considerarse
+la medida contable inicial de éstos, para cuya determinación sería razonable practicar el descuento financiero
+de los importes a cobrar o pagar33.
+31 Tratamiento contable del fideicomiso, informe 28 de la Comisión de Estudios Sobre Contabilidad del CPCECF,
+Buenos Aires, 1997.
+32 En esta sección utilizamos las voces ganancia y pérdida con el significado que les dimos en el § 3,7,d).
+33 Así se lo requiere en Provisions, Contingent Liabilities and Contingent Assets, International Accounting Standard 37
+de la IASB, ¶¶36, 42 y 45 y en la RT 17, segunda parte, ¶4.5.9
+47
+
+10,14. RESULTADOS DE PARTICIPACIONES EN OTROS ENTES
+A) CONSIDERACIONES GENERALES
+Para el reconocimiento y la medición de los resultados de las participaciones en otros entes deben
+aplicarse criterios que consideren las particularidades de cada caso.
+Si la inversión es temporaria y el título que la representa es un bien fácilmente comercializable,
+debería considerarse su VNR.
+Cuando exista la intención de vender la participación pero no se cuente con un VC confiable, su
+medición contable podría basarse en la diferencia entre:
+a) la última medida confiable obtenida hasta la fecha en que se tomó la decisión de la venta;
+b) el VD de los futuros costos demandados que demandará la venta.
+Para las inversiones permanentes, lo más adecuado es que en cada período el inversor reconozca
+la proporción que le corresponde sobre los resultados de su participada, calculada (en cuanto sea
+posible) con los criterios de medición y la unidad de medida que el primero utiliza para preparar sus
+estados contables.
+Cuando el inversor tiene el control34 de su participada, el propósito indicado puede lograrse
+consolidando los estados contables de ambos, de modo de obtener información similar a la que se
+determinaría si las operaciones de la participada hubieran sido hechas directamente por la inversora.
+Para las inversiones permanentes que no otorgan control, lo que mejor nos parece es la aplicación del
+método del valor patrimonial proporcional (VPP) o método de la equivalencia, en cuyo caso los estados
+contables de la inversora muestran:
+a) en el estado de situación, un activo por la inversión en la emisora, medido del modo indicado;
+b) en el de resultados, la ganancia o pérdida neta producida por la inversión, preferentemente de-
+sagregada en función de las principales categorías de resultados informadas35.
+Otro método (que se emplea en algunos países cuando existe control conjunto36) es el de
+consolidación proporcional según el cual en los correspondientes renglones de los estados contables de la
+inversora se suman las proporciones que a ésta le corresponden sobre:
+a) los activos y pasivos de las participadas sometidas a ese tipo de control (aparecen en el estado de
+situación);
+b) sus ingresos, gastos, ganancias, pérdidas e impuesto a las ganancias (se muestran en el estado de
+resultados).
+Con criterio que compartimos, el ya disuelto grupo G4+1 hizo notar que:
+a) de acuerdo con los MC aprobados en diversos países, un ente tiene un activo cuando, debido a un
+hecho ya ocurrido, controla los beneficios que produce un bien;
+b) los inversores en un negocio conjunto no pueden controlar el porcentaje que les corresponde sobre
+los activos del mismo (no pueden emplearlos ni dirigir su empleo);
+c) en consecuencia, la consolidación proporcional no es aceptable y también en los casos de control
+conjunto debería aplicarse el método del VPP37.
+Si junto con los estados consolidados se presentasen los individuales de la inversora, lo razonable
+sería que su inversión en las controladas consolidadas se midiese a su VPP.
+34 El control es el poder de definir y dirigir las políticas operativas y financieras de una entidad.
+35 Por ejemplo: si las NC aplicables requiriesen la clasificación de los resultados en ordinarios y extraordinarios, la
+participación del inversor sobre el resultado de la participada debería ser desagregada en esas dos categorías.
+36 El control es conjunto cuando lo comparten dos o más inversores, de modo que ninguno de ellos puede dirigir las
+políticas operativas y financieras de la participada sin el consentimiento de los restantes.
+37 MILBUBN, J. Alex y CHANT, Peter D. (autores principales), Reporting Interests in Joint Ventures and Similar
+Arrangements, IASC, 2000, ¶3.12.
+48
+
+Mientras las normas seguidas para consolidar estados o para aplicar el método del VPP o el de la
+consolidación proporcional sean consistentes entre sí, las cifras finales del patrimonio y el resultado del pe-
+ríodo de la inversora no deberían diferir.
+Durante el ejercicio se constituye Inversora S.A. con un capital de $ 350.
+Seguidamente se constituye Emisora S.A., con un capital de $ 400, de los cuales $ 320 (el 80%) son
+aportados por Inversora S.A. y $ 80 (el 20%) por otros inversores.
+Con los restantes $ 30, Inversora compra bonos estatales cuyo VC al cierre del ejercicio es $ 31.
+Estos son los estados resumidos de situación y de resultados de Emisora, a los que agregamos una
+columna con el cálculo del 80% que le corresponde a Inversora, que es un dato necesario para aplicar el
+método de consolidación proporcional.
+Conceptos Pesos 80%
+ESTADO DE SITUACIÓN
+Activo
+Efectivo 60 48
+Mercaderías 800 640
+Total 860 688
+Pasivo
+Deudas 420 336
+Patrimonio
+Capital 400 320
+Ganancia 40 32
+Total 440 352
+ESTADO DE RESULTADOS
+Ventas 2.000 1.600
+Costo de lo vendido -1.700 -1.360
+Ganancia bruta 300 240
+Gastos -260 -208
+Ganancia neta 40 32
+De los datos precedentes surge que la participación de Inversora (80%) es de $ 32 sobre el resultado
+de Emisora y de $ 352 sobre su patrimonio. El resto ($ 8 y $ 88 respectivamente) corresponde a los otros
+accionistas de la controlada.
+Por lo tanto, la ganancia total de Inversora es de $ 33 ($ 32 por la participación en Emisora y $ 1 por
+la tenencia de bonos).
+Seguidamente mostramos en forma comparativa las cifras básicas de los estados de situación y de
+resultados de Inversora, aplicando el método del VPP, el de consolidación proporcional (CP) y la
+consolidación total (CT):
+Conceptos VPP CP CT
+ESTADO DE SITUACIÓN
+Activo
+Efectivo 48 60
+Bonos estatales 31 31 31
+Mercaderías 640 800
+Inversión de Emisora 352 ___ ___
+Total 383 719 891
+Pasivo
+Deudas === 336 420
+Participación de terceros en
+el patrimonio de Emisora === === 88
+Patrimonio
+Capital 350 350 350
+Ganancia 33 33 33
+Total 383 383 383
+49
+
+ESTADO DE RESULTADOS
+Ventas 1.600 2.000
+Costo de lo vendido -1.360 -1.700
+Gastos -208 -260
+Resultado de la participación
+en Emisora 32
+Resultado de la tenencia de bonos 1 1 1
+Participación de terceros
+en el resultado de Emisora ____ ____ -8
+Ganancia neta 33 33 33
+Las cifras de patrimonio ($ 383) y del resultado del período ($ 33) son iguales cualquiera de los tres
+métodos se emplee.
+Si no existiera esta coincidencia, los usuarios de los estados contables se encontrarían con dos
+mediciones distintas para una misma realidad, lo que seguramente les confundiría.
+B) NORMAS CONTABLES INADECUADAS
+Los párrafos anteriores reflejan nuestras preferencias, pero ellas no están en línea con las principales
+NC. Algunos criterios que están contenidos en las NC internacionales, argentinas o estadounidenses y con
+los que disentimos, son los siguientes:
+a) en las NIIF:
+1) opción (alternativa al empleo del VPP) de aplicar el método de consolidación
+proporcional para las inversiones en entes sometidos a control conjunto, en los estados consolidados (o en los
+individuales, cuando son los únicos que se presentan)38;
+2) en los estados individuales de una controlante, medición de las inversiones en los entes
+sometidos a control, control conjunto o influencia significativa al costo o aplicando las reglas de la NIC 3939,
+de acuerdo con las cuales debe considerarse el valor razonable de la inversión, salvo cuando ésta no tenga
+cotización en un mercado activo y dicho valor no pueda ser medido de una manera fiable, en cuyo caso debe
+emplearse su costo40.
+b) en las normas argentinas:
+1) medición al costo de las inversiones permanentes cuando no existe control, control
+conjunto o influencia significativa41;
+2) aplicación del método de consolidación proporcional para las inversiones en entes
+sometidos a control conjunto, en los estados consolidados42.
+Cuando se aplica el criterio referido en b)1), sólo se reconocen resultados en los períodos en que la
+participada declara dividendos en efectivo o en especie, en tanto no correspondan a ganancias incluidas en su
+patrimonio a la fecha de la inversión, en cuyo caso se considera que existe un recupero del costo invertido.
+Este criterio no respeta el concepto de devengamiento, pues los dividendos no se declaran en los mismos
+ejercicios en que se generan las ganancias distribuidas. Por otra parte, tiene poco sentido utilizar un costo en
+los casos en que exista un VC cuya medición sea confiable.
+La adopción del criterio referido en a)2) se produjo en 2003 y fue así fundamentada en la NIC 27:
+BC28. El párrafo 29 de la versión previa de la NIC 27 permitía que las inversiones en
+controladas fueran medidas en una de tres maneras en los estados financieros separados de la
+38 Interest in Joint Ventures, International Accounting Standard 31 de la IASB, ¶¶30 y 38.
+39 Consolidated and Separate Financial Statements, International Accounting Standard 27, ¶37; Investments in
+Associates, International Accounting Standard 28 de la IASB, ¶35 y NIC 31, ¶46.
+40 NIC 39, ¶46.
+41 RT 17, segunda parte, sección 5.9.
+42 RT 17, segunda parte, sección 2,5,6,a). Según el párrafo 5.9 de la misma segunda parte, en los estados individuales
+debe aplicarse el método del VPP.
+50
+
+controlante. Ellas eran al costo, por el método del valor patrimonial o como activos financieros
+disponibles para la venta de acuerdo con la NIC 39. El párrafo 12 de la versión previa de la NIC 28
+permitía las mismas opciones para las inversiones en asociadas en los estados contables separados, y
+el párrafo 38 de la versión previa de la NIC 31 mencionaba que ésta no indicaba una preferencia por
+algún tratamiento particular en la contabilización de intereses en entes bajo control conjunto en los
+estados financieros separados de los participantes. La Junta decidió requerir el empleo del costo de la
+NIC 39 para todas las inversiones incluidas en estados contables separados.
+BC29. Aunque el método del valor patrimonial provee a los usuarios con alguna información
+sobre pérdidas y ganancias similar a la que se obtiene con la consolidación, la junta notó que tal
+información se refleja en los estados financieros del inversor y no necesita ser provista a los usuarios de
+los estados financieros separados. Para estos estados, el foco está sobre el desempeño de los activos
+como inversiones. La Junta concluyó que los estados financieros separados preparados empleando el
+método del valor razonable de acuerdo con la NIC 39 o el método del costo serían relevantes. El
+empleo del método del valor razonable de acuerdo con la NIC 39 proveería una medida del valor
+económico de las inversiones. El empleo del método del costo puede resultar en información relevante,
+dependiendo del propósito de la preparación de los estados financieros separados. Por ejemplo, puede
+que sean necesarios sólo a partes particulares para determinar los ingresos por dividendos de las
+controladas.
+Discrepamos con estos argumentos porque consideramos inadecuado (ya lo mencionamos) que dos
+juegos de estados contables referidos a una misma realidad muestren cifras distintas de resultado y
+patrimonio, lo que en las NIIF resulta obligatorio. En consecuencia, seguimos sosteniendo que en los estados
+contables individuales de una controlante, sus inversiones en controladas consolidadas deberían medirse a su
+VPP.
+Por otra parte:
+a) si la información sobre el valor razonable de las inversiones se considerase relevante, podría
+incluírsela en las notas a los estados contables;
+b) en los estados individuales de una controlante, las cifras de dividendos provenientes de sus
+controladas deberían aparecer en el estado de flujo de efectivo;
+c) no advertimos que otro uso podría tener la información resultante de aplicar el método del costo.
+10,15. PARTICIPACIONES DE OTROS ACCIONISTAS
+EN LOS RESULTADOS DE CONTROLADAS
+Dado que lo accesorio debe seguir a lo principal, estas participaciones han de reconocerse en los
+mismos períodos en que se lo hace con los resultados que las generan.
+10,16. IMPUESTOS SOBRE LAS GANANCIAS
+Los impuestos sobre las ganancias gravan los resultados de un período (calculadas antes de deducir
+el propio impuesto), pero empleando los criterios establecidos en las leyes correspondientes, que pueden ser
+distintos de los utilizados con fines contables.
+Como consecuencia de lo anterior normalmente existen diferencias entre los resultados contables e
+impositivos determinados hasta la fecha del estado de situación, que se reversarán en el futuro.
+Ocurriría, por ejemplo, si:
+a) en su contabilidad, una empresa computase una pérdida de $ 100 por la posible incobrabilidad y
+mora de sus créditos;
+b) la deducción impositiva de ese gasto sólo pudiera concretarse en el futuro, cuando se cumplan
+ciertas condiciones establecidas en la ley.
+51
+
+También pueden presentarse situaciones que sin haber afectado los resultados históricos tengan un
+efecto impositivo futuro.
+Supongamos que, en un país donde no se practican ajustes contables por inflación, una ley permite
+un revalúo impositivo de los bienes de uso y establece que los importes revaluados de acuerdo con ella se
+tomarán como base para el cálculo de las depreciaciones fiscales.
+En este caso, y suponiendo que no existan otras razones de diferencias entre las depreciaciones
+fiscales y contables futuras, las primeras superarán a las segundas.
+Estas diferencias futuras originadas en hechos ya ocurridos, en tanto sean de concreción probable,
+deben dar lugar al reconocimiento contable de activos y pasivos, que habitualmente se determinan aplicando
+el denominado método del impuesto diferido basado en el estado de situación, cuya aplicación es requerida
+por las NC internacionales43, argentinas44 y estadounidenses45.
+De tal aplicación puede resultar una cifra de impuesto sobre las ganancias distinta a la determinada
+en la correspondiente declaración jurada.
+Diferidos S.A. computa como gasto la depreciación de un computador (adquirido el 1/01/04 con un
+costo de $ 1.000) a razón de 25% anual de su costo histórico con fines contables y del 20% del mismo
+importe con fines impositivos. La tasa del impuesto es del 28%. La empresa es rentable.
+En 2004, la depreciación contable es de $ 250 y la impositiva de $ 200. La menor deducción ($ 50)
+hace que el impuesto liquidado supere al devengado en $ 14 (el 28% de $ 50). Por lo tanto, debe reconocerse
+un activo por ese importe.
+Lo mismo ocurre en 2002, 2003 y 2004. Al cierre de este ejercicio, el activo por impuesto diferido es
+de $ 56.
+Dicho activo desaparece en 2005, pues en este ejercicio se efectúa una deducción impositiva por
+depreciaciones ($ 200) que no tiene correlato en la contabilidad y que ocasione un ahorro de $ 56 (el 28% de
+$ 200).
+Para considerar el valor tiempo del dinero, la medición de los activos y pasivos por impuestos
+diferidos debería hacerse sobre la base de los VD de los futuros efectos financieros de dichos elementos. Sin
+embargo, la mayoría de los organismos emisores de normas ha considerado que esto implica problemas
+prácticos de magnitud, por lo que han adoptado el criterio de omitir el descuento financiero. A fines de 2004,
+la única excepción que conocemos es la prevista en las NCP del CPCECABA46.
+Cabe señalar que si el impuesto sobre las ganancias se contabilizara por el importe determinado para
+el ejercicio, se aplicaría un criterio contrario al devengamiento y al requisito de integridad, ya que se oculta-
+rían activos o pasivos.
+De acuerdo con las NC antes referidas, los activos por impuestos diferidos (incluyendo los que
+resultaren de la aplicación futura de quebrantos impositivos acumulados) se reconocen cuando los futuros
+flujos favorables de fondos son probables, aunque no sean totalmente seguros. Ya mencionamos que esto es
+razonable pero inconsistente con la posición contraria al reconocimiento de los activos contingentes que
+aparece en otras normas de la IASB, la FACPCE y la FASB.
+(cid:194) Nos referimos al tema en el § 9,6.
+10,17. RETIROS DE LOS PROPIETARIOS
+Los retiros de los propietarios de los entes con fines de lucro deben reconocerse cuando se hayan
+dado los pasos legales que hacen aparecer una deuda hacia ellos.
+En una sociedad anónima, el pasivo nace cuando la asamblea de accionistas resuelve la distribución
+de un dividendo.
+43 Income Taxes, International Accounting Standard 12 de la IASB.
+44 RT 17, segunda parte, sección 5.19.6.3.
+45 FARS03-CT, sección 127 (Income Taxes).
+46 RT 17 (versión CPCECABA), segunda parte, sección 5.19.6.3.3.
+52
+
+Cuando lo que se distribuye es dinero, la medición contable del pasivo no ofrece problemas.
+En los casos de dividendos en especie, lo razonable sería computarlos a los VC de los bienes a
+entregar. Si éstos integrasen el activo y tuviesen una medida contable distinta al VC, debería reconocerse el
+correspondiente resultado, que por otra parte puede considerarse realizado.
+No todas las NC se han ocupado del tema, pero los criterios que acabamos de exponer son
+consistentes con:
+a) los conceptos contenidos en los principales MC, según los cuales un ente tiene un pasivo cuando:
+1) debido a un hecho ya ocurrido está obligado a entregar activos o a prestar servicios a otra
+persona (física o jurídica) o es altamente probable que ello ocurra;
+2) la cancelación de la obligación es ineludible o altamente probable y deberá efectuarse en una
+fecha determinada o determinable o debido a la ocurrencia de cierto hecho o a requerimiento del acreedor;
+b) las NC relacionadas con la medición de pasivos en especie.
+10,18. RESUMEN
+El reconocimiento contable de los aportes de los propietarios debería producirse cuando se dan las
+condiciones para:
+a) reconocer el activo correspondiente, que debería computarse a su VC; o
+b) dar de baja el pasivo capitalizado, que debería tomarse a su costo de cancelación.
+Los bienes o servicios adquiridos deberían incorporarse a sus VC, que generalmente coinciden con
+sus costos o son cercanos a ellos.
+Las donaciones recibidas deberían reconocerse cuando, debido a la voluntad del donante, el
+beneficiario obtiene un activo o ve cancelado o disminuido un pasivo. La medición de ellas debería
+efectuarse considerando el VC de los bienes recibidos o el costo de cancelación de las deudas de las que se
+libera.
+Los bienes o servicios recibidos en canje deberían reconocerse por su VC, determinado del mismo
+modo que si se los hubiese adquirido. Algunas NC no admiten la aplicación de este criterio a los canjes de
+bienes parecidos cuya medición contable deba hacerse al costo o cuando el trueque no tiene sustancia
+comercial.
+En las empresas con actividad comercial o industrial, se considera que el proceso ganancial culmina,
+en general, cuando se produce y perfecciona la venta. Concordantemente, la medición contable de las
+mercaderías (y en su caso, de los insumos físicos para la producción) debe hacerse sobre la base de algún
+valor de entrada como el costo de reposición (Argentina) o el costo histórico (la mayoría de los países).
+En los casos de bienes fácilmente comercializables, la venta no es determinante de los resultados. Es
+razonable que:
+a) la medición contable de esos bienes se haga a su VNR (para operaciones al contado);
+b) se reconozcan (como resultados de tenencia) los cambios en los VNR (sin embargo, algunas NC
+no lo admiten en el caso de cuentas por cobrar titulizadas a ser mantenidas hasta su vencimiento);
+c) el costo de lo vendido se determine sobre la base de esos VC, asignando a la actividad de vender
+un resultado nulo.
+Si los bienes fácilmente comercializables se producen (como sucede en la actividad agrícola), el
+resultado de la actividad productiva debería diferenciarse del resultado de tenencia de los bienes obtenidos.
+Si la obtención final del producto fuese virtualmente segura, cabría aplicar procedimientos que permitiesen
+distribuir el resultado del esfuerzo productivo entre los períodos durante los cuales tuvo lugar. No nos parece
+adecuado el empleo de VD en cuyo cálculo se incluyan los efectos de actividades de generación de ganancias
+que aun no han tenido lugar.
+Cuando una exploración minera culmina con un descubrimiento exitoso, deberían reconocerse y
+medirse las existencias halladas, asignándose un resultado a la actividad de exploración. Dado que las
+cantidades reales de dichas existencias sólo podrían conocerse después de su extracción total, debe
+estimárselas prudentemente, sobre la base de informes geológicos fiables. Los criterios que encontramos
+preferibles para la medición contable de las existencias comprobadas son:
+53
+
+a) precio de mercado del mineral a vender menos costos necesarios para su extracción y colocación
+en el mercado;
+b) VD de los ingresos netos que generará la extracción y venta del mineral;
+c) el importe resultante del criterio b) menos el valor agregado al bien por la actividad de extracción
+(no se nos ocurre como estimarlo).
+Cuando la venta es anterior a la producción, la ganancia se va generando a medida que avanza ésta y
+debería ser reconocida empleando el método de avance de obra, siempre que la medición de dicho avance
+pueda efectuarse fiablemente.
+Cuando se reciben anticipos sobre ventas, suele ingresar dinero, de modo que su medición contable
+inicial no ocasiona problemas. La posterior depende del tipo de obligación asumida.
+Para la medición contable de los contratos a término (futuros y forwards) deberían considerarse sus
+valores (si los tuvieren) o los precios de los bienes objeto de ellos y los VD de las sumas a pagar o cobrar.
+La actividad de producción para consumo propio es autónoma, por lo que debería asignársele un
+resultado separado, en cuyo caso perdería significado a la discusión sobre la posible inclusión de costos
+financieros dentro del costo de producción de estos bienes. Sin embargo, tales resultados no suelen ser
+reconocidos.
+El hecho generador de los ingresos por servicios es su prestación, de modo que debería asignárselos
+a los períodos en que ella ocurra, siempre que su percepción final sea altamente probable y puedan medirse
+fiablemente:
+a) el importe apercibir;
+b) el grado de completamiento de la prestación;
+c) los costos ya incurridos;
+d) los necesarios para el completamiento del servicio.
+Para la imputación de costos a resultados, hay consenso en la aplicación de estas reglas:
+a) los costos vinculados con ingresos determinados son gastos que deben reconocerse como tales en
+los mismos períodos que los primeros (correlación de ingresos y costos);
+b) si el costo no se relaciona con un ingreso específico, pero sí con un período, debe imputárselo a éste;
+c) los restantes costos (al igual que las pérdidas) deben reconocerse en resultados tan pronto como se
+los conoce.
+Cuando el costo imputado al resultado de un período se corresponde con la baja, consumo o
+depreciación de un activo, su medición debería practicarse aplicando el mismo criterio empleado para el bien
+en cuestión.
+Las variaciones patrimoniales ocasionadas por el mantenimiento de activos y pasivos financieros
+deben reconocerse a medida que cambian sus medidas contables. Vale recordar que algunas NC admiten o
+requieren:
+a) la activación de los costos financieros incurridos para financiar ciertas actividades de producción o
+ciertos activos; o
+b) el diferimiento de algunos resultados financieros mediante su imputación directa al patrimonio,
+creando un rubro que no integra ni el capital ni los resultados acumulados (procedimiento incompatible con
+la aplicación del concepto de ganancia basado en el mantenimiento del capital financiero).
+Algunos entes adquieren activos o toman pasivos para cubrirse, aunque sea parcialmente, de las
+pérdidas que podrían ocasionarles las fluctuaciones de los precios de ciertos bienes o los flujos futuros de
+fondos que ocasionará alguna actividad planeada. Esto no ocasiona problemas contables cuando:
+a) las mediciones contables de los activos (o pasivos) cubiertos se basan en sus VC (o sus costos de
+cancelación);
+b) las correspondientes ganancias y pérdidas de tenencia se imputan a los resultados de los ejercicios
+en que se generan.
+54
+
+Sin embargo, algunas NC requieren que los resultados producidos por los instrumentos financieros
+que operen como coberturas eficaces de los cambios en los flujos de fondos que podría ocasionar una
+transacción futura prevista sean imputados a resultados a medida que se hace lo mismo con la medida inicial
+del activo o pasivo a ser reconocido con motivo de la concreción de la operación.
+Cuando se constituye un fideicomiso se crea un patrimonio separado que puede gozar de ciertos
+privilegios, establecidos por la legislación del caso. La transmisión fiduciaria de los bienes sólo debería
+contabilizarse como una venta si:
+a) el fiduciante transfiriese al fideicomiso los futuros beneficios económicos que producirán los
+bienes fideicomitidos;
+b) el fiduciante no tuviera la obligación ni la opción de volver a adquirir los bienes fideicomitidos
+(salvo mediante la igualación de la oferta de un tercero);
+c) la transmisión fiduciaria no se realizara para garantizar deudas del fiduciante o de terceros;
+d) en el caso de que el fiduciante se obligara a hacerse cargo de pérdidas relacionadas con los bienes
+fideicomitidos, fuese posible la realización de una estimación razonable de ellas y de los gastos conexos.
+Las ganancias y las pérdidas deberían reconocerse en los períodos en que ocurran los hechos que las
+generan, siempre que su medición pueda practicarse sobre bases objetivas. Si fueran contingentes deberían
+tenerse en cuenta las consideraciones especiales que presentamos en el § 9,6. La medición del importe de una
+pérdida o de una ganancia depende de las circunstancias.
+Si existieran participaciones societarias que otorgan control, control conjunto o influencia
+significativa, deberían aplicarse métodos contables que permitan el reconocimiento de la participación de la
+inversora en los resultados de la participada. Hay diversas formas de hacerlo, pero la mejor parece ser la
+siguiente:
+a) cuando hay control:
+1) presentar estados consolidados;
+2) si la controlante presenta también estados individuales, aplicar el método del VPP para la
+medición contable de su participación en la controlada;
+b) cuando hay control conjunto o influencia significativa, aplicar el método del VPP
+Las NIIF prevén, para los casos a)2) y b), algunos criterios insensatos. Para las restantes
+participaciones societarias, creemos que lo mejor es reconocer los resultados de la inversión sobre la base de
+las variaciones:
+a) del VNR, si las acciones reúnen las características de bienes de fácil comercialización;
+b) del VPP, si no reúnen tales condiciones y su importe es susceptible de medición fiable.
+Las participaciones de accionistas no controlantes en los resultados de las sociedades controladas
+deberían reconocerse en los mismos períodos que éstos.
+Para la determinación del impuesto sobre las ganancias a ser asignado al resultado de cada período
+deberían considerarse:
+a) el impuesto determinado para el mismo;
+b) las diferencias que puedan existir entre las mediciones contables e impositivas de los activos y pasivos.
+A tal efecto, se utiliza el método del impuesto diferido basado en el estado de situación.
+Los retiros de los propietarios de los entes con fines de lucro deben reconocerse cuando se hayan
+dado los pasos legales que hacen aparecer una deuda hacia ellos. Si fueran en especie, sería razonable
+computarlos a sus VC.
+10,19. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para que una aseveración sea
+correcta debe serlo totalmente.
+a) Los aumentos del capital nominal de una sociedad implican siempre incrementos de activos o
+disminuciones de pasivos.
+55
+
+b) Como se hace en todo el mundo, las deudas resultantes de la adquisición de bienes deberían
+computarse por la suma que debería haberse pagado al contado para no asumir pasivo alguno.
+c) La medición contable periódica de las mercaderías de reventa debería hacerse al costo histórico o
+al costo de reposición, según el modelo contable que se adopte.
+d) La venta no es determinante de los resultados ocasionados por la tenencia de bienes fácilmente
+comercializables.
+e) Para definir cómo debería contabilizarse un fideicomiso, lo más importante es establecer si la
+transmisión fiduciaria de los bienes puede considerarse una venta desde el punto de vista de la realidad
+económica.
+f) Las ganancias y pérdidas susceptibles de medición objetiva deberían imputarse siempre a los pe-
+ríodos en que hayan ocurrido los hechos que las generaron,
+g) De la aplicación de los métodos del VPP y de la consolidación proporcional para la medición
+contable de una participación en otra sociedad surgen las mismas cifras de activo, patrimonio y resultado de
+la inversora, siempre y cuando los ajustes efectuados para aplicar el primero coincidan con los
+eventualmente realizados al consolidar.
+2. Indique en qué casos el costo de adquisición de un bien de fácil comercialización difiere de su
+VNR.
+3. Indique cuándo puede considerarse realizado un ingreso por venta de mercaderías.
+4. Enuncie las condiciones requeridas por la NIC 18 para el reconocimiento de ingresos por ventas
+de mercaderías.
+5. Enuncie las reglas básicas para la asignación de costos a períodos.
+6. Enuncie el concepto de fideicomiso.
+7. En un país sin inflación, Especulator S.A. realiza operaciones con acciones y opciones en un
+mercado de valores donde los costos de comprar y vender son del 1% sobre el importe de cada operación.
+El 30/04/04, adquiere 1.000 acciones de Pantuflas S. A. por $ 20,00 cada una (costo total: $ 20.200)
+con el propósito de beneficiarse con los cambios de precios que se produzcan en los dos meses siguientes.
+Para cubrirse de una posible caída del precio de las acciones, también compra 1.000 opciones para
+vender las acciones no después del 15/06/04 al precio de ejercicio de $ 22,00. Paga $ 3,50 por cada opción
+(costo total: $ 3.535).
+Al 31/05/04, las acciones se cotizan en $ 18,00 (VNR total: $ 17.820) y las opciones a $ 4,70 (VNR
+total: $ 4.653).
+Calcule los resultados producidos hasta el 31/05/04 por las operaciones con acciones y opciones e
+indique cuál sería su tratamiento contable que le parece más adecuado.
+8. El 29/12/ 04, el Departamento de Personal de Haberes S. A. informa los siguientes datos:
+a) los sueldos del personal administrativo del mes de diciembre suman $ 120.000, pagados el mismo
+29/12/04, junto con el aguinaldo del segundo semestre del año;
+b) los aportes sobre dichos sueldos que el empleador debe hacer a un sistema jubilatorio suman
+$ 30.000;
+c) el aguinaldo, que es 1/12 de las remuneraciones del segundo semestre de 2000, suma $ 53.000;
+d) los aportes a entes previsionales sobre dicho aguinaldo (30 %) suman $ 15.900;
+e) las retenciones a efectuar a los empleados con destino a entes previsionales son de $ 12.000 sobre
+los sueldos de diciembre y de $ 6.400 sobre el aguinaldo.
+Indique, en relación con cada uno de los datos informados, qué importes deberían afectar el resultado
+del mes de diciembre de 2004.
+9. En septiembre de 2004, se determina que los miembros del plantel de vendedores de La Vuelta
+S. A. deben recibir $ 29.000 en concepto de comisiones, según el siguiente detalle:
+Conceptos Pesos
+Pedidos obtenidos
+• Ventas entregadas en septiembre 1.000.000
+• Ventas entregadas en octubre 1.700.000
+• Ventas de productos discontinuados 200.000
+• Total 2.900.000
+Comisiones (1 %) 29.000
+56
+
+La discontinuación de productos recién fue informada a los vendedores el 5/10/04, razón por la cual
+la empresa resolvió reconocerles las comisiones correspondientes.
+Indique qué importes del total de $ 29.000 deberían imputarse al resultado del mes de septiembre de
+2004.
+10. E1 1/03/04, Lotemar S. A. adquirió un terreno en $ 100.000, pagando $ 30.000 en el momento y
+$ 70.000 (más $ 4.000 de intereses) el 1/07/04. Los restantes costos de adquisición sumaron $ 20.000.
+Luego, dividió el terreno en diez lotes, de los cuales vendió uno el 31/10/04, bajo estas condiciones:
+Conceptos Pesos
+Precio de venta 18.000
+Cobrado al contado 3.600
+Financiado 14.400
+Intereses 875
+Total cobrado en cinco cuotas iguales 15.275
+Importe de cada cuota 3.055
+Las cuotas vencidas el 30/11/04 y 31/12/04 se cobraron en término.
+Se estima que las restantes podrán ser percibidas por completo y en las fechas previstas.
+Determine los importes que, en relación con las operaciones precedentes, deben ser imputados al
+resultado del año calendario 2004. Suponga que no hay inflación, que los meses son de igual duración y que
+las NC del país requieren que la medición contable de las inversiones en terrenos se haga a su costo.
+10,20. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y EJERCICIOS
+1. a) Incorrecto. Los aumentos de capital también pueden provenir de capitalizaciones de ganancias
+o de aportes irrevocables.
+b) Incorrecto. No se hace en todo el mundo.
+c) Incorrecto. Si las mercaderías de reventa fuesen bienes de fácil comercialización, debería
+medírselas sobre la base de su VNR.
+d) Correcto.
+e) Correcto.
+f) Correcto.
+g) Incorrecto. Normalmente, las cifras de activo deberían diferir.
+2. Ocurre cuando:
+a) tanto el comprador como el vendedor deben hacerse cargo de comisiones u otros costos sobre
+las operaciones; o
+b) en el mercado hay un precio de compra y otro de venta.
+3. Cuando se han entregado los bienes o se los ha puesto a disposición del comprador, si esta
+modalidad de entrega constare en un contrato con el cliente.
+4. Son las siguientes:
+a) se han transferido al comprador los riesgos y ventajas inherentes a la propiedad de las
+mercaderías;
+b) el vendedor no retiene para sí ninguna implicación en la gestión corriente de las mercaderías
+vendidas ni el control efectivo sobre ellas;
+c) el importe del ingreso puede ser medido fiablemente;
+d) es probable que los beneficios económicos asociados con la transacción fluyan hacia la empresa; y
+e) los costos ya incurridos o a ser incurridos en relación con la transacción pueden ser medidos
+fiablemente.
+5. Son éstas:
+a) los costos vinculados con ingresos determinados son gastos que deben reconocerse como tales
+en los mismos períodos que los primeros (correlación de ingresos y costos);
+b) si el costo no se relaciona con un ingreso específico, pero sí con un período, debe
+imputárselo a éste;
+c) los restantes costos deben reconocerse en resultados tan pronto como se los conoce.
+6. Hay fideicomiso cuando una persona (el fiduciante) transmite la propiedad fiduciaria de
+determinados bienes a otra (el fiduciario), que se obliga a ejercerla en beneficio de quien se designe en el
+57
+
+contrato (el beneficiario) y a transmitirla –cuando se cumpla cierto plazo o condición– al fiduciante, al
+beneficiario o a un tercero.
+7. Para el autor, lo más adecuado es computar estos activos a su VNR e incluir las ganancias y
+pérdidas producidas por su tenencia en los períodos en que se devenguen:
+Conceptos Acciones Opciones Total
+VNR 17.820 4.653 22.473
+Costo 20.200 3.535 23.735
+Resultado -2.380 1.118 -1.262
+8. Deben incidir sobre el resultado de diciembre de 2000:
+a) los $ 120.000 de sueldos porque corresponden a un servicio prestado en este mes;
+b) los aportes de $ 30.000 porque lo accesorio (los aportes previsionales) sigue a lo principal (los
+sueldos);
+c) la porción del aguinaldo generada por los sueldos de diciembre, que es de 1/12 de $ 120.000, o
+sea $ 10.000 (el resto corresponde a meses anteriores);
+d) la parte proporcional de los aportes sobre el aguinaldo que corresponde a los sueldos de
+diciembre, que es el 30% de $ 10.000, o sea $3.000.
+Respecto de las retenciones a los empleados, sólo se produciría un resultado por los efectos que
+sobre ellas provoque la inflación o la deflación entre el momento de retención y el de entrega a los
+organismos provisionales correspondientes. En el caso, no hay resultado atribuible a diciembre porque los
+sueldos se pagaron al final del mes.
+9. Del total de $ 29.000 deben incidir en los resultados de septiembre:
+a) los $ 10.000 (el 1 % de $ 1.000.000) de comisiones sobre ventas que debieron ser imputadas a
+resultados (correlación de costos con ingresos);
+b) los $ 2.000 (el 1% de $ 200.000) de comisiones sobre las ventas que no podrán concretarse (es
+una pérdida que debe reconocerse de inmediato).
+Los restantes $ 17.000 deberían imputarse a resultados junto con las correspondientes ventas.
+10. Para poder identificar los resultados imputables al año 2004, debe calcularse la tasa de interés
+implícita en la financiación (que es del 2% mensual) y su cuadro de amortización. Ambas tareas pueden
+efectuarse con Excel (de Microsoft Corporation).
+El cuadro de amortización de la cuenta a cobrar es:
+Cuota Venci- Capital Interés Amorti- Cuota
+miento inicial (2%) zación total
+1 30/11/04 14.400 288 2.767 3.055
+2 31112/04 11.633 233 2.822 3.055
+3 31/01/05 8.811 176 2.879 3.055
+4 28/02/05 5.932 119 2.936 3.055
+5 31/03/05 2.996 59 2.996 3.055
+875 14.400 15.275
+Los importes asignables al resultado del año calendario 2004 son los siguientes:
+a) ingresos: $ 18.000 correspondientes al precio del lote vendido y $ 521 correspondientes a los
+intereses devengados hasta el 31/12/04 ($ 288 en noviembre y $ 233 en diciembre);
+b) gastos: $ 4.000 de intereses pagados al acreedor y $ 12.000 que es el costo de adquisición del lote
+vendido (1/10 de $ 120.000).
+58

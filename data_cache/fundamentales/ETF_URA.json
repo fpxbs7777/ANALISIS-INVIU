@@ -1,0 +1,55 @@
+{
+ "ticker_yf": "URA",
+ "empresa": "Global X Uranium ETF",
+ "es_etf": true,
+ "top_holdings": [
+  {
+   "holding": "Cameco Corp",
+   "symbol": "CCO.TO",
+   "peso": 0.229852
+  },
+  {
+   "holding": "NexGen Energy Ltd",
+   "symbol": "NXE.TO",
+   "peso": 0.064698905
+  },
+  {
+   "holding": "Oklo Inc Class A Shares",
+   "symbol": "OKLO",
+   "peso": 0.0553023
+  },
+  {
+   "holding": "Uranium Energy Corp",
+   "symbol": "UEC",
+   "peso": 0.0527636
+  },
+  {
+   "holding": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+   "symbol": "KAP",
+   "peso": 0.0490692
+  },
+  {
+   "holding": "Centrus Energy Corp Class A",
+   "symbol": "LEU",
+   "peso": 0.035493802
+  },
+  {
+   "holding": "Paladin Energy Ltd",
+   "symbol": "PDN.AX",
+   "peso": 0.0348935
+  },
+  {
+   "holding": "BHP Group Ltd",
+   "symbol": "BHP.AX",
+   "peso": 0.034315
+  },
+  {
+   "holding": "Samsung C&T Corp",
+   "symbol": "028260.KS",
+   "peso": 0.0339512
+  }
+ ],
+ "descripcion": "The fund invests at least 80% of its total assets in the securities of the underlying index and in American Depositary Receipts (\"ADRs\") and Global Depositary Receipts (\"GDRs\") based on the securities in the underlying index. The underlying index is designed to measure broad based equity market performance of global companies involved in the uranium industry. The fund is non-diversified.",
+ "expense_ratio": null,
+ "_fetched_at": "2026-08-25T14:23:16.024346"
+}

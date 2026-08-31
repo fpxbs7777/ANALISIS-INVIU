@@ -1,0 +1,1403 @@
+MARIO BIONDI
+ESTADOS
+CONTABLES
+Presentación,
+interpretación y análisis
+Con la colaboración de:
+Rosa Teresa Colamussi
+
+Biondi, Mario
+Estados contables, presentación, interpretación y análisis. - 2*.ed. -
+Buenos Aires : Errepar, 2004.
+336 p. ; 22x15 cm- (Biblioteca profesional y empresaria)
+ISBN 987-01-0268-9
+1. Estados Contables I. Título
+CDD 657
+© 2004 Mario Biondi
+D.R. © ERREPAR S.A.
+Paraná 725 - (1017) Buenos Aires - República Argentina
+Tel.: 4370-2002
+Internet: www.errepar.com
+E-mail: clientes@errepar.com
+ISBN 987-01-0268-9
+Nos interesan sus comentarios sobre la presente obra:
+editorial @ errepar.com
+Queda hecho el depósito que marca la ley 11723
+Impreso y hecho en la Argentina
+Printed in Argentina
+Ninguna parte de esta publicación, incluido el diseño de la tapa,
+puede ser reproducida, almacenada o transmitida de manera alguna
+ni por ningún medio, ya sea eléctrico, químico, mecánico, óptico,
+de grabación o de fotocopia, sin permiso previo del editor.
+Esta edición de 1000 ejemplares se terminó
+de imprimir en los talleres de Longseller S.A.,
+en Buenos Aires, República Argentina,
+en el mes de abril de 2004.
+
+ERREPAR 11
+
+ÍNDICE
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+12
+ERREPAR
+MARIO BIONDI 13
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS ÍNDICE
+14 15
+MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+16
+MARIO BIONDI
+
+Capítulo 4
+LOS ESTADOS DE CAMBIOS EN LA
+POSICIÓN FINANCIERA DE LAS EMPRESAS
+
+1. Antecedentes
+La presentación de los estados contables básicos, durante
+muchos años, estuvo limitada al llamado Balance General o Es-
+tado de Situación Patrimonial y al Estado demostrativo de ga-
+nancias y pérdidas o Estado de Resultados.
+Desde hace aproximadamente treinta años, en los Estados
+Unidos de América comenzó a difundirse otro estado contable
+(financiero, como se dice allí), que tuvo diferentes nombres (Es-
+tado de origen y aplicación de fondos, Estado de cambios en la
+posición financiera y, finalmente, Estado de flujos de caja o del
+efectivo).
+En la Argentina, con la sanción de la Ley de Sociedades Co-
+merciales (19550) aparece la posibilidad de que las autoridades
+de contralor de las empresas incluidas en el artículo 299 de di-
+cha ley requieran la presentación del Estado de origen y aplica-
+ción de fondos, entendiéndose por fondos, dice el artículo 62,
+las
+variaciones del Capital de trabajo (Activo corriente menos Pasi-
+vo corriente), lo que motiva un error de concepto en la legisla-
+ción. Puesto que el concepto de fondos es equivalente al “dis-
+ponible” con que cuenta la empresa en un momento dado (dine-
+ro en efectivo, depositado en bancos bajo la forma de cuentas
+corrientes e inversiones transitorias).
+2. Situación actual en nuestro país
+En el capítulo anterior, estudiamos aspectos formales de la
+presentación de estos estados; sin embargo, creemos impor-
+tante profundizar algo más, en razón de que se trata de estados
+de poca difusión y que, además, constituyen por sí mismos im-
+portantes herramientas de análisis.
+Hemos designado este capítulo con el nombre de “Cambios
+en la posición financiera”, teniendo en cuenta las modalidades
+posibles de confección y a falta de otra denominación que fue-
+ERREPAR 113
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Para obtener la cifra de ventas cobradas: debemos conver-
+ra comprensible de las alternativas a analizar. En efecto, la va-
+tir las ventas “devengadas” del Estado de resultados en ventas
+riación de caja es específicamente un episodio “financiero” y los
+cambios en el Capital corriente también asumen ese carácter. “percibidas”, recordando lo tratado anteriormente y sintetizán-
+Las normas vigentes emanan de varias fuentes principales: Fe- dolo en un esquema:
+• Ventas del período según Estado de resultados
+deración Argentina de Consejos Profesionales en Ciencias
+Económicas (con la convalidación por parte de los consejos (+) Disminución operada en las cuentas por cobrar por ventas
+profesionales jurisdiccionales), Comisión Nacional de Valores, entre el inicio y el cierre del período
+Superintendencia de Seguros de la Nación y Banco Central de
+(-) Aumento operado en las cuentas por cobrar por ventas en-
+la República Argentina.
+tre el inicio y el cierre del período
+Analizaremos los pronunciamientos de las dos primeras en-
+(=) Ventas cobradas (“percibidas”) en el período.
+tidades e incluiremos casos prácticos de aplicación.
+A dichas ventas se les restan los egresos ordinarios paga-
+dos. Entre estos egresos estará el costo de la mercadería ven-
+3. Normas de la Federación Argentina de Con- dida, que deberá ser convertido a compras del período paga-
+sejos Profesionales en Ciencias Económicas. das. Sintetizando en un esquema lo desarrollado anteriormen-
+Resoluciones Técnicas 8 y 9 te, ello será igual a:
+Conforme vimos en el capítulo anterior, se dan dos alterna-
+• Costo de mercaderías vendidas según Estado de resulta-
+tivas de presentación para la confección del estado de flujo de
+dos
+efectivo.
+(+) Incremento de inventarios (bienes de cambio) entre el cierre y el
+Las dos alternativas o métodos de confección son: la llama-
+inicio del período
+da método directo: dentro de las causas identificadas como
+generadas por la actividad operativa, se toman del estado de re- (-) Disminución de inventarios (bienes de cambio) entre el cierre y el
+sultados solamente los resultados que significaron movimiento inicio del período
+de efectivo (ventas cobradas, gastos pagados), clasificados en
+(=) Compras del período
+ordinarias y extraordinarias; a continuación, se exponen las
+(+) Disminución del saldo de la cuenta Proveedores entre el
+causas generadas por las actividades de inversión, y luego las
+cierre y el inicio del período
+generadas por actividades de financiación.
+(-) Aumento del saldo de la cuenta Proveedores entre el cierre
+La confección del estado de resultados sigue los lineamien-
+y el inicio del período
+tos del concepto de devengado, debemos transformar ese con-
+cepto en “cobrado” o “pagado”, al seleccionar las ventas no nos (=) Compras pagadas en el período.
+interesarán todas las realizadas en el período, sino solamente En el otro método, llamado indirecto, en la sección que
+aquellas que efectivamente hayan generado un ingreso de ca- muestra las causas generadas por las actividades operativas se
+ja; lo mismo en el caso de los gastos y, lo más importante: del parte en cambio del resultado del ejercicio (clasificándolo en
+costo de las ventas, habrá que transformarlo en compras paga- proveniente de operaciones ordinarias y proveniente de opera-
+das en el período. ciones extraordinarias), al cual se le hacen ajustes por aquellas
+Trabajando solamente con la información obtenida de los partidas que no representan ingresos o egresos de “efectivo”;
+estados contables básicos es posible hacer esa transformación.
+114 MARIO BIONDI ERREPAR 115
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+las causas generadas por actividades de inversión y financia-
+ción se exponen igual que en el método directo.
+En el capítulo anterior, vimos la forma de presentación de
+estos estados. A continuación desarrollaremos una serie de ca-
+sos prácticos.
+3.1. Casos prácticos de aplicación: Estado de flujo de efectivo
+En el primer caso de aplicación partiremos del supuesto de
+inflación 0 y analizaremos las variaciones del “efectivo” como si-
+nónimo de “fondos”.
+Recordemos que dentro de este concepto se incluyen “caja
+y bancos” y, dependiendo de la intención de la empresa pueden
+incluirse en ese concepto las “inversiones transitorias” (recor-
+demos que para ser consideradas como tales, tienen que reunir
+simultáneamente dos condiciones: fácil convertibilidad en efec-
+tivo y la intención de la empresa de desprenderse de ellas).
+Se trata en nuestro ejemplo, de una empresa cuya principal
+fuente de ingresos está dada por alquileres (rentas).
+Lo desarrollaremos a través de los métodos directo e indi-
+recto.
+Información adicional:
+Caso de aplicación Ns 1: Los Cambios S.A. a) En 19X6, la compañía pagó un dividendo en efectivo de $
+18.000.
+Estado de flujo de efectivo
+b) La compañía obtuvo un ingreso de caja de $ 150.000 por
+Datos del planteo: emisión de obligaciones negociables a largo plazo.
+Los Cambios S.A. c) Terrenos, edificios y equipos fueron pagados en efectivo.
+Balances generales comparativos d) El impuesto a las ganancias corresponde a los anticipos
+Diciembre 31 pagados en el ejercicio por la empresa, que concuerda con el
+monto provisionado por la empresa por ese concepto.
+Confeccionar, de acuerdo con los datos suministrados, el
+Estado de flujo de efectivo, por los métodos directo e indirecto.
+116
+MARIO BIONDI ERREPAR 117
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Caso de aplicación Ns 1: Solución modelo
+B - Estado de Flujo de Efectivo - Método Indirecto
+A - Estado de Flujo de Efectivo - Método Directo
+Estado de flujo de efectivo - Método directo Estado de flujo de efectivo - Método indirecto
+Variación del efectivo $ Variación del efectivo $
+Efectivo al inicio del ejercicio 49.000 Efectivo al inicio del ejercicio 49.000
+Efectivo al cierre del período 37.000 Efectivo al cierre del período 37.000
+Disminución neta del efectivo 12.000 Disminución neta del efectivo 12.000
+Causas de las variaciones del efectivo
+Causas de las variacion es del efectivo
+Actividades operativas Actividades operativas
+Cobros por rentas del año (1) 502.000
+Ganancia ordinaria del ejercicio
+134.000
+P
+P
+a
+a
+g
+g
+o
+o
+s
+s
+a
+d e
+p
+l
+r
+i
+o
+m
+v
+p
+e
+u
+e
+e
+d
+s
+o
+t
+r
+o
+e s
+a
+d
+la
+e
+s
+b
+g
+ie
+a
+n
+n
+e
+a
+s
+n c
+y
+i a
+s
+s
+e rvicios (2) (240
+(6
+.0
+8
+0
+.0
+0
+0
+)
+0)
+M
+M
+á
+á
+s
+s
+:
+:
+c
+d
+o
+e
+b
+p
+r
+r
+o
+e
+s
+c i
+d
+a
+e
+ci ó
+re
+n
+n
+d
+ta
+e
+s
+b
+d
+ie
+e
+n
+a
+e
+ñ
+s
+o
+d
+s
+e
+a
+u
+n
+s
+te
+o
+r iores
+10.000
+21.000
+Menos: pago de gastos anticipados
+Flujo neto de efectivo generado por operaciones Más: aumento de proveedores
+(
+3
+6
+5
+.
+.
+0
+0
+0
+0
+0
+0
+)
+ordinarias 194.000
+Flujo neto de efectivo generado por operaciones
+194.000
+Flujo neto de efectivo generado por las actividades ordinarias
+operativas 194.000
+Flujo neto de efectivo generado por las actividades
+194.000
+Actividades de inversión operativas
+Pagos por adquisición de bienes de uso (338.000)
+F
+in
+l
+v
+u
+e
+jo
+rs
+n
+ió
+e
+n
+to de efectivo utilizado en actividades de
+(338.000)
+A
+Pa
+c
+g
+ti
+o
+v
+s
+id
+p
+a
+o
+d
+r
+e
+a
+s
+d
+d
+q
+e
+u i
+i
+s
+n
+i
+v
+c
+e
+ió
+r
+n
+s i
+d
+ó
+e
+n
+bienes de uso
+(338.000)
+Actividades de financiación
+Cobros por la emisión de obligaciones negociables 150.000
+Flujo neto de efectivo utilizado en actividades de
+(338.000)
+inversión
+Pago de dividendos en efectivo (18.000)
+Actividades de financiación
+Flujo neto de efectivo generado en actividades de
+Cobros por la emisión de obligaciones negociables
+150.000
+financiación 132.000 (18.000)
+Pago de dividendos en efectivo
+Disminución neta del efectivo
+(12.000)
+Flujo neto de efectivo generado en actividades de
+132.000
+(1) Cobros por rentas del año: financiación
+Rentas según estado de resultados 492.000
+Disminución neta del efectivo (12.000)
+Más:
+Disminución de cuentas por cobrar por rentas
+10.000
+Rentas cobradas en el año 502.000
+(2) Pagos a proveedores de bienes y servicios Veremos a continuación otro caso; en este supuesto se tra-
+Gastos de operaciones 269.000 ta de una empresa comercial y también suponemos inflación 0.
+Pago de gastos anticipados 6.000
+Menos:
+Incremento del saldo de proveedores (35.000)
+Total pago a proveedores 240.000
+MARIO BIONDI ERREPAR 119
+118
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Caso de aplicación N2 2: Las Novedades S.A.
+Las Novedades S.A.
+Balances generales comparativos
+Diciembre 31
+120 MARIO BIONDI ERREPAR 121
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+(1) Cobros por ventas de bienes de cambio
+Ventas según estado de resultados 890.000 $
+Menos: aumento de cuentas por cobrar por ventas (42.000) Actividades de inversión
+Ventas cobradas en el período 848.000
+(1) Pagos a proveedores de bienes y servicios Pagos por compras de bienes de uso (166.000)
+Costo de mercaderías vendidas según estado de resultados 465.000 Cobros por ventas de bienes de uso (3) 59.000
+Más: aumento del stock de bienes de cambio 54.000
+Flujo neto de efectivo utilizado en actividades de
+Igual: compras del año 519.000
+inversión (107.000)
+Más: disminución proveedores 7.000
+Compras de bienes de cambio pagadas en el año 526.000
+Actividades de financiación
+Más: pagos por gastos de operaciones (3) 186.000
+Pago de obligaciones negociables (40.000)
+Igual: pago a proveedores de bienes de cambio y servicios 712.000
+Pago de dividendos en efectivo (55.000)
+(2) Pagos por gastos de operaciones
+Aportes en efectivo de los propietarios 160.000
+Gastos de operaciones 221.000
+Pago de intereses (12.000)
+Menos: amortizaciones de bienes de uso (33.000)
+Menos: devengamiento de gastos anticipados (2.000)
+Flujo neto de efectivo generado en actividades de
+Igual: pagos por gastos de operaciones 186.000 financiación 53.000
+(3) Cobros por ventas de bienes de uso
+Aumento neto del efectivo 17.000
+Venta de terrenos, cobrado en efectivo según dato (b) del planteo
+del caso 25.000
+Venta de equipos, cobrado en efectivo, según dato (e) del planteo 34.000
+Cobro en efectivo por ventas de bienes de uso 59.000
+Vemos que tanto en el método directo como en el indirecto,
+la primera parte es exactamente igual; la exposición de la “Va-
+riación del efectivo” es idéntica tanto en uno como en otro mé-
+B - Estado de Flujo de Efectivo - Método Indirecto todo. Lo que varía es la exposición del primer tramo de la se-
+gunda parte de este estado, o sea, la exposición del “efectivo
+Variación del efectivo $
+generado o utilizado en actividades operativas” dentro de la
+Efectivo al inicio del ejercicio 37.000
+sección: “Causas de la variación del efectivo”.
+Efectivo al cierre del ejercicio 54.000
+Dicho efectivo, originado o aplicado en operaciones, está
+Aumento neto del efectivo 17.000
+Causas de la variación del efectivo clasificado en el proveniente de actividades operativas ordina-
+Actividades operativas rias (las provenientes de compras, ventas, ingresos y gastos
+Ganancia ordinaria del ejercicio 127.000 habituales de la empresa) y extraordinarias (aquellas excepcio-
+Más:
+nales, por ejemplo, un siniestro), datos proporcionados por el
+intereses 12.000
+Estado de resultados; según se trabaje con el método directo o
+devengamiento de gastos pagados por adelantado 2.000
+amortización de bienes de uso 33.000 con el indirecto, será la forma de exponer estos incrementos o
+Menos: disminuciones.
+aumento de cuentas por cobrar por ventas (42.000) En el método directo, separamos del Estado de resultados
+aumento de bienes de cambio (54.000)
+los ingresos y los egresos que provocan aumento o disminución
+disminución de proveedores (7.000)
+del efectivo. Exponemos primero las ventas cobradas en el pe-
+Flujo neto de efectivo generado por operaciones ríodo, y a dichas ventas habrá que restarles los egresos ordi-
+ordinarias 71.000
+narios pagados dados, por ejemplo, por el costo de esas ventas
+Flujo neto de efectivo generado por actividades realmente pagado en el período, los gastos pagados en el ejer-
+operativas 71.000
+122 MARIO BIONDI ERREPAR 123
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+cicio (gastos de sueldos, cargas sociales, de administración,
+período. Si la empresa tiene mayor saldo de Bienes de cambio
+etc.), lo cual nos da el aumento (origen) o la disminución (apli-
+en el inventario de cierre que en el de inicio, como vimos antes,
+cación) provocados por operaciones ordinarias. Si la empresa
+adquirió más bienes que los que vendió; por lo tanto, debemos
+ha tenido ingresos o egresos provenientes de operaciones ex-
+sumarle al costo de ventas esa diferencia y así llegaremos a las
+traordinarias, se indicará a continuación; por ejemplo, si la em-
+compras del período. Si en cambio el inventario de cierre arroja
+presa cobró un siniestro, el resultado, si arrojó ganancia, provo-
+un menor valor que el inventario inicial, ello significa que la em-
+ca un incremento del efectivo.
+presa vendió más que lo adquirido en el período (liquidó stock);
+Así podría ocurrir que, partiendo del método indirecto, cuan- en este caso, la diferencia jugará restando al costo de las merca-
+do se quisieran determinar las ventas cobradas, ellas no estu- derías vendidas, para llegar a las compras del período.
+viesen dadas por las que figuran en el Estado de resultados di- El paso siguiente, el segundo, consiste en determinar qué por-
+rectamente, sino que a esas ventas “devengadas” habría que ción de esas compras fueron pagadas en el año, y esto lo obtene-
+convertirlas en cobradas. Una forma sencilla de determinarlas mos relacionando las compras de inventarios del año con el saldo
+sería relacionando las ventas realizadas en el período con el de la cuenta Proveedores de inventarios. Si al cierre del período el
+saldo que presentaba la cuenta a cobrar, por ventas en la em- importe de la cuenta Proveedores es superior al inicial, significa
+presa. Suponiendo inflación 0, relacionando el saldo de las que hay una porción de esas compras que no fueron aún abona-
+cuentas a cobrar al inicio del período con las de cierre; si la em- das; por lo tanto, para la determinación de las compras pagadas,
+presa al cierre tiene más saldos a cobrar significará que hay una habrá que restar la diferencia. Si fuera a la inversa y el saldo de las
+porción de las ventas realizadas en el año que no fueron co- cuentas a pagar hubiera disminuido al cierre con respecto a los
+bradas; por lo tanto, ese incremento de las cuentas por cobrar saldos iniciales, dicha diferencia se sumará a las compras del año,
+regularizará, restando, a las ventas devengadas o efectuadas pues ello significa que no sólo se abonaron las compras del año,
+en el año, para llegar a las ventas cobradas. Si, a la inversa, la sino que también se pagaron las de períodos anteriores.
+empresa tiene más saldos a cobrar al inicio que al cierre, esa di- La suma del efectivo generado u originado (o aplicado) por
+ferencia significará que la empresa cobró más que lo que ven- operaciones ordinarias y extraordinarias dará a la empresa el
+dió, puesto que la disminución de las cuentas por cobrar en el efectivo generado u originado (o aplicado) por las actividades
+operativas. Pero puede ser que la empresa haya tenido en el
+período significará el cobro de ventas de períodos anteriores.
+ejercicio otras causas de variaciones del efectivo, dadas por ac-
+En el caso de los gastos, tenemos que analizar qué porción
+tividades de inversión o de financiación.
+del costo de las mercaderías vendidas (uno de sus componen-
+Las actuales Resoluciones Técnicas, en materia de exposi-
+tes) fue lo que le significó a la empresa un egreso de fondos. Y
+ción de las variaciones del efectivo, las clasifican en tres partes:
+aquí podemos trabajar en dos pasos.
+— generadas por actividades operativas, los datos se obtienen
+Primero debemos analizar si todo ese costo de venta fue
+del estado de resultados;
+“comprado” en el ejercicio; para ello debemos relacionar los in-
+— generadas por actividades de inversión, incluyendo entre ellas
+ventarios de Bienes de cambio que poseía la empresa al cierre del
+la compra y venta de bienes de uso o inversiones permanen-
+período con los que poseía al inicio del período. Si la empresa tie-
+tes, datos que pueden obtenerse de la comparación de los es-
+ne al cierre mayor inventario de Bienes de cambio que al principio,
+tados de situación patrimonial inicial y final del período;
+significará que adquirió más Bienes de cambio que los que ven-
+— generadas por actividades de financiación, que incluyen la ob-
+dió. Y aquí sí tenemos una parte de lo que significa movimiento
+tención de préstamos de terceros (de entidades bancarias o fi-
+de fondos: determinar primero las compras del inventario del
+124 MARIO BIONDI ERREPAR 125
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+nancieras, por ejemplo) o de los accionistas (nuevos aportes Al igual que el estado de variaciones del efectivo, consta de
+de capital) y sus retribuciones (intereses o dividendos, respec- dos partes:
+tivamente), y también financiación que otorga la empresa, es-
+— la primera muestra la variación producida en el capital co-
+tos datos pueden obtenerse de la comparación del estado de
+rriente (el aumento o la disminución) entre el cierre del pe-
+situación patrimonial inicial y final del período, del estado de
+ríodo anterior y el actual;
+evolución del patrimonio neto y del estado de resultados.
+— la segunda parte ilustra las causas de ese aumento o dis-
+Los casos desarrollados observan lo previsto por las actuales
+minución.
+Resoluciones Técnicas, mostrando, a continuación del efectivo ge-
+También podemos clasificar las causas entre provenientes
+nerado o utilizado en actividades operativas, el generado o utiliza-
+de:
+do en actividades de inversión y el de actividades de financiación.
+— actividades operativas, proporcionadas por la información
+La sumatoria del efectivo generado o utilizado en activida-
+suministrada por el estado de resultados: se exponen los in-
+des operativas, de inversión y de financiación, nos da el au-
+gresos y egresos (resultados) que modificaron el capital co-
+mento o la disminución del efectivo ocurrida en el período. Re-
+rriente (por ejemplo ventas cobradas o a cobrarse en los
+cordemos que si utilizamos el método directo de exposición,
+próximos doce meses, gastos pagados o a desembolsarse
+mostraremos en el efectivo generado o aplicado en actividades
+en los próximos doce meses);
+operativas, solamente lo que significó ingreso y salida de efec-
+tivo; si utilizamos la alternativa indirecta, en cambio, en esta — actividades de inversión, surgen de comparar los estados
+sección partimos directamente del resultado ordinario del perío- de situación patrimonial inicial y final. Incluyen las variacio-
+do y lo ajustamos eliminando aquellas ventas no cobradas o nes producidas básicamente en los bienes de uso e inver-
+gastos no pagados en el período, y agregando las ventas co- siones permanentes, por compras o ventas que signifiquen
+bradas de períodos anteriores o gastos pagos que correspon- desembolsos o ingresos de capital corriente;
+den a otros períodos. El resto de información, el efectivo gene- — actividades de financiación, surgen de comparar los esta-
+rado o aplicado en actividades de inversión y de financiación se dos de situación patrimonial inicial y final, del estado de
+expone igual tanto en el método directo como en el indirecto. evolución del patrimonio neto y del estado de resultados.
+Si bien las actuales normas vigentes en nuestro país en ma- Ilustra la financiación obtenida o cancelada en el período
+teria de exposición no lo requieren, veremos a continuación el tanto de terceros (pasivos) o propia (aportes de los accio-
+Estado de variaciones del capital corrientes que, a los efectos nistas), y al mismo tiempo, la financiación concedida por la
+del análisis de la situación de la empresa, constituye un valioso empresa. También es conveniente ilustrar en esta sección
+aporte en sí mismo por la información que proporciona. la retribución de la financiación (intereses o dividendos).
+A continuación utilizaremos los planteos de los casos desa-
+3.2. Casos prácticos de aplicación: Estado de variaciones del
+rrollados en el punto anterior, para ilustrar la confección del Es-
+capital corriente
+tado de variaciones del capital corriente en sus dos modalida-
+Esta modalidad se caracteriza por basarse en el concepto
+des de exposición (métodos directo e indirecto).
+tradicional de “devengado” seguido por la contabilidad para sus
+registraciones. Analiza lo ocurrido en el “capital corriente” (dife-
+rencia entre el activo corriente y el pasivo corriente), entre el
+cierre del período inmediato anterior y el actual.
+126 MARIO BIONDI ERREPAR
+127
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+B - Estado de variaciones del capital corriente - Método Indirecto
+Caso de aplicación N° 1: Solución
+A - Estado de variaciones del capital corriente - Método
+Directo
+Variación del capital corriente
+Variación del capital corriente Capital corriente al inicio del ejercicio 80.000
+Capital corriente al inicio del ejercicio 80.000
+Capital corriente al cierre del ejercicio 29.000
+Capital corriente al cierre del ejercicio 29.000
+Disminución del capital corriente (51.000)
+Disminución del capital corriente (51.000)
+Causas de variación del capital corriente
+Causas de variación del capital corriente Actividades operativas
+Actividades operativas Resultado ordinario del período 134.000
+Más
+Capital corriente originado en ventas de bienes de
+Egresos que no significan disminución de capital
+cambio (1) 492.000
+Egresos corrientes (2) (269.000) corriente (1) 21.000
+Egresos corrientes vinculados con el impuesto a las
+Capital corriente generado por operaciones ordinarias 155.000
+ganancias (68.000)
+Capital corriente generado por actividades operativas 155.000
+Capital corriente generado por operaciones ordinarias 155.000
+Actividades de inversión
+Capital corriente generado por actividades operativas 155.000 Capital corriente aplicado en la compra de bienes de uso (338.000)
+Actividades de inversión Capital corriente utilizado en actividades de inversión (338.000)
+Capital corriente aplicado en la compra de bienes de uso (338.000) Actividades de financiación
+Capital corriente originado en la colocación de obligaciones
+Capital corriente utilizado en actividades de inversión (338.000)
+negociables 150.000
+Capital corriente aplicado en dividendos en efectivo (18.000)
+Actividades de financiación
+Capital corriente generado en actividades de financiación 132.000
+Capital corriente originado en la colocación de obligaciones
+negociables 150.000 Disminución del capital corriente (51.000)
+Capital corriente aplicado en dividendos en efectivo (18.000)
+Capital corriente generado en actividades de financiación 132.000 (1) Egresos que no significan disminución del capital corriente
+* Gasto por amortización 21.000
+Disminución del capital corriente (51.000)
+(1) Capital corriente originado en ventas de bienes de cambio
+• Rentas cobradas en el año o a cobrarse en los próximos doce
+meses: 492.000
+No existen cuentas por cobrar a largo plazo.
+(2) Egresos corrientes
+(+) Gastos por operaciones 269.000
+128 MARIO BIONDI ERREPAR
+129
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Caso de aplicación N° 2: Solución
+(1) Ventas corrientes
+A- Estado de variaciones de capital corriente - Método Directo No existen cuentas a cobrar no corrientes, el monto de ventas del período se co-
+bró o cobrará en los próximos doce meses.
+Variación del capital corriente (2) Egresos ordinarios corrientes
+Costo de las mercaderías vendidas 465.000
+Capital corriente al inicio del período (a) 29.000
+(+) Gastos de operaciones 221.000
+Capital corriente al cierre del período (b) 147.000
+(-) Amortización de Activo fijo (33.000)
+Aumento del capital corriente 118.000 (+) Impuesto a las ganancias 65.000
+(+) Gastos por intereses 12.000
+Causas de variación del capital corriente
+Actividades operativas (=) Egresos ordinarios corrientes 730.000
+Los gastos por intereses pudieron haberse tomado dentro de las
+Ventas corrientes (1) 890.000
+Actividades de financiación.
+Menos: Egresos ordinarios corrientes (2) (730.000)
+(3) Capital corriente originado en la venta de activo fijo
+Capital corriente originado en actividades ordinarias 160.000 Resultado de venta equipo (2.000)
+Capital corriente originado en actividades operativas 160.000 (+) Valor residual de libros 36.000
+(=) Ingresos por ventas de equipo 34.000
+— Resultado venta terrenos o
+Actividades de inversión
+(+) Valor de libros 25.000
+Capital corriente aplicado en compras de activos fijos (166.000)
+Capital corriente originado en la venta de activos fijos (3) 59.000 (=) Ingresos por venta de terrenos 25.000
+(=) Capital corriente originado en laventa de Activos fijos 59.000
+Capital corriente aplicado a actividades de inversión (107.000) Cabe aclarar que este resultado podría haberse expuesto dentro de las actividades
+operativas como un resultado extraordinario.
+Actividades de financiación
+B - Estado de variaciones de capital corriente - Método Indirecto
+Capital corriente originado en aportes de los propietarios 160.000
+Capital corriente aplicado en la cancelación de obligaciones
+negociables (40.000) Variación del capital corriente
+Capital corriente aplicado en dividendos en efectivo (55.000) Capital corriente al inicio del período (a) 29.000
+Capital corriente al cierre del período (b) 147.000
+Capital corriente originado en actividades de financiación 65.000
+Aumento del capital corriente 118.000 Aumento del capital corriente 118.000
+Causas de variación del capital corriente
+(a) Capital corriente al inicio del período: Actividades operativas
+Activos corrientes: 69.000 Resultado ordinario del período (1) 127.000
+Caja y Bancos 37.000
+Cuentas por cobrar 26.000 Más: Egresos que no significan disminución del capital
+Gastos anticipados 6.000 corriente (2) 33.000
+Pasivos corrientes:
+Cuentas por pagar 40.000 (40.000) Capital corriente originado en actividades ordinarias 160.000
+Capital corriente al inicio del período 29.000 Capital corriente originado en actividades operativas 160.000
+(b) Capital corriente ai cierre del período:
+Activos corrientes: 180.000 Actividades de inversión
+Caja y Bancos 54.000
+Capital corriente aplicado en compras de activos fijos (166.000)
+Cuentas por cobrar 68.000
+Bienes de cambio 54.000 Capital corriente originado en la venta de activos fijos (3) 59.000
+Gastos anticipados 4.000
+Capital corriente aplicado a actividades de inversión (107.000)
+Pasivos corrientes:
+Cuentas por pagar 33.000 (33.000)
+Capital corriente al cierre del período 147.000
+130 MARIO BIONDI ERREPAR 131
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Actividades de financiación próximos doce meses las ventas del año sino que también en-
+Capital corriente originado en aportes de los propietarios 160.000
+tran en esa categoría saldos pendientes de años anteriores, por
+Capital corriente aplicado en la cancelación de obligaciones
+lo tanto, sumará a la cifra de ventas del estado de resultados.
+negociables (40.000)
+Capital corriente aplicado en dividendos en efectivo (55.000) Si por el contrario, el saldo de las cuentas por cobrar por
+Capital corriente originado en actividades de financiación 65.000 ventas no corrientes fuera mayor al cierre, la diferencia con res-
+pecto al inicio del período indica que no se han cobrado ni se
+Aumento del capital corriente 118.000
+harán en los próximos doce meses las ventas del período (to-
+madas del estado de resultados), por lo tanto, la diferencia en
+este caso resta a la cifra de ventas. Resumiendo:
+(1) Resultado ordinario del período
+*Resultado neto ejercicio 125.000  Ventas del período según Estado de resultados
+(+) Pérdida extraordinaria (venta equipos) 2.000
+(+) Disminución operada en las cuentas por cobrar no corrien-
+(=) Ganancia ordinaria del ejercicio 127.000
+(2) Egresos que no significan disminución del capital corriente tes entre el inicio y el cierre del período
+*Gasto por amortización Activo fijo 33.000
+(-) Aumento operado en las cuentas por cobrar no corrientes
+(3) Capital corriente originado en la venta de activos fijos
+*Resultado de venta equipo (2.000) entre el inicio y el cierre del período
+(+) Valor residual de libros 36.000
+(=) Ventas cobradas en el período o a cobrarse en los próximos
+(=) Ingresos por ventas de equipo 34.000
+doce meses.
+— Resultado venta terrenos 0
+(+) Valor de libros 25.000 A dichas ventas se les restan los egresos ordinarios paga-
+(=) Ingresos por venta de terrenos 25.000 dos o a pagarse dentro de los próximos doce meses. Entre es-
+(=) Capital corriente originado en la venta de Activos fijos 59.000
+tos egresos estará el costo de la mercadería vendida, que de-
+Cabe aclarar que este resultado podría haberse expuesto dentro de las actividades berá sufrir correcciones en la medida que hubiera compras del
+operativas como un resultado extraordinario.
+período a pagar en períodos que excedan los doce meses. El
+Como vemos, la primera parte: “Variación del capital co- esquema sería:
+rriente”, es exactamente igual, tanto en el método directo como
+ Costo de mercaderías vendidas según Estado de resultados
+en el indirecto.
+(+) Incremento de inventarios no corrientes, entre el cierre y el
+Lo que varía es la exposición del capital corriente originado inicio del período
+(o aplicado) por operaciones ordinarias operativas tanto en uno
+(-) Disminución de inventarios no corrientes, entre el cierre y el
+como en otro método, dentro de las “Causas de variación del
+inicio del período
+capital corriente”.
+(=) Compras del período
+En el método directo, se parte de las ventas corrientes, to-
+(+) Disminución del saldo de la cuenta Proveedores no corrien-
+mamos tanto las cobradas como las que se cobrarán dentro de
+tes entre el cierre y el inicio del período
+los próximos doce meses. Sólo correspondería ajustarlas si
+(-) Aumento del saldo de la cuenta Proveedores no corrientes
+existen cuentas por cobrar por ventas dentro del activo no co-
+entre el cierre y el inicio del período
+rriente. Si existieran habrá que analizar la variación entre el cie-
+(=) Compras pagadas en el período o a pagarse dentro de los
+rre del período anterior y el actual; si el saldo disminuyó, la di-
+próximos doce meses
+ferencia indica que no solamente se cobraron o cobrarán en los
+133
+132 MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Seguidamente se exponen las actividades de inversión y Estado de cambios en la posición financiera? Indudablemente
+luego las de financiación. sí, cuando existe inflación, y el mismo ha sido incorporado en la
+En el método indirecto, en cambio, dentro de las actividades valuación de activos y pasivos del ente. Pero ¿todo ese resul-
+operativas se parte del resultado del ejercicio separado entre el tado inflacionario o solamente una parte? Esta respuesta de-
+proveniente de operaciones ordinarias del proveniente de ope- penderá de qué modalidad de confección del Estado de cam-
+raciones extraordinarias. A dicho resultado se lo ajusta por bios en la posición financiera estemos analizando.
+aquellas partidas que no representan disminución de capital co-
+Si estamos en el Estado de variaciones del capital corrien-
+rriente (sumándolas), por ejemplo, la amortización de Bienes de
+te, sólo nos interesará tomar el resultado inflacionario generado
+uso; también se le restan aquellas partidas que no representan
+por los rubros monetarios Activos y Pasivos que correspondan
+origen de capital corriente, por ejemplo, ventas a cobrarse en
+a elementos o compromisos a hacerse efectivos antes de los
+períodos posteriores a los doce meses de cierre.
+doce meses de cerrado el ejercicio. El resto, el proveniente de
+Llegamos a los fondos originados por operaciones ordina- rubros monetarios no corrientes, no debe ser considerado.
+rias y, a partir de aquí, la confección de este método es exacta-
+Pero, en cuanto a la exposición o a lo que tenemos que to-
+mente igual al directo; se exponen los fondos originados por
+mar o descartar del resultado inflacionario, dependerá de la mo-
+operaciones extraordinarias, lo que da, junto con los provenien-
+dalidad de confección de este estado.
+tes de operaciones ordinarias, los fondos originados por opera-
+Si estamos en el método directo, separando los ingresos y
+ciones. Los totales siempre deben coincidir tanto en uno como
+los egresos del Estado de resultados, tomaremos solamente
+en otro método; lo que varía es la forma de exposición.
+el resultado inflacionario, proveniente de los rubros mone-
+A continuación se exponen los orígenes (aumentos) o aplica-
+tarios corrientes.
+ciones (disminuciones) de capital corriente, que surjan de las ac-
+Si estamos en cambio en el método indirecto y partimos del
+tividades de inversión y de financiación, para obtener a través de
+resultado final del ejercicio, entre los ajustes a efectuar a ese re-
+su suma algebraica junto con las actividades operativas, el au-
+sultado figurará el de eliminar el resultado inflacionario que
+mento o disminución del capital corriente que se muestra en la
+no provenga de rubros monetarios corrientes.
+primera parte de este estado de variaciones de capital corriente.
+Sintetizando:
+Todo esto lo hemos analizado suponiendo inflación 0; en el
+Estado de variaciones del capital corriente:
+punto siguiente veremos qué ajuste corresponde efectuar a la
+operatoria analizada cuando existe inflación, o cuando la em- — Método directo: sólo considera el resultado inflacionario
+proveniente de ru-
+presa utiliza valores corrientes en la evaluación de los bienes in-
+bros monetarios corrientes.
+tegrantes de sus estados contables.
+— Método indirecto: elimina el resultado inflacionario no
+3.3. Efectos del Resultado por exposición a la inflación proveniente de ru-
+bros monetarios corrientes.
+1. En el Estado de variaciones del capital corriente
+2. En el Estado de origen y aplicación de fondos
+El Resultado por exposición a la inflación es un componen-
+En este estado, lo único que nos interesa considerar es el
+te más del resultado de la empresa en el período considerado.
+resultado inflacionario, proveniente de Caja y Bancos, y si se in-
+Pero ¿debe considerarse ese resultado inflacionario (REI) en el
+cluyera, el de inversiones temporarias monetarias.
+Según la alternativa directa, sólo incluiremos el resultado in-
+flacionario generado por esos elementos; conforme con la indi-
+134 MARIO BIONDI ERREPAR 135
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Estado de situación patrimonial de La Empresa S.A. al 31/12/X1
+— Desde 1/X1 110%
+recta, eliminaremos todo el resultado inflacionario no prove- — Desde 2/X1 Cifras Cifras Cifras 100% Cifras
+niente de esos elementos. — Desde 11/X1 m/histór. m/constante m/histór. 1 m 0% /c onstante
+Activo Patrimonio neto
+Sintetizando:
+Caja 1.400 1.400 Capital social 1.000 1.000
+(1.000 - 500 + 900) Ajuste capital — 1.100
+Estado de origen y aplicación de fondos Bs.de cambio 100 200 Result. no asig. 500 (500)
+(20 unid, x 5)
+— Método directo: sólo considera el resultado inflacionario proveniente de Total 1.500 1.600 Total 1.500 1.600
+Caja y Bancos (y de inversiones transitorias, si fueran monetarias y la em-
+Estado de resultados al 31/12/X1
+presa las incluyera en los “fondos”).
+Cifras m/histór.Cifras m/constante
+— Método indirecto: elimina el resultado inflacionario no proveniente de Caja Ventas 900 990
+y Bancos (y de inversiones transitorias, si fueran monetarias y la empresa Costo de ventas (400) (800)
+las incluyera en los “fondos”).
+(80 unid, x 5)
+3. Caso de aplicación Utilidad bruta 500 190
+REI — (690)
+Veremos a continuación un sencillo caso de aplicación. Co- Result. ejerc. 500 (500)
+mo metodología de trabajo para confeccionar estos estados,
+Determinación del resultado inflacionario (comprobación) por el Estado de
+cuando existe inflación, debemos recordar que las cifras inte-
+variaciones del capital monetario al 31/12/X1
+grantes del Balance general al inicio del período deben estar to-
+Cifras m/histór.Cifras m/constante
+talmente convertidas a moneda de cierre, aplicándoles el coefi- A.M.N.I. 1.000 2.100
+ciente corrector del período. (+) Incrementos:
+Igual para convertir lo “devengado” a “percibido” (o cobrado y * Ventas 900 990
+(-) Disminuciones:
+pagado); cuando confeccionamos el Estado de origen y aplica-
+ Compras (500) (1.000)
+ción de fondos, debemos ajustar los saldos iniciales (por ejemplo,
+A.M.N.F. 1.400 2.090
+de las cuentas a cobrar, a pagar, o de los inventarios) para com-
+REI (-) (690)
+pararlos con los saldos de esas mismas cuentas al cierre.
+Se solicita:
+Sobre la base de los datos suministrados confeccionar:
+Caso de aplicación Ns 3: La Empresa S.A. inicia sus opera-
+ciones el 1 de enero de 19X1. 1. Estado de variaciones (o flujo) de efectivo
+Su balance inicial (al 1/1/X1) era: a) método directo;
+Activo Patrimonio neto
+b) método indirecto.
+Caja 1.000 Capital social 1.000
+En febrero del X1, La Empresa S.A. compra 100 unidades de 2. Estado de variaciones del capital corriente
+mercaderías por $ 500. Abona en efectivo. En noviembre del X1, a) método directo;
+La Empresa S.A. vende 80 unidades, en $ 900. Cobra al contado.
+b) método indirecto.
+La inflación a diciembre del X1 fue: Solución
+1. Estado de variaciones de efectivo
+136 MARIO BIONDI ERREPAR 137
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+A. Método Directo 2. Estado de variaciones del capital corriente
+Cifras m/histór. Cifras m/constante
+A. Método directo
+Variación del efectivo Cifras m/histór. Cifras m/constante
+Efectivo al inicio del ejercicio 1.000 2.100 Variación del capital corriente
+Aumento/Disminución del efectivo 400 (700)
+Capital corriente al inicio del ejercicio 1.000 2.100
+Efectivo al cierre del ejercicio 1.400 1.400
+Causas de la variación del efectivo Aumento/Disminución de Activos corrientes 500 (500)
+Actividades operativas
+Aumento/Disminución del Capital
+Ventas cobradas 900 990
+corriente 500 (500)
+Menos: Egresos ordinarios pagados(1) (500) (1.690)
+Capital corriente al cierre del ejercicio 1.500 1.600
+Efectivo originado / aplicado en operaciones
+Causas de la variación del capital corriente
+ordinarias 400 (700) Actividades operativas
+Ventas corrientes 900 990
+Aumento/Disminución del efectivo 400 (700)
+Menos: Egresos ordinarios corrientes(1) (400) (1.490)
+(1) Egresos ordinarios pagados Capital corriente originado / aplicado en
+Cifras m/histór. Cifras m/constante operaciones 500 (500)
+ Costo de mercaderías vendidas 400 800
+(+) Incremento de inventarios 100 200 Aumento/Disminución del Capital corriente 500 (500)
+(+) Efectos del REI generado por Caja — 690
+(1) Egresos ordinarios corrientes
+(=) Egresos ordinarios pagados 500 1.690 Cifras m/histór. Cifras m/constante
+• Costo de mercaderías vendidas 400 800
+1. Estado de origen y aplicación de fondos (+) Efectos del REI generado por rubros
+B. Método Indirecto corrientes — 690
+Cifras m/histór. Cifras m/constante (=) Egresos ordinarios corrientes 400 1.490
+Variación del efectivo
+2. Estado de variaciones del capital corriente
+Efectivo al inicio del ejercicio 1.000 2.100
+Aumento/Disminución del efectivo 400 (700) B. Método indirecto
+Efectivo al cierre del ejercicio 1.400 1.400
+Cifras m/histór. Cifras m/constante
+Causas de la variación del efectivo
+Variación del capital corriente
+Actividades operativas
+Capital corriente al inicio del ejercicio 1.000 2.100
+Ganancia/Pérdida del ejercicio 500 (500)
+Menos: Partidas que no representan origen Aumento/Disminución de Activos corrientes 500 (500)
+de fondos (1) (100) (200)
+Aumento/Disminución del Capital corriente 500 (500)
+Efectivo originado / aplicado en operaciones
+Capital corriente al cierre del ejercicio 1.500 1.600
+ordinarias 400 (700)
+Aumento/Disminución del efectivo 400 (700) Causas de la variación del capital corriente
+Actividades operativas
+(1) Partidas que no representan origen de fondos Ganancia/Pérdida ordinaria 500 (500)
+Cifras m/histór. Cifras m/constante
+ Incremento de inventarios 100 200 Capital corriente originado/aplicado en
+Operaciones 500 (500)
+Aumento/Disminución del Capital corriente 500 (500)
+138 139
+MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+3.4. Efectos del Resultado por tenencia
+1. En el Estado de variaciones del capital corriente
+Aparece este tipo de resultados cuando la empresa utiliza
+en la valuación (medición) de sus bienes, valores de mercado.
+Al tener un mayor o menor valor del Capital corriente pro-
+ducto de la utilización de los valores de mercado, los ingresos y
+egresos del período se verán influidos por estos Resultados de
+tenencia. Luego, sólo corresponderá tomar los provenientes de
+Activos y Pasivos corrientes.
+1. En el Estado de origen y aplicación de fondos
+Si la empresa hubiera utilizado valores corrientes en sus
+disponibilidades (moneda extranjera) o en sus inversiones tem-
+porarias, y estas estuvieran incluidas en el concepto de fondos,
+sólo esa porción de Resultados por tenencia incluida en los re-
+sultados del período, deberá ser la que debe considerarse.
+A continuación veremos dos sencillos casos de aplicación:
+Caso de aplicación Nº 4
+De acuerdo con los datos suministrados en el caso Nº 3 an-
+terior, suponer que al cierre del ejercicio económico cerrado el
+31 de diciembre de 19X1, La Empresa S.A. utiliza valores co-
+rrientes (valores de reposición) para valuar su existencia de
+Bienes de cambio y el Costo de las mercaderías vendidas.
+Valor de la existencia al 31/12/X1 a valores de reposición: $ 500.
+Costo de las mercaderías vendidas, de acuerdo con el valor
+de reposición de las mercaderías en el momento de la venta
+(noviembre de 19X1): $773 y, reexpresado posteriormente a
+moneda del 31 de diciembre de 19X1: $ 850.
+Estado de situación patrimonial de La Empresa S.A. al 31 de diciembre
+de 19X1
+Activo Patrimonio neto
+Caja y bancos 1.400 Capital social 1.000
+Bienes de cambio 500 Ajuste capital 1.100
+Result. no asig. (200)
+Total 1.900 Total 1.900
+140
+141
+MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+142
+MARIO BIONDI ERREPAR 143
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+(=) Resultado del ejercicio sin considerar el Resultado
+de tenencia (500)
+Estado de resultados al 31/12/X1
+ A lo cual debería adicionarse el Resultado de tenencia
+Cifras m/histór. Cifras m/constante
+contenido en la existencia de Bienes de cambio por  Ventas 800 800
+$ 300, como partidas que no significan erogación de  Costo de ventas (350) (385)
+capital corriente, quedando en ese caso como Causas (70 unid, x 5)
+de la variación del capital corriente: Utilidad bruta 450 415
+ Pérdida del ejercicio (500) Intereses (20) (20)
+ Más: Partidas que no significan erogación de Capital  REI --- (1.050)
+corriente 300 Result. ejerc. 430 (655)
+ Capital corriente aplicado en operaciones (200)
+ No es recomendable exponer el Estado de variaciones Determinación del REI (comprobación) por el Estado de va-
+del capital corriente de esta forma, puesto que riaciones del capital monetario al 31/12/X1
+estaríamos alterando el resultado del ejercicio,
+Cifras m/histór. Cifras m/constante
+conforme surge del estado correspondiente.  A.M.N.I. 1.000 2.100
+(+) Incrementos:
+Caso de aplicación N2 5: La Empresa S.A. inicia sus opera-
+* Ventas 800 800
+ciones el 1 de enero de 19X1.
+(-) Disminuciones:
+Su balance inicial (al 1/1/X1) era:
+• Compras (500) (550)
+Activo Patrimonio neto • Intereses (20) (20)
+Caja 1.000 Capital social 1.000
+ A.M.N.F. 1.280 2.330
+El 30 de noviembre de 19X1, La Empresa S.A. compra 100 REI (-) (1.050)
+unidades de mercaderías por $ 500. Abona $ 300 al contado, y
+Se solicita:
+el resto, a 60 días, con un interés mensual del 10%.
+Sobre la base de los datos suministrados confeccionar:
+El 31 de diciembre de 19X1, La Empresa S.A. vende 70 uni-
+dades, en $ 800. Cobra la mitad en efectivo, y el resto a 20 días, 1. Estado de flujo (variaciones) de efectivo
+con un interés del 5%.
+a) método directo;
+La inflación a diciembre del X1 fue:
+b) método indirecto.
+— Desde 1/X1 110% 2. Estado de variaciones del capital corriente
+— Desde 11/X1 10% a) método directo;
+b) método indirecto.
+Estado de situación patrimonial de La Empresa S.A. al
+Solución:
+31/12/X1
+1. Estado de flujo de efectivo
+Cifras Cifras Cifras Cifras A. Método Directo
+m/histór. m/constante m/histór. m/constante
+Cifras m/histór. Cifras m/constante
+Caja 1.100 1.100 Proveedores 220 220
+Variación del efectivo
+(1.000 - 300 + 400) Patrimonio neto
+Efectivo al inicio del ejercicio 1.000 2.100
+Créditos por ventas 400 400 Capital social 1.000 1.000
+Aumento/Disminución del efectivo 100 (1.000)
+Bs. de cambio Ajuste capital — 1.100
+(30 unid, x 5) 150 165 Result. no asig. 430 (655) Efectivo al cierre del ejercicio 1.100 1.100
+Total 1.650 1.665 Total P.N. 1.430 1.445
+Total 1.650 1.665
+144
+MARIO BIONDI ERREPAR
+145
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Causas de la variación del efectivo
+Causas de la variación del efectivo
+Ganancia/Pérdida del ejercicio 430 (655)
+Actividades operativas
+Más: Partidas que no representan salida de
+Ventas cobradas (1) 400 400
+Efectivo (1) 220 220
+Menos: Egresos ordinarios pagados (2 ) (300) (1.400)
+Menos: Partidas que no representan ingreso
+Efectivo originado / aplicados en operaciones de efectivo (2) (550) (565)
+ordinarias 100 (1.000)
+Efectivo originado / aplicado en operaciones 100 (1.000)
+Aumento/Disminución del efectivo 100 (1.000)
+Aumento/Disminución del efectivo 100 (1.000)
+(1) Ventas cobradas
+Cifras m/histór. Cifras m/constante
+(1) Partidas que no representan salida de efectivo
+• Ventas realizadas en el ejercicio 800 800 Cifras m/histór. Cifras m/constante
+(-) Aumento de las cuentas por cobrar (400) (400) Aumento del saldo de proveedores 200 220
+(+) Intereses (**) 20 20
+(=) Ventas cobradas en el año 400 400 (-) Efecto del REI sobre las cuentas por
+(2) Egresos ordinarios pagados pagar (*) (**) — (20)
+Cifras m/histór. Cifras m/constante
+(*) Partidas que no representan salida de
+• Costo de mercaderías vendidas 350 385
+Efectivo 220 220
+(+) Incremento de Inventarios 150 165
+(*) Efecto del REI sobre las cuentas por pagar
+(=) Compras de inventarios 500 550 Cifras m/histór. Cifras m/constante
+(-) Aumento de proveedores (220) (240) • 30/11/X1 - Proveedores por adquisición
+(+) Intereses no pagados (**) 20 20 de mercaderías 200 220
+(+) Efecto del REI generado por Caja (*) (**) — (1.070) (+) Efecto intereses devengados 20 20
+(-) Compra de inventarios pagados 300 1.400 (=) Pasivo monetario final correspondiente
+(*) Determinación del REI generado por Caja a las cuentas por pagar 220 240
+Cifras m/histór. Cifras m/constante
+REI (+) 20
+• Caja al 1/1/X1 1.000 2.100
+(+) Ventas efectivo 400 400 (2) Partidas que no representan ingreso de efectivo
+(-) Compras efectivo (300) (330) Cifras m/histór. Cifras m/constante
+• Caja al 31/12/X1 1.100 2.170 • Aumento de las cuentas por cobrar 400 400
+(+) Aumento de inventarios 150 165
+REI (-) (1.070)
+(**) Los intereses y los resultados inflacionarios pueden exponerse como causas derivadas de la fi- (=) Partidas que no representan origen
+nanciación, en lugar de mostrarlos dentro de las actividades operativas. de fondos 550 565
+1. Estado de flujo de efectivo
+(**) Los intereses y el resultado inflacionario pueden mostrarse dentro de actividades de financia-
+B. Método Indirecto ción.
+Cifras m/histór. Cifras m/constante 2. Estado de variaciones del capital corriente
+Variación del efectivo
+Efectivo al inicio del ejercicio 1.000 2.100 A. Método Directo
+Aumento/Disminución del efectivo 100 (1.000) Cifras m/histór. Cifras m/constante
+Efectivo al cierre del ejercicio 1.100 1.100
+Variaciones del capital corriente
+Capital corriente al inicio del ejercicio 1.000 2.100
+Aumento/Disminuciones de Activos
+corrientes 650 (435)
+Aumento de Pasivos corrientes (220) (220)
+Aumento/Disminución del Capital corriente 430 (655)
+Capital corriente al cierre del ejercicio 1.430 (*) 1.445
+146 MARIO BIONDI ERREPAR
+147
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Causas de la variación del capital corriente La exposición del estado de cambios en la posición finan-
+Actividades operativas
+ciera, que adopta, conforme dichas resoluciones, es el que ana-
+Ventas corrientes 800 800
+Menos: Egresos ordinarios corrientes (1) (370) (1.455) liza el concepto de “fondos” o “efectivo”: estado de flujo de efec-
+tivo, o estado de variaciones de efectivo, en cualquiera de sus
+Capital corriente originado/aplicado en
+dos modalidades, directa o indirecta.
+Operaciones 430 (655)
+Aumento/Disminución del Capital comente 430 (655) Clasifica las causas entre operativas, de inversión y de fi-
+nanciación.
+(1) Egresos ordinarios corrientes
+Cifras m/histór. Cifras m/constante 5. El Estado de flujos de caja según el State-
+• Costo de mercaderías vendidas 350 385
+(+) Gastos por intereses 20 20 ment 95 del FASB aplicable en los EE.UUA (1)
+(+) Efectos del REI generado por rubros ctes. — 1.050
+(=) Egresos ordinarios corrientes 370 1.455 En noviembre de 1987 el Financial Accounting Standard Board
+(FASB) emitió su pronunciamiento, Statement 95, aplicable obliga-
+2. Estado de variaciones del capital corriente
+toriamente a los estados contables que se cierran después del 15
+B. Método Indirecto
+de julio de 1988.
+Cifras m/histór. Cifras m/constante
+Variaciones del capital corriente
+Hemos confeccionado un resumen simplificado de dicho pro-
+Capital corriente al inicio del ejercicio 1.000 2.100 nunciamiento, que guarda características bastante similares a
+nuestras Resoluciones Técnicas 8 y 9 de la FACPCE. Cabe re-
+Aumento/Disminuciones de Activos
+corrientes 650 (*) (435) cordar que la norma norteamericana ya existía como “borrador”
+Aumento de Pasivos corrientes (220) (220) desde el año 1986. Durante el período de consulta, el FASB reci-
+Aumento/Disminución del Capital corriente 430 (655) bió sugerencias de empresas, profesionales y usuarios, en gene-
+Capital corriente al cierre del ejercicio 1.430 1.445 ral, que resultaron, en alguna medida, en la redacción aprobada.
+Objetivos: Este estado completa la información que surge
+Causas de la variación del capital corriente
+Actividades operativas de los estados financieros (por ejemplo Balance general, Esta-
+Ganancia/Pérdida ordinaria 430 (655) do de resultados y Estado de utilidades retenidas) y analiza los
+Capital corriente originado/aplicado en
+ingresos de caja —por diversos orígenes—, así como las apli-
+operaciones 430 (655)
+caciones de fondos con igual clasificación.
+Aumento/Disminución del Capital corriente 430 (655)
+(*) Surge de comparar el Activo corriente inicial (1.000) reexpresado a moneda del 31 de diciem-
+Ventajas o utilidad del empleo del Estado de los flujos de caja
+bre de 19X1 (2.100), menos el Activo corriente final (1.665).
+La disminución del Pasivo es igual a la cifra existente al 31 de diciembre de 19X1 (220), pues- La información suministrada por los Estados de los flujos
+to que no existía Pasivo al inicio del ejercicio.
+de caja puede ayudar a los inversores, acreedores, etc., para
+4. Normas de la Comisión Nacional de Valores.
+acceder a las siguientes informaciones:
+Resolución 434/2003
+1. Capacidad de la empresa para generar futuros flujos de
+Esta resolución adopta para la exposición de la información
+caja
+contable las Resoluciones Técnicas 8 y 9, modificadas por la
+La predicción del futuro inmediato puede ser más factible
+Resolución Técnica 19, todas ellas de la Federación Argentina
+con el conocimiento de los flujos ya producidos; de otra
+de Consejos Profesionales en Ciencias Económicas.
+manera, debería utilizarse la información del devengamien-
+to de resultados y convertirla a flujo de efectivo.
+148 MARIO BIONDI ERREPAR 149
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+2. Capacidad de la empresa para pagar dividendos y afron- — Segunda etapa: La opinión NB 19 de APB de 1971 lo hizo
+tar obligaciones
+obligatorio y lo denomina “Estado de cambios en la posición
+Empleados, acreedores, accionistas y proveedores están financiera”. Entre los años 1960 y 1970 estos estados pre-
+particularmente Interesados en este estado, por lo que
+sentaban los cambios en el capital de trabajo. Entre 1970 y
+muestra por sí solo.
+1980 y algo más, se utilizaron las dos formas (cambios en el
+3. Razones de las diferencias numéricas entre el resulta-
+capital de trabajo y en el efectivo o equivalente a efectivo).
+do neto de un ejercicio y el flujo de caja (provisto y apli-
+— Tercera etapa: FASB Statement Ns 95 de noviembre de
+cado) por las operaciones
+1987 (“Statement of Financial Accounting Standards N2 95”)
+Para determinar el flujo de caja no se realizan estimacio-
+lo denominó “Estado de los flujos de caja”. Rige para los es-
+nes como ocurre con la determinación de los resultados ne-
+tados financieros cerrados después del 15 de julio de 1988.
+tos del ejercicio. El llamado método indirecto realiza la “re-
+Incluye “Caja y valores negociables” (equivalentes de caja).
+conciliación” entre el resultado neto del ejercicio y los flujos
+Clasificación de los flujos de caja según el FASB 95
+de caja de operaciones.
+• Por operaciones de la empresa (mercadeo o servicios)
+4. Pueden determinarse los flujos de caja por inmoviliza-
+Ingresos
+ciones y por financiación propia y ajena
+— Por ventas de bienes y servicios.
+De esa manera podría saberse:
+a) ¿cómo pudo incrementarse caja si el resultado del pe- — Por intereses de préstamos.
+— Por dividendos de acciones.
+ríodo arrojó pérdida? (aumento del capital):
+Egresos
+b) ¿cuál fue el procedimiento para la emisión de bonos a — Por proveedores de inventarios.
+largo plazo? (plazo, condiciones, primas, descuentos); — Por empleados por servicios.
+c) ¿cómo fue financiada la ampliación de la planta y de los — Por fisco por impuestos.
+equipos? (mayor endeudamiento a largo plazo); — Por préstamos por intereses (corto plazo).
+d) ¿por qué no se aumentaron los dividendos?; — Por otros gastos.
+e) ¿cuánto dinero se pidió prestado durante el ejercicio?; • Por Inmovilizaciones (Activos no corrientes)
+Ingresos
+f) ¿cuánto fue el flujo de caja en relación con el resultado
+neto? — Por venta de propiedades, plantas y equipos.
+— Por venta de bonos o acciones de otras entidades.
+Evolución de estos estados. En la aplicación en los Estados
+Unidos se observan tres etapas: — Por cobro del capital de préstamos a otras entidades.
+Egresos
+— Primera etapa: Accounting Research Study Nº 2: reco-
+mendó presentar un Estado de análisis del flujo de fondos, — Por compra de propiedades, plantas y equipos.
+con opinión del auditor. En 1963, la opinión N33deAPB fi- — Por compra de bonos o acciones de otras entidades.
+jó estándares para la confección de este “Estado de origen — Por préstamos de otras entidades.
+y aplicación de fondos” (también opcional y como informa- • Por financiación propia y ajena (Capital y Pasivo no co-
+ción suplementaria).
+rriente)
+150 MARIO BIONDI ERREPAR 151
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Ingresos
+- Sustracciones:
+— Por emisión de acciones.  Amortización de primas de bonos.
+— Por emisión de bonos.  Disminución de impuestos diferidos.
+Egresos — Ganancia por “método de la participación”.
+— Por pago de dividendos a accionistas. — Ganancia en la venta de Activo fijo.
+— Por rescate de bonos y compra de acciones propias. — Incremento de Cuentas por cobrar.
+Existen dos modelos o métodos para presentar los flujos de — Incremento de Inventarios.
+caja derivados de operaciones: — Incremento de Gastos anticipados.
+— Método directo: Es el recomendado por F.A.S.B. — Disminución de Cuentas por pagar.
+Se determinan los ingresos de caja y los egresos de caja, — Disminución de Pasivos devengados.
+convirtiéndose las operaciones del método de devengado a = Caja provista por operaciones
+percibido o caja.
+ Modelo de presentación del Estado de los flujos de caja
+ Método indirecto: Es consentido por F.A.S.B. y parte de
+La estructura es la siguiente:
+los beneficios (pérdidas) netas, adicionándoles (restándo-
+Estado de los flujos de caja de
+les) los resultados que no constituyeron egresos (ingresos) A.B.S.A.
+de fondos. En el caso del método indirecto, se requiere la Período: enero, 1 a diciembre 31, de 19X8
+reconciliación de los resultados con el flujo de caja. —Método indirecto—
+Ambos métodos arrojan iguales cifras del flujo neto provisto  Flujos de caja por operaciones
+Resultado neto $
+(aplicado) por operaciones. Más (menos) ítem que no afectan caja (detalle) $ $
+Flujo neto provisto (aplicado) por operaciones $
+Un esquema adecuado para reconciliar los resultados netos
+ Flujos de caja por inmovilizaciones
+con los flujos de caja provisto por operaciones sería: (Detalle de ingresos y egresos) $
+Flujo neto provisto (aplicado) por inmovilizaciones $
+Resultados netos  Flujos de caja por financiación propia y ajena
+(Detalle de ingresos y egresos) $
++ Adiciones:
+Flujo neto provisto (aplicado) por financiación $
+— Gastos de depreciaciones. Aumento (disminución) neto de caja $
+Nota: Este método también se denomina de reconciliación, por partir de una información económi-
+— Amortización de intangibles y cargos diferidos.
+ca y convertirla en financiera (pasa de lo devengado a percibido).
+— Amortización de descuentos de bonos. —Método directo—
+— Incremento de impuestos diferidos.  Flujos de caja por operaciones
+Ingresos de caja ventas $
+— Pérdida por “método de la participación”. Menos: Pagos de caja por compras y gastos $
+— Pérdida en la venta de Activos fijos. Flujo neto provisto (aplicado) por operaciones $
+— Disminución en Cuentas por cobrar.  Flujos de caja por inmovilizaciones
+Igual que el método indirecto $
+— Disminución de Inventarios.
+ Flujos de caja por financiación propia y ajena
+— Disminución de Gastos anticipados. Igual que el método indirecto $
+— Incremento de Cuentas por pagar. Aumento (disminución) neto de caja $
+— Incremento de Pasivos devengados.
+152
+153
+MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 4: LOS ESTADOS DE CAMBIOS
+Preparación del Estado de flujos de caja Flujo neto de caja provisto por
+La información necesaria surge, generalmente, de tres orí- financiación $ 132.000
+genes: Disminución neta de caja $(12.000)
+a) balances comparativos;
+B. Método Directo
+b) Estado de resultados del último período; • Flujo de caja por operaciones $
+Importe de las rentas 492.000
+c) información adicional. Disminución de las cuentas por cobrar 10.000
+Ingreso de caja por rentas 502.000
+Los pasos necesarios para la preparación son:
+Aumento de gastos anticipados (6.000)
+a) determinación de la variación del saldo de caja (final en re- Aumento de las cuentas por pagar 35.000
+lación con el inicial); Pago de gastos (269.000)
+Pago de impuesto a las ganancias (68.000)
+b) determinación de los flujos de caja del período generado Flujo neto de caja provisto por operaciones 194.000
+por las operaciones (comparación de balances, Estado de • Flujo de caja por inmovilizaciones
+(Igual método indirecto) (338.000)
+resultados y datos complementarios);
+• Flujo de caja por financiación propia y ajena
+c) determinación de los flujos de caja del período generados (Igual método indirecto) 132.000
+por inmovilizaciones y financiaciones (comparación de ba- Disminución neta de caja (12.000)
+lances y datos complementarios). Expondremos ahora la resolución según las normas del FASB
+Veremos ahora la resolución del caso de aplicación NQ 1, 95 del caso de aplicación Nº 2, Las Novedades S.A.
+Los Cambios S.A., según las normas del FASB 95. Solución:
+A. Método Indirecto
+Solución
+ Flujo de caja por operaciones $ $
+A. Método Indirecto
+Resultado neto 125.000
+ Flujo de caja por operaciones Más (menos) ítem que no afectan caja:
+Resultado neto $134.000  Gastos por depreciación 33.000
+Más (menos) ítem que no afectan caja: — Incremento de cuentas por cobrar
+ Gastos por depreciación $ 21.000 (ventas que no se cobraron) (42.000)
+ Disminución de cuentas a cobrar “ 10.000 — Incremento de inventarios (mayores
+ Incremento de gastos anticipados “ (6.000) compras) (54.000)
+ Incremento de cuentas por pagar “ 35.000 “ 60.000 — Disminución de gastos anticipados
+Flujo neto de caja provisto por operaciones $ 194.000 (menores egresos) 2.000
+— Disminución de cuentas por pagar
+ Flujo de caja por inmovilizaciones
+Compra de terreno $ ( 70.000) (mayores egresos) (7.000)
+Compra de edificio “ (200.000)  Pérdida por venta de equipos 2.000 (66.000)
+Compra de equipo “ (68.000)
+Flujo neto de caja provisto por operaciones 59.000
+Rujo neto de caja provisto por
+• Flujo de caja por Inmovilizaciones
+inmovilización $
+Venta de terreno 25.000
+(338.000)
+Venta de equipos 34.000
+• Flujo de caja por financiación propia y ajena
+Compra de equipo (166.000)
+Emisión de bonos $ 150.000 Flujo neto de caja provisto por inmovilizaciones (107.000)
+Pago de dividendos en efectivo “ (18.000)
+154 155
+MARIO BIONDI
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+ Flujo de caja por financiación propia y ajena
+Rescate de bonos (40.000)
+Venta de acciones comunes 160.000
+Pago de dividendos (55.000)
+Flujo neto de caja provisto por financiación 65.000
+Aumento neto de caja 17.000
+B. Método Directo
+ Flujo de caja por operaciones $ $
+Importe de las ventas 890.000
+Incrementos de cuentas por cobrar (42.000)
+Ingresos de caja por ventas 848.000
+Costo de mercaderías vendidas (465.000)
+Incremento de inventarios (54.000)
+Compras (519.000)
+Disminución de cuentas por pagar (7.000) (526.000)
+Pago de gastos (221.000)
+Menos: depreciaciones y amortiz. gastos 35.000 (186.000)
+Pago de intereses (12.000)
+Pago de impuesto a las ganancias (65.000)
+Flujo neto de caja provisto por operaciones 59.000
+ Flujo de caja por inmovilizaciones
+(Igual método indirecto) (107.000)
+• Flujo de caja por financiación propia y ajena
+(Igual método indirecto) 65.000
+Aumento neto de caja 17.000
+Como conclusión de estas reflexiones vale la pena señalar
+que, en nuestra opinión, se observa en los Estados Unidos una
+fuerte tendencia a volcarse más y más hacia el método del
+“efectivo” en reemplazo del de “devengado”.
+Ello es así no solamente en el caso del análisis precedente,
+sino también en los artículos, publicación de trabajos doctrinarios,
+etc., en los cuales se comenta que el cumplimiento de las normas
+contables significa, en algunos casos, un costo financiero adicio-
+nal; por ejemplo, registrar los cheques una vez emitidos y despa-
+chados, aun antes del débito por el banco, lo cual obliga a inmo-
+vilizar fondos para evitar un “descubierto contable”.
+156
+MARIO BIONDI

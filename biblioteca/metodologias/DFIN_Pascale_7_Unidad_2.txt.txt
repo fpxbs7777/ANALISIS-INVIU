@@ -1,0 +1,196 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones Macchi
+3ª ed., Buenos Aires, 1998
+ISBN 950-537435-6
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 22. DIVIDENDOS Y SU RELACIÓN CON INVERSIONES Y
+FINANCIAMIENTO
+OBJETIVOS DE APRENDIZAJE
+• Estudiar las relaciones entre inversiones, financiamiento y dividendos.
+• Analizar cuáles son los elementos para el diseño de una política de dividendos residual.
+22,1. LAS RELACIONES ENTRE INVERSIONES, FINANCIAMIENTO Y DIVIDENDOS: UN
+EJEMPLO
+En el comienzo de este libro se ha señalado que dentro de las grandes decisiones financieras
+aparecían tres fundamentales:
+− de inversión, tanto en capital de trabajo como en activos fijos;
+− de financiamiento;
+− de dividendos.
+Todas ellas están orientadas, conforme a la teoría, hacia la maximización del valor de las partes de
+capital de la empresa.
+En este capítulo se verán algunos aspectos fundamentales de la interrelación de las tres políticas
+señaladas.
+Si la empresa tiene esos tres grandes grupos de decisiones, es razonable esperar que haya ido fijando,
+sobre las mismas, ciertas políticas. A efectos de desarrollar un ejemplo, se verán las políticas que,
+hipotéticamente, ha establecido la empresa.
+Decisión Política
+Inversiones………… Aceptar todas las inversiones que tengan VAN > 0
+Financiamiento……. Deudas/activos totales = 0,5 o sea 50% deudas y
+50% fondos propios
+Dividendos………… Ratio de pago de dividendos: 0,7
+Una vez que han sido fijadas estas políticas, si se decide que las tres variables funcionen
+activamente, podría darse en muchos casos la situación de que haya que recurrir a nuevo capital, por
+ejemplo, emitir e integrar nuevas acciones.
+¿Qué sucede si la empresa no desea o no puede emitir nuevo capital y que el mismo se integre?
+En este caso, se podrían dar situaciones en las que haya que sacrificar la obtención del objetivo de
+alguna variable, la que actuará como residuo.
+En primer lugar, se verá cada una actuando independientemente como residuo, en el caso de que no
+haya nuevas emisiones.
+Supóngase que los activos totales de la empresa sean de 2.000, 1.000 financiados con deudas y 1.000
+con fondos propios.
+Las propuestas de inversiones a realizar con VAN > 0 son $ 250. Las ganancias netas son $ 250. El
+ratio de pago de dividendos es de 0,7.
+CASO 1. NO HAY NUEVOS AUMENTOS DE CAPITAL
+1. Inversión como variable residual
+Variables activas: dividendos y endeudamiento
+2
+
+• Dividendos: 70 %
+0,7 × 250 = 175
+Utilidades retenidas…………………………….…75
+• Deudas/activos totales = 50
+Incremento de activos por utilidades retenidas……75
+Incremento de activos por deudas………………...75
+Total……………………………………….…150
+• Situación final:
+Deudas…………………………………………...1.075
+Fondos propios…………………………………..1.075
+Total………………………………………....2.150
+Deudas/activos totales = 50%
+Variable residual: inversión
+Inversiones propuestas……………………………..250
+Inversiones a realizar………………………………150
+Inversiones postergadas……………………………100
+2. Endeudamiento como variable residual
+Variables activas: dividendos e inversión
+• Dividendos: 70 %
+0,7 × 250 = 175
+Utilidades retenidas…………………………………..75
+• Inversión: VAN > 0
+Total de inversiones: 250
+Variable residual: endeudamiento
+Inversiones a realizar………………………………….250
+Utilidades retenidas…………………………………….75
+Nueva deuda…………………………………..175
+• Situación final:
+Deudas……………………………..................1.175
+Fondos propios……………………………….1.075
+Total……………………………………...2.250
+Deudas/activos totales = 52,22%
+3. Dividendos como variable residual
+Variables activas: inversión y endeudamiento
+• Inversión: VAN > 0
+Total a invertir: 250
+3
+
+• Deudas/activos totales = 50%
+Deuda…………………………………………………1.125
+Fondos propios………………………………………..1.125
+Total………………………………………………2.250
+Deudas/activos totales = 50 %
+Variable residual: dividendos
+Ganancias netas………………………………………………250
+Fondos propios adicionales…………………………………..150
+Dividendos……………………………………………………125
+En los ejemplos anteriores ha ido operando, alternativamente, cada una de las variables como
+residual. Es decir, dos han operado mientras que activamente la tercera ha quedado como residuo.
+Naturalmente, podrían darse todos los casos intermedios imaginables. Es decir, operando dos como
+residuos parciales, o las tres como residuos parciales.
+El punto que se quería poner de manifiesto en estos ejemplos es la dependencia que existe entre estas
+tres políticas financieras de la empresa.
+Se verá ahora el caso en el que se amplía el capital integrado.
+CASO 2. HAY AUMENTOS DE CAPITAL
+Variables activas: inversión, endeudamiento y dividendos
+• Inversiones: VAN > 0
+Total de inversiones: $ 250
+• Dividendos: 70 %
+Ganancia neta……………………………………..250
+Dividendos (0,7 × 250)…………………………....175
+Utilidades retenidas (0,3 × 250)…………………....75
+• Endeudamiento: 50%
+Deuda………………………………………….…..1.125
+Fondos propios…………………………………….1.125
+Total…………………………………………...2.250
+Fondos propios nuevos totales……………………….125
+Fondos propios aportados por utilidades retenidas……75
+Nuevo capital……………………………………..50
+Este ejemplo pone de manifiesto algunos elementos básicos de la política de dividendos, que son:
+a) existe una clara dependencia entre tres variables fundamentales: inversión, financiamiento y
+dividendos;
+b) en la mayor parte de los casos en que no se opta por incrementar los fondos propios con aportes
+externos, como las nuevas integraciones de capital, hay que optar por alguna de ellas para que
+opere como variable activa y, en cambio, otra como residual;
+e) es muy frecuente que se recurra a nuevas integraciones de capital cuando se desea mantener activa
+la política de inversiones, por ejemplo, llevar adelante las proposiciones de inversión que tengan
+un VAN > 0, así como la política de financiamiento, como podría ser el caso de tener una relación
+4
+
+de deudas a fondos propios que sea óptima y haber definido una política de dividendos (como un
+determinado porcentaje de la utilidad) para poderlos cumplir.
+A partir de estas ideas se desarrollan en la sección siguiente algunos aspectos importantes sobre la
+política de dividendos.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuando la política de dividendos es residual, ¿cómo se estructuran las políticas de inversiones y de
+financiamiento?
+22,2. ELEMENTOS PARA UNA POLÍTICA DE DIVIDENDOS RESIDUAL
+a) Las tres políticas afectan el valor de la empresa que es, en última instancia, el objetivo que se ha
+señalado para las finanzas.
+Las inversiones son una de las formas en las que se manifiesta la política comercial de la empresa,
+por lo cual, toda inversión que agregue valor contribuye al objetivo.
+Se ha visto, también, que una política óptima de financiamiento minimiza el costo del capital y, por
+consiguiente, maximiza su contribución al valor.
+Los dividendos, en determinados contextos y de acuerdo con lo expuesto en el capítulo anterior,
+pueden influir sobre el valor.
+b) Cuando se supone un mundo sin impuestos (tanto aquellos que afectan al inversor en forma
+general como aquellos que gravan a la empresa), ni costos de fricción (comisiones, costos de
+emisión, etc.) se considera, en general, indiferente el valor de los dividendos o de las ganancias
+de capital, tal como se vio en el capítulo anterior.
+Sin embargo, cuando hay impuestos, costos de fricción y efectos de información, así como costos de
+agencia y señalización financiera, existe una coincidencia apreciable en considerar que los dividendos
+afectan de alguna forma el valor de la empresa.
+c) Si, entonces, las inversiones deseables son importantes como aportadoras de valor, en general,
+posponerlas suele significar perder una oportunidad de aumentar el valor de la empresa.
+Asimismo, al definir un objetivo de deudas/fondos propios se debe convenir que pequeñas
+desviaciones del mismo pueden no tener, en la vida real, una influencia marcada sobre el valor. Sin embargo,
+separarse pronunciadamente y durante un lapso prolongado del óptimo tendrá, seguramente, su efecto sobre
+el valor de la empresa.
+Si debe cumplirse con la política de inversiones y la de financiamiento ¿qué características
+debe aportar la política de dividendos? ¿debe ser, entonces, una política residual?
+En general, la política de dividendos suele ser residual. Pero esto merece una observación
+desde el comienzo. Que sea una política residual no debe implicar variaciones en el corto plazo en los
+dividendos que se distribuyan. Una política residual, que derive en pagos muy erráticos de dividendos,
+perjudicaría, a la postre, el valor de la empresa.
+d) Una política que cuenta con una aceptación amplia es la que sostiene que los dividendos son
+una variable residual a largo plazo.
+En este sentido, el proceso para delinear esta política sería:
+⋅ Se debe tomar un horizonte apreciablemente amplio, como, por ejemplo, cinco años.
+⋅ Se planifican para este período las inversiones a realizar (año a año), ya sean en capital de trabajo
+o inversiones fijas.
+⋅ Luego de establecer las inversiones que se piensan realizar se programa, para el mismo período, la
+generación interna de fondos que se prevé que tendrá la empresa. Esta generación de fondos
+estaría compuesta por las ganancias netas más las depreciaciones y por otros cargos contra los
+ingresos que no implican egresos de fondos.
+5
+
+⋅ La empresa debe fijar, asimismo, un objetivo de endeudamiento que minimice la tasa de retorno
+requerida.
+⋅ Una vez programadas las inversiones y la generación interna de fondos, y establecido un
+objetivo de deudas/fondos propios, surge la política de dividendos residual que se adapte a estos
+planes.
+La política está fijada a largo plazo y se establece en un porcentaje de las ganancias netas. Esto es,
+por ejemplo, distribuir un 40 % de la ganancia neta de los cinco años programados.
+En el corto plazo, lo más importante sería mantener una distribución constante en términos de
+pesos por acción. Ello puede implicar que en el corto plazo varíe el porcentaje de pago de dividendos sobre
+ganancia.
+Es decir, en ciertos años sobrarán fondos, los que se utilizarían cuando, en otros años, no fueran
+suficientes.
+En suma, una política de dividendos residual implica un objetivo de largo plazo, establecido como
+porcentaje de las ganancias netas. En el corto plazo, más importante es mantener la distribución
+constante de los dividendos por acción.
+Por otra parte, en contextos inflacionarios, los pesos pagados por concepto de dividendos deben
+entenderse en términos reales.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo se estructura una política residual de dividendos.
+6

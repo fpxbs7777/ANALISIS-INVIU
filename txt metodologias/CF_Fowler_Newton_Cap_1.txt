@@ -1,0 +1,944 @@
+C
+UESTIONES CONTABLES
+F
+UNDAMENTALES
+Q
+UINTA EDICIÓN
+ENRIQUE FOWLER NEWTON
+LA LEY
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+Fowler Newton, Enrique
+Cuestiones contables fundamentales.
+5a ed. - Buenos Aires: La Ley, 2011.
+752 p. ;24x 17 cm.
+ISBN 978-987-03-1896-5
+1. Contabilidad. I. Título
+CDD 657
+1º Edición 1982
+2º Edición 1991
+3º Edición 2001
+4º Edición 2005
+5º Edición 2011
+Copyright C 2011 by La ley S.A.E. e I.
+Tucumán 1471 (C1050AACC) Buenos Aires
+Queda hecho el depósito que previene la ley 11.723
+Impreso en la Argentina
+Todos los derechos reservados
+Ninguna parte de esta obra puede ser reproducida
+o transmitida en cualquier forma o por cualquier medio
+electrónico o mecánico, incluyendo fotocopiado, grabación
+o cualquier otro sistema de archivo y recuperación
+de información, sin el previo permiso por escrito del editor y del autor.
+Printed in Argentina
+All rights reserved
+No part of this work may be reproduced
+or transmitted in any form or by any means,
+electronic or mechanical, including photocopying and recording
+or by any information storage or retrieval system,
+without permission in writing from the publisher and the author.
+Tirada: 2500 ejemplares.
+I.S.B.N. 978-987-03-1896-5
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+48 ENRIQUE FOWLER NEWTON
+b) es probable que la “NIIF para las PYMES” logre cierto grado de adhe-
+sión;
+c) la Argentina es el país donde está localizada la mayoría de los lectores
+de nuestros libros;
+d) los US GAAP:
+1) son aplicados por muchas empresas importantes, incluyendo las
+no estadounidenses que cotizan en las bolsas de los Estados Uni-
+dos y no aplican las NIIF;
+2) son, en cierto modo, las más internacionales de las normas loca-
+les.
+1,7. MARCOS CONCEPTUALES DE LAS NORMAS CONTABLES
+A) FUNCIÓN
+Antes de elaborar un juego de NC es preciso:
+a) identificar las cuestiones clave a tener en cuenta para su desarrollo;
+b) estudiar los aspectos inherentes a ellas;
+c) desarrollar un conjunto de postulados (36) que:
+1) sean coherentes entre sí;
+2) puedan aceptarse para el desarrollo lógico de dichas normas.
+Las premisas que se establezcan deberían reflejar las creencias y las cos-
+tumbres de los usuarios habituales de los estados financieros, lo que requiere
+la previa identificación de éstos.
+El conjunto de postulados adoptados para el desarrollo de NC constituye
+su marco conceptual (MC). Establecido éste, su contenido debería:
+a) ser respetado por su emisor cuando emite NC;
+b) facilitar, a quienes no sean conocedores de la disciplina contable, la
+comprensión de los estados financieros y de las NC empleadas para
+su preparación;
+c) ayudar a la resolución de los problemas de reconocimiento, medición
+y exposición contable que no estuvieran específicamente previstos en
+ellas.
+(36) De acuerdo con el DRAE (citado en la nota 9), un postulado es una proposición cuya
+verdad se admite sin pruebas y que es necesaria para servir de base en ulteriores razonamien-
+tos.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+1. CONTABILIDAD, INFORMES CONTABLES Y CUESTIONES RELACIONADAS 49
+Algunos juegos de NC indican explícitamente que el MC utilizado para su
+elaboración debe ser considerado:
+a) para su interpretación; o
+b) para la resolución de situaciones no previstas en ellas.
+Nada impide el diseño de un MC para la emisión de ICI, pero el resultado
+de esa tarea sólo constituiría doctrina, ya que cada entidad puede fijar libre-
+mente las reglas que aplicará para preparar su información de uso interno,
+sin que esta actividad pueda ser sometida a regulación externa alguna. De
+hecho, no tenemos noticia de que se haya efectuado algún intento en el sen-
+tido indicado.
+B) CONTENIDO
+En nuestra opinión, un MC para la elaboración de NC debería referirse,
+como mínimo, a estas cuestiones:
+a) el objetivo de los estados financieros;
+b) la caracterización de sus usuarios típicos;
+c) sus necesidades de información;
+d) los requisitos o cualidades que la información contenida en los esta-
+dos financieros debería cumplir para satisfacer tales necesidades;
+e) los objetos susceptibles de medición contable (o elementos de los es-
+tados financieros), como los activos y los pasivos;
+f) los atributos de dichos objetos que interesan a los usuarios tipo;
+g) los aspectos tenidos en cuenta por quienes compran o venden bienes
+o servicios a los efectos de determinar qué precios aceptarían pagar o
+recibir;
+h) las intenciones de las personas que aportan capitales a los entes emi-
+sores de estados financieros, en cuanto a si les importa que éstos man-
+tengan una cierta capacidad de operación (37);
+i) la unidad de medida que los usuarios de estados financieros conside-
+ran más útil para su preparación;
+j) si las entidades que controlan a otras deberían presentar información
+contable:
+1) del grupo (consolidada); o
+(37) Por ejemplo, producir y vender 25.000 unidades mensuales de cierto artículo.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+50 ENRIQUE FOWLER NEWTON
+2) individual, en la que las participaciones en controladas se tomen
+como activos separados.
+Los supuestos que se adopten para los conceptos indicados a partir de
+inciso b) no deberían ser contradictorios con el objetivo que se defina par
+a
+los estados financieros. Los MC suelen considerar:
+a) que tal objetivo es el suministro de información útil para la toma de
+decisiones económicas por parte de los usuarios típicos de dichos es-
+tados;
+b) que dichos usuarios típicos son los proveedores de recursos de los
+emisores de estados financieros.
+En esta obra trataremos todas las cuestiones indicadas en la lista prece
+dente, aunque algunas no aparezcan en los MC a los que daremos una aten-
+ción preferente.
+Nuestra lista incluye el inciso g) porque:
+a) en algunos casos, el atributo más relevante de un activo es lo que
+alguien pagaría para adquirirlo, pero la inexistencia de un mercado
+obliga a estimar ese valor razonable (o valor justo), para lo cual es
+necesario imaginar cómo actúan los formadores de precios;
+b) lo mismo podría ocurrir respecto de los costos de cancelación de los
+pasivos.
+El elemento referido en el inciso h), por su parte, hace a la medición de
+las ganancias.
+Esta cuestión se estudia en el apartado 3,5,d).
+Algunos colegas consideran que un MC debería contener una definición
+de contabilidad, pero esto no tendría ningún efecto práctico sobre la defini-
+ción de las NC.
+Aunque no debería ser así, algunos MC incluyen también NC sobre cues-
+tiones de alto nivel, como éstas:
+a) casos en que los elementos de los estados financieros deberían ser re-
+gistrados contablemente o removidos de la contabilidad;
+b) criterios básicos que deberían aplicarse para su medición contable;
+c) capital, en sentido económico (38), que debería mantenerse a los
+efectos de cuantificar las ganancias o pérdidas (las acumuladas y las
+asignables a cada período);
+(38) Patrimonio, en la terminología contable.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+1. CONTABILIDAD, INFORMES CONTABLES Y CUESTIONES RELACIONADAS 51
+d) unidad de medida que debería emplearse para las mediciones conta-
+bles.
+Estas cuestiones son materia de las NC, de modo que no deberían formar
+parte, al mismo tiempo, de su MC (39).
+c) MARCOS CONCEPTUALES A LOS QUE PRESTAREMOS UNA
+ATENCIÓN ESPECIAL
+Dado que prestaremos una atención especial a los juegos de NC indica-
+dos en el apartado l,6,g), haremos lo mismo (cuando corresponda) con sus
+respectivos MC. Por ahora, presentaremos información general sobre ellos.
+1) El marco conceptual de las NIIF
+Desde septiembre de 2010, este MC está contenido en un documento que
+se denomina Conceptual Framework for Financial Reporting 2010 (Marco
+Conceptual para la Información Financiera 2010), que incluye:
+a) dos capítulos aprobados en dicho mes, en el marco de un proyecto de
+MC común y mejorado encarado por el IASB y la FASB en 2004;
+b) textos provenientes de un MC preexistente, que:
+1) tratan cuestiones distintas a las consideradas en esos dos capítu-
+los;
+2) han sido publicados sin modificaciones;
+3) serán reemplazados a medida que el proyecto avance.
+El MC anterior a septiembre de 2010:
+a) lleva, en su traducción oficial al español (40) el título Marco Concep-
+tual para la Preparación y Presentación de Estados Financieros;
+b) fue aprobado en 1989 por el International Accounting Standards
+Committee (IASC, Comité de Normas Internacionales de Contabili-
+dad), entidad que por entonces elaboraba unos pronunciamientos
+denominados Normas Internacionales de Contabilidad (NIC) y que
+funcionó hasta 2000;
+c) fue adoptado en 2001 por el IASB, que le efectuó unos pocos cam-
+bios.
+El objetivo y el alcance del MC de 2010 están así definidos:
+(39) Ningún marco integra lo enmarcado.
+(40) La difundida por la Fundación de la cual depende el IASB.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+52 ENRIQUE FOWLER NEWTON
+Propósito y estatus
+Este Marco Conceptual establece conceptos que subya-
+cen en la preparación y presentación de los estados
+financieros para usuarios externos. El propósito del
+Marco Conceptual es:
+(a) ayudar a la Junta en el desarrollo de futuras NIIF
+y en la revisión de las existentes;
+(b) ayudar a la Junta a promover la armonización de
+las regulaciones, normas contables y procedimien-
+tos relativos a la presentación de estados finan-
+cieros, proveyéndole una base para la reducción
+del número de tratamientos contables alternativos
+permitidos por las NIIF;
+(c) ayudar a los organismos nacionales de emisión de
+normas en el desarrollo de normas nacionales;
+(d) ayudar a los preparadores de estados financieros
+en la aplicación de las NIIF y en el tratamien-
+to de materias que aun no han sido objeto de una
+NIIF;
+(e) ayudar a los auditores en el proceso de formarse
+una opinión sobre si los estados financieros cum-
+plen con las NIIF;
+(f) ayudar a los usuarios de los estados financieros en
+la interpretación de la información contenida en
+estados financieros preparados cumpliendo con las
+NIIF; y
+(g) suministrar, a los interesados en el trabajo del
+IASB, información acerca de su enfoque para la
+formulación de las NIIF.
+Este Marco Conceptual no es una NIIF y por ende no
+define reglas para ninguna cuestión particular de me-
+dición o de revelación (41). En este Marco Conceptual
+no hay nada que prevalezca sobre cualquier NIIF es-
+pecifica.
+El Consejo reconoce que, en un número limitado de ca-
+sos, puede haber un conflicto entre el Marco Concep-
+tual y una NIIF. En los casos en que exista un con-
+flicto, los requisitos de la NIIF prevalecen sobre los
+del Marco Conceptual. No obstante, como el Consejo
+(41) Disclosure. En las NIIF, esta palabra se emplea para referirse a la información que se
+divulga fuera de los estados financieros básicos.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+1. CONTABILIDAD, INFORMES CONTABLES Y CUESTIONES RELACIONADAS 53
+se guiará por el Marco Conceptual en el desarrollo de
+futuras NIIF o en la revisión de las existentes, el
+número de casos de conflicto entre el Marco Conceptual
+y las NIIF disminuirá con el tiempo.
+No obstante, el estatus del MC será revisado cuando avance el proyecto
+de mejoras ya referido.
+En 1989, se informaba que el MC del IASC sería revisado periódicamente
+sobre la base de la experiencia resultante del trabajo con él. Sin embargo, la
+primera revisión se encaró veinticinco años después.
+En cuanto a su contenido general, el MC informa:
+Alcance
+El Marco Conceptual trata sobre:
+(a) el objetivo de la información financiera;
+(b) las características cualitativas de la informa-
+ción financiera útil;
+(c) la definición, el reconocimiento y la medición de
+los elementos con los que se construyen los esta-
+dos financieros; y
+(d) los conceptos de capital y de mantenimiento del
+capital.
+El concepto de mantenimiento del capital se explicará en el aparta-
+do 3,5,d).
+El texto del MC 2010 puede ser consultado o bajado desde http://
+www.ifrs.org/IFRSs/IFRS.htm.
+El proceso de revisión del MC común y mejorado del IASB y la FASB com-
+prende las siguientes fases:
+Cuestiones Avance del trabajo afines de 2010
+Objetivo del suministro de información Concluido en septiembre de 2010 con la
+financiera, cualidades de ésta y ciertas emisión del nuevo MC del IASB y la pu-
+cuestiones relacionadas. blicación de la FASB a la que nos referi-
+remos más adelante.
+Elementos de los estados financieros: En proceso. No hay un calendario esta-
+definiciones y reconocimiento. blecido.
+Guías para la selección de criterios de En proceso. Se espera publicar una pro-
+medición contable que satisfagan los puesta para discusión pública en la se-
+objetivos y cualidades de la información gunda mitad de 2011.
+financiera.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+54 ENRIQUE FOWLER NEWTON
+Cuestiones Avance del trabajo ajines de 2010
+El concepto de entidad informante. En proceso. Se espera publicar el ca-
+pítulo definitivo después de junio di
+2011(42).
+Conceptos subyacentes en las cuestio- No comenzado.
+nes de exposición contable.
+Propósito del MC y autoridad del mis- No comenzado.
+mo
+Aplicabilidad de lo anterior a las entida- No comenzado.
+des sin fines de lucro.
+Cuestiones no cubiertas en las fases an- No comenzado.
+teriores.
+A medida que el proyecto avance, el MC 2010 sufrirá cambios.
+Para seguir la evolución del proyecto, visitar http://wwvv.fasb.org
+cs/ContentServer?c=FASBContent_C&pagename=FASB%2FFASBC
+ontent C%2FProjectUpdatePage&cid=900000011090.
+2) El marco conceptual de la “NIIF para las PYMES”
+El IASB no ha definido un MC de la “NIIF para las PYMES” pero el capítu-
+lo 2 de éstas condene elementos típicos de cualquier MC.
+La correspondiente publicación puede obtenerse, sin cargo, visitan
+do http://www.ifrs.org/IFRS+for+SMEs/IFRS+forH+SMEs.htm.
+3) El marco conceptual de los US GAAP
+Desde septiembre de 2010, el MC de la FASB está distribuido en las si
+guientes Statements of Financial Accounting Concepts (SFACs, declaraciones
+sobre conceptos de contabilidad financiera):
+SFAC Año Título
+4 1980 Objectives of Financial Reporting by Nonbusiness Organi-
+zations
+Objetivos de la información contable de organizaciones no
+empresarias
+5 1984 Recognition and Measurement in Financial Statements of Bu-
+siness Enterprises
+Reconocimiento y medición en los estados financieros de las
+empresas
+(42) IASB Update, noviembre de 2010.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+1. CONTABILIDAD, INFORMES CONTABLES Y CUESTIONES RELACIONADAS 55
+SFAC Año Título
+6 1985 Elements of Financial Statements
+Elementos de los estados financieros
+7 2000 Using Cash Flow Information and Present Valué in Accoun-
+ting Measurements
+Empleo de la información sobre flujos de efectivo y el valor
+actual en las mediciones contables
+8 2010 Conceptual Framework for Financial Reporting - Chapter 1,
+The Objective of General Purpose Financial Reporting, and
+Chapter 3, Qualitative Characteristics of Useful Financial In-
+formation
+Marco Conceptual para la Información Financiera - Capítulo
+1, El objetivo de la información financiera de carácter gene-
+ral, y capítulo 3. Características cualitativas de la información
+financiera útil
+Parte de la historia de este MC puede encontrarse en:
+Zeff, Stephen, The Evolution of the Conceptual Framework for
+Business Enterprises in the United States, Accounting Historians
+Journal, diciembre de 1999, páginas 91-131.
+A medida que avance el proyecto conjunto con la IASB, el SFAC 8 será
+modificado y los anteriores serán reemplazados.
+Al final del proyecto, los MC del IASB y la FASB deberían ser similares.
+Nótese que el SFAC 7 está dedicado más a cuestiones susceptibles de re-
+gulación que a aspectos circundantes de las NC.
+4) El marco conceptual de las NC desarrolladas por la FACPCE
+Lo que sigue puede ser difícil comprensión para quienes no tengan
+conocimientos previos sobre las funciones de los consejos profe-
+sionales de ciencias económicas (CPCE) y de la Federación que los
+agrupa. A quienes se encuentren en esa situación les recomendamos
+la lectura previa de las secciones 14,2 y 14,3 de este libro.
+El MC de las NC desarrolladas por la FACPCE está contenido en la resolu-
+ción técnica (RT) 16 de su Junta de Gobierno. Se lo aprobó con el título Marco
+conceptual de las normas contables profesionales, que en 2009 se reemplazó
+por Marco conceptual de ¡as normas contables profesionales distintas a las
+referidas en la Resolución Técnica No. 26 (43). Esto, porque la RT 26 prevé
+(43) RT 27, segunda parle, punto 5.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+56 ENRIQUE FOWLER NEWTON
+que ciertas entidades preparen sus estados financieros aplicando las NIIF
+la “NIIF para las PYMES” que no fueron elaboradas por la FACPCE.
+Las RT contienen normalmente propuestas de normas profesionales de
+contabilidad, auditoría y otros exámenes de estados financieros y sindicato
+societaria, de modo que la aprobación de un MC mediante la emisión de un
+RT es un hecho excepcional.
+En la RT 16 se informa:
+Este documento establece un conjunto de conceptos
+fundamentales que deberán servir:
+a) a esta Federación, para definir el contenido de la
+futuras resoluciones técnicas sobre normas conta-
+bles profesionales;
+b) a los emisores y auditores de estados contables
+para resolver las situaciones que no estuviere
+expresamente contempladas por las normas conta-
+bles profesionales;
+c) a los analistas y otros usuarios para interpretar
+más adecuadamente las normas contables profesio-
+nales.
+Los estados financieros a los que se refiere este
+docu-
+mento son los informes contables preparados par;
+de terceros ajenos al ente que los emite.
+Con los propósitos indicados, este documento
+incluís
+definiciones sobre las siguientes cuestiones:
+• Objetivo de los estados contables.
+• Requisitos de la información contenida en los es-
+tados contables.
+• Elementos de los estados contables.
+• Reconocimiento y medición de los elementos de los
+estados contables.
+• Modelo contable.
+• Desviaciones aceptables y significación.
+En el caso que existiera alguna discrepancia entre
+las normas del marco conceptual contenido en esta re-
+solución técnica y las normas contables profesionales
+contenidas en otras resoluciones técnicas, prevale-
+cerán estas últimas.
+La RT 10 (Normas contables profesionales, derogada por la 17) incluía al-
+gunas definiciones en materia de objetivo de los estados financieros y requi-
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+1. CONTABILIDAD, INFORMES CONTABLES Y CUESTIONES RELACIONADAS 57
+sito de la información contenida en ellos pero no tenía la cobertura temática
+en el apartado b) de esta sección consideramos adecuada.
+La RT 17 (Normas contables profesionales: desarrollo de cuestiones de
+… cación general) estableció que las cuestiones de medición contable no
+… listas en ninguna parte de ella deben resolverse considerando cierta je-
+rarquía de normas supletorias, que incluye a los conceptos del MC aprobado
+… a RT 16(44).
+Acotemos que durante el período de discusión del proyecto 5 de RT (base
+… ia inmediata de la RT 16), Ostengo y Pahlen Acuña propusieron que el
+… de la FACPCE incluyera dos partes:
+a) un MC disciplinario, que debería ser amplio para todo tipo de activi-
+dades dentro de la profesión y para todo tipo de usuarios (entre ellos
+los administradores) y no estén destinadas únicamente al enfoque de
+auditoría externa;
+b) un marco de referencia para la preparación y presentación de estados
+financieros (45).
+Nuestros colegas opinaron que había una incoherencia entre el conteni-
+do el proyecto y su denominación, fundamentando su interpretación de la
+siguiente manera:
+Esta inconsistencia en los alcances (título versus
+contenido), se debe a un serio problema de interpre-
+tación respecto a la acepción y a los conceptos que
+el vocablo “profesional” abarca y significa.
+El error interpretativo consiste en creer que una ta-
+rea profesional está circunscripta únicamente a la
+preparación y presentación de estados contables en un
+enfoque simplificado y exclusivamente de “auditoria
+externa”, olvidándose de otras múltiples e importan-
+tes tareas y actividades que también deben ser con-
+sideradas dentro del concepto “profesión”, como por
+ejemplo, la actividad que se desarrolla dentro de la
+Contabilidad de Gestión, dentro de la Contabilidad
+de Costos, en el Control de Gestión, en las pautas y
+procedimientos a seguir dentro de la Contabilidad Pú-
+blica, etcétera. En otras palabras, “cualquier tarea
+para la que el Cr. Público (4.6) elabore información
+contable útil al proceso decisorio, no debe quedar al
+44) RT 17, segunda parte, sección 9.
+45) OSTENGO, HÉCTOR CARLOS y PAHLEN ACUÑA, RICARDO, Replanteo y rediseño del
+… cto Nº 5 de resolución técnica - Marco conceptual de las normas contables profesionales,
+… jo distribuido en las XX Jornadas Universitarias de Contabilidad, Rosario, 1999, página 7.
+46) El contador público.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+58 ENRIQUE FOWLER NEWTON
+margen de la adopción de la palabra profesional, ya
+que sin lugar a dudas, la preparación de este herra-
+mental necesita también un marco conceptual definido
+dentro de la profesión”.
+Discrepamos, por lo siguiente:
+a) ya mencionamos que un MC para la preparación de informes distin-
+tos a los estados financieros sólo podría constituir doctrina, pues el
+contenido de tales informes no es susceptible de regulación alguna;
+b) los consejos profesionales argentinos dictan NCP basándose en el he-
+cho de que la ley los habilita a fijar las normas que deben seguir los
+contadores públicos cuando efectúan auditorías (47), de modo que la
+adopción del aludido enfoque de auditoría externa es razonable;
+c) el título del proyecto 5 (el mismo de la RT16 original) no dejaba dudas
+en cuanto a su alcance: se refería (exclusivamente) al MC de las NCP;
+d) la FACPCE habría actuado imprudentemente si hubiese propuesto
+que los CPCE dictasen un MC para actividades en cuya regulación no
+pueden intervenir.
+Y no creemos que las autoridades de la FACPCE ignorasen qué es un pro-
+fesional.
+D) MARCOS CONCEPTUALES REFERIDOS AL SECTOR PÚBLICO
+Algunos emisores de NC han adoptado o están elaborando MC separa-
+dos para el sector público:
+a) desde 1987, la estadounidense Governmental Accounting Standards
+Board (GASB, Junta de Normas de Contabilidad Gubernamental) ha
+venido emitiendo Concepts Statements (CSs, Declaraciones de Con-
+ceptos);
+b) la International Public Sector Accounting Standards Board (IPSASB,
+Consejo de Normas Internacionales de Contabilidad para el Sector
+Público) tiene en marcha un proyecto dividido en cuatro fases, que
+probablemente demore años, ya que el único borrador presentado a
+la consideración del público cubre solamente la primera;
+c) la FACPCE cubrió la cuestión en su recomendación técnica del sector
+público (RTSP) 1, de marzo de 2008, titulada Marco conceptual conta-
+ble para la administración pública.
+(47) Ley 20.488, artículo 13, que será analizado en el capítulo 14.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+1. CONTABILIDAD, INFORMES CONTABLES Y CUESTIONES RELACIONADAS 59
+Es curioso que en el título de la RTSP 1 se utilice la palabra contable como
+calificativo de marco conceptual, en lugar de usar la expresión marco concep-
+tual de las normas contables.
+Estudiamos el borrador usado para elaborar la RTSP 1 en nuestro
+artículo Marcos conceptuales de las normas contables del sector pú-
+blico: los proyectos de la FACPCE, D&G. Profesional y Empresaria,
+marzo de 2008, páginas 243-255.
+E) DISCREPANCIAS ENTRE MARCOS CONCEPTUALES
+Y NORMAS CONTABLES
+En los MC de las NIIR de las NC desarrolladas por de la FACPCE y de los
+US GAAP, se señala que en caso de conflictos entre éstas y los conceptos pre-
+sentados en el MC, prevalecen las NC. Al momento de emitirse esos MC, era
+de esperar que:
+a) existieran conflictos de los indicados porque había NC preexistentes a
+la emisión del MC;
+b) las discrepancias se resolviesen posteriormente mediante la modifi-
+cación de las NC conflictivas para que su contenido se adecuase al del
+MC correspondiente.
+Sin embargo, en los tres casos indicados:
+a) tal adecuación no se produjo;
+b) por el contrario, se dictaron otras NC que violaban (y siguen violando)
+los conceptos contenidos en el correspondiente MC.
+Presentamos ejemplos de esto en diversos capítulos de Contabilidad
+Superior, sexta edición, La Ley, 2010.
+Sobre las posibles causas de la demora en la adecuación de los US
+GAAP al contenido de su MC, puede leerse:
+Miller, Paul B. W., The Conceptual Framework as Reformation
+and Counterreformation, en:
+Zeff, Stephen y Dharan, Bala G, Readings & Notes on Financial Ac-
+counting, quinta edición, McGraw-Hill, 1997, páginas 92-104.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos

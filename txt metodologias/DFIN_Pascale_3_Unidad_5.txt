@@ -1,0 +1,461 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones Macchi
+3ª ed., Buenos Aires, 1998
+ISBN 950-537435-6
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 2. MERCADOS FINANCIEROS
+OBJETIVOS DE APRENDIZAJE
+• Qué es un activo financiero.
+• Qué son los mercados financieros y cuáles son sus principales funciones económicas.
+• Distinción entre instrumentos de deuda y de fondos propios.
+• Diversas formas de clasificar los mercados financieros.
+• Tipos de intermediarios financieros.
+• Tipos de instrumentos financieros.
+2,1. INTERRELACIÓN ENTRE LAS FINANZAS DE LA FIRMA Y LOS MERCADOS
+FINANCIEROS
+En el cap. 1 se estableció que el núcleo central de estudio de las finanzas es cómo asignar y distribuir
+los recursos financieros a través del tiempo en un contexto de incertidumbre, y cuál es el rol de las
+organizaciones económicas que facilitan esa asignación. Los agentes y organizaciones clave en finanzas son,
+como se ha visto, las familias (o los individuos), las empresas, los intermediarios financieros y los mercados
+financieros:
+En este texto se analizará ese rol en distintas oportunidades.
+Este capítulo está dedicado a presentar algunas ideas básicas relacionadas con los dos últimos tipos
+de organizaciones que hemos mencionado, esto es, las instituciones y los mercados financieros.
+En la fig. 2.1 se representa esquemáticamente la relación entre las finanzas de la firma y los
+mercados financieros.
+Figura 2, 1. Interrelación entre la firma y los mercados financieros.
+Así, se muestra de qué manera los flujos van y vienen de las empresas a los mercados financieros
+(dividendos). De los mercados financieros a la firma (obligaciones, acciones) toma fondos para su inversión
+en activos tanto corrientes como fijos (1). La empresa, por otro lado, genera flujos de caja (2) que se
+distribuyen en tres partes: pago de impuestos, al gobierno (3), pagos de dividendos y pagos debidos a la
+deuda, a los mercados financieros (5), y parte se retiene en la empresa (4).
+2
+
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Hacia dónde se destina y de dónde se nutre el flujo de fondos de la empresa.
+2,2. MERCADOS FINANCIEROS
+Definiciones
+En una economía existen diversos tipos de mercados que pueden ser agrupados en:
+a) mercado de productos, donde operan bienes manufacturados o servicios;
+b) mercado de factores, que corresponde a los factores de producción como el trabajo y el capital.
+Este capítulo tratará de una parte del mercado de factores conocida como mercado financiero.
+Se denomina así a los mercados de activos financieros; tratan flujos de caja en el tiempo. Son
+mercados en los cuales los fondos son transferidos desde unidades superavitarias, esto es, que tienen un
+exceso de fondos, hasta aquéllas deficitarias, o sea que tienen necesidades de fondos.
+Dado que se trata de activos financieros, se ha considerado importante hacer, a esta altura, al menos
+breves referencias sobre ellos, sin perjuicio de volver a los mismos en este capítulo más adelante.
+Antes de continuar con la idea de activos financieros, es útil hacer referencia a los activos. Puede
+decirse, desde el punto de vista económico, que activo es una propiedad que significa una reserva de valor o,
+en términos más genéricos, toda pertenencia que toma valor al momento que ella va a ser objeto de una
+transacción.
+En los activos financieros (que se agrupan dentro de los activos intangibles) un beneficio o valor
+típico está compuesto por derechos sobre un flujo de casa futuro. Los activos financieros, también se
+denominarán en este texto como instrumentos financieros.
+Existen muchos ejemplos de activos o instrumentos financieros Sólo para ilustrar, pueden
+mencionarse los bonos del tesoro que emite un gobierno; el préstamo que un banco hace a un individuo o a
+una empresa; una acción de una determinada compañía. De esta forma, en el caso de un bono, el gobierno
+que lo ha emitido se compromete a pagar, por ejemplo, semestralmente, los intereses pactados, y al fin del
+período de vigencia del bono, el valor nominal del mismo. El que ha tomado un préstamo de un banco se ha
+comprometido a efectuar ciertos pagos en el tiempo, de intereses y de principal. El propietario de una acción
+tendrá la posibilidad de recibir dividendos en el tiempo; con ella, posee una parte del patrimonio de la
+empresa en caso de que ésta vaya a la liquidación, o podría vender la acción e incluir el valor neto de la
+colocación.
+En los activos tangibles, en cambio, a diferencia de los intangibles –cuyo valor deviene de los
+derechos sobre futuros flujos de fondos–, depende de sus particularidades físicas, como es el caso de los
+terrenos.
+Funciones económicas de los mercados financieros
+Los mercados financieros cumplen, en el campo económico, ciertas funciones importantes que se
+exponen en un orden que no implica mayor valoración de una sobre las otras.
+La primera es transferir fondos desde las unidades económicas superavitarias hacia aquellas
+deficitarias. Una causa básica de la existencia de activos financieros es que los ahorros de muchas unidades
+económicas –definidos como la diferencia entre el ingreso corriente y los gastos corrientes–, durante un
+período, difieren de su inversión en activos físicos.
+Una unidad económica será autosuficiente si sus inversiones en activos fijos y sus gastos corrientes
+son cubiertos con sus ingresos corrientes. Los activos financieros, entonces, se crean cuando una firma, por
+ejemplo, invierte en activos físicos más de lo que ahorra, y financia este faltante pidiendo dinero prestado, ya
+sea en un banco, emitiendo obligaciones, o emitiendo acciones.
+Las unidades económicas cuyo ahorro es inferior a las inversiones en activos físicos se denominan
+unidades con déficit de ahorro. En caso contrario, son unidades con superávit de ahorro.
+3
+
+¿A qué obedece que sea tan importante esa canalización de fondos desde unidades con superávit de
+ahorro hacia aquéllas deficitarias?
+La respuesta debe buscarse en que en las economías modernas las principales unidades superavitarias
+son diferentes de las deficitarias. En una economía, es muy habitual que las superavitarias pertenezcan al
+sector de familias. Las empresas no financieras y los gobiernos son, asimismo, comúnmente deficitarios. El
+sector externo a veces se ubica como superavitario, y otras, como deficitario.
+Cuanto más diversificados se encuentren los patrones de necesidades de ahorros e inversiones, tanto
+más grande será la importancia de un mercado financiero eficiente para canalizar los fondos desde los
+ahorristas hacia los usuarios finales.
+En este texto se consideran los mercados financieros en un sentido amplio, incluyendo todo tipo de
+activos financieros, más allá de la naturaleza de las instituciones financieras actuales. Es esencial para
+contribuir a la adecuada formación de capital y al crecimiento económico en las modernas economías que los
+mercados financieros funcionen eficientemente.
+Ellos permiten que los fondos vayan desde unidades que tienen carencias de oportunidades de
+inversión hacia aquellos que no las tienen. De esta forma contribuyen a una mayor producción de bienes y
+servicios, y, en definitiva, promueven la eficiencia de la economía en su conjunto. Asimismo, alientan el
+bienestar de las comunidades, dándoles tiempo para hacer mejores compras.
+Una segunda función de los mercados financieros está vinculada al riesgo. Cuando una empresa
+decide invertir en un activo físico, espera de él un determinada flujo de caja. Este flujo de fondos futuro lleva
+implícito un riesgo en el sentido financiero.
+Toda vez que la unidad deficitaria va al mercado financiero a buscar fondos para financiar sus
+inversiones riesgosas, emitiendo activos financieros, está redistribuyendo el riesgo de esa inversión física en
+el resultado final de los compradores de activos financieros. El promotor de la inversión probablemente
+tenga fondos para destinar al nuevo emprendimiento, pero prefiere dejarlos invertidos en otros negocios que
+a su vez traen aparejado otros riesgo diferente. Quien compre acciones para financiar el proyecto estará;
+decidido a compartir los riesgos propios de un negocio. Quien compre un activo financiero del tipo de deuda
+no estará dispuesto a compartir esos riesgos, con excepción del riesgo de crédito.
+La segunda función que se está señalando es, por lo tanto, la transferencia de fondos de unidades
+superavitarias a deficitarias, de un modo tal que implican una redistribución del riesgo propio, inherente a los
+flujos de fondos que derivan de una inversión en activos físicos entre quienes buscan fondos y quienes los
+proveen.
+Los diferentes mercados financieros proveen alguna forma de liquidez que es una característica
+atractiva de ellos cuando el poseedor de un activo financiero decide venderlo por distintas motivaciones.
+Cabe señalar que el grado de liquidez es uno de los factores que caracterizan a los distintos mercados
+financieros.
+Como aspecto propio inherente al mercado puede señalarse que proveen un mecanismo para la
+fijación de precios de los activos financieros. En efecto, la interacción entre compradores y vendedores en
+los mercados financieros determina el precio de los activos. Es entonces que el rendimiento esperado de un
+activo financiero es el que allí se determina.
+Es importante tener presente que el incentivo de los demandantes de fondos depende del rendimiento
+requerido que a su vez demandan los inversores. De esta forma, una de las funciones económicas de los
+mercados financieros es informar a los agentes intervinientes acerca de cómo se están asignando los recursos
+en él y cómo debería efectuarse dicha asignación.
+Por último, también es inherente a los mercados financieros provocar una reducción de los costos de
+transacción, que están habitualmente compuestos por los costos de información (por ej., el tiempo para
+conectar oferentes y demandantes de activos financieros) o de búsqueda (por ej., publicidad).
+Clasificación de los mercados financieros
+Existen diversas formas de clasificar a un mercado financiero, algunas de las cuales se exponen a
+continuación; en las agrupaciones se siguen las expuestas por FABOZZI, MODIGLIANI y FERRI (1994).
+4
+
+1. Por el tipo de derecho
+Existen dos formas por las cuales una empresa o un individuo obtienen fondos: deudas o acciones
+(fondos propios).
+En lo que se refiere a deudas, éstas tienen un plazo de vencimiento, al término del cual debe
+cancelarse la obligación. Las deudas implican financieramente el pago de intereses a intervalos regulares y
+amortizaciones del principal en los tiempos que se hayan convenido.
+En la modalidad de financiamiento con fondos propios, por ejemplo, acciones los tenedores de los
+mismos poseen derechos de compartir las ganancias netas, cuando ellas se distribuyen, y los activos netos de
+un negocio en caso de liquidación.
+Los proveedores de acciones tienen un derecho residual, esto es, se debe pagar primero a los
+tenedores de deudas y luego a los tenedores de acciones. Sin embargo, los tenedores de acciones se
+benefician de los incrementos de la rentabilidad de la firma y el valor de los activos.
+2. Por el momento de la transacción
+En este caso los mercados financieros se pueden dividir en primarios y secundarios.
+El mercado primario es aquel en el cual nuevas emisiones de deudas (obligaciones, bonos, etc.) o
+acciones son vendidas a los compradores iniciales. Son los mercados con los que el público suele tener
+menos contacto directo. En muchos casos, las emisiones se efectúan por instituciones financieras bajo un
+régimen conocido como underwriting esto es, con la garantía de un precio para la empresa que desea los
+fondos y a partir del cual se vende al público.
+El mercado secundario es un mercado financiero en el cual los activos financieros (obligaciones,
+acciones. etc.), previamente emitidos y vendidos, son revendidos.
+Los mercados secundarios importantes son las bolsas de valores y los mercados de cambios, así
+como los de futuros y opciones. Allí la transacción se realiza más allá de la empresa que haya emitido el
+activo primario.
+Los mercados secundarios suelen cumplir al menos dos funciones relevantes:
+a) hacen más líquidos los instrumentos, desde que existe un mercado en el cual se transan;
+b) en ellos se determina el precio de los activos o instrumento, que se transan en el mercado
+primario.
+3. Por la forma de organización
+En este caso los mercados pueden ser clasificados como de subasta, over the counter y de
+intermediación. Los dos primeros casos son formas de organización de los mercados secundarios. Los de
+subasta son aquellos en los cuales compradores y vendedores de activos financieros encuentran un lugar
+central para llevar adelante sus transacciones. Ejemplos de mercados de subasta son la New York Stock
+Exchange o la Bolsa de Valores de Buenos Aires (para instrumentos de deuda o acciones), o la Chicago
+Board of Trade (que se ocupa de commodities, como el maíz, la plata o el trigo).
+Conocido internacionalmente como over the counter (OTC), este mercado se caracteriza porque los
+agentes que operan en él están ubicados en diferentes lugares que tienen instrumentos financieros en
+inventario para vender a quien esté dispuesto a comprar aceptando los precios. En los hechos, hoy día los
+OTC son muy competitivos, entre otras cosas por la utilización intensiva de la computación, y no son muy
+diferentes de aquéllos organizados para hacer subastas.
+Con frecuencia, las acciones u obligaciones de empresas importantes son transadas
+concomitantemente en el mercado organizado en forma de subasta con el OTC. Asimismo, el mercado de
+bonos del gobierno de los Estados Unidos en gran medida es transado en el mercado OTC.
+En los mercados de bonos, de obligaciones o de acciones se produce una financiación directa. Los
+fondos van desde la unidad superavitaria hacia la deficitaria, vendiendo la última los instrumentos
+financieros que compra la primera.
+En los mercados financieros existe otra forma de conexión entre las unidades superavitarias y
+deficitarias, a través de la financiación indirecta. Esta involucra una institución financiera intermediaria, que
+5
+
+se ubica entre superavitarias y deficitarias facilitando la asignación de los recursos. Son instituciones que
+toman fondos prestados de los agentes económicos que ahorran y a partir de ellos efectúan préstamos a los
+demás. Un banco, por ejemplo, toma fondos del público emitiendo un certificado de depósito; estos fondos
+puede destinarlos a adquirir un activo financiero, como es el caso de hacer un préstamo a una empresa.
+Existen diversos tipos de intermediación financiera; por ejemplo, bancos comerciales, asociaciones
+de ahorro y préstamo, bancos de ahorro mutuo, credit unions, compañías de seguros de vida, compañías de
+seguros contra incendio y otras ramas, fondos de pensiones, compañías financieras y fondos mutuos. En el
+pto. 2.3 se analiza con más detalle este tipo de instituciones.
+4. Por el plazo de vencimiento de los activos financieros
+Otra forma clasificar los mercados financieros es sobre la base del vencimiento de los activos
+financieros que se transan en ellos. En este caso se habla del mercado monetario o dinerario y de mercado
+de capitales. En el mercado monetario se comercializan instrumentos con un vencimiento menor que el año.
+En el mercado de capitales se transan los activos financieros con el vencimiento de un año o mayor. En este
+último se operan con instrumentos de deudas, como obligaciones negociables, bonos del tesoro de los
+gobiernos, así como acciones de empresas.
+5. Por el plazo de entrega
+En este caso los mercados se dividen en mercados de efectivo y mercados de derivados.
+En el primero, el de efectivo, la obligación o la probabilidad de ejecutar determinada acción se hace
+en el acto o en un máximo de veinticuatro a cuarenta y ocho horas. Un ejemplo es el mercado de cambio spot
+o mercado de contado.
+Los derivados son instrumentos financieros en los cuales la obligación o la opción de comprar un
+determinado activo se produce en el futuro. La idea de derivado proviene del hecho de que el precio final del
+instrumento o su rendimiento devienen del precio de un activo que está subyacente en la emisión del activo
+financiero.
+Es posible distinguir dos grupos de instrumentos derivados, esto es, los futuros y los forwards por
+una parte, y las opciones por otra.
+Sin perjuicio de tratar más adelante con detalle estos instrumentos, es pertinente a esta altura efectuar
+algunas consideraciones introductorias.
+En el caso de los futuros y los forwards, aparecen dos partes que convienen en transar un activo
+financiero a un precio y en un plazo determinados. Ambas partes tanto la que conviene en comprar el activo
+financiero como la que conviene en venderlo, están obligadas a proceder de esa forma. Por el contrario, en el
+caso de las opciones, se da al comprador del activo financiero la posibilidad y no la obligación de comprar o
+vender un activo específico a un determinado precio, dentro de un período establecido o a una fecha
+concreta.
+La parte que vendió la opción tiene la obligación de entregar el bien específico, si ésa es la decisión
+del propietario de la opción. Las opciones en las cuales el propietario tiene el derecho de adquirir el activo
+subyacente se llaman call option, en tanto que si el derecho era de vender se denominan put option.
+Frecuentemente, se atribuyen a los mercados de derivados tres ventajas con respecto al de efectivo: menor
+costo de las transacciones, mayor rapidez en la que son completadas y mayor liquidez.
+Participantes de los mercados financieros
+Los principales participantes que emiten o compran activos financieros en un mercado financiero
+globalizado son:
+a) familias o individuos;
+b) empresas;
+c) gobiernos nacionales;
+d) entidades o empresas del gobierno;
+e) gobiernos locales, municipales o provinciales;
+6
+
+f) organizaciones financieras multilaterales, como el Banco Mundial, el Banco Interamericano de
+Desarrollo, etcétera.
+En algunas aproximaciones más amplias se incluyen entre los participantes a las entidades
+supervisoras del funcionamiento del mercado.
+Dentro de las empresas, en este capítulo interesan las financieras. Entre las no financieras, están las
+que elaboran productos, como una textil, una pesquera o una fábrica de calzados. Las empresas financieras
+reciben el nombre de instituciones de intermediación financiera o intermediarios financieros. La sección que
+sigue trata de estas últimas empresas.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Diferencia entre activos financieros y tangibles.
+2. Funciones económicas de los recursos financieros.
+3. Mercados primario y secundario.
+4. Participantes de los mercados financieros.
+2,3. INTERMEDIACIÓN FINANCIERA
+En la mayoría de los países, el proceso de intermediación financiera (se definió antes) es mucho más
+importante que el financiamiento directo (obligaciones, acciones).
+Los intermediarios juegan un rol fundamental en los mercados financieros, al reducir por su escala
+de producción los costos de transacciones monetarias, así como resolver o disminuir los problemas creados
+por la selección adversa y el daño moral (moral hazard). El problema de selección adversa se subsume en el
+de información asimétrica. Quien lleva adelante un proyecto tiene habitualmente mayor información que
+quien compra una obligación negociable para financiarlo. La selección adversa es un problema creado por la
+información asimétrica existente antes de que se produzca la transacción, y ocurre en los mercados
+financieros cuando prestatarios potenciales son los más activos buscadores del préstamo y a la vez los más
+probables candidatos a una decisión errónea.
+El daño moral se produce a causa de la información asimétrica después de que se efectúa la
+transacción. Es el riesgo de que una de las partes involucradas (por ejemplo, quien recibió el préstamo)
+desarrolle un comportamiento que no es deseable desde el punto de vista de la otra parte (por ejemplo, quien
+otorgó el préstamo).
+Más adelante se tratarán en diversas oportunidades los conceptos de selección adversa y de daño
+moral, en particular cuando se estudie el tema de la constitución óptima de estructuras financieras.
+La importancia de la presencia de intermediarios financieros, que disminuyen o eliminan los
+problemas de selección adversa o daño moral, se incrementa al aumentar la eficacia de la economía.
+Existe una apreciable variedad de intermediarios financieros. Incluso se advierten diferencias según
+los países. En todo caso, hay un grupo de ellos que son bien conocidos, sobre los cuales se efectuará un
+somero repaso, acorde con los objetivos del texto.
+Los tipos principales de intermediarios financieros son:
+7
+
+TIPOS DE INTERMEDIARIOS FINANCIEROS
+• Instituciones que aceptan depósitos
+− Bancos comerciales
+− Asociaciones de ahorro y préstamo.
+− Bancos de ahorro mutuo.
+− Credit unions.
+− Cooperativas.
+• Instituciones de ahorro contractual
+− Compañías de seguros de vida.
+− Compañías de seguros contra incendio y otras ramas.
+− Fondos de pensiones y AFJP, AFAP, AFP
+• Instituciones intermediarias de inversión
+− Compañías financieras.
+− Fondos mutuos.
+Los bancos comerciales, que son el grupo más importante dentro de los intermediarios financieros,
+obtienen su financiamiento principalmente de depósitos, ya sean a la vista, de ahorro o a plazo fijo, y los
+utilizan para efectuar préstamos comerciales a empresas, al consumo o hipotecarios, así como para invertir
+en papeles públicos.
+En el caso de las asociaciones de ahorro y préstamo, los depósitos obtenidos se destinan a la
+constitución de préstamos hipotecarios. Bastante similares son los bancos de ahorro mutuo; prestan sobre la
+base de hipotecas, y sus depósitos se asemejan a acciones, esto es, tienen el tipo de funcionamiento de una
+cooperativa. Los conocidos como credit unions, que son cooperativas, tienen su base en tomo a grupos de
+sindicatos o empleados de una institución o una empresa. Obtienen sus fondos de depósitos llamados
+comúnmente acciones y los colocan en créditos al consumo.
+Las instituciones que se han ubicado como de ahorro contractual son un tipo de intermediario que
+adquiere fondos en intervalos periódicos sobre una base contractual.
+El problema de la liquidez, que es importante en aquellas instituciones que reciben depósitos, no lo
+es en las que estiman con apreciable precisión los flujos de fondos, que suelen invertir los fondos en
+portafolios de inversiones formadas por bonos gubernamentales, obligaciones negociables, acciones e
+hipotecas.
+PRIMER PLANO
+IMPORTANCIA DE LA INTERMEDIACIÓN
+FINANCIERA Y LOS MERCADOS CAPITALES
+En el financiamiento de las empresas, los patrones de
+comportamiento difieren entre los países. Análisis en países
+industrializados y en otros de menor grado de industrialización
+indican que las empresas obtienen sus fuentes de financiamiento
+mayoritariamente de intermediarios financieros (bancos
+comerciales, por ejemplo); tal es el caso de países como EE.UU.,
+Canadá, Gran Bretaña, Japón, Italia, Alemania, Argentina, Francia,
+Uruguay, por mencionar algunos.
+Así ocurre con los EE.UU., que tienen el mercado de capitales más
+desarrollado; allí los préstamos a empresas provenientes de
+intermediarios financieros duplican aquéllos provenientes del
+mercado de capitales.
+Entre los países industrializados, los casos más agudos son
+Alemania y Japón, donde los préstamos a empresas provenientes
+de intermediarios financieros han sido diez veces mayores que las
+fuentes de fondos provenientes de los mercados de capitales.
+8
+
+Las compañías de seguros de vida aseguran, por ejemplo, a las personas contra dificultades
+financieras que sobrevienen a la familia luego de su muerte y venden anualidades (esto es, pagos anuales
+hasta el retiro). Los fondos provenientes de los premios que la gente paga se invierten en portafolios. Las
+compañías de seguros contra incendio y otras ramas, aseguran, por ejemplo, contra fuego y accidentes. Ellas
+reciben los fondos de los premios, pero tienen otras probabilidades de hacer grandes desembolsos si ocurre
+un siniestro importante. Por ello, sus inversiones son más líquidas que en el caso de los seguros de vida.
+Los fondos de pensiones proveen ingresos cuando una persona se retira de la actividad, en forma de
+anualidades. Los fondos los obtienen de las contribuciones de sus afiliados y los empleadores, y los invierten
+en portafolios de bajo riesgo financiero y baja rentabilidad.
+Pasando al último grupo, esto es, de instituciones intermediarias de inversiones, agrupa las
+compañías financieras que obtienen sus fondos vendiendo papeles comerciales, acciones y obligaciones, y
+prestan los mismos para el consumo, en tanto que los fondos mutuos, como intermediarios financieros,
+obtienen sus fondos vendiendo acciones y los usan en portafolios de inversiones. Estos fondos mutuos
+permiten a ahorristas menores usufructuar los beneficios de la diversificación.
+Los distintos intermediarios financieros cumplen algunas funciones económicas, entre las que
+pueden citarse:
+a) proveen intermediación entre los agentes;
+b) reducen riesgos vía diversificación;
+e) proveen un mecanismo de pagos;
+d) reducen costos de transacción.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Principales tipos de intermediarios financieros.
+2. Cuáles son de ahorro contractual.
+2,4. ACTIVOS O INSTRUMENTOS FINANCIEROS
+Para comprender mejor los mercados financieros es útil repasar, al menos someramente, algunos
+instrumentos financieros. En capítulos posteriores, varios de ellos serán motivo de un tratamiento más
+intenso.
+Los instrumentos del mercado monetario han tenido grandes cambios en las últimas décadas y los
+siguen teniendo. Los principales activos financieros en este caso son:
+• Letras de tesorería de los gobiernos: pueden ser en moneda nacional o extranjera. Son
+instrumentos de deuda a corto plazo.
+• Certificados negociables de bancos: conocidos como C.D., son un instrumento de deuda
+vendido por un banco a sus depositantes, que pagan un interés y, al vencimiento, el capital.
+Son transferibles, con lo cual ha mejorado su liquidez.
+• Papeles comerciales: son instrumentos de deuda emitidos por empresas importantes o,
+eventualmente, bancos.
+• Aceptaciones bancarias: son una promesa de pago similar al cheque, emitida por una firma,
+pagable a una determinada fecha futura y garantizada por un banco, que la acepta a cambio de
+un honorario.
+• Acuerdos de recompra: conocidos como “repos”, son préstamos de muy corto plazo (menos de
+dos semanas) que tienen como colateral o garantía letras de tesorería de los gobiernos, que se
+le entregan al prestamista por si no cumple con sus obligaciones el prestatario.
+• Fondos federales: son préstamos overnight entre los bancos, de los fondos que mantienen en
+los bancos centrales. Una variación de ellos es el call money, también utilizado frecuentemente
+9
+
+para hacer frente a los déficit transitorios de tesorería; los préstamos se efectuarán entre los
+bancos.
+• Eurodólares: son los dólares americanos depositados en bancos extranjeros fuera de los
+Estados Unidos, o en sucursales de bancos de este país. También son muy utilizados frente a
+necesidades de fondos.
+LAS FINANZAS EN LA PRENSA
+TASAS DE INTERÉS PARA PRÉSTAMOS
+Habitualmente la prensa especializada, y muchas veces la que no
+lo es, publica una gran cantidad de datos vinculados a los precios y
+volúmenes de los diferentes productos transados. A manera de
+ejemplo se presenta la tasa de interés para préstamos que se
+publica diariamente por un medio en la República Argentina.
+Fuente: Ámbito Financiero, jueves 17 de abril de 1997, pág. 3, sup.
+Los mercados de capitales, tienen instrumentas de deuda y de fondos propios con vencimiento
+mayor que el año. Entre ellos se pueden citar:
+• Acciones: son derechos contra las ganancias netas y los activos de una sociedad anónima.
+Habitualmente el monto de nuevas emisiones de acciones es pequeño y en muchos países es menos
+del 1 % del total de acciones en circulación.
+• Hipotecas: son préstamos que se efectúan a individuos o firmas con el objeto de comprar casas y
+tierras; sirven como colateral del préstamo al ser un derecho real sobre la misma. En algunos países,
+como es el caso de los Estados Unidos, es el mercado más importante de deudas.
+• Obligaciones y bonos de empresas: se trata de instrumentos a largo plazo; en general, son altamente
+calificados por firmas especializadas. En una visión típica pagan intereses dos veces al año; en
+cuanto a la amortización del capital, hay variaciones, que van desde el pago del valor facial o
+nominal al vencimiento (bullet) hasta otras que tienen pagos anuales, a veces, un período de gracia.
+• Bonos gubernamentales: son los bonos a varios años de plazo, emitidos por los gobiernos nacionales
+y a veces municipales, cuyo objetivo es financiar los déficit.
+• Préstamos de los bancos comerciales a empresas: esta tipología es la menos líquida de los
+instrumentos del mercado de capitales.
+Su tenencia varía con los países, pero en aquéllos industrializados la mitad, aproximadamente, es
+mantenida por individuos, y el resto está en posesión de los fondos de pensión, los fondos mutuos o las
+compañías de seguros.
+10
+
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Instrumentos del mercado monetario.
+2. Instrumentos del mercado de capitales.
+2,5. INTEGRACIÓN DE LOS MERCADOS FINANCIEROS
+Durante mucho tiempo, los mercados financieros nacionales e internacionales tuvieron un notorio
+grado de separación. En tiempos más recientes, por causa del proceso de desregulación, de los avances en
+telecomunicaciones y computación entre otros factores, se observa una situación diferente. Los mercados
+están más integrados, son más interdependientes. El proceso se ha ido denominando globalización, que en
+cuanto a mercados financieros, se entiende como la presencia integradora de un mercado financiero
+internacional.
+De esta forma las necesidades financieras de una unidad económica no están, en términos de su
+satisfacción, limitadas al mercado doméstico donde ella opera, sino que puede acudir, como frecuentemente
+se hace, a los mercados financieros de otros países.
+La forma de organización de los mercados globales no tiene un único patrón de clasificación en
+cuanto a su organización. Una forma habitual de efectuarla es la que se expone seguidamente.
+El gráfico que continúa explicita la clasificación de los mercados financieros en dos grandes grupos:
+a) Mercado nacional, en el que a su vez se pueden distinguir dos grandes vertientes: el mercado
+doméstico y el mercado externo. En el primero de ellos, los emisores de los activos financieros
+están domiciliados en el país, que es donde los activos financieros son transados. Por el
+contrario, en el mercado internacional puede existir un mercado externo, donde se comercian
+activos financieros emitidos por no domiciliados en el país.
+Tal es el caso, por ejemplo, de un país que emite bonos en Japón.
+MERCADOS FINANCIEROS
+NACIONALES
+EUROMERCADOS
+Doméstico Externo
+• Emisor: dentro del país • Emisor: fuera del país • Emisor: fuera del país
+• Inversor: dentro del país • Inversor: dentro del país • Inversor: fuera del país
+En este caso se llaman samurai. Es el mismo tipo de mercado que si emitiera un bono en los
+EE.UU. por un no domiciliado; éste se denomina del mercado yankee. Estos tipos de mercados
+reciben diversos nombres según los países. En Inglaterra es el mercado bulldog; en España,
+matador; en Holanda, rembrandt.
+b) Por su parte, los euromercados son mercados internacionales. Son aquellos en los cuales los
+activos financieros son ofrecidos fuera del país sede del emisor y adquiridos por domiciliados,
+también fuera del país sede del emisor. Es asimismo conocido como mercado off-shore. Una
+institución off-shore, por ejemplo, recibe depósitos desde afuera del país donde está radicada,
+recursos que son invertidos también fuera del país de la institución.
+11
+
+LAS FINANZAS EN LA PRENSA
+BOLSAS EN EL MUNDO
+Los demás medios especializados también se ocupan del devenir financiero en otros países. En este
+caso es un diario chileno, exponiendo la síntesis de cómo evolucionan las bolsas de Buenos Aires, San
+Pablo, Lima, Caracas y México diariamente.
+Fuente: Estrategia (Santiago), 14 de abril de 1997, pág. 61
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+l. Distribución entre mercados financieros nacionales e internacionales.
+2. Razones para el surgimiento de la globalización.
+REFERENCIAS SELECCIONADAS
+Libros excelentes sobre mercados financieros son:
+• RITTER, LAWRENCE y SILBER, WILLIAM, Principles of money, bankruptcy and financial
+markets, 1996.
+• FABOZZI, FRANK J., MODIGLIANI, FRANCO y FERRI MICHAEL G., Foundations of
+Financial Markets and Institutions, Prentice Hall, 1994.
+• DOUGALL, HERBERT, Capital markets and institutions, Prentice Hall, 1994.
+Se pueden encontrar referencias sobre la importancia de los intermediarios financieros y los
+mercados de capitales, no sólo pala el caso uruguayo sino para la comparación internacional, en:
+• PASCALE, RICARDO, Las finanzas de las empresas uruguayas, Banco Central del Uruguay, 1994.
+12

@@ -1,0 +1,719 @@
+{
+  "TO26": {
+    "simbolo": "TO26",
+    "mercado": "BCBA",
+    "codigo_isin": null,
+    "denominacion": "BONOS DEL TESORO NACIONAL EN PESOS A TASA FIJA VENCIMIENTO 17 DE OCTUBRE DE 2026",
+    "emisor": "Gobierno Nacional",
+    "tipo": "Bono",
+    "moneda": "ARS",
+    "fecha_emision": "2016-10-17",
+    "fecha_vencimiento": "2026-10-17",
+    "moneda_emision": "Pesos",
+    "monto_nominal_vigente": "96.569.713.740,00",
+    "monto_residual": "96.569.713.740,00",
+    "denominacion_minima": "1,00",
+    "tipo_garantia": "Comun",
+    "ley": "Nacional",
+    "base_calculo": {
+      "dias_ano": 360,
+      "dias_mes": 30,
+      "meses_ano": 12
+    },
+    "convencion_dias": "30/360",
+    "precio_es_dirty": true,
+    "yield_convention": "ACT/360",
+    "interes": {
+      "cronogramaCupon": [
+        {
+          "tasaAnual": 15.5
+        }
+      ],
+      "frecuenciaCupon": "semiannual",
+      "tasaCuponAnual": 15.5,
+      "fechasPagoRecurrentes": [
+        "17/04",
+        "17/10"
+      ],
+      "texto_original": "Tasa fija del 15,50% anual, los que seran pagaderos por semestre vencido los 17/04 y 17/10 de cada a?o hasta el vencimiento. Los intereses sera calculados sobre la base de un a?o de trescientos sesenta dias, integrado por doce meses de treinta dias.",
+      "texto_truncado": false,
+      "requiere_revision_manual": false
+    },
+    "amortizacion": {
+      "tipoAmortizacion": "bullet",
+      "numCuotas": 1,
+      "porcentajePrimeraCuota": null,
+      "porcentajeCuotasRestantes": null,
+      "fechaPrimeraCuota": "2026-10-17",
+      "fechaUltimaCuota": "2026-10-17",
+      "cronogramaAmortizacion": [
+        {
+          "numero_cuota": 1,
+          "fecha_pago": "2026-10-17",
+          "porcentaje_capital": 100.0
+        }
+      ],
+      "texto_original": "En su totalidad al vencimeinto el 17/10/2026",
+      "texto_truncado": false,
+      "requiere_revision_manual": false,
+      "porcentajeCuota": 100.0
+    },
+    "flujos_futuros": [
+      {
+        "fecha_pago": "2026-10-17",
+        "tasa_anual_vigente": 15.5,
+        "nominal_residual_inicial": 100.0,
+        "cupon_efectivo": 7.75,
+        "amortizacion_pct": 100.0,
+        "amortizacion_monto": 100.0,
+        "flujo_total": 107.75
+      }
+    ],
+    "datos_crudos": {
+      "Vencimiento:": "17/10/2026",
+      "Próximo Vencimiento:": "17/10/2020",
+      "Concepto a pagar:": "R",
+      "Fecha de corte:": "14/10/2020",
+      "VR:": "N/A",
+      "Valor técnico:": "N/A",
+      "Paridad:": "N/A",
+      "TIR:": "N/A",
+      "Duration (Macaulay):": "N/A",
+      "Renta Anual:": "N/A",
+      "Intereses corridos:": "N/A",
+      "Emisor": "Gobierno Nacional",
+      "Denominación": "BONOS DEL TESORO NACIONAL EN PESOS A TASA FIJA VENCIMIENTO 17 DE OCTUBRE DE 2026",
+      "Tipo de Especie": "Titulos Publicos",
+      "Tipo de obligación": "Valores Publicos Nacionales",
+      "Moneda de emisión": "Pesos",
+      "Fecha de Emisión": "17/10/2016",
+      "Fecha Vencimiento": "17/10/2026",
+      "Monto nominal vigente en la moneda original de emisión": "96.569.713.740,00",
+      "Monto residual en la moneda original de emisión": "96.569.713.740,00",
+      "Interés": "Tasa fija del 15,50% anual, los que seran pagaderos por semestre vencido los 17/04 y 17/10 de cada a?o hasta el vencimiento. Los intereses sera calculados sobre la base de un a?o de trescientos sesenta dias, integrado por doce meses de treinta dias.",
+      "Forma de amortización": "En su totalidad al vencimeinto el 17/10/2026",
+      "Denominación mínima": "1,00",
+      "Tipo de garantía": "Comun",
+      "Ley": "Nacional"
+    }
+  },
+  "AE38": {
+    "simbolo": "AE38",
+    "mercado": "BCBA",
+    "codigo_isin": null,
+    "denominacion": "BONOS DE LA REPUBLICA ARGENTINA EN DOLARES ESTADOUNIDENSES STEP UP 2038",
+    "emisor": "Gobierno Nacional",
+    "tipo": "Bono",
+    "moneda": "USD",
+    "fecha_emision": "2020-09-04",
+    "fecha_vencimiento": "2038-01-09",
+    "moneda_emision": "Dolares",
+    "monto_nominal_vigente": "7.210.591.759,00",
+    "monto_residual": "7.210.591.759,00",
+    "denominacion_minima": "1,00",
+    "tipo_garantia": "Comun",
+    "ley": "Nacional",
+    "base_calculo": {
+      "dias_ano": 360,
+      "dias_mes": 30,
+      "meses_ano": 12
+    },
+    "convencion_dias": "30/360",
+    "precio_es_dirty": true,
+    "yield_convention": "30/360",
+    "interes": {
+      "cronogramaCupon": [
+        {
+          "fecha_desde": "2020-09-04",
+          "tasaAnual": 0.125
+        },
+        {
+          "fecha_desde": "2021-07-09",
+          "tasaAnual": 2.0
+        },
+        {
+          "fecha_desde": "2022-07-09",
+          "tasaAnual": 3.875
+        },
+        {
+          "fecha_desde": "2023-07-09",
+          "tasaAnual": 4.25
+        }
+      ],
+      "frecuenciaCupon": "semiannual",
+      "tasaCuponAnual": null,
+      "fechasPagoRecurrentes": null,
+      "texto_original": "Devengaran intereses, sobre la base de un a?o de 360 dias integrado por 12 meses de 30 dias cada uno, de acuerdo con las siguientes tasas anuales: i. Del 4 de septiembre de 2020 (inclusive) al 9 de julio de 2021 (exclusive): 0,125%. ii. Del 9 de julio de 2021 (inclusive) al 9 de julio de 2022 (exclusive): 2,00%. iii. Del 9 de julio de 2022 (inclusive) al 9 de julio de 2023 (exclusive): 3,875%. iv. Del 9 de julio de 2023 (inclusive) al 9 de julio de 2024 (exclusive): 4,25%. v. Del 9 de julio de",
+      "texto_truncado": false,
+      "requiere_revision_manual": false
+    },
+    "amortizacion": {
+      "tipoAmortizacion": "cuotas_iguales",
+      "numCuotas": 22,
+      "porcentajePrimeraCuota": null,
+      "porcentajeCuotasRestantes": null,
+      "fechaPrimeraCuota": "2027-07-09",
+      "fechaUltimaCuota": "2038-01-09",
+      "cronogramaAmortizacion": [
+        {
+          "numero_cuota": 1,
+          "fecha_pago": "2027-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 2,
+          "fecha_pago": "2028-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 3,
+          "fecha_pago": "2028-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 4,
+          "fecha_pago": "2029-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 5,
+          "fecha_pago": "2029-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 6,
+          "fecha_pago": "2030-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 7,
+          "fecha_pago": "2030-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 8,
+          "fecha_pago": "2031-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 9,
+          "fecha_pago": "2031-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 10,
+          "fecha_pago": "2032-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 11,
+          "fecha_pago": "2032-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 12,
+          "fecha_pago": "2033-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 13,
+          "fecha_pago": "2033-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 14,
+          "fecha_pago": "2034-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 15,
+          "fecha_pago": "2034-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 16,
+          "fecha_pago": "2035-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 17,
+          "fecha_pago": "2035-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 18,
+          "fecha_pago": "2036-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 19,
+          "fecha_pago": "2036-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 20,
+          "fecha_pago": "2037-01-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 21,
+          "fecha_pago": "2037-07-09",
+          "porcentaje_capital": 4.5455
+        },
+        {
+          "numero_cuota": 22,
+          "fecha_pago": "2038-01-09",
+          "porcentaje_capital": 4.5455
+        }
+      ],
+      "texto_original": "La amortizacion se efectuara en VEINTIDoS (22) cuotas semestrales iguales el 9 de enero y el 9 de julio de cada a?o, con la primera cuota el 9 de julio de 2027 y la ultima cuota el 9 de enero de 2038. La totalidad de las condiciones definitivas de la presente emision constan en la Resolucion N? 381/2020 del Ministerio de Economia de la Nacion publicada el 18.08.2020 en el Boletin Oficial.",
+      "texto_truncado": false,
+      "requiere_revision_manual": false,
+      "porcentajeCuota": 4.545454545454546
+    },
+    "flujos_futuros": [
+      {
+        "fecha_pago": "2027-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 100.0,
+        "cupon_efectivo": 2.125,
+        "amortizacion_pct": 0.0,
+        "amortizacion_monto": 0.0,
+        "flujo_total": 2.125
+      },
+      {
+        "fecha_pago": "2027-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 100.0,
+        "cupon_efectivo": 2.125,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 4.5455,
+        "flujo_total": 6.6705
+      },
+      {
+        "fecha_pago": "2028-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 95.4545,
+        "cupon_efectivo": 2.028408,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 4.338884,
+        "flujo_total": 6.367292
+      },
+      {
+        "fecha_pago": "2028-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 91.115616,
+        "cupon_efectivo": 1.936207,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 4.14166,
+        "flujo_total": 6.077867
+      },
+      {
+        "fecha_pago": "2029-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 86.973955,
+        "cupon_efectivo": 1.848197,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 3.953401,
+        "flujo_total": 5.801598
+      },
+      {
+        "fecha_pago": "2029-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 83.020554,
+        "cupon_efectivo": 1.764187,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 3.773699,
+        "flujo_total": 5.537886
+      },
+      {
+        "fecha_pago": "2030-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 79.246855,
+        "cupon_efectivo": 1.683996,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 3.602166,
+        "flujo_total": 5.286161
+      },
+      {
+        "fecha_pago": "2030-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 75.644689,
+        "cupon_efectivo": 1.60745,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 3.438429,
+        "flujo_total": 5.045879
+      },
+      {
+        "fecha_pago": "2031-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 72.20626,
+        "cupon_efectivo": 1.534383,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 3.282136,
+        "flujo_total": 4.816519
+      },
+      {
+        "fecha_pago": "2031-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 68.924124,
+        "cupon_efectivo": 1.464638,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 3.132946,
+        "flujo_total": 4.597584
+      },
+      {
+        "fecha_pago": "2032-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 65.791178,
+        "cupon_efectivo": 1.398063,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.990538,
+        "flujo_total": 4.388601
+      },
+      {
+        "fecha_pago": "2032-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 62.80064,
+        "cupon_efectivo": 1.334514,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.854603,
+        "flujo_total": 4.189117
+      },
+      {
+        "fecha_pago": "2033-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 59.946037,
+        "cupon_efectivo": 1.273853,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.724847,
+        "flujo_total": 3.9987
+      },
+      {
+        "fecha_pago": "2033-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 57.22119,
+        "cupon_efectivo": 1.21595,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.600989,
+        "flujo_total": 3.816939
+      },
+      {
+        "fecha_pago": "2034-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 54.620201,
+        "cupon_efectivo": 1.160679,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.482761,
+        "flujo_total": 3.64344
+      },
+      {
+        "fecha_pago": "2034-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 52.13744,
+        "cupon_efectivo": 1.107921,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.369907,
+        "flujo_total": 3.477828
+      },
+      {
+        "fecha_pago": "2035-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 49.767532,
+        "cupon_efectivo": 1.05756,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.262183,
+        "flujo_total": 3.319743
+      },
+      {
+        "fecha_pago": "2035-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 47.505349,
+        "cupon_efectivo": 1.009489,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.159356,
+        "flujo_total": 3.168844
+      },
+      {
+        "fecha_pago": "2036-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 45.345993,
+        "cupon_efectivo": 0.963602,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 2.061202,
+        "flujo_total": 3.024804
+      },
+      {
+        "fecha_pago": "2036-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 43.284791,
+        "cupon_efectivo": 0.919802,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 1.96751,
+        "flujo_total": 2.887312
+      },
+      {
+        "fecha_pago": "2037-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 41.317281,
+        "cupon_efectivo": 0.877992,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 1.878077,
+        "flujo_total": 2.756069
+      },
+      {
+        "fecha_pago": "2037-07-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 39.439204,
+        "cupon_efectivo": 0.838083,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 1.792709,
+        "flujo_total": 2.630792
+      },
+      {
+        "fecha_pago": "2038-01-09",
+        "tasa_anual_vigente": 4.25,
+        "nominal_residual_inicial": 37.646495,
+        "cupon_efectivo": 0.799988,
+        "amortizacion_pct": 4.5455,
+        "amortizacion_monto": 1.711221,
+        "flujo_total": 2.511209
+      }
+    ],
+    "datos_crudos": {
+      "Emisor": "Gobierno Nacional",
+      "Denominación": "BONOS DE LA REPUBLICA ARGENTINA EN DOLARES ESTADOUNIDENSES STEP UP 2038",
+      "Tipo de Especie": "Titulos Publicos",
+      "Tipo de obligación": "Valores Publicos Nacionales",
+      "Moneda de emisión": "Dolares",
+      "Fecha de Emisión": "4/9/2020",
+      "Fecha Vencimiento": "9/1/2038",
+      "Monto nominal vigente en la moneda original de emisión": "7.210.591.759,00",
+      "Monto residual en la moneda original de emisión": "7.210.591.759,00",
+      "Interés": "Devengaran intereses, sobre la base de un a?o de 360 dias integrado por 12 meses de 30 dias cada uno, de acuerdo con las siguientes tasas anuales: i. Del 4 de septiembre de 2020 (inclusive) al 9 de julio de 2021 (exclusive): 0,125%. ii. Del 9 de julio de 2021 (inclusive) al 9 de julio de 2022 (exclusive): 2,00%. iii. Del 9 de julio de 2022 (inclusive) al 9 de julio de 2023 (exclusive): 3,875%. iv. Del 9 de julio de 2023 (inclusive) al 9 de julio de 2024 (exclusive): 4,25%. v. Del 9 de julio de",
+      "Forma de amortización": "La amortizacion se efectuara en VEINTIDoS (22) cuotas semestrales iguales el 9 de enero y el 9 de julio de cada a?o, con la primera cuota el 9 de julio de 2027 y la ultima cuota el 9 de enero de 2038. La totalidad de las condiciones definitivas de la presente emision constan en la Resolucion N? 381/2020 del Ministerio de Economia de la Nacion publicada el 18.08.2020 en el Boletin Oficial.",
+      "Denominación mínima": "1,00",
+      "Tipo de garantía": "Comun",
+      "Ley": "Nacional"
+    }
+  },
+  "AL30": {
+    "simbolo": "AL30",
+    "mercado": "BCBA",
+    "codigo_isin": null,
+    "denominacion": "BONOS DE LA REPUBLICA ARGENTINA EN DOLARES ESTADOUNIDENSES STEP UP 2030",
+    "emisor": "Gobierno Nacional",
+    "tipo": "Bono",
+    "moneda": "USD",
+    "fecha_emision": "2020-09-04",
+    "fecha_vencimiento": "2030-07-09",
+    "moneda_emision": "Dolares",
+    "monto_nominal_vigente": "12.579.430.856,00",
+    "monto_residual": "12.579.430.856,00",
+    "denominacion_minima": "1,00",
+    "tipo_garantia": "Comun",
+    "ley": "Nacional",
+    "base_calculo": {
+      "dias_ano": 360,
+      "dias_mes": 30,
+      "meses_ano": 12
+    },
+    "convencion_dias": "30/360",
+    "precio_es_dirty": true,
+    "yield_convention": "30/360",
+    "interes": {
+      "cronogramaCupon": [
+        {
+          "fecha_desde": "2020-09-04",
+          "tasaAnual": 0.125
+        },
+        {
+          "fecha_desde": "2021-07-09",
+          "tasaAnual": 0.5
+        },
+        {
+          "fecha_desde": "2023-07-09",
+          "tasaAnual": 0.75
+        },
+        {
+          "fecha_desde": "2027-07-09",
+          "tasaAnual": 1.75
+        }
+      ],
+      "frecuenciaCupon": "semiannual",
+      "tasaCuponAnual": null,
+      "fechasPagoRecurrentes": null,
+      "texto_original": "Devengaran intereses, sobre la base de un a?o de 360 dias integrado por 12 meses de 30 dias cada uno, de acuerdo con las siguientes tasas anuales: i. Del 4 de septiembre de 2020 (inclusive) al 9 de julio de 2021 (exclusive): 0,125%. ii. Del 9 de julio de 2021 (inclusive) al 9 de julio de 2023 (exclusive): 0,50%. iii. Del 9 de julio de 2023 (inclusive) al 9 de julio de 2027 (exclusive): 0,75%. iv. Del 9 de julio de 2027 al vencimiento: 1,75%.",
+      "texto_truncado": false,
+      "requiere_revision_manual": false
+    },
+    "amortizacion": {
+      "tipoAmortizacion": "cuotas_progresivas",
+      "numCuotas": 13,
+      "porcentajePrimeraCuota": 4.0,
+      "porcentajeCuotasRestantes": 8.0,
+      "fechaPrimeraCuota": "2024-07-09",
+      "fechaUltimaCuota": "2030-07-09",
+      "cronogramaAmortizacion": [
+        {
+          "numero_cuota": 1,
+          "fecha_pago": "2024-07-09",
+          "porcentaje_capital": 4.0
+        },
+        {
+          "numero_cuota": 2,
+          "fecha_pago": "2025-01-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 3,
+          "fecha_pago": "2025-07-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 4,
+          "fecha_pago": "2026-01-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 5,
+          "fecha_pago": "2026-07-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 6,
+          "fecha_pago": "2027-01-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 7,
+          "fecha_pago": "2027-07-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 8,
+          "fecha_pago": "2028-01-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 9,
+          "fecha_pago": "2028-07-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 10,
+          "fecha_pago": "2029-01-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 11,
+          "fecha_pago": "2029-07-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 12,
+          "fecha_pago": "2030-01-09",
+          "porcentaje_capital": 8.0
+        },
+        {
+          "numero_cuota": 13,
+          "fecha_pago": "2030-07-09",
+          "porcentaje_capital": 8.0
+        }
+      ],
+      "texto_original": "La amortizacion se efectuara en TRECE (13) cuotas semestrales, siendo la primera cuota representativa del 4% del capital, y las restantes doce equivalentes al 8% cada una, pagaderas el 9 de enero y 9 de julio de cada a?o, con la primera cuota el 9 de julio de 2024 y la ultima cuota el 9 de julio de 2030. La totalidad de las condiciones definitivas de la presente emision constan en la Resolucion N? 381/2020 del Ministerio de Economia de la Nacion publicada el 18.08.2020 en el Boletin Oficial.",
+      "texto_truncado": false,
+      "requiere_revision_manual": false
+    },
+    "flujos_futuros": [
+      {
+        "fecha_pago": "2027-01-09",
+        "tasa_anual_vigente": 0.75,
+        "nominal_residual_inicial": 100.0,
+        "cupon_efectivo": 0.375,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 8.0,
+        "flujo_total": 8.375
+      },
+      {
+        "fecha_pago": "2027-07-09",
+        "tasa_anual_vigente": 1.75,
+        "nominal_residual_inicial": 92.0,
+        "cupon_efectivo": 0.805,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 7.36,
+        "flujo_total": 8.165
+      },
+      {
+        "fecha_pago": "2028-01-09",
+        "tasa_anual_vigente": 1.75,
+        "nominal_residual_inicial": 84.64,
+        "cupon_efectivo": 0.7406,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 6.7712,
+        "flujo_total": 7.5118
+      },
+      {
+        "fecha_pago": "2028-07-09",
+        "tasa_anual_vigente": 1.75,
+        "nominal_residual_inicial": 77.8688,
+        "cupon_efectivo": 0.681352,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 6.229504,
+        "flujo_total": 6.910856
+      },
+      {
+        "fecha_pago": "2029-01-09",
+        "tasa_anual_vigente": 1.75,
+        "nominal_residual_inicial": 71.639296,
+        "cupon_efectivo": 0.626844,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 5.731144,
+        "flujo_total": 6.357988
+      },
+      {
+        "fecha_pago": "2029-07-09",
+        "tasa_anual_vigente": 1.75,
+        "nominal_residual_inicial": 65.908152,
+        "cupon_efectivo": 0.576696,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 5.272652,
+        "flujo_total": 5.849349
+      },
+      {
+        "fecha_pago": "2030-01-09",
+        "tasa_anual_vigente": 1.75,
+        "nominal_residual_inicial": 60.6355,
+        "cupon_efectivo": 0.530561,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 4.85084,
+        "flujo_total": 5.381401
+      },
+      {
+        "fecha_pago": "2030-07-09",
+        "tasa_anual_vigente": 1.75,
+        "nominal_residual_inicial": 55.78466,
+        "cupon_efectivo": 0.488116,
+        "amortizacion_pct": 8.0,
+        "amortizacion_monto": 4.462773,
+        "flujo_total": 4.950889
+      }
+    ],
+    "datos_crudos": {
+      "Emisor": "Gobierno Nacional",
+      "Denominación": "BONOS DE LA REPUBLICA ARGENTINA EN DOLARES ESTADOUNIDENSES STEP UP 2030",
+      "Tipo de Especie": "Titulos Publicos",
+      "Tipo de obligación": "Valores Publicos Nacionales",
+      "Moneda de emisión": "Dolares",
+      "Fecha de Emisión": "4/9/2020",
+      "Fecha Vencimiento": "9/7/2030",
+      "Monto nominal vigente en la moneda original de emisión": "12.579.430.856,00",
+      "Monto residual en la moneda original de emisión": "12.579.430.856,00",
+      "Interés": "Devengaran intereses, sobre la base de un a?o de 360 dias integrado por 12 meses de 30 dias cada uno, de acuerdo con las siguientes tasas anuales: i. Del 4 de septiembre de 2020 (inclusive) al 9 de julio de 2021 (exclusive): 0,125%. ii. Del 9 de julio de 2021 (inclusive) al 9 de julio de 2023 (exclusive): 0,50%. iii. Del 9 de julio de 2023 (inclusive) al 9 de julio de 2027 (exclusive): 0,75%. iv. Del 9 de julio de 2027 al vencimiento: 1,75%.",
+      "Forma de amortización": "La amortizacion se efectuara en TRECE (13) cuotas semestrales, siendo la primera cuota representativa del 4% del capital, y las restantes doce equivalentes al 8% cada una, pagaderas el 9 de enero y 9 de julio de cada a?o, con la primera cuota el 9 de julio de 2024 y la ultima cuota el 9 de julio de 2030. La totalidad de las condiciones definitivas de la presente emision constan en la Resolucion N? 381/2020 del Ministerio de Economia de la Nacion publicada el 18.08.2020 en el Boletin Oficial.",
+      "Denominación mínima": "1,00",
+      "Tipo de garantía": "Comun",
+      "Ley": "Nacional"
+    }
+  }
+}

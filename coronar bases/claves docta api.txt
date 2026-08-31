@@ -1,0 +1,2374 @@
+https://replit.com/refer/olivia12102016
+
+
+(CLIENT_ID - completar en variables de entorno)
+
+(CLIENT_SECRET - completar en variables de entorno)
+
+
+
+
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.doctacapital.com.ar/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# API de Bonos
+
+> Documentación de la API de Bonos de Docta: catálogo de bonos, detalle, cashflows y curvas de rendimiento.
+
+## Bienvenido a la API de Bonos de Docta
+
+La API de Bonos de Docta brinda datos especializados de renta fija argentina: catálogo de instrumentos, detalle enriquecido, flujos de fondos, yields intradiarios y curvas históricas. La autenticación sigue el flujo de credenciales de cliente OAuth 2.0.
+
+<Card title="URL Base" icon="globe">
+  [https://api.doctacapital.com.ar](https://api.doctacapital.com.ar)
+</Card>
+
+## Generar credenciales
+
+1. **Generar Credenciales**: Generá tus credenciales en [doctacapital.com.ar](https://www.doctacapital.com.ar) (`client_id` y `client_secret`).
+2. **Obtener Token de Acceso**: Usá tu `client_id` y `client_secret` para obtener un token de acceso. [Ver endpoint](/api-reference/endpoint/auth-token).
+
+## Autenticación
+
+La API utiliza el flujo de credenciales de cliente OAuth 2.0. Necesitas obtener un token de acceso antes de consultar instrumentos, cashflows o curvas.
+
+<Steps>
+  <Step title="Solicitar Token de Acceso">
+    Envía una solicitud POST a `/api/v1/auth/token` con tus credenciales de cliente.
+  </Step>
+
+  <Step title="Usar el Token">
+    Incluye el token de acceso en el header Authorization: `Bearer {access_token}`.
+  </Step>
+
+  <Step title="Expiración del Token">
+    Los tokens expiran. Solicita uno nuevo al vencer para mantener el acceso a los datos de bonos.
+  </Step>
+</Steps>
+
+## Soporte
+
+Para soporte técnico o preguntas sobre la API, por favor contacta a nuestro equipo de soporte.
+
+
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.doctacapital.com.ar/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Obtener Token de Acceso
+
+> Obtener un token de acceso usando credenciales de cliente para la autenticación de la API
+
+<Note>
+  Este endpoint se utiliza para obtener un token de acceso usando credenciales de cliente para la autenticación de la API.
+</Note>
+
+## Cuerpo de la Solicitud
+
+El cuerpo de la solicitud debe contener los siguientes campos requeridos:
+
+<ParamField body="grant_type" type="string" required>
+  El tipo de concesión OAuth 2.0. Debe establecerse en `client_credentials`.
+</ParamField>
+
+<ParamField body="client_id" type="string" required>
+  Tu identificador de cliente proporcionado por Docta.
+</ParamField>
+
+<ParamField body="client_secret" type="string" required>
+  Tu secreto de cliente proporcionado por Docta.
+</ParamField>
+
+## Ejemplo de Solicitud
+
+```bash theme={null}
+curl -X POST https://api.doctacapital.com.ar/api/v1/auth/token/ \
+  -H "Content-Type: application/json" \
+  -d '{
+    "grant_type": "client_credentials",
+    "client_id": "your-client-id",
+    "client_secret": "your-client-secret",
+    "scope": "bonds:read cedears:read stocks:read"
+  }'
+```
+
+## Respuesta Exitosa
+
+<ResponseField name="access_token" type="string">
+  El token de acceso a ser usado para solicitudes posteriores de la API.
+</ResponseField>
+
+<ResponseField name="token_type" type="string">
+  El tipo de token. Será `Bearer`.
+</ResponseField>
+
+<ResponseField name="expires_in" type="integer">
+  El número de segundos hasta que el token expire.
+</ResponseField>
+
+<ResponseField name="scope" type="string">
+  El alcance de acceso otorgado por este token.
+</ResponseField>
+
+<ResponseField name="plan" type="string">
+  El plan asociado al token. Puede ser `basic`, `professional` o `enterprise`.
+</ResponseField>
+
+## Ejemplo de Respuesta Exitosa
+
+```json theme={null}
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcm9kLWJhc3Rpb24tMDAxIiwiY2xpZW50X2lkIjoicHJvZC1iYXN0aW9uLTAwMSIsInNjb3BlcyI6WyJtYXJrZXRfZGF0YTpyZWFkIl0sInBsYW4iOiJlbnRlcnByaXNlIiwidG9rZW5fdHlwZSI6ImJlYXJlciIsImV4cCI6MTc1NzQ1Njg5OSwiaWF0IjoxNzU3NDUzMjk5fQ.zbvaoJLRwXFgW0aYG3DiZQM3p_4BZ3SNWj1mZEtN9wU",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "scope": "bonds:read cedears:read stocks:read",
+    "plan": "enterprise"
+}
+```
+
+## Respuesta de Error
+
+<ResponseField name="type" type="string">
+  El identificador del tipo de error.
+</ResponseField>
+
+<ResponseField name="title" type="string">
+  Una breve descripción del error.
+</ResponseField>
+
+<ResponseField name="status" type="integer">
+  El código de estado HTTP.
+</ResponseField>
+
+<ResponseField name="detail" type="string">
+  Una descripción detallada del error.
+</ResponseField>
+
+<ResponseField name="correlation_id" type="string">
+  Un identificador único para rastrear esta solicitud de error.
+</ResponseField>
+
+## Ejemplo de Respuesta de Error
+
+```json theme={null}
+{
+  "type": "/errors/authentication-required",
+  "title": "Invalid client credentials",
+  "status": 401,
+  "detail": "Invalid client credentials",
+  "correlation_id": "2eb07802-94de-468a-b70f-75a49f3e9516"
+}
+```
+
+
+## OpenAPI
+
+````yaml POST /api/v1/auth/token
+openapi: 3.1.0
+info:
+  title: API de Bonos de Docta
+  description: >-
+    API centrada en bonos de Argentina: instrumentos, detalle, cashflows y
+    curvas/yields.
+  license:
+    name: MIT
+  version: 1.0.0
+servers:
+  - url: https://api.doctacapital.com.ar
+security: []
+paths:
+  /api/v1/auth/token:
+    post:
+      tags:
+        - Autenticación
+      description: >-
+        Obtener un token de acceso usando credenciales de cliente para la
+        autenticación de la API
+      requestBody:
+        description: Credenciales de cliente para autenticación
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+        required: true
+      responses:
+        '200':
+          description: Token de acceso obtenido exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '400':
+          description: Solicitud incorrecta - parámetros inválidos
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Credenciales de cliente inválidas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+      security: []
+components:
+  schemas:
+    AuthRequest:
+      required:
+        - grant_type
+        - client_id
+        - client_secret
+      type: object
+      properties:
+        grant_type:
+          description: >-
+            El tipo de concesión OAuth 2.0. Debe establecerse en
+            client_credentials
+          type: string
+          default: client_credentials
+          enum:
+            - client_credentials
+        client_id:
+          description: Tu identificador de cliente proporcionado por Docta
+          type: string
+        client_secret:
+          description: Tu secreto de cliente proporcionado por Docta
+          type: string
+    AuthResponse:
+      required:
+        - access_token
+        - token_type
+        - expires_in
+        - scope
+      type: object
+      properties:
+        access_token:
+          description: >-
+            El token de acceso a ser usado para solicitudes posteriores de la
+            API
+          type: string
+        token_type:
+          description: El tipo de token. Será Bearer
+          type: string
+          enum:
+            - Bearer
+        expires_in:
+          description: El número de segundos hasta que el token expire
+          type: integer
+        scope:
+          description: El alcance de acceso otorgado por este token
+          type: string
+    Error:
+      required:
+        - type
+        - title
+        - status
+        - detail
+        - correlation_id
+      type: object
+      properties:
+        type:
+          description: El identificador del tipo de error
+          type: string
+          example: /errors/authentication-required
+        title:
+          description: Una breve descripción del error
+          type: string
+          example: Invalid client credentials
+        status:
+          description: El código de estado HTTP
+          type: integer
+          example: 401
+        detail:
+          description: Una descripción detallada del error
+          type: string
+          example: Invalid client credentials
+        correlation_id:
+          description: Un identificador único para rastrear esta solicitud de error
+          type: string
+          format: uuid
+          example: 2eb07802-94de-468a-b70f-75a49f3e9516
+
+````> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.doctacapital.com.ar/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Instrumentos
+
+> Listar instrumentos de bonos
+
+<Note>
+  Lista instrumentos de bonos con soporte de paginación y filtrado opcional por subclase de activo.
+</Note>
+
+## Parámetros de consulta
+
+<ParamField query="sub_asset_class" type="string">
+  Filtra por subclase de activo (ej., "HARD\_DOLLAR").
+</ParamField>
+
+<Info>
+  Valores válidos para <code>sub\_asset\_class</code>:
+
+  * <code>DOLLAR\_LINKED</code>
+  * <code>HARD\_DOLLAR</code>
+  * <code>CER</code>
+  * <code>BOPREAL</code>
+  * <code>FIXED\_RATE</code>
+  * <code>SUB\_SOBERANO</code>
+  * <code>ON</code>
+  * <code>TAMAR</code>
+  * <code>BADLAR</code>
+  * <code>ON\_FIXED\_RATE</code>
+  * <code>ON\_CER</code>
+  * <code>ON\_BADLAR</code>
+  * <code>ON\_TAMAR</code>
+  * <code>ON\_DOLLAR\_LINKED</code>
+  * <code>SUB\_SOBERANO\_FIXED\_RATE</code>
+  * <code>SUB\_SOBERANO\_CER</code>
+  * <code>SUB\_SOBERANO\_BADLAR</code>
+  * <code>SUB\_SOBERANO\_TAMAR</code>
+</Info>
+
+<ParamField query="limit" type="integer">
+  Límite de elementos por página (predeterminado 50).
+</ParamField>
+
+<ParamField query="cursor" type="string">
+  Cursor de paginación para obtener la siguiente página.
+</ParamField>
+
+## Ejemplo de Solicitud
+
+<RequestExample>
+  ```bash cURL theme={null}
+  curl -X GET "https://api.doctacapital.com.ar/api/v1/bonds/instruments?limit=50" \
+    -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+  ```
+</RequestExample>
+
+## Respuesta Exitosa
+
+<ResponseField name="data" type="array">
+  Lista de instrumentos de bonos.
+</ResponseField>
+
+<ResponseField name="data[].ticker" type="string">
+  Ticker del bono (ej., "S30N6").
+</ResponseField>
+
+<ResponseField name="data[].asset_class" type="string">
+  Clase de activo del bono (ej., "BOND").
+</ResponseField>
+
+<ResponseField name="data[].sub_asset_class" type="string">
+  Subclase de activo del bono (ej., "FIXED\_RATE").
+</ResponseField>
+
+<ResponseField name="pagination" type="object">
+  Información de paginación.
+</ResponseField>
+
+<ResponseField name="pagination.limit" type="integer">
+  Límite de elementos por página.
+</ResponseField>
+
+<ResponseField name="pagination.has_next" type="boolean">
+  Indica si hay más páginas disponibles.
+</ResponseField>
+
+<ResponseField name="pagination.next_cursor" type="string | null">
+  Cursor para obtener la siguiente página. Es null si no hay más páginas.
+</ResponseField>
+
+<ResponseField name="pagination.total_items" type="integer">
+  Número total de elementos disponibles.
+</ResponseField>
+
+<ResponseField name="filters" type="object">
+  Filtros aplicados en la solicitud.
+</ResponseField>
+
+<ResponseField name="filters.sub_asset_class" type="string">
+  Subclase de activo utilizada como filtro.
+</ResponseField>
+
+<ResponseField name="metadata" type="object">
+  Metadatos de la respuesta.
+</ResponseField>
+
+<ResponseField name="metadata.total_records" type="integer">
+  Número total de registros disponibles.
+</ResponseField>
+
+## Ejemplo de Respuesta Exitosa
+
+<ResponseExample>
+  ```json Success theme={null}
+  {
+    "data": [
+      {
+        "ticker": "S30N6",
+        "asset_class": "BOND",
+        "sub_asset_class": "FIXED_RATE"
+      },
+      {
+        "ticker": "S16E6",
+        "asset_class": "BOND",
+        "sub_asset_class": "FIXED_RATE"
+      },
+      {
+        "ticker": "S30O6",
+        "asset_class": "BOND",
+        "sub_asset_class": "FIXED_RATE"
+      }
+    ],
+    "pagination": {
+      "limit": 50,
+      "has_next": false,
+      "next_cursor": null,
+      "total_items": 20
+    },
+    "filters": {
+      "sub_asset_class": "FIXED_RATE"
+    },
+    "metadata": {
+      "total_records": 20
+    }
+  }
+  ```
+</ResponseExample>
+
+
+## OpenAPI
+
+````yaml GET /api/v1/bonds/instruments
+openapi: 3.1.0
+info:
+  title: API de Bonos de Docta
+  description: >-
+    API centrada en bonos de Argentina: instrumentos, detalle, cashflows y
+    curvas/yields.
+  license:
+    name: MIT
+  version: 1.0.0
+servers:
+  - url: https://api.doctacapital.com.ar
+security: []
+paths:
+  /api/v1/bonds/instruments:
+    get:
+      tags:
+        - Bonds
+      description: Listar instrumentos de bonos
+      parameters:
+        - name: sub_asset_class
+          in: query
+          required: false
+          schema:
+            type: string
+            enum:
+              - DOLLAR_LINKED
+              - HARD_DOLLAR
+              - CER
+              - BOPREAL
+              - FIXED_RATE
+              - SUB_SOBERANO
+              - 'ON'
+              - TAMAR
+              - BADLAR
+              - ON_FIXED_RATE
+              - ON_CER
+              - ON_BADLAR
+              - ON_TAMAR
+              - ON_DOLLAR_LINKED
+              - SUB_SOBERANO_FIXED_RATE
+              - SUB_SOBERANO_CER
+              - SUB_SOBERANO_BADLAR
+              - SUB_SOBERANO_TAMAR
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 50
+        - name: cursor
+          in: query
+          required: false
+          schema:
+            type: string
+            nullable: true
+      responses:
+        '200':
+          description: Listado de instrumentos de bonos
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InstrumentListResponse'
+        '400':
+          description: Solicitud incorrecta - parámetros inválidos
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: No autorizado - token de acceso inválido o faltante
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                type: /errors/authentication-required
+                title: Authorization header missing
+                status: 401
+                detail: Authorization header missing
+                correlation_id: d6e20e07-0580-4e2d-9480-00a68c1ae493
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                type: /errors/internal-server-error
+                title: Internal server error
+                status: 500
+                detail: Internal server error
+                correlation_id: 6cd1fd05-63e9-4863-832f-d873e58e9d67
+      security:
+        - bearerAuth: []
+components:
+  schemas:
+    InstrumentListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items: b4efd054-c854-4b7c-bf05-73ff5f63bcd3
+        pagination: cd09a708-c229-4bbe-8d4e-c7c06b4077a6
+        filters: da71b3c3-e841-4333-b420-14464910b94c
+        metadata: a2e88438-6c93-4d1c-997b-ac8bd4b64176
+      required:
+        - data
+        - pagination
+        - filters
+        - metadata
+    Error:
+      required:
+        - type
+        - title
+        - status
+        - detail
+        - correlation_id
+      type: object
+      properties:
+        type:
+          description: El identificador del tipo de error
+          type: string
+          example: /errors/authentication-required
+        title:
+          description: Una breve descripción del error
+          type: string
+          example: Invalid client credentials
+        status:
+          description: El código de estado HTTP
+          type: integer
+          example: 401
+        detail:
+          description: Una descripción detallada del error
+          type: string
+          example: Invalid client credentials
+        correlation_id:
+          description: Un identificador único para rastrear esta solicitud de error
+          type: string
+          format: uuid
+          example: 2eb07802-94de-468a-b70f-75a49f3e9516
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+
+````
+
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.doctacapital.com.ar/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Detalle de instrumento
+
+> Obtener detalle de un instrumento de bono
+
+<Note>
+  Devuelve el detalle de un instrumento de bono.
+</Note>
+
+## Parámetros de ruta
+
+<ParamField path="symbol" type="string" required>
+  Símbolo del bono (ej., "AL30").
+</ParamField>
+
+## Ejemplo de Solicitud
+
+<RequestExample>
+  ```bash cURL theme={null}
+  curl -X GET "https://api.doctacapital.com.ar/api/v1/bonds/instruments/AL30/" \
+    -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+  ```
+</RequestExample>
+
+## Respuesta Exitosa
+
+<ResponseField name="data" type="array">
+  Lista con el detalle del instrumento solicitado.
+</ResponseField>
+
+<ResponseField name="data[].ticker" type="string">
+  Ticker del bono (ej., "GD30").
+</ResponseField>
+
+<ResponseField name="data[].name" type="string">
+  Nombre completo del bono.
+</ResponseField>
+
+<ResponseField name="data[].asset_class" type="string">
+  Clase de activo del bono (ej., "BOND").
+</ResponseField>
+
+<ResponseField name="data[].sub_asset_class" type="string">
+  Subclase de activo del bono (ej., "HARD\_DOLLAR").
+</ResponseField>
+
+<ResponseField name="data[].sector" type="string | null">
+  Sector del bono. Puede ser null.
+</ResponseField>
+
+<ResponseField name="data[].issuer" type="string | null">
+  Emisor del bono. Puede ser null.
+</ResponseField>
+
+<ResponseField name="data[].law" type="string | null">
+  Ley aplicable al bono. Puede ser null.
+</ResponseField>
+
+<ResponseField name="metadata" type="object">
+  Metadatos de la respuesta.
+</ResponseField>
+
+## Ejemplo de Respuesta Exitosa
+
+<ResponseExample>
+  ```json Success theme={null}
+  {
+    "data": [
+      {
+        "ticker": "GD30",
+        "name": "Soberano HD 2030 U$S 1.75% (GD30)",
+        "asset_class": "BOND",
+        "sub_asset_class": "HARD_DOLLAR",
+        "sector": null,
+        "issuer": null,
+        "law": null
+      }
+    ],
+    "metadata": {
+      "total_records": 1
+    }
+  }
+  ```
+</ResponseExample>
+
+
+## OpenAPI
+
+````yaml GET /api/v1/bonds/instruments/{symbol}
+openapi: 3.1.0
+info:
+  title: API de Bonos de Docta
+  description: >-
+    API centrada en bonos de Argentina: instrumentos, detalle, cashflows y
+    curvas/yields.
+  license:
+    name: MIT
+  version: 1.0.0
+servers:
+  - url: https://api.doctacapital.com.ar
+security: []
+paths:
+  /api/v1/bonds/instruments/{symbol}:
+    get:
+      tags:
+        - Bonds
+      description: Obtener detalle de un instrumento de bono
+      parameters:
+        - name: symbol
+          in: path
+          required: true
+          schema:
+            type: string
+          example: AL30
+      responses:
+        '200':
+          description: Detalle del instrumento
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InstrumentDetailResponse'
+        '401':
+          description: No autorizado - token de acceso inválido o faltante
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                type: /errors/authentication-required
+                title: Authorization header missing
+                status: 401
+                detail: Authorization header missing
+                correlation_id: d6e20e07-0580-4e2d-9480-00a68c1ae493
+        '404':
+          description: Ticker no encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                type: /errors/not-found
+                title: Resource not found
+                status: 404
+                detail: Ticker not found
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                type: /errors/internal-server-error
+                title: Internal server error
+                status: 500
+                detail: Internal server error
+                correlation_id: 6cd1fd05-63e9-4863-832f-d873e58e9d67
+      security:
+        - bearerAuth: []
+components:
+  schemas:
+    InstrumentDetailResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items: a7b4b009-66bf-4f38-b91e-6d6a64fd6fb0
+        pagination: e018e17a-bc44-4f28-abdd-30f9ce73b6a7
+        filters: 8f825a59-3066-4c81-a6a6-c442057c5fc0
+        metadata: 1c3b2d83-2d68-4454-9473-da64e0d2abe9
+      required:
+        - data
+        - pagination
+        - filters
+        - metadata
+    Error:
+      required:
+        - type
+        - title
+        - status
+        - detail
+        - correlation_id
+      type: object
+      properties:
+        type:
+          description: El identificador del tipo de error
+          type: string
+          example: /errors/authentication-required
+        title:
+          description: Una breve descripción del error
+          type: string
+          example: Invalid client credentials
+        status:
+          description: El código de estado HTTP
+          type: integer
+          example: 401
+        detail:
+          description: Una descripción detallada del error
+          type: string
+          example: Invalid client credentials
+        correlation_id:
+          description: Un identificador único para rastrear esta solicitud de error
+          type: string
+          format: uuid
+          example: 2eb07802-94de-468a-b70f-75a49f3e9516
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+
+````
+
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.doctacapital.com.ar/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Buscar instrumentos
+
+> Buscar instrumentos de bonos
+
+<Note>
+  Busca instrumentos de bonos por texto.
+</Note>
+
+## Parámetros de consulta
+
+<ParamField query="query" type="string" required>
+  Ticker del bono (ej., "AL30").
+</ParamField>
+
+<ParamField query="limit" type="integer">
+  Límite de resultados (predeterminado 10).
+</ParamField>
+
+<ParamField query="cursor" type="string">
+  Cursor de paginación.
+</ParamField>
+
+## Ejemplo de Solicitud
+
+<RequestExample>
+  ```bash cURL theme={null}
+  curl -X GET "https://api.doctacapital.com.ar/api/v1/bonds/instruments/search?query=AL30&limit=10" \
+    -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+  ```
+</RequestExample>
+
+## Respuesta Exitosa
+
+<ResponseField name="data" type="array">
+  Lista de instrumentos encontrados.
+</ResponseField>
+
+<ResponseField name="data[].ticker" type="string">
+  Ticker del bono (ej., "AL30").
+</ResponseField>
+
+<ResponseField name="data[].asset_class" type="string">
+  Clase de activo del bono.
+</ResponseField>
+
+<ResponseField name="data[].sub_asset_class" type="string">
+  Subclase de activo del bono.
+</ResponseField>
+
+<ResponseField name="query" type="string">
+  Consulta de búsqueda utilizada.
+</ResponseField>
+
+<ResponseField name="pagination" type="object">
+  Información de paginación.
+</ResponseField>
+
+<ResponseField name="pagination.next_cursor" type="string | null">
+  Cursor para obtener la siguiente página. Es null si no hay más páginas.
+</ResponseField>
+
+<ResponseField name="pagination.has_next" type="boolean">
+  Indica si hay más páginas disponibles.
+</ResponseField>
+
+<ResponseField name="metadata" type="object">
+  Metadatos de la respuesta.
+</ResponseField>
+
+<ResponseField name="metadata.total_records" type="integer">
+  Número total de registros encontrados.
+</ResponseField>
+
+## Ejemplo de Respuesta Exitosa
+
+<ResponseExample>
+  ```json Success theme={null}
+  {
+    "data": [
+      {
+        "ticker": "AL30",
+        "asset_class": "BONO AL30",
+        "sub_asset_class": "HARD_DOLLAR",
+      }
+    ],
+    "pagination": {
+      "next_cursor": null,
+      "has_next": false
+    },
+    "metadata": {
+      "total_records": 1
+    }
+  }
+  ```
+</ResponseExample>
+
+
+## OpenAPI
+
+````yaml GET /api/v1/bonds/instruments/search
+openapi: 3.1.0
+info:
+  title: API de Bonos de Docta
+  description: >-
+    API centrada en bonos de Argentina: instrumentos, detalle, cashflows y
+    curvas/yields.
+  license:
+    name: MIT
+  version: 1.0.0
+servers:
+  - url: https://api.doctacapital.com.ar
+security: []
+paths:
+  /api/v1/bonds/instruments/search:
+    get:
+      tags:
+        - Bonds
+      description: Buscar instrumentos de bonos
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 10
+        - name: cursor
+          in: query
+          required: false
+          schema:
+            type: string
+            nullable: true
+      responses:
+        '200':
+          description: Resultados de búsqueda
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InstrumentsSearchResponse'
+        '400':
+          description: Solicitud incorrecta - parámetros inválidos
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: No autorizado - token de acceso inválido o faltante
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                type: /errors/authentication-required
+                title: Authorization header missing
+                status: 401
+                detail: Authorization header missing
+                correlation_id: d6e20e07-0580-4e2d-9480-00a68c1ae493
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                type: /errors/internal-server-error
+                title: Internal server error
+                status: 500
+                detail: Internal server error
+                correlation_id: 6cd1fd05-63e9-4863-832f-d873e58e9d67
+      security:
+        - bearerAuth: []
+components:
+  schemas:
+    InstrumentsSearchResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items: b4efd054-c854-4b7c-bf05-73ff5f63bcd3
+        query:
+          type: string
+          description: Consulta de búsqueda utilizada
+        pagination: 457e1e83-2457-4082-8130-41e66239ce6c
+        metadata: 6c63b70e-0fc7-4568-92b5-4800984b8327
+      required:
+        - data
+        - query
+        - pagination
+        - metadata
+    Error:
+      required:
+        - type
+        - title
+        - status
+        - detail
+        - correlation_id
+      type: object
+      properties:
+        type:
+          description: El identificador del tipo de error
+          type: string
+          example: /errors/authentication-required
+        title:
+          description: Una breve descripción del error
+          type: string
+          example: Invalid client credentials
+        status:
+          description: El código de estado HTTP
+          type: integer
+          example: 401
+        detail:
+          description: Una descripción detallada del error
+          type: string
+          example: Invalid client credentials
+        correlation_id:
+          description: Un identificador único para rastrear esta solicitud de error
+          type: string
+          format: uuid
+          example: 2eb07802-94de-468a-b70f-75a49f3e9516
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+
+````
+
+Skip to main content
+
+API reference
+
+Copy page
+Search...
+
+Introducción
+API de Bonos
+Autenticación
+POST
+Obtener Token de Acceso
+Bonos
+GET
+Instrumentos
+GET
+Detalle de instrumento
+GET
+Buscar instrumentos
+GET
+Yields intradiarios
+GET
+Yields históricos
+GET
+Flujo de Caja de Bonos
+GET
+Valor Residual Histórico
+POST
+Calculadora
+Página principal
+Soporte
+
+cURL
+curl -X GET "https://api.doctacapital.com.ar/api/v1/bonds/yields/AL30/intraday" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+
+Success
+{
+  "ticker": "AL30",
+  "data": [
+    {
+      "tir": 0.09887070513854544,
+      "tna": 0.1177734104315629,
+      "tna_30_360": 0.09465437970685375,
+      "tem": 0.007887864975571146,
+      "duration": 2.107751399163522,
+      "dtm": 1663,
+      "margen": null
+    }
+  ],
+  "metadata": {
+    "total_records": 1,
+    "sub_asset_class": "HARD_DOLLAR"
+  }
+}
+Bonos
+Yields intradiarios
+Obtener datos intradiarios de rendimiento de un bono específico
+
+GET
+/
+api
+/
+v1
+/
+bonds
+/
+yields
+/
+{symbol}
+/
+intraday
+
+Try it
+Obtiene los datos yields intradiarios de un bono específico.
+​
+Parámetros
+​
+symbol
+stringrequired
+Ticker del bono (ej., “AL30”).
+​
+Ejemplo de Solicitud
+​
+Respuesta Exitosa
+​
+ticker
+string
+Ticker del bono solicitado (ej., “AL30”).
+​
+data
+array
+Serie de datos intradiarios de rendimiento.
+​
+data[].tir
+number
+Tasa Interna de Retorno (TIR) expresada como decimal.
+​
+data[].tna
+number
+Tasa Nominal Anual (TNA) expresada como decimal.
+​
+data[].tna_30_360
+number
+Tasa Nominal Anual calculada con base 30/360 expresada como decimal.
+​
+data[].tem
+number
+Tasa Efectiva Mensual (TEM) expresada como decimal.
+​
+data[].duration
+number
+Duración del bono en años.
+​
+data[].dtm
+integer
+Días hasta el vencimiento (Days to Maturity).
+​
+data[].margen
+number | null
+Margen del bono. Puede ser null.
+​
+metadata
+object
+Metadatos de la respuesta.
+​
+metadata.total_records
+integer
+Número total de registros intradiarios disponibles.
+​
+metadata.sub_asset_class
+string
+Subclase de activo del bono (ej., “HARD_DOLLAR”).
+​
+Ejemplo de Respuesta Exitosa
+Authorizations
+​
+Authorization
+stringheaderrequired
+Bearer authentication header of the form Bearer <token>, where <token> is your auth token.
+
+Path Parameters
+​
+symbol
+stringrequired
+El símbolo del bono
+
+Response
+
+200
+
+application/json
+Datos intradiarios obtenidos exitosamente
+
+​
+ticker
+stringrequired
+​
+data
+any[]required
+​
+metadata
+anyrequired
+Was this page helpful?
+
+
+Yes
+
+No
+Buscar instrumentos
+Yields históricos
+x
+linkedin
+Powered by
+This documentation is built and hosted on Mintlify, a developer documentation platform
+Skip to main content
+
+API reference
+
+Copy page
+Search...
+
+Introducción
+API de Bonos
+Autenticación
+POST
+Obtener Token de Acceso
+Bonos
+GET
+Instrumentos
+GET
+Detalle de instrumento
+GET
+Buscar instrumentos
+GET
+Yields intradiarios
+GET
+Yields históricos
+GET
+Flujo de Caja de Bonos
+GET
+Valor Residual Histórico
+POST
+Calculadora
+Página principal
+Soporte
+
+cURL
+curl -X GET "https://api.doctacapital.com.ar/api/v1/bonds/yields/AL30/historical?from_date=2025-01-01&to_date=2025-01-02" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+
+Success
+{
+  "ticker": "AL30",
+  "data": [
+    {
+      "date": "2025-01-02",
+      "tir": 0.107148,
+      "tna": 0.136547,
+      "tea": 0.107148,
+      "tem": 0.008518
+    },
+    {
+      "date": "2025-01-03",
+      "tir": 0.106576,
+      "tna": 0.135581,
+      "tea": 0.106576,
+      "tem": 0.008475
+    }
+  ],
+  "from_date": "2025-01-01",
+  "to_date": "2025-02-01",
+  "metadata": {
+    "total_records": 2
+  }
+}
+Bonos
+Yields históricos
+Obtener datos intradiarios históricos de rendimiento de un bono específico
+
+GET
+/
+api
+/
+v1
+/
+bonds
+/
+yields
+/
+{symbol}
+/
+historical
+
+Try it
+Obtiene los datos históricos de rendimiento de un bono específico.
+​
+Parámetros
+​
+symbol
+stringrequired
+Ticker del bono (ej., “AL30”).
+​
+Parámetros de Consulta
+​
+from_date
+stringrequired
+Fecha histórica específica en formato YYYY-MM-DD.
+​
+to_date
+stringrequired
+Fecha histórica específica en formato YYYY-MM-DD.
+​
+Ejemplo de Solicitud
+​
+Respuesta Exitosa
+​
+ticker
+string
+Ticker del bono solicitado (ej., “AL30”).
+​
+data
+array
+Serie histórica de rendimientos para el bono solicitado.
+​
+data[].date
+string
+Fecha del dato en formato YYYY-MM-DD.
+​
+data[].tir
+number
+Tasa Interna de Retorno (TIR) expresada como decimal.
+​
+data[].tna
+number
+Tasa Nominal Anual (TNA) expresada como decimal.
+​
+data[].tea
+number
+Tasa Efectiva Anual (TEA) expresada como decimal.
+​
+data[].tem
+number
+Tasa Efectiva Mensual (TEM) expresada como decimal.
+​
+from_date
+string
+Fecha inicial del rango solicitado (YYYY-MM-DD).
+​
+to_date
+string
+Fecha final del rango solicitado (YYYY-MM-DD).
+​
+metadata
+object
+Metadatos de la respuesta.
+​
+metadata.total_records
+number
+Cantidad total de registros en el período solicitado.
+​
+Ejemplo de Respuesta Exitosa
+​
+Respuestas de Error
+​
+500 Error Interno del Servidor
+Error interno del servidor.
+{
+  "type": "/errors/internal-server-error",
+  "title": "Internal server error",
+  "status": 500,
+  "detail": "Internal server error",
+  "correlation_id": "6cd1fd05-63e9-4863-832f-d873e58e9d67"
+}
+​
+401 No Autorizado
+Token de acceso inválido o faltante.
+{
+  "type": "/errors/authentication-required",
+  "title": "Authorization header missing",
+  "status": 401,
+  "detail": "Authorization header missing",
+  "correlation_id": "d6e20e07-0580-4e2d-9480-00a68c1ae493"
+}
+​
+400 Solicitud Incorrecta
+Parámetro subasset_class inválido.
+{
+  "type": "/errors/http-error",
+  "title": "subasset_class: Value error, Invalid subasset_class 'FIXED_RATES'. Supported values: BOPREAL, CER, DOLLAR_LINKED, FIXED_RATE, HARD_DOLLAR, ON, ON_BADLAR, ON_DOLLAR_LINKED, ON_TAMAR, SUB_SOBERANO, SUB_SOBERANO_BADLAR, SUB_SOBERANO_CER",
+  "status": 400,
+  "detail": "subasset_class: Value error, Invalid subasset_class 'FIXED_RATES'. Supported values: BOPREAL, CER, DOLLAR_LINKED, FIXED_RATE, HARD_DOLLAR, ON, ON_BADLAR, ON_DOLLAR_LINKED, ON_TAMAR, SUB_SOBERANO, SUB_SOBERANO_BADLAR, SUB_SOBERANO_CER"
+}
+​
+400 Fecha Futura
+Fecha histórica no puede ser en el futuro.
+{
+  "type": "/errors/http-error",
+  "title": "date: Value error, Historical date must be in the past",
+  "status": 400,
+  "detail": "date: Value error, Historical date must be in the past"
+}
+​
+404 No Encontrado
+Símbolo/ticker no encontrado o no hay datos disponibles.
+{
+  "type": "/errors/not-found",
+  "title": "Resource not found: /bonds/tir_curve/historical",
+  "status": 404,
+  "detail": "Resource not found: /bonds/tir_curve/historical",
+  "correlation_id": "438caef0-f014-4a80-874c-4d0261ff28a3"
+}
+​
+Notas
+Los datos están disponibles solo para días hábiles (excluyendo fines de semana y feriados)
+Las TIR (Tasas Internas de Retorno) se expresan como decimales (ej., 0.104657 = 10.4657%)
+La disponibilidad de datos históricos puede variar según la clase de subactivo y el rango de fechas
+Los datos incluyen instrumentos específicos con sus respectivos tickers y características financieras
+Authorizations
+​
+Authorization
+stringheaderrequired
+Bearer authentication header of the form Bearer <token>, where <token> is your auth token.
+
+Path Parameters
+​
+symbol
+stringrequired
+El símbolo del bono
+
+Query Parameters
+​
+from_date
+string<date>default:2025-01-10required
+Fecha de inicio del rango (YYYY-MM-DD)
+
+​
+to_date
+string<date>default:2025-10-10required
+Fecha de fin del rango (YYYY-MM-DD)
+
+Response
+
+200
+
+application/json
+Datos de curva de rendimiento históricos obtenidos exitosamente
+
+​
+ticker
+stringrequired
+Símbolo del bono
+
+​
+data
+any[]required
+Serie histórica de rendimientos
+
+​
+from_date
+string<date>required
+Fecha inicio del rango
+
+Example:
+"2025-01-01"
+
+​
+to_date
+string<date>required
+Fecha fin del rango
+
+Example:
+"2025-02-01"
+
+​
+metadata
+anyrequired
+Was this page helpful?
+
+
+Yes
+
+No
+Yields intradiarios
+Flujo de Caja de Bonos
+x
+linkedin
+Powered by
+This documentation is built and hosted on Mintlify, a developer documentation platform
+
+
+Skip to main content
+
+API reference
+
+Copy page
+Search...
+
+Introducción
+API de Bonos
+Autenticación
+POST
+Obtener Token de Acceso
+Bonos
+GET
+Instrumentos
+GET
+Detalle de instrumento
+GET
+Buscar instrumentos
+GET
+Yields intradiarios
+GET
+Yields históricos
+GET
+Flujo de Caja de Bonos
+GET
+Valor Residual Histórico
+POST
+Calculadora
+Página principal
+Soporte
+
+cURL
+curl -X GET "https://api.doctacapital.com.ar/api/v1/bonds/analytics/AL30/cashflow?nominal_units=100" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+
+Success
+{
+  "ticker": "AL30",
+  "data": [
+    {
+      "issue_date": "2020-09-04",
+      "payment_date": "2021-07-09",
+      "capital": 0.0,
+      "interest_rate": 0.13,
+      "interest_amount": 0.1101388888888889,
+      "residual_value": 100.0,
+      "cash_flow": 0.1101388888888889,
+      "adj_interest_amount": 0.1101388888888889,
+      "adj_capital": 0.0
+    },
+    {
+      "issue_date": "2020-09-04",
+      "payment_date": "2025-01-09",
+      "capital": 8.0,
+      "interest_rate": 0.75,
+      "interest_amount": 0.375,
+      "residual_value": 88.0,
+      "cash_flow": 8.36,
+      "adj_interest_amount": 0.36,
+      "adj_capital": 8.0
+    }
+  ],
+  "metadata": {
+    "subasset_class": "HARD_DOLLAR",
+    "nominal_units": 100.0,
+    "total_records": 19
+  }
+}
+Bonos
+Flujo de Caja de Bonos
+Obtener el flujo de caja de un bono específico, incluyendo todos los pagos de capital e intereses
+
+GET
+/
+api
+/
+v1
+/
+bonds
+/
+analytics
+/
+{symbol}
+/
+cashflow
+
+Try it
+Este endpoint obtiene el flujo de caja de un bono específico, incluyendo todos los pagos de capital e intereses.
+​
+Parámetros de Ruta
+​
+symbol
+stringdefault:"AL30"required
+El símbolo del bono (ej., “AL30”, “GD30”).
+​
+Parámetros de Consulta
+​
+nominal_units
+integerdefault:"100"
+Unidades nominales para el cálculo. Esto determina el valor nominal de la posición del bono para la cual calcular el flujo de caja.
+​
+Ejemplo de Solicitud
+​
+Respuesta Exitosa
+​
+ticker
+string
+El símbolo del bono solicitado.
+​
+data
+array
+Serie de eventos de flujo de caja del bono.
+​
+data[].issue_date
+string
+Fecha de emisión del bono (YYYY-MM-DD).
+​
+data[].payment_date
+string
+Fecha de pago (YYYY-MM-DD).
+​
+data[].capital
+number
+Capital pagado en la fecha.
+​
+data[].interest_rate
+number
+Tasa de interés del período (decimal).
+​
+data[].interest_amount
+number
+Interés pagado en la fecha.
+​
+data[].residual_value
+number
+Capital remanente luego del pago.
+​
+data[].cash_flow
+number
+Flujo total (capital + interés) en la fecha.
+​
+data[].adj_interest_amount
+number
+Interés ajustado en la fecha.
+​
+data[].adj_capital
+number
+Capital ajustado en la fecha.
+​
+metadata
+object
+Metadatos de la respuesta.
+​
+metadata.subasset_class
+string
+Sub-clase de activo del bono.
+​
+metadata.nominal_units
+number
+Unidades nominales usadas para el cálculo.
+​
+metadata.total_records
+number
+Cantidad total de registros.
+​
+Ejemplo de Respuesta Exitosa
+​
+Respuestas de Error
+​
+500 Error Interno del Servidor
+Error interno del servidor.
+{
+  "type": "/errors/internal-server-error",
+  "title": "Internal server error",
+  "status": 500,
+  "detail": "Internal server error",
+  "correlation_id": "6cd1fd05-63e9-4863-832f-d873e58e9d67"
+}
+​
+401 No Autorizado
+Token de acceso inválido o faltante.
+{
+  "type": "/errors/authentication-required",
+  "title": "Authorization header missing",
+  "status": 401,
+  "detail": "Authorization header missing",
+  "correlation_id": "d6e20e07-0580-4e2d-9480-00a68c1ae493"
+}
+​
+404 No Encontrado
+Ticker no encontrado.
+{
+  "type": "/errors/not-found",
+  "title": "Resource not found",
+  "status": 404,
+  "detail": "Ticker not found"
+}
+​
+Notas
+Los datos de flujo de caja incluyen todos los pagos hasta el vencimiento del bono
+Los montos se calculan basándose en metadata.nominal_units
+Authorizations
+​
+Authorization
+stringheaderrequired
+Bearer authentication header of the form Bearer <token>, where <token> is your auth token.
+
+Path Parameters
+​
+symbol
+stringrequired
+El símbolo del bono
+
+Query Parameters
+​
+nominal_units
+integer
+Unidades nominales para el cálculo
+
+Required range: x >= 1
+Response
+
+200
+
+application/json
+Bond cashflow data successfully retrieved
+
+​
+ticker
+stringrequired
+Símbolo del bono
+
+​
+data
+any[]required
+Lista de flujos de caja del bono
+
+​
+metadata
+anyrequired
+Was this page helpful?
+
+
+Yes
+
+No
+Yields históricos
+Valor Residual Histórico
+x
+linkedin
+Powered by
+This documentation is built and hosted on Mintlify, a developer documentation platform
+
+
+
+Skip to main content
+
+API reference
+
+Copy page
+Search...
+
+Introducción
+API de Bonos
+Autenticación
+POST
+Obtener Token de Acceso
+Bonos
+GET
+Instrumentos
+GET
+Detalle de instrumento
+GET
+Buscar instrumentos
+GET
+Yields intradiarios
+GET
+Yields históricos
+GET
+Flujo de Caja de Bonos
+GET
+Valor Residual Histórico
+POST
+Calculadora
+Página principal
+Soporte
+
+cURL
+curl -X GET "https://api.doctacapital.com.ar/api/v1/bonds/analytics/AL30/cashflows/residual-value?from_date=2025-01-01&to_date=2025-01-10&settlement_entry=24hs" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+
+Success
+[
+  {
+    "operation_date": "2025-01-02",
+    "settlement_entry": "24hs",
+    "settlement_date": "2025-01-03",
+    "residual_value": 96.0
+  },
+  {
+    "operation_date": "2025-01-03",
+    "settlement_entry": "24hs",
+    "settlement_date": "2025-01-06",
+    "residual_value": 96.0
+  },
+  {
+    "operation_date": "2025-01-06",
+    "settlement_entry": "24hs",
+    "settlement_date": "2025-01-07",
+    "residual_value": 96.0
+  },
+  {
+    "operation_date": "2025-01-07",
+    "settlement_entry": "24hs",
+    "settlement_date": "2025-01-08",
+    "residual_value": 96.0
+  },
+  {
+    "operation_date": "2025-01-08",
+    "settlement_entry": "24hs",
+    "settlement_date": "2025-01-09",
+    "residual_value": 96.0
+  },
+  {
+    "operation_date": "2025-01-09",
+    "settlement_entry": "24hs",
+    "settlement_date": "2025-01-10",
+    "residual_value": 88.0
+  },
+  {
+    "operation_date": "2025-01-10",
+    "settlement_entry": "24hs",
+    "settlement_date": "2025-01-13",
+    "residual_value": 88.0
+  }
+]
+Bonos
+Valor Residual Histórico
+Obtener la serie histórica de valor residual de un bono específico, filtrada por rango de fechas y plazo de liquidación
+
+GET
+/
+api
+/
+v1
+/
+bonds
+/
+analytics
+/
+{symbol}
+/
+cashflows
+/
+residual-value
+
+Try it
+Este endpoint obtiene la serie histórica de valor residual de un bono específico, filtrada por rango de fechas y plazo de liquidación.
+​
+Parámetros de Ruta
+​
+symbol
+stringdefault:"AL30"required
+El símbolo del bono (ej., “AL30”, “GD30”).
+​
+Parámetros de Consulta
+​
+from_date
+stringrequired
+Fecha de inicio del rango en formato YYYY-MM-DD.
+​
+to_date
+stringrequired
+Fecha de fin del rango en formato YYYY-MM-DD.
+​
+settlement_entry
+stringrequired
+Plazo de liquidación. Valores posibles: CI (contado inmediato), 24hs (24 horas), 48hs (48 horas), 72hs (72 horas).
+​
+Ejemplo de Solicitud
+​
+Respuesta Exitosa
+La respuesta es un array de objetos con los valores residuales para cada día hábil del rango solicitado.
+​
+[].operation_date
+string
+Fecha de operación en formato YYYY-MM-DD.
+​
+[].settlement_entry
+string
+Plazo de liquidación utilizado (ej., “24hs”).
+​
+[].settlement_date
+string
+Fecha de liquidación correspondiente en formato YYYY-MM-DD.
+​
+[].residual_value
+number
+Valor residual del bono en la fecha de liquidación.
+​
+Ejemplo de Respuesta Exitosa
+​
+Respuestas de Error
+​
+500 Error Interno del Servidor
+Error interno del servidor.
+{
+  "type": "/errors/internal-server-error",
+  "title": "Internal server error",
+  "status": 500,
+  "detail": "Internal server error",
+  "correlation_id": "6cd1fd05-63e9-4863-832f-d873e58e9d67"
+}
+​
+401 No Autorizado
+Token de acceso inválido o faltante.
+{
+  "type": "/errors/authentication-required",
+  "title": "Authorization header missing",
+  "status": 401,
+  "detail": "Authorization header missing",
+  "correlation_id": "d6e20e07-0580-4e2d-9480-00a68c1ae493"
+}
+​
+404 No Encontrado
+Ticker no encontrado.
+{
+  "type": "/errors/not-found",
+  "title": "Resource not found",
+  "status": 404,
+  "detail": "Ticker not found"
+}
+​
+Notas
+Los datos están disponibles solo para días hábiles (excluyendo fines de semana y feriados)
+El valor residual refleja el capital remanente del bono luego de cada amortización
+La fecha de liquidación (settlement_date) se calcula automáticamente según el plazo de liquidación y el calendario de días hábiles
+Authorizations
+​
+Authorization
+stringheaderrequired
+Bearer authentication header of the form Bearer <token>, where <token> is your auth token.
+
+Path Parameters
+​
+symbol
+stringrequired
+El símbolo del bono
+
+Query Parameters
+​
+from_date
+string<date>required
+Fecha de inicio del rango (YYYY-MM-DD)
+
+​
+to_date
+string<date>required
+Fecha de fin del rango (YYYY-MM-DD)
+
+​
+settlement_entry
+enum<string>required
+Plazo de liquidación: CI (contado inmediato), 24hs, 48hs o 72hs
+
+Available options: CI, 24hs, 48hs, 72hs 
+Response
+
+200
+
+application/json
+Serie de valores residuales obtenida exitosamente
+
+​
+operation_date
+string<date>required
+Fecha de operación
+
+​
+settlement_entry
+stringrequired
+Plazo de liquidación
+
+​
+settlement_date
+string<date>required
+Fecha de liquidación
+
+​
+residual_value
+numberrequired
+Valor residual del bono
+
+Was this page helpful?
+
+
+Yes
+
+No
+Flujo de Caja de Bonos
+Calculadora
+x
+linkedin
+Powered by
+This documentation is built and hosted on Mintlify, a developer documentation platform
+
+
+Skip to main content
+
+API reference
+
+Copy page
+Search...
+
+Introducción
+API de Bonos
+Autenticación
+POST
+Obtener Token de Acceso
+Bonos
+GET
+Instrumentos
+GET
+Detalle de instrumento
+GET
+Buscar instrumentos
+GET
+Yields intradiarios
+GET
+Yields históricos
+GET
+Flujo de Caja de Bonos
+GET
+Valor Residual Histórico
+POST
+Calculadora
+Página principal
+Soporte
+
+cURL
+curl -X POST "https://api.doctacapital.com.ar/api/v1/analytics/bonds/pricer" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "ticker": "AL30D",
+    "target": "price",
+    "value": 65,
+    "settlement_entry": "24hs",
+    "operation_date": "2025-11-19"
+  }'
+
+Success
+{
+  "clean_price": 80.98082191780821,
+  "dirty_price": 65,
+  "residual_value": 80,
+  "tv": 80.21534246575342,
+  "accured_interest": 0.2153424657534247,
+  "days_to_maturity": 1692,
+  "settlment_date": "2025-11-20",
+  "parity_price": 0.810318799396146,
+  "tir": 0.11069396742091445,
+  "tea": 0.11069396742091445,
+  "tem": 0.00878713349566751,
+  "tna": 0.13523337986308834,
+  "tna_30_360": 0.10544560194801011,
+  "duration": 2.1655192047684135,
+  "cer_settlment_date": null,
+  "cer_issue_date": null,
+  "tc_oficial": null,
+  "dolar_mep": null,
+  "margen": null,
+  "badlar_last5": null
+}
+Bonos
+Calculadora
+Calcula TIR, TNA, TEM, TNA_30_360, VT, VR, Precio Dirty, Intereses Corridos, de un bono en función de un precio dirty objetivo, una fecha de concertación y un plazo de liquidación (CI, 24hs, 48hs)
+
+POST
+/
+api
+/
+v1
+/
+analytics
+/
+bonds
+/
+pricer
+
+Try it
+Este endpoint calcula métricas de pricing y análisis de un bono específico basado en parámetros de precio objetivo.
+​
+Cuerpo de la Solicitud
+​
+ticker
+stringrequired
+El símbolo del bono (ej., “AL30”, “GD30”).
+​
+target
+stringrequired
+El objetivo del cálculo. Debe ser "price" para calcular métricas basadas en un precio objetivo.
+​
+value
+numberrequired
+El precio objetivo del bono.
+​
+settlement_entry
+stringrequired
+El tipo de liquidación. Puede ser "24hs" para liquidación en 24 horas, "48hs" para liquidación en 48 horas o "C.I" para contado inmediato.
+​
+operation_date
+stringrequired
+La fecha de operación en formato YYYY-MM-DD (ej., “2025-11-16”).
+​
+Ejemplo de Solicitud
+​
+Respuesta Exitosa
+​
+clean_price
+number
+Precio limpio del bono (sin intereses devengados).
+​
+dirty_price
+number
+Precio sucio del bono (incluyendo intereses devengados).
+​
+residual_value
+number
+Valor residual del bono.
+​
+tv
+number
+Valor técnico del bono.
+​
+accured_interest
+number
+Interés devengado.
+​
+days_to_maturity
+integer
+Días hasta el vencimiento del bono.
+​
+settlment_date
+string
+Fecha de liquidación en formato YYYY-MM-DD.
+​
+parity_price
+number
+Paridad del bono.
+​
+tir
+number
+Tasa Interna de Retorno (TIR) del bono.
+​
+tea
+number
+Tasa Efectiva Anual (TEA) del bono.
+​
+tem
+number
+Tasa Efectiva Mensual (TEM) del bono.
+​
+tna
+number
+Tasa Nominal Anual (TNA) del bono.
+​
+tna_30_360
+number
+Tasa Nominal Anual calculada con base 30/360.
+​
+margen
+number
+Margen del bono.
+​
+duration
+number
+Duración del bono.
+​
+badlar_last5
+number
+Promedio de la tasa BADLAR de los últimos 5 días.
+​
+Ejemplo de Respuesta Exitosa
+​
+Respuestas de Error
+​
+400 Solicitud Incorrecta
+Parámetros inválidos o faltantes en el cuerpo de la solicitud.
+{
+  "type": "/errors/bad-request",
+  "title": "Bad request",
+  "status": 400,
+  "detail": "Invalid request parameters",
+  "correlation_id": "6cd1fd05-63e9-4863-832f-d873e58e9d67"
+}
+​
+401 No Autorizado
+Token de acceso inválido o faltante.
+{
+  "type": "/errors/authentication-required",
+  "title": "Authorization header missing",
+  "status": 401,
+  "detail": "Authorization header missing",
+  "correlation_id": "d6e20e07-0580-4e2d-9480-00a68c1ae493"
+}
+​
+404 No Encontrado
+Ticker no encontrado.
+{
+  "type": "/errors/not-found",
+  "title": "Resource not found",
+  "status": 404,
+  "detail": "Ticker not found"
+}
+​
+500 Error Interno del Servidor
+Error interno del servidor.
+{
+  "type": "/errors/internal-server-error",
+  "title": "Internal server error",
+  "status": 500,
+  "detail": "Internal server error",
+  "correlation_id": "6cd1fd05-63e9-4863-832f-d873e58e9d67"
+}
+​
+Notas
+El campo target debe ser "price" para calcular métricas basadas en un precio objetivo
+El campo value representa el precio objetivo del bono
+La fecha de liquidación se calcula automáticamente basándose en settlement_entry y operation_date
+Todas las tasas están expresadas en formato decimal (ej., 0.573 = 57.3%)
+Authorizations
+​
+Authorization
+stringheaderrequired
+Bearer authentication header of the form Bearer <token>, where <token> is your auth token.
+
+Body
+application/json
+Parámetros para el cálculo de pricing del bono
+
+​
+ticker
+stringrequired
+El símbolo del bono (ej., "AL30", "GD30")
+
+Example:
+"AL30D"
+
+​
+target
+enum<string>required
+El objetivo del cálculo. Debe ser "price" para calcular métricas basadas en un precio objetivo
+
+Available options: price 
+Example:
+"price"
+
+​
+value
+numberrequired
+El precio objetivo del bono
+
+Example:
+65
+
+​
+settlement_entry
+enum<string>required
+El tipo de liquidación. Puede ser "24hs" para liquidación en 24 horas, "48hs" para liquidación en 48 horas o "C.I" para contado inmediato
+
+Available options: C.I, 24hs, 48hs 
+Example:
+"24hs"
+
+​
+operation_date
+string<date>required
+La fecha de operación en formato YYYY-MM-DD
+
+Example:
+"2025-11-19"
+
+Response
+
+200
+
+application/json
+Métricas de pricing calculadas exitosamente
+
+​
+clean_price
+numberrequired
+Precio limpio del bono (sin intereses devengados)
+
+​
+dirty_price
+numberrequired
+Precio sucio del bono (incluyendo intereses devengados)
+
+​
+residual_value
+numberrequired
+Valor residual del bono
+
+​
+tv
+numberrequired
+Valor técnico del bono
+
+​
+accured_interest
+numberrequired
+Interés devengado acumulado
+
+​
+days_to_maturity
+integerrequired
+Días hasta el vencimiento del bono
+
+​
+settlment_date
+string<date>required
+Fecha de liquidación en formato YYYY-MM-DD
+
+​
+parity_price
+numberrequired
+Precio de paridad del bono
+
+​
+tir
+numberrequired
+Tasa Interna de Retorno (TIR) del bono
+
+​
+tea
+numberrequired
+Tasa Efectiva Anual (TEA) del bono
+
+​
+tem
+numberrequired
+Tasa Efectiva Mensual (TEM) del bono
+
+​
+tna
+numberrequired
+Tasa Nominal Anual (TNA) del bono
+
+​
+tna_30_360
+numberrequired
+Tasa Nominal Anual calculada con base 30/360
+
+​
+margen
+numberrequired
+Margen del bono
+
+​
+duration
+numberrequired
+Duración del bono (medida de sensibilidad del precio a cambios en la tasa de interés)
+
+​
+badlar_last5
+numberrequired
+Promedio de la tasa BADLAR de los últimos 5 días
+
+Was this page helpful?
+
+
+Yes
+
+No
+Valor Residual Histórico
+x
+linkedin
+Powered by
+This documentation is built and hosted on Mintlify, a developer documentation platform

@@ -1,0 +1,692 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 26. OPCIONES
+OBJETIVOS DE APRENDIZAJE
+(cid:131) Desarrollar las diferentes alternativas para operar con opciones.
+(cid:131) Analizar los factores que influyen en el valor de una opción.
+(cid:131) Desarrollar algunas de las principales estrategias con opciones.
+(cid:131) Analizar la valuación de opciones a través del modelo de BLACK Y SCHOLES.
+26,1. INTRODUCCIÓN CONCEPTUAL
+Las opciones son contratos que le dan a su tenedor el derecho de comprar (o vender) un activo a un
+precio determinado por un período dado.
+Dentro de la amplia variedad de contratos de opciones, el más usual es el call option, mediante el
+cual se tiene el derecho de comprar un activo a un cierto precio en una determinada fecha. Por el contrario, la
+variedad de put option le da al tenedor el derecho de vender un activo a un cierto precio en una determinada
+fecha.
+Algunos términos que usualmente se utilizan en el tema de opciones son:
+(cid:131) activo subyacente (underlying asset): es el objeto de la opción y puede ser un activo financiero o real;
+(cid:131) precio de ejercicio (exercise o striking price): es el precio al cual una opción, ya sea call o put, puede
+ejercitarse;
+(cid:131) fecha de ejercicio (expiration date): fecha hasta la cual puede ejercerse el derecho de comprar o vender;
+(cid:131) prima: es el precio de la opción;
+(cid:131) opción europea: es aquella en la cual el derecho sólo se ejerce en la fecha de su vencimiento;
+(cid:131) opción americana: es aquella en la que el derecho puede ejercerse en cualquier momento hasta la fecha
+del vencimiento.
+El extraordinario desarrollo que han tenido las opciones ha permitido que la segunda bolsa de
+transacciones en el mundo, después de la New York Stock Exchange, sea la Chicago Board Option
+Exchange.
+Para una primera proposición se supone una opción europea. El valor de una opción call a su fecha
+de ejercicio es:
+⎧V* −E si V* > E ⎫
+⎪ ⎪
+V* = ⎨ S S ⎬
+0
+⎪0 si
+V*
+≤ E ⎪
+⎩ ⎭
+S
+o alternativamente:
+( )
+V * = max V * - E,O [1]
+0 S
+donde:
+V*: es el precio de mercado del activo.
+s
+E : es el precio de ejercicio.
+2
+
+Como se aprecia, toma el máximo valor de (V* - E) o, de lo contrario, cero. Es decir, no hay
+s
+probabilidades de que la opción tenga un valor negativo; lo que posibilita que, cuando el precio de ejercicio
+es mayor que el valor de mercado, el valor de la opción sea cero.
+Este valor es conocido como valor intrínseco o valor de una opción call.
+Si un activo tiene:
+E = 1.200 y V* = 1.400
+s
+el valor de esa opción es:
+$ 1.400 - $ 1.200 = $ 200
+Por el contrario, si:
+Vs* = 900 y E = 1.200
+el valor de la opción no es:
+$ 900 - $ 1.200 = $ -300
+sino cero.
+La fig. 26, 1 muestra el valor de la opción en las ordenadas y el valor del activo en las abscisas.
+Figura 26,1.
+Cuando el valor de] activo es menor que el precio del ejercicio, el valor de la opción, como se dijo,
+es cero; superado el precio del ejercicio, crece a 45°, es decir, junto con el valor del activo, en una relación
+de uno por uno, como geométricamente se puede demostrar.
+Para el caso en una opción put, se tiene, similarmente, como valor intrínseco o de paridad:
+⎧0 si V* ≥ E⎫
+⎪ ⎪
+V* = ⎨ s ⎬
+p
+⎪E -
+V*
+si
+V*
+< E ⎪
+⎩ ⎭
+s s
+3
+
+o alternativamente:
+[ ]
+V*
+= max 0, E -
+V*
+[2]
+p s
+La fig. 26,2 muestra el valor de una opción put.
+Figura 26,2.
+En su valor intrínseco corriente, esto es, en cualquier momento para una call será, al menos, igual a
+max [0, V – E] y en el caso de una put será, al menos, max [0, E - V].
+s s s
+Cuando se ve el precio de] mercado de una opción, éste puede ser, por ejemplo, superior al valor
+intrínseco o de paridad. A la diferencia entre V - max [0, V –E] para una call, o V - max [0, E - V] para
+o s p s
+una put, se suele denominar premio sobre la paridad. El precio de mercado es, pues, la suma del valor de
+paridad y el premio sobre la paridad.
+Existe, en el campo de las opciones, un léxico que se ha ido introduciendo, y que se seguirá
+incrementando a medida que se avance en el tema. Así, en el caso de una opción call, si V = E está en el
+s
+dinero y si V < E, está fuera del dinero. Para el caso de una opción put, las definiciones son a la inversa.
+s
+Ejemplo
+¿Cuál es ahora la ganancia, o la pérdida, de un tenedor de una opción con algunos supuestos
+restrictivos, sin considerar el valor tiempo del dinero ni los costos de transacciones?
+Un ejemplo permite ayudar a ilustrar el punto. Se supone el caso de un inversionista que compra 100
+opciones call europeas a $ 250 cada una de las acciones de la compañía por el precio de ejercicio y a un
+precio corriente de $ 240 con un premio de $ 10. Si a la fecha de ejercicio el precio corriente de la acción es
+menor de 250, seguramente se elegirá no ejercer la opción y la pérdida será 100 × $ 10 $= 1.000.
+4
+
+LAS FINANZAS EN LA PRENSA
+OPCIONES: INFORMACIÓN DE PRENSA
+Los periódicos especializados más importantes publican diariamente opciones de distintos activos.
+Aquí se reproduce parte de esa información, Los datos, en este caso, fueron extraídos de The Wall Street
+Journal.
+Columna 1: Activo.
+Columna 2: Fecha de vencimiento.
+Columna 3: Precio del ejercicio.
+Columna 4: Cuando no especifica, es call y cuando tiene una p, es put
+Columnas 5 y 6: Dónde es transada y qué cantidad.
+Columna 7: Precio del día anterior.
+Columna 8: El cambio neto del día anterior.
+Columna 9: Precio de cierre en moneda de call.
+Columna 10: Número de contratos emitidos.
+Fuente: The Wall Street Journal, 29 de enero de 1998, pág. C-11.
+Si, por el contrario, el precio de la acción es superior a $ 250, por ejemplo, $ 275, se ejercerá la
+opción y si es vendida inmediatamente, ganará $ 15 por acción; esto es, $ 25 de (275 - 250) menos $ 10 de
+inversión inicial. Por tanto la ganancia será 100 × $15 = $ 1.500.
+La fig. 26.3 muestra la evolución de las ganancias.
+5
+
+Figura 26,3.
+Ganancia de un comprador de una opción put europea de la empresa X.
+Puede verse ahora el caso de una opción put a través de un ejemplo.
+Ejemplo
+Un inversionista en una opción put analiza 100 acciones put europeas con un precio de ejercicio de $
+100 y un precio corriente de $ 92. El premio es de $ 10. Así, como en el caso de la opción call el comprador
+de la misma desea que el precio corriente de la acción crezca, el inversionista en una opción put desea que
+baje el precio. Si el precio de acción es de $ 70, el inversionista comprará las 100 acciones a $ 70 y las
+venderá a $ 100, con lo cual hará una ganancia primaria de $ 30 por acción a lo que deben restarse $ 10 del
+premio; por lo tanto, la ganancia será de $ 20 × 100 $= 2.000.
+Este ejemplo se puede graficar del siguiente modo (fig. 26,4):
+Figura 26,4.
+Ganancias de un inversionista de una opción put europea.
+Hasta ahora se han visto los resultados de un inversionista tanto en opciones call como put. Debe
+señalarse que todo contrato de opción tiene dos partes, un inversionista y un emisor. Los resultados del
+emisor son inversos a los del inversionista.
+6
+
+Esto se aprecia en las figs. 26,5 y 26,6.
+Figura 26,5.
+Ganancia de un emisor de una opción call europea,
+Figura 26.6.
+Ganancia de un emisor de una opción put europea.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Definir las opciones put y call.
+2. Indicar cuál es el valor intrínseco de cada una de ellas.
+PRIMER PLANO
+OPCIONES: UN POCO DE HISTORIA
+Las opciones aparecen como el instrumento financiero de más reciente creación. Sin embargo, ya en
+el 1600 existían en Amsterdam opciones sobre una amplia variedad de commodities.
+7
+
+En abril de 1973 comienzan a comercializarse, en la Chicago Board Options Exchange, opciones de
+acciones.
+Las opciones de divisas aparecen en diciembre en 1982 en la Philadelphia Stock Exchange. La
+primera moneda en ser objeto de estos contratos fue, en ese caso, la libra esterlina. A comienzos de 1983 se
+habían incorporado el marco alemán, el yen, el franco suizo y el dólar canadiense.
+Poco tiempo después, aparece la institución que actualmente domina el campo de las opciones, la
+Chicago, Mercantile Exchange (CME), la cual incorpora opciones sobre futuros de monedas (el marco
+alemán en enero de 1984, la libra esterlina y el franco suizo en febrero de 1985, el yen en marzo de 1986 y el
+dólar canadiense en junio de 1986).
+26,2. ALGUNAS ESTRATEGIAS DE MERCADO CON OPCIONES
+Existe una muy amplia variedad de estrategias que se realizan en los mercados con opciones. Sólo se
+verán algunas básicas pero importantes para introducirse en el tema.
+Los resultados provenientes pueden ser de diversa índole; se pueden clasificar las estrategias en: a)
+con posición descubierta; b) con posición cubierta.
+Dentro de las estrategias con posición descubierta aparecen, por ejemplo, las de comprar o emitir
+una opción call así como las de comprar o emitir una opción put.
+Entre las estrategias con posición cubierta se tendrán:
+(cid:131) spread;
+(cid:131) hedge;
+(cid:131) combinada.
+Las estrategias de spread combinan dos o más opciones del mismo tipo, por ejemplo: dos o más put
+o dos o más call.
+Dentro de las estrategias de spread, creadas con opciones europeas que tienen el mismo vencimiento,
+se pueden considerar las siguientes:
+(cid:131) bullish vertical spread;
+(cid:131) bearish vertical spread;
+(cid:131) spread mariposa (butterfly spread).
+La fig. 26,7 ilustra el caso de los resultados de una estrategia bullish vertical spread.
+En ésta se compra una opción call con un precio de ejercicio E , y se vende otra opción call con un
+1
+precio de ejercicio E donde E > E . Como la opción call es de menor precio de ejercicio se requiere una
+2 2 1
+inversión inicial. Esta estrategia se aplica cuando el inversor espera que la cotización suba un poco, o que sea
+más probable que suba a que baje.
+8
+
+Figura 26,7.
+Bullish vertical spread (call)
+La estrategia bearish vertical spread se ilustra en la fig. 26,8. Consiste en la compra de una call con
+precio de ejercicio E y vendiendo una call con precio de ejercicio E , siendo E > E , caso en el cual se
+1 2 2 1
+genera una caja al inicio. Esta se aplica cuando se espera una baja en el mercado o, por lo menos, se cree más
+probable que se produzca una baja que una suba.
+Figura 26,8.
+Bearish vertical spread (call).
+En el caso de la estrategia de spread mariposa, que se ilustra en la fig. 26,9 es habitual una
+combinación de las dos estrategias anteriores, la bullish vertical y la bearish vertical. La spread mariposa
+consiste en comprar dos opciones call con precios de ejercicio E y E , respectivamente, y vender dos call
+1 2
+con un precio intermedio de ejercicio E . Se aplica cuando se espera que la cotización no varíe mucho
+3
+respecto del nivel actual.
+9
+
+Figura 26,9.
+Spread mariposa (call)
+Utilizando opciones put, la evolución graficada de los resultados sería:
+Figura 26,10.
+Bullish vertical spread (put)
+La aplicación de esta estrategia y las de las dos siguientes siguen la misma línea
+argumental de las tres ya vistas.
+10
+
+Figura 26,11.
+Bearish vertival spread (put)
+Figura 26,12.
+Mariposa spread (put).
+En el caso de la cobertura tipo hedge, se combina una opción con un activo subyacente de forma tal
+que el activo protege la opción contra pérdidas y la opción protege el activo contra pérdidas.
+En estos casos se combinan una posición "larga" (que muestra la ganancia neta realizada en una
+fecha futura con el precio del activo en esa fecha) en el activo con una emisión de call o compra de put. La
+inversa también es válida.
+Por razones de simplicidad se expondrá gráficamente la estrategia en la fig. 26,13.
+11
+
+Figura 26,13.
+Hedge (1:1). E = V*
+s
+En la cobertura tipo combinada se utilizan opciones de distinto tipo. Si se utilizan opciones con la
+misma fecha de vencimiento, se pueden hacer muchas estrategias. Las cuatro más conocidas son las
+siguientes:
+(cid:131) bottom;
+(cid:131) straddle;
+(cid:131) top straddle;
+(cid:131) combinación bottom vertical;
+(cid:131) combinación top vertical.
+La bottom straddle consiste en comprar una call y una put con el mismo precio de ejercicio E .
+1
+La top straddle implica la venta al mismo precio de ejercicio E de una opción call y otra put.
+1
+El bottom vertical consiste en la compra de una call y una put con diferentes precios de ejercicio, E
+1
+y E .
+2
+La top vertical consiste en vender una call y una put con distintos precios de ejercicio, E y E .
+1 2
+Estas estrategias se exponen respectivamente en las figs. 26,14; 26,15; 26,16 y 26,17.
+12
+
+Figura 26,14.
+Bottom straddle.
+Se aplica cuando se espera mucha verticalidad en la cotización.
+Figura 26,15.
+Top straddle.
+Se aplica cuando se espera poca volatilidad en la cotización.
+13
+
+Figura 26,16.
+Bottom vertical
+Se aplica cuando se espera mucha volatilidad. De todas formas, es una estrategia más conservadora
+que el bottom straddle ya que si la cotización se ubica entre E y E , la pérdida es menor.
+1 2
+Figura 26,17
+Top vertical.
+Se aplica cuando se espera que la cotización tenga poca volatilidad. Es una estrategia menos riesgosa
+que la top straddle, pero un poco más que la spread mariposa.
+Existen diversas formas de cobertura adicionales a las presentadas, pero se estima que las más
+importantes son las ilustradas.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Explique las estrategias con posición cubierta y con posición descubierta en el mercado de opciones.
+2. Sintetice la conveniencia de aplicar una u otra y en qué casos.
+14
+
+26,1 FACTORES QUE AFECTAN EL VALOR DE LAS OPCIONES
+Hasta ahora se ha analizado el valor de las opciones a su fecha de ejercicio. En estos casos, el valor
+depende del precio de ejercicio y del precio del activo subyacente.
+Sin embargo, se estima de especial interés conocer cuáles son los factores que afectan el valor de una
+opción en cualquier momento antes de su fecha de ejercicio. En este sentido, si bien son varios los que entran
+en consideración, se explicarán los seis más importantes, sin perjuicio de efectuar algunas consideraciones
+sobre otros factores de presencia menos permanente, pero que en determinadas oportunidades llegan a
+influir.
+El desarrollo de su explicación se hará individualmente.
+Los seis principales son los siguientes:
+(cid:131) volatilidad;
+(cid:131) precio corriente del activo;
+(cid:131) precio de ejercicio;
+(cid:131) fecha de ejercicio;
+(cid:131) tasas de interés;
+(cid:131) dividendos en efectivo.
+Se comenzará con la volatilidad, definiéndola como la medida de la dispersión de los futuros
+posibles precios del activo.
+Ejemplo
+Se tienen dos acciones A y B, cuyas funciones de distribución de la retribución de las mismas con
+opciones call, vienen dadas por las siguientes figuras:
+Figura 26,18.
+15
+
+Figura 26,19.
+Se tendrá que la acción B es más volátil que la A, por lo que, potencialmente, tiene más oportunidad
+de tener una mayor o menor retribución.
+Para quien detente una acción en ese panorama, cuanto más volátil es el activo tiene mayores
+probabilidades de tener un alto o un bajo rendimiento. Este es el caso de los tenedores de activos, pero ¿qué
+sucede con quien tiene una opción call? Aquí es diferente, éste tomará los beneficios de los comportamientos
+favorables de] precio de la acción y, si éstos son desfavorables, no ejerce la opción.
+Esto significa que durante el período de duración de la opción call, mayor es su valor relativo al
+activo.
+Cuando se trata de la opción put, el tenedor de una de ellas se beneficia cuando el precio decrece o
+tiene su riesgo limitado cuando crece.
+Por lo tanto, el valor de las put y call crece en la medida en que la volatilidad de los activos también
+lo hace.
+Es conveniente ver un poco más de la volatilidad.
+Los límites dentro de los cuales puede operar el valor de una opción vienen expuestos en la fig.
+26,20.
+Figura 26,20,
+La bisectriz que fija el límite superior se da cuando el valor de la opción toma el valor de la acción,
+pero no puede ir más allá1.
+1 La primera exposición de estos límites se da en SAMUELSON, PAUL, "A rational theory of warrant pricing",
+Industrial Management Review, 1965.
+16
+
+Dado que la opción no puede valer menos que cero, aun en el caso en que el valor de ejercicio sea
+mayor que el valor de la acción, es probable que el valor de la misma esté por encima del valor teórico que
+marca el límite inferior.
+Esto lleva a que sus valores estén por debajo de su valor máximo, pero por encima de su valor
+teórico, tomando la forma A y B en la fig. 26,21.
+Figura 26,21.
+El segundo de los elementos que ha de considerarse es el precio corriente del activo.
+Cuando, por ejemplo, las acciones no tienen el valor en Y , las opciones tampoco. Esto lleva a
+0
+mostrar que el valor de una opción crece en la medida en que el precio de la acción también crece. Ello se
+debe a que aumenta la probabilidad de que la opción sea ejercitada hasta que llega a un punto en que el
+precio de la acción es tan alto que el precio de ejercicio se vuelve casi operando en certidumbre. Es, por lo
+tanto, resaltable que el valor de la opción call crece cuando lo hace el precio del activo.
+Consecuentemente, el valor de una opción put crece cuando el precio del activo en cuestión
+disminuye.
+Los efectos del precio de ejercicio aparecen en forma bastante directa. Las opciones call
+incrementan su valor si el precio de ejercicio decrece.
+Esto se debe a que se espera tener más beneficios si se ejecuta la opción. La misma razón hace que
+las opciones put valgan más en la medida en que el precio de ejercicio crezca.
+En referencia a la fecha de ejercicio, este factor opera en forma similar a la volatilidad. Cuanto
+mayor sea la vida de una opción, mayores serán las probabilidades de que ocurran sucesos inesperados. Por
+lo tanto, cuanto mayor sea el plazo (o más dilatada, la fecha de ejercicio), el valor de las opciones call o put
+tenderá a ser mayor.
+Los efectos sobre el valor de las opciones, en el caso de las tasas de interés, se visualizan al pensar
+que el valor del precio de ejercicio es menor en términos de valor presente, si la tasa de interés es más alta.
+Opera, en este sentido, de la misma forma que si tuviera un menor precio de ejercicio. De allí que si la tasa
+de interés crece, orienta un mayor valor de las opciones call.
+Si se sigue el mismo razonamiento, se llega a la conclusión inversa en caso de tener una opción put.
+Finalmente, el factor dividendos en efectivo también tiene sus efectos, por ejemplo: al ser pagados
+en una fecha adelantada a la de la expiración. Esto hará que e; precio del activo se reduzca, lo que es bueno
+para quien tiene una opción put, y no lo es para el tenedor de una opción call.
+De allí que el valor de las opciones call decrece ante la existencia de dividendos anticipados y el de
+los put crece.
+El siguiente cuadro sintetiza los principales efectos.
+17
+
+EFECTOS DE UN INCREMENTO DE LOS PRINCIPALES FACTORES DETERMINANTES DEL VALOR
+DE UNA OPCIÓN
+Factores determinantes Put Call
+Volatilidad + +
+Precio corriente del activo - +
+Precio de ejercicio + -
+Fecha de ejercicio + +
+Tasa de interés - +
+Dividendos en efectivo + -
+Tratando de dar una suerte de resumen se puede señalar:
+1. El valor de las opciones está acotado por dos rectas paralelas.
+2. La cota superior es la bisectriz (45°), lo que permite interpretar que el valor de una opción no puede ser
+mayor que el valor del activo.
+3. La cota inferior viene establecida por el hecho de que el valor de la opción no puede ser menor que la
+diferencia entre el precio del activo y el precio de ejercicio, o es cero, si este último supera al precio del
+activo.
+4. Si el activo no tiene valor, la opción tampoco lo tiene.
+5. En la medida en que el precio del activo se haga muy grande, el valor de la opción se aproxima al precio
+del activo menos el valor presente del precio de ejercicio.
+6. Si el precio del activo crece, el p recio de la opción call también y decrece el de una opción put.
+7. Si la tasa de interés crece, también la relación es positiva con el precio de la opción call y negativa con
+respecto a la opción put.
+8. Si el precio de ejercicio crece, el precio de la opción call tiende a descender, en tanto el de una opción
+put tiende a crecer.
+9. Si el tiempo de expiración crece el valor de la opción, tanto put como call, también tiende a crecer.
+10. Si la volatilidad del precio del activo es mayor, también lo será el valor de cualquier opción, sea put o
+call.
+Los seis factores mencionados constituyen los básicos en la determinación del valor de cualquier
+opción.
+Existen, sin embargo, otros cuyo conocimiento puede ser de importancia o no, según los casos. Las
+disposiciones fiscales, la tasa esperada de crecimiento del precio del activo, los requerimientos de márgenes,
+la estructura del mercado y los costos de transacción, son algunos de ellos. La influencia que estos factores
+puedan tener es clara, por lo que no se abunda en este tema.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+Cuáles son los factores básicos para la determinación del valor de una opción.
+26,4. LOS APORTES DE BLACK, MERTON Y SCHOLES
+ROBERT C. MERTON y MYRON S. SCHOLES, profesores de finanzas de Harvard y Stanford
+respectivamente, fueron los académicos a los que la Real Academia de Ciencias de Suecia les otorgó el
+Premio Nobel de Economía en 1997 por "haber desarrollado un nuevo método para determinar el valor de
+los derivados". BLACK había fallecido poco antes.
+El hallazgo científico -consistente en un modelo para fijar el valor de una opción- que tuvo rápida
+aceptación académica y amplia utilización práctica ha servido para potenciar y hacer más eficiente la
+distribución de riesgos en los mercados financieros.
+El hallazgo
+18
+
+En 1973, FiSCHER BLACK Y MYRON SCHOLES publican la fórmula de valuación de opciones,
+que hoy se conoce con los nombres de ambos. BLACK falleció en 1995.
+Concomitantemente, MERTON, en 1973, publica su teoría sobre el precio de las opciones y
+generaliza su utilización.
+La fórmula de BLACK Y SCHOLES es para una opción call europea (ésta se ejerce al fin del
+período de vigencia a diferencia de la americana que se puede ejercer en cualquier momento dentro del
+período).
+Utilizando datos conocidos, como el precio de ejercicio de la opción, la tasa de interés, el riesgo del
+activo y el período de ejercicio, transitaron el camino de mantener una posición libre de riesgos a través de
+ajustes, los que continuamente deben efectuarse en un portafolio de cobertura que contenga una opción
+vinculada a un determinado activo. El rendimiento de esta cobertura, para evitar problemas de arbitraje, debe
+ser igual a la tasa libre de riesgo.
+La influencia de MERTON sobre BLACK y SCHOLES, mientras trabajaban en su fórmula, fue
+decisiva. Como expone BLACK (1989): "Mientras trabajábamos tuvimos largas discusiones con MERTON,
+quien hizo varias sugerencias que mejoraron el trabajo. En particular MERTON señaló que si trabajábamos
+con comercialización continua de opciones o acciones, podríamos mantener una relación que sea libre de
+riesgo. En la versión final de nuestro trabajo desarrollamos la fórmula por ese camino".
+Significación científica
+Los desarrollos de BLACK, MERTON y SCHOLES solucionaron un problema que el mundo
+académico mantuvo setenta años sin resolver.
+En el modelo, que toma una gran significación científica para solucionar nurnerosos problemas
+económicos, pueden distinguirse dos áreas: la fijación del precio de los derivados (en particular opciones) y
+la valuación en otras áreas.
+El método desarrollado para valuar opciones de acciones se extendió a la valuación de opciones en
+monedas, de tasas de interés y de futuros,
+En otras áreas, la valuación de opciones permitió resolver viejos problemas. Tal es el caso de los
+proyectos de inversión que tienen un flujo durante un número de años, que puede ser tratado por el método
+del flujo de fondos descontados y en el que luego aparece una opción (ya sea de expandir, de posponer o de
+abandonar). Estos casos no tenían solución hasta que se produjo este hallazgo.
+Lo mismo podría decirse de la valuación de empresas, en particular por sus pasivos. También es muy
+amplio el uso de opciones para contratos de garantías o de seguros.
+26,5. FORMULA PARA LA VALUACIÓN DE UNA OPCIÓN
+El modelo
+Una particularidad de los modelos de valuación de opciones es la imposibilidad de usar las
+habituales técnicas de flujos descontados. Para ello, se deben contar con los flujos, lo que no es fácil si se
+tiene en cuenta que se deben usar probabilidades truncadas por el campo de existencia de los valores. Pero
+menos posible aun es obtener el costo de oportunidad para descontar los flujos, puesto que éste cambia cada
+vez que el precio del activo se mueve.
+Esto, en buena medida, explica por qué se tardó tanto tiempo en obtener rigurosos modelos de
+valuación de opciones; el primer aporte se debe a BLACK y SCHOLES (1973), que más adelante se verá
+con mayor detalle.
+La idea principal
+La formulación de BLACK Y SCHOLES (1973) significó un avance descollante en la investigación
+sobre la teoría de las opciones. Considera un cambio aleatorio del precio del activo. Este se protege con lo
+que llaman "opción equivalente", compuesta por títulos y acciones, y que en mercados eficientes posibilita
+un ajuste continuo de esa protección. Como señalan algunos autores, "el costo de comprar la opción
+equivalente debe igualar el valor de la opción".
+19
+
+Ejemplo
+Se expondrá un caso sencillo que puede ayudar a una mejor comprensión del tema.
+Se supone el precio del ejercicio de una opción a un año en $ 75. La empresa tiene un precio
+corriente de su acción de $ 75 y, por razones de simplicidad, puede tomar durante el año dos valores que son
+150 y 37,5. La tasa de interés se supone en el 25 % anual.
+Se puede idear una cobertura con endeudamiento compuesta por: la compra de tres opciones call a
+un valor C que es el que se va a determinar, la compra de dos acciones a $ 75 cada una y el pedido de un
+préstamo por $ 60 al 25 % anual de tasa de interés.
+La posición de los flujos de fondos corrientes debe ser cero:
+Valor de 3 opciones - valor de 2 acciones + préstamo = 0
+O sea:
+3C - 150 + 60 = 0
+de donde:
+C = 30
+A la fecha de ejercicio, las distintas opciones se consideran igualadas como se ve en el cuadro que
+sigue:
+A la fecha de ejercicio
+V* = 37,5 V* = 150
+Emitir tres call - -225
+Comprar dos acciones 75 300
+Pedir prestado -75 -75
+(incluyendo intereses)
+Total - -
+Con una apropiada posición en acciones y deudas se pueden equiparar los retornos futuros de una
+call.
+Una apreciación de este ejemplo permite visualizar que para determinar el valor exacto de una
+opción, los elementos que se necesitan son: precio corriente del activo, precio de ejercicio, tasa de interés y
+los cambios en el precio del activo.
+Combinaciones como las del tipo que se ha efectuado, manteniendo una acción a largo y dos
+opciones a corto, permiten conservar cubierta la posición.
+De esta forma, si el valor de la acción baja, también las posiciones cortas lo harán en una proporción
+aproximadamente igual. Por lo tanto, la posición a corto tiempo de las opciones debe ser ajustada
+permanentemente ante los cambios en los precios de las acciones y en el tiempo, si se desea mantener una
+posición cubierta y sin riesgo.
+El modelo de BLACK Y SCHOLES es el siguiente:
+Valor presente de una opción de compra:
+( ) ( )
+V = V N d −E. e N d [3]
+0 s 1 2
+Revisar esta ecuación. La ‘e’ tiene una potencia que no se lee bien en el original
+Donde el precio actual es el primer sumando y el préstamo es el segundo, en una inversión
+simplificada correlativa al ejemplo que se ha expuesto.
+V: precio actual de la acción.
+s
+20
+
+E: precio de ejercicio de la opción.
+t: tiempo de la fecha del ejercicio en años.
+e: 2,71828.
+N(d): función probabilística de densidad normal acumulativa.
+( )
+1 ( V /E ) + r+1/2 σ 2 . t
+d : n s
+1
+σ t
+d d − σ2 .t
+2:
+1
+σ2: varianza por período de la tasa de retorno de una acción compuesta continuamente.
+1 : logaritmo natural.
+n
+r: tasa libre de riesgo (continua compuesta).
+Es de utilidad efectuar algunas consideraciones sobre el modelo de BLACK y SCHOLES.
+En primer lugar, el trabajo se asienta en varios supuestos, que es preciso tener claros a la hora de su
+interpretación:
+1. Es para opciones call europeas.
+2. No existen imperfecciones en suscribir una opción o vender una acción.
+3. No hay costos de transacciones.
+4. Las opciones y las acciones son infinitamente divisibles, y es posible obtener la información sin costos.
+5. Las acciones no pagan dividendos.
+6. El precio de las acciones se mueve en forma aleatoria. La varianza de los retornos es constante a través
+de la vida de la opción y es conocida por los participantes.
+7. La tasa de interés a corto plazo es conocida y es constante durante la vida de la opción. Se puede pedir
+prestado o prestar a la misma tasa.
+Posteriormente, ciertos continuadores fueron levantando algunos supuestos del modelo original y
+ampliándolo.
+En segundo lugar, es útil señalar algunas de las principales implicaciones del modelo. El resultado no
+es función del retorno de las acciones, pero sí lo es del tiempo de expiración de la opción, de la varianza de
+los retornos de la acción y de la tasa de interés de corto plazo. El valor de la opción crece cuando t, r y σ2
+f
+también crecen.
+Por último, se quiere señalar que BLACK Y SCHOLES se inclinan por utilizar una distribución
+logarítmica normal. En buena medida, ello se debe a la sencillez del manejo que presenta; se trata, en
+definitiva, de una transformación de la distribución normal. Por otra parte, es asimétrica hacia los valores
+menores. Se debe recordar que se trata de una distribución en la cual todos sus valores son positivos.
+El modelo de BLACK Y SCHOLEs ha sido un aporte relevante y aún lo es. Asimismo, ha sido
+fuente de nuevas investigaciones y avances, en particular, buscando levantar algunos supuestos que pueden
+aparecer como restrictivos.
+Así, por ejemplo, LELAND (1985), y GILSTER y LEE (1986) han señalado que cuando existen
+costos de transacción las revisiones implícitas en el modelo de BLACK Y SCHOLES se limitan y, por lo
+tanto, la cartera no es siempre la réplica exacta de las características de la opción.
+Pueden agregarse a estas restricciones los problemas derivados de trabajar en condiciones de tipo
+discreto en vez de continuo.
+El modelo de LELAND y el de GILSTER y LEE abordan el caso de costos de transacciones de
+magnitud, así como el grado de variabilidad de los costos de transacción, tomando en consideración, además,
+los intervalos internamente definidos.
+En cuanto a los costos de transacción, se han tomado, a veces, como una mayor volatilidad del precio
+del título en el período de la opción, puesto que, en definitiva, aumentan el precio neto de compra y
+disminuyen el precio neto de venta.
+Con la incorporación de los modelos de tiempo discreto, se reconocen, de modo más preciso, las
+condiciones de las transacciones. Se pasa de una situación de arbitraje a otra de equilibrio. Los modelos de
+tiempo discreto, al agregar nuevas restricciones, hacen más estrechos los límites de las transacciones.
+El modelo original de BLACK y SCHOLES ha sufrido también ampliaciones en cuanto al proceso
+aleatorio que considera en referencia al precio de los activos. Se ha entendido que un comportamiento
+21
+
+completamente al azar puede asociarse a una mayor simplicidad en el manejo de alejamientos del
+comportamiento que en realidad puede tener la variable considerada y, por lo tanto, puede inducir a errores.
+De esta forma, algunos modelos como el de Cox y Ross (1976) y el de RUBINSTEIN (1983)
+agregan a la distribución original el comportamiento discreto de algunas variables.
+Otros modelos, como el de JARROW y RUDD (1982), introducen factores de ajuste a la distribución
+conocida de BLACK Y SCHOLES, en la varianza, la asimetría y la curtosis.
+Significación práctica
+El modelo de valuar una opción aparece un mes después de que se comienzan a comercializar las
+opciones de acciones en la Chicago Board Options Exchange (abril de 1973).
+Un tiempo después, muchos agentes ya lo habían incorporado a los programas de sus computadoras.
+Actualmente, el modelo de B-M-S es usado comúnmente en las operaciones de opciones, contribuyendo así a
+otorgar una mayor eficiencia al mercado de administración de] riesgo. La aplicación práctica sigue
+expandiéndose cada día. Uno de esos campos es la constitución de portafolios de los fondos de pensiones y
+de inversión donde se usan las opciones put para disminuir el riesgo de importantes declinaciones en los
+precios de las acciones.
+PUNTOS QUE DEBEN SER COMPRFNDIDOS ANTES DE SEGUIR ADELANTE
+1. Definir el modelo de BLACK y SCHOLES.
+2. Discutir algunos de sus supuestos y extensiones.
+3. Significación práctica del mismo.
+26,6, RELACIONES ENTRE EL MODELO DE OPCIONES (MPO) Y EL CAPM
+El CAPM y el modelo de opciones so n plenamente complementarios. El hecho de que si una opción
+tiene más volatilidad, es decir, si la varianza del precio del activo crece, la opción valga más, es probable que
+pueda suscitar, en un comienzo, cierta confusión, Esto puede hacer suponer que los inversionistas prefieren
+más riesgo.
+Esta posible confusión se aclara de la siguiente forma:
+a) lo que reporta el CAPM, es el precio del activo subyacente en la operación de opción;
+b) lo que reporta el MPO, es el precio de la opción que es un derecho contingente sobre el activo
+subyacente.
+Se ha demostrado que el beta de una opción es como sigue:
+P
+β = N ( d ) aβ
+c 1 C a
+donde:
+N(d ): fue definido anteriormente;
+1
+β es el beta del activo;
+a
+P es el precio del mercado del activo;
+a
+C es el precio de la opción call.
+Ello pone de relieve que mientras que el β de un activo es, comúnmente, bastante estable, el beta de
+una opción es muy cambiante.
+De esta misma forma, podría desarrollarse el retorno de equilibrio de una opción call E(r ) utilizando
+c
+el CAPM:
+22
+
+E(r ) = r + [E (r ) - r] β
+c f m f c.
+El tema del riesgo de una opción es particularmente interesante. Conforme a las fórmulas vistas, se
+puede concluir que el riesgo de una opción es menor, si la tasa libre de riesgo a la varianza, el precio del
+activo o el período de ejercicio se incrementan y, por el contrario, es más riesgoso cuando el precio de
+ejercicio aumenta.
+Las dificultades que existen en entender las vinculaciones entre el CAPM y el MPO pueden
+disminuirse, si se observa una evolución logarítmica normal de los valores de un activo.
+Figura 26,22.
+La figura muestra la citada distribución. El CAPM utiliza toda la distribución para determinar el
+precio de equilibrio de un activo. Por otra parte, lo que utiliza el MPO es la parte sombreada de la
+distribución, es decir, cuando el precio del activo es mayor que el precio de ejercicio.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. ¿Cuál es la relación entre el modelo de opciones y el CAPM?
+26,7. COMPARACIÓN DE ALGUNOS ASPECTOS DE LOS FORWARDS, DE LOS
+FUTUROS Y DE LAS OPCIONES
+En los caps. 24, 25 y 26 se han visto tres tipos de instrumentos vinculados a las finanzas
+internacionales, ellos son: forwards, futuros y opciones. Se ha creído de utilidad efectuar una comparación
+de algunos de los principales aspectos de estos instrumentos.
+Como es obvio, algunas de estas características varían de un país a otro porque tienen organizaciones
+para este tipo de instrumentos. En el cuadro que continúa se exponen algunas de las principales
+características de cada uno de los mercados: tipo de contrato, duraciones máximas, mercado secundario,
+márgenes, principales usuarios y garantías.
+Forwards Futuros Opciones
+Tipo de contrato Hecho para cada caso Estandarizado Estandarizado
+Comprador tiene
+discrecionalidad
+Discreción de actuar Ninguna Ninguna Vendedor debe cumplir si
+el comprador ejerce la
+opción
+23
+
+Varía en los países: Varía en los países:
+Monto del contrato Cualquier valor Brasil: U$$ 5.000 Inglaterra: £ 31.250:
+Inglaterra: £ 62.500 Canadá: $Can. 50.000
+Cualquiera, que se
+Día de vencimiento Prefijado Prefijado
+convenga
+Mercado secundario No tiene Existe Existe
+Depende de los países No hay margen para el
+Margen Es una línea de crédito
+Brasil: 5 % del contrato comprador
+Corporaciones de clearing
+Garante Ninguno Sí para el vendedor
+de opciones
+Primariamente
+Principales usuarios Primariamente hedgers Hedgers y especuladores
+especuladores
+24
+
+REFERENCIAS SELECCIONADAS
+Los trabajos pioneros sobre el tema son:
+MERTON, ROBERT C., "Theory of rational option pricing", Bell Journal of Economics and Management,
+Science, 1973.
+BLACK, F. y SCHOLES, M., "The pricing of options and corporate liabilities", Journal of Political
+Economy, vol. 81, 1973.
+Otros trabajos de interés sobre el tema son:
+COX, JOHN y ROLL, STEPHEN, "The valuation of options for alternative stochastic processes", Journal
+of Financial Economics, 1976.
+GILSTER, JOHN y LEE, WILLIAM, "The effects of transactions costs and different borrowing and
+lending rates on the option pricing model: a note", Journal of Finance, 1984.
+JARROW, ROBERT y RUDID, ANDREW, "Approximate option valuation for arbitricing stochastic
+processes", Journal of Financial Economics, 1982.
+FORNERO, RICARDO A., "Una nota sobre futuros y opciones", Cuaderno de Finanzas 5, SADAF, 1989.
+LELAND, HAYNE, "Option pricing and replications with transaction costs", Journal of Finance, 1985.
+RUBINSTEIN, MARK, "Displayed diffusion option pricing", Journal of Finance, 1983.
+25

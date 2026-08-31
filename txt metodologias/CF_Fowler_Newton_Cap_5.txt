@@ -1,0 +1,2444 @@
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+CAPÍTULO 5
+RECONOCIMIENTO Y BAJA CONTABLE
+5,1. INTRODUCCIÓN
+En este capítulo nos referiremos, en forma general, a las situaciones que
+justifican el reconocimiento (la contabilización) y la baja (la remoción de la
+contabilidad) de los elementos de los estados financieros enunciados en el
+capítulo 3 (activos, pasivos, etcétera).
+Las cuestiones de aplicación a casos particulares de los conceptos
+incluidos en este capítulo se tratan en Contabilidad Superior, sexta
+edición, La Ley, 2010, donde también nos referimos a su tratamien-
+to en las NIIE la “NUF para las PYMES” las NC desarrolladas por la
+FACPCE y los US GAAP.
+5,2. RECONOCIMIENTO CONTABLE
+A) REGLA GENERAL
+Para que la información contable sea fiable y cumpla con los requisitos
+de pertinencia, representatividad, integridad y verificabilidad a los que nos
+referimos en el capítulo 2, deben reconocerse los elementos (activos, pasivos,
+etcétera) que, de acuerdo con la realidad económica (y no sólo con las for-
+mas jurídicas de las transacciones):
+a) tengan aptitud para afectar los futuros pagos que los inversores y
+acreedores recibirán por sus créditos o participaciones o por la co-
+branza o venta de ellos;
+b) sean susceptibles de medición fiable.
+Si las definiciones de los objetos de medición contable son adecuadas,
+los elementos que deben reconocerse son los que las cumplan, siempre que
+sean susceptibles de medición fiable, susceptible de verificación por terce-
+ros.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+188 ENRIQUE FOWLER NEWTON
+La aplicación de la regla precedente puede obviarse mientras esto no ten-
+ga efectos significativos sobre la información contable.
+Los gastos pagados utilizando un fondo fijo pequeño raramente son
+significativos, por lo que su reconocimiento puede diferirse hasta el
+momento en que el fondo se reconstituya mediante la emisión de
+un cheque.
+El hecho de que un elemento no se reconozca contablemente por la im-
+posibilidad de asignarle una medida contable fiable debería ser informado
+en los estados financieros, pero esto no es habitual.
+Sería raro encontrar una nota a los estados financieros que infor-
+me:
+La dirección de la empresa considera que ésta
+ha desarrollado ciertas ventajas competitivas
+debido a (...). Dadas las dificultades que impli-
+caría la medición contable de esta “plusvalía”,
+en estos estados financieros no se la reconoce
+como un activo.
+B) ACTIVOS Y PASIVOS
+Por lo recién expuesto, deben reconocerse contablemente los activos y
+pasivos:
+a) que satisfagan las definiciones previstas para esos conceptos en las
+NC del caso o, en su defecto, en el correspondiente MC; y
+b) cuya medición fiable sea posible.
+Nos referimos a la caracterización de los conceptos de activo y pasi-
+vo en las secciones 3,3 y 3,4, respectivamente.
+c) OTROS OBJETOS
+Como vimos en el capítulo 3, entre los objetos susceptibles de reconoci-
+miento y medición contable existe una relación que (sin considerar el ORI y
+el ORIA) podemos esquematizar así:
+a) con la perspectiva de la entidad:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 189
+Activo Pasivo
++ Gastos + Aportes
++ Pérdidas = + Resultados anteriores
++ Impuestos sobre las ga-
++ Ingresos
+nancias del período
++ Ganancias
+b) con el enfoque del propietario:
+Pasivo
+Activo
++ PNC en los patrimonios de
++ Gastos controladas
++ Pérdidas + Aportes
+=
++ Impuestos sobre las ga-
++ Resultados anteriores
+nancias del período
++ PNC en los resultados de + Ingresos
+controladas
++ Ganancias
+Por otra parte, ya vimos que:
+a) los ingresos, las ganancias, los ahorros futuros en el impuesto sobre
+las ganancias y los aportes de los propietarios motivan aumentos de
+activos o disminuciones de pasivos;
+b) los gastos, las pérdidas, el impuesto sobre las ganancias del período y
+los retiros de resultados efectuados por los propietarios están acom-
+pañados por disminuciones de activos o aumentos de pasivos.
+En consecuencia, el reconocimiento de un activo o de un pasivo puede
+implicar el de elementos de los recién citados. Por ello, los estudios que se
+efectúan sobre las circunstancias bajo las cuales deben reconocerse ingresos
+pueden verse también como estudios sobre el reconocimiento de activos.
+Nos referimos al reconocimiento de los ingresos producidos por las
+actividades principales en las páginas 699-729 de Contabilidad Su-
+perior, sexta edición, La Ley, 2010.
+El reconocimiento de resultados anteriores no requiere de reglas espe-
+ciales, pues se trata de una simple reclasifícación contable (motivada por el
+comienzo de un nuevo ejercicio económico) de ingresos, gastos, ganancias,
+pérdidas e impuestos sobre las ganancias (o futuros ahorros de éstos) que
+fueron reconocidos en ejercicios anteriores.
+Los resultados diferidos en ORI deberían reconocerse en el mismo mo-
+mento en que se lo haría si se los imputase al resultado del período. El ORIA
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+190 ENRIQUE FOWLER NEWTON
+es una acumulación de resultados diferidos, por lo que no es necesario fijar
+reglas especiales para su reconocimiento (es un caso similar al de los resul-
+tados acumulados).
+Cuando los estados financieros se presentan consolidados y se aplica el
+enfoque del propietario, se reconocen:
+a) PNC en el patrimonio de una controlada cuando:
+1) se adquiere un negocio pero no la totalidad de los correspondien-
+tes instrumentos de patrimonio; o
+2) sin perder el control, se vende una parte de los instrumentos de
+patrimonio de una controlada;
+b) PNC en el resultado de una controlada cuando:
+1) existe una PNC en su patrimonio; y
+2) la controlada reconoce resultados.
+D) CAMBIOS EN LA REPRESENTACIÓN FORMAL
+DEL PATRIMONIO
+Estos cambios no implican la aparición de activos o pasivos, por lo que
+no resultan de aplicación los conceptos anteriores. A nuestro juicio, deberían
+reconocerse del siguiente modo:
+a) los cambios requeridos por una ley o por un contrato, cuando se pro-
+ducen los hechos que los ocasionan;
+b) los restantes, cuando los propietarios toman las correspondientes de-
+cisiones y éstas se ajustan a los requisitos legales del caso.
+La reservación de una parte de la ganancia obtenida en un período
+por una sociedad anónima debería reconocerse:
+a) si lo requiere una ley o el estatuto de la sociedad, en ese mismo
+período;
+b) cuando es voluntaria, en la fecha de la reunión de accionistas
+que lo disponga, siempre que se hayan cumplido los requisitos
+establecidos en la legislación societaria aplicable al caso.
+Sin embargo, algunos emisores de estados financieros reconocen todas
+las reservaciones de ganancias cuando se celebra la junta de propietarios que
+lo “decide” aunque tal “decisión” no pueda consistir en otra cosa que el sim-
+ple acatamiento de la ley.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 191
+En la Argentina, es común que el incremento en la reserva legal de
+una sociedad anónima se reconozca recién cuando la asamblea de
+accionistas toma una decisión sobre el destino de los resultados
+acumulados.
+E) HECHOS POSTERIORES A LA FECHA DE UN INFORME CONTABLE
+Después de la fecha de los estados financieros pueden producirse hechos
+que mejoren la información disponible para evaluar si a la fecha de los esta-
+dos financieros:
+a) existían activos o pasivos; o
+b) se habían producido ganancias o pérdidas debido a su tenencia.
+Hay acuerdo en que estos hechos deben ser tenidos en cuenta al preparar
+la información financiera a esa fecha.
+Supóngase que:
+a) La Demandada S. A. está preparando estados financieros al
+30/09/X1;
+b) a esa fecha:
+1) existía una demanda judicial de un tercero;
+2) se suponía (pero no se podía demostrar) que el desenlace se-
+ría adverso para la entidad;
+c) el 10/10/X1 un juez dictó un fallo que obligará a la entidad a pa-
+gar ciertas sumas de dinero al demandante, y las costas del jui-
+cio;
+d) en los días siguientes, se resolvió no apelar el fallo judicial.
+Aunque recién en octubre se llegó a la conclusión de que la entidad
+tendrá un futuro flujo de fondos negativo, el hecho posterior no es
+totalmente nuevo, simplemente ayudó a completar la evaluación
+de una situación existente al 30/09/X1. En consecuencia, a esta fe-
+cha debe reconocerse un pasivo.
+Necesariamente, el lapso para la consideración de estos hechos posterio-
+res al cierre debe tener una fecha límite. Existe consenso en considerar que
+ésta debe ser la de aprobación de la difusión pública de los estados financie-
+ros por parte del órgano facultado para ello, ya que:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+192 ENRIQUE FOWLER NEWTON
+a) es razonable exigir que esas personas consideren los acontecimientos
+ocurridos hasta ese momento;
+b) sería absurdo pedirles que también tomasen en cuenta sucesos que
+no han ocurrido.
+No debe confundirse la emisión de los estados financieros con su aproba-
+ción posterior, que normalmente está a cargo de personas que no represen-
+tan a los directores o a los administradores de una entidad sino a sus propie-
+tarios (o a los asociados a entidades sin fines de lucro).
+En una sociedad anónima argentina, la emisión de los estados finan-
+cieros compete al directorio y su aprobación a la asamblea de accio-
+nistas.
+Digresiones terminológicas:
+1. Por lo expuesto, la expresión hechos posteriores al cierre es impre-
+cisa. Lo que se quiere decir es hechos ocurridos entre la fecha de
+los estados financieros y la de su emisión.
+2. Cuando la expresión hechos posteriores se emplea en una des-
+cripción del trabajo de un auditor, la fecha límite a la que se sue-
+le hacer referencia es la del informe profesional, pues sólo hasta
+tal momento podría el citado profesional recoger elementos de
+juicio que sustenten su informe. No obstante, es habitual que la
+fecha del informe del auditor coincida con la fecha de emisión de
+los estados financieros.
+Es aconsejable que el límite temporal para la consideración de los hechos
+posteriores a la fecha a la cual corresponde un juego de ICI sea cercano a la
+fecha de finalización de su elaboración. Esta cuestión debería ser decidida
+caso por caso por los directores y administradores de la entidad.
+i) CORRECCIONES DE ERRORES
+Es posible que mientras se preparan los estados financieros correspon-
+dientes a un período dado, se descubra que en los de un período anterior (ya
+emitidos y difundidos):
+a) se omitió el reconocimiento de algún elemento de los estados finan-
+cieros; o
+b) se reconoció algún elemento cuando no correspondía hacerlo.
+A menos que puedan rectificarse los estados financieros anteriores, lo
+único que puede hacerse en estos casos es:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 193
+a) corregir retroactivamente la medida asignada al patrimonio inicial y a
+sus componentes (1);
+b) en caso de presentarse información comparativa, reemplazar las me-
+didas contables erróneas por las que se habrían presentado si no se
+hubiera cometido el error;
+c) en los estados financieros, incluir una nota explicando el error come-
+tido, su tratamiento contable en el ejercicio corriente y las modifica-
+ciones hechas a la información comparativa correspondiente al ejer-
+cicio anterior (o a ejercicios anteriores).
+Supongamos que en mayo de 20X1, La Incompleta S. A. detecta
+que en sus estados financieros al 31/12/XO se omitió el cómputo
+de un pasivo y de un gasto de administración por $ 100, que fueron
+pagados en marzo de 20X1. Sin embargo, ese gasto fue considera-
+do cuando se calculó el pasivo por el impuesto sobre las ganancias
+acumulado en 20X0.
+En los estados financieros de 20X1 no se registra un gasto (no tuvo
+origen en este año) sino que se reduce en $ 100 la medida contable
+asignada a los resultados acumulados y al patrimonio al 31/12/XO.
+Si los estados financieros al 31/12/X1 contienen información com-
+parativa del ejercicio anterior, la cifra del pasivo al 31/12/XO se au-
+menta en $ 100 y la del resultado de 20X0 se disminuye en el mismo
+importe. En el estado que muestra la composición de este resulta-
+do, se agregan $ 100 a la medida asignada a los gastos de adminis-
+tración y se modifican los subtotales que correspondan.
+El problema descripto podría presentarse también si los estados finan-
+cieros incluyesen resultados por cada trimestre o semestre (individualmente
+considerados) y se descubriera que la información correspondiente a un pe-
+ríodo anterior (dentro del mismo ejercicio) es errónea.
+5,3. CONSIDERACIÓN DE LAS CONTINGENCIAS
+En la doctrina y en las NC suele utilizarse la palabra contingencia para
+referirse a situaciones o conjuntos de circunstancias que:
+a) tienen su origen en hechos ya ocurridos;
+(1) La corrección de los resultados acumulados da lugar a lo que ha dado en denomi-
+narse ajuste de resultados de ejercicios anteriores (AREA). Podría haber también correcciones
+al ORIA.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+194 ENRIQUE FOWLER NEWTON
+b) pueden tener más de un desenlace, dependiendo esto de manera en
+que se resuelvan, en el futuro, ciertos acontecimientos que no están
+bajo el control de la entidad.
+A partir de esta idea, se han elaborado conceptos como:
+a) contingencias favorables o de ganancia, cuya concreción ocasionaría
+un aumento del activo o una reducción del pasivo;
+b) contingencias desfavorables o de pérdida, cuya concreción motivaría
+una reducción del activo o un aumento del pasivo;
+c) activos contingentes, cuyos beneficios futuros estarían supeditados a
+la forma en que se resuelvan una o más contingencias;
+d) pasivos contingentes, que serían obligaciones posibles a ser confirma-
+das sólo por la ocurrencia —o la falta de ocurrencia— de uno o más
+hechos futuros inciertos.
+Para el tratamiento de estas situaciones, existen no menos de dos enfo-
+ques a los que denominaremos “todo o nada” y “reconocimiento proporcio-
+nal”
+A) EL ENFOQUE “TODO O NADA”
+Según se ha visto en las secciones 3,3 y 3,4:
+a) para que un bien (distinto del efectivo) pueda ser considerado un acti-
+vo debe tener aptitud para generar (por sí o en combinación con otros
+bienes) un flujo positivo de efectivo;
+b) una persona tiene un pasivo cuando con motivo de un hecho ya ocu-
+rrido está obligado a entregar activos o a prestar servicios a otra;
+c) algunas definiciones de activo y pasivo suelen incluir la idea de que el
+flujo de efectivo esperado en el primer caso y la cancelación referida
+en el segundo deben ser probables.
+Cuando se aplican definiciones como las recién referidas:
+a) tiene que fijarse algún límite numérico que permita establecer cuán-
+do debe considerarse probable a alguno de los hechos referidos en el
+inciso c) precedente;
+b) establecido ese límite:
+1) se reconocen los activos y los pasivos cuya probabilidad de concre-
+ción lo supere;
+2) no se reconocen los restantes.
+Es decir, se aplica un enfoque que podríamos denominar todo o nada.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 195
+Supongamos que:
+a) debido a hechos ya ocurridos, una obligación futura podría con-
+cretarse o no, dependiendo esto del desenlace de hechos ajenos
+al control de la entidad emisora de los estados financieros;
+b) las NC aplicables al caso requieren el reconocimiento, como pa-
+sivos, de las obligaciones cuya concreción tenga un probabilidad
+de ocurrencia superior al 50 %;
+c) si ese límite se superara, la entidad debería medir el pasivo del
+caso en $ 100(2).
+Con el enfoque del lodo o nada, la entidad:
+a) reconocería un pasivo y lo mediría inicialmente en $ 100 si el
+desenlace desfavorable de la situación tuviera una probabilidad
+de ocurrencia del 50,1 %;
+b) no reconocería pasivo alguno si esa probabilidad fuera del
+49,9 %.
+Sin embargo, algunas NC aplican este enfoque solamente a los pasivos
+y prohíben el reconocimiento de algunos activos cuando el flujo de efectivo
+que ellos podrían generar no es seguro o casi seguro.
+En cuanto a la línea divisoria en sí, años atrás se pensaba en un grado
+alto de probabilidad. Al respecto, el MC de los US GAAP aclara que en las de-
+finiciones de activo y pasivo que él contiene, la palabra probable se emplea
+con su significado general de algo que puede ser razonablemente esperado
+o creído sobre la base de la evidencia disponible o de la lógica, pero respecto
+de lo cual no hay certeza o prueba (3).
+Posteriormente, dentro de las NIIF y de los US GAAP aparecieron reglas
+en las que subyace la idea de que es suficiente con que dicha probabilidad
+supere al cincuenta por ciento, expresándose este concepto con las palabras
+más probable que no (4). En los últimos años, esta idea ganó adhesiones y se
+incorporó a diversas NC, aunque no a los MC en que ellas se basan.
+B) EL ENFOQUE DEL RECONOCIMIENTO PROPORCIONAL
+Más recientemente, comenzó a considerarse la posibilidad de reconocer
+pasivos por todas las obligaciones, en proporción a su probabilidad de con-
+creción (reconocimiento proporcional).
+(2) Para esta discusión no interesa cómo se determina este importe.
+(3) SFAC 6, nota al párrafo 25.
+(4) More likely than not.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+196 ENRIQUE FOWLER NEWTON
+En esta línea, un comité que asesoró a la Securities and Exchange Com-
+mission (SEC, Comisión de Valores y Bolsas) sobre mejoras que deberían ha-
+cerse a los US GAAP, opinó en 2008 que:
+a) puede ocurrir que, como consecuencia de la utilización de líneas di-
+visorias (5) y de la aplicación del enfoque de todo o nada, se den tra-
+tamientos contables distintos a transacciones económicamente singu-
+lares (6), por lo que se sugiere que en los nuevos proyectos de la FAS
+(incluyendo los encarados con otros organismos) se evite el empleo
+de líneas divisorias y se eliminen las existentes (7);
+b) es preferible el enfoque de reconocimiento proporcional, excepto
+cuando la sustancia de una transacción indique que el escenario de
+todo o nada realmente existe, en cuyo caso la FASB debería conside-
+rar el suministro de guías de reconocimiento basadas en factores cua-
+litativos, respaldados por presunciones (8).
+El enfoque del reconocimiento proporcional, aplicado junto con algún
+criterio de medición contable debería conducir a la determinación de activos
+o pasivos por importe similares a los que resultarían de considerar el valor
+esperado de los posibles desenlaces de la situación que podría justificar el
+reconocimiento de esos elementos del estado de situación.
+Supongamos que:
+a) Control Remoto S. A. ha sido demandada judicialmente;
+b) existe una probabilidad del 70 % de perder el juicio, lo que impli-
+caria una obligación constituida por indemnizaciones a la otra
+parte, honorarios de abogados y costas judiciales que a la fecha
+de los estados financieros debería medirse en $ 200;
+c) de no perderse el juicio, se tendrían obligaciones (por pago de
+honorarios de abogados) que a la misma fecha se medirían el
+$ 20.
+Si se aplicase el criterio tradicional con una línea divisoria del 50%
+se reconocería un pasivo y se lo mediría en $ 200.
+Si se aplicase el criterio del reconocimiento proporcional, el pasivo
+se reconocería y se mediría por el valor esperado de los desenlace
+posibles, que es:
+(5) Bright lines.
+(6) Final Report of the Advisory Committee on Improvements to Financial Reporting
+the United States Securities and Exchange Commission, página 10.
+(7) Ibídem, página 40.
+(8) Ibídem, página 42. Uno de los ejemplos que se cita es el caso de la emisión de instru-
+mentos financieros que pueden tener características de instrumentos de deuda o de patrimo-
+nio y que solamente deberían ser contabilizados de alguna de las dos maneras (no es posible
+que algunos instrumentos sean de deuda y otros de patrimonio):
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 197
+(70 % de 200) + (30 % de 20) = 140 + 6 = 146
+Esto es lo mismo que:
+a) reconocer un pasivo mínimo de $ 20, que es el costo mínimo que
+se tendría, cualquiera fuere el desenlace del juicio; y
+b) reconocer la parte contingente del pasivo midiéndola con la pro-
+babilidad de que se presente el escenario más desfavorable:
+70 % de (200 - 20) = 70 % de 180 = 126
+Si se aplicase el enfoque todo o nada y se considerase que la pro-
+babilidad de perder el juicio es inferior al 50 %, solamente se reco-
+nocería un pasivo de $ 20 (que es una obligación de cancelación
+inevitable).
+La objeción que puede formularse al enfoque del reconocimiento pro-
+porcional es que los importes reconocidos con motivo de su aplicación raras
+veces coincidirán con el efecto monetario final de la situación.
+Si el juicio contra Control Remoto terminase de inmediato, la en-
+tidad tendría desembolsos por $ 200 o por $ 20 pero nunca por
+$146.
+Por ello, hay quienes piensan que este enfoque solamente sería útil cuan-
+do existe un universo de obligaciones contingentes de similar naturaleza,
+como las implicadas por la venta de bienes con el compromiso de reparar
+cualquier defecto de calidad durante un lapso determinado.
+La discusión recién comienza. Nos gustaría conocer otras opiniones.
+C) LOS ACTIVOS Y PASIVOS “CONTINGENTES”
+En algunos juegos de NC:
+a) se emplean las expresiones activos contingentes y pasivos contingen-
+tes para referirse a los que están sujetos a la resolución de algún hecho
+que no está bajo el control de la entidad emisora de los estados finan-
+cieros;
+b) se prohíbe (en general) el reconocimiento de activos contingentes;
+c) se requiere que los pasivos contingentes se reconozcan siempre que:
+1) su concreción sea probable; y
+2) su medición sea fiable.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+198 ENRIQUE FOWLER NEWTON
+Tanto estas reglas como la terminología empleada son objetables por lo
+siguiente:
+a) aplican el enfoque de todo o nada para los pasivos pero no para los
+activos;
+b) prohíben el reconocimiento de activos que satisfacen la definición de
+tales contenida en el correspondiente MC (que sólo requiere que el
+flujo de efectivo que se espera generen sea probable, sin exigir certeza
+o casi certeza);
+c) los “pasivos contingentes” que no cumplan con las condiciones no
+deberían denominarse empleando la expresión entrecomillada por-
+que:
+1) si su concreción no es probable, no cumplen con la definición de
+pasivo que suelen contener los MC;
+2) si algo no es clasificable como “pasivo” tampoco debería serlo
+como “pasivo contingente” pues no puede ser un pasivo contin-
+gente lo que no es un pasivo.
+En definitiva, cuando se aplica el enfoque de todo o nada, el empleo de
+las expresiones “activo contingente” y “pasivo contingente” debería ser evi-
+tado. Una razón adicional para hacerlo es que la mayoría de los activos son
+contingentes, en el sentido de que no es seguro que provean un flujo positivo
+de efectivo.
+Así:
+a) algunas mercaderías tenidas para la venta podrían no ser vendi-
+das;
+b) algunas facturas por cobrar podrían no ser convertidas en efecti-
+vo.
+Volvemos sobre este tema en las páginas 246-248 de Contabilidad
+Superior, sexta edición, La Ley. 2010.
+5,4. LA IDEA DE RECONOCER COSTOS DE OPORTUNIDAD
+En 1980, en una obra titulada Replanteo de la técnica contable (9), seis
+destacados profesionales argentinos defendieron la tesis de que algunas me-
+(9) FOARTINI, HERNANDO LUIS; LATTUCA, ANTONIO; LÓPEZ SANTISO, HORACIO; LUFF,
+HUGO ALBERTO; SLOSSE, CARLOS ALBERTO Y RRRIZA, JOSÉ, Replanteo de la técnica contable
+FACPCE, 1980, páginas 55-56.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 199
+diciones contables deberían basarse en costos de oportunidad. La idea nos
+parece descabellada y en cuanto conocemos no ha logrado adhesiones en la
+doctrina ni en los organismos emisores de NC, pero la analizaremos debido a
+la calidad intelectual de sus proponentes.
+A) CONCEPTO
+Dadas varias alternativas de acción, el costo de oportunidad de una de
+ellas es lo que se pierde por elegirla. Puede medírselo como la diferencia en-
+tre:
+a) lo que se habría obtenido si se hubiera optado por la mejor alternati-
+va; y
+b) lo logrado en la realidad.
+Los importes comparados para medir costos de oportunidad son siem-
+pre valores de salida.
+Supongamos que:
+a) se tiene una máquina;
+b) puede empleársela en la producción de bienes o vendérsela;
+c) la primera alternativa genera ingresos netos por $ 630 y la segun-
+da por $ 590.
+Si se decide lo segundo, el costo de oportunidad de hacerlo es:
+630 - 590 = 40
+B) EL COSTO DE REPOSICIÓN NO ES UN COSTO DE OPORTUNIDAD
+De acuerdo con el concepto expuesto, un costo de reposición (sea: de un
+bien físico) no puede constituir un costo de oportunidad porque el primero
+es un valor de entrada y el segundo una diferencia entre valores de salida.
+Lo mismo fue observado por Pavesi en 1981:
+El costo de reposición no es un costo de oportunidad
+porque la reposición no es una oportunidad perdida.
+El costo de reposición sólo puede aplicarse a elemen-
+tos que ya forman parte del patrimonio del ente. Con
+algo que ya se tiene, el costo de oportunidad sólo
+puede surgir de usos alternativos: venderlo, utili-
+zarlo en otros productos, triturarlo, alquilarlo, re-
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+200 ENRIQUE FOWLER NEWTON
+galarlo. La reposición no es una alternativa a algo
+que se tiene. El costo correspondiente no es un costo
+de oportunidad. Si lo es, por ejemplo, el valor de
+realización (10).
+Por lo expuesto, es indefendible la siguiente afirmación, incluida en fia
+planteo:
+Puede decirse que los costos de reposición actuales de
+los valores netos de realización actuales de los bie-
+nes bien pueden representar ese tipo buscado de va-
+lores, representativos de los costos de oportunidad.
+Como también pueden serlo en determinadas circuns-
+tancias los valores de costo histórico, por supuesto
+actualizados en función de las variaciones experimen-
+tadas por el poder adquisitivo de la moneda (11).
+c) COSTOS DE OPORTUNIDAD y MEDICIONES CONTABLES
+DE ACTIVOS
+Debido a su naturaleza (diferencias entre importes), los costos de oportu-
+nidad mal podrían ser empleados en las mediciones contables de activ
+embargo, en Replanteo se decía:
+Los recursos de un ente (...) deben ser valorizados a
+sus costos de oportunidad a la fecha de la valua-
+ción (12).
+Sus proponentes presentaron esta afirmación después de exponer que
+a) la contabilidad debe cumplir su cometido a partir del concepto clave
+de ganancia;
+b) el beneficio es (para la economía) la diferencia entre lo que una acti-
+vidad produce y el costo de lo producido;
+c) el concepto de costo que generalmente emplean los economistas es el
+de costo de oportunidad.
+Aunque los argumentos a) y b) sean verdaderos y el c) pudiera serlo
+(nuestra percepción es otra), de ninguna manera avalarían la conclusión de
+que la medición contable de los bienes deba basarse en costos de oportuni-
+dad. Medir activos sobre la base de mermas de beneficio carece de funda-
+mentos y constituiría un dislate.
+(10) PAVESI, PEDHO F. J., Crítica a ciertos aspectos de la utilización del costo de oportini-
+dad en contabilidad. Trabajo presentado a la XIV Conferencia Interamericana de Contabilidad
+(Santiago de Chile, 1981) y reproducido en Contabilidad y Administración, tomo IX (primer
+semestre de 1984), páginas 987-1006.
+(11) FORTINI y otros, obra citada, página 122.
+(12) Ibídem, página 101. En la época en que se publicó Replanteo, era usual que se habla-
+ra de valuación en lugar de medición contable.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 201
+Por otra parte, en la propuesta concreta de NC que se presentó en Re-
+planteo:
+a) ningún activo se mide empleando costos de oportunidad;
+b) el concepto de costo de oportunidad sólo se emplea (como veremos
+más adelante) para sostener el reconocimiento de un interés del capi-
+tal propio.
+Que sepamos, la insólita idea de que los costos de oportunidad podrían
+constituir la base de las mediciones contables de activos jamás volvió a ser
+sostenida en doctrina contable alguna. Por otra parte, durante las discusio-
+nes que la IASB y la FASB están llevando a cabo para elaborar un nuevo MC,
+se concluyó que el costo de oportunidad (13) no es, en sí mismo, una base de
+medición (14).
+D) COSTOS DE OPORTUNIDAD Y EXPOSICIÓN DEL RESULTADO
+Alguna vez escuchamos que sería útil reemplazar el importe de cada in-
+greso entre:
+a) el producido que habría generado la mejor alternativa disponible; y
+b) la diferencia con lo realmente obtenido (su costo de oportunidad).
+Por ejemplo: si se obtienen $ 300 cuando podrían haberse logrado
+$ 340, no se mostraría la primera cifra (la real) sino:
+a) un ingreso (ficticio) de $ 340;
+b) un costo de oportunidad (por no haber seleccionado el mejor
+curso de acción) de $ 40.
+Esta posibilidad fue ya criticada por Pavesi, quien, entre otros puntos, ob-
+jetó la aptitud del costo de oportunidad para la medición de la eficiencia de
+la gerencia.
+Veamos un clarificador ejemplo propuesto por el colega.
+Una persona que posee $ 100, debe optar entre:
+a) la colocación 1 que permite recuperar, con seguridad, $ 130 al
+cabo de cierto tiempo;
+(13) Deprival value..
+(14) IASB y FASB, Conceptual Framework Project - Phase C: Measurement Milestone I
+Summary Report-lnventory and Definitions of Possible Measurement Bases, sin indicación de
+año de publicación (probablemente 2007 ó 2008), página 7.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+202 ENRIQUE FOWLER NEWTON
+b) la colocación 2, que lleva a recuperar $ 100.000 (con una proba-
+bilidad del 99,9999 %) o $ 110 pesos (con una probabilidad de
+0,0001 %).
+Esta persona elige la opción 2 (cualquiera lo habría hecho) pero
+tiene tanta mala suerte que se da el hecho que tenía una proba-
+bilidad en un millón y recupera solamente $110. Comparando el
+resultado con el de la opción 1, se han dejado de ganar $ 20 pero
+no por esto debería criticarse a quien tomó la decisión por lo que
+hizo (15). La resolución adoptada era la más razonable bajo condi-
+ciones de riesgo, de modo que no tiene sentido criticarla sobre la
+base del conocimiento de información que no estaba disponible al
+momento de decidir.
+El ejemplo presentado es suficiente para calificar de inadecuada a la con-
+sideración de los costos de oportunidad como herramienta para medir la efi-
+cacia de la gestión de los administradores de una entidad. Además, la api
+cación del concepto es casi imposible cuando existe la posibilidad de tomar
+decisiones encadenadas, ya que el número de éstas tiende a infinito.
+Para calcular el costo de oportunidad de cualquier inversión tem-
+poraria de fondos efectuada hace treinta días deberían considerar
+se todas las combinaciones de colocaciones que podrían haberse
+efectuado durante el período (comprar oro, títulos públicos, accio-
+nes de la compañía 1, de la 2, etcétera, cuotas-parte del fondo co-
+mún A, del B, del C, etcétera) y los momentos en que se podría ha-
+ber entrado o salido de cada colocación.
+5,5. LA IDEA DE RECONOCER UN “INTERÉS PROPIO”
+El concepto tratado en esta sección suele ser llamado interés sobre el
+capital propio, pero se trata de un interés imaginario sobre el patri-
+monio del emisor de la información contable. Para abreviar, lo deno-
+minaremos interés propio.
+A) CONSIDERACIONES GENERALES
+El posible reconocimiento de un interés propio no cuenta con mayor
+aceptación en la doctrina contable mundial, no está sustentado en argumen-
+tos sólidos y sólo está admitido por las NC en ciertos casos especiales que se
+(15) PAVESI, PEDRO F. J., artículo citado, página 995.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 203
+relacionan con la fijación de precios por parte de concesionarios que están
+sujetos a regulaciones estatales.
+Sorprenderá, entonces, que le dediquemos varias páginas. Lo haremos
+porque, en la Argentina:
+a) la idea de reconocer un interés propio ha sido propuesta y defendida
+por colegas con nombradía;
+b) con motivo de la anterior, se han escrito numerosos artículos sobre el
+tema;
+c) la RT 10 de la FACPCE (derogada en 2000 por la RT 17) admitía (pero
+no requería):
+1) la consideración de un interés propio dentro del costo de produc-
+ción de ciertos bienes (16);
+2) la exposición, en los estados financieros, del efecto que en el esta-
+do de resultados tendría el cómputo de un interés propio (17);
+d) desde 2005, la RT 17 (recogiendo una NCP puesta en vigencia por el
+CPCECABA en 2003) también admite la incorporación de un interés
+propio en la medida contable asignada al costo de producción de cier-
+tos bienes, en cuyo caso debe reconocerse un resultado positivo (18).
+Todo esto nos motiva al análisis crítico y a la refutación de los argumen-
+tos favorables al cómputo del interés propio difundidos en varios de los tra-
+bajos referidos y en un artículo de Anthony de mediados de la década de
+1970 (19).
+Nuestro estudio se limitará a lo que tiene que ver con la preparación de
+estados financieros. No creemos que pueda objetarse la consideración de un
+interés propio para la adopción de algunas decisiones internas, como la fija-
+ción de precios de venta.
+B) DEFENSORES Y ATACANTES
+En lo que a la Argentina se refiere y en cuanto recordamos, los principa-
+les trabajos en los que pueden leerse propuestas favorables al cómputo de un
+(16) RT 10, segunda parte, punto B.2.4.
+(17) Ibídem, punto B.3.19.
+(18) RT 17. segunda parte, punto 4.2.7.
+(19) ANTHONY, ROBERT N., Contabilización del interés del capital propio, Administración
+de Empresas, tomo VI-A (abril-setiembre de 1975), páginas 481-500. Originalmente publicado
+en Harvard Business Review, vol. LI, N° 6. El autor volvió sobre el tema en;
+Equity Interest Its Time Has Come, Journal of Accountancy, diciembre de 1982, páginas
+76-88.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+204 ENRIQUE FOWLER NEWTON
+interés propio fueron publicados en la década del ochenta (20). Entre ellos,
+pueden citarse:
+a) Replanteo de la técnica contable (1980, ya citado);
+b) artículos de Di Ranni y Vega (1983) (21), Wons (1983) (22), Arreghini y
+Viegas (1986) (23) y García (1986) (24);
+c) un informe elaborado por una comisión especial del Centro de Estu-
+dios Científicos y Técnicos (CECyT) de la FACPCE, integrada por des-
+tacados colegas (1988) (25);
+Dos aclaraciones:
+a) en el primer trabajo se propone que el reconocimiento del interés pro-
+pio sea opcional;
+b) lo mismo se hace en el último, pero algunos de sus autores (indivi-
+dualmente) manifestaron posteriormente su desacuerdo con la pro-
+puesta.
+Por esos años, se manifestaron contra el reconocimiento del interés pro-
+pio la CEC del CPCECF (1982 y 1986) (26), González García (1983) (27), Laz-
+zati (1986) (28) y Del Valle (1987) (29). Nosotros lo hicimos en la primera edi-
+ción de esta obra (1982) (30).
+(20) Los trabajos de décadas posteriores se basaron, principalmente, en argumentos pre-
+existentes.
+(21) DI RANNI, MIGUEL ÁNGEL y VEGA, RUBÉN, Tratamiento del costo financiero de bienes
+sujetos a estacionamiento y en el costo de construcción de bienes de largo proceso de fabrica-
+ción, trabajo presentado a las XI Jornadas de Ciencias Económicas del Cono Sur, Buenos Aires,
+1983, tomo I, páginas 151 y siguientes.
+(22) WONS, ABRAHAM L., Un concepto fundamental de la contabilidad de inflación: la
+conceptualización y medición del capital, trabajo presentado a la XV Conferencia Interame-
+ricana de Contabilidad, Rio de Janeiro, 1983 y reproducido en Administración de Empresas,
+tomo XV (abril a septiembre de 1984), páginas 9-17.
+(23) ARREGHINI, HUGO R. y VIEGAS, JUAN CARLOS, Interés del capital propio. Tesis, 1986.
+(24) GARCÍA, SERGIO, Contabilidad y auditoría, Administración de Empresas, tomo
+XVII-A (abril-setiembre de 1986), páginas 433-436.
+(25) Comisión Especial para la Unificación de Normas Técnicas, Normas contables pro-
+fesionales, informe 13 (área Contabilidad) del CECyT, 1988. Existen dos versiones posteriores,
+ambas de 1990.
+(26) Normas contables de valuación y Propuesta de normas contables profesionales, in-
+formes 3 y 9 de la CEC, 1982 y 1986 respectivamente. Los fundamentos del rechazo aparecen en
+el capítulo VI, punto 11 del informe 3 y en el capítulo VI, sección B, punto 5 del informe 9.
+(27) GONZÁLEZ GARCÍA, IGNACIO, Tratamiento del costo financiero de bienes sujetos a es-
+tacionamiento, añejamiento, etc., trabajo presentado a las XI Jornadas de Ciencias Económicas
+del Cono Sur, Buenos Aires, 1983, tomo I, páginas 137 y siguientes, en especial página 143.
+(28) LAZZATI, SANTIAGO, Contabilidad e inflación. Conceptos fundamentales, Ediciones
+Macchi. 1986, página 222.
+(29) DEL VALLE, JUAN JOSÉ FERMÍN, La contabilización del interés del capital propio, La
+Información Extra, tomo 3 (segundo semestre 1987), páginas 373-396.
+(30) FOWLER NEWTON, ENRIQUE, Cuestiones contables fundamentales, primera edición,
+Ediciones Contabilidad Moderna, 1982.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 205
+c) FUNDAMENTOS PRINCIPALES DE NUESTRO RECHAZO
+1) Respeto de las igualdades patrimoniales básicas
+Antes de analizar los principales argumentos de los defensores del reco-
+nocimiento del interés propio, expondremos las razones por las cuales recha-
+zamos dicha propuesta. Para hacerlo, repetiremos una vez estas igualdades
+básicas:
+a) según el enfoque de la entidad:
+Activo Pasivo
++ Gastos + Aportes
++ Pérdidas = + Resultados anteriores
++ Impuestos sobre las ga-
++ Ingresos
+nancias del período
++ Ganancias
+b) según la perspectiva del propietario:
+Pasivo
+Activo
++ PNC en los patrimonios de
++ Gastos controladas
++ Aportes
++ Pérdidas
+=
++ Impuestos sobre las ga- + Resultados anteriores
+nancias del período
++ Ingresos
++ PNC en los resultados de
+controladas + Ganancias
+Quienes abogan por el reconocimiento de un interés propio, lo conside-
+ran un costo.
+Cualquier costo debería agregarse al de un activo o integrar los gastos del
+período, que son elementos ubicados en la parte izquierda de las igualda-
+des presentadas. Para que éstas puedan mantenerse, cualquier incremento
+en los importes asignados a los elementos de dicha parte izquierda debería
+estar compensado con un aumento en las medidas contables asignadas a los
+de la parte derecha.
+Por lo tanto, cabe considerar si el interés propio podría configurar (ade-
+más de un costo) alguno de esos elementos. Nuestra respuesta es que el inte-
+res propio que pudiera asignarse a un período:
+a) no incrementa el pasivo ni las PNC en los patrimonios de entidades
+controladas;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+206 ENRIQUE FOWLER NEWTON
+b) no resulta de un nuevo aporte de los propietarios;
+c) no se relaciona (por ser del período) con los resultados anteriores;
+d) no implica un ingreso ni una ganancia, porque:
+1) ellos son consecuencia de las operaciones de la entidad;
+2) la mera existencia de un patrimonio no implica una actividad
+(aunque la entidad nada hiciese, su patrimonio permanecería);
+e) no debería, por lo tanto, ser considerado como un objeto de recono-
+cimiento y medición contable (un elemento de los estados financie-
+ros).
+Sin embargo, al ilustrar su propuesta, Anthony agrega el interés propio
+que computa directamente a los resultados acumulados. Esto nos parece
+irrazonable porque:
+a) como ya mencionamos, el interés propio de un período no puede con-
+siderarse un ingreso ni una ganancia y tampoco tiene que ver con los
+resultados anteriores;
+b) los componentes del resultado de un período no deberían agregarse a
+los acumulados sin ser expuestos en un estado de resultados.
+Wons, por su parte, propuso que el interés propio se agregase al capital
+(en la igualdad que presentamos, a los aportes). Si se hiciese esto:
+a) se computarían aportes que nunca fueron hechos;
+b) se vulneraría el criterio (generalmente aceptado) de que el capital a
+mantener debe ser el financiero o dinerario (el efectivamente aporta-
+do);
+c) al aumentarse la medida asignada al capital sin que cambie la del pa-
+trimonio, se reduciría el importe asignado al total de los resultados
+acumulados y a la ganancia asignable a cada período;
+d) si lo anterior tuviera efectos legales, se impediría la distribución de
+buena parte de los resultados logrados, que quedarían forzosamente
+capitalizados;
+e) en el caso contrario, se crearía la apariencia de que las distribuciones
+de ganancias incluyen un reparto parcial del capital, ya que éste ten-
+dría que ser reducido por los intereses propios “pagados” a los propie-
+tarios.
+2) Aplicación del concepto de “costo”
+Una segunda razón para oponernos al reconocimiento de un interés pro-
+pio es que la idea de costo engloba la de realización de algún sacrificio pre-
+sente o futuro, como la entrega o consumo de activos o la asunción de un
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 207
+pasivo. El cómputo de un interés propio no se corresponde con ningún sa-
+crificio del ente.
+Por supuesto, puede existir un sacrificio para los propietarios del ente
+emisor de los estados financieros, causado por el hecho de mantener una
+inversión en él en lugar de darle a su capital un destino alternativo que les
+genere ingresos. Pero:
+a) si se reconociera un interés propio, a dicho sacrificio debería asignár-
+sele una medida contable;
+b) esa medida contable debería reflejar los ingresos sustitutivos que po-
+drían obtener los propietarios, que:
+1) no pueden calcularse considerando el patrimonio (u otros ele-
+mentos) del ente;
+2) pueden ser distintas para cada propietario, cuando la entidad tiene
+más de uno;
+c) la contabilidad de una entidad debe reflejar sus propias variaciones
+patrimoniales y no la de sus propietarios.
+Para ilustrar lo expuesto en el inciso b), supongamos que:
+a) Providencia S. A. tiene un patrimonio de $ 1.600, representado
+por 100 acciones, de modo que el valor patrimonial de cada ac-
+ción es (en pesos):
+1.600 /100 = 16
+b) Paula López compró una acción por $ 4; y
+c) los inversores tienen la alternativa de colocar su dinero al 6 %
+anual (31).
+En un caso así, no tiene sentido decir que el rendimiento alternati-
+vo que podrían haber obtenido los accionistas de Providencia S. A.
+es del 6 % de $ 1.600, pues:
+a) esto implica suponer que López (titular del 1 % del patrimonio)
+podría obtener (como resultado alternativo) el 6 % de $ 16;
+b) el supuesto carece de validez porque esa accionista sólo invirtió
+$ 4, de modo que para obtener el 6 % del capital por ella inver-
+tido le basta con que la empresa gane y distribuya $ 24 por año,
+que es el 1,5 % de $ 1.600.
+(31) Sin preguntar cómo se obtiene esta tasa, supongámosla adecuada a los fines del
+ejemplo.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+208 ENRIQUE FOWLER NEWTON
+D) ARGUMENTOS DE LOS PROPONENTES
+Creemos que los argumentos que acabamos de exponer son suficientes
+para rechazar el reconocimiento contable de un interés propio. Esto no obsta
+a que clasifiquemos, enunciemos y refutemos los principales argumentos de
+los proponentes de la idea.
+1) Argumentos basados en la teoría económica
+Para Anthony:
+a) la contabilidad debe medir hechos económicos e informar sobre
+ellos;
+b) aunque las medidas contables no siempre pueden concordar total-
+mente con los principios económicos, la contabilidad no debería
+apartarse de los conceptos de la economía mientras no existan razo-
+nes valederas para ello;
+c) los economistas consideran factores de producción a la mano de obra,
+los recursos naturales y el capital, cada uno de los cuales tiene un cos-
+to;
+d) en el caso del capital, el costo se llama interés y es la suma necesaria
+para que sus propietarios acepten ponerlo al servicio de una empre-
+sa (32).
+Años después, Replanteo vinculaba la contabilidad con la economía me-
+diante un razonamiento que puede resumirse así:
+a) el beneficio económico es la diferencia entre lo que una actividad pro-
+duce y el costo de lo producido;
+b) el costo de lo producido está dado por el costo de oportunidad de los
+factores de la producción y otros que se consumen en el proceso pro-
+ductivo;
+c) el costo de oportunidad de un factor de propiedad de la empresa pue-
+de medirse por el precio de mercado de los servicios de ese factor, lo
+que incluye al propio capital de la empresa (33).
+Parte de la contestación a estos argumentos data de 1920, cuando Paton
+formulaba estas observaciones:
+a) los conceptos y principios contables son distintos que los de la teoría
+económica;
+(32) ANTHONY. ROBERT N., articulo citado, página 482.
+(33) Replanteo, páginas 60 y 61.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 209
+b) el economista está interesado en el costo como un factor de la deter-
+minación de precios en el mercado, mientras que el contador trata
+con los costos desde el punto de vista de la empresa específica;
+c) el costo contable es normalmente inferior al precio (de venta) debido
+al margen de ganancia neta que obtiene cada negocio por sus propios
+servicios peculiares;
+d) el interés suministrado por los miembros del negocio no es aquí un
+costo sino simplemente un elemento del retorno neto (34).
+Pensamos que estas observaciones mantienen plena vigencia. Y agrega-
+mos:
+a) es cierto que cuando alguien invierte dinero en una empresa lo hace
+esperando un retorno por su inversión, pero, como señalaron en 1992
+Sánchez Brot y Wirth:
+(...) a lo único que tiene derecho el inversor es a
+la esperanza de un retorno, de tal modo que si los
+resultados de la empresa son negativos tal espe-
+ranza se pierde.
+De modo que la expresión “interés del capital pro-
+pio” es la esperanza que los propietarios tienen,
+de obtener una rentabilidad de su inversión en ese
+negocio y de ninguna manera designa una retribu-
+ción que la empresa esté obligada contractualmente
+a pagar (35).
+b) por lo expuesto en los capítulos anteriores, las NC deben fijarse a par-
+tir de los objetivos de la información contable y de las cualidades que
+ésta debería reunir para ser útil y no de los postulados o principios de
+la economía, dado que esta disciplina persigue otros propósitos;
+c) que un criterio (tomado de la economía) sea bueno para explicar
+cómo (supuestamente) fijan los precios las empresas (36) no significa
+que sea apto para medir la ganancia empresaria (uno de los propósi-
+tos de la contabilidad);
+d) que el contador deba tener conocimientos sobre economía no lo obli-
+ga a adoptar sus postulados y principios;
+(34) PATON, WILLIAM A., Interest During Construction, The Journal of Political Economy,
+octubre de 1920, reproducido en Paton on Accounting, The University of Michigan, 1964, pági-
+nas 85-96.
+(35) SÁNCHEZ BROT, LUIS y WIRTH, CRISTINA, El interés del capital propio en los estados
+contables para uso externo, trabajo presentado al IX Congreso Nacional de Profesionales en
+Ciencias Económicas, Mendoza, 1992.
+(36) Decimos “supuestamente” porque no creemos que el porcentaje de empresas que
+fijan sus precios de la manera que se explica en los libros de economía sea significativo.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+210 ENRIQUE FOWLER NEWTON
+e) no es bueno el argumento de Replanteo que hace referencia a los cos-
+tos de oportunidad, pues:
+1) en la sección 5,4 vimos que la propuesta de emplearlos con fines
+contables no resiste ningún análisis;
+2) en los hechos, los propietarios no tienen la oportunidad de cam-
+biar el destino de su inversión cuando lo desean, porque no tienen
+el derecho de rescatar su capital cada vez que se les antoje;
+3) aunque tal posibilidad existiera, quienes podrían llegar a tener un
+costo de oportunidad relacionado con el capital propio son sus
+propietarios y no la empresa.
+2) Argumentos referidos a la calidad de la
+información sobre la ganancia
+Algunos contadores defienden el reconocimiento del interés propio atri-
+buyéndole la ventaja de permitir una mejor medición de la ganancia empre-
+saria. Decía Anthony:
+El rendimiento de una empresa no es satisfactorio,
+ni para los accionistas ni para la comunidad, si no
+genera beneficios suficientes como para cubrir todos
+sus costos, incluso el costo del capital invertido.
+El estado de resultados que se prepara actualmente no
+muestra si la empresa satisfizo este requisito funda-
+mental (...)
+(...) la ganancia neta, tal como se la registra actual-
+mente, es una mezcla de interés del capital propio
+con ganancia real, para emplear la terminología de
+los economistas. Si el interés del capital propio se
+considerara un costo, la ganancia neta sería menor,
+y representaría una ganancia en sentido económico,
+indicando cuánto ganó la empresa en exceso del costo
+del capital empleado (37).
+Es cierto que si una empresa no genera ganancias por encima de lo que el
+accionista espera, éste se sentirá insatisfecho. Pero de esto no puede deducir-
+se válidamente que la contabilidad deba reflejar lo que el accionista espera.
+Lo que verdaderamente interesa es si los cambios propuestos por An-
+thony acerca de la forma de demostrar el resultado de un período serían
+útiles para los usuarios de los estados financieros. Teniendo en cuenta que
+existe consenso en considerar usuarios tipo a los propietarios y acreedores
+(37) Anthony, Roben N., artículo citado en la nota 18. página 493.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 211
+(actuales o potenciales), la propuesta de Anthony merece, como mínimo, es-
+tos comentarios:
+a) el costo de oportunidad del rendimiento de la inversión de un propie-
+tario:
+1) en el mejor de los casos, podría calcularse considerando lo que
+efectivamente aportó y lo que podría haber obtenido con esos fon-
+dos en una inversión alternativa;
+2) es una mera abstracción cuando la posibilidad de retirar sus fon-
+dos de la entidad no existe;
+3) también lo es si se lo calcula a partir del patrimonio de la entidad
+participada (lo ilustramos en la página 207);
+b) nada asegura que a los propietarios les sea útil conocer un costo del
+capital empleado para cuya medición se utilizó una tasa de interés
+determinada por la empresa que no tiene por qué coincidir con la tasa
+que obtendría el accionista por una colocación alternativa;
+c) para que el estado de resultados indique cuánto ganó la empresa en
+exceso del costo del capital empleado, el interés propio:
+1) no debería computarse como ingreso; y
+2) debería reconocerse totalmente como un gasto,
+pero esto no responde a la propuesta general de Anthony, que es la de
+considerar al interés propio como parte del costo de ciertos activos;
+d) no todos los propietarios han pagado lo mismo por inversiones equi-
+valentes ni tienen la misma percepción acerca de lo que debería con-
+siderarse satisfactorio en materia de rendimiento de su inversión, por
+lo que la información sobre un costo del capital empleado calculado
+con una única tasa elegida por la empresa puede resultarles inútil,
+cuando no conducente a error;
+e) lo que a los accionistas debería interesarles es el resultado de la em-
+presa, sin detracción alguna en concepto de interés propio (luego,
+cada uno podrá calcular la rentabilidad de su inversión y compararla
+con lo que desee);
+f) a los acreedores, la presentación de un resultado depurado de acuer-
+do con la propuesta de Anthony poco les aportaría, pues lo que a ellos
+les interesa es si el ente genera fondos suficientes para pagar sus obli-
+gaciones por completo y en las fechas acordadas.
+En consecuencia, la ventaja que dicho autor ve no existe. El cálculo y la
+presentación separada del interés propio en nada ayudan a los usuarios de
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+212 ENRIQUE FOWLER NEWTON
+estados financieros. Por el contrario, complicarían su tarea de análisis de di-
+chos estados.
+En una línea similar a la de Anthony, la FACPCE trató de justificar así una
+norma de la RT 10 que auspiciaba la presentación optativa, como informa-
+ción complementaria, de las cifras básicas que tendría el estado de resulta-
+dos si el interés propio se reconociese y (en su caso) se activase:
+De este modo, en la información complementaria pre-
+sentada podrá identificarse, por un lado, el resul-
+tado atribuible a los administradores, que incluirá
+como un costo más el interés del capital propio, por
+otro lado, el interés del capital propio, o sea la
+ganancia atribuible a los propietarios por poner a
+disposición de los administradores el capital inver-
+tido y, por último, el resultado final, que es la suma
+algebraica de los dos anteriores y que representa el
+resultado total que le corresponde en definitiva a los
+propietarios (38).
+Estos argumentos no resisten al análisis:
+a) el mero suministro de capital a un negocio de riesgo no genera una
+ganancia atribuible a los propietarios sino (ya lo señalaron Sánchez
+Brot y Wirth) una simple expectativa de recibir un retorno sobre la in-
+versión;
+b) es insensato suponer que el resultado que no sea atribuible a los pro-
+pietarios lo sea a los administradores, como si los factores del contex-
+to no tuvieran ninguna incidencia.
+Supongamos que:
+a) al 31/12/XO, El Yuyo Destituyente S. A. (que explota un campo)
+tiene un patrimonio inicial de $ 1.000;
+b) se considera adecuado emplear una tasa del interés propio del
+5% anual (39);
+c) en 20X1, la empresa se ve afectada por inundaciones extraor-
+dinarias y al 31/12/X1 su patrimonio se reduce a $ 400 (pierde
+$ 600).
+Así las cosas, la aplicación del concepto propuesto en Replanteo lle-
+varía a estas conclusiones:
+(38) RT 10, segunda parte, punto B.3.19.
+(39) Como en el caso anterior, no discutamos cómo se la determinó.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 213
+a) por el mero hecho de haberse mantenido la inversión inicial de
+$ 1.000, hay una ganancia atribuible a los propietarios de $ 50;
+b) a los administradores debe asignárseles una pérdida de $ 650,
+sin que a este fin tenga importancia el hecho de la inundación.
+Es absurdo.
+3) Argumento referido al factor tiempo
+Los defensores de este argumento dicen que la contabilidad debe con-
+siderar el costo del factor tiempo aun en los casos en los que la financiación
+es propia. El argumento es engañoso porque el factor tiempo sólo tendría
+importancia en tanto exista un costo financiero por imputar. Pero si el interés
+propio no existe, no puede ser imputado.
+4) Otros argumentos
+Anthony menciona otros dos argumentos favorables al reconocimiento
+del interés propio.
+El primero es que como las empresas se financian tanto con su patrimo-
+nio como con pasivo, el registro del costo de emplear capital propio parecería
+tan lógico como el registro del costo de emplear pasivo (40).
+El otro se basa en los deseos de los accionistas:
+(...) ningún inversor estaría dispuesto a proveer ca-
+pital sin la esperanza de una remuneración, la cual
+es el costo de utilizar el capital de aquél. Para el
+ente o empresa, este costo es tan real como el costo
+del pasivo (41).
+Ambos razonamientos son formalmente falaces, pues:
+a) del hecho de que una empresa tenga pasivo y patrimonio y que deba
+registrar los costos de mantener el primero no se deduce válidamente
+que deba contabilizar un costo por el segundo;
+b) el deseo de los accionistas de obtener una retribución por su capital
+no asegura que la obtengan ni que exista un costo real para la empre-
+sa.
+(40) ANTHONY, ROBERT N., artículo citado, página 482.
+(41) Ibídem, página 483.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+214 ENRIQUE FOWLER NEWTON
+E) LA CUESTIÓN EN LOS MARCOS CONCEPTUALES
+Que conozcamos, ningún MC otorga al interés propio el estatus de ele-
+mento de los estados financieros. Refiriéndose al suyo propio, en 1979 la
+FASB señaló que:
+(...) todos los miembros de la Junta están de acuer-
+do en que el reconocimiento del costo del patrimonio
+no está de acuerdo con el marco conceptual contable
+presente (42).
+5,6. BAJA CONTABLE
+Un objeto reconocido contablemente deber/a darse de baja cuando ha-
+yan desaparecido las condiciones que justificaron su reconocimiento.
+A) ACTIVOS
+La baja contable de activos puede obedecer a diversas causas:
+Causas de baja de un activo Ejemplos
+Se transfieren a un tercero las ven- Se vende una cuenta por cobrar, el
+tajas y los riesgos inherentes al ac- comprador asume el riesgo inhe-
+tivo. rente a su incobrabilidad y el ven-
+dedor no tiene ninguna opción para
+recomprarla en condiciones distin-
+tas a las de cualquier otra persona.
+Su consumo, en un solo acto. Una materia prima se incorpora
+a un producto en elaboración, de
+modo que la primera debe darse de
+baja y el costo de producción del se-
+gundo se incrementa.
+Su consumo total, cuando es pro- Se discontinúa el uso de una má-
+gresivo. quina debido a que su capacidad
+de servicio ha sido agotada. No se la
+venderá como chatarra porque su
+valor de cambio es ínfimo.
+Su desaparición física Una máquina resulta totalmente
+destruida en un siniestro.
+(42) SFAS 34, párrafo 49.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 215
+Causas de baja de un activo Ejemplos
+Su pérdida de aptitud para generar Se percibe en su totalidad el impor-
+flujos positivos de efectivo en el fu- te de una cuenta por cobrar, lo que
+turo. hace desaparecer el derecho de la
+entidad contra su deudor.
+Una marca sobre la que se tienen
+derechos legales se ha desacredita-
+do tanto que no volverá a ser usa-
+da y no puede ser vendida (no tiene
+valor de uso ni valor de cambio).
+Por lo general, la identificación de las situaciones en que deben darse de
+baja activos previamente reconocidos es una tarea sencilla. Las principales
+dudas se plantean cuando se transfieren cuentas por cobrar, ya que no to-
+das las transacciones de este tipo implican el cese de los beneficios y riesgos
+inherentes a los activos. En tales casos, debe considerarse la sustancia de la
+transacción por encima de su forma y de su denominación.
+No existe transferencia de riesgos y beneficios en casos en que se
+endosa un documento por cobrar y su receptor puede requerir que
+el endosante lo pague si no lo hace su firmante o algún endosante
+anterior. En este caso, no debería darse de baja la cuenta por cobrar
+y debería reconocerse un pasivo por el préstamo recibido.
+Puede encontrarse una discusión amplia sobre este tema en:
+Derecognition, Proposed amendments to IAS 39 and IFRS 7, IASB,
+2009.
+B) PASIVOS
+Un pasivo desaparece cuando:
+a) se lo cancela entregando efectivo u otro activo o prestando un servicio
+o emitiendo instrumentos propios de patrimonio;
+b) se lo reemplaza por otro pasivo;
+c) el acreedor lo condona; o
+d) el deudor se libera de la obligación debido a la inacción del acreedor y
+al transcurso del tiempo (prescripción liberatoria).
+Cuando se reconocen pasivos con el enfoque todo o nada, puede tam-
+bién ocurrir que la probabilidad de que el acreedor requiera el cumplimiento
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+216 ENRIQUE FOWLER NEWTON
+de una obligación reconocida descienda por debajo del nivel fijado para con-
+siderar que un pasivo existe.
+No es aceptable la baja contable de un pasivo porque se ha resuelto no
+pagarlo, ya que la obligación sigue existiendo.
+c) OTROS ELEMENTOS
+Una PNC en una controlada (que es un elemento que sólo aparece en los
+estados consolidados) desaparece cuando la controladora:
+a) compra la PNC; o
+b) vende su propia participación; o
+c) pierde el control sobre la participada, en cuyo caso deja de consoli-
+dar.
+Los restantes elementos de los estados financieros representan acumu-
+laciones de efectos patrimoniales de hechos ya ocurridos, de modo que no
+cabe su baja contable.
+Y ya mencionamos que algunas NC que requieren o admiten el diferi-
+miento de resultados, requieren o permiten también la desafectación poste-
+rior del ORIA mediante la transferencia de importes al resultado del ejercicio
+o a resultados acumulados.
+5,7. RESUMEN
+Deben reconocerse contablemente los elementos (activos, pasivos, etcé-
+tera) que, de acuerdo con la realidad económica y no sólo con las formas ju-
+rídicas de las transacciones:
+a) tengan aptitud para afectar los futuros pagos que los inversores y
+acreedores recibirán por sus créditos o participaciones o por la venta
+de ellos;
+b) sean susceptibles de medición fiable.
+El hecho de que un elemento no se reconozca contablemente por la im-
+posibilidad de asignarle alguna medición contable fiable debería ser infor-
+mado en los estados financieros, pero esto no es habitual.
+Los cambios en la representación formal del patrimonio deberían reco-
+nocerse del siguiente modo:
+a) los requeridos por una ley o por un contrato, cuando se producen los
+hechos que los ocasionan (sin embargo, en la Argentina es habitual
+que las reservas legales recién se reconozcan cuando una asamblea
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 217
+de accionistas “decide” constituirlas, aunque no tenga otra alternativa
+que hacerlo);
+b) los restantes, cuando los propietarios toman las correspondientes de-
+cisiones, siempre que se lo haga cumpliendo con todos los requisitos
+legales del caso.
+Al preparar estados financieros, deben tenerse en cuenta los hechos ocu-
+rridos entre la fecha de ellos y la de su emisión, cuando mejoren la informa-
+ción disponible para evaluar si a la primera existían activos o pasivos o se
+habían producido ganancias o pérdidas debido a su tenencia.
+Si se descubre que los estados financieros de un período anterior (ya emi-
+tidos y difundidos) contienen errores, debería corregirse retroactivamente el
+patrimonio al comienzo del ejercicio, así como la información comparativa
+que se presente.
+Cuando el flujo futuro de efectivo que podría producir un bien o el cum-
+plimiento de una obligación depende de hechos futuros ajenos al control de
+la entidad, suele decirse que existe un activo o un pasivo contingente. Para
+determinar si se lo reconoce o no, podrían aplicarse dos enfoques:
+a) el de todo o nada, según el cual el activo o el pasivo:
+1) se reconoce cuando el porcentaje de probabilidad de que ocurra el
+hecho confirmatorio supera cierta línea divisoria y existe la posi-
+bilidad de asignarle una medida fiable;
+2) no se reconoce en el caso contrario;
+b) el de reconocimiento proporcional a dicho porcentaje de probabili-
+dad.
+Actualmente, prevalece el primer enfoque, salvo porque muchas NC no
+permiten el reconocimiento de algunos de los denominados activos contin-
+gentes, aunque satisfagan la definición de activo contenida en el correspon-
+diente MC. Hay una tendencia a considerar como línea divisoria al 50 %.
+El enfoque del reconocimiento proporcional, aplicado juntamente con
+algún criterio de medición contable debería conducir a la determinación de
+activos o pasivos por importe similares a los que resultarían de considerar el
+valor esperado de los posibles desenlaces de la situación que podría justificar
+el reconocimiento de esos elementos del estado de situación.
+Los costos de oportunidad no sirven para las mediciones contables de los
+bienes porque no expresan costos ni valores sino diferencias entre resultados
+obtenidos y resultados que podrían haberse logrado si se hubiesen tomado
+decisiones distintas a las que efectivamente se adoptaron. Tampoco resulta
+adecuado mostrarlos separadamente en los estados de resultados porque no
+es razonable evaluar las consecuencias de decisiones que se tomaron bajo
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+218 ENRIQUE FOWLER NEWTON
+condiciones de riesgo utilizando el conocimiento (posterior) de información
+que no estaba disponible al momento de decidir.
+El eventual reconocimiento de un interés propio debería estar acompa-
+ñado por aumentos en el pasivo, la PNC en los patrimonios de controladas, el
+capital, los resultados acumulados, los ingresos o las ganancias, pero nada de
+esto sería adecuado. Además, el interés propio no se corresponde con ningún
+sacrificio del ente, que es una condición indispensable para que exista un
+costo. Por otra parte, los argumentos favorables a su reconocimiento conta-
+ble pueden ser refutados.
+Un objeto reconocido contablemente debería darse de baja cuando de-
+saparezcan las condiciones que justificaron su reconocimiento.
+Las causas más obvias de baja contable de un activo son la transferencia
+a un tercero de las ventajas y riesgos inherentes a él, su consumo, su desapa-
+rición física o su pérdida de aptitud para generar flujos positivos de efectivo
+en el futuro.
+Un pasivo desaparece cuando se lo cancela, se lo reemplaza por otro, el
+acreedor lo condona o prescribe.
+Una PNC en una entidad controlada (que es un elemento que sólo apare-
+ce en los estados consolidados) desaparece cuando la controladora la com-
+pra, vende su propia participación o pierde el control sobre la participada (en
+cuyo caso deja de consolidar).
+5,8. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para
+que una aseveración sea correcta debe serlo totalmente.
+a) Toda vez que algo califique como activo, debe reconocérselo como
+tal.
+b) La contabilidad sólo debe reconocer los objetos de cuya medición
+contable resulten importes significativos.
+c) Ninguna empresa está obligada a pagar un interés sobre el capital
+propio a sus accionistas ordinarios.
+d) El reconocimiento del interés propio permite que un accionista co-
+nozca lo que ha ganado por encima del costo de oportunidad de su
+inversión.
+e) El reconocimiento de resultados anteriores no requiere de reglas
+especiales.
+f) Un cambio en la representación formal del patrimonio no hace
+aparecer activos o pasivos.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 219
+2. Enuncie ejemplos de activos, pasivos o variaciones patrimoniales que
+podrían no reconocerse por problemas de fiabilidad.
+3. Explique qué son los habitualmente denominados hechos posteriores
+al cierre e indique cuáles justifican el reconocimiento de un activo o
+de un pasivo a la fecha de los estados financieros.
+4. Explique por qué un costo de reposición no puede representar a un
+costo de oportunidad.
+5. Indique qué debería hacerse para corregir un error cometido al pre-
+parar los estados financieros precedentes, si éstos no pudieran ser re-
+formulados.
+6. Diluvio S. A. compra el 90 % de las acciones de Garúa S. A. y toma su
+control. Indique si se reconocerían nuevos objetos en los estados con-
+solidados de la primera y en los individuales de la segunda.
+7. Indique cómo variaría la solución del caso Control Remoto S. A., pre-
+sentado en las páginas 196-197 si la probabilidad de perder el juicio
+fuese del 20 %.
+8. Rambla S. A. celebra un contrato por el cual vende a Los Lobos S. A.
+un pagaré recibido de un cliente, cobrando $ 300 en efectivo. Simultá-
+neamente, le otorga una opción de venta que permite que Los Lobos
+le revenda el pagaré, entre cierta fecha y la del vencimiento estipulado
+en él, por $ 305. Indique si el pagaré debería ser dado de baja de la
+contabilidad de Rambla.
+9. En la asamblea que trata la información contable correspondiente al
+primer año de vida de Cuenta Nueva S. A., la asamblea de accionis-
+tas determina que la ganancia de $ 100 obtenida en ese período, $ 5
+se destinen a una reserva requerida por la ley y $ 55 sean repartidos
+como dividendos en efectivo, dejando sin asignar los restantes $ 40.
+Indique:
+a) si los $ 40 deben ser reconocidos como resultados acumulados;
+b) si el caso le merece algún otro comentario.
+5,9. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y
+EJERCICIOS
+1. a) Incorrecto. También se requiere que su medición pueda hacerse
+de una manera fiable.
+b) Incorrecto. La exclusión de elementos no significativos es una op-
+ción pero no una obligación.
+c) Correcto.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+220 ENRIQUE FOWLER NEWTON
+d) Incorrecto. Entre otras razones, porque el costo de la inversión de
+accionista no tiene por qué coincidir con el valor patrimonial de su
+inversión (la proporción que le corresponde sobre el patrimonio
+de la empresa).
+e) Correcto.
+f) Correcto.
+2. Dos ejemplos son:
+a) la plusvalía (el valor llave) generada por una empresa;
+b) los desembolsos a efectuar con motivo de fallos judiciales adversos
+y altamente probables, cuando su importe se desconoce y no exis-
+ten bases fiables para su determinación.
+3. Son los ocurridos entre la fecha de los estados financieros y la de su
+emisión. Pueden justificar el reconocimiento de un activo o de un pa-
+sivo los que confirmen que éste existía a la fecha de cierre.
+4. Los costos de reposición son valores de entrada y los costos de opor-
+tunidad son diferencias entre valores de salida.
+5. Correspondería:
+a) corregir retroactivamente la medida asignada al patrimonio inicial
+y a sus componentes;
+b) en caso de presentarse información comparativa, reemplazar las
+medidas contables afectadas por el error por las que se habrían
+presentado si no se lo hubiera cometido;
+c) en los estados financieros, incluir una nota explicando el error co-
+metido, su tratamiento contable en el ejercicio corriente y las mo-
+dificaciones hechas a la información comparativa correspondien-
+te al ejercicio anterior.
+6. En los estados financieros consolidados de Diluvio aparecerían acti-
+vos, pasivos y la PNC sobre el patrimonio de Garúa (correspondien-
+te al 10 % de las acciones que no fueron compradas). La segunda no
+debe reconocer nada porque la transacción fue entre sus accionistas
+anteriores (o algunos de ellos) y su nueva controladora.
+7. Con el enfoque todo o nada, se reconocería como pasivo el costo mí-
+nimo de $ 20 porque no se llega a la línea divisoria del 50 %. Con el
+del reconocimiento proporcional, a los $ 20 se le agregaría el 20 % del
+máximo costo restante. El pasivo total a reconocer sería:
+20 + 20 % de (200 - 20) = 20 + 36 = 56
+8. No debería darse de baja porque con sólo ejercer la opción Los Lobos
+puede devolver a Rambla los riesgos y ventajas inherentes al pagaré.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+5. RECONOCIMIENTO Y BAJA CONTABLE 221
+9. Los $ 40 no deben ser reconocidos como resultados acumulados por-
+que ya formaban parte de ellos (se acumularon cuando se devenga-
+ron). Por otra parte, habría sido más lógico que la reserva legal de $ 5
+se hubiese reconocido al cierre del primer ejercicio, pues la reserva-
+ción no podía ser evitada por la asamblea.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos

@@ -1,0 +1,86 @@
+import requests
+import pandas as pd
+from datetime import datetime
+
+def obtener_tokens(username, password):
+    token_url = 'https://api.invertironline.com/token'
+    payload = {
+        'username': username,
+        'password': password,
+        'grant_type': 'password'
+    }
+    headers = {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }
+    response = requests.post(token_url, data=payload, headers=headers)
+    if response.status_code == 200:
+        tokens = response.json()
+        return tokens['access_token'], tokens['refresh_token']
+    else:
+        print(f'Error en la solicitud: {response.status_code}')
+        print(response.text)
+        return None, None
+
+def refrescar_token(refresh_token):
+    token_url = 'https://api.invertironline.com/token'
+    payload = {
+        'refresh_token': refresh_token,
+        'grant_type': 'refresh_token'
+    }
+    headers = {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }
+    response = requests.post(token_url, data=payload, headers=headers)
+    if response.status_code == 200:
+        tokens = response.json()
+        return tokens['access_token'], tokens['refresh_token']
+    else:
+        print(f'Error en la solicitud: {response.status_code}')
+        print(response.text)
+        return None, None
+
+def obtener_serie_historica(simbolo, mercado, fecha_desde, fecha_hasta, ajustada, bearer_token):
+    url = f"https://api.invertironline.com/api/v2/{mercado}/Titulos/{simbolo}/Cotizacion/seriehistorica/{fecha_desde}/{fecha_hasta}/{ajustada}"
+    headers = {
+        'Accept': 'application/json',
+        'Authorization': f'Bearer {bearer_token}'
+    }
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f"Error en la solicitud de serie histórica para {simbolo} en {mercado}: {response.status_code}")
+        print(response.text)
+        return None
+
+# Usuario y contraseña desde variables de entorno
+import os
+username = os.environ.get("IOL_USERNAME", "")
+password = os.environ.get("IOL_PASSWORD", "")
+
+# Obtener los tokens
+bearer_token, refresh_token = obtener_tokens(username, password)
+if bearer_token and refresh_token:
+    # Lista de símbolos específicos
+    tickers_especificos = ['AL30', 'AL30D']  # Ejemplo de tickers
+
+    # Mercados disponibles
+    mercados = ['BCBA', 'NYSE', 'NASDAQ', 'ROFEX']
+
+    # Fechas para la serie histórica
+    fecha_desde = '2021-01-01'
+    fecha_hasta = '2025-04-01'
+    ajustada = 'SinAjustar'
+
+    for simbolo in tickers_especificos:
+        for mercado in mercados:
+            # Obtener serie histórica directamente
+            serie_historica = obtener_serie_historica(simbolo, mercado, fecha_desde, fecha_hasta, ajustada, bearer_token)
+            if serie_historica:
+                df = pd.DataFrame(serie_historica)
+                print(f"Serie histórica para {simbolo} en {mercado}:")
+                print(df)
+            else:
+                print(f"No se pudo obtener la serie histórica para {simbolo} en {mercado}.")
+else:
+    print('Error al obtener los tokens')

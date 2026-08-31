@@ -1,0 +1,363 @@
+OPTIMISATION PROBLEMS:
+A GEOMETRIC APPROACH
+Mauricio Labadie, PhD
+Seminario de Finanzas Cuantitativas con Python
+Facultad de Ciencias - UNAM
+Mexico City, 30 October 2020
+Optimisation Problems - Mauricio Labadie
+1
+
+Exact solution for
+portfolio optimisation
+(cid:2869) (cid:2869)
+• Let and
+(cid:3015) (cid:3015)
+• We have already found an optimal solution for a portfolio hedge that is beta an delta neutral:
+(cid:2869)
+ If then the problem is to find such that
+(cid:2870)
+(cid:2869) (cid:2868)
+(cid:2869) (cid:2870) (cid:2870) (cid:2868) (cid:2868)
+ If then the solution exists and is unique:
+(cid:2869) (cid:2870)
+(cid:2879)(cid:2869)
+(cid:2869) (cid:2868)
+(cid:2870) (cid:2869) (cid:2869) (cid:2868) (cid:2868)
+Optimisation Problems - Mauricio Labadie
+2
+
+Numerical solution for
+portfolio optimisation
+(cid:2869) (cid:2869)
+• Let , and
+(cid:3015) (cid:3015)
+• Define
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:3029)(cid:3032)(cid:3047)(cid:3028)
+• where
+(cid:3021) (cid:2870)
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:2868)
+(cid:3021) (cid:2870)
+(cid:3029)(cid:3032)(cid:3047)(cid:3028) (cid:2868) (cid:2868)
+• The cost function is a quadratic function in i.e. its gradient is linear in and its Hessian
+matrix (second derivatives) is constant
+• If then has at least one global minimum
+(cid:3040)(cid:3036)(cid:3041)
+• where
+(cid:3021)
+(cid:3040)(cid:3036)(cid:3041) (cid:2868)
+(cid:3021)
+(cid:3040)(cid:3036)(cid:3041) (cid:2868) (cid:2868)
+Optimisation Problems - Mauricio Labadie
+3
+
+Numerical solution for portfolio
+optimisation with constraints
+• If then there are infinitely many solutions to the problem
+• We are interested in the solution with “smallest weights”, that is with the smallest norm
+• We could try to to minimise norm under the constraints of beta and delta neutrality:
+ Minimise
+(cid:2870)
+ Under the constraints
+(cid:3021)
+(cid:2869) (cid:2868)
+(cid:3021)
+(cid:2870) (cid:2868) (cid:2868)
+• This is a standard problem that can be solved using Lagrange Multipliers
+• But it does not solve the issue in we found in practice of “very large weights” when
+ The hedge of mnUSD BBVA.MC was mnUSD CAC40 and mnUSD DAX
+ We need to find a solution that the portfolio manager likes: one-sided hedge
+Optimisation Problems - Mauricio Labadie
+4
+
+Numerical solution for portfolio
+optimisation with regularisation
+(cid:2869) (cid:2869)
+• Let , and
+(cid:3015) (cid:3015)
+• Define
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:3029)(cid:3032)(cid:3047)(cid:3028) (cid:3043)(cid:3032)(cid:3041)(cid:3028)(cid:3039)(cid:3047)(cid:3052)
+• where
+(cid:3021) (cid:2870)
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:2868)
+(cid:3021) (cid:2870)
+(cid:3029)(cid:3032)(cid:3047)(cid:3028) (cid:2868) (cid:2868)
+(cid:2870)
+(cid:3043)(cid:3032)(cid:3041)(cid:3028)(cid:3039)(cid:3047)(cid:3052)
+• The parameter will allow the portfolio manager to control the degree of “one-
+sidedness” of the optimal solution
+ No constraints  we solve the problem without the need of Lagrange Multipliers
+ The solution cannot be perfectly beta-neutral and delta-neutral, as before
+ But the portfolio manager will like this solution more than the exact solution
+Optimisation Problems - Mauricio Labadie
+5
+
+Minimum-variance portfolio as an
+optimisation problem with constraints
+• Let be a variance-covariance matrix i.e. symmetric and positive-definite
+(cid:3021) (cid:3015)
+ At this stage, just think about a matrix such that for all
+(cid:3015)
+• The minimum-variance portfolio is a vector of weights or notionals that
+minimises the variance, defined as
+(cid:3021)
+• Of course, the global minimum is , which can only occur when
+• But this is a boring solution: we want a portfolio that is not zero, hence we need to add some
+restrictions:
+ Non-negative weights: for all
+(cid:3041)
+ Unitary portfolio in -norm or -norm, respectively:
+(cid:2870) (cid:2869)
+(cid:2869)/(cid:2870)
+(cid:2870)
+(cid:2870) (cid:3041)
+(cid:2869) (cid:3041)
+Optimisation Problems - Mauricio Labadie
+6
+
+Markowitz portfolio as an
+optimisation problem with constraints
+• The Markowitz portfolio is the minimum-variance problem before with an extra
+restriction on the returns of the portfolio
+(cid:2869)
+• Let be the vector of returns, and define a target return
+(cid:3047)(cid:3028)(cid:3045)(cid:3034)(cid:3032)(cid:3047)
+(cid:3015)
+• The problem is now to minimise the variance
+(cid:3021)
+under the following restrictions:
+ Non-negative weights
+ Unitary portfolio in -norm or -norm
+(cid:2870) (cid:2869)
+ New restriction: portfolio return equals to the given target return
+(cid:3021)
+(cid:3047)(cid:3028)(cid:3045)(cid:3034)(cid:3032)(cid:3047)
+• Both problems, minimum variance portfolio and Markowitz portfolio, are standard
+minimisation problems with restrictions
+ As such, they can be solved using Lagrange multipliers
+Optimisation Problems - Mauricio Labadie
+7
+
+Lagrange Multipliers
+Statement of the problem
+• Suppose we have the following minimisation problem:
+(cid:3015)
+ Minimise the (scalar-valued) function
+ Under the constraint
+• If is the minimum of in the dimensional surface then
+there exists a real number such that
+• Define the Lagrangian
+• Solving the constrained problem is equivalent to solving the unconstrained problem:
+(cid:3015)(cid:2878)(cid:2869)
+ Minimise
+• This is true because:
+Optimisation Problems - Mauricio Labadie
+8
+
+Lagrange Multipliers
+Proof
+• Let and be any curve on with
+• Define as
+(cid:4593)
+• If has a local minimum at then
+(cid:4593) (cid:3021) (cid:4593)
+• By the Chain Rule we have
+• Hence is orthogonal to all tangent vectors of at
+(cid:3043)
+• Define as
+(cid:4593)
+• Since then , which implies
+(cid:4593) (cid:3021) (cid:4593)
+• By the Chain Rule again
+• In consequence
+(cid:3043)
+• But is an dimensional plane
+(cid:3043)
+• Therefore and must be collinear:
+Optimisation Problems - Mauricio Labadie
+9
+
+Lagrange Multipliers
+Several constraints
+• For any assume we have a constraint
+(cid:3038)
+• Define the dimensional surface
+(cid:3038) (cid:3038)
+ Then is a surface with dimension
+(cid:3038)
+• If has a local minimum at then
+(cid:3043)
+• As before, we can prove that
+(cid:3038) (cid:3043)
+⏊
+• Define the orthogonal space
+(cid:3043) (cid:3043)
+ is an dimensional plane
+(cid:3043)
+ Therefore is a subspace of dimension
+(cid:3043)
+• Since are vectors in the
+(cid:2869) (cid:3012)
+dimensional space they are linearly dependent:
+(cid:3043)
+(cid:3038) (cid:3038)
+Optimisation Problems - Mauricio Labadie
+10
+
+Taylor expansion and
+the Hessian matrix
+(cid:3041)
+• Let and consider a twice differentiable function
+(cid:2869) (cid:3041)
+• The Taylor expansion of second order is
+(cid:3021) (cid:3021) (cid:2870)
+where:
+(cid:2870) (cid:2870)
+(cid:2870)
+(cid:2869) (cid:2869) (cid:3041)
+(cid:2870) (cid:2870)
+(cid:2870)
+(cid:3041) (cid:2869) (cid:3041)
+• The matrix is called the Hessian (matrix)
+• Since is twice differentiable then is a symmetric matrix
+ Therefore, is diagonalizable.
+11 Optimisation Problems - Mauricio Labadie https://tutorial.math.lamar.edu/classes/calcii/multivrblefcns.aspx
+
+Critical points and the Hessian matrix
+(cid:3041)
+• Let be a critical point of
+(cid:2868)
+• Then and the Taylor expansion becomes
+(cid:2868)
+(cid:3021) (cid:2870)
+(cid:2868) (cid:2868) (cid:2868)
+• If then
+(cid:3021)
+(cid:2868) (cid:2868) (cid:2868)
+• Based on the spectral properties of , we have the following statements:
+(cid:2868)
+ If all of the eigenvalues of are positive then is a local minimum
+(cid:2868) (cid:2868)
+ If all of the eigenvalues of are negative then is a local maximum
+(cid:2868) (cid:2868)
+ If there are positive and negative eigenvalues of then is a saddle point
+(cid:2868) (cid:2868)
+https://byjus.com/maths/saddle-points/
+Optimisation Problems - Mauricio Labadie
+12
+
+Minimizing variance and
+optimising portfolios
+• Let be the variance-covariance matrix:
+ It is symmetric and positive definite
+(cid:3021)
+• Consider the variance function
+ It is quadratic and twice differentiable
+• The Hessian matrix is
+itbrief.co.nz
+ It is constant and all its eigenvalues are positive
+• Therefore, any critical point of is a local minimum
+• This holds as well when we have constraints:
+ Minimum variance portfolio
+ Markowitz Portfolio
+ Etc…
+Optimisation Problems - Mauricio Labadie
+13
+
+Morse theory
+• Let us change coordinates to , the eigenvectors of :
+(cid:2868)
+(cid:3021) (cid:2870)
+(cid:2868) (cid:2868) (cid:2868)
+• If the eigenvalues of are then
+(cid:2868) (cid:2869) (cid:2870) (cid:3041)
+(cid:3041)
+(cid:2870) (cid:2870)
+(cid:2868) (cid:2868) (cid:3037) (cid:3037)
+(cid:3037)(cid:2880)(cid:2869)
+• Suppose eigenvalues are negative and are positive:
+(cid:3040) (cid:3041)
+(cid:2870) (cid:2870) (cid:2870)
+(cid:2868) (cid:2868) (cid:3037) (cid:3037) (cid:3037) (cid:3037)
+(cid:3037)(cid:2880)(cid:2869) (cid:3037)(cid:2880)(cid:3040)(cid:2878)(cid:2869)
+• We normalise the coordinates :
+(cid:3040) (cid:3041)
+(cid:2870) (cid:2870) (cid:2870)
+(cid:2868) (cid:2868) (cid:3037) (cid:3037)
+(cid:3037)(cid:2880)(cid:2869) (cid:3037)(cid:2880)(cid:3040)(cid:2878)(cid:2869)
+• Morse Lemma: we can find curvilinear coordinates such that
+(cid:3040) (cid:3041)
+(cid:2870) (cid:2870)
+(cid:2868) (cid:2868) (cid:3037) (cid:3037)
+(cid:3037)(cid:2880)(cid:2869) (cid:3037)(cid:2880)(cid:3040)(cid:2878)(cid:2869)
+https://en.wikipedia.org/wiki/Morse_theory
+Optimisation Problems - Mauricio Labadie
+14
+
+Maximum Likelihood and
+the Hessian matrix 1
+(cid:2870)
+• Let be i.i.d. Normal random variables i.e.
+(cid:2869) (cid:3041) (cid:3037)
+• Their (joint) probability density function is
+(cid:3041) (cid:3041)/(cid:2870) (cid:3041)
+(cid:2870)
+(cid:2870) (cid:2870)
+(cid:3037) (cid:3037) (cid:2870) (cid:2870) (cid:3037)
+(cid:3037)(cid:2880)(cid:2869) (cid:3037)(cid:2880)(cid:2869)
+(cid:2870)
+• Define and the likelihood
+(cid:3041)/(cid:2870) (cid:3041)
+(cid:2870)
+(cid:3037)
+(cid:3037)(cid:2880)(cid:2869)
+• We want to find that maximise .
+(cid:2868) (cid:2868)
+• For easier computations, we will use the log-likelihood:
+(cid:3041)
+(cid:2870)
+(cid:3037)
+(cid:3037)(cid:2880)(cid:2869)
+Optimisation Problems - Mauricio Labadie
+15
+
+Maximum Likelihood and
+the Hessian matrix 2
+• First, we compute the gradient of :
+(cid:3041)
+(cid:3037)
+(cid:3037)(cid:2880)(cid:2869)
+(cid:3041)
+(cid:2870)
+(cid:2870) (cid:3037)
+(cid:3037)(cid:2880)(cid:2869)
+seleritysas.com
+• Second, we find the unique critical point of :
+(cid:2868) (cid:2868)
+(cid:3041)
+(cid:2868) (cid:2868) (cid:2868) (cid:3037)
+(cid:3037)(cid:2880)(cid:2869)
+(cid:3041)
+(cid:2870)
+(cid:2868) (cid:2868) (cid:2868) (cid:3037) (cid:2868)
+(cid:3037)(cid:2880)(cid:2869)
+Optimisation Problems - Mauricio Labadie
+16
+
+Maximum Likelihood and
+the Hessian matrix 3
+• Third, we compute the Hessian of at :
+(cid:2868) (cid:2868)
+(cid:2870) (cid:2870)
+(cid:2870) (cid:2868) (cid:2868) (cid:2868) (cid:2868)
+(cid:2868)
+(cid:2868) (cid:2868) (cid:2870) (cid:2870)
+(cid:2870)
+(cid:2868) (cid:2868) (cid:2870) (cid:2868) (cid:2868) (cid:2868)
+• Both eigenvalues of are negative:
+(cid:2868) (cid:2868)
+ is a global maximum of
+(cid:2868) (cid:2868)
+• The monotonicity of implies that is also a a global maximum of
+(cid:2868) (cid:2868)
+Optimisation Problems - Mauricio Labadie
+17

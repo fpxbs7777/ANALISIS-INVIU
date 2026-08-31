@@ -1,0 +1,927 @@
+Decisiones
+Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 34.
+ADMINISTRACIÓN DE CRÉDITOS E INVENTARIOS
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Determinar cuáles son los aspectos de la política de créditos de una empresa.
+(cid:1) Conceptuar y determinar la información y el análisis necesarios para la evaluación crediticia.
+(cid:1) Determinar los factores para la decisión de otorgar créditos.
+(cid:1) Determinar las probabilidades de otorgar un buen crédito y el costo de la información.
+(cid:1) Cuáles son los aspectos del análisis del crédito en condiciones inflacionarias.
+34,1. INTRODUCCIÓN
+Las empresas tienen diferentes alternativas para cobrar las ventas que realizan, según cuál sea su
+rubro. Las empresas pueden percibir el pago por adelantado, cobrar contra entrega u otorgar plazos para que
+los clientes efectúen los pagos. En las dos primeras alternativas, la venta se realiza al contado; en cambio,
+cuando se dan plazos o facilidades para que los clientes abonen sus pagos se están otorgando créditos. Esta
+forma de dar facilidades es la que se va a analizar, por lo tanto se estudiará aquello que en finanzas se
+denomina la administración de los créditos.
+Otorgar créditos implica crear una organización. El tamaño, las funciones y la complejidad de ésta
+dependerán del monto, el porcentaje y el período promedio de cobro de las cuentas pendientes.
+La empresa que decide dar plazos de pagos invierte su propio capital de trabajo o toma fondos de
+terceros. Las inversiones de la empresa o el endeudamiento para financiar las cuentas por cobrar dependerán
+de los factores que influyan en las ventas a crédito y su cobranza. Estos factores determinan la política de
+crédito a seguir.
+Toda política crediticia se define a la luz de determinados factores:
+1. Condiciones para establecerla modalidad de la venta. Una empresa debe decidir las condiciones de la
+venta cuando otorga un crédito. Estas condiciones establecen el plazo del crédito, los descuentos y las
+tasas de interés a cobrarse, así como el tipo de instrumento crediticio.
+2. Análisis y evaluación crediticios. Antes de otorgar un crédito, la empresa evalúa la capacidad de pago
+de sus clientes, lo que permite estimar la calidad crediticia de su cartera. Las empresas utilizan un
+determinado número de instrumentos y procedimientos para establecer la probabilidad de pago. Una vez
+clasificado el cliente se debe establecer el límite de crédito apropiado, que va relacionado con las
+probabilidades de pago, los beneficios esperados y los costos de la empresa,
+3. Política de cobranzas y recuperación de créditos otorgados. Las empresas deben definir una política
+de cobranzas y establecer procedimientos para actuar en caso de no recibir el pago en los plazos
+establecidos.
+En las siguientes secciones se analizarán cada uno de los factores de la política crediticia. Estos
+componentes ayudarán a tomar decisiones y otorgar créditos.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué se entiende por venta a crédito y cuáles son los factores que determinan la política de créditos de una
+empresa.
+34,2. CONDICIONES PARA ESTABLECER LA MODALIDAD DE LA VENTA
+Las condiciones de la venta explican la política a establecerse en cuanto a la forma de venta. No
+necesariamente toda venta implica otorgar crédito, cuando éste forma parte de la modalidad de venta se
+2
+
+establecen adicionalmente las condiciones y los porcentajes de los posibles descuentos o recargos por
+intereses, así como el tipo de instrumento crediticio a utilizarse.
+Ejemplo
+Se supone que se le ha otorgado un crédito a un cliente bajo los siguientes términos: 3/20 neto 60.
+Esto quiere decir que el cliente tiene 60 días desde la fecha de facturación para pagar y tiene un descuento
+del 3 % en el precio establecido si el pago se realiza dentro de los primeros 20 días. Si los términos
+establecidos son neto 90, el cliente tiene 90 días desde la fecha de facturación y no existirá descuento alguno
+por pago anticipado.
+Dentro de una misma empresa u organización pueden establecerse diferentes condiciones de venta.
+Normalmente, si se trata de un pedido específico con condiciones del producto establecidas por el
+comprador, es probable que se exija el pago por adelantado o que la firma formalice un contrato donde se
+establezcan pagos a cuenta conforme se realicen el avance de obra o la fabricación del bien. Otra posibilidad
+es exigir el pago contra entrega y, por último, otorgar plazos de pago o dar crédito. Asimismo, podrán darse
+condiciones especiales a determinados clientes, por ejemplo, debido al volumen comprado.
+Una empresa puede decidir vender a crédito teniendo en cuenta una combinación de factores:
+(cid:1) El mercado, la naturaleza del mercado o segmento del mismo, la competencia o lo que proponen los
+clientes.
+(cid:1) La situación económica. Si un país tiene estabilidad económica y se destacan, entre otras cosas, las bajas
+tasas de interés y los pequeños índices de inflación y/o devaluación, se podrán tener mejores condiciones
+para generar diferentes tipos de crédito, tanto de consumo como empresariales.
+(cid:1) El crédito puede ser parte de una estrategia Je venta relacionada con el incremento de los ingresos.
+(cid:1) El crédito puede formar parte de una estrategia de posicionamiento de un determinado segmento.
+(cid:1) El capital de trabajo que posea la empresa debe ser el suficiente como para permitir la venta a crédito.
+(cid:1) Si es sujeto de crédito tanto de sus proveedores como del sistema financiero.
+(cid:1) El tipo de producto que fabrica y/o servicio que brinda.
+(cid:1) Considerar si la empresa produce o sólo comercializa, de ser así, comprobar si es mayorista.
+Las transacciones crediticias se realizan en una gran diversidad de formas y su descripción también
+es variada, pero, por lo general, siguen cierta lógica. Por ejemplo: si el monto es pequeño, el plazo será corto;
+en cambio, si se trata de un producto intermedio, el crédito se otorgará en relación con el plazo de
+producción del bien final.
+Algunos tratadistas han descrito que cada sector de la economía tiene preestablecida, por lo general,
+su modalidad crediticia, la cual puede ir cambiando con el tiempo.
+Otros aspectos generales a considerar en el análisis de las decisiones de política de créditos son:
+(cid:1) ¿Qué porcentaje del total de ventas consistirá en ventas al crédito?
+(cid:1) El tipo de artículo que se produce y/o comercializa. Por ejemplo, si vende un bien intermedio, un bien
+final, un producto perecedero, alimentos, productos de gran demanda u otros.
+(cid:1) La naturaleza del mercado o segmento al que se dirige.
+(cid:1) El porcentaje de venta a crédito por cliente, si es que lo que se quiere hacer es de manera general o si se
+los clasifica de alguna forma.
+(cid:1) La estructura de premios y/o desincentivos en ventas a crédito.
+Adicionalmente se debe considerar la estacionalidad de las ventas. ¿En qué épocas del año se puede
+dar crédito y en qué períodos se debe incrementarlos o reducirlos? Cuando las ventas son por temporadas, la
+empresa debe fijar sus fechas de cobro en relación con la temporada. Por ejemplo, en una empresa
+manufacturera de artículos para la producción de helados con una política de fechas por temporadas que está
+ligada a los crecimientos de la demanda por la estación, los pagos por embarques en invierno, se podrán
+hacer efectivos en primavera o verano.
+Los elementos fundamentales de las condiciones de venta son:
+1. Plazo del crédito.
+3
+
+2. Descuentos y/o recargos por intereses.
+3. Instrumentos de crédito.
+A continuación se describe cada uno de ellos.
+Plazo del crédito
+Decidir la duración del período permitido para el pago, es decir, el plazo de crédito, dependerá de
+una serie de factores. Entre los aspectos más importantes a considerar están los siguientes:
+1. El ciclo de conversión del capital. Una empresa que vende proyectos integrales exigirá una parte por
+adelantado y aprobará un crédito a un plazo relacionado con el tiempo en que la nueva empresa
+comience a producir o que el proyecto esté en marcha.
+2. El ciclo de conversión de caja. Una empresa que vende insumos, considerará como plazo adecuado de
+cobro la venta del bien final.
+3. La probabilidad de pago del consumidor. Una empresa en la que sus clientes tienen un alto riesgo en
+el negocio se encontrará ofreciendo términos restrictivos en el crédito.
+4. El tamaño de la cuenta. Si la cuenta es pequeña, el período de crédito puede ser pequeño, debido a que
+esta clase de cuentas son más costosas de manejar.
+5. El plazo en que los bienes que se entregan, se venden, o si son perecibles o no. Si los bienes no
+pueden ser mantenidos por un largo período, el crédito otorgado deberá ser de corto plazo.
+6. Las condiciones del mercado y la capacidad de negociación del cliente.
+Si la política de la empresa no permite cobrar intereses, ni incluirlos dentro del precio final del bien
+que se ofrece, la ampliación del período de crédito reduce el precio pagado por el cliente, lo que
+generalmente incrementa las ventas.
+Descuentos y/o recargos por intereses
+Los descuentos permiten acelerar la cobranza y disponer antes de liquidez. La empresa debe negociar
+esto contra el costo del capital; los intereses permiten recuperar el valor del capital invertido o, en todo caso,
+pagar por el uso del capital de terceros.
+Ejemplo
+El gerente financiero de una empresa recibe una solicitud del gerente de ventas para establecer una
+política de descuento del 3 % por cada 10 días de adelanto en el pago. Se decide evaluar las implicancias en
+el flujo de caja asumiendo lo siguiente:
+(cid:1) En la actualidad se cobra en 30 días.
+(cid:1) El descuento se realizaría si pagan dentro de los primeros 10 días o dentro de los primeros 20 días.
+(cid:1) El monto de la venta es de $ 30.000 u otra unidad monetaria.
+(cid:1) El costo de deuda del capital es del 10%.
+(cid:1) El pago se realiza en efectivo.
+4
+
+Figura 34,1.
+Flujo de caja de diferentes condiciones de crédito.
+Calculando el valor presente para las diferentes alternativas:
+Política actual
+30.000
+V.P.N.(cid:1) (cid:1)29.755,4
+30
+0,1(cid:2)
+365
+Política propuesta
+29.100
+V.P.N. (cid:1) (cid:1)28.941,43
+20
+0,1(cid:2)
+365
+28.200
+V.P.N. (cid:1) (cid:1)28.122,97
+10
+0,1(cid:2)
+365
+El cálculo muestra que el descuento le costaría a la empresa 813,97 (29.755,4 - 28.941,43) si lo
+otorgaran hasta los 20 días, y 1.632,43 (29,755,4 - 28.122,97) si lo otorgaran hasta los 10 días;
+consecuentemente, la empresa está mejor con el crédito ya acordado.
+En el ejemplo anterior se supone que modificar las condiciones y establecer descuentos por pago a
+corto plazo no tiene otros efectos. Sin embargo, si se asume que otorgar descuentos puede generar un
+incremento en las ventas y puede permitir una estructura diferente de costos al contar con la liquidez en
+menor plazo, la nueva política podría mejorar los resultados de la empresa.
+5
+
+Ejemplo
+Si se ofreciera un descuento del 3 % por pagar a los 20 días y del 6 % por pagar a los 10 días, los
+clientes incrementarían el tamaño de la orden de compra en un 20 %. Esto es, el cliente incrementará el
+tamaño de la orden de compra a 36.000 y con el 3 % y el 6 % de descuento pagará $ 34.920 y $ 33.840,
+respectivamente. El costo marginal será de $ 3.600, suponiendo que la empresa tiene costos marginales de $
+0,10 por $ 1 de venta (que se suponen en el momento 0).
+Figura 34,2.
+Flujo de caja de diferentes términos de crédito: el impacto de las nuevas ventas y los costos.
+Calculando el valor presente para las diferentes alternativas:
+Política actual
+30.000
+V.P.N. (cid:1) -3.000(cid:3) (cid:1)26.755,44
+30
+0,1(cid:2)
+365
+Política propuesta
+34.920
+V.P.N. (cid:1) -3.600(cid:3) (cid:1)31.129,72
+20
+0,1(cid:2)
+365
+6
+
+33.840
+V.P.N. (cid:1) -3.600(cid:3) (cid:1)30.147,56
+10
+0,1(cid:2)
+365
+La nueva política crediticia, cuyo efecto neto es el producto de diferentes factores -tales como: los
+distintos porcentajes de descuentos, el incremento en el nivel de ventas, los mayores costos iniciales y el
+costo de capital-, permitirá visualizar una mejor situación comparada con la inicial.
+Instrumentos de crédito
+Existen varios tipos de instrumentos de crédito. El uso de los mismos dependerá de la confianza
+entre las partes y del monto de la transacción.
+Cuentas comerciales. La mayoría de los créditos no tienen títulos valores que lo respalden, los contratos son
+implícitos y el único instrumento de crédito formal es la factura. Estos créditos se trabajan como cuentas
+abiertas, donde las empresas y sus clientes registran la transacción en sus libros de cuentas, luego de recibida
+la mercadería y cancelada la factura.
+Una empresa puede también utilizar contratos, que pueden ir desde los muy simples hasta los
+contratos de venta condicional, como un instrumento de crédito. El contrato de venta condicional es un
+acuerdo mediante el cual la empresa mantiene la propiedad legal sobre los bienes hasta que el cliente haya
+completado su pago.
+Pagarés. Son documentos que contienen para el tenedor la promesa incondicional, de pagar a su orden una
+suma de dinero, en un lugar y fecha determinados. Cuando se trata de órdenes de sumas significativas para la
+empresa o la empresa prevé un problema en la cobranza, conviene solicitar al cliente la firma de un pagaré,
+que podrá ser avalado. Los pagarés pueden eliminar futuras controversias sobre la existencia del crédito. Los
+pagarés son documentos al "portador", lo que le permite al tenedor venderlos o usarlos como garantía. El
+problema de los pagarés es que son firmados después de despachada la mercadería.
+Letras. Las letras, o letra de cambio, son títulos de crédito que contienen una orden incondicional, emitidos
+por un girador a otra persona, llamada girado, para que pague cierta suma de dinero en determinada fecha (a
+la vista o en día específico) a una tercera persona denominada beneficiario. Es una manera ordenada y clara
+de administrar créditos. La empresa que vende redacta una letra, en la cual pide al cliente que pague una
+cantidad específica en una fecha también específica. La letra es enviada al banco del cliente con las facturas
+y documentos de embarque. El banco hace firmar la letra al comprador. Si se requiere pago inmediato será
+pagadera a la vista; de lo contrario, especificará la fecha de vencimiento. El banco cancelará las facturas y
+procederá al endoso de los documentos de embarque; el problema que se puede suscitar con las letras a la
+vista, es que el pago se realiza antes de conocer si la mercadería a recibir coincide con la mercadería
+solicitada. Cuando se otorgan plazos y la letra firmada no es suficiente para el vendedor, se puede pedir al
+banco que garantice el pago y cobre el dinero al comprador.
+Cuando el banco está de acuerdo suscribe un documento denominado "aceptación bancaria", que es
+una letra respaldada por los activos de la institución, lo que significa que el banco acepta la responsabilidad
+por el pago. Las aceptaciones bancarias pueden ser descontadas y así se permitirá liquidez inmediata.
+Créditos documentarios. Son los convenios de compraventa que establece un banco emisor, por cuenta y
+orden de un comprador, para pagar a un vendedor proveedor a través de la institución financiera, siempre y
+cuando cumpla las condiciones específicas determinadas en el documento. Los créditos documentarios son
+irrevocables. Son instrumentos utilizados, generalmente, para transacciones internacionales.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ADELANTE
+1. Los plazos, los descuentos y los instrumentos de crédito como parte de los términos de la venta.
+34,3. ANÁLISIS CREDITICIO
+7
+
+Cuando otorga créditos, cada empresa trata de distinguir entre los clientes que pagarán y los que, tal
+vez, no puedan hacerlo, y así estimar la calidad crediticia de cada cliente. Existe una serie de recursos de
+información que permiten al evaluador conocer el riesgo que desea asumir.
+Una vez que se ha estimado la capacidad de pago es importante establecer el límite de un crédito
+apropiado. Si la probabilidad de pago de un cliente multiplicada por el beneficio esperado es mayor que la
+probabilidad de no cobrar por el costo de la mercancía, se estará en, el camino de maximizar beneficios.
+Información, análisis y evaluación crediticios
+La información, el análisis y la evaluación del sujeto de crédito son muy importantes para determinar
+el riesgo crediticio correspondiente. Es de utilidad para esta sección lo establecido en el cap, 31 sobre
+algoritmo de diagnóstico financiero.
+Algunos aspectos de paraclínica financiera son:
+Estados financieros. Una empresa puede solicitar al cliente que le proporcione sus estados financieros.
+Existen evaluaciones basadas en ratios financieros, los que pueden ser calculados e interpretados.
+Informes de crédito o historia¡ de pagos con otras empresas. Muchas empresas venden información o dan
+referencia sobre otras empresas. Entre las más serias están Moody's y Standard & Poor's, que publican la
+clasificación de los clientes, o Dun & Bradstreet, que brinda a sus suscriptores un libro de referencias de
+crédito o reportes individuales de diferentes empresas.
+Bancos. Los bancos, generalmente, brindan asistencia a sus diferentes clientes de negocios dándoles la
+información más exacta posible sobre el riesgo crediticio de otras empresas.
+Historial de pago del cliente con la empresa. La manera más obvia de obtener información estimada del
+cliente sobre la probabilidad de no pagar es determinarla en relación con la realización del pago o no de sus
+cuentas anteriores.
+Clasificación de los créditos mediante puntuaciones. Este método sistemático permite recoger y organizar
+información de modo que, con determinado puntaje, la probabilidad de pago se hace calculable.
+Elaboración de índices de riesgo. Existen algunas técnicas estadísticas que permiten correlacionar variables
+para estimar la probabilidad de un suceso. Las más conocidas son el análisis discriminante multivariante, el
+análisis probit y el logit. Estos análisis discriminantes multivariantes permiten predecir la calidad de los
+riesgos comerciales.
+En el cap. 36 se exponen varios de ellos.
+La decisión de otorgar un crédito
+Una vez establecidos las condiciones de la venta, el plazo para realizar el pago y el instrumento de
+reconocimiento de deuda, y analizada y evaluada la información, la empresa enfrenta la decisión de otorgar
+un crédito o denegarlo.
+Muchas empresas utilizan el método tradicional de las 5 "C" del crédito.
+1. Carácter. El deseo del cliente de enfrentar sus obligaciones crediticias.
+2. Capacidad. La habilidad del cliente de enfrentar sus obligaciones.
+3. Capital. Las reservas financieras del cliente.
+4. Colaterales. Una garantía en caso de no pago.
+5. Condiciones. Condiciones económicas generales.
+La decisión y el límite van directamente relacionados con la probabilidad del pago y el beneficio
+esperado. Es bastante simple: se deniega el crédito, con lo cual no se gana ni se pierde, o se aprueba. Si se
+aprueba la probabilidad de que el cliente pague, es p. Si el cliente paga, se reciben ingresos adicionales (ING)
+8
+
+y se tienen costos adicionales (COS), por lo que la ganancia neta sería el valor presente de ING menos COS.
+Pero, además, existe la probabilidad de que el cliente no pague (1 - p), lo que significa que no se recibirían
+ingresos pero sí se incurrirá en gastos adicionales. El beneficio esperado de las dos alternativas será:
+BENEFICIO ESPERADO
+No otorgar el crédito 0
+Otorgar el crédito pVA (ING – COS) – (1 – p) VA (COS)
+El crédito se deberá otorgar si el beneficio esperado de hacerlo es mayor que el de no hacerlo.
+En el análisis financiero moderno, los elementos con los cuales elaborar los datos de base para la
+adopción de la decisión de otorgar el crédito o no son los mismos que se vienen señalando desde cap. 1.
+En este caso son:
+a) El tiempo en recibir los ingresos.
+b) El tiempo en efectuar los costos.
+c) La tasa de rendimiento requerida.
+d) El análisis probabilísticos de los flujos en el tiempo.
+e) La evolución de las ventas. Con un ejemplo sencillo pueden ilustrarse estas condiciones.
+Ejemplo
+En una empresa se debaten dos estrategias: otorgar créditos o no.
+Se supone que la empresa ha determinado que si no ofrece crédito al cliente, puede vender sus
+productos en $ 120 cada uno, y se estimó que sus costos para producir son $ 35 por unidad. La cantidad
+vendida es 100 unidades.
+La alternativa es ofrecer un crédito. En este caso, se les otorga un plazo de pago a los clientes y se
+considera una cartera a la que se le asigna una probabilidad de pago dentro de determinados días. La empresa
+ha considerado que si ofrece crédito, tendría mayores ventas pero también mayores costos ($ 40 por unidad).
+Los elementos señalados en este caso en particular son:
+a) El tiempo de los ingresos es de 30 días si se concede el crédito. Si no se lo concede es de 0 días.
+b) El tiempo de los costos es de 0 días, esto es, se considera que se pagan al comienzo del análisis.
+c) La tasa de descuento es del 12 % mensual.
+d) La probabilidad de los cobros es del 95 %.
+e) Si se vende a crédito se pueden aumentar las ventas en un 20 %.
+Para el caso de la venta al contado la situación será:
+Ingresos 100 × 120 = 12.000
+Costos 100 × 35 = 3.500
+Ingreso neto = 8.500
+––––––
+Para el caso de la venta a crédito, será:
+120(cid:2)120
+Ingresos inciertos(cid:1) (cid:1)14.229
+1(cid:3)0,012
+Ingresos ciertos(cid:1) 14.229 (cid:2) 0,95 (cid:1)13.518
+Costos (cid:1) 120 (cid:2) 40 (cid:1) 4.800
+9
+
+El valor presente neto será:
+13.518 - 4.800 = 8.718
+De donde, con los supuestos establecidos, la estrategia crediticia arroja un valor presente neto mayor
+que la venta al contado.
+La política de créditos óptima
+Una forma de abordar la política óptima de créditos es, como muchas decisiones financieras, a través
+de la minimización de los costos de la misma. Los costos que se generan con el otorgamiento de créditos son
+los costos adicionales crediticios que, en general, son derivados de los propios costos de conceder créditos,
+las insolvencias que se producen y el resultante del valor tiempo del dinero.
+Por otra parte decrecen, al aumentar los créditos, los costos de oportunidad de perder realizar ventas.
+La fig. 34,3 muestra la evolución de ambos costos y del costo total.
+Figura 34,3
+Los ingresos netos, derivados de los valores presentes de esos flujos, son la otra parte del análisis.
+De esta forma, el monto óptimo de crédito a otorgar se verifica cuando el valor presente neto de
+los ingresos marginales se iguala al valor presente neto en los costos marginales de conceder créditos.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo determinar el riesgo crediticio adecuado en cada caso.
+2. Describir cuándo la decisión debe ser otorgar crédito y cuándo no.
+34,4. POLÍTICA DE COBRANZAS
+Una política adecuada de cobranzas debe lograr el pago oportuno de los créditos otorgados a los
+clientes. La empresa debe llevar un registro sistemático y ordenado de los pagos que efectúan los clientes.
+10
+
+Período promedio de cobranzas
+El período promedio de cobranzas de las ventas a crédito mide la cantidad promedio de tiempo que
+las cuentas por cobrar de la empresa han permanecido en sus libros. Este se analiza en mayor detalle en el
+cap. 36.
+Como se verá éste es:
+stock de cuentas por cobrar
+Período promedio de cobranzas de las ventas a crédito = –––––––––––––––––––––––
+ventas a crédito del año
+–––––––––––––––––––––
+365
+Aging
+El tiempo que permanecen sin percibirse las cuentas a cobrar se conoce en la literatura financiera
+como aging. En esta aproximación al control de las cobranzas de los créditos, los saldos del stock de cuentas
+a cobrar se distribuyen, ya sea en montos absolutos o en porcentajes, en el tiempo que tienen en ese stock, tal
+como lo muestra el cuadro 34,1.
+Vencidas
+Total de
+Mes cuentas a En plazo 1-30 31-60 61-90 + de 91
+cobrar
+Julio 400 40 22 17 12 9
+Agosto 420 45 18 20 13 4
+.
+.
+.
+.
+.
+Diciembre 500 55 15 12 10 8
+Cuadro 34,1. Aging (en %).
+En el cuadro de aging aparece a fines de julio un total de cuentas a cobrar de 400 unidades
+monetarias. De ese stock, el 40 % está en plazo, que en el ejemplo se considera hasta 30 días contados desde
+la fecha en que efectuó la venta. El 22 % está vencido de 1 a 30 días, el 17 % de 31 a 60 y así sucesivamente.
+En diciembre, las cuentas en plazo habían subido al 55 %. La información que brinda el aging suele ser más
+rica que la del período de cobranzas toda vez que evita un promedio para mostrar cómo evoluciona el
+comportamiento de la antigüedad de las cuentas a cobrar.
+Sin embargo, mantiene la dificultad que presenta el período de cobranzas que puede, potencialmente,
+enviar señales erróneas cuando las ventas tienen serias fluctuaciones.
+Patrón de los saldos de cuentas a cobrar
+El método conocido como patrón de los saldos de cuentas a cobrar ha sido sugerido como una
+alternativa al aging. En él, se muestra, de la venta de cada mes (por ejemplo), qué porcentaje y qué
+antigüedad quedan con el correr del tiempo sin cobrar. En el cuadro 34,2, que ilustra un ejemplo, se observa
+que de $ 200 de ventas efectuadas en julio existió un 80 % que estaba dentro del plazo de treinta días; de
+esos mismos $ 200 de ventas en agosto permanecía un 30 % y así sucesivamente. De las ventas de agosto, el
+82 % estaba en plazo; en setiembre un 32 % de los $ 210 vendidos y así se puede continuar.
+Mes Ventas Julio Agosto Setiembre ....................... Diciembre
+Julio 200 80 30 4
+11
+
+Agosto 210 82 32 15
+Setiembre 215 84
+. .
+. .
+. .
+. .
+Diciembre 240 35
+Cuadro 34,2. Saldo de cuentas a cobrar al fin del mes (en %).
+Siguiendo las diagonales del cuadro (80, 82, 84 ... ) se puede apreciar el comportamiento del cobro
+de las ventas de sucesivos meses.
+Este método se suele presentar como mejorando los anteriores en el sentido de que evita los
+problemas de fluctuaciones en las ventas, así como las estacionalidades en ellas y las variaciones debidas a
+problemas inflacionarios.
+Cabe señalar que el patrón de los saldos de cuentas a cobrar es, además, de mucha utilidad en la
+confección del presupuesto del fluir de caja.
+Procedimientos para la cobranza
+Una vez vencidos los plazos para la recuperación de los créditos otorgados, las empresas usualmente
+emplean los siguientes procedimientos para clientes con cobranzas vencidas:
+1. Llamar al cliente para solicitarle que se ponga al día en la cobranza.
+2. Enviar hasta tres cartas de aviso por incumplimiento de obligaciones.
+3. Contratar a una empresa especializada en cobranzas atrasadas.
+4. Iniciar una acción legal contra el cliente.
+La empresa, por lo general, se rehusará a otorgarle otro crédito hasta que el pago atrasado haya sido
+cancelado. Esto conduce a un problema potencial entre los responsables del crédito y los correspondientes a
+la realización de las ventas.
+Ventas de cuentas por cobrar (factoring)
+El factoring se refiere a la venta de las cuentas por cobrar de una empresa a un banco o, más general,
+a una institución financiera. El cliente efectúa sus pagos directamente al banco. Si el banco compra sin
+recurso asume los riesgos de no pago del cliente, si la condición es con recurso, entonces la institución
+financiera puede revender aquellos créditos impagos.
+El banco compra las cuentas por cobrar a un porcentaje relacionado con la tasa de interés de mercado
+vigente.
+Existe la posibilidad de protección contra créditos dudosos, mediante un seguro de crédito.
+Obviamente, la empresa de seguros de crédito querrá tener la garantía de que no se actúa sin precaución,
+dando créditos sin límite a las cuentas más especulativas. Por lo tanto, impone generalmente una cantidad
+máxima que se compromete a cubrir en las cuentas con una calificación crediticia concreta. Así, puede
+aceptar cubrir hasta un total de 100.000 dólares de ventas a cada cliente que posea la más alta calificación,
+hasta 50.000 dólares para los que tengan la siguiente clasificación más alta, y así sucesivamente. Se puede
+reclamar indemnización no sólo si el cliente llega a ser realmente insolvente, sino también si una cuenta
+vence y hay demora en el pago. Dicha cuenta morosa se entrega directamente a la empresa de seguros, que
+hará todo lo posible por cobrarla.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo obtener el período promedio de las cuentas por cobrar.
+2. Diferencia entre un factoring y un descuento de documentos.
+34,5. PRINCIPIOS CREDITICIOS GENERALES
+12
+
+Las decisiones de inversión en cuentas por cobrar, así como las decisiones financieras, se orientan
+hacia el objetivo de maximización del valor de la empresa. En este contexto, las asociaciones de riesgo y
+rentabilidad tienen un papel preponderante.
+No existe una receta exacta a seguir cuando se tiene que tomar la decisión de otorgar créditos, sin
+embargo, existen principios generalmente sugeridos para ser tomados en cuenta para incrementar ventas,
+generar mayores utilidades y reducir las cuentas incobrables, todo ello buscando maximizar el valor.
+La decisión de una empresa de otorgar crédito será viable si se cumple con determinadas exigencias,
+como por ejemplo:
+1. Si la empresa puede maximizar el valor. No se trata de reducir al máximo el número de cuentas por
+cobrar, sino de maximizar el valor. Lo mejor que puede pasar es que el cliente pague pronto; lo peor es
+que no pague. En el primer caso, la empresa recibe los ingresos adicionales totales de la venta menos los
+costos adicionales, en el segundo, no recibe nada y pierde los costos. Si el margen de beneficio es alto, se
+puede justificar una política crediticia liberal; si es bajo, no se pueden soportar muchos créditos de
+dudoso cobro.
+2. Si la empresa tiene la capacidad de efectuar análisis crediticios en forma dinámica, debido a que
+las decisiones crediticias son dinámicas.
+3. Si la empresa tiene ventajas en costos sobre otras empresas que otorgan préstamos.
+4. Si la empresa puede ofrecer menores tasas de interés a clientes por diferentes motivos. Los clientes con
+altos riesgos pagan mayores tasas.
+5. Si la empresa tiene el personal idóneo para efectuar los análisis crediticios. Debe concentrar su
+análisis en las cuentas más complejas. No hay que emplear el mismo esfuerzo en el análisis de todas las
+solicitudes de crédito. Si una solicitud es pequeña o clara, la decisión debería ser, en buena parte,
+rutinaria; si es grande o dudosa, sería mejor hacer un estudio crediticio detallado. Se deben realizar
+evaluaciones periódicas para establecer el límite para cada cliente, este límite variará si cambian las
+condiciones.
+6. Si la empresa vendedora puede obtener un trato favorable en materia impositiva. Los créditos de
+largo plazo pueden calificar como un plan de pago en cuotas, lo que permite a la empresa registrar las
+ganancias de la venta durante todo el período del préstamo. Esto permitirá ahorrar impuestos debido a
+que el valor presente de los pagos impositivos serán menos en e¡ tiempo del préstamo.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Los principios crediticios generales.
+34,6. LA INFLACIÓN Y LAS CUENTAS POR COBRAR
+Las decisiones financieras de cuentas por cobrar, corno se ha señalado, deben tener como objetivo la
+maximización del valor de la firma.
+Establecer una política de cobranza involucra, como se vio, costos y, por lo tanto, se deberán tomar
+en consideración los siguientes elementos:
+a) Las variables controlables:
+1. Período.
+2. Descuento de caja,
+3. Gastos de cobranza.
+4. Categorías de clientes.
+b) La tasa de rendimiento requerida.
+c) La tasa de inflación.
+En esta sección se verá a través de un ejemplo, para facilitar más la exposición del tema, un análisis
+de cuentas a cobrar bajo condiciones inflacionarias.
+En este ejemplo, una empresa debe analizar la rentabilidad de ingresar en una nueva categoría de
+clientes para lo cual debe reunir la siguiente información:
+Número estimado de nuevos clientes: 50.
+13
+
+Probabilidad de cobranza
+0 a 30 días 0,10
+31 a 60 días 0,20
+61 a 90 días 0,50
+91 a 120 días 0,10
+Más de 120 días 0,10
+Cuadro 34,3.
+A partir de los 120 días la empresa considera incobrables las cuentas.
+Descuento de caja: la empresa vende a 90 días y las condiciones de pago estipulan un descuento del
+5 % si el pago se produce dentro de los primeros 30 días y del 2 % si el pago se efectúa dentro de los 60 días.
+Incremento de ventas previsto: $ 10. 000.
+Incremento de costos de venta: $ 5.000. Este egreso se produce 30 días antes de la venta, cuando se
+efectúa la producción.
+Gastos de cobranza: 3 % sobre las ventas, en caso de cobrarse luego de los 90 días.
+Tasa de rendimiento requerida: 5 % mensual.
+Tasa de inflación que interesa a la empresa: 2 % mensual,
+A efectos de evaluar la inversión se aplicará el criterio del valor presente neto, para lo cual, se
+determinará el valor presente de los ingresos, del que se deducirá el valor presente de los gastos de
+recuperación y el del costo de ventas.
+En todos los casos, los montos previstos son llevados a moneda constante y luego expresados en
+moneda del momento cero, esto es, del momento de la venta. Cabe señalar que, en tanto los ingresos y los
+gastos de recuperación del crédito se producen luego de la venta, los costos de venta se producen con
+anterioridad a la misma.
+VALOR PRESENTE DE LOS INGRESOS (EN PESOS)
+Ingreso en pesos Probabilidades Ingresos actualizados
+Fecha del ingreso días Ingresos actualizados
+constantes (cobro) esperados
+0 a 30 9.804 9.337 0,10 934
+31 a 60 9.612 8.718 0,20 1.744
+61 a 90 9.422 8.140 0,50 4.070
+91 a 120 9.238 7.600 0,10 760
++ de 120 – – 0,10 –
+Valor presente esperado de los ingresos 7.508
+Cuadro 34,4.
+VALOR PRESENTE DE LOS GASTOS DE RECUPERACIÓN DEL CRÉDITO
+Fecha del egreso días Descuentos Gastos de cobranza Total de gastos
+0 a 30 500 – 500
+31 a 60 200 – 200
+61 a 90 – – –
+91 a 120 – 300 300
++ de 120 – 300 300
+Cuadro 34,5.
+14
+
+VALOR PRESENTE DEL COSTO DE LAS VENTAS
+Egresos en pesos Probabilidades Egresos actualizados
+Fecha del egreso días Egresos actualizados
+constantes (cobro) esperados
+0 a 30 490 467 0,10 47
+31 a 60 192 174 0,20 35
+61 a 90 – – 0,50 –
+91 a 120 277 228 0,10 23
++ de 120 277 228 0,10 23
+Valor presente esperado de los egresos 128
+Cuadro 34,6.
+5.000 (1,02) (1,05) = 5.355
+VALOR PRESENTE NETO DE LA ESTRATEGIA
+Valor presente esperado de los ingresos 7.508
+Valor presente esperado de los gastos de recuperación del crédito 128
+Valor presente del costo de ventas 5.355
+Valor presente esperado 2.025
+Cuadro 34,7.
+En el ejemplo expuesto se ilustra un análisis de decisión en cuentas a cobrar en condiciones
+inflacionarias, del que resulta un valor presente esperado positivo de $ 2.025.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. ¿Cómo evaluar las decisiones sobre cuentas por cobrar en una situación inflacionaria?
+34,7. ELEMENTOS SOBRE ADMINISTRACIÓN DE INVENTARIOS
+La inversión en inventarios debe orientarse, al igual que las distintas inversiones de la empresa, hacia
+la maximización del valor de la misma; por lo tanto, existirán los clásicos elementos de riesgo y rendimiento
+analizados en el correr del texto.
+Funciones de los inventarios
+1. En las empresas industriales, los inventarios se clasifican en: inventarlos de materias primas, de
+productos terminados y de productos en proceso.
+Los inventarios de materias primas y de productos terminados cumplen una función similar. Ellos sirven
+como una reserva para los desajustes que pueden producirse en la secuencia de actividades en la que
+cada uno tiene vinculación.
+De esta forma, los inventarios de materias primas son una reserva para los desajustes que puedan existir
+entre compras y producción. En el caso de los productos terminados, para cubrir los desajustes entre
+producción y ventas.
+Esa reserva obedece a la necesidad provocada por dos causas básicas. Por una parte, la existencia de
+fricciones en el mercado toda vez que existen costos de transacciones. Por otra, la incertidumbre propia
+que existe en los procesos económicos.
+Los productos en proceso existen en la medida en que la producción toma un tiempo; a mayor eficiencia,
+menor inventario de productos en proceso. Además, sirven de reserva por los desgastes entre los
+distintos procesos de producción.
+15
+
+En un astillero o en una destilería de whisky eso será mucho más importante que en una fábrica de
+camperas.
+Los inventarios, como en general están vinculados a los activos corrientes, son particularmente
+casuísticos. En las distintas industrias, la proporción de cada uno de los inventarlos varía y va de acuerdo
+con la naturaleza del negocio. (ver Perú: inventarios en su industria pesquera y textil).
+APLICACIÓN
+PERU: INVENTARIOS EN SU INDUSTRIA PESQUERA Y TEXTIL
+El caso de la industria pesquera en Perú.1 El sector pesquero representó para los años 95 y 96
+el 1,3 % del PBI. Dentro de este sector, la industria de harina de pescado es la de mayor
+envergadura económica.
+Existe un gran número de empresas productoras a lo largo de todo el litoral de Perú, dentro de
+ellas se han comenzado a formar grupos económicos con estructuras productivas importantes.
+Las exportaciones del sector pesquero representan un importante ingreso de divisas para el país;
+788 millones en 1995, 804 millones en 1996 y, entre enero y agosto de 1997, la cifra ascendería
+a 1.100 millones de dólares.
+El desembarque de pescado, principalmente de las especies: anchoveta, sardina, jurel y caballa,
+para producción de harina fue de 8.299.000 TM (toneladas métricas) en 1995, 8.776.000 TM en
+1996 y, entre enero y setiembre de 1997, alcanzó la cifra de 5.796.834.
+En este sector, a pesar del gran volumen de pescado (materia prima) que las empresas
+recepcionan (la relación de producción es aproximadamente de 4,5 a 5,5 toneladas de pescado
+para la producción de una tonelada de harina) éste permanece sólo algunos minutos dentro del
+inventario de materia prima; casi de inmediato pasa al proceso de producción, cuya capacidad
+de procesamiento va desde 50 hasta 120 toneladas de pescado por hora. Una vez convertida en
+harina de pescado se almacenan los stocks listos para ser exportados. En las empresas del sector
+pesquero, un 90 % de su posición de inventarios, reflejada en los balances, es de inventarios de
+productos terminados.
+El caso de la industria textil en Perú2. En el sector textil sucede lo contrario de lo que acontece
+en el sector pesquero, en cuanto a tipo de stocks de inventarios.
+El sector textil está conformado por las empresas dedicadas a las actividades de hilandería,
+tejeduría y confección. Su participación dentro del P131 global es de 3 %. También participa
+alrededor del 8 % de las exportaciones totales del país, con cifras que en 1995 alcanzaron los
+437,8 millones de dólares y en 1996 los 454,5 millones.
+Las materias primas utilizadas por la industria textil son el algodón (que es de excepcional
+calidad), las fibras sintéticas y la lana. Se estima que aproximadamente el 60 % corresponde a la
+elaboración de productos de algodón. Durante 1996 la oferta de algodón ascendió a 106.000
+TM, lo que representó un incremento del 11 % respecto del año anterior. De este monto, el 22 %
+correspondió al stock de la campaña de 1995, el 61 % a la producción doméstica de la campaña
+de 1996 y el 17 % a importaciones.
+El análisis de los balances de las empresas del sector textil refleja que en el rubro inventario la
+cifra importante está dada por las materias primas. Esto es así por las siguientes razones: es
+fundamental acopiar durante la época de cosecha del algodón. Adicionalmente, porque la
+producción sigue determinada tendencia de moda, que especifica textura, color, acabado, entre
+otras cosas, moda que viene de otros países y que dura temporadas cortas; esto hace que las
+empresas tengan lista la materia prima para seguir la tendencia y variarla cuando sea necesario.
+1 Fuente: Ministerio de Pesquería.
+2 Fuente: Apoyo Consultoría S.A.
+16
+
+2. En las empresas comerciales, el inventario es básicamente de una sola clase, pudiendo ser en las
+industrias manufactureras de materias primas, de productos intermedios o de bienes finales.
+La administración de inventarios
+Administrar inventarlos puede resumirse contestando a dos preguntas básicas:
+a) ¿Cuánto debe ser comprado?
+b) ¿Cuándo debe ser ordenada la compra?
+Los temas que siguen buscan dar respuesta a estas preguntas básicas en una visión introductoria.
+Respecto de estas respuestas se ha desarrollado un conjunto de modelos cuantitativos.
+En el enfoque de este texto se pondrá énfasis, dados sus objetivos, en aquellos aspectos más
+directamente vinculados a las decisiones financieras.
+Lote económico de compra
+La respuesta a una de las grandes preguntas de la administración de inventarios, que se refiere a la
+cantidad por comprar, se define a través del desarrollo del lote económico de compra.
+El modelo básico que se expone seguidamente, se basa sobre algunos supuestos como: certidumbre,
+tasa de demanda constante por unidad de tiempo, práctica inexistencia de tiempo de espera entre la puesta de
+una orden y la recepción de las mercaderías ordenadas, así como ¡limitados recursos financieros para la
+inversión en inventarios.
+Considérese que:
+C : costo del artículo considerado en forma unitaria;
+1
+C : costo del abastecimiento o del pedido;
+2
+C : costo del mantenimiento del stock;
+3
+Q: demanda, en unidades de un período dado;
+S: cantidad, en unidades físicas, del lote óptimo.
+Puede suponerse que el costo de mantener el inventario crece en la medida en que se hacen compras
+más grandes y, por lo tanto, el inventario promedio a mantener es también mayor. Por el contrario, a medida
+que los pedidos son menores, el costo de abastecimiento crece, puesto que deberá hacerse, en un mismo
+período, un mayor número de pedidos.
+De esta manera, pedidos mayores harán crecer ciertos costos, en tanto que otros decrecerán. El
+modelo busca obtener aquel pedido que minimiza esos dos costos que son opuestos en su evolución, ante las
+variaciones de la cantidad ordenada.
+El costo de almacenamiento incluye costos como seguros, gastos de manipuleo y del personal
+encargado de la recepción y distribución del stock, de amortizaciones de almacenes, de aparatos para
+manipular el stock, así como gastos en mercaderías perecederas.
+El costo de pedido o de abastecimiento incluye los costos de estudios para proyecciones y los gastos
+de transporte, entre otros.
+Se verá, en primer término, el costo de mantenimiento. Para ello se conoce que el stock promedio es
+en unidades S/2 cuyo valor será (S/2). C .C
+1 3
+En este caso C está expresado en tanto por uno del valor del inventario.
+3
+Por otra parte el costo de pedido o de abastecimiento viene dado por Q. C .
+2
+El costo total del inventario, suponiendo órdenes de S, se da por:
+t (cid:2)
+Q
+.C2 (cid:1)
+S.C1 .C3
+S 2
+17
+
+Si se hace igual que cero la derivada primera, se tendrá:
+dt
+(cid:1)
+Q.C2(cid:2) C1C3
+(cid:1)0
+dS 2 2
+S
+por lo que:
+(cid:1)
+2Q.C2
+S0
+C1C3
+que es la expresión del lote óptimo en unidades físicas.
+Si se quiere obtener en pesos, basta multiplicar por C , de donde:
+1
+(cid:1) (cid:2) 2Q.C1C2
+S0 $
+C3
+Gráficamente se tiene:
+Figura 34,4.
+Ejemplo
+C : $10;
+1
+C : $ 5;
+2
+C : 10 % del valor de costo;
+3
+Q: 20.000.
+Aplicando la fórmula expuesta se tiene que el lote económico de compra, expresado en unidades,
+será de:
+18
+
+2(cid:2)20.000(cid:2)5
+S(cid:1) (cid:1)447,2
+10(cid:2)0,1
+Expresado en unidades monetarias, sería de:
+2(cid:2)20.000(cid:2)5(cid:2)10
+S(cid:1) (cid:1)4.472
+0,1
+Puede introducirse en este modelo el costo de ruptura del inventario, esto es, el de no poder cumplir
+con los pedidos. El mismo se integra por la evaluación de la pérdida debida a la necesidad de pagar alguna
+indemnización al cliente, por el retraso en la entrega o por la pérdida de la ganancia al no poder recuperarlo.
+Se supone la misma simbología estudiada hasta ahora agregándole C4 como costo de ruptura. Se
+llega, obviando los pasos del cálculo que se puedan encontrar en los libros especializados de inventarios, a:
+S0
+(cid:2)
+2QC2 C1C3 (cid:1) C4
+C1C3 C4
+Siguiendo el ejemplo planteado y suponiendo C = $ 3:
+4
+2(cid:2)20.000(cid:2)5 10(cid:2)0,1(cid:3)3
+S0
+(cid:1) (cid:1)516,4
+10(cid:2)0,1 3
+De la aplicación de este tipo de modelo se pueden extraer algunas consideraciones:
+a) El lote óptimo de compra no evoluciona en forma estrictamente proporcional con la cantidad de
+demanda considerada, sino con la raíz cuadrada de la misma.
+De esta forma, de incrementarse por 3 la demanda, el lote óptimo crece raíz cuadrada de 3 (1,73).
+b) Si se considera el supuesto de que no hay tiempo de espera entre el pedido y el aprovisionamiento, y se
+está en condiciones de certidumbre, no cambia el resultado del modelo. Simplemente, debe colocarse la
+orden con anterioridad.
+El levantamiento de los supuestos establecidos da lugar a nuevas versiones de los modelos, que en
+los textos con mayor especialización en el tema se encuentran con facilidad.
+En la medida en que se van levantando algunos de los supuestos especificados en la sección anterior,
+el análisis se enriquece.
+En cuanto al supuesto de certidumbre, debe tenerse en cuenta que la realidad es incierta. En el tema
+de los inventarios, dos fuentes de incertidumbre son claramente distinguibles:
+a) la proveniente de la demanda o utilización del bien inventariado (provenga de ventas o de producción);
+b) la que se deriva de la demora del pedido.
+En la primera, suele ser más importante la incertidumbre en el caso de los productos terminados que
+en los productos en proceso.
+La decisión de stock de seguridad se orienta hacia la minimización de los costos de esta decisión.
+Así, si se tienen más inventarios, existirá un costo de mantenimiento de inventario. Sin embargo, se
+reducirán los costos de ruptura del mismo, o sea, los costos de quedarse sin inventario.
+19
+
+Cálculo de un stock de seguridad
+Se supone que una empresa, para un determinado artículo, ha establecido un producto óptimo de
+1.000 unidades para que se procesen mensualmente. El tiempo de la demora del inventario, una vez pedido el
+reaprovisionamiento, es de 5 días.
+La utilización en ese período tiene la siguiente distribución de probabilidad:
+Demanda Probabilidad
+600 0,10
+800 0,20
+1.000 0,40
+1.300 0,20
+1.500 0,10
+Los costos de mantenimiento de inventario son de $ 2 por unidad y por mes. Los de ruptura son $ 10.
+Los costos de seguridad son los siguientes:
+Stock de Costo de
+seguridad mantener el
+(unidades) inventario ($)
+1.000 0,40
+1.300 0,20
+1500 0,10
+El costo derivado de la ruptura del inventario será:
+Stock de seguridad Falta de inventario Costo de ruptura Probabilidad Costo esperado de
+ruptura
+500 0 – – –
+300 200 2.000 0,1 200
+0 300 3.000 0,2 600
+– 500 5.000 0,1 500
+––––––
+1.300
+El costo total que resulta es el siguiente:
+Stock de seguridad Costo esperado de ruptura Costo de mantener Costo total
+500 0 1.000 1.000
+300 200 600 800
+0 1.300 0 1.300
+La decisión debería, en este ejemplo, recaer en mantener un stock de seguridad operativo de 300
+unidades.
+En su valor se minimiza el costo del inventario.
+Stock de reaprovisionamiento
+El procedimiento para la determinación del stock de seguridad, visto en la sección anterior, puede
+encontrar algunas dificultades. Sobre la base de ello, se han desarrollado otras formas que buscan solucionar
+el problema. Una de ellas es la que tiene relación con la determinación del stock de reaprovisionamiento.
+La determinación óptima del mismo busca establecer el volumen de stock al cual hay que efectuar la
+orden del lote óptimo de compra.
+20
+
+El stock de reaprovisionamiento sería aquel con el cual se agota el inventario existente durante el
+período que transcurre entre que se coloca la orden y se dispone de la mercadería. Para ello debe tomarse en
+cuenta lo siguiente:
+a) el ritmo de utilización del inventario;
+b) una tolerancia de ruptura.
+Para esta tolerancia debe buscarse un factor de tolerancia, que se puede determinar sobre la base de
+la distribución de probabilidad de la utilización. Supóngase que el factor de aceptación para una ruptura del
+15 % de inventario sea 1,74.
+La fórmula desarrollada para obtener el stock de reaprovisionamiento (S.R.) es:
+S.R.(cid:2) D.L.(cid:1)f D.N.L
+donde:
+D: utilización;
+L: período de demora esperado para obtener el inventario una vez que es ordenado el mismo;
+f : factor de aceptación de ruptura del inventario;
+N: número de unidades por orden.
+Ejemplo
+D: 1.000;
+L: 1/2 mes;
+f: 1,74;
+N: 20.
+Se tiene que el stock óptimo de reaprovisionamiento es:
+1.000(cid:2)1/2(cid:3)1,74 1000(cid:2)20(cid:2)1/2(cid:1)674
+El punto de ordenamiento es 674 unidades. Se puede observar que el stock de seguridad ya está
+incluido en ese volumen.
+Si no fuera de la manera indicada, el stock de reaprovisionamiento hubiera sido 1.000 / 2 = 500.
+Esta fórmula minimiza la inversión en inventarios una vez que la misma llega a un nivel aceptable de
+ruptura (por ejemplo, en definitiva se combinan los costos de ruptura y de mantenimiento de inventarios).
+En estos casos el comportamiento del inventario puede ser del siguiente tipo:
+21
+
+Figura 34,5.
+Cálculo del rendimiento esperado de la inversión
+Hasta ahora se han analizado los diferentes costos relacionados con los inventarios. Los costos de
+pedido y los costos de mantener los inventarios pueden ser estimados; los costos de quedarse sin stock
+(costos de ruptura) se deben considerar inciertos; la finalidad de poder evaluar los mismos es llegar a
+minimizarlos.
+En este punto se aborda, más globalmente, la inversión en inventarios, en un enfoque de finanzas,
+para determinar su rendimiento esperado.
+En este caso se debe evaluar el incremento del rendimiento esperado al incrementar los stocks de
+productos finales dentro del inventario y, de este modo poder reducir las posibles pérdidas en ventas.
+Ejemplo
+Motivada por el permanente problema de quedarse sin inventarios, la gerencia de la empresa P S.A.
+decidió hacer un análisis exhaustivo para determinar si debe incrementar sus stocks de productos terminados.
+Efectuando análisis históricos, se determinó que un nivel de inventario de $ 300.000 o 500 TM. genera
+pérdidas en ventas por $ 500.000. También se sabe que el 60 % de las ventas son costos en los que la
+empresa debe incurrir, por lo que la contribución perdida es de $ 200.000.
+La decisión fue que se evaluarían varias posibilidades.
+Nivel de inventarios (1) Ventas perdidas Contribución perdida (2) Incremento en la
+contribución
+300 500 200 –
+375 375 150 50
+510 225 90 60
+790 150 60 30
+1.110 100 40 20
+(1) Inventarios de productos terminados
+(2) Contribución variable 40%
+A estas posibilidades de nivel de inventarios se les calculó el costo de mantenimiento de los mismos
+y suponiendo un impuesto a la renta del 30 % se llega al siguiente cuadro:
+22
+
+Incremento en el Incremento de las utilidades
+Nivel de Costo de Incremento en la
+costo de antes de después de
+inventarios mantenimiento contribución
+mantenimiento impuestos impuestos
+300 20 – – – –
+375 26 6 50 44 31
+510 35 9 60 51 36
+710 46 11 30 19 13
+1.110 59 13 20 7 3
+El cuadro anterior no incluye los costos de financiamiento. Muestra que el incremento en el
+inventario aumenta el costo de mantenimiento de los mismos. Si a este aumento se le resta el crecimiento
+tomado para la contribución se obtiene el monto en que se incrementa la utilidad operativa. Restándole los
+impuestos se llega a la utilidad después de impuestos.
+Nivel de inventarios (miles Incremento en la inversión Incremento de utilidades Incremento E (R) en la
+de $) (miles de $) después de impuestos inversión después de
+(miles de $) impuestos (porcentaje)
+300 – – –
+375 75 31 41,3
+510 135 36 26,6
+790 280 13 4,6
+1.110 320 3 0,9
+Si se comparan las inversiones incrementales y las utilidades incrementales de la empresa P S.A. al
+invertir $ 75.000 adicionales en inventarios de bienes finales, generará una utilidad adicional después de
+impuestos de $ 31.000, lo que significa un 41,3 % de rendimiento esperado de la inversión de ese monto en
+inventarios incrementales.
+Se puede, de la misma forma, analizar sucesivamente todas las alternativas, y obtener un rendimiento
+esperado, decreciente.
+Para tomar una decisión final, a la empresa P S.A. le falta un dato adicional: la tasa de rendimiento
+requerida de la inversión de inventarios. Si ésta fuera el 30 % sólo podría, por ejemplo, elegirse la política de
+$ 375.000 de nivel de inventarios.
+34,8. CONSIDERACIONES FINANCIERAS DE INVERSIÓN EN INVENTARIOS EN
+CONTEXTOS INFLACIONARIOS
+Inflación e inventarios
+El mantenimiento de inventarios excesivos, o "sobrestockamientos", ha sido una política
+comúnmente observada en muchos países que sufrieron crisis inflacionarias agudas.
+Sin embargo, es preciso señalar que la política de inventarios en exceso, para ser aceptable, debe
+tener presentes algunos elementos básicos:
+a) los inventarios se financian con fuentes monetarias que tienen una tasa de interés real negativa o cero;
+b) no existe otra oportunidad de inversión más redituable.
+En efecto, cuando se invierte en inventarios en exceso, se supone que la ganancia es el aumento de
+precios que los mismos tendrán. Sin embargo, en términos reales es obvio que la rentabilidad de esa
+inversión será cero, si no se consideran otros costos. 0 sea, se incrementa el precio de los inventarios, pero
+también el costo de reposición de los mismos. Por este motivo, el principal punto de la decisión debe estar
+centrado en el financiamiento. Si éste tiene un costo real negativo, y si la rentabilidad del activo es cero, la
+decisión es adecuada.
+23
+
+La reciente historia financiera de las empresas de muchos países latinoamericanos ha dejado
+experiencias, muchas veces, dolorosas.
+Las economías venían funcionando como se decía: alta inflación y tasas de interés negativas en
+términos reales. Ello llevó a agresivas políticas de "sobrestockamiento".
+Sin embargo, hacia fines de los '70 y primeros años de la década del '80, algunos elementos
+cambiaron drásticamente.
+La inflación tuvo un ritmo más lento, la demanda disminuyó y las tasas de interés se volvieron
+fuertemente positivas. En este contexto, la decisión de inventarios transformó inadecuadamente los patrones
+con que se venía realizando. La rentabilidad se tornó menor que el costo de los financiamientos. A este
+aspecto, que atiende básicamente a la rentabilidad, se agregó lo concerniente a la reducción de liquidez que
+se produce y sobreviene, en algunos casos, la bancarrota.
+Como se aprecia, el riesgo en la utilización de inventarios debe estar presente tal como en la mayoría
+de las decisiones financieras.
+24
+
+REFERENCIAS SELECCIONADAS
+Para los temas cubiertos en este capítulo se recomiendan:
+VANDER WERDE, J. Y MAIER, S. F., Managing corporate liquidity: an introduction to working capital
+management, J. Wiley & Sons, Nueva York, 1985.
+METHA, D. R., Working capital management, Prentice Hall, 1974.
+25

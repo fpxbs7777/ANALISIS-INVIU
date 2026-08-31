@@ -1,0 +1,1307 @@
+High-frequency market-making for
+multi-dimensional Markov processes
+Pietro Fodra 12 Mauricio Labadie 13
+November 27, 2024
+Abstract
+In this paper we complete and extend our previous work on stochastic control applied to high
+frequency market-making with inventory constraints and directional bets. Our new model admits
+several state variables (e.g. market spread, stochastic volatility and intensities of market orders)
+provided the full system is Markov. The solution of the corresponding HJB equation is exact in the
+caseofzeroinventoryrisk. Theinventoryriskentersintoplayintwoways: apath-dependentpenalty
+basedonthevolatilityandapenaltyatexpirybasedonthemarketspread. Weperformperturbation
+methodsontheinventoryriskparameterandobtainexplicitlythesolutionanditscontrolsuptofirst
+order. We also include transaction costs; we show that the spread of the market-maker is widened
+to compensate the transaction costs, but the expected gain per traded spread remains constant. We
+perform several numerical simulations to assess the effect of the parameters on the PNL, showing
+in particular how the directional bet and the inventory risk change the shape of the PNL density.
+Finally, we extend our results to the case of multi-aset market-making strategies; we show that the
+correct notion of inventory risk is the L2-norm of the (multi-dimensional) inventory with respect to
+the inventory penalties.
+Keywords: Quantitative Finance, High-Frequency Trading, Market-Making, Inventory Risk, Markov
+Processes, Hamilton-Jacobi-Bellman, Stochastic Control, Optimal Control.
+Contents
+1 Introduction 2
+1.1 Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.2 Hypotheses on the processes and controls . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3 General HJB and optimal controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1LPMA(LaboratoiredeProbabilit´esetMod`elesAl´eatoires). Universit´eParisDiderot(Paris7).
+2EXQIM(ExclusiveQuantitativeInvestmentManagement). 24RuedeCaumartin75009Paris,France.
+3Correspondingauthor. mauricio.labadie@exqim.com,mauricio.labadie@gmail.com
+1
+3102
+rpA
+2
+]RT.nif-q[
+2v7717.3031:viXra
+
+2 P. Fodra · M. Labadie
+2 Linear utility function 5
+2.1 Hamilton-Jacobi-Bellman (HJB) equation . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2.2 Ansatz and HJB . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+2.3 Computing the optimal controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+2.4 Solving the verification equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+2.5 Remarks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+3 Linear utility function with inventory penalty 9
+3.1 Two inventory penalties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+3.2 The HJB equation and the ansatz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+3.3 Verification equation and its linearisation . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+3.4 Solution for ε0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+3.5 Solution for ε1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+3.6 Optimal controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+3.7 Remarks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+3.8 The effect of transaction costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+4 Numerical Simulations 16
+5 Multi-asset model 20
+5.1 Inventory penalties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+5.2 The HJB equation and the ansatz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+5.3 Verification equation and its linearisation . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+5.4 Solution for ε0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+5.5 Solution for ε1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+5.6 Optimal controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+5.7 The effect of transaction costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+5.8 Risk management and iso-risk surfaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+1 Introduction
+1.1 Variables
+We will work with time t ∈ [0,T] and two controls, the half ask (resp. bid) spread of the market-maker
+δ+ (resp. δ−), measured as the distance between the mid-price and her ask quote (resp. bid quote). Our
+modeladmitsseveralstatevariables,whichcanbeanyprocessprovidedthewholesystemisMarkov. This
+framework admits a large class of price models e.g. jump processes with stochastic volatility. Without
+loss of generality, we will restrict our analysis to the folowing ones:
+1. The mid-price S(t), assumed to be an Itˆo diffusion.
+2. The half market spread Z(t), which is assumed non-negative and somewhat mean-reverting.
+3. The volatility Σ(t) of the mid-price process, which is strictly positive.
+
+High-frequency market-making for multi-dimensional Markov processes 3
+Figure 1: Market order intensities λ±. They are extrapolated when δ± ≤−z (dotted lines).
+4. The inventory Q(t), which is modelled as
+dQ(t)=dN−(t)−dN+(t),
+where dN+(t) and dN−(t) are two independent Poisson processes.
+5. Theintensitiesλ± ofthepreviousPoissonprocessesare(i)exponentiallydecreasinginthedistance
+to the quote on the other side, and (ii) their speed of decay K is random:
+λ±(δ±)=Ae−K(t)[z+δ±]
+6. The cash X(t), which is simply the money earned by the market-making by selling and buying the
+stock, i.e.
+dX(t)=[S(t)+δ+]dN+(t)−[S(t)−δ)]dN−(t).
+To keep things simple, we will use the notation
+Y(t)=(S(t),Z(t),Σ(t),K(t)) and y =(s,z,σ,k).
+The approach we propose is very general because it admits any number of state variables. In that spirit,
+one could add to Y(t) other state variables, e.g. a random intensity A(t) of the arrival of market orders
+or a statistical indicator coming from an alternative market.
+1.2 Hypotheses on the processes and controls
+We assume our controls δ± lie in an admissible space A. In order to have a well-posed stochastic control
+problem, we have to assume that the the system of all state variables is Markov, since otherwise our
+mathematical techniques do no apply. It is worth to mention that this assumption does not necessarily
+
+4 P. Fodra · M. Labadie
+imply having Markovian variables: as in the case of stochastic volatility, it is not the mid-price which
+needs to be Markov but the couple (mid-price,volatility).
+Another hypothesis we need is that all value functions u are finite. In the case of the value function
+(6), we accept any mid-price process S(t) such that the function u in (9) is finite. This condition holds
+for any process such that its conditional expectation E [S(T)] is affine in s = S(t). For example, a
+t,y
+Brownian motion and an Ornstein-Uhlenbeck are acceptable mid-price processes.
+1.3 General HJB and optimal controls
+Let us start with the general HJB equation, i.e.
+(∂ +L)u+ max Ae−k[z+δ+](cid:2) u(t,y,q−1,x+(s+δ+))−u(t,y,q,x) (cid:3) (1)
+t
+δ+∈A
++ max Ae−k[z+δ−](cid:2) u(t,y,q+1,x−(s−δ−))−u(t,y,q,x) (cid:3) = −f(t,y,q,x),
+δ−∈A
+u(T,y,q,x) = g(y,q,x)),
+where L is the infinitesimal generator for the state variables y. The steps to solve (1) are as follows:
+1. Based on the utility function we make an ansatz, i.e. we guess the general form of the solution of
+(1), i.e.
+u(t,y,q,x)=x+v (t,s). (2)
+q
+2. We substitute the ansatz (2) in (1) in order to find an easier HJB equation for v. We use this
+new HJB equation to find the optimal controls that maximize the jumps. Indeed, after elementary
+calculus, wherethejumppartof (1)isconsideredafunctionof(δ+,δ−), onefindsthattheoptimal
+controls are
+1 1
+δ+ = −s+v (t,y)−v (t,y), δ− = +s+v (t,y)−v (t,y). (3)
+∗ k q q−1 ∗ k q q+1
+3. We substitute the optimal controls in the HJB equation: the resulting equation is called the verifi-
+cation equation. In our case it is
+A(cid:16) (cid:17)
+(∂ t +L)v q + k e−k[z+δ ∗ +]+e−k[z+δ ∗ −] +f(t,y,q,x)) = 0, (4)
+v (T,y) = g(y,q,x),
+q
+which is highly nonlinear because δ± =δ±(v ).
+∗ ∗ q
+4. Wecannotsolvedirectlytheverificationequation(4)viatheFeynmann-Kacrepresentationformula
+because the former is nonlinear and the latter works only for linear equations. However, the idea
+is to decompose our nonlinear problem into several linear problems, and apply Feynmann-Kac to
+each one of them. Recall that for a linear equation of the form
+(∂ +L)w(t,y,q,x)+h(t,y,q,x) = 0,
+t
+w(T,y,q,x) = g(y,q,x),
+
+High-frequency market-making for multi-dimensional Markov processes 5
+the (unique) solution is given by the Feynmann-Kac formula (see e.g. Pham [10])
+(cid:34) (cid:35)
+(cid:90) T
+w(t,y,q,x)=E g(Y(T),Q(T),X(T))+ h(Y(ξ),Q(ξ),X(ξ))dξ , (5)
+t,y,q,x
+t
+whereE istheconditionalexpectationgivenY(t−)=y,Q(t−)=q andX(t−)=x. Asitwill
+t,y,q,x
+be evident throughout this work, our approach relies entirely on the Feynmann-Kac formula (5).
+Therefore, aslongasourgeneralMarkovprocessesaresuchthattheexpectationin(5)isfinite, we
+are on solid ground.
+5. Alternatively, we could express the optimal quotes in terms of the market-maker’s bid-ask spread
+ψ :=δ++δ−
+∗ ∗ ∗
+and the centre of her spread
+r :=
+1(cid:0) p++p−(cid:1)
+=s+
+1(cid:0) δ+−δ−(cid:1)
+.
+∗ 2 ∗ ∗ 2 ∗ ∗
+Notice that δ+ = δ− if and only if r (t) = s = S(t). Therefore, r − s measures the level of
+∗ ∗ ∗ ∗
+asymmetry of the quotes with respect to the mid-price s.
+There is an important remark on the shape of the optimal controls (3). If the only state variable
+is the mid-price then v (t,y) = v (t,s). Moreover, if the mid-price is a martingale then we can assume
+q q
+that v =v (t) because, by definition, there is no directional bet on the price. Under these assumptions,
+q q
+pluggingtheexplicitoptimalcontrols(3)intotheverificationequation(4)leadstoasystemofODEsfor
+v , indexed by q. This system can be solved numerically, but is is nearly impossible to have an explicit
+q
+formula (see e.g. Cartea-Jaimungal [4] and Gu´eant-Lehalle-Fern´andez [7]). In our case, with a general
+price process and several other state variables, there is no hope for an system of ODEs; in fact, the
+corresponding system is PDE-based. Therefore, either we solve the problem explicitly (as we will do in
+the linear case), either we perform some asymptotics for the optimal controls (as we will do in the case
+of inventory penalty).
+2 Linear utility function
+2.1 Hamilton-Jacobi-Bellman (HJB) equation
+Herewewilltrytofindtheoptimalcontrolsδ±thatmaximisethePNLprofitandloss)ofamarket-maker,
+i.e. a linear the value function, i.e.
+u(t,y,q,x)= max E (cid:2) α(Y(T),Q(T),X(T)) (cid:3) , (6)
+t,y,q,x
+δ±∈A
+where E is the conditional expectation given the values of all variables at time t, i.e.
+t,y,q,x
+E [α]:=E[α|Y(t−)=y,Q(t−)=q,X(t−)=x] .
+t,y,q,x
+
+6 P. Fodra · M. Labadie
+The probabilistic representation (6) is the unique solution of the HJB equation
+(∂ +L)u+ max Ae−k[δ++z](cid:2) u(t,y,q−1,x+(s+δ+))−u(t,y,q,x) (cid:3) (7)
+t
+δ+∈A
++ max Ae−k[δ−+z](cid:2) u(t,y,q+1,z,k,x−(s−δ−))−u(t,y,q,x) (cid:3) = 0,
+δ−∈A
+u(T,y,q,x) = α(s,q,x),
+where L is the infinitesimal generator for all the continuous state variables y. Therefore, we will use (7)
+to find the optimal controls δ±.
+Our linear utility function here is simply the PNL of the market maker, i.e.
+α(t,y,q,x)=x+qs.
+Its corresponding value function is thus
+u(t,y,q,x)= max E [X(T)+Q(T)S(T)] .
+t,y,q,x
+δ±∈A
+Inthiscase,theoptimalcontrolsarethebidandaskquotesthatmaximisesthePNLofthemarket-maker
+throughout the trading day.
+2.2 Ansatz and HJB
+We will look for a solution of the form
+u(t,y,q,x)=x+θ (t,y)+qθ (t,y).
+0 1
+With this ansatz, the HJB equation takes the form
+(∂ +L)(θ +qθ )+ max
+Ae−k[z+δ+][s+δ+−θ
+]+ max
+Ae−k[z+δ−][−s+δ++θ
+] = 0,
+t 0 1 1 1
+δ+∈A δ−∈A
+θ (T,y) = 0,
+0
+θ (T,y) = s.
+1
+2.3 Computing the optimal controls
+Define
+f+(δ+):=Ae−k[z+δ+][s+δ+−θ
+].
+1
+Using elementary Calculus we find that its maximum is attained at
+1
+δ+ = −s+θ .
+∗ k 1
+Analogously, for
+f−(δ−):=Ae−k[z+δ−][−s+δ−+θ
+].
+1
+the maximum is attained at
+1
+δ− = +s−θ .
+∗ k 1
+
+High-frequency market-making for multi-dimensional Markov processes 7
+With the optimal half-spreads
+1
+δ± = ±(θ −s),
+∗ k 1
+wecaneasilycomputetheoptimalspreadψ forthemarketmaker,alongwiththecentrer ofherspread:
+∗ ∗
+ψ :=δ++δ− = 2 , r :=s+ 1(cid:0) δ+−δ−(cid:1) =θ .
+∗ ∗ ∗ k ∗ 2 ∗ ∗ 1
+Notice that θ is necessary only for the solution of the HJB equation, not for the controls. Indeed, we
+0
+only need to find θ in order to have our controls explicit.
+1
+2.4 Solving the verification equation
+With the optimal controls, the HJB equation reduces to
+A(cid:110) (cid:111)
+(∂ t +L)(θ 0 +qθ 1 )+ k e−k[z+δ ∗ +]+e−k[z+δ ∗ −] = 0,
+θ (T,y) = 0,
+0
+θ (T,y) = s.
+1
+From the explicit form of δ± we have
+A A
+f+(δ+):= e−kze−k[θ1−s], f−(δ−):= e−kze+k[θ1−s].
+∗ ek ∗ ek
+Therefore, the verification equation can be rewritten as
+2A
+(∂ +L)(θ +qθ )+ e−kzcosh(k[θ −s]) = 0, (8)
+t 0 1 ek 1
+θ (T,y) = 0,
+0
+θ (T,y) = s.
+1
+We separate (8) into two equations, one for each one of our unknowns:
+2A
+(∂ +L)θ + e−kzcosh(k[θ −s]) = 0,
+t 0 ek 1
+θ (T,y) = 0,
+0
+and
+(∂ +L)θ = 0,
+t 1
+θ (T,y) = s.
+1
+Let us define
+∆(t,y):=E [S(T)]−s,
+t,y
+
+8 P. Fodra · M. Labadie
+which measures the difference between the expected value of the mid-price at maturity and its current
+value. Withthisnotation,andusingtheFeynman-Kacformulatwice,firstforθ andthenforθ ,wefind
+1 1
+θ (t,y) = s+∆(t,y),
+1
+(cid:34) (cid:35)
+2 (cid:90) T A
+θ (t,y) = E e−KZcosh(K∆)dξ ,
+0 e t,y K
+t
+where all capital letters inside the integral are evaluated at ξ, i.e. K =K(ξ), ∆=∆(ξ,Y(ξ)), etc. This
+leads to explicit expressions for the (unique) solution and its controls:
+u(t,y,q,x) = u (t,y,q,x)+u (t,y), (9)
+hold mm
+u = x+q(s+∆),
+hold
+(cid:34) (cid:35)
+2 (cid:90) T A
+u = E e−KZcosh(K∆)dξ ,
+mm e t,y K
+t
+1
+δ± = ±∆,
+∗ k
+2
+ψ = ,
+∗ k
+r = s+∆.
+∗
+2.5 Remarks
+Let us explain the decomposition of the solution u given in (9) in terms of u and u .
+hold mm
+On the one hand, the function u is the expectation at expiry T of the current portfolio x+qs; this
+hold
+corresponds to a buy-and-hold strategy. On the other hand, the function u (as the integral from t
+mm
+to T suggests) is the profit for playing a dynamic (i.e. high-frequency) market-making strategy. Since
+u > 0, the addition of the market-making mechanism u to the strategy u is more profitable than
+mm mm
+thebuy-and-holdstrategyu alone. Inconsequence,itmakessensetoplaymarket-makerdynamically
+hold
+instead of simply apply a buy-and-hold strategy.
+Since in principe T can be very big, in order to compare strategies we have to compute the value
+function per time unit, i.e. u(t,y,q,x)/(T −t). Using the integral version of the mean-value theorem, it
+follows that there exists in τ ∈(t,T) such that
+(cid:20) (cid:21)
+u(τ,y,q,x) x+q(s+∆) 2 A
+= + E e−KZcosh(K∆) .
+T −t T −t e τ,y K
+In particular, when t = 0 we have q = 0, x = 0 and ∆ = 0. Therefore, at the beginning of the day the
+expected gain of the market-maker is
+(cid:20) (cid:21) (cid:20) (cid:21)
+u(0,y,0,0) 2 A 2 A
+= E e−KZcosh(K∆) ≥ E e−KZ .
+T e τ,y K e τ,y K
+The first observation is that the worst mid-price dynamic is the martingale. Indeed, ξ (cid:55)→cosh(ξ)
+has a strict minimum when ξ =0, and a non-martigale process has times τ where ∆(τ)(cid:54)=0. This seems
+counter-intuitive because, the market-making being lightning fast, it should not be influenced by the
+long-range behaviour ofthe mid-price. However, the inventoryturnoveris slower becauseit takesseveral
+
+High-frequency market-making for multi-dimensional Markov processes 9
+tradestobuildupandcomebacktozero, andthatiswherethedirectionalbetcosh(K∆)entersintothe
+game.
+Anotherfeatureisthe effect of a non-constant decay rate K. Noticethattheoptimalspreadψ
+∗
+is decreasing in k and the value function u is decreasing in K. If the intensity of order arrival increases,
+which can be interpreted as either less market orders or a more populated limit order book (LOB), then
+the market-maker has to reduce her spread to keep her order flow constant. But this makes her PNL
+smaller because she is selling liquidity cheaper.
+The effect of the market spread Z is very interesting. On the one hand, z does not appear at
+all in the optimal controls, which means that the market-making strategy is independent of z. On the
+other hand, the value function u is decreasing in Z. In consequence, the PNL of the strategy decreases
+as the spread increases. This is a direct consequence of the hypothesis that the intensity of the arrival of
+marketordersdependsonthedistancetotheothersideofthebook,notonthedistancetothemid-price.
+Indeed, the bigger the spread, the less market flow captured by the market-maker, even if her position
+relative to the mid-price does not change.
+We have put the intensity A into the expectation operator. This is because our formulation allows a
+stochastic intensity A(t). Infact, ourformulationallowsaswellasymmetric intensities A±(t) and
+decays K±(t); theonlydifferenceisthatthesymmetryviacosh(·)islostandwewouldhave2different,
+complicated exponentials instead.
+3 Linear utility function with inventory penalty
+3.1 Two inventory penalties
+We will penalise the inventory in two ways:
+1. A penalty Π at expiry, depending on the spread. This models the fact that the market-maker will
+1
+have to clear her inventory at the market, and as such she will pay the spread for each share:
+Π (T)=ηZ(T)Q2(T), η ≥0.
+1
+Forexample, ifz ≡1werecovertheStollmodelforaquadraticpenaltyontheinventory(see[11]).
+2. An integral penalty Π of the (squared) inventory during the remaining of the trading session,
+2
+weighted by the volatility Σ(t) of the mid-price S(t). This is a sort of tracking error with respect
+to a flat-inventory position, and is a very standard choice (see e.g. Guilbaud-Pham [8] and Cartea-
+Jaimungal [4]):
+(cid:90) T
+Π (T)=ν Σ2(ξ)Q2(ξ)dξ, ν ≥0.
+2
+t
+In this section, we will consider the following value function:
+(cid:104) (cid:105)
+u(t,y,q,x)= max E X(T)+Q(T)S(T)−εΠ(T) , Π:=Π +Π . (10)
+t,y,q,x 1 2
+δ±∈A
+Notice that if ε = 0 we recover the previous linear case. Concerning the parameters, the important one
+is ε since it gives the penalty as a perturbation of the value function we already computed. The other
+parameters η and ν can be considered as booleans, so that we can assess a porteriori the effect of the
+two penalties on the resulting controls.
+
+10 P. Fodra · M. Labadie
+3.2 The HJB equation and the ansatz
+The resulting HJB equation is thus
+(∂ +L)u+ max Ae−k[z+δ+](cid:2) u(t,y,q−1,x+(s+δ+))−u(t,y,q,x) (cid:3) (11)
+t
+δ+∈A
++ max Ae−k[z+δ−](cid:2) u(t,y,q+1,x−(s−δ−))−u(t,y,q,x) (cid:3) = ενσ2q2,
+δ−∈A
+u(T,y,q,x) = x+sq−εηzq2.
+Recall that we have an explicit formula for the (unique) solution when ε = 0. Therefore, we will use
+perturbation methods on ε. More precisely, we propose the following ansatz:
+u(t,y,q,x) = x+v(0)(t,y)+εv(1)(t,y)+O (cid:0) ε2(cid:1) , (12)
+q q
+v(0)(t,y) = θ(0)(t,y)+qθ(0)(t,y),
+q 0 1
+v(1)(t,y) = θ(1)(t,y)+qθ(1)(t,y)+q2θ(1)(t,y).
+q 0 1 2
+3.3 Verification equation and its linearisation
+With the ansatz (12), the optimal controls take the form
+δ+ = 1 −s+v(0)−v(0) +ε (cid:104) v(1)−v(1) (cid:105) +O (cid:0) ε2(cid:1) , (13)
+∗ k q q−1 q q−1
+δ− = 1 +s+v(0)−v(0) +ε (cid:104) v(1)−v(1) (cid:105) +O (cid:0) ε2(cid:1) .
+∗ k q q+1 q q+1
+Under these conditions, the verification equation is
+(cid:16) (cid:17) A (cid:110) (cid:16) (cid:104) (cid:105)(cid:17) (cid:111)
+(∂ +L) v(0)+εv(1) + e−kzeksexp −k v(0)−v(0) +ε v(1)−v(1) +O(ε2) (14)
+t q q ek q q−1 q q−1
+A (cid:110) (cid:16) (cid:104) (cid:105)(cid:17) (cid:111)
++ e−kze−ksexp −k v(0)−v(0) +ε v(1)−v(1) +O(ε2)
+ek q q+1 q q+1
+= ενσ2q2,
+v(0)(T,y) = sq,
+q
+v(1)(T,y) = −εηzq2.
+q
+Observe that we can rewrite the jump term in δ+ as
+∗
+e A k e−kzekse−kθ 1 (0) exp (cid:110) −kε (cid:104) v q (1)−v q (1 − ) 1 (cid:105) +O(ε2) (cid:111) .
+In consequence, its first-order expansion in ε is
+e A k e−kze−k[θ 1 (0)−s] (cid:110) 1−kε (cid:104) v q (1)−v q (1 − ) 1 (cid:105) +O (cid:0) ε2(cid:1)(cid:111) .
+Analogously, for the term in δ− we have
+∗
+e A k e−kzek[θ 1 (0)−s]× (cid:110) 1−kε (cid:104) v q (1)−v q (1 + ) 1 (cid:105) +O (cid:0) ε2(cid:1)(cid:111) .
+
+High-frequency market-making for multi-dimensional Markov processes 11
+Therefore, it follows that the linearisation in ε of the verification equation (14) is
+(∂ t +L) (cid:16) v q (0)+εv q (1) (cid:17) + e A k e−kze−k[θ 1 (0)−s] (cid:110) 1−kε (cid:104) v q (1)−v q (1 − ) 1 (cid:105)(cid:111) (15)
++ e A k e−kze+k[θ 1 (0)−s] (cid:110) 1−kε (cid:104) v q (1)−v q (1 + ) 1 (cid:105)(cid:111)
+= ενσ2q2,
+v(0)(T,y) = sq,
+q
+v(1)(T,y) = −εηzq2.
+q
+3.4 Solution for ε0
+At zero-th order in ε, which is equivalent to set ε = 0, we recover the verification equation of the linear
+case without inventory penalty (8), i.e.
+(cid:16) (cid:17) 2A (cid:16) (cid:17)
+(∂ +L) θ(0)+qθ(0) + e−kzcosh k[θ(0)−s] = 0,
+t 0 1 ek 1
+θ(0)(T,y) = 0,
+0
+θ(0)(T,y) = s.
+1
+Therefore, v(0)(t,y) is exactly the solution we found before, i.e.
+q
+v(0)(t,y) = θ(0)(t,y)+qθ(0)(t,y), (16)
+q 0 1
+θ(0)(t,y) = s+∆,
+1
+(cid:34) (cid:35)
+2 (cid:90) T A
+θ(0)(t,y) = E eKZcosh(K∆)dξ ,
+0 e t,y K
+t
+where(asbefore)∆:=E [S(T)]−s. Thisfactisourmainmotivationfortheapplicationofperturbation
+t,y
+methods on the inventory constraints.
+3.5 Solution for ε1
+Keeping only the first-order terms in (15), i.e. those with ε, we obtain
+(cid:16) (cid:17) A (cid:110) (cid:111)
+(∂ +L) θ(1)+qθ(1)+q2θ(1) + e−kze−k∆ −θ(1)+(1−2q)θ(1) (17)
+t 0 1 2 e 1 2
+A (cid:110) (cid:111)
++ e−kze+k∆ θ(1)+(1+2q)θ(1)
+e 1 2
+= νσ2q2,
+θ(1)(T,y) = 0,
+0
+θ(1)(T,y) = 0,
+1
+θ(1)(T,y) = −ηz.
+2
+
+12 P. Fodra · M. Labadie
+We decompose (17) into three equations, and as before we solve one by one via the Feynmann-Kac
+formula. The first equation, which regroups the terms in q2, is linear:
+(∂ +L)θ(1) = νσ2,
+t 2
+θ(1)(T,y) = −ηz.
+2
+Its (unique) solution is
+(cid:34) (cid:35)
+(cid:90) T
+θ(1)(t,y)=−ηE [Z(T)]−νE Σ2dξ . (18)
+2 t,y t,y
+t
+Since θ(0) and θ(1) are already known, the equation for the terms q1 becomes linear in θ(1), i.e.
+1 2 1
+4A
+(∂ +L)θ(1)+ e−kzsinh(k∆)θ(1) = 0.
+t 1 e 2
+θ(1)(T,y) = 0.
+1
+Therefore, its (unique) solution is
+(cid:34) (cid:35)
+4 (cid:90) T
+θ(1)(t,y)= E Ae−KZsinh(K∆)θ(1)dξ . (19)
+1 e t,y 2
+t
+Finally, for q0 we get
+A (cid:110) (cid:111)
+(∂ +L)θ(1) + e−kze−k∆ −θ(1)+θ(1)
+t 0 e 1 2
+A (cid:110) (cid:111)
++ e−kze+k∆ θ(1)+θ(1) =0,
+e 1 2
+θ(1)(T,y) = 0,
+0
+whose (unique) solution is
+(cid:34) (cid:35)
+2 (cid:90) T (cid:110) (cid:111)
+θ(1)(t,y)= E Ae−KZ θ(1)sinh(k∆)+θ(1)cosh(k∆) dξ . (20)
+0 e t,y 1 2
+t
+Putting all together (12), (16), (18), (19), (20) we finally obtain the explicit expansion of u(t,y,q,x)
+up to first order in ε.
+3.6 Optimal controls
+Now we are in measure to write down explicitly the optimal controls up to first-order in ε. From the
+ansatz (12) and the control equations (13) it follows that
+δ+ = 1 −s+θ(0)+ε (cid:16) θ(1)−(1−2q)θ(1) (cid:17) +O (cid:0) ε2(cid:1) , (21)
+∗ k 1 1 2
+δ− = 1 +s−θ(0)+ε (cid:16) −θ(1)−(1+2q)θ(1) (cid:17) +O (cid:0) ε2(cid:1) .
+∗ k 1 1 2
+
+High-frequency market-making for multi-dimensional Markov processes 13
+This implies that the optimal spread for the market-maker is
+ψ =δ++δ− = 2 −2εθ(1)+O (cid:0) ε2(cid:1) , (22)
+∗ ∗ ∗ k 2
+whilst the centre of her spread is
+r =s+ 1(cid:0) δ+−δ−(cid:1) =θ(0)+ε (cid:16) θ(1)+2qθ(1) (cid:17) +O (cid:0) ε2(cid:1) . (23)
+∗ 2 ∗ ∗ 1 1 2
+Inthelightofalltheformercomputations, wecannowwritedowninfullsplendourtheoptimalcontrols
+for the market-maker:
+(cid:40) (cid:34) (cid:35) (cid:41)
+δ+ = 1 +∆+ε −E (cid:90) T Hπ˜dξ +(1−2q)π˜ +O (cid:0) ε2(cid:1) , (24)
+∗ k t,y
+t
+(cid:40) (cid:34) (cid:35) (cid:41)
+δ− = 1 −∆+ε E (cid:90) T Hπ˜dξ +(1+2q)π˜ +O (cid:0) ε2(cid:1) ,
+∗ k t,y
+t
+ψ =
+2
++2επ˜+O
+(cid:0) ε2(cid:1)
+,
+∗ k
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+r = s+∆−ε E Hπ˜dξ +2qπ˜ +O (cid:0) ε2(cid:1) ,
+∗ t,y
+t
+where ∆:=E [S(T)]−s is the degree of non-martingality of the mid-price (i.e. the directional bet),
+t,y
+4
+H := Ae−KZsinh(K∆)
+e
+is the (marginal) profit of the market-making as a fuction of the directional bet ∆, which is a function of
+∆, and
+(cid:34) (cid:35)
+(cid:90) T
+π˜ :=ηE [Z(T)]+νE Σ2dξ >0
+t,y t,y
+t
+is the unitary inventory-risk penalty.
+3.7 Remarks
+Theunitaryinventory-riskpenaltyπ˜ hastwocomponents. Theterminν (theintegralone)penalises
+a non-flat inventory via the volatility thoughout the day. The term in η is a penalty that triggers only
+neartheendoftheday, butstrongenoughtoforcethemarket-makertoleavethetradingfloorwithzero
+inventory. Both penalties are complementary: one keeps the inventory within range during the trading
+day whilst the other forces the inventory to finish the day near zero.
+Notice that the optimal spread ψ is increasing in the unitary inventory-risk penalty π˜.
+∗
+Thisfeaturecanbeunderstoodinaveryintuitiveway: ifamarket-makerismoresensitivetoaninventory
+risk then she will be more conservative in her quotes, fearing that even a small price jump would put her
+onthewrongsideofthetrend. Herinventory-riskaversionthustranslatesintoawiderspread. However,
+the inventory q does not appear at all in the expression for ψ . Indeed, it is the unitary inventory-risk
+∗
+aversion which determines the width of the spread, not the current inventory level.
+
+14 P. Fodra · M. Labadie
+Observe that the center r of the spread is decreasing in the inventory q. This is also
+∗
+very intuitive: the market-maker will tilt her quotes, rendering them asymmetrical, in order to favour
+execution vs incoming market orders which help her reduce her (absolute) inventory. For example, if she
+is long inventory (q > 0) then she will post aggressive bid quotes to lure selling market orders. At the
+same time, her ask quotes are more conservative because she does not want to increase her inventory via
+buying market orders. If q < 0 then the market-maker will post conservative sell orders and aggressive
+buy orders, hoping to reduce her inventory via an asymmetrical market-flow.
+The directional bet ∆ is present in the centre r . For example, if ∆ > 0 then the market-
+∗
+maker expects a final mid-price higher than the current one. Therefore, if she is willing to carry some
+inventory-risk, she will post aggressive bid quotes and less aggressive ask quotes. As a result, in average
+the inventory will be positive, reflecting the long bet in the mid-price. As we can see, the dynamic of
+the centre r is governed by two opposite effects: ∆ tries to build up the inventory to profit from the
+∗
+difference between the current mid-price and the estimate of the final mid-price, whilst the term in ε
+aims to keep a flat-inventory position.
+If the midprice is a martingale then ∆ ≡ 0 and r = s − 2qεπ˜ + O(ε2), i.e. we get rid of the
+∗
+integral term in sinh(·). This implies that the integral term in sinh(·) measures the profit of the
+market-making strategy with respect to the directional bet ∆(cid:54)=0. Nowassumethatinthenon-
+martingale case we want more simplicity on the formulas, namely we totally discard the integral terms
+in sinh(·) and in the volatility Σ2; in fact, this is equivalent of a zero-th order expansion in T −t of the
+optimal controls. It turns out that we recover the optimal quotes in Fodra and Labadie [6], which were
+obtainedbylinearisingtheverificationequationwithoutmuchcareontheaccuracyoftheapproximation.
+This means that the integral terms, which are are a path-dependent, offer a correction based on the time
+to maturity T −t and the degree of non-martingality ∆.
+3.8 The effect of transaction costs
+Suppose that the market-maker pays a fixed fee of α for each traded asset. In most venues α > 0, but
+there are some trading platforms where a liquidity provider receives a rebate, i.e. α < 0. Since the
+transaction cost α affects the cash process each time a share is traded, we have to modify (1) as
+(∂ +L)u+ max Ae−k[z+δ+](cid:2) u(t,y,q−1,x+(s+δ+)−α)−u(t,y,q,x) (cid:3) (25)
+t
+δ+∈A
++ max Ae−k[z+δ−](cid:2) u(t,y,q+1,x−(s−δ−)−α)−u(t,y,q,x) (cid:3) = ενσ2q2,
+δ−∈A
+u(T,y,q,x) = x+sq−εηzq2.
+Let δ± be the optimal controls without transaction costs, and δ± (z) the optimal controls under
+∗ α∗
+transaction costs. If we define
+4
+H(α):= Ae−K(Z+α)sinh(K∆)
+e
+
+High-frequency market-making for multi-dimensional Markov processes 15
+then repeating the previous computations we obtain
+(cid:40) (cid:34) (cid:35) (cid:41)
+δ+ = 1 +α+∆+ε −E (cid:90) T H(α)π˜dξ +(1−2q)π˜ +O (cid:0) ε2(cid:1) , (26)
+α∗ k t,y
+t
+(cid:40) (cid:34) (cid:35) (cid:41)
+δ− = 1 +α−∆+ε E (cid:90) T H(α)π˜dξ +(1+2q)π˜ +O (cid:0) ε2(cid:1) ,
+α∗ k t,y
+t
+ψ =
+2
++2α+2επ˜+O
+(cid:0) ε2(cid:1)
+,
+α∗ k
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+r = s+∆−ε E H(α)π˜dξ +2qπ˜ +O (cid:0) ε2(cid:1) .
+α∗ t,y
+t
+As we can see, the transaction cost α widens the market-maker’s spread by 2α, i.e.
+ψ =ψ +2α.
+α∗ ∗
+Ifwerecallthateachtimethemarket-makertradesthespreadshepaysexactly2α, weconcludethather
+gain per traded spread is constant with value ψ , regardless of the transaction cost α. This feature has
+∗
+two immediate consequences:
+• If α > 0 then the market-maker tries to compensate her loss in transaction costs by widening her
+spread by 2α. By acting this way, she keeps her gain per traded spread constant but accepts a
+smaller probability of execution since she is moving her quotes further into the LOB. If α is too
+big then her spread could be so wide and far from the best quotes that the market-maker will not
+capture any market flow at all. Now imagine a scenario where most market-makers have the same
+behaviour: if they all have wider spreads then this would in aggregate increase the market spread
+2z. In consequence, the liquidity would diminish since the spread gets bigger and thus market
+orders will get executed at a price further from the mid-price.
+• In the presence of a rebate (i.e. α < 0) the market-maker systematically reduces her optimal
+spread. More precisely, she uses the rebate to improve her quotes, keeping her gain per traded
+spread constant but increasing her probability of execution by placing bets closer to the mid-price.
+If α is negative enough to have ψ = 0 then the market-maker could even accept to buy and sell
+α∗
+at the same price, earning no profit in the operation except for the rebate. This strategy is called
+scalping or rebate arbitrage, and has been commented by several practitioners (see e.g. Bodek and
+Shaw [2]).
+From the previous observations, it follows that the fee structure in high-frequency trading is crucial
+for the liquidity offer (measured as both the size of the spread and the available volume in the LOB)
+andtheprofitabilityofhigh-frequencymarket-makingstrategies. Moreover,tradingvenueswitharebate
+mechanism have smaller spreads, are more profitable for market-makers and lure non-market-making
+arbitrage strategies. These findings, although they are based on our model and its hypotheses, are
+consistent with several other theoretical and empirical studies on high-frequency trading.
+Forexample,ColliardandHoffmann[5]foundthattheFrenchfinancialtransactiontax(FTT)imposed
+onAugust2012hasreducedthenumberofaggressivelimitorders,i.e. thosethatreducethespread. The
+FTT also reduced the depth of the market, i.e. the sum of available volume at best bid and best ask, as
+well as the trading volume. Finally, the market spread and the volatility were unaffected.
+
+16 P. Fodra · M. Labadie
+Comparing our results with those of Colliard and Hoffman, one could argue that the loss of volume
+atthebestquotesandinsidethemarketspreadwasduetotradersincreasingtheirspreadsasaresponse
+to an increase of α. That said, it is worth to mention that FTT did not apply to market-makers who are
+membersoftheexchanges. Inconsequence,thesefee-exemptedmarket-makerscontinuedofferingliquidity
+at the best quotes, which explains why the market spread did not change with the FTT implementation.
+4 Numerical Simulations
+We performed several numerical simulation in order to assess quantitatively the statistical properties
+of the market-making strategy and its parameters, esp. the mid-price pattern (martingale or mean-
+reverting), the inventory risk ε and the transaction costs α. All simulations were performed in R.
+The mid-price in all cases will be an Ornstein-Uhlenbeck process, i.e.
+dS(t)=a[S(t)−µ]+σdW(t),
+which satisfies
+E [S(t)] = se−a(T−t)+µ(1−e−a(T−t))
+t,s
+(cid:16) (cid:17)
+∆ = (µ−s) 1−e−a(T−t) .
+Recall that for a martingale (e.g. Brownian motion) we have E [S(t)]=s and ∆=0.
+t,s
+The parameters we use, unless explicitly stated in the figures, are 10,000 simulations, 1000 events per
+day, T = 1, A = 1000, k = 1, initial price S(0) = 3000, a = 0.1, µ = 3009 (i.e. +3% of initial price),
+σ =0.5, z =0.5, ε=0.001, η =1, ν =1, α=0.05.
+InFigure2werepresentthemartingalestrategy,whosecontrolsδ± areratherconstant,around±1.0.
+∗
+They small fluctuations are due to inventory, but are independent of the mid-price. When the time
+t < 200 the quotes are tilted downwards: the market-maker has a positive inventory, thus she improves
+her ask price in order to sell. At t = 200 there is a jump upwards on the quotes, following a drop in
+the inventory. At the end of the day there is less fluctuation on the quotes: the inventory penalty due
+tothevolatilityisnearzero,andthepenaltyatexpirydoesnottriggerbecausetheinventoryisratherflat.
+In Figure 3 the quotes have stronger fluctuations. Near t=0 the quotes are downward, reflecting the
+fact that the mid-price is below its mean µ (red-dotted line) and the market-maker bets the price will go
+up. Around t=50 the price crosses µ and sits above µ: the market-maker bets for prices to come back
+later, hence she gets aggresive selling quotes and builds up a negative inventory. At t = 200, when the
+price comes back to µ, she starts to unwind some of her position. At the end of the day the mid-price
+plunges below µ, but there market-maker does not follow the buying signal: the dynamic is no longer
+driven by a directional bet but rather on clearing her inventory, which explains the steady slope in her
+inventory towards zero instead of a peak upward.
+In Figure 4 we plotted the histogram of the maximum and minimum intraday inventory. On the left-
+hand side we have the martingale strategy, which is rather symmetric: the strategy has no directional
+
+High-frequency market-making for multi-dimensional Markov processes 17
+Figure 2: A trading day with martingale controls.
+Figure 3: A trading day with Ornstein-Uhlenbeck (i.e. mean reverting) controls.
+
+18 P. Fodra · M. Labadie
+Figure 4: Min-Max intraday inventory.
+Figure 5: Comparison of directional patterns: martingale (M) vs mean-reverting (OU).
+
+High-frequency market-making for multi-dimensional Markov processes 19
+Figure 6: The effect of the inventory risk ε on the mean-reverting strategy.
+Figure 7: The effect of transaction costs α on the mean-reverting strategy.
+
+20 P. Fodra · M. Labadie
+bet, although the mid-price has an upward trend. On the right-hand side we have the mean-reverting
+strategy, whose histogram is skewed to the right. The market-maker tends to be positive in inventory
+because she bets the price will go up. The inventory risk is much bigger for Ornstein-Uhlenbeck than
+for the martingale: the inventory of the latter is around [−60,60] whilst that of the former is around
+[−400,500].
+In Figure 5 we compare the effect of the directional bet on the PNL density. On the one hand, the
+mean-reverting strategy earns more than the martingale one: it has higher mean, median and higher
+quantiles. This happens because the market-maker knows the pattern and the parameters of the mid-
+price, and exploits this information. On the other hand, the mean-reverting strategy is more risky than
+themartingaleone,asitcanbeinferredfromthelowerquantilesandthehigher-ordermoments(standard
+deviation, skewness, kurtosis). In consequence, a direcional bet makes the strategy more profitable but
+more risky.
+In Figure 6 we show the effect of the inventory-risk parameter ε on the PNL density. It is clear
+that as ε increases, the PNL density has thinner tails and is more concentrated, which corresponds to a
+substantial risk reduction, as we can see in the quantiles and the higher-order moments. Although there
+is a decrease in the average daily gain, the (daily) Sharpe ratio is increasing in ε.
+In Figure 7 we see the effect of the transaction costs α on the PNL density. There is a significant
+reduction on both the average daily gain and the (daily) Sharpe ratio, which implies the market-making
+becomes less profitable in the presence of higher transaction costs. For the other statistics, there is no
+significant change. One could thus be tempted thus to think that the effect of α on the PNL density is
+just a shift towards the left, but that is not exact because the shift is visible on the right tail and the
+head but it is negligeable on the left tail. In consequence, the transaction costs reduce the performance
+but they do not reduce the overall risk profile.
+5 Multi-asset model
+Assume now that we have M different assets or mid-prices S ,...,S . Our approach allows for general
+1 M
+Markov processes, but for simplicity (and without loss of generality) let us suppose that S(t) is an
+M-dimensional Itˆo diffusion
+dS(t)=a(t,S)dt+Σ(t,S)dW(t),
+where a(t,S)∈RM is the drift and dW(t) is an M-dimensional standard Brownian motion. The M×M
+matrix Σ(t,S) is the square root of the (symmetric, positive-defined) variance-covariance matrix Λ, i.e.
+Λ = Σ(cid:48)Σ. The inventory Q(t) is driven by the M-dimensional couple (N+(t),N−(t)), where the ith
+component (N+(t),N−(t)) is a Cox (or inhomogeneous Poisson) process having controlled intensity:
+i i
+(cid:0) λ+ i (δ i +),λ− i (δ i −) (cid:1) := (cid:16) A i e−ki[zi+δ i +],A i e−ki[zi+δ i −] (cid:17) (27)
+In summary, the SDEs that govern the dynamics of the processes are
+dX(t) = [S(t)+δ+(t)]·dN+(t)−[S(t)+δ+(t)]·dN−(t), (28)
+dS(t) = a(t,S)dt+Σ(t,S)dW(t),
+dQ(t) = −dN+(t)+dN−(t),
+
+High-frequency market-making for multi-dimensional Markov processes 21
+where X(t)∈R, Q(t)∈ZM and S(t)∈RM.
+5.1 Inventory penalties
+As before, we have two penalties.
+1. A penalty at expiry,
+Π :=ηQ(cid:48)(T)Ω(T)Q(T), η ≥0,
+1
+where Ω is an M×M symmetric, positive-definite matrix depending on some stochastic processes.
+For example, if the penalty is the cost of passing market orders at the end of the trading day then
+then Ω =δ Z , i.e. Ω is diagonal and coincides with the vector spread. However, Ω could be any
+ij ij i
+matrix that takes into account the cost of executing the M-dimensional portfolio Q(T) at market,
+including (but not limited to) the variance-covariance Λ=Σ(cid:48)Σ.
+2. An integral (thus path-dependent) penalty
+(cid:90) T
+Π :=ν Q(cid:48)(ξ)Λ(ξ)Q(ξ)dξ.
+2
+t
+For each asset S we have two controls δ± in an admissible space A . this means that the vector
+i i i
+controls δ± = (δ±,...,δ±) lie in the admissible space A = A ×···×A . Under this framework, The
+1 M 1 m
+value function is thus:
+(cid:104) (cid:105)
+u(t,y,q,x)= max E X(T)+Q(T)·S(T)−εΠ(T) , Π:=Π +Π , (29)
+t,y,q,x 1 2
+δ±∈A
+5.2 The HJB equation and the ansatz
+The HJB equation is
+(∂ +L)u+ max P[jump] (cid:2) u(t,y+,q+,x+)−u(t,y,q,x) (cid:3) = ενq(cid:48)Λq, (30)
+t
+δ±∈A
+u(T,y,q,x) = x+s·q−εηq(cid:48)Ωq,
+whereP[jump]istheprobabilityofhavingajump(i.e. marketordershittingthemarket-maker’squotes)
+at time t and u(t,y+,q+,x+) is the value function after the jump. As it is customary with several
+independent Poisson jumps, we will assume that they cannot occur simultaneously. This means that the
+jump
+u(t,y+,q+,x+)−u(t,y,q,x)
+can be decomposed as the sum of the jumps over i. More precisely, denote q the vector q without its
+(cid:98)i
+i-th coordinate, i.e modulo index permutation we have q =(q ,q ). Then the jumps are
+(cid:98)i i
+M
+(cid:88)(cid:104) (cid:105)
+u(t+,y+,q+,x+)−u(t,y,q,x) = u(t,y,q ,q −1,x+(s +δ+))−u(t,y,q,x)
+(cid:98)i i i i
+i=1
+M
+(cid:88)(cid:104) (cid:105)
++ u(t,y,q ,q +1,x−(s −δ−))−u(t,y,q,x) .
+(cid:98)i i i i
+i=1
+
+22 P. Fodra · M. Labadie
+In consequence, the HJB equation (30) takes the form
+M
+(∂ t +L)u+ (cid:88) max Ae−ki[zi+δ i +] (cid:104) u(t,y,q (cid:98)i ,q i −1,x+(s i +δ i +))−u(t,y,q,x) (cid:105) (31)
+i=1
+δ
+i
++∈Ai
+M
++ (cid:88) max Ae−ki[zi+δ i −] (cid:104) u(t,y,q (cid:98)i ,q i +1,x−(s i −δ i −))−u(t,y,q,x) (cid:105) = ενq(cid:48)Λq,
+i=1
+δ
+i
+−∈Ai
+u(T,y,q,x)=x+s·q − εηq(cid:48)Ωq.
+We will again use perturbation methods on ε and search for a solution of (31) with the following
+shape:
+u(t,y,q,x) = x+v(0)(t,y)+εv(1)(t,y)+O (cid:0) ε2(cid:1) , (32)
+q q
+M
+v(0)(t,y) = θ(0)(t,y)+ (cid:88) q θ(0)(t,y),
+q 0 i i
+i=1
+M M M
+v(1)(t,y) = θ(1)(t,y)+ (cid:88) q θ(1)(t,y)+ (cid:88)(cid:88) q q θ(1)(t,y),
+q 0 i i i j ij
+i=1 i=1j=1
+where θ(1) =θ(1).
+ij ji
+5.3 Verification equation and its linearisation
+With the ansatz (32), the marginal jumps can be readily computed:
+v(0) −v(0) = −θ(0), (33)
+qi−1 qi i
+v(0) −v(0) = θ(0),
+qi+1 qi i
+M
+v(1) −v(1) = −θ(1)−2 (cid:88) q θ(1)+θ(1),
+qi−1 qi i j ij ii
+j=1
+M
+v(1) −v(1) = θ(1)+2 (cid:88) q θ(1)+θ(1).
+qi+1 qi i j ij ii
+j=1
+Therefore, since the marginal optimal controls are
+δ+ = 1 +s +v(0)−v(0) +ε (cid:104) v(1)−v(1) (cid:105) +O (cid:0) ε2(cid:1) ,
+i∗ k i qi qi−1 qi qi−1
+i
+δ− = 1 +s +v(0)−v(0) +ε (cid:104) v(1)−v(1) (cid:105) +O (cid:0) ε2(cid:1)
+i∗ k i qi qi+1 qi qi+1
+i
+
+High-frequency market-making for multi-dimensional Markov processes 23
+it follows that
+ 
+M
+δ
+i
++
+∗
+=
+k
+1 −s
+i
++θ
+i
+(0)+εθ
+i
+(1)+2 (cid:88) q
+j
+θ
+i
+(
+j
+1)−θ
+i
+(
+i
+1) +O (cid:0) ε2(cid:1) , (34)
+i
+j=1
+ 
+M
+δ
+i
+−
+∗
+=
+k
+1 +s−θ
+i
+(0)+ε−θ
+i
+(1)−2 (cid:88) q
+j
+θ
+i
+(
+j
+1)−θ
+i
+(
+i
+1) +O (cid:0) ε2(cid:1) .
+i
+j=1
+Under these conditions, the verification equation is
+   
+(∂ t +L) (cid:16) v q (0)+εv q (1) (cid:17) + (cid:88) M e A k ie−kiziekisie−kiθ i (0) exp  −k i εθ i (1)+2 (cid:88) M q j θ i ( j 1)−θ i ( i 1) +O(ε2) 
+i  
+i=1 j=1
+   
++ (cid:88) M e A k ie−kizie−kisiekiθ i (0) exp  k i εθ i (1)+2 (cid:88) M q j θ i ( j 1)+θ i ( i 1) +O(ε2) 
+i  
+i=1 j=1
+= ενq(cid:48)Λq,
+v(0)(T,y) = s·q, (35)
+q
+v(1)(T,y) = −ηq(cid:48)Ωq.
+q
+The linearisation in ε of the verification equation (35) is
+   
+(∂ t +L) (cid:16) v q (0)+εv q (1) (cid:17) + (cid:88) M e A k ie−kiziekisie−kiθ i (0)  1−k i εθ i (1)+2 (cid:88) M q j θ i ( j 1)−θ i ( i 1) +O(ε2) 
+i  
+i=1 j=1
+   
++ (cid:88) M e A k ie−kizie−kisiekiθ i (0)  1+k i εθ i (1)+2 (cid:88) M q j θ i ( j 1)+θ i ( i 1) +O(ε2) 
+i  
+i=1 j=1
+= ενq(cid:48)Λq,
+v(0)(T,y) = s·q, (36)
+q
+v(1)(T,y) = −ηq(cid:48)Ωq.
+q
+5.4 Solution for ε0
+At zero-th order in ε we get
+M
+(∂ +L)v(0)+
+(cid:88)2A
+ie−kizicosh
+(cid:16)
+k [θ(0)−s ]
+(cid:17)
+= 0, (37)
+t q ek i i i
+i
+i=1
+v(0)(T,y) = s·q.
+q
+
+24 P. Fodra · M. Labadie
+We decompose (37) in its M +1 components. For θ(0) we obtain
+0
+M
+(∂ +L)θ(0)+
+(cid:88)2A
+ie−kizicosh
+(cid:16)
+k [θ(0)−s ]
+(cid:17)
+= 0, (38)
+t 0 ek i i i
+i
+i=1
+θ(0)(T,y) = 0,
+0
+whilst for θ(0) we get
+i
+(∂ +L)θ(0) = 0, (39)
+t i
+θ(0)(T,y) = s .
+i i
+Using Feynman-Kac (recursively) we obtain
+θ(0)(t,y) = s +∆ , (40)
+i i i
+θ(0)(t,y) = (cid:88) M 2 E (cid:34) (cid:90) T A ie−KiZicosh(K ∆ )dξ (cid:35) ,
+0 e t,y K i i
+i=1 t i
+where ∆ :=E [S (T)]−s . As in the single-asset case, the solution
+i t,y i i
+u(t,y,q,x)=x+ (cid:88) M q (s +∆ )+ (cid:88) M 2 E (cid:34) (cid:90) T A ie−KiZicosh(K ∆ )dξ (cid:35)
+i i i e t,y K i i
+i=1 i=1 t i
+is exact for ε = 0, i.e. for the problem without inventory constraints. As before, the first two terms of
+theright-handsidearethebuy-and-holdstrategy, i.e. theexpectedgainofkeepingthecurrentinventory
+positionuntiltheendofthetradingday. Thethirdtermtakesintoaccountthemarket-makingthoughout
+the day (that is why it has an integral term) with a directional bet (given by the ∆ ’s). Since the third
+i
+term is strictly positive then it is more profitable to play market-making than buy-and-hold only, and it
+works better for non-martingale mid-price processes.
+5.5 Solution for ε1
+At first order in ε we have
+ 
+M M
+(∂ t +L)v q (1) − (cid:88)A e ie−kizie−ki∆iθ i (1)+2 (cid:88) q j θ i ( j 1)−θ i ( i 1) 
+i=1 j=1
+ 
+M M
++ (cid:88)A e ie−kizieki∆iθ i (1)+2 (cid:88) q j θ i ( j 1)+θ i ( i 1) 
+i=1 j=1
+= νq(cid:48)Λq, (41)
+v(1)(T,y) = −ηq(cid:48)Ωq.
+q
+We decompose (41) into several components. For θ(1) we obtain
+0
+M M
+(∂ +L)θ(1)+
+(cid:88)2A
+ie−kizisinh(k ∆ )θ(1)+
+(cid:88)2A
+ie−kizicosh(k ∆ )θ(1) = 0, (42)
+t 0 ek i i i ek i i ii
+i i
+i=1 i=1
+θ(1)(T,y) = 0;
+0
+
+High-frequency market-making for multi-dimensional Markov processes 25
+for θ(1) we have
+i
+M
+(∂ +L)θ(1)+ 4A ie−kizisinh(k ∆ ) (cid:88) θ(1) = 0.
+t i e i i ij
+j=1
+θ(1)(T,y) = 0; (43)
+i
+and for θ(1) we get
+ij
+(∂ +L)θ(1) = νΛ , (44)
+t ij ij
+θ(1)(T,y) = −ηΩ .
+ij ij
+Solving (recursively) with Feynmann-Kac yields
+θ(1)(t,y) = −π˜ , (45)
+ij ij
+ 
+θ i (1)(t,y) = − 4 e E t,y (cid:90) T A i e−KiZisinh(K i ∆ i ) (cid:88) M π˜ ij dξ ,
+t j=1
+θ(1)(t,y) =
+2(cid:88) M
+E
+(cid:34) (cid:90) T
+A e−KiZi
+(cid:110)
+θ(1)sinh(K ∆ )−π˜ cosh(K ∆ )
+(cid:111)
+dξ
+(cid:35)
+,
+0 e t,y i i i i ij i i
+j=1 t
+where
+(cid:34) (cid:35)
+(cid:90) T
+π˜ :=ηE [Ω (T)]+νE Λ dξ .
+ij t,y ij t,y ij
+t
+Putting all together (32), (40), (45) we obtain the explicit expansion of u(t,y,q,x) up to first order in ε.
+5.6 Optimal controls
+Plugging the explicit expressions (40), (45) into (34) yields
+   
+δ i + ∗ = k 1 +∆ i +ε  − 4 e E t,y (cid:90) T A i e−KiZisinh(K i ∆ i ) (cid:88) M π˜ ij dξ−2 (cid:88) M q j π˜ ij +π˜ ii  +O (cid:0) ε2(cid:1) ,
+i  t j=1 j=1 
+(46)
+   
+δ i − ∗ = k 1 −∆ i +ε  + 4 e E t,y (cid:90) T A i e−KiZisinh(K i ∆ i ) (cid:88) M π˜ ij dξ  +2 (cid:88) M q j π˜ ij +π˜ ii+O (cid:0) ε2(cid:1) .
+i  t j=1  j=1
+Let us lighten the notation via vectors. If we define
+ δ±   1/k   ∆   1 
+1∗ 1 1
+δ± = . .  , k−1 = . .  , ∆= . .  , 1= . .  ,
+∗  .   .   .   . 
+δ± 1/k ∆ 1
+M∗ M M
+
+26 P. Fodra · M. Labadie
+   
+π˜ ··· π˜ π˜
+11 1M 11
+. . .
+π˜ = . .  , Diag(π˜)= .  ,
+ . .   . 
+π˜ ··· π˜ π˜
+M1 MM MM
+and
+ A
+i
+e−K1Z1sinh(K
+1
+∆
+1
+) 0 
+H = 4
+e
+
+
+... 
+
+,
+0 A
+M
+e−KMZM sinh(K
+M
+∆
+M
+)
+then the optimal controls are
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+δ+ = k−1+∆+ε −E Hπ˜1dξ −2π˜q+Diag(π˜) +O (cid:0) ε2(cid:1) , (47)
+∗ t,y
+t
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+δ− = k−1−∆+ε +E Hπ˜1dξ +2π˜q+Diag(π˜) +O (cid:0) ε2(cid:1) ,
+∗ t,y
+t
+ψ = 2k−1+2εDiag(π˜)+O (cid:0) ε2(cid:1) ,
+∗
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+r = s+∆−ε E Hπ˜1dξ +2π˜q +O (cid:0) ε2(cid:1) .
+∗ t,y
+t
+5.7 The effect of transaction costs
+For each asset S we can add a transaction cost α . In order to use the vectorial notation as in (47),
+i i
+define
+ 
+α
+1
+.
+α= . 
+ . 
+α
+M
+and
+ A
+i
+e−K1(Z1+α1)sinh(K
+1
+∆
+1
+) 0 
+H(α)= 4
+e
+
+
+... 
+
+.
+0 A
+M
+e−KM(ZM+αM)sinh(K
+M
+∆
+M
+)
+It can be shown that the optimal controls under transaction costs are
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+δ+ = k−1+α+∆+ε −E H(α)π˜1dξ −2π˜q+Diag(π˜) +O (cid:0) ε2(cid:1) , (48)
+α∗ t,y
+t
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+δ− = k−1+α−∆+ε +E H(α)π˜1dξ +2π˜q+Diag(π˜) +O (cid:0) ε2(cid:1) .
+α∗ t,y
+t
+ψ = 2k−1+2α+2εDiag(π˜)+O (cid:0) ε2(cid:1) ,
+α∗
+(cid:40) (cid:34) (cid:35) (cid:41)
+(cid:90) T
+r = s+∆−ε E H(α)π˜1dξ +2π˜q +O (cid:0) ε2(cid:1) .
+α∗ t,y
+t
+
+High-frequency market-making for multi-dimensional Markov processes 27
+Observe that the optimal market-maker’s spread ψ do not have crossed terms, i.e. the spreads are
+α∗
+independent. The optimal centres r do have cross-correlation terms involved via π˜, which enter into
+α∗
+playtwice: first,asweightsonthedirectionalbetH(α),integratedovertheremainingtimeT−t;second,
+as weights on the inventory q.
+In the particular case where all mid-prices are martingales, i.e. ∆=0 and H(α)=0, we have
+ψ = 2k−1+2α+2εDiag(π˜)+O (cid:0) ε2(cid:1) , (49)
+α∗
+r = s−2επ˜q+O
+(cid:0) ε2(cid:1)
+.
+α∗
+5.8 Risk management and iso-risk surfaces
+Recall that the inventory risk is given by Π(q)=ε[Π (q)+Π (q)], where
+1 2
+(cid:90) T
+Π (q)=ηq(cid:48)Ωq, Π (q):=ν q(cid:48)Λqdξ
+1 2
+t
+with both Ω and Λ are M ×M symmetric, positive-definite matrices. The (M −1)-dimensional iso-risk
+surface at level c≥0 is defined as
+isoRisk(c)= (cid:8) w ∈RM :Π(w)=c (cid:9) .
+Observe that q(cid:48)Ωq and q(cid:48)Λq are positive-definite bilinear forms in RM, hence they define two norms
+equivalent to the Euclidean one. Moreover, their corresponding level surfaces are ellipsoids. This implies
+that the iso-risk surface isoRisk(c) is determined by the level curves of Π and Π , i.e. by the norms of
+1 2
+the inventory vector q induced by Ω and Λ.
+In order to assess the effect of cross-correlation in the risk measure, let us consider the simplest
+example, i.e. M =2, ε=1, η =1, ν =0 and
+(cid:20) (cid:21)
+1 ρ
+Ω= , ρ∈[0,1).
+ρ 1
+In this case, the iso-risk curves are ellipses, i.e.
+isoRisk(c)= (cid:8) w =(w ,w )(cid:48) ∈R2 :Π(w)=c (cid:9) , Π(w)=w2+2ρw w +w2.
+1 2 1 1 2 2
+Now, assume that the market-maker looks for an inventory q = (q ,q )(cid:48) such that |q |+|q | = 2. Then
+1 2 1 1
+the possible configurations (modulo the symmetry q ↔q ) are
+1 2
+q =(2,0)(cid:48), q =(1,1)(cid:48) and q =(1,−1)(cid:48).
+A B C
+Since
+Π(q )=4, Π(q )=2(1+ρ), Π(q )=2(1−ρ),
+A B C
+if ρ∈(0,1) then
+Π(q )<Π(q )<Π(q ),
+C B A
+
+28 P. Fodra · M. Labadie
+i.e. all three configurations belong to a different iso-risk ellipse and q is the unique configuration min-
+C
+imising the risk. Therefore, the market-maker will privilege q over q and q .
+C A B
+Imagine that the current inventory of the market-maker is (2,−1)(cid:48), i.e. an absolute inventory of 3. If
+she desires to reduce her absolute inventory to 2 then she will choose (1,−1)(cid:48) over (2,0)(cid:48). However, it is
+not always desirable to reduce the absolute inventory: if ρ>1/4 then
+Π((2,−1)(cid:48))=5−4ρ<4=Π((2,0)(cid:48)),
+whichimpliesthatthemarket-makerwouldprefer(2,−1)(cid:48) over(2,0)(cid:48), evenifintermsofabsoluteinven-
+tory this choice seems counter-intuitive.
+In the general case, the philosophy is the same: the risks in inventory are not measured in absolute
+terms,butintermsofthebilinearformsq(cid:48)Ωq andq(cid:48)Λq andhowtheyaffecttheiso-risksurfaceisoRisk(c).
+Therefore, in the presence of non-zero correlations the market-maker will favour a well-diversified port-
+folio: the optimal inventory vector q is computed following the same optimisation as for the Markowitz
+Portfolio and the Efficient Frontier.
+References
+[1] Avellaneda, Stoikov (2008) High-frequency trading in a limit-order book. Quantitative Finance Vol.
+8 No. 3.
+[2] Bodek, Shaw (2012) Introduction to HFT scalping strategies. Decimus Capital Markets LLC, Re-
+search note.
+[3] Cartea,Jaimungal(2011)BuyLowSellHigh: AHighFrequencyTradingPerspective.PreprintSSRN.
+[4] Cartea,Jaimungal(2012)RiskMetricsandFineTuningofHighFrequencyTradingStrategies.Math-
+ematical Finance.
+[5] Colliard, Hoffmann (2013) Sand in the chips: Evidence on taxing transactions in an electronic
+market. Working paper.
+[6] Fodra,Labadie(2012)High-frequencymarket-makingwithinventoryconstraintsanddirectionalbets.
+Preprint (ArXiv).
+[7] Gu´eant, Lehalle, Fern´andez-Tapia (2011) Dealing with inventory risk. Preprint.
+[8] Guilbaud, Pham (2011) Optimal high frequency trading with limit and market orders. Preprint, to
+appear in Quantitative Finance.
+[9] Ho, Stoll (1981) Optimal dealer pricing under transactions and return uncertainty. J. Financ. Econ
+Vol. 9 pp. 47-73.
+[10] Pham (2009) Continuous-time stochastic control and optimization with financial applications.
+Springer.
+[11] Stoll (1978) The supply of dealer services in securities markets. Journal of Finance Vol. 33 no. 4 pp.
+1133-1151.

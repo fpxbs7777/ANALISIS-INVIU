@@ -1,0 +1,396 @@
+api keys modelos nvda
+
+
+API Key Granted
+This is the only time your key will be displayed. This key is for API testing use only and is valid for 6 months.
+
+ID
+0fb0ff1b-a71c-416e-8af5-3c26b69b7614
+Name
+NVIDIABuild-Autogen-99
+Expiration
+01/29/2027
+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 
+Keep your key a secret. Do not share it or store it in a place where others can see or copy it.
+
+
+from openai import OpenAI
+
+client = OpenAI(
+  base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+)
+
+completion = client.chat.completions.create(
+  model="thinkingmachines/inkling",
+  messages=[{"role":"user","content":""}],
+  temperature=1,
+  top_p=0.95,
+  max_tokens=8192,
+  stream=False
+)
+
+print(completion.choices[0].message.content)
+
+
+from openai import OpenAI
+
+client = OpenAI(
+  base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+)
+
+
+completion = client.chat.completions.create(
+  model="poolside/laguna-xs-2.1",
+  messages=[{"role":"user","content":""}],
+  temperature=1,
+  top_p=0.95,
+  max_tokens=8192,
+  
+  stream=False
+)
+
+print(completion.choices[0].message.content)
+
+from openai import OpenAI
+import os
+import sys
+
+_USE_COLOR = sys.stdout.isatty() and os.getenv("NO_COLOR") is None
+_REASONING_COLOR = "\033[90m" if _USE_COLOR else ""
+_RESET_COLOR = "\033[0m" if _USE_COLOR else ""
+
+client = OpenAI(
+  base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+)
+
+
+completion = client.chat.completions.create(
+  model="z-ai/glm-5.2",
+  messages=[{"role":"user","content":""}],
+  temperature=1,
+  top_p=1,
+  max_tokens=16384,
+  seed=42,
+  
+  stream=True
+)
+
+for chunk in completion:
+  if not getattr(chunk, "choices", None):
+    continue
+  if len(chunk.choices) == 0 or getattr(chunk.choices[0], "delta", None) is None:
+    continue
+  delta = chunk.choices[0].delta
+  if getattr(delta, "content", None) is not None:
+    print(delta.content, end="")
+
+import requests
+
+invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+stream = False
+
+headers = {
+    "Authorization": "Bearer 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",
+    "Accept": "text/event-stream" if stream else "application/json",
+}
+
+payload = {
+  "model": "minimaxai/minimax-m3",
+  "messages": [
+    {
+      "role": "user",
+      "content": ""
+    }
+  ],
+  "temperature": 1,
+  "top_p": 0.95,
+  "max_tokens": 8192,
+  "stream": stream
+}
+
+response = requests.post(invoke_url, headers=headers, json=payload, stream=stream)
+if stream:
+    for line in response.iter_lines():
+        if line:
+            print(line.decode("utf-8"))
+else:
+    print(response.json())
+
+import requests
+
+invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+stream = False
+
+headers = {
+    "Authorization": "Bearer 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",
+    "Accept": "text/event-stream" if stream else "application/json",
+}
+
+payload = {
+  "messages": [
+    {
+      "role": "user",
+      "content": ""
+    }
+  ],
+  "model": "google/diffusiongemma-26b-a4b-it",
+  "chat_template_kwargs": {
+    "enable_thinking": True
+  },
+  "max_tokens": 4096,
+  "stream": stream,
+  "temperature": 1,
+  "top_p": 0.95
+}
+
+response = requests.post(invoke_url, headers=headers, json=payload, stream=stream)
+if stream:
+    for line in response.iter_lines():
+        if line:
+            print(line.decode("utf-8"))
+else:
+    print(response.json())
+
+from openai import OpenAI
+
+client = OpenAI(
+  base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+)
+
+
+completion = client.chat.completions.create(
+  model="nvidia/nemotron-3-ultra-550b-a55b",
+  messages=[{"role":"user","content":""}],
+  temperature=1,
+  top_p=0.95,
+  max_tokens=16384,
+  extra_body={"chat_template_kwargs":{"enable_thinking":True},"reasoning_budget":16384},
+  stream=True
+)
+
+for chunk in completion:
+  if not chunk.choices:
+    continue
+  reasoning = getattr(chunk.choices[0].delta, "reasoning_content", None)
+  if reasoning:
+    print(reasoning, end="")
+  if chunk.choices[0].delta.content is not None:
+    print(chunk.choices[0].delta.content, end="")
+
+import requests
+
+invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+stream = False
+
+headers = {
+    "Authorization": "Bearer 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",
+    "Accept": "text/event-stream" if stream else "application/json",
+}
+
+payload = {
+  "messages": [
+    {
+      "role": "user",
+      "content": ""
+    }
+  ],
+  "model": "moonshotai/kimi-k2.6",
+  "max_tokens": 16384,
+  "seed": 0,
+  "stream": stream,
+  "temperature": 1,
+  "top_p": 1
+}
+
+response = requests.post(invoke_url, headers=headers, json=payload, stream=stream)
+if stream:
+    for line in response.iter_lines():
+        if line:
+            print(line.decode("utf-8"))
+else:
+    print(response.json())
+
+
+import requests
+
+invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+stream = False
+
+headers = {
+    "Authorization": "Bearer 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",
+    "Accept": "text/event-stream" if stream else "application/json",
+}
+
+payload = {
+  "messages": [
+    {
+      "role": "user",
+      "content": ""
+    }
+  ],
+  "model": "google/diffusiongemma-26b-a4b-it",
+  "chat_template_kwargs": {
+    "enable_thinking": True
+  },
+  "max_tokens": 4096,
+  "stream": stream,
+  "temperature": 1,
+  "top_p": 0.95
+}
+
+response = requests.post(invoke_url, headers=headers, json=payload, stream=stream)
+if stream:
+    for line in response.iter_lines():
+        if line:
+            print(line.decode("utf-8"))
+else:
+    print(response.json())
+
+from openai import OpenAI
+
+client = OpenAI(
+  base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+)
+
+
+completion = client.chat.completions.create(
+  model="nvidia/nemotron-3-ultra-550b-a55b",
+  messages=[{"role":"user","content":""}],
+  temperature=1,
+  top_p=0.95,
+  max_tokens=16384,
+  extra_body={"chat_template_kwargs":{"enable_thinking":True},"reasoning_budget":16384},
+  stream=True
+)
+
+for chunk in completion:
+  if not chunk.choices:
+    continue
+  reasoning = getattr(chunk.choices[0].delta, "reasoning_content", None)
+  if reasoning:
+    print(reasoning, end="")
+  if chunk.choices[0].delta.content is not None:
+    print(chunk.choices[0].delta.content, end="")
+
+import requests
+
+invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+stream = False
+
+headers = {
+    "Authorization": "Bearer $NVIDIA_API_KEY",
+    "Accept": "text/event-stream" if stream else "application/json",
+}
+
+payload = {
+  "messages": [
+    {
+      "role": "user",
+      "content": ""
+    }
+  ],
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "max_tokens": 65536,
+  "reasoning_budget": 16384,
+  "stream": stream,
+  "temperature": 0.6,
+  "top_p": 0.95
+}
+
+response = requests.post(invoke_url, headers=headers, json=payload, stream=stream)
+if stream:
+    for line in response.iter_lines():
+        if line:
+            print(line.decode("utf-8"))
+else:
+    print(response.json())
+
+import requests
+
+invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+stream = False
+
+headers = {
+    "Authorization": "Bearer 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",
+    "Accept": "text/event-stream" if stream else "application/json",
+}
+
+payload = {
+  "messages": [
+    {
+      "role": "user",
+      "content": ""
+    }
+  ],
+  "model": "mistralai/mistral-medium-3.5-128b",
+  "reasoning_effort": "high",
+  "max_tokens": 16384,
+  "stream": stream,
+  "temperature": 0.7,
+  "top_p": 1
+}
+
+response = requests.post(invoke_url, headers=headers, json=payload, stream=stream)
+if stream:
+    for line in response.iter_lines():
+        if line:
+            print(line.decode("utf-8"))
+else:
+    print(response.json())
+
+from openai import OpenAI
+
+client = OpenAI(
+  base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = "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"
+)
+
+
+completion = client.chat.completions.create(
+  model="deepseek-ai/deepseek-v4-pro",
+  messages=[{"role":"user","content":""}],
+  temperature=1,
+  top_p=0.95,
+  max_tokens=16384,
+  extra_body={"chat_template_kwargs":{"thinking":False}},
+  stream=False
+)
+
+print(completion.choices[0].message.content)
+
+import requests, base64
+
+invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+stream = False
+
+def read_b64(path):
+  with open(path, "rb") as f:
+    return base64.b64encode(f.read()).decode()
+
+headers = {
+  "Authorization": "Bearer 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",
+  "Accept": "text/event-stream" if stream else "application/json"
+}
+
+payload = {
+  "model": "nvidia/ising-calibration-1.5-31b",
+  "messages": [{"role":"user","content":""}],
+  "max_tokens": 32768,
+  "temperature": 1.00,
+  "top_p": 0.95,
+  "stream": stream,
+  
+}
+response = requests.post(invoke_url, headers=headers, json=payload, stream=stream)
+if stream:
+    for line in response.iter_lines():
+        if line:
+            print(line.decode("utf-8"))
+else:
+    print(response.json())
+

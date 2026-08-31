@@ -1,0 +1,1083 @@
+Glosario 7/31/03 9:51 PM Page 1
+Glosario
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 2
+2 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+A la par convicción de que es posible supe-
+♦ Un bono cotiza a la par cuando su rar el rendimiento del índice selec-
+precio es igual a su valor según sus cionando los activos en los que
+condiciones de emisión. La TIR es invertir.
+igual a la tasa de cupón.
+Administración pasiva
+Acción ♦ Filosofía de inversión basada en la
+♦ Parte en que se divide el capital de “no selección” de los activos. Sus adhe-
+una empresa. rentes no creen que seleccionando ac-
+tivos se pueda superar en forma
+Acción ordinaria sistemática el rendimiento del índice.
+♦ Acción común, con derecho a voto y Por tal motivo, los administradores
+a dividendo. que adhieren a esta filosofía invierten
+en el propio índice o en una cartera co-
+Acción preferida piada del mismo.
+♦ Acción con derecho de preferencia
+sobre las utilidades. Normalmente el ADR (recibo de depósito
+monto del dividendo es fijo y se pagan americano)
+sólo si hubo utilidades. Generalmente ♦ American Depositary Receipt. Son
+no tienen derecho a voto. A veces se certificados negociables emitidos
+emiten con cláusula de conversión en por bancos estadounidenses. Los cer-
+acciones ordinarias. tificados representan cierta cantidad
+de acciones de compañías extranjeras.
+Acciones cíclicas Se operan en las bolsas estadouniden-
+♦ Acciones que tienden a subir rápido ses.
+de precio cuando la economía mejora,
+o que tienden a bajar rápidamente Agente colocador
+cuando las condiciones generales em- ♦ Institución encargada de la venta
+peoran. Típicamente se ubican en esta primaria del activo a emitirse.
+categoría las acciones de empresas pa-
+peleras, automotrices, etcétera. Amortización
+♦ Pago total o parcial del capital nomi-
+Activo subyacente nal de un bono.
+♦ Activo sobre el cual se operan deri-
+vados (opciones, futuros, etc.) Análisis fundamental
+♦ Metodología para la valuación de
+Activo libre de riesgo (risk free activos basada en los “fundamen-
+asset) tos” del instrumento. En el caso de
+♦ Activo financiero cuyos intereses y las acciones, el analista estudia a la
+principalserán pagadoscon toda certeza. empresa en cuanto a las perspecti-
+Es un conceptomuy usado en el mode- vas de las ventas, la posibilidad de
+loCAPM, según el cual el rendimiento queincrementesusutilidadesa futu-
+a obtener de cualquier valor será igual ro, etcétera.
+al que se llegue por el activo libre de
+riesgo más una prima por riesgo. Análisis técnico
+♦ Metodología basada en el análisis de
+Administración activa gráficos de evolución para pronosticar
+♦ Filosofía de inversión basada en la el probable recorrido futuro del precio
+selección de activos. Se sustenta en la de un activo.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 3
+GLOSARIO 3
+Apalancamiento (leverage, Beta
+gearing) ♦ Coeficiente que indica la volatilidado
+♦ Expresión del efecto que se produce riesgo sistemáticode la rentabilidad de
+en el riesgo y en el grado de variabili- un título en relación con la variación
+dad de los resultados de una empresa de la rentabilidadde mercado (general-
+por el efecto de tomar mayor financia- mente un índice). Si el beta del título
+ción externa o por otro hecho concre- es mayor que uno, tiene una volatilidad
+to. superior a la del mercado y se denomi-
+na agresivo. Si, por el contrario, es me-
+Arbitraje nor que uno, se denomina defensivo.
+♦ Operación que busca sacar ventaja
+de anomalías transitorias en los pre- Bid (compra)
+cios de dos activos. ♦ Precio al cual hay compradores de
+un activo.
+Asignación de activos
+♦ Es la manera en la que se distribu- Black and Scholes
+♦ Modelo de valuación de opciones
+yen las inversiones según las distintas
+que combina para el cálculo la volatili-
+clases de activos.
+dad del activo subyacente, la tasa de
+interés, el tiempo que resta al venci- At-the-money (al dinero)
+miento, y el diferencial entre el precio
+♦ Es una propiedad del precio de una
+contado y de ejercicio del activo sub- opción que se da cuando el precio de
+yacente.
+ejercicio es igual al precio contado de
+la acción.
+Bloque
+♦ Operación en la que se transa una
+Aversión al riesgo
+cantidad importante de activos.
+♦ Baja tolerancia al riesgo.
+Blue chip
+Bajo la par
+♦ Compañía con gran aceptación de
+♦Un bono cotiza bajo la par cuando su
+sus productos o servicios, o con capa-
+precio es menor a su valor según con-
+cidad demostrada de generar utilida-
+diciones de emisión. La TIR es mayor
+des al inversor, o con buena y regular
+que la tasa de cupón.
+capacidad de pago de dividendos en
+efectivo.
+Bear market (mercado bajista)
+♦ Mercado caracterizado por una ten-
+Bolsa
+dencia bajista.
+♦ Ámbito de negociación de activos fi-
+nancieros con oferta pública.
+Bear spread (diferencial bajista)
+♦ Estrategia de inversión que utiliza Bono
+opciones de compra, comprando la de ♦ Instrumento de deuda que represen-
+precio de ejercicio más alto y vendien- ta el compromiso del emisor de devol-
+do la de precio de ejercicio más bajo. ver el capital originalmente captado
+La apuesta es a un precio en baja del entre los inversores, pagando, normal-
+activo subyacente. mente, un interés periódico.
+Benchmark (referencia) Bono basura
+♦ Cartera testigo con la que se compa- Bono con baja calificación. Se negocia
+ran los rendimientos de una cartera. a precios que determinan ex-ante altas
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 4
+4 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+tasas de retorno. Son instrumentos de Bullet
+riesgo alto. ♦Bono que amortiza totalmente en un
+solo pago al vencimiento.
+Bono convertible
+♦ Bono que se emite con la opción de Bursátil
+canje por acciones según condiciones ♦ Referido a la bolsa.
+específicas a favor del inversor.
+Butterfly spread (diferencial
+Bono cupón cero mariposa)
+♦ Bono emitido sin cupón de renta. Se ♦ Estrategia compleja de opciones
+negocia con descuento sobre el valor construida a partir de la venta y
+nominal. La TIR surge del diferencial compra de 2 calls con diferentes
+vencimiento y precios de ejercicio.
+entre el valor nominal y el precio.
+La estrategia reporta utilidad cuando
+el precio contado del activo subya-
+Bono Brady
+cente no experimenta cambios im-
+♦ Son bonos emitidos por los gobier-
+portantes.
+nos en el marco de la refinanciación
+de la deuda externa de inicios de los
+Call
+90. Las emisiones típicas en Argentina
+♦ Opción de compra.
+son el FRB (Floating Rate Bond), el
+PAR y el Discount.
+Canal
+♦ En un gráfico de precios el analista Bonos corporativos
+técnico llama canal a la figura que se
+♦ Bonos emitidos por empresas.
+forma al unir con una línea los precios
+máximos de la serie y con otra línea
+Bonos municipales
+paralela a ella, los precios mínimos.
+♦ Bonos emitidos por los gobiernos lo-
+cales.
+Capitalización bursátil
+♦ Valor de una empresa en bolsa. Sur-
+Bonos soberanos
+ge de multiplicar el precio de la acción
+♦ Bonos emitidos por los gobiernos
+por la cantidad de acciones totales de
+centrales.
+la empresa.
+Broker (intermediario) Cash flow (flujo de fondos)
+♦ Agente autorizado para intermediar ♦ Es la cantidad neta de dinero que
+en la compra/venta de activos finan- con su actividad de ventas y otros in-
+cieros, por lo que cobran una comisión gresos genera una empresa. Es igual a
+explícita. los cobros realizados durante el perío-
+do estudiado menos los pagos. Con la
+Bull market (mercado alcista) información que publican las empre-
+♦ Mercado caracterizado por una ten- sas en las cuentas anuales no es posi-
+dencia alcista. ble calcularla, por lo tanto se usan
+varias aproximaciones al cálculo exac-
+Bull spread (diferencial alcista) to. Se la definió, posteriormente, como
+♦ Estrategia de inversión que utiliza el beneficio neto más todos los gastos
+opciones de compra y se compra la de y menos todos los ingresos no dinera-
+precio de ejercicio más baja y se vende rios: provisiones, amortizaciones, etcé-
+la de precio de ejercicio más alta. tera.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 5
+GLOSARIO 5
+Caución bursátil por tanto, es el costo que la empresa
+♦ La caución bursátil es un pase en el deberá satisfacer a sus accionistas bien
+cual el precio de venta al contado es por vía dividendos o bien por vía plus-
+inferior al de cotización y resulta de valías.
+los aforos que fija periódicamente el
+Merval, siendo además el precio de la Costo de oportunidad
+venta a plazo, superior al de la venta al ♦ Tasa de interés o retorno esperado
+contado. más alto alternativo al del activo en
+cuestión.
+Commodity
+♦ Productos de la economía real como Cuotaparte
+los granos, metales, petróleo, etc., so- ♦ Parte en que se divide el patrimonio
+bre los que se negocian instrumentos de un fondo de inversión.
+financieros derivados.
+Cupón de renta
+Condiciones de emisión ♦ Importe periódico de intereses que
+♦ Particularidades de la emisión de un paga el emisor de un bono a sus inver-
+activo contenidos en el prospecto. sores.
+Convexidad Curva de rendimientos
+♦ Es lo que cambia el precio de un bo- ♦ Gráfico que muestra los pares de
+no, por encima de lo que predice la du- TIR y duration para distintos bonos.
+ración modificada, al variar los tipos
+de interés. Matemáticamente, es la se- Custodia
+gunda derivada del precio del bono ♦ Servicio que prestan generalmente
+con respecto al rendimiento. Es mayor los bancos, o casas de clearing, y que
+para largos vencimientos, cuando la li- consiste en la guarda de activos finan-
+nealidad de la fórmula de la duración cieros de terceros.
+modificada produce más errores.
+Dealer (intermediario)
+Costo promedio ponderado ♦ Agente autorizado a comprar y ven-
+de capital) der activos por su cuenta y riesgo. La
+♦ Es la tasa de descuento más usada comisión está implícita en el precio,
+para juzgar la inversión de un proyec- por lo que la ganancia surge del dife-
+to, es válida sólo si tiene el mismo ries- rencial de precio entre la compra y la
+go que los proyectos en los que está venta.
+involucrada la empresa en cuestión.
+Se calcula como el costo de la deuda, Derecho de preferencia
+multiplicado por la proporción de deu- ♦ Derecho que tienen los accionistas
+da sobre la inversión total en el pro- de mantener su participación ante una
+yecto, y multiplicado por el tipo nueva emisión de acciones. Normal-
+impositivo más el costo de capital pro- mente los accionistas tienen un plazo
+pio por la proporción de capital propio de tiempo para ejercer su derecho de
+sobre el total del proyecto. preferencia en las condiciones de la
+suscripción.
+Costo del capital accionario
+♦ Rentabilidad que el accionista de Derivado
+una empresa espera obtener de su in- ♦ Es un producto financiero elaborado
+versión en acciones de la empresa y, sobre la base de un activo subyacente.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 6
+6 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+El rendimiento de estos productos se EBITDA (ganancias antes
+deriva de la evolución del producto de intereses, impuestos,
+subyacente. depreciaciones y
+amortizaciones)
+Desvío estándar ♦Abreviatura de Earnings Before Inte-
+♦Medida del riesgo de un activo. Para rests, Taxes, Deferreds and Amortiza-
+una serie de datos, el desvío estándar tions. Es el resultado de una compañía
+es el promedio de los desvíos de cada antes de intereses, impuestos, cargos
+dato con respecto al promedio de la diferidos y amortizaciones. Muestra la
+serie. verdadera generación de caja de una
+empresa.
+Deuda subordinada
+(subordinated debt) EMBI+
+♦ Su pago se realiza si el deudor ha ♦ Siglas de Emerging Markets Bond
+efectuado el pago de intereses y prin- Index, un índice confeccionado por
+cipal de otras. Tienen un tipo de inte- el Banco JP Morgan Chase, que se
+rés muy superior al de las deudas a las compone por los principales títulos
+que está subordinada por el mayor de deuda de los países denominados
+riesgo que conlleva. Las condiciones emergentes. Existen también subdivi-
+de subordinación se definen en un siones por países, como el EMBI+ Ar-
+contrato de subordinación. gentina o el EMBI+ Brasil. A partir de
+la crisis financiera argentina iniciada
+Diversificación en 2000, se ha popularizado el uso de
+♦ Política de invertir en diversos acti- este índice, popularmente denomina-
+vos con el fin de reducir el riesgo con- do índice de riesgo país. El índice se
+junto del portafolio. expresa en puntos básicos (1 punto bá-
+sico = 0,01%) y representa la diferen-
+Dividend discount model cia promedio entre el rendimiento de
+(modelo de descuento de los bonos emergentes con bonos de
+dividendos) vencimiento similar del tesoro ameri-
+♦ Modelo de valuación de acciones ba- cano (teóricamente libres de riesgo)
+sado en el valor presente de los divi-
+dendos futuros. Estar corto (short)
+♦ Término utilizado para denotar una
+Dividendo posición vendida en una especie. Es
+♦Nombre que recibe la distribución de cuando se tiene una deuda en activos
+utilidades a los accionistas de una em- por haber vendido una especie que no
+presa. El pago puede ser en efectivo o se poseía. La apuesta es a una baja en
+en nuevas acciones. el precio.
+Duration Estar largo (long)
+♦ Es la medida del plazo promedio de ♦Expresión utilizada para decir que se
+vida de un bono al cual se invertiría en está invertido en una especie.
+un bono dado el precio actual. Es váli-
+da sólo para el par precio/TIR para el Eurobono
+cual se calculó. Normalmente se ex- ♦ Son los emitidos y colocados en un
+presa en años. Se interpreta como el país diferente a aquel cuya moneda se
+plazo de vida de un bono cupón cero usa en su denominación. Se distin-
+equivalente. guen de los bonos extranjeros. Se emi-
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 7
+GLOSARIO 7
+ten al portador, con nominales peque- Floating (flotante)
+ños y con vencimientos en 5 a 30 ♦ Porcentaje de las acciones de una
+años. Se liquidana travésde euroclear compañía que están disponibles para
+o Cedel. Se cotizan ex cupón, como un la comercialización por parte de inver-
+porcentaje del nominal y con base de sores bursátiles.
+360 días. Los eurobonos como los bo-
+nos domésticos se emiten para cubrir Fly-to-quality (vuelo a la calidad)
+las necesidades del emisor y ajustarse ♦Proceso en el que los inversores ven-
+a los deseos del inversor, por lo que den activos más riesgosos y buscan re-
+hay diferentes tipos: bonos de interés fugio en activos de bajo riesgo.
+fijo, de interés variable, convertibles,
+etcétera. Fondo de inversión
+♦ Es el patrimonio integrado por ac-
+Ex-ante tivos financieros pertenecientes a di-
+♦ Expresión utilizada para referirse a versos inversores, a todos los cuales
+algo antes de que ocurra. se les reconocen derechos de copro-
+piedad representados por cuotapar-
+Ex-cupón tes.
+♦ Forma de cotizar de una acción que
+no incluye los derechos sobre el próxi- Fondo de inversión abierto
+mo cupón. ♦ Fondo de inversión con número de
+cuotapartes variable en función de los
+Ex-post pedidos de rescate o suscripción que
+♦Término utilizado para referirse a al- reciba.
+go después de que ocurrió.
+Fondo de inversión cerrado
+Fannie Mae ♦ Fondo de inversión con número li-
+♦ Nombre por el que conoce a Federal mitado de cuotapartes y plazo determi-
+National Mortgage Association y a los nado.
+títulos emitidos por ella.
+Fondos indexados
+FED ♦ Fondos mutuos que invierten según
+♦ Nombre por el que se conoce el Sis- los principios del indexing. No hacen
+tema de la Reserva Federal de selección de activos, sino que invier-
+EE.UU. ten en los activos que componen el ín-
+dice o replican la composición del
+Federal funds índice.
+♦ Es el nombre que reciben los tipos
+de interés prevalecientes en el merca- Fondo Monetario Internacional
+do interbancario de EE.UU. Su nombre ♦ Una de las instituciones creadas en
+se deriva de que los fondos negociados Bretton Woods en 1944. Es el organis-
+son las reservas bancarias depositadas mo de las Naciones Unidas para la
+en los bancos del Sistema de la Reser- cooperación monetaria y el comer-
+va Federal. cio internacional. El FMI tiene su se-
+de en Washington, facilita recursos
+Fiduciario en forma de créditos automáticos,
+♦ Persona que actúa a nombre de otra créditos stand-by, etc. a sus socios pa-
+y, por consiguiente, está en una posi- ra hacer frente a sus dificultades mo-
+ción de confiabilidad. netarias.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 8
+8 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Futuros compra y retiene todos los valores que
+♦ Instrumento financiero basado en conforman un determinado segmento
+un contrato por el cual las partes del mercado o índice.
+acuerdan comprar o vender una canti-
+dad determinada de un activo a un Índice
+precio determinado en una fecha de- ♦ Cartera de activos representativa de
+terminada. un mercado o clase. Normalmente se
+lo utiliza para referenciar o comparar
+Ganancia por acción (earning el rendimiento de una cartera particu-
+per share) lar.
+♦ Es muy usual expresar las ganancias
+obtenidas por una compañía en rela- Inside information (información
+ción con la cantidad de acciones emiti- interna)
+das. Es la ganancia ordinaria dividida ♦ Información que se tiene previo a
+por la cantidad de acciones de la em- que se haga pública. Operar en fun-
+presa. ción de esta información es ilegal.
+Horizonte de inversión Insider (informante interno)
+♦ Es el momento en el que el inversor ♦ Persona que cuenta con inside infor-
+estima que necesitará el dinero. mation.
+GAP (brecha) Interés corrido
+♦ Término utilizado para referirse al ♦ El monto del devengamiento de la
+"salto" importante experimentado por tasa de cupón desde el inicio del perio-
+el precio de un activo. Normalmente do corriente de un bono hasta la fecha
+entre el precio de cierre de un día y el de realizar la transacción compra o
+de inicio del día siguiente, y tanto en venta.
+alza como en baja.
+Interés devengado
+Hedge (cobertura) ♦ Es el importe de intereses corres-
+♦ Operación que pretende minimizar pondiente a un periodo ya transcurri-
+el riesgo de pérdidas financieras de do aún no cobrado o pagado.
+una inversión mediante la utilización
+de instrumentos derivados. Inversores institucionales
+♦ Organizaciones que operan grandes
+In-the-money (en el dinero) volúmenes de activos, por ejemplo,
+♦ Propiedad del precio de una opción fondos de inversión, bancos, compa-
+que se da cuando tiene valor intrínse- ñías de seguros, fondos de pensión, en-
+co mayor que cero. En el caso de op- tre otros.
+ciones de compra, cuando el precio
+contado cotiza por encima del precio IPO (oferta pública inicial)
+de ejercicio. En el caso de una opción ♦ Abreviatura de Initial Public Offe-
+de venta, cuando el precio contado co- ring u oferta pública inicial. Es cuando
+tiza por debajo del precio del ejercicio. una empresa sale a la bolsa por prime-
+ra vez.
+Indexación
+♦Es una metodología para administrar Libor
+inversiones. El administrador no hace ♦ London Interbanking Offered Rate.
+una selección de activos, sino que Es el tipo medio de interés, día a día,
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 9
+GLOSARIO 9
+en el mercado interbancario de Lon- los últimos N días del precio de un ac-
+dres, que se paga por los créditos que tivo. Ejemplo, la media móvil de 21
+se conceden unos bancos a otros. días.
+Límite Mercado eficiente
+♦ Es una restricción impuesta a una ♦ Mercado en que los precios reflejan
+orden de compra o venta de un activo. permanentemente toda la información
+En el caso de una orden de compra, es disponible y al cual no se le puede ga-
+el precio máximo dispuesto a pagar nar en forma sistemática.
+por el activo. En el caso de una orden
+de venta, es el precio mínimo al cual Mercado gris (grey market)
+ejecutar la orden. ♦Durante el período de suscripción de
+una emisión de eurobonos, las varia-
+Leverage (apalancamiento) ciones en los tipos de interés pueden
+♦ Financiamiento de la inversión. hacer variar el precio de los bonos. Du-
+Comprar activos con endeudamiento. rante ese período, los colocadores coti-
+El endeudamiento potencia el riesgo zan en firme los precios de venta de
+propio del activo invertido, tanto en el los bonos para cuando éstos se emitan,
+caso de rendimientos positivos como así como un diferencial sobre el precio
+negativos de ese activo. Permite inver- de emisión.
+tir más en un activo pero asumiendo
+el costo del endeudamiento. Mercado primario
+♦Mercadoen el que colocan, o venden,
+Liquidación porprimera vez, losactivosfinancieros.
+♦Fecha en la que se entrega y paga (li- Una vez colocados primariamente, se
+quida) la transacción. pueden transar en el mercado secun-
+dario.
+Liquidez
+♦ Atributo de un activo financiero de Mercado secundario
+ser comprado o vendido en el mercado ♦ Mercado donde se transan activos fi-
+sin provocar cambios considerables en nancieros ya emitidos. Cada transac-
+el precio. ción implica una compra/venta entre
+inversores.
+Lote de una opción
+♦ Cantidad de unidades del activo sub- Merval
+yacente sobre la que se negocia la op- ♦ Índice representativo del mercado
+ción de compra o venta con cada de bursátil de Buenos Aires, Argenti-
+contrato. na. Es una cartera teórica compuesta
+por las acciones que representaron el
+Market timing (tiempo del 80% del volumen negociado durante
+mercado) los últimos 6 meses. La composición
+♦Es la filosofía de inversión basada en del índice es revisada trimestralmen-
+la convicciónde que es posible superar te.
+el rendimiento del índice por antici-
+parse a los movimientos del mercado. Modified duration (duración
+modificada)
+Media móvil ♦Medida de la sensibilidad porcentual
+♦ Una de las herramientas que utiliza del precio de un bono ante cambios de
+el analista técnico. Es el promedio de 1 punto porcentual en la TIR. Un bono
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 10
+10 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+con una duration modificada de 2,5 Orden abierta
+significa que ante incrementos de un 1 ♦Instrucción de compra o venta de un
+punto porcentual en la TIR, el precio activo vigente y aún no ejecutada.
+del bono caerá 2,5%.
+Orden limitada
+Nasdaq ♦ Orden de compra/venta de un acti-
+♦Índiceponderadoporcapitalizaciónde vo con expresa instrucción de no exce-
+las acciones domésticas e internaciona- derse de los precios límites.
+les no financieras listadas en el nasdaq.
+Existeel nasdaq100 y elcomposite. Out-of-the-money (fuera
+del dinero)
+NAV (valor neto del activo) ♦ Propiedad del precio de una opción
+♦Abreviatura de Net Asset Value. Es el que se da cuando no tiene valor intrín-
+valor técnico de una cuotaparte de un seco. En el caso de opciones de com-
+fondo mutuo. Surge de dividir el valor pra, cuando el precio contado cotiza
+del patrimonio del fondo por la canti- por debajo del precio de ejercicio. En
+dad de cuotapartes. el caso de una opción de venta, cuan-
+do el precio contado cotiza por encima
+Obligación negociable del precio del ejercicio.
+♦ Instrumento de deuda emitido por
+empresas a plazos mayores de los 9 Over the counter (mercado
+meses. Normalmente contemplan el extrabursátil)
+pago de un cupón de renta semestral. ♦ Mercado electrónico de transaccio-
+nes de activos financieros. Las órdenes
+Oferta pública se cursan electrónicamente y cuando
+♦ Invitación a personas en general, o hay coincidencia entre una orden de
+sectores o grupos determinados, para compra y otra de venta, el sistema eje-
+realizar cualquier acto jurídico con tí- cuta la transacción.
+tulos valores por medio de ofrecimien-
+tos personales, o de alcance masivo. Papel comercial
+♦Instrumento de deuda de corto plazo
+Offer (venta) emitido por empresas. Normalmente a
+♦ Precio al cual hay vendedores. menos de 270 días.
+Offshore (extranjero) Paridad
+♦ Instrumento financiero emitido se- ♦ Relaciónentre el preciode un bonoy
+gún las leyes de un país distinto al de su valor según condiciones de emisión.
+residencia del inversor o plaza finan- Generalmenteexpresadoenporcentaje.
+ciera distinta de la doméstica.
+Pase
+Onshore (local) ♦ Operación que involucra simultá-
+♦ Instrumento financiero emitido se- neamente una compra/venta presente
+gún las leyes del país de residencia del de un activo financiero y la venta-
+inversor. /compra futura de ese mismo activo a
+un precio diferente.
+Opción
+♦ Instrumento financiero con el cual Patrimonio neto
+se transan derechos de compra o venta ♦ Diferencia entre el activo y el pasivo
+sobre otros activos. contable de una empresa.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 11
+GLOSARIO 11
+Payout ratio (razón de pago) Puntos básicos
+♦ Porcentaje que representan los divi- ♦Centésima parte de un punto porcen-
+dendos respecto las utilidades de la tual; 100 puntos básicos es igual a 1%.
+compañía.
+Put
+PE ratio (razón precio/ ♦ Opción de venta.
+ganancias)
+♦ Indicador de valuación de una ac- Rating
+ción. Mide la cantidad de veces que el ♦ Clasificación que se hace de una de-
+precio representa a las ganancias por terminada persona o empresa en cuan-
+acción. Se calcula dividiendo el precio to a su solvencia como deudora en la
+de la acción por el valor de la ganancia emisión de títulos a corto o largo plazo.
+por acción. Las agencias de rating estudian con
+cierta periodicidad tanto las compañías
+Portafolio emisoras de bonos como la situación
+♦ Es e; conjunto de los activos que de las propias emisiones y pueden
+conforman las inversiones de un in- cambiar una clasificación cuando les
+versor. parezca oportuno, para mejorarla o ba-
+jarla. Una baja de rating puede tener
+Precio clean (precio limpio) un efecto considerable en la cantidad
+♦ Forma de cotizar un bono que exclu- de intereses que paga una empresa.
+ye los intereses corridos.
+Relación precio/valor libros
+Precio de ejercicio ♦ Indicador de valuación. Mide la can-
+♦ Precio al cual se puede ejercer una tidad de veces que el precio represen-
+opción. ta el valor libros de una acción.
+Precio spot (precio contado) Relación precio/ventas
+♦Precio de un activo en el mercado de ♦ Indicador de valuación de una ac-
+contado. ción. Mide la cantidad de veces que el
+precio representa las ventas por ac-
+Prima de opción ción.
+Precio pagado/cobrado por la compra-
+/venta del derecho a una opción. Relative strenght (fuerza
+relativa)
+Promedio ponderado ♦ Técnica utilizada por los analistas
+♦ Es el promedio de una serie de da- técnicos que estudia la evolución rela-
+tos en el cual a cada uno de ellos se tiva del precio del activo respecto del
+lo "pesa" de acuerdo con algún crite- índice. Este indicador se grafica y mo-
+rio. El promedio simple de una serie nitorea.
+es un caso especial de un promedio
+ponderado en el cual el peso de ca- Rendimiento corriente
+da dato es el mismo. Un ejemplo de ♦ Se define como el cupón dividido el
+promedio ponderado es el índice precio de un bono. Mide el rendimien-
+Merval. to anual por cupón de intereses.
+Prospecto de emisión Renta variable
+♦ Documento en el que se detallan las ♦ Tipo de activos cuyo rendimiento es
+condiciones de la emisión. variable. Típicamente las acciones.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 12
+12 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Rescate lidades operativas como porcentaje de
+♦Ventade cuotapartesde un fondode los activos de la empresa.
+inversión del tipo abierto que realiza
+un inversor. El rescate disminuye la ROE (retorno sobre el
+cantidad de cuotapartes en que se di- patrimonio)
+vide el patrimonio del fondo. El patri- ♦ Abreviatura de Return on Equity o
+monio disminuye también como retorno del capital. Mide las utilidades
+consecuencia del rescate. netas como porcentaje del capital em-
+presario.
+Resistencia
+♦Nivel de precio al cual el analista téc- Rollover (renovación)
+nico espera un significativo incremen- ♦ Movimiento de fondos de una inver-
+to en la oferta del activo. sión a otra. También se llama así a la
+renovación de un préstamo a su venci-
+Retail (minorista) miento, con el objetivo de retrasar la
+♦ Comercialización al menudeo, o al cancelación.
+por menor.
+Rueda
+Riesgo ♦ Jornada bursátil.
+♦ Incertidumbre respecto del resultado
+futuro de una inversión. Mayor incerti- Símbolo
+dumbre implica mayor riesgo. El desvío ♦Sigla con la cual se identifica un ac-
+estándar de las variaciones de precio es tivo.
+un indicador del riesgo del activo.
+Short covering (cubrir corto)
+Riesgo no sistemático ♦ Compra de activos para cubrir posi-
+♦ Riesgo atribuible a factores que afec- ciones vendidas.
+tan sólo a ese activo.
+Sobre la par
+Riesgo país (country risk) ♦ Un bono cotiza sobre la par cuando
+♦ Previsión de una eventual insolven- su precio es mayor a su valor según
+cia comercial o financiera por parte de condiciones de emisión. La TIR es me-
+un vendedor o prestamista, a causa de nor a la tasa de cupón.
+problemas de carácter político o deri-
+vados de las graves perturbaciones Sobrecomprado
+económicas que puedan darse, en for- ♦Característica de un activo que expe-
+ma relativamente frecuente en los paí- rimentó un violento incremento en su
+ses en vías de desarrollo. Tiene dos precio por exceso de presión compra-
+vertientes que son riesgo soberano y dora.
+riesgo de transferencia.
+Sobrevendido
+Riesgo sistemático ♦Característica de un activo que expe-
+♦ Riesgo atribuible a factores que afec- rimentó una fuerte baja en su precio
+tan todo el mercado. También llamado por exceso de presión vendedora.
+riesgo de mercado o no diversificable.
+Soporte
+ROA (retorno sobre el activo) ♦Nivel de precio al cual el analista téc-
+♦ Abreviatura de Return on Assets, o nico espera que se incremente consi-
+retorno sobre los activos. Mide las uti- derablemente la demanda del activo.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 13
+GLOSARIO 13
+Split (división) Strip
+♦ División de las acciones en circula- ♦ En bonos, es la práctica de separar
+ción en un número más grande. El los cupones de renta del principal y
+split afecta el valor libros y el valor no- negociarlos separadamente como bo-
+minal de la acción. nos cupón cero independientes. En
+opciones, es la estrategia consistente
+Spread (diferencial) en la compra de 2 puts y 1 call sobre
+♦ Diferencia entre dos precios. un mismo activo subyacente con el
+mismo precio de ejercicio y fecha de
+Spread sobre treasury strips vencimiento. Se utiliza cuando se anti-
+♦Es la diferencia entre la TIR del bo- cipa una fuerte volatilidad del merca-
+no anualizado y el rendimiento de do y se cree más posible un descenso
+un bono cupón cero del tesoro de los que un aumento del precio del activo
+Estados Unidos de igual plazo. Para subyacente. La pérdida está limitada al
+el caso de bonos garantizados se to- costo de las primas de las opciones.
+ma el stripped TIR, obteniendo el
+stripped spread, que también resulta Suscripción de acciones
+una aproximación a la tasa del riesgo ♦ Emisión de nuevas acciones.
+país.
+Suscripción de cuotapartes
+Stock picking (selección de ♦ Compra de nuevas cuotapartes de
+acciones) un fondo de inversión que realiza un
+♦Es la filosofía de inversión basada en inversor. La suscripción aumenta la
+la convicción de que haciendo una se- cantidad de cuotapartes en que se divi-
+lección cuidadosa de los activos es po- de el patrimonio del fondo. El patrimo-
+sible superar el rendimiento del índice nio del fondo se incrementa como
+respectivo. consecuencia de la suscripción.
+Stop loss (detención de Swap (intercambio)
+pérdida) ♦ Intercambio de activos.
+♦ Orden de vender un activo sólo
+cuando el precio baja hasta ese precio Takeover (tomar posesión)
+de stop loss. Normalmente es para ♦ Cambio en el control de una empre-
+resguardar parte de las ganancias ob- sa.
+tenidas hasta el momento o para limi-
+tar las pérdidas por una baja de Tasa de descuento
+precios. ♦ Tasa de interés utilizada para calcu-
+lar el valor presente de un importe fu-
+Straddle turo.
+♦ Estrategia con opciones. Se constru-
+ye con igual cantidad de puts y calls Tasa de interés
+sobre una misma acción con mismo ♦ Compensación por invertir. Es la re-
+vencimiento y precio de ejercicio. muneración que recibe o espera reci-
+bir el inversor por su decisión de
+Strap invertir. Es el precio del dinero.
+♦ Estrategia con opciones consistente
+en la compra de 1 put y 2 call sobre un TIR
+mismo activo subyacente con el mis- ♦ Tasa de interés a la cual el precio de
+mo precio de ejercicio y maturity. un bono iguala la suma del valor pre-
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Glosario 7/31/03 9:51 PM Page 14
+14 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+sente de sus cupones. Es una medida Valor nominal
+de la rentabilidad completa del título. ♦ Importe originalmente emitido de
+un bono.
+Toma de ganancias
+♦Baja de mercado generada por la pre- Valor presente
+sión de venta luego de un proceso de ♦Valor hoy equivalente de un monto
+alza considerable en los precios. futuro. Se calcula descontando del
+valor futuro el importe que surge de
+Underwriter aplicar la tasa de descuento en pro-
+♦ Voz del inglés para designar a los in- porción al plazo. El valor presente es
+termediarios financieros que toman en menor que el valor futuro. La dife-
+firme obligaciones emitidas por una rencia entre ambos es la tasa de inte-
+determinada empresa y que las reven- rés.
+den a agentes que, a su vez, organizan
+la venta a sus clientes en el mercado Valor residual
+secundario. Es labor que realizan tam- ♦ Monto del capital nominal de un bo-
+bién, usualmente, los merchant banks. no aún no amortizado.
+Underwriting Valor según condiciones
+♦ Operación en la que una entidad fi- de emisión
+nanciera suscribe títulos en el merca- ♦ Valor nominal de un bono con más
+do primario para luego garantizar al los intereses corridos.
+emisor su colocación en el mercado
+secundario a cambio de una comisión. Volatilidad
+♦ Término utilizado para referirse al
+Valor futuro grado de fluctuación e impredecibili-
+♦ Valor hoy más el importe de intere- dad de un precio en el mercado. ♦
+ses que surge de aplicar la tasa de inte- Medida del riesgo de un activo. El
+rés en proporción al plazo. desvío estándar de los retornos perió-
+dicos es una medida de la volatilidad
+Valor intrínseco del activo.
+♦ Valor de un activo que surge de la
+aplicación de un modelo de valuación. Volumen nominal
+Es el valor que para el analista debería ♦ Cantidad de unidades del activo
+tener un activo. transado durante una rueda, es decir,
+cantidades de títulos, acciones o cual-
+Valor intrínseco de una opción quier otro activo.
+♦ El monto que surge de la diferencia
+entre el precio contado y el de ejerci- Volumen (en monto)
+cio en un call cuando el primero es ♦En algunos mercados, el volumen se
+mayor que el segundo. En el caso de utiliza para referirse al monto de dine-
+un put, la diferencia entre el precio ro operado en el día. Para transformar
+contado y el de ejercicio cuando el pre- el volumen nominal en monto hay
+cio spot es menor que el del ejercicio. que multiplicar cada operación por el
+precio efectivo de realización y su-
+Valor libros marlos.
+♦ Valor contable de una acción. Surge
+de dividir el patrimonio neto de la em-
+presa por la cantidad de acciones.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP

@@ -1,0 +1,44 @@
+{
+  "telegram": {
+    "token": "8947154888:AAHtQG4zeBw42rTcASv1jyTQn9YByl0HIr0",
+    "chat_id": "8179198652",
+    "parse_mode": "Markdown",
+    "disable_web_page_preview": true
+  },
+  "frecuencia_min": 30,
+  "horario_us": {
+    "inicio": "13:30",
+    "fin": "22:00",
+    "zona": "America/Argentina/Buenos_Aires",
+    "dias": [0, 1, 2, 3, 4]
+  },
+  "senal": {
+    "periodo": "4y",
+    "umbral_pendiente": 2.0,
+    "wins": [50, 120, 365]
+  },
+  "fase_ciclo": {
+    "periodo": "6y"
+  },
+  "screener": {
+    "top_sectores": 3,
+    "top_industrias": 4,
+    "top_empresas": 3,
+    "candidatos_por_industria": 10,
+    "mcap_min": 5000000000,
+    "periodo_ranking": "1y",
+    "periodo_detalle": "3y"
+  },
+  "earnings": {
+    "dias_adelante": 7,
+    "trimestres_acierto": 8,
+    "ttl_horas": 12
+  },
+  "eps": {
+    "trimestres_tendencia": 8,
+    "anios_cagr": 4,
+    "ttl_horas": 24
+  },
+  "watchlist_extra": [],
+  "portfolio_unificado": "unificado_completo - copia.json"
+}

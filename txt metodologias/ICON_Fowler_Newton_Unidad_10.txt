@@ -1,0 +1,1719 @@
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+PREFACIO
+Esta es la quinta edición de Cuestiones Contables Fundamentales. Las
+anteriores se publicaron en 1982, 1991, 2001 y 2005. Hubo diversas reimpre-
+siones.
+DESTINATARIOS
+Este libro fue escrito con la intención de que facilite:
+• La comprensión del contenido de los estados financieros (estados
+contables) y de otros informes surgidos de la contabilidad, sin necesi-
+dad de conocer la técnica de preparación de asientos (en este libro no
+los hay).
+• El entendimiento de los factores que afectan el dictado de normas
+1ª Edición 1982 para la preparación de dichos estados.
+2ª Edición 1991
+3ª Edición 2001
+4ª Edición 2005 • El estudio de la contabilidad por parte de quienes no tienen conoci-
+5ª Edición 2011 mientos previos sobre ella.
+Copyright © 2011 by La ley S.A.E. e I.
+Tucumán 1471 (C1050AACC) Buenos Aires ESTRUCTURA DE LA OBRA
+Queda hecho el depósito que previene la ley 11.723
+Impreso en la Argentina La estructura de esta quinta edición es la que sigue:
+Todos los derechos reservados
+N
+o
+i
+t
+n
+ra
+g
+n
+u
+s
+n
+m
+a
+i
+p
+ti
+a
+d
+r
+a
+t e
+e n
+d e
+c u
+es
+a
+t
+l
+a
+q u
+o
+i
+b
+e
+r
+r
+a
+f
+p
+o
+u
+rm
+ed
+a
+e
+o
+s e
+p
+r
+o
+r
+r
+e
+c
+p
+u
+r
+a
+o
+l
+d
+q
+u
+u
+c
+ie
+id
+r
+a
+m edio
+Abreviaturas y acrónimos utilizados
+electrónico o mecánico, incluyendo fotocopiado, grabación
+o cualquier otro sistema de archivo y recuperación
+Índice temático
+de información, sin el previo permiso por escrito del editor y del autor.
+Primera parte - Cuestiones generales
+Printed in Argentina
+All rights reserved
+1. Contabilidad, informes contables y cuestiones relacionadas
+No part of this work may be reproduced
+or transmitted in any form or by any means,
+2. Cualidades de la información financiera útil
+electronic or mechanical, including photocopying and recording
+or by any informatíon storage or retrieval system,
+3. Objetos de reconocimiento y medición contable
+without permission in writing from the publisher and the author.
+4. La moneda de medición
+Tirada: 2500 ejemplares.
+5. Reconocimiento y baja contable
+I.S.B.N. 978-987-03-1896-5
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XX ENRIQUE FOWLER NEWTON
+Textos Significados
+SSS Superintendencia de Servicios de Salud.
+ST Secretaría técnica de la FACPCE.
+TEG Technical Expert Group (Grupo de Expertos Técnicos) del
+EFRAG.
+TIR Tasa interna de retorno. ÍNDICE GENERAL
+UE Unión Europea.
+UGE Unidad generadora de efectivo.
+Prefacio........................................................................................................... VII
+UNCTAD United Nations Conference on Trade and Development (Con-
+ferencia de las Naciones Unidas sobre Comercio y Desarro- Principales cambios en la obra a lo largo del tiempo....................................... XIII
+llo). Abreviaturas y acrónimos utilizados............................................................... XV
+US GAAP United States Generally Accepted Accounting Principles (Prin- Índice temático................................................................................................. LXV
+cipios de Contabilidad Generalmente Aceptados en los Esta-
+dos Unidos).
+PRIMERA PARTE
+VC Valor corriente.
+VD Valor descontado.
+CUESTIONES GENERALES
+VNR Valor neto de realización.
+VR Valor razonable. CAPÍTULO I
+VU Valor de uso. CONTABILIDAD, INFORMES CONTABLES Y CUESTIONES
+XBRL eXtensive Business Reporting Language (Lenguaje Extendido RELACIONADAS
+de Información de Negocios).
+1,1. Introducción........................................................................................ 3
+1,2. La contabilidad.................................................................................... 3
+a) Funciones....................................................................................... 3
+b) Integración con el control interno.................................................. 7
+c) Una caracterización ampliada........................................................ 9
+d) ¿Ciencia, arte, técnica, tecnología?................................................ 10
+e) Definición...................................................................................... 12
+f) Diferencia entre “contabilidad” y “teneduría de libros”................. 13
+g) Notas históricas.............................................................................. 13
+1,3. Relaciones de la contabilidad con otras disciplinas............................. 15
+a) Con la administración.................................................................... 15
+b) Con la economía............................................................................. 16
+d) Con el derecho…………………………………………………… 17
+e) Otras relaciones.............................................................................. 19
+1,4. Informes contables............................................................................... 21
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXII ENRIQUE FOWLER NEWTON
+CUESTIONES CONTABLES FUNDAMENTALES XXIII
+Pág. Pág.
+a) Concepto y tipos.............................................................................. 21
+1) El marco conceptual de las NIIF.............................................. 51
+b) Materia............................................................................................ 22
+2) El marco conceptual de la “NIIF para las PYMES”................. 54
+1) Consideraciones generales........................................................ 22
+3) El marco conceptual de los US GAAP..................................... 54
+2) Información sobre grupos económicos..................................... 23
+4) El marco conceptual de las NC desarrolladas por la
+3) Información sobre actividades y segmentos............................. 25 FACPCE................................................................................... 55
+4) Patrimonios de personas físicas................................................ 26 d) Marcos conceptuales referidos al sector público............................ 58
+c) Los usuarios y sus necesidades....................................................... 26 e) Discrepancias entre marcos conceptuales y normas conta-
+bles……………………………………………………………….. 59
+d) Contenido mínimo.......................................................................... 29
+1,8. Políticas contables............................................................................... 59
+1) Estados financieros................................................................... 29
+1,9. Contabilidad, criterio profesional y creatividad.................................. 60
+2) Informes contables internos...................................................... 31
+1,10. ¿El final de la contabilidad?................................................................ 61
+e) Unidad de medida........................................................................... 32
+1,11. Resumen.............................................................................................. 62
+f) Cualidades de su contenido............................................................ 33
+1,12. Preguntas y ejercicios.......................................................................... 67
+g) Limitaciones................................................................................... 33
+1,13. Soluciones propuestas a las preguntas y ejercicios.............................. 68
+h) Soporte físico.................................................................................. 35
+i) Utilización del lenguaje XBRL...................................................... 35
+CAPÍTULO 2
+j) Aspectos éticos............................................................................... 36
+k) Periodicidad y plazo de divulgación............................................... 38
+CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL
+1) Informes de uso interno............................................................. 38
+2,1. Introducción........................................................................................ 71
+2) Estados financieros................................................................... 38
+2,2. Clasificaciones y relaciones................................................................ 73
+l) Efectos microeconómicos.............................................................. 40
+2,3. Cualidades fundamentales................................................................... 73
+1,5. ¿Una contabilidad o varias?................................................................. 40
+a) Pertinencia..................................................................................... 73 1,6. Normas contables................................................................................ 43
+1) Concepto.................................................................................. 73
+a) Concepto........................................................................................ 43
+2) Cualidades secundarias ligadas a la pertinencia....................... 75 b) Clasificación basada en las cuestiones reguladas........................... 43
+b) Representatividad.......................................................................... 75
+c) Clasificación basada en su obligatoriedad...................................... 44
+1) Concepto.................................................................................. 75
+d) Normas contables y teneduría de libros.......................................... 46
+2) Cualidades secundarias ligadas a la representatividad………... 76
+e) Emisión y modificación................................................................. 46
+Integridad................................................................................. 76
+f) Consecuencias económicas............................................................ 47
+Esencialidad (prevalencia de la sustancia sobre la for-
+g) Normas contables a las que prestaremos una atención es-
+ma)………………………………………………………… 77
+pecial……………………………………………………………… 47
+Ausencia de sesgos (neutralidad en la preparación)................. 78
+1,7. Marcos conceptuales de las normas contables..................................... 48
+Ausencia de errores importantes.............................................. 80
+a) Función........................................................................................... 48
+Verificabilidad......................................................................... 80
+b) Contenido....................................................................................... 49
+c) Relación entre pertinencia y representatividad.............................. 81
+c) Marcos conceptuales a los que prestaremos una atención
+2,4. Cualidades mejoradoras de la utilidad de la información.................... 82
+especial………………………………………………………….... 51
+a) Comparabilidad.............................................................................. 82
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXIV ENRIQUE FOWLER NEWTON CUESTIONES CONTABLES FUNDAMENTALES XXV
+Pág.
+Pág.
+d) El “capital a mantener”................................................................... 122
+b) Comprensibilidad.......................................................................... 84
+1) El criterio del “capital financiero”........................................... 122
+c) Sistematicidad............................................................................... 85
+2) El (mal denominado) criterio del “capital físico”.................... 122
+d) Oportunidad................................................................................... 85
+3) El caso de las entidades sin fines de lucro............................... 124
+2,5. Cuestiones relacionadas...................................................................... 87
+4) El criterio prevaleciente........................................................... 124
+a) La fiabilidad de la información..................................................... 87
+5) Excepciones a la aplicación del criterio prevaleciente……..... 126
+b) Prudencia y conservadurismo....................................................... 87
+3,6. Transacciones con los propietarios...................................................... 127
+c) La significación (importancia relativa)......................................... 88
+3,7. Resultado del período.......................................................................... 128
+d) Cambios de políticas contables..................................................... 91
+a) Concepto........................................................................................ 128
+e) Costos y beneficios....................................................................... 92
+b) Resultado (a secas) versus resultado integral................................. 128
+2,6. Algunas enumeraciones...................................................................... 94
+c) Componentes................................................................................. 130
+a) Marcos conceptuales de las NIIF y los US GAAP (2010)............. 94
+1) Ingresos, gastos, ganancias y pérdidas..................................... 130
+b) La “NIIF para las PYMES”........................................................... 94
+2) Participaciones no controladoras en los resultados de
+c) Marco conceptual de la FACPCE.................................................. 95
+controladas............................................................................... 133
+2,7. Requisitos enunciados en el Código de Comercio Argentino……...... 96
+3) Impuestos sobre las ganancias................................................. 134
+2,8. Resumen............................................................................................. 97
+3,8. Variaciones patrimoniales puramente cualitativas.............................. 135
+2,9. Preguntas y ejercicios......................................................................... 99
+a) Operaciones habituales.................................................................. 135
+2,10. Soluciones propuestas a las preguntas y ejercicios............................. 101 b) Aportes y retiros de accionistas no controladores de entida-
+des controladas.............................................................................. 136
+CAPÍTULO 3 c) Cambios en la representación formal del patrimonio..................... 136
+3,9. Relaciones entre los objetos................................................................ 137
+OBJETOS DE RECONOCIMIENTO Y MEDICIÓN CONTABLE
+a) Perspectiva de la entidad............................................................... 137
+3,1. Introducción........................................................................................ 105
+b) Perspectiva de los propietarios...................................................... 139
+3,2. Objetos susceptibles de reconocimiento y medición contable………. 105
+3,10. Recursos financieros........................................................................... 139
+3,3. Activos................................................................................................ 107
+a) Concepto........................................................................................ 139
+a) Caracterización............................................................................. 107
+b) Orígenes y aplicaciones................................................................. 141
+b) Clases............................................................................................ 110 3,11. Principales diferencias entre nuestras ideas y las que aparecen
+3,4. Pasivos (obligaciones)........................................................................ 111 en algunos marcos conceptuales......................................................... 141
+a) Caracterización............................................................................. 111 a) Marco conceptual de las NIIF........................................................ 141
+b) Clases............................................................................................ 114 b) Marco conceptual de la FACPCE.................................................. 145
+3,5. El patrimonio neto.............................................................................. 115 c) Marco conceptual de los US GAAP.............................................. 145
+a) Perspectivas “de la entidad” y “de los propietarios”...................... 115 3,12. Futuros cambios a los marcos conceptuales del IASB y la FASB…… 147
+b) Caracterización.............................................................................. 118 3,13. La “NIIF para las PYMES”................................................................. 147
+1) Consideraciones generales...................................................... 118 3,14. Resumen............................................................................................. 147
+2) Ideas que no compartimos...................................................... 119 3,15. Preguntas y ejercicios.......................................................................... 152
+c) Desagregaciones........................................................................... 120 3,16. Soluciones propuestas a las preguntas y ejercicios.............................. 154
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXVI ENRIQUE FOWLER. NEWTON
+CUESTIONES CONTABLES FUNDAMENTALES XXVII
+Pág
+Pág.
+CAPÍTULO 4
+5,3. Consideración de las contingencias..................................................... 193
+LA MONEDA DE MEDICIÓN a) El enfoque “todo o nada”.............................................................. 194
+4,1. Introducción......................................................................................... 157 b) El enfoque del reconocimiento proporcional................................. 195
+4,2. Moneda local versus moneda funcional............................................... 159 c) Los activos y pasivos “contingentes”............................................ 197
+4,3. Transacciones en monedas distintas a la de medición.......................... 161 5,4. La idea de reconocer costos de oportunidad........................................ 198
+4,4. Participaciones en entidades que utilizan monedas de medi- a) Concepto....................................................................................... 199
+ción distintas a la que emplea el inversor............................................. 163 b) El costo de reposición no es un costo de oportunidad................... 199
+4,5. Cambios en el poder adquisitivo de la moneda de medición……….... 164 c) Costos de oportunidad y mediciones contables de activos……….. 200
+a) Inflación, deflación y cambios en el nivel de precios..................... 164 d) Costos de oportunidad y exposición del resultado......................... 201
+b) Defectos de la contabilidad no ajustada por inflación.................... 166 5,5. La idea de reconocer un “interés propio”............................................ 202
+c) Cuatro formas de encarar el problema............................................ 168 a) Consideraciones generales............................................................. 202
+1) Aceptación de la “ilusión monetaria”....................................... 168 b) Defensores y atacantes................................................................... 203
+2) Los ajustes parciales (“parches”).............................................. 170 c) Fundamentos principales de nuestro rechazo................................. 205
+3) El método de ajuste integral...................................................... 171 1) Respeto de las igualdades patrimoniales básicas..................... 205
+4) Métodos simplificados de ajuste............................................... 173 2) Aplicación del concepto de “costo”......................................... 206
+d) Casos en que debería aplicarse el ajuste integral............................ 174 d) Argumentos de los proponentes..................................................... 208
+1) Enfoque que preferimos............................................................ 174 1) Argumentos basados en la teoría económica............................ 208
+2) Enfoques basados en la tasa de inflación................................. 178 2) Argumentos referidos a la calidad de la información so-
+bre la ganancia……………………………………………….. 210
+3) Enfoques basados en la evaluación del contexto...................... 179
+3) Argumento referido al factor tiempo........................................ 213
+4,6. La cuestión de la moneda en los marcos conceptuales........................ 181
+4) Otros argumentos..................................................................... 213
+4,7. Resumen.............................................................................................. 182
+e) La cuestión en los marcos conceptuales........................................ 214
+4,8. Preguntas y ejercicios.......................................................................... 183
+5,6. Baja contable....................................................................................... 214
+4,9. Soluciones propuestas a las preguntas y ejercicios.............................. 185
+a) Activos.......................................................................................... 214
+b) Pasivos........................................................................................... 215
+CAPÍTULO 5
+c) Otros elementos............................................................................. 216
+RECONOCIMIENTO Y BAJA CONTABLE 5,7. Resumen............................................................................................. 216
+5,1. Introducción......................................................................................... 187 5,8. Preguntas y ejercicios.......................................................................... 218
+5,2. Reconocimiento contable..................................................................... 187 5,9. Soluciones propuestas a las preguntas y ejercicios............................. 219
+a) Regla general.................................................................................. 187
+b) Activos y pasivos........................................................................... 188 CAPÍTULO 6
+c) Otros objetos.................................................................................. 188 MEDICIÓN CONTABLE
+d) Cambios en la representación formal del patrimonio..................... 190
+6,1. Introducción........................................................................................ 223
+e) Hechos posteriores a la fecha de un informe contable.................... 191
+6,2. Cuestiones generales........................................................................... 223
+f) Correcciones de errores.................................................................. 192
+a) Momentos....................................................................................... 223
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXVIII ENRIQUE FOWLER NEWTON CUESTIONES CONTABLES FUNDAMENTALES XXIX
+Pág. Pág.
+b) Unidad de medida........................................................................... 224 f) Valor esperado................................................................................ 246
+c) Relación entre los criterios de medición y las cualidades 6,5. Atributos de otros objetos de reconocimiento contable....................... 247
+que debería reunir la información financiera.................................. 225 6,6. Mediciones de costos........................................................................... 247
+d) Selección de atributos a emplear como base para la medi- a) Consideraciones generales............................................................. 247
+ción contable................................................................................... 226
+b) Bienes, servicios y derechos de uso adquiridos por compra
+1) Criterio general......................................................................... 226
+o trueque........................................................................................ 249
+2) Consideración de los destinos esperados de activos y pa-
+1) Compras................................................................................... 249
+sivos……………………………………………………............... 226
+2) Trueques................................................................................... 252
+3) Consideración del horizonte temporal de la entidad................. 227
+3) Otras transacciones no monetarias........................................... 253
+e) Medidas únicas o rangos................................................................. 227
+c) Actividades.................................................................................... 254
+f) Hechos posteriores a la fecha de un informe contable................... 229
+1) Insumos a considerar................................................................ 254
+6,3. Atributos de activos............................................................................. 230
+2) Costeo de los insumos.............................................................. 255
+a) Valores corrientes.......................................................................... 230
+d) Bienes y servicios producidos........................................................ 255
+1) Valor razonable (valor justo)..................................................... 231
+e) Inclusión de costos financieros e intereses propios........................ 256
+2) Ajustes al valor razonable por costos de transporte.................. 235
+1) Cuestiones en discusión........................................................... 256
+3) Valor neto de realización........................................................... 235
+2) Medición del interés propio..................................................... 257 4) Costo corriente del activo......................................................... 235
+3) Cargo total a resultados o activación parcial............................ 260
+5) Costo corriente de la capacidad de servicio del activo……...... 236
+4) Condiciones para que un activo califique para la activa-
+b) Costo histórico............................................................................... 237
+ción…………………………………………………………… 264
+c) Costos históricos modificados........................................................ 237
+5) Costos de financiación específica y general............................. 265
+1) Costo histórico menos depreciación......................................... 238
+6) Ingresos financieros relacionados............................................ 266
+2) Importe resultante de aplicar el método de la tasa efecti-
+7) Limitación de la activación en función del importe recu-
+va.............................................................................................. 238
+perable del activo producido…………………………………. 266
+d) Importe nominal por cobrar........................................................... 239 f) Subvenciones gubernamentales..................................................... 267
+e) Valor descontado del importe nominal que se espera perci-
+g) Asignaciones de los costos históricos de los bienes fungi-
+bir, considerando la incobrabilidad y la mora................................ 239
+bles................................................................................................. 269
+f) Valor esperado............................................................................... 240
+6,7. Imputación de costos........................................................................... 270
+g) “Valor patrimonial”....................................................................... 241
+6,8. Cambios de situación de activos o pasivos........................................... 271
+h) Valor de uso.................................................................................... 242
+6,9. Medición de la ganancia....................................................................... 272
+i) Importe recuperable....................................................................... 242
+6,10. Bases contables.................................................................................... 273
+6,4. Atributos de pasivos............................................................................. 244
+6,11. La base contable de acumulación (devengo)........................................ 274
+a) Valor razonable (valor justo).......................................................... 244
+a) Criterio general de reconocimiento de resultados.......................... 275
+b) Costo de cancelación...................................................................... 246
+b) Los “hechos generadores”.............................................................. 275
+c) Importe original.............................................................................. 246
+c) “Devengamiento” versus “realización”.......................................... 276
+d) Importe resultante de aplicar el método de la tasa efectiva………. 246
+6,12. Correcciones de errores........................................................................ 278
+e) Importe nominal por pagar............................................................. 246
+6,13. Correcciones de estimaciones............................................................... 278
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXX ENRIQUE FOWLER NEWTON CUESTIONES CONTABLES FUNDAMENTALES XXXI
+Pág. Pág.
+6,14. Cambios de políticas contables............................................................ 278 e) Contenido...................................................................................... 315
+6,15. Períodos intermedios........................................................................... 279
+1) Estados de cierre de ejercicio................................................... 315
+6,16. Aplicación del concepto de significación............................................ 280
+2) Estados intermedios................................................................. 317
+6,17. Resumen.............................................................................................. 282
+3) Información general................................................................. 319
+6,18. Preguntas y ejercicios.......................................................................... 291
+4) Información comparativa......................................................... 319
+6,19. Soluciones propuestas a las preguntas y ejercicios.............................. 293
+5) La idea de incluir presupuestos................................................ 322
+6) Información pro forma............................................................. 327
+CAPÍTULO 7
+7) Información no financiera........................................................ 329
+MODELOS CONTABLES 8) Datos y mensajes...................................................................... 331
+7,1. Introducción......................................................................................... 299 f) Responsabilidad por su contenido................................................. 332
+7,2. Variables relevantes............................................................................. 300 1) Consideraciones generales....................................................... 332
+a) Variables principales...................................................................... 300 2) Normas penales argentinas sobre estados financieros
+falsos........................................................................................ 333
+b) Variables secundarias..................................................................... 304
+g) Elementos acompañantes............................................................... 334
+7,3. Selección de un modelo....................................................................... 304
+h) Soporte físico.................................................................................. 334
+7,4. Cambios de modelos............................................................................ 305
+8,3. El estado de situación patrimonial....................................................... 335
+7,5. Tratamiento de la cuestión en algunos marcos conceptuales……….... 305
+a) Propósito........................................................................................ 335
+a) Marco conceptual de las NIIF........................................................ 306
+b) Clasificaciones de activos y pasivos.............................................. 335
+b) Marco conceptual de la FACPCE.................................................. 306
+c) Desagregaciones del patrimonio.................................................... 337
+c) Marco conceptual de los US GAAP............................................... 307
+d) Estructura....................................................................................... 338
+7,6. Preguntas y ejercicios.......................................................................... 307
+8,4. El estado de resultados y el del resultado integral............................... 338
+7,7. Soluciones propuestas a las preguntas y ejercicios.............................. 308
+a) ¿Un estado o dos?.......................................................................... 339
+b) Propósito........................................................................................ 340
+SEGUNDA PARTE c) Presentación de las participaciones no controladoras en los
+resultados de controladas………………………………………… 342
+INFORMES CONTABLES d) Estructura....................................................................................... 342
+e) Resultados que deberían exponerse por separado.......................... 345
+CAPÍTULO 8 1) Resultados de operaciones discontinuadas o en proceso
+de discontinuación................................................................... 345
+ESTADOS FINANCIEROS
+2) Resultados causados por hechos no repetitivos (“parti-
+8,1. Introducción..................................................................................…. 313 das extraordinarias”)…………………………………………. . 346
+8,2. Cuestiones generales........................................................................... 313 3) Resultados de negocios incorporados durante el perío-
+a) Entidad informante........................................................................ 313 do…………………………………………………………….. 349
+b) Moneda de presentación................................................................ 314 8,5. El estado de cambios en el patrimonio neto........................................ 349
+c) Unicidad......................................................................................... 315 8,6. El estado de flujos de efectivo............................................................. 350
+d) Cualidades..................................................................................... 315 8,7. La información complementaria.......................................................... 352
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXXII ENRIQUE FOWLER NEWTON CUESTIONES CONTABLES FUNDAMENTALES XXXIII
+Pág. Pág.
+8,8. Presentación combinada de estados básicos........................................ 354 e) Porcentajes y otros indicadores...................................................... 384
+8,9. Estados financieros de publicidad obligatoria..................................... 354 f) Comparaciones con presupuestos................................................... 385
+8,10. Estados financieros auditados.............................................................. 355 g) Gráficos.......................................................................................... 385
+8,11. Registro de los estados financieros en libros....................................... 355 h) Información pro forma................................................................... 386
+8,12. Ejemplos reales.................................................................................... 356 i) Resumen de datos destacables (“highlights”)................................ 386
+8,13. Estados presupuestados....................................................................... 356 9,4. Informes prospectivos......................................................................... 388
+a) Concepto........................................................................................ 356 9,5. Resumen.............................................................................................. 389
+b) Bases para su preparación.............................................................. 356 9,6. Preguntas y ejercicios.......................................................................... 392
+c) Publicación.................................................................................... 357 9,7. Soluciones propuestas a las preguntas y ejercicios.............................. 393
+d) Experiencia de la CNV argentina................................................... 358
+8,14. Información adicional a los estados financieros.................................. 359 TERCERA PARTE
+8,15. Resumen.............................................................................................. 360
+8,16. Preguntas y ejercicios.......................................................................... 365 NORMAS CONTABLES
+8,17. Soluciones propuestas a las preguntas y ejercicios.............................. 368
+CAPÍTULO 10
+CAPÍTULO 9
+EMISIÓN Y MODIFICACIÓN DE NORMAS CONTABLES
+INFORMES CONTABLES INTERNOS 10,1. Introducción......................................................................................... 399
+9,1. Introducción........................................................................................ 371 10,2. Cuestiones básicas a considerar............................................................ 399
+9,2. Cuestiones generales........................................................................... 372 a) Intereses prioritarios....................................................................... 399
+a) Entidad informante........................................................................ 372 b) La calidad como objetivo............................................................... 400
+b) Moneda de presentación................................................................ 373 c) La armonización como objetivo..................................................... 401
+c) Medidas no monetarias.................................................................. 374 d) La cualidad de comparabilidad....................................................... 402
+d) Unicidad......................................................................................... 374 e) Costos de aplicación de las normas................................................ 403
+e) Requisitos generales...................................................................... 375 10,3. Emisores............................................................................................... 403
+f) Soporte físico................................................................................. 375 a) Sector de pertenencia...................................................................... 403
+g) Materia y destinatarios................................................................... 376 b) Independencia................................................................................ 406
+h) Periodicidad.................................................................................... 377 c) Régimen financiero........................................................................ 406
+i) Presentación de los datos y mensajes............................................. 378 d) Recursos humanos y órganos de asesoramiento............................ 407
+j) Reglas a aplicar.............................................................................. 378 10,4. Procedimientos.................................................................................... 409
+k) Responsabilidad por su preparación................................................ 379 a) Pasos necesarios............................................................................ 409
+9,3. Informes para directores y administradores......................................... 380 b) Transparencia................................................................................ 410
+a) Informes básicos............................................................................ 380
+10,5. Presiones que a veces reciben los emisores......................................... 411
+b) Informes complementarios............................................................ 381
+10,6. Contenido de un juego de normas....................................................... 414
+c) Fechas, períodos e información comparativa................................. 382
+a) Consideración de las cualidades de la información finan-
+d) Información sobre variaciones ….................................................. 383 ciera…………………………………………………...……………. 414
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXXIV ENRIQUE FOWLER NEWTON
+CUESTIONES CONTABLES FUNDAMENTALES XXXV
+Pág.
+Pág.
+b) Objetivos, principios y reglas detalladas........................................ 414 10,12. Preguntas y ejercicios.......................................................................... 442
+c) Niveles de componentes y cuestiones no previstas........................ 417 10,13. Soluciones propuestas a las preguntas y ejercicios.............................. 443
+d) Pronunciamientos técnicos individuales........................................ 418
+e) Codificación................................................................................... 418 CAPÍTULO 11
+f) Normas generales y particulares de medición................................. 420
+ARMONIZACIÓN DE LAS NORMAS CONTABLES
+g) Información complementaria referida a objetos particula-
+res de medición………………………………………………. …. 420 11,1. Introducción.......................................................................................... 447
+h) Coherencia....................................................................................... 421 11,2. Armonización en el ámbito internacional............................................. 447
+i) Redacción y glosario....................................................................... 422 a) Consideraciones generales............................................................. 447
+10,7. Contenido de un pronunciamiento técnico........................................... 423 b) Enfoques para el encaramiento de la cuestión................................ 448
+a) Propósito........................................................................................ 423 1) Conciliación de medidas contables muy importantes……….... 449
+b) Alcance........................................................................................... 424 2) Presentación de un segundo juego de datos contables
+c) Normas............................................................................................ 424 basado en las NIIF.................................................................... 450
+d) Vigencia......................................................................................... 424 3) Adopción completa y automática de las NIIF........................... 450
+e) Excepciones a la aplicación retroactiva........................................... 425 4) Adopción de las NIIF previo “endoso” de cada compo-
+nente individual……………………………………………..… 451
+f) Definiciones de términos................................................................ 425
+5) Aceptación de las NIIF............................................................. 453
+g) Material acompañante.................................................................... 425
+6) Adaptación de las NIIF............................................................. 453
+10,8. Publicación........................................................................................... 426
+7) Convergencia unilateral con las NIIF....................................... 454
+10,9. Revisión continua................................................................................. 426
+8) Convergencia bilateral con las NIIF ........................................ 454
+10,10. Normas contables diferenciadas.......................................................... 426
+c) Aplicación de los enfoques a emisores seleccionados.................... 455
+a) Consideraciones generales.............................................................. 426
+d) Apoyos a la armonización basada en las NIIF................................ 455
+b) Diferenciación de emisores de estados financieros......................... 428
+11,3. Armonización en grupos de países....................................................... 456
+1) Con cotización pública de sus títulos valores o sin ella……..... 428
+a) Justificación.................................................................................... 456
+2) Con obligación pública de rendir cuenta o sin ella.................... 429
+b) El caso de la Unión Europea.......................................................... 456
+3) De mayor o de menor tamaño................................................... 429
+1) Situación anterior al dictado del reglamento (CE)
+4) Del sector estatal o del sector privado....................................... 430
+1606/2002………………………………………………… 456
+c) Diferenciación de necesidades de los usuarios............................... 430
+2) Normas del reglamento (CE) 1606/2002................................. 457
+d) Diferenciación de operaciones........................................................ 432
+3) Organismos técnicos intervinientes......................................... 459
+e) Costos de preparación de la información........................................ 433 4) Resultados del proceso de “endoso”........................................ 461
+1) Normas de reconocimiento y medición contable...................... 433
+c) Otras experiencias......................................................................... 461
+2) Normas de exposición............................................................... 434
+1) Países de América.................................................................... 461
+f) Dispensas transitorias..................................................................... 434 2) Países del Mercosur................................................................. 461
+g) Razones de conveniencia................................................................ 435 3) Países del G4+1....................................................................... 462
+h) Conclusiones.................................................................................... 435
+11,4. Armonización dentro de un país.......................................................... 464
+10,11. Resumen............................................................................................... 437
+11,5. Resumen.............................................................................................. 465
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXXVI ENRIQUE FOWLER NEWTON CUESTIONES CONTABLES FUNDAMENTALES XXXVII
+Pág. Pág.
+11,6. Preguntas y ejercicios.......................................................................... 466 g) Derechos de autor............................................................................ 499
+11,7. Soluciones propuestas a las preguntas y ejercicios.............................. 467 12,6. Primera aplicación............................................................................... 499
+12,7. Calidad................................................................................................. 501
+CAPÍTULO 12 a) Situación actual............................................................................. 501
+LAS “NORMAS INTERNACIONALES DE INFORMACIÓN b) Perspectivas................................................................................... 504
+FINANCIERA” (NIIF) 12,8. Apoyos................................................................................................. 504
+a) La International Federation of Accountants (IFAC)...................... 505
+12,1. Introducción......................................................................................... 469
+b) La International Organization of Securities Commissions
+12,2. Componentes de las NIIF.................................................................... 470
+(IOSCO)……………………………………………………….. 506
+12,3. Participantes en la emisión de las NIIF................................................ 471
+c) El grupo de los 20 y La Financial Stability Board (FSB)............... 508
+a) El IASC y el SIC............................................................................ 471
+d) El Banco Mundial.......................................................................... 508
+b) La IFRS Foundation (antes IASCF)............................................... 474
+12,9. Aceptación........................................................................................... 509
+1) Génesis..................................................................................... 474
+12,10. Resumen.............................................................................................. 510
+2) Cambio de denominación......................................................... 475
+12,11. Preguntas y ejercicios........................................................................... 515
+3) Objetivos.................................................................................. 475
+12,12. Soluciones propuestas a las preguntas y ejercicios............................. 516
+4) Gobierno.................................................................................. 476
+5) Supervisión............................................................................... 478
+CAPÍTULO 13
+6) Financiamiento......................................................................... 479
+c) El IASB.......................................................................................... 479 LA “NIIF PARA LAS PYMES”
+d) El IFRS Interpretations Committee (antes IFRIC)......................... 481 13,1. Introducción......................................................................................... 519
+e) El IFRS Advisory Council (antes SAC)......................................... 482 13,2. Antecedentes generales y emisión........................................................ 520
+12,4. Procedimientos de emisión de las NIIF............................................... 483 13,3. Su emisión frente a la Constitución de la IASCF................................. 521
+a) Aspectos generales......................................................................... 483 13,4. Inexistencia de un marco conceptual de referencia.............................. 522
+b) Pronunciamientos distintos a las interpretaciones.......................... 484 13,5. Componentes....................................................................................... 523
+1) Procedimientos obligatorios..................................................... 484 13,6. Alcance pretendido.............................................................................. 523
+2) Procedimientos omisibles......................................................... 485 13,7. Aplicación local................................................................................... 524
+c) Interpretaciones.............................................................................. 486 13,8. Material acompañante.......................................................................... 525
+12,5. Otras cuestiones referidas a las NIIF como producto.......................... 486 13,9. El grupo de implementación para PYMES.......................................... 525
+a) Contenido típico de una NIIF......................................................... 486 13,10. Otras cuestiones referidas a la “NIIF para las PYMES” como
+b) Contenido típico de una interpretación.......................................... 488 producto………………………………………………………….. 526
+c) Material acompañante.................................................................... 488 a) Autosuficiencia.............................................................................. 526
+d) Claridad.......................................................................................... 489 b) Ausencia de interpretaciones......................................................... 526
+e) Idiomas y traducciones................................................................... 489 c) Claridad......................................................................................... 527
+f) Traducciones al español................................................................. 492 d) Modificaciones............................................................................. 527
+1) La traducción “oficial” y la “europea”..................................... 492 e) Idiomas y traducciones.................................................................. 527
+2) La traducción chilena............................................................... 497 f) Derechos de autor.......................................................................... 527
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XXXVIII ENRIQUE FOWLER NEWTON CUESTIONES CONTABLES FUNDAMENTALES XXXIX
+Pág. Pág.
+13,11. Aplicación inicial.............................................................................. 527 1) Información general................................................................. 552
+13,12. Calidad.............................................................................................. 527 2) El nuevo CENCyA y sus dos comités...................................... 553
+13,13. Aceptación.......................................................................................... 528 3) El Comité de Nominaciones..................................................... 555
+13,14. Resumen............................................................................................. 528 4) Los “organismos participantes”............................................... 555
+13,15. Preguntas y ejercicios......................................................................... 529 5) Proceso de emisión de los pronunciamientos técnicos… ……. 556
+13,16. Soluciones propuestas a las preguntas y ejercicios............................. 530 6) Cuestiones vinculadas con la transparencia.............................. 558
+7) Consideraciones finales............................................................ 559
+CAPÍTULO 14 e) Empleo de las NIIF y de la “NIIF para las PYMES”..................... 559
+1) Normas emitidas en 2009 y 2010............................................. 559 LAS NORMAS CONTABLES EN LA ARGENTINA
+2) Medida complementaria pendiente........................................... 562
+14,1. Introducción....................................................................................... 531
+3) Proyectos.................................................................................. 562
+14,2. Emisores de normas contables............................................................ 531
+f) Normas diferenciadas por tipo de entidad...................................... 563
+a) Normas legales.............................................................................. 531
+1) Panorama.................................................................................. 563
+b) Normas profesionales.................................................................... 533
+2) Normas de la RT 17.................................................................. 564
+14,3. Propuestas de la FACPCE.................................................................. 537
+3) Normas supuestamente transitorias........................................... 565
+a) La FACPCE.................................................................................... 537 4) Naturaleza de las dispensas...................................................... 568
+b) Órganos de la FACPCE que intervienen en la emisión de sus 5) Normas de la RT 26.................................................................. 568
+propuestas de normas contables..................................................... 538
+6) Resumen y comentario de la situación posterior a la
+1) La Junta de Gobierno............................................................... 538 emisión de la RT 26………………………………………… 568
+2) El CECyT.................................................................................. 538 7) El plan del CECyT de 2004...................................................... 571
+3) La CENCyA.............................................................................. 539 8) El proyecto de “norma contable nacional”............................... 572
+4) La Comisión Técnica de Emergencia....................................... 540 9) Resumen y comentario de una hipotética situación futu-
+ra…………………………………………………………. 574 5) La Comisión Asesora Técnica................................................... 541
+c) Tipos de pronunciamientos técnicos y procedimientos vi- f) Marco conceptual de referencia..................................................... 576
+gentes para su emisión................................................................... 541 g) El papel de los memorandos de la Secretaría Técnica de la
+1) Resoluciones técnicas............................................................... 543 FACPCE........................................................................................ 576
+Temario.................................................................................... 543 h) Costos de desarrollo de las normas................................................. 577
+Contenido habitual................................................................... 543
+i) Calidad.......................................................................................... 578
+Procedimiento normal de emisión............................................ 544
+14,4. Normas profesionales.......................................................................... 579
+Incumplimientos del procedimiento establecido...................... 548 14,5. Normas legales.................................................................................... 583
+2) Resoluciones coyunturales o de emergencia de contabi- a) Estados financieros del sector privado.......................................... 583
+lidad y auditoría……………………………………………….. 549 b) Estados financieros del sector estatal............................................ 586
+3) Interpretaciones obligatorias..................................................... 549 14,6. Conflictos y armonizaciones............................................................... 588
+4) Circulares de adopción de las NIIF.......................................... 551 a) Conflictos entre normas legales..................................................... 589
+5) Recomendaciones técnicas del sector público.......................... 552 b) Conflictos entre normas legales y profesionales............................ 589
+d) Nuevo esquema de emisión de pronunciamientos técnicos………. 552 c) Conflictos entre normas profesionales locales............................... 591
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XL ENRIQUE FOWLER NEWTON
+CUESTIONES CONTABLES FUNDAMENTALES XLI
+Pág. Pág.
+d) Armonización con las NIIF............................................................. 591 d) El Financial Accounting Standards Advisory Council
+(FASAC)......................................................................................... 630
+14,7. Conclusiones del ROSC de 2007......................................................... 591
+e) La Governmental Accounting Standards Board (GASB).............. 631
+14,8. Notas históricas sobre la sanción de las normas contables pro-
+f) El Governmental Accounting Standards Advisory Council
+fesionales…………………………………………………………………….. 593
+(GASAC)........................................................................................ 632
+a) Hasta 1969..................................................................................... 593 g) La Federal Accounting Standards Advisory Board (FASAB)……. 632
+b) 1969-1973...................................................................................... 595
+15,4. Normas para entidades no gubernamentales......................................... 633
+c) 1973-1984...................................................................................... 596 a) Breve historia................................................................................. 633
+d) 1984-2000...................................................................................... 598
+b) Estructuración................................................................................. 634
+e) 2000-2005....................................................................................... 598
+c) Normas diferenciadas..................................................................... 637
+14,9. Consideraciones finales........................................................................ 603
+1) Entidades con cotización.......................................................... 637
+a) Resumen de problemas................................................................... 603
+2) Otras “entidades públicas”....................................................... 638
+b) Propuestas para el mediano plazo................................................... 605
+d) La codificación............................................................................... 639
+c) Propuestas para una transición........................................................ 606
+1) Información general.................................................................. 639
+d) Propuestas para lo inmediato.......................................................... 607
+2) Acceso...................................................................................... 640
+14,10. Resumen............................................................................................... 608
+3) Estructura y contenido.............................................................. 640
+14,11. Preguntas y ejercicios........................................................................... 612 Tópicos..................................................................................... 641
+14,12. Soluciones propuestas a las preguntas y ejercicios............................... 613
+Subtópicos................................................................................ 642
+Secciones.................................................................................. 643
+CAPÍTULO 15
+Subsecciones y agrupamientos de párrafos............................... 644
+Los “US GAAP” Párrafos.................................................................................... 645
+15,1. Introducción........................................................................................ 617 El glosario maestro.................................................................. 645
+15,2. Juegos de normas contables................................................................. 618 4) Cuestiones de redacción y presentación................................... 645
+15,3. Participantes en el dictado de normas contables.................................. 619 5) “Contenidos pendientes”.......................................................... 645
+e) Emisión de las normas................................................................... 646
+a) La Securities and Exchange Commission (SEC)........................... 619
+1) Procedimientos de la FASB..................................................... 646 b) La Financial Accounting Foundation (FAF).................................. 623
+2) Procedimientos de la EITF....................................................... 647
+c) La Financial Accounting Standards Board (FASB)....................... 624
+3) Procedimientos de la SEC........................................................ 647
+1) Misión...................................................................................... 625
+4) Cabildeos y presiones.............................................................. 648
+2) Integración................................................................................ 625
+f) Estilo............................................................................................. 649
+3) Principios que guían su acción................................................. 626
+g) Calidad.......................................................................................... 651
+4) Plantel técnico.......................................................................... 628
+h) Normas profesionales versus normas legales................................. 653
+5) Pronunciamientos..................................................................... 629
+i) Plan de convergencia con las NIIF................................................ 654
+6) El Emerging Issues Task Force (EITF)..................................... 629
+15,5. Normas para entidades gubernamentales no federales........................ 654
+7) Grupos asesores........................................................................ 629
+15,6. Normas para entidades gubernamentales federales............................. 656
+8) Financiación............................................................................. 630
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+XLII ENRIQUE FOWLER NEWTON CUESTIONES CONTABLES FUNDAMENTALES XLIII
+Pág.
+Pág.
+15,7. Consideraciones finales....................................................................... 657 b) Contrapropuesta de la FASB (2007).............................................. 685
+15,8. Resumen.............................................................................................. 658 c) El plan de trabajo de 2008.............................................................. 686
+15,9. Preguntas y ejercicios.......................................................................... 661 d) Postura de la FASB (2009)............................................................ 687
+15,10. Soluciones propuestas a las preguntas y ejercicios.............................. 661 e) Las decisiones de 2010.................................................................. 687
+f) Postura del AICPA (2010)............................................................. 688
+CAPITULO 16 g) Posibles efectos sobre las normas de la SEC para emisores
+extranjeros...............................................................................…… 688
+LA CONVERGENCIA ENTRE LAS NIIF Y LOS US GAAP
+h) Posibles efectos sobre los US GAAP............................................... 689
+Y LA APLICACIÓN DE LAS PRIMERAS EN
+LOS ESTADOS UNIDOS 16,7. El proyecto de la SEC de permitir la aplicación anticipada de
+las NIIF a ciertos “emisores estadounidenses”.................................... 689
+16,1. Introducción........................................................................................ 665 16,8. Resumen................................................................................... 690
+16,2. Cuestiones de terminología................................................................. 666
+16,9. Preguntas y ejercicios.......................................................................... 692
+16,3. El proyecto de convergencia IASB-FASB.......................................... 667
+16,10. Soluciones propuestas a las preguntas y ejercicios.............................. 693
+a) El acuerdo de Norwalk (2002)....................................................... 667
+b) El plan de 2006............................................................................... 668
+c) La situación en 2008...................................................................... 669
+d) Impulso a la convergencia por parte del G20 (2008-2010)……..... 670
+e) El informe del FCAG (2009)......................................................... 672
+f) La FEE contra la continuidad del proyecto de convergencia
+(2009).............................................................................................. 673
+g) Declaración conjunta de la FASB y el IASB (2009)....................... 674
+h) Expectativa de la Junta de Monitoreo del IASB (2009).................. 675
+i) El seguimiento del informe del FCAG (2009)................................ 675
+j) Apoyo de la SEC (2010)................................................................. 675
+k) Los casos de la NIIF 8 y de la NIC 23 revisada.............................. 675
+l) Plazo de completamiento................................................................ 677
+m) Posibles efectos del proyecto sobre la calidad de las nor-
+mas………………………………………………………………. . 677
+16,4. Normas de la SEC anteriores al permiso de aplicar las NIIF
+otorgado a los “emisores privados extranjeros”.................................... 678
+16,5. La decisión de la SEC de permitir la aplicación de las NIIF a los
+“emisores privados extranjeros”........................................................... 679
+a) La consulta del año 2000................................................................ 679
+b) La decisión de 2007 y sus antecedentes inmediatos....................... 681
+16,6. El proyecto de la SEC de requerir la aplicación de las NIIF a los
+“emisores estadounidenses”…………………………………………… .683
+a) La consulta de 2007......................................................................... 683
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+CAPÍTULO 7
+MODELOS CONTABLES
+7,1. INTRODUCCIÓN
+El DRAE brinda, entre otras, esta definición de modelo:
+Esquema teórico, generalmente en forma matemática,
+de un sistema o de una realidad compleja, como la
+evolución económica de un país, que se elabora para
+facilitar su comprensión y el estudio de su compor-
+tamiento (1).
+Dado que la evolución patrimonial de una entidad es una realidad com-
+pleja, cabe la posibilidad de diseñar modelos contables para comprenderla y
+estudiarla.
+Advertimos al lector que la expresión modelo contable se emplea tam-
+bién (con algún aditamento) para referirse:
+a) a la aplicación de algún criterio de medición en particular; o
+b) al método utilizado para el procesamiento contable.
+Ejemplos respectivos: modelo contable del costo corriente y modelo
+contable de la partida doble.
+Además, la palabra modelo se usa en algunos juegos de NC para referirse
+a la medición de algún objeto de reconocimiento contable en particular.
+Por ejemplo, en la NIC 16, que es el componente de las NIIF que
+trata las cuestiones contables relacionadas con los activos que se
+(1) Diccionario de la Real Academia Española, vigésima segunda edición, http://www.
+rae.es.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+300 ENRIQUE FOWLER NEWTON 7. MODELOS CONTABLES 301
+utilizan en las actividades de explotación y que no se consumen
+Cuestión Alternativas principales Comentarios
+con el primer uso:
+o consenso
+a) se definen dos criterios alternativos para su medición; l. Moneda de me- Cuatro alternativas: moneda Mientras no se nos demuestre
+dición local o moneda funcional (en que el empleo de la moneda
+b) se los referencia con las expresiones modelo del costo y modelo
+ambos casos, sin ajuste por funcional satisface mejor las
+de revaluación.
+inflación o con él). necesidades de los usuarios
+de los estados financieros,
+En cuanto a la consideración preferiremos mediciones en
+de la inflación, existen enfo- moneda local con ajuste por
+En el resto de este capítulo empleamos la expresión modelos conta-
+ques intermedios, como és- inflación, sin perjuicio de que
+bles con el significado que presentamos en primer término.
+tos: los efectos de los cambios en
+a) requerir el ajuste integral el poder adquisitivo de la mo-
+En este capítulo nos referiremos a la definición y selección de modelos sólo cuando se cumplen neda de medición puedan ser
+contables, a los casos de cambios de ellos y a la manera en que la cuestión es ciertas condiciones, con ignorados cuando no sean
+tratada en los MC a los que brindamos una atención especial. alternativas en cuanto a: significativos.
+1) la admisión o el recha-
+Dado que los principales conceptos ya se presentan esquemática- zo de los ajustes que no
+mente, no incluiremos el acostumbrado resumen del capítulo. resulten obligatorios;
+2) el tratamiento a dar a
+los efectos de la infla-
+7,2. VARIABLES RELEVANTES ción acumulada du-
+rante los períodos en
+que no se practicaron
+Para que un juego de estados financieros pueda presentar de una manera
+ajustes contables para
+fidedigna la situación y la evolución patrimonial de su emisor, deben aplicar- reconocerla;
+se NC que consideren diversas variables. b) reconocer los efectos de
+la inflación por medio de
+ajustes parciales o par-
+A) VARIABLES PRINCIPALES ches.
+En diversos trabajos se señala que un modelo contable depende básica-
+mente de tres variables:
+2. Reconocimien- Consenso: reconocer los ele-
+a) los criterios de medición a utilizar; to contable mentos que cumplan con las
+correspondientes definicio-
+b) el concepto de capital a mantener que debe aplicarse para medir los nes y sean susceptibles de
+resultados acumulados y la ganancia o pérdida de cada período; medición fiable.
+3. Baja contable Consenso: dar de baja los ele-
+c) la unidad de medida a emplear cuando se efectúan mediciones con- mentos que dejen de cumplir
+tables (esto es, la moneda de medición). con los requisitos estableci-
+dos para su reconocimiento.
+En nuestra opinión, hay otras variables que también son relevantes. Se-
+4. Medición con- Muchísimas alternativas ba- Por lo general, los juegos de
+guidamente, presentamos una lista que consideramos más completa.
+table en general sadas en la consideración de NC:
+los atributos identificados en a) adoptan reglas que se
+Lo que sigue es de difícil comprensión sin la lectura previa de los ca-
+las secciones 6,3, 6,4 y 6,5. basan en diversos atribuos
+pítulos precedentes, donde presentamos las alternativas enunciadas
+en el cuadro y fundamentamos nuestras preferencias. Nuestra preferencia: y que no siempre son co-
+herentes entre sí;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+302 ENRIQUE FOWLER NEWTON 7 . M O D ELOS 7. MODELOS CONTABLES 303
+Cuestión Alternativas principales Comentarios Cuestión Alternativas principales Comentarios
+o consenso
+o consenso
+a) para los activos no indica- b) permiten, en algunos ca- 6. Moneda de pre- Consenso: puede utilizarse
+dos en el inciso b): sos, que el emisor fije sus sentación de los cualquiera.
+estados finan-
+1) lo que mejor repre- políticas contables optan-
+sente su VC, mientras do entre reglas alternati- cieros
+7. Contenido y for- Muchas alternativas, según Quienes han escrito sobre
+pueda determinárselo vas.
+fiablemente y con un No obstante, se observa que
+ma de los esta- puede verse en Contabilidad modelos contables no suelen
+costo razonable; con el correr de los años au-
+dos financieros superior (La Ley, sexta edi- referirse a esta cuestión.
+ción, 2010).
+2) cuando no se den las menta el número de activos y
+condiciones indicadas, pasivos para cuya medición 8. Medidas conta- Alternativas: Esta cuestión no suele ser vis-
+medidas basadas en los se requiere el empleo de VR bles a presentar ta como una variable a con-
+costos históricos de los o de conceptos parecidos en los estados a) consolidar los datos del siderar para la definición del
+activos, en sus últimos (como los VNR o los costos de financieros inversor y de sus contro- modelo contable. Sin embar-
+VC conocidos o (si se cancelación). Al respecto: cuando existen ladas, para exponer cifras go, afecta decisivamente las
+entidades con- que reflejen la operación medidas asignadas a algunos
+tratase de participacio- a) parece haberse logrado
+troladas conjunta de todos ellos datos clave de esos estados,
+nes en otras entidades) consenso en cuanto a su (nuestra preferencia). como los activos, los pasivos
+su “valor patrimonial” utilización para los bienes
+b) mostrar las participacio- y las causas del resultado de
+(en todos los casos con de fácil comercialización;
+el límite del IR);
+nes en los patrimonios y un período. La consolidación
+b) existe una tendencia a la en los resultados de las está requerida implícitamen-
+b) para las participaciones ampliación de su utiliza- entidades controladas te en los MC cuyas definicio-
+en entidades sometidas a ción en la medición con- como partidas separadas. nes de activos se basan (entre
+control conjunto o a in- table de los activos y pasi- otros elementos) en la posibi-
+fluencia significativa (sin vos financieros y algunos lidad de controlar sus bene-
+llegar a tener el control): emisores de NC (como ficios. Si esta condición está
+su valor patrimonial con el IASB y la FASB) se han presente en el activo de una
+el límite del IR; puesto como objetivo de entidad controlada no hay
+c) para los pasivos: VR u largo plazo el requeri- por qué excluirlo de los es-
+otras medidas que sean miento del empleo de ese tados financieros de su con-
+coherentes con el empleo atributo para todos los troladora. Y si se consolidan
+de VC. instrumentos financieros; los activos individuales de
+las controladas, debe hacerse
+c) no hay consenso respecto
+lo mismo con los otros obje-
+de los activos no moneta- tos de medición contable de
+rios. ellas.
+5. Medición de los Consenso: debe mantenerse La decisión que se adopte en 9. Tratamiento, en Alternativas: La elección que se haga afec-
+resultados acu- el capital aportado, medido cuanto al capital a mantener
+el mismo caso. ta la medición contable del
+mulados y de en moneda. Sin embargo, las impacta sobre las que se to-
+de las PNC so- a) perspectiva de la entidad; patrimonio de la controlado-
+cada período NC suelen admitir o reque- men en materia de reconoci-
+rir el diferimiento de ganan- miento y medición contable
+bre patrimonios b) enfoque del propietario ra y de su resultado por el pe-
+cias o pérdidas devengadas, de los ingresos, los gastos, y resultados de (lo preferimos). ríodo.
+lo que conduce al reconoci- las ganancias, las pérdidas y
+controladas
+miento de ORÍ y a la inclusión el impuesto sobre las ganan-
+de ORIA dentro del patrimonio cias (2).
+rían reconocerse como resultados en los ejercicios en que se acumulan (se devengan). En el
+improbable caso de que se aplicase un modelo basado en el mantenimiento de una capacidad
+(2) Así, si se aplicase a rajatablas el concepto de ganancia basado en el mantenimiento del de operación determinada, los resultados producidos por la tenencia de los activos necesarios
+capital financiero, todos los resultados ocasionados por la tenencia de activos y pasivos debe- para dicho mantenimiento no se considerarían resultados.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+304 ENRIQUE FOWLER NEWTON 7. MODELOS CONTABLES 305
+B) VARIABLES SECUNDARIAS 2. Los activos y pasivos reconocidos del ente deberían
+ser llevados a su valor para una empresa en marcha
+En materia de medición contable, además de los criterios principales an- a la fecha del balance.
+tes referidos, podrían considerarse todos los referidos a cuestiones más pun-
+3. La ganancia o la pérdida mostrada por el estado de
+tuales, pero esto oscurecería la caracterización general de un modelo conta-
+resultados para el periodo contable debería re-
+ble.
+presentar el incremento o disminución del capital
+Por ello, sólo nos referiremos a unas pocas variables secundarias.
+financiero real que se ha devengado hacia el ente
+durante el periodo.
+Cuestión Alternativas principales
+4. Las mediciones contables deben hacerse coherente-
+1 Reconocimiento de un interés pro- • No reconocerlo (nuestra preferencia)
+mente y deberían ser comparables de año en año.
+pio • Reconocerlo y tratarlo del mismo
+5. Los números agregados deben ser verdaderamente sus-
+modo que los costos financieros
+ceptibles de suma.
+2 Inclusión en las medidas contables • No incluirlos (nuestra preferencia)
+6. Toda la información dada por los estados financieros
+asignadas a los costos de bienes, • Incluirlos, cuando se dan ciertas con-
+servicios o actividades, de costos fi- diciones debería ser verificable.
+nancieros (y de los intereses propios 7. Toda la información dada por los estados financieros
+que se hubieren reconocido) debería tener un valor que exceda a su costo (3).
+3 Medición de importes recuperables • Criterio del destino previsible (que
+Solomons aclara que el criterio 3 implica la adopción del concepto de
+preferimos)
+mantenimiento del capital financiero y del ajuste por inflación. Esto último,
+• Criterio del empleo alternativo más
+rentable porque un modelo debería servir bajo cualquier condición (haya inflación o
+no la haya). La necesidad del ajuste está implícita también en el criterio 5.
+Habrá colegas que prefieran listas de variables secundarias más cortas o
+7,4. CAMBIOS DE MODELOS
+más largas.
+Ocasionalmente, un cambio de NC puede implicar la modificación del
+7,3. SELECCIÓN DE UN MODELO modelo contable adoptado. Esto sucede, por ejemplo, cuando por primera
+vez se efectúan ajustes por inflación o se aplican las NIIF.
+La selección de un modelo por parte de un organismo emisor de NC re-
+quiere la adopción de las mejores alternativas para cada una de las variables
+7,5. TRATAMIENTO DE LA CUESTIÓN EN ALGUNOS relevantes (como mínimo, las enunciadas en la sección precedente), dentro
+MARCOS CONCEPTUALES
+de las restricciones que impongan:
+a) la necesidad de contar con medidas contables que sean fiables y que No es imprescindible ni habitual que un MC defina el modelo contable a
+produzcan información representativa; ser aplicado en el diseño de las correspondientes NC. Más necesario es que
+incluya las hipótesis básicas a considerar para su selección.
+b) los costos de su obtención.
+No obstante, una descripción explícita del modelo contable adoptado
+De alguna manera, la conclusión precedente subyace en estos siete crite-
+(que también podría efectuarse en las NC) ayudaría:
+rios de selección, que Solomons enunció en 1995:
+a) en la comprensión del conjunto de las NC por parte de los usuarios
+1. El balance debe ser un estado verdadero y razonable
+de estados financieros que estén poco familiarizados con la contabili-
+de la situación financiera del ente a su fecha. Por
+dad;
+ejemplo: debería mostrar todos sus activos y pasi-
+vos, de conformidad con las definiciones aceptadas
+de esos términos, que satisfagan el criterio acor- (3) SOLOMONS, DAVID, Criteria for Choosing an Accounting Model, Accounting Horizons,
+dado para su reconocimiento. marzo de 1995, páginas 42-51.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+306 ENRIQUE FOWLER NEWTON 7. MODELOS CONTABLES 307
+b) los criterios de medición contable;
+b) en el diseño y la fundamentación de NC sobre cuestiones particulares
+que deberían deducirse de las definiciones adoptadas para el diseño
+c) el capital a mantener (para que exista ganancia).
+del modelo;
+6.1. Unidad de medida
+c) en la obtención de coherencia entre las diversas NC particulares;
+Los estados financieros deben expresarse en moneda ho-
+d) en la resolución de los problemas contables no previstos específica- mogénea, de poder adquisitivo de la fecha a la cual
+mente en las últimas. corresponden. En un contexto de estabilidad moneta-
+ria, como moneda homogénea se utilizará la moneda no-
+A) MARCO CONCEPTUAL DE LAS NIIF
+minal.
+(...)
+En el párrafo 110 del MC emitido por el IASC en 1989 y en el párrafo 4.65
+6.3. Capital a mantener
+del MC 2010 del IASB se indica que:
+(...) se considera capital a mantener al financiero (el
+a) el mismo es aplicable a una amplia gama de modelos contables y su- invertido en moneda).
+ministra una guía para preparar y presentar los estados financieros
+El párrafo referido a la unidad de medida nos parece insatisfactorio por-
+por medio del modelo elegido;
+que los ajustes por inflación deberían permitirse aunque ésta no tenga efec-
+b) el IASC no tenía (en 1989) ni el IASB tiene actualmente la intención de tos significativos. O sea: el ajuste por inflación debería estar requerido por las
+prescribir un modelo en particular, salvo para circunstancias excep- NC, sin perjuicio de la aplicación del concepto de significación.
+cionales, como los de empresas que presentan sus estados financieros
+En cuanto a los criterios de medición contable, la RT 16 se limita a listar
+en monedas de economías hiperinflacionarias;
+algunos atributos de los activos y los pasivos (5) que podrían llegar a em-
+c) tal intención será revisada a la luz de los desarrollos mundiales (4). plearse pero no indica a cuáles debe darse prevalencia en la definición de las
+NC desarrolladas por la FACPCE.
+En los mismos párrafos se dice que un modelo contable está determina-
+do por la selección de las bases de medición y el concepto de capital a man-
+tener. Por las razones expuestas en la sección 7,2, consideramos que esta lista C) MARCO CONCEPTUAL DE LOS US GAAP
+está incompleta.
+El MC de los US GAAP no contiene una definición explícita de su modelo
+Vale recordar que el MC del IASB está siendo revisado (junto con el de los
+contable.
+US GAAP) mediante la ejecución de un proyecto que tardará algunos años en
+completarse.
+7,6. PREGUNTAS Y EJERCICIOS
+B) MARCO CONCEPTUAL DE LA FACPCE
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para
+que una aseveración sea correcta debe serlo totalmente.
+El MC aprobado mediante la RT 16 de la FACPCE define algunos aspectos
+del modelo contable adoptado en estos párrafos de su segunda parte: a) Es suficiente con que un modelo contable se refiera a los criterios
+de medición a aplicar, al concepto de capital a mantener y a la uni-
+6. Modelo contable
+dad de medida a emplear.
+El modelo contable utilizado para la preparación de
+b) Los VC son más representativos de la riqueza actual que los impor-
+los estados financieros está determinado por los cri-
+tes históricos ajustados por inflación.
+terios que se resuelva emplear en lo que se refiere
+a: c) Si la ganancia periódica se determinase aplicando el criterio del
+mantenimiento del capital físico, los activos que definen el capital
+a mantener deberían medirse por sus VC.
+a) la unidad de medida;
+(5) RT 16, segunda parte, sección 6.2.
+(4) Párrafo 110.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+308 ENRIQUE FOWLER. NEWTON 7. MODELOS CONTABLES 309
+d) El tratamiento de los costos fijos de producción es una variable 4. Si se adoptase el criterio de mantenimiento de cierta capacidad de
+fundamental para la definición del modelo contable. operación, no se reconocerían resultados por las ganancias y pérdidas
+producidos por la tenencia de los activos que sean necesarios para
+e) En opinión del autor, deberían emplearse VC para la medición
+conservarla. Si se emplease a rajatabla el criterio de mantenimiento
+contable de todos los activos reconocidos contablemente.
+del capital financiero se reconocerían en resultados todas las ganan-
+f) Un cambio de modelo contable se considera aceptable cuando tie- cias y pérdidas de tenencia.
+ne como propósito la mejora de la información contable o el cum-
+5. Debería definirse si la controladora tendría que:
+plimiento de disposiciones legales o de organismos profesionales.
+2. Explique cómo se relaciona la expresión modelo de la partida doble a) tratar a la participación en la controlada como un activo diferen-
+con los desarrollos presentados en este capítulo. ciado; o
+3. Indique qué es lo más importante en la definición de un modelo con- b) consolidar los elementos de los estados financieros de sus contro-
+table en cuanto tiene que ver con los criterios de medición. ladas.
+4. Explique la relación existente entre la adopción de un criterio de man- 6. La selección de un modelo requiere la adopción de las mejores al-
+tenimiento de capital y el reconocimiento y la medición contable de ternativas para cada una de las variables relevantes, de modo que su
+ganancias y pérdidas. aplicación produzca información contable útil, que cumpla los requi-
+sitos estudiados en el capítulo 2.
+5. Enuncie las alternativas básicas en cuanto al tratamiento de las parti-
+cipaciones en entidades controladas. 7. No sería correcto porque en tal caso los resultados de su enajenación
+se reconocerían antes de la finalización de los esfuerzos pertinentes.
+6. Indique cuál es el criterio básico para la selección de un modelo con-
+table.
+7. Indique si sería razonable que todas las mercaderías para la venta si
+midiesen por sus VNR.
+7,7. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y
+EJERCICIOS
+1. a) Incorrecto, en opinión del autor. Hay otras variables que también
+son relevantes.
+b) Correcto.
+c) Correcto.
+d) Incorrecto, en nuestra opinión, porque no se trata de una cuestión
+controvertida.
+e) Incorrecto. El autor no lo propone para los activos cuyos VC sean
+de determinación imposible o muy costosa.
+f) Correcto.
+2. No hay ninguna relación, porque en la expresión modelo de la partida
+doble, la palabra modelo no se usa con el sentido con que se la emplea
+en este capítulo.
+3. Es el grado de empleo que se haga de los VC y de las mediciones basa-
+das en importes históricos.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos

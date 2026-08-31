@@ -1,0 +1,728 @@
+Steven R. Dunbar
+Department of Mathematics
+203 Avery Hall
+University of Nebraska-Lincoln
+Lincoln, NE 68588-0130
+http://www.math.unl.edu
+Voice: 402-472-3731
+Fax: 402-472-8466
+Stochastic Processes and
+Advanced Mathematical Finance
+Solution of the Black-Scholes Equation
+Rating
+Mathematically Mature: may contain mathematics beyond calculus with
+proofs.
+1
+
+Section Starter Question
+What is the solution method for the Cauchy-Euler type of ordinary differen-
+tial equation:
+d2v dv
+x2 +ax +bv = 0?
+dx2 dx
+Key Concepts
+1. We solve the Black-Scholes equation for the value of a European call
+option on a security by judicious changes of variables that reduce the
+equation to the heat equation. The heat equation has a solution for-
+mula. Using the solution formula with the changes of variables gives
+the solution to the Black-Scholes equation.
+2. Solving the Black-Scholes equation is an example of how to choose and
+execute changes of variables to solve a partial differential equation.
+Vocabulary
+1. A differential equation with auxiliary initial conditions and boundary
+conditions, that is an initial value problem, is said to be well-posed
+if the solution exists, is unique, and small changes in the equation
+parameters, the initial conditions or the boundary conditions produce
+only small changes in the solutions.
+2
+
+Mathematical Ideas
+Conditions for Solution of the Black-Scholes Equation
+We have to start somewhere, and to avoid the problem of deriving everything
+back to calculus, we will assert that the initial value problem for the heat
+equation on the real line is well-posed. That is, consider the solution to the
+partial differential equation
+∂u ∂2u
+= −∞ < x < ∞, τ > 0
+∂τ ∂x2
+with the initial condition
+u(x,0) = u (x).
+0
+Assume the initial condition and the solution satisfy the following technical
+requirements:
+1. u (x) has at most a finite number of discontinuities of the jump kind.
+0
+2. lim u (x)e−ax2 = 0 for any a > 0.
+|x|→∞ 0
+3. lim u(x,τ)e−ax2 = 0 for any a > 0.
+|x|→∞
+Under these mild assumptions, the solution exists for all time and is unique.
+Most importantly, the solution is represented as
+1 (cid:90) ∞ −(x−s)2
+u(x,τ) = √ u 0 (s)e 4τ ds.
+2 πτ
+−∞
+Remark. This solution can be derived in several different ways, the easiest
+way is to use Fourier transforms. The derivation of this solution representa-
+tion is standard in any course or book on partial differential equations.
+3
+
+Remark. Mathematically, the conditions above are unnecessarily restrictive,
+andcanbeconsiderablyweakened. However,theywillbemorethansufficient
+for all practical situations we encounter in mathematical finance.
+Remark. The use of τ for the time variable (instead of the more natural t)
+is to avoid a conflict of notation in the several changes of variables we will
+soon have to make.
+The Black-Scholes terminal value problem for the value V(S,t) of a Eu-
+ropean call option on a security with price S at time t is
+∂V 1 ∂2V ∂V
++ σ2S2 +rS −rV = 0
+∂t 2 ∂S2 ∂S
+with V(0,t) = 0, V(S,t) ∼ S as S → ∞ and
+V(S,T) = max(S −K,0).
+Note that this looks a little like the heat equation on the infinite interval
+in that it has a first derivative of the unknown with respect to time and the
+second derivative of the unknown with respect to the other (space) variable.
+On the other hand, notice:
+1. Each time the unknown is differentiated with respect to S, it also mul-
+tiplied by the independent variable S, so the equation is not a constant
+coefficient equation.
+2. There is a first derivative of V with respect to S in the equation.
+3. There is a zero-th order derivative term V in the equation.
+4. The sign on the second derivative is the opposite of the heat equation
+form, so the equation is of backward parabolic form.
+5. ThedataoftheproblemisgivenatthefinaltimeT insteadoftheinitial
+time 0, consistent with the backward parabolic form of the equation.
+6. There is a boundary condition V(0,t) = 0 specifying the value of the
+solution at one sensible boundary of the problem. The boundary is sen-
+sible since security values must only be zero or positive. This boundary
+condition says that any time the security value is 0, then the call value
+(with strike price K) is also worth 0.
+4
+
+7. There is another boundary condition V(S,t) ∼ S, as S → ∞, but
+although this is financially sensible, (it says that for very large security
+prices, the call value with strike price K is approximately S) it is more
+in the nature of a technical condition, and we will ignore it without
+consequence.
+We eliminate each objection with a suitable change of variables. The plan
+is to change variables to reduce the Black-Scholes terminal value problem to
+the heat equation, then to use the known solution of the heat equation to
+represent the solution, and finally change variables back. This is a standard
+solution technique in partial differential equations. All the transformations
+are standard and well-motivated.
+Solution of the Black-Scholes Equation
+First we take t = T − τ and S = Kex, and we set
+(1/2)σ2
+V(S,t) = Kv(x,τ).
+Remember, σ is the volatility, r is the interest rate on a risk-free bond, and
+K is the strike price. In the changes of variables above, the choice for t
+reverses the sense of time, changing the problem from backward parabolic
+to forward parabolic. The choice for S is a well-known transformation based
+on experience with the Euler equidimensional equation in differential equa-
+tions. In addition, the variables have been carefully scaled so as to make
+the transformed equation expressed in dimensionless quantities. All of these
+techniques are standard and are covered in most courses and books on partial
+differential equations and applied mathematics.
+Some extremely wise advice adapted from Stochastic Calculus and Fi-
+nancial Applications by J. Michael Steele, [1, page 186], is appropriate here.
+“There is nothing particularly difficult about changing vari-
+ables and transforming one equation to another, but there is an
+element of tedium and complexity that slows us down. There is
+no universal remedy for this molasses effect, but the calculations
+do seem to go more quickly if one follows a well-defined plan. If
+we know that V(S,t) satisfies an equation (like the Black-Scholes
+equation) we are guaranteed that we can make good use of the
+equation in the derivation of the equation for a new function
+5
+
+v(x,τ) defined in terms of the old if we write the old V as a func-
+tion of the new v and write the new τ and x as functions of the
+old t and S. This order of things puts everything in the direct
+line of fire of the chain rule; the partial derivatives V , V and V
+t S SS
+are easy to compute and at the end, the original equation stands
+ready for immediate use.”
+Following the advice, write
+σ2
+τ = ·(T −t)
+2
+and
+(cid:18) (cid:19)
+S
+x = log .
+K
+The first derivatives are
+∂V ∂v dτ ∂v −σ2
+= K · = K ·
+∂t ∂τ dt ∂τ 2
+and
+∂V ∂v dx ∂v 1
+= K · = K · .
+∂S ∂x dS ∂x S
+The second derivative is
+∂2V ∂ (cid:18) ∂V (cid:19)
+=
+∂S2 ∂S ∂S
+(cid:18) (cid:19)
+∂ ∂v 1
+= K
+∂S ∂xS
+(cid:18) (cid:19)
+∂v −1 ∂ ∂v 1
+= K · +K ·
+∂x S2 ∂S ∂x S
+(cid:18) (cid:19)
+∂v −1 ∂ ∂v dx 1
+= K · +K · ·
+∂x S2 ∂x ∂x dS S
+∂v −1 ∂2v 1
+= K · +K · .
+∂x S2 ∂x2 S2
+The terminal condition is
+V(S,T) = max(S −K,0) = max(Kex −K,0)
+but V(S,T) = Kv(x,0) so v(x,0) = max(ex −1,0).
+6
+
+Now substitute all of the derivatives into the Black-Scholes equation to
+obtain:
+∂v −σ2 σ2 (cid:18) ∂v −1 ∂2v 1 (cid:19) (cid:18) ∂v 1 (cid:19)
+K · + S2 K · +K · +rS K · −rKv = 0.
+∂τ 2 2 ∂x S2 ∂x2 S2 ∂x S
+Now begin the simplification:
+1. Divide out the common factor K.
+2. Transpose the τ-derivative to the other side, and divide through by σ2 .
+2
+3. Rename the remaining constant r as k which measures the ratio
+σ2/2
+between the risk-free interest rate and the volatility.
+4. Cancel the S2 terms in the second derivative.
+5. Cancel the S terms in the first derivative.
+6. Gather up like order terms.
+What remains is the rescaled, constant coefficient equation:
+∂v ∂2v ∂v
+= +(k −1) −kv.
+∂τ ∂x2 ∂x
+1. Now there is only one dimensionless parameter k measuring the risk-
+free interest rate as a multiple of the volatility and a rescaled time to
+expiry σ2T, not the original 4 dimensioned quantities K, T, σ2 and r.
+2
+2. The equation is defined on the interval −∞ < x < ∞, since this x-
+interval defines 0 < S < ∞ through the change of variables S = Kex.
+3. The equation now has constant coefficients.
+In principle, we could now solve the equation directly.
+Instead, we will simplify further by changing the dependent variable scale
+yet again, by
+v = eαx+βτu(x,τ)
+where α and β are yet to be determined. Using the product rule:
+v = βeαx+βτu+eαx+βτu
+τ τ
+7
+
+and
+v = αeαx+βτu+eαx+βτu
+x x
+and
+v = α2eαx+βτu+2αeαx+βτu +eαx+βτu .
+xx x xx
+Put these into our constant coefficient partial differential equation, divide
+the common factor of eαx+βτ throughout and obtain:
+βu+u = α2u+2αu +u +(k −1)(αu+u )−ku.
+τ x xx x
+Gather like terms:
+u = u +[2α+(k −1)]u +[α2 +(k −1)α−k −β]u.
+τ xx x
+Choose α = −k−1 so that the u coefficient is 0, and then choose β =
+2 x
+α2 + (k − 1)α − k = −(k+1)2 so the u coefficient is likewise 0. With this
+4
+choice, the equation is reduced to
+u = u .
+τ xx
+We need to transform the initial condition too. This transformation is
+u(x,0) = e−(−(k− 2 1))x−(−(k+ 4 1)2 )·0v(x,0)
+=
+e((k−
+2
+1))xmax(ex
+−1,0)
+(cid:16) (cid:17)
+= max e
+((k+
+2
+1))x
+−e
+((k−
+2
+1))x,0
+.
+For future reference, we notice that this function is strictly positive when
+the argument x is strictly positive, that is u (x) > 0 when x > 0, otherwise,
+0
+u (x) = 0 for x ≤ 0.
+0
+We are in the final stage since we are ready to apply the heat-equation
+solution representation formula:
+u(x,τ) = √
+1 (cid:90) ∞
+u 0
+(s)e−(x−
+4τ
+s)2
+ds.
+2 πτ
+−∞
+However, first we want to make a change of variable in the integration, by
+taking z = ( √ s−x) , (and thereby dz = (−√ 1 ) dx) so that the integration
+2τ 2τ
+becomes:
+u(x,τ) = √
+1 (cid:90) ∞
+u 0
+(cid:16)
+z
+√
+2τ +x
+(cid:17) e−z
+2
+2
+dz.
+2π
+−∞
+8
+
+We may as well only integrate over the domain where u > 0, that is for
+√ 0 √
+z > −√ x . On that domain, u 0 = e k+ 2 1(x+z 2τ) − e k− 2 1(x+z 2τ) so we are
+2τ
+down to:
+√
+1 (cid:90) ∞
+e
+k+
+2
+1(x+z √ 2τ) e−z
+2
+2
+dz−√
+1 (cid:90) ∞
+e
+k−
+2
+1(x+z √ 2τ) e−z
+2
+2
+dz.
+2π √ 2π √
+−x/ 2τ −x/ 2τ
+Call the two integrals I and I respectively.
+1 2
+We will evaluate I (the integral with the k +1 term) first. This is easy,
+1
+completing the square in the exponent yields a standard, tabulated integral.
+The exponent is
+k +1 (cid:16) √ (cid:17) z2
+x+z 2τ −
+2 2
+(cid:18) −1 (cid:19) (cid:16) √ (cid:17) (cid:18) k +1 (cid:19)
+= z2 − 2τ (k +1)z + x
+2 2
+(cid:32) (cid:33)
+(cid:18) −1 (cid:19) √ (k +1) 2 (cid:18) (k +1) (cid:19) (k +1) 2
+= z2 − 2τ (k +1)z +τ + x+τ
+2 2 2 4
+(cid:18) −1 (cid:19) (cid:16) (cid:112) (cid:17)2 (k +1)x τ (k +1) 2
+= z − τ/2(k +1) + + .
+2 2 4
+Therefore
+√
+1 (cid:90) ∞
+e
+k+
+2
+1(x+z √ 2τ) e−z
+2
+2
+dz
+2π √
+−x/ 2τ
+e (k+1)x+τ(k+1)2 (cid:90) ∞ (cid:16) √ (cid:17)2
+= 2 √ 4 e −1 2 z− τ/2(k+1) dz.
+2π √
+−x/ 2τ
+(cid:112)
+Now, change variables again on the integral, choosing y = z − τ/2(k +1)
+so dy = dz, and all we need to change are the limits of integration:
+e (k+
+2
+1)x+τ(k+
+4
+1)2 (cid:90) ∞ (cid:18) −y2 (cid:19)
+√ √ e 2 dz.
+2π √
+−x/ 2τ− τ/2(k+1)
+The integral can be represented in terms of the cumulative distribution func-
+tion of a normal random variable, usually denoted Φ. That is,
+Φ(d) = √
+1 (cid:90) d e−y
+2
+2
+dy
+2π
+−∞
+9
+
+so
+I 1 = e
+(k+
+2
+1)x+τ(k+
+4
+1)2
+Φ(d 1 )
+where d = √ x + (cid:112)τ (k +1). Note the use of the symmetry of the integral!
+1 2τ 2
+The calculation of I is identical, except that (k +1) is replaced by (k −1)
+2
+throughout.
+The solution of the transformed heat equation initial value problem is
+u(x,τ) = e
+(k+
+2
+1)x+τ(k+
+4
+1)2
+Φ(d 1 )−e
+(k−
+2
+1)x+τ(k−
+4
+1)2
+Φ(d 2 )
+where d = √ x + (cid:112)τ (k +1) and d = √ x + (cid:112)τ (k −1).
+1 2τ 2 2 2τ 2
+Now we must systematically unwind each of the changes of variables,
+starting from u. First, v(x,τ) =
+e−(k−
+2
+1)x−(k+
+4
+1)2τ
+u(x,τ). Notice how many
+of the exponentials neatly combine and cancel! Next put x = log(S/K),
+(cid:0) (cid:1)
+τ = 1 σ2(T −t) and V(S,t) = Kv(x,τ).
+2
+The ultimate result is the Black-Scholes formula for the value of a Eu-
+ropean call option at time T with strike price K, if the current time is t
+and the underlying security price is S, the risk-free interest rate is r and the
+volatility is σ:
+(cid:18) log(S/K)+(r+σ2/2)(T −t) (cid:19)
+V(S,t) = SΦ √
+σ T −t
+(cid:18) log(S/K)+(r−σ2/2)(T −t) (cid:19)
+−Ke−r(T−t)Φ √ .
+σ T −t
+Usuallyonedoesn’tseethesolutionasthisfullclosedformsolution. Most
+versions of the solution write intermediate steps in small pieces, and then
+present the solution as an algorithm putting the pieces together to obtain
+the final answer. Specifically, let
+log(S/K)+(r+σ2/2)(T −t)
+d = √
+1
+σ T −t
+log(S/K)+(r−σ2/2)(T −t)
+d = √
+2
+σ T −t
+and writing V (S,t) to remind ourselves this is the value of a call option,
+C
+V (S,t) = S ·Φ(d )−Ke−r(T−t) ·Φ(d ).
+C 1 2
+10
+
+30
+20
+10
+0
+eulaV
+noitpO
+70 90 110 130
+Share Price
+Figure 1: Value of the call option at maturity.
+Solution of the Black-Scholes Equation Graphically
+Consider for purposes of graphical illustration the value of a call option with
+strike price K = 100. The risk-free interest rate per year, continuously
+compounded is 12%, so r = 0.12, the time to expiration is T = 1 measured
+in years, and the standard deviation per year on the return of the stock, or
+the volatility is σ = 0.10. The value of the call option at maturity plotted
+over a range of stock prices 70 ≤ S ≤ 130 surrounding the strike price is
+illustrated in 1
+We use the Black-Scholes formula above to compute the value of the
+option before expiration. With the same parameters as above the value of
+the call option is plotted over a range of stock prices 70 ≤ S ≤ 130 at time
+remaining to expiration t = 1 (red), t = 0.8, (orange), t = 0.6 (yellow),
+t = 0.4 (green), t = 0.2 (blue) and at expiration t = 0 (black).
+Using this graph, notice two trends in the option value:
+1. For a fixed time, as the stock price increases the option value increases.
+2. As the time to expiration decreases, for a fixed stock value the value of
+the option decreases to the value at expiration.
+We predicted both trends from our intuitive analysis of options, see Options.
+The Black-Scholes option pricing formula makes the intuition precise.
+We can also plot the solution of the Black-Scholes equation as a function
+of security price and the time to expiration as value surface.
+This value surface shows both trends.
+11
+
+40
+30
+20
+10
+0
+eulaV
+noitpO
+70 90 110 130
+Share Price
+Figure 2: Value of the call option at various times.
+Figure 3: Value surface from the Black-Scholes formula.
+12
+
+Sources
+This discussion is drawn from Section 4.2, pages 59–63; Section 4.3, pages
+66–69; Section 5.3, pages 75–76; and Section 5.4, pages 77–81 of The Math-
+ematics of Financial Derivatives: A Student Introduction by P. Wilmott, S.
+Howison, J. Dewynne, Cambridge University Press, Cambridge, 1995. Some
+ideas are also taken from Chapter 11 of Stochastic Calculus and Financial
+Applications by J. Michael Steele, Springer, New York, 2001.
+Algorithms, Scripts, Simulations
+Algorithm
+For given parameter values, the Black-Scholes-Merton solution formula is
+sampled at a specified m × 1 array of times and at a specified 1 × n array
+of security prices using vectorization and broadcasting. The result can be
+plotted as functions of the security price as done in the text. The calculation
+is vectorized for an array of S values and an array of t values, but it is
+not vectorized for arrays in the parameters K, r, T, and σ. This approach
+is taken to illustrate the use of vectorization and broadcasting for efficient
+evaluation of an array of solution values from a complicated formula.
+In particular, the calculation of d and d then uses broadcasting, also
+1 2
+called binary singleton expansion, recycling, single-instruction multiple data,
+threading or replication.
+The calculation relies on using the rules for calcuation and handling of
+infinity and NaN (Not a Number) which come from divisions by 0, taking
+logarithms of 0, and negative numbers and calculating the normal cdf at
+infinity and negative infinity. The plotting routines will not plot a NaN
+which accounts for the gap at S = 0 in the graph line for t = 1.
+Scripts
+Geogebra GeoGebra applet for graphing the Black-Scholes solution
+13
+
+R R script for Black-Scholes solution.
+1 m <- 6;
+2 n <- 61;
+3 S0 <- 70;
+4 S1 <- 130;
+5 K <- 100;
+6 r <- 0.12;
+7 T <- 1.0;
+8 sigma <- 0.10;
+9
+10 time <- seq(T,0, length=m);
+11 S <- seq(S0,S1, length=n);
+12
+13 numerd1 <- outer( ( (r + sigma^2/2)*(T-time)), log(S/K),
+"+");
+14 numerd2 <- outer( ( (r - sigma^2/2)*(T-time)), log(S/K),
+"+");
+15
+16 d1 <- numerd1/(sigma*sqrt(T-time));
+17 d2 <- numerd2/(sigma*sqrt(T-time));
+18 part1 <- t(t(pnorm(d1))*S);
+19 part2 <- K*exp(-r*(T-time))*pnorm(d2);
+20 VC <- part1 - part2;
+21
+22 matplot(S, t(VC), type = "l");
+23
+Octave Octave script for Black-Scholes solution.
+1 m = 6;
+2 n = 61;
+3 S0 = 70;
+4 S1 = 130;
+5 K = 100;
+6 r = 0.12;
+7 T = 1.0;
+8 sigma = 0.10;
+9
+10 time = transpose(linspace(T, 0, m) );
+11 S = linspace(S0,S1,n);
+12
+13 d1 = (log(S/K) + ( (r + sigma^2/2)*(T-time)))./(sigma*
+sqrt(T-time));
+14
+
+14 d2 = (log(S/K) + ( (r - sigma^2/2)*(T-time)))./(sigma*
+sqrt(T-time));
+15 part1 = bsxfun(@times, normcdf(d1), S);
+16 part2 = bsxfun( @times, K*exp(-r*(T-time)), normcdf(d2));
+17 VC = part1 - part2;
+18
+19 plot(S,VC)
+20
+Perl Perl PDL script for Black-Scholes solution.
+1 sub pnorm {
+2 my ( $x, $sigma, $mu ) = @_;
+3 $sigma = 1 unless defined($sigma);
+4 $mu = 0 unless defined($mu);
+5
+6 return 0.5 * ( 1 + erf( ( $x - $mu ) / ( sqrt(2) *
+$sigma ) ) );
+7 }
+8 $m = 6;
+9 $n = 61;
+10 $S0 = 70;
+11 $S1 = 130;
+12 $K = 100;
+13 $r = 0.12;
+14 $T = 1.0;
+15 $sigma = 0.10;
+16
+17 $time = zeroes($m)->xlinvals($T,0.0);
+18 $S = zeroes($n)->xlinvals($S0,$S1);
+19
+20 $logSoverK = log($S/$K);
+21 $n12 = (($r + $sigma**2/2)*($T-$time));
+22 $n22 = (($r - $sigma**2/2)*($T-$time));
+23 $numerd1 = $logSoverK + $n12->transpose;
+24 $numerd2 = $logSoverK + $n22->transpose;
+25 $d1 = $numerd1/( ($sigma*sqrt($T-$time))->transpose);
+26 $d2 = $numerd2/( ($sigma*sqrt($T-$time))->transpose);
+27
+28 $part1 = $S * pnorm($d1);
+29 $part2 = pnorm($d2) * ($K*exp(-$r*($T-$time)))->transpose
+;
+30 $VC = $part1 - $part2;
+31
+15
+
+32 # file output to use with external plotting programming
+33 # such as gnuplot, R, octave, etc.
+34 # Start gnuplot, then from gnuplot prompt
+35 # plot for [n=2:7] ’solution.dat’ using 1:(column(n))
+with lines
+36
+37
+38 open( F, ">solution.dat" ) || die "cannot write: $! ";
+39 wcols $S, $VC, *F;
+40 close(F);
+41
+SciPy Scientific Python script for Black-Scholes solution.
+1 import scipy
+2
+3 m = 6
+4 n = 61
+5 S0 = 70
+6 S1 = 130
+7 K = 100
+8 r = 0.12
+9 T = 1.0
+10 sigma = 0.10
+11
+12 time = scipy.linspace(T, 0.0, m)
+13 S = scipy.linspace(S0,S1, n)
+14
+15 logSoverK = scipy.log(S/K)
+16 n12 = ((r + sigma**2/2)*(T-time))
+17 n22 = ((r - sigma**2/2)*(T-time))
+18 numerd1 = logSoverK[scipy.newaxis,:] + n12[:,scipy.
+newaxis]
+19 numerd2 = logSoverK[scipy.newaxis,:] + n22[:,scipy.
+newaxis]
+20 d1 = numerd1/(sigma*scipy.sqrt(T-time)[:,scipy.newaxis])
+21 d2 = numerd2/(sigma*scipy.sqrt(T-time)[:,scipy.newaxis])
+22
+23 from scipy.stats import norm
+24 part1 = S[scipy.newaxis] * norm.cdf(d1)
+25 part2 = norm.cdf(d2) * K*scipy.exp(-r*(T-time))[:,scipy.
+newaxis]
+26 VC = part1 - part2
+27
+16
+
+28 # optional file output to use with external plotting
+programming
+29 # such as gnuplot, R, octave, etc.
+30 # Start gnuplot, then from gnuplot prompt
+31 # plot for [n=2:7] ’solution.dat’ using 1:(column(n))
+with lines
+32
+33 scipy.savetxt(’solution.dat’,
+34 scipy.column_stack((scipy.transpose(S),scipy.
+transpose(VC))),
+35 fmt=(’%4.3f’))
+Problems to Work for Understanding
+1. Explicitly evaluate the integral I in terms of the c.d.f. Φ and other
+2
+elementary functions as was done for the integral I .
+1
+2. What is the price of a European call option on a non-dividend-paying
+stock when the stock price is $52, the strike price is $50, the risk-
+free interest rate is 12% per annum (compounded continuously), the
+volatility is 30% per annum, and the time to maturity is 3 months?
+3. What is the price of a European call option on a non-dividend paying
+stock when the stock price is $30, the exercise price is $29, the risk-free
+interest rate is 5%, the volatility is 25% per annum, and the time to
+maturity is 4 months?
+4. Show that the Black-Scholes formula for the price of a call option tends
+to max(S −K,0) as t → T.
+5. For a particular scripting language of your choice, modify the scripts
+to create a function within that language that will evaluate the Black-
+Scholes formula for a call option at a time and security value for given
+parameters.
+17
+
+6. For a particular scripting language of your choice, modify the scripts to
+createascriptwithinthatlanguagethatwillevaluatetheBlack-Scholes
+formula for a call option at a specified time for given parameters, and
+return a function of the security prices that can plotted by calling the
+function over an interval of security prices.
+7. Plot the price of a European call option on a non-dividend paying stock
+over the stock prices $20 to $40, given that the exercise price is $29,
+the risk-free interest rate is 5%, the volatility is 25% per annum, and
+the time to maturity is 4 months.
+8. For a particular scripting language of your choice, modify the scripts
+to create a script within that language that will plot the Black-Scholes
+solution for V (S,t) as a surface over the two variables S and t.
+C
+Reading Suggestion:
+References
+[1] J. Michael Steele. Stochastic Calculus and Financial Applications.
+Springer-Verlag, 2001. QA 274.2 S 74.
+[2] Paul Wilmott, S. Howison, and J. Dewynne. The Mathematics of Finan-
+cial Derivatives. Cambridge University Press, 1995.
+18
+
+Outside Readings and Links:
+1. Cornell University, Department of Computer Science, Prof. T. Cole-
+man Rhodes and Prof. R. Jarrow Numerical Solution of Black-Scholes
+Equation, Submitted by Chun Fan, Nov. 12, 2002.
+2. An applet for calculating the option value based on the Black-Scholes
+model. Also contains tips on options, business news and literature on
+options. Submitted by Yogesh Makkar, November 19, 2003.
+I check all the information on each page for correctness and typographical
+errors. Nevertheless, some errors may occur and I would be grateful if you would
+alert me to such errors. I make every reasonable effort to present current and
+accurate information for public use, however I do not guarantee the accuracy or
+timeliness of information on this website. Your use of the information from this
+website is strictly voluntary and at your risk.
+I have checked the links to external sites for usefulness. Links to external
+websites are provided as a convenience. I do not endorse, control, monitor, or
+guarantee the information contained in any external website. I don’t guarantee
+that the links are active at all times. Use the links here with the same caution as
+you would all information on the Internet. This website reflects the thoughts, in-
+terestsandopinionsofitsauthor. Theydonotexplicitlyrepresentofficialpositions
+or policies of my employer.
+Information on this website is subject to change without notice.
+Steve Dunbar’s Home Page, http://www.math.unl.edu/~sdunbar1
+Email to Steve Dunbar, sdunbar1 at unl dot edu
+Last modified: Processed from LATEX source on August 10, 2016
+19

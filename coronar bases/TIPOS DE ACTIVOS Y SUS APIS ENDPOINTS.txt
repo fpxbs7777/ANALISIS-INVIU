@@ -1,0 +1,277 @@
+Acá tenés el catálogo completo de **categorías de activos, endpoints y fuentes** disponibles en el proyecto:
+
+---
+
+# 1. IOL API v2 (`api.invertironline.com/api/v2`)
+
+## Tipos de instrumentos (`titulo.tipo` del portfolio)
+
+| Categoría | Valor `tipo` | Mercado |
+|---|---|---|
+| OPCIONES | `oPCIONES` | bCBA |
+| ACCIONES | (por defecto) | argentina / estados_unidos |
+| CEDEARs | `cedears` | argentina |
+| TÍTULOS PÚBLICOS | `titulosPublicos` | argentina |
+| OBLIGACIONES NEGOCIABLES | `obligacionesNegociables` | argentina |
+| CAUCIONES | `cauciones` | argentina |
+| ADRs | `adrs` | estados_unidos |
+| FCI (Fondos Comunes) | vía `suscripcion fci` / `rescate fci` | argentina |
+| LETRAS (LECAP/BONCAP) | incluidas en `titulosPublicos` | argentina |
+| BONOS | incluidas en `titulosPublicos` | argentina |
+
+## Monedas disponibles
+- `peso_Argentino` (ARS)
+- `dolar_EstadosUnidos` (USD)
+
+## Plazos
+- `t0` (contado inmediato)
+- `t1` (24hs)
+- `sinValor`
+
+## Endpoints IOL
+
+| Endpoint | Método | Descripción |
+|---|---|---|
+| `/portafolio/{pais}` | GET | Portfolio completo (`argentina` / `estados_Unidos`) |
+| `/Cotizaciones/{instrumento}/{pais}/Todos` | GET | **Panel cotizaciones** — todos los tickers de un tipo |
+| `/Cotizaciones/{instrumento}/{pais}/{simbolo}` | GET | Cotización individual |
+| `/Cotizaciones/MEP` | POST | Cotización MEP |
+| `/estadocuenta` | GET | Estado de cuenta, saldos, disponible |
+| `/operaciones` | GET | Historial de operaciones |
+| `/operaciones/{numero}` | GET | Detalle de operación |
+| `/operar/Comprar` | POST | Orden de compra |
+| `/operar/Vender` | POST | Orden de venta |
+| `/operar/ComprarEspecieD` | POST | Compra especie D (dólar) |
+| `/operar/VenderEspecieD` | POST | Venta especie D |
+| `/operar/suscripcion/fci` | POST | Suscripción a FCI |
+| `/operar/rescate/fci` | POST | Rescate de FCI |
+| `/operar/Token` | POST | Token para DDJJ |
+| `/operar/CPD` | GET/POST | CPD (Cheque Pagar Diferido) |
+| `/operar/CPD/PuedeOperar` | GET | Verifica si puede operar CPD |
+| `/operar/CPD/{estado}/{segmento}` | GET | Subastas CPD |
+| `/operar/CPD/Comisiones/{importe}/{plazo}/{tasa}` | GET | Comisiones CPD |
+| `/datos-perfil` | GET | Perfil del usuario |
+| `/asesores/test-inversor` | GET/POST | Test de perfil inversor |
+| `/asesores/operar/VenderEspecieD` | POST | Venta especie D (asesor) |
+| `/asesores/Movimientos` | POST | Movimientos de asesor |
+| `/Notificacion` | GET | Notificaciones |
+| `/OperatoriaSimplificada/MontosEstimados/{monto}` | GET | Montos estimados MEP |
+| `/OperatoriaSimplificada/VentaMepSimple/MontosEstimados/{monto}` | GET | Montos venta MEP simple |
+| `/OperatoriaSimplificada/{idTipoOperatoria}/Parametros` | GET | Parámetros de operatoria |
+| `/OperatoriaSimplificada/Validar/{monto}/{idTipoOperatoria}` | GET | Validar operatoria |
+| `/OperatoriaSimplificada/Comprar` | POST | Comprar operatoria simplificada |
+
+## Instrumentos para panel cotizaciones (Python `panelescotizaciones.txt`)
+
+```python
+def obtener_cotizaciones_adrs():               # /Cotizaciones/adrs/estados_unidos/Todos
+def obtener_cotizaciones_acciones_eeuu():      # /Cotizaciones/acciones/estados_unidos/Todos
+def obtener_cotizaciones_acciones():           # /Cotizaciones/acciones/argentina/Todos
+def obtener_cotizaciones_titulos_publicos():   # /Cotizaciones/titulosPublicos/argentina/Todos
+def obtener_cotizaciones_obligaciones_negociables(): # /Cotizaciones/obligacionesNegociables/argentina/Todos
+def obtener_cotizaciones_cedears():            # /Cotizaciones/cedears/argentina/Todos
+def obtener_cotizaciones_cauciones():          # /Cotizaciones/cauciones/argentina/Todos
+```
+
+---
+
+# 2. ArgentinaDatos API (`api.argentinadatos.com/v1`)
+
+**API pública SIN autenticación.**
+
+## Dólares
+
+| Endpoint | Descripción |
+|---|---|
+| `/cotizaciones/dolares` | Todas las casas de cambio |
+| `/cotizaciones/dolares/{casa}` | Casa específica (histórico completo) |
+| `/cotizaciones/dolares/{casa}/{fecha}` | Casa + fecha específica |
+
+**Casas disponibles:** `oficial`, `blue`, `bolsa` (MEP), `contadoconliqui` (CCL), `cripto`, `mayorista`, `solidario`, `turista`
+
+**Response:** `[{ moneda, casa, fecha, compra, venta }]`
+
+## Inflación
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/indices/inflacion` | Inflación mensual |
+| `/finanzas/indices/inflacionInteranual` | Inflación interanual |
+
+**Response:** `[{ fecha, valor }]`
+
+## Riesgo País
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/indices/riesgo-pais` | Serie histórica completa |
+| `/finanzas/indices/riesgo-pais/ultimo` | Último valor |
+
+**Response:** `{ fecha, valor }`
+
+## UVA
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/indices/uva` | Serie histórica UVA |
+
+**Response:** `[{ fecha, valor }]`
+
+## Tasas
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/tasas/plazoFijo` | TNA plazos fijos por banco |
+| `/finanzas/tasas/plazoFijoUvaPagoPeriodico` | TNA/TEA plazos fijos UVA |
+| `/finanzas/tasas/depositos30Dias` | Tasas depósitos 30 días |
+| `/finanzas/criptopesos` | TNA criptopesos por entidad |
+
+## Letras Capitalizables (LECAP/BONCAP)
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/letras` | **TODAS las LECAP/BONCAP activas** con VPV, TEM, fechas |
+
+**Response:** `[{ ticker, fechaEmision, fechaVencimiento, tem, vpv }]`
+
+**Ejemplo:** `S31G5`, `T17O5` — ticker, emisión, vencimiento, TEM (%), VPV por cada $100 VN.
+
+## Fondos Comunes de Inversión (FCI)
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/fci/mercadoDinero/{fecha}` | FCI Money Market |
+| `/finanzas/fci/rentaFija/{fecha}` | FCI Renta Fija |
+| `/finanzas/fci/rentaVariable/{fecha}` | FCI Renta Variable |
+| `/finanzas/fci/rentaMixta/{fecha}` | FCI Renta Mixta |
+| `/finanzas/fci/otros/{fecha}` | Otros FCI |
+
+**Fechas:** `ultimo`, `penultimo`, `YYYY/MM/DD`
+
+**Response:** `[{ fondo, fecha, vcp, ccp, patrimonio, horizonte }]`
+
+**Horizontes:** `corto`, `medio`, `largo`
+
+## Créditos
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/creditos/hipotecariosUva` | TNA créditos hipotecarios UVA por banco |
+
+## Rendimientos de entidades
+
+| Endpoint | Descripción |
+|---|---|
+| `/finanzas/rendimientos` | Rendimientos de todas las entidades (Nexo, Fiwind, Belo, Lemon, Ripio, etc.) |
+| `/finanzas/rendimientos/{entidad}` | Por entidad específica |
+
+## Otros
+
+| Endpoint | Descripción |
+|---|---|
+| `/feriados/{año}` | Feriados argentinos |
+| `/eventos/presidenciales` | Eventos presidenciales |
+| `/presidentes` | Presidentes argentinos |
+| `/senado/senadores` | Senadores |
+| `/senado/actas` | Actas del Senado |
+| `/diputados/diputados` | Diputados |
+| `/diputados/actas` | Actas de Diputados |
+
+---
+
+# 3. Yahoo Finance (`yahoo-finance2` npm)
+
+**Sin API key para datos básicos.** Usado en `src/lib/` via `finance.functions.ts`, `yahoo-coronar.functions.ts`, `yahoo-http.ts`.
+
+## Métodos principales
+
+| Método | Descripción |
+|---|---|
+| `yf.chart(symbol, { period1, period2, interval })` | Datos históricos (OHLCV) |
+| `yf.quote(symbols)` | Cotización actual de 1 o varios tickers |
+| `yf.quoteSummary(symbol, { modules })` | **Resumen completo** — fundamentals, price, summaryDetail, financialData, defaultKeyStatistics, incomeStatementHistory, balanceSheetHistory, cashflowStatementHistory, earningsHistory, earningsTrend, insiderTransactions, institutionOwnership, fundOwnership, sectorTrend, etc. (17 módulos) |
+| `yf.search(query)` | Búsqueda de tickers |
+| `yf.recommendationsBySymbol(symbol)` | Recomendaciones de analistas |
+| `yf.historical(symbol, { period1, period2 })` | Datos históricos (alternativa) |
+
+## Intervalos disponibles
+`1m`, `2m`, `5m`, `15m`, `30m`, `1h`, `1d`, `5d`, `1wk`, `1mo`, `3mo`
+
+## Períodos disponibles
+`1d`, `5d`, `1mo`, `3mo`, `6mo`, `1y`, `2y`, `5y`, `10y`, `ytd`, `max`
+
+## Módulos quoteSummary
+`price`, `summaryDetail`, `defaultKeyStatistics`, `financialData`, `assetProfile`, `incomeStatementHistory`, `balanceSheetHistory`, `cashflowStatementHistory`, `earningsHistory`, `earningsTrend`, `insiderTransactions`, `institutionOwnership`, `fundOwnership`, `majorDirectHolders`, `majorHoldersBreakdown`, `sectorTrend`, `upgradeDowngradeHistory`, `recommendationTrend`, `secFilings`, `indexTrend`, `netSharePurchaseActivity`, `earnings`
+
+## Yahoo Finance Screeners (usados en daily-opportunities)
+- `yf.trendingSymbols(region)` — Trendings
+- `yf.historical(symbol)` — Historico para análisis
+- Los screeners de mercado se implementan via endpoints REST directos:
+  - `https://query1.finance.yahoo.com/v1/finance/screener` — screener personalizado
+  - `https://query1.finance.yahoo.com/v7/finance/options/{symbol}` — opciones
+
+---
+
+# 4. BCRA API (`api.bcra.gob.ar`)
+
+| Endpoint | Descripción |
+|---|---|
+| `/estadisticas/v4.0/Monetarias/7` | **Badlar** (tasa) — usado en scoring-engine.ts |
+
+Requiere token `BCRA_API_TOKEN`.
+
+---
+
+# 5. Binance API
+
+## Endpoints públicos
+- Klines (velas): `https://api.binance.com/api/v3/klines`
+- Book ticker: `https://api.binance.com/api/v3/ticker/bookTicker`
+- Exchange info: `https://api.binance.com/api/v3/exchangeInfo`
+- Depth (order book): `https://api.binance.com/api/v3/depth`
+
+## Endpoints firmados (requieren API key + secret)
+- Account info: `https://api.binance.com/api/v3/account`
+- Order: `https://api.binance.com/api/v3/order` (POST)
+- Open orders: `https://api.binance.com/api/v3/openOrders`
+- All orders: `https://api.binance.com/api/v3/allOrders`
+- My trades: `https://api.binance.com/api/v3/myTrades`
+
+---
+
+# 6. Flask News Proxy (Python, `coronar bases/server.py`)
+
+| Endpoint | Descripción |
+|---|---|
+| `/api/news?ticker=AAPL&count=10` | Noticias vía `yfinance` |
+| Puerto 5000 en desarrollo | |
+
+---
+
+# 7. Resumen: Todas las Categorías de Activos del Sistema
+
+| Categoría Macro | Subtipo | Fuente(s) |
+|---|---|---|
+| **Renta Variable** | Acción (BCBA) | IOL, Yahoo |
+| **Renta Variable** | ADR (NYSE/NASDAQ) | IOL, Yahoo |
+| **Renta Variable** | CEDEAR | IOL, Yahoo |
+| **Renta Variable** | FCI-RV (Renta Variable) | ArgentinaDatos FCI |
+| **Renta Variable** | Opciones | IOL (`oPCIONES`) |
+| **Renta Fija** | Bono Hard Dollar | IOL, Yahoo, bonos-data.ts |
+| **Renta Fija** | Bono Dollar-Linked | IOL, bonos-data.ts |
+| **Renta Fija** | Bono CER | IOL, bonos-data.ts |
+| **Renta Fija** | ON (Obligación Negociable) Hard Dollar | IOL, bonos-data.ts |
+| **Renta Fija** | ON CER | IOL, bonos-data.ts |
+| **Renta Fija** | ON Badlar | IOL, bonos-data.ts |
+| **Renta Fija** | ON Tasa Fija | IOL, bonos-data.ts |
+| **Renta Fija** | Letra (LECAP/BONCAP) | ArgentinaDatos letras, IOL (como titulosPublicos) |
+| **Renta Fija** | FCI-RF (Renta Fija) | ArgentinaDatos FCI |
+| **Renta Fija** | FCI-Mixto (Renta Mixta) | ArgentinaDatos FCI |
+| **Renta Fija** | FCI Money Market | ArgentinaDatos FCI |
+| **Renta Fija** | Títulos Públicos (genérico) | IOL (como titulosPublicos) |
+| **Renta Fija** | Cauciones | IOL |
+| **Liquidez** | Liquidez | N/A (peso residual) |
+| **Cripto** | Crypto Spot | Binance |
+| **Derivados** | Opciones | IOL |
+| **Derivados** | CPD (Cheque Pagar Diferido) | IOL |
+| **Otros** | FCI Otros | ArgentinaDatos FCI |

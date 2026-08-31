@@ -1,0 +1,617 @@
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 1
+GEOMETRY OF AN
+INVESTMENT PORTFOLIO
+Mauricio Labadie, PhD
+Seminario de Finanzas Cuantitativas con Python
+Facultad de Ciencias - UNAM
+Mexico City, September 2020 – February 2021
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 2
+Disclaimer
+Everything I say during these lectures, in written and/or orally:
+www.svsamiti.org
+ Is my own and personal opinion
+ Does not represent my employer’s point of view
+ Does not commit me or my employer to anything
+ It is meant to be solely for educational purposes
+ Does not constitute any kind of investment advice
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 3
+A bit about myself
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 4
+Table of Contents
+1. Geometry of confidence intervals
+ Value at Risk
+ Time series and trading strategies
+ Brownian motion
+2. Geometry of the Capital Asset Pricing model
+ Alphas, betas and Efficient Market Theory
+ Classification of investment strategies by alpha and beta
+ Beta-neutral and delta-neutral hedging
+3. Geometry of the variance-covariance matrix
+ Eigenvalues and risk-level curves
+ Minimum variance portfolio and Principal Component Analysis
+ Optimisation with constraints: Markowitz Portfolio and Efficient Frontier
+4. Conclusions
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 5
+On intuition and concepts
+• Our goal is to present the theory of portfolio investments
+ Based on geometric intuitions and concepts
+• The first thing that one should aim for understand something is intuition
+ Without intuition we cannot have a clear view of what to prove or test
+• However, intuition alone is not sufficient for fully understanding
+ Concepts, theory and models are necessary
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 6
+1. Geometry of
+confidence intervals
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 7
+Two-sided confidence intervals
+• We start with a random variable 𝑋 with mean 𝜇
+• The confidence interval with level 𝑞 ∈ 0,1 around 𝜇 is
+ 𝐶𝐼(𝑞) = [𝜇 − 𝐾(𝑞), 𝜇 + 𝐾(𝑞)]
+ Where 𝐾(𝑞) > 0 is such that 𝑃 𝑥 ∈ 𝐶𝐼 𝑞 = 𝑞
+• For normal random variables 𝑁 𝜇,𝜎(cid:2870) we have
+ 𝐶𝐼 95% = [𝜇 − 1.96 ∗ 𝜎, 𝜇 + 1.96 ∗ 𝜎]
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 8
+Value at Risk
+• The Value at Risk of level 𝑞 ∈ 0,1 is a number 𝑉𝑎𝑅(𝑞) such that
+ 𝑃 𝑥 ≥ 𝑉𝑎𝑅(𝑞) = 𝑞
+• Equivalently, 𝑃 𝑥 ≤ 𝑉𝑎𝑅(𝑞) = 1 − 𝑞
+• For normal random variables 𝑁 𝜇,𝜎(cid:2870) we have
+ 𝑉𝑎𝑅 95% = 𝜇 − 1.64 ∗ 𝜎
+• Conditional Value at Risk
+ 𝐶𝑉𝑎𝑅(95%) is the average of all losses at the left tail of the 𝑉𝑎𝑅(95%)
+5% 95%
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 9
+2 important theorems
+• Law of large numbers
+ Let 𝑋 ,…,𝑋 ,… be i.i.d. random variables with mean 𝜇 and variance 𝜎(cid:2870)
+(cid:2869) (cid:3041)
+(cid:2869)
+ Define the sample mean as 𝑆 = 𝑋 + ⋯+ 𝑋
+(cid:3041) (cid:2869) (cid:3041)
+(cid:3041)
+ Then the sample mean converges to the real mean: 𝑆 → 𝜇 a.s.
+(cid:3041)
+• Central Limit Theorem
+ The sample mean 𝑆
+(cid:3041)
+ Is itself a random variable
+(cid:3097)(cid:3118)
+ It is normally distributed 𝑁 𝜇,
+(cid:3041)
+• We can now compute the confidence interval of 𝜇 as a function of 𝑆
+(cid:3041)
+𝜎 𝜎
+𝑆 − 1.96 ∗ 𝑆 + 1.96 ∗
+𝑆
+(cid:3041)
+𝑛 (cid:3041)
+(cid:3041)
+𝑛
+2.5% 2.5%
+95%
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 10
+Time series: Price
+investing.com
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 11
+Time series: Volume
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 12
+Time series: Pairs trading
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 13
+Comparing trading strategies
+• We want to compare the performance of 2 trading strategies 𝑋 and 𝑌
+ At any time 𝑡 > 0 we observe their performance, 𝑋 and 𝑌
+(cid:3047) (cid:3047)
+• 𝑡 is called the timestamp of the time series
+ It is the moment when the observations were taken
+ General format is 2019-04-26 11:55:47.235
+• Generally we use the notation 𝑡 ∈ 𝑇
+ 𝑇 is an ordered subset on the real line
+ Discrete (finite) or interval (infinite)
+• Notice that the index 𝑡 is the same for both strategies 𝑋 and 𝑌
+(cid:3047) (cid:3047)
+ If not, we have asynchronous time series
+ There are full theories on how to deal with asynchronicity
+ This problem is very common in High Frequency Trading
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 14
+Difference of performance
+• We have a finite number of data points 𝑡 > 0
+ 𝑋 and 𝑌 where 𝑡 = 1,2,…,𝑁
+(cid:3047) (cid:3047)
+(cid:3025) (cid:3026)
+• Compute their sample means
+ 𝜇̅ and 𝜇̅
+(cid:3025) (cid:3026)
+• Suppose that we found that 𝜇̅ < 𝜇̅
+(cid:3025) (cid:3026)
+ Is it statistically significant?
+• If we have disjoint confidence intervals
+ Problem solved
+• If the confidence intervals intersect
+ Reduce the confidence level
+ Add more data points
+ Use a Student T-test for 2 means
+socialresearchmethods.net
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 15
+Brownian motion
+• We can describe the Brownian motion based on
+ Normal distribution
+ Confidence intervals
+• Start with a particle at the origin
+ 𝐵 0 = 0 a.s.
+1.96 ∗ 𝑡
+• At time 𝑡 the particle moves randomly
+ We do not know the exact position
+ But we do know its distribution time
+ 𝐵 𝑡 ~ 𝑁(0,𝑡)
+−1.96 ∗ 𝑡
+• At time 𝑡 the confidence interval 95% is
+ − 1.96 ∗ 𝑡, + 1.96 ∗ 𝑡
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 16
+Properties of the Brownian motion
+• Independence (Markov property)
+ 𝐵 𝑡 + ℎ − 𝐵(𝑡) ~ 𝑁(0,ℎ)
+• Paths 𝑡 → 𝐵 𝑡
+ Are continuous
+ But not differentiable
+• Scaling
+ If 𝐵 𝑡 ~ 𝑁(0,𝑡) then
+ 𝑆 𝑡 = 𝜇 + 𝜎𝐵 𝑡 ~ 𝑁(𝜇,𝜎(cid:2870)𝑡)
+ Confidence interval for 𝑆 𝑡 is
+ 𝜇 − 1.96 ∗ 𝜎 𝑡, 𝜇 + 1.96 ∗ 𝜎 𝑡
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 17
+General Stochastic Processes
+• Assume a standard Brownian motion
+ 𝐵 𝑡 ~ 𝑁(0,𝑡)
+• We add drift and volatility
+𝜇𝑡 + 1.96 ∗ 𝜎 𝑡
+ (1) 𝑆 𝑡 = 𝜇𝑡 + 𝜎𝐵 𝑡
+ This is the classical model for financial returns
+• Itô Process
+ Generalisation of the (1)
+ It is customary to use the differential notation
+𝜇𝑡 − 1.96 ∗ 𝜎 𝑡
+ (2) 𝑑𝑆 𝑡 = 𝜇 𝑡,𝑆 𝑑𝑡 + 𝜎 𝑡,𝑆 𝑑𝐵(𝑡)
+• The discrete version of the Itô process (2) is
+ (3) 𝑆 𝑡 + ℎ − 𝑆(𝑡) = 𝜇 𝑡,𝑆 ℎ + 𝜎 𝑡,𝑆 𝐵(ℎ)
+ Monte Carlo simulations assume (3) with 𝐵 ℎ ~ ℎ 𝑁(0,1)
+time
+• Examples
+ Geometric Brownian motion: 𝑑𝑆 𝑡 = 𝜇𝑆 𝑡 𝑑𝑡 + 𝜎𝑆(𝑡)𝑑𝐵 𝑡
+ Ornstein-Uhlenbeck: 𝑑𝑆 𝑡 = 𝜃(𝜇 − 𝑆 𝑡 )𝑑𝑡 + 𝜎𝑑𝐵 𝑡
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 18
+2. Geometry of the
+Capital Asset Pricing Model
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 19
+Alphas and betas
+• The Capital Asset Pricing Model is a linear regression of Asset 𝑎 with respect to
+the market 𝑀
+• A classical linear regression of the returns is
+ 𝑟 = 𝛼 + 𝛽𝑟 + 𝜀
+(cid:3028) (cid:3014)
+ 𝐸 𝑟 = 𝐸 𝜀 = 0
+(cid:3014)
+• The error 𝜀 is called the idiosyncratic risk
+ It can be eliminated via diversification
+ 𝜀 is orthogonal to 𝑟 i.e. 𝐸 𝑟 𝜀 = 0
+(cid:3014) (cid:3014)
+• 𝛽 is called the systematic risk
+ Exposure of 𝑟 to the market
+(cid:3028)
+ Cannot be diversified away
+• 𝛼 is called the absolute return
+ 𝛼 is orthogonal to 𝑟 and 𝜀
+(cid:3014)
+ It is the fraction of the total return 𝑟 that cannot be explained by the market
+(cid:3028)
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 20
+Efficient Market Theory
+• We saw that CAPM means a linear model
+ 𝑟 = 𝛼 + 𝛽𝑟 + 𝜀
+(cid:3028) (cid:3014)
+• Efficient Market Theory
+ No one can consistently beat the market
+• Assuming 𝐸 𝑟 = 0 and EMT
+(cid:3014)
+ We necessarily have 𝛼 = 0
+ Otherwise we can construct a portfolio that always beats the market
+ 𝛼 > 0
+ 𝛽 = 0
+ 𝜀 ~ 0
+theceolibrary.com
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 21
+Dimension reduction
+• We start with a 3D problem
+ 𝑟 = 𝛼 + 𝛽𝑟 + 𝜀 𝜀
+(cid:3028) (cid:3014)
+• EMT implies reduction to 2D
+ 𝑟 = 𝛽𝑟 + 𝜀
+(cid:3028) (cid:3014)
+• Taking expectations get us to a 1D problem
+𝛽
+ 𝐸[𝑟 ] = 𝛽𝐸[𝑟 ]
+(cid:3028) (cid:3014)
+• We can compute beta via covariance 𝛼
+(cid:3004)(cid:3042)(cid:3049)((cid:3045) ,(cid:3045) ) (cid:3097)
+ 𝛽 = (cid:3276) (cid:3262) = 𝜌(𝑟 ,𝑟 ) (cid:3250)
+(cid:3028) (cid:3014)
+(cid:3023)(cid:3028)(cid:3045)((cid:3045) ) (cid:3097)
+(cid:3262) (cid:3262)
+• Therefore, beta is a volatility-adjusted correlation
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 22
+Variance and covariance
+• As usual, we start with
+ (*) 𝑟 = 𝛽𝑟 + 𝜀
+(cid:3028) (cid:3014)
+• Squaring (*) and taking expectations we obtain
+ 𝑉𝑎𝑟 𝑟 = 𝛽(cid:2870)𝑉𝑎𝑟 𝑟 + 𝑉𝑎𝑟(𝜀)
+(cid:3028) (cid:3014)
+• Therefore, we can approximate 𝑉𝑎𝑟 𝑟 ~ 𝛽(cid:2870)𝑉𝑎𝑟 𝑟
+(cid:3028) (cid:3014)
+ But this underestimates 𝑉𝑎𝑟 𝑟
+(cid:3028)
+ Esp. for big errors
+• Similarly, for the covariance of 2 assets
+ 𝐶𝑜𝑣 𝑟 ,𝑟 = 𝛽 𝛽 𝑉𝑎𝑟 𝑟 + 𝐶𝑜𝑣 𝜀 ,𝜀
+(cid:3028) (cid:3029) (cid:3028) (cid:3029) (cid:3014) (cid:3028) (cid:3029)
+• Therefore, we can approximate 𝐶𝑜𝑣 𝑟 ,𝑟 ~ 𝛽 𝛽 𝑉𝑎𝑟 𝑟
+(cid:3028) (cid:3029) (cid:3028) (cid:3029) (cid:3014)
+ But this assumes 𝐶𝑜𝑣 𝜀 ,𝜀 = 0
+(cid:3028) (cid:3029)
+ Which is a BIG assumption
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 23
+Classification of investment strategies
+• Index tracker:
+ Replicate the performance of a benchmark
+ It can be an index (S&P 500, BMV, Stoxx600), a commodity, etc
+ 𝛽 = 1, 𝛼 = 0
+• Traditional long-only asset manager:
+ Outperform the market with an extra, uncorrelated return
+ 𝛽 = 1, 𝛼 > 0
+• Smart beta:
+ Outperform the market by dynamically adjusting your portfolio weights
+ 𝛽 > 1 when the market is up
+ 𝛽 < 1 when the market is down
+ 𝛼 = 0
+• Hedge fund:
+ Deliver absolute returns that are not correlated with the market
+ 𝛽 = 0, 𝛼 > 0
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 24
+Geometric classification of funds
+alpha
+Hedge fund
+Asset manager
+Index tracker
+beta
+1
+Smart beta
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 25
+Delta neutral vs beta neutral
+• We start with a given security (can be a portfolio)
+ Let 𝑆 be its value in USD
+(cid:2868)
+• Hedging with one security
+ Delta Neutral
+ Find 𝑆 such that 𝑆 + 𝑆 = 0
+(cid:2869) (cid:2868) (cid:2869)
+ Beta Neutral
+ Find 𝑆 such that 𝛽 𝑆 + 𝛽 𝑆 = 0
+(cid:2869) (cid:2868) (cid:2868) (cid:2869) (cid:2869)
+• Hedging with 𝑁 securities
+ Delta Neutral
+ Find 𝑆 ,…,𝑆 such that 𝑆 + ∑ 𝑆 = 0
+(cid:2869) (cid:3015) (cid:2868) (cid:3041)
+ Beta Neutral
+ Find 𝑆 ,…,𝑆 such that 𝛽 𝑆 + ∑ 𝛽 𝑆 = 0
+(cid:2869) (cid:3015) (cid:2868) (cid:2868) (cid:3041) (cid:3041)
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 26
+Beta and delta neutral hyperplanes
+• Delta-neutral hyperplane in 𝑅(cid:3015)
+ 𝐿 = {𝑆 + ∑ 𝑆 = 0}
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:2868) (cid:3041)
+ All points over 𝐿 give a delta-neutral solution
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028)
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028)
+• Beta-neutral hyperplane in 𝑅(cid:3015)
+ 𝐿 = {𝛽 𝑆 + ∑ 𝛽 𝑆 = 0}
+(cid:3029)(cid:3032)(cid:3047)(cid:3028) (cid:2868) (cid:2868) (cid:3041) (cid:3041)
+ All points over 𝐿 give a beta-neutral solution
+(cid:3029)(cid:3032)(cid:3047)(cid:3028)
+(cid:3036)(cid:3031)(cid:3032)(cid:3028)(cid:3039)
+ Ideal solution:
+ 𝑃 = 𝐿 ∩ 𝐿
+(cid:3036)(cid:3031)(cid:3032)(cid:3028)(cid:3039) (cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:3029)(cid:3032)(cid:3047)(cid:3028)
+ 𝑃 is a hyperplane of dimension 𝑁 − 2
+(cid:3036)(cid:3031)(cid:3032)(cid:3028)(cid:3039)
+ All points over 𝑃 are beta and delta neutral
+(cid:3036)(cid:3031)(cid:3032)(cid:3028)(cid:3039)
+(cid:3029)(cid:3032)(cid:3047)(cid:3028)
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 27
+Beta and delta neutral lines
+• Suppose 𝛽 > 𝛽 > 𝛽
+(cid:2868) (cid:2869) (cid:2870)
+(cid:2870)
+• 𝐿 = {𝑆 + 𝑆 + 𝑆 = 0}
+(cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:2868) (cid:2869) (cid:2870)
+• 𝐿 = {𝛽 𝑆 + 𝛽 𝑆 + 𝛽 𝑆 = 0}
+(cid:3029)(cid:3032)(cid:3047)(cid:3028) (cid:2868) (cid:2868) (cid:2869) (cid:2869) (cid:2870) (cid:2870) (cid:3036)(cid:3031)(cid:3032)(cid:3028)(cid:3039)
+(cid:2869)
+• 𝑃 = 𝐿 ∩ 𝐿
+(cid:3036)(cid:3031)(cid:3032)(cid:3028)(cid:3039) (cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028) (cid:3029)(cid:3032)(cid:3047)(cid:3028)
+ 𝑆 < 0
+(cid:2869)
+ 𝑆 > 0 (cid:2868)
+(cid:2870)
+(cid:3029)(cid:3032)(cid:3047)(cid:3028)
+(cid:2868)
+(cid:2868)
+(cid:2869) (cid:3031)(cid:3032)(cid:3039)(cid:3047)(cid:3028)
+(cid:2869)
+(cid:2870)
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 28
+3. Geometry of the
+variance-covariance matrix
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 29
+Review of Analytical Geometry
+• General form of an ellipse
+ (1) 𝐴𝑥(cid:2870) + 2𝐵𝑥𝑦 + 𝐶𝑦(cid:2870) + 𝐷𝑥 + 𝐸𝑦 + 𝐹 = 0
+• Change of variables
+ With a rotation and a translation
+ We can eliminate the linear and cross terms
+ And reduce the equation (1) to
+ (2) 𝐴𝑥(cid:2870) + 𝐵𝑦(cid:2870) + 𝐶 = 0
+• Refactoring (2) we obtain
+(cid:2870) (cid:2870)
+(cid:3051) (cid:3052)
+ (3) + = 1
+(cid:3028) (cid:3029)
+• In matrix notation, (3) becomes
+𝜆 0 𝑥
+(cid:2869) (cid:2869) (cid:2869)
+• (4) 𝑥,𝑦 = 1 where 𝜆 = and 𝜆 =
+0 𝜆 𝑦 (cid:2869) (cid:3028)(cid:3118) (cid:2870) (cid:3029)(cid:3118)
+(cid:2870)
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 30
+Eigenvalues and eigenvectors
+• In summary, we need a change of coordinates
+ Such that under the new coordinates the matrix is diagonal
+𝐴 𝐵 𝜆 0
+(cid:2869)
+ →
+𝐵 𝐶 0 𝜆
+(cid:2870)
+• What matrices accept diagonalisation?
+ Symmetric: 𝑎 = 𝑎
+(cid:3036)(cid:3037) (cid:3037)(cid:3036)
+ Positive semi-definite: 𝑥(cid:3021)𝑄𝑥 ≥ 0 for any 𝑥 ∈ 𝑅(cid:3015)
+• A bit of notation in 𝑁 dimensions
+𝜆 ⋯ 0
+(cid:2869)
+ 𝑄 → ⋮ ⋱ ⋮ is the change of variables
+0 ⋯ 𝜆
+(cid:3015)
+ 𝜆 is called an eigenvalue
+(cid:3041)
+ The vector associated to 𝜆 is called eigenvector
+(cid:3041)
+ 𝑄𝑣 = 𝜆 𝑣
+(cid:3041) (cid:3041) (cid:3041)
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 31
+Variance-covariance matrix
+• Let 𝑋 ,…,𝑋 be random variables with means 𝜇 ,…,𝜇 resp.
+(cid:2869) (cid:3015) (cid:2869) (cid:3015)
+ The variance-covariance matrix 𝑄 is such that
+ 𝑄 = 𝐶𝑜𝑣 𝑋 ,𝑋 = 𝐸 𝑋 − 𝜇 𝑋 − 𝜇
+(cid:3036)(cid:3037) (cid:3036) (cid:3037) (cid:3036) (cid:3036) (cid:3037) (cid:3037)
+• By definition, 𝑄 is symmetric
+ 𝑄 = 𝑄
+(cid:3036)(cid:3037) (cid:3037)(cid:3036)
+• 𝑄 is always positive semi-definite
+𝑋 𝜇
+(cid:2869) (cid:2869)
+ Define 𝑋 = ⋮ and 𝜇 = ⋮
+𝑋 𝜇
+(cid:3015) (cid:3015)
+ Then 𝑄(𝑋) = 𝐸 𝑋 − 𝜇 𝑋 − 𝜇 (cid:3021)
+ For any 𝑤 ∈ 𝑅(cid:3015) we have
+(cid:2870)
+ 𝑤(cid:3021)𝑄 𝑋 𝑤 = 𝐸 𝑤(cid:3021) 𝑋 − 𝜇 𝑋 − 𝜇 (cid:3021)𝑤 = 𝐸 𝑋 − 𝜇 (cid:3021)𝑤 ≥ 0
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 32
+Orthogonality of eigenvectors
+• Let be a symmetric matrix
+• Let and be two eigenvectors with
+(cid:3036) (cid:3037) (cid:3036) (cid:3037)
+• If and then:
+(cid:3036) (cid:3037)
+(cid:3021) (cid:3021) (cid:3021)
+(cid:3036) (cid:3036) (cid:3037) (cid:3036) (cid:3036) (cid:3037) (cid:3036) (cid:3036) (cid:3037)
+(cid:3021) (cid:3021) (cid:3021) (cid:3021)
+(cid:3036) (cid:3037) (cid:3036) (cid:3037) (cid:3036) (cid:3037)
+(cid:3021) (cid:3021) (cid:3021)
+(cid:3036) (cid:3037) (cid:3036) (cid:3037) (cid:3037) (cid:3037) (cid:3036) (cid:3037)
+• Since then necessarily (cid:3021)
+(cid:3036) (cid:3037) (cid:3036) (cid:3037)
+socratic.org
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 33
+How to use the covariance?
+• The variance-covariance matrix 𝑄 is symmetric and positive semi-definite
+ There is a change of variables such that
+𝜆 ⋯ 0
+(cid:2869)
+ 𝑄 → ⋮ ⋱ ⋮ where 0 ≤ 𝜆 ≤ 𝜆 ≤ ⋯ ≤ 𝜆
+(cid:2869) (cid:2870) (cid:3015)
+0 ⋯ 𝜆
+(cid:3015)
+• The smallest eigenvalue 𝜆 of 𝑄
+(cid:2869)
+ Has an eigenvector 𝑣 that minimises the variance
+(cid:2869)
+ This 𝑣 is called the minimum variance portfolio
+(cid:2869)
+• The largest eigenvalue 𝜆 of 𝑄
+(cid:3015)
+ Has an eigenvector 𝑣 that maximises the variance
+(cid:2869)
+ This 𝑣 is called the maximum variance portfolio or the PCA portfolio
+(cid:3015)
+• The eigenvalues provide lower and upper bounds for the volatility of a portfolio:
+ For any portfolio 𝑤 = 𝑤 ,⋯,𝑤 in ℝ(cid:3015)such that 𝑤 = 1 we have
+(cid:2869) (cid:3015)
+𝜆 ≤ 𝑤(cid:3021)𝑄𝑤 ≤ 𝜆
+(cid:2869) (cid:3015)
+ Since 𝑤(cid:3021)𝑄𝑤 is the variance of the portfolio then its volatility 𝜎 satisfies
+(cid:3050)
+𝜆 ≤ 𝜎 ≤ 𝜆
+(cid:2869) (cid:3050) (cid:3015)
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 34
+PCA: Principal Component Analysis
+• Goals of the PCA
+ Dimension reduction: in general for visualisation
+ The reduced dimensions describe MOST of the variation in the data
+ In general, 2 dimensions are used for plotting the data
+ Lots of applications: Finance, Marketing, Business Intelligence, etc
+• We will use the spectral properties of the variance-covariance matrix:
+𝜆 ⋯ 0
+(cid:2869) https://en.wikipedia.org/wiki/Principal_component_analysis
+ 𝑄 → ⋮ ⋱ ⋮
+0 ⋯ 𝜆
+(cid:3015)
+https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 35
+PCA recipe
+• Pick a threshold:
+ Say that we want to keep at least 80% of the total variance
+• Pick the eigenvector 𝑣 for the largest largest eigenvalue 𝜆
+(cid:3015) (cid:3015)
+• Compute the “variance” explained by 𝑣 :
+(cid:3015)
+𝜆
+(cid:3015)
+𝑉𝐴𝑅 𝑣 =
+(cid:3015)
+∑ 𝜆
+(cid:3036)
+• If 𝑉𝐴𝑅 𝑣 < 0.8 then add the second eigenvector 𝑣 for the second largest
+(cid:3015) (cid:3015)(cid:2879)(cid:2869)
+eigenvalue 𝜆
+(cid:3015)(cid:2879)(cid:2869)
+• Compute the “variance” explained by 𝑣 ,𝑣 :
+(cid:3015)(cid:2879)(cid:2869) (cid:3015)
+𝜆 + 𝜆
+(cid:3015)(cid:2879)(cid:2869) (cid:3015)
+𝑉𝐴𝑅 𝑣 ,𝑣 =
+(cid:3015)(cid:2879)(cid:2869) (cid:3015)
+∑ 𝜆
+(cid:3036)
+• If 𝑉𝐴𝑅 𝑣 ,𝑣 < 0.8 then add the next eigenvector for the next largest eigenvalue
+(cid:3015)(cid:2879)(cid:2869) (cid:3015)
+• Stop at the first 𝐾 < 𝑁 eigenvectors such that 𝑉𝐴𝑅 𝑣 ,⋯,𝑣 ≥ 0.8
+(cid:3015)(cid:2879)(cid:3012)(cid:2878)(cid:2869) (cid:3015)
+https://www.lgeo.co/blog/2021/11/1/pca-more-like-pc-yay-principal-component-analysis-and-equity-research
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 36
+Level curves and risk reduction
+• We start with the variance of a portfolio
+ 𝑧 = 𝑓 𝑤 = 𝑤(cid:3021)𝑄𝑤, 𝑤 ∈ 𝑅(cid:3015)
+ It corresponds to an 𝑁 dimensional paraboloid
+• All points on the level curve have the same height
+ Same level of risk in all portfolios on the curve
+ Risk-level curves
+ I call them iso-risk curves
+• Risk reduction
+ Move from a higher level curve to a lower one
+ The best direction is the one that reduces the risk the fastest
+ This means descending following the path of −𝛻𝑓(𝑥)
+ This is known as gradient descent
+• Why this direction?
+ Define 𝑡 → 𝐹 𝑡 ≔ 𝑓(𝑥 𝑡 ), 𝑥 0 = 𝑝
+ Best direction 𝑥 𝑡 is where 𝐹(cid:4593) 0 is the most negative
+ But 𝐹(cid:4593) 0 = 𝛻𝑓 𝑝 (cid:3021)𝑥(cid:4593) 0 = 𝛻𝑓 𝑝 𝑥(cid:4593) 0 cos𝜃
+ Hence 𝑥(cid:4593) 0 = −𝛻𝑓 𝑝
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 37
+Optimisation with constraints
+• We start with the variance of a portfolio, again
+ 𝑓 𝑤 = 𝑤(cid:3021)𝑄𝑤, 𝑤 ∈ 𝑅(cid:3015)
+ The objective is to minimise the variance 𝑓 𝑤
+• Without constraints
+ 𝑤(cid:3048) is the eigenvector of smallest eigenvalue
+ Minimum variance portfolio
+• With constraints of the form 𝑐(𝑥) ≥ 0
+ Positive weights: 𝑤 ≥ 0
+(cid:3041)
+ Target return: ∑ 𝑤 𝑟 = 𝑟
+(cid:3041) (cid:3041) (cid:3043)
+ This problem is known as the Markowitz Portfolio
+• The minimum 𝑤(cid:3030) satisfies 𝛻𝑓 𝑤(cid:3030) + 𝜆𝛻𝑐 𝑤(cid:3030) = 0
+ Define 𝑡 → 𝐹 𝑡 ≔ 𝑓(𝑥 𝑡 ), 𝑥 0 = 𝑝
+ If 𝑝 is a minimum then 𝐹(cid:4593) 0 = 𝛻𝑓 𝑝 (cid:3021)𝑥(cid:4593) 0 = 0
+ If 𝑥 𝑡 is on the surface 𝑐 𝑥 = 0 then 𝑐 𝑥(𝑡) ≡ 0
+ Therefore 𝛻𝑐 𝑝 (cid:3021)𝑥(cid:4593) 0 = 0
+ In consequence, 𝛻𝑓 𝑤(cid:3030) and 𝛻𝑐 𝑤(cid:3030) are collinear
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 38
+Efficient frontier
+The Markowitz Portfolio can be understood in the plane risk-return
+• Admissible portfolios are those that satisfy the constraints
+Positive weights
+Target portfolio return
+Target portfolio risk
+• There are two interpretations of an optimal portfolio
+ Given a target level of return 𝑟 , minimise the risk
+(cid:3043)
+ Given a target level of risk 𝜎 , maximise the return
+(cid:3043)
+• Efficient frontier
+ Separates admissible and non-admissible portfolios
+ Portfolios on the Efficient Frontier are optimal
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 39
+4. Conclusions
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 40
+In a nutshell
+• Geometry of confidence intervals
+ It is all about expanding and contracting with volatility (and time)
+• Geometry of CAPM
+ It is all about linear regressions and intersections of hyperplanes
+• Geometry of the variance-covariance matrix
+ It is all about eigenvalues, eigenvectors and level curves
+• Slides available online at https://fractalvelvet.wordpress.com/
+
+02/05/2019 Geometry of an investment portfolio - Mauricio Labadie 41
+Thank you for your
+attention

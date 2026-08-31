@@ -1,0 +1,1822 @@
+Macroeconomía
+Teoría y Política Económica con
+aplicaciones a América Latina
+Olivier Blanchard
+Daniel Pérez Enrri
+Prentice Hall
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 2. UNA GIRA POR EL LIBRO
+Algunos términos como producción, desempleo, inflación, déficit presupuestarios y déficit
+comerciales han pasado a formar parte del vocabulario moderno. Aparecen a diario en la prensa y en las
+noticias de la televisión y cuando los hemos utilizado en el capítulo 1, el lector sabía más o menos a qué nos
+referíamos. Ahora es necesario definirlos con más exactitud. Es lo que haremos en la primera parte de este
+capítulo. Una vez hecho eso, podemos realizar una gira por el libro y describir sus partes principales.
+2.1 La producción agregada
+En el siglo XIX y durante la Gran Depresión, los economistas no disponían de ningún indicador
+agregado de la producción al que pudieran recurrir. Tenían que reunir distintas informaciones, como la
+producción de arrabio o las ventas de los grandes almacenes, para deducir lo que estaba ocurriendo en la
+economía en su conjunto.
+Hacia el final de la Segunda Guerra Mundial se reunieron en los principales países las cuentas
+nacionales de la renta y el producto (o contabilidad nacional, para abreviar)1. Estos indicadores de la
+producción agregada vienen publicándose de manera periódica en Estados Unidos desde octubre de 1947 y
+en España desde 1964 (el lector encontrará indicadores de la producción agregada de fechas anteriores, pero
+se han elaborado retrospectivamente).
+La contabilidad nacional, al igual que cualquier sistema contable, define los conceptos que utiliza,
+indica cómo elabora los correspondientes indicadores y muestra qué relación guardan entre sí. Basta observar
+las estadísticas de los países que aún no han desarrollado sistemas de ese tipo para darse cuenta de lo
+fundamental que es esa precisión y coherencia. Sin ellos, las cifras que deberían cerrar no cierran; no es
+posible saber exactamente a qué variables corresponden las cifras publicadas (algo parecido a lo que ocurre
+cuando una persona intenta conciliar la cuenta bancaria de otra). No vamos a abrumar aquí al lector con los
+detalles de la contabilidad nacional. Pero como de vez en cuando necesitará conocer la definición de las
+variables y la relación entre ellas, en el apéndice 2 que se encuentra al final del libro ofrecemos el método
+contable básico que se utiliza en Estados Unidos (y con pequeñas variaciones, en casi todos los demás
+países). Le resultará útil siempre que quiera examinar los datos económicos por su cuenta.
+El PIB, el valor agregado y la renta
+El indicador de la producción agregada en la contabilidad nacional es el producto interior bruto o
+PIB, para abreviar2. Existen tres formas de concebir el PIB de una economía. Examinemos cada una de ellas
+por separado.
+1. El PIB es el valor de los bienes y servicios finales producidos en la economía durante un
+determinado período. La palabra importante es final. Resultará útil un ejemplo. Supongamos que la
+economía está formada solamente por dos empresas. La empresa 1 produce acero, empleando trabajadores y
+utilizando máquinas. Lo vende a USS 100 a la empresa 2, que produce automóviles. La empresa 1 paga a sus
+trabajadores U$S 80 y se queda con el resto, 20, como beneficio. La empresa 2 compra el acero y lo utiliza,
+junto con trabajadores y máquinas, para producir automóviles. Obtiene ingresos por las ventas de los
+automóviles por un valor de U$S 210, de los cuales 100 se destinan a pagar el acero y 70 a los trabajadores
+de la empresa, por lo que queda un beneficio de 40. Toda esta información puede resumirse en un cuadro:
+¿Cuál es el PIB de esta economía? ¿Es la suma de los valores de toda su producción, es decir, la suma de
+U$S 100 de la producción de acero y 210 de la producción de automóviles, o sea, U$S 310? ¿O es el valor de
+la producción de los bienes finales, que en este caso son los automóviles, es decir, U$S 210?
+1 Reunirlas fue un gigantesco logro intelectual. Dos economistas han recibido el Premio Nobel por su aporte al
+desarrollo de la contabilidad nacional: Simon Kuznets, profesor de la Universidad de Harvard, en 1971, y Richard
+Stone, profesor de la Universidad de Oxford. en 1984.
+2 También encontrará el lector el término producto bruto nacional o PBN. Existe una sutil diferencia entre “interior” y
+“nacional” y, por lo tanto, entre el PIB y el PBN, que examinamos en el capítulo II (véase también el apéndice 2). De
+momento, podemos prescindir de la diferencia entre los dos.
+2
+
+Empresa siderúrgica
+Ingresos derivados de las ventas U$S 100
+Gastos (salarios) U$S 80
+Beneficios U$S 20
+Empresa automotriz
+Ingresos derivados de las ventas U$S 210
+Gastos U$S 170
+Salarios U$S 70
+Compras de acero U$S 100
+Beneficios U$S 40
+Basta una breve reflexión para ver que la respuesta correcta es U$S 210. ¿Por qué? Porque el acero
+es un bien intermedio que se utiliza para producir el bien final, los automóviles, y, por lo tanto, no debe
+contabilizarse en el PIB, que es el valor de la producción final. Este ejemplo puede examinarse de otra
+forma. Supongamos que las dos empresas se fusionan, por lo que la venta de acero se realiza dentro de la
+nueva empresa y ya no queda registrada. Lo único que veríamos es una empresa que vende automóviles a
+U$S 210, paga a los trabajadores 80 + 70 = 150 y obtiene beneficios de 20 + 40 = 60. El valor de U$S 210
+no variaría, como debe ser.
+Este ejemplo sugiere que el PIB debe calcularse registrando y sumando la producción de bienes
+finales, y esta es, de hecho, más o menos la forma en que se calculan en realidad las cifras del PIB. Pero el
+ejemplo también sugiere otra forma de concebir y calcular el PIB:
+2. El PIB es la suma del valor agregado de la economía durante un determinado período. El término
+valor agregado significa exactamente lo que sugiere. El valor que agrega una empresa en el proceso de
+producción es igual al valor de su producción menos el valor de los bienes intermedios que utiliza para ello.
+En nuestro ejemplo de las dos empresas, el valor agregado por la empresa siderúrgica es de U$S 100 porque
+esta no utiliza bienes intermedios. El valor agregado de la compañía automotriz es igual a los ingresos menos
+el valor de los bienes intermedios: 210 – 100 = 110. El valor agregado total de la economía o PIB es, pues,
+igual a 100 + 110 = 210. Obsérvese que el valor agregado sería el mismo si la empresa siderúrgica y la
+automotriz se fusionaran y se convirtieran en una única empresa.
+Esta definición permite concebir de una segunda forma el PIB. Las dos definiciones implican en
+conjunto que el valor de los bienes y servicios finales –la primera definición del PIB– siempre puede
+concebirse como la suma del valor agregado por todas las empresas de la cadena de producción de esos
+bienes finales, que es la segunda definición del PIB.
+En realidad, el PIB está formado por muchos más elementos que el acero y los automóviles. ¿Cómo
+es realmente la composición del PIB de Estados Unidos? El cuadro 2.1 resume la respuesta de la
+contabilidad nacional de 1960 y 1994. Lo que llama la atención en este cuadro es la gran y creciente
+proporción correspondiente a los servicios. Actualmente, más de la mitad del PIB –53 %, para ser precisos–
+corresponde a los servicios, desde la sanidad hasta los servicios telefónicos, mientras que en 1960
+representaba el 38 %. La producción de bienes solo representa un 47 %3.
+3. El PIB es la suma de las rentas de la economía durante un determinado período. El PIB también
+puede examinarse desde una tercera perspectiva: la renta. La diferencia entre el valor de la producción de una
+empresa y el de los bienes intermedios tiene uno de los tres destinos siguientes: los trabajadores en forma de
+renta del trabajo, las empresas en forma de beneficios o el Estado en forma de impuestos indirectos, como
+los impuestos sobre las ventas que recauda sobre el valor de las ventas finales.
+En nuestro ejemplo, no existen impuestos indirectos. De los U$S 100 de valor agregado por el
+fabricante de acero, 80 van a parar al trabajo en forma de renta y los 20 restantes a la empresa en forma de
+beneficios. De los 110 de valor agregado por el fabricante de automóviles, 70 van a parar al trabajo en forma
+3 La creciente proporción de servicios ha llevado a Atan Greenspan, presidente del Sistema de la Reserva Federal (que
+es el banco central de Estados Unidos), a señalar que la importancia física del PIB está disminuyendo
+ininterrumpidamente y a reflexionar sobre las implicaciones de este hecho para el comercio internacional y la política
+macroeconómica. A medida que avance el lector, quizá le resulte entretenido plantearse repetidamente esas mismas
+cuestiones.
+3
+
+de renta y 40 a la empresa en forma de beneficios. Por lo tanto, en el caso de la economía en su conjunto, el
+valor agregado es de USS 210, de los cuales 150 van a parar a la renta del trabajo y 60 a los beneficios.
+En nuestro ejemplo, la renta del trabajo representa un 71 % del PIB, los beneficios, un 29 %, y los
+impuestos indirectos, un 0 %. El cuadro 2.2 expone la desagregación del valor agregado en los diferentes
+tipos de renta en Estados Unidos en 1960 y 1994. Muestra que, exceptuando la presencia de impuestos
+indirectos (que no existen en nuestro ejemplo), las proporciones que hemos utilizado son más o menos las de
+la economía de Estados Unidos. La renta del trabajo representa un 66 % del PIB y la renta del capital (que
+comprende no solo los beneficios sino también la renta procedente de alquileres y los intereses pagados por
+las empresas), un 26 %. Los impuestos indirectos representan el 8 % restante.
+Cuadro 2.1 La composición del PIB de Estados Unidos, 1960 y 1994.
+1960 1994
+Bienes 62 % 47 %
+Servicios 38 % 53 %
+Fuente: Econonic Report of the President, 1995, cuadro 87.
+Cuadro 2.2. La composición del PIB según el tipo de renta, 1960 y 1994.
+1960 1994
+Renta del trabajo 69 % 66 %
+Renta del capital 23 % 26 %
+Impuestos indirectos 8 % 8 %
+Fuente: Report of the President, 1995, cuadros 824 y 825..
+El PIB nominal y el real
+Según el Economic Report of the President de 1995, el PIB de Estados Unidos fue igual a U$S 6,736
+billones en 1994, mientras que en 1960 fue de 513.000 millones. ¿Es realmente cierto que en 1994 la
+producción de Estados Unidos fue trece veces mayor que en 1960? La respuesta es negativa, lo cual nos lleva
+a distinguir entre el PIB nominal y el real.
+El PIB nominal es simplemente la suma de las cantidades de bienes finales producidos multiplicada
+por su precio comente. Conviene hacer aquí una advertencia. A menudo se utiliza el término nominal para
+referirse a cantidades pequeñas. Los economistas lo emplean con respecto a las variables expresadas en las
+unidades monetarias del país que mencionan. Y los economistas no se refieren, desde luego, a cantidades
+pequeñas. Las cifras que veremos en este libro normalmente se expresan en miles de millones, cuando no en
+billones, de dólares.
+El PIB nominal aumenta con el paso del tiempo por dos razones. En primer lugar, la producción de
+la mayoría de los bienes aumenta con el paso del tiempo. En segundo lugar, el precio de la mayoría de los
+bienes, expresado en unidades monetarias, también sube con el paso del tiempo. Todos los años producimos
+un número cada vez mayor de automóviles; y su precio también sube todos los años. Si nuestro propósito es
+medir la producción y su evolución con el paso del tiempo, necesitarnos eliminar el efecto de la subida de los
+precios. Para ello, los economistas se fijan en el PIB real en lugar del nominal.
+Para calcular el PIB real, los economistas primero escogen un año base. A continuación calculan el
+PIB real de un año cualquiera multiplicando la suma de las cantidades producidas por el precio que tenían en
+el año base.
+Resultará útil un ejemplo. Supongamos que una economía produce dos bienes: patatas y
+automóviles. En el año 0 –que tomaremos como año base– produce 100.000 kg de patatas y las vende a U$S
+1 el kilo, y 10 automóviles que vende a U$S 10.000 cada uno. Un año más tarde, en el año 1, produce y
+vende 100.000 kg de patatas a un precio de U$S 1,20 el kilo y 11 automóviles a U$S 10.000 cada uno. Por lo
+tanto, en el año 0 el PIB nominal es igual a U$S 200.000 y en el año 1 es igual a 230.000. El cuadro 2.3
+resume esta información.
+El aumento experimentado por el PIB nominal entre el año 0 y el 1 es igual a USS 30.000/U$S
+200.000 = 15 %. Pero ¿cuánto ha aumentado el PIB real? Tomemos el año 0 como año base, es decir,
+sumemos las cantidades tanto del año 0 como del 1 utilizando los precios que tenían las patatas y los
+automóviles en el año 0. Corno tornamos este año como año base, el PIB real es igual al PIB nominal en el
+año 0; el PIB real y el nominal siempre son iguales en el año base. En el año 1, el PIB real se calcula
+utilizando las cantidades del año 1 y los precios del año 0, por lo que es igual a (100.000 x U$S 1) + (11 x
+4
+
+U$S 10.000) = U$S 210.000. Por lo tanto, el aumento del PIB real es igual a USS 10.000/U$S 200.000, o
+sea, del 5 %.
+Cuadro 2.3 El PIB nominal en el año 0 y en el año 1.
+Año 0
+Cantidad x Precio U$S = Valor U$S
+Patatas 100.000 1 100.000
+Vehículos 10 10.000 100.000
+PIB nominal 200.000
+Año I
+Cantidad x Precio U$S = Valor U$S
+Patatas 100.000 1,20 120.000
+Vehículos II 10.000 110.000
+PIB nominal 230.000
+En lugar de utilizar el año 0 como año base, podríamos haber utilizado el año 1 o, de hecho,
+cualquier otro. La elección del año base normalmente afecta a la medida del crecimiento del PIB real. Por
+ejemplo, si hubiéramos utilizado el año 1 como año base, el PIB real del año 0 habría sido igual a ([100.000
+x U$S 1.20] + [10 x USS 10.000]) = U$S 220.000. Por definición, el PIB real y el nominal serían idénticos
+en el año 1 e iguales a U$S 230.000. El aumento del PIB real sería igual a U$S 10.000/U$S 220.000, o sea,
+4,5 %. Por lo tanto, sería menor que el aumento del PIB real que hemos obtenido utilizando el año 0 corno
+año base.
+En la mayoría de los países, normalmente se ha utilizado un año base y se ha cambiado con
+frecuencia por distintos factores.
+En la Argentina, en 1992 se actualizó el año base de 1970 a 1986 para estimaciones a precios
+corrientes de los agregados económicos, y los mismos mostraron diferentes comportamientos según el año
+base adoptado. En 1999 se actualizó nuevamente la base 1986 de las series trimestrales y anuales del Sistema
+de Cuentas Nacionales a una base de 1993 (SCN base 1993), sustentándose en los datos censales de ese año.
+Las nuevas cuentas nacionales incorporan metodologías recomendadas por los organismos internacionales
+especializados, así como también las mejores estadísticas disponibles. Esta nueva estimación trata de mejorar
+los sesgos que tenían las distintas publicaciones, debido a que las mismas habían sido elaboradas en períodos
+de alta inflación (1970-1980). Esto generaba distorsiones en los precios relativos, principalmente por las
+inflaciones de 1989 y 1990.
+La estimación del SCN base 1993 en relación con el SCN base 1986 presenta importantes diferencias
+en la composición sectorial del PIB: mayor desagregación de las variables, criterios metodológicos
+actualizados, entre otras. Analizando el cuadro 2.1A, podemos observar las diferencias más significativas
+entre las dos bases de medición:
+• En la nueva base se incrementa la participación de las actividades productoras de
+servicios en relación con las productoras de bienes.
+• Los sectores que pierden participación en el PIB son la industria manufacturera (-6,1 %),
+el comercio y reparaciones (-2,3 %), y la agricultura, ganadería, caza y silvicultura (-1,9
+%).
+• Los sectores que ganan participación incluyen las actividades empresariales,
+inmobiliarias y de alquiler (5,3 %), y las otras actividades de servicios comunitarias y
+sociales (1,7 %).
+• Se incorporan actividades de reciente expansión, telefonía celular, televisión por cable,
+servicios de computación, entre otras.
+• Aumenta la participación de bienes y servicios producidos por las empresas públicas
+privatizadas, servicios producidos para los hogares y servicios prestados a empresas.
+• La inversión interna bruta fija se presenta más desagregada y está discriminada en:
+equipos durables de producción (maquinarias y equipos nacionales e importados,
+material de transporte nacional e importado) y construcciones (públicas, privadas,
+agropecuarias y por cuenta propia).
+Así, en Estados Unidos, el año base utilizado desde diciembre de 1991 hasta diciembre de 1995 fue
+1987. Es decir, las cifras del PIB publicadas en 1994 y correspondientes tanto a ese año como a años
+5
+
+anteriores se calcularon utilizando los precios de 1987. En diciembre de 1995, la contabilidad nacional
+comenzó a utilizar 1992 como año base; las cifras del PIB real de todos los años anteriores se han vuelto a
+calcular utilizando los precios de 1992.
+Esta práctica es poco atractiva desde un punto de vista lógico. Cada vez que se cambia el año base y
+se utiliza un nuevo conjunto de precios, se revisan todas las cifras anteriores del PIB real; se vuelve a
+escribir, de hecho, la historia. De ahí que a partir de diciembre de 1995 el U. S. Bureau of Economic
+Analysis —que es el organismo oficial que calcula las cifras del PIB— comenzara a publicar un nuevo
+índice del PIB real, llamado índice encadenado, que no tiene ese problema. Para calcular la variación
+experimentada por el PIB real entre 1995 y 1996, por ejemplo, el índice ponderado encadenado utiliza la
+media de los precios de los años 1995 y 1996. Para calcular la variación experimentada entre 1996 y 1997,
+utiliza los precios medios de los años 1996 y 1997, y así sucesivamente. Por lo tanto, en lugar de utilizar un
+conjunto fijo de precios (es decir, los precios del año base), utiliza un conjunto variable de precios, a saber,
+los precios que corresponden al año en que se mide el crecimiento del PIB4.
+En el momento de escribir este libro, no se disponía de cifras del año base 1992 ni del nuevo índice
+encadenado del PIB real. Por lo tanto, las cifras del PIB real y de sus componentes que se presentan en este
+libro son las que se han calculado utilizando 1987 como año base.
+La figura 2.1 representa la evolución tanto del PIB nominal como del real de Estados Unidos desde
+1960. Obsérvese que los dos son iguales en 1987, que es el año base. En 1994, el PIB real era 2,7 veces
+mayor que en 1960, lo que significa un aumento considerable, pero claramente muy inferior al del PIB
+nominal, que era trece veces mayor. La diferencia entre los dos se debe a las subidas de los precios
+registradas en ese período.
+Cuadro 2.l A Cambios en la estructura del producto según la vieja y la nueva base de cálculo año 1993.
+Base '93 Base '86
+Valor Porcentaje Valor Porcentaje
+PIB precios de mercado 236505.0 100.0 11769.9 100.0
+Productores de bienes (I) 1651.1 34.5 5109.4 43.4
+Agricultura, ganadería, caza y silvicultura 12204.6 5.2 841.1 7.1
+Pesca 428.0 0.2 30.3 0.3
+Explotación de minas y canteras 3657.5 1.5 294.1 2.5
+Industria manufacturera 46299.8 19.6 3023.0 25.7
+Suministro de electricidad, gas y agua 5246.5 2.2 244.0 2.1
+Construcción 13814.7 5.8 677.0 5.8
+Productores de servicios (1) 151764.7 64.2 6436.6 54.7
+Comercio al por mayor y al por menor 35749.5 15.1 2042.6 17.4
+Hoteles y restaurantes 5733.9 2.4 265.6 2.3
+Transporte, almacenamiento y comunicaciones 18065.5 7.6 592.9 5.0
+Intermediación financiera 11070.0 4.7 637.7 5.4
+Actividades-inmobiliarias, empresariales y de alquiler 35135.7 14.9 1133.3 9.6
+Administración pública y defensa 14515.7 6.1 429.5 3.6
+Enseñanza 10023.1 4.2 446.8 3.8
+Servicios sociales y de salud 8156.9 3.4 412.0 3.5
+Otras actividades de servicios comunitarios, sociales y 9411.3 4.0 267.9 2.3
+personales
+Hogares privados con servicio doméstico 3856.7 1.6 208.3 1.8
+Organizaciones y órganos extraterritoriales 46.3 0.0 - 0.0
+Impuestos a la importación (2) 6500.2 2.7 461.3 3.9
+Servicios financieros medidos indirectamente 3411.0 1.4 237.3 2.0
+(1) Los VAB por categoría de tabulación incluyen el IVA. (2) Incluye IVA a las importaciones.
+Fuente: FIDE, con datos de la Dirección Nacional de Cuentas Nacionales del ME y OSP.
+4 Para más detalles sobre el nuevo índice encadenado del PIB de Estados Unidas, véase “Preview of the Comprehensive
+Revision of the Nacional Income and Product Accounts: BEA's New Featured Measures of Output and Prices”, e”
+Survey of Current Business, U. S. Department of Commerce, Bureau of Economic Analysis, Julio de 1995, págs. 31-43.
+6
+
+Los términos PIB nominal y PIB real tienen muchos sinónimos y es probable que el lector los
+encuentre en sus lecturas:
+• El PIB nominal también se denomina PIB monetario o PIB en unidades monetarias
+corrientes.
+• El PIB real también se denomina PIB expresado en bienes, PIB en unidades
+monetarias constantes, PIB ajustado por la inflación o PIB en unidades monetarias
+de 1987, si ese es el año base.
+Con esto damos por concluido nuestro análisis de la principal variable macroeconómica, el PIB. En
+los capítulos siguientes, el PIB se referirá al PIB real, a menos que se indique lo contrario, e Y. representará
+el PIB real del año t. El PIB nominal y las variables medidas en unidades monetarias corrientes en general se
+representarán con el signo del dólar, por ejemplo, $Y, en el caso del PIB nominal.
+Asimismo. el crecimiento del PIB en el año t se referirá a la tasa de crecimiento del PIB real en el
+año t; este es igual a (Y - Y )/Y .Los períodos de crecimiento positivo del PIB se denominan expansiones y
+t t-1 t-1
+los de crecimiento negativo se denominan recesiones. Para no hablar de recesión cuando el crecimiento solo
+ha sido negativo un trimestre, los macroeconomistas normalmente utilizan el término si este es negativo
+durante dos trimestres sucesivos como mínimo. Por ejemplo, la recesión norteamericana de 1990-1991 se
+caracterizó por tener tres trimestres consecutivos de crecimiento negativo, a saber, los dos últimos de 1990 y
+el primero de 1991.
+Figura 2.1 El PIB nominal y el real de Estados Unidos, 1960-1994
+Desde 1960 hasta 1994, el PIB nominal de Estados Unidos se multiplicó por 13 y el PIB real, por 2,7.
+Fuente: Nacional Income and Product Accounts.
+Figura 2.1A Evolución del PIB nominal de la Argentina (variación porcentual anual).
+Fuente: diario El Cronista, septiembre de 1999.
+Para la Argentina, presentamos la figura 2.1ª de evolución del PIB nominal, que incluye precios y
+cantidades.
+7
+
+En los períodos en los cuales la inflación fue baja, como en 1991, se destaca el crecimiento del PIB
+real. En 1995, con la crisis del tequila el PIB nominal cayó más del 4% y toda la baja fue explicada por la
+disminución del producto real, ya que los precios no variaron.
+Se puede observar que estos ciclos, con varios trimestres de expansión o caída de la actividad,
+estuvieron muy relacionados con el ingreso de capitales durante el período de convertibilidad. En períodos
+de crisis inflacionaria y con restricción externa, hubo grandes devaluaciones nominales que se trasladaron a
+los precios de toda la economía.
+2.2 Las otras variables macroeconómicas principales
+El PIB es la principal variable macroeconómica, pero no la única. Otras, desde el desempleo hasta la
+inflación, el comercio o los déficit presupuestarios, suministran información sobre importantes aspectos de la
+economía. En este apartado, definimos estas variables y vemos brevemente por qué nos interesan.
+La tasa de desempleo
+La población activa es la surta de las personas ocupadas y las desempleadas:
+L = N + U
+población activa = ocupados + desempleados
+La tasa de desempleo es, a su vez, el cociente entre el número de desempleados y la población activa:
+u = U
+L
+desempleados
+TASA de desempleo = –––––––––––––
+población activa
+¿De qué depende que un trabajador se considere desempleado o no? Hasta la década de 1940 en
+Estados Unidos y hasta años más recientes en casi todos los demás países, el número de personas inscriptas
+en las oficinas de desempleo era la única fuente de datos sobre el desempleo de la que se disponía y solo los
+trabajadores inscriptos en estas oficinas se consideraban desempleados. Este sistema proporcionaba un
+indicador insatisfactorio del desempleo. El número de personas realmente desempleadas que se inscribían
+variaba, de hecho, de unos países a otros y con el paso del tiempo. Las personas que no tenían ningún
+incentivo para inscribirse –por ejemplo, las que habían agotado sus prestaciones por desempleo–
+probablemente no se tomaban la molestia de acudir a la oficina de desempleo y, por lo tanto, no se
+contabilizaban. Los países que tenían sistemas de prestaciones menos generosos probablemente tenían menos
+parados inscriptos y, por lo tanto, unas tasas de desempleo medidas más bajas.
+Actualmente, la mayoría de los países se basan en grandes encuestas a los hogares para calcular la
+tasa de desempleo.
+En la Argentina, la tasa de desempleo se mide a través de los resultados obtenidos por la Encuesta
+Permanente de Hogares (EPH). Esta es llevada a cabo por el Instituto Nacional de Estadísticas y Censos
+(INDEC). Se basa en una muestra probabilística estratificada en dos etapas –abril y octubre– que comprende
+35.000 viviendas de todo el país, relevando la situación ocupacional en un total de 28 aglomerados. Cabe
+señalar que como toda encuesta por muestreo, los resultados que se obtienen estiman el verdadero valor de
+cada tasa y tienen asociado un error cuya cuantía también se estima. Esto nos permite conocer la
+confiabilidad de las estimaciones. El objetivo de la EPH es caracterizar a la población en términos de su
+inserción socioeconómica. La información que surge de esta encuesta nos brinda cuatro indicadores
+ocupacionales básicos:
+1. De actividad: población económicamente activa (PEA).
+2. Dé empleo: población que está ocupada, incluidos los desocupados.
+3. De subocupación: población que trabaja menos de treinta y cinco horas semanales.
+4. De desempleo: población que busca activamente un empleo.
+A continuación se agrega un conjunto de definiciones básicas para una mejor comprensión del tema:
+8
+
+• Población económicamente activa (PEA): la integran las personas que tienen ocupación
+o la están buscando activamente; está compuesta por la población ocupada más la
+desocupada.
+• Población desocupada: se refiere a personas que, al no tener ocupación, buscan trabajo
+activamente. Corresponde a la desocupación abierta; por lo tanto, no incluye otras
+formas de precariedad laboral.
+• Tasa general: es una relación entre un grupo de población que tiene una determinada
+característica y el conjunto de la población que puede tenerla.
+• Tasa específica: es aquella para la cual esta relación se establece entre un subconjunto
+particular de esa población.
+• Tasa de actividad: se calcula corno porcentaje entre la población económicamente activa
+y la población total.
+• Tasa de empleo: se calcula como porcentaje entre la población ocupada y la población
+total.
+• Tasa de desocupación: se calcula como porcentaje entre la población desocupada y la
+población económicamente activa.
+• Tasa de ocupación: se calcula como porcentaje entre la población ocupada y la
+población económicamente activa.
+• Subocupados visibles u horarios: es la población ocupada que trabaja menos de treinta y
+cinco horas semanales y desea trabajar más.
+• Tasa de subocupación horaria: se calcula como porcentaje entre la población
+subocupada y la población económicamente activa.
+• Tasa de sobreocupación horaria: se calcula como porcentaje entre la población
+sobreocupada y la población económicamente activa.
+En Estados Unidos, esta encuesta se denomina Current Population Survey (CPS). En España, el
+INE realiza una encuesta similar llamada Encuesta de Población Activa (EPA), que se describe en el capítulo
+15. Ambas encuestas se basan en entrevistas mensuales a unos 60.000 bogares; clasifican a una persona en la
+categoría de ocupada si tiene trabajo en el momento de la entrevista y en la categoría de desempleada si no
+tiene trabajo y ha estado buscando empleo en las cuatro últimas semanas. La mayoría de los países utilizan
+un concepto similar de desempleo, aunque la definición del significado exacto de “buscar empleo” varía de
+unos a otros. En Estados Unidos, las estimaciones basadas en la CPS mostraron en 1994 que durante ese año
+hubo, en promedio, 123.000.000 de personas ocupadas y 8.000.000 de personas desempleadas. Por lo tanto,
+la tasa de desempleo fue igual a 8/(123 + 8), o sea, el 6,1 %.
+Obsérvese una importante característica de la definición de la tasa de desempleo. Solo se consideran
+desempleadas las personas que están buscando trabajo; las que no lo están buscando se consideran inactivas.
+Pero cuando el desempleo es elevado, muchas de las personas que no tienen trabajo renuncian simplemente a
+buscarlo y, por lo tanto, ya no se consideran desempleadas. Estas personas se conocen con el nombre de
+trabajadores desanimados. Por poner un ejemplo extremo, si todos los trabajadores que carecen de trabajo
+renunciaran a buscar uno, la tasa de desempleo sería igual a cero y constituiría un indicador muy
+insatisfactorio de lo que está ocurriendo en el mercado de trabajo. Este caso extremo no se da, pero existe
+una versión menos extrema: normalmente, cuando hay un elevado desempleo, muchos trabajadores
+abandonan la población activa. En otras palabras, normalmente una elevada tasa de desempleo va
+acompañada de una baja tasa de actividad, que es el cociente entre la población activa y la población total
+en edad activa. Desde que comenzó la reforma económica en el este de Europa a principios de los años 90. el
+desempleo ha aumentado, a menudo espectacularmente. Pero también han experimentado un descenso
+igualmente espectacular las tasas de actividad. Por ejemplo, en Polonia el 70 % de la reducción del empleo
+registrada en 1990 se debió a las jubilaciones anticipadas, en otras palabras, a las personas que abandonan la
+población activa,
+¿Por qué les interesa el desempleo a los macroeconomistas? Por dos grandes razones. En primer
+lugar, la tasa de desempleo indica en alguna medida si la economía está funcionando por encima o por
+debajo de su nivel normal. En segundo lugar, el desempleo tiene importantes consecuencias sociales.
+Examinemos cada una de estas dos razones por separado.
+El desempleo y la actividad. En la mayoría de los países, existe una relación fiable entre el crecimiento del
+PIB y la variación de la tasa de desempleo. Esta relación se conoce con el nombre de ley de Okun, en honor
+9
+
+al economista Arthur Okun, que fue quien primero la identificó y la interpretó en la década de 1960. La
+figura 2.2 representa la relación en Estados Unidos entre estas dos variables desde 1960; muestra la variación
+de la tasa de desempleo en el eje de ordenadas y la tasa de crecimiento del PIB en el de abscisas. Cada uno
+de sus puntos indica la tasa de crecimiento y la variación de la tasa de desempleo correspondientes a un
+determinado año. Las figuras como la 2.2, que representan la relación entre dos variables en el tiempo, se
+denominan diagramas de puntos.
+La figura 2.2 muestra que cuando el crecimiento de la producción es elevado, normalmente
+disminuye la tasa de desempleo y, viceversa, es decir, cuando el crecimiento es bajo, aumenta la tasa de
+desempleo. Esta relación parece muy razonable: un elevado crecimiento de la producción desemboca en un
+elevado crecimiento del empleo, ya que las empresas tienen que contratar más trabajadores para producir
+más. Un elevado crecimiento del empleo desemboca, a su vez, en una reducción del desempleo.
+Figura 2.2 Relación entre la variación de la tasa de desempleo de Escudos Unidos y el crecimiento de su PIB, 1960-
+1994. Cuando el crecimiento de lo producción es elevado, normalmente la toso de desempleo disminuye. Y viceversa,
+cuando el crecimiento de la producción es bato, la taso de desempleo aumenta.
+Fuente: U. S. Department of Labor. Bureau of Labor Statistics, National lncome and Product Accounts.
+La relación tiene una sencilla implicación. Si la tasa actual de desempleo es demasiado alta –el
+significado de demasiado alto o demasiado bajo o más o menos adecuado será el tema de muchos capítulos
+posteriores; de momento seremos deliberadamente vagos–, será necesario que se acelere el crecimiento
+durante un tiempo para reducirla. Si, por el contrario, la tasa de desempleo es más o menos la adecuada, la
+producción deberá crecer a una tasa que no altere la tasa de desempleo. Por lo tanto, la tasa de desempleo
+indica a los macroeconomistas cuál es la situación de la economía y qué tasa de crecimiento es deseable. Si
+el desempleo es demasiado elevado, es deseable que la producción crezca más; si es demasiado bajo. es
+necesario que crezca menos.
+Implicaciones sociales del desempleo. A los macroeconomistas también les interesa el desempleo
+debido a su influencia directa en el bienestar de los desempleados. Aunque las prestaciones por desempleo
+son mucho más generosas actualmente que durante la Gran Depresión, el desempleo aún suele ir
+acompañado de considerables dificultades económicas y sufrimiento psicológico. ¿En qué medida? Depende
+del tipo de desempleo. Una de las imágenes de los desempleados es la de una reserva estancada de personas
+que permanecen desempleadas durante largos períodos.
+Como veremos más adelante en este libro, esta imagen es falsa en la mayoría de los casos.
+Normalmente, los flujos de entrada y salida del desempleo son grandes. Todos los meses se convierten en
+desempleadas muchas personas y muchos de los desempleados encuentran trabajo. Pero algunos grupos (que
+suelen ser los jóvenes. algunas minorías étnicas y las personas no cualificadas) sufren más que otros, se
+convierten en desempleados crónicos y son los más vulnerables al desempleo cuando este aumenta.
+Características del desempleo en la Argentina en la última década
+En la Argentina, cuando se implementó el Plan de Convertibilidad, se logró la estabilización de la
+economía y se produjo un ajuste estructural. Ello afectó a la situación del mercado de trabajo. A pesar de que
+la estabilización se genera con una expansión productiva, la transformación estructural influyó en los niveles
+de empleo, tanto público como privado.
+10
+
+El proyecto de privatización impulsado por la necesidad de reducir el déficit fiscal llevó a una
+disminución del empleo público. Los empresarios privados, a quienes se les traslada el nuevo modelo, deben
+adecuarse a un marco más exigente de competencia internacional debido a la apertura económica y a la
+estabilización de los precios. El proceso de reconversión afecta principalmente a la industria manufacturera y
+a la construcción, que a pesar de haber crecido en este período muestran un descenso continuo de la tasa de
+empleo.
+En los capítulos siguientes, se hará un análisis más detallado del tema, pero el tipo de desempleo que
+tuvo la Argentina durante estos años no se debió a variaciones del producto, dado que este fue un período de
+gran expansión. El desempleo se originó por variaciones estructurales.
+Figura 2.2A Nivel de actividad y empleo en la Argentina.
+Fuente: CEPAL.
+La tasa de inflación
+La inflación es una subida duradera del nivel general de precios, un aumento generalizado del nivel
+de precios. La tasa de inflación es la tasa a la que sube el nivel de precios.
+La cuestión práctica es cómo definir este nivel de precios, Normalmente, los macroeconomistas
+examinan dos indicadores del nivel de precios, es decir, dos índices de precios: el deflactor del PIB y el
+índice de precios de consumo.
+Antes de continuar, sería oportuno definir qué se entiende por números índice, dado que estos son
+instrumentos que se utilizan para saber cómo ha evolucionado el valor de una variable a través del tiempo
+con respecto a un momento determinado (llamado “año base”).
+Existen dos tipos de índices, según la metodología usada en su elaboración: el de Laspeyres y el de
+Paasche. El índice de Laspeyres se confecciona de acuerdo con una canasta determinada en el período base
+(Q ) y calcula el valor de dicha canasta en cada período (P ). Esta metodología es la utilizada en el índice de
+0 1
+precios al consumidor (IPC) y en el índice de precios al por mayor (IPM), por ejemplo. Su fórmula es:
+∑P ⋅Q
+I = 1 0 ×100
+i ∑P ⋅Q
+0 0
+El índice de Paasche, un poco más complejo, elabora la canasta con datos actuales, es decir,
+establece una canasta en cada período (Q ) y compara los valores en ese momento (P ) con los del período
+1 1
+anterior (P ). De esta manera se calcula en nuestro país, por ejemplo, el índice de precios implícitos en el
+0
+PIB.
+11
+
+∑P ⋅Q
+I = 1 1×100
+P ∑P ⋅Q
+0 1
+En la Argentina, el ente que realiza las mediciones y los cálculos es el Instituto Nacional de
+Estadísticas y Censos (INDEC). Tiene a su cargo, entre otras funciones, la obtención de estos índices, como
+el de precios al consumidor (IPC), el de precios mayoristas (IPM), el de precios del sector de la construcción
+(ICC), el de precios combinados, el de precios agropecuarios, etc. En cada caso se trabaja con los precios de
+productos representativos del sector en cuestión.
+A continuación, se analizan algunos de los índices más importantes.
+El índice de precios al consumidor
+El más empleado en la medición de la inflación es el índice de precios al consumidor. Recordemos
+que el IPC mide la variación de preciosa través del tiempo. de un conjunto fijo, en cantidades y
+características, de bienes y servicios, llamado “canasta”, que representan el consumo de la población en un
+área geográfica determinada yen un período específico. Desde la convertibilidad se ha utilizado como base
+100. abril de 1991, aunque muchas consultoras siguen usando el año base 1988 = 100.
+Para ser más precisos, el IPC mide las variaciones que se producen mes a mes en los precios de los
+bienes y servicios seleccionados a partir del consumo de los hogares particulares residentes en la Capital
+Federal y los 19 partidos del Gran Buenos Aires, estimado por la Encuesta de Gastos e Ingresos de los
+Hogares efectuada en 1985-1986. En la población de referencia del índice están excluidos los hogares
+unipersonales y el 5 % del total de los hogares correspondiente a los de mayor ingreso familiar.
+El conjunto de bienes y servicios considerado está compuesto por 557 variedades, de las cuales 492
+son bienes y 65, servicios. Los servicios incluyen: alimentos consumidos fuera del hogar, servicios para la
+indumentaria, alquiler de la vivienda, mantenimiento de la vivienda, servicios eléctricos, sanitarios y de gas,
+servicios para el hogar, para la salud, de transporte y comunicaciones, mantenimiento de vehículos, turismo,
+servicios de esparcimiento, educativos para el cuidado personal y otros.
+Las 557 variedades se agrupan en 134 subgrupos, 47 grupos, 9 capítulos y un nivel general, para
+todos los cuales se presentan índices desagregados.
+Las variaciones en los precios de las 557 variedades de bienes y servicios intervienen en el cálculo
+del índice de acuerdo con la importancia relativa de su consumo en el período 1985-1986, cuando se realizó
+la última Encuesta de Gastos e Ingresos de los Hogares, que suministró las ponderaciones de este índice.
+Cada variedad tiene una ponderación y se llega por agregación a las ponderaciones de cada subgrupo, grupo
+y capítulo del índice5.
+La estructura de ponderaciones para los 9 capítulos del índice es la siguiente:
+El índice de precios de consumo (IPC)6. En Estados Unidos, el IPC existe desde 1917 y se publica
+mensualmente. En España empezó a elaborarse en 1958 y también se publica con frecuencia mensual. En
+cambio, las cifras del PIB y del deflactor del PIB solo se publican trimestralmente.
+El IPC indica el coste monetario de una determinada lista de bienes y servicios en el tiempo. Esta
+lista, que se basa en un minucioso estudio del gasto de los consumidores, intenta reproducir la canasta de
+5 Fuente: Ministerio de Economía y Obras y Servicios Públicos, Indec informa. vol. 1. ,Nº 2, marzo de 1996.
+6 El IPC no debe confundirse con el índice de precios al por mayor (IPP). que es un índice de los bienes producidos en
+el país por la industria manufacturera la minería, la agricultura, la pesca, la silvicultura y las empresas eléctricas.
+12
+
+consumo de un consumidor urbano representativo. Se revisa aproximadamente cada diez años. En Estados
+Unidos, todos los meses, el personal del Bureau of Labor Statistics (BLS) acude a las tiendas para ver qué ha
+ocurrido con el precio de los bienes que figuran en la lista; recoge los precios de alrededor de 21.000 tiendas
+minoristas, concesionarios de automóviles, estaciones de servicio, hospitales, etc., de 85 ciudades. Estos
+precios se utilizan entonces para elaborar el índice de precios de consumo.
+El deflactor del PIB. Supongamos que el PIB nominal, SY, aumenta, pero que el PIB real, Y, no
+t t
+varía. En ese caso, es evidente que el aumento del PIB nominal se debe necesariamente a la subida de los
+precios. De ahí viene la definición del deflactor del PIB, que indica el precio medio de los bienes finales
+producidos en la economía. El deflactor del PIB en el año t, P es el cociente entre el PIB nominal y el PIB
+t
+real en el año t:
+$Y
+P = t
+t Y
+t
+Para ver qué implica esta definición, volvamos a nuestro ejemplo anterior de la economía que
+produce automóviles y patatas. En el año 0, que es el año base, el PIB nominal y el real son iguales por
+definición. Por lo tanto, en el año 0 el deflactor del PIB es igual a 1 por definición. Merece la pena hacer
+hincapié en este punto: el deflactor del PIB es lo que se denomina número índice. Su nivel se elige
+arbitrariamente —en este caso es igual a 1 en el año base— y, por lo tanto, no tiene ninguna interpretación
+económica7. Pero su tasa de variación está perfectamente definida y tiene una interpretación económica.
+En el año 1, el deflactor del PIB es igual al cociente entre el PIB nominal y el real en el año 1, U$S
+230.000/U$S 210.000, o sea, alrededor de 1,10. Si definimos la tasa de inflación como la tasa de variación
+del deflactor del PIB (P- P )/P ,, la tasa de inflación es igual a (1,10 - 1.00)/1,00 = 10 %.
+t t-1 t-1
+Obsérvese que la tasa de inflación es una media ponderada de la tasa de aumento de los precios de
+cada uno de los dos bienes. La inflación de las patatas –la tasa de variación del precio de las patatas– es igual
+al 20 % y la de los automóviles es igual al 0 %. La media de las dos es del 10 %. Este resultado es más
+general que nuestro ejemplo: la tasa de inflación que se obtiene utilizando el deflactor del PIB puede
+concebirse como una media ponderada de la tasa de variación de los distintos precios.
+Una de las principales ventajas del deflactor del PIB se halla en que está estrechamente relacionado
+con nuestro indicador del PIB real. De hecho, reorganizando la ecuación anterior, tenemos que:
+SY = P Y
+1 1 1
+El PIB nominal es igual al real multiplicado por el deflactor del PIB.
+El deflactor del PIB es, al igual que el IPC, un índice. Es igual a 1 en el período elegido corno
+período base y. por lo tanto, no tiene un nivel natural. El período base actual es 1982-1984, por lo que la
+media de ese período es igual a 1. En 1994, el IPC era de 1,47; el coste de la misma canasta de consumo en
+dólares era, pues, un 47 % más alto en 1994 que en 1982-1984.
+Quizá se pregunte el lector cómo difiere la tasa de inflación según se utilice el deflactor del PIB o el
+IPC. La respuesta se encuentra en la figura 2.3, que representa la evolución de ambas tasas de inflación desde
+1960 en Estados Unidos. Esta figura permite extraer dos conclusiones:
+7 Los índices publicados suelen igualarse a 100 en lugar de a 1 en el año base. El número 100 es la abreviatura de 100%
+que, en términos decimales, es igual a 1.
+13
+
+Figura 2.3 La tasa de inflación de Estados Unidos basada en el IPC y en el deflactor del PIB, 1960-1994. Las tasas de
+inflación calculadas por medio del IPC o del deflactor del PIB son muy parecidas. Fuente: véase la figura 2.2.
+El IPC y el deflactor del PIB varían al unísono la mayor parte del tiempo. La mayoría de los años, las
+dos tasas de inflación se diferencian en menos de un 1 %.
+Pero existen claras excepciones. Tanto en 1974 como en 1979-1980, el aumento del IPC fue
+significativamente mayor que el del deflactor del PIB. No es difícil averiguar la razón. Recuérdese que el
+deflactor del PIB es el precio de los bienes producidos en Estados Unidos y que el IPC es el precio de los
+bienes consumidos en Estados Unidos. Así, cuando el precio de los bienes importados sube en relación con el
+de los bienes producidos en Estados Unidos, el IPC aumenta más deprisa que el deflactor del PIB. Eso es
+precisamente lo que ocurrió tanto en 1974 como en 1979-1980. En ambos casos, se duplicó el precio del
+petróleo. Aunque Estados Unidos produce petróleo, produce mucho menos de lo que consume: era y sigue
+siendo un gran importador de petróleo. Por lo tanto, en ambos casos, el IPC experimentó una gran subida en
+comparación con el deflactor del PIB.
+De aquí en adelante no distinguiremos entre los dos índices, a menos que queramos fijamos
+precisamente en su diferencia. Así pues, nos referiremos simplemente al nivel de precios y lo
+representaremos por medio de P, sin indicar casi nunca si estamos pensando en el IPC o en el deflactor del
+t
+PIB. En la Argentina, el deflactor del PIB se denomina índice de precios implícitos del PIB (IPI).
+El índice de precios mayoristas
+Otro de los índices que elaboró muchos años el INDEC (aunque ha habido cambios en la
+metodología) es el índice de precios al por mayor (IPM), que mide la evolución de los precios de todos los
+bienes comercializados en la economía, nacionales o importados, sobre la base del precio de la primera venta
+(primera transacción). Por su forma de calcularlo, según lo explicado anteriormente, es un índice del tipo de
+Laspeyres.
+El nivel general de este índice está compuesto por tres grandes rubros:
+• Productos agropecuarios nacionales.
+• Productos no agropecuarios nacionales.
+• Productos no agropecuarios importados.
+Su metodología es bastante más compleja que la del IPC, ya que los precios de estos grupos de
+bienes evolucionan en forma muy distinta unos de otros.
+La inflación y el desempleo. ¿Existe alguna relación entre la inflación y la producción o el desempleo, o la
+inflación tiene vida propia? Existe, de hecho, una relación, pero esta dista de ser mecánica; varía con el paso
+del tiempo y de unos países a otros,
+14
+
+Figura 2.4 Relación entre la variación de la tasa de inflación de Estados Unidos y su usa de desempleo, 1970-1994.
+Cuando la tasa de desempleo es baja, lo inflación tiende o aumentar. Cuando es alto, la inflación tiende a disminuir.
+Fuente: véase la ligara 2.2.
+La figura 2.4 muestra la relación entre el desempleo y la inflación en Estados Unidos. La variación
+de la tasa de inflación (basada en el IPC) –es decir, la tasa de inflación de este año menos la del año pasado–
+se representa en el eje de ordenadas y la tasa de desempleo, en el de abscisas. La figura indica las
+combinaciones de tasas de desempleo y variaciones de las tasas de inflación correspondientes a cada año
+desde 1970.
+La figura muestra que existe una clara relación negativa entre la tasa de desempleo y la variación de
+la inflación. Cuando la tasa de desempleo es baja, la inflación tiende a aumentar. Cuando es alta, la inflación
+tiende a disminuir. Esta relación negativa se denomina relación de Phillips y la curva que mejor se ajusta al
+conjunto de puntos se llama curva de Phillips, en honor al economista que primero documentó la relación
+entre el desempleo y la inflación8. La procedencia de esta relación, las causas por las que varía en el tiempo
+y en el espacio y sus implicaciones serán el tema de numerosos capítulos posteriores.
+¿Por qué les interesa a los economistas la inflación? Si un aumento de la inflación significara
+sirnplemente una subida proporcional más rápida de todos los precios y los salarios —fenómeno que se
+conoce con el nombre de inflación pura—, la inflación solo sería un pequeño inconveniente. No afectaría a
+los precios relativos. Tomemos, por ejemplo, el salario real –el salario expresado en bienes en lugar de
+unidades monetarias– que perciben los trabajadores. En una economía que tuviera un 10 % de inflación, los
+precios subirían un 10 % al año, pero también los salarios. Por lo tanto, los salarios reales no variarían9. La
+inflación no sería totalmente irrelevante; la gente tendría que mantenerse al tanto de la subida de los precios
+y de los salarios para tomar sus decisiones, pero sería una pequeña molestia, que difícilmente justificaría que
+se hiciera del control de la tasa de inflación uno de los principales objetivos de la política macroeconómica.
+Entonces, ¿por qué les interesa a los economistas la inflación? Precisamente porque no existe la
+inflación pura. La inflación no es neutral, sus efectos son nocivos. Desalienta la inversión y por ende frena el
+crecimiento, desorienta a consumidores y productores, provoca transferencias sistemáticas de ingresos
+afectando la distribución de la renta. Por ejemplo, en muchos países los jubilados reciben prestaciones que
+no suben al mismo ritmo que el nivel de precios y, por lo tanto, pierden en relación con otros grupos cuando
+la inflación es alta. No ocurre así en Estados Unidos, donde las pensiones suben automáticamente con el IPC,
+protegiendo a los pensionistas de la inflación. Sin embargo, en Rusia, durante la elevadísima inflación
+existente desde principios de los años 90, las pensiones de jubilación no han subido al mismo ritmo que la
+inflación, por lo que muchos jubilados están muriéndose literalmente de hambre.
+Un aspecto importante a tener en cuenta es que la inflación acentúa el déficit fiscal (efecto Olivera-
+Tanzi10), disminuye el horizonte de planeamiento por la incertidumbre que genera la fuga de capitales y
+8 Como veremos en el capítulo 17, la naturaleza de la curva de Phillips ha cambiado desde que A. W. Phillips lo
+documentó por primera vez en 1958, pero su nombre sigue utilizándose.
+9 Prescindiendo de las variaciones que experimentarían los salarios reales incluso aunque no hubiera inflación. Sería
+más exacto decir que en una situación de inflación pura, la variación de los salarios sería independiente de la tasa de
+inflación.
+10 El economista argentino Julio H. Olivera y el experto del FMI Vittorio Tanzi explicaron el fenómeno, que hoy es
+conocido como “efecto Olivera Tanzi”. La inflación deteriora el valor real de la recaudación fiscal (ya que se calcula
+15
+
+deteriora el sector externo. En general, en situaciones de alta inflación la volatilidad de los precios envuelve
+a los agentes económicos en un contexto de incertidumbre. Los costos de la inflación no solo se amplifican
+por el crecimiento de los precios, sino también porque es difícil predecir la política económica. Los precios
+evolucionan en forma errática debido a las expectativas del público y los cambios en la política económica
+poco regulares que tienden a satisfacer las distintas demandas.
+La inflación también introduce distorsiones. Algunos precios, que se fijan por ley o que están
+regulados, se quedan rezagados con respecto a los demás. La inflación altera, pues, los precios relativos. Las
+variaciones de los precios relativos también crean incertidumbre, haciendo que las empresas tengan más
+dificultades para tomar decisiones sobre el futuro, como las relacionadas con la inversión.
+Los conflictos sociales se agudizan y debido a las conductas especulativas es difícil encarar una
+política de crecimiento.
+En suma, los economistas consideran que una elevada inflación afecta a la distribución de la renta y
+crea tanto distorsiones como incertidumbre. El grado de importancia de estos problemas y si justifican o no
+el intento de conseguir y mantener una inflación nula son temas muy debatidos, de los que volveremos a
+ocuparnos más adelante en este libro.
+Inflación en los 80 y deflación a fin de siglo
+En el nuevo debate, los medios masivos de comunicación están dando mucha importancia a la
+problemática de la deflación (ver diario Clarín del 15/10/99).
+Luego de la aplicación de la convertibilidad se logró estabilizar la inflación; es más, se podría decir
+que a finales de la década la inflación no es un tema prioritario, o lo que es lo mismo, no es un tema de
+discusión diario.
+Cuando el IPC se torna negativo, entonces se habla de deflación. En 1999 sucedió por primera vez
+desde 1944 este fenómeno en nuestra economía.
+En un país como la Argentina, donde existieron inestabilidad de precios y episodios de
+hiperinflación, este hecho se debería considerar como un acontecimiento favorable o positivo. Esto sería así
+desde el punto de vista de un contexto de estabilidad salarial, en el cual la caída de los precios implica una
+mejora en el poder adquisitivo.
+Si la disminución de los precios obedeciera a mejoras en la productividad que permitieran reducir los
+costos y los precios al público, estaríamos en una situación óptima.
+En la última década se verificaron una mejora de la productividad y una caída de los precios
+internacionales que influenciaron en la disminución de la inflación. Pero la principal causa de dicha baja fue
+la reducción de la demanda masiva y los cambios que se sucedieron en el sistema comercial. La caída de la
+demanda puede observarse en la reducción del PIB; salarios reales estancados, tasa de desempleo elevada,
+entre otros.
+Por otro lado, el cambio en el sistema comercial se debió, sobre todo, a la concentración de las
+ventas de alimentos en un pequeño grupo de supermercados. Al estar tan concentrados, utilizan su poder de
+negociación con los proveedores de los diferentes productos (muchas veces, empresas de menor tamaño) y
+presionan a la baja de los precios. Cuando esto sucede, las empresas vendedoras incurren en desinversión,
+reducción de empleados o salarios y, en el caso extremo, cierran sus puertas.
+Por lo tanto, aquella reducción de precios, que en primera instancia podíamos calificar como
+positiva, se transforma en una mayor recesión y deterioro del ingreso. Es decir, lo que ganan los
+consumidores con la caída de los precios lo pierden con el achicamiento de la economía. Esto es una señal de
+alarma para analizar las medidas de política implementadas.
+En síntesis, la estabilidad conseguida tiene un alto costo social y no implica una mejora del bienestar
+general.
+Los déficit presupuestarios y los déficit comerciales
+Veamos, por último, el déficit presupuestario (el exceso de gasto público sobre los ingresos del
+Estado) y el déficit comercial (el exceso de importaciones del resto del mundo sobre las exportaciones al
+resto del mundo).
+sobre períodos anteriores), es decir, aumenta el déficit fiscal. Y cuando queda atrás el proceso inflacionario, la
+estabilidad per se aumenta el valor real de los ingresos fiscales.
+16
+
+¿Por qué les interesan a los economistas los déficit presupuestarios y comerciales? Por la misma
+razón por la que nos interesa nuestro propio déficit —aunque no lo llamemos normalmente así—, a saber,
+nuestro exceso de gasto sobre nuestra renta. Cuando nuestro gasto es superior a nuestra renta y vamos
+endeudándonos, sabemos que tarde o temprano tendremos que devolver los préstamos recibidos y, por lo
+tanto, reducir entonces nuestro gasto. Aun así, puede que tenga sentido pedir un préstamo (por ejemplo, para
+financiar nuestros estudios universitarios) si sabemos que nuestra renta será más alta en el futuro. Pero la
+conveniencia o no de pedir un préstamo debe valorarse en cada caso. Este mismo razonamiento también es
+válido en el caso del Estado y de los países:
+• El Estado que incurre en un déficit va endeudándose cada vez más con el paso del
+tiempo. Endeudarse más significa pagar más intereses sobre la deuda. Para financiarlos,
+el Estado debe subir los impuestos o reducir algún otro gasto. Aun así, puede que tenga
+sentido que pida un préstamo si los gastos son excepcionalmente elevados, por ejemplo,
+durante una guerra o tras un terremoto. De lo contrario, los déficit pueden ser
+imprudentes.
+• El país que incurre en un déficit comercial está comprando al extranjero más de lo que le
+vende y, por lo tanto, acumulando deuda con el resto del mundo. Una vez más, esta
+conducta puede tener sentido: pedir un préstamo para financiar una inversión, que se
+traducirá, a su vez, en una producción mayor en el futuro, puede justificarse fácilmente.
+Pero incurrir en un déficit comercial para financiar un enorme consuno puede ser tan
+imprudente para un país como para una persona.
+Por lo tanto, la razón por la que los economistas examinan los déficit presupuestarios y comerciales y
+por la que les preocupan se halla en que pueden presagiar la necesidad de realizar dolorosos ajustes en el
+futuro.
+2.3 Un mapa del libro
+Una vez definidos los principales conceptos, pasemos ahora a examinar la cuestión fundamental de
+la macroeconomía. ¿De qué depende el nivel de producción agregada?
+La lectura de la prensa diaria sugiere una respuesta: las variaciones de la producción se deben a las
+variaciones de la demanda de bienes. Todos hemos leído noticias de prensa que comienzan diciendo: “La
+producción y las ventas de automóviles fueron mayores el mes pasado, debido, al parecer, a un aumento de la
+confianza de los consumidores, que los llevó a acudir en un número sin precedentes a las concesionarias”.
+Esas explicaciones apuntan al papel que desempeña la demanda en la determinación de la producción
+agregada, así como a diversos factores que van desde la confianza de los consumidores hasta los impuestos y
+los tipos de interés.
+Pero si adopta una perspectiva más amplia, basada en el continuo aumento que ha experimentado el
+PIB real de Estados Unidos desde 1960 y que se muestra en la figura 2.1 o en las grandes diferencias entre
+los niveles de producción per capita de los distintos países, parece que la respuesta es otra. Desde esa
+perspectiva, es la oferta la que determina la producción: el nivel de producción de una economía depende del
+tamaño de su población activa, de la cantidad de máquinas que tenga el país y de lo sofisticada que sea su
+tecnología.
+Ambas perspectivas son correctas, pero cada una de ellas se aplica a un horizonte temporal distinto.
+Las variaciones interanuales de la producción o, a lo sumo, a lo largo de unos cuantos años –lo que los
+macroeconomistas llaman corto plazo– dependen principalmente de las variaciones de la demanda. Los
+descensos de la demanda, que pueden deberse a los cambios de la confianza de los consumidores o a
+cualquier otra causa, pueden provocar una reducción de la producción (una recesión). Pero en un largo
+período, por ejemplo, durante décadas o más –lo que los macroeconomistas denominan largo plazo–, la
+producción depende de factores relacionados con la oferta, que van desde la población activa hasta el stock
+de capital o la situación de la tecnología. En los períodos intermedios –que, como cabía esperar, los
+macroeconomistas denominan mediano plazo– influyen tanto los factores relacionados con la demanda
+como los factores relacionados con la oferta.
+Esta manera de concebir las variaciones de la producción subyace a la estructura de este libro.
+Primero centramos la atención en las fluctuaciones e corto plazo y, por lo tanto, en el papel de la demanda, y,
+a continuación, en el mediano y el largo plazo. El libro está estructurado de la siguiente forma (esta
+estructura también se resume gráficamente en la figura 2.5 de la página siguiente):
+17
+
+• En los capítulos 3 y 4 examinamos los mercados de bienes y desarrollamos un modelo
+preliminar de la actividad económica. Este modelo es sencillo, pero útil. Constituye una
+manera fácil de introducir muchos de los instrumentos básicos de la macroeconomía. Sin
+embargo, solo es adecuado para examinar el corto plazo: supone que las empresas están
+dispuestas a ofrecer cualquier cantidad a un determinado precio. Por lo tanto, centra la
+atención en la demanda de bienes como determinante de la producción.
+• En los capítulos 5 y 6 introducimos los mercadas financieros y, a continuación,
+examinamos el equilibrio tanto en los mercados de bienes como en los financieros. El
+modelo resultante se conoce con el nombre de modelo IS-LM. Este modelo, desarrollado
+a finales de los años 30, es un sencillo instrumento para examinar la determinación
+conjunta de la producción y los tipos de interés a corto plazo, y sigue siendo una pieza
+básica de la macroeconomía. También permite realizar un primer estudio de la influencia
+de la política fiscal y de la política monetaria en la producción y los tipos de interés.
+• El modelo IS-LM básico no tiene en cuenta las expectativas. Pero estas desempeñan un
+papel fundamental en macroeconomía, Casi todas las decisiones económicas que toman
+los individuos y las empresas (comprar bonos o acciones, comprar o no una máquina)
+dependen de sus expectativas sobre los futuros beneficios, sobre los futuros tipos de
+interés, etc. La política fiscal y la monetaria afectan ala actividad no solo directamente
+sino a través de las expectativas. Entre los capítulos 7 y 10 centramos la atención en el
+papel que desempeñan las expectativas y en sus implicaciones para la política fiscal y la
+monetaria.
+Figura 2.5 La estructura del libro.
+18
+
+• El modelo IS-LM básico supone que la economía es cerrada y prescinde de sus
+relaciones con otras economías del mundo. Pero las economías son, en realidad, cada vez
+más abiertas, por lo que los países son cada vez más interdependientes. La naturaleza de
+esta interdependencia y sus implicaciones para la política fiscal y la monetaria
+constituyen los temas de los capítulos 11 a 14.
+• El modelo IS-LM básico supone que las empresas ofrecen cualquier cantidad a un
+determinado precio. Pero, en realidad, las variaciones de la producción, que también
+provocan variaciones del desempleo, alteran los salarios y los precios con el paso del
+tiempo. La determinación de los salarios en los mercados de trabajo y su relación con el
+desempleo constituyen los temas del capítulo 15. En los capítulos 16 a 19 se examinan
+las variaciones de la producción, del desempleo y de los precios, teniendo en cuenta el
+equilibrio de los mercados de bienes, financieros y de trabajo. El modelo que
+desarrollarnos en estos capítulos se denomina modelo de la producción basado en la
+oferta y la demanda agregadas (OA-DA). En los capítulos 16 a 19 mostramos cómo
+puede utilizarse este para examinar el corto, el mediano y el largo plazo y aplicarlo a una
+amplia variedad de ejemplos extraídos de lo que ha ocurrido en el mundo en las dos
+últimas décadas.
+• A veces, el término fluctuaciones no recoge exactamente lo que está ocurriendo en la
+economía. De vez en cuando, algo va muy mal. La inflación alcanza elevadísimas tasas o
+el desempleo sigue siendo muy alto durante mucho tiempo. Es lo que aconteció durante
+la Gran Depresión (como hemos visto en el capítulo 1, también está ocurriendo
+actualmente en muchos países europeos). Estas patologías constituyen los temas de los
+capítulos 20 y 21.
+• En los cinco capítulos siguientes centramos la atención en el mediano y el largo plazo,
+en lo que hace que las economías, ricas u pobres, crezcan rápidamente o se estanquen.
+Hay dos factores esenciales en este sentido: la acumulación de capital y el progreso
+tecnológico. Estos constituyen el tema de los capítulos 22 a 24. En el 25 aplicamos lo
+que hemos aprendido en la relación entre el progreso tecnológico y el desempleo. En el
+capítulo 26, incorporamos conceptos, teorías, evolución del pensamiento y experiencias
+sobre el crecimiento y el desarrollo económicos; este capítulo centra la atención en los
+aportes de los economistas latinoamericanos a las teorías o a sus connotaciones de
+política económica para el desarrollo.
+• Una vez desarrollado íntegramente el modelo, en los tres capítulos siguientes volvernos
+a examinar el papel de la política macroeconómica. En el capítulo 27, aplicamos todos
+los conceptos aprendidos a lo largo del libro aun caso concreto sobre la política
+económica de la Argentina actual: la convertibilidad en el nuevo contexto internacional,
+en especial, en el Mercosur. En el 28 y en el 29 evaluamos el papel de la política
+monetaria y la fiscal junto con la función del sector público en una sociedad,
+respectivamente.
+• Vista desde afuera, la macroeconomía parece a veces un campo dividido en escuelas –
+keynesianos, monetaristas, nuevos clásicos, economistas de la oferta, etc.– que se lanzan
+argumentos mutuamente. El proceso real de investigación es más ordenado y más
+productivo de lo que sugiere esta imagen. En el último capítulo, el 30, examinamos la
+historia reciente de la macroeconomía y cómo hemos acabado creyendo lo que creemos
+hoy. Identificamos lo que son, a nuestro juicio, las principales diferencias entre los
+macroeconomistas y formulamos el conjunto de proposiciones que definen el núcleo de
+la macroeconomía actual.
+Resumen
+(cid:190) El PIB, que es el indicador de la actividad agregada de un país, puede concebirse de tres
+formas equivalentes: (1) el PIB es el valor de los bienes y servicios finales producidos en
+la economía durante un determinado período; (2) el PIB es la suma del valor agredo de la
+economía durante un determinado período; y (3) el PIB es la suma de las rentas de la
+economía durante un determinado período.
+19
+
+(cid:190) El PIB nominal es la suma de las cantidades de bienes finales producidos multiplicada
+por su precio corriente. El PIB real es la suma de las cantidades producidas multiplicada
+por el precio que tenían en el año base.
+(cid:190) La población activa es la suma de las personas ocupadas y desempleadas. La tasa de
+desempleo es el cociente entre el número de desempleados y la población activa. Una
+persona se considera desempleada si no tiene trabajo y ha estado buscando empleo en las
+cuatro últimas semanas.
+(cid:190) La ley de Okun es una relación empírica entre el crecimiento del PIB y la variación de la
+tasa de desempleo. Muestra que cuando el crecimiento de la producción es elevado, la
+tasa de paro disminuye y, viceversa, cuando el crecimiento es bajo, la tasa de desempleo
+aumenta.
+(cid:190) La inflación es una subida del nivel general de precios, una subida del nivel de precios.
+La tasa de inflación es la tasa a la que sube el nivel de precios. Los macroeconomistas
+examinan dos indicadores del nivel de precios. El primero es el deflactor del PIB o
+índice de precios implícitos, que indica el precio medio de los bienes producidos en la
+economía y el segundo es el índice de precios de consumo (IPC), que indica el precio
+medio de los bienes consumidos en la economía.
+(cid:190) La curva de Phillips es la relación empírica entre la tasa de desempleo y la variación de
+la tasa de inflación. Esta relación ha variado con el paso del tiempo y de unos países a
+otros. En Estados Unidos, actualmente adopta la forma siguiente: cuando la tasa de
+desempleo es baja, la inflación tiende a aumentar. Cuando es alta, la inflación tiende a
+disminuir.
+(cid:190) Los economistas consideran que una elevada inflación altera la distribución de la renta y
+crea distorsiones e incertidumbre.
+(cid:190) El Estado que gasta más de lo que ingresa incurre en déficit presupuestarlos. Los países
+que importan más de lo que exportan incurren en déficit comerciales. La razón por la que
+los macroeconomistas examinan los déficit presupuestarios y comerciales y por la que
+les preocupan se halla en que pueden presagiar la necesidad de realizar dolorosos ajustes
+en el futuro. No tendría sentido resumir aquí el mapa del libro. Pero el lector debe
+recordar el principio básico que subyace a la estructura del libro:
+(cid:190) Las variaciones de la producción en breves períodos –a corto plazo– dependen
+principalmente de las variaciones de la demanda. En los períodos largos –a largo plazo–,
+dependen de factores relacionados con la oferta, que van desde la población activa hasta
+el stock de capital y la situación de la tecnología. En los períodos intermedios –a
+mediano plazo–, desempeñan un papel importante tanto los factores relacionados con la
+demanda como los factores relacionados con la oferta.
+Términos clave
+(cid:153) contabilidad nacional
+(cid:153) producto interior bruto (PIB)
+(cid:153) producto bruto nacional (PBN)
+(cid:153) bien intermedio
+(cid:153) valor agregado
+(cid:153) PIB nominal, PIB monetario o PIB en unidades monetarias corrientes
+(cid:153) PIB real, PIB expresado en bienes, PIB en unidades monetarias constantes, PIB ajustado por
+la inflación o PIB en unidades monetarias del año base
+(cid:153) crecimiento del PIB
+(cid:153) expansiones
+(cid:153) recesiones
+(cid:153) cálculo hedonista de los precios
+(cid:153) población activa
+(cid:153) tasa de desempleo
+(cid:153) Encuesta Permanente de Hogares (EPH)
+(cid:153) Current Population Survey (CPS)
+(cid:153) inactivos
+(cid:153) trabajadores desanimados
+20
+
+(cid:153) tasa de actividad
+(cid:153) ley de Okun
+(cid:153) economía sumergida
+(cid:153) inflación
+(cid:153) nivel de precios
+(cid:153) tasa de inflación
+(cid:153) deflactor del PIB
+(cid:153) número índice
+(cid:153) coste de la vida
+(cid:153) índice de precios de consumo (IPC)
+(cid:153) índice de precios mayoristas (1PM)
+(cid:153) curva de Phillips
+(cid:153) déficit presupuestario
+(cid:153) déficit comercial
+(cid:153) corto, mediano y largo plazo
+Preguntas y problemas
+1. Durante un año se realizan las siguientes actividades:
+(i) Una compañía minera que se dedica a la extracción de plata paga a sus trabajadores U$S 75.000
+por extraer 50 kg de plata, que vende a un fabricante de joyas por 100.000.
+(ii) El fabricante de joyas paga a sus trabajadores U$S 50.000 por hacer collares de plata, que vende
+directamente a los hogares por 400.000.
+a) Utilizando el enfoque de la “producción de bienes finales”, ¿cuál es el PIB?
+b)¿Cuál es el valor agregado en cada fase de producción? Utilizando el enfoque del valor agregado,
+¿cuál es el PIB?
+c) ¿Cuáles son los salarios y los beneficios totales generados por esta actividad? Utilizando el
+enfoque de la renta, ¿cuál es el PIB?
+2. Una economía produce tres bienes: libros, pan y habas. La producción y los precios correspondientes a
+1998 y 1999 son los siguientes:
+1998 1999
+Cantidad Precio Cantidad Precio
+Libros 100 10,00 110 10,00
+Pan 200 1,00 200 1,50
+(barras)
+Habas 500 0,50 450 1,00
+(libras)
+a) ¿Cuál es el PIB nominal en 1998?
+b) ¿Yen 1999?
+c) Utilizando 1998 corno año base, ¿cuál es el PIB real en 1998 y en 1999? ¿En qué porcentaje ha variado el
+PIB real entre 1998 y 1999?
+d) Utilizando 1999 como año base, ¿cuál es el PIB real en 1998 y en' 1999? ¿En qué porcentaje ha variado el
+PIB real entre 1998 y 1999?
+e) “La tasa de crecimiento del PIB real que obtengamos depende de los precios del año base que utilicemos
+para medir el PIB real.” ¿Verdadero o falso?
+3. Utilice los datos del problema 2 y 1998 como año base y calcule:
+a) El deflactor del PIB de 1998 y de 1999.
+b) La tasa de inflación de este período.
+4. Suponga que en Estados Unidos hay en un determinado mes 190.000.000 de personas en edad activa, de
+las cuales solo 120.000.000 tienen empleo. Del resto, 10.000.000 están buscando trabajo, 15.000.000 han
+renunciado a buscarlo y 45.000.000 no quieren trabajar.
+a) ¿Cuál es la población activa?
+b) ¿Cuál es la tasa de actividad?
+21
+
+c) ¿Cuál es la tasa oficial de desempleo?
+d) Si todos los trabajadores desanimados se consideraran desempleados, ¿cuál sería la tasa de
+desempleo?
+5. Suponga que se le pide que calcule un índice hedonista de los precios de cada uno de los siguientes bienes:
+(i) Automóviles.
+(ii) Videocámaras.
+(iii) Impresoras.
+(iv) Revisiones médicas anuales.
+Responda en el caso de cada uno de los bienes:
+a) ¿Qué características de cada uno de los bienes destacaría para la fijación implícita de los precios?
+b) ¿Cómo influiría la fijación hedonista de los precios en nuestra estimación de la variación del
+precio de los bienes registrada en la última década?
+6. Analizando los datos abajo indicados, comente cómo han evolucionado los precios en ese período:
+Fin de Bienes Servicios Servicios
+privados públicos
+1993 133 137 135
+1994 135 177 150
+1995 137 179 155
+1996 137 179 167
+1997 136 179 175
+1998 137 180 187
+Fuente Ministerio de Economía (publicado en Ámbito Financiero 4/2/99).
+7. Con respecto al cuadro de la estructura del IPC ilustrada en este capítulo para la Argentina, observe los
+distintos rubros de la canasta de bienes del INDEC: ¿Cuál es el que tiene mayor incidencia en el cálculo de la
+tasa de inflación?
+Lecturas complementarias
+Ferrucci, Ricardo, Instrumental para el estudio de la economía argentina, Ed. Macchi, Buenos Aires, 1997.
+Pérez Enrri, Daniel, Economía en acción, Ed. Macchi, Buenos Aires, 2000.
+Todos los indicadores económicos son publicados por el INDEC, a través de distintas publicaciones
+periódicas.
+Si el lector desea saber algo más sobre los numerosos indicadores económicos que se publican
+periódicamente en la prensa –desde el índice de ofertas de empleo hasta el índice de ventas al por menor–,
+existen dos publicaciones fáciles de leer:
+Frumkin, Norman, The Guide to Economic Indicators, M. E. Sharpe, Nueva York, 1994, 2a ed.
+Stansbury Carnes, W. y Slifer, Stephen, The Atlas of Economic Indicators, Harper Business, Nueva York,
+1991.
+22
+
+CAPÍTULO 3. EL MERCADO DE BIENES
+La relación entre la producción, la renta y la demanda agregadas es fundamental para el análisis
+económico de las variaciones interanuales de la actividad económica. Las variaciones de la demanda de
+bienes alteran la producción. Las variaciones de la producción alteran la renta y, a su vez, la demanda de
+bienes. La interrelación puede recogerse de una manera más formal por medio de un sencillo diagrama
+como el de la figura 3.1:
+Figura 3.1 La producción, la renta y la demanda de bienes.
+El objetivo de este capítulo y del siguiente es examinar esta interrelación y sus implicaciones.
+3.1 La composición del PIB
+Es probable que las compras de máquinas por parte de las empresas no dependan de los mismos
+factores que las de alimentos por parte de los consumidores o las de nuevos aviones por parte del Estado. Por
+lo tanto, un buen punto de partida es el examen de la producción agregada (PIB) desde el punto de vista de
+los diferentes bienes producidos y de los diferentes tipos de compradores de estos bienes. El cuadro 3.1
+muestra la descomposición del PIB que utilizan normalmente los economistas (para una versión más
+detallada y definiciones más formales, véase el apéndice 2).
+• El primer componente del PIB es el consumo, que representaremos por medio de C. Son
+los bienes y los servicios comprados por los consumidores; van desde alimentos hasta
+billetes de avión, vacaciones, nuevos automóviles, etc. El consumo es, con diferencia, el
+mayor componente del PIB: en 1994 representó un 69 % del PIB de Estados Unidos.
+• El segundo componente es la inversión (I), llamada a veces inversión fija para
+distinguirla de la inversión en existencias. La inversión es la suma de dos componentes.
+El primero, la inversión no residencial, es la compra de nuevas plantas o nuevas
+máquinas –desde turbinas hasta computadoras– por parte de las empresas. El segundo, la
+inversión residencial, es la compra de nuevas viviendas o departamentos por parte de los
+individuos. Los dos tipos de inversión y las decisiones en las que se basan tienen en
+común más de lo que a primera vista pudiera parecer. Las empresas compran máquinas o
+plantas para producir más en el futuro. Los individuos compran viviendas o
+departamentos para obtener servicios de vivienda en el futuro. Esta es la justificación
+para agruparlos bajo el mismo título, “inversión”. En Estados Unidos, los dos
+componentes de la inversión representaron conjuntamente un 15 % del PIB en 1994.
+Obsérvese que los economistas utilizan el término inversión en un sentido más estricto que el
+profano o la prensa financiera. En el lenguaje corriente, “inversión” se refiere a la compra de cualquier
+activo, como oro o acciones de General Motors. Los economistas reservan el término en relación con la
+compra de nuevos bienes de capital, como máquinas, edificios o viviendas. Cuando se refieren a la compra
+de activos financieros, utilizan el término inversión financiera.
+• El tercer componente es el gasto público en bienes y servicios (G). Son los bienes y
+servicios comprados por el Estado en todas sus instancias. Los bienes van desde aviones
+hasta equipos de oficina y los servicios comprenden aquellos suministrados por los
+empleados públicos. De hecho, en la contabilidad nacional se considera que el Estado
+compra los servicios suministrados por los empleados públicos y que, a continuación,
+presta estos servicios al público.
+Obsérvese que G no comprende las transferencias del Estado, como el servicio nacional de salud o
+las pensiones de la seguridad social ni los intereses pagados por la deuda pública. Aunque se trata
+Claramente de gastos del Estado, no son compras de bienes y servicios. Por lo tanto, la cifra del cuadro 3.1
+correspondiente al gasto público en bienes y servicios, alrededor de un 17 % del PIB de Estados Unidos, es
+23
+
+menor que la cifra correspondiente al gasto público total, incluidas las transferencias y los intereses, que en
+1994 representaron alrededor de un 36 % del PIB.
+• La suma de las líneas 1 a 3 del cuadro 3.1 indica las compras de bienes y servicios por
+parte de los consumidores, las empresas y el Estado norteamericanos. Para hallar las
+compras totales de bienes y servicios norteamericanos, debernos hacer dos operaciones
+más.
+Cuadro 3.1 La composición del PIB de Estados Unidos, 1994.
+Miles de millones Porcentaje del
+de dólares PIB*
+PIB (Y) 6.738 100
+1 Consumo (C) 4.628 69
+2 Inversión (I) 981 15
+No residencial 698 II
+Residencial 283 4
+3 Gasto público (G) 1.148 17
+4 Exportaciones netas -98 -1
+Exportaciones (X) 719 II
+Importaciones (Q) -817 12
+5 Inversión en existencias (l) 52 1
+s
+*El total no suma 100 debido a los redondeos.
+Fuente: Survey of Current Business. septiembre de 1995. cuadro I.I.
+En primer lugar, debemos excluir las importaciones (Q), que son las compras de bienes y servicios
+extranjeros por parte de los consumidores, las empresas y el Estado norteamericanos. En segundo lugar,
+debemos añadir las exportaciones (X), que son las compras de bienes y servicios norteamericanos por parte
+de extranjeros. La diferencia entre las exportaciones y las importaciones se denomina exportaciones netas o
+balanza comercial. Si las exportaciones son superiores a las importaciones, se dice que el país tiene un
+superávit comercial, lo cual significa que la balanza comercial es positiva; un déficit comercial significa
+que la balanza comercial es negativa. En 1994, las exportaciones representaron un 11 % del PIB y las
+importaciones, un 12 %, por lo que Estados Unidos incurrió en un déficit comercial del 1 % del PIB.
+(cid:0) La suma de las líneas 1 a 4 del cuadro 3.1 indica las compras de bienes y servicios
+norteamericanos en 1994. Para hallar la producción de Estados Unidos correspondiente a
+1994, es necesario dar un paso más. Algunos de los bienes producidos durante un
+determinado año pueden no venderse ese mismo año sino más tarde. Y algunos de los bienes
+vendidos durante un año pueden haberse producido un año antes. La diferencia entre la
+producción y las ventas se denomina inversión en existencias y se representa por medio de
+I (el subíndice S se refiere a stocks, que es otro término para referirse a las existencias). Si
+s
+la producción es superior a las ventas, las existencias de bienes aumentan: la inversión en
+existencias es positiva. Si la producción es inferior a las ventas, las existencias disminuyen:
+la inversión en existencias es negativa. Esta normalmente es pequeña, positiva unos años y
+negativa otros. En 1994, representó un 1 % del PIB de Estados Unidos.
+Con la ayuda de esta descomposición del PIB, podemos pasar ahora a analizar nuestro primer
+modelo de determinación de la producción.
+3.2 La determinación de la demanda
+Representemos la demanda de bienes por medio de Z. Teniendo en cuenta las consideraciones
+anteriores, podemos expresarla de la forma siguiente:
+Z= C+I+G+X-Q
+La demanda es la suma del consumo más la inversión más el gasto público más las exportaciones
+menos las importaciones. Obsérvese que esta ecuación se cumple por definición: define la demanda de
+bienes, Z. Este tipo de ecuación, denominada identidad, se expresa utilizando el símbolo “m” en lugar del
+signo de igualdad.
+24
+
+Supongamos ahora que solo hay tres fuentes de demanda: el consumo, la inversión y el gasto público
+(un modelo casi siempre comienza con la palabra “supongamos” para indicar que se va a simplificar la
+realidad con el fin de centrar la atención en una determinada cuestión). En otras palabras, prescindamos de
+las exportaciones y las importaciones suponiendo que se trata de una economía cerrada, es decir, que no
+comercia con el resto del mundo. Aguardaremos al capítulo 11 para “abrir” la economía y reintroducir las
+exportaciones y las importaciones.
+Supongamos a continuación que todas las empresas producen el mismo bien, que puede ser utilizado
+por los consumidores para consumirlo, por las empresas para invertir o por el Estado. Con este supuesto, solo
+es necesario examinar un mercado, el mercado “del” bien (de ahí el título del capítulo 4 de este libro, “El
+mercado de bienes: dinámica”, en lugar de “Los mercados de bienes”). Lo único que necesitamos hacer
+ahora es averiguar qué determinan la oferta y la demanda en ese mercado.
+Supongamos, además, que las empresas están dispuestas a ofrecer cualquier cantidad del bien a un
+determinado precio; llamémoslo P. En otras palabras, prescindamos del hecho de que a medida que las
+empresas ofrecen más, sus costes pueden aumentar y obligarlas a subir los precios. Este supuesto nos
+permitirá centrar la atención en el papel que desempeña la demanda en la determinación de la producción.
+Pero como veremos más adelante en este libro, es un supuesto que solo es más o menos correcto a corto
+plazo. Por lo tanto, el modelo que vamos a desarrollar será relevante sobre todo en el caso de las variaciones
+de la producción a corto plazo. Para ver qué determina la producción durante una década, por ejemplo, es
+necesario abandonar este supuesto, lo que haremos a partir del capítulo 15.
+Ahora podemos centrar la atención en lo que determina la demanda de bienes, Según nuestros
+supuestos, esta es la suma del consumo, la inversión y el gasto público:
+Z = C + 1+ G
+Examinemos cada uno de los componentes por separado.
+El consumo (C)
+El principal determinante del consumo es, sin lugar a dudas, la renta o. más concretamente, la renta
+disponible, es decir, la renta que queda una vez que los consumidores han recibido las transferencias del
+Estado y han pagado los impuestos. Cuando aumenta su renta disponible, compran más bienes; cuando
+disminuye, compran menos. Hay otras variables que afectan al consumo, pero prescindiremos de ellas de
+momento.
+Sean C el consumo e Y la renta disponible. El consumo puede expresarse de la forma siguiente:
+D
+C = C(Y )
+D
+(+)
+Esta expresión no es más que una manera formal de decir que el consumo es una función de la renta
+disponible. La función C(Y ) se denomina función de consumo. El signo positivo situado debajo de Y
+D D
+significa que existe una relación positiva entre la renta disponible y el consumo: recoge el hecho de que
+cuando aumenta la renta disponible, también aumenta el consumo. Los economistas denominan a una
+ecuación de este tipo ecuación de conducta, para indicar que recoge algún aspecto de la conducta, en este
+caso, la conducta de los consumidores.
+En este libro utilizaremos funciones por ser un instrumento sencillo, pero formal, para recoger las
+relaciones entre las variables. En el apéndice 3, que se encuentra al final del libro, describimos lo que
+necesita saber el lector sobre las funciones, que es muy poco. En ese apéndice presentamos los
+conocimientos matemáticos que necesitará para estudiar este libro. No se preocupe: siempre describiremos
+las funciones verbalmente cuando las presentemos por primera vez.
+A menudo resulta útil especificar más la forma de la función; supongamos, por ejemplo, que es
+lineal. He aquí un caso de ese tipo. Es razonable suponer que la relación entre el consumo y la renta
+disponible viene dada por:
+C = C + C Y (3.1)
+0 1 D
+Ahora estamos suponiendo que la función es una relación lineal; se caracteriza por tener dos
+parámetros, C y C . Examinemos cada uno de ellos por separado.
+0 1
+25
+
+El parámetro c se denomina propensión marginal a consumir. Indica la influencia de un dólar
+1
+adicional de renta disponible en el consumo. Si c es igual a 0,7, un dólar adicional de renta disponible eleva
+1
+el consumo en U$S 1 x 0,7 = USS 0,70. c está sujeto a la restricción natural de que es positivo: un
+1
+incremento de la renta disponible aumentará probablemente el consumo. Otra restricción natural es que es
+menor que 1: es probable que los individuos solo consuman una parte de un aumento cualquiera de la renta y
+que ahorren el resto.
+El parámetro c tiene una sencilla interpretación. Es lo que consumirían los individuos si su renta
+0
+disponible fuera igual a 0 en el año actual: si Y es igual a 0 en la ecuación (3.1), entonces C = c . Una
+D 0
+restricción natural es que si la renta actual es igual a 0, el consumo seguirá siendo positivo: ¡La gente tiene
+que comer! Eso implica que c es positivo. ¿Cómo pueden tener los individuos un consumo positivo si su
+0
+renta es 0? Desahorrando, es decir, recurriendo a sus activos o endeudándose.
+La figura 3.2 representa la relación entre el consumo y la renta disponible que implica la ecuación
+(3.1). Dado que es una relación lineal, se representa por medio de una línea recta. Su ordenada en el origen
+es igual a c y su pendiente es igual a c . Como c es menor que 1, la pendiente de la línea es menor que 1: la
+0 1 1
+línea es más plana que una recta de 45º (en el apéndice 3 se repasan los gráficos, las pendientes y las
+ordenadas en el origen).
+A continuación es necesario definir la renta disponible. En el apéndice 2 se indica la relación exacta
+entre esta y la renta agregada. Supongamos que la renta disponible viene dada simplemente por:
+Y =Y - T
+D
+donde Y es la renta agregada y T son los impuestos pagados menos las transferencias recibidas por
+los consumidores. Obsérvese que esta ecuación es, de nuevo, una identidad; de ahí que utilicemos el símbolo
+“≡”. Para mayor brevedad, cuando utilicemos el símbolo T, hablaremos simplemente de impuestos, pero
+recuérdese que es igual a los impuestos menos las transferencias.
+Sustituyendo en la ecuación (3.1) del consumo Y por su valor, tenemos que:
+D
+C= c + c (Y-T) (3.2)
+0 1
+El consumo es una función de la renta y de los impuestos. Cuando aumenta la renta, también
+aumenta el consumo, aunque en una proporción menor. Cuando suben los impuestos, disminuye el consumo,
+pero también en una proporción menor.
+La inversión (I)
+Los modelos tienen dos tipos de variables. Algunas dependen de otras del modelo y, por lo tanto, se
+explican dentro del modelo. Estas variables se denominan endógenas. Es el caso del consumo. Otras no se
+explican dentro del modelo sino que vienen dadas. Estas variables se denominan exógenas. Es así como
+concebiremos aquí la inversión. La consideramos dada y la expresamos de la forma siguiente:
+(3.3)
+Figura 3.2 El consumo y la renta disponible.
+El consumo aumenta cuando aumenta la renta disponible, pero no en fa misma proporción.
+Colocamos una barra encima de la inversión para acordarnos de que está dada.
+26
+
+Consideramos dada la inversión para simplificar nuestro modelo. Pero el supuesto no es inocuo.
+Implica que cuando examinemos más adelante los efectos de las variaciones de la producción, supondremos
+que la inversión no responde a esas variaciones. No es difícil ver que esta implicación puede ser bastante
+incorrecta corno descripción de la realidad: las empresas que aumentan la producción pueden muy bien
+llegar a la conclusión de que necesitan más máquinas y, por lo tanto, aumentar su inversión. Dejamos este
+mecanismo fuera del modelo por el momento, pero presentaremos un análisis más realista de la inversión en
+el capítulo 5.
+El gasto público (G)
+El tercer componente de la demanda de nuestro modelo es el gasto público, G, que, junto con los
+impuestos (T), describe la política fiscal del gobierno, es decir, su elección de los impuestos y del gasto.
+Consideraremos que G y T son variables exógenas, al igual que la inversión. La razón no es exactamente la
+misma que en el caso de la inversión. Se basa en dos consideraciones.
+En primer lugar, el Estado no se comporta con la misma regularidad que los consumidores o las
+empresas, por lo que no podemos formular una regla fiable para G o T como la que escribimos en el caso del
+consumo. Sin embargo, esta primera razón no es totalmente convincente. Aun cuando el Estado no siguiera
+sencillas ecuaciones de conducta como los consumidores, esta es en buena parte predecible. Esta cuestión se
+examinará en los capítulos 27 a 29, pero la dejaremos de lado hasta entonces.
+La segunda consideración es la más importante. La tarea de los macroeconomistas es, en parte,
+asesorar a los gobiernos en sus decisiones sobre el gasto y los impuestos. Por lo tanto, no queremos examinar
+un modelo sobre cuya conducta ya hayamos supuesto algo. Queremos poder decir: “Si eligiera estos valores
+de G y T, esto es lo que ocurriría”. Por lo tanto, en este libro consideraremos normalmente que las variables
+G y T son elegidas por el gobierno y no trataremos de explicarlas1.
+3.3 La determinación de la producción de equilibrio
+Reunamos los elementos que hemos introducido hasta ahora. De acuerdo con nuestro supuesto de
+que las exportaciones y las importaciones son ambas iguales a cero, la demanda de bienes es la suma del
+consumo, la inversión y el gasto público:
+Z = C + I + G
+Si sustituimos C e I por sus expresiones de las ecuaciones (3.2) y (3.3), obtenemos:
+Z= c + c + (Y - T) + Ī + G (3.4)
+0 1
+La demanda de bienes (Z) depende de la renta (Y) y de los impuestos (T), los cuales afectan ambos al
+gasto de consumo, así como de la inversión (Ī) y del gasto público (G), que consideramos variables
+exógenas.
+Pasemos ahora a analizar el equilibrio del mercado de bienes. Supongamos que las empresas no
+tienen existencias, por lo que la inversión en existencias es igual a 0 (pensemos, por ejemplo, en la economía
+que solo produce servicios; las empresas no pueden tener existencias de servicios debido a la propia
+naturaleza de estos). En ese caso, el equilibrio del mercado de bienes es simplemente la condición según la
+cual la oferta de bienes (Y) debe ser igual a su demanda (Z):
+Y = Z (3.5)
+Esta ecuación se denomina ecuación de equilibrio. Los modelos están formados por tres tipos de
+ecuaciones: ecuaciones de conducta, identidades y condiciones de equilibrio. Ya hemos visto ejemplos de
+cada una. Sustituyendo la demanda (Z) por su expresión de la ecuación (3.4), tenemos que:
+Y= C + C (Y - T) + Ī +G (3.6)
+0 1
+1 Dado que casi siempre consideraremos que G y T son variables exógenas, no utilizaremos una barra para indicar su
+valor, con el fin de aligerar la notación.
+27
+
+La ecuación (3.6) recoge el mecanismo que hemos descripto de una manera informal al comienzo del
+capítulo. La producción, Y, debe ser igual a la demanda, Z. La demanda depende, a su vez, de la renta, Y.
+Obsérvese que estamos utilizando el mismo símbolo, Y, para referirnos a la producción y a la renta. No es
+ninguna casualidad. Como hemos visto en el capítulo 2, la renta y la producción son exactamente iguales;
+son dos formas de examinar el PIB: en un caso, desde el punto de vista de la producción, y en el otro, desde
+el punto de vista de la renta.
+Una vez elaborado un modelo, ahora podemos resolverlo para ver qué determina el nivel de
+producción y cómo varía este, por ejemplo, en respuesta a una variación del gasto público. Resolver un
+modelo significa no solo resolverlo algebraicamente sino también comprender por qué los resultados son los
+que son. Así pues, en este libro, resolver un modelo también significará caracterizar los resultados utilizando
+gráficos –omitiendo a veces el álgebra totalmente– y describir verbalmente los resultados y los mecanismos.
+Estos tres pasos también son los que siguen los macroeconomistas en sus investigaciones: el álgebra para
+asegurarse de que la lógica es correcta, los gráficos para entender intuitivamente lo que sucede y las palabras
+para expresar los resultados.
+El álgebra
+Expresemos de nuevo la ecuación de equilibrio (3.6) de la forma siguiente:
+Y= C + C Y - C T + Ī +G
+0 1 1
+Trasladando el término C Y del segundo miembro al primero y reorganizando el segundo, tenemos
+1
+que:
+(1 - C )Y= C + Ī +G - C T
+1 0 1
+Por último, dividamos ambos miembros por (1 - C ):
+1
+1
+Y = __________ ( C + Ī +G - C T)
+0 1
+1 - C
+1
+Esta ecuación caracteriza el nivel de producción de equilibrio. Examinemos el primer término y el
+segundo del segundo miembro de esta expresión, en orden inverso.
+El segundo término, ( C + Ī +G - C T), tiene una sencilla interpretación. Es la demanda de bienes si
+0 1
+la producción fuera igual a 0. Si fuera igual a 0, sabemos por la ecuación (3.2) que el consumo sería igual a
+C - C T). La inversión y el gasto público, que por hipótesis no dependen del nivel de producción, seguirían
+0 1
+siendo iguales a Ī y G, respectivamente. Agrupando términos y reorganizando, la demanda sería igual a ( C
+0
++ Ī +G - C T)). Este término se denomina gasto autónomo para recoger la idea de que es el componente de
+1
+la demanda de bienes que no depende del nivel de producción.
+¿Podemos estar seguros de que el gasto autónomo es positivo? No, pero es muy probable que lo sea.
+Supongamos, por ejemplo, que el Estado tiene un presupuesto equilibrado, es decir, que los impuestos son
+iguales al gasto público. Si T = G y la propensión marginal a consumir (C ) es menor que 1 (como hemos
+1
+supuesto), entonces (G - C T) es positivo y, por lo tanto, también lo es el gasto autónomo. El gasto autónomo
+1
+solo podría ser negativo si el Estado tuviera gran superávit presupuestario, es decir, si los impuestos fueran
+mucho mayores que el gasto público. Prescindiremos aquí de este caso improbable.
+Consideremos ahora el primer término: l/(1 - C ). Dado que la propensión marginal a consumir (C )
+1 1
+es entre 0 y 1, 1/(1 - C ) es un número mayor que 1. Este número, que multiplica el efecto del gasto
+1
+autónomo, se denomina multiplicador. Cuanto más cercano es C a 1, mayor es el multiplicador.
+1
+¿Qué implica el multiplicador? Supongamos que de pronto los consumidores deciden consumir más
+con su nivel inicial de renta. Más concretamente, supongamos que el término C de la ecuación (3.2)
+0
+aumenta en U$S 1.000 millones. La ecuación (3.7) nos dice que la producción aumenta en más de U$S 1.000
+millones. Por ejemplo, si C es igual a 0,6, el multiplicador es igual a 1/(1 - 0,6) = 2,5, por lo que la
+1
+producción aumenta en 2,5 x 1.000 millones = 2.500 millones. Aquí hemos examinado un aumento del
+consumo, pero es evidente que cualquier aumento del gasto autónomo, desde un incremento de la inversión
+hasta un incremento del gasto público o una reducción de los impuestos, produce el mismo efecto cualitativo:
+aumenta la producción más de lo que influye directamente en el gasto autónomo:
+¿A qué se debe el efecto multiplicador? El examen de la ecuación (3.6) nos da una pista. Un aumento
+de C eleva la demanda. El aumento de la demanda provoca entonces un incremento de la producción y de la
+0
+28
+
+renta. Pero el incremento de la renta eleva aun más el consumo, lo que eleva aun más la demanda, y así
+sucesivamente. Como mejor se refuerza y refina esta idea intuitiva es utilizando un enfoque gráfico.
+Un gráfico
+Para que haya equilibrio, la producción de bienes (Y) debe ser igual a la demanda de bienes (Z). La
+figura 3.3 representa la producción y la demanda como funciones de la renta: el equilibrio se encuentra en el
+punto en el que la producción y la demanda son iguales.
+El primer paso consiste en representar la producción en función de la renta. La producción se mide
+en el eje de ordenadas y la renta, en el de abscisas. Representar la producción en función de la renta es
+sencillo, ya que ambas siempre son iguales. Por lo tanto, la relación entre las dos es simplemente una recta
+de 45°, a saber, la línea de la figura 3.3 que tiene una pendiente igual a 1.
+El segundo paso consiste en representar la demanda, Z, en función de la renta. La relación entre la
+demanda y la renta viene dada por la ecuación (3.4). Formulémosla de nuevo aquí para mayor comodidad
+reagrupando los términos del gasto autónomo en el término entre paréntesis de la derecha:
+Z = C Y + (C + Ī +G - C T)
+1 0 1
+La demanda depende de la renta, a través de su influencia en el consumo, y del gasto autónomo. La
+relación entre la demanda y la renta se representa por medio de la línea recta ZZ de la figura. La ordenada en
+el origen –el valor de la demanda cuando la renta es igual a 0– es igual al gasto autónomo. La pendiente de la
+recta es igual a la propensión marginal a consumir, C . De acuerdo con la restricción de que el término de la
+1
+pendiente, C , es positivo, pero menor que 1, la recta tiene pendiente positiva, pero menor que 1.
+1
+Figura 3.3 El equilibrio en el mercado de bienes.
+Para que la producción se encuentre en su nivel de equilibrio, debe ser igual a la demanda.
+Hay equilibrio cuando la producción es igual a la demanda. Por lo tanto, el nivel de producción de
+equilibrio, Y, se encuentra en el punto de intersección de la recta de 45° y la curva de demanda, ZZ, es decir,
+en el punto A. A la izquierda de A, la demanda es superior a la producción; a la derecha, la producción es
+superior a la demanda. A es el único punto en el que son iguales.
+Volvamos ahora al ejemplo que analizamos antes. Supongamos que con un determinado nivel de
+renta los consumidores incrementan su consumo: C aumenta en U$S 1.000 millones. La figura 3.4, que se
+0
+basa en la 3.3, muestra qué ocurre como consecuencia. Cualquiera que sea el valor de la renta, la demanda es
+mayor en 1.000 millones. Por lo tanto, si la relación entre la demanda y la renta estaba representada antes por
+la línea recta ZZ, la nueva relación está representada por la línea recta ZZ', que es paralela a ZZ, pero mayor
+en 1.000 millones. En otras palabras, la curva de demanda se desplaza en sentido ascendente en 1.000
+millones. El nuevo equilibrio se encuentra en el punto de intersección de la recta de 45° y la nueva curva de
+demanda, por lo tanto, en el punto A'. La producción de equilibrio aumenta de Y a Y'. Es evidente que el
+aumento de la producción, Y' - Y, que podemos medir en el eje de abscisas o en el de ordenadas, es mayor
+que el aumento inicial del consumo de 1.000 millones. Este es el efecto multiplicador.
+29
+
+Con la ayuda del gráfico resulta más fácil saber cómo y por qué la economía se desplaza de A a A'.
+El incremento inicial del consumo provoca un aumento de la demanda. Con el nivel inicial de renta, Y, el
+nivel de demanda ahora se encuentra en el punto B: la demanda es 1.000 millones más alta. Para satisfacer
+este nivel más alto de demanda, las empresas aumentan la producción en 1.000 millones. La economía se
+desplaza al punto C, en el que tanto la demanda como la producción son mayores en 1.000 millones. Pero ahí
+no termina todo. El aumento del nivel de producción provoca un nuevo incremento de la demanda, por lo
+que ahora esta viene dada por el punto D. Este punto da lugar, a su vez, a un nivel más alto de producción, y
+así sucesivamente, hasta que la economía se encuentra en A', punto en el que la producción y la demanda
+vuelven a ser iguales y que, por lo tanto, es el nuevo equilibrio2.
+Figura 3.4 El efecto de un aumento del gasto autónomo en la producción.
+Cuando aumenta el gasto autónomo, la producción de equilibrio aumenta en una cuantía mayor.
+En palabras
+¿Cómo podernos resumir en palabras nuestros resultados?
+La producción depende de la demanda, la cual depende, a su vez, de la renta, que es igual a la
+producción. Un aumento de la demanda, por ejemplo, un aumento del gasto de consumo, provoca un
+aumento de la producción y de la renta, el cual provoca, a su vez, un aumento de la demanda, el cual provoca
+un nuevo aumento de la producción, y así sucesivamente. El resultado final es un aumento de la producción
+mayor que el desplazamiento inicial de la demanda en una proporción igual al multiplicador.
+Hemos centrado la atención en los aumentos de la demanda. Pero el mecanismo es simétrico: los
+descensos de la demanda provocan reducciones de la producción. La recesión que se registró en Estados
+Unidos en 1990-1991 se debió en gran medida a una repentina disminución de la confianza de los
+consumidores, que provocó una enorme disminución de la demanda de consumo y, a su vez, una enorme
+disminución de la producción.
+¿Por qué disminuyó tanto el consumo, dada la renta, a finales de 1990 y principios de 1991? La
+causa directa se muestra en la última columna del cuadro, que indica el valor del índice de confianza de los
+consumidores. Este índice se calcula a partir de una encuesta mensual a unos 5.000 hogares, en la que se les
+pregunta su opinión tanto con respecto a la situación económica actual corno con respecto a la situación
+económica futura, desde las oportunidades de empleo hasta la renta familiar esperada en un plazo de seis
+meses. Como verá el lector, el índice disminuyó espectacularmente –en un grado excepcional– en el cuarto
+trimestre de 1990. Los consumidores perdieron confianza, lo que los llevó a reducir su consumo, dada la
+renta, y provocó la recesión.
+Esta conclusión nos lleva a hacemos una última pregunta. ¿Por qué perdieron confianza los
+consumidores a fines de 1990? ¿Por qué se mostraron más pesimistas sobre el futuro? Lo cierto es que aún
+hoy los economistas no están seguros. Es más que posible que este cambio de opinión estuviera relacionado
+con la creciente probabilidad de que estallara una guerra en Oriente Medio, la que de hecho comenzó a
+principios de 1991, tras el inicio de la recesión. La gente temía que Estados Unidos se involucrara en una
+prolongada y costosa guerra. También temía que ese estallido en Oriente Medio generara una gran subida de
+2 Esta explicación sugiere un ajuste de la producción que se produce a lo largo de un período, en lugar de
+instantáneamente como estamos suponiendo aquí, En el capítulo 4 analizamos explícitamente esta dimensión temporal.
+30
+
+los precios del petróleo y una recesión: las dos grandes subidas anteriores de los precios del petróleo de los
+años 70 habían ido acompañadas de recesiones. Cualquiera que fuera la razón, la disminución de la
+confianza de los consumidores fue una de las grandes causas de la recesión de 1990-1991.
+A continuación, se realizará un ejercicio práctico del multiplicador a modo de ejemplo:
+a) En una economía sin sector público y sin impuestos: dada la ecuación de consumo por C = 100 + 0,8
+Y , determinar cuál es el valor del multiplicador.
+D
+Resolución:
+El multiplicador (m) está dado por la siguiente fórmula:
+1 1
+m = ______ = ______ = 5
+1 – c 1– 0,8
+1
+b) En una economía con impuestos: supongamos ahora que en esa economía se produce un aumento
+exógeno de la inversión de U$S 10.000. ¿En cuánto aumenta la producción?
+1
+Y = _______ ( c + I + G- c T)
+0 1
+1 – c
+1
+I = aumenta 10.000,
+por lo tanto:
+Y = 5 x 10.000 = 50.000
+El nivel de producción ha aumentado en U$S 50.000.
+3.4 La inversión es igual al ahorro: otra manera de concebir el equilibrio del mercado de bienes
+Hasta ahora hemos concebido el equilibrio desde el punto de vista de la igualdad de la producción y
+la demanda de bienes. Existe otro modo equivalente de concebirlo que centra la atención en la inversión y el
+ahorro. Esa es la manera en que formuló John Maynard Keynes por primera vez este modelo en 1936 en La
+teoría general de la ocupación, el interés y el dinero.
+Por definición, el ahorro (S) de los consumidores es igual a su renta disponible menos su consumo:
+S = Y - C
+D
+Utilizando esta definición de la renta disponible, ahora podemos formular el ahorro como la renta
+menos los impuestos menos el consumo:
+S = Y-T-C
+Volvamos ahora a la ecuación de equilibrio del mercado de bienes. La producción debe ser igual a la
+demanda, la cual es, a su vez, la suma del consumo, la inversión y el gasto público:
+Y=C+I+G
+Restando los impuestos (T) de ambos miembros y trasladando el consumo al primer miembro de la
+ecuación, tenemos que:
+Y- T – C = I + G - T
+Obsérvese que el primer miembro de esta ecuación es simplemente igual al ahorro (S), por lo que
+podemos volver a expresar esta ecuación de la forma siguiente:
+S = I + G - T
+31
+
+o, lo que es lo mismo,
+I=S+(T-G) (3.8)
+La ecuación (3.8) nos permite concebir de otra forma el equilibrio del mercado de bienes. La
+inversión se encuentra en el primer miembro. El primer término del segundo miembro es el ahorro de los
+consumidores, que podemos denominar ahorro privado. El segundo término es igual a los impuestos menos
+el gasto público. Si es positivo, el Estado experimenta un superávit presupuestario o, lo que es lo mismo, el
+ahorro público es positivo. Si es negativo –lo que, como hemos visto en el capítulo 2, ocurre actualmente en
+Estados Unidos–, incurre en un déficit presupuestario.
+Por lo tanto, la ecuación (3.8) establece que para que haya equilibrio en el mercado de bienes la
+inversión debe ser igual a la suma del ahorro privado y el ahorro público. Esta manera de examinar el
+equilibrio es la razón por la que la condición de equilibrio del mercado de bienes se denomina relación IS,
+pues indica que “la inversión es igual al ahorro” (saving en inglés).
+Para comprender mejor intuitivamente la ecuación (3.8), pensemos en una economía en la que solo
+hay una persona, que tiene que decidir cuánto va a consumir, invertir y ahorrar, es decir, una economía de
+“Robinson Crusoe”. Para Robinson Crusoe, la decisión de ahorrar y la de invertir son una misma cosa:
+cuando invierte (por ejemplo, reservando animales para la reproducción en lugar de comérselos),
+automáticamente ahorra. Sin embargo, en una economía moderna las decisiones de inversión corresponden a
+las empresas, mientras que las de ahorro corresponden a los consumidores y al Estado. En condiciones de
+equilibrio, la ecuación (3.8) indica que todas esas decisiones tienen que ser coherentes: la inversión debe ser
+igual al ahorro.
+Podemos estudiar las características del equilibrio por medio de la ecuación (3,8) y de las ecuaciones
+de conducta del ahorro y la inversión. Obsérvese, en primer lugar, que las decisiones de consumo y de ahorro
+son una misma cosa: una vez que los consumidores han elegido el consumo, su ahorro está determinado, y
+viceversa. La manera en que hemos especificado la conducta del consumo implica que el ahorro privado
+viene dado por:
+S= Y – T - C
+=Y – T – C - C (Y-T)
+0 1
+Reordenando, tenemos que:
+S= -C +(1- C )(Y-T)
+0 1
+De la misma manera que hemos llamado propensión marginal a consumir al término C , podemos
+1
+denominar propensión marginal a ahorrar al término (1 – C ). La propensión marginal a ahorrar indica
+1
+cuánto ahorran los individuos de una unidad adicional de renta. El supuesto antes postulado según el cual la
+propensión marginal a consumir (C ) oscila entre 0 y 1 implica que la propensión marginal a ahorrar (1 - C )
+1 1
+también oscila entre 0 y 1. El ahorro privado aumenta cuando aumenta la renta permanente, pero en menor
+cuantía que esta.
+En condiciones de equilibrio, la inversión debe ser igual al ahorro, que es la suma del ahorro privado
+y del público. Sustituyendo en la ecuación (3.8) el ahorro privado por la expresión que acabamos de obtener,
+tenemos que:
+I = - C + (1 - C )(Y-T)+(T-G)
+0 1
+Despejando la producción, como hemos hecho anteriormente, tenemos que:
+1
+Y = _______ ( c + Ī + G- c T)
+0 1
+1 – c
+1
+Esta expresión es exactamente igual que la ecuación (3.7), lo cual no debería constituir ninguna
+sorpresa. Estamos examinando el mismo modelo, solo que de una forma diferente, que más adelante nos
+resultará útil en algunas ocasiones.
+32
+
+La inversión y el ahorro en una economía abierta
+El mismo análisis realizado anteriormente se puede extender a una economía abierta. Es decir que
+ahora la demanda agregada incluye, además del consumo, la inversión y el gasto público, a las exportaciones
+netas (X - M). Por lo tanto, nuestro nuevo modelo estará dado por las siguientes ecuaciones:
+Y=C+I+G+(X-M)
+Restando los impuestos (T) de ambos miembros, obtenemos:
+Y – T – C = 1 + G – T + (X-M)
+El primer miembro de la ecuación es igual al ahorro, por lo que la ecuación puede expresarse como
+sigue:
+S=I+G-T+(X-M)
+Reordenando los términos se llega a la siguiente expresión:
+(S - I) + (T - G) = (X - M)
+A esta expresión que muestra los equilibrios interno y externo se la denomina modelo de tres
+brechas. Algunos autores hacen una distinción entre inversión pública e inversión privada, así como también
+entre consumo público y consumo privado3.
+Para aclarar este tema, expondremos un ejemplo sencillo: imaginemos que el único bien que produce
+la economía son sillas, y se producen 15 sillas (Y = 15 sillas). Supongamos también que él gasto agregado
+interno ola absorción doméstica, que está compuesta por C (consumo) e 1 (inversión) a nivel público y
+privado, es de 20 sillas. Es evidente que esta economía gasta más de lo que produce; alguien está enviando
+desde el exterior los bienes (sillas) excedentes que se absorbieron internamente, es decir, las importaciones
+se generaron debido a la expansión interna y hay un déficit externo de 5 sillas.
+15 sillas = producto o ingreso
+C + I = 20 sillas (absorción doméstica)
+(X - M) = -5
+ahorro privado = Y - C
+ahorro público, superávit o déficit público = T - G
+(S - I) + (T - G) = (X - M)
+o bien, expresado de otra forma:
+(Y - C - I) + (T - G) = (X - M)
+D
+Un país con déficit privado (gasta más que lo que produce) y déficit público tendrá por identidad
+déficit externo.
+El ejemplo dado de las sillas es ilustrativo a nivel de bienes. Si suponemos que de las 20 sillas
+gastadas hay 3 sillas que se utilizan como inversión (20 % del PIB) –por ejemplo, para las aulas de la
+universidad– y 17 sillas se usan como bienes de consumo suntuario –en camas solares o para tomar sol en
+una pileta–, también podríamos dividir estos bienes entre bienes absorbidos por el sector público
+(universidad pública) o el sector privado (universidad privada).
+Imagine que de las 3 sillas de la inversión, 2 son absorbidas por la universidad pública y la restante,
+por la universidad privada; de las 17 de consumo, 12 son absorbidas por el sector privado y 5, por el sector
+público. Pero a efectos del entendimiento y conceptualización del modelo, llamado modelo de tres brechas,
+vernos que siempre es una identidad que demuestra que si a lo largo de los años un país gasta o absorbe
+internamente más bienes y servicios que los que produce, alguien se los envía del exterior (5 sillas). Los
+países firman bonos o pagarés a quienes les han financiado ese exceso, por ejemplo, las 5 sillas.
+En síntesis, hacen una sustitución intertemporal para disponer de más bienes hoy comprometiendo
+deuda a futuro con bonos públicos o privados.
+3 Ver Ferrucci, Ricardo, Instrumental para el estudio de la economía argentina, Ed. Macchi, Buenos Aires, 1998.
+33
+
+Si esas sillas (o bienes y servicios) se hubieran utilizado más para inversión que para consumo
+suntuario presente, por ejemplo, en aulas para la educación universitaria que mejora la competitividad futura
+en lugar de usarlas para camas solares o reposeras de playa, probablemente la economía en su conjunto
+puede generar en el futuro excedentes para repagar el capital y los intereses; las expectativas y la calificación
+de riesgo de ese país serían más favorables, el valor de sus bonos seria más alto, la tasa de interés sería
+menor y el ajuste de la economía para generar esos excedentes en el futuro sería menos doloroso y profundo.
+Por ejemplo: supongamos que para disminuir ese déficit comercial en -5 sillas, el país bajará su consumo
+público y privado en 4 unidades y la inversión en 1 unidad. Con este ajuste se equilibraría el sector externo,
+pero no estaría generando excedentes, es decir, para que el signo sea positivo y no de 0, y se puedan pagar
+los intereses y devolver los préstamos anteriores, muy probablemente el ajuste debería ser mayor, es decir,
+producir más que la absorción interna para enviar sillas al exterior corno un bien externo –las exportaciones
+son mayores que las importaciones (X > M)– que significa un consumo e inversión públicos y privados
+menores.
+En el caso del sector público caerá el gasto público (G) y se tendrá que extraer recursos con
+impuestos (T) al sector privado, que significan menores recursos de ese sector para la inversión y el
+consumo.
+Utilizando la dinámica macroeconómica explicada, observaremos cómo han evolucionado la
+inversión y el ahorro en los últimos años en la Argentina.
+Cuadro 3.IA Tasas de ahorro e inversión a precios corrientes (porcentaje del PIB).
+Período Inversión Ahorro nacional Ahorro externo
+1981-1985 20.3 18.1 2.2
+1986-1990 16.3 14.8 1.5
+1991-1995 17.4 13.9 3.5
+1990 13.2 15.2 -2.0
+1991 14.3 12.8 1.5
+1992 16.3 12.4 3.9
+1993 18.3 14.0 4.3
+1994 20.2 15.0 5.2
+1995 17.7 15.1 2.6
+Fuentes: según datos del Ministerio de Economía; R. Frenkel. J. Fanelli y C. Bonvecchi (ver lecturas complementarias).
+Se puede destacar cómo ha aumentado en el período 1991-1995 el ahorro externo, que estuvo
+destinado a financiar el mayor nivel de inversión con respecto al ahorro nacional4.
+La tasa de ahorro nacional disminuyó en los primeros años de la década del noventa. En 1994 se
+produjo el mayor crecimiento de la inversión y el ahorro varió muy poco en relación con el año anterior. Por
+lo tanto, la misma fue financiada con ahorro externo.
+Dicho período coincidió con la implementación del Plan de Convertibilidad, donde la apertura de la
+economía permitió al sector público financiar su déficit en el mercado internacional, así como también el
+ajuste estructural realizado por dicho sector. Esto puede observarse en el siguiente cuadro:
+Cuadro 3.1 B Tasas sectoriales de ahorro e inversión, 1981-1995 (porcentaje del PIB a precios corrientes).
+Periodo Privado Gobierno Total nacional Resto del
+Ahorro Inv. Ahorro Inv. Ahorro Inv. mundo
+1981-1985 24.8 14.9 -6.7 5.4 18.1 20.3 2.2
+1986-1990 18.6 11.7 -3.8 4.6 4.8 16.3 1.5
+1991-1995 14.0 15.6 -0.1 1.8 13.9 17.4 3.5
+1990 17.8 10.1 -2.6 3.1 15.2 13.2 -2.0
+1991 14.5 12.2 -1.7 2.1 12.8 14.3 1.5
+1992 12.4 14.5 0.0 1.8 12.4 16.3 3.9
+1993 12.8 16.3 1.2 2.0 14.0 18.3 4.3
+4 Véase Frenkel, Roberto; Fanelli, José María y Bonvecchi. Carlos, “.Movimientos de capitales y comportamiento de la
+inversión en Argentina”, CEDES, en Ffrench-Davis. Ricardo. Flujos de capitales e inversión productiva, McGraw-Hill,
+Buenos Aires. 1997.
+34
+
+1994 14.8 18.5 0.2 1.7 15.0 20.2 5.2
+1995 15.1 16.3 0.0 1.4 15.1 17.7 2.6
+Fuentes: según datos del Ministerio de Economía; R. Frenkel, J. Fanelli y C. Bonvecchi (ver lecturas complementarias).
+El déficit público disminuyó en el período de la convertibilidad debido principalmente a estas dos
+causas: la caída de la inversión pública y la recomposición del ahorro del gobierno. Esta última se debió a
+una mayor recaudación y la eliminación de subsidios. Con respecto a la inversión, esta es menor que en las
+décadas del sesenta y del setenta; si bien el déficit había descendido notoriamente, este no era suficiente para
+las exigencias de la convertibilidad.
+Sin embargo, si se analiza el superávit del resto del mundo, este aumentó, y ello es consecuencia del
+creciente déficit privado. Es decir, el sector privado necesitaba financiarse por el aumento de la inversión y
+lo hizo a través de un aumento del déficit de la cuenta corriente (ahorro externo). Como ya habíamos
+mencionado, el ahorro interno había caído por una mayor presión tributaria y un aumento del consumo.
+En síntesis, pudimos observar cómo variaron los sectores sus niveles de ahorro e inversión y cómo se
+relaciona la economía con el sector externo.
+3.5 La paradoja del ahorro
+A medida que vamos haciéndonos mayores, se nos habla de las virtudes del ahorro. Las personas que
+gastan toda su renta están condenadas a acabar en la pobreza, o eso dicen. A las que ahorran se les promete
+una vida dichosa. Los gobiernos también suelen decimos que una economía que ahorra es una economía que
+crece fuerte y próspera. Sin embargo, la ecuación (3.7) nos dice una cosa distinta y bastante sorprendente.
+Supongamos que con un determinado nivel de renta los consumidores deciden ahorrar más. En la
+ecuación (3.2), que es la que describe el consumo, reducen C y, por lo tanto, reducen el consumo y
+0
+aumentan el ahorro con un determinado nivel de renta. ¿Qué ocurre con la producción y con el ahorro?
+La ecuación (3.7) muestra claramente que la producción de equilibrio disminuye cuando disminuye
+C . Cuando los individuos ahorran más con su nivel inicial de renta, reducen su consumo. Pero esta
+0
+reducción del consumo reduce, a su vez, la demanda, lo cual reduce la producción.
+¿Podemos saber qué ocurre con el ahorro? Por una parte, los consumidores ahorran más, cualquiera
+que sea el nivel de renta, lo que tiende a elevar el ahorro. Pero por otra, ahora la renta es menor, lo que tiende
+a reducir el ahorro. Parecería que el efecto neto es ambiguo, pero, en realidad, podemos saber cuál es su
+sentido. Recuérdese que la condición de equilibrio puede concebirse como la condición de la igualdad del
+ahorro y la inversión. Por hipótesis, la inversión no varía. Por lo tanto, según la condición de equilibrio, el
+ahorro no varía. Aunque los individuos deseen ahorrar más con un nivel dado de renta, esta disminuye en
+una cuantía tal que el ahorro no varía. Eso significa que sus intentos de ahorrar más provocan una reducción
+de la producción y no alteran el ahorro. Este sorprendente par de resultados se conoce con el nombre de
+paradoja del ahorro5.
+¿Debemos olvidamos, pues, de la vieja creencia? ¿Debe decirle el gobierno a la gente que sea menos
+frugal? No. Los resultados de este sencillo modelo son muy importantes a corto plazo. Es precisamente el
+deseo de los consumidores de ahorrar más lo que provocó la recesión de 1990-1991. Pero como veremos más
+adelante cuando examinemos un modelo más realista, hay otros mecanismos en juego y es probable que un
+aumento de la tasa de ahorro dé lugar a un aumento del ahorro y de la renta a largo plazo. Queda por hacer,
+sin embargo, una advertencia fundamental: las medidas que fomentan el ahorro pueden ser buenas a más
+largo plazo, pero pueden provocar una recesión a corto plazo.
+3.6 ¿Es el gobierno realmente omnipotente? Una advertencia
+La ecuación (3.7) implica que el gobierno pueden influir en la producción en el sentido que desee
+eligiendo el nivel de gasto (G) o el nivel de impuestos (7). Si quiere aumentar la producción, por ejemplo, en
+USS 1.000.000, lo único que necesita hacer es aumentar G en (1 – C ) millones; este aumento del gasto
+1
+público dará lugar, en teoría, a un incremento de la producción de 1.000.000. Pero ¿pueden elegir realmente
+5 Profundizando. Tal vez piense el lector que el resultado según, el cual el ahorro no varía se debe, en realidad a uno de
+los dos supuestos menos atractivos que hemos postulado hasta ahora, a saber, que la inversión es fija. Si permitiéramos
+que la inversión variara con la producción. el resultado sería aún más espectacular. Los intentos de los individuos de
+ahorrar más seguirían reduciendo la producción: la reducción de la producción provocaría una disminución de la
+inversión y por lo tanto, una disminución del ahorro.
+35
+
+los gobiernos el nivel de producción que quieran? La existencia de recesiones muestra claramente que la
+respuesta es negativa.
+La respuesta es negativa porque hay muchos aspectos de la realidad que aún no podernos incorporar
+en nuestro modelo. Lo haremos a su debido tiempo. No obstante, merece la pena enumerar algunos
+brevemente:
+(cid:0) Modificar el gasto público o los impuestos dista de ser fácil. Conseguir que el parlamento
+apruebe los proyectos de ley siempre lleva tiempo y a menudo puede convertirse en una
+pesadilla.
+(cid:0) La influencia del gasto y de los impuestos en la demanda es mucho menos mecánica de lo
+que parece indicar la ecuación (3.7). Puede dejarse sentir lentamente, los consumidores y las
+empresas pueden tener miedo al déficit presupuestario y cambiar de conducta, etcétera.
+(cid:0) El mantenimiento del nivel deseado de producción puede generar desagradables efectos
+secundarios. Por ejemplo, el intento de conseguir un nivel de producción demasiado alto
+puede provocar una aceleración de la inflación.
+(cid:0) La reducción de los impuestos o el incremento del gasto público puede provocar grandes
+déficit presupuestarios y la acumulación de deuda pública. Esta deuda puede tener
+consecuencias negativas a más largo plazo.
+(cid:0) Todos estos debates serán profundizados en los próximos capítulos para la Argentina, Brasil
+y Estados Unidos.
+A medida que refinemos el análisis, la labor del gobierno será cada vez más difícil. Los gobiernos
+nunca volverán a tenerlo tan fácil como en este capítulo.
+RESUMEN
+Lo que debe recordar el lector sobre los componentes del PIB:
+• El PIB es la suma del consumo más la inversión más el gasto público más las
+exportaciones menos las importaciones más la inversión en existencias.
+• El consumo (C) es la compra de bienes y servicios por parte de los consumidores.
+Constituye el mayor componente de la demanda.
+• La inversión (I) es la suma de la inversión no residencial (la compra de nuevas plantas y
+máquinas por parte de las empresas) y la inversión residencial (la compra de nuevas
+viviendas o departamentos por parte de los individuos).
+• El gasto público (G) es la compra de bienes y servicios por parte de las diversas
+instancias del Estado.
+• Las exportaciones (X) son las compras de bienes norteamericanos por parte de
+extranjeros. Las importaciones (Q) son las compras de bienes extranjeros por parte de los
+consumidores, las empresas y el Estado norteamericanos.
+• La inversión en existencias (I) es la diferencia entre la producción y las ventas. Puede
+s
+ser positiva o negativa.
+Lo que debe recordar sobre nuestro primer modelo de determinación de la producción:
+• A corto plazo, la producción depende de la demanda, la cual depende, a su vez, de la
+producción y la renta.
+• La función de consumo muestra que el consumo depende de la renta disponible. La
+propensión marginal a consumir indica cómo aumenta el consumo, dado un aumento de
+la renta disponible.
+• La producción de equilibrio es el punto en el que la producción es igual a la demanda.
+En condiciones de equilibrio, la producción es igual al gasto autónomo multiplicado por
+el multiplicador. El gasto autónomo es la parte de la demanda que no depende de la
+renta. El multiplicador es igual a 1/(1 - C ), donde C es la propensión marginal a
+1 1
+consumir.
+36
+
+• Un aumento de la confianza de los consumidores, de la demanda de inversión o del gasto
+público, o una reducción de los impuestos elevan la producción de equilibrio a corto
+plazo.
+• La condición dé equilibrio del mercado de bienes también puede formularse de otra
+manera: la inversión debe ser igual al ahorro, que es la suma del ahorro privado y del
+público. Por este motivo, la condición de equilibrio se denomina relación IS.
+• A corto plazo, el intento de los individuos de ahorrar más o del Estado de reducir su
+déficit no influye en el ahorro, pero reduce la producción. Este resultado se denomina
+paradoja del ahorro. Sin embargo, a más largo plazo intervienen otros factores y es
+probable que tanto el ahorro como la producción aumenten.
+• Existe un modelo macroeconómico fundamental que relaciona las brechas o ahorro
+privado, ahorro público y ahorro externo (superávit o déficit). En algunos países como la
+Argentina en la década de 1990, el ahorro externo financió el exceso de gasto agregado
+interno por encima de la producción a nivel público y privado.
+TÉRMINOS CLAVE
+o consumo (C)
+o inversión (I) o inversión fija
+o inversión residencial y no residencial
+o gasto público (G)
+o transferencias del Estado
+o importaciones (Q)
+o exportaciones (X)
+o exportaciones netas (X - Q) o balanza comercial
+o superávit comercial
+o déficit comercial
+o inversión en existencias (IS)
+o existencias
+o identidad
+o renta disponible
+o función de consumo
+o ecuación de conducta
+o relación lineal
+o parámetros
+o propensión marginal a consumir
+o variables endógenas
+o variables exógenas
+o política fiscal
+o equilibrio
+o ecuación de equilibrio
+o gasto autónomo
+o presupuesto equilibrado
+o multiplicador
+o error de predicción
+o índice de confianza de los consumidores
+o ahorro (A)
+o ahorro privado
+o ahorro público
+o relación IS
+o propensión marginal a ahorrar
+o paradoja del ahorro
+o ahorro externo
+o modelo de brechas en economías cerradas y abiertas
+37
+
+PREGUNTAS Y PROBLEMAS
+1. Suponga que una economía se caracteriza por las siguientes ecuaciones de conducta:
+C= l00 + 0,6 Y
+D
+I = 50
+G = 250
+T = 100
+Halle:
+a) El PIB de equilibrio (Y).
+b) La renta disponible (Y ).
+D
+c) El gasto de consumo (C).
+d) El ahorro privado.
+e) El ahorro público.
+f El multiplicador.
+2. Verifique en el caso de la economía de la pregunta 1 que en condiciones de equilibrio:
+a) La producción es igual a la demanda.
+b) El ahorro total es igual a la inversión.
+3. Suponga que el gobierno desea aumentar el PIB de equilibrio en 100.
+a) ¿Qué cambio es necesario introducir en el gasto público? [Pista: ¿Cuál es el valor del
+multiplicador?]
+b) Si el gasto público no puede variar. ¿qué modificación es necesario realizar en los impuestos?
+[Pista: la respuesta es diferente de la de la pregunta a.]
+4. Para simplificar nuestro modelo, hemos supuesto que los impuestos son exógenos. En realidad, sabemos
+que tienden a aumentar y a disminuir con la renta. Suponga que los impuestos dependen linealmente de la
+renta, de acuerdo con la ecuación
+T = T + t Y
+0 1
+donde t es el tipo impositivo y oscila entre 0 y 1. Todas las demás ecuaciones de conducta son las
+1
+que se especifican en el capítulo.
+a) Halle la ecuación del PIB de equilibrio. [Pista: será similar, pero no idéntica, a la ecuación (3.4).]
+b) Halle la expresión del multiplicador.
+c) ¿Es el multiplicador mayor, menor o igual cuando los impuestos son endógenos que cuando son
+exógenos, menores o iguales?
+5. Un estudiante decía un día: “No entiendo esto de la macroeconomía. Unas veces, parece que las
+variaciones de la renta alteran el consumo. Otras, parece que los cambios del consumo alteran la renta. ¿En
+qué quedamos?” Ayude al estudiante a resolver esta confusión. [Pista: distinga entre las variaciones de C y
+0
+las de C Y .]
+1 D
+6. Aunque la propensión marginal a consumir establece la relación entre la renta agregada y el consumo
+agregado, también puede aplicarse a la relación entre la renta y el consumo de una persona.
+a) Averigüe la propia propensión marginal a consumir de su renta actual. [Pista: partiendo de algunos
+datos sencillos, formule algunas preguntas hipotéticas. Por ejemplo, si ya está trabajando, ¿cuánto
+aumentaría su gasto si recibiera una subida del 20%? Si no está trabajando, ¿cuánto aumentaría si comenzara
+a trabajar y ganara, por ejemplo, U$S 30.000 al ario?]
+b) ¿Es coherente su propensión marginal a consumir con las dos “restricciones naturales” formuladas
+en el texto? En caso negativo, explíquelo.
+7. Explique si son verdaderas o falsas las siguientes afirmaciones:
+a) Un país que tiene déficit en el sector privado y en el sector público simultáneamente tiene déficit
+en el sector externo, es decir, la absorción doméstica o gasto agregado doméstico es mayor que lo que se
+produce.
+b) En una economía cerrada sin sector externo, el superávit privado financia el déficit público.
+c) Si un país tiene un sector privado cuyo S = I, el déficit público es igual al superávit externo.
+38
+
+LECTURAS COMPLEMENTARIAS
+Ferrucci, Ricardo, Instrumental para el estudio de la economía argentina, Ed. Macchi, Buenos Aires, 1998.
+1I Ffrench-Davis, Ricardo, Flujos de capital e inversión productiva, McGraw-Hill, Buenos Aires, 1997.
+39

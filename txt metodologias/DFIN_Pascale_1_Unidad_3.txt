@@ -1,0 +1,686 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 32.
+LIQUIDEZ E INSOLVENCIA
+OBJETIVOS DE APRENDIZAJE
+(cid:1) La liquidez, iliquidez, solvencia e insolvencia son aspectos de especial y presente interés en la
+performance financiera de las empresas. El capítulo busca definir estos conceptos.
+(cid:1) Exponer las distintas dimensiones de la liquidez, tanto para un activo como para una firma.
+(cid:1) Exponer las medidas de la liquidez de la firma.
+(cid:1) Exponer las distintas dimensiones de la insolvencia.
+(cid:1) Exponer las medidas de la insolvencia de la firma.
+32,1. LIQUIDEZ DE UN ACTIVO
+La liquidez de un activo requiere una definición más especializada de la que luego se dará para el
+caso de una empresa.
+La liquidez de un activo es, básicamente, una cualidad. Esta refleja la forma en que se concentran la
+velocidad, la facilidad y el grado de incertidumbre con los cuales un activo puede ser intercambiado por
+efectivo a un precio tal que el rendimiento del activo sea tan alto como el esperado en un período corto.
+Dado el carácter de cualidad de la liquidez de un activo, ésta es muy difícil de cuantificar en
+magnitudes absolutas.
+Sin embargo, puede ser de utilidad, a efectos de arrojar la mayor luz posible para efectuar alguna
+comparación del grado de liquidez de activos, repasar algunos atributos concretos que son clave para mejorar
+o empeorar la liquidez de un activo. Tres de los atributos más importantes a estos efectos son: la
+comerciabilidad, el riesgo de incumplimiento y el plazo de vencimiento.
+La comerciabilidad es el atributo más obviamente relacionado con la liquidez de un activo; se
+vincula directamente con la velocidad y facilidad de realización del activo en efectivo. Los productos que
+tienen mayor nivel de homogeneidad, frecuentemente, tienen mercados secundarios más activos y, por lo
+tanto, más comerciabilidad. Esto es bien notorio en el caso de los activos financieros, que habitualmente
+tienen mercados secundarios bien organizados.
+Muchos activos reales también tienen mercado secundario, por ejemplo, los automóviles. Pero en la
+mayor parte de los casos, los activos reales tienen menos liquidez que los activos financieros.
+El riesgo de incumplimiento es otro atributo que influye en la liquidez de los activos. También
+conocido como riesgo de crédito, es de especial aplicación para los activos financieros y está vinculado al
+grado de incertidumbre asociado al cobro del principal e intereses de los mismos.
+Cuanto mayor sea el riesgo de incumplimiento, el caso se aproxima más a una situación en la que
+potencialmente se puede tener un rendimiento realizado menor que el esperado y, por lo tanto, es menor la
+liquidez del activo.
+Por último, el atributo de plazo de vencimiento es también de particular aplicación al caso de los
+activos financieros. El plazo puede afectar el valor del activo y, por lo tanto, la liquidez del mismo.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué se entiende por liquidez de un activo.
+2. Cuáles son los principales atributos de la misma.
+32,2. LIQUIDEZ DE LA FIRMA
+2
+
+Definición
+La liquidez de una empresa es la habilidad y la capacidad de la misma para cumplir con sus
+obligaciones financieras de corto plazo, tal y como ellas, originalmente, se hacen exigibles. En algunos
+textos se la puede encontrar bajo el nombre de liquidez de corto plazo y en otros, menos frecuentemente,
+como solvencia de corto plazo.
+La idea de corto plazo es convencionalmente vista como un año. A veces, ella se asocia al período
+que insume el ciclo operativo del negocio del que se trate, esto es, el lapso que va desde comprar y/o
+producir a vender y cobrar.
+La liquidez es un concepto importante en las finanzas de la firma; se ha buscado, por una parte,
+medirla y, por otra, observar sus distintos grados. A estos dos aspectos se destinan las próximas secciones.
+Medición de la liquidez
+Existen varias formas para intentar medir la liquidez, algunas indirectas y otras directas, que
+brevemente se exponen a continuación.
+Medidas tradicionales
+Estas están basadas en algunos ratios que surgen de los estados financieros tradicionales.
+Los dos ratios más conocidos a estos efectos son:
+activoscorrientes
+Razóncorriente(cid:2)
+pasivoscorrientes
+activoscorrientes(cid:1)inventarios
+Pruebaácida(cid:2)
+pasivoscorrientes
+La razón corriente compara los activos que se van a transformar en caja dentro del año con las
+deudas que deben ser pagadas dentro del mismo lapso. La prueba ácida resta del numerador los inventarios
+que aparecen como los menos líquidos de los activos corrientes.
+Ambos ratios deben considerarse como medidas pocos adecuadas del grado de liquidez. En realidad,
+no miden la liquidez de una empresa en marcha, más bien brindan una aproximación de la liquidez de una
+empresa en liquidación.
+En efecto, si se transforman los inventarios en cuentas a cobrar o caja, y la cuentas a cobrar en caja
+para pagar las deudas, está significando que no se compran más inventarios ni se venden más productos o
+servicios, pues de lo contrario no debería quedar margen para la reposición de inventarios.
+Por otra parte, una empresa con razón corriente más baja que otra no necesariamente tiene una
+liquidez menor. La primera puede tener muchos inventarios o cuentas por cobrar, pero lo que importará es el
+comportamiento de los flujos de fondos provenientes de ellos.
+La evidencia empírica demuestra que, tomados aisladamente, estos ratios son medidas poco confiables
+e idóneas del grado de liquidez de una firma y menos aun cuando se comparan con otra firma. Lo que la
+evidencia empírica ha demostrado e una asociación positiva entre la evolución de este ratio a través del tiempo
+y el grado de liquidez de la firma. Esto es, en la medida que el ratio razón corriente vaya declinando a través
+del tiempo es altamente probable que la empresa comience a disminuir su nivel de liquidez y viceversa. En el
+cap. 36, al analizar algunas de las técnicas de apoyo para los algoritmos de diagnóstico, se vuelve sobre estos
+ratios.
+3
+
+Capital de trabajo
+El capital de trabajo, medido contablemente como el exceso de activos corrientes sobre los pasivos
+corrientes, es una de las medidas más usadas para observar la evolución de la liquidez de la firma.
+Frecuentemente se lo denomina capital de trabajo neto.
+Su mayor importancia a estos efectos acaso se aprecie en una visión evolutiva de la magnitud y sus
+fortalezas principales; como medida de liquidez, se encuentra en dos aspectos básicos. En el primero, el
+capital de trabajo neto se observa como el pool de los fondos más líquidos que brindan mayor o menor
+seguridad a los acreedores. En segundo lugar, provee una reserva líquida, toda vez que se deben administrar
+los flujos de fondos de la empresa.
+El capital de trabajo neto es menos útil cuando se intenta comparar la liquidez de una empresa con
+otra. Más bien, su mayor interés debe basarse en el análisis de las series de tiempo del capital de trabajo neto.
+Una comparación, a veces más útil, es la que resulta del capital de trabajo neto como un porcentaje
+de las ventas. Frecuentemente, la evidencia empírica ha puesto de relevancia que el mayor valor de la
+magnitud está asociado a una mayor liquidez y, por el contrario, los menores valores del porcentaje se
+corresponden con menores niveles de liquidez.
+Ciclo de conversión de caja
+Se presenta en esta sección el análisis de un instrumento que puede arrojar elementos útiles para
+evaluar el grado de liquidez de la firma.
+El ciclo de conversión de caja (CCC) desarrollado originalmente por RICHARDS y LAUGHLIN (1986)
+mide los días que la caja está asociada a la producción, distribución, cobranzas menos los créditos de los
+proveedores. Es, al igual que las anteriores, una medida indirecta de la liquidez. Cuanto menor sea el CCC,
+mayor será la situación de liquidez de la empresa, según el resultado de la evidencia empírica.
+Ciclo de conversión de caja global
+Es el período necesario para convertir un peso desembolsado en inventarios en un peso ingresado, y
+se calcula de la siguiente manera:
+CCC(cid:3)CC (cid:2)CC (cid:1)CC
+c i p
+donde:
+CCC: ciclo de conversión de caja;
+CC : ciclo de conversión de cuentas a cobrar;
+c
+CC: ciclo de conversión de inventarios;
+i
+CC : ciclo de conversión de cuentas a pagar.
+p
+Definición de los ciclos:
+360
+CC (cid:1)
+c
+rotacióndecuentasacobrar
+360
+CC (cid:1)
+i
+rotacióndeinventarios
+360
+CC (cid:1)
+p
+rotacióndecuentasapagar
+4
+
+Ejemplo
+Un ejemplo puede ser de utilidad para la mejor comprensión del tema. A estos efectos, en la
+situación planteada se manejará la siguiente información hipotética:
+RESULTADOS
+Total Producto A Producto B
+Ventas netas 1.758 1.250 508
+Costo mercadería vendida 1.269 875 394
+Gastos ventas, adm. generales 192 135,5 55,5
+Depreciación 72
+Total gastos operativos 1.533
+Ganancia neta operativa 255
+ACTIVOS Y PASIVOS CORRIENTES
+Total Producto A Producto B
+Caja 204
+Cuentas a cobrar 283 123 160
+Inventario 199 140 59
+Propaganda 16
+702
+Cuentas a pagar 133
+145,75 59,25
+Salarios a pagar 72
+Impuestos a la renta 210
+Porción cte. deuda l/p 14
+429
+Ejemplo de cálculo:
+360
+CC (cid:1) (cid:1)58días
+c 1.758
+283
+360
+CC (cid:1) (cid:1)56días
+i 1.269
+199
+360
+CC (cid:1) (cid:1)50días
+p 1.269(cid:3)192
+133(cid:3)72
+CCC(cid:1)58(cid:3)56(cid:2)50(cid:1)64días
+De donde surge que el ciclo de conversión de caja en el ejemplo planteado es de 64 días, resultantes
+de los 58 de cuentas a cobrar más los 56 de inventarios, a los que se deducen los 50 de cuentas a pagar.
+Ciclo de conversión de caja por producto
+El ciclo de conversión de caja global resulta de la suma ponderada de los ciclos de cada uno de los
+productos vendidos y/o producidos por la empresa. Dicha ponderación debe efectuarse a nivel de los
+5
+
+subciclos de cada producto, en la medida en que la contribución de cada artículo al ciclo global de la
+empresa será en función de la participación de cada productos en las ventas y de su margen unitario, de las
+políticas de stock y de créditos seguidas en cada caso, y de la rotación de cuentas a pagar, entre otras.
+En muchos casos es útil el ciclo de conversión de caja de cada producto y hacia ello se orienta esta sección.
+Al ser:
+CCC (cid:1)CC (cid:3)CC (cid:2)CC
+global c i p
+Para el caso de conversión de cuentas a cobrar se tiene la ponderación de los ciclos de los productos
+que, en este caso, son dos: A y B.
+CC (cid:2)CC xC (cid:1)CC xC
+c cA A cB B
+CC : ciclo de conversión de cuentas a cobrar;
+c
+CC : ciclo de conversión de cuentas a cobrar del producto A;
+cA
+CC : ciclo de conversión de cuentas a cobrar del producto B.
+cB
+Donde:
+ventaA ventaB
+C (cid:1) C (cid:1)
+A B
+venta total ventatotal
+Y por lo tanto:
+C (cid:2)C (cid:1)1
+A B
+Lo mismo se puede efectuar para los inventarios:
+CC (cid:2)CC xi (cid:1)CC xi
+i iA A iB B
+CC: ciclo de conversión de inventarios;
+i
+CC : ciclo de conversión de inventarios del producto A;
+iA
+CC : ciclo de conversión de inventarios del producto B.
+iB
+cto.ventasA cto.ventasB
+i (cid:1) i (cid:1)
+A B
+cto.ventastotal cto.ventastotal
+así como para las cuentas a pagar:
+CC (cid:1)CC xp (cid:3)CC xp
+cp cpA A cpB B
+CC : ciclo de conversión de cuentas a pagar;
+cp
+CC : ciclo de conversión de cuentas a pagar del producto A;
+cpA
+CC : ciclo de conversión de cuentas a pagar del producto B.
+cpB
+6
+
+cto.ventas (cid:2)gastosadm. ,ventas ,etc.
+p (cid:1) A A A
+A cto.ventastotal(cid:2)gastos adm.,ventas,etc.,total
+cto.ventas (cid:2)gastosadm. ,ventas ,etc.
+p (cid:1) B B B
+B cto.ventastotal(cid:2)gastos adm.,ventas,etc.,total
+p (cid:2)p (cid:1)1
+A B
+Ejemplo
+Con los datos presentados antes, se puede calcular el ciclo de conversión de caja para los productos
+A y B, a través de los siguientes ejemplos:
+Ciclo de conversión del producto A
+360
+CC (cid:1) (cid:1)35,4días
+cA 1.250
+123
+360
+CC (cid:1) (cid:1)57,6días
+iA 875
+140
+360
+CC (cid:1) (cid:1)51,87días
+pA 875(cid:3)136,5
+145,75
+CC (cid:1)35,4(cid:3)57,6(cid:2)51,8(cid:1)41días
+cA
+Ciclo de conversión del producto B
+360
+CC (cid:1) (cid:1)113,4días
+cB 508
+160
+360
+CC (cid:1) (cid:1)53,9días
+iB 394
+59
+360
+CC (cid:1) (cid:1)47,45días
+pB 394(cid:3)55,5
+59,25
+CC (cid:1)113,4(cid:3)53,9(cid:2)47,45(cid:1)120días
+cB
+De donde A tiene 41 días de CCC y B, 120.
+7
+
+Si bien los ciclos de los productos A y B son de 41 días y 120 días respectivamente, en términos del
+ciclo global de la empresa, los mismos se calcularían a partir de los coeficientes de ponderación unitarios a
+nivel de cada subciclo.
+Cálculo de los coeficientes de ponderación
+1.250 508
+C (cid:1) (cid:1)0,711 C (cid:1) (cid:1)0,289
+A B
+1.758 1.758
+875 394
+i (cid:1) (cid:1)0,69 i (cid:1) (cid:1)0,31
+A B
+1.269 1.269
+875(cid:2)136,5 394(cid:2)55,5
+p (cid:1) (cid:1)0,692 p (cid:1) (cid:1)0,308
+A 1.269(cid:2)192 B 1.269(cid:2) 192
+Cálculo del ciclo ponderado
+Producto A Producto B Global
+CC 35,4 x 0,711 = 25,2 113,4 x 0,289 = 32,8 58
+c
+CC 57,6 x 0,69 = 39,7 53,9 x 0,31 = 16,7 56
+i
+CC 51,87 x 0,692 = 35,9 47,45 x 0,308 = 14,6 50
+p
+CCC 29 días 35 días 64 días
+En términos de una política de capital de trabajo, conviene tener presente la contribución de cada producto
+al ciclo global de la empresa, lo que se desprende del instrumento comentado. De los 64 días del ciclo global, 29 se
+deben al producto A, en términos de participación en el capital de trabajo de la empresa, y 35 al producto B.
+Por ejemplo, una política de cobranza tendiente a reducir el CCC de la empresa lograría diferentes
+resultados a nivel de cada producto en función del volumen de ventas, período de cobranza y margen unitario.
+Ciclo de conversión financiero
+Si bien el CCC arroja información de valor para el análisis de la inversión en capital de trabajo, según
+la composición interna del ciclo a nivel de subciclos y aun teniendo un mismo total de CCC se pueden tener
+diferentes necesidades financieras. Ello ha dado el camino para profundizar el tema abordando cuáles son las
+necesidades financieras. Ello ha dado el camino para profundizar el tema abordando cuáles son las necesidades
+financieras que surgen en un determinado CCC desarrollado por GENTRY, VAIDAYANATHAN y HEI (1990).
+El ciclo de conversión financiero global pone de manifiesto la necesidad de efectivo de la empresa
+en términos del período de conversión de caja. En la misma tendrían distinta responsabilidad los ciclos de
+cuentas a cobrar, de inventarios y de cuentas a pagar.
+En términos de necesidades financieras, el CCF se calcularía como:
+ventas cto.ventas ventas cto.ventas(cid:7) gastos ventas
+CCF (cid:9)CC x (cid:7) CC x x (cid:8) CC x x
+c 360 i ventas 360 p ventas 360
+(cid:6) cto.ventas cto.ventas(cid:7) gastos(cid:3)
+CCF (cid:9)(cid:4)CC (cid:7) CC x (cid:8)CC x (cid:1) vta.diaria
+(cid:5) c i Ventas p ventas (cid:2)
+donde:
+CCF: ciclo de conversión financiero;
+CC : ciclo de conversión de cuentas a cobrar;
+c
+CC: ciclo de conversión de inventarios;
+i
+8
+
+CC : ciclo de conversión de cuentas a pagar.
+p
+• Ejemplo
+1.758 1.269 1.758 1.461 1.758
+CCF(cid:1)58x (cid:3)56x x (cid:2)50x x
+360 1.758 360 1.758 360
+CCF(cid:1)58x4,88(cid:3)56x0,722x4,88(cid:2)50x0,831x4,88
+CCF(cid:1)283(cid:3)197(cid:2)203
+CCF(cid:1)277
+El ciclo de conversión de caja de la firma requeriría un capital de 277, de los cuales 283 se
+originarían en el ciclo de cuentas a cobrar, 197 en el ciclo de inventarios y se verían disminuidos en 203
+provenientes del ciclo de proveedores.
+Cualquier cambio en los subciclos, aunque sume en total 64 días de CCC, va a originar diferentes
+necesidades financieras.
+Ciclo de conversión financiero por producto
+El ciclo de conversión financiero resulta en la ponderación de cada subciclo individual por los
+respectivos coeficientes, calculados a nivel de cada producto.
+De esta forma, las necesidades financieras globales de la firma, que resultan de su ciclo de conversión
+de caja, se pueden obtener a través de la suma de las necesidades o CCF, calculadas a nivel de cada producto.
+n
+CCF(cid:1) (cid:4) CCF
+i
+i(cid:1)1
+donde para un producto i, el CCF se define como:
+i
+ventas cto.ventas ventas cto.ventas (cid:1)gastos ventas
+CCF (cid:3)CC x i (cid:1)CC x i x i (cid:2)CC x i i x i
+i ci ii pi
+360 ventas 360 ventas 360
+i i
+• Ejemplo
+Para el caso de dos productos A y B el cálculo sería:
+Producto A Producto B Global
+1.250 508
+CCF 35,4 x (cid:1)122,9 113,4 x (cid:1)160 283
+360 360
+875 1.250 394 508
+CC 57,6 x x (cid:1)140 53,9 x x (cid:1)58 198
+i
+1.250 360 508 360
+CC 1.011,5 1.250 145 449,5 508 59 204
+p 51,87x x (cid:1) 47,45x x (cid:1)
+1.250 360 118 508 360 159 277
+El cálculo a través de los productos permite desagregar las necesidades globales de capital en 118
+por el producto A y 159 por el producto B.
+9
+
+Algunas consideraciones acerca del ciclo de conversión financiero
+Para su utilización más adecuada es conveniente efectuar algunas observaciones acerca del ciclo de
+conversión financiero.
+a) No significa el monto de necesidades financieras en términos de capital trabajo, como comúnmente se lo
+define, sino el de los integrantes del mismo. Faltan algunos activos como disponibilidades, y en el
+pasivo, todos los créditos financieros de corto plazo.
+Por lo tanto, cuando habla de “capital de trabajo”, este modelo se está refiriendo a un concepto muy
+especificado, es decir, cuentas a cobrar + inventarios – cuentas a pagar.
+b) En segundo lugar, ese capital de trabajo, así definido, significa un promedio en el período de análisis. Un
+análisis de los flujos puede dar variaciones muy importantes en los subperíodos considerados.
+c) Supone una constancia de ponderaciones de productos y de precios muy importantes.
+Lambda
+Los ratios tradicionales para medir la liquidez pueden, en algunos casos, presentar defectos
+importantes, por ejemplo, que no tomen los flujos de fondos. EMERY y COGGER (1982) proponen un ratio
+que intenta corregir estas fallas.
+Este modelo supone que los flujos de caja de las compañías pueden ser caracterizados
+estadísticamente por su significado y por su desviación estándar.
+Estos flujos de caja están combinados con la reserva líquida inicial de la empresa, consistente en
+caja, papeles negociables y líneas de crédito de la misma. A esta cifra se la divide por la desviación estándar
+(incertidumbre de los flujos de caja).
+Lambda ((cid:1)) representa, entonces, las reservas anticipadas de caja en términos del número de
+desviaciones estándar. Cuanto más grande sea esta cifra, más líquida será la empresa.
+Por lo tanto, una manera de definir lambda es:
+reserva líquida inicial (cid:1) flujosdecaja totalesanticipados
+Lambda (cid:2)
+incertidumbredeflujosdecaja
+Un ejemplo de este ratio de medición de la liquidez se expone en el cuadro 32,1 para la empresa
+XYZ S.A.
+Balance líquido neto
+SHULMAN y COX (1985) desarrollan el balance líquido neto como otra aproximación a la medición de
+la liquidez, utilizando el concepto de cómo los activos de corto plazo son financiados por capital permanente.
+El balance líquido neto (BLN) se define de la siguiente manera:
+BLN = caja + papeles negociables – cuentas a pagar
+En muchas aplicaciones el BLN se divide por el total de activos a efectos de captar los problemas de
+escala.
+Si al realizar este cálculo de una cifra negativa, estaría significando que la firma está en situación de
+mayor iliquidez relativa.
+Para el caso de este ratio el ejemplo es presentado juntamente con lambda en el cuadro 32,1 para la
+empresa XYZ S.A.
+Operativa de los flujos de caja
+Años Empresa I Empresa II
+1 20 40
+2 10 30
+3 50 40
+10
+
+4 60 20
+5 15 25
+Promedio 31 31
+Desviación estándar 14,2 6,2
+Caja 20 30
+Papeles negociables 20 20
+Líneas de créditos 30 90
+Total activos 900 900
+Cuentas a pagar 20 40
+Cuadro 32,1. Empresa XYZ S.A.
+reservalíquidainicial(cid:3)totalanticipadodeflujosdecaja
+λ(cid:2)
+incertidumbreenflujosdecaja
+reservalíquidainicial(cid:3)(caja(cid:3)papelesnegociables(cid:3)líneasdecrédito)
+λ(cid:2)
+incertidumbreenflujosdecaja
+31(cid:3)(20(cid:3)20(cid:3)30)
+λ (cid:2) (cid:2)7,1
+I
+14,2
+31(cid:3)(30(cid:3)20(cid:3)30)
+λ (cid:2) (cid:2)17,9
+II
+6,2
+caja(cid:3)papelesnegociables(cid:1)cuentasapagar
+BLN(cid:2)
+totaldeactivos
+20(cid:3)20(cid:1)20
+BLN (cid:2) (cid:2)0,02
+I
+900
+30(cid:3)20(cid:1)90
+BLN (cid:2) (cid:2)(cid:1)0,04
+II
+900
+Estos ejemplos de cálculo de lambda y balance líquido neto, que son desarrollados a partir del cuadro
+32,1., proporcionan para las dos medidas resultados diferentes.
+Al usar el BLN, la empresa I aparece como más líquida que la empresa II. Sin embargo, al utilizar el
+ratio lambda se concluye un resultado opuesto.
+Parte de la razón de que esto sea así, es la habilidad de lambda para considerar la volatilidad de los
+flujos de caja y la diferencia en los accesos a créditos de la empresa.
+Medida del intervalo defensivo
+DAVIDSON y otros (1964) describen esta medida de la siguiente manera:
+totaldeactivosdefensivos
+gastosoperativosproyectadosdiariamente
+Los activos defensivos incluyen caja, papeles negociables de corto plazo y cuentas a cobrar. Los
+inventarios no están incluidos en el total, así como los pasivos corrientes no son deducidos del total. El
+denominador incluye todos los costos operativos proyectados requiriendo el uso de los activos defensivos.
+11
+
+Idealmente, esto debería basarse en presupuestos de caja para el próximo año o para el período más corto.
+Dado que esta información es difícil de ser disponible para los analistas externos, el total de gastos
+operativos en el estado de resultados para el período más cercano servirá como base para el cálculo de gastos
+proyectados.
+Dos ajustes deberían realizarse al total de gastos en el estado de resultados:
+1. Depreciación, impuestos diferidos y otros gastos que no utilizan activos defensivos deberían ser restados.
+2. Los ajustes deberían ser realizados por cambios conocidos en operaciones planeadas.
+Este ratio es una estimación del número de días que los activos defensivos podrían servir a los gastos
+operativos proyectados diariamente por la empresa.
+Posición de fondos
+El prof. PEARSON HUNT (1975) define la posición de fondos como “la combinación de los flujos de
+fondos operativos y los fondos necesarios para la expansión de capital”.
+La posición de fondos es, para HUNT, la clave de la estructura financiera y de la liquidez de la
+empresa. A través de ella, los planificadores son capaces de analizar correctamente los resultados de la
+operativa y las políticas de la empresa.
+Un ejemplo sobre la posición de fondos se presenta en el cuadro 32,2. para la empresa XYZ S.A.
+Años
+I II III IV V Total
+Fondos
+Ganancia neta 62 96 102 85 110 455
+Depreciación 80 55 75 96 97 403
+- Inversión de capital (300) (220) (250) (290) (315) (1.375)
+Posición de fondos (158) (63) (73) (105) (108) (517)
+Financiamiento
+Dividendos pagados en efectivo (70) (89) (92) (120) (104) (475)
+Préstamos 195 67 102 96 58 518
+Acciones 60 90 70 44 68 332
+Total financiamiento 195 68 80 20 22 375
+Cuadro 32,2. Empresa XYZ S.A.
+Dada la política de dividendos seguida por la firma en el ejemplo considerado y teniendo en cuenta
+los niveles de nuevos aportes de capital, la empresa deberá recurrir a nuevos endeudamientos para mantener
+su liquidez; situación que, como es obvio, tiene un claro límite temporal.
+Brecha de activos-pasivos
+En el cap. 42, dedicado al riesgo de las instituciones financieras, se expone este mismo concepto al
+tratar el tema de las diversas formas de administrar la liquidez. En ésta se van equiparando vencimientos
+mediante el mantenimiento de brechas, esto es, cuando los vencimientos de los activos son de menor
+duración que los de los pasivos o viceversa.
+Una posición de brecha como la planteada en último término, es decir, que los pasivos tienen
+vencimiento menor que los activos, bajo ciertas condiciones puede contribuir a la rentabilidad, así como
+también acrecentar el riesgo de la liquidez de la situación.
+Este tipo de brechas debe ser controlado con cuidado, para lo cual es importante medir el tamaño de
+la brecha.
+El control del riesgo de la liquidez se puede efectuar midiendo el tamaño y duración de la brecha.
+Se debe trabajar efectuando una desagregación de los activos y pasivos de la empresa, por plazo de
+vencimiento de los mismos.
+• Ejemplo
+12
+
+Diferencia Diferencia
+Vencimiento Activos Pasivos
+act.-pas. acumulada
+Vista 15 25 (10) (10)
+Menos de 30 días 40 50 (10) (20)
+Más de 30 días y menos de 90 días 50 70 (20) (40)
+Más de 90 días y menos de 6 meses 30 20 10 (30)
+Más de 6 meses y menos de 1 año 25 20 5 (25)
+1 a 4 años 40 40 15
+Patrimonio neto (15) (15) 0
+200 200 0
+En el ejemplo, el punto más alto de la brecha es 40; de la misma forma se puede medir la duración.
+Flujo de fondos
+Repasadas distintas aproximaciones a la medida de la liquidez, los avances son importantes, aunque
+no todas las medidas son abordables por analistas externos.
+Cuando se puede acceder a información afinada, la evolución de los flujos de fondos, la estabilidad
+relativa de sus patrones de comportamiento, la velocidad y el nivel de los mismos son elementos
+significativos para el diseño de una medida más definida de la liquidez, esto es, para establecer lo que se
+podría llamar una medida directa de la liquidez.
+La información financiera proviene de los estados contables, que frecuentemente son parte sustantiva
+de la información para un analista externo a efectos de elaborar alguna medida indirecta de la liquidez, tales
+como los ratios, o el ciclo de conversión de caja.
+Los elementos de la planificación financiera, en particular el flujo diario de caja (ingresos y
+egresos) en condiciones de incertidumbre unido a elementos cualitativos y cuantitativos a considerar,
+aparecen como el camino más idóneo para efectuar una medición directa de la liquidez. Los analistas
+externos, entonces, están forzados, por lo común, a utilizar medidas indirectas de la liquidez.
+Este mismo capítulo se detiene sobre el flujo de caja, al analizar la insolvencia de caja como un
+límite al nivel de endeudamiento de la firma. La técnica de elaboración de los flujos de caja se aprecia en
+detalle en el cap. 37.
+Comportamiento de la liquidez
+Una vez definida la liquidez y expuestas algunas formas de medición del grado de la misma,
+corresponde repasar las fuentes de la liquidez ante distintos estadios de ella.
+Liquidez normal
+La liquidez normal está nutrida por las fuentes de fondos, de las que se espera obtener efectivo, en
+circunstancias operativas normales de la empresa.
+Las dos grandes fuentes de la liquidez normal son:
+1. Los flujos de caja de la empresa, los saldos de caja y las inversiones de corto plazo.
+2. Los créditos habituales de corto plazo.
+Los saldos de caja proveen la liquidez de la firma y, frecuentemente, evitan que se produzcan
+interferencias en la marcha normal de los negocios.
+La determinación del nivel óptimo de caja a mantener, que se trata en el cap. 33, es una parte
+importante de este proceso. Mientras este activo es el más líquido, se recordará que está en antinomia con la
+rentabilidad.
+La segunda de las fuentes anotadas, el crédito de corto plazo, es probablemente una de las más
+importantes en muchas de este proceso. Asimismo, varía gradualmente con las condiciones financieras de las
+mismas, y también, de su tamaño.
+13
+
+Liquidez problemática
+Fuera del caso normal antes tratado, se observan distintos problemas de liquidez, los que tienen
+diversos grados de intensidad.
+Las fuentes que aparecen cuando se va haciendo problemática la liquidez son básicamente, tres:
+1. Administración de los flujos de caja.
+2. Renegociación de los contratos de deuda.
+3. Ventas de activos.
+Administración de los flujos de caja
+Una empresa tiene flujos de caja emanados de la rutina de la misma. Además, existen muchas
+opciones para ajustar estos flujos para mejorar la liquidez de la compañía, por ejemplo, una empresa puede
+demorar el pago a sus proveedores o puede ofrecer sus productos a precios más bajos o con términos de
+créditos menos severos, como solución para crear flujos de caja.
+La administración de niveles de inventarios, como podría ser la reducción de las cantidades de
+órdenes, puede también generar flujos de caja.
+Renegociación de los contratos de deuda
+Actualmente, la visión de una compañía es más moderna, ésta puede ser vista como una red de
+contratos entre dueños y administradores, administradores y proveedores, etcétera.
+Uno de los contratos más importantes es el existente entre la firma y sus prestamistas, que incluye a
+los proveedores, a los bancos y a los inversores de la firma (como los bonos, los papeles comerciales, etc.).
+Las posibilidades existentes de renegociación cambian mucho en el marco de estos diversos grupos,
+variando desde requerir una extensión de crédito por parte de los proveedores hasta aliviar los convenios de
+deudas menores que restringen el accionar de los deudores. Muchos de estos convenios son menores, pero
+pueden resultar negociaciones que no ofrezcan grandes dificultades, otras podrían afectar materialmente el
+riesgo de los prestatarios porque implican una renegociación de acuerdos más formales.
+Ventas de activos
+En el caso de la venta de activos, la empresa probablemente esté experimentando una fuerte presión
+financiera, y por lo tanto, se ve forzada a liquidar sus activos para crear fondos.
+En muchos casos las ventas de activos preceden la bancarrota.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es el concepto de liquidez de la firma.
+2. Repasar las principales medidas de la liquidez.
+3. Cuáles son las medidas directas y cuáles las indirectas de la liquidez.
+32,3. INSOLVENCIA
+La idea de solvencia y, por lógica, la de insolvencia son conceptos de dificultosa precisión; situación,
+en alguna medida, ya observada al tratar la liquidez. La insolvencia se tratará en términos de la teoría de las
+finanzas, incorporando a veces aspectos propios de alguna legislación.
+Insolvencia técnica
+Un primer concepto a definir es el de insolvencia técnica. Esta se tipifica por una insuficiencia de
+los flujos de fondos de la empresa para atender los pagos de interés, así como los del principal de las
+deudas, en las fechas en que estaban estipulados. Tres aspectos merecen recordarse al hablar de insolvencia
+técnica: por una parte, el carácter temporal del fenómeno, que puede en muchos casos revertirse; en segundo
+14
+
+lugar, se trata de una crisis de liquidez de características similares a lo tratado antes en este capítulo y, en
+tercer término, la insolvencia técnica es un estadio de problemas financieros en el que no necesariamente el
+monto de los activos es menor que el de las deudas.
+Insolvencia en términos de bancarrota
+Es un grado más severo de dificultades financieras, determinado en sentido contable por el monto en
+que las deudas superan a los activos. Esto es, el patrimonio neto es negativo.
+Algunas legislaciones, como la de los Estados Unidos de América, establecen, para el caso de los
+activos, que éstos deben reflejar un “valor razonable de mercado” en lugar del valor contable. En este caso,
+es preciso señalar que la idea es más crítica que en el caso de insolvencia técnica y que, por otra parte, tiene
+un carácter más crónico y persistente. Estas insolvencias en el sentido de bancarrota, en realidad, vienen a
+reflejar la falta de fortaleza y de habilidad de una firma para soportar shocks adversos y mantener en ellos su
+capacidad para pagar sus deudas.
+Es un tipo de problema financiero más integral, que involucra frecuentemente las estructuras de
+financiamiento, de activos, así como la realidad y potencialidad de generar ganancias y flujos de fondos.
+Insolvencia económica en términos de bancarrota
+La idea de insolvencia económica en términos de bancarrota aparece como una profundización
+conceptual de la insolvencia en términos de bancarrota. La misma puede enfocarse en dos aproximaciones
+que, ante un eficiente funcionamiento de los mercados financieros, deberían ser iguales.
+Una primera postura establece que la insolvencia económica en términos de bancarrota se produce
+cuando el valor presente de los flujos de caja esperados es menor que el valor presente de las deudas.
+La segunda aproximación establece que se produce cuando el valor de mercado de los activos es
+inferior al valor de mercado de las deudas.
+La insolvencia económica en términos de bancarrota para determinarse plenamente requiere la
+permanencia de la situación a un grado tal que muestre altas probabilidades de irreversibilidad.
+La insolvencia económica es utilizada en numerosos casos y puede ser particularmente útil para el
+caso de empresas financieras, en las cuales las características habituales de corto plazo de los depósitos y su
+propia naturaleza suelen dar poco margen a reestructuraciones financieras.
+Insolvencia de caja
+Los distintos conceptos de insolvencia considerados tienen especial aplicación en el caso de análisis
+externo como el crediticio para los efectos regulatorios y, quizá, menos utilidad para el caso de toma de
+decisiones internas, en particular para determinar los límites de endeudamiento de la empresa.
+En este tema, los aportes de DONALDSON (1961) ya tienen el nivel de un clásica. Rechaza los
+enfoques convencionales utilizados para medir hasta dónde se endeuda una empresa, tales como las
+relaciones de deudas a activos o las vinculadas a las ganancias y su cobertura del servicio de deuda.
+En su lugar, propone estudiar los flujos de caja de la empresa, considerando a las cargas de
+endeudamiento (principal e intereses) en una perspectiva de incertidumbre. De esta forma estudia las
+recesiones o períodos adversos en los cuales se produce una caída de los flujos de caja. Define, entonces, los
+rangos probables de evolución de los flujos en situaciones adversas, así como el límite máxima adverso y el
+límite adverso más probable. Es este último límite, que refleja el flujo neto de fondos, el que DONALDSON
+estima el máximo tolerable para no ingresar en lo que denomina insolvencia de caja, que se produce cuando
+la firma se queda sin efectivo para hacer frente a sus obligaciones. DONALDSON entiende que el
+endeudamiento no debe superar el nivel que haga pasar a la probabilidad de insolvencia de caja más allá del
+5% y aconseja que no sea mayor del 2%.
+De esta forma introduce el concepto de insolvencia de caja, la que se debe evitar teniendo un total de
+cargas fijas de endeudamiento y que, en casos de adversidad, el límite más probable sea la cota de aquél.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Conceptuar los siguientes puntos.
+(cid:1) Insolvencia técnica.
+15
+
+(cid:1) Insolvencia en términos de bancarrota.
+(cid:1) Insolvencia económica en términos de bancarrota.
+(cid:1) Insolvencia de caja.
+16
+
+REFERENCIAS SELECCIONADAS
+Para el tema de liquidez se sugiere leer:
+DAVIDSON, S.; SORTER, G. H. y KALLE, H., “Measuring the defensive position of a firm”, Financial
+Analysts Journal, enero-febrero de 1964, págs. 23 a 29.
+EMERY, G. y COGGER, K., “The measurement of liquidity”, Journal of Accounting Research, N° 20, 1982.
+HUNT, PEARSON, “Funds positions: keystone in financial planning”, Harvard Business Review, mayo-junio
+de 1975.
+RICHARDS, V. D. y LAUGLHLIN, E. L., “A cash conversion cycle approach to liquidity analysis”, Financial
+Management, 1980, pág. 136.
+SHULMAN, J. y COX, R., “An integrative approach to working capital management”, Journal of Cash
+Management, noviembre-diciembre de 1985.
+Para el tema de insolvencia se sugiere leer:
+ALTMAN, EDWARD, Corporate financial distress and bankruptcy, 2da. ed. Richard D. Irwin, Homewood,
+Illinois, 1994.
+DONALDSON, GORDON, “Corporate debt capacity”, Harvard Business Review School, Boston, 1961.
+17

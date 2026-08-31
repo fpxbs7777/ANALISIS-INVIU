@@ -1,0 +1,729 @@
+Estados contables
+Presentación, interpretación y análisis
+Mario Biondi
+Errepar S.A.
+2ª Edición
+Buenos Aires
+2004
+ISBN: 987-01-0268-9
+Este material se utiliza con fines
+exclusivamente didácticos
+
+ÍNDICE
+Capítulo 1 - Contenido y metodología de la obra.............................................................................17
+1. Introducción.........................................................................................................................19
+2. Origen de la información a analizar.....................................................................................20
+3. Analistas. Análisis internos y externos................................................................................21
+4. Clasificación y ordenamiento teórico de los indicadores de las relaciones.........................22
+5. Otros indicadores de relaciones...........................................................................................22
+Capítulo 2 - Introducción a la teoría contable: Normas de medición.............................................23
+1. Los valores de mercado. ¿Una respuesta a la inflación o a la
+insuficiencia del costo histórico?.........................................................................................25
+2. Detalle de los “valores corrientes” cuya aplicación está admitida
+por las normas vigentes.......................................................................................................32
+3. Otros enfoques de los “valores corrientes” no admitidos....................................................34
+La teoría contable normativa en la Argentina..................................................................... 40
+4. Clasificación de los resultados en los que influyen los valores de
+mercado y la inflación.........................................................................................................44
+5. Momentos que generan resultados de operaciones..............................................................48
+6. Lapso preoperativo..............................................................................................................48
+6.1. Contingencias normales previstas.........................................................................50
+6.2. Contingencias que cambian las condiciones previstas..........................................51
+7. Lapso operativo...................................................................................................................52
+8. Lapso posoperativo..............................................................................................................53
+9. Conclusiones sobre la naturaleza del Resultado por tenencia.............................................53
+Capítulo 3 - Introducción a la teoría contable: Normas de exposición.
+Ajustes extracontables para el análisis..............................................................................................57
+1. Estados contables para el análisis........................................................................................59
+2. Las Resoluciones Técnicas 8, 9 y 11 de la FACPCE..........................................................63
+2.1. La Resolución Técnica 8....................................................................................63
+2.2. La Resolución Técnica 9....................................................................................71
+2.3. La Resolución Técnica 11..................................................................................81
+3. Resolución 434/2003 de la Comisión Nacional de Valores.................................................84
+4. Ajustes contables o extracontables necesarios para el análisis............................................96
+4.1. Aportes pendientes de integración.....................................................................97
+4.2. Descubiertos no utilizados.................................................................................98
+4.3. Anticipos a proveedores.....................................................................................99
+4.4. Ajuste de resultados de ejercicios anteriores.....................................................99
+4.5. Distribuciones aprobadas por la asamblea no incluidas
+en los estados contables...................................................................................100
+4.6. Hechos posteriores al cierre.............................................................................100
+4.7. Pasivos contingentes como ciertos...................................................................101
+4.8. Eliminación de ciertos cargos diferidos...........................................................101
+4.9. Pasivo consolidado a largo plazo.....................................................................102
+4.10. Acciones preferidas rescatables.......................................................................102
+4.11. Análisis de los revalúos técnicos de los bienes de uso....................................103
+5. Casos prácticos..................................................................................................................104
+Capítulo 4 - Los estados de cambios en la posición financiera de las empresas..........................111
+1. Antecedentes......................................................................................................................113
+2. Situación actual en nuestro país.........................................................................................113
+3. Normas de la Federación Argentina de Consejos Profesionales
+en Ciencias Económicas. Resoluciones Técnicas 8 y 9.....................................................114
+3.1. Casos prácticos de aplicación: Estado de flujo de efectivo................................116
+3.2. Casos prácticos de aplicación: Estado de variaciones del capital corriente........126
+2
+
+3.3. Efectos del Resultado por exposición a la inflación..........................................134
+3.4. Efectos del Resultado por tenencia....................................................................140
+4. Normas de la Comisión Nacional de Valores. Resolución 434/2003................................148
+5. El Estado de flujos de caja según el Statement 95 del FASB aplicable en los EE.UU.....149
+Capítulo 5 - Tipos de análisis con estados contables......................................................................157
+1. Tipos de análisis según su objetivo...................................................................................159
+1.1. Control de gestión..............................................................................................159
+1.2. Financiación de la empresa................................................................................161
+1.3. Saneamiento financiero......................................................................................162
+1.4. Análisis global de la situación de la empresa....................................................162
+1.5. Otras causas que justifican o hacen necesario el análisis...................................163
+2. Análisis numérico..............................................................................................................166
+2.1. Razones, ratios, índices......................................................................................166
+2.2. Análisis horizontal. Relaciones comparativas...................................................167
+2.3. Relaciones con un mismo estado.......................................................................168
+2.3.1. Análisis vertical..................................................................................168
+2.3.2. Razones que relacionan diferentes rubros..........................................169
+2.3.2.1. Capital de trabajo. Diferentes enfoques.
+Determinación del ciclo operativo....................................171
+2.3.2.2. Liquidez corriente.............................................................185
+2.3.2.3. Prueba ácida......................................................................186
+2.3.2.4. Inventarios sobre Capital corriente...................................187
+2.3.2.5. Créditos sobre Capital corriente........................................187
+2.3.2.6. Rotación de Activo en relación con
+las Ventas..........................................................................187
+2.3.2.7. Endeudamiento total.........................................................188
+2.3.2.8. Endeudamiento a corto plazo............................................188
+2.3.2.9. Índice de inmovilización...................................................188
+2.3.2.10. Índice de inmovilización sobre el Patrimonio neto...........189
+2.3.2.11. Índice Ganancia bruta sobre ventas...................................189
+2.3.2.12. Margen Resultado final sobre ventas................................189
+2.3.2.13. Margen Resultado final antes de resultados
+extraordinarios sobre ventas.............................................189
+2.3.2.14. Rentabilidad del Capital propio.........................................189
+2.3.2.15. Rentabilidad del Activo.....................................................190
+2.3.2.16. Efecto palanca o leverage.................................................190
+2.4. Análisis de los Resultados financieros................................................................192
+2.4.1. Intereses..............................................................................................192
+2.4.2. Sobreprecios de inflación....................................................................192
+2.4.3. Diferencias de cambio.........................................................................193
+2.4.4. Resultados por exposición a la inflación.............................................193
+2.4.5. Resultado de tenencia..........................................................................195
+2.4.6. Interdependencia entre todos ellos......................................................195
+3. Análisis gráfico y numérico...............................................................................................195
+3.1. Análisis de ventas..............................................................................................198
+3.2. Análisis de distribución de ventas por divisiones operativas.............................199
+3.3. Análisis de distribución de ventas por mercados...............................................200
+3.4. Análisis de ingresos antes de costos aplicados e impuestos..............................202
+3.5. Análisis de retorno en relación con el Activo....................................................202
+3.6. Análisis de inversiones de capital y generación interna de fondos....................203
+3.7. Análisis de inversiones en investigación y desarrollo.......................................203
+3.8. Ejemplo de análisis literal..................................................................................204
+4. Otros análisis.....................................................................................................................204
+4.1. Efecto de palanca o leverage..............................................................................204
+4.2. Análisis con el punto de equilibrio económico..................................................204
+4.3. Análisis derivados de la contribución marginal. Algunas aplicaciones.............214
+3
+
+4.4. Índice Du Pont...................................................................................................216
+4.5. Determinación gráfica del Resultado de tenencia sobre el inventario...............219
+4.6. Exposición no convencional del Estado de resultados.......................................223
+Capítulo 6 - Caso base de análisis de estados contables.................................................................227
+Capitulo 7- Presentación de informes sobre el análisis de los estados contables.........................249
+1. Los informes para propósitos generales.............................................................................251
+2. Los informes sobre aspectos específicos de los estados contables....................................262
+3. Otros informes...................................................................................................................262
+Capítulo 8 - Calificaciones vinculadas con créditos bancarios y compañías de seguros.............265
+A. Calificación de empresas para los créditos de bancos y otras entidades financieras......................267
+1. Comunicación propiamente dicha.....................................................................................268
+2. Anexo I a la comunicación “A” 2180/1994 del BCRA.....................................................268
+3. Anexo II a la comunicación “A” 2180/1994 del BCRA....................................................272
+4. Comunicación “A” 2180/1994 del BCRA.........................................................................275
+B. Calificación de Compañías de Seguros...........................................................................................287
+Capítulo 9 - Calificaciones de riesgos por la compra de títulos valores
+(acciones y obligaciones negociables) en oferta pública....................................................................291
+Calificación de las empresas que deseen hacer oferta pública de emisión
+de títulos valores privados...................................................................................................................293
+1. Antecedentes......................................................................................................................293
+2. Procedimiento....................................................................................................................294
+3. Objetivo de la calificación de riesgos................................................................................294
+4. Identificación de la calificación de riesgos........................................................................294
+4.1. Categorías de calificaciones para obligaciones negociables..............................295
+4.2. Categorías de calificaciones para acciones........................................................298
+5. Ejemplos de calificaciones................................................................................................301
+Capítulo 10 - Estados contables proyectados......................................................................................303
+1. Introducción.......................................................................................................................305
+2. Concepto de estados contables proyectados......................................................................308
+3. Bases para la preparación de los estados contables proyectados.......................................308
+3.1. Período de tiempo..............................................................................................308
+3.2. Referencias históricas........................................................................................309
+3.3. Pautas básicas....................................................................................................310
+4. Secuencia del trabajo global integrado..............................................................................312
+4.1. Pronóstico y presupuesto de ventas.................................................................312
+4.2. Política de stocks.............................................................................................315
+4.3. Presupuesto de producción..............................................................................316
+4.4. Presupuesto de compras de bienes...................................................................318
+4.5. Presupuesto de gastos......................................................................................319
+4.6. Presupuesto de inversiones..............................................................................321
+4.7. Presupuesto financiero o flujo de fondos.........................................................321
+4.8. Estado de situación patrimonial proyectado....................................................323
+4.9. Estado de resultados proyectados....................................................................324
+4.10. Estados de cambios en la posición financiera..................................................325
+4.11. Otros comentarios sobre los estados presupuestados.......................................325
+4
+
+CAPÍTULO 10. ESTADOS CONTABLES PROYECTADOS
+1. Introducción
+A lo largo del presente trabajo repetimos infinidad de veces que, en el análisis de cifras de estados
+contables, es imprescindible la comparación con un valor de “referencia”, un “standard”.
+Esa referencia nos indica adónde queremos llegar, cuál es nuestro objetivo, o pronóstico, o standard.
+Es nuestra meta: las cifras que esperamos alcanzar, las que comparadas con la realidad nos permitirán sacar
+conclusiones sobre la evolución de la empresa.
+En el análisis de la información contable, una cifra aislada nos da una visión limitada sobre un hecho
+concreto. Dentro de toda la información, el análisis como conjunto y la referencia a lo que esperábamos
+cumplir, el efecto adquiere importancia y sentido para tomar decisiones.
+Conocer que la rentabilidad sobre ventas fue de un 5% es un dato útil, pero comparado con lo que
+esperábamos obtener, un 8% o un 3%, el efecto se potencializa, y habrá que buscar dentro del resto del
+análisis las causas de ese desfasaje.
+Quizá se debió a cambios en el mercado, o hechos nuevos; circunstancias no previstas, que hicieron
+que ganáramos más o menos. Pero es indudable que, conocida la razón, deberemos corregir la base para fijar
+nuestras próximas metas.
+El efecto más importante de todo análisis de estados contables es tomar el rumbo apropiado para
+futuras acciones, fijando de antemano la corrección de las pautas para que el resultado nos permita conocer
+en qué medida cumplimos o nos apartamos de nuestros objetivos.
+Esas metas se concretan en los estados contables proyectados. Hoy también se los conoce como
+estados contables proforma.
+Desde hace unos años en nuestro país, el tema cobró importancia, y hoy, pensar en una empresa que
+no proyecta sus estados contables (que no fija sus metas, sus pronósticos, cuánto quiere vender, cómo se va a
+financiar, qué financiación dará a sus clientes, qué gastos tendrá) es saber que su situación hacia el futuro es
+suicida.
+Un estado contable proyectado es la proyección del patrimonio que aspiramos tener dentro de un
+período de tiempo (balance general proyectado), los resultados que queremos alcanzar (estado de resultados
+proyectado), la financiación que esperamos conseguir y conceder (estados de cambios en la posición
+financiera proyectados). Para elaborarlos es imprescindible fijar de antemano una serie de pautas (metas)
+tanto internas (que hacen a la política de la empresa) como externas (que hacen al mercado en que se
+desenvuelve la empresa). También se considerarán las variables macroeconómicas generadas por la
+conducción del gobierno.
+Desde siempre insistimos en la necesidad de comparar cifras reales (cifras obtenidas de los estados
+contables anuales) con las pronosticadas. Esas cifras pronosticadas surgen de los estados contables
+proyectados.
+Cuando hablamos de cifras reales, nos referimos a las que obtenemos de los estados contables
+anuales (a veces los llamamos “estados contables históricos” que son los que surgen de hechos ya
+acontecidos en la empresa, pero aclaramos que la utilización del término “histórico” en este caso no tiene
+nada que ver con el criterio de medición utilizado por la empresa, simplemente son los hechos ocurridos),
+“cifras logradas” a través de la operatoria de la empresa en un lapso de tiempo (ejercicio económico).
+Conociendo las cifras proyectadas, y teniendo las que surgen de los estados contables, podemos
+aplicar las técnicas de análisis que ya conocemos para sacar conclusiones sobre la marcha de la empresa.
+Podemos realizar todos los análisis parciales que deseemos entre las cifras “reales” y las “esperadas”
+(“proyectadas”). Por ejemplo, analizar las ventas, los costos de esas ventas, los gastos del período, el
+endeudamiento, la financiación concedida a los clientes, la inversión en activos fijos de la empresa.
+El análisis con las cifras estimadas no excluye los estudios y proyecciones con cifras reales como
+vimos en capítulos anteriores (por ejemplo, análisis horizontal), puesto que ninguna proyección es completa
+si no se ponderan, además de otros factores, los análisis que surgen de las tendencias generadas por los
+acontecimientos ocurridos en la empresa durante un ciclo económico.
+En este capítulo desarrollaremos el tema de estados contables proyectados.
+Veremos los elementos de juicio que deben ser analizados para concretar la factibilidad de los
+estados contables proyectados, para que los mismos sean útiles a la hora de su comparación con la realidad.
+Desarrollaremos los siguientes temas:
+5
+
+a) Concepto de estados contables proyectados.
+b) Bases para su preparación:
+− Período de tiempo.
+− Referencias históricas.
+− Pautas básicas exógenas y endógenas, dependientes, e independientes.
+c) Secuencia del trabajo de elaboración de los estados proforma:
+− Pronóstico y presupuesto de ventas.
+− Política de stocks.
+− Presupuesto de producción.
+− Presupuesto de compras.
+− Presupuesto de gastos.
+− Presupuesto de inversiones.
+− Presupuesto financiero.
+− Estado de situación patrimonial o balance general proyectado.
+− Estado de resultados proyectado.
+− Estados de cambios en la posición financiera, proyectados.
+A continuación, desarrollaremos cada uno de estos puntos.
+2. Concepto de estados contables proyectados
+Usaremos, como sinónimos, los términos “estados contables proyectados” y “estados contables
+proforma”.
+Estos estados son el conjunto formado por el Estado de Situación Patrimonial (Balance General), el
+Estado de Resultados y alguna o ambas versiones de los Estados de Cambios en la Posición Financiera
+(Estado de Flujo de Efectivo, o Estado de Variaciones del Capital Corriente), referentes a períodos futuros (a
+“transcurrir”), cuyas cifras son estimadas sobre la base de un conjunto de pautas establecidas previamente.
+Constituyen un elemento de juicio muy importante para fijar políticas, objetivos y, además, para
+pronosticar resultados concordantes con las pautas y las bases fijadas. Además de los resultados, también se
+pronosticará la situación patrimonial y financiera que se espera lograr.
+Es casi obvio que, a partir de su elaboración, la realidad se encargará de contrastar lo proyectado con
+lo acontecido.
+Aplicando las técnicas de análisis más elementales: determinación de variaciones absolutas y
+relativas entre ambos, sabremos si las metas se cumplieron o no, y las razones que provocaron el no
+cumplimiento.
+3. Bases para la preparación de los estados contables proyectados
+La proyección de estados contables requiere determinar las siguientes bases:
+3.1. Período de tiempo
+Se acotará el lapso a transcurrir. Puede ser un mes, un trimestre, un semestre o un año.
+Las estimaciones de períodos superiores al año no deberían llamarse estados proyectados, sino
+“pronósticos” para un fin específico. Seguramente, no constituirán en ese caso un conjunto integrado en el
+sentido que le estamos dando.
+Es usual que se realicen, por ejemplo, pronósticos de ventas, por tres o cinco años, con una gama de
+alternativas posibles (producir, o comprarlas en el mercado interno o en el externo; vender en el mercado
+interno o externo). Pueden establecerse contribuciones marginales o resultados brutos estimados en cada
+alternativa, pero vemos que es un abanico de posibilidades de un tema concreto, a medida que la realidad
+vaya ocurriendo; lo pendiente deberá ajustarse para sacar conclusiones. Pero en este caso son hechos
+aislados; no constituyen estados proyectados.
+6
+
+3.2. Referencias históricas
+Como referencias históricas, identificamos a los estados contables de períodos transcurridos,
+información imprescindible aun cuando se proyecte variar las bases operativas de la empresa en el futuro.
+Esos datos históricos permitirán, sin duda, realizar todas las proyecciones que se deseen. A modo de
+ejemplo, podemos señalar:
+a) Se pronostica duplicar la cifra de ventas en el siguiente período. La información disponible nos
+permitirá saber cuál es la formación del costo, qué incidencia tendría tal incremento sobre los costos
+variables (podría abaratarse alguna materia prima, por ejemplo, por comprar mayores cantidades) y
+sobre los costos fijos (podrían sufrir un aumento, o mantenerse si hubiera capacidad ociosa, o
+incrementarse en forma abrupta en caso de ser gastos semifijos).
+Vimos en el capítulo 5, el enfoque incremental del capital de trabajo y análisis derivados de la
+contribución marginal, ambos temas ilustran este concepto, por lo que recomendamos su lectura
+nuevamente.
+b) Se espera una reducción en los costos financieros a través de la obtención de financiación del
+exterior. O por el contrario, por causas del mercado, la empresa dejará de contar con financiación
+externa y tendrá que recurrir al mercado local.
+c) Se pretende incrementar el capital propio como resultado de análisis derivados del “efecto palanca” o
+leverage.
+d) Se invertirá en activo fijo (maquinarias) para mejorar el rendimiento de la producción y abaratar los
+costos.
+Estos breves ejemplos ilustran sobre la necesidad de contar con información histórica (de hechos
+pasados, ocurridos) para las proyecciones que se deseen realizar.
+3.3. Pautas básicas
+Según el Diccionario de la Lengua Española, proyecto, es “una disposición que se toma para la
+ejecución de una cosa de importancia, anotando y extendiendo todas las circunstancias principales que
+deben concurrir para su logro”.
+Las circunstancias principales a que se refiere el diccionario son las pautas o bases sobre las que se
+edifica la proyección de estados contables.
+Identificaremos las pautas o bases más necesarias para poder cumplir con esta labor:
+- Pautas exógenas
+Son aquellas externas a la empresa, no dependen de ella, pero sí actúan (influyen) sobre sus
+operaciones.
+Ejemplos de estas pautas son:
+- Magnitud del mercado de ventas locales y exportaciones.
+- Desarrollo de la competencia.
+- Nivel de ocupación de la población.
+- Nivel de inflación.
+- Acuerdos salariales.
+- Mercado de capitales.
+- Mercado de divisas.
+- Regulaciones sobre comercialización de bienes y servicios.
+- Régimen tributario.
+- Acuerdos internacionales.
+- Otras variables macroeconómicas.
+Varias de estas pautas guardan estrecha vinculación entre sí. Por ejemplo, los acuerdos
+internacionales influyen sobre el mercado de ventas (locales y/o exportaciones); el nivel de inflación también
+influye sobre el mercado de ventas, el de capitales, el de divisas y los salarios.
+Están interconectadas y son imprescindibles a la hora de fijar una estrategia a seguir en la empresa.
+- Pautas endógenas
+Son variadas y todas dependen de la voluntad de la empresa, son internas, hacen a sus propias
+decisiones.
+7
+
+Dependen de su voluntad de aplicar una determinada acción. Si estudios realizados recomiendan
+aumentar el capital de trabajo a través del incremento de capital propio, llevarlo a la, práctica o no, será algo
+voluntario, propio de la empresa; quizás esa recomendación lleve a la venta de los activos de la empresa, o
+bien, a su asociación con un grupo económico.
+Estas pautas endógenas son propias, internas del ente. Es importante la capacidad para determinarlas
+y más aún, la decisión de aplicarlas.
+Dentro de estas pautas endógenas, tenemos por ejemplo:
+- Contratar nuevo personal.
+- Conceder mayor financiación a clientes.
+- Obtener mayor financiación de proveedores.
+- Dejar de producir ciertos productos.
+- Incrementar la producción de un producto.
+- Renovar la planta industrial.
+Todas dependen de la voluntad de la empresa para llevarlas a la práctica.
+Tanto las pautas exógenas como las endógenas pueden agruparse en:
+- independientes, o
+- dependientes
+en razón de los cambios que pueden sufrir algunas de ellas y su comportamiento frente a otras.
+Dentro de las pautas endógenas, la opción de dependencia la determina el propio ente.
+Es muy importante establecer previamente la naturaleza de cada pauta para evitar contradicciones
+que atentarán contra los estados proyectados en su conjunto.
+Podría confeccionarse, con las pautas prefijadas y probables alternativas, un gráfico de flujo de
+información similar al “camino crítico” (P.E.R.T.: “Program Evaluation Review Technic”).
+4. Secuencia del trabajo global integrado
+Los estados contables proyectados se integran como culminación de una serie de procesos y
+estimaciones parciales que, por su carácter acumulativo e interdependiente, no permiten la omisión de
+ninguno de ellos:
+La secuencia señalada sería la siguiente:
+- Pronóstico y presupuesto de ventas.
+- Política de stocks.
+- Presupuesto de producción.
+- Presupuesto de compras de bienes de cambio (inventarios).
+- Presupuestos de gastos.
+- Presupuesto de inversiones.
+- Presupuesto financiero o de flujo de fondos.
+- Balance general proforma.
+- Estado de resultados proforma.
+- Estado de cambios en la posición financiera proforma.
+Veremos en detalle cada uno de esos procesos.
+4.1. Pronóstico y presupuesto de ventas
+Asignamos diferente significación a los conceptos “pronóstico” y “presupuesto” de ventas. La
+diferencia radica básicamente al tiempo al que se refieren.
+El pronóstico, generalmente, es una estimación u objetivos a cumplir a mediano plazo.
+El presupuesto, en cambio, nunca supera el período de un año.
+Cuanto más chico sea el período de tiempo que abarquen, más se achica el margen de errores
+significativos en la estimación de pautas a cumplir,
+Para elaborar los estados contables proforma tenemos que trabajar con los presupuestos.
+Pero para poder elaborar el presupuesto de ventas, necesitamos conocer, sin lugar a dudas, el
+pronóstico de ventas.
+El presupuesto de ventas incluye ordenada y detalladamente las unidades que la empresa espera
+vender en el período proyectado, también los precios unitarios y las condiciones de negociación (ventas al
+contado, financiadas, plazos de financiación: 30, 60, 90 o más días).
+8
+
+Es obvio recalcar la importancia de este presupuesto por resultar la base del resto de la información
+(a través de él tendremos los recursos con que contará la empresa, las necesidades de stock y de producción,
+los gastos, etcétera).
+Debería ser elaborado por la gerencia de ventas.
+El esquema para preparar esta información podría ser el siguiente:
+PRESUPUESTO DE VENTAS
+Correspondiente al período 1 de enero al 31 de diciembre de 20X5
+Importes en miles de pesos
+Líneas de ventas (*) Condición de venta
+Obser-
+Meses Producto A Producto B Totales Contado A 30 días Total
+vacio-
+Unidades Importes Unidades Importes Unidades Importes Importes Importes Importes nes
+Enero X5 100 1,000 200 4,000 300 5,000 2,000 3,000 5,000
+Febrero X5 120 1,200 180 3,600 300 4,800 1,920 2,880 4,800
+Marzo XS 125 1,250 175 3,500 300 4,750 1,900 2,850 4,750
+Abril X5 122 1,220 165 3,300 287 4,520 1,808 2,712 4,520
+Mayo X5 138 1,380 140 2,800 278 4,180 1,672 2,508 4,180
+Junio XS 145 1,450 145 2,900 290 4,350 1,740 2,610 4,350
+Julio X5 157 1,570 165 3,300 322 4,870 1,948 2,922 4,870
+Agosto X5 161 1,610 195 3,900 356 5,510 2,204 3,306 5,510
+Setiembre X5 190 1,900 215 4,300 405 6,200 2,480 3,720 6,200
+Octubre X5 197 1,970 223 4,460 420 6,430 2,572 3,858 6,430
+Noviembre X5 210 2,100 249 4,980 459 7,080 2,832 4,248 7,080
+Diciembre X5 225 2,250 255 5,100 480 7,350 2,940 4,410 7,350
+Totales 1,890 18,900 2,307 46,140 4,197 65,040 26,016 39,024 65,040
+4.2. Política de stocks
+Tomando como base el presupuesto de ventas y considerando la política de stocks, llegaremos a
+establecer la magnitud de la producción que la empresa deberá afrontar en el período.
+Este presupuesto es confeccionado por la empresa industrial. En el caso de una empresa comercial
+no corresponde (por cuanto no “produce bienes”, simplemente los comercializa).
+La base para su confección está en las necesidades de unidades a vender establecidas en el
+presupuesto de ventas y el stock de unidades a conservar de acuerdo con la política de inventarios de la
+empresa.
+Determinadas las unidades a producir en cada mes, habrá que determinar la cantidad de materia
+prima necesaria, la mano de obra y la carga fabril necesarias para llevar a cabo la producción en cada mes.
+Un esquema de este presupuesto podría ser el siguiente:
+STOCKS (correspondientes al final del período indicado)
+Período comprendido entre el 1 de enero al 31 de diciembre de 20X5
+Importes en Miles de Pesos
+Materias Primas Producción Proceso Producción terminada Producción Reventa Observa-
+Meses
+Unidades Importes Unidades Importes Unidades Importes Unidades Importes ciones
+Enero X5 20 40 12 96 5 50 17 119
+Febrero X5 23 46 15 120 8 80 12 84
+Marzo X5 51 102 17 136 17 170 23 161
+Abril X5 45 90 35 280 19 190 19 133
+Mayo X5 15 30 37 296 18 180 15 105
+Junio X5 18 36 34 272 21 210 21 147
+Julio X5 12 24 32 256 17 170 16 112
+Agosto X5 23 46 35 280 11 110 19 133
+Setiembre X5 28 56 37 296 19 190 13 91
+Octubre X5 35 70 39 312 15 150 15 105
+Noviembre X5 19 38 37 296 17 170 14 98
+Diciembre X5 22 44 35 280 12 120 12 84
+Promedios
+26 52 30 243 15 149 16 114
+mensuales
+9
+
+4.3. Presupuesto de producción
+Con la base del presupuesto de ventas y de acuerdo con la política de stocks, podemos determinar el
+monto de producción para el período presupuestado.
+En este caso estamos suponiendo una empresa industrial.
+En el caso de una empresa comercial, este presupuesto no existe.
+A continuación, mostramos un esquema resumido como ilustración de este presupuesto:
+PRESUPUESTO DE PRODUCCIÓN
+Correspondiente al período 1 de enero al 31 de diciembre de 20X5
+Importes en miles de pesos
+Insumo Materias Insumo de Mano Costos Producción
+Carga Fabril
+Primas Obra Directa Totales
+Meses Tipo de carga Importes
+Impor- Impor- Varia-
+tes Comentarios tes Comentarios Variable Fija Varia Fija Total bles Fijos Totales
+-ble es
+Pago horas Gs.
+Enero X5 1,200 312 Amortiz. 100 180 280 1,612 180 1,792
+extras Fábrica
+Aumento Gs.
+Febrero X5 1,800 305 Vacaciones Amortiz. 145 180 325 2,250 180 2,430
+producción Fábrica
+Rebaja Gs.
+Marzo X5 1,100 255 Amortiz. 118 180 298 1,473 180 1,653
+producción Fábrica
+Gs.
+Abril X5 1,650 245 Amortiz. 125 180 305 2,020 180 2,200
+Fabrica
+Gs.
+Mayo X5 1,210 252 Amortiz. 114 180 294 1,576 180 1,756
+Fábrica
+Pago Gs.
+Junio X5 1,350 385 Amortiz. 145 180 325 1,880 180 2,060
+aguinaldo Fabrica
+Gs.
+Julio X5 1,320 246 Amortiz. 135 180 315 1,701 180 1,881
+Fábrica
+Gs.
+Agosto X5 1,380 251 Amortiz. 118 180 298 1,749 180 1,929
+Fábrica
+Gs.
+Setiembre X5 1,410 245 Amortiz. 115 180 295 1,770 180 1,950
+Fábrica
+Gs
+Octubre X5 1,465 255 Amortiz. 120 180 300 1,840 180 2,020
+Fábrica
+Gs.
+Noviembre X5 1,861 248 Amortiz. 125 180 305 2,234 180 2,414
+Fábrica
+Pago Gs.
+Diciembre X5 1,400 398 Amortiz. 128 180 308 1,926 180 2,106
+aguinaldo Fábrica
+Totales 17,146 3,397 1,488 2,160 3,648 22,031 2,180 24,191
+4.4. Presupuesto de compras de bienes
+Como consecuencia del presupuesto de ventas, de la política de stocks y del presupuesto de
+producción (si la empresa es industrial), el ente sabrá los insumos que tiene que comprar y en qué momento.
+La administración de las compras es un tema que se analiza en finanzas. Hay una afirmación que
+dice que “saber comprar es la base de los beneficios de la empresa”.
+Existe un sistema denominado “lote óptimo de compra” (se determinan matemáticamente en base a
+los “mínimos cuadrados”) muy adecuado para fijar el momento y cantidad de compra del stock. Pero hay
+casos en que no puede aplicarse por distintas razones (único proveedor, clientes cautivos, modalidades
+productivas de los proveedores, etc.).
+Las “integraciones económicas verticales” derivadas de combinaciones de negocios consiguen
+ventajas (precio, fecha de entrega, condiciones de pago, etc.). Pero el sistema contable debería segregar el
+efecto de esos “privilegios” derivados de la integración entre empresas.
+En función del presupuesto de producción en la empresa industrial y del presupuesto de ventas
+(dependiente de la política de stock) en la empresa comercial, estamos en condiciones de elaborar el
+presupuesto de compra de inventarios (sea de materia primas, o de mercadería de reventa).
+A continuación, damos un ejemplo de este presupuesto:
+10
+
+PRESUPUESTO DE COMPRAS DE BIENES DE CAMBIO
+Correspondiente al período comprendido entre el 1 de enero al 31 de diciembre de 20X5
+Importe en miles de pesos
+Materias Primas Bienes Consumibles Producción de Reventa
+Meses Importe de Montosa Importe de Montosa Observaciones
+Montosa pagar Importe de compras
+compras pagar compras pagar
+Enero X5 1500 1,000 180 180 350 300
+Febrero X6 1,800 1,400 180 180 420 470
+Marzo X5 1,100 820 180 180 425 390
+Abril X5 1,650 1,490 180 180 380 360
+Mayo X5 1,210 1,160 180 180 365 400
+Junio XS 1,350 1,265 180 180 394 384
+Julio X5 1,320 1,190 180 180 412 405
+Agosto XS 1,380 1,250 180 180 385 400
+Setiembre X5 1,410 1,310 180 180 405 394
+Octubre X5 1,405 1,265 180 180 385 360
+Noviembre X5 1,861 1,640 180 180 385 390
+Diciembre X5 1,400 1,220 180 180 405 350
+17,146 15,010 2,160 2,168 4,681 4,603
+Esta información resumida está relacionada con los presupuestos anteriores y la información
+adicional que requieren papeles de trabajo para llegar a esta síntesis.
+4.5. Presupuesto de gastos
+Constituye un complemento del presupuesto de compras de bienes de cambio.
+Lo integran los gastos de administración, de ventas (o comercialización) y los gastos financieros.
+En papeles de trabajo se recaba la información de cada uno de ellos y la síntesis permite elaborar este
+presupuesto.
+Un ejemplo podría ser el siguiente:
+PRESUPUESTO DE GASTOS
+Correspondiente al período comprendido entre el 1 de enero al 31 de diciembre de 20X5
+Importes en miles de pesos
+Gs. Adminis- Gs. Comer- Gs.
+Gastos capitalizables
+tración cialización Financieros
+Destino
+Im- Im- Im- Im- Im- Im-
+Meses Bienes Cargo Otros
+porte porte porte porte porte porte Tipo
+Cambio Tipo de diferido Tipo de destinos
+deven- a deven- a deven- a de
+Imp. Imp. gasto Imp. Imp. gasto Imp. Imp.
+gado pagar gado pagar gado pagar gasto
+dev. Pag. dev. pag. dev. Pag.
+Enero Remu-
+155 165 350 350 50 50 300 350 Seguros 90 0 Intereses 10 10
+X5 nerac.
+Febrero Remu-
+210 210 420 350 50 50 300 300 Seguros 90 0
+X5 nerac.
+Marzo Remu-
+320 320 450 350 50 50 300 300 Seguros 90 90
+X5 nerac.
+Remu-
+Abril X5 125 125 450 350 75 75 450 300 Seguros 90 90 Intereses 25 25
+nerac.
+Remu-
+Mayo X5 267 267 450 359 75 76 450 450 Seguros 90 90
+nerac.
+Remu-
+Junio X5 560 960 480 400 75 75 600 460 Seguros 90 90
+nerac.
+Remu-
+Julio X5 437 «7 525 400 75 75 450 600 Seguros 90 90
+nerac.
+Agosto Remu-
+325 325 530 550 75 75 450 450 Seguros 90 80
+X5 nerac.
+Setiem- Remu-
+226 226 576 660 75 75 450 450 Seguros 110 90 Intereses 18 0
+bre X5 nerac.
+Octubre Remu-
+298 2» 610 596 75 S 500 450 Seguros 110 90 Intereses 0 18
+X5 nerac.
+Noviem- Remu-
+310 2» 610 586 75 75 500 500 Seguros 110 110
+bre X5 nerac.
+Diciem- Remu-
+310 120 610 625 75 75 775 500 Seguros 110 110 Intereses 5 0
+bre X5 nerac.
+Totales 3363 3353 6055 5580 825 825 5525 5100 1160 940 56 53
+11
+
+Los papeles de trabajo necesarios para obtener estos datos deben considerar las alternativas previstas
+para la confección de los presupuestos.
+4.6. Presupuesto de inversiones
+Se refiere a las inversiones que realiza la empresa básicamente en activos no corrientes, caso de
+activos fijos e inversiones permanentes. Su forma de presentación podría ser la siguiente:
+PRESUPUESTO DE INVERSIONES
+Correspondiente al período comprendido entre el 1 enero al 31 de diciembre de 20X5
+Importes en miles de pesos
+Tipos de inversiones
+Importes Bienes de Uso Permanentes en acciones Otras
+Meses
+totales
+Forma de Forma de Forma de
+Importe Importe Importe
+pago pago pago
+Enero XS 1,000 100 Efectivo 0
+Febrero X5 5,000 3,200 Financiado 1,800 Efectivo
+30 días
+Marzo X5 0 0 0
+Abril X5 0 0
+Mayo X5 0 0
+Junio X5 3,500 2,500 Financiado 1,000 Efectivo
+375 días
+Julio X5 3,200 1,800 Financiado 1,400 Efectivo
+30 días
+Agosto X5 0 0
+Setiembre X5 0 0
+Octubre X5 4,100 2,700 Financiado
+410 días
+Noviembre XS 3,900 3,900 Financiado 0 0
+30 días
+Diciembre X5 2,300 1,900 Financiado 1,400 Efectivo
+180 días
+Totales 23,000 16,100 6,000
+4.7 Presupuesto financiero o de flujo de fondos
+Se trata del flujo de fondos que se producirá en las operaciones de la empresa con motivo de la
+situación proyectada que dio origen a todos los presupuestos específicos que desarrollamos anteriormente.
+Este presupuesto es el resumen de los ingresos y egresos de fondos previstos para el período
+considerado. Su forma de presentación podría ser la siguiente:
+PRESUPUESTO FINANCIERO (FLUJO DE FONDOS PROYECTADO)
+Correspondiente al período comprendido entre el 1 de enero al 31 de diciembre de 20X5
+Importes en miles de pesos
+Ingresos Egresos
+Otros Compra Otros
+Meses Por Mano Saldos
+Totales Totales de Gastos
+ventas Concepto Importe de obra Concepto Importe
+bienes
+Renta
+Enero X5 2,700 2,000 700 3507 2,480 312 915 Impuestos 200 -1207
+títulos
+Febrero X5 7,420 4,920 Alquileres 2,500 6265 3,850 305 910 Impuestos 1200 1,155
+Marzo X5 7280 4,780 Alquileres 2,500 6,955 4,590 255 1,110 Impuestos 1,000 325
+Abril X5 7,158 4,658 Alquileres 2,500 4,610 2,030 245 935 Varios 1,400 2,548
+Mayo XS 6,884 4,384 Alquileres 2,500 4244 1,740 252 1252 Impuestos 1,000 2,640
+Junio XS 6,748 4.248 Alquileres 2,500 5,739 2,829 385 1,575 Varios 950 1,009
+Julio X5 7,058 4,558 Alquileres 2,500 5563 3,175 246 1,602 Impuestos 540 1,495
+Renta
+Agosto X5 5,846 5,126 720 4,621 1,800 251 1,490 Impuestos 1,080 1,225
+títulos
+Set. X5 5,786 5,786 3,146 245 1,501 Varios 1,400 2,640
+Octubre X5 29,441 29,441 4,886 1,400 255 1,521 Varios 1,710 24,555
+Nov. X5 7,690 6390 Comisiones 1,000 4,058 248 1,560 Varios 2250 3,632
+Dic. X5 8,888 7,188 Comisiones 1,700 7,838 4,300 398 1.430 Impuestos 1,710 1,050
+Totales 102,899 83,779 19,120 61,832 28,194 3,397 15,801 14,440 41,067
+12
+
+Tanto en los ingresos como en los egresos de fondos se agregó una columna para “otros conceptos”,
+no previstos en los presupuestos anteriores.
+En esas columnas podrán incluirse los aportes financieros o sus devoluciones, sea de terceros o del
+propio empresario.
+Cuando mencionamos los ingresos financieros aportados por terceros, nos referimos a los préstamos
+que la empresa espera (o necesita) obtener en el período para cumplimentar con sus objetivos, y también las
+cancelaciones de los mismos.
+Los ingresos financieros aportados por el empresario serían los aumentos de capital y, como egresos,
+los dividendos en efectivo.
+El pago de honorarios al directorio y las gratificaciones al personal dispuestas (o resueltas) por la
+asamblea deberían estar incorporados en el presupuesto de gastos del período.
+El pago de dividendos en especie, cuando afecta stocks de bienes que posee la empresa, implica la
+disminución en esos bienes; en consecuencia, no afecta los egresos (costos), ya que la asignación de fondos
+proviene de “resultados no asignados”.
+4.8. Estado de situación patrimonial proyectado
+La estructura es similar a la de los estados contables de ejercicio.
+El grado de análisis o la apertura de los rubros dependerá de las posibilidades que surjan de los
+estados o los presupuestos que los sustenten.
+Veremos el “armado” de los saldos de algunos rubros de este estado patrimonial proforma:
+- Efectivo en caja y bancos: el saldo saldrá del existente en el rubro al inicio del período (en el balance
+de ejercicio) y del presupuesto financiero (o flujos de fondos).
+- Inversiones temporarias: el saldo inicial existente al inicio del período se complementará con los
+presupuestos de inversiones y el financiero (o flujo de fondos) para llegar al saldo proyectado.
+- Cuentas a cobrar, el saldo existente al inicio del período, más los movimientos del presupuesto de
+ventas y el presupuesto financiero, nos va a dar el saldo de esta cuenta proyectado al cierre del
+período.
+- Bienes de cambio: partiremos del saldo existente al inicio del período, y juntamente con las
+operaciones previstas en el período obtenidas de las políticas de inventarios y los presupuestos de
+producción, obtendremos el saldo proyectado al cierre del período.
+- Inversiones permanentes: el saldo inicial provisto por el balance general de ejercicio, más los
+movimientos provistos por el presupuesto de inversiones y el presupuesto financiero, nos dará el
+saldo proyectado del rubro.
+- Bienes de uso: el saldo inicial obtenido del balance general al inicio del período (de ejercicio),
+complementado con los presupuestos de inversiones y el financiero, nos dará el saldo proyectado
+para el rubro.
+- Compromisos (pasivos): el saldo inicial obtenido del balance general al inicio del período (de
+ejercicio), complementado con los presupuestos de producción y gastos, y el financiero, nos dará el
+saldo proyectado para el rubro.
+- Patrimonio neto: los saldos iniciales de sus componentes, obtenidos del balance general al inicio del
+período (de ejercicio), complementados con el presupuesto financiero, nos dará el saldo proyectado
+para el patrimonio neto.
+4.9. Estado de resultados proyectado
+La base para obtener la cifra de ventas proyectada la encontramos en el presupuesto de ventas y el
+informe sobre política de inventarios.
+Para determinar los costos proyectados de esas ventas, recurriremos al stock inicial de bienes de
+cambio (obtenido del balance general de ejercicio, inicial) y los presupuestos de producción y gastos.
+La fuente para determinar los gastos proyectados y demás ingresos proyectados la encontraremos en
+los presupuestos de gastos y financiero.
+El resultado final proyectado, obtenido de esta forma, debe conciliarse con el obtenido en el balance
+general por diferencia dentro del patrimonio neto, al obtener las cifras proyectadas de los activos, los pasivos
+y los saldos de las cuentas del patrimonio neto.
+13
+
+4.10. Estados de cambios en la posición financiera
+Una vez que obtenemos los estados de situación patrimonial y de resultados, proyectados,
+juntamente con estos mismos estados pero del inicio del período (obtenidos de los estados contables de
+ejercicio), podemos confeccionar sin problemas tanto el estado de “flujo de efectivo” como el de
+“variaciones del capital corriente”, en cualquiera de sus modalidades de presentación (métodos “directo” o
+“indirecto”).
+4.11. Otros comentarios sobre los estados presupuestados
+Lo expuesto hasta aquí es cómo confeccionar estos presupuestos.
+Con el objeto de completar el marco teórico del tema de los estados contables proyectados, hemos
+considerado adecuado transcribir el informe final del proyecto denominado “Bases teóricas para la
+preparación de la información contable proyectada o prospectiva”, investigación que se llevó a cabo en el
+Instituto de Investigaciones Contables de la Facultad de Ciencias Económicas de la Universidad de Buenos
+Aires, acreditado como UBACYT bajo el número E017, cuya dirección estuvo a cargo del Dr. Mario Biondi.
+Además de lo expuesto, esta publicación cumple con la finalidad de la difusión del informe para
+ponerlo al alcance de quienes estén interesados en el tema, dejando constancia que su redacción definitiva
+puede estar sujeta a cambios.
+14

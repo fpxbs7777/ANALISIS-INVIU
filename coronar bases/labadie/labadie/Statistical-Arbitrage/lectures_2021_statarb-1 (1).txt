@@ -1,0 +1,321 @@
+STATISTICAL ARBITRAGE
+& BACKTESTING
+Mauricio Labadie, PhD
+Visiting Professor
+Facultad de Ciencias, UNAM
+Mexico City
+Seminario de Finanzas Cuantitativas con Python
+Mexico City, 5 March 2021
+
+Table of Contents
+1. Introduction
+2. Statistical Arbitrage
+3. Backtesting
+4. Example
+
+1. Introduction
+
+What is a “Quant”
+ “Quant” is the short version of “Quantitative Analyst”
+ They are the “math gurus” in a financial firm e.g. bank or fund
+ They build the mathematical tools for:
+ Pricing
+ Underwriting
+ Trading
+ Risk management
+ Etc
+ Three types of quants:
+ “Probability” quants
+ “Statistics” quants
+harringtonstarr.com
+ “Machine Learning” quants
+
+“Probability” Quant
+ They provide the mathematical models for the firm
+ Commonly referred as “modellers”
+ They need a strong background in Mathematics:
+ Probability
+ Differential equations
+ ODEs
+ PDEs
+ SDEs
+ Numerical methods
+ Optimisation
+ And some Economics: math.harvard.edu
+ Efficient Market Theory
+ Utility functions
+ Cost functions
+ Mean-variance optimisation
+
+“Statistics” Quant
+ They provide the data & analytic tools for the firm
+ Commonly referred as “number crunchers”
+ They need a strong background in Statistics:
+ Data mining
+ Data crunching
+ Distributions
+ Curve fitting
+ Tests of hypotheses
+ And some Economics:
+ Econometrics
+seleritysas.com
+ Macro- and Microeconomics
+ Price-formation processes
+
+“Machine Learning” Quant
+ They build large datasets and models to predict behaviours and
+choices
+ ML started as a subset of Statistics with a Computer Science flavour
+ But it has already become a discipline on its own
+ The Machine Learning models deal with:
+ Large datasets and large number of parameters
+ Recalibration of parameters based on the outcome of previous
+decisions
+ Different ML models to predict and forecast:
+ Linear regression
+ Logistic regression
+ Neural Networks
+ Deep Learning is used almost everywhere
+ It is a scientific field on its own
+ Separated from ML and AI
+hotforexblog.com
+
+2. Statistical Arbitrage
+
+Statistical Arbitrage
+ Principle 1
+ There are identifiable patterns in the financial markets
+ That means:
+ We can find exploitable trading strategies
+acting-man.com
+ Example:
+ Price trends
+ Volatility trends
+ Volume trends
+ Macro events
+ News
+
+Statistical Arbitrage
+ Principle 2
+ Some identified patterns are statistically robust
+ That means:
+ Some patterns are stable under small changes on their input and
+their parameters
+ Example:
+ Parametric models:
+ Model is stable
+ Non-parametric models:
+ Distribution is stable
+ Recurrent behaviour:
+ Volumes and volatility spikes
+algo-trades.com
+
+Statistical Arbitrage
+ Principle 3
+ For some patterns, past behaviour can on average predict
+future behaviour
+Stability of cumulative distribution
+ That means:
+ Some patterns are stable in time
+ At least in the short term
+ Potential need of “periodic recalibration”
+ Example:
+ Volume and volatility curves
+ Correlations
+wikipedia.com
+ Predicting future prices can be possible but is very subtle
+
+Statistical Arbitrage
+ Principle 4
+ A strategy exploiting a robust pattern is profitable on average
+ That means:
+ Do not expect to win all the time
+ But you can win in the long run:
+ Law of Large Numbers
+ Central Limit Theorem
+ Example:
+ Lottery tickets
+ Insurance premium
+ Option pricing
+ Market-making
+wolfram.com
+
+Statistical Arbitrage
+ Principle 5
+ A pattern normally changes after some time
+ That means:
+ Even if patterns are stable in time, they do not to last forever
+ Some patterns can disappear if the market changes
+ Frequent recalibration to determine when a strategy is no longer
+profitable
+ Example:
+ Correlation strategies:
+ Pair trading
+ Index arb
+nasdaq.com
+
+3. Backtesting
+
+Backtesting
+ Stage 1
+ Build prototype of the trading strategy
+ What to do:
+ Code the rules of the algorithm
+ Matlab, R or Python
+ Simulate time series:
+ Monte Carlo
+ Use simulations to test:
+ Code
+ Rules
+ Dependence to parameters
+mathworks.com
+ Get a first glimpse of the distribution
+
+Backtesting
+ Stage 2
+ Define the parameters and the “utility function”
+ What to do:
+ Define the space of parameters
+ Potentially reduce dimensions
+ Define the optimisation function
+ Utility function
+ Maximise
+ Cost function
+ Minimise
+Matlab
+
+Backtesting
+ Stage 3
+ Define your “In Sample” and “Out of Sample”
+ Get time series of real data:
+ Data needs to be cleaned
+ Divide the sample set in two:
+ In Sample:
+ Find optimal parameters
+ Out of Sample:
+tradingsystemlife.com
+ Test statistical robustness of the optimal
+parameters found In Sample
+
+Backtesting
+ Stage 4
+ Find the optimal parameters for the utility function
+ What to do:
+ Find the best parameters In Sample:
+ By “brute force” if ≤ 2 parameters:
+ Plot the whole utility function
+graphics.ethz.ch/~achapiro
+ Find the global maximum
+ By numerical methods:
+ Gradient methods
+ Beware of
+ Saddle points
+ Local maxima
+
+Backtesting
+ Stage 5
+ Test the stability of the In-Sample best parameters in the Out of
+Sample
+ What to do:
+ If the pattern is still profitable, keep the strategy
+ Otherwise, discard the strategy and restart from Stage 1
+http://aostrading.cz/
+
+3. Example: Pairs Trading
+
+Pairs Trading
+ Market neutral strategy
+ Buy one stock, sell another
+ Their correlation needs to be strong:
+ Same sector, country, market cap, etc
+ Assumptions:
+ Correlation will continue to be strong
+ Any break in correlation is temporary
+ The spread is mean reverting
+ Sell spread if it is large:
+ Sell outperforming stock
+Film Matrix Reloaded
+ Buy underperforming stock
+ Buy spread if it is small
+
+Pairs Trading
+ Pairs trading tries to arbitrage temporary loss of correlation
+ It assumes both stocks will get correlated again
+ Danger when the correlation pattern breaks
+ “Stocks fall out of sync”
+ As it happened with equities, rates and oil in the last year
+nasdaq.com
+
+Pairs Trading
+ Too many parameters:
+ Returns:
+ Monthly? Daily?
+ Intraday? Every 5 mins, 10 mins, …, 1 hour?
+ Entry and Exit signals:
+ Based on rolling mean and volatility of spread
+ But how many points? 10, 20, 30,…?
+ 1/𝑁 weights? Exponential weights?
+ Transaction costs and execution:
+ Trading software?
+ Market and broker fees?
+ Market orders? Limit orders?
+ Latency?
+elearning.industriallogic.com
+
+Pairs Trading
+ We will use only 2 parameters:
+ The threshold of the entry signal:
+ 𝜇 𝑡 ± 𝑎𝜎(𝑡)
+ The threshold of the stop-loss signal:
+ 𝜇 𝑡 ± 𝑏𝜎(𝑡), 𝑏 > 𝑎
+Spread
+𝜇 𝑡 +𝑏𝜎(𝑡)
+Entry: sell spread
+Exit: stop loss
+𝜇 𝑡 +𝑎𝜎(𝑡)
+Exit: take profit
+Price
+𝜇 𝑡
+Time
+
+Pairs Trading: Exercise (1)
+ Build the algorithm:
+ Create a price simulator
+ Use it to simulate the spread
+ Intraday prices every 5 minutes
+ One day of data
+ Compute the entry and exit levels
+ Rolling mean and volatility
+ In this exercise we used Matlab
+ You can use R, Python, etc
+
+Pairs Trading: 2)
+Exercise (
+ Monte Carlo Simulation:
+ Run the algorithm for 252 days
+ Compute:
+ PNL (profit and loss) per transaction
+ Cumulative PNL
+
+Pairs Trading: 3)
+Exercise (
+ Monte Carlo Simulation:
+ Build the distribution of PNL
+ Histogram
+ Spread was modelled as a Normal random variable
+ Shall we expect a normal distribution of PNL?
+Exit: take profit
+Exit: stop loss
+Not very “normal”!
+
+References
+ Harris, “Trading and Exchanges”, Oxford University Press, 2003
+ Barry Johnson, “Algorithmic Trading & DMA”, 4Myeloma Press, 2010
+ There are many books in Quantitative Trading
+ Try some free MOOCs on Machine Learning:
+ Coursera (Stanford University)
+ Udacity (Georgia Tech)
+LOTR Movie
+
+Thank you for your
+attention

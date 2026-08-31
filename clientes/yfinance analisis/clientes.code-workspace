@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/optimizaciones/coronar bases"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clientes"
+	}
+}

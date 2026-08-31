@@ -1,0 +1,327 @@
+SPECTRAL THEORY FOR
+SELF-ADJOINT OPERATORS
+Mauricio Labadie, PhD
+Seminario de Finanzas Cuantitativas con Python
+Facultad de Ciencias - UNAM
+Mexico City, 01 March 2021
+Spectral Theory - Mauricio Labadie
+1
+
+References
+• Spanish
+ Kenneth Hoffman y Ray Kunze. Algebra Lineal. Prentice Hall
+• English:
+ Kenneth Hoffman and Ray Kunze. Linear Algebra . Pearson
+Spectral Theory - Mauricio Labadie
+2
+
+Vector spaces and inner products:
+Definitions
+(cid:3015)
+• Let us consider the -dimensional complex space
+(cid:3015)
+• We define the inner product in :
+(cid:2869) (cid:2869)
+ If and then
+(cid:3041) (cid:3041)
+(cid:3015) (cid:3015)
+ Recall that the complex conjugate is defined as
+(cid:3015)
+• Let be an orthonormal base in :
+(cid:2869) (cid:3015)
+ are linearly independent
+(cid:2869) (cid:3015)
+
+(cid:3036) (cid:3037) (cid:3036)(cid:3037)
+(cid:3015) (cid:3015)
+• Let be a linear operator
+ For a given base, for example , the associated matrix is defined as
+𝓔
+(cid:3015)
+• Let be a linear functional
+• Think of linear functionals as projections
+Spectral Theory - Mauricio Labadie
+3
+
+Eigenspaces, Eigenvectors
+and Eigenvalues
+(cid:3015) (cid:3015)
+• Let be a linear operator
+ is an eigenvalue of if there exist a vector such that
+ The vector above is called an eigenvector (associated to the eigenvalue )
+ Let be the set of all eigenvectors associated to an eigenvalue
+(cid:3015)
+• Proposition 1. is a linear subspace of
+• Proof:
+ We only need to use the linearity of and the definition of eigenvalue
+ For any and any we have:
+Spectral Theory - Mauricio Labadie
+4
+
+Linear functionals as projections:
+Uniqueness of the projection
+• Proposition 2. For any linear functional there exists a unique vector such that for every
+(cid:3033)
+(cid:3015)
+we have
+(cid:3033)
+• Proof:
+ For the orthonormal base define
+(cid:2869) (cid:3015) (cid:3033) (cid:3041) (cid:3041)
+ Define the new functional
+(cid:3049) (cid:3033)
+ Then for any :
+(cid:3036)
+(cid:3049) (cid:3036) (cid:3036) (cid:3033) (cid:3036) (cid:3041) (cid:3041) (cid:3041) (cid:3036) (cid:3041) (cid:3036)
+ Since and coincide in all elements of then
+(cid:3049) (cid:3049)
+ If then for all . Choosing it follows
+(cid:3033) (cid:3033) (cid:3033) (cid:3033) (cid:3033)
+that . Therefore i.e.
+(cid:3033) (cid:3033)
+Spectral Theory - Mauricio Labadie
+5
+
+Adjoint or Hermitian operator:
+Definition and uniqueness
+∗
+• Proposition 3. For any linear operator there exists a unique linear operator (called the
+(cid:3015)
+adjoint or Hermitian operator of ) such that for every we have
+∗
+• Proof:
+(cid:3015)
+ Let be fixed. Define the linear functional
+(cid:4593) (cid:3015) (cid:4593)
+ From Proposition 2 there is a unique vector such that
+∗ (cid:3015) (cid:3015) ∗ (cid:4593)
+ Define the mapping as
+∗
+ By definition,
+ For the linearity of we have:
+∗
+∗ ∗ ∗ ∗
+∗ ∗ ∗
+ Hence the uniqueness in Proposition 2 implies
+∗
+ Finaly, the uniqueness in Proposition 2 implies the uniqueness of
+Spectral Theory - Mauricio Labadie
+6
+
+Matrix representation using
+orthogonal projections
+(cid:3015)
+• Proposition 4. Let be an orthonormal base in and let be
+(cid:2869) (cid:3015) 𝓔
+the associated matrix. Then
+(cid:3036)(cid:3037) (cid:3037) (cid:3036)
+• Proof:
+(cid:3015)
+ Any can be written uniquely as
+(cid:3036) (cid:3036)
+ Applying the inner product and using the orthogonality in we have that for any :
+(cid:3036)
+(cid:3036) (cid:3036)
+ Therefore we can write
+(cid:3036) (cid:3036)
+ This is also true for i.e.
+(cid:3036) (cid:3036)
+ Using we obtain
+(cid:3037) (cid:3037) (cid:3037) (cid:3036) (cid:3036)
+ On the other hand, the matrix is defined on the elements of i.e.
+(cid:3037) (cid:3036)(cid:3037) (cid:3036)
+ The uniqueness of the representation on the base yields
+(cid:3036)(cid:3037) (cid:3037) (cid:3036)
+Spectral Theory - Mauricio Labadie
+7
+
+The Hermitian matrix is
+the conjugate and transpose
+(cid:3015)
+• Proposition 5. Let be an orthonormal base in . Let and
+(cid:2869) (cid:3015) 𝓔
+∗
+. Then :
+𝓔
+• The Hermitian or adjoint matrix is such that
+(cid:3036)(cid:3037) (cid:3037)(cid:3036)
+(cid:3015)
+• In the case of the adjoint matrix is the transpose
+• Proof:
+∗
+ By Proposition 4 we have and
+(cid:3036)(cid:3037) (cid:3037) (cid:3036) (cid:3036)(cid:3037) (cid:3037) (cid:3036)
+ Therefore:
+∗ ∗
+(cid:3036)(cid:3037) (cid:3037) (cid:3036) (cid:3036) (cid:3037) (cid:3036) (cid:3037) (cid:3037)(cid:3036)
+∗
+• We say that an operator is self-adjoint operator if
+ Observe that if a matrix is real and symmetric then it is self-adjoint
+Spectral Theory - Mauricio Labadie
+8
+
+Self-adjoint operators: real
+eigenvalues, orthogonal eigenvectors
+(cid:3015) (cid:3015)
+• Proposition 6. If is a self-adjoint operator then:
+a) All eigenvalues of are real
+b) Eigenvectors from different eigenvalues are orthogonal
+• Proof:
+ Let and be such that . Then:
+ In consequence
+ Let and be eigenvalues and eigenvectors with . Then:
+(cid:3036) (cid:3036) (cid:3037) (cid:3037) (cid:3036) (cid:3037)
+(cid:3036) (cid:3036) (cid:3037) (cid:3036) (cid:3036) (cid:3037) (cid:3036) (cid:3037) (cid:3036) (cid:3037) (cid:3036) (cid:3037) (cid:3037) (cid:3037) (cid:3036) (cid:3037)
+ In consequence
+(cid:3036) (cid:3037)
+Spectral Theory - Mauricio Labadie
+9
+
+Eigenvalues, eigenvectors
+and determinants
+(cid:3015) (cid:3015)
+• Proposition 7. Let where or .The following statements are
+equivalent:
+a) is an eigenvalue of
+b) The operator is singular i.e. non-invertible
+c)
+• Proof:
+ If is an eigenvalue of then there exist such that
+ But that means that , hence has a non-trivial kernel
+ In finite dimension, is non-invertible iif
+ If we assume then there is a vector in i.e.
+is an eigenvalue of
+Spectral Theory - Mauricio Labadie
+10
+
+Self-adjoint operators and
+symmetric matrices
+(cid:3015) (cid:3015)
+• Proposition 8. If is a self-adjoint operator then:
+(cid:3015)
+a) has at least one eigenvector i.e. there exists and such that
+(cid:3015)
+b) If is a real, symmetric matrix then can be chosen such that
+𝓔
+• Proof:
+ By Proposition 7, iif
+ Since is a polynomial in then it has a root
+(cid:3015)
+ In consequence, there exists such that
+ Moreover, by Proposition 6 we have that
+ If is real and symmetric then is a polynomial in and has a root
+(cid:3015)
+ By Proposition 7, there exists such that
+Spectral Theory - Mauricio Labadie
+11
+
+Orthogonal spaces and projections
+(cid:3015)
+• Let be a linear subspace of and let be an orthonormal base of
+(cid:2869) (cid:3012)
+(cid:3015)
+ The operator defined as
+(cid:3012)
+(cid:3041) (cid:3041)
+(cid:3041)(cid:2880)(cid:2869)
+(cid:3015)
+is called the orthogonal projection of onto
+(cid:3015)
+ We denote the orthogonal complement of in as
+⏊ (cid:3015)
+⏊ (cid:3015) (cid:3015) ⏊
+• Proposition 9. is a linear subspace of and
+• Proof:
+⏊
+ since for all
+⏊
+ For any and any we have
+⏊
+ If then , therefore
+(cid:3015) (cid:3015)
+ Let be an orthonormal base of and let . Then:
+(cid:2869) (cid:3012) (cid:3012)(cid:2878)(cid:2869) (cid:3015)
+(cid:3012) (cid:3015)
+⏊
+(cid:3041) (cid:3041) (cid:3041) (cid:3041)
+(cid:3041)(cid:2880)(cid:2869) (cid:3041)(cid:2880)(cid:3012)(cid:2878)(cid:2869)
+Spectral Theory - Mauricio Labadie
+12
+
+Invariant spaces for
+self-adjoint operators
+⏊ (cid:3015)
+• Proposition 10. Let be a linear subspace and its orthogonal complement in . If
+(cid:3015) (cid:3015)
+is a self-adjoint operator then:
+⏊
+a) If is invariant under then is invariant under
+b) In particular, the orthogonal complement of an eigenspace is invariant under
+• Proof:
+ Let . Since is invariant under then
+⏊
+ For any , using that is self-adjoint we have:
+⏊
+ In consequence,
+ An eigenspace is invariant under because if then
+Spectral Theory - Mauricio Labadie
+13
+
+Self-adjoint operators have
+a base of pure eigenvectors
+(cid:3015)
+• Proposition 11. Let be a finite-dimensional linear space with inner product i.e.
+(cid:3015)
+or . If is a self-adjoint operator then there exists an orthogonal base in
+where all elements are eigenvectors of .
+• Proof:
+ By Proposition 8, there exists and such that
+(cid:2869) (cid:2869) (cid:2869) (cid:2869) (cid:2869)
+ Let be the subspace generated by
+(cid:2869) (cid:2869)
+⏊
+ By Proposition 9 we have
+(cid:2869) (cid:2869)
+⏊
+ By Proposition 10 it follows that both and are invariant under
+(cid:2869) (cid:2869)
+⏊
+ By induction on the dimension of , the Proposition holds for because its dimension
+(cid:2869)
+is
+⏊
+ In consequence, there exists an orthogonal base in where all its
+(cid:2870) (cid:3015) (cid:2869)
+elements are eigenvectors of i.e. for
+(cid:3041) (cid:3041) (cid:3041)
+⏊
+ Adding it follows that is an orthogonal base in
+(cid:2869) (cid:2869) (cid:2870) (cid:3015) (cid:2869) (cid:2869)
+where all its elements are eigenvectors of
+Spectral Theory - Mauricio Labadie
+14
+
+Spectral Theorem for
+self-adjoint operators
+• Let us summarise all that we have proven so far in an elegant fashion.
+• Spectral Theorem. Let be a finite-dimensional linear space with inner product i.e.
+(cid:3015) (cid:3015)
+or . Let be a self-adjoint operator and let be its
+(cid:2869) (cid:3012)
+distinct eigenvalues. Let be the eigenspace associated to and let be the
+(cid:3036) (cid:3036) (cid:3036) (cid:3036)
+projection of to the eigenspace . Then:
+(cid:3036)
+a) If then is orthogonal to
+(cid:3036) (cid:3037)
+b) The space is the direct sum of all eigenspaces:
+(cid:2869) (cid:3012)
+c) The operator admits the following spectral decomposition:
+(cid:2869) (cid:2869) (cid:3012) (cid:3012)
+• The Spectral Theorem also holds in infinite dimensions (Hilbert spaces and Sobolev spaces),
+but we need some extra hypotheses on the self-adjoint operator
+(cid:3015)
+ For example, the Laplacian operator on a compact domain in with Dirichlet boundary
+conditions is diagonalizable: this is the basis of Fourier series
+Spectral Theory - Mauricio Labadie
+15

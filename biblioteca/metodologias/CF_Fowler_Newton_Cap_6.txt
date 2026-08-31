@@ -1,0 +1,5120 @@
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+CAPÍTULO 6
+MEDICIÓN CONTABLE
+6,1. INTRODUCCIÓN
+En este capítulo estudiamos las cuestiones básicas de medición conta-
+ble, que es la tarea de asignar importes en moneda (medidas contables) a los
+objetos susceptibles de reconocimiento a los que nos referimos en el capítu-
+lo 3.
+Medición también puede usarse como sinónimo de medida pero
+preferimos evitar ese empleo para que quede en claro cuándo nos
+referimos a la acción de medir y cuándo a su efecto.
+La aplicación de los conceptos incluidos en este capítulo a cuestio-
+nes particulares se trata en Contabilidad superior, sexta edición, La
+Ley, 2010, donde también nos referimos al tratamiento de esas cues-
+tiones en las NIIF, la “NIIF para las PYMES” las NC desarrolladas por
+la FACPCE y los US GAAP.
+6,2. CUESTIONES GENERALES
+A) MOMENTOS
+Deben efectuarse mediciones contables de un objeto:
+a) cuando se lo reconoce contablemente;
+b) a cada fecha para la cual se preparan informes contables (estados fi-
+nancieros o ICI);
+c) en ocasión de la baja de activos, pasivos o PNC en controladas, porque
+esto es necesario para medir los gastos, pérdidas, ingresos y ganancias
+ocasionados por el hecho.
+Los criterios a utilizar para la asignación de medidas contables en los ca-
+sos de los incisos b) y c) no tienen por qué diferir. En consecuencia, los mo-
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+224 ENRIQUE FOWLER NEWTON
+mentos a los cuales deben efectuarse mediciones contables de activos, de
+pasivos y de PNC en controladas pueden clasificarse así:
+a) momento del reconocimiento inicial;
+b) momentos posteriores.
+B) UNIDAD DE MEDIDA
+Como parte de la fijación de sus políticas contables, un emisor de estados
+financieros debe seleccionar (dentro de lo que las leyes y las NC le permitan)
+una moneda de medición y un conjunto de criterios de medición contable.
+Lo mismo debe hacer en relación con los ICI, pero sin limitaciones legales.
+La cuestión de la moneda fue tratada en el capítulo 4.
+Ambas decisiones son independientes, de modo que un criterio de medi-
+ción podría ser aplicado con más de una unidad de medida.
+Un costo histórico podría expresarse en:
+a) la moneda local nominal (sin ajuste por inflación);
+b) la moneda local de poder adquisitivo de la fecha del informe
+contable (esto es, con ajuste por inflación);
+c) la moneda funcional nominal (sin ajuste por inflación); o
+d) la moneda funcional de poder adquisitivo de la fecha del infor-
+me contable (con ajuste por inflación).
+Cabe recordar que, en los casos de transacciones en una moneda distinta
+a la de medición:
+a) el criterio de medición correspondiente debe aplicarse empleando
+esa unidad de medida;
+b) el importe obtenido en el paso anterior debe ser convertido a la mo-
+neda de medición;
+c) la medida contable calculada en el paso anterior podría ser luego
+ajustada para considerar la inflación que afecta a la moneda de medi-
+ción.
+En el resto de este capítulo, no volveremos a referirnos a las cuestio-
+nes relativas a la unidad de medida. Los criterios de medición que
+presentemos podrían aplicarse utilizando la moneda local o la fun-
+cional, con ajuste por inflación o sin él.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 225
+C) RELACIÓN ENTRE LOS CRITERIOS DE MEDICIÓN Y LAS
+CUALIDADES QUE DEBERÍA REUNIR LA INFORMACIÓN FINANCIERA
+En el capítulo 2 listamos y caracterizamos las cualidades que la informa-
+ción financiera debería reunir para ser útil a sus usuarios típicos. Sobre la
+base de lo allí presentado, podemos elaborar las reglas generales de medi-
+ción que pasamos a enunciar.
+Para que la información contable reúna las cualidades de pertinencia, re-
+presentatividad, integridad y verificabilidad:
+a) la medición contable de los objetos reconocidos debe posibilitar la
+obtención de información financiera que:
+1) ayude a evaluar la situación y la evolución patrimonial y financiera
+de la entidad emisora de la información y a comprender las causas
+de los cambios operados en ellas;
+2) sea aceptada por los usuarios como una de las bases para la toma
+de sus decisiones;
+3) guarde una correspondencia razonable con los fenómenos que
+pretende describir, considerando la sustancia económica de las
+operaciones cuando ésta no resulte de su forma;
+4) no esté afectada por errores u omisiones importantes;
+5) pueda ser comprobada por terceros que posean los conocimientos
+suficientes para esta tarea;
+b) no deben reemplazarse medidas contables pertinentes y representati-
+vas por otras que no lo sean;
+c) no debe usarse la prudencia como excusa para reducir la medida con-
+table asignada al patrimonio.
+Para que la información sea comparable:
+a) las transacciones similares deben contabilizarse con las mismas re-
+glas;
+b) los objetos de reconocimiento contable de igual naturaleza deben
+medirse con las mismas reglas;
+c) los criterios de medición contable deben aplicarse sin variaciones a lo
+largo del tiempo, salvo cuando el cambio esté motivado por:
+1) la búsqueda de mayor calidad en la información contable;
+2) una modificación en las NC que el emisor aplica.
+Para alcanzar el requerimiento de sistematicidad en la presentación de
+los estados financieros deben aplicarse las NC que corresponda. Este hecho
+debe ser informado en dichos estados.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+226 ENRIQUE FOWLER NEWTON
+Por aplicación del concepto de significación, se admiten desviaciones
+a las reglas anteriores, mientras esto no afecte las decisiones que los usua-
+rios podrían tomar sobre la base de los informes contables preparados en el
+caso.
+D) SELECCIÓN DE ATRIBUTOS A EMPLEAR COMO BASE
+PARA LA MEDICIÓN CONTABLE
+1) Criterio general
+La medición contable de un objeto debería basarse en el atributo más
+pertinente a las necesidades de los usuarios de la información.
+En las secciones inmediatamente posteriores a ésta nos referimos a
+los principales atributos y a la manera de medirlos.
+Sin embargo, las NC suelen requerir o admitir la consideración de otros
+atributos cuando:
+a) al más relevante no puede asignársele una medida contable de una
+manera fiable; o
+b) el empleo de NC basadas en el más relevante demanda costos admi-
+nistrativos desproporcionados.
+Por ejemplo, el emisor de un juego de NC podría:
+a) considerar que la medida contable más relevante para un terre-
+no es el precio que se pagaría por él en una transacción libre en-
+tre partes independientes e informadas; pero
+b) admitir que su medición se haga por su costo (mientras el activo
+no se desvalorice) para evitar que los emisores de estados finan-
+cieros deban contratar tasaciones con frecuencia.
+2) Consideración de los destinos esperados de activos y pasivos
+Algunos doctrinarios y emisores de NC consideran que al seleccionar el
+atributo de un activo o de un pasivo que resulte más relevante para los usua-
+rios debe considerarse el destino previsto para dicho elemento.
+En algunos juegos de NC se prevén criterios distintos de medición
+para los títulos de deuda en cartera, según que se los tenga:
+a) con la intención de venderlos en el corto plazo; o
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 227
+b) con la idea de mantenerlos en cartera y cobrar los cupones de in-
+tereses y de amortización del capital a medida que se producen
+sus vencimientos.
+3) Consideración del horizonte temporal de la entidad
+Habitualmente, las entidades que emiten estados financieros tienen una
+vigencia temporal indefinida. En el caso de las entidades con fines de lucro se
+dice que son empresas en marcha.
+Sin embargo, puede ocurrir que una entidad esté próxima a cesar en su
+actividad o a discontinuar un negocio, porque las personas a cargo de su go-
+bierno:
+a) tienen esa intención; o
+b) no tienen otra alternativa (sea, por dificultades financieras).
+Si esta circunstancia se presentase, debería tenérsela en cuenta al elegir
+los atributos de los activos sobre cuya base se practicará su medición conta-
+ble.
+E) MEDIDAS ÚNICAS O RANGOS
+En 1973, el informe Trueblood presentó una reflexión muy interesante
+sobre el hecho de que a pesar de saberse que las cifras contables son aproxi-
+madas, los estados financieros muestran importes únicos para cada concep-
+to.
+Si una empresa tiene por cobrar $ 800 y sabe que parte de este im-
+porte no llegará a convertirse en efectivo, podría hacer estimacio-
+nes como éstas:
+a) la cifra cuya probabilidad de cobro es mayor es $ 700;
+b) hay un 90 % de probabilidad de que ese importe se ubique entre
+$ 680 y $ 720;
+c) hay un 95 % de probabilidad de que se cobren entre $ 670 y
+$730.
+Con el criterio de cifra única, la empresa podría medir la suma no-
+minal de las cuentas por cobrar partiendo del supuesto de que co-
+brará exactamente $ 700, pero raro sería que esa fuera la cifra final-
+mente percibida.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+228 ENRIQUE FOWLER NEWTON
+Para los autores del informe:
+La precisión al punto de que un importe informado sea
+idéntico a un valor “real” es imposible de obtener.
+Además, es probable que la obtención de altos grados
+de precisión no tenga justificativo económico. Por lo
+tanto, las mediciones contables, como otras, pueden
+estar sujetas a error. Una fuente continua de malos
+entendidos sobre la información y las mediciones con-
+tables es la tendencia a atribuirles un nivel de pre-
+cisión que no es factible o accesible. Los usuarios
+de información contable deberían ser informados sobre
+las limitaciones de los datos y la magnitud de los
+posibles errores de medición. Los estados financieros
+no deberían presentarse para querer mostrar un grado
+de precisión o fiabilidad que induzca a error (1).
+En 1980, la inquietud indicada fue de alguna manera recogida por la
+FASB, cuyo SFAC 2 exponía:
+72. La fiabilidad no implica certeza o precisión. Por
+supuesto, cualquier simulación de estas cualidades
+cuando ellas no existen es una negación de fiabili-
+dad. A veces, un rango dentro del cual puede caer una
+estimación brindará información más fiable que la de
+una estimación simple. En otros casos, la indicación
+de las probabilidades atribuibles a los diversos va-
+lores de un atributo podría ser la mejor vía para dar
+información confiable sobre la medida del atributo
+y de la incertidumbre que lo rodea. Informar cifras
+contables como ciertas y precisas, cuando no lo son,
+es la negación de un informe fiable.
+La aplicación de esta idea al caso de una medición individual llevaría a
+exposiciones de intervalos de confianza (calculados mediante la aplicación
+de herramientas de la estadística) como los presentados en el ejemplo (hay
+un... % de probabilidad de que... esté entre $... y $...). Mucho más complica-
+do y costoso sería combinar todas las estimaciones individuales para dar una
+información de este tipo:
+Hay un 95 % de probabilidad de que el resultado del
+periodo se encuentre entre $ 80 y $ 120, siendo $ 100
+su valor más probable.
+Desde la emisión de la SFAC 2 no hubo, que conozcamos, estudios sobre
+la factibilidad de implementar un enfoque basado en la información de ran-
+(1) Objectlves of Financial Statements, Report of the Study Group on the Objectives of Fi-
+nancial Statements. AICPA, 1973, página 58. Se lo conoce como Informe Trueblood por referen-
+cia al apellido del presidente del grupo de estudio.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 229
+gos de medidas contables con un costo razonable. Por otra parte, la SFAC 8
+(que en septiembre de 2010 dejó sin efecto a la 2) no menciona la cuestión.
+Aunque el enfoque indicado no se incorpore a las NC, los usuarios de es-
+tados financieros deberían tener en cuenta las limitaciones de la información
+contable a las que se refieren el informe Trueblood y la SFAC 2 en los párra-
+fos que hemos transcripto. Por otra parte, los estados financieros deberían
+contener información cualitativa que ayude a evaluar la incertidumbre de las
+estimaciones presentadas en ellos.
+F) HECHOS POSTERIORES A LA FECHA DE UN INFORME
+CONTABLE
+Los hechos que se produzcan dentro del lapso al que nos referimos en el
+apartado 5,2,e) y que ayuden a mejorar las mediciones contables correspon-
+dientes a la fecha de unos informes contables, deben ser considerados en la
+preparación de éstos.
+Supóngase que:
+a) una entidad está preparando estados financieros al 30/09/X1;
+b) a esa fecha existían:
+1) una cuenta por cobrar a un cliente;
+2) indicios de que éste no la iba a pagar;
+c) el 10/10/X1, el cliente entró en un proceso concursal y este nue-
+vo hecho aumenta la probabilidad de que la cuenta termine por
+ser incobrable.
+Aunque el hecho sea de octubre, confirma las evaluaciones que po-
+drían practicarse al 30/09/X1 y debe ser considerado al preparar los
+estados financieros.
+Los hechos que no guarden relación alguna con las condiciones existen-
+tes a la fecha a la cual corresponde la información contable, no deben afectar
+la medición contable del patrimonio a ese momento.
+Las notas a los estados financieros deberían mencionar los hechos nue-
+vos que sean muy importantes para las decisiones que deben tomar los usua-
+rios de esos documentos.
+Ejemplos de hechos nuevos que deberían ser informados, si sus
+efectos fueran significativos:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+230 ENRIQUE FOWLER NEWTON
+a) cualquier acontecimiento que ponga en peligro la continuidad
+del ente emisor de los estados financieros, como la destrucción
+de su única planta industrial a causa de un incendio;
+b) importantes pérdidas o ganancias de tenencia atribuibles a he-
+chos poco comunes, como una devaluación importante de la
+moneda de medición;
+c) la reestructuración de una deuda.
+6,3. ATRIBUTOS DE ACTIVOS
+Los atributos de los activos susceptibles de consideración para su medi-
+ción contable podrían basarse en precios o en valores de la fecha de la medi-
+ción o de momentos anteriores o posteriores.
+Ningún elemento del activo tiene todos los atributos que veremos en esta
+sección.
+A) VALORES CORRIENTES
+Es un valor corriente (VC) uno determinado a la fecha de la medición
+contable, lo que lo hace apto para obtener información representativa de la
+realidad a dicha fecha.
+Sin embargo, hay quienes consideran que no vale la pena afrontar el cos-
+to de utilizar VC en la medición contable de los bienes tenidos para el uso
+(como los elementos de propiedades, planta y equipo) porque las ganancias
+o pérdidas que produzca la tenencia de estos activos se compensarán en el
+futuro con otros resultados de signo contrario, cuando los bienes se depre-
+cien, desvaloricen, vendan o den de baja. Frente a este razonamiento, cabe
+formular las siguientes consideraciones:
+a) la asignación de resultados entre períodos requiere el empleo de los
+mejores criterios de medición;
+b) el argumento no es válido para los bienes no sujetos a depreciación
+(como el terreno donde se asienta la planta industrial, en tanto no su-
+fra deterioros con motivo de cambios ambientales).
+También se ha dicho que no deben usarse VC para estos activos porque
+se los tiene para el desarrollo de su actividad o para su diversificación, y no
+para la venta (2). Este argumento tampoco nos convence porque del hecho
+(2) LÓPEZ SANTISO, HORACIO, Un modelo contable globalizador: el modelo de valores eco-
+nómico-contable, en Trabajos nacionales, XXI Conferencia Interamericana de Contabilidad,
+Cancún, 1995, págs. 23-36. La cita corresponde a la pág. 30.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 231
+de que un bien no esté destinado a la venta no puede deducirse válidamente
+la conclusión de que sus cambios de valor deban ser ignorados por la conta-
+bilidad.
+En la Argentina, además, la falta de consideración de los VC de los
+bienes de uso puede afectar patrimonialmente a los socios que ejer-
+zan el derecho de receso, pues la determinación de los reembolsos
+que deben recibir por dejar de participar en el ente se basa en los
+patrimonios que muestran los estados financieros oficiales. Lo que
+debería hacerse es modificar la legislación para disponer que dicho
+derecho se calcule empleando un estado de situación extracontable
+especial, pero mientras tal cosa no ocurra, los emisores de NC no
+deberían desentenderse de los efectos económicos que tendría la
+adopción de reglas que no exijan el empleo de VC para la medición
+contable de los activos.
+Quizá, sería aceptable (para estos activos) algún criterio intermedio,
+como el de:
+a) requerir la aplicación obligatoria de VC con cierta periodicidad (por
+ejemplo, cada cuatro años) o cuando existan cambios evidentes en
+ellos (3);
+b) en los intervalos, aceptar los costos (o los últimos VC registrados), co-
+rregidos por inflación y netos de las depreciaciones posteriores a la
+compra de los activos o a la última determinación de sus VC.
+El concepto de VC engloba a una serie de atributos, que pasamos a con-
+siderar.
+1) Valor razonable (valor justo)
+Parece existir consenso en que el valor justo o valor razonable (4) (VR)
+de un bien es el precio al cual se lo negociaría en una transacción efectuada
+entre partes que:
+a) son independientes entre sí (esto es, no son partes relacionadas);
+b) no actúan forzadas por su situación económica ni por compulsión;
+c) conocen y comprenden qué es lo que están negociando;
+d) disponen, para la toma de su decisión, de toda la información rele-
+vante al caso a la que pueda accederse con un esfuerzo razonable.
+(3) Esto suele ocurrir cuando la inflación es muy alta, porque esto hace que los precios
+relativos de los bienes crezcan a velocidades distintas.
+(4) Fair value.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+232 ENRIQUE FOWLER NEWTON
+Esto suele plasmarse en definiciones breves, como la utilizada en varios
+componentes de las NIIF:
+El importe por el que puede ser intercambiado un ac-
+tivo o cancelado un pasivo, entre partes conocedoras
+e interesadas, que actúan en condiciones de indepen-
+dencia mutua.
+Alguna otra definición agrega la idea de que esa transacción debería efec-
+tuarse en un mercado eficiente, completo y perfecto.
+Un VR refleja decisiones que tomarían los participantes en un mercado.
+Por esto y porque no considera los costos adicionales de comprar o vender
+los bienes objeto de medición, no es un valor propio de la entidad que emite
+la información contable.
+La medición del VR de un activo no ofrece mayores dificultades cuando
+existe un precio de él que puede ser observado en un mercado activo, que es
+uno en el que:
+a) se negocian bienes homogéneos;
+b) en todo momento, pueden encontrarse compradores y vendedores, y
+c) se forman precios que el público puede conocer.
+Las mercaderías fungibles que se transan en mercados activos se consi-
+deran bienes de fácil comercialización.
+Estos son algunos bienes que (en caso de cotizarse en mercados
+que cumplan las condiciones enunciadas) pueden considerarse de
+fácil comercialización:
+a) moneda extranjera;
+b) metales en lingotes, en barras o amonedados;
+c) acciones de sociedades anónimas;
+d) títulos de deuda, públicos o privados (obligaciones negociables,
+bonos estatales);
+e) cupones separados de las acciones o de los títulos de deuda que
+por conferir algún derecho tienen su propio valor (5);
+f) contratos de futuros u opciones;
+g) cuotas-parte de fondos comunes de inversión;
+(5) Ejemplo: un cupón requerido para suscribir nuevas acciones a un precio deter-
+minado.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 233
+h) productos agrícolas;
+i) petróleo crudo;
+j) ganado en pie.
+Si el activo se cotizase en más de un mercado, sería razonable tomar el
+precio del lugar en el que más probablemente se negociaría el activo, fuere
+debido a la costumbre del emisor de los estados financieros o porque se trata
+del que permite obtener un mejor precio.
+Cuando no existe un precio del activo específico, debe estimárselo. Para
+esto, debe darse a los posibles procedimientos de estimación alguna jerar-
+quía que indique en qué orden considerarlos. Parece razonable comenzar
+con los precios observados en mercados activos, en el siguiente orden:
+a) de activos que brinden prestaciones similares al poseído y estén en un
+estado parecido a éste;
+b) de activos que son iguales al poseído excepto por su estado o antigüe-
+dad, en cuyo caso debería efectuarse una corrección subjetiva para
+dar consideración a las diferencias;
+c) de activos que brinden prestaciones similares al poseído pero que di-
+fieran de éste en cuanto a su estado o su antigüedad, en cuyo caso
+debería efectuarse una corrección del mismo tipo que la indicada en
+el inciso anterior.
+Supongamos que:
+a) se tiene un automotor de marca y modelo X27, que es parecido
+(en prestaciones) a los automotores de marca y modelo Z27;
+b) dicho automotor, debido a su uso, ha perdido una parte de su
+capacidad de servicio, que se estima en un 30 %.
+En este caso, debería considerarse la siguiente escala de preferen-
+cias:
+a) precio de un automotor usado X27 que haya perdido el 30 % de
+su capacidad de servicio;
+b) precio de un automotor usado Z27 que haya perdido el 30 % de
+su capacidad de servicio;
+c) precio de un automotor nuevo X27 menos su 30 % (para consi-
+derar la depreciación acumulada del activo poseído);
+d) precio de un automotor nuevo Z27 menos su 30 %.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+234 ENRIQUE FOWLER NEWTON
+De no poder utilizar precios observables en mercados activos debería es-
+timárselos mediante modelos matemáticos que:
+a) reflejen la forma en que el comprador y el vendedor de un activo fija-
+rían su precio;
+b) consideren los factores que las partes tomarían en cuenta para tal de-
+cisión;
+c) sean alimentados con datos observables en mercados activos o que de
+alguna otra manera puedan ser objetivamente verificados.
+Ejemplos:
+a) para estimar el VR de un título de deuda sin cotización podría
+tomarse el valor descontado de los futuros flujos de efectivo que
+se espera suministre la cobranza de los correspondientes cupo-
+nes de capital e intereses, calculado con la tasa de interés que
+emplearían las partes para calcular el precio de ese activo;
+b) para estimar el VR de una opción que permita comprar o vender
+una acción con cotización podría emplearse la correspondiente
+fórmula de Black, Scholes y Merton, tomando de los mercados
+los datos necesarios para su aplicación.
+Nos referimos a la aplicación de las fórmulas de Black, Scholes y
+Merton en las páginas 825-830 de Contabilidad Superior, sexta edi-
+ción, La Ley, 2010.
+Puede encontrarse una amplia discusión sobre la cuestión de la me-
+dición de los VR en:
+a) la Statement of Financial Accounting Standards (SFAS, declara-
+ción de normas de contabilidad financiera) 157 de la FASB (2006),
+cuya parte dispositiva integra el tópico 820 de la ASC;
+b) el informe de la SEC titulado Report and Recommendations Pur-
+suant to Section 133 of the Emergency Economic Stabilization Act
+of 2008: Study on Mark-To-Market Accounting, 2008.
+En las NC, el número de requerimientos de utilizar VR para efectuar me-
+diciones contables ha crecido en los últimos años.
+El empleo de VR en el marco de la crisis financiera mundial de 2008 pro-
+dujo algunas reacciones adversas. Quienes entonces mostraron su oposición
+a este criterio contable lo hicieron con la evidente intención de lograr la pos-
+posición del reconocimiento de algunas de las pérdidas de las entidades que
+administraban. No lo lograron.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 235
+2) Ajustes al valor razonable por costos de transporte
+Algunas propuestas referidas a la aplicación del concepto de VR conside-
+ran que en su medición deben deducirse los costos de transporte necesarios
+para poner al activo en el mercado cuyo precio se ha considerado. Aunque
+esto sea razonable como criterio de medición del activo en cuestión, opina-
+mos que:
+a) un VR así determinado no encuadra en la definición general dada a
+ese concepto, que refiere a un precio y no a la diferencia entre éste y
+ciertos gastos;
+b) más adecuado sería que en esos casos se estableciese que la medición
+de los activos del caso se haga por su VR en el mercado donde se lo
+negociará menos los correspondientes costos de transporte.
+3) Valor neto de realización
+El valor neto de realización (VNR) de un activo se obtiene restando de su
+VR los costos que demandaría su enajenación, que incluyen:
+a) los costos de transporte referidos en el apartado anterior que no hu-
+bieren sido deducidos al calcular el VR;
+b) los costos originados por la transacción en sí, como derechos de mer-
+cados, comisiones o impuestos directos sobre la venta.
+Algunos emisores de NC aplican la presunción de que los costos de las
+transacciones (o costos de vender) son poco significativos y requieren:
+a) que ciertos activos se midan directamente por sus VR;
+b) que los costos emergentes de sus ventas se reconozcan como gastos
+recién cuando éstas ocurren.
+Esto es habitual respecto de los bienes de fácil comercialización.
+4) Costo corriente del activo
+En un sentido amplio, costo es el sacrificio que demanda o demandaría:
+a) la compra o la producción de un bien (para ponerlo en condiciones de
+ser vendido o utilizado, lo que corresponda a la intención de la enti-
+dad);
+b) la adquisición de un derecho de uso o de un servicio; o
+c) el desarrollo de una actividad (6).
+(6) Hay definiciones más restringidas, que sólo se refieren a la adquisición o producción
+de bienes y servicios. Ellas son variadas, pero de alguna manera incluyen el concepto de sacri-
+ficio.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+236 ENRIQUE FOWLER NEWTON
+Ejemplos de actividades:
+a) la transformación de materias primas en mercaderías disponi-
+bles para la venta;
+b) su comercialización;
+c) la administración de la entidad;
+d) la investigación y el desarrollo de nuevas tecnologías;
+e) la financiación de otras actividades con fondos de terceros (oca-
+sionan costos financieros).
+El costo corriente de un activo es la suma de su precio y de los costos ne-
+cesarios para ponerlo en condiciones de ser consumido, vendido o usado (lo
+que corresponda al destino previsto por la entidad para el activo).
+Su medición se basa en los precios habitualmente pagados por el com-
+prador, aunque en el mercado existan otros más o menos ventajosos.
+Cuando el bien no está disponible en el mercado, su precio debe ser esti-
+mado considerando:
+a) el último precio conocido del bien;
+b) precios de bienes con prestaciones similares.
+Nos referiremos a las mediciones de otros costos en la sección 6,6.
+5) Costo corriente de la capacidad de servicio del activo
+Es el costo corriente de un activo que:
+a) es distinto del que se quiere medir; pero
+b) tiene una capacidad de servicio similar.
+En el caso de un depósito, podría tratarse de una capacidad de al-
+macenamiento de 20.000 metros cúbicos.
+Para medirlo, se obtiene el costo de la obtención de un bien nuevo y se le
+deduce la porción de ese importe que pueda atribuirse a la parte ya transcu-
+rrida de la vida útil del activo cuya medición contable se está efectuando.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 237
+B) COSTO HISTÓRICO
+El costo histórico de un activo es el costo corriente calculado a la fecha de
+su reconocimiento contable.
+Aunque los costos históricos constituyan medidas de valor a la fecha en
+que se los incurre, los posteriores cambios de precios no quedan reflejados
+en sus medidas contables. Este problema no se soluciona con los ajustes por
+inflación porque éstos consideran los cambios en los precios de una canasta
+de bienes y servicios y no de los que son objeto específico de medición con-
+table.
+O sea: expresando en moneda del presente un costo del pasado no se ob-
+tiene (salvo por casualidad) un valor del presente.
+Si el costo histórico de un bien adquirido es $ 100 y hasta la fecha de
+una nueva medición del mismo la inflación ha sido del 5 %, el mis-
+mo costo expresado en moneda del nuevo momento será:
+100 (1 + 0,05) = 105
+pero el costo de reposición del mismo bien podría ser $ 103, $ 108 o
+cualquier otro (incluso $ 105).
+Dada esta limitación del costo histórico, opinamos que sólo debería uti-
+lizárselo para:
+a) la medición contable inicial de activos;
+b) su medición contable periódica, cuando la determinación de un VC (o
+de un “valor patrimonial”, en el caso de participaciones en otras enti-
+dades) sea imposible o muy costosa.
+Nos referimos al “valor patrimonial” en el apartado g) de esta sec-
+ción.
+Sin embargo, durante muchos años hubo NC que requerían que
+activos
+con VC de fácil determinación se midiesen sobre la base de su costo. Y el mis-
+mo criterio se aplica hoy en las NIIF y en los US GAAP para la mayoría de las
+mercaderías destinadas a la venta.
+C) COSTOS HISTÓRICOS MODIFICADOS
+Un costo histórico no es una medida adecuada para un activo cuando
+éste sufre cambios después de su adquisición. En estos casos, las NC que no
+exigen la aplicación de VC suelen requerir la utilización de reglas de medi-
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+238 ENRIQUE FOWLER NEWTON
+ción que parten de los costos históricos de los activos y dan consideración a
+esos cambios.
+1) Costo histórico menos depreciación
+Este criterio suele aplicarse a los bienes durables, que van sufriendo un
+proceso de desvalorización con motivo de su desgaste o por otras causas. El
+importe resultante de su aplicación es referido a veces como costo deprecia-
+do.
+Supongamos que:
+a) unas NC requieren la utilización de este criterio a las máquinas
+empleadas en actividades productivas;
+b) durante el ejercicio 20X1 se adquirió una de ellas con un costo
+de $ 100, cuyo valor recuperable final es despreciable;
+c) llegado el cierre del mismo, se estima que su vida útil se ha con-
+sumido en un 14 %.
+Dados estos supuestos, se asigna a la máquina esta medida conta-
+ble:
+100 (1 - 0,14) = 86
+2) Importe resultante de aplicar el método de la tasa efectiva
+Aunque la mejor medida contable de las cuentas por cobrar sería su VNR
+(o en su defecto su VR), muchos juegos de NC requieren que se las mida con
+el Importe resultante de aplicar el denominado método de la tasa efectiva.
+Según éste:
+a) cuando se efectúa el reconocimiento inicial de la cuenta, se toma nota
+de la tasa de interés pactada o implícita en los futuros flujos de efecti-
+vo (la tasa interna de retorno, TIR);
+b) con posterioridad, la medida contable de la cuenta (antes de deducir
+pérdidas probables por incobrabilidad o mora) se determina median-
+te este algoritmo:
+medida contable inicial + intereses calculados con la TIR referida
++ actualizaciones monetarias que se hubieren pactado - importes
+ya cobrados
+Ya mencionamos que si la cuenta estuviera nominada en una moneda
+distinta a la de medición:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 239
+a) la medida contable se calcula primero en la moneda de nominación;
+b) el importe obtenido en el paso anterior se convierte luego a la moneda
+de medición.
+Por razones que desconocemos, en algunas NC el importe resultante
+del algoritmo descripto se denomina costo amortizado. Esta expre-
+sión es inadecuada, pues induce a suponer que la nueva medida de
+la cuenta por cobrar es inferior a la original.
+D) IMPORTE NOMINAL POR COBRAR
+Este criterio de medición solo podría aplicarse a las cuentas por cobrar.
+Es claramente inadecuado porque se basa en valores del futuro y no consi-
+dera:
+a) el valor tiempo del dinero (un peso del futuro vale menos que un peso
+del presente);
+b) que cualquier operación a plazo involucra intereses, explícitos o im-
+plícitos.
+Supongamos que el 30/11/X1 se vende una mercadería y por ello
+se facturan $ 10.404 (no alcanzados por ningún impuesto), que
+son pagaderos a los dos meses. También se ofrece un descuento de
+$ 404 por pago al contado.
+En este caso, el verdadero precio de venta (el de una operación al
+contado) es $ 10.000. Si la cuenta se midiera con el Importe resul-
+tante de aplicar el método de la tasa efectiva, se determinaría:
+a) que la TIR al momento de la medición inicial es del 2 % mensual,
+ya que es:
+10.000 (1,02)2 = 10.404
+b) esta medida contable al 31/12/X1:
+10.000 x 1,02 = 10.200
+E) VALOR DESCONTADO DEL IMPORTE NOMINAL QUE SE ESPERA
+PERCIBIR, CONSIDERANDO LA INCOBRABILIDAD Y LA MORA
+El valor descontado (VD) de cada cuenta por cobrar debe calcularse con-
+siderando:
+a) el importe que efectivamente se espera cobrar (que puede ser inferior
+al pactado);
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+240 ENRIQUE FOWLER NEWTON
+b) el momento en que se espera percibirlo;
+c) una tasa de interés.
+Cuando la tasa de interés es del momento de la medición y considera los
+riesgos inherentes a la incobrabilidad y la mora, se obtiene una estimación
+del VC de las cuentas por cobrar.
+Si, en cambio, se utiliza la TIR determinada en el momento de la medi-
+ción inicial del crédito, se obtiene un importe que no representa nada en par-
+ticular. Sin embargo, este criterio es empleado en algunas NC para determi-
+nar el importe recuperable (IR) de las cuentas por cobrar.
+F) VALOR ESPERADO
+El valor esperado de un activo o de un pasivo es un promedio ponderado
+de otros valores, calculado considerando sus probabilidades individuales de
+concreción.
+Los valores a considerar para su cálculo deben resultar de la considera-
+ción de otros atributos, como los importes nominales por cobrar o sus VD. La
+última alternativa está considerada (respecto de los pasivos) en un borrador
+de NC publicado por el IASB en 2010 (7).
+Eventualmente, el cálculo de un valor esperado podría formar parte de la
+estimación del IR de un activo o de un pasivo.
+Supongamos que:
+a) se tiene una cuenta por cobrar cuyo importe nominal es $ 1.100;
+b) se estima que hay tres escenarios posibles, según los cuales po-
+drían cobrarse (en determinadas fechas) $ 1.100, $ 500 o nada;
+c) los VD de los importes por cobrar de acuerdo con esos escena-
+rios (calculados con una tasa de interés que no incluye el factor
+riesgo (8)) son, respectivamente, $ 1.000, $ 480 y nada;
+d) se estima que esos escenarios tienen una probabilidad de con-
+creción del 30 %, 50 % y 20 %, respectivamente;
+e) otra empresa aceptaría comprar el derecho de cobro por el 90 %
+de su valor esperado (calculado sobre las bases ya indicadas).
+En este caso, podrían estimarse los siguientes importes:
+(7) IASB, Measurement of Liabilities in IAS 37.Exposure Draft ED/2010/1, apéndice B.
+(8) Esto, porque el riesgo crediticio ya está considerado al evaluar los posibles escena-
+rios.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 241
+a) valor esperado del VD de la suma por cobrar:
+(30 % de 1.000) + (50 % de 480) + (20 % de 0) =
+300 + 240 + 0 = 540
+b) VR (lo que pagaría el tercero):
+90 % de 540 = 486
+También podría haberse calculado el VD de la suma nominal que
+se tiene derecho a cobrar ($ 1.100) con una tasa de interés que in-
+cluyera los riesgos de incobrabilidad y mora.
+El empleo de valores esperados sería ineludible si se adoptase el enfoque
+de reconocimiento proporcional de cualquier activo o pasivo.
+Nos referimos a ese enfoque en la sección 5,3,b).
+G) “VALOR PATRIMONIAL”
+Dada una participación en el patrimonio de otra entidad, un inversor po-
+dría asignarle una medida contable a partir de:
+a) la asignada al patrimonio de la participada;
+b) el porcentaje de participación del inversor en ese patrimonio;
+c) los hechos que, teniendo origen en el pasado, podrían modificar ese
+porcentaje.
+Para ello, se aplica el método de la participación (o método del valor pa-
+trimonial), que no describiremos aquí.
+Dada su base, el denominado “valor patrimonial” no es un valor pro-
+piamente dicho, porque la medida contable asignada al patrimonio
+de la participada no equivale al valor de esa empresa (9).
+Aun con sus limitaciones, el empleo del atributo referido es aceptable
+para medir una participación en el patrimonio de otra entidad cuando su VC
+es de determinación difícil o muy costosa, lo que es frecuente. Esto es mejor
+que medir esa participación por su costo, pues esto conllevaría la falta de re-
+conocimiento de la participación en los resultados de dicha entidad.
+(9) No incluye, por ejemplo, la plusvalía del negocio que hubiere sido generada por sus
+administradores.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+242 ENRIQUE FOWLER NEWTON
+En general, el valor patrimonial de una inversión se aplica cuando la par-
+ticipación del inversor en el patrimonio de una participada le otorga control,
+control conjunto (compartido con otras entidades) o influencia significativa.
+Nos referimos a estos tres conceptos, al método de la participación
+y a su aplicación, dentro del capítulo 18 de Contabilidad Superior,
+sexta edición, La Ley, 2010.
+H) VALOR DE USO
+Se considera valor de uso (VU) o valor de utilización económica de un
+activo o de un grupo de ellos, al neto de los VD de los flujos de efectivo que se
+espera obtener gracias a:
+a) su utilización; y
+b) su enajenación, una vez que cese el uso previsto.
+Es un valor específico del emisor de la información financiera y no un
+precio que podría obtenerse por dicho activo o grupo.
+Son pocos los casos en que los activos destinados al uso generan efectivo
+individualmente. Por ello, lo habitual es que a los efectos de determinar su
+VU, los activos se agrupen al nivel más bajo al cual generan flujos de efecti-
+vo distinguibles de otros. Esos agrupamientos suelen denominarse unidades
+generadoras de efectivo (UGE).
+I) IMPORTE RECUPERABLE
+El importe recuperable (IR) de un activo o de un grupo de activos es lo
+que su denominación indica y marca el límite de la medida contable a asig-
+nar a dichos elementos cuando se preparan estados financieros.
+Esto es, a ningún activo o grupo de ellos debería asignársele, en un estado
+de situación, una medida contable superior a su IR (también conocido como
+valor recuperable).
+Nos parece evidente que el IR de un bien o de un grupo de bienes está
+dado por lo que podría obtenerse gracias a su venta (valor de cambio) o a su
+utilización (VU), de acuerdo con el destino inmediato previsible de los bie-
+nes (10).
+Sin embargo, algunos autores y muchos emisores de NC consideran que
+el IR de un activo o de un conjunto de ellos es el mayor importe entre su valor
+(10) La expresión en bastardilla fue lomada de:
+GARCÍA, SERGIO, El valor recuperable de los activos, trabajo base presentado a las Jornadas
+Regionales 1989 de la FACPCE, págs. 45-70.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 243
+de cambio (dado por su VNR) y su VU, lo que implica considerar su empleo
+alternativo más rentable (11).
+El IASB ha defendido la aplicación de este criterio argumentando que re-
+fleja el comportamiento probable de una administración racional (12). Sin
+embargo, y como señaló García en 1989, su aplicación supone que:
+a) el empleo alternativo más rentable del activo es factible;
+b) se han tomado o se tomarán las decisiones sobre el cambio de destino
+de los bienes que fueren necesarias para lograr el mejor resultado;
+c) no hay restricciones a la movilidad de los activos (13).
+Por otra parte, la decisión de continuar con el empleo de un activo (o
+grupo de activos) o de deshacerse de él no tiene por qué basarse (exclusiva-
+mente) en el resultado de una comparación entre un VNR y un VU calculados
+aplicando determinadas NC. También podría considerar:
+a) decisiones probables, aunque al IASB no le parezcan racionales;
+b) comparaciones entre el VNR y un VU calculado de una manera distin-
+ta a la prevista por las NC del caso.
+Aunque el VU de un activo sea inferior a su VNR, un administrador
+podría decidir que retendrá el bien:
+a) porque la entidad puede introducirle mejoras futuras (no consi-
+deradas para el cálculo del VU) que conviertan a su utilización
+en algo rentable;
+b) porque espera (aunque no pueda demostrarlo) que en el futuro
+habrá cambios en el contexto económico que derivarán en una
+mejor utilización del activo.
+En estos casos, el VNR es irrelevante para determinar el IR del acti-
+vo, pues éste no será vendido.
+Se podrá argumentar que el valor de cambio resulta de una evaluación
+del valor de los bienes. Es cierto, pero:
+a) el precio que podría obtenerse por la venta de los bienes depende
+de las condiciones del mercado y no del empleo que podría darles el
+emisor de los estados financieros;
+(11) Ídem, páginas 50-54.
+(12) NIC 36, párrafo FCZ23.
+(13) García, Sergio, trabajo citado, página 51.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+244 ENRIQUE FOWLER NEWTON
+b) si la venta no se concreta, el valor de cambio estimado termina siendo
+irrelevante para el actual usuario de los bienes.
+En definitiva, la aplicación del criterio del empleo alternativo más renta-
+ble puede producir medidas de IR que no sean representativas.
+La mecánica de cálculo de los IR de cada clase principal de activo se
+estudia (en los capítulos correspondientes) dentro de Contabilidad
+Superior, sexta edición, La Ley, 2010.
+6,4. ATRIBUTOS DE PASIVOS
+A) VALOR RAZONABLE (VALOR JUSTO)
+Aunque la palabra valor está ligada a conceptos como bienes o activos,
+las expresiones valor razonable y valor justo se emplean también para re-
+ferirse al precio que pagaría un deudor para liberarse de una obligación, en
+una transacción libre entre partes independientes y bien informadas.
+La forma más sencilla de liberarse de una obligación es cancelarla antici-
+padamente, pero en un trabajo reciente del Plantel del IASB se define:
+Valor razonable es el precio que se recibiría por
+vender un activo o que se pagaría por transferir una
+deuda en una transacción ordenada entre participantes
+de un mercado en la fecha de la medición (14).
+Pensamos que esta definición es incompleta y poco operativa porque no
+hace referencia a la cancelación anticipada del pasivo. Por otra parte, la trans-
+ferencia de éste debería ser menos frecuente que su pago anticipado porque
+requiere la conformidad del acreedor, ya que la sustitución del deudor origi-
+nal por otro implica una modificación del riesgo crediticio asumido.
+En algunos casos, el VR es un precio que puede ser observado en un mer-
+cado activo.
+Si una empresa ha lanzado una opción que permite que su tenedor
+legítimo le compre un bien determinado por cierto precio no des-
+pués de determinada fecha, el VR del pasivo sería el precio que se
+pagaría por comprar una opción similar, ya que el eventual ejerci-
+cio de ésta permitiría compensar los efectos del ejercicio de la op-
+ción lanzada.
+(14) International Financial Reporting Standards X, Fair Value Measurement, IASB Staff
+Draft, 2010, párrafo 1.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 245
+En otros casos, debe estimárselo mediante algún modelo matemático de
+las mismas características que los que se emplean para evaluar los VR de ac-
+tivos.
+El VR de un pasivo con un proveedor se obtendría descontando el
+importe por pagar con una tasa que el acreedor considere acepta-
+ble.
+Se discute si el VR es un buen atributo para la medición contable de un
+pasivo cuando:
+a) la situación crediticia de un deudor empeora después de asumirlo,
+por lo que el acreedor está dispuesto a aceptar el pago de una suma
+más pequeña para darlo por cancelado;
+b) la medición contable del pasivo por su VR obliga a reconocer una ga-
+nancia (lo que es visto como contradictorio con el hecho de que la
+situación del emisor de los estados financieros ha empeorado).
+La controversia llegó al IASB durante la discusión previa de unos cambios
+a la NIC 39 que permiten que un emisor de estados financieros opte, por se-
+parado para cada instrumento financiero, si:
+a) lo medirá por su VR, reconociendo en resultados los cambios en él
+(opción del valor razonable); o
+b) aplicará los otros criterios de medición que describe la misma NIC.
+Lo que algunos propusieron entonces fue que en la determinación de VR
+de un pasivo se excluyesen los efectos de los cambios en el riesgo de crédito
+del instrumento. El IASB rechazó esta sugerencia por varias razones, entre las
+que destacamos las siguientes:
+a) el VR de un pasivo financiero en el momento del reconocimiento ini-
+cial refleja su riesgo de crédito;
+b) sería inadecuado incluir el riesgo de crédito en esa medición inicial y
+excluirlo en las posteriores;
+c) los cambios en el riesgo de crédito afectan al precio de mercado ob-
+servado de un pasivo financiero y, por lo tanto, a su VR;
+d) desde un punto de vista práctico, es difícil excluir de un precio de mer-
+cado observado, cambios en el riesgo de crédito (15).
+Sin embargo, en 2010 el IASB adoptó una norma por la cual los efectos
+de los cambios en el riesgo de crédito de un pasivo se reconocen cuando se
+(15) NIC 39, párrafos FC87-FC89.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+246 ENRIQUE FOWLER NEWTON
+lo mide por su VR pero (con ciertas excepciones) se difieren en cuentas de
+ORI (16). Nos parece arbitrario.
+B) COSTO DE CANCELACIÓN
+El costo de cancelación de un pasivo es la suma de su VR y de los costos
+adicionales necesarios para hacerlo desaparecer.
+En el ejemplo de la opción de compra lanzada, el costo de cance-
+lación del pasivo estaría dado por la suma del precio de una op-
+ción igual y los gastos que demandare la transacción (comisión del
+agente de bolsa, impuestos, etcétera).
+C) IMPORTE ORIGINAL
+La medida contable asignada inicialmente a un pasivo representa la con-
+trapartida de un valor calculado a la fecha de la adquisición. Tratándose de
+un importe del pasado, no debería empleárselo cuando se preparan estados
+financieros de momentos posteriores.
+D) IMPORTE RESULTANTE DE APLICAR EL MÉTODO
+DE LA TASA EFECTIVA
+El Importe resultante de aplicar el método de la tasa efectiva descripto en
+el apartado 6,4,c)2) puede aplicarse también a los pasivos. De su aplicación
+no surgen VC.
+E) IMPORTE NOMINAL POR PAGAR
+Este atributo no debería emplearse por las mismas razones que desacon-
+sejan su uso para las cuentas por cobrar.
+F) VALOR ESPERADO
+Nos referimos a este atributo en el apartado 6,3,f).
+(16) NIIF 9 (nuevo texto 2010), párrafos 5.7.7 y 5.7.8.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 247
+6,5. ATRIBUTOS DE OTROS OBJETOS DE RECONOCIMIENTO
+CONTABLE
+Por lo expuesto en el capítulo anterior, las medidas contables asignadas a
+los activos y pasivos son determinantes de las de ingresos, gastos, ganancias,
+pérdidas, impuestos sobre las ganancias, PNC sobre los resultados de contro-
+ladas y aportes y retiros de los propietarios.
+En la contabilización de una adquisición de negocios deben considerarse
+también los atributos de:
+a) la PNC en el patrimonio de la entidad adquirida, al momento de su
+adquisición;
+b) las acciones emitidas por la adquirente para su entrega al anterior
+propietario de la adquirida.
+Dado lo específico del tema, no lo trataremos aquí. No obstante, señale-
+mos que en ambos casos puede considerarse el VR del objeto por reconocer,
+dado:
+a) en el primer caso, por lo que los accionistas no controladores podrían
+lograr por la venta de su participación en la empresa adquirida;
+b) en el segundo, por lo que el emisor de las acciones obtendría si las
+colocase por suscripción.
+Profundizamos estas cuestiones en el capítulo 17 de Contabilidad
+Superior, sexta edición, La Ley, 2010.
+6,6. MEDICIONES DE COSTOS
+A) CONSIDERACIONES GENERALES
+La medición de un costo debería efectuarse considerando un concepto
+presentado en el apartado 6,3,a)4): el costo de un bien es el necesario para
+ponerlo en condiciones de ser vendido o utilizado (lo que corresponda a su
+destino).
+Cuando se adquieren dos o más bienes y existen costos comunes, debe
+distribuírselos utilizando algún método sistemático y defendible de imputa-
+ción. Como ha señalado Hendriksen (l7):
+a) la imputación debe dividir el importe total de manera tal que la suma
+de las partes sea igual al todo;
+(17) HENDRIKSEN, ELDON S., Accounting Theory, tercera edición, Richard D. Irwin Inc.,
+1977, página 205.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+248 ENRIQUE FOWLER NEWTON
+b) el procedimiento debe dar un resultado único (no ambiguo);
+c) debe poder demostrarse que el método de imputación seleccionado
+es el mejor.
+Supongamos que:
+a) un proveedor, en respuesta a una orden de compra, entrega mer-
+caderías y una factura con estas descripciones e importes:
+Descripciones Pesos
+Mercadería “A” - 100 unidades a $ 20 cada una 2.000
+Mercadería “B” -100 unidades a $ 30 cada una 3.000
+Subtotal 5.000
+Flete hasta el depósito del comprador 200
+Seguro 50
+Subtotal 5.250
+Impuesto al valor agregado (IVA) - 10 % 525
+Total, pagadero al cornado 5.775
+b) las mercaderías “A” y “B” se diferencian en calidad pero cada
+unidad ocupa el mismo volumen;
+c) el flete es facturado sobre la base del volumen ocupado por las
+mercaderías y el seguro en función de su valor;
+d) el IVA cargado por el proveedor puede ser deducido del IVA que
+se factura a clientes, de modo que su importe no integra el costo
+a imputar (en consecuencia, éste es de $ 5.250).
+En este caso, lo más adecuado y defendible es distribuir los costos
+comunes sobre las mismas bases usadas por el proveedor para su
+facturación. Resultados:
+Conceptos Total A B
+Precio 5.000 2.000 3.000
+Flete (distribuido sobre la base de 200 100 100
+las unidades compradas)
+Seguro (prorrateado sobre la base
+del precio) 50 20 30
+Costo total 5.250 2.120 3.130
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 249
+B) BIENES, SERVICIOS Y DERECHOS DE USO ADQUIRIDOS
+POR COMPRA O TRUEQUE
+1) Compras
+Cuando un bien o un servicio comprado se paga al contado, su precio es
+evidente, ya que debe figurar en la correspondiente factura. Los elementos
+facturados que no integren el precio y puedan ser recuperados por el com-
+prador no integran el costo.
+Es lo que ocurre, en el ejemplo precedente, con los $ 525 que el pro-
+veedor facturó en concepto de IVA.
+Además del precio, el costo de un bien comprado podría incluir:
+a) impuestos que el vendedor factura y el comprador no puede recupe-
+rar;
+b) costos vinculados con el traslado, el desembarco y la instalación del
+bien (fletes, seguros, honorarios de despachantes de aduana, etcéte-
+ra);
+c) la asignación de una parte de las erogaciones demandadas por las
+funciones de compras y recepción.
+Los elementos que citamos en el inciso c) no siempre se incluyen en los
+costos de los bienes comprados porque su distribución requiere de esfuerzos
+administrativos que en muchos casos pueden omitirse sin desmejorar signi-
+ficativamente la calidad de la información contable.
+Cuando la compra no se paga al contado coexisten:
+a) una operación comercial (la adquisición del bien o servicio);
+b) una financiera, destinada a considerar el hecho de que el comprador
+no posea el dinero para pagar la compra al contado o que teniéndolo
+prefiera darle otro destino.
+Ante un caso así, lo razonable es segregar:
+a) el costo del bien o servicio, determinado de la misma manera que en
+una operación al contado;
+b) el costo financiero, que:
+1) es la diferencia entre el costo del bien o servicio y la suma que se
+pagará al proveedor cuando el pasivo se cancele;
+2) deberá ser posteriormente imputado a los diversos períodos cu-
+biertos por la financiación.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+250 ENRIQUE FOWLER NEWTON
+Es razonable esperar que el costo financiero se facture explícitamente en
+la factura de compra o en una nota de débito relacionada. Sin embargo, pue-
+de ocurrir que el vendedor, cuando la legislación lo permite:
+a) facture los bienes o servicios denominando “precio” a lo que el com-
+prador debería pagar si aprovechase totalmente el plazo máximo de
+financiación admitido para la operación;
+b) ofrezca simultáneamente descuentos por pago anticipado para el
+caso en que el comprador cancele la factura antes de que dicho plazo
+se cumpla, pudiendo existir descuentos diferentes en función del mo-
+mento de cancelación (18).
+En este caso, los intereses de la financiación están implícitos, pero no hay
+ninguna razón para darles un tratamiento distinto al de los explícitos. De este
+modo, se respeta la idea de que la contabilización de una transacción debe
+depender más de la sustancia de ésta que de su forma.
+Supongamos que:
+a) el proveedor A ofrece cierta mercadería diciendo que su precio
+es de $ 1.000 y que brinda financiación a 30 días al 3 % de interés
+mensual;
+b) el proveedor B ofrece el mismo artículo al “precio” de $ 1030,
+pagadero a los treinta días y ofrece un descuento del 2,91 % por
+pago al contado (no hay descuentos por pagos en plazos inter-
+medios).
+La realidad económica es la misma en ambos casos, el comprador
+tiene estas opciones:
+a) pagar $ 1.000 al contado; o
+b) erogar $ 1.030 a los treinta días.
+La diferencia formal es que el cargo financiero ($ 30) es presentado
+explícitamente por el proveedor A e implícitamente por el B. Pero,
+dada la realidad económica, en los dos casos debería considerarse
+que el precio del bien es de $ 1.000 y que, en el caso de utilizarse
+totalmente el plazo, habrá un costo financiero de $ 30.
+No debe confundirse el criterio de medir los costos de los bienes adquiri-
+dos utilizando sus precios de contado con el de deducir los descuentos de caja
+(18) Sea: un 3% por pago al contado, un 2 % por pago a los diez días y un 1 % por pago a
+los veinte días.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 251
+de dichos costos. De aplicarse este último, el costo de los bienes adquiridos
+incluiría los intereses del período de financiación efectivamente utilizado.
+Supongamos que:
+a) el “precio financiado” por pago a 30 días sea $ 206;
+b) el descuento por pago al contado sea de $ 6;
+c) el descuento por pago a los 10 días sea de $ 4;
+d) el comprador utiliza la última alternativa y a los 10 días paga:
+206 - 4 = 202
+No sería correcto computar un costo del bien de $ 206 y luego res-
+tarle el descuento de caja de $ 4, pues de este modo se arriba a un
+neto de $ 202 (la suma pagada) que incluye:
+a) el costo de contado del bien ($ 200); y
+b) el costo financiero resultante de la utilización de un plazo de
+diez días ($ 2).
+A pesar de lo expuesto, algunas NC requieren o admiten que el costo de
+un bien o de un servicio adquirido se mida por el precio facturado, y que los
+descuentos de caja obtenidos se traten como ingresos, sin considerar debida-
+mente la realidad económica.
+Con este criterio, en el ejemplo precedente el costo del bien se me-
+diría en $ 206 y se reconocería un “ingreso” de $ 4 por el “descuen-
+to” obtenido con motivo del pago a los 10 días.
+Antes de pasar a otro tema, cabe enfatizar que cualquier interés nominal
+está afectado por las expectativas inflacionarias y representa una diferencia
+entre importes expresados en moneda de dos momentos: el de nacimiento
+de la operación financiera y el de cancelación de la operación. El interés real
+recién se conoce al final del período de financiación y se determina conside-
+rando la tasa de inflación de ese lapso.
+Si una compra de $ 1.000 se financia por determinado período a la
+tasa de interés del 10 % y luego resulta que la inflación de ese lapso
+es del 8 %, el interés real, en moneda del final del período de finan-
+ciación es:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+252 ENRIQUE FOWLER NEWTON
+Conceptos Pesos
+Importe pagado (1.000 x 1,10) 1.100
+Importe original, ajustado por inflación (1.000 x 1,08) 1.080
+Costo financiero, neto de la inflación 20
+Si la tasa de inflación hubiera sido superior a la tasa de interés, ha-
+bría habido un beneficio para el deudor.
+2) Trueques
+Un trueque implica el canje de bienes, servicios o derechos de uso, pu-
+diendo ocurrir que alguna de las partes deba entregar dinero para compen-
+sar las diferencias de valor de los elementos canjeados.
+El costo de los bienes o servicios recibidos en trueque puede medirse (en
+términos de los sacrificios efectuados) considerando:
+a) el VNR o algún otro VC de lo entregado, que es una medida estimada
+del ingreso que se habría obtenido por su venta;
+b) el efectivo que debería haberse entregado (recibido) para liquidar la
+transacción en su fecha (si hubiere financiación deberían excluirse los
+correspondientes intereses explícitos o implícitos).
+Supongamos que:
+a) se conviene un canje por el cual se recibe el bien A y se entregan
+el bien B y $ 50;
+b) por la venta del bien B podría obtenerse (neto de gastos) $ 400;
+c) el bien A podría comprarse en el mercado por $ 460;
+d) a la fecha del trueque, la medida contable del bien B es $ 380 (su
+costo histórico).
+Si se aplicase el criterio que consideramos adecuado debería arri-
+barse a estas medidas contables:
+a) ingreso por la salida del bien B (su VNR): 400
+b) resultado de la tenencia del bien B hasta el momento del true-
+que:
+400 - 380 = 20
+c) costo del bien A (la suma del VNR del bien B y del efectivo entre-
+gado):
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 253
+400 + 50 = 450
+d) medida inicial de] bien A (su precio de mercado): 460
+e) resultado del trueque:
+460-450 = 10
+Sin embargo, algunas NC disponen que:
+a) esta regla no se aplique cuando:
+1) esas mismas NC requieren que los bienes trocados se midan sobre
+la base de sus costos; y
+2) el efecto del canje sobre los futuros flujos de fondos carece de sig-
+nificación en relación con los valores de dichos bienes;
+b) en tales casos, se asigne al bien recibido una medida contable basada
+en la del bien entregado, sin reconocerse resultado alguno.
+Aplicando la norma criticada al ejemplo anterior, la medida origi-
+nal del bien A sería la suma de la que tema el bien B y del efectivo
+entregado:
+380 + 50 = 430
+Este importe es inferior al determinado en la solución anterior en:
+460 - 430 = 30
+Esto ocurre porque no se computan las ganancias correspondien-
+tes a la enajenación de B y al trueque:
+20 + 10 = 30
+Este tipo de reglas evita la manipulación de resultados, pero:
+a) es poco probable que un ente concrete trueques reales con ese propó-
+sito;
+b) el problema no existiría si todos los activos se midiesen por sus VC, en
+tanto pueda determinárselos fiablemente.
+3) Otras transacciones no monetarias
+También pueden recibirse bienes, derechos de uso o servicios con moti-
+vo de:
+a) aportes en especie;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+254 ENRIQUE FOWLER NEWTON
+b) donaciones; o
+c) adquisiciones de negocios.
+En estos casos:
+a) no hay sacrificios que consistan en la entrega de efectivo o de otros
+bienes o en la prestación de servicios; o bien:
+b) los hay, pero no es posible identificarlos con bienes o servicios indivi-
+duales (por ejemplo: cuando se adquiere una empresa por un precio
+global).
+Ante la imposibilidad material de medir costos sobre la base de un sa-
+crificio efectuado, se acostumbra estimarlos a partir de los VR de los bienes,
+derechos de uso o servicios recibidos. Es razonable.
+Si una entidad benéfica recibe en donación una computadora que
+podría comprar al contado en $ 1.200 y no existen costos de tr;ms
+porte:
+a) el sacrificio efectuado por la entidad (en relación con la incorpo-
+ración del bien) es nulo;
+b) la medida contable inicial de dicho bien (y del ingreso por la
+donación) debería ser de $ 1.200 (su costo de adquisición en el
+mercado).
+C) ACTIVIDADES
+El costo de una actividad es la suma de los costos de los insumos utiliza-
+dos para su ejecución.
+1) Insumos a considerar
+Al calcular el costo de una actividad no deberían computarse los costos
+ocasionados por:
+a) improductividades físicas o ineficiencias en el uso de los factores en
+general;
+b) la ociosidad producida por la falta de aprovechamiento de los factores
+fijos originada en la utilización de la capacidad de planta por deba-
+jo de su nivel de actividad normal (el que se espera alcanzar como
+promedio de varios períodos de acuerdo con el uso previsto para las
+instalaciones).
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 255
+2) Costeo de los insumos
+Los costos demandados por una actividad deberían medirse sobre la base
+de los costos corrientes de sus insumos. Si se lo hiciese empleando sus costos
+históricos no se obtendrían medidas contables de los momentos en que las
+actividades se ejecutan sino meras sumas algebraicas de medidas contables
+calculadas en momentos anteriores, pudiendo ocurrir que ello produzca in-
+formación no representativa.
+Algunas actividades implican el consumo o el desgaste de bienes obteni-
+dos en actividades anteriores.
+Ocurre cuando, dentro de una misma empresa:
+a) se produce la energía eléctrica que utilizan la planta industrial y
+las oficinas de administración y comercialización;
+b) se producen hilados con los que se fabrican telas;
+c) se engorda ganado que consume aumentos de propia produc-
+ción.
+En estos casos, se logra una mejor información sobre el desempeño del
+ente y sobre la creación de riqueza en las actividades intermedias cuando se
+obtienen medidas contables separadas:
+a) del costo de los productos intermedios (en nuestros ejemplos, la elec-
+tricidad, los hilados y el alimento);
+b) de las ganancias o pérdidas producidas por su mantenimiento en
+existencia (no aplicable a la electricidad);
+c) de su consumo (medido sobre la base del costo corriente del bien in-
+termedio) que pasa a formar parte del costo de otra actividad o pro-
+ducto.
+Los costos de las actividades deberían asignarse a los bienes o servicios
+obtenidos gracias a ellas. La imputación debería respetar los principios gene-
+rales que enunciamos al final del apartado a). De acuerdo con lo ya expuesto,
+un servicio obtenido gracias a una actividad puede constituir un insumo para
+otra (caso de la energía eléctrica).
+D) BIENES Y SERVICIOS PRODUCIDOS
+El costo de un bien o servicio producido es la suma de los costos de los
+insumos necesarios para su obtención, incluyendo:
+a) los costos de los bienes y servicios consumidos (tanto los adquiridos
+como los de propia producción);
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+256 ENRIQUE FOWLER NEWTON
+b) la porción imputable de los costos de su conversión.
+Como en el caso de las actividades, y por las razones indicadas en el apar-
+tado c) de esta sección, opinamos que en el costeo de los bienes o servicios
+producidos deberían considerarse los costos corrientes de los insumos (no
+los históricos). Esto alcanza a los productos intermedios, como los mencio-
+nados en ese mismo apartado.
+La acumulación de costos de producción de bienes debe cesar cuando
+éstos se encuentran en condiciones de ser vendidos o utilizados.
+E) INCLUSIÓN DE COSTOS FINANCIEROS E INTERESES PROPIOS
+Nos referimos a la idea de reconocer un interés propio en la sección
+5,5.
+1) Cuestiones en discusión
+La doctrina no es unánime acerca de la imputación de los costos de fi-
+nanciación de las actividades, como intereses, actualizaciones monetarias,
+diferencias de cambio, costos de emisión de títulos de deuda, premios de se-
+guros de cambio y otros conceptos asimilables.
+Por otra parte, quienes aceptan la idea de reconocer un interés propio,
+opinan que su tratamiento contable debería seguir al de los costos financie-
+ros.
+Los puntos en discusión son:
+a) en el caso de que se reconociere un interés propio, cómo cuantificar-
+lo;
+b) si los costos financieros (y, en su caso, intereses propios) deberían in-
+cluirse totalmente en los resultados de los períodos en que se originan
+o parte de ellos podrían agregarse al costo de bienes adquiridos o pro-
+ducidos;
+c) en el caso de que fuere aceptable la activación de costos financieros (y
+de los intereses propios que se hubieren reconocido):
+1) qué condiciones debería reunir un activo para que a su costo pue-
+dan agregársele costos financieros;
+2) si podrían considerarse costos de financiaciones específicas de los
+activos que califiquen para la activación;
+3) si del importe por activar deberían deducirse los ingresos financie-
+ros ocasionados por la colocación transitoria de fondos provenien-
+tes de préstamos;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 257
+4) si debe ponerse un límite a los importes activados para dar conside-
+ración a los IR de los correspondientes activos.
+Consideremos estas cuestiones en el orden en que acabamos de presen-
+tarlas.
+2) Medición del interés propio
+Si se reconociere un interés propio, debería asignársele una medida con-
+table. A este efecto, sería razonable considerar:
+a) un período de duración no superior al mes;
+b) la medida contable asignada al patrimonio al comienzo de ese perío-
+do;
+c) los aportes y retiros de los propietarios ocurridos en el mismo (impor-
+tes y momentos);
+d) una tasa de interés.
+De estos datos, el único que no es de fácil obtención es el último. En esta
+materia, se han efectuado diversas propuestas, que pasamos a analizar, ad-
+virtiendo previamente que si se practicasen ajustes contables para considerar
+los cambios del poder adquisitivo de la moneda de medición, para el cálculo
+del interés propio debería emplearse una tasa que no incluya los efectos de
+las expectativas inflacionarias.
+En el artículo de la década de 1970 en que Anthony abogaba por el reco-
+nocimiento de un interés propio (19), su autor proponía lo siguiente:
+a) fijar la tasa de costo medio (teórico) del financiamiento total (i);
+b) aplicarla al total del pasivo (P) más el patrimonio (N), para así deter-
+minar el costo (también teórico) del financiamiento total;
+c) determinar el interés propio por diferencia entre el costo (teórico) del
+financiamiento total calculado en el paso anterior y el interés sobre
+el capital ajeno, resultante de aplicar al pasivo (P) la correspondiente
+tasa promedio (i’), que para Anthony debe calcularse dividiendo el
+total de intereses por préstamos sobre el capital adeudado por este
+concepto;
+d) fijar la tasa de interés propio (i’’) dividiendo el importe obtenido en el
+paso anterior por el patrimonio.
+(19) ANTHONY, ROBERT N., Contabilización del interés del capital propio, Administración
+de Empresas, tomo VI-A (abril-setiembre de 1975), págs. 481-500. Originalmente publicado en
+Harvard Business Review, vol. LI, N° 6.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+258 ENRIQUE FOWLER NEWTON
+Esto es:
+En el algoritmo propuesto, el cuarto paso es innecesario porque el interés
+propio se calcula en el tercero. A lo sumo sirve para poner en evidencia casos
+en que se determina una tasa de interés propio irrazonable.
+Para ilustrar la aplicación de la fórmula, Anthony presentó un caso
+en el cual:
+a) la estructura de financiamiento es:
+Conceptos Pesos %
+Pasivo 200.000 40
+Patrimonio 300.000 60
+Total 500.000 100
+b) el costo del capital ajeno (después de impuestos) es del 4 % (20);
+c) el costo medio ponderado de la financiación total se fija en el
+10 %.
+Con estos datos resulta:
+En resumen, se obtiene el siguiente cuadro:
+Financiamiento Pesos Tasa Interés
+Pasivo 200.000 0,04 8.000
+Patrimonio 300.000 0,14 42.000
+Total 500.000 0,10 50.000
+El esquema propuesto es irrazonable porque:
+a) primero se calcula el costo total de financiamiento y luego el interés
+propio, cuando el camino lógico es el inverso;
+(20) El 4% podría haber resultado de una tasa de interés pagada del 6% y una tasa imposi-
+tiva del 33,33%, pues es 0,06 x (1 - 0,3333) = 0,04.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 259
+b) como ese costo total de financiamiento es ficticio y su cifra es fija, la
+del interés propio aumenta cuando disminuye el interés ajeno y vice-
+versa;
+c) la eficacia o la ineficacia de los administradores no queda reconocida
+en la contabilidad porque siempre se muestra el mismo costo finan-
+ciero total.
+En el ejemplo precedente, el interés propio cambiaría si el costo fi-
+nanciero del pasivo fuese superior o inferior a $ 8.000, ya que el to-
+tal de $ 50.000 no variaría por ese hecho.
+Otra propuesta, efectuada en 1980 por un grupo de autores argentinos
+fue la de calcular el interés propio con la tasa interfinanciera o interbanca-
+ria del último día hábil del mes anterior (los autores consideran períodos
+mensuales) (21). Es un evidente desacierto porque estas tasas:
+a) corresponden a operaciones que son efectuadas por las entidades fi-
+nancieras entre sí y no por los propietarios de la generalidad de las
+empresas;
+b) suelen fijarse para operaciones de muy corto plazo y no para coloca-
+ciones permanentes de capital;
+c) varían fuertemente en plazos muy cortos (especialmente en contextos
+inflacionarios);
+d) están afectadas por los esfuerzos que algunas entidades financieras
+deben hacer para cumplir con las relaciones técnicas exigidas por los
+organismos a cargo de su superintendencia (algunas pueden verse
+obligadas a pagar fuertes intereses por préstamos de muy corto pla-
+zo).
+En la RT 10 se propuso el empleo de una tasa (neta de inflación) repre-
+sentativa de la vigente en el mercado en cada mes del período o ejercicio (22),
+pero lo cierto es que no hay ningún “mercado” en los que se negocien intere-
+ses sobre patrimonios propios.
+En 1986, Arreghini y Viegas sugerían utilizar la tasa del interés que po-
+dría obtenerse en condiciones de riesgo mínimo —tendiendo a cero— y sin
+(21) FORTINI, HERNANDO LUIS; LATTUCA, ANTONIO; LÓPEZ SANTISO, HORACIO; LUPPI,
+HUGO ALBBRTO; SLOSSE, CARLOS ALBERTO y URRIZA, JOSÉ, Replanteo de la técnica contable,
+FACPCE, 1980, página 164.
+(22) RT 10, segunda parte, punto B.3.19.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+260 ENRIQUE FOWLER NEWTON
+esfuerzo de conducción (23) (esto es, sin que sea necesario el trabajo de efec-
+tuar el seguimiento de la inversión) (24). Por lo tanto, sería una tasa que:
+a) recompensaría el empleo del dinero de los propietarios;
+b) no incluiría los efectos del riesgo crediticio (posible incobrabilidad o
+mora) y de la inflación esperada.
+Por nuestra parte, si se nos obligara a reconocer un interés propio de los
+propietarios, buscaríamos alguna tasa que de alguna manera reflejase lo que
+éstos podrían obtener por colocaciones alternativas, de modo que excluiría-
+mos las que el ente emisor de los estados financieros obtenga por sus propias
+colocaciones.
+3) Cargo total a resultados o activación parcial
+En el resto de esta sección, lo que digamos sobre los costos financie-
+ros debe considerarse extendido a los intereses propios que se hu-
+bieren reconocido contablemente.
+En relación con esta cuestión, desde la década de 1980 se han planteado
+diversas alternativas para el tratamiento de los costos financieros de un pe-
+ríodo. Las tres que consideramos básicas son:
+a) su imputación total al resultado del período;
+b) la activación de los ocasionados por el financiamiento de actividades
+de producción o de preparación de bienes, mediante su agregado al
+costo de éstos;
+c) la misma activación unida a la de los costos ocasionados por la finan-
+ciación de bienes en existencia.
+El agregado de costos financieros al de un bien terminado está en conflic-
+to con la idea de que el costo de un bien incluye lo necesario para ponerlo en
+condiciones de ser vendido o utilizado, lo que correspondiere a la intención
+de la entidad. Llegado el momento en que esto ocurre, el agregado de ele-
+mentos al costo del bien debería cesar.
+Para defender la inclusión de costos financieros en los costos de produc-
+ción o preparación de bienes, suele argumentarse que con esto la contabi-
+lidad se acerca a la economía y se aplica el concepto económico de costo.
+Como son los mismos argumentos empleados para defender el reconoci-
+miento de un interés propio, vale la repetición de estas observaciones:
+(23) ARREGHINI, HUGO R. y VIEGAS, JUAN CARLOS, Interés del capital propio, Tesis, 1986,
+página 7.
+(24) Respuesta dada por los autores ante nuestra consulta.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 261
+a) las NC deben fijarse a partir de los objetivos de la información conta-
+ble y de las cualidades que ésta debería reunir para ser útil y no de los
+postulados o principios de la economía, pues esta disciplina persigue
+otros propósitos;
+b) el economista está interesado en el costo como un factor de la deter-
+minación de precios en el mercado, mientras que el contador trata
+con los costos desde el punto de vista de la empresa específica;
+c) que un criterio (tomado de la economía) sea bueno para explicar
+cómo (supuestamente) fijan los precios las empresas no significa que
+sea apto para medir la ganancia del emisor de los estados financieros
+(uno de los propósitos de la contabilidad);
+d) que el contador deba tener conocimientos sobre economía no lo obli-
+ga a adoptar sus postulados y principios.
+Otros argumentos se basan en que el factor tiempo y la financiación re-
+querida son elementos importantes en la medición de los bienes con proceso
+de producción prolongado.
+Anthony, por ejemplo, argumentó lo siguiente:
+Salvo en las empresas de servicios públicos, (...) un
+edificio construido por el personal de la empresa
+aparece en los libros a un costo menor que un edifi-
+cio idéntico, construido por terceros. Los terceros
+casi seguramente incluyen los intereses cuando fijan
+el precio de venta (...) y agregan un porcentaje de
+ganancia, que sin duda incluye el interés de su ca-
+pital propio. El precio de venta de los terceros se
+convierte en el precio de costo (25) del comprador y,
+por lo tanto, los intereses forman parte del costo de
+ese edificio. No hay ninguna razón lógica por la que
+se pueda sostener que un edificio cuesta menos, por
+exclusión de los intereses, cuando lo construye el
+propio personal de la empresa (26).
+Y Lazzati señaló:
+En general se considera aceptable agregar a la valua-
+ción de ciertos activos no monetarios el costo de su
+financiación. Se trata de bienes cuya construcción,
+producción o terminación, por prolongarse en el tiem-
+po, requieren necesariamente cierta inmovilización
+de fondos. Por ejemplo, la construcción de un edifi-
+(25) El costo de un bien construido no es un precio, de modo que la expresión precio de
+costo no tiene sentido. Podría tratarse de una mala traducción al español.
+(26) ANTHONY, ROBERT, artículo citado, págs. 492-493.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+262 ENRIQUE FOWLER NEWTON
+cio, la elaboración de vino añejo, el estacionamiento
+del tabaco, etc.(...)
+En la apropiación que ahora planteamos el factor fi-
+nanciero es congénito a la obtención física del bien:
+la construcción de un edificio requiere indefectible-
+mente determinado tiempo; no es posible elaborar
+añejo sin esperar el añejamiento; etc. Aquí media un
+ingrediente financiero que es causado por la inmovi-
+lización inevitable de los fondos (27).
+Consideramos objetable que para fundamentar cómo se mide un costo
+se utilicen argumentos que no se apoyan en el concepto de costo sino en el
+de valor. Si el costo de un bien no refleja su valor, lo que debería hacerse es
+asignarle una medida contable basada en un VC en lugar de emparchar el
+primero.
+El edificio del ejemplo de Anthony no vale menos por haber sido
+construido por su futuro usuario, pero puede haber costado menos.
+Lo que debería hacerse es:
+a) medirlo por lo que un tercero habría facturado por su construc-
+ción;
+b) reconocer la ganancia atribuible a la actividad de su construc-
+ción.
+Lo mismo ocurre con el vino añejado. Debería medírselo por lo que
+podría obtenerse por su venta en el estado en que se encuentra,
+reconociendo resultados por el proceso de añejamiento y por los
+cambios en los precios de venta.
+De procederse como sugerimos, la discusión sobre el tratamiento de cos-
+tos financieros pierde importancia, pues fuere que se los active o que no se
+lo haga, se determinará el mismo resultado. Lo que cambiará es la forma de
+exponerlo en los estados financieros.
+Supongamos que:
+a) el 31/12/X1, Ladrillos S. A. comienza a construir un inmueble
+para uso propio y financia la actividad tomando un préstamo de
+$ 1.000, que devenga el 8 % de interés anual;
+(27) LAZZATI, SANTIAGO, Contabilidad e inflación. Conceptos fundamentales, Macchi,
+1986, páginas 221-222.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 263
+b) el 31/12/X2 finaliza esa actividad, habiendo acumulado los si-
+guientes costos:
+1) no financieros: $ 1.100;
+2) financieros: $ 80;
+c) si la construcción hubiera estado a cargo de un contratista, el
+31/12/X2, se habrían pagado $ 1.250;
+d) no hay inflación.
+Si los costos financieros se incorporan al costo del inmueble, éste
+se mide en:
+1.100 + 80 = 1.180
+Pero el VR del activo incorporado no es $ 1.180 sino $ 1.250. Si el
+inmueble se incorporase por este importe, se determinaría una ga-
+nancia de $ 70, que se demostraría de manera distinta según que
+los costos financieros se agregasen o no en el costo del inmueble.
+En el primer caso, se diría que ésta es la diferencia entre el VC y el
+costo “emparchado”:
+1.250 - 1.180 = 70
+Con el segundo criterio (el que preferimos) se diría que hubo:
+a) una ganancia atribuible a la construcción de:
+1.250-1.000=150
+b) costos financieros por $ 80.
+El neto imputado al resultado del período no varía:
+150 - 80 = 70
+Aunque los argumentos ya expuestos nos parecen suficientes para recha-
+zar cualquier activación de costos financieros, agreguemos que solo su impu-
+tación total a los resultados de los períodos en que se generan permite que un
+lector de los estados financieros:
+a) calcule (como tasas) el costo del pasivo y la rentabilidad del activo;
+b) compare ambos porcentajes para determinar si el emisor de dichos
+estados obtuvo provecho de sus actividades de apalancamiento (28)
+(la realización de negocios utilizando fondos de terceros).
+(28) Leverage.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+264 ENRIQUE FOWLER NEWTON
+Si los costos financieros se activasen en parte, estos porcentajes sólo po-
+drían calcularse a partir de la corrección (extracontable) de las cifras mostra-
+das por los estados financieros, para lo cual sería necesario conocer:
+a) los costos financieros que no aparecen en el estado de resultados del
+período por haber sido agregados a los costos de determinados acti-
+vos;
+b) el impacto que sobre los gastos y las pérdidas del período tuvo la ac-
+tivación de componentes financieros (por ejemplo: la parte del costo
+de las mercaderías vendidas que corresponde a costos financieros in-
+cluidos en su costo de producción).
+Finalmente, señalemos que cuando no se reconocen intereses propios
+pero se activan costos financieros, la medida finalmente asignada al costo
+de los bienes producidos termina dependiendo de estructura financiera de
+la entidad.
+Si, en el caso Ladrillos, la construcción se hubiera financiado par-
+cialmente con patrimonio propio, se habrían tomado préstamos
+por un importe menor, que habrían devengado menores intereses,
+de modo que el costo total “emparchado” del inmueble también
+habría sido inferior.
+Nos parece chocante que efectuando las mismas actividades sobre los
+mismos bienes se asignen a los costos de producción medidas que difieren
+porque las estructuras de financiación también lo hacen. Con otra visión de
+la cuestión, en 1983 González García opinó:
+(...) Una empresa con una estructura determinada de
+capital propio y una porción de financiación de ter-
+ceros, se puede parecer a otra, pero en general es
+sólo similar a sí misma. Por lo tanto sus costos de-
+ben reflejar su estructura real de financiamiento y no
+aquella que hubiera resultado de suponer que toda la
+operatoria era financiada por terceros (29).
+4) Condiciones para que un activo califique para la activación
+Los emisores de NC que admiten o requieren la activación de costos fi-
+nancieros lo hacen en relación con los bienes cuya producción (o prepara-
+(29) GONZÁLEZ GARCÍA, IGNACIO, Tratamiento del costo financiero de bienes sujetos a es-
+tacionamienio, añejamiento, etc., trabajo presentado a las XI Jornadas de Ciencias Económicas
+del Cono Sur, Buenos Aires, 1983, tomo I, págs. 137 y siguientes, en especial pág. 143.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 265
+ción para el uso) se extiende (debido a su naturaleza) por lapsos prolongados
+(meses o años).
+Ejemplos, tomados de la RT 10 (30):
+a) bebidas que requieren un proceso de añejamiento;
+b) maderas, tabaco y yerba mate que deben ser estacionados;
+c) buques;
+d) máquinas fabricadas sobre pedido.
+Esta condición no parece tener otro fundamento que la presunción de
+que la activación de costos financieros carecería de importancia si los proce-
+sos de producción o de preparación de bienes fueran breves. Pero, ya lo diji-
+mos, la significación no debe tomarse como un requisito para la aplicación
+de determinadas NC, de modo que lo coherente sería:
+a) que —si se la considerara adecuada— se requiriera la activación de
+costos financieros cualquiera fuere la duración de la actividad pro-
+ductiva;
+b) admitir el apartamiento a esta regla cuando el efecto de su aplicación
+no sea significativo, como debería hacerse con cualquier NC.
+Establecida la condición indicada, debe cumplírsela. En consecuencia,
+a) no deben activarse costos financieros en los períodos en que la activi-
+dad de construcción esté suspendida;
+b) la activación debe cesar definitivamente cuando el bien cuya produc-
+ción o preparación se financia esté en condiciones de ser vendido o
+usado (lo que corresponda al destino previsto para él por las autorida-
+des de la entidad).
+Las reglas presentadas en este apartado deberían aplicarse por separado
+para los bienes identificables que formen parte de proyectos mayores, como
+un sector de una fábrica que comienza a funcionar mientras la construcción
+de otros continúa.
+6) Costos de financiación específica y general
+Si se activan costos financieros, los cálculos pertinentes deberían hacerse
+considerando la totalidad de ellos, salvo cuando pueda probarse que un acti-
+vo que califica para la activación tiene una financiación específica.
+(30) RT 10, segunda parte, punto 2.4.b).
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+266 ENRIQUE FOWLER NEWTON
+Lo normal es que las fuentes de financiamiento no se asignen a activos
+específicos y se considere que el total del activo está financiado por el total
+del pasivo, el patrimonio y, cuando se aplica la perspectiva del propietario, el
+total de las PNC en entidades controladas (31).
+La excepción puede presentarse cuando una empresa obtiene finan-
+ciamiento para un proyecto específico y –generalmente por imposición del
+acreedor incorporada en el contrato– identifica en su contabilidad los activos
+y pasivos relacionados con el préstamo.
+En este último caso, sería razonable que primero se capitalicen los costos
+de la financiación específica de los bienes que califican y luego la parte pro-
+porcional de los restantes costos de financiación.
+Hacemos notar que tanto los costos de financiación específica como los
+generales podrían ser negativos cuando se practican ajustes por inflación.
+En tal caso, lo coherente sería considerar que el costo del activo producido o
+preparado se ha reducido.
+Ocurriría, por ejemplo si a lo largo de un período se observasen es-
+tas tasas:
+a) interés por una financiación específica: 10 %;
+b) tasa promedio de intereses y otros costos financieros sobre el
+resto de los pasivos: 13 %;
+c) inflación: 16 %.
+6) Ingresos financieros relacionados
+De los costos de financiaciones específicas a ser activados deberían de-
+traerse los ingresos financieros resultantes de la colocación temporal de fon-
+dos provenientes de ellas. Sería irrazonable activar la totalidad de los costos
+financieros ocasionados por un préstamo y al mismo tiempo reconocer en
+resultados los ingresos provenientes de su empleo.
+7) Limitación de la activación en función del importe recuperable
+del activo producido
+Algunos sostenedores de la activación de costos financieros señalan que
+ésta debería hacerse con el límite del IR de los correspondientes activos. Con-
+secuentemente, la porción no activada debería reconocerse en resultados.
+(31) Si se aplicase la perspectiva de la entidad, estas PNC integrarían el patrimonio con-
+table.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 267
+Supongamos que:
+a) entre abril y octubre de 20X1 una empresa construyó un inmue-
+ble para uso propio;
+b) dicha entidad cierra su ejercicio contable el 31 de diciembre de
+cada año;
+c) el costo de construcción del inmueble (sin incluir intereses) fue
+de $18.000;
+d) a la fecha de finalización de la construcción, su IR es de
+$ 19.000;
+e) el total de intereses relacionados con la construcción es $ 1.300.
+En este caso:
+a) sólo podrían activarse intereses por:
+19.000 - 18.000 = 1.000
+b) del total de intereses devengados en el ejercicio se asignarían a
+resultados:
+1.300 - 1.000 = 300
+Este criterio nos parece inadecuado porque:
+a) un costo no cambia por el hecho de que no vaya a generar ingresos
+netos que lo compensen;
+b) el límite del IR no se aplica en otros casos en que se incurren costos
+(sea: cuando se adquieren mercaderías por un precio que no podrá
+ser recuperado mediante su venta).
+Más coherente sería que el exceso del IR sobre el costo determinado se
+trate como una pérdida separada y no como un costo financiero.
+F) SUBVENCIONES GUBERNAMENTALES
+Algunos gobiernos promueven las inversiones de las empresas en deter-
+minados elementos de su activo fijo. Dos mecanismos son:
+a) admitir que de la ganancia impositiva de cada período se deduzca
+alguna suma basada en las inversiones efectuadas durante el mismo
+lapso;
+b) otorgar a las empresas un reembolso fiscal de parte de las sumas inver-
+tidas.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+268 ENRIQUE FOWLER NEWTON
+Las subvenciones que disminuyan el sacrificio final demandado por la
+adquisición de los bienes implican reducciones de los costos de ellos, que es
+lógico reconocer en resultados junto con los ingresos producidos por el em-
+pleo del activo. La medida de las disminuciones de los costos está dada por el
+VC de las subvenciones, para cuya determinación deberían considerarse:
+a) las entradas (o menores salidas) de efectivo a que se tiene derecho
+debido a la inversión;
+b) los momentos en que (bajo circunstancias normales) se producirán
+dichas entradas (o menores salidas) de efectivo;
+c) las incertidumbres relacionadas (ejemplo: la eventual inexistencia de
+ganancias impositivas suficientes para absorber una deducción espe-
+cial por inversiones);
+d) una tasa de interés que sea adecuada para obtener el VD de las futuras
+entradas (o menores salidas) de fondos que el subsidio ocasione.
+Para ilustrar el caso, consideremos estos supuestos:
+a) datos del contexto:
+1) no hay inflación;
+2) la tasa de interés relevante para el caso es del 6 % anual;
+3) un impuesto grava con un 30 % las ganancias de las empre-
+sas;
+4) el impuesto correspondiente a cada ejercicio económico debe
+ser pagado dentro de los 120 días posteriores a la fecha de su
+finalización;
+5) no existen regímenes de pagos a cuenta mediante anticipos,
+retenciones o percepciones;
+6) la ley del impuesto permite la deducción —como si fuese un
+gasto— del 50 % de las sumas invertidas en maquinarias de
+ciertas características;
+b) faltando 60 días para el cierre del ejercicio, se adquiere una ma-
+quinaria con las características requeridas para tener derecho a
+la subvención;
+c) el costo de la máquina, antes de computar el efecto de la deduc-
+ción impositiva especial, es de $ 1.000;
+d) es casi seguro que la ganancia impositiva del período superará al
+importe deducible con motivo de la compra de la máquina.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 269
+En este caso, el cómputo del efecto de la desgravación sería éste:
+a) deducción especial que reduce la base sobre la cual se paga el
+impuesto:
+50 % de 1.000 = 500
+b) menor impuesto:
+30 % de 500 = 150
+c) días que transcurrirán hasta que el menor impuesto afecte el
+movimiento de efectivo: 180 (60 hasta el cierre del ejercicio y 120
+más hasta el vencimiento del pago del impuesto);
+d) reducción del costo del bien adquirido (VD del menor impues-
+to):
+150 / (l + 0,06)180/365 = 146
+Si el menor impuesto se imputase directamente al resultado del ejercicio,
+no se lograría una adecuada correlación y éste sería afectado por la mera rea-
+lización de compras, lo que no nos parece razonable.
+G) ASIGNACIONES DE LOS COSTOS HISTÓRICOS DE LOS BIENES
+FUNGIBLES
+Cuando se venden o consumen bienes fungibles medidos por su costo
+histórico, es necesario:
+a) identificar físicamente las unidades salidas; o
+b) adoptar algún supuesto arbitrario sobre el flujo de existencias y efec-
+tuar el costeo sobre su base.
+El primer procedimiento tiene (salvo excepciones) un costo administrati-
+vo muy alto, de modo que es normal que se prefiera al segundo, a cuyo efecto
+suele adoptarse (arbitrariamente) alguno de estos supuestos:
+a) lo primero que entró es lo primero que sale;
+b) lo último que entró es lo primero que sale;
+c) lo que sale es una mezcla de bienes, por lo que su costeo se efectúa
+considerando un costo promedio ponderado periódicamente en fun-
+ción de las unidades preexistentes y de las incorporadas durante el
+período.
+Ilustramos esto en el capítulo 11 de Contabilidad Básica, quinta edi-
+ción, La Ley, 2011.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+270 ENRIQUE FOWLER NEWTON
+6,7. IMPUTACIÓN DE COSTOS
+En materia de imputación de costos, hay tres reglas que parecen contar
+con consenso.
+Primera: los costos vinculados con ingresos determinados son gastos que
+deben reconocerse como tales en los mismos períodos que los primeros (co-
+rrelación de ingresos y costos).
+Ejemplos de estos costos:
+a) los de activos vendidos;
+b) las comisiones sobre ventas y las cargas sociales (aguinaldos,
+aportes previsionales) que se acumulen con motivo de su liqui-
+dación;
+c) los impuestos que gravan ventas y que están a cargo del vende-
+dor.
+Por aplicación de esta regla, los costos de comprar o producir bienes que
+producirán ingresos futuros se incorporan al activo.
+Por ejemplo, el sueldo ganado durante un mes por un supervisor de
+una fábrica se incluye dentro de los costos de producción de ese pe-
+ríodo, los que son luego incorporados al costo de los bienes produ-
+cidos, que son imputados a resultados cuando se venden los bienes
+producidos, lo que puede ocurrir en un período posterior..
+Segunda: si el costo no se relaciona con un ingreso específico, pero sí con
+un período, debe imputárselo a éste.
+Tales los casos de:
+a) los sueldos del personal administrativo y las cargas sociales so-
+bre ellos;
+b) los premios pagados por seguros tomados;
+c) un abono mensual por servicios de vigilancia de las oficinas ad-
+ministrativas.
+Tercera: los restantes costos deben reconocerse como gastos o pérdidas
+tan pronto como se los conoce.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 271
+Ejemplos:
+a) los costos incurridos con motivo de una acción judicial iniciada
+para impedir el empleo ilegítimo de una marca de la entidad por
+parte de un tercero;
+b) un impuesto de emergencia (“por una sola vez”).
+El gráfico siguiente resume estos conceptos básicos:
+Para aplicar las reglas enunciadas puede ser necesaria la realización de
+distribuciones o imputaciones, en cuyo caso deben cumplirse las reglas ya
+expuestas:
+a) cada imputación debe dividir el importe total de tal manera que la
+suma de las partes sea igual al todo;
+b) el procedimiento debe dar un resultado único (no debe ser ambi-
+guo);
+c) debe poder demostrarse que el método de imputación seleccionado
+es el mejor.
+6,8. CAMBIOS DE SITUACIÓN DE ACTIVOS O PASIVOS
+Es posible que:
+a) en un momento determinado, un activo o un pasivo cambie de situa-
+ción;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+272 ENRIQUE FOWLER NEWTON
+b) a consecuencia de este hecho, el atributo que se venía empleando
+para su medición contable primaria deje de ser el más adecuado al
+efecto.
+En estos casos, lo razonable es adoptar, en la fecha del cambio, un nuevo
+criterio de medición del activo o del pasivo que se base en el atributo que
+haya pasado a ser más relevante.
+Supongamos que una empresa que revende computadoras, retira
+a una de ellas de la venta y comienza a emplearla en sus oficinas
+administrativas. En este caso, debería:
+a) discontinuar la aplicación del criterio establecido para la medi-
+ción contable de las mercaderías de reventa (sea: costo de repo-
+sición o costo histórico, con el límite del IR);
+b) comenzar a aplicar el establecido para los bienes destinados al
+uso propio (sea: costo histórico menos depreciación del bien
+menos desvalorizaciones computadas como consecuencia de la
+comparación de la medida contable primaria de dichos bienes
+con su IR).
+6,9. MEDICIÓN DE LA GANANCIA
+En partes anteriores de este libro señalamos que:
+a) en nuestra opinión:
+1) la ganancia debería medirse aplicando la idea de que el capital a
+mantener debe ser el financiero (en aportado en moneda);
+2) las PNC sobre los resultados de controladas deberían tratarse del
+mismo modo que los gastos (enfoque del propietario);
+b) sin embargo, en diversos juegos de NC:
+1) se establecen excepciones a la aplicación del concepto de mante-
+nimiento del capital financiero, lo que hace aparecer partidas de
+resultados diferidos (ORI y ORIA);
+2) la ganancia informada incluye las referidas PNC (perspectiva de la
+entidad).
+La aplicación del criterio que preferimos tiene las siguientes implicacio-
+nes:
+a) el patrimonio sólo se considera integrado por el capital y los resulta-
+dos acumulados, sin que esto impida que en los estados financieros se
+practiquen las desagregaciones que se consideren necesarias;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 273
+b) todas las ganancias y pérdidas de tenencia integran los resultados de
+los períodos en que se producen.
+6,10. BASES CONTABLES
+Una base contable es un método general para el reconocimiento contable
+de los efectos patrimoniales de las transacciones y de otros hechos. La doctri-
+na ha identificado –como mínimo– las siguientes:
+Reconocimiento contable de los efectos patrimo- Base contable
+niales de las transacciones y de otros hechos
+De acumulación (o Se reconocen en los períodos en que ocurren, inde-
+acumulativa o de de- pendientemente de los momentos en que ocasionan
+vengo) entradas o salidas de efectivo.
+De efectivo (o de Se reconocen cuando ocasionan entradas o salidas
+caja) de efectivo.
+De efectivo modifi- Los efectos patrimoniales de las adquisiciones de ac-
+cada tivos de larga vida se reconocen empleando la base
+contable de acumulación.
+Los de las restantes transacciones y hechos, con la
+base contable de efectivo.
+De liquidación Los activos se miden por sus VNR y los pasivos por
+sus costos de cancelación.
+De vencimiento Se aplica sólo a los ingresos, que se reconocen cuan-
+do su cobranza es exigible.
+Salvo para la preparación de los estados financieros que muestren los au-
+mentos y las disminuciones del efectivo (o de conceptos parecidos), lo razo-
+nable es utilizar la base contable de acumulación, porque:
+a) otorga una importancia fundamental a los períodos en que se produ-
+cen los hechos y las transacciones que tienen consecuencias patrimo-
+niales;
+b) su empleo es imprescindible para evaluar:
+1) la capacidad del emisor de los estados financieros para generar un
+flujo positivo de efectivo;
+2) el desempeño de las personas encargadas del gobierno de dicha
+entidad.
+La base contable de efectivo se utiliza, con ciertas adaptaciones, para la
+preparación de estados que muestran los recursos financieros. Dependiendo
+de las NC que se aplique, dichas adaptaciones podrían consistir en reem-
+plazar el concepto de efectivo por el de efectivo y conceptos asimilables. Una
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+274 ENRIQUE FOWLER NEWTON
+de sus limitaciones es que los estados financieros preparados sobre su base
+muestran lo que su emisor pagó durante un período y no lo que debería ha-
+ber pagado, ocultando los efectos de cualquier mora en el cumplimiento de
+sus obligaciones.
+La base contable de liquidación sólo debería utilizarse en la preparados
+de estados financieros especiales de entidades que se encuentren en esa si-
+tuación. Nótese que esta base incorpora la consideración de hechos que to-
+davía no han ocurrido, como la conversión en efectivo de los activos y la can-
+celación de los pasivos, lo que puede producir información parcialmente in-
+adecuada, incluso cuando sea válida la presunción de liquidación del emisor
+de los estados financieros.
+En la contabilidad gubernamental se emplean, a veces, la base contable
+de efectivo, la de efectivo modificada o la de vencimiento. Esto no produce
+información mayormente útil y permite manipulaciones de la información
+contable.
+Por ejemplo, un gobierno que prepare su información financiera
+empleando la base contable de efectivo y no quiera reconocer un
+gasto en las cuentas anuales de 20X1, podría diferir su pago para
+20X2.
+Respecto de esta cuestión, la International Federation of Accountants
+(IFAC, Federación Internacional de Contadores), dentro de una carta dirigi-
+da al Grupo de los Veinte (G20) el 15 de junio de 2010 (32), señaló:
+Sabiendo que muchos gobiernos adhieren a la base
+contable de efectivo, la IFAC y la International Pu-
+blic Sector Accounting Standards Board (IPSASB) (33)
+alientan la adopción de la base contable de devengo
+ya que ella refuerza los principios de transparencia
+y rendición de cuentas.
+6,11. LA BASE CONTABLE DE ACUMULACIÓN (DEVENGO)
+Seguidamente nos referiremos a los aspectos salientes de la base con-
+table de acumulación, cuyo empleo está aceptado por la generalidad de la
+doctrina y requerido por las NC referidas a la preparación de los estados fi-
+nancieros de entidades no gubernamentales.
+(32) htro://web.ifac.org/download/IFAC-G20-Submission_June_2010_Toronto.pdf.
+(33) Una Junta de la IFAC que propone normas internacionales de contabilidad para el
+sector público.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 275
+A) CRITERIO GENERAL DE RECONOCIMIENTO DE
+RESULTADOS
+Cuando se aplica la base contable de acumulación, los resultados se re-
+conocen como tales en los períodos en que se generan, sin entrar a conside-
+rar si han modificado el efectivo de la entidad emisora.
+O sea: las variaciones patrimoniales se reconocen y miden siguiendo el
+criterio de lo devengado y no el de lo percibido/pagado. Esto, sin perjuicio de
+la preparación y presentación de estados que muestren las variaciones del
+efectivo o de algún concepto parecido.
+B) LOS “HECHOS GENERADORES”
+Para aplicar la idea anterior, debe definirse el período al cual correspon-
+de o compete cada resultado y para esto debe identificarse cuál es su hecho
+generador.
+Vale recordar que en las definiciones prevalecientes de activos y pasivos
+se indica que la existencia de éstos depende de hechos ya ocurridos. Los he-
+chos que dan lugar al reconocimiento de activos y pasivos ocasionan, en al-
+gunos casos, el reconocimiento de resultados.
+La cuestión de los resultados producidos por activos o pasivos con pos-
+terioridad a su reconocimiento inicial brinda un mayor margen para la dis-
+cusión, ya que:
+a) distintas personas podrían tener visiones diversas sobre la aplicación
+del concepto de devengo a determinadas clases de activos o de pasi-
+vos, basándose en sus opiniones personales sobre los criterios de me-
+dición contable que deberían aplicarse a cada una de ellas;
+b) en consecuencia, un mismo hecho podría ser considerado como ge-
+nerador de resultados por una persona y no por otra.
+Así, quienes consideren que la medición contable de los activos
+debe practicarse siempre sobre la base de su costo histórico (con
+el límite del IR), dirían que los cambios en sus VC no son hechos
+generadores de resultados y que, en consecuencia, nada se ha de-
+vengado.
+Por el contrario, los defensores de los VC considerarán que los cam-
+bios de éstos deben reconocerse en los períodos en que ocurren,
+que dichos cambios son hechos generadores de variaciones patri-
+moniales y que éstas se han devengado.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+276 ENRIQUE FOWLER NEWTON
+C) “DEVENGAMIENTO” VERSUS “REALIZACIÓN”
+Las palabras devengamiento y devengado no integran el idioma es-
+pañol oficial, pero las emplearemos debido a su amplia difusión en-
+tre los contadores.
+El vocablo realización se utiliza también con el sentido de conver-
+sión en efectivo, pero ésta es una cuestión ajena a la que trataremos.
+Un resultado está realizado cuando proviene de transacciones con terce-
+ros, cosa que sucede cuando la operación que lo origina queda perfeccionada
+desde el punto de vista de la legislación o prácticas comerciales aplicables.
+Por ejemplo, los ingresos por ventas se consideran realizados:
+a) en el caso de bienes, cuando se transfiere su propiedad y los ries-
+gos y beneficios inherentes a ella;
+b) en el caso de servicios, a medida que se los presta.
+En consecuencia, el reconocimiento de un cambio en un VC que no sea
+atribuible al paso del tiempo implica el registro de un resultado que no está
+realizado pero que (según nuestra visión) está devengado.
+Supongamos que:
+a) en 20X1, La Revendedora S. A. adquiere bienes de fácil comer-
+cialización con un costo de $ 350;
+b) al cierre de ese ejercicio los bienes permanecen en el activo y
+tienen un VNR de $ 354;
+c) en 20X2, la empresa vende los bienes y obtiene un ingreso neto
+de $ 360;
+d) no se consideran los efectos de la inflación.
+En una contabilidad que reconozca las variaciones de los VC de es-
+tos activos, se computarán estas ganancias por la tenencia de los
+bienes:
+a) en 20X1:
+354 - 350 = 4
+b) en 20X2:
+360 - 354 = 6
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 277
+Si no se reconociesen los cambios en el VC de estos activos, toda la
+ganancia (S 10) se imputaría a 20X2, por ser éste el año en que se
+realizan los activos.
+De acuerdo con lo expuesto:
+a) todos los resultados realizados están devengados (en el período de
+realización o en alguno anterior); pero:
+b) no todos los resultados devengados están realizados; y
+c) no es necesario que las NC que requieren la aplicación de la base con-
+table de acumulación se ocupen del concepto de realización.
+Pese a lo indicado, algunos contadores han propuesto que en los estados
+que informan resultados se distingan los realizados de los no realizados. Esto
+no aporta información mayormente útil y puede confundir a los usuarios de
+los estados financieros.
+En la Argentina, el art. 68 de la ley 19.550 (ley de sociedades comer-
+ciales, LSC) indica que las sociedades comerciales sólo pueden dis-
+tribuir dividendos por ganancias realizadas y líquidas (34) resultan-
+tes de un balance confeccionado de acuerdo con la ley. Al respecto,
+debe señalarse que:
+a) la norma no se refiere a la contabilización de resultados sino a su
+distribución (35);
+b) los organismos nacionales que fiscalizan a las sociedades comer-
+ciales:
+1) exigen el empleo de VC para la medición contable de algunos
+activos, así como el reconocimiento de los correspondientes
+resultados de tenencia (no realizados);
+2) aceptan que las distribuciones de dividendos se basen en los
+resultados contabilizados;
+3) consideran, implícitamente, que la expresión ganancias reali-
+zadas debe ser leída como ganancias devengadas;
+c) no parecen existir objeciones a esta interpretación, que debería
+ser convalidada mediante la modernización del citado art. 68.
+(34) En el sentido de netas y no de convertidas en efectivo.
+(35) Las restricciones a las distribuciones de resultados no impiden su reconocimiento
+pero en los estados financieros deben informarse los importes restringidos.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+278 ENRIQUE FOWLER NEWTON
+6,12. CORRECCIONES DE ERRORES
+En el apartado 5,2,f) señalamos que deben efectuarse correcciones re-
+troactivas a la medida contable del patrimonio inicial cuando se detectan
+errores de reconocimiento contable en las cifras informadas en el ejercicio
+precedente. Esto vale también para las cuestiones de medición contable y se
+logra mediante la contabilización de ÁREA y la aplicación de los otros proce-
+dimientos descriptos en dicho apartado.
+6,13. CORRECCIONES DE ESTIMACIONES
+A diferencia de las correcciones de errores, las de estimaciones resultan
+de la consideración de nuevas evidencias (no disponibles a la fecha de prepa-
+ración de la información contable anterior) que permiten lograr mayor pre-
+cisión en la evaluación de los efectos económicos de determinados aconte-
+cimientos.
+Por lo tanto, estas correcciones tienen efectos futuros, no retroactivos.
+6,14. CAMBIOS DE POLÍTICAS CONTABLES
+En la sección 1,8, señalamos que se utiliza la expresión políticas conta-
+bles para referirse al conjunto de principios, bases, acuerdos, reglas, métodos
+y procedimientos adoptados por las personas a cargo del gobierno de una
+entidad (o por sus administradores) para la elaboración y presentación de los
+estados financieros de ésta.
+Las políticas contables adoptadas pueden ser cambiadas cuando:
+a) ello resulta de una modificación de las NCL que el emisor de los esta-
+dos financieros debe aplicar;
+b) se produce una modificación en las NCP, que al emisor le conviene
+acatar para que el auditor de sus estados financieros no incluya una
+salvedad en su informe o emita una opinión adversa; o
+c) haciéndolo puede obtenerse información contable de mayor calidad.
+No es justificable (y es contrario a la ética) cambiar las políticas contables
+aplicadas para manipular la información presentada en los estados financie-
+ros.
+Sobre las causas de los cambios contables en los Estados Unidos y las
+motivaciones de las empresas que los dispusieron (años atrás), ver:
+Pincus, Morton y Wasley, Charles, The Incidence of Accounting
+Changes and Characteristics of Firms Making Accounting Chan-
+ges, Accounting Horizons, junio de 1994, páginas 1-24.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 279
+Zeff, Stephen y Dharan, Bala G, Readings & Notes on Financial Ac-
+counting, quinta edición, McGraw-Hill, 1997, páginas 518-567.
+Idealmente, los cambios de políticas contables deberían computarse con
+efecto retroactivo al comienzo del ejercicio en que se los contabiliza, para
+así atenuar su efecto sobre la comparabilidad de sucesivos juegos de estados
+financieros. Esto es, deberían aplicarse los mismos criterios a seguir en los
+casos de correcciones de errores.
+Sin embargo, es frecuente que los emisores de NC que disponen cambios
+en éstas, requieran o admitan que las nuevas reglas se apliquen hacia el fu-
+turo, sin volver a medir el patrimonio inicial ni computar ningún ÁREA. Esto
+es razonable en tanto responda a razones de costo/beneficio y no a la mera
+conveniencia de los emisores de estados financieros.
+Por ejemplo, si se modifican sustancialmente las normas para la
+contabilización de adquisiciones de negocios, podría ser engorroso
+el cálculo de las medidas que habrían tenido (aplicando las nuevas
+reglas) los activos y pasivos incorporados por un emisor de estados
+financieros debido a compras de empresas ocurridas en años an-
+teriores. En un caso así, es razonable que el emisor de las nuevas
+NC disponga que éstas se apliquen únicamente a las adquisiciones
+efectuadas a partir del primer ejercicio de aplicación de las nuevas
+normas.
+6,15. PERÍODOS INTERMEDIOS
+El hecho de que un juego de estados financieros cubra un período de du-
+ración inferior al ejercicio no justifica la adopción de criterios de medición
+contable distintos de los que corresponde aplicar en un ejercicio completo.
+No conocemos NC que contradigan esta idea.
+Esto no impide que en la preparación de esos estados y para evitar el in-
+cremento de los costos administrativos, se haga un mayor empleo de estima-
+ciones que en un cierre de ejercicio.
+En muchos supermercados se producen hurtos para cuya detec-
+ción y medición contable resulta necesaria la toma de inventarios
+físicos periódicos. Sin embargo, sería aceptable que, para reducir
+los costos inherentes a esa actividad:
+a) se practique un único recuento anual, en la fecha de cierre de
+ejercicio o en un momento cercano;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+280 ENRIQUE FOWLER NEWTON
+b) las pérdidas por hurtos correspondientes a los períodos inter-
+medios sean estimadas sobre la base de la experiencia histórica
+y de los cambios que se hayan adoptado para reducir la inciden-
+cia de esos hechos.
+6,16. APLICACIÓN DEL CONCEPTO DE SIGNIFICACIÓN
+Ya señalamos que al preparar estados financieros o ICI es aceptable apar-
+tarse de una regla de reconocimiento, medición o baja contable, cuando esto
+no tenga efectos significativos sobre las decisiones que podrían adoptar los
+usuarios de tal información.
+A continuación, presentamos algunas ideas generales sobre la aplicación
+del concepto de significación, basadas en el análisis de las cualidades que la
+información contable debe reunir para ser útil, expuestos en el capítulo 2.
+Primera: dada su falta de pertinencia no es significativa la omisión o la
+presentación distorsionada de una información que no es de interés para los
+usuarios de la información.
+En un juego de estados financieros, no es un problema significati-
+vo que no se presente una lista de las mercaderías tenidas para la
+venta.
+Segunda: la aplicación de normas o métodos contables que difieren de
+las previstas en las NC no es un problema significativo si es que su aplicación
+estricta no mejoraría sustancialmente la precisión de las medidas contables
+obtenidas.
+Presentamos varios ejemplos en el apartado 2,5,c).
+Tercera: es significativa cualquier desviación a las normas establecidas
+que afecte la comparabilidad de la información contable. Por esto, las NC
+suelen requerir la presentación de información sobre los cambios de políti-
+cas contables que afecten la comparabilidad, con indicación de sus efectos
+sobre los principales componentes de los estados financieros.
+Cuarta: en general, es significativo todo problema que de cualquier otra
+manera enerve la representatividad de los estados financieros.
+Esta primera aproximación al problema de la aplicación del concepto de
+significación no nos libera de la realización de algún tipo de evaluación cuan-
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 281
+titativa que se base en el concepto general de que algo es importante cuando
+puede afectar la decisión de algún usuario de estados financieros.
+Claro está que el problema tiene que ver con posibles decisiones a ser to-
+madas por personas cuya identidad es desconocida por los preparadores de
+los estados financieros y cuya conducta es imprevisible. Por ello, no hay una
+solución matemática tipo aplicable a todo caso.
+En relación con esta cuestión, en el párrafo QC11 de sus MC de 2010, la
+IASB y la FASB han indicado que no pueden especificar un límite cuantitativo
+uniforme para predeterminar qué es lo que podría considerarse significativo
+en una situación particular. No podría ser de otra manera.
+Desde ya, no tendría sentido tratar de resolver el problema sobre la base
+exclusiva del importe en juego, pues la significación de éste sólo puede eva-
+luarse a partir de su comparación con otros. Un error de un millón de pesos
+puede ser muy importante en una empresa y despreciable en otra.
+Lo que debería hacerse es estudiar el efecto de todas las desviaciones a
+las NC sobre los estados financieros tomados en su conjunto, utilizando para
+ello las herramientas de análisis que habitualmente emplean los usuarios de
+éstos, como (entre otras) las relaciones entre:
+a) la ganancia bruta (ventas menos costo de lo vendido) y las ventas;
+b) la ganancia del periodo y el patrimonio invertido;
+c) el resultado generado por el activo y la medida contable de éste;
+d) el costo del pasivo y su importe;
+e) el activo corriente y el pasivo corriente;
+f) el patrimonio neto y el pasivo.
+Estos temas se tratan más detenidamente en Análisis de estados fi-
+nancieros, tercera edición, La Ley, 2002.
+Para aplicar adecuadamente estas pautas de evaluación debe imaginarse
+el efecto de los problemas bajo consideración sobre la conducta de los usua-
+rios de estados financieros. Todo esto implica algún grado de subjetividad,
+pero peor sería no utilizar ninguna guía.
+Además, no debe considerarse el efecto del problema sobre una única
+relación, pues su cifra base podría ser insignificante en sí misma.
+No son aceptables, por ejemplo, estas conclusiones de la Sexta
+Asamblea Nacional de Graduados en Ciencias Económicas (Bue-
+nos Aires, 1960) y la Sexta Conferencia Interamericana de Contabi-
+lidad (Nueva York, 1960):
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+282 ENRIQUE FOWLER NEWTON
+(...) se puede afirmar que cuando el efecto que pro-
+duce la falta de uniformidad, o cualquier causa,
+es del 5 % o más del resultado de un ejercicio,
+el efecto es material (36).
+Para ilustrar el punto, consideremos estos datos, correspondientes
+a un ejercicio completo (doce meses):
+Conceptos Patrimonio Resultado
+Cifras que los estados financieros debe-
+rían mostrar si se hubiesen aplicado a
+rajatablas las NC del caso 10.000 50
+Efecto de un error cometido 10 10
+Cifras que aparecen en los estados finan-
+cieros 10.010 60
+El efecto del error ($ 10) es el 20 % del resultado del ejercicio ($ 50),
+de modo que la aplicación de la regla del 5 % llevaría a la conclu-
+sión errónea de que el problema es significativo. Sin embargo, a un
+usuario de los estados financieros del caso poca diferencia debería
+hacerle que su emisor haya ganado $ 50 o $ 60, ya que ambos im-
+portes representan menos del 1 % de su patrimonio.
+Para finalizar, señalemos que la incorporación intencional de errores no
+significativos con el propósito de manejar los resultados contables es con-
+traria a la ética y puede ser ilegal en algunos países. La SEC (preocupada por
+esta cuestión) ha difundido guías para la aplicación del concepto de signifi-
+cación por parte de emisores y auditores.
+Sobre el particular, puede leerse:
+SEC, Codification of Staff Accounting Bulletins, tópico 1 (Finan-
+cial Statements), sección M (Materiality).
+Grant, C. Terry; Depree Jr., Chauncey M. y Grant, Gerry H., Earn-
+ings Management and the Abuse of Materiality, Journal of Ac-
+countancy, septiembre de 2000, páginas 41-44.
+6,17. RESUMEN
+Debe efectuarse la medición contable de un objeto cuando se lo reco-
+noce contablemente, cada vez que se preparan informes contables y cuando
+(36) Es cierto que se puede afirmar cualquier cosa sin demostrar si es cierta o verdadera,
+pero suponemos que se intentó dar a la frase transcripta un valor que excede al que surge de
+su lectura literal.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 283
+se lo da de baja. Los criterios que se empleen para asignar medidas contables
+en el segundo y en el tercer caso no tienen por qué diferir.
+Los criterios de medición presentados en este capítulo podrían aplicarse
+con cualquier moneda de medición y con ajuste por inflación o sin él.
+La medición contable de los objetos reconocidos debe posibilitar la ob-
+tención de información contable que:
+a) ayude a evaluar la situación y evolución patrimonial y financiera de la
+entidad emisora de la información y a comprender las causas de los
+cambios operados en ellas;
+b) sea aceptada por los usuarios como una de las bases para la toma de
+sus decisiones;
+c) guarde una correspondencia razonable con los fenómenos que pre-
+tende describir, considerando la sustancia económica de las opera-
+ciones y no sólo su forma;
+d) no esté afectada por errores u omisiones importantes;
+e) pueda ser comprobada por terceros que posean los conocimientos
+suficientes para esta tarea.
+No deben reemplazarse medidas contables pertinentes y representativas
+por otras que no lo sean.
+No debe usarse la prudencia como excusa para medir al patrimonio en
+defecto.
+Las transacciones similares deben contabilizarse con las mismas reglas.
+Los objetos de reconocimiento contable de igual naturaleza deben me-
+dirse con las mismas reglas.
+Los criterios de medición contable deben aplicarse sin variaciones a lo
+largo del tiempo, salvo cuando el cambio esté motivado por la elaboración
+de información contable de mejor calidad o por una modificación en las NC
+que el emisor debe aplicar.
+La medición contable de un objeto debería basarse en el atributo que re-
+sulte más relevante de acuerdo con las necesidades de los usuarios de la in-
+formación. Sin embargo, las NC suelen requerir o admitir la consideración de
+otros atributos cuando el más relevante no puede ser medido de una manera
+fiable o sin erogar costos administrativos desproporcionados.
+Algunos doctrinarios y emisores de NC consideran que al seleccionar el
+atributo de un activo o de un pasivo más relevante para los usuarios debe
+considerarse el destino previsto para dicho elemento.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+284 ENRIQUE FOWLER NEWTON
+Si una entidad no estuviera en marcha, esta circunstancia debe ser con-
+siderada al elegir los atributos de los activos sobre los cuales se basará su
+medición contable.
+Los hechos posteriores al cierre que ayuden a mejorar las medidas conta-
+bles correspondientes a la fecha de unos informes contables deben ser con-
+siderados en la preparación de éstos. Los hechos que no guarden relación
+alguna con las condiciones existentes a la fecha a la cual corresponde la in-
+formación contable, no deben ocasionar modificaciones a la medida conta-
+ble del patrimonio a ese momento.
+Los atributos de los activos susceptibles de consideración para su medi-
+ción contable podrían basarse en precios o en valores de la fecha de la medi-
+ción o de momentos anteriores o posteriores. Lo más adecuado sería consi-
+derar algún VC, concepto que engloba:
+a) al valor justo o valor razonable, que:
+1) es el precio al cual se negociaría un bien en una transacción en-
+tre partes independientes, que actúan libremente, que conocen
+y comprenden qué es lo que negocian y que cuentan con toda la
+información relevante a la que pueda accederse con un esfuerzo
+razonable;
+2) podría ser observado en un mercado activo o estimado;
+b) el valor neto de realización, que:
+1) se obtiene restando del VR de un activo los costos que demandaría
+su enajenación (costos de vender);
+2) es un valor específico para la entidad emisora de la información
+contable;
+3) es en muchos casos casi igual al VR;
+c) el costo corriente, que es la suma del precio del bien y de los costos
+necesarios para ponerlo en condiciones de ser consumido, vendido o
+usado (lo que corresponda a la intención de la entidad), a la fecha de
+la medición contable;
+d) el costo corriente de la capacidad de servicio del activo, que es el costo
+corriente de un activo distinto del que se quiere medir pero con una
+capacidad de servicio similar.
+Otros criterios que suelen considerarse son:
+a) el costo histórico del activo (calculado a la fecha de su reconocimiento
+contable), que por no ser una medida de valor sólo debería emplear-
+se:
+1) para su medición contable inicial;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 285
+2) en su medición periódica, cuando la determinación de un VC o de
+un “valor patrimonial” sea imposible o muy costosa;
+b) para los bienes durables, su costo histórico menos su depreciación;
+c) para las cuentas por cobrar:
+1) el importe resultante de aplicar el método de la tasa efectiva, que
+surge de esta cuenta (que no refleja los efectos de los cambios en
+las tasas de interés);
+medida contable inicial + intereses calculados con la TIR
+determinada inicialmente + actualizaciones monetarias
+que se hubieren pactado - importes ya cobrados
+2) el importe nominal por cobrar, que no es un buen criterio porque
+no reconoce el valor tiempo del dinero y el hecho de que cualquier
+operación a plazo involucra intereses (explícitos o implícitos);
+3) el VD del importe nominal que se espera cobrar (considerando la
+incobrabilidad y la mora) calculado con la TIR determinada ini-
+cialmente, que suele emplearse para calcular el IR de estos activos,
+aunque no lo represente (por no emplearse una tasa de interés co-
+rriente);
+d) el valor esperado (de importes nominales o de sus VD) calculado
+considerando las probabilidades asignadas a futuros escenarios posi-
+bles;
+e) para las participaciones en patrimonios de otras entidades, su “valor
+patrimonial” que:
+1) resulta de considerar el derecho que le corresponde al inversor so-
+bre la medida contable asignada al patrimonio de la participada;
+2) no es verdaderamente un valor porque el patrimonio contable de
+una entidad no representa su valor;
+3) pese a ello, es útil cuando (como ocurre normalmente), la determi-
+nación del VC de una participación es difícil o costosa;
+f) el valor de uso o valor de utilización económica, que:
+1) puede calcularse para un activo individual o para un grupo de
+ellos;
+2) es el neto de los VD de los flujos de efectivo que se espera obtener
+gracias a la utilización y la disposición final del activo o grupo;
+3) es un valor específico del emisor de la información financiera y no
+un precio que podría obtenerse por el activo o grupo;
+4) se considera para el cálculo de los importes recuperables de los
+activos;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+286 ENRIQUE FOWLER NEWTON
+g) el importe recuperable (para algunos, valor recuperable), que:
+1) puede establecerse para un activo individual o para un grupo de
+ellos;
+2) marca el límite de su medida contable;
+3) aunque debería ser calculado considerando el destino previsible
+de los activos, suele computarse (porque hay NC que así lo requie-
+ren) como el importe que fuere mayor entre el valor de cambio y el
+valor de uso del activo o grupo;
+Los atributos de los pasivos que suelen ser considerados por las NC son:
+a) su valor razonable o valor justo, que:
+1) es el precio que pagaría un deudor para liberarse de una obliga-
+ción, en una transacción libre entre partes independientes y bien
+informadas;
+2) a veces surge de un mercado y en otros casos debe ser estimado
+(por ejemplo, tomando un VD de futuros pagos);
+3) no goza de total aceptación en los casos en que disminuye la medi-
+da contable del pasivo debido a dificultades financieras del emisor
+de la información contable;
+b) su costo de cancelación, que es la suma de su VR y de los costos adi-
+cionales necesarios para hacer desaparecer la obligación;
+c) el importe original, que no debería emplearse por representar un im-
+porte del pasado;
+d) el importe resultante de aplicar el método de la tasa efectiva, que no
+refleja los efectos de los cambios en las tasas de interés;
+e) el importe nominal por pagar, que debería descartarse por las mismas
+razones que el importe nominal por cobrar a deudores;
+f) su valor esperado.
+Los costos comunes deben ser distribuidos utilizando algún método siste-
+mático y defendible de imputación.
+En una compra al contado de bienes o servicios, su precio surge de la
+facturación del proveedor. Su costo puede incluir también impuestos no re-
+cuperables y, si se tratase de bienes, los costos adicionales que fueren nece-
+sarios para ponerlos en condiciones de ser usados o vendidos.
+Cuando la compra no se paga al contado, el precio a considerar debe-
+ría ser el de contado. Toda suma adicional pagada en compensación de una
+espera del proveedor constituye un costo financiero que debería ser tratado
+como tal.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 287
+En los trueques, el costo de los bienes o servicios adquiridos está dado
+por el VC de los entregados, más (o menos) el efectivo que se habría entrega-
+do a (o recibido de) la otra parte en una operación de contado. Sin embargo,
+hay NC que requieren que, en ciertos casos, la medida contable asignada al
+activo recibido se base en el costo histórico del entregado.
+Cuando no es posible medir costos sobre la base de un sacrificio efectua-
+do, se acostumbra estimarlos a partir de los VR de los bienes, derechos de uso
+o servicios recibidos.
+El costo de una actividad es la suma de los costos de los insumos necesa-
+rios y efectivamente utilizados para su ejecución. Computarlos por sus costos
+corrientes es más razonable que hacerlo con sus costos históricos.
+Para reflejar la riqueza producida por las diversas actividades de un ente,
+deberían registrarse separadamente los resultados de la obtención de pro-
+ductos intermedios, su permanencia en existencia y su consumo (este últi-
+mo, a su costo corriente).
+Los costos de las actividades deberían asignarse, en las medidas corres-
+pondientes, a los bienes o servicios obtenidos gracias a ellas.
+El costo de un bien o servicio producido es la suma de los costos de los
+insumos necesarios para su producción, incluyendo los costos de las acti-
+vidades que la producción demande. También en este caso sería adecuado
+considerar costos corrientes y no costos históricos.
+Los costos relacionados con la inactividad de la parte normalmente em-
+pleada de la instalación deberían considerarse pérdidas del período.
+Si se reconociere un interés propio;
+a) debería asignársele una medida contable, a cuyo efecto sería razona-
+ble considerar un período de duración no superior al mes, la medi-
+da contable asignada al patrimonio al comienzo de ese período, los
+aportes y retiros de los propietarios ocurridos en el mismo (importes y
+momentos) y una tasa de interés;
+b) debería tratárselo del mismo modo que los costos causados por el
+mantenimiento de pasivos (intereses, actualizaciones monetarias, di-
+ferencias de cambio, premios de seguros de cambio y conceptos asi-
+milables).
+Opinamos que los costos de producción no deberían incluir componen-
+tes financieros ni un interés propio porque:
+a) los argumentos básicos para justificar la aplicación de ese criterio se
+basan en un concepto económico de costo que no debería adoptarse
+a los fines contables;
+b) existen argumentos válidos para no contabilizar el interés propio;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+288 ENRIQUE FOWLER NEWTON
+c) si lo que se desea es mejorar la medición contable de los bienes que
+demandan procesos largos de producción, lo que tendría que hacerse
+es considerar sus VC;
+d) cuando se agregan intereses a los costos de producción se pierde in-
+formación útil para comparar el rendimiento de los activos y el costo
+de los pasivos;
+e) si se activa un interés ajeno pero no se computa el propio, la medida
+contable asignada al costo termina dependiendo de la estructura fi-
+nanciera del ente, lo que nos parece chocante, aunque sea considera-
+do representativo por prestigiosos colegas.
+La exposición del monto de costos financieros activados durante el perío-
+do es insuficiente para solucionar el problema referido en el inciso d), pues
+también deberían conocerse los importes de los costos financieros que for-
+man parte de los otros componentes del resultado del período, como el costo
+de las mercaderías vendidas.
+Sin embargo, algunas NC admiten o requieren que los costos financieros
+sean incluidos dentro del costo de los bienes cuya producción (o prepara-
+ción para el uso) se extiende (debido a su naturaleza) por lapsos prolongados
+(meses o años). En caso de practicarse la activación, es razonable:
+a) suspenderla en los períodos en que la actividad de construcción esté
+suspendida;
+b) finalizarla cuando el bien cuya producción o preparación se financia
+esté en condiciones de ser vendido o usado (lo que corresponda a la
+intención del ente).
+c) efectuarla por separado para los bienes identificables que formen par-
+te de proyectos mayores, como un sector de una fábrica que comienza
+a funcionar mientras continúa la construcción de otros;
+d) efectuar los cálculos pertinentes considerando a la totalidad de los
+costos financieros, salvo cuando pueda probarse que un activo que
+califica para la activación tiene una financiación específica, en cuyo
+caso:
+1) primero deberían capitalizarse los costos de la financiación espe-
+cífica de los bienes que califican (menos los ingresos financieros
+provenientes de colocaciones temporarias de los fondos obtenidos
+en préstamo);
+2) luego debería activarse la parte proporcional de los costos de fi-
+nanciación general;
+f) computar una reducción del costo cuando se reconocen los efectos
+de la inflación y la tasa de ésta supera al costo porcentual de financia-
+ción.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 289
+Algunos sostenedores de la activación de costos financieros señalan que
+ésa debería hacerse con el límite del IR de los correspondientes activos. Nos
+parece más lógico que se compute el costo completo y luego se reconozca
+una desvalorización, tal como se haría si se comprasen mercaderías cuyo
+costo superase a su VNR.
+Los ahorros que producen las subvenciones gubernamentales con moti-
+vo de la adquisición o producción de bienes deberían considerarse reduccio-
+nes de los costos de éstos.
+Para el costeo de los bienes fungibles vendidos o consumidos es necesa-
+rio identificar las unidades salidas (procedimiento costoso y poco difundido)
+o adoptar algún supuesto arbitrario sobre el flujo de existencias y efectuar el
+costeo sobre su base. Los supuestos usuales son que lo que sale es lo primero
+o lo último que entró o bien es una mezcla de bienes.
+Para la imputación de costos debería considerarse que:
+a) los vinculados con ingresos determinados son gastos que deben re-
+conocerse como tales en los mismos períodos que los primeros, de
+modo que los costos de comprar o producir bienes que producirán
+ingresos futuros se incorporan al activo (correlación de ingresos y cos-
+tos);
+b) si el costo no se relaciona con un ingreso específico, pero sí con un
+período, debe imputárselo a éste;
+c) los restantes costos deben reconocerse como gastos o pérdidas tan
+pronto como se producen.
+Si un activo o un pasivo cambia de situación y el atributo que se venía
+empleando para su medición contable primaria deja de ser el más adecuado,
+debería adoptarse (prospectivamente) el que haya pasado a ser más relevan-
+te.
+Una base contable es un método general para el reconocimiento contable
+de los efectos patrimoniales de las transacciones y de otros hechos. De las
+bases identificadas por la doctrina, preferimos la de acumulación (o deven-
+go), que es la que se emplea generalmente, excepto en la contabilidad guber-
+namental de algunos países. Sin embargo, los estados de flujo de efectivo se
+preparan con la base contable de efectivo (o caja).
+Cuando se aplica la base contable de acumulación:
+a) los resultados se reconocen como tales en los períodos en que se ge-
+neran, sin entrar a considerar si han modificado el efectivo de la enti-
+dad emisora;
+b) para aplicar la idea anterior, debe definirse el período al cual corres-
+ponde o compete cada resultado y para esto debe identificarse cuál es
+su hecho generador,
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+290 ENRIQUE FOWLER NEWTON
+c) deben efectuarse correcciones retroactivas a la medida contable asig-
+nada al patrimonio inicial cuando se detectan errores en las cifras in-
+formadas en el ejercicio precedente;
+d) a las correcciones de estimaciones debe dárseles un efecto prospecti-
+vo.
+Las políticas contables adoptadas pueden ser cambiadas cuando:
+a) ello resulta de una modificación de las NCL que el emisor de los esta-
+dos financieros debe aplicar;
+b) se produce una modificación en las NCP, que al emisor le conviene
+acatar para que el auditor de sus estados financieros no incluya una
+salvedad en su informe o emita una opinión adversa; o
+c) haciéndolo puede obtenerse información contable de mayor calidad.
+En general, estos cambios se tratan de manera similar a las correcciones
+de errores, pero es frecuente que los emisores de NC que disponen cambios
+en ellas, requieran o admitan que las nuevas reglas se apliquen hacia el futu-
+ro, sin volver a medir el patrimonio inicial.
+El hecho de que un juego de estados financieros cubra un período de du-
+ración inferior al ejercicio no justifica la adopción de criterios de medición
+contable distintos a los que corresponda aplicar en un ejercicio completo. No
+obstante, podría hacerse un mayor empleo de estimaciones que en un cierre
+de ejercicio.
+Al preparar estados financieros o ICI es aceptable apartarse de una re-
+gla de reconocimiento, medición o baja contable, siempre que esto no tenga
+efectos importantes sobre las decisiones que podrían adoptar los usuarios de
+tal información. Éstas son algunas reglas para aplicar el concepto de signifi-
+cación:
+a) no es significativa la omisión o la presentación distorsionada de una
+información que no es de interés para los usuarios de la información;
+b) la aplicación de normas o métodos contables que difieren de las pre-
+vistas en las NC no es un problema significativo si la aplicación es-
+tricta de éstas no mejora sustancialmente la precisión de las medidas
+contables obtenidas;
+c) es significativa cualquier desviación a las normas establecidas que
+afecte la comparabilidad de la información contable;
+d) en general, es significativo todo problema que enerve la representati-
+vidad de los estados financieros.
+Para evaluar los problemas de significación debería estudiarse el efec-
+to de todas las desviaciones a las NC sobre los estados financieros tomados
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 291
+en su conjunto, utilizando las herramientas de análisis que habitualmente
+emplean los usuarios de éstos e imaginando el efecto de los problemas bajo
+consideración sobre su conducta. No debe considerarse el efecto del proble-
+ma sobre una única relación, pues su cifra base podría ser insignificante en
+sí misma.
+La incorporación intencional de errores no significativos con el propósito
+de manejar los resultados contables es contraria a la ética y puede ser ilegal
+en algunos países.
+6,18. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para
+que una aseveración sea correcta debe serlo totalmente.
+a) Los activos deberían medirse por su IR.
+b) Las NC a las que se presta especial atención en este libro requieren
+que el IR de un activo o de un grupo de activos sea determinado
+sobre la base de su empleo alternativo más rentable.
+c) Hay acuerdo en considerar que el valor de cambio de un bien o
+grupo de bienes es su VNR, que en general resulta de considerar
+los ingresos que produciría su venta al contado menos los gastos
+que ella ocasione.
+d) La determinación de los costos hace a la medición contable de los
+gastos, pues éstos son los costos necesarios para la obtención de
+ingresos.
+e) El costo de un bien es el sacrificio que demanda o podría deman-
+dar su adquisición o producción.
+f) El costo histórico de un bien ajustado por inflación hasta una fecha
+debería coincidir con el costo corriente del mismo bien en ese mis-
+mo momento.
+g) El costo de un bien adquirido es el que figura en la factura del pro-
+veedor.
+h) El IVA facturado por un proveedor no integra en ningún caso el
+costo de un servicio adquirido.
+i) Si en lugar de eliminar los intereses implícitos contenidos en un
+precio financiado se tomase éste y se le dedujesen los descuentos
+de caja obtenidos, se llegaría al mismo importe.
+j) Un bien recibido en donación debería incorporarse por su costo
+corriente.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+292 ENRIQUE FOWLER NEWTON
+k) La inclusión de componentes financieros dentro de los costos de
+producción dificulta el cálculo del resultado de las actividades de
+apalancamiento.
+l) Todo resultado devengado está realizado.
+2. Indique qué condiciones deberían satisfacer las mediciones conta-
+bles para que la información resultante sea comparable.
+3. Indique qué atributos de los activos resultan de especial interés para
+su medición contable.
+4. Enuncie sintéticamente el concepto de valor razonable.
+5. Ordene jerárquicamente las principales alternativas que podrían apli-
+carse para la determinación de valores razonables.
+6. Una de las alternativas para estimar valores razonables es la de recu-
+rrir a modelos matemáticos que reflejen la forma en que el comprador
+y el vendedor de un activo fijarían su precio y pueda ser alimentado
+con datos objetivos. Indique cómo se relaciona esta cuestión con el
+diseño de un MC.
+7. Señale la principal diferencia entre los conceptos de costo corriente y
+costo histórico.
+8. Indique qué atributos de los pasivos resultan de especial interés para
+su medición contable.
+9. Enuncie las condiciones que debería cumplir cualquier imputación
+de costos comunes.
+10. Enuncie el concepto de importe recuperable.
+11. Enuncie el concepto de unidad generadora de efectivo.
+12. Enuncie el concepto de costo de cancelación.
+13. En un país donde no existe el IVA, Granito S.A. adquiere una partida
+de mercaderías por las que el proveedor factura $ 1.000, pagaderos
+a 60 días de plazo, ofreciendo un descuento por pago inmediato del
+10 % sobre el importe facturado. El comprador no utiliza dicho des-
+cuento y al finalizar los 60 días paga los $ 1.000 facturados. Ese mismo
+día vende las mercaderías en $ 1.080, que cobra al contado. Calcule la
+ganancia de la operación y analice sus causas, separadamente para
+cada uno de estos supuestos:
+a) inexistencia de inflación;
+b) inflación del 9 % durante el período de 60 días.
+14. Mirador S.A. vende una mercadería bajo las siguientes condiciones:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 293
+a) precio, pagadero a los 30 días: $ 1.000;
+b) descuento por pago a los 20 días: 1 %;
+c) descuento por pago a los 10 días: 2 %;
+d) descuento por pago inmediato: 3 %;
+e) bonificación por compras superiores a 144 unidades: 10 % sobre el
+precio.
+La empresa posee 600 unidades en existencia y la experiencia indica
+que el 40 % de las unidades se venden con la bonificación indicada.
+Los gastos de comercialización se estiman en un 5 % de las ventas.
+Calcule el IR de las mercaderías.
+15. En el ejemplo que aparece en la página 258, Anthony determina un
+costo de endeudamiento total de $ 50.000 y una tasa de interés propio
+del 14 %. Indique cómo variarían esos importes si la tasa de interés
+ajeno fuese del 5,5 % (en lugar del 4 %). Luego, comente el resultado
+obtenido.
+6,19. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y
+EJERCICIOS
+1. a) Incorrecto. El IR debe tomarse como límite, no como criterio pri-
+mario de medición.
+b) Correcto. La respuesta podría ser distinta en el país del lector.
+c) Correcto.
+d) Correcto.
+e) Correcto.
+f) Incorrecto. La variación porcentual del nivel general de precios no
+tiene por qué coincidir con la variación porcentual del precio de
+un bien específico.
+g) Incorrecto. El “precio” facturado podría ser el financiado. Y tam-
+bién podría haber costos no incluidos en el precio facturado, como
+los de traslado e instalación del bien adquirido.
+h) Incorrecto. Si el comprador no pudiera recuperar el IVA facturado,
+su importe integraría el costo del servicio adquirido.
+i) Incorrecto. Con este procedimiento quedarían dentro del costo los
+intereses (implícitos) correspondientes al período de financiación
+efectivamente utilizado.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+294 ENRIQUE FOWLER NEWTON
+j) Correcto.
+k) Correcto
+l) Incorrecto. Un resultado está realizado cuando proviene de una
+transacción con terceros, lo que no sucede con todos los resulta-
+dos devengados.
+2. Para que la información sea comparable:
+a) las transacciones similares deben contabilizarse con las mismas
+reglas;
+b) los objetos de reconocimiento contable de igual naturaleza deben
+medirse con las mismas reglas;
+c) los criterios de medición contable deben aplicarse sin variaciones
+a lo largo del tiempo, salvo cuando el cambio esté motivado por la
+elaboración de información contable de mejor calidad o por una
+modificación en las NC que el emisor aplica.
+3. Son los siguientes:
+a) su valor razonable (valor justo);
+b) su VNR;
+c) su costo corriente;
+d) el costo corriente de su capacidad de servicio;
+e) su costo histórico;
+f) para los bienes durables, su costo histórico menos depreciación;
+g) para los créditos, el Importe resultante de aplicar el método de la
+tasa efectiva;
+h) para los créditos, el importe nominal por cobrar;
+i) para los créditos, el VD del importe nominal que se espera percibir,
+considerando la incobrabilidad y la mora;
+j) su valor esperado;
+k) para las participaciones en otras entidades, su “valor patrimonial”;
+l) su valor de uso;
+m) su IR.
+4. Es el importe por el que puede ser intercambiado un activo o cancela-
+do un pasivo, entre partes conocedoras e interesadas, que actúan en
+condiciones de independencia mutua.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 295
+5. Parece razonable considerar este orden jerárquico:
+a) precios de activos iguales;
+b) precios de activos que brinden prestaciones similares al poseído y
+estén en un estado parecido a éste;
+c) precios de activos que son iguales al poseído excepto por su estado
+o antigüedad, en cuyo caso debería efectuarse una corrección sub-
+jetiva para dar consideración a las diferencias;
+d) precios de activos que brinden prestaciones similares al poseído
+pero sean distintos por su estado o por su antigüedad, en cuyo caso
+debería efectuarse una corrección del mismo tipo que la indicada
+en el inciso anterior;
+e) precios estimados con modelos matemáticos que reflejen la for-
+ma en que el comprador y el vendedor de un activo lo fijarían, que
+consideren los factores que las partes tomarían en cuenta para tal
+decisión y que sean alimentados con datos observables en merca-
+dos activos o que de alguna otra manera puedan ser objetivamente
+verificados.
+6. El MC debería contener supuestos sobre la forma en que los compra-
+dores y los vendedores fijan precios de bienes o servicios para los que
+no existen mercados activos.
+7. Dado un momento al cual corresponde una medición contable, es un
+costo corriente el que se incurriría en ese momento y un costo históri-
+co el realmente incurrido hasta entonces.
+8. Son los siguientes:
+a) su valor razonable (valor justo);
+b) su costo de cancelación;
+c) su importe original,
+d) el importe resultante de aplicar el método de la tasa efectiva;
+e) el importe nominal por pagar;
+f) su valor esperado.
+9. Son éstas:
+a) la imputación debe dividir el importe total de tal manera que la
+suma de las partes sea igual al todo;
+b) el procedimiento debe dar un resultado único;
+c) debe poder demostrarse que el método de imputación selecciona-
+do es el mejor.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+296 ENRIQUE FOWLER NEWTON
+10. En nuestra opinión, el IR de un activo o de un grupo de activos está
+dado por lo que se obtendría por su venta (valor de cambio) o por su
+utilización (VU) de acuerdo con el destino inmediato previsible de los
+bienes. Otras personas y algunos emisores de normas consideran que
+debe tomarse el mayor importe entre los dos indicados, sin que tenga
+importancia el destino real de los bienes.
+11. Es el nivel de agrupamiento de activos más bajo al cual se generan
+flujos de efectivo distinguibles de los producidos por otros grupos.
+12. Es la suma del VR de una obligación y de los otros costos que el deudor
+debería erogar para librarse de ella.
+13. El resultado es siempre de $ 80 del final del período, pues ésa es la
+suma neta que le queda a la empresa por recibir en esa fecha $ 1.080
+de su cliente y entregar $ 1.000 a su proveedor.
+Si no hubiera habido inflación, la demostración del resultado sería
+ésta:
+Conceptos Pesos Pesos
+Ganancia por la tenencia y venta de las mercaderías:
+Precio de venta 1.080
+Costo histórico (precio de contado = 1.000 - 100) 900 180
+Costo financiero
+Pagado al proveedor 1.000
+Deuda original 900 100
+Resultado final 80
+Si hubiera habido un 9 % de inflación, el costo original de 900 pesos
+del momento de la compra se expresaría así en pesos del momento de
+la venta:
+900 (1 + 0,09) = 981
+y la demostración del resultado sería ésta:
+Conceptos Pesos Pesos
+Ganancia por la tenencia y venta de las mercaderías:
+Precio de venta 1.080
+Costo histórico (precio de contado) 981 99
+Costo financiero
+Pagado al proveedor 1.000
+Deuda original 981 15
+Resultado final 80
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+6. MEDICIÓN CONTABLE 297
+14. De la existencia total (600 unidades) deben tratarse por separado el
+40 % (240 unidades) sujeto a la bonificación y el 60 % restante (360
+unidades).
+En ambos casos debe tomarse el precio de contado, que es:
+1.000 / (1 - 0,03) = 970
+y deducirle los gastos estimados de venta:
+970 x (1- 0,05) = 921,50
+El IR de las mercaderías sujetas a bonificación es:
+240 x 921,50 (1 - 0,10) = 199.044
+Y el de las no sujetas a bonificación:
+360 x 921,50 = 331.740
+Luego, el IR total es:
+199.044 + 331.740 = 530.784
+15. De acuerdo con el procedimiento propuesto por Anthony, el cos-
+to teórico del financiamiento total ($ 50.000) no varía y los intereses
+propios se calculan por diferencia con los ajenos. Por lo tanto, si la
+tasa de interés ajeno sube del 4 % al 5,5 %, dicho interés aumenta en
+$ 3.000, que se restan del interés propio, haciendo pasar la tasa del
+14 % al 13 %. Esto es arbitrario y hace que la eficacia o ineficacia de la
+gestión financiera no incida sobre la medida contable asignada a los
+resultados.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos

@@ -1,0 +1,373 @@
+Capítulo 7
+PRESENTACIÓN DE INFORMES SOBRE
+EL ANÁLISIS DE LOS ESTADOS CONTABLES
+
+Toda la labor profesional debe culminar siempre con el resu-
+men de la misma que —en nuestro caso— se denomina “informe”.
+Los distintos tipos de informes dependen de varios factores:
+a) destinatarios;
+b) tipo de labor y, fundamentalmente,
+c) objetivo del informe.
+Desde un punto de vista general, pueden clasificarse en:
+1. Informes sobre análisis de los estados contables para pro-
+pósitos generales.
+2. Informes que se vinculan a los estados contables y se refieren
+a una porción de dichos estados (análisis de deudores; de in-
+ventarios; de intangibles; de pasivos; de rentabilidad; seccio-
+nal; valor recuperable de bienes revaluados, etc.) o una misión
+colateral, como sería, por ejemplo, la valuación de una partici-
+pación empresaria, base para una fusión o una escisión.
+3. Otros informes vinculados con estados contables.
+1. Los informes para propósitos generales
+Pueden definirse con una estructura tipo que comprendería
+las siguientes partes:
+1. Denominación del informe.
+2. Destinatarios.
+3. Estados contables objeto del análisis.
+4. Alcance del informe.
+5. Aclaraciones previas a la opinión.
+6. Opinión del profesional.
+7. Lugar y fecha.
+8. Firma del profesional.
+ERREPAR 251
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 7: PRESENTACIÓN DE INFORMES
+1.4. Notas y anexos de los referidos estados contables.
+Respecto del profesional habilitado para emitir estos tipos
+de informes parece obvio que, tratándose de análisis de esta- 1.5. Información adicional obtenida en la empresa.
+dos contables, fuera el contador público. En general, con los
+2. Alcance del informe
+ítem señalados quedarían cubiertos los requerimientos mínimos
+2.1. La labor fue realizada mediante el empleo de la infor-
+de esa expresión de la labor profesional.
+mación obtenida y la comparación con promedios his-
+Debe eliminarse toda sobrecarga de subjetividad. El informe tóricos de la empresa y del contexto, que sirvieron a
+debe ser objetivo y orientador; no hay que confundir al lector modo de estándar, por carecerse de objetivos prees-
+con informaciones superfluas o de segundo orden. tablecidos para cada ítem.
+Además, podría resultar apropiado que, en algunos casos, 2.2. Las opiniones del suscripto no implican recomenda-
+se hiciera referencia a los anexos que necesariamente se ad- ciones del tipo de las que resultarían de una auditoría
+juntarán al informe.
+operativa, por cuanto se trata de diferentes labores.
+Como ejemplos de anexos adecuados se puede mencionar
+3. Aclaraciones
+al caso identificado como El Análisis S.A. transcripto en el capí-
+3.1. Todas las cifras han sido reexpresadas a la fecha del
+tulo anterior.
+último cierre con el objeto de homogeneizarlas.
+A continuación se presenta un modelo de informe sobre
+3.2. Se han eliminado, en la medida de lo posible, apre-
+análisis de estados contables para propósitos generales, y lue-
+ciaciones subjetivas o de coyuntura, y las opiniones
+go ese mismo modelo aplicado al caso El Análisis S.A. comen-
+son las que resultan de lo indicado en 2.1.
+tado anteriormente.
+3.3. Los estados contables han sido auditados por otros
+MODELO 1
+profesionales (o por el suscripto).
+UN MODELO DE PRESENTACIÓN DE INFORME
+3.4. La empresa tiene como objeto principal ........................
+Informe sobre análisis económico-financiero
+Fui requerido por la empresa .................. domici-
+4. Informe
+liada en ........................................................... para emitir opinión
+4.1. Situación económica
+sobre la situación económica y financiera que surge de los es-
+La rentabilidad de la empresa se ha mantenido, en
+tados contables y documentación, detallados en el apartado 1.
+los períodos analizados, dentro de parámetros (acep-
+1. Estados contables objeto del análisis tables o no aceptables) para este tipo de actividad. La
+1.1. Balance general al ..................................................de los años tendencia marca una línea (ascendente, descendente
+o regular).
+1.2. Estados de resultados por los ejercicios finalizados el La utilización del capital ajeno resultó (conveniente,
+................... de los años .......................
+inapropiada o neutra), sin abrir juicios de valor sobre
+1.3. Estados de evolución del Patrimonio neto por los ejer- la situación del mercado en los períodos analizados.
+cicios finalizados al ......... de los años………
+La rotación del capital en relación con las ventas fue
+(lenta, satisfactoria).
+252
+MARIO BIONDI ERREPAR 253
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 7: PRESENTACIÓN DE INFORMES
+La estructura de la empresa es (satisfactoria, pesa-
+………………………………………………………………………………………………
+da o normal), según surge del análisis del punto de
+……………………………………………………………………………
+equilibrio económico. …………………………………………………………………………..
+Otros comentarios dignos de señalar resultan de Lugar y fecha Firma del profesional Sello del profesional
+(apreciable magnitud de las devoluciones sobre ven- • Notas: 1. Estas conclusiones son para los informes sobre
+tas .................................................................................... o Resul- la situación económica y financiera.
+tados extraordinarios, etc.)………………………………………….
+2. Para otros casos o tipo de labor debe adaptarse
+a las circunstancias.
+4.2. Situación financiera
+CASO DE APLICACIÓN Nº 1
+La liquidez inmediata es de... (para cada año), lo
+INFORME SOBRE ANÁLISIS ECONÓMICO-FINANCIERO
+cual implica (fluidez o pesadez) para atender las obli-
+gaciones en el corto plazo. La tendencia marcaría una Aplicado al caso base (capítulo 6)
+posible (mejoría, deterioro o estancamiento). La prue- Fui requerido por la empresa El Análisis S.A., domiciliada en
+ba ácida es de ………………………………… (para cada año), lo Corrientes 348, Buenos Aires, para emitir opinión sobre la si-
+cual implica ... (fluidez o pesadez) para atender las tuación económica y financiera que surge de los estados conta-
+obligaciones en el corto plazo. La tendencia marcaría bles y documentación, detallados en el apartado 1.
+una posible ... (mejoría, deterioro o estancamiento).
+1. Estados contables objeto del análisis
+El ciclo operativo es de ................................................. ………….
+1.1. Balance general al 30 de junio de los años 20X6,
+(días) en los distintos períodos y merece las siguien-
+20X7 y 20X8.
+tes consideraciones:
+ Días de cobranza: ………………………………………………. 1.2. Estados de resultados por los ejercicios finalizados el
+(excesivo, corto, normal). 30 de junio de los años 20X6, 20X7 y 20X8.
+ Existencia de materias primas: ………………………………. 1.3. Estados de evolución del Patrimonio neto por los ejer-
+(excesivo, corto, normal).
+cicios finalizados el 30 de junio de los años 20X6,
+ Producción en proceso: ………………………………………..
+20X7 y 20X8.
+(podría ser recomendable revisar el lay out de la
+planta por lo excesivo del proceso). 1.4. Notas y anexos de los referidos estados contables.
+ Productos terminados: …………………………………………. 1.5. Información adicional obtenida en la empresa.
+(excesivo, corto, normal).
+2. Alcance del informe
+La política de inventarios y de ventas frente a los
+2.1. La labor fue realizada mediante el empleo de la infor-
+Resultados de tenencia; de exposición a la inflación y
+mación obtenida y la comparación con promedios so-
+a la tasa efectiva de interés puede considerarse ...
+bre la base de información anterior de la empresa y
+(conservadora, aleatoria o especuladora).
+del contexto, que sirvieron a modo de estándar por
+La relación Pasivo/Patrimonio neto es… (normal,
+carecerse de objetivos preestablecidos, definidos por
+buena o inapropiada).
+cada ítem.
+254
+MARIO BIONDI ERREPAR 255
+
+CAPÍTULO 7: PRESENTACIÓN DE INFORMES
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+4.2. Situación financiera
+2.2. Las opiniones del suscripto no implican recomenda-
+La liquidez inmediata es del 186%, el 140% y el 268%
+ciones del tipo de las que resultarían de una auditoría
+para cada año, lo cual implica fluidez para atender las
+operativa, por cuanto se trata de diferentes labores.
+obligaciones en el corto plazo. La tendencia marca un
+3. Aclaraciones incremento, pero debe cuidarse el exceso, en cuanto a
+3.1. Todas las cifras han sido reexpresadas a la fecha del la composición de los elementos integrantes de los Ac-
+último cierre, con el objeto de homogeneizarlas. tivos y Pasivos, que en períodos de alta inflación pue-
+3.2. Se han eliminado, en la medida de lo posible, apre- de resultar peligroso o inconveniente.
+ciaciones subjetivas o de coyuntura, y las opiniones La prueba ácida es del 4%, el 7% y el 61 % para ca-
+son las que resultan de lo indicado en 2.1. da año, lo cual implica una excesiva fluidez para aten-
+3.3. Los estados contables han sido auditados por otros der las obligaciones en el plazo inmediato. La tenden-
+profesionales. cia marca una desproporción que debe revisarse.
+3.4. La empresa tiene como objeto principal la comerciali- Valen las mismas apreciaciones que en el párrafo an-
+zación y venta de electrodomésticos. terior, en cuanto a la composición de los elementos in-
+4. Informe tegrantes de estos Activos y Pasivos.
+El ciclo operativo es de 158, 105 y 80 días en los dis-
+4.1. Situación económica
+tintos períodos analizados y merece las siguientes
+La rentabilidad de la empresa se ha mantenido, en
+consideraciones, referidas al año 20X8:
+los períodos analizados, dentro de parámetros acep-
+... Días de cobranza: ……………………….. Normal.
+tables para este tipo de actividad para los ejercicios
+20X6 y 20X7, no siendo así para el período 20X8,  Existencia de materias primas: …........ Excesivo.
+donde se nota una brusca caída de la misma, consi-
+... Producción en proceso: ………………… Normal.
+derándose inaceptable la relación obtenida. La ten-
+... Productos terminados: ………………… Excesivo.
+dencia marca, por lo tanto, una línea descendente en
+el último período analizado. La tendencia señala una mejoría,pero requiere especial
+atención, y debe revisarse la política de stocks de
+La utilización del capital ajeno resultó conveniente,
+sin abrir juicios de valor sobre la situación del merca- materias primas y productos terminados.
+do en los períodos analizados. La política de inventarios y de ventas frente a los Re-
+sultados de tenencia, de exposición a la inflación y a la
+La rotación del capital en relación con las ventas fue
+satisfactoria. tasa efectiva de interés puede considerarse aleatoria,
+dado el especial comportamiento de las variables en el
+La estructura de la empresa es normal, según surge
+del análisis del punto de equilibrio económico. período analizado. Ver sugerencia en el punto anterior.
+La relación Pasivo/Patrimonio neto es buena, no-
+Otros comentarios dignos de señalar resultan de la
+tándose una tendencia favorable.
+apreciable magnitud de las devoluciones sobre ven-
+tas, en el período 20X7, situación que fue corregida
+por la empresa en el ejercicio siguiente y en los Re- Buenos Aires, 30 de agosto de 20X8
+sultados extraordinarios obtenidos en el período 20X8 Firma del profesional Sello del profesional
+como consecuencia de la venta de Activos fijos.
+256 MARIO BIONDI ERREPAR
+257
+
+ESTADOS CONTABLES. PRESENTACIÓN. INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 7: PRESENTACIÓN DE INFORMES
+El gerente de finanzas consideró que el informe debería
+CASO DE APLICACIÓN N9 2
+contener las siguientes partes:
+INTERPRETACIÓN Y ANÁLISIS DE
+ESTADOS CONTABLES. INFORME I. Situación de la empresa, sobre la base de los índices y ra-
+tios obtenidos.
+En este caso de aplicación veremos cómo debe prepararse II. Comparación con los índices y ratios predeterminados.
+la información obtenida a través del análisis, su comparación Cuantificar diferencias y evaluar su justificación o no, y es-
+tablecer nuevos pronósticos, si fuera pertinente.
+con los estándares preestablecidos y, a partir de dicha obser-
+vación, se elaborará un informe sobre las conclusiones obteni- III. Conclusiones.
+das y una serie de recomendaciones a la empresa.
+SOLUCIÓN MODELO
+Datos
+INFORME
+El gerente de finanzas de la empresa Saludable S.A. recibió
+de su presidente un pedido de informe sobre la marcha de la so- De: Gerente de finanzas Fecha del informe: 30/9/X1
+ciedad según los estados contables al 30/6/X1.
+A: Presidente Fecha del análisis: al
+Para cumplir con su cometido, y trabajando con los estados
+30/6/X1
+contables al 30/6/X1, obtuvo los siguientes índices, ratios y ci-
+I. Situación de la empresa, sobre la base de los índices y ra-
+fras, todos a valores constantes al 30/6/X1.
+tios obtenidos
+Información
+Índices - Ratios - Valores
+Comentarios: Consecuenciasnegativas:
+Conceptos Reales Preestablecidos a) Liquidez corriente: excesiva Analizar riesgo inflacionario
+Liquidez corriente 2,00 1,40 b) Liquidez ácida: excesiva Analizar riesgo inflacionario
+Liquidez ácida 0,90 0,50 c) Posición monetaria: riesgosa Analizar riesgo inflacionario
+Capital de trabajo 1.000.000.000 890.000.000 d) Endeudamiento: satisfactorio —
+Endeudamiento 1,00 1,20 e) Intereses reales: excesivos Analizar su composición
+Posición monetaria Activa700.000.000 Activa500.000.000 f) Ciclo operativo: razonable —
+Rentabilidad del capital propio 2% 3,5% g) Retorno sobre el capital: bajo Escasa rentabilidad para capitalizar la empresa
+Ciclo operativo (días) 70 69 h) Utilización capital ajeno: satisfactorio —
+Ventas 2.300.000.000 2.500.000.000 i) Punto de equilibrio económico:
+Patrimonio neto 11.500.000.000 8.000.000.000 satisfactorio —
+Utilidad neta 230.000.000 280.000.000 j) Ocupación de la planta: razonable —
+Tendencia de Ventas (respecto año anterior) +10% +10% k) Tendencias: se observan desfasajes Se puede estar generando un aumento en los
+Tendencia de Costos de ventas (respecto año anterior) +12% +8% en el aumento costos de las ventas en relación con costos y
+Tendencia de Gastos de administración (respecto año gastos
+anterior) -1% -3% I) Resultados de tenencia: Deben analizarse, a través del análisis no
+Tendencia de Resultados financieros (respecto año
+convencional del Estado de resultados, la
+anterior) -1% -1%
+incidencia de este sobre el resultado total, y
+Tendencia de Utilidad neta (respecto año anterior) 0 +2%
+también la proporción correspondiente a
+Efecto de palanca 1,08 1,20
+bienes
+Gastos fijos 200.000.000 185.000.000
+vendidos (realizados) y en existencia (no
+Gastos variables (sobre ventas) 18% 19%
+realizados)
+Punto de equilibrio económico en $ 243.000.000 228.000.000
+m) Resultados por exposición a la
+Ocupación de la planta 65% 65%
+Inflación: Analizar riesgo inflacionario
+Resultados de tenencia 350.000.000 280.000.000
+Resultados por exposición a la inflación -325.000.000 -312.000.000
+Resultados financieros netos (intereses reales) -215.000.000 -125.000.000
+259
+258 MARIO BIONDI ERREPAR
+
+CAPÍTULO 7: PRESENTACIÓN DE INFORMES
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+II. Comparación con los índices y ratios predeterminados. b) otorgar mayor crédito a los clientes, dentro de lo acon-
+Cuantificar diferencias y evaluar su justificación o no, y es- sejado por el departamento respectivo y con adecuada
+tablecer nuevos pronósticos, si fuera pertinente compensación, o lograr nuevos clientes;
+Variación porcentual de índices - ratios - valores Justificación c) pagar anticipadamente deudas comerciales con las con-
+Conceptos Reales Preest Variación % Recomendación siguientes compensaciones financieras.
+Liquidez corriente 2 1,40 +42,86 Injustificado. Analizar 2. El capital de trabajo. Parece excesivo en relación con el
+Liquidez ácida 0,90 0,50 +80 Injustificado. Analizar
+nivel de ocupación de la planta y con la cifra de ventas.
+Capital de trabajo 1.000mil 890mil +12,36 Desvío razonable. Analizar
+cualitativamente Deberían tomarse las medidas acordes con alguna de es-
+Endeudamiento s/Patrimonio neto 1,00 1,20 -16,67 Desvío favorable tas posibilidades:
+Posición monetaria Act 700mil .Act 500mil +40 Riesgosa. Analizar
+a) cubrir capacidades ociosas, conforme con los planes y
+Rentabilidad del capital propio 2% 3,5% -42,86 Desvío significativo. Analizar
+Ciclo operativo (días) 70 69 +1,45 Desvío razonable. Analizar presupuestos proyectados;
+Ventas 2.300mili. 2.500mil. -8,00 Desvío significativo. Analizar b) provisoriamente mantener el exceso en Inversiones
+Patrimonio neto 11.500 mili. 8.000mil +43,75 Desvío favorable. Analizar
+temporarias para la disponibilidad de la liquidez;
+Utilidad neta 230 mili 280mil -17,86 Desvío significativo. Analizar.
+Relacionar con el análisis no c) si en los planes a mediano plazo no se previera la re-
+convencional del Estado de
+activación de la producción y las ventas, las soluciones
+resultados
+Gastos fijos 200mil 185mil +8,11 Desvío significativo. Analizar podrían lograrse a través de:
+Gastos variables 18% 19% -1% Desvío favorable. Analizar — Reintegro de capital a los accionistas.
+Punto de equilibrio económico 243mill 228 mili. +6,58 Desvío razonable. Analizar — Realización de inversiones permanentes que gene-
+Ocupación de planta 65% 65% 0 Capacidad ociosa
+rarían rendimientos no operativos.
+Resultados de tenencia 350mili 280mili. +25,00 Desvío significativo. Analizar.
+Relacionar con el análisis no 3. Ocupación de la planta industrial. Pese a que el nivel de
+convencional del Estado de
+ocupación logrado fue el previsto, el mismo es evidente-
+resultados
+mente bajo, y ello genera una serie de Costos fijos cuya ab-
+Resultados por exposición a la -325 mili -312 mili. +4,17 Desvío razonable. Analizar,
+inflación Relacionar con el análisis no sorción resulta dificultosa. En la medida en que las condi-
+convencional del Estado de ciones del mercado (local e internacional) lo permitan, de-
+resultados
+bería mejorarse ese índice.
+Intereses reales -215 mili. -125mili. +72,00 Desvío significativo. Analizar.
+Relacionar con el análisis no 4. Punto de equilibrio económico. El punto es bajo, lo cual
+convencional del Estado de
+facilita el desarrollo futuro de la empresa.
+resultados
+III. Conclusiones y recomendaciones 5. Efecto de palanca. Es satisfactorio, lo cual significa buen
+En líneas generales, la situación de la empresa al 30/6/X1, uso del endeudamiento a largo plazo. No obstante, debe
+según surge de los estados contables a esa fecha, merece las analizarse el desvío respecto de lo previsto.
+siguientes recomendaciones principales: 6. Tendencias. Están dentro de los parámetros previstos. De-
+1. Disminuir el exceso de liquidez ácida hasta límites com- bería vigilarse el Costo de ventas.
+patibles con una adecuada cobertura del riesgo inflaciona- 7. Resultados financieros. Deberían analizarse la política de
+rio, para lo cual se podría: endeudamiento de la empresa y el incremento de los inte-
+a) incrementar la tenencia de Bienes de cambio selectiva,
+para asegurar el proceso productivo;
+260
+MARIO BIONDI ERREPAR 261
+
+CAPÍTULO 7: PRESENTACIÓN DE INFORMES
+ESTADOS CONTABLES PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+2. Tipos de bienes analizados.
+reses reales (negativos). Al mismo tiempo, analizar su inte- 3. Pautas básicas de valuación.
+rrelación con los Resultados por tenencia. 4. Técnica empleada para la determinación del
+8. Conclusiones. Con algún esfuerzo adicional, la empresa valor de utilización económica.
+puede mejorar sensiblemente su actual situación.
+5. Resultados obtenidos del análisis.
+2. Los informes sobre aspectos específicos de
+Capítulo III. Opinión sobre el valor recuperable de los Bienes
+los estados contables de uso de la empresa analizada, registrados en
+Deben tener una estructura similar a la indicada en 1, con- los estados contables a la fecha solicitada.
+cretándose a la labor requerida y realizada por el profesional.
+Esta podría ser una estructura tipo, para otros informes que
+3. Otros informes
+pueden surgir de la labor profesional vinculada con el análisis
+Nos referimos a aquellos que vinculan estados contables
+de los estados contables.
+con variados fines, presentando también la más diversa gama
+Analizar si los valores residuales de los activos fijos regis-
+de posibilidades. Un ejemplo de ellos sería un “Informe para trados por la empresa podrían “cubrirse” a través de los valores
+analizar el valor recuperable de los bienes de uso”. recuperables límite a la valuación, adoptados por las normas vi-
+En general estos informes constan por lo menos de tres gentes, sería un informe especial a emitir por parte del profe-
+grandes capítulos: el primero se emplea para conceptuar y fun- sional. El más adecuado, tratándose de Bienes de uso, es el va-
+damentar el uso de estas técnicas, por ejemplo, en el caso se- lor de utilización económica. Partiendo de la información pro-
+ñalado, el revalúo de los bienes y sus valores límite o recupe- porcionada por los estados contables, se pueden proyectar las
+rables. El segundo capítulo debería analizar la aplicación de utilidades derivadas de la utilización de los bienes integrantes
+esas teorías y sus técnicas al caso concreto. El tercero conten- del Activo fijo en la empresa y empezar a trabajar con ese va-
+dría la opinión del contador sobre los valores recuperables. lor, para llegar luego a determinar el valor de uso comentado
+(valor de utilización económica).
+Concretando algo más estos conceptos, la secuencia del in-
+forme sería, aproximadamente, la siguiente:
+Capítulo I. Los Bienes de uso y el valor al cierre de los está-
+dos contables
+1. Antecedentes.
+2. El valor de uso o valor de utilización
+económica.
+3. El valor de utilización económica o el valor ne-
+to de realización.
+4. El caso concreto de la empresa analizada.
+Capítulo II. El valor recuperable de los Bienes de uso de la
+empresa analizada:
+1. Alcance de la labor.
+263
+262
+MARIO BIONDI ERREPAR

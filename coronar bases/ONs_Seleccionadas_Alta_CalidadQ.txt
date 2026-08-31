@@ -1,0 +1,3890 @@
+{
+  "metadata": {
+    "nombre": "ONs_Seleccionadas_Alta_Calidad",
+    "version": "1.0.0",
+    "fecha_creacion": "2026-07-26",
+    "descripcion": "Selección de Obligaciones Negociables con alto volumen, alta TIR y vencimiento no inmediato — combinando datos del panel Balanz (precios, TIR, volumen) con la base maestra RENTA_FIJA_COMPLETA (datos técnicos, flujo de fondos)",
+    "criterios_filtro": {
+      "volumen_minimo_ars": 80000000,
+      "tir_minima_porcentual": 5.0,
+      "vencimiento_minimo": "2027-07-26",
+      "total_seleccionadas": 25,
+      "con_flujo_fondos": 16,
+      "sin_flujo_fondos": 9
+    },
+    "total_seleccionadas": 25,
+    "con_flujo_fondos": 25,
+    "sin_flujo_fondos": 0
+  },
+  "clasificacion": {
+    "descripcion": "ONs con estructura sinkable (amortización parcial periódica) vs bullet (pago único al vencimiento). Las sinkable suelen ser emisiones más antiguas que ya comenzaron a amortizar capital; las bullet son más recientes o con pago íntegro al final.",
+    "con_amortizacion_parcial_sinkable": [
+      {
+        "ticker": "PLC7O",
+        "razon": "Pluspetrol 7.55% — Sinkable 33/33/34 desde 2035. Emisión relativamente antigua, ya comenzando ventana de amortización.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "VSCXO",
+        "razon": "Vista Energy 7.875% — Sinkable 33/33/34 desde 2036. Emisión de 2023 con alto volumen institucional.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "TLCPO",
+        "razon": "Telecom 9.25% — Sinkable 50% en 2032, 50% en 2033. Una de las ONs corporativas más líquidas del mercado.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "TLCTO",
+        "razon": "Telecom 8.5% — Sinkable 50% en 2035, 50% en 2036. Serie larga de Telecom con excelente liquidez.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "EAC4O",
+        "razon": "MSU Green Energy 9.75% — Sinkable 33/33/34 desde 2034. TIR atractiva de 9.36%.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "GN49O",
+        "razon": "Genneia 7.75% — Sinkable 33/33/34 desde 2031. Energía renovable, demanda institucional constante.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "DNC7O",
+        "razon": "Edenor 9.75% — Sinkable 33/33/34 desde 2028. Ya comenzó a amortizar capital.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "DNCAO",
+        "razon": "Edenor 9.5% — Sinkable 33/33/34 desde 2031. Serie más larga de Edenor, alta TIR 8.63%.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "RUCDO",
+        "razon": "MSU Energy 9.75% — Sinkable 17.5/17.5/65 desde 2028. Primera amortización próxima en Dic 2028.",
+        "flujo_fondos": true
+      }
+    ],
+    "bullet_pago_total_vencimiento": [
+      {
+        "ticker": "MGCRO",
+        "razon": "Pampa Energía 7.75% — Bullet 2037. Emisión reciente (2023), sin amortización parcial.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "MGCOO",
+        "razon": "Pampa Energía 7.875% — Bullet 2034. Serie en ARS de Pampa con flujo de fondos completo.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "DNC5O",
+        "razon": "Edenor 9.5% — Bullet 2028. Serie corta pero con flujo detallado ACT/365.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "CP38O",
+        "razon": "CGC 11.875% — Bullet 2030. TIR más alta del panel (10.57%). Alta TIR por perfil de riesgo CGC.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "PQCSO",
+        "razon": "PCR 8% — Bullet 2031. Petroquímica Comodoro Rivadavia, flujo ACT/365 completo.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "TSC3O",
+        "razon": "TGS 8.5% — Bullet 2031. Transportadora de Gas, máxima liquidez en el sector.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "TSC4O",
+        "razon": "TGS 7.75% — Bullet 2035. Serie larga de TGS con cupón_pct/amort_pct.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "YMCXO",
+        "razon": "YPF 8.75% — Sinkable 20/20/60 desde 2029. Flujo verificado en plataforma.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "YM34O",
+        "razon": "YPF 8.25% — Sinkable 30/30/40 desde 2032. Flujo agregado desde plataforma.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "PLC4O",
+        "razon": "Pluspetrol 8.5% — Bullet 2032. Alta liquidez, segundo mayor volumen de Pluspetrol.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "TLCMO",
+        "razon": "Telecom 9.5% — Bullet 2031. Serie media de Telecom, muy líquida.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "VSCTO",
+        "razon": "Vista Energy 7.625% — Bullet 2035. Serie larga Vista con TIR atractiva.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "VSCVO",
+        "razon": "Vista Energy 8.5% — Bullet 2033. RegS con alta TIR 6.21%.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "PN43O",
+        "razon": "PAE 7.75% — Bullet 2037. Pan American Energy, categoría investment grade local.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "PLC5O",
+        "razon": "Pluspetrol 8.125% — Bullet 2031. Serie media de Pluspetrol.",
+        "flujo_fondos": true
+      },
+      {
+        "ticker": "MR46O",
+        "razon": "Gen. Mediterránea 2034 — Bullet. TIR alta 13.22% por perfil de riesgo. Sin flujo en master.",
+        "flujo_fondos": true
+      }
+    ]
+  },
+  "ranking_volumen": [
+    {
+      "#": 1,
+      "ticker": "PLC7O",
+      "nombre": "Pluspetrol 7.55% 2037",
+      "volumen_ars": 5844760400,
+      "tir": 7.37
+    },
+    {
+      "#": 2,
+      "ticker": "MGCRO",
+      "nombre": "Pampa Energía 7.75% 2037",
+      "volumen_ars": 3222820400,
+      "tir": 7.0
+    },
+    {
+      "#": 3,
+      "ticker": "VSCXO",
+      "nombre": "Vista Energy 7.875% 2038",
+      "volumen_ars": 2880142700,
+      "tir": 6.94
+    },
+    {
+      "#": 4,
+      "ticker": "YMCXO",
+      "nombre": "YPF 8.75% 2031",
+      "volumen_ars": 1360585169,
+      "tir": 5.88
+    },
+    {
+      "#": 5,
+      "ticker": "YM34O",
+      "nombre": "YPF 8.25% 2034",
+      "volumen_ars": 981991413,
+      "tir": 6.34
+    },
+    {
+      "#": 6,
+      "ticker": "TLCPO",
+      "nombre": "Telecom 9.25% 2033",
+      "volumen_ars": 762436172,
+      "tir": 6.87
+    },
+    {
+      "#": 7,
+      "ticker": "TLCTO",
+      "nombre": "Telecom 8.5% 2036",
+      "volumen_ars": 628805972,
+      "tir": 7.23
+    },
+    {
+      "#": 8,
+      "ticker": "PLC4O",
+      "nombre": "Pluspetrol 8.5% 2032",
+      "volumen_ars": 622205600,
+      "tir": 6.38
+    },
+    {
+      "#": 9,
+      "ticker": "TLCMO",
+      "nombre": "Telecom 9.5% 2031",
+      "volumen_ars": 557065600,
+      "tir": 5.7
+    },
+    {
+      "#": 10,
+      "ticker": "DNC5O",
+      "nombre": "Edenor 9.5% 2028",
+      "volumen_ars": 555781757,
+      "tir": 6.5
+    },
+    {
+      "#": 11,
+      "ticker": "VSCTO",
+      "nombre": "Vista Energy 7.625% 2035",
+      "volumen_ars": 516540600,
+      "tir": 6.49
+    },
+    {
+      "#": 12,
+      "ticker": "EAC4O",
+      "nombre": "MSU Green Energy 9.75% 2036",
+      "volumen_ars": 436583976,
+      "tir": 9.36
+    },
+    {
+      "#": 13,
+      "ticker": "MR46O",
+      "nombre": "Generación Mediterránea 2034",
+      "volumen_ars": 261656142,
+      "tir": 13.22
+    },
+    {
+      "#": 14,
+      "ticker": "MGCOO",
+      "nombre": "Pampa Energía 7.875% 2034",
+      "volumen_ars": 240070500,
+      "tir": 6.54
+    },
+    {
+      "#": 15,
+      "ticker": "GN49O",
+      "nombre": "Genneia 7.75% 2033",
+      "volumen_ars": 236885200,
+      "tir": 6.57
+    },
+    {
+      "#": 16,
+      "ticker": "TSC3O",
+      "nombre": "TGS 8.5% 2031",
+      "volumen_ars": 210550900,
+      "tir": 6.0
+    },
+    {
+      "#": 17,
+      "ticker": "TSC4O",
+      "nombre": "TGS 7.75% 2035",
+      "volumen_ars": 208284800,
+      "tir": 6.72
+    },
+    {
+      "#": 18,
+      "ticker": "VSCVO",
+      "nombre": "Vista Energy 8.5% 2033",
+      "volumen_ars": 186449200,
+      "tir": 6.21
+    },
+    {
+      "#": 19,
+      "ticker": "CP38O",
+      "nombre": "CGC 11.875% 2030",
+      "volumen_ars": 181995810,
+      "tir": 10.57
+    },
+    {
+      "#": 20,
+      "ticker": "DNC7O",
+      "nombre": "Edenor 9.75% 2030",
+      "volumen_ars": 174779450,
+      "tir": 6.47
+    },
+    {
+      "#": 21,
+      "ticker": "PN43O",
+      "nombre": "PAE 7.75% 2037",
+      "volumen_ars": 156899600,
+      "tir": 6.66
+    },
+    {
+      "#": 22,
+      "ticker": "PLC5O",
+      "nombre": "Pluspetrol 8.125% 2031",
+      "volumen_ars": 155712000,
+      "tir": 6.21
+    },
+    {
+      "#": 23,
+      "ticker": "DNCAO",
+      "nombre": "Edenor 9.5% 2033",
+      "volumen_ars": 121581680,
+      "tir": 8.63
+    },
+    {
+      "#": 24,
+      "ticker": "RUCDO",
+      "nombre": "MSU Energy 9.75% 2030",
+      "volumen_ars": 100213782,
+      "tir": 7.62
+    },
+    {
+      "#": 25,
+      "ticker": "PQCSO",
+      "nombre": "PCR 8% 2031",
+      "volumen_ars": 97739164,
+      "tir": 7.6
+    }
+  ],
+  "ranking_tir": [
+    {
+      "#": 1,
+      "ticker": "MR46O",
+      "tir": 13.22,
+      "nombre": "Generación Mediterránea 2034",
+      "volumen_ars": 261656142
+    },
+    {
+      "#": 2,
+      "ticker": "CP38O",
+      "tir": 10.57,
+      "nombre": "CGC 11.875% 2030",
+      "volumen_ars": 181995810
+    },
+    {
+      "#": 3,
+      "ticker": "EAC4O",
+      "tir": 9.36,
+      "nombre": "MSU Green Energy 9.75% 2036",
+      "volumen_ars": 436583976
+    },
+    {
+      "#": 4,
+      "ticker": "DNCAO",
+      "tir": 8.63,
+      "nombre": "Edenor 9.5% 2033",
+      "volumen_ars": 121581680
+    },
+    {
+      "#": 5,
+      "ticker": "RUCDO",
+      "tir": 7.62,
+      "nombre": "MSU Energy 9.75% 2030",
+      "volumen_ars": 100213782
+    },
+    {
+      "#": 6,
+      "ticker": "PQCSO",
+      "tir": 7.6,
+      "nombre": "PCR 8% 2031",
+      "volumen_ars": 97739164
+    },
+    {
+      "#": 7,
+      "ticker": "PLC7O",
+      "tir": 7.37,
+      "nombre": "Pluspetrol 7.55% 2037",
+      "volumen_ars": 5844760400
+    },
+    {
+      "#": 8,
+      "ticker": "TLCTO",
+      "tir": 7.23,
+      "nombre": "Telecom 8.5% 2036",
+      "volumen_ars": 628805972
+    },
+    {
+      "#": 9,
+      "ticker": "MGCRO",
+      "tir": 7.0,
+      "nombre": "Pampa Energía 7.75% 2037",
+      "volumen_ars": 3222820400
+    },
+    {
+      "#": 10,
+      "ticker": "VSCXO",
+      "tir": 6.94,
+      "nombre": "Vista Energy 7.875% 2038",
+      "volumen_ars": 2880142700
+    },
+    {
+      "#": 11,
+      "ticker": "TLCPO",
+      "tir": 6.87,
+      "nombre": "Telecom 9.25% 2033",
+      "volumen_ars": 762436172
+    },
+    {
+      "#": 12,
+      "ticker": "TSC4O",
+      "tir": 6.72,
+      "nombre": "TGS 7.75% 2035",
+      "volumen_ars": 208284800
+    },
+    {
+      "#": 13,
+      "ticker": "PN43O",
+      "tir": 6.66,
+      "nombre": "PAE 7.75% 2037",
+      "volumen_ars": 156899600
+    },
+    {
+      "#": 14,
+      "ticker": "GN49O",
+      "tir": 6.57,
+      "nombre": "Genneia 7.75% 2033",
+      "volumen_ars": 236885200
+    },
+    {
+      "#": 15,
+      "ticker": "MGCOO",
+      "tir": 6.54,
+      "nombre": "Pampa Energía 7.875% 2034",
+      "volumen_ars": 240070500
+    },
+    {
+      "#": 16,
+      "ticker": "DNC5O",
+      "tir": 6.5,
+      "nombre": "Edenor 9.5% 2028",
+      "volumen_ars": 555781757
+    },
+    {
+      "#": 17,
+      "ticker": "VSCTO",
+      "tir": 6.49,
+      "nombre": "Vista Energy 7.625% 2035",
+      "volumen_ars": 516540600
+    },
+    {
+      "#": 18,
+      "ticker": "DNC7O",
+      "tir": 6.47,
+      "nombre": "Edenor 9.75% 2030",
+      "volumen_ars": 174779450
+    },
+    {
+      "#": 19,
+      "ticker": "PLC4O",
+      "tir": 6.38,
+      "nombre": "Pluspetrol 8.5% 2032",
+      "volumen_ars": 622205600
+    },
+    {
+      "#": 20,
+      "ticker": "YM34O",
+      "tir": 6.34,
+      "nombre": "YPF 8.25% 2034",
+      "volumen_ars": 981991413
+    },
+    {
+      "#": 21,
+      "ticker": "PLC5O",
+      "tir": 6.21,
+      "nombre": "Pluspetrol 8.125% 2031",
+      "volumen_ars": 155712000
+    },
+    {
+      "#": 22,
+      "ticker": "VSCVO",
+      "tir": 6.21,
+      "nombre": "Vista Energy 8.5% 2033",
+      "volumen_ars": 186449200
+    },
+    {
+      "#": 23,
+      "ticker": "TSC3O",
+      "tir": 6.0,
+      "nombre": "TGS 8.5% 2031",
+      "volumen_ars": 210550900
+    },
+    {
+      "#": 24,
+      "ticker": "YMCXO",
+      "tir": 5.88,
+      "nombre": "YPF 8.75% 2031",
+      "volumen_ars": 1360585169
+    },
+    {
+      "#": 25,
+      "ticker": "TLCMO",
+      "tir": 5.7,
+      "nombre": "Telecom 9.5% 2031",
+      "volumen_ars": 557065600
+    }
+  ],
+  "datos_completos": [
+    {
+      "ticker": "PLC7O",
+      "panel_balanz": {
+        "precio_ultimo": 1570.0,
+        "tir_porcentual": 7.37,
+        "volumen_diario_pesos": 5844760400,
+        "nombre_panel": "ON PLUSPETROL S A / PLUSPETROL S A/7.55 SR NT 20370930"
+      },
+      "datos_tecnicos": {
+        "emisor": "Pluspetrol S.A.",
+        "nombre": "Pluspetrol 7.55% ARS 30/09/2037",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2037-09-30",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 30/09/2035, 33% al 30/09/2036, 34% al 30/09/2037)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP7924AAD02",
+        "especies_relacionadas": {
+          "D": "PLC7D"
+        },
+        "cupon": {
+          "tasa": 7.55,
+          "tipo": "Fija",
+          "detalle": "7.55% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2027-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.66,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-09-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2035-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.77,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2035-09-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 36.78,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2036-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.53,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2036-09-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.53,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2037-03-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.28,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2037-09-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.28,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "MGCRO",
+      "panel_balanz": {
+        "precio_ultimo": 1655.0,
+        "tir_porcentual": 7.0,
+        "volumen_diario_pesos": 3222820400,
+        "nombre_panel": "ON PAMPA ENERGIA SA 7,75 VTO. 14/11/37"
+      },
+      "datos_tecnicos": {
+        "emisor": "Pampa Energía S.A.",
+        "nombre": "Pampa Energía Cl.26 7.75% USD 14/11/2037",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "2023-01-01",
+        "fecha_vencimiento": "2037-11-14",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 14/11/2037)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP7464EAY25",
+        "especies_relacionadas": {
+          "D": "MGCRD"
+        },
+        "cupon": {
+          "tasa": 7.75,
+          "tipo": "Fija",
+          "detalle": "7.75% anual fijo pagadero semestralmente los 14/05 y 14/11",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "dias_convencion": "ACT/365",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2036-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2036-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2037-05-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2037-11-14",
+          "cupon_pct": 3.88,
+          "amort_pct": 100.0,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "VSCXO",
+      "panel_balanz": {
+        "precio_ultimo": 1685.0,
+        "tir_porcentual": 6.94,
+        "volumen_diario_pesos": 2880142700,
+        "nombre_panel": "ON VISTA ENERGY ARGENT 7.875 08/04/38"
+      },
+      "datos_tecnicos": {
+        "emisor": "Vista Energy Argentina",
+        "nombre": "Vista Energy 7.875% USD 08/04/2038",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "2023-01-01",
+        "fecha_vencimiento": "2038-04-08",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 08/04/2036, 33% al 08/04/2037, 34% al 08/04/2038)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9659RAD00",
+        "especies_relacionadas": {
+          "D": "VSCXD"
+        },
+        "cupon": {
+          "tasa": 7.875,
+          "tipo": "Fija",
+          "detalle": "7.875% anual fijo pagadero semestralmente los 08/04 y 08/10",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "dias_convencion": "ACT/365",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-10-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2036-04-08",
+          "cupon_pct": 3.94,
+          "amort_pct": 33.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2036-10-08",
+          "cupon_pct": 2.64,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2037-04-08",
+          "cupon_pct": 2.64,
+          "amort_pct": 33.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2037-10-08",
+          "cupon_pct": 1.34,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2038-04-08",
+          "cupon_pct": 1.34,
+          "amort_pct": 34.0,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "YMCXO",
+      "panel_balanz": {
+        "precio_ultimo": 1755.2,
+        "tir_porcentual": 5.88,
+        "volumen_diario_pesos": 1360585169,
+        "nombre_panel": "YPF SOCIEDAD ON 8.75% VTO. 11/09/31"
+      },
+      "datos_tecnicos": {
+        "emisor": "YPF S.A.",
+        "nombre": "YPF 8.75% ARS 11/09/2031",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2031-09-11",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (20% al 11/09/2029, 20% al 11/09/2030, 60% al 11/09/2031)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP989MJBV29",
+        "especies_relacionadas": {
+          "D": "YMCXD"
+        },
+        "cupon": {
+          "tasa": 8.75,
+          "tipo": "Fija",
+          "detalle": "8.75% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-09-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-03-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-09-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-03-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-09-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-03-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-09-11",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 24.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-03-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.5,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-09-11",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 23.5,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-03-11",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.63,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-09-11",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 62.63,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "YM34O",
+      "panel_balanz": {
+        "precio_ultimo": 1695.0,
+        "tir_porcentual": 6.34,
+        "volumen_diario_pesos": 981991413,
+        "nombre_panel": "YPF SOCIEDAD ANON REGS 8.25% V 17/01/34"
+      },
+      "datos_tecnicos": {
+        "emisor": "YPF S.A.",
+        "nombre": "YPF RegS 8.25% ARS 17/01/2034",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2034-01-17",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (30% al 17/01/2032, 30% al 17/01/2033, 40% al 17/01/2034)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP989MJBY67",
+        "especies_relacionadas": {
+          "D": "YM34D"
+        },
+        "cupon": {
+          "tasa": 8.25,
+          "tipo": "Fija",
+          "detalle": "8.25% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2027-01-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-07-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-01-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-07-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-01-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-07-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-01-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-07-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-01-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-07-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-01-17",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 34.13,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-07-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.89,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-01-17",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 32.89,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-07-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.65,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-01-17",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 41.65,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "TLCPO",
+      "panel_balanz": {
+        "precio_ultimo": 1745.0,
+        "tir_porcentual": 6.87,
+        "volumen_diario_pesos": 762436172,
+        "nombre_panel": "ON TELECOM ARGENTINA SA REGS 9.25% V. 28/05/33"
+      },
+      "datos_tecnicos": {
+        "emisor": "Telecom Argentina S.A.",
+        "nombre": "Telecom Argentina RegS 9.25% USD 28/05/2033",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Nueva_York",
+        "especie": "Dolar",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2033-05-28",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (50% al 28/05/2032, 50% al 28/05/2033)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9028NCA74",
+        "especies_relacionadas": {
+          "D": "TLCPD"
+        },
+        "cupon": {
+          "tasa": 9.25,
+          "tipo": "Fija",
+          "detalle": "9.25% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-05-28",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 54.625,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.3125,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-05-28",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 52.3125,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "TLCTO",
+      "panel_balanz": {
+        "precio_ultimo": 1671.0,
+        "tir_porcentual": 7.23,
+        "volumen_diario_pesos": 628805972,
+        "nombre_panel": "ON TELECOM ARGENTINA S 8,5 % VTO. 20/01/36"
+      },
+      "datos_tecnicos": {
+        "emisor": "Telecom Argentina S.A.",
+        "nombre": "Telecom Argentina Cl.27 8.5% USD 20/01/2036",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Nueva_York",
+        "especie": "Dolar",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2036-01-20",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (50% al 20/01/2035, 50% al 20/01/2036)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9028NCE96",
+        "especies_relacionadas": {
+          "D": "TLCTD"
+        },
+        "cupon": {
+          "tasa": 8.5,
+          "tipo": "Fija",
+          "detalle": "8.5% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-01-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-01-20",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 54.25,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-07-20",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.125,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2036-01-20",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 52.125,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "PLC4O",
+      "panel_balanz": {
+        "precio_ultimo": 1712.7,
+        "tir_porcentual": 6.38,
+        "volumen_diario_pesos": 622205600,
+        "nombre_panel": "ON PLUSPETROL SA REGS 8.50% V. 29/05/32"
+      },
+      "datos_tecnicos": {
+        "emisor": "Pluspetrol S.A.",
+        "nombre": "Pluspetrol RegS 8.5% ARS 29/05/2032",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2032-05-29",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 30/05/2032)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP7924AAA62",
+        "especies_relacionadas": {
+          "D": "PLC4D"
+        },
+        "cupon": {
+          "tasa": 8.5,
+          "tipo": "Fija",
+          "detalle": "8.5% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-11-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-05-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-11-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-05-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-11-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-05-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-11-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-05-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-11-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-05-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-11-30",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-05-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 104.25,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "TLCMO",
+      "panel_balanz": {
+        "precio_ultimo": 1740.0,
+        "tir_porcentual": 5.7,
+        "volumen_diario_pesos": 557065600,
+        "nombre_panel": "ON TELECOM ARGENTINA 9,5% V.18/7/31"
+      },
+      "datos_tecnicos": {
+        "emisor": "Telecom Argentina S.A.",
+        "nombre": "Telecom 9.5% ARS 18/07/2031",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2031-07-18",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 18/07/2029, 33% al 18/07/2030, 34% al 18/07/2031)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9028NBT74",
+        "especies_relacionadas": {
+          "D": "TLCMD"
+        },
+        "cupon": {
+          "tasa": 9.5,
+          "tipo": "Fija",
+          "detalle": "9.5% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2027-01-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-07-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-01-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-07-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-01-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-07-18",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 37.75,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-01-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.18,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-07-18",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 36.18,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-01-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.62,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-07-18",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.62,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "DNC5O",
+      "panel_balanz": {
+        "precio_ultimo": 1685.5,
+        "tir_porcentual": 6.5,
+        "volumen_diario_pesos": 555781757,
+        "nombre_panel": "ON EDENOR CL.5 V.05/08/28 U$S CG"
+      },
+      "datos_tecnicos": {
+        "emisor": "Edenor S.A.",
+        "nombre": "Edenor Cl.5 ARS 05/08/2028",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "2024-01-01",
+        "fecha_vencimiento": "2028-08-05",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 05/08/2028)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "AR0674196495",
+        "especies_relacionadas": {
+          "D": "DNC5D"
+        },
+        "cupon": {
+          "tasa": 9.5,
+          "tipo": "Fija",
+          "detalle": "9.5% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "dias_convencion": "ACT/365",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-08-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.71,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-02-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.79,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-08-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.71,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-02-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.79,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-08-05",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 104.74,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "VSCTO",
+      "panel_balanz": {
+        "precio_ultimo": 1664.6,
+        "tir_porcentual": 6.49,
+        "volumen_diario_pesos": 516540600,
+        "nombre_panel": "ON VISTA ENERGY ARGENT 7,625% V.10/12/35"
+      },
+      "datos_tecnicos": {
+        "emisor": "Vista Energy Argentina",
+        "nombre": "Vista Energy 7.625% ARS 10/12/2035",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2035-12-10",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 10/12/2033, 33% al 10/12/2034, 34% al 10/12/2035)",
+        "liquidez": "Media",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9659RAA60",
+        "especies_relacionadas": {
+          "D": "VSCTD"
+        },
+        "cupon": {
+          "tasa": 7.625,
+          "tipo": "Fija",
+          "detalle": "7.625% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-12-10",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 36.81,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.55,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-12-10",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.55,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2035-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.3,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2035-12-10",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.3,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "EAC4O",
+      "panel_balanz": {
+        "precio_ultimo": 1600.0,
+        "tir_porcentual": 9.36,
+        "volumen_diario_pesos": 436583976,
+        "nombre_panel": "ON MSU GREEN ENERGY S A 9,75 % VTO. 16/6/2036"
+      },
+      "datos_tecnicos": {
+        "emisor": "MSU Green Energy S.A.",
+        "nombre": "MSU Green Energy 9.75% USD 16/06/2036",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Nueva_York",
+        "especie": "Dolar",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2036-06-16",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 16/06/2034, 33% al 16/06/2035, 34% al 16/06/2036)",
+        "liquidez": "Media",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP7000TAA27",
+        "especies_relacionadas": {
+          "D": "EAC4D"
+        },
+        "cupon": {
+          "tasa": 9.75,
+          "tipo": "Fija",
+          "detalle": "9.75% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-06-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-06-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-06-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-06-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-06-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-06-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-06-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-06-16",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 37.875,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.268,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-06-16",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 36.268,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-12-16",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.658,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2036-06-16",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.658,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "MR46O",
+      "panel_balanz": {
+        "precio_ultimo": 1304.0,
+        "tir_porcentual": 13.22,
+        "volumen_diario_pesos": 261656142,
+        "nombre_panel": "GENERACION MEDI/SU SR SECD NT 2034"
+      },
+      "datos_tecnicos": {
+        "emisor": "Generación Mediterránea S.A.",
+        "nombre": "Generación Mediterránea ARS 2034",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2034-12-15",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Amortización variable decreciente — ver flujo de fondos",
+        "liquidez": "Media",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP46214AK12",
+        "especies_relacionadas": {
+          "D": "MR46D"
+        },
+        "cupon": {
+          "tasa": 0.0,
+          "tipo": "Fija",
+          "detalle": "Tasa fija en ARS",
+          "frecuencia": "Trimestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 7.29,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 6.64,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.52,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 9.56,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 9.32,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 9.08,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.84,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.92,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.65,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.38,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.12,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 7.84,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 7.58,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.31,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 7.99,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-06-30",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 8.18,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-12-31",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 7.84,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "MGCOO",
+      "panel_balanz": {
+        "precio_ultimo": 1682.5,
+        "tir_porcentual": 6.54,
+        "volumen_diario_pesos": 240070500,
+        "nombre_panel": "ON PAMPA ENERGIA S.A. 7,875 % V.16/12/34"
+      },
+      "datos_tecnicos": {
+        "emisor": "Pampa Energía S.A.",
+        "nombre": "Pampa Energía 7.875% USD 16/12/2034",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "2023-01-01",
+        "fecha_vencimiento": "2034-12-16",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 16/12/2034)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP7464EAT30",
+        "especies_relacionadas": {
+          "D": "MGCOD"
+        },
+        "cupon": {
+          "tasa": 7.875,
+          "tipo": "Fija",
+          "detalle": "7.875% anual fijo pagadero semestralmente los 16/06 y 16/12",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "dias_convencion": "ACT/365",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-06-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-12-16",
+          "cupon_pct": 3.94,
+          "amort_pct": 100.0,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "GN49O",
+      "panel_balanz": {
+        "precio_ultimo": 1646.8,
+        "tir_porcentual": 6.57,
+        "volumen_diario_pesos": 236885200,
+        "nombre_panel": "ON GENNEIA S.A.7.75% 02/12/33"
+      },
+      "datos_tecnicos": {
+        "emisor": "Genneia S.A.",
+        "nombre": "Genneia 7.75% USD 02/12/2033",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "2023-01-01",
+        "fecha_vencimiento": "2033-12-02",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 02/12/2031, 33% al 02/12/2032, 34% al 02/12/2033)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP46756BQ76",
+        "especies_relacionadas": {
+          "D": "GN49D"
+        },
+        "cupon": {
+          "tasa": 7.75,
+          "tipo": "Fija",
+          "detalle": "7.75% anual fijo pagadero semestralmente los 02/06 y 02/12",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "dias_convencion": "ACT/365",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-12-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-06-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-12-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-06-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-12-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-06-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-12-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-06-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-12-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-06-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-12-02",
+          "cupon_pct": 3.88,
+          "amort_pct": 33.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-06-02",
+          "cupon_pct": 2.6,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-12-02",
+          "cupon_pct": 2.6,
+          "amort_pct": 33.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-06-02",
+          "cupon_pct": 1.32,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-12-02",
+          "cupon_pct": 1.32,
+          "amort_pct": 34.0,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "TSC3O",
+      "panel_balanz": {
+        "precio_ultimo": 1698.0,
+        "tir_porcentual": 6.0,
+        "volumen_diario_pesos": 210550900,
+        "nombre_panel": "TRANSPORTADORA DE G 8.5 VTO. 24/07/31"
+      },
+      "datos_tecnicos": {
+        "emisor": "Transportadora de Gas del Sur S.A. (TGS)",
+        "nombre": "TGS 8.5% ARS 24/07/2031",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2031-07-24",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 24/07/2031)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9308RBA07",
+        "especies_relacionadas": {
+          "D": "TSC3D"
+        },
+        "cupon": {
+          "tasa": 8.5,
+          "tipo": "Fija",
+          "detalle": "8.5% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-07-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-01-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-07-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-01-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-07-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-01-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-07-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-01-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-07-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-01-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-07-24",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 104.25,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "TSC4O",
+      "panel_balanz": {
+        "precio_ultimo": 1670.3,
+        "tir_porcentual": 6.72,
+        "volumen_diario_pesos": 208284800,
+        "nombre_panel": "ON TRAN. DE GAS DEL SUR 7.75 20/11/35"
+      },
+      "datos_tecnicos": {
+        "emisor": "Transportadora de Gas del Sur S.A. (TGS)",
+        "nombre": "TGS 7.75% USD 20/11/2035",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "2023-01-01",
+        "fecha_vencimiento": "2035-11-20",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 20/11/2035)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9308RBB89",
+        "especies_relacionadas": {
+          "D": "TSC4D"
+        },
+        "cupon": {
+          "tasa": 7.75,
+          "tipo": "Fija",
+          "detalle": "7.75% anual fijo pagadero semestralmente los 20/05 y 20/11",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "dias_convencion": "ACT/365",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2034-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-05-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 0.0,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2035-11-20",
+          "cupon_pct": 3.88,
+          "amort_pct": 100.0,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "VSCVO",
+      "panel_balanz": {
+        "precio_ultimo": 1722.0,
+        "tir_porcentual": 6.21,
+        "volumen_diario_pesos": 186449200,
+        "nombre_panel": "VISTA ENERGY A REGS 8.5% 10/06/33"
+      },
+      "datos_tecnicos": {
+        "emisor": "Vista Energy Argentina",
+        "nombre": "Vista Energy RegS 8.5% ARS 10/06/2033",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2033-06-10",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 10/06/2031, 33% al 10/06/2032, 34% al 10/06/2033)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP9659RAB44",
+        "especies_relacionadas": {
+          "D": "VSCVD"
+        },
+        "cupon": {
+          "tasa": 8.5,
+          "tipo": "Fija",
+          "detalle": "8.5% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-06-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-06-10",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 37.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.85,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-06-10",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.85,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-12-10",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.45,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-06-10",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.45,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "CP38O",
+      "panel_balanz": {
+        "precio_ultimo": 1640.0,
+        "tir_porcentual": 10.57,
+        "volumen_diario_pesos": 181995810,
+        "nombre_panel": "ON COMPANIA GENERAL DE 11,875 % VTO. 28/11/30"
+      },
+      "datos_tecnicos": {
+        "emisor": "Compañía General de Combustibles (CGC)",
+        "nombre": "CGC 11.875% ARS 28/11/2030",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2030-11-28",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 28/11/2030)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP3063DAC67",
+        "especies_relacionadas": {
+          "D": "CP38D"
+        },
+        "cupon": {
+          "tasa": 11.875,
+          "tipo": "Fija",
+          "detalle": "11.875% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-11-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-05-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 5.9375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-11-28",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 105.9375,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "DNC7O",
+      "panel_balanz": {
+        "precio_ultimo": 1715.1,
+        "tir_porcentual": 6.47,
+        "volumen_diario_pesos": 174779450,
+        "nombre_panel": "ON EDENOR 9.75% 24/10/30"
+      },
+      "datos_tecnicos": {
+        "emisor": "Edenor S.A.",
+        "nombre": "Edenor 9.75% ARS 24/10/2030",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2030-10-24",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33.33% al 24/10/2028, 33.33% al 24/10/2029, 33.34% al 24/10/2030)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP3710FAU86",
+        "especies_relacionadas": {
+          "D": "DNC7D"
+        },
+        "cupon": {
+          "tasa": 9.75,
+          "tipo": "Fija",
+          "detalle": "9.75% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-10-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-04-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-10-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-04-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-10-24",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 38.208,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-04-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.25,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-10-24",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 36.583,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-04-24",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.625,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-10-24",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 34.965,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "PN43O",
+      "panel_balanz": {
+        "precio_ultimo": 1660.0,
+        "tir_porcentual": 6.66,
+        "volumen_diario_pesos": 156899600,
+        "nombre_panel": "ON PAN AMERICAN ENERGY S.L 7,75 % V. 15/01/2037"
+      },
+      "datos_tecnicos": {
+        "emisor": "Pan American Energy S.L.",
+        "nombre": "PAE 7.75% ARS 15/01/2037",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2037-01-15",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33% al 15/01/2035, 33% al 15/01/2036, 34% al 15/01/2037)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USE7S78BAD49",
+        "especies_relacionadas": {
+          "D": "PN43D"
+        },
+        "cupon": {
+          "tasa": 7.75,
+          "tipo": "Fija",
+          "detalle": "7.75% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2027-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2032-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2033-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-01-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2034-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2035-01-15",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 36.88,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2035-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 2.6,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2036-01-15",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.6,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2036-07-15",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.32,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2037-01-15",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 35.32,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "PLC5O",
+      "panel_balanz": {
+        "precio_ultimo": 1678.0,
+        "tir_porcentual": 6.21,
+        "volumen_diario_pesos": 155712000,
+        "nombre_panel": "ON PLUSPETROL S.A. 8.125 18/05/31"
+      },
+      "datos_tecnicos": {
+        "emisor": "Pluspetrol S.A.",
+        "nombre": "Pluspetrol 8.125% ARS 18/05/2031",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2031-05-18",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 18/05/2031)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP7924AAC29",
+        "especies_relacionadas": {
+          "D": "PLC5D"
+        },
+        "cupon": {
+          "tasa": 8.125,
+          "tipo": "Fija",
+          "detalle": "8.125% anual",
+          "frecuencia": "Semestral"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-11-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-05-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-11-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-05-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-11-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-05-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-11-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-05-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-11-18",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.06,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2031-05-18",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 104.06,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "DNCAO",
+      "panel_balanz": {
+        "precio_ultimo": 1635.2,
+        "tir_porcentual": 8.63,
+        "volumen_diario_pesos": 121581680,
+        "nombre_panel": "ON EMP. DISTRIB. Y COMERC NORTE (EDENOR) 9,5% 28/4/33"
+      },
+      "datos_tecnicos": {
+        "emisor": "Edenor S.A.",
+        "nombre": "Edenor 9.5% USD 28/04/2033",
+        "moneda": "USD",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Nueva_York",
+        "especie": "Dolar",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2033-04-28",
+        "plazo": "Largo",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (33.33% al 28/04/2031, 33.33% al 28/04/2032, 33.34% al 28/04/2033)",
+        "liquidez": "Media",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP3710FBA14",
+        "especies_relacionadas": {
+          "D": "DNCAD"
+        },
+        "cupon": {
+          "tasa": 9.5,
+          "tipo": "Fija",
+          "detalle": "9.5% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_USD"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-10-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-04-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-10-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-04-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-10-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-04-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-10-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-04-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-10-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.75,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-04-28",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 38.08,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-10-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.17,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-04-28",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 36.5,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2032-10-28",
+          "tipo": "Cupon",
+          "monto_por_cien": 1.58,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2033-04-28",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 34.92,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "RUCDO",
+      "panel_balanz": {
+        "precio_ultimo": 1662.6,
+        "tir_porcentual": 7.62,
+        "volumen_diario_pesos": 100213782,
+        "nombre_panel": "MSU ENERGY S.A. REGS 9.75% VTO. 05/12/30"
+      },
+      "datos_tecnicos": {
+        "emisor": "MSU Energy S.A.",
+        "nombre": "MSU Energy RegS 9.75% ARS 05/12/2030",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2030-12-05",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Sinkable (17.5% al 05/12/2028, 17.5% al 05/12/2029, 65% al 05/12/2030)",
+        "liquidez": "Alta",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "USP7000QAJ96",
+        "especies_relacionadas": {
+          "D": "RUCDD"
+        },
+        "cupon": {
+          "tasa": 9.75,
+          "tipo": "Fija",
+          "detalle": "9.75% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-12-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-06-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2027-12-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-06-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.875,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2028-12-05",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 22.375,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-06-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.02,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2029-12-05",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 21.52,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-06-05",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.17,
+          "moneda": "ARS"
+        },
+        {
+          "fecha": "2030-12-05",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 68.17,
+          "moneda": "ARS"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    },
+    {
+      "ticker": "PQCSO",
+      "panel_balanz": {
+        "precio_ultimo": 1613.3,
+        "tir_porcentual": 7.6,
+        "volumen_diario_pesos": 97739164,
+        "nombre_panel": "ON PETROQUIMICA CL.S V17/02/31 U$S CG"
+      },
+      "datos_tecnicos": {
+        "emisor": "Petroquimica Comodoro Rivadavia S.A.",
+        "nombre": "Petroquímica Comodoro Rivadavia Cl.S 8% ARS 17/02/2031",
+        "moneda": "ARS",
+        "tipo": "ON",
+        "subtipo": "Tasa Fija",
+        "ley": "Argentina",
+        "especie": "Pesos",
+        "fecha_emision": "",
+        "fecha_vencimiento": "2031-02-17",
+        "plazo": "Mediano",
+        "valor_nominal": 100.0,
+        "amortizacion": "Bullet (100% al vencimiento 17/02/2031)",
+        "liquidez": "Media",
+        "mercado": "BYMA",
+        "activo": true,
+        "isin": "AR0309447628",
+        "especies_relacionadas": {
+          "D": "PQCSD"
+        },
+        "cupon": {
+          "tasa": 8.0,
+          "tipo": "Fija",
+          "detalle": "8.0% anual fijo pagadero semestralmente",
+          "frecuencia": "Semestral",
+          "dias_cupon": 182,
+          "convencion": "ACT/365"
+        },
+        "calculo": {
+          "tir_metodo": "Newton-Raphson",
+          "flujo_modelo": "Cupon+Fecha+Amortizacion",
+          "tipo_tir": "TIR_Anual_ARS"
+        },
+        "aviso_rescate": null
+      },
+      "flujo_fondos": [
+        {
+          "fecha": "2026-08-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.97,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-02-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.03,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2027-08-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.97,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-02-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.03,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2028-08-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.99,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-02-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.03,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2029-08-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.97,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-02-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 4.03,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2030-08-17",
+          "tipo": "Cupon",
+          "monto_por_cien": 3.97,
+          "moneda": "USD"
+        },
+        {
+          "fecha": "2031-02-17",
+          "tipo": "Cupon+Amortizacion",
+          "monto_por_cien": 104.03,
+          "moneda": "USD"
+        }
+      ],
+      "tiene_flujo_fondos": true
+    }
+  ]
+}

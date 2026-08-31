@@ -1,0 +1,60 @@
+{
+ "ticker_yf": "SPY",
+ "empresa": "State Street SPDR S&P 500 ETF Trust",
+ "es_etf": true,
+ "top_holdings": [
+  {
+   "holding": "NVIDIA Corp",
+   "symbol": "NVDA",
+   "peso": 0.0754943
+  },
+  {
+   "holding": "Apple Inc",
+   "symbol": "AAPL",
+   "peso": 0.070445
+  },
+  {
+   "holding": "Microsoft Corp",
+   "symbol": "MSFT",
+   "peso": 0.053599
+  },
+  {
+   "holding": "Amazon.com Inc",
+   "symbol": "AMZN",
+   "peso": 0.0412761
+  },
+  {
+   "holding": "Alphabet Inc Class A",
+   "symbol": "GOOGL",
+   "peso": 0.032421898
+  },
+  {
+   "holding": "Broadcom Inc",
+   "symbol": "AVGO",
+   "peso": 0.0286201
+  },
+  {
+   "holding": "Alphabet Inc Class C",
+   "symbol": "GOOG",
+   "peso": 0.026171401
+  },
+  {
+   "holding": "Meta Platforms Inc Class A",
+   "symbol": "META",
+   "peso": 0.0189809
+  },
+  {
+   "holding": "JPMorgan Chase & Co",
+   "symbol": "JPM",
+   "peso": 0.0146384
+  },
+  {
+   "holding": "Berkshire Hathaway Inc Class B",
+   "symbol": "BRK-B",
+   "peso": 0.0145635
+  }
+ ],
+ "descripcion": "The trust seeks to achieve its investment objective by holding a portfolio of the common stocks that are included in the index (the “Portfolio”), with the weight of each stock in the Portfolio substantially corresponding to the weight of such stock in the index.",
+ "expense_ratio": null,
+ "_fetched_at": "2026-08-25T14:23:10.395795"
+}

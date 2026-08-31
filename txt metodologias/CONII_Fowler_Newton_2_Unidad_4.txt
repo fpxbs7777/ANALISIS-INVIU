@@ -1,0 +1,1322 @@
+Cuestiones Contables
+Fundamentales
+Enrique Fowler Newton
+La Ley
+Buenos Aires
+2004
+4ª edición actualizada
+ISBN: 987-03-0537-7
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 6. VALORES DESCONTADOS Y VALORES CORRIENTES
+6,1. INTRODUCCIÓN
+Este capítulo está dedicado a dos conceptos susceptibles de utilización en algunas mediciones contables:
+a) valores descontados (VD) de futuros flujos (entradas y salidas) de efectivo;
+b) valores corrientes (VC).
+Previamente, formulemos algunas consideraciones sobre el concepto de valor.
+De acuerdo con lo que hemos visto en capítulos anteriores:
+a) el valor de un bien es la cualidad que justifica que por poseerlo se pague una suma de dinero, se
+entregue otro bien o se asuma una obligación;
+b) dicho valor puede derivar de la posibilidad de:
+1) canjear el bien por dinero o por otro activo o utilizarlo para cancelar una obligación o
+distribuirlo a los propietarios del ente (valor de cambio); o bien
+2) emplearlo en alguna actividad productiva (valor de uso);
+c) en cualquier caso, se considera que algo tiene valor cuando representa dinero o tiene aptitud para
+generar (por sí o en combinación con otros bienes) un flujo positivo de dinero;
+d) el costo de un activo suele ser igual o similar a su valor al momento de su adquisición, pero esa
+equivalencia o similitud suele perderse posteriormente.
+El valor es un concepto subjetivo. Lo que es valioso para un ente puede no serlo para otro.
+En general, tienen valor de cambio superior al valor de uso los activos adquiridos o producidos para
+su venta, como las mercaderías de reventa y los productos terminados. Lo contrario ocurre con los bienes que
+no han sido incorporados con ese destino, como las instalaciones productivas y ciertos intangibles.
+6,2. VALORES DESCONTADOS
+A) CONCEPTO
+En esta sección nos referiremos a los importes que surgen de calcular, a un momento dado, los VD
+de futuros flujos de efectivo a partir de:
+a) los importes nominales de éstos;
+b) el tiempo que transcurrirá entre el momento indicado y los de concreción de dichos flujos; y
+c) determinadas tasas de interés.
+El descuento de un importe se expresa mediante la fórmula:
+VD = X / (1 + i)n
+que también puede expresarse:
+VD = X (1 + i)-n
+siendo:
+VD: el valor descontado obtenido;
+X: el importe a descontar (un cobro, un pago);
+i: la tasa de interés elegida;
+
+n: la cantidad de períodos de capitalización de los intereses (puede ser un entero, una fracción o
+una combinación de ambos).
+El descuento reconoce el valor tiempo del dinero, que hace que dos sumas nominalmente iguales
+tengan valores distintos, según los momentos en que puedan ser cobradas o deban ser pagadas.
+1.000 pesos a ser cobrados dentro de tres días valen más de $ 1.000 a ser cobrados dentro de un año.
+Cuando un activo o un pasivo genera múltiples entradas o salidas de fondos, su VD es la suma
+algebraica de los VD de cada una de esas entradas o salidas.
+Supongamos que el 22/11/04 se desea calcular el VD de un título de deuda de $ 1.000, que fue
+emitido el 22/07/04 y cuyas cláusulas de emisión establecen:
+a) que su capital se cancelará el 22/07/05;
+b) que se pagarán intereses el 22/01 y 22/07/05, a la tasa del 8% anual (o sea: el título de $ 1.000 da
+derecho al cobro de $ 40 de intereses por semestre);
+Por razones que no discutiremos, el evaluador calcula el VD empleando una tasa de interés del 9%
+anual. Las cuentas (en las que n se expresa en fracciones de año calculadas considerando meses enteros) son:
+Fecha Concepto Pago Divisor VD
+22/01/05 Interés 40,00 (1 + 0,09)2/12 = 1,014466592 39,43
+22/07/05 Interés 40,00 (1 + 0,09)8/12 = 1,059134217 37,77
+22/07/05 Capital 1.000,00 (1 + 0,09)8/12 = 1,059134217 944,17
+Total 1.080,00 1.021,37
+(cid:194) Digresión terminológica: el VD (también llamado valor actual o valor presente) sólo
+es un valor –en el sentido de precio que se asignaría al activo valuado en una transacción real–
+cuando la tasa usada para los cálculos coincide con la que el mercado considera adecuada en
+función del riesgo implicado por la operación del caso.
+Si el mercado para el título de deuda del ejemplo considerara inadecuada una tasa del 9% anual, su
+precio sería distinto de $ 1.021,37.
+En definitiva, un VD no es más que el resultado de una cuenta efectuada a partir de ciertos datos
+(referidos al futuro) que el evaluador define sobre la base de elementos que en parte son de apreciación
+subjetiva.
+En el ejemplo, el evaluador:
+a) supone que el deudor pagará los intereses y el capital del bono en las fechas acordadas, hecho que
+no es seguro;
+b) eligió una tasa de descuento (el 9%) que podría diferir de la que elegiría otro evaluador.
+El cálculo de VD es habitual en la toma de decisiones de inversión. Uno de los procedimientos
+habituales a tales efectos consiste en:
+a) estimar los flujos de fondos (positivos y negativos) que ocasionará la inversión;
+b) descontarlos con una tasa de interés que el inversor considere satisfactoria en función de los
+riesgos involucrados;
+c) sumarlos algebraicamente;
+d) considerar que la inversión es conveniente cuando el neto calculado es positivo.
+Otro procedimiento consiste en:
+3
+
+a) estimar los mismos flujos de fondos;
+b) buscar la tasa de interés que haga que el VD neto de ellos sea nulo (la llamada tasa interna de
+retorno, TIR);
+c) considerar si la TIR es satisfactoria o no (en el primer caso, la inversión se considera
+conveniente).
+Del mismo modo puede procederse para decidir si se mantendrán inversiones ya hechas.
+El descuento interviene también en algunos modelos matemáticos de estimación de precios de
+opciones, como el de Black y Scholes.
+(cid:194) Nos referimos a dicho modelo en Contabilidad superior, cuya quinta edición esperamos
+ver publicada en 2005.
+B) EMPLEO EN CONTABILIDAD
+Por lo ya expuesto, un VD no es un valor propiamente dicho y es más subjetivo (y por lo tanto
+menos confiable) que un precio de mercado, el cual surge de transacciones reales y resulta de las ofertas y de
+las demandas de un conjunto de compradores y vendedores (actuales o potenciales) interesados en
+determinado bien o servicio.
+En consecuencia, los VD no deberían ser empleados como base para las mediciones contables de
+activos que tengan precios de mercado o de transacciones que envuelvan precios cuya medición directa sea
+posible.
+Si el bono de nuestro ejemplo tuviera cotización en un mercado activo, y al 22/11/04 su precio fuese
+de $ 1.025, este importe sería más representativo del valor del título que los $ 1.021,37 obtenidos mediante el
+procedimiento de descuento1.
+Una segunda cuestión es que el descuento sólo permite calcular aproximaciones razonables a los
+VC de las cuentas a cobrar o a pagar ya existentes o de los activos cuya conversión en créditos no
+demande ningún esfuerzo significativo. El procedimiento no debería aplicarse a otros activos o pasivos
+porque los VD así calculados incluirían los efectos patrimoniales de transacciones que aun no han
+ocurrido.
+Una empresa compra una mercadería en $ 100 y espera venderla en $ 130 dentro de un mes y
+cobrar ese importe dentro de dos. Efectuar la medición contable de la mercadería al VD de los $ 130
+(sea: $ 128) implicaría la incorporación a la ganancia del período del efecto de una venta que todavía no
+se ha producido.
+Los VD podrían, entonces, ser empleados para efectuar mediciones contables primarias de:
+a) precios de compra o de venta al contado, en los raros casos en que los mercados sólo se
+convengan operaciones a plazo;
+b) VC de créditos, salvo los que tengan cotización representativa en un mercado (obligaciones
+negociables, títulos públicos, etcétera);
+c) VC de activos convertibles en créditos sin dificultad, cuando los primeros no tengan precios
+corrientes para operaciones de contado;
+d) costos de cancelación de deudas.
+Además, la técnica puede utilizarse para estimar los valores recuperables (VR) de bienes o grupos
+de bienes, dado que en estos casos tienen especial importancia los futuros flujos netos de fondos que
+provoquen el empleo o la enajenación de dichos activos.
+(cid:194) Nos referiremos a la determinación de VR y de costos de cancelación en el cap. 7.
+1 Para determinar el valor que el activo tendría para su dueño se requiere un paso adicional: la deducción de las
+comisiones que deberían pagarse por la venta del título o por el cobro de los cupones de capital e interés.
+4
+
+C) CUESTIONES DE APLICACIÓN
+La aplicación de la técnica del descuento implica:
+a) la estimación de los flujos de fondos, que obliga a considerar:
+1) los importes a cobrar o apagar;
+2) los momentos en que se producirán las correspondientes entradas o salidas de fondos;
+b) la elección de una o más tasas de interés.
+1) Estimación de los flujos de fondos
+La estimación de los importes y momentos de las futuras entradas de fondos envuelve
+incertidumbres, para cuya consideración debe tenerse en cuenta el requisito de neutralidad: los futuros flujos
+de fondos no deben sobrestimarse o subestimarse deliberadamente con el propósito de aumentar o reducir
+ficticiamente los VD.
+En el caso del título de deuda, podría ocurrir que el deudor no honrase su compromiso, lo hiciera con
+mora o solicitase a los acreedores quitas, esperas o cambios en la moneda de denominación del pasivo2.
+La estimación de los flujos de fondos es más sencilla en el caso de las deudas contraídas por el
+emisor de los estados contables, pues éste dispone de información sobre los importes y fechas de
+vencimiento de la totalidad o la mayoría sus pasivos. Las únicas dificultades se presentan con los pasivos
+contingentes, como los ocasionados por un juicio que probablemente se perderá, cuando se desconoce cuál
+será la decisión judicial respecto del monto que deberá desembolsarse.
+En el caso de los créditos y de los pasivos contingentes, sería razonable que las estimaciones de sus
+VD se expresasen en rangos y no en importes únicos.
+Conclusión basada en rangos: hay un 95% de probabilidad de que se cobre entre $ 970 y $ 1.030 en
+un plazo promedio de 36 a 44 días.
+Conclusión basada en importes únicos, se espera cobrar $ 994 en un plazo promedio de 39 días.
+Pero, en su estado actual, la contabilidad no registra (para un mismo objeto) rangos de valores, razón
+por la cual lo mejor parece ser la obtención del valor esperado que resulte de considerar las probabilidades de
+los diversos resultados posibles.
+Supongamos que:
+a) Acreedora S.a. tiene un crédito por $ 10.000 contra un tercero;
+b) la empresa considera que hay un 60% de probabilidad de cobrarlo al año, un 30% de hacerlo a los
+dos años (en ambos casos sin intereses) y un 10% de hacerlo al año junto con intereses por mora de $ 1.000;
+c) por determinadas razones, se considera adecuado practicar el descuento a la tasa del 5% anual.
+El VD de $ 10.000 a un año de plazo es:
+10.000 / (1 + 0,05) = 9.524
+A dos años:
+10.000 / (1 + 0,05)2 = 9.070
+Y a un año, junto con intereses por $ 1.000
+11.000 / (1 + 0,05) = 10.476
+2 Esto vale incluso para los títulos públicos, como lo demuestra el default argentino.
+5
+
+Considerando las probabilidades de cada suceso, el valor esperado es:
+(9.524 x 0,60) + (9.070 x 0,30) + (10.476 x 0,10) = 9.483
+que no debe confundirse con el valor más probable ($ 9.524, que tiene el 60% de probabilidad).
+Por supuesto, la aplicación de este enfoque obliga a practicar algunas simplificaciones, pues el
+número de resultados posibles podría ser altísimo o infinito.
+Por otra parte, es inevitable introducir algo de subjetividad en la atribución de las probabilidades
+relativas de cada resultado posible.
+Por lo expuesto, no debe esperarse que el método proporcione resultados exactos sino una razonable
+aproximación a la realidad.
+Si los tres desenlaces enunciados para el caso Acreedora fueran verdaderamente los únicos, y la tasa
+del 5% fuese adecuada, se obtendrían entradas con un VD de $ 9.524, $ 9.070 o $ 10.476 pero no de $ 9.483.
+2) Elección de la tasa de interés
+Para obtener VD verdaderamente vinculados al momento de evaluación, deberían considerarse tasas
+de interés corrientes (de dicho momento). De la aplicación de tasas de interés del pasado (por ejemplo, de las
+fechas de origen de los créditos o de las deudas) surgen VD irreales, que no sirven como aproximaciones a
+los VC de los correspondientes activos, salvo cuando los cambios en las tasas y en los riesgos de
+incobrabilidad han sido poco importantes.
+En rigor, calcular un VD empleando tasas de interés originales es lo mismo que agregar al importe
+original del activo o pasivo, los intereses correspondientes al período ya transcurrido, calculados con la
+misma tasa. En efecto, dados:
+a) un importe original (IO);
+b) un importe a cobrar (o pagar) al vencimiento (IC);
+c) la tasa de interés originalmente pactada (i);
+d) el período total de capitalización de intereses (t); y
+e) el período faltante a la fecha de la evaluación (n),
+el importe a cobrar o pagar al vencimiento debe haber resultado de la cuenta:
+IC = IO (1+ i)t
+Y el VD (con la misma tasa de interés original) a la fecha de la evaluación (VD) es:
+VD = IC (1 + i)-n
+Si en la segunda fórmula se reemplaza IC por su equivalente en la primera, resulta:
+VD = IO (1 + i)t (1 + i)-n
+VD = IO (1 + i)t - n
+Este VD es igual al resultado de tomar el importe original del crédito o de la deuda (IO) y agregarle
+intereses a la tasa original (i) durante el período transcurrido hasta la fecha de la evaluación (t - n).
+Hay Efectivo S.A. efectúa un préstamo de $ 10.000 a cinco años de plazo y a una tasa de 8% anual.
+El importe a cobrar al vencimiento es:
+10.000 x 1,085 = 14.693
+6
+
+Si al finalizar el segundo año se calcula el VD de $ 14.693 utilizando la tasa original (8%) y
+considerando el tiempo faltante para el vencimiento (3 años) se obtiene:
+VD = 14.693 / 1,083 = 11.664
+que es el mismo importe que se obtiene agregando al préstamo inicial ($ 10.000), los intereses
+correspondientes a dos años, computados a la tasa pactada del 8%:
+10.000 x 1,082 = 11.664
+Si la tasa de interés de mercado hubiese cambiado y el riesgo de incobrabilidad no lo hubiese hecho,
+el importe de $ 11.664 no sería representativo del VC del crédito, aunque podría acercarse a él si la
+modificación de tasa no hubiera sido significativa.
+(cid:194) Digresión terminológica: el método de medición contable basado en el importe original
+de un crédito o de una deuda y en el agregado de intereses a la tasa original (restando, en su caso, los
+importes cobrados o pagados) es conocido como método de la tasa efectiva o método del costo
+amortizado. La segunda denominación nos parece inadecuada porque no describe adecuadamente el
+propósito de la aplicación del método.
+Por otra parte, la tasa de interés que se elija debe guardar alguna relación con:
+a) el riesgo de que el flujo de fondos considerado se aleje de la realidad;
+b) la forma en que ese riesgo haya sido tenido en cuenta al estimar los importes de los flujos de fondos.
+Si se está estimando el VD de futuras entradas de efectivo de cuyos importes ya se han excluido las
+cuentas presuntamente incobrables, la tasa de interés a utilizar para el descuento debería ser la aplicable a
+inversiones de riesgo normal. Si no se hubiere practicado tal exclusión, el descuento debería efectuarse
+utilizando una tasa de interés (mayor a la anterior) que incorpore el efecto del riesgo de incobrabilidad.
+Si un activo en particular tiene valor de mercado, éste conlleva una tasa de interés implícita (la tasa
+interna de retorno, TIR) y el VD (con dicha tasa) debe coincidir con el valor de mercado del activo, por lo
+que no precisa ser calculado.
+Supongamos que:
+a) una letra del tesoro vence a los cuatro meses de la fecha de la evaluación;
+b) al vencimiento el tenedor recibirá $ 1.000; y
+c) a la fecha de la evaluación la letra se cotiza en $ 970.
+En el caso, la TIR es de aproximadamente3 0,09568268%, pues es:
+970 x (1 + 0,09568268)4/12 = 1.000
+Si se calculara el VD de los $ 1.000 a cobrar dentro de cuatro meses, considerando la tasa del
+0,09568268%, el resultado sería $ 970, que es el valor de mercado.
+Si un activo en particular carece de valor de mercado pero otro similar lo tiene, como tasa de
+interés utilizable para calcular el VD del primero podría emplearse la implícita en el valor de mercado
+del segundo. Esto podría hacerse, por ejemplo, para estimar el valor de un bono estatal que no tiene coti-
+zación, cuando existan otros emitidos por el mismo Gobierno que la tienen y están sujetos a similares
+riesgos.
+Miller y Bahnson señalan que si la tasa de interés no puede ser estimada a partir de la existencia de
+un activo (o pasivo) similar, no puede obtenerse un VD que sea útil4.
+3 Decimos aproximadamente porque estamos haciendo los cálculos en meses y no en días.
+4 MILLER, Paul B. W. y BAHNSON, Paul R., Four Steps to Useful Present Values, Journal of Accountancy, mayo de
+1996, págs. 91-98.
+7
+
+Para los pasivos, podría considerarse una tasa para inversiones de riesgo normal, por no menos de
+dos razones:
+a) un ente no debería preparar sus estados contables bajo el supuesto de que no honrará sus
+obligaciones;
+b) de la aplicación del procedimiento propuesto surgen los mismos VD para las salidas y entradas de
+fondos que sean iguales en importes (en su caso, neto del riesgo de incobrabilidad) y tengan previstas las
+mismas fechas de pago/cobro.
+Sin embargo, en su SFAC 7, la FASB manifiesta su preferencia por la consideración del riesgo
+crediticio que el mercado asigna al ente, y expone:
+76. Para estimar el valor razonable5 de las obligaciones o bonos apagar de un ente, los
+contadores intentan estimar el precio al cual otras entidades desearían tomar las obligaciones del ente
+como activos (…)6.
+El criterio de aplicar a estos pasivos una tasa distinta a la normal sólo nos parece razonable cuando el
+deudor tiene la intención y la capacidad financiera de comprar (en un plazo breve) sus propias obligaciones.
+Si ello no ocurre, cabe presumir que las sumas que se cobren en determinadas fechas serán aplicadas al pago
+de los pasivos que tengan vencimientos por las mismas épocas, en cuyo caso sería adecuado que los VD de
+dichas cobranzas y pagos se calculen empleando la misma tasa de interés.
+La aplicación contable del criterio propuesto por la FASB permitiría que las empresas con problemas
+de solvencia mejoren sus resultados contables mediante la devaluación de sus pasivos, lo que no nos parece
+razonable.
+Finalmente, es de señalar que en el cálculo del VD de los flujos de fondos netos que se espera genere
+un activo o un grupo de ellos con vistas a la determinación de sus VR, intervienen entradas y salidas que
+todavía no han sido generadas.
+Por ejemplo, la cobranza de la venta aún no efectuada de mercaderías que aún no han sido
+producidas utilizando máquinas que se encuentran en existencia.
+En estos casos, debe tenerse en cuenta que esos flujos podrían estar medidos:
+a) en moneda del momento en que se genere el derecho a su percepción (o la obligación de su
+erogación); o
+b) en moneda del momento de la evaluación.
+En el primer caso debería tomarse una tasa de interés que considere las expectativas inflacionarias y
+en el segundo una tasa para operaciones con actualización monetaria.
+D) LOS VALORES DESCONTADOS EN LAS NORMAS CONTABLES
+El empleo de VD está contemplado en diversos juegos de NC, pero no como el resultado de la
+aplicación de reglas generales referidas a:
+a) casos en que debe o puede aplicárselo y casos en que no es admisible su empleo;
+b) criterios a seguir para estimar los momentos e importes de los flujos de fondos y para determinar
+las tasas de descuento.
+Esta situación no ha pasado inadvertida a algunos organismos emisores de NC o de propuestas de
+ellas.
+5 Fair value.
+6 Using Cash Flow Information and Present Value in Accounting Measurements, Statement on Financial Accounting
+Concepts 7 de la FASB, 2000.
+8
+
+La FASB consideró el tema en un proyecto que duró unos diez años y culminó con la emisión, en
+2000, de su ya referido SFAC 7.
+El IASC agregó la cuestión a su agenda en 1998 y constituyó, para su estudio, un comité conductor7
+que consideró estas cuestiones clave:
+a) ¿en qué casos deberían los activos y pasivos ser medidos a su VD8?;
+b) ¿cómo determinar dichos VD en las NIC que requieran o permitan su uso?;
+c) ¿cómo deberían ser informados en los estados contables los efectos del descuento?
+Hacia fines de 2000, el comité había concluido (tentativamente) que los principios del descuento
+deberían utilizarse en todas las mediciones que se basen en futuros flujos de fondos, salvo cuando el valor
+tiempo del dinero y la incertidumbre no tengan efectos significativos. También elaboró conclusiones
+tentativas sobre aspectos puntuales9.
+El Comité desapareció junto con el IASC y la IASB discontinuó el proyecto (en su forma original)
+en agosto de 200110.
+Naturalmente, el tema de los VD está presente en los proyectos referidos a las mediciones contables
+de los activos y pasivos financieros.
+En la Argentina, que sepamos:
+a) la bibliografía no ha tratado el tema en forma exhaustiva;
+b) los organismos emisores de NC tampoco lo han hecho, no obstante lo cual la RT 1711 prevé el
+empleo de VD para la medición inicial de diversos activos y pasivos.
+6,3. VALORES CORRIENTES, EN GENERAL
+A) CONCEPTO
+El VC de un bien es el que éste tiene a la fecha de la evaluación. Mide la realidad de ese momento,
+cosa que no sucede con un costo histórico.
+(cid:194) Digresiones terminológicas:
+1. No es adecuado emplear las expresiones valor actual o valor presente para referirse a los
+VC, pues las mismas denominaciones se emplean también para referirse a los VD.
+2. En los pronunciamientos de la IASB y de la FASB, también se habla de valor razonable
+(fair value) de los activos y de los pasivos, haciendo referencia en el segundo caso a su costo de
+cancelación. Por ejemplo, en la NIC 39 se define:
+Valor razonable es el importe por el cual un activo puede ser canjeado o una deuda
+cancelada, entre partes conocedoras y deseosas en una transacción no forzada12.
+No nos parece que sea una terminología adecuada, porque el valor es, en el lenguaje común,
+un atributo de los activos pero no de los pasivos.
+El valor de un bien puede ser distinto para diversos entes, pues depende de lo que cada uno pueda
+hacer con él.
+7 Steering committee.
+8 Present value (valor presente).
+9 Se las describe en www.iasb.org/current/comment_letters_iasc.asp?showPageContent=no&xml=16_64_80_
+01012004.htm
+10 Información tomada de la hoja citada en la nota precedente.
+11 Normas contables profesionales: desarrollo de cuestiones de aplicación general, resolución técnica 17 de la
+FACPCE.
+12 Financial Instruments: Recognition and Measurement, International Accounting Standard 39 de la IASB, ¶9.
+9
+
+Una matriz que permite fabricar botellas de cierta gaseosa vale distinto según que se cuente o no con
+uno o más contratos para proveerlas a las empresas envasadoras de esa bebida.
+(cid:194) En este libro utilizaremos la expresión valor corriente dando por sentado de que es el que
+corresponde a la visión del emisor de los estados contables.
+(cid:194) El VC (para un ente en particular) ha sido a veces referido como valor para el negocio
+(expresión inadecuada para los entes sin fines de lucro) o medición específica del ente (entity-
+specific measurement).
+B) MEDICIÓN
+En un momento cualquiera, los activos tienen, en su mayoría:
+a) uno o más costos de reposición (por producción o por compra a diversos proveedores), que son
+valores de entrada;
+b) un valor de cambio o un valor de uso (y ocasionalmente, ambos), que son valores de salida que
+marcan el límite del VC.
+Para determinar el valor de cambio de un bien o grupo de bienes, podrían considerarse:
+a) lo que algunos emisores de NC denominan valor razonable, a los que caracterizan de la manera
+que presentamos en el § a);
+b) su valor neto de realización (VNR), que resulta de detraer del mencionado valor razonable los
+costos que generará la comercialización del bien o grupo de bienes (si el bien no estuviera terminado,
+también deberían detraerse los costos de esta actividad).
+El VNR es más representativo de la riqueza que el valor razonable, pero la diferencia entre ambos es
+en muchos casos insignificante.
+La medición de los valores de uso de un activo (o grupo de ellos) se basa en el descuento financiero
+de los futuros flujos de fondos que generarán su empleo y su posterior disposición.
+(cid:194) Dado que el tema se vincula más con la determinación de VR que de VC, lo trataremos en
+el cap. 7.
+Para medir el VC de un bien, debería considerarse su relación con el proceso de generación de
+resultados. Cuando éste no está avanzado, lo lógico es considerar el valor de entrada del activo. Así:
+a) el VC de los activos disponibles para la venta debería hacerse:
+1) a su VNR cuando la comercialización pueda hacerse con esfuerzos mínimos;
+2) a su costo de reposición en los restantes casos;
+b) también deberían emplearse costos de reposición para la medición de los VC de los bienes que
+van a ser consumidos o empleados en la producción de bienes destinados a la venta (materias primas,
+materiales, productos en proceso).
+El VC de los créditos:
+a) es su VNR cuando estos activos pueden ser vendidos fácilmente en mercados que suministren
+precios objetivos;
+b) debe, en los restantes casos, ser estimado mediante la aplicación de la técnica del descuento
+financiero a la que nos referimos en el § 6,2, considerando tasas de interés que guarden relación con los
+riesgos involucrados en la operación.
+En algunos casos, el proceso generador de ganancias se prolonga en el tiempo, obligando a ponderar
+el grado de avance de las tareas básicas de dicho proceso (la producción, la venta). Así, cuando la venta de
+un bien está virtualmente asegurada pero su producción no está concluida, se considera razonable tomar la
+parte del VNR que corresponde a las actividades de producción ya ejecutadas.
+10
+
+Hay activos cuyos VC no pueden calcularse de una manera fiable. Sucede, por ejemplo, con:
+a) los intangibles que sólo pueden enajenarse junto con el negocio;
+b) los intangibles que pueden enajenarse individualmente, cuando no existen precios de mercado
+para ellos ni puede estimárselos sobre bases objetivas;
+c) las inversiones en sociedades que no entran en la categoría de bienes de fácil comercialización.
+De lo anterior surge con claridad que un criterio puede ser adecuado para medir el VC de un activo
+pero inadecuado para otro.
+(cid:194) En el § 6,4 nos referiremos a la medición específica de los VC de los principales bienes.
+C) EMPLEO EN CONTABILIDAD
+En nuestra opinión, los VC de los activos, deberían ser empleados para la medición contable inicial y
+periódica de éstos, siempre que la medición fiable de dichos valores sea posible y pueda lograrse con un
+costo razonable.
+Si tales condiciones se cumplen, no tiene mayor sentido el empleo de otras medidas contables, como
+los costos históricos, que representan valores que los activos tuvieron en el pasado.
+Digresión: el cambio de unidad de medida no soluciona el problema recién indicado. El ajuste por
+inflación de un costo histórico no es un valor corriente sino un valor del pasado expresado en moneda del
+presente.
+Si el costo histórico de una materia prima (en moneda del momento de su adquisición) es $ 100 y
+posteriormente hubo un 2% de inflación, el costo histórico ajustado por inflación será:
+100 x (1 + 0,02) = 102
+pero el VC de ella a la fecha de la evaluación (dada por su costo de reposición) podrá ser $ 100, $ 101, $ 104
+o cualquier otro importe. También podría ser $ 102, en cuyo caso el VC y el costo histórico ajustado
+coincidirían, pero por casualidad.
+Algunos defensores del empleo de costos históricos fundamentan su preferencia afirmando que la
+medición de éstos es más objetiva que la de los VC, pero no advertimos en esta aseveración ningún sustento
+fáctico.
+Si para la determinación de los VC se fijan reglas claras y precisas, no hay mayor lugar para la
+subjetividad. Y esto es indiscutible cuando los VC se obtienen de mercados activos en los que se forman
+precios representativos.
+En cambio, las mediciones basadas en los costos permiten una mayor manipulación de las
+mediciones contables, como vimos al final del § 2,3,d) con referencia a la aplicación de normas del tipo
+costo o mercado el menor.
+Por otra parte, no todas las NC no definen qué método de asignación de mediciones a salidas (primero
+entrado-primero salido, último entrado-primero salido, costo promedio ponderado) debería aplicarse para
+determinar el costo de los bienes fungibles en existencia, lo que también da margen para efectuar maniobras
+contables, que no son posibles cuando se utiliza directamente un valor de mercado u otro VC claramente definido.
+Es cierto que hay un margen para la subjetividad cuando como VC se utilizan costos de reposición, pero
+la magnitud del problema es, en este caso, similar al que se presenta para la determinación de costos históricos.
+D) INCORPORACIÓN A LAS NORMAS CONTABLES
+Durante mucho tiempo, las NC vigentes en la gran mayoría de los países requerían mediciones
+contables de activos basadas casi exclusivamente en sus costos históricos. Hoy, se acepta o se requiere el
+empleo de VC para una variedad de rubros.
+En particular, son intensos los trabajos que se efectúan para la elaboración de métodos de medición
+de VC para los instrumentos financieros.
+11
+
+Por otra parte, las dos últimas NIC aprobadas por el IASC antes de su disolución contemplan el
+empleo de VC para la medición contable de:
+a) propiedades inmuebles que no se tienen para su uso o para su venta en el curso ordinario de los
+negocios13;
+b) activos biológicos, provenientes de actividades agrícolas14.
+Pero, por otra parte, se observa una reticencia incomprensible por parte de la IASB y de la FASB, a
+la aceptación del empleo de VC para la medición contable de los bienes de cambio cuya comercialización no
+sea fácil.
+En la Argentina, la predilección por los costos históricos pareció ser dejada de lado con la emisión de
+la RT 10 (posteriormente derogada por la 17), que exponía:
+La norma general de valuación es la utilización de valores corrientes, en la modalidad que
+satisfaga mejor los objetivos de los estados contables, atendiendo a las circunstancias y a los
+elementos a valuar y con el límite del valor recuperable (…)15
+Sin embargo, la misma RT permitía tantas excepciones al empleo de VC, que la afirmación
+transcripta no pasó de ser una simple declamación. Además, en 1996, la obligación de medir los créditos y
+las deudas a sus VD fue restringida por la RT 12 a casos muy específicos16, de modo que la obligación de
+emplear VC quedó de hecho limitada a los bienes de cambio, los fácilmente comercializables y las cuentas
+por cobrar de enajenación planeada y posible.
+Finalmente, la RT 17, dictada en el marco de un proyecto de convergencia de las NC argentinas con
+las internacionales, adoptó el criterio general de utilizar VC sólo para los bienes cuyo destino previsto es la
+venta.
+6,4. VALORES CORRIENTES, EN PARTICULAR
+Seguidamente presentaremos nuestras ideas sobre la forma de determinar los VC de los principales
+activos, sin pretender la cobertura total del tema.
+(cid:194) El estudio detallado de los problemas de aplicación de nuestras ideas y de su aceptación
+por las NC internacionales, argentinas y estadounidenses se efectúa en diversos capítulos de
+Contabilidad superior, cuya quinta edición esperamos ver publicada en 2005.
+Algunas de nuestras ideas están inspiradas en propuestas que tienen aproximadamente cuarenta años
+de antigüedad, como las contenidas en:
+a) el trabajo presentado en 1961 por Edwards y Bell17, a quienes suele reconocérseles el rol de
+pioneros entre quienes postularon el empleo de VC como criterio básico para la medición contable de
+activos;
+b) el proyecto de NC elaborado por Sprouse y Moonitz y publicado por el AICPA en 196318, que fue
+considerado demasiado audaz para su época;
+c) el informe del comité creado por la AAA para que preparara un pronunciamiento sobre teoría
+contable básica, que fue publicado en 1966 y contiene un anexo especialmente dedicado al tema de la
+determinación de VC, que se destaca por la profundidad de sus análisis19.
+13 Investment Property, International Accounting Standard 40 de la IASB.
+14 Agriculture, International Accounting Standard 41 de la IASB.
+15 Normas contables profesionales, resolución técnica 10 de la FACPCE, segunda parte, norma B.2.3.
+16 Modificación parcial de las normas contables profesionales, resolución técnica 12 de la FACPCE.
+17 EDWARDS, Edgar O. y BELL, Philip W., The Theory and Measurement of Business Income, University of
+California Press, 1961.
+18 SPROUSE, Robert T. y MOONTZ, Maurice, A Tentative Set of Broad Accounting Principles for Business
+Enterprises, Accounting Research Study 3 del AICPA, 1963.
+19 A Statement of Basic Accounting Theory, AAA Committee to Prepare a Statement of Basic Accounting Theory 1966.
+12
+
+A) EFECTIVO
+En principio, el valor del efectivo en poder del ente o depositado en bancos está dado por su
+expresión nominal. Si se tratase de una moneda distinta a la de presentación de los estados contables, debería
+convertírsela a la segunda, empleando un tipo de cambio adecuado.
+(cid:194) Las cuestiones de conversiones entre monedas serán tratadas en el cap. 8.
+Cabría, no obstante, considerar la posibilidad de efectuar el descuento financiero de la parte del
+efectivo que no va a ser empleada de inmediato.
+Si se tiene una deuda nominal de $ 1.000 cuya medición actual es $ 998 y por otra parte se
+mantienen $ 1.000 en efectivo que no serán empleados hasta la cancelación de esa deuda, alguien podría
+argumentar que la medición contable del efectivo debería ser igual a la de la deuda ($ 998 y no de $ 1.000).
+Una hipótesis como la recién planteada implica el mantenimiento de un activo durante un período
+durante el cual podría utilizárselo, ya sea colocándolo a interés o pagando anticipadamente la deuda para
+obtener un descuento. Si el activo es mal usado durante un período, el resultado debe asignarse a ese lapso.
+En consecuencia, la medición contable de la moneda nacional debería efectuarse a su importe nominal, sin
+deducción alguna.
+Digresión: durante un período, la moneda nacional cambia de poder adquisitivo y, por lo tanto, de
+valor. La inflación (o deflación) produce una pérdida (o una ganancia) por tenencia que también integra los
+resultados financieros y que queda oculta cuando la contabilidad no computa los ajustes por inflación.
+B) BIENES FÁCILMENTE COMERCIALIZABLES
+1) Consideraciones generales
+Los bienes a que nos referimos son los que reúnen las siguientes características:
+a) son fungibles;
+b) tienen un precio de mercado conocido;
+c) su venta no requiere un esfuerzo significativo porque el mercado está en condiciones de absorber
+(al precio referido) la cantidad que el ente posee.
+La nómina de bienes de fácil venta depende del lugar en que se opere y de los mercados (nacionales
+o extranjeros) a los que el ente pueda acceder.
+Estos son algunos bienes que (en caso de cumplir todas las condiciones enunciadas) pueden alcanzar
+la cualidad de fácilmente comercializables:
+a) moneda extranjera;
+b) metales en lingotes, en barras o amonedados;
+c) acciones de sociedades anónimas;
+d) títulos de deuda, públicos o privados (obligaciones negociables, bonos estatales);
+e) cupones separados de las acciones o de los títulos de deuda que por conferir algún derecho tienen
+su propio valor20
+f) contratos de futuros u opciones con cotización;
+g) cuotas-parte de fondos comunes de inversión;
+h) productos agrícolas;
+i) petróleo crudo;
+j) ganado en pie.
+20 Ejemplo: un cupón requerido para suscribir nuevas acciones a un precio determinado.
+13
+
+Estos bienes pueden encontrarse en poder de un ente porque éste se dedica a su producción o
+comercialización (como ocurre en las explotaciones agrícolas y ganaderas) o por haber sido adquiridos como
+inversión, sea puramente especulativa o para cubrirse frente a cambios futuros de los precios de otros activos
+o de los costos de cancelación de determinados pasivos.
+La mejor medición del VC de estos bienes es el mayor VNR que se podría obtener, calculado sobre la
+base de los precios (para operaciones de contado) observados en los mercados a los que el ente tiene acceso.
+Si se poseen dólares estadounidenses y es posible venderlos a precios diversos, lo razonable es
+considerar el más alto.
+Si los precios estuviesen expresados en otra moneda, debería convertírselos empleando el
+correspondiente tipo de cambio de la fecha de la evaluación.
+Si el activo no hubiese tenido una cotización a la fecha de la medición contable podría tomarse la
+última observada, pero si el mercado hubiese sufrido cambios importantes en el intervalo, sería mejor
+recurrir a alguna estimación.
+Esto ocurriría, por ejemplo, si:
+a) la medición contable se practicase al 31 de marzo;
+b) la última cotización de una acción datase del 23 de marzo;
+c) entre el 23 y el 31 de marzo los precios de las acciones hubiesen tenido un alza o una baja
+generalizada (ocasionada por factores de contexto).
+Cuando se tienen bienes con cotización, pero la cantidad poseída hace que no reúnan la cualidad de
+fácilmente comercializables, el precio de mercado no es una buena base para la medición del VC y debe
+recurrirse a estimaciones de otro tipo.
+Ocurre, por ejemplo:
+a) cuando se posee el paquete mayoritario de una sociedad anónima, por cuya venta podría obtenerse
+un precio mayor que el de cotización en bolsa;
+b) cuando la cantidad poseída de un commodity es tan grande que su venta inmediata generaría una
+disminución de los precios de mercado.
+Algunos colegas consideran que cuando la cotización de un bien fácilmente comercializable en el
+mercado está afectada por cuestiones transitorias, el cálculo de su VNR no debería basarse en ella. No
+tenemos noticia de que quienes así piensan hayan presentado propuestas concretas acerca de las medidas
+contables sustitutivas a utilizar. Por nuestra parte, no hemos logrado imaginar ninguna alternativa
+satisfactoria.
+2) Casos en que existen opciones
+Para la medición de los VNR de un bien a una fecha dada deberían considerarse (además de su
+precio de mercado y de los costos de su enajenación) las opciones que pudieren tener:
+a) un tercero, para comprarlo a cierto precio (call).
+b) el propio emisor de los estados contables, para vender el activo subyacente a cierto precio (put).
+Si a dicha fecha tales opciones tuvieran una cotización representativa (o ésta pudiera ser estimada
+razonablemente), sería adecuado computar por separado:
+a) el VNR del bien subyacente;
+b) el costo de cancelación (precio de mercado más costos de compra) del call o el VNR del put.
+14
+
+Si una opción no figurase a su VNR, su valor razonable o su costo de cancelación por no tener una
+cotización representativa, el correspondiente precio de ejercicio debería ser tenido en cuenta para corregir el
+VNR del activo subyacente, estableciéndole un límite superior o inferior, según que se hubiera lanzado un
+call o un put. Los algoritmos para aplicar esta idea serían los siguientes:
+a) el VNR de los bienes sobre los cuales se hayan adquirido opciones de venta que no tengan
+cotización representativa, no podrá ser inferior al precio de ejercicio de la opción menos los costos que
+ocasionaría la venta menos la medición contable de la opción adquirida;
+b) el VNR de los bienes sobre los cuales se hayan lanzado opciones de compra que no tengan una
+cotización representativa, no podrá ser superior al precio de ejercicio de la opción menos los costos que
+ocasionaría la venta más la medición contable de la opción lanzada.
+Ejemplo 1
+Existen activos listos para la venta, cuyo precio de mercado es $ 1.000. También se tiene una opción
+que permite venderlos a $ 1.030. La opción no tiene cotización y su medición contable es de $ 23. En
+cualquier caso, la venta generará gastos por $ 5.
+Dados estos supuestos, el VNR del activo subyacente será de $ 1.002, porque ese importe:
+a) resulta de tomar el precio de ejercicio ($ 1.030) y restarle los gastos de venta ($ 5) y la medición
+contable de la opción ($ 23);
+b) supera a $ 995, que es la diferencia entre el precio de mercado del activo subyacente ($ 1.000) y
+los gastos de venta ($ 5).
+La suma del VNR de las existencias para la venta ($ 1.002) y la medición contable de la opción de
+venta ($ 23) es $ 1.025, que es el neto que se obtendría mediante su ejercicio (un ingreso de $ 1.030 y gastos
+por $ 5).
+Ejemplo 2
+Se tienen activos listos para la venta cuyo precio de mercado es $ 2.000. Se ha otorgado una opción
+de compra que permite que un tercero adquiera los activos en $ 1.950. La opción no tiene cotización y está
+contabilizada como pasivo por el imperio recibido, que fue $ 26. En cualquier caso, la venta generará gastos
+por $ 10.
+En este caso, el VNR del activo subyacente será de $ 1.966, porque ese importe:
+a) resulta de tomar el precio de ejercicio ($ 1.950), restarle los gastos de venta ($ 10) y sumarle la
+medición contable del pasivo reconocido por la opción lanzada ($ 26);
+b) es inferior a $ 1.990, que es la diferencia entre el precio de mercado del activo subyacente
+($ 2.000) y los gastos de venta ($ 10).
+La diferencia entre el VNR de las existencias para la venta ($ 1.966) y la medición contable del
+pasivo ($ 26) es $ 1.940, que es el neto que se obtendría si el tenedor de la opción la ejerciera (un ingreso de
+$ 1.950 y gastos por $ 10).
+C) DERECHOS A RECIBIR MONEDA NACIONAL
+Los VC de los derechos a recibir moneda (cuentas por cobrar) que reúnan las características de los
+bienes fácilmente comercializables deberían ser determinados aplicando los conceptos presentados en la
+sección anterior.
+Para estimar el VC de los restantes créditos debería considerarse si existe o no un mercado para su
+venta. Si lo hubiere, sería razonable calcular el VD de los flujos de fondos a recibir, con la tasa de interés
+que, a la fecha de la estimación, se aplicaría en dicha venta.
+Una venta transfiere al comprador todos los beneficios y riesgos del activo transferido, de modo que
+ella no existe cuando el título representativo de un crédito se entrega a un tercero pero subsiste la obligación
+de su pago en el caso de que el deudor original no lo haga. Si este fuera el caso:
+15
+
+a) la realidad económica subyacente en la operación es la entrega de la cuenta por cobrar en garantía
+de un préstamo recibido;
+b) el VD de los créditos descontados debería calcularse como si estuviesen en cartera y no con la
+tasa de la operación de descuento, ya que ésta no refleja el riesgo de que el deudor original no pague sino el
+considerado por la entidad que otorgó el crédito.
+Si no existiera un mercado para la venta de los créditos, sería más práctico:
+a) al estimar los importes a cobrar, deducir las incobrabilidades que se consideren probables;
+b) al estimar los momentos de los flujos de fondos, considerar las moras esperadas;
+c) utilizar para el descuento una tasa de interés para operaciones de poco riesgo.
+Hay quienes consideran que las cuentas por cobrar en el corto plazo podrían tomarse directamente
+por su valor nominal, sin descuento. Pensamos que esto sólo sería aceptable por aplicación del concepto de
+significación y no por razones conceptuales. Claro está que la falta de significación difícilmente se
+presentará en los contextos inflacionarios, pues las tasas nominales de interés son más altas cuando se espera
+que las sumas a cobrar o pagar pierdan poder adquisitivo a causa de la inflación.
+D) DERECHOS A RECIBIR MONEDA EXTRANJERA
+Para las cuentas por cobrar nominadas en moneda extranjera que califiquen como bienes fácilmente
+comercializables deberían aplicarse los criterios enunciados en el § b).
+Para las restantes, lo más sensato parece ser:
+a) aplicar, sobre los importes en la moneda extranjera, las reglas presentadas en el § c);
+b) convertir las mediciones así obtenidas empleando el tipo de cambio corriente entre la moneda
+extranjera y la utilizada para preparar los informes contables.
+La alternativa de:
+a) convertir los flujos de fondos a recibir considerando los tipos de cambio esperados para los
+momentos estimados de percepción de las cuentas; y luego:
+b) calcular el VD de los flujos de fondos convertidos, utilizando para ello una tasa de interés para
+operaciones nominadas en la moneda utilizada para preparar los informes contables,
+debería rechazarse porque lo que se busca con el cálculo de VD es estimar lo que podría obtenerse
+enajenando las cuentas a cobrar, y esta operación debería hacerse, normalmente, en la moneda en que están
+expresadas esas cuentas. Por otra parte, el procedimiento indicado:
+a) anticipa el cómputo contable de los efectos patrimoniales de modificaciones de los tipos de
+cambio que aun no han ocurrido (y que quizá nunca ocurran);
+b) obliga a estimar esas modificaciones y sus momentos, cosa que difícilmente pueda hacerse con un
+mínimo de fiabilidad.
+E) DERECHOS A RECIBIR COSAS O SERVICIOS
+Por lógica, los VC de los créditos no liquidables en dinero deberían determinarse utilizando los
+procedimientos aplicables para la medición de los VC de los bienes o servicios a recibir.
+F) OPCIONES SIN COTIZACIÓN
+Una opción es un contrato por el cual una persona (el lanzador), a cambio de una suma de dinero (la
+prima), vende a otra (el tomador):
+16
+
+a) el derecho de comprarle o venderle ciertos bienes (los activos subyacentes) a un precio
+determinado (el precio de ejercicio); o
+b) el de permutar ciertos bienes u obligaciones por otros,
+ya sea:
+a) dentro de un lapso establecido (opción tipo americano); o:
+b) sólo en cierta fecha (opción tipo europeo).
+Los activos subyacentes suelen ser:
+a) bienes fácilmente comercializables, incluyendo contratos de futuros u otras opciones; o
+b) índices de precios.
+Cuando las opciones se contratan en un mercado regulado:
+a) las condiciones (activos subyacentes, número de ellos negociable por cada contrato [lote], plazo,
+precio de ejercicio) deben elegirse de un menú preestablecido;
+b) las primas tienen su propia cotización;
+c) después de celebrado el contrato, no existe ninguna relación directa entre los lanzadores y los
+tomadores, funcionando una especie de cámara compensadora (un ente toma el rol de lanzador frente a todos
+los tomadores y el de tomador frente a todos los vendedores);
+d) consecuentemente, cualquiera de las partes originales puede cancelar o reducir su posición
+(vendiendo si antes compró o viceversa), sin que esto afecte a la otra.
+La opción es un activo para el tomador, pues éste tiene el derecho de ejercerla en términos
+favorables. El lanzador tiene un pasivo, por el riesgo de que se la ejerza en términos desfavorables para él.
+Si el activo es un bien fácilmente comercializable, le son aplicables las consideraciones que
+presentamos en el § b): debería computarse a su VNR, cuyo cálculo sólo ofrece problemas cuando el último
+precio de la opción no es de la fecha de cierre o no es representativo, en cuyo caso debería estimarse un
+precio teórico basado en el último precio real conocido y en algún modelo matemático de fijación de precios,
+como el de Black y Scholes.
+Cuando la opción no tiene cotización, su VC debería ser estimado, recurriendo (también en este
+caso) a modelos matemáticos. Si esto fuera imposible, no existiría, para este activo, un VC objetivamente
+determinable.
+G) MINERALES NO PROCESADOS
+Cabe ahora analizar el caso de los minerales en estado bruto, cuya existencia ya ha sido comprobada
+y que una vez separados y puestos en condiciones para la venta entrarán en la categoría de bienes de fácil
+comercialización considerada en el § b).
+En estos casos, ya se han producido la búsqueda y el descubrimiento y lo que queda por delante es
+una tarea rutinaria, sin que existan mayores incertidumbres sobre la concreción de la venta de los bienes,
+aunque sí respecto de sus precios.
+Así las cosas, tiene cierta razonabilidad la propuesta –contenida en el ya citado informe de la AAA–
+de medir el VC computando el precio de mercado del mineral a vender menos los costos necesarios para su
+extracción y colocación en el mercado21. La crítica que podrá formularse a este criterio es que asigna valor
+nulo al esfuerzo (futuro) de extracción y puesta en condiciones de venta22.
+Para encarar ese problema podría efectuarse el descuento financiero de los precios y costos
+estimados. O sea: considerar como VC al VD de los ingresos netos que generará la extracción y venta del
+mineral.
+21 Informe citado en la nota 19, pág. 78.
+22 El problema no alcanzaría a los costos demandados por el esfuerzo de comercialización, pues estamos suponiendo
+que el material ya extraído es un bien fácilmente comercializable.
+17
+
+Y un refinamiento adicional consistiría en reducir el importe anterior para considerar el valor
+agregado al bien por la actividad de extracción. Lo que no se nos ocurre es como determinar ese valor
+agregado, por lo que nos gustaría conocer otras opiniones.
+Lo que no debería hacerse es emplear el concepto de prudencia como excusa para omitir el
+reconocimiento contable del valor de un activo cuya existencia es ya evidente. Por supuesto, la prudencia
+deberá estar presente en la estimación de los costos necesarios para la extracción y colocación de los bienes
+en el mercado.
+Y además, reiteramos, debe tratarse de existencias comprobadas y no de simples especulaciones
+sobre el contenido de yacimientos.
+H) BIENES DE CAMBIO CON PROCESO DE PRODUCCIÓN PROLONGADO
+Hay productos cuya obtención demanda un lapso prolongado, a cuyo término son vendibles
+fácilmente.
+Pueden constituir ejemplos dependiendo de las posibilidades de acceso a los mercados respectivos:
+a) el tabaco y la yerba mate previamente estacionados;
+b) la madera cortada de plantaciones;
+c) el ganado criado o engordado;
+d) los cereales y otros bienes del reino vegetal cosechados;
+e) la lana a ser obtenida por esquila.
+Otros bienes no tienen un mercado pero su venta está asegurada de antemano.
+Es lo que ocurre, cuando se da dicha condición, con:
+a) los edificios, buques o maquinarias u otros bienes construidos a pedido;
+b) otros inmuebles vendidos de antemano.
+En el caso de bienes terminados, como VC de ellos debería tomarse sus VNR, pues:
+a) los del primer grupo reúnen las condiciones para ser considerados bienes fácilmente
+comercializables, así que les son aplicables las consideraciones presentadas en el § b);
+b) los construidos a pedido son de venta asegurada, de modo que el proceso generador de ganancias
+puede considerarse concluido, sin perjuicio de considerar –por separado– el riesgo de que el precio pactado
+no sea cobrado totalmente y en las fechas convenidas.
+Si los bienes no estuvieran terminados, sería adecuado calcular el porcentaje de avance del proceso
+productivo y aplicarlo al VNR que se espera obtener de los bienes terminados, de modo de distribuir el
+resultado total atribuible a la producción entre los distintos períodos en que ella se lleva a cabo.
+El cálculo del avance productivo no siempre es sencillo. En muchos casos, puede ser razonable
+hacerlo sobre la base de los costos incurridos y a incurrir de un modo como éste:
+a) computar el costo real incurrido hasta la fecha de la medición;
+b) estimar el necesario para completar la actividad de producción;
+c) estimar el costo total (la suma de los dos importes anteriores);
+d) dividir el costo real incurrido por el costo total estimado.
+Para otros activos, el procedimiento descripto no es adecuado y puede ser necesaria la obtención de
+una tasación preparada por un experto.
+Es lo que sucede con las plantaciones, en que el crecimiento no es proporcional al volumen de costos
+incurridos.
+18
+
+Cabe señalar que el procedimiento basado en los costos es, en esencia, el que se aconseja hoy en día
+para las construcciones a largo plazo, razón por la cual se lo denomina método de avance de obra o método
+del porcentaje de completamiento.
+En una contabilidad basada estrictamente en VC:
+a) los precios de venta a considerar deben ser:
+1) los pactados (en moneda del momento); o en su defecto,
+2) los observados en los mercados en donde podrían comercializarse los bienes; o, si no
+hubiere mercados,
+3) los surgidos de una tasación efectuada por profesionales expertos;
+b) tanto los costos incurridos como los estimados de completamiento deberían computarse (en
+moneda homogénea) a costos de reposición, determinados sobre la base de cotizaciones conocidas.
+Sin embargo, esto es engorroso en los casos de construcciones complejas, para los cuales podría
+aceptarse el reemplazo de los costos de reposición por:
+a) costos históricos de los insumos corregidos monetariamente sobre la base de índices de precios
+específicos; o, si esto fuera imposible o muy costoso; o
+b) costos históricos ajustados por la inflación general.
+I) BIENES INTERMEDIOS (PARA CONSUMO PROPIO)
+Son ejemplos de estos bienes:
+a) los hilados producidos por una empresa para su posterior utilización como materia prima;
+b) el elemento producido en una explotación agropecuaria y consumido posteriormente por ganado
+tenido para su engorde;
+c) una planta industrial construida para uso propio.
+Siendo susceptibles de compra, el VC de uno de estos bienes puede considerarse dado por su costo
+de adquisición en el mercado. La aplicación de este criterio de medición permite reconocer el resultado de la
+producción de estos bienes, que queda oculto cuando la medición de la producción se efectúa a su costo
+histórico.
+J) OTROS BIENES DE CAMBIO
+Hay bienes de cambio que no encuadran en ninguna de las categorías anteriores.
+Por ejemplo: materias primas, materiales, productos en proceso, productos terminados y mercaderías
+de reventa, salvo los indicados en secciones anteriores.
+El VC de estos activos no debe incluir los efectos patrimoniales de actividades productivas o
+comerciales futuras que demanden esfuerzos significativos. En consecuencia, no es aceptable computarlo
+sobre la base del VNR de los bienes o del VD de los ingresos futuros que ellos generarán. Más razonable es
+establecer sus VC sobre la base de sus costos de reposición.
+Los costos de reposición de mercaderías de reventa, materias primas y materiales pueden obtenerse
+de cotizaciones de proveedores, listas de precios o facturas de fechas cercanas a las de cierre. Si no se
+dispusiera de estos elementos, podrían considerarse los costos de las últimas entradas, corregidos mediante la
+aplicación de los índices específicos de precios que correspondan23 o, a falta de ellos, del índice del nivel
+general de precios.
+En cualquier caso, los precios a considerar deben ser los de contado, incluyendo los de los fletes y
+otros costos necesarios para tener el bien en condiciones de ser utilizado o vendido.
+23 No son muchos los casos en que se dispone de índices específicos adecuados al fin indicado.
+19
+
+En los casos de los productos en proceso y productos terminados, sus costos de reposición pueden
+calcularse considerando su composición física, la estructura real de costos del ente y los costos de los insumos.
+K) BIENES DE USO Y ASIMILABLES
+1) Consideraciones generales
+En general, los VC de los activos físicos destinados al uso o a la generación de rentas deberían
+establecerse sobre la base del costo de reposición de su capacidad de servicio. No tendría mucho sentido
+determinar el costo de reposición de los mismos bienes (de acuerdo con su diseño original) si es que los
+métodos de construcción han cambiado y los materiales empleados en la actualidad ya no son los mismos.
+Para estimar el VC de un depósito de 10.000 metros cuadrados con seis metros de altura, debería
+buscarse el costo de reposición de un edificio con similares capacidades.
+El empleo de valores de uso (basados en ingresos y costos futuros) no sería razonable porque
+conllevaría el cómputo anticipado de resultados atribuibles a hechos que aun no han ocurrido.
+Si los bienes hubiesen sido retirados de servicio y su venta no ofreciese dificultades, debería
+considerarse su VNR.
+Todos los procedimientos que se apliquen para determinar los VC deberían ser susceptibles de
+verificación por parte de terceros independientes, de modo que la información contable obtenida satisfaga el
+requisito de fiabilidad.
+En esta tarea, lo ideal es basarse en precios de mercados activos, pero esto no siempre es factible,
+especialmente en los casos de edificios y otros bienes que por estar destinados a atender fines específicos
+tienen características especiales que sólo interesan a unos pocos eventuales compradores.
+En principio, podrían considerarse sucesivamente los mercados donde pudieran obtenerse:
+a) bienes idénticos o similares:
+1) con parecido grado de uso;
+2) con menor grado de uso, incluyendo los nuevos;
+b) bienes distintos pero:
+1) con similar capacidad de servicio;
+2) con mayor capacidad de servicio.
+La posibilidad de encontrar mercados de bienes idénticos o similares está limitada a ciertos activos,
+como terrenos, edificios, automotores, computadoras, calculadoras, equipos de comunicación, algunas otras
+máquinas, muebles de oficina, determinadas instalaciones, etcétera.
+Los precios de mercado podrían obtenerse de publicaciones especializadas, catálogos, presupuestos
+de proveedores, facturas cercanas a la fecha de la medición, etcétera.
+De no existir ningún mercado activo, debería tomarse el último VC conocido (o, en su defecto, el costo
+histórico) y corregírselo empleando:
+a) si existieren, índices de precios específicos;
+b) en el caso contrario, el índice utilizado para medir la inflación general.
+El procedimiento recién referido se explica con mayor detalle en la ilustración que sigue, donde los
+rectángulos de la izquierda indican las cuestiones a considerar y los de la derecha las decisiones que a
+nuestro juicio deberían tomarse.
+20
+
+Para la aplicación de los criterios enunciados (en especial de los que no se basan en precios
+observables en un mercado) es conveniente la intervención de peritos independientes. Sí esto fuera muy
+oneroso para hacerlo cada vez que se preparan informes contables, podría ser razonable:
+a) realizar tasaciones independientes a intervalos más amplios pero no demasiado extensos (ejemplo:
+cada cuatro años);
+b) en el entretiempo, y en tanto no existan indicios evidentes de cambios importantes en los valores
+de los bienes (como la construcción de una carretera que aumenta el valor de los terrenos), estimar su VC
+partiendo de la última tasación (o del costo histórico, si el bien no hubiera sufrido ninguna) y de la evolución
+de los precios específicos de los bienes, publicada por alguna organización que sea independiente, seria y
+responsable.
+2) Consideraciones especiales
+Los terrenos no tienen costo de reposición porque no pueden ser reproducidos. Por lo tanto, y a menos
+que se tenga una oferta sería sobre él, el VC de un terreno debe estimarse a partir de los precios de unidades
+21
+
+parecidas situadas en la vecindad. En los casos de terrenos adquiridos para su uso, a dichos precios debería
+agregárseles los costos de compra necesarios (escrituración, inscripción en un registro público, etcétera).
+Si en la vecindad no hubiera terrenos similares al que deba valuarse, debería intentarse la
+cuantificación de sus diferencias.
+Si en una zona de tierras bajas un terreno es rellenado y mejorado, su VC podría ser estimado sobre la
+base de los precios de los terrenos vecinos (sin mejoras) más el costo de reposición de las mejoras efectuadas.
+(cid:194) En la Argentina, las valuaciones fiscales que se emplean para calcular impuestos
+inmobiliarios no sirven para estimar VC porque son manejadas arbitrariamente por las autoridades, a
+veces para disimular aumentos de impuestos24.
+L) INTANGIBLES VENDIBLES POR SEPARADO
+En esta categoría de bienes entran, entre otros, las marcas, las patentes, los procesos secretos y las
+franquicias.
+Son muy pocos los bienes de este tipo para los cuales hay transacciones frecuentes que permitan
+conocer su VC, que estaría dado por el precio de transferencia, al que deberían sumarse los costos necesarios
+para comenzar a emplear el bien, si es que se lo adquiere para su uso en la explotación.
+Ejemplos de intangibles que podrían contar con cierto mercado:
+a) una licencia para explotar un puesto de publicaciones en la principal calle comercial de la ciudad.
+b) una franquicia para instalar y explotar hamburguesas de ciertas características o negocios de venta
+de ropa de determinada marca, dentro de un ámbito geográfico determinado.
+Por ello, suele ser difícil la obtención de mediciones objetivas de los VC de estos bienes, por lo que las
+NC suelen requerir que su medición contable se haga al costo (menos la pertinente depreciación acumulada),
+aunque de la aplicación de este criterio no surjan medidas contables representativas del valor de los bienes.
+M) INTANGIBLES NO VENDIBLES POR SEPARADO
+Estos intangibles se caracterizan por el hecho de que sólo pueden ser transferidos con el ente.
+Incluyen lo que genéricamente se denomina valor llave o plusvalía, así como costos preoperativos,
+de reorganización y similares.
+Dada tal característica, el VC de estos intangibles solamente podría determinarse en conjunto y a
+partir de una valuación total de la empresa, que difícilmente podría realizarse de modo de satisfacer el
+requisito de objetividad que debe satisfacer la información contable.
+Acotación: el problema no es distinto en las empresas con cotización bursátil de sus acciones.
+Intentar la valuación de una empresa multiplicando el precio de cotización de cada acción por el número total
+de acciones dará normalmente una cifra alejada de la realidad, porque:
+a) las cantidades de acciones que se transan en el mercado no son representativas de la totalidad del
+capital (los paquetes mayoritarios no son habitualmente negociados en las bolsas);
+b) los precios de dichas acciones están sujetos a oscilaciones por causas del contexto, que no son
+representativas de cambios en el valor de las empresas emisoras.
+24 O sea: para lograr una mayor recaudación no se aumenta la tasa nominal del impuesto sino las valuaciones fiscales.
+Estas maniobras pasan más o menos inadvertidas en los contextos de fuerte inflación.
+22
+
+Por lo expuesto, es casi imposible estimar un VC objetivo de los activos intangibles no susceptibles
+de venta individual. Esto ha llevado a algunos autores a postular su exclusión total de los estados contables
+mientras que la mayoría considera mejor incorporar los intangibles pagados y mantenerlos a sus costos
+originales menos su depreciación acumulada.
+Digresión: cuando se aplica este criterio, lo que aparece en los informes contables no es la llave del
+total del negocio sino la pagada por algún segmento de él.
+N) PARTICIPACIONES PERMANENTES EN OTROS ENTES
+Los únicos casos en que es fácil estimar objetivamente el VC de este tipo de participaciones se
+presentan cuando puede determinarse su VNR porque:
+a) existe un contrato para su venta (en cuyo caso las participaciones dejan de ser permanentes); o
+b) las participaciones tienen el carácter de bienes fácilmente comercializables.
+Recuérdese que este criterio no debería utilizarse para las tenencias importantes de acciones de otras
+sociedades, cuya negociación puede y suele hacerse fuera del mercado bursátil y a precios distintos a los allí
+registrados.
+Para la medición contable de dichas tenencias importantes suele utilizarse el llamado método del
+valor patrimonial, según el cual las participaciones en otras sociedades se computan de acuerdo con la
+proporción que al tenedor le corresponda sobre el patrimonio de ellas.
+Algunos colegas consideran que el valor patrimonial es el VC de las participaciones en empresas
+sobre las que se tiene control o influencia significativa25. No es así porque el VC de la inversión depende del
+valor de la empresa, que no necesariamente se refleja en su patrimonio contable.
+(cid:194) Nos referimos al tema en el § 3,5,b).
+Por otra parte, el valor patrimonial se calcula sobre la base de un patrimonio que resulta de la suma
+algebraica de medidas contables de activos y pasivos en las que no sólo intervienen VC.
+6,5. MEDICIONES DE PASIVOS CONSISTENTESCON EL EMPLEO
+DEVALORES CORRIENTES
+A) OBLIGACIONES DE ENTREGAR MONEDA
+Si se emplean VC para la medición contable de los créditos, las obligaciones deberían medirse
+usando criterios similares. De lo contrario –ya lo dijimos– podría ocurrir que se asignasen distintas
+mediciones a activos y pasivos a vencer el mismo día y por los mismos importes, siendo que los fondos
+generados por la cobranza de los primeros podrían ser aplicados al pago de los segundos.
+En consecuencia, pensamos que el criterio general a aplicar debería ser el del VD de los pagos
+futuros a efectuar, descontados usando la misma tasa de interés que para los créditos.
+En los casos de pasivos nominados en moneda extranjera, los cálculos deberían hacerse empleando
+tasas de interés adecuadas y convirtiendo los importes obtenidos de acuerdo con los tipos de cambio
+aplicables para la cancelación de la deuda, los que podrían diferir algo de los utilizables para la cobranza de
+créditos en moneda extranjera, en cuanto exista –para una misma divisa– una cotización para su compra y
+otra para su venta.
+Vale recordar que, según lo visto en el § 6,2,c)2), la FASB propone que el cálculo de los VD se haga
+utilizando la tasa que el mercado consideraría para adquirir títulos de deuda del ente. Nuestra opinión –ya la
+presentamos– es que ese procedimiento sólo sería adecuado si el ente tuviese la intención y la capacidad
+financiera de adquirir su propia deuda.
+25 Así se lo hace en:
+CHAVES, Osvaldo A.; CHYRIKINS, Héctor; DEALECSANDRIS, Ricardo P.; PAHLEN ACUÑA, Ricardo J.
+M.; VIEGAS, Juan Carlos, Teoría contable, Ediciones Macchi, 1998, pág. 165.
+23
+
+B) OBLIGACIONES DE ENTREGAR COSAS O PRESTAR SERVICIOS
+Por lo general, estas obligaciones son consecuencia de la cobranza anticipada (total o parcial) de
+precios de venta. Ocurrido tal hecho, deben diferenciarse tres situaciones.
+Si los bienes a entregar están en el activo de la empresa, el ente puede emplearlos para cancelar el
+pasivo. Por lo tanto, éste debería computarse al VC del activo más los costos adicionales necesarios para
+ponerlo a disposición del acreedor.
+Si los bienes pudiesen ser adquiridos sin esfuerzo, el costo de cancelación del pasivo debería ser la
+suma de los costos de obtención del activo y de su puesta a disposición del acreedor.
+Distinta es la situación de los servicios a prestar y de los bienes que deben ser entregados pero que
+aún no han sido producidos, como en el caso de una obra por cuya construcción (aun no iniciada) se han
+percibido anticipos que fijan el precio o una parte de él. En estas situaciones debe considerarse que:
+a) el anticipo se basa en el precio de venta;
+b) el costo de producción que tendrá el bien es, normalmente, inferior al precio de venta;
+c) por lo expuesto en el § 6,4,h), lo razonable es distribuir la ganancia de la operación entre los pe-
+ríodos en que la tarea se lleva a cabo y no imputarla totalmente al período de cobro del precio o al de
+terminación de la obra.
+Teniendo en cuenta lo indicado, no sería adecuado medir el pasivo considerando únicamente los
+costos necesarios para cancelarlo, pues esto implicaría computar de inmediato una ganancia por la diferencia
+entre el precio de venta y el costo, en contra del criterio expuesto en el inc. c) precedente.
+Lo que debería hacerse es medir el pasivo de un modo que sea coherente con la medición contable
+del activo. Si éste se ha computado al costo más la porción de ganancia correspondiente al avance del
+proceso, la deuda debería computarse a su importe histórico (corregido por inflación, cuando se consideran
+los efectos de ésta).
+C) OPCIONES LANZADAS
+(cid:194) Nos referimos a las características de las opciones en el § 6,4,f).
+Pensamos que la medición contable de los pasivos por opciones lanzadas debería basarse en el costo
+que debería erogar el lanzador para librarse de su obligación. En el caso de opciones con cotización, ese cos-
+to estaría dado –en principio– por el precio de mercado de la opción más los costos que demandaría su
+recompra.
+Si la cotización no correspondiera a la fecha de la medición contable, debería estimársela a partir de
+la última cotización conocida y empleando un modelo matemático de fijación de precios, como el de Black y
+Scholes. Más complicadas son las cosas cuando la opción no cotiza, pero también en este caso debería
+recurrirse a algún modelo matemático.
+Cuando el costo de cancelar una opción que permite que un tercero adquiera bienes de fácil
+comercialización en existencia no pueda ser determinado, podría aplicarse el enfoque que presentamos
+en el § 6,4,b)2).
+6,6. LOS RESULTADOS DE TENENCIA
+A) CONCEPTO
+Los VC de los activos cambian y lo mismo ocurre con las medidas contables de los pasivos cuando
+se las determina mediante la aplicación de los criterios enunciados en el § 6,5.
+Los resultados de tenencia son las diferencias entre las sucesivas mediciones contables de un mismo
+activo o pasivo, atribuibles a causas distintas a algún cambio de condición.
+Las causas habituales de los resultados de tenencia son las modificaciones de precios de activos y
+pasivos, incluyendo a las monedas extranjeras.
+24
+
+No es un resultado de tenencia la variación de valor de un bosque atribuible al crecimiento de la
+madera pero sí lo es el que se origina en cambios en el precio de la madera.
+No se producen resultados de tenencia por la mera reexpresión monetaria de una medición contable
+anterior, ya que ella sólo cambia la unidad de medida.
+Al 31/12/03, Totín S.A. tiene una partida de vino con dos años de añejamiento, cuyo VC es $ 4.000.
+Al 31/12/04 el VC de la partida (ahora con tres años de añejamiento) es $ 6.000. El de una partida
+con dos años sería $ 4.500. Durante el ejercicio hubo una inflación del 5%.
+Si se practica ajuste por inflación, la medición inicial se expresa así en moneda del 31/12/04:
+4.000 x (1 + 0,05) = 4.200
+Los 4.200 pesos del 31/12/04 equivalen a los 4.000 pesos del 31/12/03. Como se trata del mismo
+monto establecido en dos unidades de medición distintas, no sería sensato restar el segundo del primero y
+tratar de encontrarle un significado al resultado de la cuenta:
+4.200 - 4.000 = 200
+porque 200 es un importe al cual no puede asignársele unidad de medida alguna (no son pesos del 31/12/04
+ni del 31/12/03 ni de ningún otro momento).
+En cambio, la diferencia entre los VC final e inicial y final de un vino de dos años constituiría un
+resultado de tenencia, pues se origina en una diferencia de precios. Su importe (medido en moneda de cierre)
+es:
+4.500 - 4.200 = 300
+Y la diferencia entre los VC del vino de tres años y el de dos años es atribuible al añejamiento. Su
+importe (también en moneda de cierre) es:
+6.000 - 4.500 = 1.500
+Este es un ingreso bruto de la actividad principal del ente contra el cual deberán jugar los costos
+incurridos en ella.
+Si se hubiese omitido el juste por inflación, el resultado de tenencia se habría determinado mediante
+la cuenta:
+4.500 - 4.000 = 500
+Esto es inadecuado porque 4.500 y 4.000 no son cifras comparables. La primera representa pesos del
+31/12/04 y la segunda pesos del 31/12/03.
+(cid:194) Algunas NC argentinas hablan de resultados financieros y de tenencia, dando a entender
+que se trata de categorías independientes. El punto es discutible.
+Un interés sobre un instrumento de deuda con vencimiento no sería un resultado de tenencia
+porque su devengamiento responde a un cambio de condición del instrumento (la fecha de
+vencimiento es ahora más cercana).
+En cambio, podrían considerarse resultados de tenencia (y también financieros) los
+ocasionados por modificaciones en las tasas de interés (cuando se reconocen sus efectos) o en los
+tipos de cambio.
+Ahora bien, en un contexto inflacionario con devaluaciones continuas, una empresa podría
+optar por endeudarse a una tasa fija que considere la inflación futura o por obtener un préstamo en
+moneda extranjera (a tasa más baja) y soportar los efectos de las devaluaciones que sobrevengan. En
+este caso, caracterizar a las diferencias de cambio como resultados de tenencia y excluir de esa
+categoría a los intereses no conduce a ningún fin práctico.
+Por lo indicado, nos parece que para la preparación de estados contables sería preferible
+utilizar voces como éstas:
+25
+
+a) resultados financieros para los producidos por activos y pasivos financieros, sin
+discriminar los resultados de tenencia de los que no lo son;
+b) resultados de tenencia no financieros, para los producidos por otros activos y pasivos.
+B) TRATAMIENTO CONTABLE
+El tratamiento contable de los resultados de tenencia depende del criterio de mantenimiento de
+capital que se haya adoptado, tema que hemos tratado en el § 3,5,f).
+Si se aplica el criterio prevaleciente (y nuestro preferido) de que el capital a mantener debe ser el
+financiero, los resultados de tenencia integran el resultado del período, pues son variaciones patrimoniales no
+originadas en aportes ni retiros de los propietarios.
+Si, en cambio, se aplicara el mal llamado concepto de mantenimiento del capital físico, debería
+procederse así:
+a) los resultados de tenencia de los bienes necesarios para mantener la capacidad productiva a la que
+se refiere el capital físico deberían considerarse ajustes al patrimonio invertido (en los estados contables
+aparecerían como una reserva para mantenimiento del capital);
+b) los restantes integrarían el resultado del período.
+En algunos países (incluyendo a la Argentina) se sigue la práctica de imputar directamente a un
+rubro especial de patrimonio las valorizaciones de los bienes de uso y activos asimilables. Esto podría
+parecer una aplicación del concepto de mantenimiento del capital físico pero no lo es, ya que dichos bienes
+no tienen por qué ser los que definen la capacidad operativa del ente y podrían estar financiados tanto con
+patrimonio como con pasivo.
+Por lo indicado, tampoco estamos de acuerdo con las NC que permiten o requieren el diferimiento en
+el reconocimiento de algunos resultados financieros, mediante su tránsito por un rubro del capítulo
+patrimonio neto.
+6,7. RESUMEN
+El valor es un concepto subjetivo. Lo que es valioso para un ente puede no serlo para otro.
+En general, tienen valor de cambio superior al valor de uso los activos adquiridos o producidos para
+su venta. Lo contrario ocurre con los bienes que no han sido incorporados con ese destino.
+Los VD de futuros flujos (entradas y salidas) de fondos surgen de considerar sus importes nominales,
+el tiempo faltante hasta que ellos se concreten y determinadas tasas de interés.
+El descuento reconoce el valor tiempo del dinero, que hace que dos sumas nominalmente iguales
+tengan valores distintos, según los momentos en que puedan ser cobradas o deban ser pagadas.
+Los VD (que no siempre representan valores propiamente dichos) podrían ser empleados para
+estimar mediciones contables primarias de:
+a) precios de compra o de venta al contado, en los raros casos en que los mercados sólo se
+convengan operaciones a plazo;
+b) VC de créditos, salvo los que tengan cotización representativa en un mercado (obligaciones
+negociables, títulos públicos, etcétera);
+c) VC de activos convertibles en créditos sin dificultad, cuando los primeros no tengan precios
+corrientes para operaciones de contado;
+d) costos de cancelación de deudas.
+La técnica puede también utilizarse para estimar los VR de bienes o grupos de bienes.
+La estimación de los importes y momentos de las futuras entradas de fondos envuelve
+incertidumbres, para cuya consideración debe tenerse en cuenta el requisito de neutralidad: los futuros flujos
+de fondos no deben sobrestimarse o subestimarse deliberadamente.
+La estimación de los flujos de fondos es más sencilla en el caso de las deudas contraídas por el
+emisor de los estados contables, pues éste dispone de información sobre los importes y fechas de
+vencimiento de la totalidad o la mayoría de sus pasivos.
+26
+
+Para obtener VD verdaderamente vinculados al momento de evaluación, deberían considerarse tasas
+de interés corrientes (de dicho momento). De la aplicación de tasas de interés del pasado surgen VD irreales,
+que no sirven como aproximaciones a los VC de los correspondientes activos, salvo cuando los cambios en
+las tasas y en los riesgos de incobrabilidad han sido poco importantes.
+La tasa de interés que se elija debe guardar alguna relación con:
+a) el riesgo de que el flujo de fondos considerado se aleje de la realidad;
+b) la forma en que ese riesgo haya sido tenido en cuenta al estimar los importes de los flujos de fondos.
+Para los pasivos, podría considerarse una tasa para inversiones de riesgo normal, por no menos de
+dos razones:
+a) un ente no debería preparar sus estados contables bajo el supuesto de que no honrará sus
+obligaciones;
+b) de la aplicación del procedimiento propuesto surgen los mismos VD para las salidas y entradas de
+fondos que sean iguales en importes (en su caso, neto del riesgo de incobrabilidad) y tengan previstas las
+mismas fechas de pago/cobro.
+El empleo de VD está contemplado en diversos juegos de NC, pero no como el resultado de estudios
+sistemáticos sobre la cuestión. Sin embargo, esos estudios han comenzado.
+El VC de un bien es el que éste tiene a la fecha de la evaluación, para el ente emisor de los informes
+contables.
+Para medir el VC de un bien, debería considerarse su relación con el proceso de generación de
+resultados. Cuando éste no está avanzado, lo lógico es considerar el valor de entrada del activo (su costo de
+reposición). Si un bien puede ser comercializado fácilmente, puede tomarse su VNR, aunque algunos
+prefieren considerar su valor razonable (en cuyo cálculo no se deducen los gastos de comercialización).
+El VC de los créditos es su VNR cuando estos activos pueden ser vendidos fácilmente en mercados
+que suministren precios objetivos. En los restantes casos debe estimárselo aplicando la técnica del descuento
+financiero y considerando tasas de interés que guarden relación con los riesgos involucrados en la operación.
+En algunos casos, el proceso generador de ganancias se prolonga en el tiempo, obligando a ponderar
+el grado de avance de las tareas básicas de dicho proceso (la producción, la venta). Así, si la venta de un bien
+está virtualmente asegurada pero su producción no está concluida, se considera razonable tomar la parte del
+VNR que corresponde a las actividades de producción ya llevadas a cabo.
+Hay activos cuyos VC no pueden calcularse de una manera fiable. Sucede, por ejemplo, con:
+a) los intangibles que sólo pueden enajenarse junto con el negocio;
+b) los intangibles que pueden enajenarse individualmente, cuando no existen precios de mercado
+para ellos ni puede estimárselos sobre bases objetivas;
+c) las inversiones en sociedades que no entran en la categoría de bienes de fácil comercialización.
+En nuestra opinión, los VC de los activos, deberían ser empleados para la medición contable inicial y
+periódica de éstos, siempre que la medición objetiva de dichos valores sea posible y pueda lograrse con un
+costo razonable. Cuando estas condiciones se cumplen, no tiene mayor sentido el empleo de otras medidas
+contables, como los costos históricos, que representan valores que los activos tuvieron en el pasado.
+Durante mucho tiempo, las NC vigentes en la gran mayoría de los países requerían mediciones
+contables de activos basadas casi exclusivamente en sus costos históricos. Hoy, se acepta o se requiere el
+empleo de VC para una variedad de rubros, aunque se observa una reticencia incomprensible por parte de la
+IASB y de la FASB, a la aceptación del empleo de VC para la medición contable de los bienes de cambio
+cuya comercialización no sea fácil.
+La tabla que sigue resume los criterios primarios que preferimos para estimar los VC de los activos
+(o grupos de activos). Un VC final podría ser menor por aplicación del límite del VR.
+27
+
+Activos Valor corriente primario
+Moneda nacional Valor nominal
+Bienes de fácil comercialización VNR, sujeto a ciertos límites cuando existen opciones sobre los
+bienes que no han sido medidas a sus propios VC o costos de
+cancelación.
+Derechos a recibir moneda (que no Al VD de los flujos de fondos por recibir, calculados así:
+sean bienes de fácil comercialización)
+a) si hubiere un mercado para la venta del crédito, considerando la
+tasa de interés que, a la fecha de la estimación, se aplicaría en una
+operación de venta;
+b) si no lo hubiere:
+1) depurar los importes y momentos de los flujos de fondos
+a recibir para considerar probables incobrabilidades y moras;
+2) aplicar, a las cifras depuradas, una tasa de interés para
+operaciones de poco riesgo.
+Si los créditos fueren en moneda extranjera, convertir los resultados
+de las cuentas anteriores empleando el tipo de cambio de la fecha de
+la medición.
+Derechos a recibir cosas o servicios El de los bienes o servicios a recibir.
+Opciones sin cotización El resultante de la aplicación de un modelo matemático.
+Minerales no procesados Valor actual del VNR a obtener por la venta menos valor actual de
+los costos necesarios para extraer los minerales y colocarlos en el
+mercado.
+Bienes de cambio con proceso de Proporción del VNR atribuible al esfuerzo ya realizado.
+producción prolongado y venta ase-
+gurada
+Bienes producidos para consumo Costo de adquisición de los mismos bienes en el mercado.
+propio
+Otros bienes de cambio Costo de reposición.
+Terrenos A precios corrientes de unidades de la vecindad, corregidos en su
+caso para considerar mejoras.
+Si son para uso en la explotación, agregar los costos adicionales
+necesarios.
+Por períodos no muy largos se puede estimar sobre la base de la
+tasación anterior (o el costo histórico) reexpresada(o) por un índice
+de precios específico.
+Edificios Si se tienen como inversión: al VNR.
+En los restantes casos, al costo de reproducción de su capacidad de
+servicio.
+Por períodos no muy largos se puede estimar sobre la base de la
+tasación anterior (o el costo histórico) reexpresada(o) por un índice
+de precios específico.
+Otros bienes tangibles de uso y Ver la ilustración que aparece en la pág. 228.
+similares
+Intangibles vendibles por separado A sus precios de transferencia (difícil de obtener cuando los
+cambios de titularidad son infrecuentes).
+Si son para uso en la explotación, agregar los costos adicionales
+necesarios.
+Intangibles no vendibles por separado De acuerdo con el valor del ente emisor de los informes contables
+(de obtención muy difícil).
+Participaciones permanentes en otros De acuerdo con el valor de esos entes (de obtención muy difícil).
+28
+
+Activos Valor corriente primario
+entes (que no sean bienes de fácil
+comercialización)
+El cuadro que sigue resume los criterios de medición contable de pasivos que son coherentes con los
+utilizables para la estimación de los VC de activos.
+Pasivos Mediciones
+Obligaciones de entregar moneda VD de los pagos futuros a efectuar, descontados usando la misma
+tasa de interés que para los créditos
+En el caso de pasivos en moneda extranjera, el resultado se
+convierte al tipo de cambio de la fecha de la medición.
+Obligaciones de entregar bienes que VC de los bienes más costos de ponerlos a disposición del acreedor.
+están en el activo
+Obligaciones de entregar bienes de Costo de adquisición de los bienes a entregar más costos de
+fácil adquisición obtenerlos y ponerlos a disposición del acreedor.
+Otras obligaciones de entregar cosas Criterio que resulte coherente con el de medición contable del
+a producir y de prestar servicios activo. En principio: importe recibido corregido por inflación.
+Opciones lanzadas Costo de su recompra, eventualmente estimado mediante la
+aplicación de un modelo matemático de fijación de precios.
+Los resultados de tenencia son las diferencias entre las sucesivas mediciones contables de un mismo
+activo o pasivo, atribuibles a causas distintas a algún cambio de condición. Sus causas habituales son las
+modificaciones de precios de activos y pasivos, incluyendo a las monedas extranjeras.
+No se producen resultados de tenencia por la mera reexpresión monetaria de una medición contable
+anterior, ya que ella sólo cambia la unidad de medida.
+Cuando se aplica el criterio de que el capital a mantener debe ser el financiero, los resultados de
+tenencia integran el resultado del período, pues son variaciones patrimoniales no originadas en aportes ni
+retiros de los propietarios.
+Si se aplicara el mal llamado concepto de capital físico:
+a) los resultados de tenencia de los bienes necesarios para mantener la capacidad productiva a la que
+se refiere el capital físico deberían considerarse ajustes al patrimonio invertido (en los estados contables
+aparecerían como una reserva para mantenimiento del capital);
+b) los restantes integrarían el resultado del período.
+No es una aplicación del concepto de capital físico la imputación directa de las valorizaciones de los
+bienes de uso y activos asimilables a un rubro especial de patrimonio, ya que dichos bienes no tienen por qué
+ser los que definen la capacidad operativa del ente y podrían estar financiados tanto con patrimonio como
+con pasivo.
+No estamos de acuerdo con las NC que permiten o requieren el diferimiento en el reconocimiento de
+algunos resultados financieros, mediante su tránsito por un rubro del capítulo patrimonio neto.
+6,8. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para que una aseveración sea
+correcta debe serlo totalmente.
+a) El valor es un concepto subjetivo.
+b) Para practicar la medición contable de una obligación negociable emitida por el ente, lo mejor se-
+ría considerar su cotización en el mercado.
+c) Al igual que los costos ajustados por inflación, los VC representan valores del momento de la
+medición.
+29
+
+d) Si como capital a mantener se considera el aportado en dinero y las mediciones contables se
+practican en pesos de poder adquisitivo homogéneo, cualquier resultado de tenencia de un activo debería
+imputarse al resultado del período en que se produce.
+e) El VNR de un bien de cambio es el precio de venta correspondiente al plazo usual de financiación
+menos los gastos adicionales necesarios de comercialización.
+f) La IASB y la FASB parecen encaminarse al dictado de NC que requieran la aplicación de VC para
+la medición contable de instrumentos financieros, bienes de fácil comercialización y bienes de cambio en
+general.
+g) Los activos intangibles no vendibles por separado no tienen VC, razón por la cual no deberían ser
+incluidos de los estados contables.
+2. Enuncie el concepto de valor.
+3. Enuncie las posibles aplicaciones contables de los VD.
+4. Mencione las cuatro bases principales para la determinación de los VC de los activos.
+5. Enuncie las características que debería tener un bien físico para que su VC esté representado por
+su VNR.
+6. Señale los pasos que podrían seguirse para determinar los VC de un conjunto de maquinarias de
+fábrica.
+7. Indique cuál es el propósito perseguido con la aplicación del denominado método del avance de
+obra en el caso de un buque vendido de antemano.
+8. Titus S. A. (una empresa situada en Trilandia, un país donde la medición contable de los activos se
+efectúa a sus VC, con el límite de su VR) posee los siguientes bienes:
+a) 100 dólares estadounidenses;
+b) 10 aparatos de televisión de la marca Mori;
+c) 20 grabadores de la marca CVA;
+d) un terreno adquirido para la futura construcción de un depósito de mercaderías.
+A la fecha de la medición contable, la cotización de los dólares estadounidenses (en pesos
+trilandeses) es la siguiente:
+Casa de cambio Compra Venta
+Black Market 75,00 78,00
+Greenstick 74,50 77,50
+Los datos referidos a los bienes de cambio son éstos (pesos trilandeses por unidad):
+Conceptos TV Grabador
+Precio de venta al público
+• En tres cuotas sin interés - total 80.000 13.000
+• Al contado (descuento del 10 %) 72.000 11.700
+Gastos de venta (incluyendo impuestos) 15% 15%
+Costo de reposición 60.000 11.000
+De acuerdo con el informe de un martillero público, dos meses atrás se vendían terrenos similares al
+poseído en $ 1.000.000. En el intervalo, los precios de los terrenos se incrementaron en general en un 20%,
+en tanto que el índice de precios mayoristas (representativo de la inflación general) aumentó un 25%.
+Estime, lo mejor que pueda, los VC de cada uno de los bienes mencionados. No considere la
+comparación con los VR.
+9. El 31/12/04, Guanacache S. A. otorgó un préstamo de $ 1.000 a dos meses de plazo con una tasa
+de interés mensual efectiva del 10%, recibiendo un documento de $ 1.210, ya que es:
+1.000 x 1,102 = 1.210
+Al 31/01/05, la tasa de interés de mercado había descendido al 8% mensual.
+Estime el VC del documento a la fecha recién indicada. Indique también como se lo mediría si se
+aplicase el método de la tasa efectiva.
+30
+
+6,9. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y EJERCICIOS
+1. a) Correcto.
+b) Incorrecto, en nuestra opinión, salvo cuando el ente tenga la intención y la capacidad financiera
+de rescatar las obligaciones.
+c) Incorrecto. Los costos ajustados por inflación son mediciones anteriores expresadas en moneda del
+momento, que no es lo mismo que valores del momento (no obstante, pueden coincidir, pero por casualidad).
+d) Correcto.
+e) Incorrecto. Debe considerarse el precio de venta al contado.
+f) Incorrecto, en cuanto se refiere a los bienes de cambio en general.
+g) Incorrecto. Tienen VC, pero éste raramente puede ser determinado sobre una base fiable.
+2. El valor de un bien es la cualidad que justifica que por poseerlo se pague una suma de dinero, se
+entregue otro bien o se asuma una obligación.
+3. Podrían ser empleados para estimar las mediciones contables primarias de:
+a) precios de compra o de venta al contado, en los raros casos en que los mercados sólo se
+convengan operaciones a plazo;
+b) VC de créditos, salvo los que tengan cotización representativa en un mercado;
+c) VC de activos convertibles en créditos sin dificultad, cuando los primeros no tengan precios
+corrientes para operaciones de contado;
+d) costos de cancelación de deudas.
+4. Son el costo de reposición, el valor razonable, el VNR y el VD de los futuros flujos de fondos
+(netos) que producirá el activo.
+5. Debería reunir estas características:
+a) ser fungible;
+b) tener un precio de mercado conocido;
+c) poder venderse sin un esfuerzo significativo (el mercado debe poder absorber –al precio
+referido– la cantidad que el ente posee).
+6. Ver la ilustración que se muestra en la pág. 228.
+7. El propósito es distribuir el resultado de la obra durante los períodos en que se la construye, de
+acuerdo con los esfuerzos efectuados en cada uno de ellos.
+8. Los dólares estadounidenses pueden valuarse al más alto precio de compra pagado por las casas de
+cambio ($ 75 por unidad).
+Las mercaderías deberían computarse al costo de reposición, de modo que:
+a) cada televisor debería computarse a $ 60.000;
+b) cada grabador, a $ 11.000.
+Para el terreno, la mejor estimación sería la resultante de tomar el precio de mercado de dos meses
+atrás ($1.000.000) y corregirlo por el aumento en los precios de los terrenos en general (20%) con lo que se
+arriba a $ 1.200.000. Si en lugar del índice específico se tomara el de precios mayoristas se estaría dejando
+de reconocer que los precios de los terrenos subieron menos que el nivel general de precios, y el VC se
+expresaría en exceso.
+9. El VC del crédito al 31/01/05 resulta de descontar el futuro ingreso de fondos ($ 1.210, a
+producirse un mes después) a la tasa de interés de plaza (8 % mensual):
+1.210 / (1 + 0,08)1 = 1.120,37
+De acuerdo con el método de la tasa efectiva, se tomaría la medición inicial y se le agregarían los
+intereses devengados, a la tasa original:
+1.000 x (1 + 0,10)1 = 1.080
+A la misma cifra podría arribarse descontado el importe a cobrar con la misma tasa original:
+1.210 / (1 + 0,10)1 = 1.080
+31

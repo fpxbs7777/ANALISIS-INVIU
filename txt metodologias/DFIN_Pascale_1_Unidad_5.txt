@@ -1,0 +1,197 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 25
+FUTUROS
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Desarrollar el concepto de contrato de futuros.
+(cid:1) Analizar las características del mercado de futuros.
+(cid:1) Financiamiento de operaciones de futuros.
+25,1. INTRODUCCIÓN
+Si bien las operaciones de futuro se realizan con commodities desde hace largo tiempo, las que
+involucran instrumentos financieros son de más reciente aparición. Las primeras operaciones de futuros
+sobre divisas datan de 1972 y se realizaron en la Chicago Mercantile Exchange.
+Posteriormente, se fue desarrollando una gran variedad de operaciones de futuros, entre ellas las de
+tasas de interés, involucrando diversos instrumentos, así como las de ciertos índices de acciones.
+En buena medida, el gran desarrollo evidenciado por estos nuevos instrumentos obedece a la
+creciente incertidumbre que aparece en los mercados financieros. A comienzos de la década del '70,
+provocaron una gran volatilidad, entre otras variantes, las tasas de cambio, así como las de interés, en
+general.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo se inicia el mercado de futuros.
+25,2. DEFINICIÓN Y CARACTERÍSTICAS DE LOS MERCADOS DE FUTUROS
+Los contratos de futuros son de tipo estandarizado, transferibles, para vender o comprar un
+determinado commodity, o instrumento financiero, a una fecha especificada y a un precio establecido.
+De esta forma, el vendedor (short) acuerda entregar un determinado ítem, conforme a lo establecido
+en el contrato, y el comprador (long) acuerda comprarlo.
+Por ejemplo, la persona que adquiere un bono del tesoro se compromete a comprarlo a una
+determinada fecha y a cierta tasa de interés que fue la negociada en el contrato. Ello es diferente en el caso
+de una operación spot (al contado), en la cual, junto con el pago del precio se recibe físicamente el bien.
+Existen varias características que son propias de los contratos de futuros.
+En principio, introducen el elemento tiempo a la transacción. Esto no es privativo de los contratos de
+futuros, también lo tienen los forwards. Sin embargo, estos últimos no están estandarizados, sino que son
+efectuados, en cierta forma, a la medida. Por esta falta de estandarización y por la inexistencia de bolsas
+donde se transen los forwards es que su comerciabilidad se ve muy debilitada.
+Los contratos de futuros son transados en bolsas o instituciones organizadas. La función básica de
+éstas es, justamente, establecer y controlar que se cumplan las reglas de ese mercado especial,
+Una segunda característica es la estandarización del contrato de futuros, especificando incluso la
+fecha de su cumplimiento. Prácticamente, lo único no estandarizado es el precio.
+En tercer lugar, existe una bolsa o institución que es intermediaria entre comprador y vendedor. Una
+vez que la operación se concreta no tienen por qué verse más el comprador y el vendedor. La bolsa, por otra
+parte, garantiza el contrato, por ello las obligaciones de aquéllos son con la bolsa o institución.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las características del mercado de futuros.
+25,1 MÁRGENES
+2
+
+En todo contrato de futuros, las obligaciones para los compradores y vendedores son pagar y cobrar
+concomitantemente. Así, lo que uno paga, lo recibe el otro en su respectiva cuenta. A efectos de garantizar
+las operaciones, las bolsas requieren, para que se opere, a los operadores, llamados márgenes, que son
+depósitos o garantías que sirven para acudir en caso de que no se paguen diariamente las diferencias en las
+cotizaciones de futuros.
+El margen tiene un mínimo tolerable que constituye el margen de mantenimiento. Superado el
+mismo, se solicita al operador que haga un depósito por la diferencia entre el margen normal y el que va
+quedando, lo que se denomina variación del margen de la cuenta.
+En algunos mercados el margen es del 5 % del contrato. Por ejemplo en la Bolsa Mercantil y de
+Futuros de San Pablo, Brasil, los contratos son de U$S 5.000 cada uno y el margen es del 5 %.
+El monto mínimo de cada contrato y el de los márgenes varían con el riesgo correspondiente
+involucrado en la variable a considerar.
+Los contratos mínimos en países industrializados se ubican en torno de los U$S 100.000; en el caso
+de Inglaterra, por ejemplo son de U$S 62.500.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo se define el margen en una operación de futuros.
+LAS FINANZAS EN LA PRENSA
+COTIZACIONES DE FUTUROS
+Los periódicos especializados más importantes publican diariamente futuros de distintos activos.
+Aquí se reproduce parte de esa información. Se han elegido granos (maíz) y monedas (el yen y el marco
+alemán) a efectos de ejemplificar. Los datos en este caso están extraídos de The Wall Street Journal.
+Open: es el precio de apertura.
+High: es el precio más alto del día.
+Low: es el precio más bajo del día.
+Settle: es el precio de cierre del día.
+Change: es el cambio en el precio de cierre con respecto al día anterior.
+Life time high: es el precio más alto que se ha registrado en la vida del futuro.
+Life time low: es el precio más bajo que se ha registrado en la vida del futuro.
+Open interest: es el número de contratos emitidos.
+3
+
+Fuente: The Wall Street Journal, 30 de enero de 1998, pág. C-1 6.
+25,4. EL MERCADO Y SUS PARTICIPANTES
+Se debe operar en el mercado a través de miembros de la institución, que son un número limitado, y
+puede haber varias categorías de ellos, dependiendo de la organización de la institución.
+En estas instituciones, que son en definitiva clearinghouses, los miembros de dicho clearing, son
+todos miembros habilitados para hacer operaciones de futuros (la inversa no siempre se da), son los
+encargados de llevar el movimiento de las cuentas, así como los responsables por el incumplimiento de
+algunos de los operadores.
+La institución, en sí misma, registra todas las transacciones y busca la unión entre compradores y
+vendedores. Es, además, globalmente responsable de la integridad financiera de los contratos transados.
+Los operadores de] mercado de futuros son básicamente de dos tipos:
+a) aquellos que buscan una cobertura (hedgers);
+b) los especuladores.
+Respecto de la primera categoría, el contrato de futuros se refiere a los hedgers como un sustituto
+temporal de una operación spot, que debe ser efectuada en una fecha próxima. Un exportador lo utilizaría
+para protegerse de una caída del tipo de cambio haciendo un contrato de futuro de divisas, así como un
+hedger usaría un futuro de tasas de interés para fijar las tasas de un préstamo.
+En referencia a la otra categoría,. los especuladores operan buscando sólo beneficios provenientes de
+los cambios de precios no conectados con rutinarias operaciones comerciales y/o financieras. Esta
+propensión a la especulación se ve acentuada por el hecho de que en los contratos de futuros sólo se invierte
+el margen, con lo cual se produce un efecto similar al leverage.
+La cotización de futuro varía, habitualmente, todos los días y, con ella, cada operador debe recibir o
+pagar la diferencia diaria de cotización. En la fecha de la expiración del contrato, la cotización de éste y el
+tipo de cambio spot deberían coincidir.
+En la sección se expone un ejemplo de cobertura con futuro de divisas. Ejemplos del mismo tipo
+podrían hacerse con futuros de tasas de interés, o en acciones, o en commodities.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo opera el mercado de futuros.
+25,5. PRECIO A FUTURO Y PRECIO CONTADO (SPOT)
+En la medida en que se acerca el mes de entrega, el precio contado (spot) y el precio a futuro tienden
+a converger a un mismo valor. Teóricamente estos dos valores deberían ser iguales el día del vencimiento.
+Una diferencia anormal entre las dos cotizaciones incitaría a comprar en el mercado en que los precios fueran
+más bajos y vender en el que los precios fueran más elevados. Estos arbitrajes provocarían un alza de la
+cotización de] mercado con el precio bajo y una baja de la cotización del mercado en que fuera más elevado,
+lo que devolvería las cotizaciones a una situación normal.
+Esta convergencia determina que aquellos participantes que tienen posiciones abiertas en los
+mercados de futuros las liquiden días antes de la fecha de vencimiento y tomen una posición inversa en el
+mismo contrato, lo que les evita tener que hacer entrega o recepción del activo subyacente. De esta forma,
+obtienen un resultado financiero y comercializan el activo en el mercado de contado. Se estima que en la
+práctica más del 95 % de los mercados los contratos se liquidan de esta manera.
+PRIMER PLANO
+FUTUROS: UN POCO DE HISTORIA
+4
+
+Si bien en la concepción tecnológica que se tiene hoy día los mercados de futuros comenzaron en
+mayo de 1972 en el Mercado Monetario Internacional de la Chicago Mercantile Exchange (CME) con
+futuros de divisas (francos suizos, yenes, marcos alemanes, dólares canadienses y libras esterlinas), los
+futuros de commodities comenzaron a comercializarse en la Chicago Board of Trade, en 1865.
+Profundizando en la historia, todo indica que los primeros contratos de futuros aparecieron en Japón
+alrededor de 1600; con ellos, los señores feudales administraban la volatilidad de los precios del arroz debido
+a las inclemencias climáticas.
+También en Europa, los mercados de futuros tienen larga historia. En Holanda, aparecieron los
+mercados de futuros hacia el 1600, siendo los tulipanes uno de los más importantes activos de los futuros.
+25,6. COBERTURA CON FUTUROS DE DIVISAS
+En general, cubrirse con un futuro de divisas implica tomar una posición en futuros que genera
+beneficios iguales que las pérdidas asociados con una posible evolución adversa del spot.
+Como se ha referido en alguna oportunidad, existen dos casos diferentes de cobertura:
+a) larga;
+b) corta.
+Una cobertura larga (por ejemplo, comprando futuros de cambio) protege contra un aumento en el
+valor de la divisa extranjera y es usada por importadores o aquellos que tienen que pagar una deuda en
+moneda extranjera. Una corta (por ejemplo, vendiendo futuros), resguarda de una declinación del tipo de
+cambio spot. Esta puede ser usada, por ejemplo, por los exportadores.
+Veamos un ejemplo de cada una de las posiciones de cobertura.
+Cobertura larga con futuro
+A comienzos de enero, un importador estipula pagar, el 30 de marzo, la suma de U$$ 100.000. El
+riesgo es que hasta fines de marzo se produzca una subida apreciable en el precio de los dólares.
+La solución que se opta es comprar un futuro a liquidarse el 30 de marzo y, cuando se liquida,
+proceder a comprar los U$$ 100.000 en el mercado spot.
+La situación ha sido:
+Fechas Tipo de cambio spot Tasas de futuro
+30 de marzo
+3 de enero 1.320 1.328
+30 de marzo 1.500 1.505
+Incremento en spot:
+(1.500 - 1.320) × 100.000 = 18.000.000
+Ganancia de la cobertura:
+(1.505 - 1.328) × 100.000 = 17.700.000
+Por lo tanto, la ganancia que obtiene con la cobertura busca neutralizar la suba en el precio spot.
+Como frecuentemente sucede, el spot y el futuro en la base no son iguales (en este caso 1.320 y 1.328
+respectivamente) y, aunque menos veces, en el vencimiento pueden, más allá de la convergencia, no
+coincidir y las ganancias en la cobertura pueden no ser idénticas a las "pérdidas" del momento del spot.
+Cobertura corta con futuro
+El 1° de febrero un exportador firma un contrato para vender mercaderías por U$$ 100.000, que
+vence el 30 de abril.
+5
+
+El riesgo que corre es que haya una declinación del tipo de cambio entre febrero y abril.
+En este caso, debe venderse un futuro al 30 de abril. A esa fecha liquida su futuro y vende los dólares
+correspondientes.
+Fechas Tipo de cambio spot Tasas de futuro
+30 de abril
+1° de febrero 1.380 1.400
+30 de abril 1.290 1.300
+Declinación en tipo de cambio:
+(1 -380 - 1.290) × 100. 000 = 9. 000. 000
+Ganancia de la cobertura:
+(1.400 - 1.300) × 100.000 = 10.000.000
+Como se aprecia en ambos ejemplos, el futuro da una cobertura apreciable al riesgo, de cambio
+involucrado.
+Deberían cerrarse tantos contratos como sea necesario para cubrir el monto requerido.
+Según se observa en los ejemplos anteriores existe una apreciable cobertura del riesgo, el cual no es
+total, pero permite una aproximación satisfactoria. Existe siempre un riesgo de desajuste, que se llama riesgo
+en la base. En el primer ejemplo, la cobertura alcanzó alrededor del 98,4 % (17.700.000/18.000.000) del
+movimiento spot, mientras que en la corta la cobertura fue 111 % (10.000.000/9.000.000).
+A través de los contratos de futuros se cambia el riesgo en la fluctuación del precio por el riesgo en
+la fluctuación de la base (relación precio a futuro/precio contado), que es mucho menos volátil.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Definir los tipos de cobertura.
+6
+
+REFERENCIAS SELECCIONADAS
+FIGLENSKI, STEPHEN, Hedging with financial futures for institutional investors. From theory to
+practice, Ballinger Publishing Co., 1986.
+LESSARD, DONALD, International financial management, John Wiley & Sons, 1985.
+7

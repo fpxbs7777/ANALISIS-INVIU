@@ -1,0 +1,669 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+1
+
+CAPÍTULO 6.
+CRITERIOS PARA EL ANÁLISIS DE INVERSIONES
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Conocer los distintos criterios alternativos para la evaluación de inversiones.
+(cid:1) Analizar cuándo, según cada uno de ellos, una inversión es aceptable o rechazable en términos de los
+objetivos de la firma.
+(cid:1) Discutir algunos aspectos prácticos en referencia a algunos criterios.
+Tanto en el cap. 3 como en el 4 y en el 5 se establecieron las bases del valor tiempo del dinero, el
+valor presente neto y el valor en términos más generales. Ellos serán de gran utilidad para facilitar la
+comprensión de este capítulo.
+6,1. TASA DE RENTABILIDAD
+La tasa de rentabilidad1 se engloba dentro de los criterios para medir la rentabilidad de las
+inversiones, conocidos genéricamente como aquellos que emplean flujos de fondos descontados.
+Difiere de otros criterios, que se verán más adelante, en cuanto a la tasa de descuento que utiliza.
+Al repasar el valor tiempo del dinero, quedó de manifiesto que si se tiene, por ejemplo, una inversión
+de $ 100 impuesta al 7 % de interés anual durante 2 años, el monto que resultará es:
+100 (1 + 0,07)2 = 114,49
+Es decir que si la tasa de interés es la citada y se recibirán $ 114,49 dentro de 2 años, el capital que
+hay que invertir para obtenerlos es de $ 100.
+El caso más general de las inversiones es que generan fondos durante varios períodos (años, por
+ejemplo); sabiendo la inversión inicial que los produce, puede obtenerse la tasa de interés que ella reporta.
+Supóngase, entonces, una inversión inicial denominada F , que genera durante los años 1, 2, 3, ... n
+0
+flujos de fondos, que se representa con:
+F , F , F ,... F
+1 2 3 n
+Dado que los flujos de fondos se generan durante varios años, deben actualizarse a efectos de tomar
+en consideración el valor tiempo del dinero.
+Para ello, deben multiplicarse por:
+1
+(cid:1) 1(cid:1)i (cid:2)i
+de donde resultarán:
+1 Se suele denominar también, a menudo, tasa interna de retorno. En la literatura técnica inglesa, se encuentra
+indistintamente como yield, internal rate of return, present-value return on investment, discounted cash flow rate of
+return, marginal efficiency of capital o time adjunted rate of return.
+
+F1 F2 F3 Fn
+(cid:1) (cid:2), , ,...
+1(cid:1)i (cid:1) 1(cid:1)i (cid:2)2 (cid:1) 1(cid:1)i (cid:2)3 (cid:1) 1(cid:1)i (cid:2)n
+La tasa de descuento, que aplicada sobre los flujos de fondos esperados genera un valor actual total
+de los mismos exactamente igual que el valor actual de la inversión considerada para obtenerlos, recibe el
+nombre de "tasa de rentabilidad".
+(cid:1)
+F1
+(cid:2)
+(cid:3)
+F2
+(cid:3)
+F3
+(cid:3)
+F4
+(cid:3)...(cid:3)
+Fn
+(cid:2)
+F0
+(cid:1)0
+1(cid:3)i (cid:1) 1(cid:3)i (cid:2)2 (cid:1) 1(cid:3)i (cid:2)3 (cid:1) 1(cid:3)i (cid:2)4 (cid:1) 1(cid:3)i (cid:2)n
+o
+n Fj
+(cid:4) (cid:2)
+F0
+(cid:1)0
+j(cid:1)1 (cid:1) 1(cid:3)i (cid:2)j
+[1]
+Alternativamente:
+n Fj
+(cid:3) (cid:1)0
+j(cid:1)0 (cid:1) 1(cid:2)i (cid:2)j
+[2]
+En este criterio, la tasa de descuento es tratada como incógnita a ser determinada a partir del
+conocimiento de los flujos de fondos.
+Ejemplo
+Utilizando parte de los aspectos expuestos, se presenta un ejemplo del cálculo de la tasa de
+rentabilidad.
+Supóngase que la inversión es F = $ 10.000 y que los restantes flujos de fondos son:
+0
+F = $ 3.000
+1
+F = $ 3.000
+2
+F = $ 3.000
+3
+F = $ 3.000
+4
+Hace algunos años, el cálculo de la tasa de rentabilidad se efectuaba por tanteo. El procedimiento es
+el siguiente, en efecto, se procedía a actualizar los distintos flujos de fondos del año 1 a n. Para ello se elige
+una tasa de descuento y se multiplica cada F por el valor que dan las tablas para cada año o período j. Se
+j
+suman los valores y se comparan con F . Si la suma es mayor que F , debe repetirse la operación de
+0 0
+actualización, pero esta vez utilizando una tasa de descuento superior.
+Se vuelve a comparar la suma con F , y así sucesivamente.
+0
+3
+
+De esta forma se encontrarán dos tasas -que deben ser lo más cercanas posible-, para una de las
+cuales la suma de los flujos de fondos actualizados es mayor que F , y para la otra, menor que F . La tasa de
+0 0
+rentabilidad se ubica entre esas dos tasas. Interpolando se llega a obtener una aproximación de la tasa de
+rentabilidad.
+Hoy día, este tipo de cálculos se hace directamente en máquinas calculadoras o en computadoras de
+uso difundido, sin necesidad de efectuar tanteos.
+Sin embargo, tanto en este criterio como en el valor presente neto parece útil expresar con cierto
+detalle la mecánica del cálculo.
+El valor actual de los flujos de fondos para distintas i será, por ejemplo:
+Factor de descuento i = 6 % i = 7 % i = 8 %
+Año 1 0,943 0,935 0,926
+Año 2 0,890 0,873 0,857
+Año 3 0,840 0,816 0,794
+Año 4 0,792 0,763 0,735
+3,465 3,387 3,312
+x x x
+3.000 3.000 3.000
+Valor presente total 10.395 10.161 9.936
+Dado que la inversión inicial considerada es de $ 10.000, la tasa de rentabilidad se encuentra entre el
+7 % y el 8 %. En este caso, es más cercana al 8 %, y una mayor afinación puede lograrse interpolando
+linealmente. Ello se obtiene sabiendo que el valor presente total menos la inversión es:
+Tasa de descuento 7% 8%
+Valor presente neto 161 (64)
+de donde la TR está un 161/(161 + 64) en el intervalo entre el 7 y el 8 %, por lo cual la TR es:
+161(cid:3)1%
+7%(cid:2) (cid:1)7%(cid:2)0,72%(cid:1)7,72%
+225
+El ejemplo es apreciablemente sencillo; al tener flujos de fondos iguales los 4 años, y como se ha
+visto, podría haberse utilizado la tabla 2 , que se encuentra al final del libro, que opera cuando los Fj son
+iguales para j entre 1 y n. En ella se obtiene -a nivel de la tasa que interesa, y según la vida útil de la
+inversión (n)- el valor de la suma de los coeficientes de actualización, los que directamente se multiplican
+por el valor de Fj.
+A efectos de aclarar más los procedimientos de cálculo, se supone que esta misma inversión de $
+10.000 genera fondos durante 4 años por un total también de $ 12.000, pero ahora, no distribuidos
+igualmente en los 4 años, sino como se expresa a continuación:
+Valor actual de los flujos
+Flujos anuales Factor de descuento
+Detalle anuales
+(S) (i = 6 %)
+(s)
+Año 1 1.000 0,943 943
+Año 2 3.000 0,890 2.670
+Año 3 5.000 0,840 4.200
+Año 4 3.000 0,792 2.376
+Valor actual total 10.189
+4
+
+Valor actual de los flujos
+Flujos anuales Factor de descuento
+Detalle anuales
+(S) (i = 7 %)
+(s)
+Año 1 1.000 0,935 935
+Año 2 3.000 0,873 2.619
+Año 3 5.000 0,816 4.080
+Año 4 3.000 0,763 2.289
+Valor actual total 9.923
+La tasa de rentabilidad se encuentra entre el 6 % y el 7 %, y es muy cercana a esta última. Como se
+aprecia, la inversión es del mismo monto que en el caso considerado antes; también, el monto de los flujos de
+fondos. Sin embargo, tienen distinta tasa de rentabilidad, Ello se debe al diferente desarrollo temporal de los
+flujos de fondos.
+La importancia de obtener la tasa que iguale la corriente de flujos actualizados con la inversión
+inicial radica ciertamente en el hecho de que ella es la máxima tasa de retorno requerida (o costo del capital)
+que la firma puede aceptar para financiar el proyecto, sin perder dinero. Si un proyecto se financia, por
+ejemplo, con una deuda al 7 %, se calcula la tasa de rentabilidad y ésta resulta también del 7 %, la empresa
+logrará que los fondos generados por el proyecto alcancen exactamente para pagar el servicio de la deuda
+(capital más intereses). Si, por el contrario, la tasa de rentabilidad es del 8 %, el proyecto será rentable. De
+ser del 6 %, se perderá dinero si se lleva adelante.
+La regla de aceptación de la tasa de rentabilidad es aceptar toda inversión cuya tasa sea
+superior a la tasa de rendimiento requerida.
+Es útil recordar la referencia conceptual básica que se expresó en el cap. 3 (pto. 3,4), que señalaba
+que una decisión de invertir debe ir adelante en la medida en que supere las opciones que ofrece el mercado
+financiero. Estas opciones van a ser la tasa de rendimiento requerida que ahora se señala. Esta será la misma
+que se acepte y estará compuesta por el costo de los financiamientos de las inversiones. Si es una deuda su
+costo, que está dado en el mercado y si son fondos propios, la tasa que ellos requieren conforme al riesgo
+también la dará el mercado. En el texto se irán, naturalmente, profundizando estos conceptos.
+Supóngase que la tasa de rendimiento requerida (costo del capital) es del 8 %; de las distintas
+inversiones expuestas seguidamente sólo hasta D serán aceptables, puesto que sus tasas de rentabilidad son
+superiores al 8 %. Los proyectos E y F serán rechazados porque no la alcanzan.
+Costo Costo actual TR
+Inversión
+($) ($) (%)
+A 100.000 100.000 20
+B 120.000 220.000 16
+C 70.000 290.000 15
+D 90.000 380.000 10
+Tasa de retorno requerida = 8% - tasa de corte
+E 100.000 7
+F 20.000 6
+El ranking de las inversiones se efectúa por el valor de la tasa de rentabilidad obtenida.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. En el criterio de tasa de rentabilidad, ¿cuál es la tasa de descuento?
+6,2. VALOR PRESENTE NETO
+5
+
+El valor presente neto 2 puede definirse como el valor presente del conjunto de flujos de fondos que
+derivan de una inversión, descontados a la tasa de retorno requerida de la misma al momento de efectuar el
+desembolso de la inversión, menos esta inversión inicial, valuada también a ese momento.
+Al ser k la tasa de retorno requerida (costo del capital) de la inversión, el VPN se define como:
+n Fj
+VPN(cid:4) (cid:3) (cid:1)
+F0
+j(cid:4)1 (cid:1) 1(cid:2)k (cid:2)j
+[3]
+o alternativamente:
+n Fj
+VPN(cid:4) (cid:3) (cid:1)
+F1
+j(cid:4)0 (cid:1) 1(cid:2)k (cid:2)j
+[4]
+Cuando se procedía por tanteo, el cálculo del VPN era, pues, más simple que el de la tasa de
+rentabilidad, desde que la tasa de descuento es un dato del problema. Por consiguiente, las etapas para
+calcularlo son:
+a) hallar el valor presente de cada uno de los flujos de fondos que derivan de la inversión, descontados a la
+tasa de retorno requerida (k);
+b) proceder a sumarlos, con lo que obtenemos el total del valor presente de los flujos de fondos;
+c) finalmente, a ese total se le resta el flujo de fondos que deriva de la inversión, que en la medida en que se
+desplace en el tiempo también debe actualizarse; ese resultado, como ya se ha expresado, constituye el
+VPN.
+Ejemplo
+Considerando una tasa de rendimiento requerida igual al 5%, el valor presente neto del ejemplo
+referenciado en el análisis de la tasa de rentabilidad sería:
+Años Flujos anuales ($) Factor de descuento (%) Valor presente
+0 (inversión) (10.000) 1,000 (10.000)
+1 1.000 0,952 952
+2 3.000 0,907 2.721 10.642
+3 5.000 0,864 4.320
+4 3.000 0,823 2.469
+Valor presente neto = 10.642 - 10.000 = 642
+El criterio de aceptación o rechazo de la inversión se establece en función del monto del valor
+presente neto. La regla es aceptar toda inversión cuyo valor actual neto es mayor que 0, obtenido
+descontando los flujos de fondos a la tasa de rendimiento requerida. El ranking de las inversiones en el
+criterio del valor presente neto se efectúa sobre la base del valor de éstos.
+2 También a menudo referido como valor actual neto. En los trabajos técnicos en inglés, se encuentra fundamentalmente
+como net present value.
+6
+
+Las inversiones E y F no son aceptables, por ser su VPN menor que 0. Las restantes son expuestas en
+el ranking correspondiente a su VPN decreciente.
+Valor presente de Fj- S Monto de la inversión F VPN
+Inversión 0
+(j > 0 y k = 7%) (S) (S)
+A 15.200 (10.000) 5.200
+B 14.050 (10.000) 4.050
+C 12.120 (10.000) 2.120
+D 10.070 (10.000) 70
+E 9.280 (10.000) (820)
+F 9.030 (10.000) (970)
+Es importante la comprensión del significado que encierra la cifra que se obtiene como valor
+presente neto.
+Supóngase la siguiente inversión: sabiendo que la tasa de retorno requerida es del 6 %, se llega a un
+valor presente neto de $ 395.
+Flujos anuales Factor de descuento
+Años Valor presente
+($) (%)
+0 (10.000) 1,000 (10.000)
+1 3.000 0,943 2.829
+2 3.000 0,890 2.670
+10.395
+3 3.000 0,840 10.395
+4 3.000 0,792 2.520
+2.376
+Valor presente neto = 10.395 - 10.000 = 395
+Significa que la riqueza de la empresa se va a incrementar en $ 395 si se acepta el proyecto.
+Visto desde un ángulo algo diferente, equivaldría a que la empresa pidiera un préstamo por $ 10.395
+con un interés del 6 % anual y que, inmediatamente de recibido, se distribuyeran $ 395 como dividendos a
+los propietarios de la inversión, y con los restantes $ 10.000 se realizara la misma. El préstamo más sus
+intereses del 6 % se pagarían con los flujos de fondos que genera el propio proyecto.
+El detalle de la situación planteada, suponiendo recibir un préstamo de $ 10.395, se resume en el
+cuadro siguiente:
+1 2 3 4 5 6
+4-Pagos de los
+Años Saldo inicial ($) Intereses (6%) ($) 2 + 3 ($) flujos de fondos Saldo final ($)
+($)
+1 10.395 624 11.019 3.000 8.019
+2 8.019 481 8.500 3.000 5.500
+3 5.500 330 5.830 3.000 2.830
+4 2.830 170 3.000 3.000 -
+Finalmente, se quiere señalar que de la propia definición establecida al inicio, la tasa de
+rentabilidad es la tasa de descuento que lleva a que el VPN sea cero.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es la tasa de descuento, en el valor presente neto.
+7
+
+6,3 RELACIÓN BENEFICIO/COSTO (B/C)
+Utilizando los mismos elementos que el valor actual neto, la relación beneficio/costo surge del
+cociente entre los flujos de fondos actualizados a la tasa de rendimiento requerida (k) y el valor actual de la
+inversión.
+Podría representarse, pues, como:
+n
+F
+(cid:2)
+j(cid:3)1 (cid:1) 1(cid:1)k (cid:2)j
+Relación B /C (cid:3)
+F
+[5]
+Si la inversión se realiza en m años y los beneficios comenzaran a partir de m + 1, se tendrá como
+relación beneficio/costo:
+n Fj
+(cid:2)
+j(cid:3) m(cid:1)1 (cid:1) 1(cid:1)k (cid:2)j
+Relación B/ C (cid:3)
+m Fj
+(cid:2)
+j(cid:3) 0 (cid:1) 1(cid:1)k (cid:2)j
+[6]
+En el ejemplo que se viene desarrollando, la relación beneficio/costo es:
+10.642
+Relación beneficio/costo(cid:1) (cid:1)1,00642
+10.000
+De acuerdo con el criterio beneficio/costo, una inversión es aceptable en la medida en que éste
+sea mayor que 1.
+Es decir, una inversión será aceptable si:
+Relación B/C > 1
+El ranking de las inversiones de acuerdo con este criterio se establecería según el valor del
+mismo.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Similitudes y diferencias entre el VPN y la relación B/C.
+8
+
+6,4. ALGUNOS PUNTOS PRACTICOS RELACIONADOS CON EL CÁLCULO DE LA
+TASA DE RENTABILIDAD Y EL VALOR PRESENTE NETO
+Esta sección está dedicada al análisis de algunos aspectos prácticos que pueden presentarse en el
+cálculo de la tasa de rentabilidad y el valor actual neto, o, si se quiere más generalmente, a los criterios que
+manejan flujos de fondos descontados.
+a) FLUJOS DE FONDOS CONSTANTES
+El caso de inversiones que generan flujos de fondos constantes facilita en forma apreciable los
+cálculos tanto de la tasa de rentabilidad como del valor actual neto.
+Ejemplo
+Supóngase una inversión con los siguientes flujos de fondos:
+0 1 2 3 4 5
+__________________________________________________________________________________
+(10.000) 3.166 3.166 3.166 3.166 3.166
+En estos casos no es necesario realizar un proceso de actualización flujo por flujo para calcular, por
+ejemplo, la tasa de rentabilidad.
+Basta dividir la inversión entre el flujo de fondos más allá del año 0.
+Esto es:
+10.000
+(cid:1)3,79
+3.166
+Resulta un coeficiente, en este caso, 3,79. Para calcular la tasa de descuento (equivale a la tasa de
+rentabilidad) se utiliza la tabla 2, que reporta el valor presente de un peso recibido por período. Se debe
+buscar en la n que corresponda al caso tratado (en éste, n = 5) a qué valor de i pertenece el cociente obtenido.
+En este caso es el 10 %, de donde éste también es la tasa de rentabilidad.
+Suelen presentarse inversiones con flujos de fondos desiguales, y luego iguales.
+Ejemplo
+0 1 2 3 4 5 6 7
+______________________________________________________________________________________
+(39.100) 5.000 6.000 9.000 9.000 9.000 9.000 9.000
+En el cálculo de la tasa de rentabilidad se utiliza para los dos primeros períodos la tabla 1, y para los
+otros, la tabla 2 que se encuentran al final del libro.
+De esta forma, actualizando al 9 %, se tiene:
+9
+
+Flujos de anuales Factor de actualización
+Años Valor presente
+($) (9%)
+0 (39.100) 1,000 (39.100)
+1 5.000 0,917 4.585
+2 6.000 0,842 5.050
+3-7 9.000 3,2739 29.465
+Valor presente neto = 0
+La tasa de rentabilidad es, pues, del 9 %. El factor 3,2739 se obtuvo restando el factor de n = 7, que
+es 5,0330, menos el factor de n = 2, que es 1,7591.
+b) INVERSIÓN REALIZADA EN VARIOS AÑOS
+Los ejemplos mostrados hasta ahora correspondían a una inversión que se efectuaba en un solo
+período y que luego del mismo empezaba a generar los beneficios, a los que se representarán en forma de
+flujos de fondos.
+Supóngase la siguiente inversión, que se realiza en tres períodos y que recién en el cuarto comienza a
+redituar:
+0 1 2 3 4 ..................... 10
+_____________________________________________________________________________________
+(1.220) (400) (218) 400 400 400
+El cálculo de la tasa de rentabilidad, por ejemplo, implica la actualización de todos los flujos de
+fondos más allá del período 0. El cuadro siguiente lo ilustra:
+Flujos de fondos Factor actual Valor presente
+Años
+($) (10%) ($)
+0 (1.220) 1,0000 (1.220)
+1 (400) 0,9091 (364)
+2 (218) 0,8264 (180)
+3-10 400 4,4091 (*) 1.764
+0
+(*) Corresponde a la suma de los factores de actualización de 8 años (del 3 al 10).
+La tasa de rentabilidad en el ejemplo es del 10 %.
+Actualizar las inversiones realizadas en los períodos 1 y 2 equivale a exigir a éstas una capitalización
+de intereses por el período en que, a pesar de haberse invertido en ellas, no se obtuvieron beneficios. Esta es
+otra forma de plantear el mismo problema.
+En el caso que se analiza, la situación es la siguiente:
+Monto de la inversión al fin del año 1
+1.220 x 1,1(cid:2)1.342
+(cid:1)400
+1.742
+10
+
+Monto de la inversión al fin del año 2
+1.742 x 1,1(cid:2)1.916,2
+(cid:1)218
+2.134,2
+Por lo tanto, el monto de la inversión a comienzos del año 3, en que empiezan a
+aparecer los flujos positivos, es de $ 2.134.
+Descontando los flujos de $ 400 por 8 años a la tasa del 10 %, se llega a 400 x 5,3349 = 2.134, que
+coincide con el volumen de la inversión luego de capitalizar sus flujos intermedios al 10 %, con lo que queda
+de manifiesto que ésa es la tasa de rentabilidad.
+c) GENERACIÓN DE FLUJOS A FIN DEL PERIODO
+En los distintos ejemplos que se realizaron utilizando los criterios de flujo de fondos descontados,
+subyace un supuesto rara vez explicitado: esto es, que los flujos de fondos se generan una vez en cada
+período y, más específicamente, al fin del mismo. Este supuesto de considerar los flujos de fondos
+generándose al final de cada período impone a los resultados, en muchos casos, un sentido conservador,
+puesto que se exige un mayor descuento a cada flujo,
+A pesar de que la mayoría de las veces los fondos se generan durante todo el período (lo que haría
+más razonable considerarlos generados a mediados del mismo), lo cierto es que, en la práctica, el supuesto es
+bien aceptado.
+Se verá, pues, la situación de un caso en que se efectúa la inversión en una máquina que permite
+ampliar la producción y que genera una serie de flujos de fondos.
+El supuesto clásico de generación de flujos al fin de cada período se grafica a continuación,
+siguiendo un ejemplo ya visto:
+0 1 2 3 4
+uno dos tres cuatro
+(10.000) 3.000 3.000 3.000 3.000
+Se recordará que la tasa de rentabilidad de esta inversión es aproximadamente del 7,72%.
+Con el supuesto de generación del flujo de fondos, a mediados de año la situación sería la siguiente:
+1/2 1 1/2 2 1/2 3 1/2
+0 1 2 3 4
+uno dos tres cuatro
+(10.000) 3.000 3.000 3.000 3.000
+Para calcular la tasa de rentabilidad se procede a actualizar hasta la mitad del año 1.
+Con la tasa de descuento del 9 % se llega a un valor presente neto de $ 137.
+11
+
+Actualización a mediados del año 1: 3.000 x 2,53129 7.594
+Flujo de fondos del año 1............................................................. 3.000
+10.594
+Actualización por medio año: 10.594 x 0,956938........................ 10.137
+Valor presente neto: 10. 137 - 10.000.......................................... 137
+Para actualizar por medio año, la tasa aproximada que se ha tomado para propósitos prácticos es del
+4,5 %.
+Utilizando ahora el 10 % se llega a un valor presente neto de $ (38).
+Actualización a mediados del año 1: 3.000 x 2,48685 7.460
+Flujo de fondos del año 1............................................................. 3.000
+10.460
+Actualización por medio año: 10.594 x 0,95238........................ 9.962
+Valor presente neto: 9.962 - 10.000.......................................... (38)
+Para efectos prácticos se consideró para un semestre la tasa del 5 %.
+La tasa de rentabilidad está entonces entre el 8 y el 10 %. Interpolando se obtiene 9,78 %
+Siguiendo el supuesto de fin de año, la tasa era del 7,72 %; sin embargo, con el de mediados de año,
+pasa a ser del 9,78 %. En casos como el planteado, la diferencia puede llegar a tener importancia.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es la importancia de suponer que los flujos se generan el último día del año.
+6,5. PERIODO DE REPAGO3
+El período de recupero es probablemente uno de los criterios más utilizados para evaluar inversiones.
+Su simplicidad de cálculo y de interpretación seguramente ayuda en ese sentido.
+El período de recupero se define como el lapso en el cual los beneficios derivados de una inversión,
+medidos en términos de flujos de fondos, recuperan la inversión inicialmente efectuada.
+Ejemplo
+Supóngase una inversión inicial de F = $ 18.000, que produce durante 10 años flujos de fondos F =
+0 j
+$ 5.600. El período de repago será igual a:
+18.000
+(cid:1)3,214
+5.600
+O sea, 3,214 años.
+Una definición más general del período de repago sería t en la siguiente expresión:
+3 También conocido como período de recupero o período de reembolso. En la literatura técnica inglesa se lo denomina
+payback period.
+12
+
+F
+0 (cid:1)1
+(cid:1)t
+F
+j
+j(cid:1)1
+[7]
+donde:
+F : inversión inicial;
+0
+F: monto anual del flujo de fondos;
+j
+t : período de repago.
+En el capítulo correspondiente, más adelante se verá con más detalle el concepto de flujo de fondos.
+Por el momento, se debe señalar que no se cuentan las depreciaciones y otros cargos que no implican egresos
+dentro de los costos, pero sí se toman los cargos financieros (intereses, por ejemplo).
+Según este criterio, el ranking entre varias inversiones se efectúa sobre la base de la extensión de su
+período de repago; en cuanto a la aceptabilidad de las inversiones, sobre la base de la fijación de ciertos
+estándares con carácter de máximo.
+Supóngase, pues, un conjunto de inversiones -A, B, C, D y E-, cuyos períodos de repago se exponen
+seguidamente, teniendo Fijado un máximo de aceptabilidad de 3 años:
+Período de repago
+Inversión Aceptabilidad Ranking
+(en años)
+A 2 Sí 3
+B 1,8 Sí 2
+C 1,1 Sí 1
+D 4,2 No
+E 2 Sí 3
+De las cinco inversiones, sobre la base del límite establecido, la D no es aceptable; sólo lo son A, B,
+C y E. Dentro de ellas, la prioridad son C, B, A y E.
+Varias han sido las limitaciones que se le han encontrado al criterio.
+No tiene en cuenta los flujos de fondos más allá de su período de repago. En el ejemplo anterior, dos
+inversiones, la A y la E, tienen el mismo período de repago (2 años), por lo que, según este criterio, ellas
+tienen la misma posición. La inversión inicial es idéntica en ambas ($ 10.000), y sus flujos de fondos anuales
+también ($ 5.000), sin embargo, la inversión A sólo tiene flujos de fondos durante 2 años, en tanto que E
+rinde $ 5.000 anuales durante 3 años. La inversión E es, naturalmente, superior a A, aunque el criterio de
+período de repago le asigna igual ranking.
+Asimismo, no toma en consideración el valor tiempo del dinero. Para el criterio es indiferente que un
+flujo de fondos se produzca en el año 1 o en el 4.
+Inversión
+Inversión inicial F F ($) F ($) F ($) F ($) F ($)
+0 1 2 3 4 5
+($)
+1 (1.000) 500 400 100 100 100
+2 (1.000) 100 400 500 100 100
+Estas inversiones 1 y 2 tienen idéntico período de repago, es decir, 3 años. Sin embargo, los flujos de
+fondos de la inversión 1 son más cercanos al momento de la inversión inicial, en tanto que los de la 2 se
+producen más distantes en el tiempo. Seguramente será más conveniente la inversión 1, en tanto que según el
+criterio de período de repago ellas ocuparán la misma posición.
+Se señala, además, que el criterio no es una medida de rentabilidad, es decir, no mide los
+rendimientos de las inversiones. En efecto, sólo mide tiempos.
+A menudo se lo suele defender sobre la base de ciertas virtudes que se le atribuyen y que se repasan
+a continuación.
+13
+
+Este criterio puede arrojar alguna luz acerca del riesgo de las inversiones. Supóngase que dos
+inversiones -A y B- tengan la misma rentabilidad, pero diferentes períodos de repago; por ejemplo, 1, 3 y 4, y
+8 años, respectivamente. De ello se concluye que el proyecto B es más riesgoso. Una profundización del
+análisis del riesgo, que se estudiará en algunos capítulos más adelante, muestra que éste es un problema
+especialmente complejo, donde las variables sujetas a incertidumbre (ventas, precios, costos, vida útil,
+inversión inicial, etc.) son muchas, lo que relativiza seguramente una afirmación, como la referenciada
+acerca del período de repago y el riesgo.
+Suele expresarse, asimismo, que permite mostrar la situación de liquidez de las distintas inversiones,
+al relacionar sus flujos de caja con la inversión inicial, y que posibilita extraer conclusiones sobre factibilidad
+de repago de endeudamiento incurrido para financiar la inversión.
+Otra defensa del criterio está basada en que la incertidumbre, más allá de períodos relativamente
+cortos, suele ser grande como para tentar pronósticos serios. El período de repago asumiría en este sentido
+una posición más realista en cuanto a la evaluación de inversiones.
+Otro argumento, además del de su sencillez de cálculo, que con frecuencia se maneja, es el que tiene
+vinculación con las ganancias por acción. Se asocian comúnmente menores períodos de repago con mayores
+ganancias por acción. Sin embargo, no debe olvidarse que la maximización del valor de la empresa, objetivo
+último de las finanzas, tiene relación con un conjunto de factores -entre los que se cuentan la tasa de
+crecimiento de las ganancias (que pueden verse comprometidas con políticas muy expansivas), la tasa de
+descuento (que toma en consideración el riesgo), etc.-, en los cuales una política de rápido crecimiento de las
+ganancias por acción no contribuye, por sí misma, al señalado objetivo.
+El criterio del período de repago aparece, pues, como primario y debería usarse como complemento
+de otros criterios más refinados en el análisis de inversiones, Sus aportes en cuanto a riesgo y liquidez, quizá
+los más remarcables, serán tanto más útiles cuanto más extremos son los casos analizados.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las principales virtudes y problemas del período de repago.
+6,6. TASA SIMPLE DE RENDIMIENTO SOBRE LA INVERSIÓN
+Es también un criterio apreciablemente utilizado. Sin embargo, no existe unanimidad en su forma de
+cálculo. En su versión más común, la tasa simple de rendimiento sobre la inversión (TSRI) se define como el
+cociente entre el promedio de ganancias netas de depreciaciones e impuestos, sobre la inversión inicial (fijas
+más capital de trabajo). Las ambigüedades en su definición sobrevienen en las dos magnitudes involucradas.
+Así, en las ganancias, la TSRI se toma, a veces, sin descontar depreciaciones o sin restar Impuestos.
+Asimismo, si bien el concepto de una ganancia promedio es lo más común, suelen utilizarse también el de un
+año representativo o el de] primer año (con frecuencia, de dudosa utilidad).
+Se suelen presentar problemas similares en cuanto a la definición de la inversión. De esta forma, a
+veces no se agregan a las fijas las inducidas por un incremento de capital de trabajo. La consideración de la
+inversión promedio en lugar de la inicial se muestra como alternativa frecuente. También se pueden notar
+diferencias en casos en que se computen como inversiones las que han sido contablemente capitalizadas, o
+que se agreguen otras que han sido tratadas como gastos.
+Todas estas diferencias pueden hacer variar seriamente el valor de la tasa simple de retorno sobre la
+inversión. Supóngase una inversión que rinde una ganancia promedio anual neta de depreciaciones e
+impuestos de $ 5.200, y que la inversión inicial sea de $ 20.000 en activos fijos y $ 4.000 en capital de
+trabajo.
+Tomando como inversión la efectuada inicialmente y en total, la TSRI será:
+5.200
+TSRI(cid:1) (cid:1)0,2167
+24.000
+sea, el 21.67%
+Sin embargo, computando la inversión promedio se arribaría a:
+14
+
+5.200
+TSRI(cid:1) (cid:1)0,3714
+20.000
+(cid:2)4.000
+2
+o sea, el 31,14 %.
+Siguiendo el criterio TSRI, una inversión es aceptable en la medida en que su tasa de retorno
+sea superior a una determinada "tasa de corte" y el ranking entre varias inversiones se asigna sobre la
+base de sus tasas de retorno.
+Las críticas que posiblemente se le efectúa con más asiduidad radican en que no tiene en cuenta el
+valor tiempo del dinero. Para el criterio es indiferente que un beneficio se reciba en el año 1 o en el 10. En
+otra forma, podría decirse que ignora la vida útil de la inversión.
+Supóngase las siguientes inversiones, A y B, que tienen la misma inversión inicial, la misma vida útil
+y el mismo beneficio promedio. La TSRI es también igual para las dos inversiones:
+Flujos de beneficios TSRI
+Inversión Beneficio s/inversion
+TSRI s/l
+Inversión inicial B1 B2 B3 B4 promedio es
+(%)
+($) ($) ($) ($) ($) ($) promedi
+(%)
+A (7.000) 500 400 300 200 350 5 10
+B (7.000) 350 350 350 350 350 5 10
+Para este criterio es indiferente elegir la inversión A o la B.
+Sin embargo, de acuerdo con los criterios que consideran el valor tiempo del dinero, la inversión A es
+más conveniente que la B, por tener más concentrados los flujos de beneficios en las cercanías de la
+inversión. Esto se pone de manifiesto al aplicar criterios, como los ya vistos, que contemplan el valor tiempo
+del dinero.
+Esta crítica se ha tratado de contrarrestar complementando el análisis con los resultados derivados
+del período de repago de las inversiones. No obstante, subsisten los problemas de comparación, por ejemplo,
+en el caso de una determinada inversión con otra que tiene un rápido período de repago pero una baja TSRI.
+A menudo, también se emplea como tasa de corte la tasa de retorno requerida. Sin embargo, se debe
+resaltar este error, puesto que los flujos de beneficios se suelen considerar netos de intereses y otros costos
+financieros, con lo que no se estaría midiendo el rendimiento de una inversión con prescindencia de su
+financiamiento, sino que, por el contrario, los costos de éstos entran en el análisis del rendimiento.
+Con respecto a este criterio, que para medir performances puede tener alguna utilidad, en el campo
+del análisis de inversiones no se ve, quizás, otra virtud que su sencillez. En efecto, su cálculo es simple, y los
+datos necesarios son fácilmente obtenibles.
+Se ha señalado en alguna oportunidad que existe cierta correspondencia entre la TSRI y algún criterio
+más elaborado que se vio en este mismo capítulo. Ello ha permitido establecer a este último como un
+sustituto rápido de la tasa de rentabilidad.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Principales debilidades de la TSRI.
+6,7. PERIODO DE REPAGO AJUSTADO POR EL TIEMPO
+Cuando se analizó el período de repago como criterio, una de las críticas principales que se
+establecieron fue que no tiene en cuenta el valor tiempo del dinero.
+Este defecto se soluciona cuando se calcula el período de repago, ajustando por el valor tiempo del
+dinero los flujos de fondos.
+15
+
+Supóngase la inversión siguiente:
+0 1 2 3 4 5
+_________________________________________________________________________________
+(3.657) 2.000 2.000 2.000 2.000 2.000
+Descontando el 8 % a los flujos de fondos se tiene:
+Concepto 0 1 2 3 4 5
+Flujos descontados $ (3.567) 1.852 1.715 1.588 1.470 1.361
+Valor presente acumulado
+(3.567) (1.715) 0 1.588 3.058 4.419
+$
+El valor presente acumulado arroja un saldo 0 en el segundo año, de donde el período de repago,
+ajustando los flujos de fondos por el tiempo, es de 2 años.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Comparación entre período de repago ajustado por el tiempo y valor presente neto.
+6,8. TASA DE RENTABILIDAD Y TASA SIMPLE DE RENDIMIENTO SOBRE LA
+INVERSIÓN
+La eventualidad de considerar a veces la TSRI como un sustituto aproximado de la TR se debe lleva a
+efectuar algunas consideraciones sobre el punto.
+Desde el comienzo se debe decir que es muy difícil señalar determinadas correspondencias que se
+apliquen con generalidad; se tratan, sin embargo, las grandes pautas conceptuales, que permitirán formarse
+una idea de los puntos clave que influencian sus relaciones.
+La TSRI que se tratará en esta sección es siempre después de considerar las depreciaciones como
+costos en sus flujos de beneficios. Sin embargo, cuando sea preciso, se agregarán al de otras supuestas.
+Se verán, en primer término, las relaciones entre ambos criterios, suponiendo flujos de fondos
+constantes y la inexistencia de impuestos a la renta. Sobre esta base es fácil derivar que la TSRI arroja
+valores menores que la TR, salvo en casos de configuraciones especiales de las variables involucradas.
+La diferencia entre una y otra es pequeña cuando el proyecto tiene una vida útil de 40 o 50 años, o
+menos de 1. Entre ambos períodos las diferencias entre una y otra crecen, y siempre es mayor la TR.
+Pero otras diferencias no sólo dependen de la vida útil de la inversión. Porel contrario, son función
+también de] valor de las tasas involucradas. Cuanto mayores sean éstas, más grandes serán las diferencias en
+términos absolutos.
+Cuando los flujos de fondos no son constantes debería analizarse cada caso. Sin embargo, puede
+expresarse que en la medida en que los flujos de fondos sean crecientes en el tiempo, es más probable que los
+valores de la TR y la TSRI sean más próximos. Si los flujos de fondos son decrecientes en el tiempo, los
+valores de ambos criterios serán más distantes.
+Por último, se quiere indicar que la no consideración por parte de la TSRI del valor tiempo del dinero
+determina que sea indiferente un flujo de fondos recibido en el año 1 o en el 10.
+Eso lleva a señalar que, en la evaluación, la TSRI se manifiesta menos generosa en los proyectos de
+corta vida útil.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuándo son grandes las diferencias entre la TR y la TSRI.
+16

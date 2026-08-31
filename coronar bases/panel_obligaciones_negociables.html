@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de Obligaciones Negociables — Coronar Inversiones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-950: #080B14;
+    --navy-900: #0D1220;
+    --navy-800: #131A2C;
+    --navy-700: #1B2438;
+    --line: rgba(148,163,184,0.14);
+    --emerald: #10B981;
+    --gold: #E8B25A;
+    --coral: #E8735A;
+    --sky: #6EA8FE;
+    --text-hi: #EDF1F7;
+    --text-mid: #A8B3C7;
+    --text-low: #6B7690;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  html,body{
+    background: var(--navy-950);
+    color: var(--text-hi);
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body{
+    background-image:
+      radial-gradient(ellipse 900px 500px at 12% -5%, rgba(16,185,129,0.08), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 92% 8%, rgba(232,178,90,0.06), transparent 55%);
+    padding: 56px 24px 80px;
+  }
+
+  .wrap{ max-width: 1180px; margin: 0 auto; }
+  .mono{ font-family: 'JetBrains Mono', monospace; }
+
+  header{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    flex-wrap: wrap; gap: 20px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 28px;
+    margin-bottom: 40px;
+  }
+  .brand{ display:flex; align-items:center; gap:12px; margin-bottom: 18px; }
+  .brand-mark{
+    width:34px; height:34px; border-radius:9px;
+    background: linear-gradient(135deg, var(--emerald), #0B7A54);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'JetBrains Mono'; font-weight:700; font-size:14px; color:#04140E;
+  }
+  .brand-name{ font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-mid); }
+  .brand-name b{ color: var(--text-hi); font-weight:600; }
+
+  h1{ font-size: 34px; font-weight:600; letter-spacing:-0.01em; line-height:1.15; max-width: 640px; }
+  h1 span{ color: var(--emerald); }
+  .subtitle{ color: var(--text-mid); font-size:15px; margin-top:10px; max-width:560px; }
+
+  .updated{ text-align:right; font-family:'JetBrains Mono'; font-size:12.5px; color: var(--text-low); }
+  .updated .dot{
+    display:inline-block; width:6px; height:6px; border-radius:50%;
+    background: var(--emerald); margin-right:7px; box-shadow: 0 0 8px var(--emerald);
+  }
+
+  .stats{
+    display:grid; grid-template-columns: repeat(4, 1fr); gap:1px;
+    background: var(--line); border: 1px solid var(--line);
+    border-radius: 14px; overflow:hidden; margin-bottom: 48px;
+  }
+  .stat{ background: var(--navy-900); padding: 20px 22px; }
+  .stat .label{ font-size:11.5px; text-transform:uppercase; letter-spacing:0.07em; color:var(--text-low); margin-bottom:8px; }
+  .stat .value{ font-family:'JetBrains Mono'; font-size:23px; font-weight:600; color:var(--text-hi); }
+  .stat .value.up{ color: var(--emerald); }
+  .stat .sub{ font-size:12px; color:var(--text-mid); margin-top:4px; }
+
+  .section-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:20px; flex-wrap:wrap; gap:8px; }
+  .section-head h2{ font-size:19px; font-weight:600; }
+  .section-head .eyebrow{ font-family:'JetBrains Mono'; font-size:11.5px; letter-spacing:0.09em; text-transform:uppercase; color: var(--emerald); margin-bottom:6px; display:block; }
+  .section-head .note{ font-size:12.5px; color: var(--text-low); }
+
+  .chart-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:16px; padding: 28px 28px 20px; margin-bottom: 52px; }
+  .chart-card svg{ width:100%; height:auto; display:block; }
+  .axis-label{ font-family:'JetBrains Mono'; font-size:11px; fill: var(--text-low); }
+  .grid-line{ stroke: var(--line); stroke-width:1; }
+  .pt-label{ font-family:'JetBrains Mono'; font-size:11.5px; fill: var(--text-mid); }
+  .pt{ stroke: var(--navy-900); stroke-width:2; }
+  .legend{ display:flex; gap:22px; margin-top:14px; flex-wrap:wrap; padding-left:4px;}
+  .legend-item{ display:flex; align-items:center; gap:7px; font-size:12px; color:var(--text-mid); }
+  .legend-swatch{ width:9px; height:9px; border-radius:50%; }
+
+  .table-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:16px; overflow:hidden; margin-bottom: 52px; }
+  table{ width:100%; border-collapse:collapse; }
+  thead th{
+    text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:0.06em;
+    color: var(--text-low); font-weight:500; padding: 16px 18px; border-bottom:1px solid var(--line);
+    background: var(--navy-800); white-space:nowrap;
+  }
+  thead th.num, tbody td.num{ text-align:right; }
+  tbody td{ padding: 15px 18px; font-family:'JetBrains Mono'; font-size:13px; border-bottom:1px solid var(--line); white-space:nowrap; color: var(--text-hi); }
+  tbody tr:last-child td{ border-bottom:none; }
+  tbody tr:hover{ background: rgba(255,255,255,0.02); }
+  .ticker{ font-weight:700; color: var(--text-hi); }
+  .issuer{ font-family:'Space Grotesk'; font-size:13px; color: var(--text-mid); }
+  .yield-hi{ color: var(--emerald); font-weight:600; }
+  .sector-tag{ display:inline-flex; align-items:center; gap:6px; font-family:'Space Grotesk'; font-size:12px; color:var(--text-mid); }
+  .sector-dot{ width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+  .var-pos{ color: var(--emerald); }
+  .var-neg{ color: var(--coral); }
+  .var-flat{ color: var(--text-low); }
+
+  .grid-cards{ display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-bottom:52px; }
+  .bond-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:14px; padding: 20px 20px 18px; }
+  .bond-card .top{ display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:14px; }
+  .bond-card .tk{ font-family:'JetBrains Mono'; font-weight:700; font-size:15px; }
+  .bond-card .em{ font-size:12px; color:var(--text-mid); margin-top:3px; max-width:170px; }
+  .bond-card .tir{ text-align:right; }
+  .bond-card .tir .n{ font-family:'JetBrains Mono'; font-size:19px; font-weight:600; color:var(--emerald); }
+  .bond-card .tir .l{ font-size:10px; color:var(--text-low); text-transform:uppercase; letter-spacing:0.06em; }
+  .kv{ display:flex; justify-content:space-between; padding:6px 0; font-size:12.5px; border-bottom:1px dashed var(--line); }
+  .kv:last-child{ border-bottom:none; }
+  .kv .k{ color: var(--text-low); }
+  .kv .v{ font-family:'JetBrains Mono'; color: var(--text-hi); }
+  .next-pay{ margin-top:14px; padding-top:14px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; }
+  .next-pay .d{ font-size:11px; color:var(--text-low); text-transform:uppercase; letter-spacing:0.05em;}
+  .next-pay .p{ font-family:'JetBrains Mono'; font-size:13px; color:var(--gold); }
+
+  /* ---- Simulador ---- */
+  .sim-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:16px; padding: 26px 26px 8px; margin-bottom:24px; }
+  .sim-inputs{ display:grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap:14px; margin-bottom: 10px; }
+  .sim-input{ background: var(--navy-800); border:1px solid var(--line); border-radius:12px; padding: 12px 14px; }
+  .sim-input .lbl{ display:flex; align-items:center; gap:6px; font-family:'JetBrains Mono'; font-size:12px; font-weight:700; margin-bottom:8px; }
+  .sim-input .lbl .d{ width:7px; height:7px; border-radius:50%; }
+  .sim-input input{
+    width:100%; background: var(--navy-950); border:1px solid var(--line); border-radius:8px;
+    padding: 8px 10px; color: var(--text-hi); font-family:'JetBrains Mono'; font-size:13.5px;
+    outline:none; transition: border-color .15s ease;
+  }
+  .sim-input input:focus{ border-color: var(--emerald); }
+
+  .sim-summary{ display:grid; grid-template-columns: repeat(3, 1fr); gap:1px; background: var(--line); border:1px solid var(--line); border-radius:14px; overflow:hidden; margin-bottom: 28px; }
+  .sim-summary .box{ background: var(--navy-900); padding:18px 20px; }
+  .sim-summary .box .l{ font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-low); margin-bottom:6px; }
+  .sim-summary .box .v{ font-family:'JetBrains Mono'; font-size:21px; font-weight:600; }
+  .sim-summary .box .v.g{ color: var(--emerald); }
+  .sim-summary .box .v.a{ color: var(--gold); }
+
+  .flow-scroll{ max-height: 560px; overflow-y: auto; }
+  .flow-scroll table thead th{ position: sticky; top:0; z-index:2; }
+  .flow-scroll table tbody td.month-cell{ color: var(--text-mid); font-family:'Space Grotesk'; font-size:12.5px; }
+  .flow-scroll table tbody td.total-cell{ color: var(--emerald); font-weight:700; }
+  .flow-scroll table tbody td.zero{ color: var(--text-low); opacity:0.4; }
+  .flow-scroll table tbody tr.has-amort{ background: rgba(232,178,90,0.05); }
+  .flow-scroll table tfoot td{ padding:16px 18px; font-family:'JetBrains Mono'; font-size:13px; background: var(--navy-800); border-top:2px solid var(--line); font-weight:700; }
+  .flow-scroll table tfoot td.num{ text-align:right; }
+
+  .disclaimer{ margin-top: 56px; padding: 22px 26px; border:1px solid var(--line); border-radius:14px; background: var(--navy-900); font-size:12.5px; line-height:1.7; color: var(--text-low); }
+  .disclaimer b{ color: var(--text-mid); }
+  footer{ margin-top:40px; text-align:center; font-size:11.5px; color: var(--text-low); font-family:'JetBrains Mono'; }
+
+  @media (max-width: 720px){
+    .stats{ grid-template-columns: repeat(2, 1fr); }
+    .sim-summary{ grid-template-columns: 1fr; }
+    h1{ font-size:26px; }
+    thead th, tbody td{ padding:12px 12px; font-size:12px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <div class="brand">
+        <div class="brand-mark">CN</div>
+        <div class="brand-name"><b>Coronar Inversiones</b> · Capital Navigator</div>
+      </div>
+      <h1>Panel técnico de <span>Obligaciones Negociables</span> corporativas</h1>
+      <p class="subtitle">Rendimientos, duración, sector y cronograma de pagos de ONs en dólares negociadas en el Mercado Abierto Electrónico.</p>
+    </div>
+    <div class="updated">
+      <span class="dot"></span>Datos al 15·07·2026<br>
+      Sectores: Yahoo Finance
+    </div>
+  </header>
+
+  <section class="stats">
+    <div class="stat"><div class="label">TIR máxima</div><div class="value up">10,62%</div><div class="sub">CP38O · CGC 2030</div></div>
+    <div class="stat"><div class="label">TIR mínima</div><div class="value">6,68%</div><div class="sub">YM34O · YPF 2034</div></div>
+    <div class="stat"><div class="label">Duration promedio</div><div class="value">5,58</div><div class="sub">años, ponderado simple</div></div>
+    <div class="stat"><div class="label">Especies relevadas</div><div class="value">8</div><div class="sub">todas en USD, ley NY</div></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Mapa de rendimientos</span><h2>Duration vs. TIR por sector (Yahoo Finance)</h2></div>
+      <div class="note">El tamaño de cada punto representa el current yield</div>
+    </div>
+
+    <div class="chart-card">
+      <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+        <g>
+          <line class="grid-line" x1="80" y1="40" x2="80" y2="340"/>
+          <line class="grid-line" x1="80" y1="340" x2="750" y2="340"/>
+          <line class="grid-line" x1="235" y1="40" x2="235" y2="340" stroke-dasharray="2 5"/>
+          <line class="grid-line" x1="390" y1="40" x2="390" y2="340" stroke-dasharray="2 5"/>
+          <line class="grid-line" x1="545" y1="40" x2="545" y2="340" stroke-dasharray="2 5"/>
+          <line class="grid-line" x1="700" y1="40" x2="700" y2="340" stroke-dasharray="2 5"/>
+          <line class="grid-line" x1="80" y1="140" x2="750" y2="140" stroke-dasharray="2 5"/>
+          <line class="grid-line" x1="80" y1="240" x2="750" y2="240" stroke-dasharray="2 5"/>
+        </g>
+        <text class="axis-label" x="80" y="365">3,0 años</text>
+        <text class="axis-label" x="380" y="365">5,3 años</text>
+        <text class="axis-label" x="670" y="365">7,5 años</text>
+        <text class="axis-label" x="400" y="392" text-anchor="middle">Duration (Macaulay-adj.)</text>
+        <text class="axis-label" x="20" y="45">11,0%</text>
+        <text class="axis-label" x="20" y="145">9,3%</text>
+        <text class="axis-label" x="20" y="245">7,5%</text>
+        <text class="axis-label" x="20" y="345">6,5%</text>
+        <text class="axis-label" x="34" y="190" transform="rotate(-90 34 190)" text-anchor="middle">TIR</text>
+
+        <!-- Energía: CP38O, PLC7O, PLC4O, TSC4O, YM34O -->
+        <circle class="pt" cx="105" cy="65" r="11" fill="#10B981"/>
+        <text class="pt-label" x="118" y="60">CP38O</text>
+        <text class="pt-label" x="118" y="74" fill="#6B7690">CGC · 11,88%</text>
+
+        <circle class="pt" cx="644" cy="274" r="8" fill="#10B981"/>
+        <text class="pt-label" x="596" y="258">PLC7O</text>
+
+        <circle class="pt" cx="294" cy="315" r="8" fill="#10B981"/>
+        <text class="pt-label" x="248" y="333">PLC4O</text>
+
+        <circle class="pt" cx="585" cy="315" r="7" fill="#10B981"/>
+        <text class="pt-label" x="595" y="333">TSC4O</text>
+
+        <circle class="pt" cx="343" cy="328" r="8" fill="#10B981"/>
+        <text class="pt-label" x="297" y="345">YM34O</text>
+
+        <!-- Bienes raíces: IRCPO -->
+        <circle class="pt" cx="448" cy="318" r="8" fill="#E8B25A"/>
+        <text class="pt-label" x="400" y="336">IRCPO</text>
+
+        <!-- Acciones industriales / Conglomerados: MGCRO -->
+        <circle class="pt" cx="710" cy="296" r="8" fill="#E8735A"/>
+        <text class="pt-label" x="655" y="312">MGCRO</text>
+
+        <!-- Servicios de comunicación: TLCTO -->
+        <circle class="pt" cx="512" cy="282" r="8" fill="#6EA8FE"/>
+        <text class="pt-label" x="466" y="266">TLCTO</text>
+      </svg>
+      <div class="legend">
+        <div class="legend-item"><span class="legend-swatch" style="background:#10B981"></span>Energía (Petróleo y Gas Integrados)</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:#E8B25A"></span>Bienes raíces</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:#E8735A"></span>Acciones industriales (Conglomerados)</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:#6EA8FE"></span>Servicios de comunicación</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Detalle técnico</span><h2>Especies ordenadas por TIR</h2></div>
+      <div class="note">Todas en USD · convención 30/360 · pago semestral</div>
+    </div>
+
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Ticker</th><th>Emisor</th><th>Sector</th>
+            <th class="num">Cupón</th><th>Vencimiento</th><th class="num">TIR</th>
+            <th class="num">TNA</th><th class="num">Precio</th><th class="num">Var.</th>
+            <th class="num">Duration</th><th class="num">Current Yield</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="ticker">CP38O</td><td class="issuer">Compañía General de Combustibles</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">11,875%</td><td>28/11/2030</td><td class="num yield-hi">10,62%</td>
+            <td class="num">10,36%</td><td class="num">$1.616,00</td><td class="num var-flat">0,00%</td>
+            <td class="num">3,17</td><td class="num">11,29%</td>
+          </tr>
+          <tr>
+            <td class="ticker">PLC7O</td><td class="issuer">Pluspetrol S.A. — Clase 7</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">7,55%</td><td>30/09/2037</td><td class="num">7,49%</td>
+            <td class="num">7,42%</td><td class="num">$1.538,50</td><td class="num var-pos">+0,29%</td>
+            <td class="num">6,79</td><td class="num">7,45%</td>
+          </tr>
+          <tr>
+            <td class="ticker">TLCTO</td><td class="issuer">Telecom Argentina — Clase 27</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#6EA8FE"></span>Serv. de comunicación</span></td>
+            <td class="num">8,50%</td><td>20/01/2036</td><td class="num">7,37%</td>
+            <td class="num">7,24%</td><td class="num">$1.700,90</td><td class="num var-neg">-0,27%</td>
+            <td class="num">5,90</td><td class="num">7,85%</td>
+          </tr>
+          <tr>
+            <td class="ticker">MGCRO</td><td class="issuer">Pampa Energía — Clase 26</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#E8735A"></span>Acciones industriales</span></td>
+            <td class="num">7,75%</td><td>14/11/2037</td><td class="num">7,16%</td>
+            <td class="num">7,03%</td><td class="num">$1.617,00</td><td class="num var-pos">+0,59%</td>
+            <td class="num">7,23</td><td class="num">7,34%</td>
+          </tr>
+          <tr>
+            <td class="ticker">PLC4O</td><td class="issuer">Pluspetrol S.A. — Clase 4</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">8,50%</td><td>29/05/2032</td><td class="num">6,88%</td>
+            <td class="num">6,76%</td><td class="num">$1.655,10</td><td class="num var-pos">+0,03%</td>
+            <td class="num">4,44</td><td class="num">7,85%</td>
+          </tr>
+          <tr>
+            <td class="ticker">TSC4O</td><td class="issuer">Transportadora de Gas del Sur — Clase 4</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">7,75%</td><td>20/11/2035</td><td class="num">6,88%</td>
+            <td class="num">6,78%</td><td class="num">$1.631,70</td><td class="num var-pos">+0,10%</td>
+            <td class="num">6,39</td><td class="num">7,27%</td>
+          </tr>
+          <tr>
+            <td class="ticker">IRCPO</td><td class="issuer">IRSA Inversiones y Representaciones — Clase XXIV</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#E8B25A"></span>Bienes raíces</span></td>
+            <td class="num">8,00%</td><td>31/03/2035</td><td class="num">6,83%</td>
+            <td class="num">6,72%</td><td class="num">$1.662,00</td><td class="num var-pos">+0,13%</td>
+            <td class="num">5,47</td><td class="num">7,44%</td>
+          </tr>
+          <tr>
+            <td class="ticker">YM34O</td><td class="issuer">YPF Sociedad Anónima — Clase XXXIV</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">8,25%</td><td>17/01/2034</td><td class="num">6,68%</td>
+            <td class="num">6,57%</td><td class="num">$1.708,00</td><td class="num var-pos">+0,64%</td>
+            <td class="num">4,77</td><td class="num">7,58%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Simulador</span><h2>Flujo de fondos mensual proyectado</h2></div>
+      <div class="note">Ajustá los nominales de cada especie — la tabla se recalcula automáticamente</div>
+    </div>
+
+    <div class="sim-card">
+      <div class="sim-inputs" id="simInputs"></div>
+    </div>
+
+    <div class="sim-summary">
+      <div class="box"><div class="l">Total a cobrar (cartera)</div><div class="v g" id="sumTotal">u$s 0,00</div></div>
+      <div class="box"><div class="l">Solo cupones</div><div class="v" id="sumCoupon">u$s 0,00</div></div>
+      <div class="box"><div class="l">Solo amortizaciones</div><div class="v a" id="sumAmort">u$s 0,00</div></div>
+    </div>
+
+    <div class="table-card">
+      <div class="flow-scroll">
+        <table>
+          <thead>
+            <tr id="flowHeadRow">
+              <th>Mes</th>
+            </tr>
+          </thead>
+          <tbody id="flowBody"></tbody>
+          <tfoot>
+            <tr id="flowFootRow"><td>Total</td></tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Cronograma</span><h2>Próximo pago por especie</h2></div>
+      <div class="note">Días corridos al 15/07/2026</div>
+    </div>
+
+    <div class="grid-cards">
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">CP38O</div><div class="em">Compañía General de Combustibles</div></div><div class="tir"><div class="n">10,62%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,015833</span></div>
+        <div class="kv"><span class="k">Paridad</span><span class="v">1,051212</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">9 de 11</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 28/11/2026</span><span class="p">u$s 59,38 · 135 días</span></div>
+      </div>
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">MGCRO</div><div class="em">Pampa Energía S.A.</div></div><div class="tir"><div class="n">7,16%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,013347</span></div>
+        <div class="kv"><span class="k">Paridad</span><span class="v">1,054443</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">23 de 25</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 14/11/2026</span><span class="p">u$s 38,75 · 121 días</span></div>
+      </div>
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">PLC7O</div><div class="em">Pluspetrol S.A. — Clase 7</div></div><div class="tir"><div class="n">7,49%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,003356</span></div>
+        <div class="kv"><span class="k">Amortización</span><span class="v">Sinkable</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">22 de 23</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 30/03/2027</span><span class="p">u$s 56,63 · 257 días</span></div>
+      </div>
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">TLCTO</div><div class="em">Telecom Argentina S.A.</div></div><div class="tir"><div class="n">7,37%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,041556</span></div>
+        <div class="kv"><span class="k">Amortización</span><span class="v">Sinkable</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">20 de 21</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 20/07/2026</span><span class="p">u$s 42,50 · 4 días</span></div>
+      </div>
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">PLC4O</div><div class="em">Pluspetrol S.A. — Clase 4</div></div><div class="tir"><div class="n">6,88%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,010861</span></div>
+        <div class="kv"><span class="k">Amortización</span><span class="v">Bullet</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">12 de 15</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 30/11/2026</span><span class="p">u$s 42,50 · 137 días</span></div>
+      </div>
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">TSC4O</div><div class="em">Transportadora de Gas del Sur</div></div><div class="tir"><div class="n">6,88%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,012056</span></div>
+        <div class="kv"><span class="k">Amortización</span><span class="v">Bullet</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">19 de 21</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 20/11/2026</span><span class="p">u$s 38,75 · 127 días</span></div>
+      </div>
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">IRCPO</div><div class="em">IRSA Inversiones y Representaciones</div></div><div class="tir"><div class="n">6,83%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,023556</span></div>
+        <div class="kv"><span class="k">Amortización</span><span class="v">Sinkable</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">18 de 21</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 30/09/2026</span><span class="p">u$s 40,00 · 76 días</span></div>
+      </div>
+      <div class="bond-card">
+        <div class="top"><div><div class="tk">YM34O</div><div class="em">YPF Sociedad Anónima</div></div><div class="tir"><div class="n">6,68%</div><div class="l">TIR</div></div></div>
+        <div class="kv"><span class="k">Valor técnico</span><span class="v">1,041021</span></div>
+        <div class="kv"><span class="k">Amortización</span><span class="v">Sinkable</span></div>
+        <div class="kv"><span class="k">Pagos pendientes</span><span class="v">16 de 19</span></div>
+        <div class="next-pay"><span class="d">Próx. pago 17/07/2026</span><span class="p">u$s 41,25 · 1 día</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="disclaimer">
+    <b>Información de carácter técnico e informativo.</b> Los datos presentados corresponden a cotizaciones y estructuras de flujo de fondos de Obligaciones Negociables relevadas del Mercado Abierto Electrónico y no constituyen una recomendación de compra o venta. La clasificación sectorial de los emisores listados (YPF, IRSA, TGS, Pampa Energía, Telecom) proviene de datos de Yahoo Finance; Compañía General de Combustibles y Pluspetrol S.A. se agrupan como Energía por actividad, al no cotizar en bolsa. Los rendimientos (TIR/TNA) se calculan sobre el último precio operado y están sujetos a variación diaria. El simulador de flujo de fondos es una proyección basada en el cronograma contractual vigente (sin default ni rescate anticipado) y no constituye asesoramiento de inversión. Antes de tomar una decisión, cada inversor debe evaluar su propio perfil de riesgo y horizonte de inversión.
+  </div>
+
+  <footer>Coronar Inversiones · Agente Productor CNV Matrícula N° 2192 · Capital Navigator</footer>
+
+</div>
+
+<script>
+(function(){
+  // Cashflow schedules per bond, per 1.000 nominales (fecha, total en u$s)
+  const bonds = [
+    { id:'CP38O', name:'CGC 2030', sector:'Energía', color:'#10B981', qty:1000, cf:[
+      ['2026-11-28',59.38],['2027-05-28',59.38],['2027-11-28',59.38],['2028-05-28',59.38],
+      ['2028-11-28',59.38],['2029-05-28',59.38],['2029-11-28',59.38],['2030-05-28',59.38],
+      ['2030-11-28',1059.38]
+    ]},
+    { id:'MGCRO', name:'Pampa 2037', sector:'Acciones industriales', color:'#E8735A', qty:1000, cf:[
+      ['2026-11-14',38.75],['2027-05-14',38.75],['2027-11-14',38.75],['2028-05-14',38.75],
+      ['2028-11-14',38.75],['2029-05-14',38.75],['2029-11-14',38.75],['2030-05-14',38.75],
+      ['2030-11-14',38.75],['2031-05-14',38.75],['2031-11-14',38.75],['2032-05-14',38.75],
+      ['2032-11-14',38.75],['2033-05-14',38.75],['2033-11-14',38.75],['2034-05-14',38.75],
+      ['2034-11-14',38.75],['2035-05-14',38.75],['2035-11-14',38.75],['2036-05-14',38.75],
+      ['2036-11-14',38.75],['2037-05-14',38.75],['2037-11-14',1038.75]
+    ]},
+    { id:'PLC7O', name:'Pluspetrol Cl.7', sector:'Energía', color:'#10B981', qty:1000, cf:[
+      ['2027-03-30',56.63],['2027-09-30',37.75],['2028-03-30',37.75],['2028-09-30',37.75],
+      ['2029-03-30',37.75],['2029-09-30',37.75],['2030-03-30',37.75],['2030-09-30',37.75],
+      ['2031-03-30',37.75],['2031-09-30',37.75],['2032-03-30',37.75],['2032-09-30',37.75],
+      ['2033-03-30',37.75],['2033-09-30',37.75],['2034-03-30',37.75],['2034-09-30',37.75],
+      ['2035-03-30',37.75],['2035-09-30',367.75],['2036-03-30',25.29],['2036-09-30',355.29],
+      ['2037-03-30',12.83],['2037-09-30',352.84]
+    ]},
+    { id:'TLCTO', name:'Telecom 2036', sector:'Serv. de comunicación', color:'#6EA8FE', qty:1000, cf:[
+      ['2026-07-20',42.50],['2027-01-20',42.50],['2027-07-20',42.50],['2028-01-20',42.50],
+      ['2028-07-20',42.50],['2029-01-20',42.50],['2029-07-20',42.50],['2030-01-20',42.50],
+      ['2030-07-20',42.50],['2031-01-20',42.50],['2031-07-20',42.50],['2032-01-20',42.50],
+      ['2032-07-20',42.50],['2033-01-20',42.50],['2033-07-20',42.50],['2034-01-20',42.50],
+      ['2034-07-20',42.50],['2035-01-20',542.50],['2035-07-20',21.25],['2036-01-20',521.25]
+    ]},
+    { id:'PLC4O', name:'Pluspetrol Cl.4', sector:'Energía', color:'#10B981', qty:1000, cf:[
+      ['2026-11-30',42.50],['2027-05-30',42.50],['2027-11-30',42.50],['2028-05-30',42.50],
+      ['2028-11-30',42.50],['2029-05-30',42.50],['2029-11-30',42.50],['2030-05-30',42.50],
+      ['2030-11-30',42.50],['2031-05-30',42.50],['2031-11-30',42.50],['2032-05-30',1042.50]
+    ]},
+    { id:'TSC4O', name:'TGS 2035', sector:'Energía', color:'#10B981', qty:1000, cf:[
+      ['2026-11-20',38.75],['2027-05-20',38.75],['2027-11-20',38.75],['2028-05-20',38.75],
+      ['2028-11-20',38.75],['2029-05-20',38.75],['2029-11-20',38.75],['2030-05-20',38.75],
+      ['2030-11-20',38.75],['2031-05-20',38.75],['2031-11-20',38.75],['2032-05-20',38.75],
+      ['2032-11-20',38.75],['2033-05-20',38.75],['2033-11-20',38.75],['2034-05-20',38.75],
+      ['2034-11-20',38.75],['2035-05-20',38.75],['2035-11-20',1038.75]
+    ]},
+    { id:'IRCPO', name:'IRSA 2035', sector:'Bienes raíces', color:'#E8B25A', qty:1000, cf:[
+      ['2026-09-30',40.00],['2027-03-31',40.00],['2027-09-30',40.00],['2028-03-31',40.00],
+      ['2028-09-30',40.00],['2029-03-31',40.00],['2029-09-30',40.00],['2030-03-31',40.00],
+      ['2030-09-30',40.00],['2031-03-31',40.00],['2031-09-30',40.00],['2032-03-31',40.00],
+      ['2032-09-30',40.00],['2033-03-31',370.00],['2033-09-30',26.80],['2034-03-31',356.80],
+      ['2034-09-30',13.60],['2035-03-31',353.60]
+    ]},
+    { id:'YM34O', name:'YPF 2034', sector:'Energía', color:'#10B981', qty:1000, cf:[
+      ['2026-07-17',41.25],['2027-01-17',41.25],['2027-07-17',41.25],['2028-01-17',41.25],
+      ['2028-07-17',41.25],['2029-01-17',41.25],['2029-07-17',41.25],['2030-01-17',41.25],
+      ['2030-07-17',41.25],['2031-01-17',41.25],['2031-07-17',41.25],['2032-01-17',341.25],
+      ['2032-07-17',28.88],['2033-01-17',328.88],['2033-07-17',16.50],['2034-01-17',416.50]
+    ]}
+  ];
+
+  const fmt = new Intl.NumberFormat('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  const monthNames = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+
+  function buildInputs(){
+    const wrap = document.getElementById('simInputs');
+    wrap.innerHTML = '';
+    bonds.forEach(b=>{
+      const div = document.createElement('div');
+      div.className = 'sim-input';
+      div.innerHTML =
+        '<div class="lbl"><span class="d" style="background:'+b.color+'"></span>'+b.id+'</div>' +
+        '<input type="number" min="0" step="100" value="'+b.qty+'" data-id="'+b.id+'">';
+      wrap.appendChild(div);
+    });
+    wrap.querySelectorAll('input').forEach(inp=>{
+      inp.addEventListener('input', e=>{
+        const id = e.target.getAttribute('data-id');
+        const val = parseFloat(e.target.value) || 0;
+        bonds.find(b=>b.id===id).qty = val;
+        render();
+      });
+    });
+  }
+
+  function monthKey(dateStr){ return dateStr.slice(0,7); } // YYYY-MM
+
+  function render(){
+    // build ordered list of unique months across all bonds
+    const monthSet = new Set();
+    bonds.forEach(b=> b.cf.forEach(([d])=> monthSet.add(monthKey(d))));
+    const months = Array.from(monthSet).sort(); // ascending YYYY-MM
+
+    // header
+    const headRow = document.getElementById('flowHeadRow');
+    headRow.innerHTML = '<th>Mes</th>' + bonds.map(b=>'<th class="num">'+b.id+'</th>').join('') + '<th class="num">Total</th>';
+
+    // body
+    const body = document.getElementById('flowBody');
+    body.innerHTML = '';
+    let grandTotal = 0, couponTotal = 0, amortTotal = 0;
+
+    months.forEach(m=>{
+      let rowTotal = 0;
+      let rowHasAmort = false;
+      const cells = bonds.map(b=>{
+        const entries = b.cf.filter(([d])=> monthKey(d)===m);
+        let sum = 0;
+        entries.forEach(([d,total])=>{
+          const perNominal = total/1000;
+          const amount = perNominal * b.qty;
+          sum += amount;
+          // estimate amortization vs coupon split: amounts above the "typical" coupon flag as containing amortization
+          if(total > (b.cf[0][1]*1.3)) rowHasAmort = true;
+        });
+        rowTotal += sum;
+        if(sum === 0) return '<td class="num zero">—</td>';
+        return '<td class="num">'+fmt.format(sum)+'</td>';
+      });
+
+      grandTotal += rowTotal;
+      const [y,mm] = m.split('-');
+      const label = monthNames[parseInt(mm,10)-1] + ' ' + y;
+      const tr = document.createElement('tr');
+      if(rowHasAmort) tr.className = 'has-amort';
+      tr.innerHTML = '<td class="month-cell">'+label+'</td>' + cells.join('') + '<td class="num total-cell">'+fmt.format(rowTotal)+'</td>';
+      body.appendChild(tr);
+    });
+
+    // coupon vs amort totals (approx: amort = payments where per-bond amount includes face value multiple)
+    bonds.forEach(b=>{
+      b.cf.forEach(([d,total])=>{
+        const perNominal = total/1000;
+        const amount = perNominal * b.qty;
+        const baseCoupon = b.cf[0][1]/1000 * b.qty;
+        if(total > b.cf[0][1]*1.3){
+          couponTotal += baseCoupon;
+          amortTotal += (amount - baseCoupon);
+        } else {
+          couponTotal += amount;
+        }
+      });
+    });
+
+    const footRow = document.getElementById('flowFootRow');
+    const perBondTotals = bonds.map(b=>{
+      const t = b.cf.reduce((acc,[d,total])=> acc + (total/1000)*b.qty, 0);
+      return '<td class="num">'+fmt.format(t)+'</td>';
+    });
+    footRow.innerHTML = '<td>Total</td>' + perBondTotals.join('') + '<td class="num">'+fmt.format(grandTotal)+'</td>';
+
+    document.getElementById('sumTotal').textContent = 'u$s ' + fmt.format(grandTotal);
+    document.getElementById('sumCoupon').textContent = 'u$s ' + fmt.format(couponTotal);
+    document.getElementById('sumAmort').textContent = 'u$s ' + fmt.format(amortTotal);
+  }
+
+  buildInputs();
+  render();
+})();
+</script>
+
+</body>
+</html>

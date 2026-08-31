@@ -1,0 +1,36 @@
+﻿ticker,industria,sector_etf,noticias_total,score_neto,bullish,bearish
+PR,Oil & Gas E&P,XLE,10,4,4,0
+COP,Oil & Gas E&P,XLE,10,4,5,1
+EOG,Oil & Gas E&P,XLE,10,3,5,2
+EQNR,Oil & Gas Integrated,XLE,10,2,3,1
+E,Oil & Gas Integrated,XLE,10,-1,2,3
+SU,Oil & Gas Integrated,XLE,10,4,4,0
+VG,Oil & Gas Midstream,XLE,10,6,6,0
+LNG,Oil & Gas Midstream,XLE,10,8,8,0
+TRGP,Oil & Gas Midstream,XLE,10,8,8,0
+PBF,Oil & Gas Refining & Marketing,XLE,10,8,8,0
+DINO,Oil & Gas Refining & Marketing,XLE,10,3,3,0
+MPC,Oil & Gas Refining & Marketing,XLE,10,5,6,1
+RTX,Aerospace & Defense,XLI,10,4,4,0
+GD,Aerospace & Defense,XLI,10,5,5,0
+GE,Aerospace & Defense,XLI,10,5,5,0
+DE,Farm & Heavy Construction Machinery,XLI,10,5,5,0
+PCAR,Farm & Heavy Construction Machinery,XLI,10,0,1,1
+OSK,Farm & Heavy Construction Machinery,XLI,10,2,2,0
+CSX,Railroads,XLI,10,4,4,0
+UNP,Railroads,XLI,10,3,3,0
+CNI,Railroads,XLI,10,6,6,0
+EMR,Specialty Industrial Machinery,XLI,10,5,5,0
+PH,Specialty Industrial Machinery,XLI,10,6,6,0
+ETN,Specialty Industrial Machinery,XLI,10,4,5,1
+SONY,Consumer Electronics,XLK,10,5,5,0
+AAPL,Consumer Electronics,XLK,10,0,2,2
+MRVL,Semiconductors,XLK,10,4,5,1
+AMD,Semiconductors,XLK,10,5,5,0
+ARM,Semiconductors,XLK,10,5,5,0
+SNOW,Software - Application,XLK,10,4,4,0
+DDOG,Software - Application,XLK,10,2,3,1
+SHOP,Software - Application,XLK,10,5,5,0
+PANW,Software - Infrastructure,XLK,10,2,3,1
+CRWD,Software - Infrastructure,XLK,10,0,3,3
+FTNT,Software - Infrastructure,XLK,10,4,4,0

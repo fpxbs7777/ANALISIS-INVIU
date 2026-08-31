@@ -1,0 +1,2346 @@
+C
+UESTIONES CONTABLES
+F
+UNDAMENTALES
+Q
+UINTA EDICIÓN
+ENRIQUE FOWLER NEWTON
+LA LEY
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+Fowler Newton, Enrique
+Cuestiones contables fundamentales.
+5a ed. - Buenos Aires: La Ley, 2011.
+752 p. ;24x 17 cm.
+ISBN 978-987-03-1896-5
+1. Contabilidad. I. Título
+CDD 657
+1º Edición 1982
+2º Edición 1991
+3º Edición 2001
+4º Edición 2005
+5º Edición 2011
+Copyright C 2011 by La ley S.A.E. e I.
+Tucumán 1471 (C1050AACC) Buenos Aires
+Queda hecho el depósito que previene la ley 11.723
+Impreso en la Argentina
+Todos los derechos reservados
+Ninguna parte de esta obra puede ser reproducida
+o transmitida en cualquier forma o por cualquier medio
+electrónico o mecánico, incluyendo fotocopiado, grabación
+o cualquier otro sistema de archivo y recuperación
+de información, sin el previo permiso por escrito del editor y del autor.
+Printed in Argentina
+All rights reserved
+No part of this work may be reproduced
+or transmitted in any form or by any means,
+electronic or mechanical, including photocopying and recording
+or by any information storage or retrieval system,
+without permission in writing from the publisher and the author.
+Tirada: 2500 ejemplares.
+I.S.B.N. 978-987-03-1896-5
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+CAPÍTULO 2
+CUALIDADES DE LA INFORMACIÓN
+FINANCIERA ÚTIL
+2,1. INTRODUCCIÓN
+La información financiera producida por una entidad debería ser útil
+para la toma de decisiones por parte de sus directores, de sus administra-
+dores y de partes externas a ella. Para que esto ocurra, esa información debe
+poseer ciertas cualidades (1), que le permitan satisfacer las necesidades de
+sus usuarios.
+Para simplificar su redacción, en el resto de este capítulo utilizare-
+mos la palabra cualidades con el significado de cualidades que la
+información financiera debería reunir para ser útil a sus usuarios.
+Los supuestos referidos a las cualidades deberían formar parte del MC de
+las NC que regulen la preparación de estos documentos. Como cualesquiera
+elementos de un MC, tales supuestos deberían ayudar:
+a) a desarrollar las NC aplicando métodos deductivos;
+b) a resolver problemas concretos de preparación de información conta-
+ble cuando no existan NC que se refieran específicamente a ellos.
+Además de figurar en un MC, las cualidades deberían ser identificadas en
+una NC de alto nivel, cuyo texto podría comenzar así:
+La información contenida en los estados financieros
+debe reunir las siguientes cualidades:
+a) (...)
+Las cualidades de los ICI pueden ser fijados por los directores y los admi-
+nistradores de la entidad que los emite, sin sujeción a regla externa alguna.
+(1) O atributos o propiedades o características cualitativas.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+72 ENRIQUE FOWLER NEWTON
+Sin embargo, sería raro que difirieran significativamente de las que debería
+reunir los estados financieros de ese mismo ente.
+En este capítulo estudiaremos:
+a) las que a nuestro juicio son cualidades que la información financiera
+debería reunir;
+b) ciertas cuestiones relacionadas;
+c) la forma en que la cuestión de las cualidades ha sido tratada:
+1) en los MC de las NIIF, de los US GAAP y de las propuestas de MC
+elaboradas por la FACPCE; y
+2) en la “NIIF para las PYMES”
+Antes, una nota histórica. Según creemos, los primeros trabajos impor-
+tantes sobre los requisitos que deberían reunir los informes contables se pu-
+blicaron en las décadas de 1960 y 1970. Entre ellos, se incluyen los prepara-
+dos por:
+a) un comité creado por la American Accounting Association (AAA, Aso
+ciación Americana de Contabilidad) (2) para la elaboración de una
+declaración sobre teoría contable básica (3);
+b) el grupo de estudio creado en 1971 por el American Institute of Certi-
+fied Public Accountants (AICPA, Instituto Americano de Contadores
+Públicos Certificados) para considerar el tema de los objetivos de los
+estados financieros (4);
+c) ocho destacados profesionales argentinos, siete de los cuales actuaron
+en la década del setenta en la Comisión de Principios Contables del
+Instituto Técnico de Contadores Públicos (ITCP) de la actual Federa
+ción Argentina de Graduados en Ciencias Económicas (FAGCE)(5).
+(2) Una organización académica estadounidense, integrada principalmente por profeso
+res de contabilidad.
+(3) A Statement of Basic Accounting Theory, informe del AAA Committee to Prepares
+Statement of Basic Accounting Theory, 1966. Las cualidades de la información contable que
+se proponen se presentan bajo la denominación normas contables básicas en las páginas 7-13
+del informe.
+(4) Objectives of Financial Statements, Report of the Study Group on the Objectives of
+Financial Statements, AICPA, 1973, páginas 57-66. Se lo conoce como Informe Trueblood por
+referencia al apellido del presidente del grupo de estudio.
+(5) BIONDI, MARIO; FORTINI, HERNANDO L.; LÓPEZ SANTISO, HORACIO; LUPPI, HUGO; OTE-
+RO, ALFONSO; OUTEIRAL, LUIS E.; SLOSSE, CARLOS A. y URRIZA, JOSÉ, Ideas para una reformu-
+lación total de los principios de contabilidad generalmente aceptados, trabajo presentado al
+Primer Congreso Nacional para Profesionales en Ciencias Económicas (Mar del Plata, 1974)|
+reproducido en Administración de Empresas, vol. VI-A (abril-setiembre de 1975), páginas 345
+383. Este trabajo surgió de la revisión de otro presentado (sin la firma de Biondi) a las VII Jorna-
+das Rioplatenses de Contabilidad (Piriápolis, 1973).
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 73
+2,2. CLASIFICACIONES Y RELACIONES
+A lo largo del tiempo, las cualidades han sido clasificadas o relacionadas
+de diversas maneras.
+En particular, el IASB y la FASB adoptaron, en septiembre de 2010, una
+clasificación de las cualidades (que en sus MC se denominan características
+cualitativas) en:
+a) fundamentales; y
+b) mejoradoras de la utilidad de la información financiera.
+Por practicidad, utilizaremos esta clasificación, aunque (ya se lo verá) no
+estamos del todo conformes con el contenido de la lista de cualidades del
+segundo tipo.
+2,3. CUALIDADES FUNDAMENTALES
+Para ser útil, la información contable debe reunir, imprescindiblemente,
+las dos cualidades que consideraremos en esta sección.
+A) PERTINENCIA
+1) Concepto
+La información contable suministrada debe ser pertinente a las necesi-
+dades de información de sus usuarios.
+T
+En los MC de la IASB y la FASB, el concepto que analizaremos se
+identifica con la palabra relevance, que se refiere a la relación entre
+una cosa y una materia determinada (en el caso, las mencionadas
+necesidades de información).
+Lamentablemente, el vocablo en bastardilla ha sido traducido como
+relevancia en las versiones en español de las NIIF emitidas hasta
+2010. Esto es inadecuado porque en nuestro idioma:
+a) relevancia equivale a importancia o significación (6); mientras
+que
+b) la idea trasmitida por el vocablo inglés relevance se expresa con
+las palabras pertinencia, atingencia o atinencia.
+Por otra parte, los contadores empleamos la palabra significación
+con el sentido específico de importancia, que es distinto al de per-
+tinencia.
+(6) Diccionario de la Real Academia Española, vigésima segunda edición, http://www.
+rae.es (ver relevancia y relevante).
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+74 ENRIQUE FOWLER NEWTON
+Para aplicar esta idea, deben considerarse las necesidades específicas de
+los usuarios de los estados financieros y de los ICI, que son distintas.
+Nos referimos a esas necesidades en el apartado l,4,d), dedicados a
+contenido mínimo de los informes contables.
+Una forma de determinar si una información en particular es relevante
+consiste en:
+a) evaluar si su inclusión les agrega algo a los usuarios de los informes
+contables;
+b) partir del supuesto de que dichos usuarios no están al tanto de tal in-
+formación, excepto cuando ella sea ampliamente conocida.
+Así, no sería necesario que en un juego de estados financieros se
+hiciese referencia a las normas legales que regulan la actividad de
+su emisor cuando ellas son ampliamente conocidas. En cambio, las
+normas que afecten exclusivamente a dicho emisor deberían ser
+mencionadas o resumidas en tales estados.
+En definitiva, debería informarse lo que haga alguna diferencia para la
+toma de decisiones.
+Si hubiese más de un tipo de información pertinente a las necesidades in-
+formativas de los usuarios, debería suministrarse la que les resulte más útil.
+Por ejemplo, el precio de mercado de unos títulos con cotización te
+nidos como colocación transitoria de fondos es más relevante que
+su costo histórico.
+La eventual inclusión de información que no sea pertinente a las necesi
+dades de los destinatarios de los estados financieros no los convierte en inúti-
+les, pero puede llevar a esas personas a:
+a) dedicar a la lectura de los informes contables más tiempo del conve-
+niente;
+b) preguntarse ¿para qué me brindan esta información?
+Esta situación se presenta cuando algún organismo gubernamental dicta
+NC para determinados emisores de estados financieros atendiendo más a sus
+propias necesidades que a las de la generalidad de los usuarios.
+En la sección 2,5,c), veremos que la omisión de información pertinente es
+aceptable cuando no afecta las decisiones que podrían tomar sus usuarios.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 75
+La existencia de papelería no utilizada en una empresa podría no
+ser informada como un activo si su valor fuera poco importante.
+2) Cualidades secundarias ligadas a la pertinencia
+Se ha señalado que una información contable crea una diferencia en la
+toma de decisiones cuando:
+a) puede ser empleada como un dato de entrada en la predicción de he-
+chos futuros (tiene valor predictivo); o
+b) permite confirmar o corregir predicciones anteriores (posee valor
+confirmatorio).
+En general, debería esperarse que toda información pertinente tenga va-
+lor predictivo, pues se supone que los usuarios de la información contable
+emplean los datos referidos al presente y al pasado para imaginar el futuro.
+Estos son ejemplos de informaciones financieras referidas al pasa-
+do o al presente que deberían considerarse al imaginar hechos del
+futuro:
+Información Ayuda a pronosticar
+Ingresos y gastos del ejercicio.
+La rentabilidad futura.
+Negocios que se han discontinua-
+do. Ídem.
+Activos y pasivos. La capacidad del ente para cance-
+lar sus obligaciones.
+Los resultados acumulados por la La probabilidad de que ella pague
+entidad. dividendos.
+B) REPRESENTATIVIDAD
+1) Concepto
+Además de ser pertinente a las necesidades informativas de sus usuarios,
+el contenido de un informe contable debería constituir una representación
+fidedigna (7) de lo que pretende describir, de manera que dichos usuarios
+puedan confiar en dicha información cuando toman decisiones basadas
+(aunque fuere parcialmente) en ella.
+(7) Faithful representation, en los MC de la IASB y la FASB modificados en 2010.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+76 ENRIQUE FOWLER NEWTON
+Es inadecuado referirse a la cualidad bajo análisis diciendo que
+información contable debe suministrar una imagen fiel (de lo que
+pretende representar) porque:
+a) fiel significa exacto, conforme a la verdad (8);
+b) como ya hemos señalado, la contabilidad no suministra informa-
+ción exacta (entre otras razones, debido a la necesidad de efectuar
+estimaciones para asignar medidas monetarias a activos, pasivos
+y otros elementos).
+La representatividad es especialmente importante en el caso de los esta-
+dos financieros, porque sus usuarios típicos no pueden confirmar la informa-
+ción que ellos contienen accediendo a los registros contables del emisor de
+la documentación que la respalda. Por esta razón, la presentación de estados
+financieros que contengan información divorciada de la realidad debería te-
+ner consecuencias penales o civiles para las personas responsables por el
+contenido.
+En la Argentina, dicha presentación está reprimida por el art. 3
+Inc. 3) del Código Penal, que transcribiremos en el apartado 2,5,d.
+2) Cualidades secundarias ligadas a la representatividad
+Para que la representatividad se alcance, es necesario que la información
+contable, en cuanto sea practicable, reúna algunas cualidades secundarias
+que pasamos a considerar.
+Integridad
+La información puede considerarse completa cuando no excluye nada
+pertinente que sea significativo. No se viola el requisito de integridad cuando
+se omite información que:
+a) no es pertinente a las decisiones que deben tomar los usuarios;
+que:
+b) lo es pero carece de importancia.
+Nos referiremos al concepto de significación en el apartado 2,5,c).
+(8) Diccionario de la Real Academia Española, vigésima segunda edición, http://www.
+rae.es, acepción 2 de fiel.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 77
+Ejemplo de informaciones significativas, referidas al conjunto de
+las maquinarias utilizadas en su actividad manufacturera por el
+emisor de los estados financieros:
+a) una descripción resumida de la naturaleza de estos activos (sea:
+maquinarias);
+b) la medida monetaria asignada al grupo a la fecha de la informa-
+ción contable (sea: $ 1.000)
+c) qué es lo que esa medida contable pretende representar (sea: el
+costo original de las máquinas menos su depreciación acumula-
+da).
+Esencialidad (prevalencia de la sustancia sobre la forma)
+Para que la información contable sea representativa, los efectos patrimo-
+niales de cada hecho deberían contabilizarse de acuerdo con su esencia eco-
+nómica, que podría no estar debidamente reflejada en las formas jurídicas.
+Supongamos que un comerciante haya establecido estas condi-
+ciones para quienes deseen comprarle una unidad de la mercade-
+ría X:
+a) precio pagadero a los sesenta días de plazo: $ 106;
+b) descuento por pago al contado: $ 6;
+c) no hay descuentos por pagos en plazos intermedios (sea: a los
+treinta días).
+En este caso, la realidad económica indica que:
+a) el verdadero precio de venta es de $ 100;
+b) los restantes $ 6 (aunque formen parte del “precio” facturado)
+constituyen un costo nominal de la financiación que el compra-
+dor sólo debería pagar si optase por no efectuar el pago al con-
+tado (9).
+Si no se respetase la esencialidad de las operaciones, su tratamiento con-
+table podría ser manipulado dándoles formas jurídicas que encubran su sus-
+tancia.
+(9) El costo real de la financiación dependerá del costo nominal y de la inflación por el
+período de financiación.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+78 ENRIQUE FOWLER NEWTON
+La detección de los casos en que la forma de una transacción disimula su
+sustancia requiere cierta habilidad cuando:
+a) deliberadamente se ha dado a una transacción una forma que dificul-
+ta la comprensión de su esencia; o
+b) una entidad ha entrado en una serie de transacciones sucesivas y rela-
+cionadas.
+En el segundo caso, debe evaluarse si cada transacción incluida en la se-
+rie:
+a) se habría ejecutado de no haberse convenido las restantes;
+b) tiene un significado económico que:
+1) es propio; o que
+2) depende del efecto final del conjunto de transacciones, en cuyo
+caso debería considerarse el efecto del conjunto de esas transac-
+ciones, con independencia del efecto aparente de cada una de
+ellas considerada en su individualidad.
+El requisito de esencialidad ha sido recogido por la legislación impo-
+sitiva argentina, en esta disposición:
+Para determinar la verdadera naturaleza del hecho
+imponible se atenderá a los actos, situaciones y
+relaciones económicas que efectivamente realicen,
+persigan o establezcan los contribuyentes. Cuando
+éstos sometan esos actos, situaciones o relacio-
+nes a formas o estructuras jurídicas que no sean
+manifiestamente las que el derecho privado ofrez-
+ca o autorice para configurar adecuadamente la ca-
+bal intención económica y efectiva de los contri-
+buyentes se prescindirá en la consideración del
+hecho imponible real, de las formas y estructuras
+jurídicas inadecuadas, y se considerará la situa-
+ción económica real como encuadrada en las formas
+o estructuras que el derecho privado les aplicarla
+con independencia de las escogidas por los con-
+tribuyentes o les permitirla aplicar como las más
+adecuadas a la intención real de los mismos (10).
+Ausencia de sesgos (neutralidad en la preparación)
+La información estará libre de sesgos cuando no haya sido deliberada-
+mente manipulada con la intención de lograr que sus usuarios (o algunos de
+ellos) actúen de una manera determinada.
+(10) Ley 11.683, artículo 2.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 79
+Ejemplos de sesgos:
+Para lograr que... Se presenta información que...
+Algunos tenedores de acciones Muestra un patrimonio y un re-
+las vendan por debajo de su va- sultado inferior a los reales.
+lor.
+El fisco no objete una liquidación Muestra una ganancia inferior a la
+defectuosa del impuesto sobre las obtenida.
+ganancias.
+Los propietarios mantengan en su Oculta algunas pérdidas.
+cargo a los directores.
+Los acreedores refinancien a la Hace aparecer a la entidad más
+entidad. solvente de lo que realmente es.
+T En los MC de la IASB y la FASB se califica como neutral a la informa-
+ción que está libre de sesgos. Esto puede ocasionar alguna confu-
+sión, pues la neutralidad no es una característica de la información
+sino del proceso seguido en su preparación. No obstante, se aclara:
+(...) Información neutral no significa información
+sin propósito o sin influencia en el comporta-
+miento (...) (11)
+Lamentablemente, los sesgos se ven facilitados cuando:
+a) un emisor de estados financieros puede reconocer o medir determi-
+nados elementos de más de una manera; porque le está permitida la
+aplicación irrestricta de:
+1) un juego de NC entre varios;
+2) NC contenidas en más de un juego (no existe la obligación de ele-
+gir un juego y aplicarlo íntegramente); o
+3) normas alternativas dentro del mismo juego de NC.
+b) eso le permite seleccionar sus políticas contables buscando un resul-
+tado predeterminado y no la mayor representatividad de la informa-
+ción contable.
+Ejemplo 1
+En el país de emisión de los estados financieros se permite que cier-
+tas entidades los preparen empleando:
+(11) MC indicados, párrafo QC14.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+80 ENRIQUE FOWLER NEWTON
+a) las NIIF;
+b) la “NIIF para las PYMES”; o
+c) unas NC desarrolladas localmente (12).
+Ejemplo 2
+Una entidad que prepare sus estados financieros utilizando la “NIIF
+para las PYMES” puede efectuar la medición contable de sus ins-
+trumentos financieros de acuerdo con lo indicado en ellas o en la
+NIC 39 (que integra las NIIF) (13).
+Ejemplo 3
+El emisor debe aplicar un juego de NC que requiere que las merca-
+derías para la venta se midan por su costo histórico (mientras no
+supere a cierto límite) pero admite la aplicación de más de un mé-
+todo para distribuir los costos históricos entre las unidades vendi-
+das y las que permanecen en existencia.
+Cabe enfatizar que la existencia de unas pocas opciones es suficiente
+para que puedan presentarse numerosas mediciones contables alternativas
+del patrimonio de una entidad, facilitando así la búsqueda de sesgos.
+Si existieran seis clases de activos y para cada una de ellas pudiera
+optarse entre dos reglas alternativas de medición, el número total
+de medidas contables que podría asignarse al total del activo sería:
+26 = 64
+Ausencia de errores importantes
+La información debe estar libre de errores importantes.
+Nos referimos a la aplicación de esta idea en la sección 2,5,c).
+Verificabilidad
+La representatividad de la información contable debería ser susceptible
+de comprobación por cualquier persona que tenga la pericia suficiente para
+ejecutar esta tarea.
+(12) Según se verá en el capítulo 14, está posibilidad existe en la Argentina para la mayoría
+de los emisores de estados financieros que no estén obligados a emplear las NIIF
+(13) “NIIF para las PYMES” párrafos 11.2 y 12.2.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 81
+Lo que debe esperarse es que diferentes personas independientes entre
+si puedan llegar a un consenso acerca de que la información es representati-
+va, aunque sus conclusiones individuales no sean plenamente coincidentes.
+La verificabilidad es imprescindible para que los estados financieros pue-
+dan ser sometidos a auditoría. De este trabajo surge un informe que indica si
+tales estados fueron preparados de acuerdo con determinado juego de NC (o
+con más de uno). Claro está que esas normas podrían ser inadecuadas para
+el logro de información financiera representativa de la realidad.
+Estudiamos esta actividad en Tratado de Auditoría, cuarta edición,
+La Ley, 2009.
+Algunas informaciones contables reflejan el resultado de estimaciones
+basadas en premisas que no son directamente verificables. En estos casos,
+deberían suministrarse datos que permitan evaluar la incertidumbre inhe-
+rente a las estimaciones, tales como:
+a) las premisas utilizadas;
+b) las fuentes empleadas para desarrollar esas premisas;
+c) el método empleado para arribar a las estimaciones;
+d) otros factores y circunstancias qué respalden las premisas y las esti-
+maciones.
+El MC del IASB y la FASB considera a la verificabilidad como una cuali-
+dad mejoradora de la información contable. Nuestra visión es distinta: pen-
+samos que una información que no sea verificable tampoco debería conside-
+rarse representativa.
+c) RELACIÓN ENTRE PERTINENCIA Y REPRESENTIVIDAD
+Ya mencionamos que para que una información contable sea útil, debe
+reunir las dos cualidades indicadas en el título.
+Dado un elemento de los estados financieros, si no pudiera brindarse in-
+formación representativa sobre el tipo de información más pertinente para
+los usuarios (o si esto tuviera un costo desproporcionado), debería elegirse
+el que le siga en importancia, repitiéndose este proceso las veces que fuere
+necesario.
+Por ejemplo, para la plusvalía (dada por un conjunto de ventajas
+comparativas) de un negocio adquirido, la información más perti-
+nente es su valor a la fecha de los estados financieros, pero como es
+difícil obtener una representación fidedigna de él, los emisores de
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+82 ENRIQUE FOWLER NEWTON
+NC suelen limitarse a requerir que se le asigne una medición conta-
+ble basada principalmente en su costo de adquisición.
+2,4. CUALIDADES MEJORADORAS DE LA UTILIDAD
+DE LA INFORMACIÓN
+Pasemos a la consideración de algunas cualidades de la información con-
+table que no son fundamentales pero que mejoran su utilidad.
+El MC 2010 de la FASB y el IASB considera cuatro: comparabilidad, veri-
+ficabilidad, comprensibilidad y oportunidad. Por nuestra parte, preferimos
+una lista que incluya sistematicidad y (por lo expresado precedentemente)
+excluya verificabilidad.
+A) COMPARABILIDAD
+Es de esperar que los usuarios de informaciones contables quieran iden-
+tificar similitudes y diferencias entre los fenómenos económicos que ellas
+pretenden representar. Con este propósito, podrían comparar informacio-
+nes:
+a) de una misma entidad, correspondientes:
+1) a la misma fecha (o por el mismo período), para observar determi-
+nadas relaciones entre elementos de los estados financieros;
+2) a fechas (o períodos) sucesivos, para identificar las tendencias de
+su situación patrimonial y financiera y de su desempeño;
+b) de entidades con características similares, como ayuda para la evalua-
+ción de dichas tendencias en términos relativos, en los casos de:
+1) estados financieros; o
+2) ICI referidos a empresas, negocios o áreas geográficas que perte-
+nezcan a la entidad emisora o al grupo económico a la que ella per-
+tenece.
+Para que los datos informados dentro de un juego dado de estados finan-
+cieros sean comparables entre sí, se requiere:
+a) que todos estén expresados en la misma unidad de medida (por ejem-
+plo: en pesos de poder adquisitivo del 31 de diciembre de 20X1, si ésta
+fuera la fecha de los estados financieros);
+b) que las políticas contables aplicadas a datos relacionados sean cohe-
+rentes:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 83
+c) cuando los estados financieros incluyan información a dos o más fe-
+chas o cubriendo dos o más períodos, que todos los datos estén pre-
+parados sobre bases coherentes.
+Ejemplo referido a la cuestión b): si la medición contable de las
+existencias de mercaderías para la venta se hace con sus costos de
+reposición, el mismo criterio debe aplicarse para asignar una medi-
+da contable al costo de las mercaderías vendidas durante el período
+cubierto por los estados financieros.
+Para que los datos contenidos en sucesivos juegos de estados financieros
+o ICI de una entidad sean comparables, es también menester:
+a) que en todos ellos se hayan utilizado las mismas políticas contables o
+que. si esto no ocurriere:
+1) se informe este hecho;
+2) se agregue información que, en cuanto sea practicable, mitigue la
+falta de comparabilidad;
+b) que los períodos comparados:
+1) sean de igual duración; y
+2) no estén afectados por la estacionalidad de determinadas opera-
+ciones (o que, de así ocurrir, se informe sobre sus efectos);
+c) que se informen los efectos de cualesquiera otros hechos que afecten
+las comparaciones.
+Ejemplo de informes contables afectados por operaciones estacio-
+nales: los estados financieros de una heladería correspondientes a
+un trimestre que cubre los meses de invierno.
+Ejemplo de hechos del tipo c):
+a) la incorporación o discontinuación de negocios;
+b) la ocurrencia de un siniestro que ha destruido la principal planta
+industrial del emisor de los estados financieros.
+La comparabilidad entre estados financieros de diversas entidades re-
+quiere la aplicación de las mismas políticas contables por parte de todos
+ellos. Sin embargo, al tratar la cuestión de la ausencia de sesgos hemos seña-
+lado que podría ocurrir que a un emisor de estados financieros se le permita
+la aplicación irrestricta de:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+84 ENRIQUE FOWLER NEWTON
+a) más de un juego de NC;
+b) NC individuales contenidas en más de un juego;
+c) normas alternativas dentro del mismo juego de NC.
+En estos casos, y por lo general, sólo podrá lograrse comparabilidad en-
+tre estados financieros preparados con las mismas NC, salvo que se presenta
+alguna de las otras situaciones que analizaremos en este mismo apartado.
+También puede ocurrir que dos emisores que aplicaron distintos juegos de
+NC terminen presentando información comparable porque las diferencias
+entre ellos no afectan a las informaciones presentadas.
+Esto último ocurriría, si:
+a) dos emisores de estados financieros aplicasen distintos juego)
+deNC;
+b) la única diferencia entre ambos juegos fuese la forma de asignar
+medidas contables a las mercaderías tenidas para la venta en el
+curso ordinario de los negocios;
+c) ambos emisores prestasen servicios y no tuviesen mercaderías,
+En la sección 10,10 volveremos sobre el tema de la emisión de NC
+diferenciadas
+La comparabilidad de la información contable es, casi seguramente, el
+requisito menos respetado por los emisores de NC.
+B) COMPRENSIBILIDAD
+Cuanto mayor sea la comprensibilidad de la información contable, más
+útil resultará.
+La comprensibilidad se mejora cuando las informaciones se presentan
+concisa y claramente, pero sin sacrificar nada esencial. Si esto último ocu-
+rriera, la información podría disminuir su representatividad y ser engañosa.
+Lo que es claro para un usuario (sea: un contador público) podría no ser-
+lo para otro (sea: el propietario de una empresa). Por ello, a los efectos de
+evaluar la comprensibilidad de las informaciones financieras debe adoptarse
+algún supuesto sobre los conocimientos de sus usuarios esperados. Al res
+pecto, en diversos MC se considera que estos usuarios son personas que:
+a) tienen un conocimiento razonable de las actividades económicas y de
+negocios;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 85
+b) revisan y analizan la información diligentemente;
+c) conocen el significado de la terminología habitual de los estados fi-
+nancieros o pueden asesorarse al respecto;
+d) también pueden servirse de consultores cuando la información es
+compleja por referirse a fenómenos económicos que también lo son.
+No sería realista ni útil la presunción de que dichos usuarios conocen la
+disciplina contable.
+Para que los estados financieros sean más claros, en ellos deberían em-
+plearse expresiones de significado conocido, dando prevalencia a los conte-
+nidos en los glosarios de términos contables que contuvieren las NC aplica-
+das en la preparación de dichos estados.
+La comprensibilidad de la información financiera no debería ponerse al
+mismo nivel que su pertinencia o su representatividad porque ello posibilita-
+ría la omisión de información esencial para los usuarios, a partir de la excusa
+de que ella no sería entendida por los usuarios.
+C) SISTEMATICIDAD
+T
+La palabra sistematicidad no figura en el DRAE, pero se la usa para
+referirse a la calidad de sistemático, que según el mismo diccionario
+identifica a lo que sigue o se ajusta a un sistema.
+La utilidad de la información contable se mejora cuando se la presenta
+aplicando un conjunto de reglas ordenadamente relacionadas entre sí.
+Por ejemplo, cuando todas las entidades del mismo tipo presentan
+los componentes del activo en el mismo orden, por así requerirlo
+determinadas NC.
+Sin embargo, esta cualidad nunca fue mencionada en los MC del IASB y
+la FASB. Es posible que estos organismos lo juzguen innecesario o conside-
+ren que basta con la mención del requisito de comparabilidad.
+D) OPORTUNIDAD
+Cualquier información es más útil si se la conoce cuando todavía tiene la
+posibilidad de influir en la toma de decisiones.
+La información antigua va perdiendo utilidad. No obstante, conserva
+parte de ella mientras pueda ser usada en comparaciones que faciliten la
+identificación de tendencias.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+86 ENRIQUE FOWLER NEWTON
+La información referida a la situación patrimonial al 31/05/X1 es
+más útil si se la difunde en agosto que en diciembre de 20X1. En
+cualquiera de los dos casos, volverá a ser útil para su comparación
+con la información del mismo tipo correspondiente al 31/05/X2.
+El requisito de presentación oportuna de los estados financieros subyace
+en las normas legales que establecen plazos para que algunas personas jurí-
+dicas los presenten a sus propietarios (o asociados) y a otros organismos. Con
+el correr del tiempo, y gracias a la ayuda de la informática, esos plazos se han
+ido acortando.
+En los hechos, la oportunidad está en conflicto con la representatividad,
+pues cuanto menor sea el plazo para la preparación de la información con-
+table más breve será el lapso disponible para mejorar la precisión de las me-
+diciones contables y para que se despejen o atenúen las incertidumbres in-
+herentes a ellas.
+Supongamos que una empresa vende artefactos para el hogar con
+un año de garantía contra defectos de producción. En este caso,
+uno de los gastos que deberá computar para determinar el resulta-
+do (ganancia o pérdida) de un período, es el costo estimado de las
+reparaciones que deberá tomar a su cargo con motivo de las ventas
+computadas como ingresos dentro de ese mismo lapso (14).
+Si la empresa del caso quisiera obtener exactitud en la medición
+de ese gasto, tendría que esperar algo más de un año a partir de la
+fecha de la última venta efectuada en el ejercicio, pues recién en-
+tonces habrá conocido los costos reales de reparaciones, pero en tal
+caso obtendrá información que habrá perdido parte de su utilidad.
+Así las cosas, es preferible sacrificar exactitud y estimar dichos cos-
+tos lo mejor que se pueda (15).
+Esto también se observa en la preparación de los ICI. Algunos directores
+y administradores prefieren tenerlos en plazos breves (sea: dentro de los siete
+días posteriores al cierre de cada mes) a sabiendas de que esto obliga a hacer
+un mayor uso de estimaciones.
+(14) Esto responde a una idea general que veremos más adelante, según la cual los costos
+relacionados con ingresos deberían asignarse a los mismos períodos contables que los prime-
+ros.
+(15) Parte de la estimación podrá basarse en los datos reales recogidos entre la fecha de
+los estados financieros y la de finalización de su preparación.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 87
+2,5. CUESTIONES RELACIONADAS
+A) LA FIABILIDAD DE LA INFORMACIÓN
+La información es fiable cuando sus usuarios la consideran creíble y
+aceptan —en consecuencia— integrarla al conjunto de elementos sobre cuya
+base toman decisiones.
+La información contable sólo es fiable cuando es representativa, de modo
+que la mención de la representatividad y de la fiabilidad como cualidades
+fundamentales independientes implica una redundancia. No parece necesa-
+rio mencionar a la segunda.
+Esto no obsta a que la fiabilidad de cada medición contable en particular
+se tenga en cuenta en la preparación de la información contable. Al respecto,
+las NC suelen requerir que el reconocimiento contable de activos y pasivos
+se limite a los que puedan medirse de una manera fiable. Este requisito debe-
+ría exigirse también para la modificación posterior de las medidas contables
+asignadas previamente a los activos o pasivos ya reconocidos.
+Por aplicación de estas ideas en la contabilidad no se reconocen,
+por ejemplo:
+a) la plusvalía de un negocio que ha sido generada gracias al es-
+fuerzo de sus directores y administradores;
+b) los aumentos de valor de las plusvalías incorporadas con motivo
+de la adquisición de negocios de terceros;
+c) los desembolsos a efectuar con motivo de fallos judiciales adver-
+sos y altamente probables, cuando su importe es desconocido y
+no puede ser estimado de una manera fiable.
+B) PRUDENCIA Y CONSERVADURISMO
+Ya señalamos que para una información sea representativa debe estar li-
+bre de sesgos. Esto no impide que sus preparadores actúen con prudencia
+(adopten una actitud cauta) cuando la tarea envuelve la consideración de
+incertidumbres.
+No es lo mismo la prudencia que el conservadurismo, pues éste:
+a) consiste en la aplicación sistemática de criterios que reducen la medi-
+da contable asignada al patrimonio, lo que implica un sesgo;
+b) reduce la representatividad de la información contable así prepara-
+da.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+88 ENRIQUE FOWLER NEWTON
+Supongamos que:
+a) se ha adquirido en $ 100 un bien fungible cuya comercialización
+no exige esfuerzo alguno;
+b) el valor de ese activo es ahora de $ 120.
+Si por conservadurismo no se reconociese el aumento de valor
+activo (y se lo midiese por su costo), se obtendría información
+no sería representativa de la realidad.
+Pese a su falta de sustento lógico, el conservadurismo tuvo predicamento
+durante la época en que el énfasis de los informes contables se centraban en la
+situación patrimonial. En ese contexto, se consideraba que la asignación de
+una medida contable más baja al patrimonio era una especie de virtud que
+reducía los riesgos de quienes preparaban y utilizaban los datos, aunque el
+hecho pudiera inducir a los usuarios a tomar decisiones perjudiciales para
+ellos, como la de malvender acciones de la entidad emisora de los estados
+financieros.
+Esas ideas fueron dejadas de lado cuando:
+a) los usuarios de estados financieros comenzaron a dar importancia a
+los resultados periódicos y a tomar conciencia de que una medida
+en defecto del patrimonio conduce a una medición excesiva de los
+resultados futuros;
+b) comenzó a prevalecer el paradigma de que la información contable
+debe ser útil para la toma de decisiones.
+Hoy, el conservadurismo es explícitamente rechazado por los MC que
+conocemos.
+Para ampliar la información sobre este tema, puede leerse:
+Chatfield, Michael, Los principios de contabilidad considerados
+como convenciones: la doctrina del conservadurismo, Contadu-
+ría (revista de la Universidad de Antioquía), septiembre de 198…
+c) LA SIGNIFICACIÓN (IMPORTANCIA RELATIVA)
+T
+En algunos textos, el concepto del epígrafe es referido como materia-
+lidad, como consecuencia de una traducción simplista e incorrecta
+de la palabra inglesa materiality. En el DRAE, ninguna acepción de
+materialidad corresponde al concepto de significación.
+El concepto de significación tiene que ver con la posibilidad de no aplicar
+determinadas NC cuando esta desviación no pueda ocasionar cambios en
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 89
+las decisiones que podrían tomar algunos usuarios de los informes contables
+afectados. La desviación podría consistir en:
+a) no reconocer o no dar de baja elementos de los estados financieros
+cuando las NC lo requieren;
+b) asignarles medidas monetarias empleando criterios distintos a que
+resultan de la aplicación de las NC;
+c) presentar una partida de los estados financieros de una manera dis-
+tinta a la prevista por las NC; o
+d) no presentar, en los estados financieros, una partida cuya exposición
+es requerida por las NC.
+Esta idea está aceptada por todas las NC que conocemos. En particular:
+a) tanto las NIIF como la “NIIF para las PYMES” indican que una política
+contable no necesita ser aplicada cuando su efecto no es significati-
+vo (16);
+b) La RT 17 (Normas contables profesionales: desarrollo de cuestiones de
+aplicación general) indica que:
+Se aceptarán desviaciones a las normas contenidas
+en esta resolución técnica en Canto no distorsionen
+significativamente la información contenida en los
+estados financieros tomados en su conjunto (17).
+c) la Accounting Standards Codification (ASC, Codificación de Normas
+Contables) de la FASB indica que sus disposiciones no necesitan apli-
+carse a partidas no significativas (18).
+Concordantemente, la significación no debe ser considerada como una
+cualidad de la información financiera ni puesta como condición para la apli-
+cación de una NC determinada. Cualquier NC debería ser redactada como
+si su aplicación fuese importante en todos los casos, pues siempre existirá
+la posibilidad de apartarse de ella por aplicación del concepto de significa-
+ción.
+En la Argentina, el concepto de significación está también presente
+en la tipificación del llamado delito de balance falso, según surge de
+esta norma del Código Penal (el subrayado es nuestro):
+Art. 300 - Serán reprimidos con prisión de seis
+meses a dos años: (...)
+(16) NIC 8, párrafo 2 y “NIIF para las PYMES” párrafo 10.3.
+(17) RT 17, segunda parte, párrafo 2.5.
+(18) ASC, párrafo 105-10-05-6.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+90 ENRIQUE FOWLER NEWTON
+3o - El fundador, director, administrador, li-
+quidador o síndico de una sociedad anónima
+o cooperativa o de otra persona colectiva,
+que a sabiendas publicare, certificare o
+autorizare un inventario, un balance, una
+cuenta de ganancias y pérdidas o los co-
+rrespondientes informes, actas o memorias,
+falsos o incompletos o informare a la asam-
+blea o reunión de socios, con falsedad o
+reticencia, sobre hechos importantes para
+apreciar la situación económica de la em-
+presa, cualquiera que hubiere sido el pro-
+pósito perseguido al verificarlo.
+En los Estados Unidos, la cuestión de la significación ha sido mencionada
+explícitamente en diversos fallos judiciales relacionados con la evaluación de
+actuaciones de auditores.
+La aplicación de este concepto permite que los preparadores de estados
+financieros utilicen, en algunos casos, políticas contables respondientes a
+criterios más simples que los previstos en las NC.
+Por ejemplo, dados los supuestos que muestra la primera columna
+y las NC (imaginarias) que aparecen en la segunda, podrían apli-
+carse (haciendo uso de la dispensa) las políticas contables que fi-
+guran en la última.
+Supuestos Requerimiento de Política contable
+las NC adoptada
+La papelería admi- Reconocer la papele- No reconocer activo
+nistrativa comprada ría como un activo y alguno. Considerar
+se consume rápida- darla de baja cuando que cada compra de
+mente y su volumen se consume. papelería implica un
+es más o menos cons- gasto.
+tante.
+Se mantiene un fon- Computar las dismi- Incluir en el activo a
+do fijo para el pago de nuciones del fondo la totalidad del fondo
+gastos pequeños. Se- fijo a medida que se fijo, aunque parte de
+manalmente (o antes, producen. él se haya utilizado.
+si el fondo se agotare) Computar las salidas
+se emite un cheque de efectivo cuando se
+por el total gastado y emite el cheque para
+con el efectivo así ob- la reposición del fon-
+tenido se reintegra el do.
+fondo fijo, que vuelve
+entonces a estar inte-
+grado en efectivo.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 91
+Supuestos Requerimiento de Política contable
+las NC adoptada
+Los precios de las Medir las materias Hacerlo usando los
+materias primas han primas por su costo costos de las últimas
+permanecido esta- de reposición. compras, sin tomar-
+bles durante un lapso se el trabajo de averi-
+prolongado y su rota- guar los costos de re-
+ción es rápida. posición.
+Algunos bienes que Reconocerlos como No reconocerlos co-
+pueden ser utilizados activos y computar mo activos. Con cada
+durante varios años sus costos como gas- compra, reconocer
+tienen costos peque- tos a medida que se un gasto.
+ños. deprecian.
+Dado que la significación no es un requerimiento, nada impide que un
+emisor de estados financieros incluya en ellos información que no es signifi-
+cativa pero cuyo registro contable facilita las actividades de control.
+El reconocimiento de un activo por la existencia de papelería o de
+bienes durables de pequeño costo (como herramientas de taller)
+podría no aumentar sustancialmente la calidad de los estados fi-
+nancieros, pero ayudar a detectar eventuales sustracciones.
+En la sección 6,16 nos referiremos a la aplicación del concepto de
+significación.
+D) CAMBIOS DE POLÍTICAS CONTABLES
+La búsqueda de comparabilidad de la información contable de una en-
+tidad a lo largo del tiempo no debe obstaculizar la mejora progresiva de la
+representatividad de esa información. En consecuencia, los emisores de NC
+van modificando el contenido de éstas para que los estados financieros sean
+cada vez más útiles (19).
+Dado un cambio de NC, la comparabilidad entre sucesivos juegos de es-
+tados financieros de una entidad no podrá ser perfecta, pero los efectos de
+este problema pueden reducirse si, en dichos estados:
+a) se incluye información sobre:
+1) la norma abandonada;
+(19) A veces, ocasionan el efecto contrario.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+92 ENRIQUE FOWLER NEWTON
+2) la adoptada;
+3) la razón del cambio; y
+4) sus efectos sobre los principales componentes de los estados fi-
+nancieros;
+b) la información comparativa (de fechas o de períodos anteriores que
+pudiere incluirse en los estados financieros del período se mor…
+retroactivamente (en la medida en que sea practicable) para ade…
+la a las nuevas normas (sin que esto tenga efecto sobre las decisiones
+societarias tomadas sobre la base de los estados financieros origina-
+les).
+El mismo criterio debería aplicar una entidad que cambie una política
+contable debido al reemplazo de una regla alternativa por otra. En esta …
+sos, el emisor de los estados financieros debería ser obligado a justificar …
+damente las razones del cambio, pues lo contrario facilitaría la manipulación
+reiterada de los estados financieros de la entidad.
+E) COSTOS Y BENEFICIOS
+Para un emisor de información financiera, su preparación implica …
+tos.
+A su vez, el suministro de información incompleta o insuficientemente
+representativa podría ocasionar costos a sus usuarios, si les obligase a recu-
+rrir a otras fuentes para satisfacer sus necesidades informativas.
+Ambos tipos de costos deben ser evaluados por los emisores de NC cuan-
+do las emiten o modifican. Como resultado de esa evaluación es posible …
+en un caso determinado deba optarse entre la emisión de reglas contables
+a) que mejoran la representatividad de los estados financieros; o
+b) que son de aplicación más sencilla y permiten un ahorro de costos
+significativo para el emisor.
+A veces, la idea precedente se expresa diciendo que los beneficios produ-
+cidos por la disponibilidad de la información deben exceder a sus costos de
+aplicación de este concepto no es sencilla porque:
+a) el costo de la preparación de tal información es soportado por la enti-
+dad que la emite;
+b) sus beneficios:
+1) son aprovechados tanto por ella como por otras partes;
+2) pueden ser percibidos de manera distinta por los usuarios de los
+estados financieros;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 93
+3) también tienen que ver con las mejoras que la sanción o la modifi-
+cación de una NC tendría sobre el funcionamiento de la economía
+en su conjunto;
+4) raramente pueden ser medidos en moneda.
+Respecto de los costos, y refiriéndose a la emisión de NC en los Estados
+Unidos se ha señalado:
+(...) la información acerca de los costos de un nuevo
+pronunciamiento de la FASB es habitualmente anecdó-
+tica e inexacta. Es anecdótica porque inevitablemen-
+te refleja estimaciones individuales del costo. Es
+inexacta porque refleja estimaciones de hacer cosas
+-reunir, procesar, comprender y usar información- que
+no se han hecho antes (20).
+La idea de que los costos de aplicación de una NC no deben exceder a sus
+beneficios suele aplicarse (aunque afecte la comparabilidad) cuando:
+a) se permite que una entidad que cambia el juego de NC que utilizará
+aplique ciertas simplificaciones para medir el patrimonio a la fecha de
+la transición a las nuevas normas;
+b) se dicta una nueva NC y se permite que quienes deban emplearla no
+efectúen las correcciones retroactivas a las que nos referimos al final
+del apartado d) precedente.
+Reiteremos que la comparación de costos y beneficios es tarea de los
+emisores de NC y no de los preparadores de estados financieros. Una vez que
+una regla ha sido dictada debe respetársela, a menos que:
+a) el efecto de no hacerlo no sea significativo;
+b) las NC del caso permitan que una regla no se aplique cuando:
+1) no sea posible hacerlo por más esfuerzos razonables que se lleven
+a cabo (impracticabilidad de aplicación); y
+2) el emisor de los estados financieros pueda demostrar que la aplica-
+ción de la regla tendría, en su caso particular, un costo excesivo.
+El problema de la cuantificación de costos y beneficios es menor en el
+caso de los ICI, porque:
+a) los usuarios de estos informes actúan dentro de la entidad emisora;
+b) pueden hacerse encuestas sobre la forma en que cada usuario emplea
+los ICI que recibe, para determinar si su preparación sigue siendo ren-
+table.
+(20) SCOTT, DIANA J. y UPTON, WAYNE S., The Role of Cost-Benefit Considerations in the
+FASB Standard Setting Process, Status Report del 28 de febrero de 1992, páginas 7-14. La cita
+corresponde a la página 7.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+94 ENRIQUE FOWLER NEWTON
+2,6. ALGUNAS ENUMERACIONES
+Seguidamente resumiremos las enumeraciones de cualidades de la in-
+formación contable contenidas en:
+a) los MC de las NIIF, de Los US GAAP y de la FACPCE;
+b) la “NIIF para las PYMES”
+A) MARCOS CONCEPTUALES DE LAS NIIF Y LOS US GAAP (2010)
+Tras su modificación de septiembre de 2010, los dos MC indicados con-
+tienen la misma lista de características cualitativas de los estados financie-
+ros, que es la siguiente:
+a) cualidades fundamentales:
+1) pertinencia;
+2) representación fidedigna (lo que denominamos representativi-
+dad);
+b) cualidades mejoradoras:
+1) comparabilidad;
+2) verificabilidad;
+3) oportunidad;
+4) comprensibilidad.
+Por lo antes expuesto, nuestras únicas discrepancias significativas son
+éstas:
+a) verificabilidad debería considerarse una cualidad secundaria ligada a
+la representatividad;
+b) la lista de cualidades mejoradoras debería incluir a sistematicidad.
+Nos referimos a las cualidades enunciadas en los MC de las NIIF y los
+US GAAP antes de su modificación de 2010 en las páginas 80-82 de la
+cuarta edición de este libro (La Ley, 2005).
+B) LA “NIIF PARA LAS PYMES”
+El IASB no definió un MC para la “NIIF para las PYMES” (ya lo mencio-
+namos) pero los párrafos 2.4 a 2.12 de ésta se refieren a las características
+cualitativas de la información en los estados con un contenido similar al del
+anterior MC de las NIIF y sin asignarles jerarquías relativas.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 95
+Seguidamente enumeramos los conceptos presentados, con las denomi-
+naciones que aparecen en la traducción oficial al español de la “NIIF para las
+PYMES” agregando (entre paréntesis y en los casos necesarios) las expresio-
+nes equivalentes que empleamos en este libro.
+a) comprensibilidad;
+b) relevancia (pertinencia);
+c) materialidad o importancia relativa (significación);
+d) fiabilidad;
+e) la esencia sobre la forma (esencialidad);
+f) prudencia;
+g) integridad;
+h) comparabilidad;
+i) oportunidad;
+j) equilibrio entre costos y beneficios.
+Como se ve:
+a) se mezclan algunos elementos que constituyen cualidades de la infor-
+mación contable con otros que no lo son;
+b) no se menciona sistematicidad.
+c) MARCO CONCEPTUAL DE LA FACPCE
+En el capítulo 3 de su segunda parte, la RT 16 considera (en los casos ne-
+cesarios, entre paréntesis indicamos la denominación dada a los conceptos
+indicados en este libro):
+a) diez requisitos de la información contable:
+1) pertinencia o atingencia;
+2) fiabilidad o credibilidad;
+3) aproximación a la realidad (representatividad);
+4) esencialidad o sustancia sobre forma (esencialidad);
+5) neutralidad, objetividad o ausencia de sesgos;
+6) integridad;
+7) verificabilidad;
+8) sistematicidad;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+96 ENRIQUE FOWLER NEWTON
+9) comparabilidad; y
+10) claridad o comprensibilidad;
+b) tres restricciones que condicionan el logro de los requisitos:
+1) oportunidad;
+2) equilibrio entre costos y beneficios; e
+3) impracticabilidad (21).
+No observamos omisiones significativas.
+2,7. REQUISITOS ENUNCIADOS EN EL CÓDIGO
+DE COMERCIO ARGENTINO
+Los únicos artículos del Código de Comercio que en forma expresa se
+refieren a las cualidades que deberían reunir los estados financieros de los
+comerciantes, son éstos:
+Art. 51. Todos los balances deberán expresar con ve-
+racidad y exactitud compatible con su finalidad, la
+situación financiera a su fecha. Salvo el caso de
+normas legales o reglamentarias que dispongan lo con-
+trario, sus partidas se formarán teniendo como base
+las cuentas abiertas y de acuerdo a criterios unifor-
+mes de valoración.
+Art. 52. Al cierre de cada ejercicio todo comerciante
+está obligado a extender en el Libro de Inventarios y
+Balances, además de éste, un cuadro demostrativo de
+las ganancias o pérdidas (22), del que éstas resulten
+con verdad y evidencia.
+Los textos transcriptos son los incorporados por la reforma de 1963. Sus
+normas alcanzan a los comerciantes. De su letra surge que todos ellos de-
+ben:
+a) preparar estados de situación patrimonial (balances) y de resultados
+anuales (23);
+b) confeccionarlos de modo tal que éstos suministren información que:
+1) sea veraz;
+2) con el alcance indicado por el artículo, esté basada en la aplicación
+de procedimientos contables uniformes.
+(21) Agregado por la RT 28, de octubre de 2010.
+(22) Lo que hoy se denomina estado de resultados.
+(23) En 1963 no era común la presentación de otros estados financieros básicos.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 97
+El requisito de veracidad aparece también en los arts. 43 y 44 del Código,
+que se refieren a los requerimientos que deben satisfacer los sistemas con-
+tables de los comerciantes. En particular, la última parte del art. 44 requiere
+que de la contabilidad y documentación resulten con claridad los actos de su
+gestión y su situación patrimonial.
+Por lo expuesto en el apartado 2,3,b), es habitual que las informaciones
+contables sean inexactas, porque para su preparación hay que recurrir a es-
+timaciones. En consecuencia, la idea de que debe obtenerse información ve-
+raz tiene que ser leída en el sentido de que debe obtenerse información re-
+presentativa de la realidad.
+Sería bueno que los artículos referidos (que tienen casi medio siglo) fue-
+sen adecuados a los tiempos que corren.
+2,8. RESUMEN
+En nuestra opinión, para que la información financiera resulte útil a sus
+usuarios, debe reunir dos cualidades fundamentales: pertinencia y represen-
+tatividad.
+La información es pertinente si hace alguna diferencia para la toma de
+decisiones por parte de sus destinatarios (en el caso de los estados financie-
+ros, sus usuarios típicos), lo que generalmente ocurre cuando puede ser em-
+pleada como un dato de entrada en la predicción de hechos futuros (tiene va-
+lor predictivo) o permite confirmar o corregir predicciones anteriores (posee
+valor confirmatorio).
+Si hubiese más de un tipo de información pertinente a las necesidades in-
+formativas de los usuarios, debería suministrarse la que les resulte más útil.
+El contenido de un informe contable debería constituir una representa-
+ción fidedigna de lo que pretende describir, de manera que dichos usuarios
+puedan confiar en dicha información cuando toman decisiones basadas
+(aunque fuere parcialmente) en ella. La representatividad es especialmente
+importante en el caso de los estados financieros.
+Para que la representatividad se alcance, es necesario que la información
+contable, en cuanto sea practicable, reúna estas cualidades secundarias:
+a) integridad (no debe excluir nada que sea pertinente y significativo);
+b) esencialidad (los efectos patrimoniales de cada hecho deberían con-
+tabilizarse de acuerdo con su esencia económica, que podría no estar
+debidamente reflejada en las formas jurídicas);
+c) ausencia de sesgos, que resulta de la neutralidad en su preparación
+y que se ve amenazada cuando el emisor de los estados financieros
+puede aplicar, irrestrictamente:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+98 ENRIQUE FOWLER NEWTON
+1) un juego de NC entre varios;
+2) NC contenidas en más de un juego; o
+3) normas alternativas dentro del mismo juego de NC;
+d) verificabilidad (la representatividad de la información contable debe-
+ría ser susceptible de comprobación por cualquier persona que tenga
+la pericia suficiente para ejecutar esta tarea).
+La utilidad de la información mejora cuando reúne también estas civili-
+dades:
+a) comparabilidad con otras informaciones:
+1) de la propia entidad, a la misma fecha o por el mismo período;
+2) de ella a otras fechas o períodos;
+3) de otros entes de similares características;
+b) comprensibilidad por parte de personas que:
+1) tienen un conocimiento razonable de las actividades económicas y
+de negocios;
+2) revisan y analizan la información diligentemente;
+3) conocen el significado de la terminología habitual de los estados
+financieros o pueden asesorarse al respecto;
+4) también pueden servirse de consultores cuando la información se
+refiere a fenómenos económicos complejos;
+c) sistematicidad resultante de la aplicación de un conjunto de reglas or-
+denadamente relacionadas entre sí;
+d) oportunidad (cualquier información es más útil si se la conoce cuan-
+do todavía tiene la posibilidad de influir en la toma de decisiones).
+La información representativa debería ser fiable. A su vez, la fiabilidad
+de cada medición contable en particular debe tenerse en cuenta cuando se
+prepara la información contable
+La ausencia de sesgos no impide que los preparadores de información
+contable actúen con prudencia cuando consideran incertidumbres. El con-
+servadurismo que lleva a mediciones defectuosas del patrimonio debe ser
+rechazado porque implica un sesgo que afecta la representatividad de la in-
+formación.
+La significación no es una cualidad que deba satisfacer la información
+contable. El concepto se refiere a la posibilidad de no aplicar determinadas
+NC si es que esta desviación no puede ocasionar cambios en las decisiones
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 99
+que podrían tomar alguno de sus usuarios de los informes contables afecta-
+dos. Esta idea está aceptada por todas las NC que conocemos.
+La búsqueda de comparabilidad de la información contable de una en-
+tidad a lo largo del tiempo no debe ser un obstáculo para la mejora de la re-
+presentatividad de esa información. En consecuencia, los emisores de NC
+van modificando su contenido para que los estados financieros sean cada
+vez más útiles.
+Dado un cambio de NC, la comparabilidad entre sucesivos juegos de es-
+tados financieros de una entidad no podrá ser perfecta, pero los efectos de
+este problema pueden atenuarse si en dichos estados se brinda cierta infor-
+mación. Lo mismo ocurre cuando una entidad modifica sus políticas conta-
+bles.
+Los costos y los beneficios del dictado de nuevas NC deben ser evaluados
+por los organismos que las emiten. Una vez que una regla ha sido dictada
+debe respetársela, a menos que:
+a) el efecto de no hacerlo no sea significativo; y
+b) las NC del caso permitan que una regla no se aplique cuando:
+1) no sea posible lograrlo por más esfuerzos razonables que se hagan;
+y
+2) el emisor de los estados financieros pueda demostrar que la aplica-
+ción de la regla tendría, en su caso particular, un costo excesivo.
+La idea de representatividad aparece en el Código de Comercio argenti-
+no, aunque mal expresada (se hace referencia a veracidad).
+2,9. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para
+que una aseveración sea correcta debe serlo totalmente.
+a) La información contable es pertinente cuando su naturaleza la
+hace apta para satisfacer las necesidades de sus usuarios más co-
+munes.
+b) La fiabilidad es una cualidad que los usuarios asignan a la infor-
+mación y que, en última instancia, depende de su representativi-
+dad;
+c) En la Argentina, la presentación de estados financieros que con-
+tengan información significativamente falsa es un delito.
+d) El Código de Comercio argentino exige que todos los estados fi-
+nancieros emitidos en el país sean veraces (léase: representativos).
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+100 ENRIQUE FOWLER NEWTON
+e) La información contable debería ser de fácil comprensión para
+todo usuario potencial.
+f) Para que la información contable sea confiable, su representativi-
+dad debería ser susceptible de comprobación por cualquier perso-
+na.
+g) La exclusión de información no significativa no es un requisito sin:
+una dispensa, razón por la cual debería requerírsela.
+h) Dadas dos medidas contables alternativas para un activo, el requi-
+sito de prudencia exige que se elija la más baja.
+i) Los estados financieros deben incluir todas las partidas de infor-
+mación que se refieran al patrimonio de su emisor y sean atingen-
+tes a las decisiones que deban tomar sus usuarios.
+j) El costo de preparación de la información contenida en un infor-
+me contable debería ser inferior al beneficio que su disponibilidad
+genera a la entidad que lo ha emitido.
+2. Indique para qué sirve la identificación de las cualidades que la infor-
+mación contable debería reunir para ser útil.
+3. Enuncie a quiénes se considera usuarios típicos de los estados finan-
+cieros.
+4. Explique por qué no nos parece adecuada la expresión imagen fiable
+como indicación de lo que un juego de estados financieros deberá
+mostrar.
+5. Enuncie el concepto de neutralidad en la preparación de informes
+contables.
+6. Enumere los requisitos que deberían darse para que la información
+contenida en dos juegos de estados financieros de una misma entidad
+pero a diferentes fechas sea comparable.
+7. Indique cómo se relacionan representatividad y oportunidad.
+8. Indique por qué es dificultosa la comparación entre los costos y bene-
+ficios de la información contable.
+9. Explique por qué la plusvalía generada por los administradores de un
+negocio no suele ser reconocida como un activo por la contabilidad.
+l0. Un informe de auditoría sobre ciertos estados financieros indica que
+éstos muestran con verdad y evidencia la situación patrimonial del
+emisor y sus resultados al 31 de marzo de 20X1. Comente esta infor-
+mación.
+11. Gorosito S.A. se endeudó mediante la emisión de un bono. Estas son
+algunas características de la operación:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 101
+a) valor nominal de las obligaciones: $ 10.000;
+b) tasa de interés: 5 % anual;
+c) amortización y pago de intereses en una sola cuota, un año des-
+pués de la emisión;
+d) descuento de emisión: el 3 % sobre el valor nominal.
+El bono fue suscripto y pagado íntegramente. En sus estados financie-
+ros a la fecha de emisión, la empresa muestra lo siguiente:
+a) dentro del activo, el efectivo recibido ($ 9.700);
+b) dentro del pasivo, el valor nominal de los títulos emitidos
+($ 10.000);
+c) como un resultado del período, el descuento de emisión ($ 300).
+Opine sobre el tratamiento dado a la operación considerando los re-
+quisitos de la información estudiados en este capítulo.
+2,10. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y
+EJERCICIOS
+1. a) Correcto.
+b) Correcto.
+c) Correcto.
+d) Incorrecto. Sus normas sólo alcanzan a los estados de situación y
+de resultados de los comerciantes.
+e) Incorrecto. Debería ser de fácil comprensión para los usuarios que
+estén dispuestos a estudiarla diligentemente y que tengan un co-
+nocimiento razonable de las actividades económicas, del mundo
+de los negocios y de la terminología propia de los estados financie-
+ros (o que puedan asesorarse al respecto o sobre cuestiones com-
+plejas).
+f) Incorrecto. Debe tratarse de personas que cuenten con la pericia
+suficiente para afrontar exitosamente la tarea.
+g) Incorrecto. Si se la requiriese no sería una dispensa.
+h) Incorrecto. Eso no sería prudencia sino conservadurismo e impli-
+caría un sesgo (no habría neutralidad en la preparación de la in-
+formación).
+i) Incorrecto. Algunas partidas podrían ser atingentes pero no existir
+métodos adecuados para su medición objetiva, en cuyo caso no
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+102 ENRIQUE FOWLER NEWTON
+debería incluírselas en los estados financieros. También pueden
+excluirse las partidas no significativas.
+j) Incorrecto. Lo expuesto vale para los ICI pero no para los estados
+financieros, pues en esta materia deberían considerarse principal-
+mente los beneficios que obtienen los terceros gracias a la disponi-
+bilidad de la información.
+2. Debería servir para:
+a) elaborar postulados que faciliten el diseño lógico de NC utilizando
+métodos deductivos;
+b) facilitar la resolución de problemas concretos de preparación de
+información contable cuando no existan NC que se refieran espe
+cíficamente a ellos.
+3. Cualquiera fuere el emisor, a los suministradores (actuales y potencia
+les) de recursos. En los casos de informes emitidos por entidades gu-
+bernamentales, se agregan los cuerpos legislativos y de fiscalización.
+4. Porque como la contabilidad debe recurrir a estimaciones, lo más que
+puede lograrse es una aproximación a la realidad.
+5. Es su preparación sin sesgos.
+6. Es necesario que:
+a) se hayan empleado las mismas políticas contables;
+b) los períodos comparados sean de igual duración y no estén afecta-
+dos por las consecuencias de operaciones estacionales;
+c) se informen los efectos de otros hechos que enerven las compara-
+ciones.
+7. Para mejorar la representatividad debe trabajarse más tiempo en la
+elaboración de la información, por lo que presumiblemente menos
+oportuna resultará ella.
+8. Lo es porque:
+a) el costo de preparar la información corre por cuenta del ente emi-
+sor;
+b) sus beneficios son aprovechados por ella y por otras partes, pue-
+den ser percibidos de manera distinta por los usuarios de los esta-
+dos financieros, tienen efectos económicos globales y raramente
+pueden ser medidos en moneda;
+9. Porque la profesión contable no ha logrado elaborar reglas que permi-
+tan asignarle una medida contable objetiva.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+2. CUALIDADES DE LA INFORMACIÓN FINANCIERA ÚTIL 103
+10. Debe criticarse el empleo de la palabra verdad, porque muy pocos
+datos contables son exactos. Además, los resultados no son al 31 de
+marzo de 20X1 sino por el período terminado en esa fecha.
+11. E1 descuento de emisión encubre una tasa de interés más alta que la
+estipulada explícitamente (el 5 % anual). Teniendo en cuenta el re-
+quisito de esencialidad, los $ 300 deberían considerarse resultados
+financieros atribuibles al período de financiación y no al momento
+de obtención del préstamo. Por lo tanto, el pasivo debería medirse en
+$9.700.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos

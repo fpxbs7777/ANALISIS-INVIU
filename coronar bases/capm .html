@@ -1,0 +1,2114 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Análisis CAPM — Mercado Argentino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #080c12;
+        --surface: #0e1420;
+        --border: #1e2d42;
+        --border2: #2a3d56;
+        --gold: #c9a84c;
+        --gold-dim: #8a6e30;
+        --text: #e8edf4;
+        --text-muted: #7a8fa8;
+        --text-dim: #4a5f78;
+        --green: #2ecc8a;
+        --red: #e05252;
+        --blue: #4a9eff;
+        --orange: #e8844a;
+        --amber: #e8a84a;
+        --slide-size: min(92vw, 92vh);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: var(--bg);
+        font-family: "Instrument Sans", sans-serif;
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 16px;
+        gap: 10px;
+      }
+      .topbar {
+        width: 100%;
+        max-width: 900px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .brand {
+        font-family: "DM Serif Display", serif;
+        font-size: 14px;
+        color: var(--gold);
+        letter-spacing: 0.08em;
+      }
+      .date-label {
+        font-size: 12px;
+        color: var(--text-muted);
+        font-family: "DM Mono", monospace;
+        letter-spacing: 0.05em;
+      }
+      .slide-wrapper {
+        width: var(--slide-size);
+        height: var(--slide-size);
+        position: relative;
+      }
+      .slide {
+        width: 100%;
+        height: 100%;
+        background: var(--surface);
+        border: 0.5px solid var(--border);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .slide.active {
+        display: flex;
+      }
+      .s-header {
+        padding: 12px 24px 8px;
+        border-bottom: 0.5px solid var(--border);
+        flex-shrink: 0;
+      }
+      .s-header .eyebrow {
+        font-family: "DM Mono", monospace;
+        font-size: 9px;
+        letter-spacing: 0.18em;
+        color: var(--gold);
+        text-transform: uppercase;
+        margin-bottom: 3px;
+      }
+      .s-header h1 {
+        font-family: "DM Serif Display", serif;
+        font-size: clamp(16px, 2.6vw, 24px);
+        font-weight: 400;
+        line-height: 1.15;
+        color: var(--text);
+        letter-spacing: -0.01em;
+      }
+      .s-header .subtitle {
+        font-size: 11px;
+        color: var(--text-muted);
+        margin-top: 4px;
+        font-weight: 300;
+        line-height: 1.4;
+      }
+      .s-body {
+        flex: 1;
+        padding: 8px 24px 6px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .s-footer {
+        padding: 6px 24px;
+        border-top: 0.5px solid var(--border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      .s-footer .disclaimer {
+        font-size: 9px;
+        color: var(--text-dim);
+        font-family: "DM Mono", monospace;
+        letter-spacing: 0.03em;
+      }
+      .s-footer .slide-num {
+        font-size: 11px;
+        color: var(--text-dim);
+        font-family: "DM Mono", monospace;
+      }
+
+      /* COVER */
+      .cover-body {
+        flex: 1;
+        padding: 0 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+      }
+      .cover-rule {
+        width: 56px;
+        height: 1px;
+        background: var(--gold);
+      }
+      .cover-title {
+        font-family: "DM Serif Display", serif;
+        font-size: clamp(20px, 3.8vw, 36px);
+        font-weight: 400;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+      }
+      .cover-title em {
+        font-style: italic;
+        color: var(--gold);
+      }
+      .cover-meta {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .cover-meta-item .label {
+        font-size: 10px;
+        color: var(--text-dim);
+        font-family: "DM Mono", monospace;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      .cover-meta-item .val {
+        font-size: 13px;
+        color: var(--text-muted);
+        font-weight: 300;
+      }
+      .cover-kpi-row {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .cover-kpi {
+        border: 0.5px solid var(--border2);
+        padding: 6px 8px;
+        min-width: 90px;
+      }
+      .cover-kpi .k-label {
+        font-size: 9.5px;
+        color: var(--text-dim);
+        font-family: "DM Mono", monospace;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      .cover-kpi .k-val {
+        font-size: 15px;
+        font-family: "DM Mono", monospace;
+        font-weight: 500;
+        color: var(--gold);
+      }
+      .cover-kpi .k-sub {
+        font-size: 10px;
+        color: var(--text-muted);
+        margin-top: 3px;
+      }
+
+      /* EXPLAINER */
+      .explainer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        flex: 1;
+      }
+      .exp-box {
+        border: 0.5px solid var(--border);
+        padding: 8px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .exp-box.accent {
+        border-color: var(--gold-dim);
+      }
+      .exp-box .e-tag {
+        font-family: "DM Mono", monospace;
+        font-size: 9px;
+        letter-spacing: 0.18em;
+        color: var(--gold);
+        text-transform: uppercase;
+      }
+      .exp-box h3 {
+        font-size: 11.5px;
+        font-weight: 500;
+        color: var(--text);
+      }
+      .exp-box p {
+        font-size: 10px;
+        color: var(--text-muted);
+        line-height: 1.45;
+        font-weight: 300;
+      }
+      .exp-box .formula {
+        font-family: "DM Mono", monospace;
+        font-size: 9.5px;
+        color: var(--gold);
+        background: #0a1018;
+        padding: 4px 6px;
+        margin-top: 2px;
+        letter-spacing: 0.04em;
+      }
+
+      /* TABLES */
+      .data-table-wrap {
+        overflow: hidden;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 9.5px;
+      }
+      thead th {
+        font-family: "DM Mono", monospace;
+        font-size: 8px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        padding: 3px 5px;
+        border-bottom: 0.5px solid var(--border);
+        text-align: left;
+        font-weight: 400;
+        white-space: nowrap;
+      }
+      thead th.right {
+        text-align: right;
+      }
+      tbody tr {
+        border-bottom: 0.5px solid var(--border);
+      }
+      tbody tr:last-child {
+        border-bottom: none;
+      }
+      tbody tr:hover {
+        background: rgba(201, 168, 76, 0.04);
+      }
+      td {
+        padding: 3px 5px;
+        color: var(--text-muted);
+        vertical-align: middle;
+      }
+      td.ticker {
+        font-family: "DM Mono", monospace;
+        font-size: 9.5px;
+        color: var(--text);
+        font-weight: 500;
+        letter-spacing: 0.06em;
+      }
+      td.right {
+        text-align: right;
+        font-family: "DM Mono", monospace;
+        font-size: 9.5px;
+      }
+      td.pos {
+        color: var(--green);
+      }
+      td.neg {
+        color: var(--red);
+      }
+      td.warn {
+        color: var(--amber);
+      }
+      td.neutral {
+        color: var(--text-muted);
+      }
+
+      /* BADGES */
+      .badge {
+        display: inline-block;
+        font-family: "DM Mono", monospace;
+        font-size: 7.5px;
+        letter-spacing: 0.08em;
+        padding: 2px 5px;
+        text-transform: uppercase;
+      }
+      .badge.off {
+        background: rgba(46, 204, 138, 0.1);
+        color: var(--green);
+      }
+      .badge.def {
+        background: rgba(74, 158, 255, 0.1);
+        color: var(--blue);
+      }
+      .badge.neu {
+        background: rgba(201, 168, 76, 0.1);
+        color: var(--gold);
+      }
+      .badge.vol {
+        background: rgba(224, 82, 82, 0.1);
+        color: var(--red);
+      }
+      .badge.des {
+        background: rgba(122, 143, 168, 0.08);
+        color: var(--text-muted);
+      }
+      .badge.warn {
+        background: rgba(232, 168, 74, 0.1);
+        color: var(--amber);
+      }
+
+      /* STAT CARDS */
+      .stat-row {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+      }
+      .stat-card {
+        flex: 1;
+        min-width: 80px;
+        border: 0.5px solid var(--border);
+        padding: 6px 8px;
+      }
+      .stat-card .sc-label {
+        font-size: 9px;
+        color: var(--text-dim);
+        font-family: "DM Mono", monospace;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      .stat-card .sc-val {
+        font-size: 14px;
+        font-family: "DM Mono", monospace;
+        font-weight: 500;
+      }
+      .stat-card .sc-sub {
+        font-size: 10px;
+        color: var(--text-muted);
+        margin-top: 3px;
+        line-height: 1.4;
+      }
+      .sc-gold {
+        color: var(--gold);
+      }
+      .sc-green {
+        color: var(--green);
+      }
+      .sc-blue {
+        color: var(--blue);
+      }
+      .sc-red {
+        color: var(--red);
+      }
+      .sc-amber {
+        color: var(--amber);
+      }
+
+      /* CALLOUT */
+      .callout {
+        border-left: 2px solid var(--gold);
+        padding: 6px 8px;
+        background: rgba(201, 168, 76, 0.04);
+        flex-shrink: 0;
+      }
+      .callout.warn-c {
+        border-left-color: var(--amber);
+        background: rgba(232, 168, 74, 0.04);
+      }
+      .callout.info-c {
+        border-left-color: var(--blue);
+        background: rgba(74, 158, 255, 0.04);
+      }
+      .callout p {
+        font-size: 10px;
+        color: var(--text-muted);
+        line-height: 1.45;
+        font-weight: 300;
+      }
+      .callout strong {
+        color: var(--text);
+        font-weight: 500;
+      }
+
+      /* SCENARIOS */
+      .scenario-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        flex: 1;
+      }
+      .scenario-box {
+        border: 0.5px solid var(--border);
+        padding: 8px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .sc-head {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .sc-icon {
+        width: 5px;
+        height: 18px;
+        flex-shrink: 0;
+      }
+      .sc-title {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text);
+      }
+      .sc-desc {
+        font-size: 10px;
+        color: var(--text-muted);
+        line-height: 1.4;
+        font-weight: 300;
+      }
+      .ticker-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px;
+        margin-top: 2px;
+      }
+      .chip {
+        font-family: "DM Mono", monospace;
+        font-size: 8.5px;
+        padding: 2px 5px;
+        letter-spacing: 0.05em;
+      }
+      .chip.g {
+        background: rgba(46, 204, 138, 0.1);
+        color: var(--green);
+      }
+      .chip.b {
+        background: rgba(74, 158, 255, 0.1);
+        color: var(--blue);
+      }
+      .chip.r {
+        background: rgba(224, 82, 82, 0.1);
+        color: var(--red);
+      }
+      .chip.y {
+        background: rgba(201, 168, 76, 0.1);
+        color: var(--gold);
+      }
+      .chip.a {
+        background: rgba(232, 168, 74, 0.1);
+        color: var(--amber);
+      }
+
+      /* TWO COLS */
+      .two-cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        flex: 1;
+        min-height: 0;
+      }
+      .col-section {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        overflow: hidden;
+      }
+      .col-title {
+        font-family: "DM Mono", monospace;
+        font-size: 8px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        padding-bottom: 4px;
+        border-bottom: 0.5px solid var(--border);
+      }
+
+      /* ALPHA GRID */
+      .alpha-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .alpha-item {
+        border: 0.5px solid var(--border);
+        padding: 4px 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .alpha-item.reserved {
+        border-color: rgba(232, 168, 74, 0.3);
+      }
+      .a-tick {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--text);
+      }
+      .a-name {
+        font-size: 9px;
+        color: var(--text-dim);
+        margin-top: 1px;
+      }
+      .a-r2 {
+        font-family: "DM Mono", monospace;
+        font-size: 8px;
+        color: var(--text-dim);
+        margin-top: 2px;
+      }
+      .a-val {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        font-weight: 500;
+      }
+      .a-badge-r {
+        font-family: "DM Mono", monospace;
+        font-size: 8px;
+        padding: 2px 6px;
+        margin-left: 6px;
+      }
+      .a-badge-r.ok {
+        background: rgba(46, 204, 138, 0.1);
+        color: var(--green);
+      }
+      .a-badge-r.rv {
+        background: rgba(232, 168, 74, 0.1);
+        color: var(--amber);
+      }
+
+      /* BETA BARS */
+      .beta-bar-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        flex: 1;
+        justify-content: center;
+      }
+      .beta-row {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .beta-ticker {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--text);
+        min-width: 50px;
+      }
+      .beta-bar-bg {
+        flex: 1;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.04);
+        position: relative;
+      }
+      .beta-bar-fill {
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .beta-val {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        min-width: 36px;
+        text-align: right;
+      }
+
+      /* METHOD */
+      .method-list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .method-item {
+        display: flex;
+        gap: 8px;
+        align-items: flex-start;
+      }
+      .method-num {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        color: var(--gold-dim);
+        min-width: 24px;
+        padding-top: 1px;
+      }
+      .method-text .mt-title {
+        font-size: 11.5px;
+        font-weight: 500;
+        color: var(--text);
+        margin-bottom: 2px;
+      }
+      .method-text .mt-desc {
+        font-size: 10px;
+        color: var(--text-muted);
+        line-height: 1.4;
+        font-weight: 300;
+      }
+      .divider {
+        width: 100%;
+        height: 0.5px;
+        background: var(--border);
+        flex-shrink: 0;
+      }
+
+      /* LEGEND ROW */
+      .legend-row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+      }
+      .leg-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 11px;
+        color: var(--text-muted);
+      }
+      .leg-dot {
+        width: 8px;
+        height: 8px;
+        flex-shrink: 0;
+      }
+
+      /* NAV */
+      .nav {
+        width: var(--slide-size);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-group {
+        display: flex;
+        gap: 8px;
+      }
+      .btn {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        padding: 9px 18px;
+        border: 0.5px solid var(--border2);
+        background: transparent;
+        color: var(--text-muted);
+        cursor: pointer;
+        transition: all 0.15s;
+        text-transform: uppercase;
+      }
+      .btn:hover {
+        border-color: var(--gold-dim);
+        color: var(--text);
+      }
+      .btn:active {
+        transform: scale(0.98);
+      }
+      .btn.primary {
+        border-color: var(--gold-dim);
+        color: var(--gold);
+      }
+      .btn.primary:hover {
+        background: rgba(201, 168, 76, 0.08);
+      }
+      .progress-dots {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+      }
+      .dot {
+        width: 5px;
+        height: 5px;
+        background: var(--border2);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .dot.active {
+        background: var(--gold);
+        width: 18px;
+        border-radius: 3px;
+      }
+
+      .r2-threshold-note {
+        font-family: "DM Mono", monospace;
+        font-size: 8px;
+        color: var(--text-dim);
+        border: 0.5px solid var(--border);
+        padding: 3px 8px;
+        letter-spacing: 0.04em;
+        flex-shrink: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <span class="brand">Coronar Inversiones — Análisis Cuantitativo</span>
+      <span class="date-label">Mayo 2026 &nbsp;|&nbsp; AP CNV N° 2192</span>
+    </div>
+
+    <div class="slide-wrapper" id="slideWrapper">
+      <!-- SLIDE 1: PORTADA -->
+      <div class="slide active" id="slide-0">
+        <div class="cover-body">
+          <div class="cover-rule"></div>
+          <div class="cover-title">
+            Análisis de Riesgo y<br />Retorno del<br /><em>Mercado Argentino</em>
+          </div>
+          <div class="cover-meta">
+            <div class="cover-meta-item">
+              <div class="label">Universo</div>
+              <div class="val">44 empresas — BYMA / BCBA</div>
+            </div>
+            <div class="cover-meta-item">
+              <div class="label">Período</div>
+              <div class="val">Mayo 2023 — Mayo 2026</div>
+            </div>
+            <div class="cover-meta-item">
+              <div class="label">Observaciones</div>
+              <div class="val">730 ruedas bursátiles</div>
+            </div>
+          </div>
+          <div class="cover-kpi-row">
+            <div class="cover-kpi">
+              <div class="k-label">Benchmark</div>
+              <div class="k-val">Merval</div>
+              <div class="k-sub">Índice de referencia local</div>
+            </div>
+            <div class="cover-kpi">
+              <div class="k-label">Empresas analizadas</div>
+              <div class="k-val">44</div>
+              <div class="k-sub">Todos los sectores</div>
+            </div>
+            <div class="cover-kpi">
+              <div class="k-label">Alpha estadísticamente válido</div>
+              <div class="k-val">15</div>
+              <div class="k-sub">R² mayor o igual a 0.50</div>
+            </div>
+            <div class="cover-kpi">
+              <div class="k-label">Alpha con reservas</div>
+              <div class="k-val">19</div>
+              <div class="k-sub">R² entre 0.30 y 0.49</div>
+            </div>
+            <div class="cover-kpi">
+              <div class="k-label">Alpha no interpretable</div>
+              <div class="k-val">10</div>
+              <div class="k-sub">R² menor a 0.30</div>
+            </div>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Este material es de carácter informativo. No constituye una recomendación de inversión.
+            | Agente Productor CNV Mat. N° 2192</span
+          >
+          <span class="slide-num">01 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 2: METODOLOGÍA -->
+      <div class="slide" id="slide-1">
+        <div class="s-header">
+          <div class="eyebrow">Introducción</div>
+          <h1>¿Cómo se mide el riesgo de una acción?</h1>
+          <div class="subtitle">
+            Tres conceptos del modelo CAPM y el criterio estadístico que determina cuándo un
+            resultado es válido para tomar decisiones.
+          </div>
+        </div>
+        <div class="s-body">
+          <div class="explainer-grid">
+            <div class="exp-box accent">
+              <div class="e-tag">Concepto 01</div>
+              <h3>Beta — Sensibilidad al mercado</h3>
+              <p>
+                Mide cuánto se mueve una acción por cada punto porcentual que sube o baja el Merval.
+                Beta de 1.20 indica que si el Merval sube 10%, esa acción tiende a subir 12%. Es el
+                riesgo de mercado no diversificable.
+              </p>
+              <div class="formula">Retorno = Alpha + Beta × Retorno Merval</div>
+            </div>
+            <div class="exp-box accent">
+              <div class="e-tag">Concepto 02</div>
+              <h3>Alpha — Retorno propio</h3>
+              <p>
+                Es el rendimiento que una empresa genera de forma independiente del mercado. Un
+                alpha positivo significa que la acción rinde por encima de lo esperado para su nivel
+                de riesgo. Solo es válido si el modelo tiene poder explicativo suficiente.
+              </p>
+              <div class="formula">Alpha válido solo si R² es mayor o igual a 0.50</div>
+            </div>
+            <div class="exp-box accent">
+              <div class="e-tag">Concepto 03</div>
+              <h3>R² — Validez del modelo</h3>
+              <p>
+                Indica qué porcentaje del movimiento de una acción queda explicado por el Merval. Si
+                el R² es bajo, el modelo no describe esa empresa y tanto el alpha como el beta
+                carecen de interpretación operativa confiable.
+              </p>
+              <div class="formula">R² menor a 0.30 → alpha y beta no concluyentes</div>
+            </div>
+            <div
+              class="exp-box"
+              style="border-color: var(--amber); background: rgba(232, 168, 74, 0.03)"
+            >
+              <div class="e-tag" style="color: var(--amber)">Criterio de validez</div>
+              <h3>Tres niveles de confianza</h3>
+              <p style="line-height: 1.4">
+                <span
+                  style="
+                    color: var(--green);
+                    font-family: &quot;DM Mono&quot;, monospace;
+                    font-size: 10px;
+                  "
+                  >R² mayor o igual a 0.50</span
+                >
+                — Alpha válido, se interpreta directamente.<br />
+                <span
+                  style="
+                    color: var(--amber);
+                    font-family: &quot;DM Mono&quot;, monospace;
+                    font-size: 10px;
+                  "
+                  >R² entre 0.30 y 0.49</span
+                >
+                — Alpha con reservas, solo como referencia.<br />
+                <span
+                  style="
+                    color: var(--red);
+                    font-family: &quot;DM Mono&quot;, monospace;
+                    font-size: 10px;
+                  "
+                  >R² menor a 0.30</span
+                >
+                — Alpha descartado, requiere análisis fundamental.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Modelo CAPM aplicado sobre 730 ruedas bursátiles. El criterio de validez del R² es la
+            base de toda interpretación en este análisis.</span
+          >
+          <span class="slide-num">02 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 3: DOMINIO MERVAL -->
+      <div class="slide" id="slide-2">
+        <div class="s-header">
+          <div class="eyebrow">Hallazgo central</div>
+          <h1>El Merval domina como factor explicativo</h1>
+          <div class="subtitle">
+            En 43 de las 44 empresas, el índice Merval supera ampliamente al sector global como
+            factor explicativo. La clasificación sectorial internacional no tiene relevancia
+            estadística en el mercado argentino.
+          </div>
+        </div>
+        <div class="s-body">
+          <div class="stat-row">
+            <div class="stat-card">
+              <div class="sc-label">Mejor R² del universo</div>
+              <div class="sc-val sc-gold">0.8029</div>
+              <div class="sc-sub">PAMP — Pampa Energía</div>
+            </div>
+            <div class="stat-card">
+              <div class="sc-label">Empresas R² mayor a 0.50</div>
+              <div class="sc-val sc-green">15</div>
+              <div class="sc-sub">Alpha válido y concluyente</div>
+            </div>
+            <div class="stat-card">
+              <div class="sc-label">Empresas R² 0.30–0.49</div>
+              <div class="sc-val sc-amber">19</div>
+              <div class="sc-sub">Alpha solo como referencia</div>
+            </div>
+            <div class="stat-card">
+              <div class="sc-label">Empresas R² menor a 0.30</div>
+              <div class="sc-val sc-red">10</div>
+              <div class="sc-sub">Modelo sin poder explicativo</div>
+            </div>
+          </div>
+          <div class="callout">
+            <p>
+              <strong>Implicancia para el inversor:</strong> invertir en acciones argentinas es en
+              primer lugar una apuesta sobre el ciclo macroeconómico local. El sector al que
+              pertenece la empresa —energía, bancos, utilities— no explica su comportamiento de
+              precio de forma independiente al Merval. La única excepción es Laboratorios Richmond
+              (RICH), cuyo mejor factor es el sector financiero global (XLF).
+            </p>
+          </div>
+          <div class="data-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Empresa</th>
+                  <th class="right">R² vs Merval</th>
+                  <th class="right">R² vs Sector Global</th>
+                  <th class="right">Diferencia</th>
+                  <th>Validez del modelo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ticker">PAMP</td>
+                  <td>Pampa Energía</td>
+                  <td class="right pos">0.8029</td>
+                  <td class="right neg">0.0460</td>
+                  <td class="right pos">+0.7569</td>
+                  <td><span class="badge off">Alpha válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">CEPU</td>
+                  <td>Central Puerto</td>
+                  <td class="right pos">0.7791</td>
+                  <td class="right neg">0.0202</td>
+                  <td class="right pos">+0.7589</td>
+                  <td><span class="badge off">Alpha válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">GGAL</td>
+                  <td>Grupo Galicia</td>
+                  <td class="right pos">0.7727</td>
+                  <td class="right neg">0.0621</td>
+                  <td class="right pos">+0.7106</td>
+                  <td><span class="badge off">Alpha válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BMA</td>
+                  <td>Banco Macro</td>
+                  <td class="right pos">0.7242</td>
+                  <td class="right neg">0.0749</td>
+                  <td class="right pos">+0.6493</td>
+                  <td><span class="badge off">Alpha válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">LOMA</td>
+                  <td>Loma Negra</td>
+                  <td class="right pos">0.6162</td>
+                  <td class="right neg">0.0457</td>
+                  <td class="right pos">+0.5705</td>
+                  <td><span class="badge off">Alpha válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BOLT</td>
+                  <td>Boldt</td>
+                  <td class="right warn">0.1853</td>
+                  <td class="right neg">0.0209</td>
+                  <td class="right warn">+0.1644</td>
+                  <td><span class="badge des">No concluyente</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">INTR</td>
+                  <td>Introductora BsAs</td>
+                  <td class="right warn">0.0822</td>
+                  <td class="right neg">0.0001</td>
+                  <td class="right warn">+0.0821</td>
+                  <td><span class="badge des">No concluyente</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">RICH</td>
+                  <td>Lab. Richmond</td>
+                  <td class="right warn">0.0217</td>
+                  <td class="right pos">0.0318</td>
+                  <td class="right neg">–0.0101</td>
+                  <td><span class="badge des">Excepción</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Factores globales incluyen ETFs sectoriales XLF, XLE, XLU, XLI, XLK, entre otros. 730
+            ruedas, mayo 2023 – mayo 2026.</span
+          >
+          <span class="slide-num">03 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 4: CLASIFICACIÓN BETA -->
+      <div class="slide" id="slide-3">
+        <div class="s-header">
+          <div class="eyebrow">Clasificación por riesgo</div>
+          <h1>Ofensivas, defensivas y descorrelacionadas</h1>
+          <div class="subtitle">
+            La beta define cuánto amplifica o amortigua cada empresa los movimientos del Merval. La
+            clasificación tiene sentido operativo solo para empresas con R² suficiente.
+          </div>
+        </div>
+        <div class="s-body">
+          <div class="stat-row">
+            <div class="stat-card">
+              <div class="sc-label">Ofensivas (beta mayor a 1.15)</div>
+              <div class="sc-val sc-red">8</div>
+              <div class="sc-sub">Amplifican movimientos del Merval</div>
+            </div>
+            <div class="stat-card">
+              <div class="sc-label">Neutras (0.85 – 1.15)</div>
+              <div class="sc-val sc-gold">11</div>
+              <div class="sc-sub">Se mueven en línea con el índice</div>
+            </div>
+            <div class="stat-card">
+              <div class="sc-label">Defensivas (0.50 – 0.85)</div>
+              <div class="sc-val sc-blue">18</div>
+              <div class="sc-sub">Amortiguan caídas del mercado</div>
+            </div>
+            <div class="stat-card">
+              <div class="sc-label">Descorrelacionadas (menor a 0.50)</div>
+              <div class="sc-val" style="color: var(--text-muted)">7</div>
+              <div class="sc-sub">Beta no concluyente, R² bajo</div>
+            </div>
+          </div>
+          <div class="callout warn-c">
+            <p>
+              <strong>Criterio de aplicación:</strong> la clasificación ofensiva/defensiva es
+              operativamente válida solo cuando el R² supera 0.50. Para empresas con R² entre 0.30 y
+              0.49 la beta es orientativa. Para R² menor a 0.30 la beta no describe el
+              comportamiento real de la acción y no debe usarse para decisiones de timing.
+            </p>
+          </div>
+          <div class="data-table-wrap" style="flex: 1; min-height: 0">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Empresa</th>
+                  <th class="right">Beta</th>
+                  <th class="right">R²</th>
+                  <th>Tipo</th>
+                  <th>Validez</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ticker">SUPV</td>
+                  <td>Grupo Supervielle</td>
+                  <td class="right" style="color: var(--red)">1.3053</td>
+                  <td class="right pos">0.7197</td>
+                  <td><span class="badge vol">Ofensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BBAR</td>
+                  <td>BBVA Argentina</td>
+                  <td class="right" style="color: var(--red)">1.1764</td>
+                  <td class="right pos">0.7172</td>
+                  <td><span class="badge vol">Ofensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BMA</td>
+                  <td>Banco Macro</td>
+                  <td class="right" style="color: var(--red)">1.1444</td>
+                  <td class="right pos">0.7242</td>
+                  <td><span class="badge vol">Ofensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">EDN</td>
+                  <td>EDENOR</td>
+                  <td class="right" style="color: var(--red)">1.1196</td>
+                  <td class="right pos">0.6212</td>
+                  <td><span class="badge vol">Ofensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">CEPU</td>
+                  <td>Central Puerto</td>
+                  <td class="right" style="color: var(--red)">1.1038</td>
+                  <td class="right pos">0.7791</td>
+                  <td><span class="badge vol">Ofensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">TGSU2</td>
+                  <td>TGS</td>
+                  <td class="right" style="color: var(--red)">1.1009</td>
+                  <td class="right pos">0.7515</td>
+                  <td><span class="badge vol">Ofensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">METR</td>
+                  <td>MetroGAS</td>
+                  <td class="right" style="color: var(--red)">1.1143</td>
+                  <td class="right neutral">0.4976</td>
+                  <td><span class="badge vol">Ofensiva</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">GGAL</td>
+                  <td>Grupo Galicia</td>
+                  <td class="right" style="color: var(--gold)">1.0636</td>
+                  <td class="right pos">0.7727</td>
+                  <td><span class="badge neu">Neutra</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">YPFD</td>
+                  <td>YPF</td>
+                  <td class="right" style="color: var(--gold)">0.9897</td>
+                  <td class="right pos">0.7513</td>
+                  <td><span class="badge neu">Neutra</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">PAMP</td>
+                  <td>Pampa Energía</td>
+                  <td class="right" style="color: var(--gold)">0.9205</td>
+                  <td class="right pos">0.8029</td>
+                  <td><span class="badge neu">Neutra</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">LOMA</td>
+                  <td>Loma Negra</td>
+                  <td class="right" style="color: var(--blue)">0.8456</td>
+                  <td class="right pos">0.6162</td>
+                  <td><span class="badge def">Defensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BYMA</td>
+                  <td>BYMA</td>
+                  <td class="right" style="color: var(--blue)">0.8247</td>
+                  <td class="right pos">0.5518</td>
+                  <td><span class="badge def">Defensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">IRSA</td>
+                  <td>IRSA</td>
+                  <td class="right" style="color: var(--blue)">0.7788</td>
+                  <td class="right pos">0.5027</td>
+                  <td><span class="badge def">Defensiva</span></td>
+                  <td><span class="badge off">Válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">VALO</td>
+                  <td>Banco de Valores</td>
+                  <td class="right" style="color: var(--blue)">0.5576</td>
+                  <td class="right neutral">0.4122</td>
+                  <td><span class="badge def">Defensiva</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">GRIM</td>
+                  <td>Grimoldi</td>
+                  <td class="right" style="color: var(--text-muted)">0.2600</td>
+                  <td class="right neg">0.0624</td>
+                  <td><span class="badge des">Descorrel.</span></td>
+                  <td><span class="badge des">No válida</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">RICH</td>
+                  <td>Lab. Richmond</td>
+                  <td class="right" style="color: var(--text-muted)">0.2109</td>
+                  <td class="right neg">0.0217</td>
+                  <td><span class="badge des">Descorrel.</span></td>
+                  <td><span class="badge des">No válida</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Clasificación beta válida operativamente solo para empresas con R² mayor o igual a
+            0.50. Período: 730 ruedas.</span
+          >
+          <span class="slide-num">04 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 5: ALPHA VÁLIDO -->
+      <div class="slide" id="slide-4">
+        <div class="s-header">
+          <div class="eyebrow">Retorno propio — con criterio estadístico</div>
+          <h1>Alpha interpretable: solo donde el modelo tiene validez</h1>
+          <div class="subtitle">
+            El alpha se presenta en tres niveles de confianza. Un R² bajo hace que el intercepto de
+            la regresión sea ruido estadístico, no una medida del valor que genera la empresa.
+          </div>
+        </div>
+        <div class="s-body">
+          <div class="two-cols">
+            <div class="col-section">
+              <div class="col-title">Alpha positivo — R² mayor o igual a 0.50 (válido)</div>
+              <div class="alpha-grid">
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">IRSA</div>
+                    <div class="a-name">IRSA Inversiones</div>
+                    <div class="a-r2">R² = 0.5027</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--green)">+26.9%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">BMA</div>
+                    <div class="a-name">Banco Macro</div>
+                    <div class="a-r2">R² = 0.7242</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--green)">+20.2%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">YPFD</div>
+                    <div class="a-name">YPF</div>
+                    <div class="a-r2">R² = 0.7513</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--green)">+19.6%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">GGAL</div>
+                    <div class="a-name">Grupo Galicia</div>
+                    <div class="a-r2">R² = 0.7727</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--green)">+18.6%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">BYMA</div>
+                    <div class="a-name">BYMA</div>
+                    <div class="a-r2">R² = 0.5518</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--green)">+13.6%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">BBAR</div>
+                    <div class="a-name">BBVA Argentina</div>
+                    <div class="a-r2">R² = 0.7172</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--green)">+12.9%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-title" style="margin-top: 2px">
+                Alpha negativo — R² mayor o igual a 0.50 (válido)
+              </div>
+              <div class="alpha-grid">
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">CEPU</div>
+                    <div class="a-name">Central Puerto</div>
+                    <div class="a-r2">R² = 0.7791</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--red)">–11.9%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">TGSU2</div>
+                    <div class="a-name">TGS</div>
+                    <div class="a-r2">R² = 0.7515</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--red)">–5.7%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+                <div class="alpha-item">
+                  <div>
+                    <div class="a-tick">TGNO4</div>
+                    <div class="a-name">TGN</div>
+                    <div class="a-r2">R² = 0.6033</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--red)">–3.9%</div>
+                    <span class="a-badge-r ok">Válido</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-section">
+              <div class="col-title">Alpha con reservas — R² entre 0.30 y 0.49</div>
+              <div class="alpha-grid">
+                <div class="alpha-item reserved">
+                  <div>
+                    <div class="a-tick">TRAN</div>
+                    <div class="a-name">Transener</div>
+                    <div class="a-r2">R² = 0.4595</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--amber)">+32.9%</div>
+                    <span class="a-badge-r rv">Reservas</span>
+                  </div>
+                </div>
+                <div class="alpha-item reserved">
+                  <div>
+                    <div class="a-tick">VALO</div>
+                    <div class="a-name">Banco de Valores</div>
+                    <div class="a-r2">R² = 0.4122</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--amber)">+31.9%</div>
+                    <span class="a-badge-r rv">Reservas</span>
+                  </div>
+                </div>
+                <div class="alpha-item reserved">
+                  <div>
+                    <div class="a-tick">PATA</div>
+                    <div class="a-name">La Patagonia</div>
+                    <div class="a-r2">R² = 0.3133</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--amber)">+27.5%</div>
+                    <span class="a-badge-r rv">Reservas</span>
+                  </div>
+                </div>
+                <div class="alpha-item reserved">
+                  <div>
+                    <div class="a-tick">METR</div>
+                    <div class="a-name">MetroGAS</div>
+                    <div class="a-r2">R² = 0.4976</div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div class="a-val" style="color: var(--amber)">+13.9%</div>
+                    <span class="a-badge-r rv">Reservas</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-title" style="margin-top: 2px">
+                Alpha descartado — R² menor a 0.30
+              </div>
+              <div class="callout warn-c">
+                <p>
+                  Las siguientes empresas muestran alpha elevado en el modelo pero su R² es inferior
+                  a 0.30. El Merval no explica su comportamiento, por lo tanto el intercepto del
+                  modelo es estadísticamente irrelevante y
+                  <strong>no debe usarse como indicador de valor generado.</strong><br /><br />
+                  Empresas afectadas:
+                  <span
+                    style="
+                      color: var(--text);
+                      font-family: &quot;DM Mono&quot;, monospace;
+                      font-size: 11px;
+                    "
+                    >SEMI (+75.9%) &nbsp; GRIM (+65.1%) &nbsp; HARG (+51.9%) &nbsp; INTR (+48.8%)
+                    &nbsp; BOLT (+24.0%)</span
+                  ><br /><br />
+                  Estas empresas requieren análisis fundamental propio para evaluar su atractivo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Alpha anualizado. Válido solo con R² mayor o igual a 0.50. Con reservas entre 0.30 y
+            0.49. Descartado por debajo de 0.30. No garantiza rendimiento futuro.</span
+          >
+          <span class="slide-num">05 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 6: ESCENARIOS -->
+      <div class="slide" id="slide-5">
+        <div class="s-header">
+          <div class="eyebrow">Estrategia operativa</div>
+          <h1>Posicionamiento según régimen de mercado</h1>
+          <div class="subtitle">
+            Solo se incluyen empresas cuya clasificación tiene respaldo estadístico. Empresas con R²
+            menor a 0.30 se excluyen de los escenarios direccionales.
+          </div>
+        </div>
+        <div class="s-body" style="gap: 4px">
+          <div class="scenario-grid">
+            <div class="scenario-box">
+              <div class="sc-head">
+                <div class="sc-icon" style="background: var(--green)"></div>
+                <div>
+                  <div class="sc-title">Merval en tendencia alcista — beta alta, R² validado</div>
+                </div>
+              </div>
+              <div class="sc-desc">
+                Empresas con beta superior a 1.10 y R² mayor a 0.60. Amplifican la suba del índice
+                de forma estadísticamente confiable.
+              </div>
+              <div class="ticker-chips">
+                <span class="chip g">SUPV 1.31 R²=0.72</span>
+                <span class="chip g">BBAR 1.18 R²=0.72</span>
+                <span class="chip g">BMA 1.14 R²=0.72</span>
+                <span class="chip g">CEPU 1.10 R²=0.78</span>
+                <span class="chip g">TGSU2 1.10 R²=0.75</span>
+                <span class="chip g">EDN 1.12 R²=0.62</span>
+              </div>
+            </div>
+            <div class="scenario-box">
+              <div class="sc-head">
+                <div class="sc-icon" style="background: var(--red)"></div>
+                <div><div class="sc-title">Merval en corrección — beta baja, R² validado</div></div>
+              </div>
+              <div class="sc-desc">
+                Empresas con beta menor a 0.90 y R² mayor a 0.50. Amortiguan caídas sin salir del
+                mercado. La lista es más corta porque pocas defensivas tienen R² alto.
+              </div>
+              <div class="ticker-chips">
+                <span class="chip b">LOMA 0.85 R²=0.62</span>
+                <span class="chip b">CRES 0.88 R²=0.59</span>
+                <span class="chip b">BYMA 0.82 R²=0.55</span>
+                <span class="chip b">IRSA 0.78 R²=0.50</span>
+              </div>
+            </div>
+            <div class="scenario-box">
+              <div class="sc-head">
+                <div class="sc-icon" style="background: var(--gold)"></div>
+                <div>
+                  <div class="sc-title">Merval lateral — alpha positivo con R² validado</div>
+                </div>
+              </div>
+              <div class="sc-desc">
+                Cuando el índice no se mueve, el retorno depende del alpha. Solo se consideran
+                empresas con R² mayor a 0.50, donde el alpha es estadísticamente confiable.
+              </div>
+              <div class="ticker-chips">
+                <span class="chip y">IRSA +26.9%</span>
+                <span class="chip y">BMA +20.2%</span>
+                <span class="chip y">YPFD +19.6%</span>
+                <span class="chip y">GGAL +18.6%</span>
+                <span class="chip y">BYMA +13.6%</span>
+                <span class="chip y">BBAR +12.9%</span>
+              </div>
+            </div>
+            <div class="scenario-box">
+              <div class="sc-head">
+                <div class="sc-icon" style="background: var(--amber)"></div>
+                <div>
+                  <div class="sc-title">Análisis individual obligatorio — R² menor a 0.30</div>
+                </div>
+              </div>
+              <div class="sc-desc">
+                Estas empresas no responden al Merval de forma consistente. No tienen clasificación
+                operativa válida. Su evaluación requiere análisis de balances y fundamentos propios.
+              </div>
+              <div class="ticker-chips">
+                <span class="chip a">BOLT R²=0.19</span>
+                <span class="chip a">CELU R²=0.14</span>
+                <span class="chip a">INTR R²=0.08</span>
+                <span class="chip a">HARG R²=0.06</span>
+                <span class="chip a">GRIM R²=0.06</span>
+                <span class="chip a">SEMI R²=0.06</span>
+                <span class="chip a">RIGO R²=0.04</span>
+                <span class="chip a">RICH R²=0.02</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Escenarios construidos solo con empresas cuya beta y alpha tienen validez estadística
+            (R² mayor o igual a 0.50 para decisiones directas). Análisis histórico.</span
+          >
+          <span class="slide-num">06 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 7: TABLA COMPLETA -->
+      <div class="slide" id="slide-6">
+        <div class="s-header">
+          <div class="eyebrow">Ranking completo</div>
+          <h1>Las 44 empresas con criterio de validez explícito</h1>
+          <div class="subtitle">
+            Ordenadas por R² descendente. La columna de validez indica si el alpha y la beta son
+            operativamente interpretables para cada empresa.
+          </div>
+        </div>
+        <div class="s-body" style="padding-bottom: 4px">
+          <div class="r2-threshold-note">
+            Umbral de validez: R² mayor o igual a 0.50 — Alpha válido &nbsp;|&nbsp; R² entre 0.30 y
+            0.49 — Con reservas &nbsp;|&nbsp; R² menor a 0.30 — No concluyente
+          </div>
+          <div class="data-table-wrap" style="flex: 1; min-height: 0">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Empresa (abrev.)</th>
+                  <th class="right">Beta</th>
+                  <th class="right">Alpha anual</th>
+                  <th class="right">R²</th>
+                  <th>Beta válida</th>
+                  <th>Alpha válido</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ticker">PAMP</td>
+                  <td>Pampa Energía</td>
+                  <td class="right gold">0.92</td>
+                  <td class="right neutral">+0.3%</td>
+                  <td class="right pos">0.8029</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge neu">Marginal</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">CEPU</td>
+                  <td>Central Puerto</td>
+                  <td class="right" style="color: var(--red)">1.10</td>
+                  <td class="right neg">–11.9%</td>
+                  <td class="right pos">0.7791</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">GGAL</td>
+                  <td>Grupo Galicia</td>
+                  <td class="right" style="color: var(--gold)">1.06</td>
+                  <td class="right pos">+18.6%</td>
+                  <td class="right pos">0.7727</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">TGSU2</td>
+                  <td>TGS</td>
+                  <td class="right" style="color: var(--red)">1.10</td>
+                  <td class="right neg">–5.7%</td>
+                  <td class="right pos">0.7515</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">YPFD</td>
+                  <td>YPF</td>
+                  <td class="right" style="color: var(--gold)">0.99</td>
+                  <td class="right pos">+19.6%</td>
+                  <td class="right pos">0.7513</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BMA</td>
+                  <td>Banco Macro</td>
+                  <td class="right" style="color: var(--red)">1.14</td>
+                  <td class="right pos">+20.2%</td>
+                  <td class="right pos">0.7242</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">SUPV</td>
+                  <td>Supervielle</td>
+                  <td class="right" style="color: var(--red)">1.31</td>
+                  <td class="right pos">+2.0%</td>
+                  <td class="right pos">0.7197</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge neu">Marginal</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BBAR</td>
+                  <td>BBVA Argentina</td>
+                  <td class="right" style="color: var(--red)">1.18</td>
+                  <td class="right pos">+12.9%</td>
+                  <td class="right pos">0.7172</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">EDN</td>
+                  <td>EDENOR</td>
+                  <td class="right" style="color: var(--red)">1.12</td>
+                  <td class="right pos">+2.6%</td>
+                  <td class="right pos">0.6212</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge neu">Marginal</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">LOMA</td>
+                  <td>Loma Negra</td>
+                  <td class="right" style="color: var(--blue)">0.85</td>
+                  <td class="right pos">+2.0%</td>
+                  <td class="right pos">0.6162</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge neu">Marginal</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">TGNO4</td>
+                  <td>TGN</td>
+                  <td class="right" style="color: var(--gold)">1.05</td>
+                  <td class="right neg">–3.9%</td>
+                  <td class="right pos">0.6033</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">CRES</td>
+                  <td>Cresud</td>
+                  <td class="right" style="color: var(--blue)">0.88</td>
+                  <td class="right pos">+4.2%</td>
+                  <td class="right pos">0.5938</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">TECO2</td>
+                  <td>Telecom Argentina</td>
+                  <td class="right" style="color: var(--gold)">0.99</td>
+                  <td class="right pos">+4.4%</td>
+                  <td class="right pos">0.5791</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BYMA</td>
+                  <td>BYMA</td>
+                  <td class="right" style="color: var(--blue)">0.82</td>
+                  <td class="right pos">+13.6%</td>
+                  <td class="right pos">0.5518</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">IRSA</td>
+                  <td>IRSA</td>
+                  <td class="right" style="color: var(--blue)">0.78</td>
+                  <td class="right pos">+26.9%</td>
+                  <td class="right pos">0.5027</td>
+                  <td><span class="badge off">Válida</span></td>
+                  <td><span class="badge off">Válido</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">METR</td>
+                  <td>MetroGAS</td>
+                  <td class="right" style="color: var(--red)">1.11</td>
+                  <td class="right pos">+13.9%</td>
+                  <td class="right warn">0.4976</td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">COME</td>
+                  <td>Com. del Plata</td>
+                  <td class="right" style="color: var(--gold)">0.91</td>
+                  <td class="right neg">–16.5%</td>
+                  <td class="right warn">0.4963</td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">TRAN</td>
+                  <td>Transener</td>
+                  <td class="right" style="color: var(--gold)">0.93</td>
+                  <td class="right pos">+32.9%</td>
+                  <td class="right warn">0.4595</td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">VALO</td>
+                  <td>Banco de Valores</td>
+                  <td class="right" style="color: var(--blue)">0.56</td>
+                  <td class="right pos">+31.9%</td>
+                  <td class="right warn">0.4122</td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">TXAR</td>
+                  <td>Ternium Argentina</td>
+                  <td class="right" style="color: var(--blue)">0.75</td>
+                  <td class="right neg">–30.7%</td>
+                  <td class="right warn">0.3735</td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">ALUA</td>
+                  <td>Aluar</td>
+                  <td class="right" style="color: var(--blue)">0.70</td>
+                  <td class="right neg">–9.8%</td>
+                  <td class="right warn">0.3392</td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">MOLA</td>
+                  <td>Molinos Agro</td>
+                  <td class="right" style="color: var(--blue)">0.67</td>
+                  <td class="right pos">+18.9%</td>
+                  <td class="right warn">0.3090</td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                  <td><span class="badge warn">Con reservas</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">LEDE</td>
+                  <td>Ledesma</td>
+                  <td class="right" style="color: var(--blue)">0.59</td>
+                  <td class="right neg">–4.9%</td>
+                  <td class="right neg">0.2785</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">MIRG</td>
+                  <td>Mirgor</td>
+                  <td class="right" style="color: var(--blue)">0.46</td>
+                  <td class="right neg">–2.2%</td>
+                  <td class="right neg">0.2375</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">BOLT</td>
+                  <td>Boldt</td>
+                  <td class="right" style="color: var(--blue)">0.67</td>
+                  <td class="right pos">+24.0%</td>
+                  <td class="right neg">0.1853</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">CELU</td>
+                  <td>Celulosa Argentina</td>
+                  <td class="right" style="color: var(--blue)">0.71</td>
+                  <td class="right neg">–19.7%</td>
+                  <td class="right neg">0.1395</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">INTR</td>
+                  <td>Introductora BsAs</td>
+                  <td class="right" style="color: var(--text-muted)">0.39</td>
+                  <td class="right pos">+48.8%</td>
+                  <td class="right neg">0.0822</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">HARG</td>
+                  <td>Holcim Argentina</td>
+                  <td class="right" style="color: var(--text-muted)">0.41</td>
+                  <td class="right pos">+51.9%</td>
+                  <td class="right neg">0.0634</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">GRIM</td>
+                  <td>Grimoldi</td>
+                  <td class="right" style="color: var(--text-muted)">0.26</td>
+                  <td class="right pos">+65.1%</td>
+                  <td class="right neg">0.0624</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">SEMI</td>
+                  <td>Molinos Semino</td>
+                  <td class="right" style="color: var(--gold)">1.02</td>
+                  <td class="right pos">+75.9%</td>
+                  <td class="right neg">0.0620</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">RIGO</td>
+                  <td>Rigolleau</td>
+                  <td class="right" style="color: var(--text-muted)">0.21</td>
+                  <td class="right neg">–5.4%</td>
+                  <td class="right neg">0.0418</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+                <tr>
+                  <td class="ticker">RICH</td>
+                  <td>Lab. Richmond</td>
+                  <td class="right" style="color: var(--text-muted)">0.21</td>
+                  <td class="right pos">+31.6%</td>
+                  <td class="right neg">0.0217</td>
+                  <td><span class="badge des">No válida</span></td>
+                  <td><span class="badge des">Descartado</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >32 de 44 empresas. Ordenadas por R² descendente. El alpha y la beta solo son operativos
+            cuando el R² justifica el modelo. Mayo 2023 – mayo 2026.</span
+          >
+          <span class="slide-num">07 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 8: BETA VISUAL -->
+      <div class="slide" id="slide-7">
+        <div class="s-header">
+          <div class="eyebrow">Visualización</div>
+          <h1>Mapa de sensibilidad — Beta con indicador de validez</h1>
+          <div class="subtitle">
+            Barras opacas indican beta con R² inferior a 0.30: el dato existe pero no es concluyente
+            para decisiones de timing.
+          </div>
+        </div>
+        <div class="s-body" style="gap: 4px">
+          <div class="legend-row">
+            <div class="leg-item">
+              <div class="leg-dot" style="background: var(--red)"></div>
+              Ofensiva (beta mayor a 1.15) — R² validado
+            </div>
+            <div class="leg-item">
+              <div class="leg-dot" style="background: var(--gold)"></div>
+              Neutra (0.85 – 1.15) — R² validado
+            </div>
+            <div class="leg-item">
+              <div class="leg-dot" style="background: var(--blue)"></div>
+              Defensiva (0.50 – 0.85) — R² validado
+            </div>
+            <div class="leg-item">
+              <div class="leg-dot" style="background: var(--text-muted); opacity: 0.5"></div>
+              Beta no concluyente — R² menor a 0.30
+            </div>
+          </div>
+          <div class="beta-bar-wrap" id="betaBars"></div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Línea de referencia: Beta = 1.00. Barras con opacidad reducida indican R² menor a 0.30.
+            Período: 730 ruedas.</span
+          >
+          <span class="slide-num">08 / 09</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 9: CONCLUSIONES -->
+      <div class="slide" id="slide-8">
+        <div class="s-header">
+          <div class="eyebrow">Conclusiones</div>
+          <h1>Síntesis del análisis</h1>
+          <div class="subtitle">
+            Cuatro conclusiones estructurales con criterio estadístico aplicado. El análisis
+            distingue entre lo que el modelo puede afirmar y lo que requiere investigación
+            adicional.
+          </div>
+        </div>
+        <div class="s-body">
+          <div class="method-list">
+            <div class="method-item">
+              <div class="method-num">01</div>
+              <div class="method-text">
+                <div class="mt-title">
+                  El riesgo en acciones argentinas es esencialmente macroeconómico local
+                </div>
+                <div class="mt-desc">
+                  El Merval explica entre el 50% y el 80% del movimiento de las 15 empresas con
+                  mayor R². El sector global al que pertenece la empresa no agrega capacidad
+                  explicativa relevante. Operar acciones argentinas es, en primer lugar, tomar
+                  posición sobre el ciclo macro local.
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="method-item">
+              <div class="method-num">02</div>
+              <div class="method-text">
+                <div class="mt-title">
+                  La beta es confiable en 15 empresas; orientativa en 19; no concluyente en 10
+                </div>
+                <div class="mt-desc">
+                  Las empresas con R² mayor a 0.50 —principalmente bancos, energéticas y utilities
+                  con alta liquidez— son las únicas donde la clasificación ofensiva/defensiva tiene
+                  valor operativo directo. En el resto, la beta describe una tendencia parcial que
+                  no debe usarse como único criterio de timing.
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="method-item">
+              <div class="method-num">03</div>
+              <div class="method-text">
+                <div class="mt-title">
+                  El alpha solo es válido donde el modelo tiene poder explicativo
+                </div>
+                <div class="mt-desc">
+                  Empresas como SEMI, GRIM, HARG, INTR y BOLT muestran alphas muy elevados en el
+                  modelo, pero su R² es inferior a 0.06. El Merval no explica su comportamiento: el
+                  alpha es el intercepto de una regresión sin sentido estadístico en ese contexto.
+                  No puede interpretarse como valor generado. Requieren análisis de balances,
+                  liquidez y fundamentos propios.
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="method-item">
+              <div class="method-num">04</div>
+              <div class="method-text">
+                <div class="mt-title">
+                  Los mejores perfiles por escenario dentro del universo validado
+                </div>
+                <div class="mt-desc">
+                  Mercado alcista: SUPV, BBAR, BMA, CEPU con beta superior a 1.10 y R² superior a
+                  0.72. Mercado bajista: LOMA, BYMA, CRES, IRSA con beta inferior a 0.90 y R²
+                  superior a 0.50. Mercado lateral: IRSA, BMA, YPFD, GGAL con el mejor alpha dentro
+                  del universo estadísticamente válido.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="s-footer">
+          <span class="disclaimer"
+            >Este material no constituye una recomendación de inversión. Elaborado con fines
+            informativos. Agente Productor CNV Mat. N° 2192. Los rendimientos pasados no garantizan
+            resultados futuros.</span
+          >
+          <span class="slide-num">09 / 09</span>
+        </div>
+      </div>
+    </div>
+    <!-- /slide-wrapper -->
+
+    <div class="nav">
+      <div class="nav-group">
+        <button class="btn" onclick="changeSlide(-1)">Anterior</button>
+        <button class="btn" onclick="changeSlide(1)">Siguiente</button>
+      </div>
+      <div class="progress-dots" id="dots"></div>
+      <button class="btn primary" id="btnDownload" onclick="downloadSlide()">Descargar PNG</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script>
+      const TOTAL = 9;
+      let current = 0;
+
+      const dotsEl = document.getElementById("dots");
+      for (let i = 0; i < TOTAL; i++) {
+        const d = document.createElement("div");
+        d.className = "dot" + (i === 0 ? " active" : "");
+        d.onclick = () => goTo(i);
+        dotsEl.appendChild(d);
+      }
+
+      function goTo(n) {
+        document.querySelector(".slide.active").classList.remove("active");
+        document.querySelectorAll(".dot")[current].classList.remove("active");
+        current = Math.max(0, Math.min(TOTAL - 1, n));
+        document.getElementById("slide-" + current).classList.add("active");
+        document.querySelectorAll(".dot")[current].classList.add("active");
+        if (current === 7) buildBars();
+      }
+      function changeSlide(dir) {
+        goTo(current + dir);
+      }
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight" || e.key === "ArrowDown") changeSlide(1);
+        if (e.key === "ArrowLeft" || e.key === "ArrowUp") changeSlide(-1);
+      });
+
+      function buildBars() {
+        const container = document.getElementById("betaBars");
+        if (container.childElementCount > 0) return;
+        const data = [
+          { t: "SUPV", b: 1.3053, r2: 0.72 },
+          { t: "BBAR", b: 1.1764, r2: 0.72 },
+          { t: "BMA", b: 1.1444, r2: 0.72 },
+          { t: "CEPU", b: 1.1038, r2: 0.78 },
+          { t: "TGSU2", b: 1.1009, r2: 0.75 },
+          { t: "EDN", b: 1.1196, r2: 0.62 },
+          { t: "METR", b: 1.1143, r2: 0.5 },
+          { t: "TGNO4", b: 1.0455, r2: 0.6 },
+          { t: "GGAL", b: 1.0636, r2: 0.77 },
+          { t: "TECO2", b: 0.9936, r2: 0.58 },
+          { t: "YPFD", b: 0.9897, r2: 0.75 },
+          { t: "TRAN", b: 0.9344, r2: 0.46 },
+          { t: "PAMP", b: 0.9205, r2: 0.8 },
+          { t: "COME", b: 0.914, r2: 0.5 },
+          { t: "CRES", b: 0.8848, r2: 0.59 },
+          { t: "LOMA", b: 0.8456, r2: 0.62 },
+          { t: "BYMA", b: 0.8247, r2: 0.55 },
+          { t: "IRSA", b: 0.7788, r2: 0.5 },
+          { t: "TXAR", b: 0.7488, r2: 0.37 },
+          { t: "ALUA", b: 0.6978, r2: 0.34 },
+          { t: "VALO", b: 0.5576, r2: 0.41 },
+          { t: "MIRG", b: 0.4557, r2: 0.24 },
+          { t: "LEDE", b: 0.5861, r2: 0.28 },
+          { t: "BOLT", b: 0.6653, r2: 0.19 },
+          { t: "CELU", b: 0.7069, r2: 0.14 },
+          { t: "INTR", b: 0.3936, r2: 0.08 },
+          { t: "HARG", b: 0.4098, r2: 0.06 },
+          { t: "GRIM", b: 0.26, r2: 0.06 },
+          { t: "SEMI", b: 1.0248, r2: 0.06 },
+          { t: "RIGO", b: 0.2124, r2: 0.04 },
+        ];
+        const maxB = 1.4;
+        data.forEach((d) => {
+          const pct = (d.b / maxB) * 100;
+          const valid = d.r2 >= 0.5;
+          const warn = d.r2 >= 0.3 && d.r2 < 0.5;
+          let col =
+            d.r2 < 0.3
+              ? "var(--text-muted)"
+              : d.b > 1.15
+                ? "var(--red)"
+                : d.b >= 0.85
+                  ? "var(--gold)"
+                  : d.b >= 0.5
+                    ? "var(--blue)"
+                    : "var(--text-muted)";
+          const op = d.r2 < 0.3 ? "0.35" : warn ? "0.6" : "0.8";
+          const row = document.createElement("div");
+          row.className = "beta-row";
+          row.innerHTML = `
+      <span class="beta-ticker">${d.t}</span>
+      <div class="beta-bar-bg">
+        <div class="beta-bar-fill" style="width:${pct.toFixed(1)}%;background:${col};opacity:${op};"></div>
+        <div style="position:absolute;left:${((1 / maxB) * 100).toFixed(1)}%;top:-3px;width:0.5px;height:11px;background:var(--border2);"></div>
+      </div>
+      <span class="beta-val" style="color:${col};opacity:${op}">${d.b.toFixed(2)}</span>
+      <span style="font-family:'DM Mono',monospace;font-size:9px;color:var(--text-dim);min-width:48px;text-align:right;">R²=${d.r2.toFixed(2)}</span>
+    `;
+          container.appendChild(row);
+        });
+      }
+
+      async function downloadSlide() {
+        const btn = document.getElementById("btnDownload");
+        btn.textContent = "Procesando...";
+        btn.disabled = true;
+        try {
+          const el = document.getElementById("slide-" + current);
+          const sz = el.offsetWidth;
+          const canvas = await html2canvas(el, {
+            width: sz,
+            height: sz,
+            scale: 2,
+            backgroundColor: "#0e1420",
+            logging: false,
+            useCORS: true,
+          });
+          const link = document.createElement("a");
+          link.download = `coronar-capm-slide-${String(current + 1).padStart(2, "0")}.png`;
+          link.href = canvas.toDataURL("image/png");
+          link.click();
+        } catch (e) {
+          alert("Error al generar imagen.");
+        }
+        btn.textContent = "Descargar PNG";
+        btn.disabled = false;
+      }
+    </script>
+  </body>
+</html>

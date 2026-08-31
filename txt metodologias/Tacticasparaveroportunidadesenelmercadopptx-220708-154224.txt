@@ -1,0 +1,216 @@
+Tácticas para ver oportunidades
+en el mercado
+Hernán Schvarz
+31 de Enero 2022 18:30 hs.
+Agente Productor N°1025 | Cdor. Público |
+MBA , MFA | Fundador Consultora ETR
+
+Temario
+La diversificación para mitigar el riesgo
+¿Qué activo elegimos?
+¿Qué análisis elegimos?
+Métodos para valuar una empresa
+Ejemplo 1 - 2021:SCP
+Ejemplo 2 - 2021: MELI
+
+Disertante
+Contador Público, recibido en la Universidad de Buenos Aires con un
+MBA en Universidad Argentina de La Empresa y un MFA de la universidad
+Torcuato Di Tella
+Actualmente tengo la Consultora ETR donde desarrollo actividades de
+asesoría financiera como AP.
+Fui auditor en una Big Four durante 17 años con el cargo de gerente.
+Tengo participaciones en el diario Cronista y participo de un programa
+de radio los Sábados en Grupo Perfil.
+
+LA DIVERSIFICACIÓN PARA
+MITIGAR EL RIESGO
+
+A tener en cuenta...
+● Argentina es un país con interminables problemas
+estructurales, políticos y económicos.
+● La sobre-diversificación es enemiga del retorno, pero
+nunca nadie se fundió por tener un bajo rendimiento.
+● Al no ir de la mano la inflación y la suba del tipo de
+cambio, es muy complejo diseñar una cartera de
+inversión.
+● La clave está en la diversificación
+
+¿QUÉ ACTIVO ELEGIMOS?
+
+¿Qué activo elegimos?
+Es fundamental entender todos los productos que estamos ofreciendo,
+es preferible centralizarse en menos cantidad de productos,
+“El que mucho abarca poco aprieta”:
+✔ Renta fija, variable, mercado local, USA, ONs,
+✔ Futuros, FCIs, Opciones, Cheques diferidos, Cauciones, etc.
+✔ ETFs en pesos - Una buena alternativa para cubrirse de
+devaluaciones.
+✔ Bonos CER – Boncer – Una buena alternativa para cubrirte de la
+inflación.
+
+¿Qué activos elegimos?
+• Estar actualizado con las normas restrictivas
+cambiarias para encontrar oportunidades / por
+ejemplo para ver nuevos ETFs
+• Un agente no es adivino, nadie puede determinar
+qué va a pasar en el futuro, su misión es intentar
+darle previsibilidad a la cartera de sus clientes, a
+partir del análisis de activos que considere
+subvaluados para incorporar en una cartera de
+inversión.
+
+¿Qué activos elegimos?
+Cartera conservadora
+Renta Variable 10%
+Cedears SPY/DJ 35%
+Renta fija 35%
+Caución 20%
+Cartera intermedia
+Renta Variable 20%
+Cedears SPY/DJ 30%
+Renta fija 30%
+Caución 20%
+Cartera arriesgada
+Renta Variable 30%
+Cedears SPY/DJ 25%
+Renta fija 30%
+Caución 15%
+
+¿QUÉ ANÁLISIS ELEGIMOS?
+
+¿Qué análisis elegimos?
+• AT = Precio y volumen y un precio
+determinado en una fecha dada. Es
+fundamental entenderlo y estudiarlo,
+luego determinar si efectivamente se
+cumple.
+• AF = Es mucho más complejo porque
+conlleva muchísimos análisis
+aparejados y que debemos estimar.
+Clave = Stock vs Flujo
+• EJEMPLOS: CRESUD / Empresa
+constructora sin cotización
+
+¿Qué análisis elegimos?
+Entender muy bien ambos análisis y ESTUDIARLOS, no limitarse a ver cuadritos o
+señales armados por otros, entender qué es una media, que es un estado contable,
+dónde buscar la información.
+• Desde el AT: “compré porque el MACD dio compra” ,
+• O desde el AF: “Compré porque el Flujo proyectado de ingresos descontado a
+una tasa de mercado durante los próximos 5 años de la empresa `xxx` dividido la
+cantidad de acciones en circulación es superior a su precio de cotización”
+Tenemos que buscar Ventajas Competitivas en las empresas que elegimos.
+W.BUFFET, habitualmente busca monopolios, o empresas de un solo producto o
+servicio. Ejemplos : KO (Ticker de Coca Cola)
+
+¿Qué análisis elegimos?
+¿Por Qué bajó Netflix (NFLX) con estos aparentes resultados?
+NO HAY QUE LIMITARSE A MIRAR EL EPS Y LOS REVENUES – HAY QUE VER EL FLUJO
+RTA: Porqué el quarter anterior tuvo una proyección de 4M de nuevos suscriptores y para
+este proyectó una suba de 2,5M, Hace 2 años no conocíamos otras plataformas, hoy hay
+más de 7 u 8 y se lanzarán más. Mucha competencia, menos suscriptores, menos ingresos,
+menos flujo
+
+MÉTODOS PARA VALUAR EMPRESAS
+
+Métodos para valuar
+• Valuación sobre la base del costo promedio ponderado del capital (WACC).
+• Valuación de empresas por actualización de valores ajustados (APV).
+• Valuación basada en múltiplos implícitos.
+• Valuación técnica de activos, neta de deudas operativas.
+
+Métodos para valuar
+Valuación sobre la base del costo promedio ponderado del capital (WACC) – Weighted
+Average Cost of Capital.
+1. Ventaja: Simplicidad en el cómputo.
+2. Pronóstico de rendimientos netos para un lapso razonable de tiempo, tomando en
+cuenta la incidencia del impuesto a las ganancias, pero dejando de lado los
+movimientos de fondos relacionados con la estructura de financiación de la empresa
+(intereses y gastos financieros, pagos de deudas, dividendos, rescate y emisión de
+acciones).
+3. Calcular la tasa de costo promedio ponderado del capital, conforme a la estructura de
+financiación adoptada por la empresa
+
+Métodos para valuar
+5. Calcular el valor actual de flujo de rendimientos netos estimados, aplicando la tasa
+determinada según el punto anterior
+6. Deducir de dicho valor actual el valor de mercado de la deuda
+
+Métodos para valuar
+
+Métodos para valuar
+• Valuación por actualización de valores ajustados («apv»):
+Alternativa más rigurosa que la del WACC, donde se soslayan los problemas inherentes
+a la determinación objetiva del costo de capital, aceptando que su magnitud surge de
+una estimación basada en las características de la empresa. Bajo este modelo de
+valuación la empresa se financia exclusivamente con capital propio.
+
+Métodos para valuar
+• Valuación basada en múltiplos implícitos
+Consiste en valuar una empresa comparándola con otras de negocios similares, y, en
+función a una serie de múltiplos, que, según el autor pueden cambiar. Lo genérico
+consiste en encontrar capitalizaciones de mercado de empresas similares a la que
+queremos valuar, colocarlas paralelamente en columnas, y dividir el Market Cap /
+ebitda, eso nos dará un coeficiente, habitualmente entre empresas de un mismo
+sector, en un mercado NORMAL, como el de usa, ese coeficiente no debería ser muy
+distinto entre empresas del mismo sector, excepto que tengamos alguna empresa
+sobre o sub-valuada, y esa es nuestra tarea a descubrir desde el AF.
+
+Métodos para valuar
+• Valuación técnica de activos, neta de deudas operativas:
+Criterio relegado, no por ello obsoleto, consiste en generar valores de libros de los
+activos, y en caso en que estos no fueran representativos de los considerados
+corrientes para el tipo de bienes que los componen, se recurre a una evaluación
+técnica, basada esencialmente en los valores corrientes de los activos, neta de las
+deudas operativas de la compañía
+
+TEMA 5
+CASOS PRÁCTICOS DE VALUACIÓN DE EMPRESAS
+
+Casos prácticos
+• Sociedad Comercial del Plata: sobre estados
+contables al 31/12/2020:
+• 1999/2003: Al borde de la quiebra c/concurso
+de acreedores
+• Llegó a cotizar a 0,05 centavos.
+• Crisis Parque/tren de la costa
+• Reformulo el holding desde 2018: Hoy se centra
+en construcción y petróleo principalmente. -
+MANUFACTURA
+• ¿Qué pasó en 2021?
+• Simplemente comenzó lentamente a pagar
+dividendos todos los años y su precio se
+«acomodó» a su valor.
+• Su valuación por WACC me dio 6,50ARS a fines
+de 2020 y dejó una renta del 80% EN DOLARES
+en el año
+• BATACAZO del 2021
+
+Casos prácticos
+• Mercado Libre: sobre estados contables al
+31/12/2020:
+• Unicornio más grande argentino
+• Empresa de referencia en todo el mundo -
+SERVICIOS
+• Cotiza desde 2007 aprox en 50USD y hasta el
+2013 (SEIS AÑOS DESPUÉS) no había podido
+superar los 100USD.
+• ¿En qué año empezamos a hablar
+terriblemente de MELI? 2020
+• Para 2020 ya cotizaba en 600/700USD
+• La mayoría de los minoritarios entran entre
+2020 y 2021 entre 1200 y 2000USD
+• ¿Y ahora? En 2021 llega a presentar PN
+NEGATIVO en el primer Q
+• Si valuamos por WACC esta en precio, si
+valuamos por múltiplos puede estar «barata»
+• Fue uno de los peores cedears de 2021 – EN
+USD casi 50% por debajo de su máximo
+
+¿PREGUNTAS?
+
+MUCHAS GRACIAS
+Hernán Schvarz
+Agente Productor N°1025 | Cdor. Público | MBA , MFA |
+Fundador Consultora ETR | @elteoremaderulo

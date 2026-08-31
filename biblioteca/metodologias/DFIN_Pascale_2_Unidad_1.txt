@@ -1,0 +1,1222 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 36
+TÉCNICAS DE APOYO A LOS DIAGNÓSTICOS FINANCIEROS
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Analizar la evolución de las técnicas de apoyo en el análisis financiero como parte del algoritmo de
+diagnóstico financiero.
+(cid:1) Analizar y discutir los ratios financieros tradicionales.
+(cid:1) Analizar el sistema DUPONT. Analizar el estudio discriminante multivariante en su aplicación a las
+finanzas. Analizar el índice de descomposición de THEIL.
+(cid:1) Analizar las series de tiempo como técnica de apoyo a los efectos del análisis financiero.
+36,1. INTRODUCCIÓN
+En el cap. 31 se expuso el algoritmo de diagnóstico financiero y en el mismo, luego de presentar
+básicamente las operaciones que pertenecían a la clínica financiera, se obtienen algunos hallazgos primarios
+y se determinan las necesidades que pudieran existir de estudios que provengan de técnicas de apoyo, que
+integran la paraclínica financiera.
+En este capítulo se revisan algunas de esas técnicas de apoyo que se referenciaron entonces. En este
+caso son:
+(cid:1) Ratios.
+(cid:1) Sistema de DuPoNT.
+(cid:1) Análisis discriminante multivariante.
+(cid:1) Análisis de descomposición estadística.
+(cid:1) Análisis de series de tiempo.
+Otras técnicas de apoyo, en razón a sus características, aparecen en otros capítulos de este texto.
+36,2. RATIOS
+Los ratios como técnica de apoyo a los algoritmos de diagnóstico financiero
+Los ratios, cuyos orígenes se remontan a la mitad del siglo XIX, son un número expresado en
+términos de otro número. Un porcentaje es un ratio cuya base es 100.
+Los ratios que permiten disminuir la cantidad de material numérico a analizar, tienen como objetivo
+tradicional facilitar la interpretación de los estados financieros. En el proceso de utilización de los ratios
+existe un marcado sentido de negatividad. Esto es, con ellos se enfatizan, por ejemplo, un aumento del
+endeudamiento o una caída de la liquidez. Cuando registran algo favorable, por lo común, este énfasis
+disminuye.
+Los ratios vistos hoy día no dan, comúnmente, una respuesta satisfactoria a los problemas que
+puedan aquejar a las empresas; en el contexto de algoritmos de diagnóstico financiero que se viene
+exponiendo, los ratios serían estudios de apoyo sobre algún aspecto de la condición económica financiera de
+una empresa que se pretende diagnosticar.
+En cuanto a la formación de ratios, la literatura suele señalar las relaciones que existen detrás de
+ellos, tales como que busquen conectar adecuados componentes (por ejemplo, ganancias sobre capital), que
+deben estar basados en elementos comunes (por ejemplo, costo de ventas a inventarios) y estar formados por
+elementos funcionalmente relacionados. Estos atributos que deben tener los ratios en algún caso (el primero)
+son obvios, en otros (el segundo) no siempre se pueden mantener. Lo importante no parece ser lo que un
+numerador y un denominador reflejan sino la relación del ratio con algún indicador económico relevante o
+con algún modelo que permita avanzar en el diagnóstico.
+2
+
+La interpretación de los ratios ha sido, también, objeto de críticas entre los tratadistas. La primera
+aproximación a su clasificación es hacerlo entre "buenos" y "malos". Obvias limitaciones con respecto a la
+distinción entre una categoría y otra le han dado al criterio una considerable debilidad para la interpretación
+de los ratios. Como se verá más adelante, se suele utilizar a veces la media de la rama industrial o un bench
+mark, pero también la prudencia en las conclusiones parece adecuada ante un uso indiscriminado al hacerse
+una comparación de un caso concreto con valores agregados.
+De ésta forma, tanto en el objetivo como en la formación o en su interpretación, los ratios muestran
+limitaciones que, con el tiempo, se han hecho más severas y que han sido señaladas en los escritos técnicos.
+Tres de ellas aparecen como -en todo caso- muy remarcadas por la moderna literatura financiera:
+a) ambigüedad;
+b) llamativamente elementales;
+c) incapacidad de verificabilidad.
+A quiénes va dirigido el diagnóstico financiero
+Los interesados en el diagnóstico financiero para tomar decisiones son varios y no tienen objetivos,
+necesariamente, coincidentes. Sin embargo, la metodología de análisis de algoritmos de diagnóstico se puede
+adaptar con adecuada flexibilidad a los diversos requerimientos.
+Estos interesados son:
+(cid:1) Accionistas: para buscar información acerca del valor y el riesgo de la firma.
+(cid:1) Administradores: para evaluar la evolución de la empresa, su cumplimiento de planes y su futuro.
+(cid:1) Inversores: para efectuar sus decisiones de portafolio.
+(cid:1) Prestamistas: para determinar la calidad del riesgo crediticio de los portafolios.
+(cid:1) Sindicatos: para establecer las bases de sus negociaciones salariales.
+(cid:1) Agencias regulatorias: para controlar el comportamiento de las organizaciones que están subordinadas.
+(cid:1) Investigadores (de economía en general, economía financiera en particular, administración, contadores o
+profesionales de otras disciplinas): para estudiar el comportamiento de las empresas y las ramas
+industriales.
+El enfoque tradicional de los ratios como técnica de apoyo
+La evolución de una firma en el campo económico y financiero está inmersa en un conjunto de
+disciplinas que han desarrollado teorías que efectuaron enormes contribuciones al conocimiento de cómo los
+individuos y las organizaciones procesan sus decisiones.
+Sin embargo, el diagnóstico financiero ha permanecido, en gran medida, al margen de este tipo de
+desarrollos teóricos avanzados, quedando, en el mejor de los casos, reducido a lo que se conoce como
+análisis de estados financieros. Por sólo mencionar algunos, las finanzas con sus avances sobre el riesgo, la
+diversificación eficiente de inversiones, la determinación del precio de equilibrio de activos financieros. La
+economía, por su parte, con sus conceptos sobre el beneficio económico y cómo los individuos y las firmas
+se comportan. Así, se podrían seguir anotando avances en la psicología o en la antropología en su relación
+con la economía.
+En su enfoque tradicional, los estudios de apoyo a través de ratios han permanecido aislados de los
+desarrollos teóricos que cambiaron el mundo académico y la rigurosidad de las finanzas. No parece haberse
+acompasado e incorporado a los modernos desarrollos que venían mostrando la economía y las finanzas.
+Para ser realmente útil, el enfoque tradicional debe evolucionar para empalmarse con estadios más
+desarrollados de las ciencias a las cuales podría brindar su contribución. De esta forma, se incorporaría a
+modelos y a la verificación de teorías.
+Al no alcanzar esos niveles avanzados de desarrollo quedó, en buena medida, aislado de la economía
+y las finanzas y, por ende, quedó considerablemente alejado de la frontera del conocimiento financiero.
+El moderno enfoque de los ratios como técnica de apoyo al diagnóstico financiero
+3
+
+Los últimos 25 años han sido escenario de grandes avances en la economía financiera, se produjeron
+cambios en la teoría de las finanzas, en los métodos para testear teorías, con bases de datos impensados años
+atrás, con un extraordinario desarrollo modelístico, y con el avance que ha tenido la computación.
+Estas transformaciones, al menos en la parte sustantiva, fueron dejando al análisis financiero
+tradicional como un campo ad hoc con conclusiones no testeadas y de conjeturas frecuentemente ilógicas
+frente a disciplinas comparativamente más sofisticadas.
+Se esperaba, pues, la irrupción de un nuevo enfoque para darles a los instrumentos de apoyo una
+renovada eficacia en su uso. Este nuevo enfoque se basa en:
+a) Las técnicas de apoyo de diagnóstico deben estar asociadas a los avances científicos en economía y
+finanzas. La información desarrollada o generada a partir, por ejemplo, de los estados financieros pasa a
+ser parte integral de la utilización de la información, esto es, modelos económicos y financieros.
+b) Los ratios y otros instrumentos del análisis tradicional deben ser incorporados a los modelos estadísticos
+y econométricos, que permitan mayor rigurosidad en las conclusiones y de hipótesis de trabajo.
+c) Complementando lo anteriormente expresado se debe tener en cuenta que este enfoque no sólo requiere
+datos que surgen de los estados financieros, sino otros que provienen de los mercados.
+La comparación de ratios
+El análisis de los resultados de un ratio, en el análisis tradicional de los mismos, debe ser comparado
+contra una referencia. En general, se manejan tres:
+a) serie histórica;
+b) rama industrial;
+c) presupuesto.
+El análisis de series históricas va desde observar el nuevo valor obtenido en el contexto de una serie
+histórica que da una tendencia, lo cual puede ser de particular utilidad en algunos ratios, tales como la razón
+corriente, hasta llegar a refinados métodos de series de tiempo, como es el caso de los métodos ARIMA que
+se presentan más adelante y que, en muchos casos, son de gran utilidad.
+En cuanto a la comparación de los ratios con los de la rama industrial, se ha pasado de lo que serían
+las medidas de tendencia central de distribuciones de ratios de una industria, tales como la media o la
+mediana, a la idea de un bench mark. La idea del benchmarking, que tiene una larga historia, debe ser mirada
+más como una guía que como un óptimo para todas las firmas y en todos los contextos. Más bien debería
+interpretarse como fuente de futuras investigaciones.
+Por otra parte, la presencia de datos, como las medianas de ratios de las ramas industriales, es muy
+común en países como los Estados Unidos de América. Allí se compilan anualmente datos, como es el caso
+de Robert Morris Associates, que publica el Annual Statement Studies, o el de Dun & Bradstreet, que emite
+el Key Business Ratios. En general, estos estudios contienen, para cada rama, la mediana, así como las
+cuartilas superiores e inferiores. Se ha señalado que para efectuar comparaciones con otras firmas deben: ser
+del mismo tamaño, pertenecer a la misma rama industrial, utilizar los mismos métodos contables y
+pertenecer a las mismas áreas geográficas. Sin perjuicio de ser de utilidad el conocimiento de este tipo de
+datos de las ramas industriales, su uso, sin los adecuados conocimientos estadísticos o de problemas de
+especificidad de la empresa tratada, puede llevar a errores no deseados a la hora de sacar conclusiones.
+Además, muchos países en vías de industrialización no cuentan con información agregada adecuada.
+Por último, los ratios se pueden comparar contra lo que se conoce como presupuesto. Esta
+aproximación es de mayor uso por parte de la dirección de la empresa a efectos de realizar un monitoreo de
+la gestión de la misma. Es menos factible su uso por parte de analistas externos, al contrario de los otros dos
+criterios de comparación.
+Algunos ratios tradicionalmente usados
+El número y variaciones de ratios solamente están limitados por las necesidades y la imaginación de
+quien efectúa el análisis. En esta sección se expondrán algunos de los ratios que, en el enfoque tradicional,
+tienen un uso más frecuente. También siguiendo una clasificación comúnmente usada se van a dividir en
+ratios de:
+4
+
+- liquidez;
+- endeudamiento;
+- actividad;
+- rentabilidad;
+- crecimiento;
+- valuación.
+Teniendo en cuenta el modelo general que se sigue en este texto de un mundo de dos parámetros,
+esto es, riesgo y rendimiento, se puede decir que los ratios de liquidez, endeudamiento y actividad podrían
+asociarse fundamentalmente con el riesgo, y los ratios de rentabilidad, crecimiento y valuación, con el
+rendimiento.
+Los ejemplos que se van a presentar de cálculos de los ratios están extraídos de los estados
+financieros de la empresa XYZ S.A. expuestos en el cap. 35
+Ratios de liquidez
+Estos ratios buscan medir la habilidad que puede tener una firma para atender sus obligaciones en
+el corto plazo, tal como estaban previstas. En el cap. 32 se ha visto con amplitud el tema de la liquidez, por
+lo que, en esta oportunidad, las referencias van a ser mucho más sintéticas. Los tres ratios que buscan medir
+la liquidez más habituales en el análisis tradicional son:
+a) razón corriente;
+b) prueba ácida menor;
+c) prueba ácida mayor.
+Razón corriente
+Este ratio es uno de los ratios más conocidos en materia de análisis financiero tradicional y se define
+como:
+activo corriente
+Razón corriente (cid:1)
+pasivo corriente
+La razón corriente para la empresa XYZ S.A. es:
+3.705
+(cid:1)0,98
+3.791
+Tradicionalmente, una razón corriente de dos o más era considerada aceptable; con el correr del
+tiempo se advirtió lo elemental del planteo. En realidad el dos había sido una cifra que había tomado como
+norma, en 1919, un banquero de Detroit al observar que esa era la cifra de razón corriente promedio de la
+industria manufacturera norteamericana. Muchos analistas, influidos por el inercial arrastre de algunos
+textos, siguieron insistiendo en el dos como una cifra fundamental para este ratio. Hoy día, con respecto a la
+razón corriente pueden hacerse las siguientes consideraciones (las mismas pueden verse con mayor detalle en
+el cap. 20):
+a) Para quien pueda ser de interés la media de la industria norteamericana, ésta, para los años '90, está
+situada en torno al 1,4 /1,5.
+5
+
+b) Esta razón corriente es muy diferente según las distintas ramas industriales que se analicen,
+requiriéndose seguramente menor razón corriente en aquellas ramas o empresas que tienen flujos de
+fondos más predecibles.
+c) Modernamente, la mayoría de los tratadistas opinan que la razón corriente estáticamente considerada no
+es un ratio que mide la liquidez de una empresa en marcha, sino que. es una medida parcial de liquidez
+de una empresa en liquidación. En realidad, la liquidez busca medir hoy día con una variedad de técnicas
+más refinadas, a las que se hizo referencia en el cap. 32. Analizada como ratio, la evidencia empírica
+muestra que su contribución en términos de medición de la liquidez se daría en la tendencia más que en
+un valor aislado. Esto es, la evidencia empírica parece mostrar que si una firma sistemáticamente viene
+declinando su razón corriente a través del tiempo, es altamente probable que su situación de liquidez se
+torne más comprometida.
+Prueba ácida menor
+La prueba ácida menor resta del numerador los inventarios y los gastos pagados por anticipado. La
+misma se define como:
+activos corrientes-inventarios-gtos. pagados por antic.
+Prueba ácida menor (cid:1)
+pasivo corriente
+Para la empresa XYZ S.A. este ratio es igual a:
+3.705(cid:2)1.300
+(cid:1)0,63
+1.791
+Este ratio elimina del numerador los activos menos líquidos. En efecto, parte de los inventarios
+frecuentemente está compuesta por productos en proceso, productos que pueden ser obsoletos y que además
+deben ser vendidos, lo que se hace frecuentemente a crédito para ser luego transformados en efectivo. Las
+mismas ideas propagadas con respecto al 2 para la razón corriente se transformaron en 1 para la prueba ácida
+menor, puesto que respondía a la media de la industria norteamericana de entonces. Hoy día, esa media es
+0,86, conforme a los mismos datos señalados para el ratio anterior.
+Este ratio tiene críticas similares a las que tiene la razón corriente.
+Prueba ácida mayor
+La prueba ácida mayor agrega a las deducciones que se habían efectuado en el numerador de la
+prueba ácida menor las cuentas por cobrar; es definida como:
+disponibilidades(cid:1)inversiones temporarias
+Prueba ácida mayor(cid:2)
+pasivo corriente
+Para el caso de la empresa XYZ S.A. citada en el cap. 35, éste es igual a:
+3.705(cid:2)1.300(cid:2)1.900(cid:2)250
+(cid:1)0,07
+1.791
+6
+
+Este es el más exigente de los tres ratios de liquidez señalados y, prácticamente, muestra lo que la
+empresa tiene para hacer frente a sus compromisos que vencerán en el próximo año.
+Ratios de endeudamiento
+Estos ratios tratan de mostrar la estrategia de financiamiento y la vulnerabilidad de la empresa a esa
+estructura de financiamiento dada.
+En general, estos ratios buscan medir dos aspectos de un mismo fenómeno:
+a) El grado de endeudamiento, esto es, la medida del monto de la deuda en relación con alguna cifra
+importante del balance; sus ratios más significativos son:
+- deudas totales a activos totales;
+- deudas totales sobre patrimonio neto.
+b) El segundo tipo de mediciones vinculadas a la deuda buscaría determinar la capacidad para atender el
+servicio de deudas; estas mediciones serían: veces interés ganado; cobertura de cargas fijas.
+Endeudamiento
+Este ratio compara las deudas totales con los activos totales de la firma en un momento en el tiempo.
+Esto es, en definitiva, qué proporción de los activos está financiada con fondos de terceros. El
+endeudamiento es definido de la siguiente manera:
+deudas totales
+Endeudamiento (cid:1)
+activostotales
+Y para el caso de la empresa citada es:
+6.191
+(cid:1)0,55
+11.305
+Esto significa que, en este caso, el 55 % de los activos está financiado con fondos ajenos a los
+propietarios de la empresa. Un ratio muy similar a éste, presentado de otra forma, es el de deudas a fondos
+propios y se expresa como:
+Deudas totales
+Patrimonio neto
+Para el ejemplo citado de la empresa XYZ S.A. este ratio se calcula como:
+6.191
+(cid:1)1,21
+5.114
+Estos ratios de endeudamiento se han visto corregidos en el cap. 20 a efectos de evitar distorsiones
+en los mismos, provenientes de peculiaridades del tipo de actividad más que de actividades provenientes de
+las operaciones de la empresa.
+7
+
+Veces interés ganado
+Este ratio mide cuántas veces las ganancias antes de impuestos y de intereses cubren los pagos por
+intereses de un año. Se expresa:
+ganancias antes de impuestos y de intereses
+Veces interés ganado(cid:1)
+intereses
+Para la empresa XYZ S.A. expuesta en el ejemplo, este ratio es igual a:
+1.186
+(cid:1)239
+497
+Cobertura de cargas fijas
+Este ratio busca medir la capacidad de la empresa para hacer frente a sus pagos fijos de obligaciones,
+tales como los pagos de intereses de préstamos, los pagos de principal de préstamos, así como los, pagos de
+arrendamientos. Conforme al análisis tradicional, cuanto más alto es este ratio, al igual que el de veces
+interés ganado, mejor será la situación de la empresa en este sentido. Este ratio se encuentra definido de la
+siguiente manera:
+(cid:1) (cid:1) (cid:2)(cid:2)
+ganancia antes de imp. e intereses (cid:2) depreciaciones x1/ 1-t (cid:2) arrendamientos
+(cid:1) (cid:1) (cid:2)(cid:2)
+intereses (cid:2) arrendamientos (cid:2) principal x 1/ 1-t
+Las cifras del pago de principal, por ejemplo, se han multiplicado por [1 / (1 - t)] para ajustar el pago
+del principal después de impuestos a su equivalente antes de impuestos, de forma tal que sea consistente con
+los demás valores que están expresados antes de impuestos.
+1.186(cid:3)575 (cid:2)1,32
+(cid:1)1,25
+497(cid:3)800(cid:2)1,36
+El ratio está mostrando que existe un 25 % de margen para atender las cargas fijas financieras de la
+empresa XYZ S.A.
+Ratios de actividad
+Los ratios de actividad buscan una aproximación a la eficiencia en el uso de ciertos recursos de la
+empresa.
+Entre los ratios más comúnmente utilizados a tales efectos están:
+- rotación de inventarios-
+- período promedio de cobranzas de cuentas a cobrar;
+- período promedio de cobranzas de ventas;
+- rotación de activos fijos;
+- rotación de capital de trabajo operativo;
+8
+
+- rotación de activos totales.
+Rotación de inventarios
+La rotación de inventarios es una medida de la actividad de los mismos y se calcula de la siguiente
+forma:
+costo de lo vendido
+Rotación de inventarios(cid:1)
+inventario promedio
+Aplicado al caso de la empresa XYZ S.A. este ratio es:
+16.500
+(cid:1)15,35
+850(cid:2)1.300
+2
+Esto es, el inventario rota 15,35 veces en el año. Este ratio frecuentemente, toma algún interés
+cuando se mide contra ratios industriales o contra la tendencia del ratio de la empresa. Es un ratio
+extremadamente variable entre las ramas industriales; por ejemplo., es mucho más bajo en un supermercado
+que en una destilería de whisky. En el supermercado, la rotación de la sección verduras es, también, diferente
+de la rotación de la sección ropa. A partir de este ratio se puede obtener el período medio de antigüedad del
+inventario dividiendo 365 entre el número de veces que rota. En el caso visto sería 365 / 15,35, con lo cual se
+tendría que el inventario dura 23,8 días en promedio. Este ratio en algunas oportunidades, cuando se carece
+del costo de lo vendido, se calcula como ventas/inventario promedio. Deberá tenerse presente, en este caso,
+la falta de homogeneidad de ambas cifras a efectos de la extracción de las respectivas conclusiones, en
+particular, al efectuar comparaciones.
+Periodo promedio de cobranzas de cuentas a cobrar
+Este ratio se calcula como:
+cuentas a cobrar
+Periodo promedio de cob. de ctas. a cob. (cid:1)
+ventasnetasacréditodiarias
+y muestra, en promedio, los días en que se cobran las ventas efectuadas a crédito, esto es, no incluye las
+ventas al contado.
+En el caso de la compañía XYZ S.A. sería igual a:
+1.900
+(cid:1)39,41
+48,2
+Esto es, en el caso de la compañía XYZ S.A., las ventas a crédito tardan 39,41 días en cobrarse.
+Periodo promedio de cobranzas de ventas
+9
+
+Este ratio no va a medir el número de días en que se cobran las cuentas por cobrar sino va a medir el
+número de días en que se cobran las ventas, sean éstas a crédito o al contado.
+Este ratio se define como:
+cuentas a cobrar
+Periodo promedio de cob. de ventas(cid:1)
+ventasnetasdiarias
+Aplicado para el caso XYZ S.A. es igual a:
+1.900
+(cid:1)31,50
+60,3
+Esto implica que las ventas al contado hacen disminuir el promedio en casi 8 días al compararlo con
+el ratio anterior.
+PRIMER PLANO
+VARIABLES DE FLUJO Y VARIABLES DE STOCK EN RATIOS
+Las variables de flujo, como se ha expresado, valen en un período, por ejemplo, un año. En el
+caso de las ventas. Ellas no valen en un instante del tiempo, sino en un período determinado.
+Las de stock son variables que, por el contrario, valen en un momento y no en un período.
+Ejemplo de variables de stock son las disponibilidades, los inventarlos, y las deudas o el
+patrimonio neto.
+Muchos ratios surgen de comparar dos variables de flujo; tal es el caso del margen de ventas
+(ganancia neta / ventas netas). Otros ratios surgen de comparar dos variables de stock, como por
+ejemplo, deudas totales a activos totales.
+Sin embargo, hay muchos ratios que comparan variables de flujo contra variables de stock.
+Lo que se quiere reflejar es el producto (positivo o negativo), que es un flujo que en un período
+generó un determinado stock, por ejemplo, de deudas, de activos o de patrimonio.
+Cuando se calculan los ratios se ha olvidado, en muchos casos, que se divide, por ejemplo, la
+ganancia neta de un ejercicio por el patrimonio neto del fin del ejercicio. Ese patrimonio es el
+único que no generó un flujo.
+Cuando se comparan variables de flujo con variables de stock, dos caminos adecuados para
+determinar qué stock utilizar son: o se usa el del comienzo del ejercicio o un promedio del stock
+del ejercicio. Pero sin duda el que no se debe utilizar es el stock del final del ejercicio para
+compararlo con un flujo.
+Existen varios indicadores más afinados para medir la antigüedad de las cuentas a cobrar, que
+exceden los objetivos del presente texto y que buscan suavizar los problemas en el cálculo de estos ratios
+derivados de eventuales estacionalidades, así como de la inflación.
+Este mismo tipo de ratio que se ha calculado para las cuentas a cobrar se puede determinar para las
+cuentas a pagar:
+10
+
+cuentas a pagar cuentas a pagar
+o
+promedio diario de compras a crédito compras diarias promedio
+cuya similitud con el de las cobranzas en cuanto a metodología e interpretación es considerable.
+Rotación de activos fijos
+Este ratio es definido de la siguiente manera:
+ventas netas
+Rotación de activos fijos(cid:1)
+activo fijo neto promedio
+En el caso de la empresa XYZ S.A. este ratio sería igual a:
+22.000
+(cid:1)2,84
+7.747
+El mismo busca medir la eficiencia con que la empresa está usando sus activos fijos; en este caso
+significa que la empresa rotó 2,84 veces en un año. Frecuentemente, un ratio más elevado es un indicador
+primario de un uso más eficiente de los activos fijos.
+Cabe señalar que debe tenerse cuidado en el uso de este ratio, así como en el que se verá
+seguidamente, en el sentido de la valuación con que los activos fijos son medidos, los cuales en períodos de
+inflación frecuentemente pueden estar registrados con precios de distinto poder adquisitivo, lo que
+distorsiona el resultado final del ratio.
+Rotación de capital de trabajo operativo
+Este ratio se calcula como:
+ventas netas promedio
+Rotación de capital operativo(cid:1)
+activos corrientes-cuentas a pagar
+Este cociente es, naturalmente, un promedio del capital de trabajo operativo.
+Para el caso de la empresa XYZ S.A. este ratio es calculado de la siguiente manera:
+22.000
+(cid:1)9,62
+2.287
+Es decir que el capital de trabajo operativo rota 9,66 veces por año.
+En el caso de los países donde las empresas pequeñas y medianas, y también micro, constituyen una
+porción muy significativa de la población empresarial, tener, habitualmente, una baja presencia de activos
+fijos en relación con sus activos corrientes hace que este ratio tenga un uso más provechoso.
+11
+
+Rotación de activos totales
+Mide la eficiencia con que la firma usa todos sus activos para generar ventas.
+Se calcula como:
+ventas
+Rotación de activos totales(cid:1)
+activos totales promedio
+y, en el caso de la firma XYZ S.A., el mismo sería:
+22.000
+(cid:1)2,01
+10.975
+Esto es, la empresa con sus activos totales genera el doble de los mismos como ventas.
+Ratios de rentabilidad
+Este tipo de ratios permite evaluar la eficiencia de la administración de la empresa con respecto a un
+determinado nivel de ventas, de activos y de patrimonio neto.
+Para cada uno de estos enfoques los ratios son:
+Ventas
+Margen de ventas netas
+ganancia neta
+Margen de ventas netas(cid:1)
+ventas netas
+Y en el caso de la empresa XYZ S.A., para el año 19X3, este ratio es:
+1.279
+(cid:1)0,058
+22.000
+o sea:
+5,8%
+Margen operativo neto
+Este ratio mide el porcentaje de cada venta que queda después de todos los costos y gastos, sin
+deducir los impuestos e intereses, otros gastos financieros y otras ganancias/ pérdidas,
+Es una medida del éxito de la empresa con respecto a sus ganancias en las ventas. Es definido como:
+12
+
+beneficio operativo neto
+Margen operativo neto(cid:1)
+vebtas netas
+Para el caso citado de la empresa XYZ S.A., este ratio es igual a:
+2.175
+(cid:1)0,098
+22.000
+o sea:
+9,8%
+Margen operativo bruto
+Este ratio mide el porcentaje de cada venta que queda luego que los costos de venta fueron
+deducidos.
+Este ratio es preferible cuanto mayor sea, ya que es un mejor indicador,
+beneficio operativo bruto
+Margen operativo bruto(cid:1)
+ventas netas
+En el caso de la compañía XYZ S.A. este ratio se calcula de la siguiente manera:
+5.500
+(cid:1)0,25
+22.000
+o sea:
+25%
+Activos
+Rendimiento sobre activos
+El rendimiento sobre activos mide la eficiencia de la empresa para generar beneficios con los activos
+disponibles.
+El rendimiento sobre activos es calculado como sigue:
+ganancia neta(cid:1)intereses
+Rndimiento sobre activos(cid:2)
+activo total promedio
+Este ratio, cuanto mayor sea, mejor será para la empresa. En el ejemplo de la empresa XYZ S.A. este
+ratio es el siguiente:
+13
+
+1.279(cid:2)479
+(cid:1)0,16
+10.975
+o sea:
+16%
+Patrimonio neto
+Rendimiento sobre patrimonio neto
+Este ratio busca medir la rentabilidad de los recursos de los propietarios y de los accionistas de la
+empresa.
+Generalmente, cuanto mayor sea este rendimiento, en mejor estado se encuentran los propietarios.
+El rendimiento sobre patrimonio neto se calcula de la siguiente manera:
+ganancia neta
+Rendimiento sobre patrimonio neto(cid:1)
+patrimonio neto promedio
+Para el caso expuesto en el cap. 35 de la empresa XYZ S.A., este ratio, para el año 19X3, se define
+como:
+1.279
+(cid:1)0,28
+4.604
+o sea:
+28%
+Ratios de crecimiento
+Los ratios de crecimiento tratan de evaluar la evolución en el tiempo de alguna variable de la
+empresa.
+Estos ratios, que, al igual que en casos anteriores, pueden ser innúmeros, se basan en su
+determinación en simples fórmulas que provienen del interés compuesto.
+Crecimiento de ventas
+14
+
+Cricimiento de ventas(cid:1) ventasn (cid:1)(cid:1) 1(cid:4)v (cid:2)n ,o sea,
+ventas
+n
+ventasn
+(cid:3)1(cid:1)v, donde,
+Ventas
+v(cid:2)100(cid:1)V
+donde:
+v: tasa de crecimiento de las ventas en tanto por 1;
+V: porcentaje de tasa de crecimiento de las ventas.
+Para el caso de la empresa XYZ S.A. sería:
+22.000
+(cid:2)1(cid:1) 0,21
+15.000
+de donde la tasa de crecimiento promedio de las ventas en el período es el 21 % anual acumulativo.
+Ratios de valuación
+Estos ratios tratan de mostrar la evolución que en el mercado se hace de la empresa, dado que
+reflejan la influencia combinada de riesgo y rendimiento.
+Como ejemplificación se exponen los siguientes ratios:
+Precio a ganancia
+precio
+precio a ganancia(cid:1)
+ganancia neta
+Para la empresa en cuestión este ratio se calcula como:
+279
+(cid:1)3,88
+72
+por lo cual el precio con respecto a la ganancia es 3,88 veces.
+Valor de mercado a valor de libros
+Este ratio se encuentra definido como:
+15
+
+valor de mercado
+Valor de mercado a valor de libros(cid:1)
+valor delibros
+Para la empresa XYZ S.A. este ratio es igual a:
+229
+(cid:1)1,15
+199
+PRIMER PLANO
+ENFOQUE DE RATIOS CAUSALES Y DE EFECTO
+Los ratios que se han venido analizando hasta ahora se han clasificado según sus objetivos.
+El profesor DONALD MILLER, en su libro La correcta interpretación de los estados
+financieros, plantea otro enfoque buscando cuales son los ratios que muestran las causas de los
+problemas de las empresas y cuáles los que muestran los efectos de sus problemas.
+Los ratios causales son los seis siguientes:
+a) activo fijo a capital neto;
+b) período de cobranzas;
+c) rotación de inventarios;
+d) ventas netas a capital neto;
+e) utilidad neta a ventas netas;
+f) activos diversos a capital.
+Los ratios de efecto son:
+a) razón corriente;
+b) deuda total a capital neto;
+c) deudas de corto plazo a capital neto;
+d) inventarios a capital trabajo;
+e) cuentas a cobrar a capital trabajo;
+f) utilidad neta a capital neto;
+g) rotación de activo fijo;
+h) ventas netas a capital trabajo.
+De esta forma, la razón corriente no sería, un ratio causal, sino de efecto, por ejemplo, de
+problemas de liquidez, el cual podría estar explicado por algunos ratios causales, como: utilidad
+neta a ventas netas, período de cobranzas o rotación de inventados.
+Este punto de vista puede agregar aspectos de interés al enfoque más tradicional de ratios.
+Diez problemas en el uso de ratios
+La utilización de los ratios tiene, como técnica individualmente considerada, más allá de una
+apreciación crítica global que le hace la academia financiera, diversos tipos de problemas que es preciso
+tener en cuenta.
+La lista que continúa no pretende ser exhaustiva, sino, sobre todo, dar algunos ejemplos de los
+problemas que puede presentar su utilización, a efectos de hacerla más eficiente.
+1. Definiciones. No pocas confusiones, en materia de utilización de ratios, surgen de la definición misma
+que se les da a los ratios. Así es que, frecuentemente, un ratio para un analista o para alguien que efectúa
+diagnósticos financieros puede tener un determinado nombre y estar compuesto tanto su numerador
+16
+
+como su denominador por determinados ítem. Otro analista con un ratio del mismo nombre puede estar
+trabajando con diferencias apreciables en la composición de los elementos que lo definen. De esta forma,
+cada vez que se haga un análisis comparativo de ratios, efectuado por distintas personas o entidades,
+quien busca interpretarlos debe cerciorarse de que la definición y los componentes, en los distintos casos,
+sean idénticos.
+2. Situaciones que se están comparando. Frecuentemente, dos empresas de la misma rama industrial, y
+hasta quizá del mismo tamaño, pueden tener ratios muy diferentes y ello puede deberse a que, en uno de
+los casos, se trata de una empresa joven en pleno desarrollo y, en el otro, de una empresa madura. De
+medirse el ratio de endeudamiento total en uno y otro caso, muy probablemente arroje resultados
+diferentes. Sin embargo, la cautela parece aconsejable en la interpretación de esas diferencias, dado que
+se trata de situaciones no directamente comparables. Sería como si se quisiera hacer comparable
+directamente la presión arterial de un joven de veinte años con la de un hombre de cincuenta y cinco
+años. El endeudamiento, normalmente, es más alto en una empresa joven que en una madura.
+3. Estática comparada. Cuando se mide, por ejemplo, una tendencia de los ratios de razón corriente o de
+los ratios de endeudamiento, el análisis es de estática comparada, por lo que se pierde, frecuentemente,
+mucha riqueza que pueda tener la información intermedia para ir a un momento en el tiempo.
+4. Análisis de corto plazo. La rutina del análisis con ratios frecuentemente hace perder la perspectiva en el
+sentido de que el poder analítico que pudieran tener acusa una dimensión temporal corta. Esto es muy
+notorio, por ejemplo, en el análisis crediticio que un banco hace sobre un cliente. No sólo los análisis
+deben ser bien cercanos al momento de las decisiones sino que además debe tenerse presente que las
+conclusiones obtenidas pueden tener interés por un corto período.
+5. Cambios en los ratios. Muchos ratios son utilizados, frecuentemente, como indicadores de una buena o
+mala performance. Esto se ve con más frecuencia en aquellos ratios que se han clasificado como de
+actividad o de rentabilidad
+En el cuadro que continúa se muestra el caso de una empresa que ha efectuado una reestructuración; con
+motivo de ella, han cambiado algunas cifras. Una primera mirada a los ratios puede llevar a concluir que
+hubo un mejoramiento de la relación de costos a ventas, puesto que se pasó del 68,5 % al 64,5 %. Sin
+embargo, debe profundizarse el análisis, ya que las ventas bajaron de 7.300 a 6.205, lo que puede
+evidenciar, eventualmente, que la empresa ha hecho cambios que han debilitado su fuerza de ventas. Por
+consiguiente, la reflexión vale en el sentido de que un ratio que puede aparecer como marcando una
+tendencia favorable debe analizarse más globalmente.
+Antes Después
+Ventas 7.300 6.205
+Costo de ventas 5.000 4.000
+Ganancia 2.300 2.205
+Costo de ventas 0,685 0,645
+6. Porcentajes. El uso de los porcentajes en materia de ratios acusa usualmente problemas que es menester
+recordar, al menos algunos de ellos. Los porcentajes, por ejemplo, son de muy relativo interés cuando la
+base es muy pequeña. Cuando una empresa, por ejemplo, tiene ventas muy pequeñas, supóngase 100
+unidades mensuales cuando el mercado total es 50.000 unidades mensuales, si aquellas ventas aumentan
+a 150 por mes, se dirá que las ventas crecieron un 50 %. Sin embargo, para una más ajustada
+interpretación debe también hacerse referencia a los valores absolutos involucrados.
+Otro ejemplo: en muchos países ante distintos shocks internos o externos, las ventas de una empresa
+pueden pasar de un período a otro de ser 1.000 a ser 200, en cuyo caso se puede escuchar decir que las
+ventas han bajado un 400 %. En realidad, las ventas han bajado un 80 %. Nunca podrían haber bajado
+más de lo que eran.
+7. Análisis no complexivo. La construcción de un ratio y su interpretación -y he aquí una de sus
+limitaciones más contundentes- es un análisis univariante; se aprecia la evolución de una variable.
+17
+
+Frecuentemente, se observa que se establece: la liquidez viene decreciendo", "el endeudamiento se
+mantiene aproximadamente estable", la rentabilidad tiene una ligera tendencia al crecimiento". Cada una
+de estas afirmaciones deriva del análisis, por ejemplo, de un ratio de liquidez, de rentabilidad o de
+endeudamiento. Sin embargo, este análisis univariante no permite tener una visión complexiva de la
+situación económico financiera de la empresa y termina siendo un típico análisis, estilo "sube y baja", de
+aspectos que con frecuencia el destinatario del diagnóstico ya había percibido intuitivamente. Esta
+característica de los ratios, su incapacidad de hacer un análisis complexivo, sería una de las causas del
+desarrollo de otras técnicas más modernas donde los ratios se incorporan a modelos y teorías a veces
+positivas y a veces normativas, como se ha mencionado.
+8. Problemas contables. Otro punto fuente de dificultades en la interpretación de los ratios son los
+problemas contables que los mismos pueden arrastrar. Los problemas contables básicamente derivan de
+dos aspectos. El primero comprende las diferencias entre el concepto económico y contable de
+beneficios, y la valuación de activos y pasivos. Este tema, que fue tratado con amplitud en el capítulo
+anterior, abarca aspectos tales como la consideración del flujo de beneficios futuros descontados para
+valuar un activo, que sería la opinión del economista; en tanto que, para el contador, mientras no se
+verifique ese valor no se debe considerar, y así se podrían mencionar otros aspectos. Un segundo aspecto
+tiene que ver con los métodos contables de medición. Para valuar los inventarios se pueden usar los
+métodos FIFO o LIFO, y para determinar el costo de producción, el costeo tradicional o el costeo
+directo. Las diferencias de métodos contables alternativos para medir determinados elementos de la
+empresa suelen ser, de no tenerse presentes, fuente de problemas en las comparaciones interempresas.
+9. Problemas estadísticos. En la interpretación de los ratios existen numerosos problemas estadísticos,
+algunos de los cuales surgen a partir de la comparación de los ratios de una empresa con la media
+industrial, Considerar sólo la media como punto de referencia para ver si un ratio se está comportando
+"bien o mal" con respecto a su rama industrial no toma en consideración la dispersión y la forma de la
+distribución de las cuales los ratios han arrojado la media que se está considerando. De esta forma,
+supóngase que se tuviera una distribución del ratio de endeudamiento de una rama determinada y en un
+período que se aproxima a una curva normal con una medía de 0,50. Continuando con el caso, supóngase
+que la empresa considerada tiene 0,58 de endeudamiento. Una primera reflexión podría ser que está
+bastante más endeudada que la media, sin embargo, si se agrega al análisis la dispersión de la curva, en
+este caso, representada por su desviación estándar, que es de 0, 10, se tendría que el 68,26 % de los casos
+estaría entre 0,4 y 0,6 de endeudamiento. Por lo tanto, la reflexión es bastante distinta cuando se observa
+que la firma que se quiere diagnosticar está dentro de los dos tercios de las empresas de la rama
+industrial.
+Problemas más complejos se producen cuando la curva no sigue una función normal o cuando la
+distribución presenta asimetrías. Frecuentemente, los fenómenos cuantificados por los ratios presentan
+asimetrías positivas, dado que en muchos ratios el límite inferior es cero pero tienen indefinido el límite
+superior. En estos casos deben profundizarse los estudios a efectos de no incurrir en errores al pretender
+efectuar conclusiones.
+Otro aspecto estadístico importante es el vinculado a la correlación que tienen los ratios. Las evidencias
+preliminares muestran que los ratios están, con frecuencia, altamente correlacionados tanto sea en forma
+contemporánea como en el tiempo. Este aspecto tiene su lado positivo y su lado negativo.
+Del primero de ellos puede mencionarse que si se tiene cuidado en obtener un pequeño número de ratios
+que sean representativos, este aspecto puede ser útil y simplificar la tarea. Desde el otro ángulo, la
+correlación entre los ratios puede, muchas veces, afectar los procedimientos en forma perjudicial,
+particularmente cuando se trata de modelos de regresiones múltiples.
+10. Estacionalidad e inflación. El problema de estacionalidad lleva a que se deba actuar con cautela al
+interpretar los ratios que manejan variables sujetas a estacionalidad. Por ejemplo, que una variable clave
+como las ventas de una empresa no sean uniformes mensualmente sino que tengan períodos de mayores
+ventas que otros; tal es el caso de las empresas de ventas de juguetes que concentran sus ventas en las
+fiestas navideñas o aquellas que trabajan en el mercado de las bebidas, como las fabricantes de refrescos
+18
+
+o de cervezas que concentran sus ventas en las épocas estivales. Para ello deben utilizarse los métodos de
+desestacionalización a efectos de hacer comparables las cifras obtenidas.
+La inflación, en particular cuando es elevada y no uniforme en los meses, es también fuente de
+distorsiones en los ratios que utilizan variables que están afectadas por ella. A estos efectos se requiere
+eliminar, de acuerdo con los métodos más reconocidos en el tema, el efecto inflacionario.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Problemas con los ratios como técnica de apoyo al algoritmo de diagnóstico financiero.
+2. A quién se dirige el análisis de ratios.
+3. Enfoque tradicional y enfoque moderno de ratios.
+4. Principales ratios.
+5. Variables de flujo y stock.
+6. Los diez problemas en el uso de ratios.
+36,3. SISTEMA DUPONT
+Este sistema es utilizado por las empresas con el fin de analizar los estados financieros, así como su
+condición en términos financieros.
+El sistema DUPONT modificado combina en un mismo resumen las medidas de la rentabilidad: el
+rendimiento sobre activos y el rendimiento sobre el patrimonio neto.
+En la fig. 36,1 se expone un ejemplo con el fin de facilitar la comprensión de este sistema.
+En la parte superior del mismo se encuentran resumidas las actividades del estado de resultados,
+mientras que en la parte inferior se resumen las actividades del estado de situación patrimonial.
+El sistema DUPONT junta el margen neto de ganancia, que mide la rentabilidad de la empresa en sus
+ventas, con la rotación de activos totales, que indica qué tan eficientemente la empresa ha usado sus activos
+para generar ventas.
+En la fórmula de DUPONT, el producto de estos dos ratios resulta en el rendimiento sobre activos, de
+manera tal que:
+Rendimiento sobre activos = margen neto de ganancia × rotación de activos totales
+Lo que en el ejemplo presentado sería calculado como:
+Rendimiento sobre activos 15,8 % × 1,04 = 16,4 %
+En un paso más avanzado en el sistema DUPONT puede utilizarse, como se dijo, la fórmula de
+DUPONT modificada, la cual relaciona el rendimiento sobre activos con el rendimiento sobre patrimonio
+neto, el que se encuentra definido como el producto del rendimiento sobre activos por el multiplicador de
+leverage financiero.
+Por lo tanto, siguiendo la fórmula de DUPONT revisada se tendría que:
+Rendimiento sobre patrimonio neto = rendimiento sobre activos × multiplicador de leverage financiero
+El uso de este multiplicador para hacer la conversión del rendimiento sobre activos al rendimiento
+sobre patrimonio neto refleja el impacto del leverage (uso de la deuda) en el rendimiento de la empresa.
+19
+
+En el ejemplo de la fórmula de DUPONT modificada presentado en la fig. 36,1, el rendimiento sobre
+patrimonio neto de la empresa es 29,5 %, calculado anteriormente como rendimiento sobre activo (16,4 %)
+por el multiplicador de leverage financiero (1,8), lo que resulta entonces:
+Rendimiento sobre patrimonio neto = 16,4 % × 1,8 = 29,5 %
+La ventaja que se le encuentra al sistema DUPONT es que permite a la empresa convertir su
+rendimiento sobre patrimonio neto en un componente de la ganancia de las ventas (margen neto de
+ganancias), una eficiencia en el uso de los activos (rotación de activos totales) y un uso del componente de
+leverage (multiplicador de leverage financiero). Utilizado precipitadamente, es útil cuando se detectan
+desviaciones, por ejemplo, en el rendimiento sobre el patrimonio neto, para observar dónde radican los
+comportamientos diferentes y poder fijar nuevas políticas, así como establecer acciones correctivas.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son los objetivos del sistema DUPONT.
+2. Cómo se constituye.
+3. Qué aspectos relevantes se destacan en su interpretación.
+20
+
+Figura 36,1. Sistema DUPONT modificado.
+21
+
+36,4. ANÁLISIS DISCRIMINANTE MULTIVARIANTE
+Introducción
+En el moderno análisis financiero se insiste en que las técnicas de apoyo a los diagnósticos, como el
+caso de los ratios, se inserten en un marco de modelos decisorios.
+Por lo tanto, una diferencia sustantiva entre el enfoque tradicional y el moderno es que, en el
+primero, el análisis se efectúa sin un contexto bien definido de teoría decisoria, contrariamente a lo que busca
+el segundo.
+En esta línea de pensamiento, se vienen desarrollando esfuerzos por introducir el análisis de ratios,
+entre otras aplicaciones, dentro del modelo de predicción de las ganancias de las empresas, el crecimiento de
+éstas y la constitución de portafolios eficientes.
+Un área donde se ha desarrollado un enfoque moderno es en cuanto a la predicción de serios
+problemas financieros en las firmas, caso en el cual se han utilizado los ratios insertados en técnicas
+estadísticas multivariantes, como el del análisis discriminante.
+El análisis estadístico multivariante tiene relación con los datos que se obtienen de diversas
+dimensiones de una misma empresa, o en otros temas, por ejemplo, de un mismo individuo.
+En la aplicación de predecir serios problemas financieros, el análisis multivariante, del tipo
+discriminante, busca resolver, cuando se está en presencia de una nueva observación, a cuál de las
+poblaciones definidas a priori debe ser asignada en forma óptima.
+El rasgo más significativo de este análisis discriminante multivariante es la consideración simultánea
+de diversos indicadores en el proceso de predicción. Estos indicadores aparecen adecuadamente ponderados,
+conforme a la técnica, a fin de obtener un índice general. Según el resultado que arroje el índice, aplicado a
+un caso concreto, brinda un elemento para clasificar el caso estudiado dentro de uno de los grupos definidos
+a priori.
+El tema de la predicción de problemas financieros, a través del análisis discriminante multivariante,
+ha sido, y es, objeto de un amplio tratamiento en diversos países.
+El trabajo pionero en este tema se debe a EDWARD ALTMAN (1968) que desarrolló el primer
+modelo en los Estados Unidos para predecir bancarrota de firmas manufactureras, técnica que luego se
+expandió por otros países.
+El análisis discriminante multivariante: elementos
+El análisis discriminante es una técnica estadística multivariante a través de la cual, dependiendo de
+sus características individuales, se clasifica una observación en uno de los varios grupos definidos a priori.
+Esta técnica ha sido utilizada en muchos campos del conocimiento a partir de su primer uso por
+RONALD A. FISHER (1936) y ha recibido, luego de un comienzo en la biología y ciencias del
+comportamiento, una creciente aplicación, recientemente, en finanzas y economía.
+En esta investigación se trabaja con dos grupos: empresas que han tenido serios problemas
+financieros, como insolvencia (CPF), y empresas que no presentan problemas de insolvencia (SPF). Se
+supone que el comportamiento financiero de una firma está asociado a ciertos atributos observados. De esta
+forma, los resultados obtenidos pueden utilizarse a efectos de predecir.
+Al trabajar con las características de cada uno de los grupos o poblaciones se llega a determinar una
+combinación de las mismas, en nuestro caso de tipo lineal, que es la que "mejor discrimina" entre aquellas
+poblaciones. La idea de "mejor" debe interpretarse como que el método se maximiza con la separación entre
+las poblaciones.
+A estas características, a través del método, se les asignan adecuadas ponderaciones a efectos de
+establecer una única medida.
+Ante un caso concreto, tomando las ponderaciones obtenidas y utilizando las características del caso
+tratado se llega a determinar un valor de su índice. Según sea este valor, la empresa se clasifica en un grupo o
+en el otro.
+El análisis discriminante multivariante supone que las poblaciones siguen una distribución normal
+con diferentes vectores de medias aritméticas µ y µ pero con igual matriz de covarianzas Σ.
+1 2
+Dado que se trabaja con una muestra de esas poblaciones, a partir de ellas se pueden determinar los
+vectores de medias de las muestras x y x y la matriz de covarianza estimada, S.
+1 2
+22
+
+Considerando dos supuestos, que la probabilidad a priori de una observación de pertenecer a una u
+otra población es la misma y que los costos de incurrir en un error de signar un caso a una población no
+correcta es igual que el cometido en el sentido opuesto, se minimiza la probabilidad de equivocarse en
+asignar un caso a la población CPF si es mayor la probabilidad (la densidad de probabilidad) de que esa
+observación pertenezca a esa población más que a la otra.
+Si f (x) y f (x) son las funciones de densidad en un espacio K dimensional, el criterio expuesto se
+1 2
+puede establecer como:
+(cid:1) (cid:2)
+a) asignar un caso observado a la población 1, si
+f1
+(cid:1)
+x
+(cid:2)
+(cid:1)1,
+f2 x
+y
+(cid:1) (cid:2)
+b) asignar un caso observado a la población 2, si
+f1
+(cid:1)
+x
+(cid:2)
+(cid:1)1.
+f2 x
+A partir de las muestras, y sabiendo que son funciones de densidad multinormales de K dimensiones,
+se llega al estadístico:
+W (cid:1) X'S
+(cid:2)1 (cid:1)
+x1 (cid:2) x2
+(cid:2)
+(cid:2)1/2
+(cid:1)
+x1 (cid:3) x2
+(cid:2)
+'S
+(cid:2)1 (cid:1)
+x1 (cid:2) x2
+(cid:2)
+A partir de él, una nueva observación se asigna a la población 1 toda vez que W > 0 y a la población
+2 cuando, W < 0.1
+Puede observarse que W está formado por dos términos. El segundo de ellos, que se puede denotar
+como A , No depende del valor determinado para un caso particular de X observado, el cual está compuesto
+0
+por la varianza común S y los vectores de medias x y x .
+1 2
+El primer término constituye una combinación de tipo lineal del vector x, la que puede expresarse
+como:
+a x + a x + a x + .... + a x
+1 1 2 2 3 3 k k
+La función discriminante, incluyendo el término constante, puede establecerse como:
+W = a + a x + a x + a x +....+ a x
+0 1 1 2 2 3 3 k k
+donde:
+W : valor que te obtiene para un caso determinado de la función lineal discriminante multivariante;
+a término constante;
+0 :
+a ...a : coeficientes discriminantes o ponderaciones;
+1 k
+x ,... x : variables explicativas.
+1 k
+El modelo que se presenta en este trabajo determina el valor del término constante a y de los
+0
+coeficientes discriminantes a ... a , los que son utilizados ante un caso específico, multiplicando estos
+1 k
+1 W es conocido como el estadístico de clasificación de WALD ANDERSON por los trabajos de 1944 y 1951,
+respectivamente. Una visión amplia sobre análisis discriminante multivariante puede encontrarse en MORRISON
+(1976) y comentarios sobre limitaciones en EISENBEIS (1977).
+23
+
+últimos por cada una de las variables explicativas observadas en el caso. Sumados estos productos junto con
+a se obtiene un valor W que es utilizado para clasificar ese caso en uno de los grupos establecidos a priori.
+o
+La regla de clasificación es asignar a la población 1 si W > 0 y a la población 2 si W < 0.
+Algunos modelos de análisis multivariante
+Modelo de ALTMAN
+El prof. EDWARD ALTMAN, de la Universidad de Nueva York, ha sido el pionero en la aplicación
+del análisis discriminante múltiple (una técnica estadística que busca el juego de variables que mejor
+discriminan entre dos o más grupos) a las ramas económico financieras.
+En el caso de ALTMAN, las empresas se distribuyen en dos juegos: las que quebraron y las que no.
+El modelo de ALTMAN(1968) es:
+z = 1,2 x + 1,4 x + 3,3 x + 0,6 x + 1,0 x
+1 2 3 4 5
+donde:
+x : capital de trabajo/activos totales;
+1
+x : utilidades retenidas/activos totales;
+2
+x : ganancias antes de impuestos y de intereses/activos totales;
+3
+x : valor de mercado del capital/valor de libros de la deuda total;
+4
+x : ventas/activos totales.
+5
+La regla de clasificación hallada es:
+Z < 2,675 asignar al grupo de bancarrota
+Z ≥ 2,675 asignar al grupo de no bancarrota
+La zona de ignorancia, Z, opera entre 1,81 y 2,89.
+El éxito del modelo de ALTMMAN y su porcentaje de respuestas correctas han sido muy grandes,
+particularmente en los años previos a la quiebra. Este éxito ha provocado la realización de estudios para otras
+ramas (el de ALTMAN es para la industria norteamericana), así como en otros países, como el que se verá
+seguidamente.
+MODELO DE ALTMAN 1968
+(1)
+(2) (3)
+Coeficientes
+Valor ratios (1) x (2)
+discriminantes
+Cap. de trabajo/activos tot. 1,2 (0,00761) (0,00913)
+Ganancias ret./act. tot. 1,4 0,11311 0,15836
+GAII/total activos 3,3 0,19239 0,63490
+Valor de merc. de capital/valor
+0,6 1,15000 0,69000
+libros deuda
+Ventas/activos totales 1,0 1,94604 1,94604
+Z = 3,42017
+sin serios problemas financieros
+Modelo de ALTMAN revisado
+24
+
+El prof. ALTMAN (1971), posteriormente, revisa el modelo y llega a otro de mayor poder de
+predicción, más simplificado, al tomar valor de libros en lugar de valor de mercado, no siempre existente, en
+particular en empresas medianas y chicas.
+Z = 6,54 x + 3,56 x + 6,72 x +1,05 x
+1 2 3 4
+donde:
+x1 : capital de trabajo/activos totales;
+x2 : ganancias retenidas/activos totales;
+x3 : GAII/total activos;
+x4 : valor libros acciones/pasivo.
+MODELO DE ALTMAN REVISADO
+(1)
+(2) (3)
+Coeficientes
+Valor ratios (1) x (2)
+discriminantes
+Cap. de trabajo/activos tot. 6,56 (0,00761) (0,04990)
+Ganancias ret./act. tot. 3,26 0,11311 0,36875
+GAII/total activos 6,72 0,19239 1,293
+Valor libros acciones/pasivo 1,05 0,82605 0,867
+Z = 2,479
+sin serios problemas financieros
+En el modelo de ALTMAN revisado, la zona gris o zona de ignorancia está en Z entre 1,10 y 2,605.
+Por lo tanto, al mostrar la empresa un Z = 2,479, la ubica como teniendo características de empresa que no
+ingresará en bancarrota.
+Modelo de PASCALE
+El modelo de PASCALE (1988) busca predecir la bancarrota de empresas en el contexto
+latinoamericano.
+Al trabajar para la industria manufacturera uruguaya, el modelo, usando el análisis discriminante
+múltiple, es:
+Z = -3,70992 + 0,99418 x + 6,55340 x + 5,51253 x
+1 2 3
+donde:
+x : ventas/deudas totales;
+1
+x : ganancias ajustadas por inflación/activo total;
+2
+x : deudas de largo plazo/deuda total.
+3
+Valor crítico: Z = 0
+Zona de ignorancia: -1,05 < Z < 0,4
+En las distintas pruebas de significación, la clasificación resultó correcta en un 92% para un año
+anterior a la quiebra, y en un 81/82 %, para dos o tres años antes de la quiebra.
+25
+
+Utilizando un modelo como el de ALTMAN para los Estados Unidos o el de PASCALE para países
+de América Latina (Uruguay), los resultados deben interpretarse en el sentido siguiente. En el segundo de
+ellos, si se reporta un valor Z superior a cero, la empresa es clasificada teniendo características similares a
+firmas que no han presentado serios problemas financieros, y aquellas que tienen un Z menor que cero, como
+presentando características similares a las empresas que han tenido serios problemas financieros.
+MODELO DE PASCALE
+(1) Coeficientes (3)
+(2) Valor ratios
+discriminantes (1) x (2)
+Ventas/deudas 0,99418 3,55355 3,53286
+Ganancia neta/activo total 6,55340 0,11311 0,74128
+Deudas de largo plazo/deuda total 5,51253 0,38766 2,13698
+Z = (3,70992)
+2,70121
+sin serios problemas financieros
+La empresa, al reportar Z = 2,70, se muestra como teniendo caracteres similares a las empresas sin
+problemas financieros.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Características y fines metodológicos de la técnica.
+2. Algunos modelos de análisis discriminante multivariante.
+36,5. ANÁLISIS ESTADÍSTICO DE DESCOMPOSICIÓN
+Los problemas de asignación han recibido en el análisis estadístico de descomposición (AED) una
+herramienta útil a la solución, como puede ser el caso de la asignación de gastos de consumo o de activos. El
+AED estudia los cambios que se producen en el tiempo con respecto a una situación dada.
+En una aplicación al caso de los estados financieros, H. THEIL (1972) ha desarrollado un índice de
+descomposición que permite observar los cambios que se producen en los activos, pasivos, ingresos y costos.
+Se apoya en el concepto de homeostasis; originario de la química y luego, por expansión, utilizado
+en otras disciplinas como la biología, homeostasis significa: autorregulación de la constancia de las
+propiedades de otros sistemas influidos por agentes exteriores.
+Se ha establecido que las organizaciones tienen su homeostasis entre sus insumos y productos,
+determinando relaciones óptimas. El AED aplicado a estados financieros busca identificar eficientemente los
+cambios en las asignaciones, al poner de manifiesto la intensidad de los cambios y el momento en el cual se
+producen.
+El AED de THEIL se define como:
+n
+qi
+I(cid:2) (cid:1) qi log
+i(cid:2)1 pi
+donde, para un ejemplo de los activos:
+pi : es la ponderación de los activos en el balance final;
+qi : es la ponderación de los activos en el balance inicial.
+Así, si los activos fijos de fin del ejercicio 3 son el 12 % del activo total y al comienzo eran el 11 %,
+p = 0,12 y q = 0,11, y así sucesivamente con los demás activos. De esta forma se va calculando cada
+AB AB
+producto (qi log qi/pi) para cada activo y por suma se obtiene el valor de I, para un año o periodo
+26
+
+determinado. Debe, entonces, obtenerse una serie de I, para varios periodos. Su evolución permitirá ver
+cuánto varían y cuándo se producen los cambios.
+La base del logaritmo es optativa para quien está aplicando la técnica. En caso de tomarse logaritmos
+naturales, la unidad de medida se conoce como nit.
+La medida tiene condición de no negatividad, es cero cuando no han ocurrido cambios en los
+componentes de los activos, pasivos, ingresos o costos y arroja una cifra más alta cuanto más significativos
+sean los cambios en pi y qi por pares.
+APLICACIÓN
+ANÁLISIS EMPÍRICO DE DESCOMPOSICIÓN: UN CASO REAL
+Uruguay, en noviembre de 1982, sufrió como final de una crisis una gran depreciación del peso
+uruguayo. Ello llevó a que se produjeran profundos cambios en activos y pasivos de las
+empresas. En este recuadro se expone la evolución de la medida de descomposición de THEIL
+aplicada al caso uruguayo y para el balance consolidado de la industria manufacturera
+(siguiendo determinadas técnicas de muestreo).
+Medida de descomposición de activos y pasivos (en 10-4 nits)
+78/77 79/78 80/79 82/80 83/82 84/83
+Activos 2 2 2 10 140 2
+Pasivos 20 30 10 320 400 90
+La evolución de la medida de descomposición de los activos muestra la presencia de cambios
+significativos hacia 1983/82. Los financiamientos sufren alteraciones marcadas que se hacen
+agudas en 1982/80 y 1983/82, y que continúan aunque en menor grado, en 1984/83. En los
+restantes años, como se aprecia, tanto en activos como en pasivos la medida adquiere valores
+mucho más bajos.
+La detección de estas turbulencias, dada la entidad que toma la medida en ambos rubros, es un
+síntoma global de cambios bruscos en las estructuras de activos y pasivos.
+En los activos, de un valor de 2 (en 10-4 nits) pasan a 140, para luego retomar valores más
+estables. Los pasivos muestran una suba de 10 (siempre en 10-4 nits) a 320 y 400 en 82/80 y
+83/82, respectivamente.
+Fuente: PASCALE, R., Las finanzas de empresas uruguayas, Banco Central de Uruguay, 1994.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Base conceptual del AED.
+2. Formulación del mismo.
+3. Su importancia y uso.
+36,6. MODELOS DE SERIES DE TIEMPO EN EL ANÁLISIS Y EN LA PLANIFICACIÓN
+FINANCIEROS2
+En esta sección se tratan, a un nivel introductorio, una técnica cuantitativa, que se incorpora junto
+con el análisis discriminante multivariante, y el índice de descomposición de THEIL, aplicados a un grupo
+de ejemplos que pautan la moderna orientación de las técnicas para estudios de apoyo.
+Se trata de los modelos de series de tiempo. Estos, en sus versiones avanzadas, usan la misma
+información histórica que los modelos más simples a través del uso de sofisticadas técnicas estadísticas, con
+las que intentan extraer mejores predicciones.
+2 Esta sección se benefició de los aportes efectuados por el prof. contador MIGUEL GALMES.
+27
+
+Introducción
+Al estar constituidas las series de tiempo por un conjunto de observaciones de una variable en
+función del tiempo el análisis de series temporales tiene por objeto la predicción de valores futuros de una
+variable. Para estos propósitos, los modelos de series de tiempo se apoyan sólo en el comportamiento pasado
+de la variable. Se recordará, y he aquí una diferencia importante, que los modelos econométricos buscan
+asociar el comportamiento futuro de una variable a un conjunto de variables que se estima que pueden
+explicar la evolución de aquélla.
+Los modelos de series de tiempo pueden ser determinísticos, es decir que no efectúan supuestos
+acerca de la aleatoriedad subyacente en la serie, o estocásticos, es decir, suponen que las observaciones
+fueron generadas por un proceso aleatorio (proceso estocástico).
+Modelos estocásticos previos
+En ellos se supone que la serie observada es la realización concreta de un proceso estocástico, esto
+es, las observaciones provienen de una distribución conjunta de probabilidad.
+Uno de los casos más sencillos es el modelo de recorrido aleatorio (random walk). En éste, cada
+observación se extrae independientemente de la anterior, de tal manera que:
+X = X + є
+t t - 1 t
+Donde los є se suponen con media 0, interrelacionados y homoscedásticos, esto es, con igual
+t
+varianza. Es importante para las situaciones que los procesos, a partir de los cuales se obtienen los datos,
+sean estacionarios (el proceso estocástico que los generó no varía en el tiempo) y que la autocorrelación de
+las observaciones tienda a cero en la medida en que las observaciones sean más ajustadas.
+Si bien muchos fenómenos económicos y financieros no son estacionarios, por un proceso de
+diferencias pueden transformarse en tales.
+Los modelos estocásticos lineales son más comunes, entre otros aspectos, por su simplificación. Los
+modelos ARIMA (autoregresive integrated moving average, esto es, "proceso autorregresivo, integrado de
+medias móviles", denominado también proceso de BOX y JENKINS) son muy conocidos y son los que han
+tenido modernamente aplicación en variables financieras.
+Se ha pensado, para un mayor entendimiento de los modelos ARIMA, repasar, al menos
+sumariamente, una secuencia de procesos lineales previos.
+Los procesos puramente aleatorios, en los cuales cada observación es aleatoria e independiente de
+las observaciones anteriores, son conocidos como "procesos de ruido blanco".
+En los procesos autorregresivos cada observación está influenciada por las p observaciones que la
+anteceden y por un término aleatorio de ruido blanco. Estos modelos se conocen como "procesos AR (p)". Si
+fuera AR (1), se estaría frente a un modelo en el cual cada observación tiene la influencia sólo de la
+inmediata anterior y del término aleatorio. Los procesos AR (p) se denotan como:
+p
+Xt (cid:4) (cid:3) φ
+i
+Xt(cid:2)i (cid:1) εt
+t (cid:4)1
+En estos desarrollos se pasa, ahora, a los procesos de medias móviles. En ellos cada observación
+recoge la influencia de q términos aleatorios de las anteriores observaciones y del término aleatorio de ruido
+blanco de ese periodo.
+Estos modelos que son siempre estacionarios se conocen como "procesos MA (q)" y se denotan
+como:
+28
+
+q
+Xt (cid:4) (cid:2) (cid:3) φ
+i
+εt(cid:2)i (cid:1) εt
+t (cid:4)1
+Ahora se ingresa en procesos autorregresivos de medias móviles, utilizados en procesos en los que
+no es fácil elaborar modelos que sean sólo de medias móviles o sólo autorregresivos. Por lo tanto, se
+compondrán de una parte de cada uno de los dos últimos vistos. Se conocen como procesos ARMA (p, q), en
+los que cada observación está influenciada por los q términos aleatorios de ruido blanco de las observaciones
+anteriores y por p variables retardadas. Se denotan como:
+p q
+Xt (cid:3) (cid:2) φ
+i
+Xt(cid:1)i (cid:4) εt (cid:1) (cid:2) φ
+i
+εt(cid:1)i
+t (cid:3)1 t (cid:3)1
+y requieren determinadas condiciones para ser estacionarios.
+Procesos autorregresivos integrados de medias móviles. Modelo de BOX y JENKINS
+BOX y JENKINS (1970) se alejan, tal cómo se expuso, de la modelística econométrica que busca
+explicar los comportamientos como fueron establecidos por la teoría económica. En lugar de inclinarse hacia
+una explicación/predicción, van directamente al comportamiento pasado, orientándose así hacia una
+aproximación modelo/predicción.
+El modelo es, en definitiva, un método de extrapolación altamente refinado. Supóngase que se busca
+modelizar para la predicción la variable Y. En el análisis de BOX y JENKINS se debe transformar Y en
+estacionaria (como se dijo, sus propiedades estocásticas son invariables ante el tiempo). Ya se explicó el
+significado de variable estacionaria.
+Muchos fenómenos que estudian las ciencias tienen series de tiempo estacionarias; sin embargo,
+muchos otros tienen variables con tendencias donde la media, por ejemplo, cambia con el tiempo. En el
+modelo de referencia la variable Y debe ser transformada en estacionaria y para ello se requieren
+comúnmente una o dos operaciones de diferencias finitas. Se crearía, de esta forma, la variable Y*. Si el
+orden de las diferencias es d, el proceso no estacionario se transforma en estacionario, conocido como
+"proceso no estacionario homogéneo de orden d".
+Los procesos ARIMA son los lineales más generales y de más extendido uso. En efecto, un proceso
+ARIMA (p,d,q), donde d sea caro, es un ARMA (p,q); un ARMA (p,q) con p igual a cero pasa a ser MA (q), o
+un ARMA (p,q) con q igual a cero será un AR (p).
+Estos modelos se conocen con el nombre ARIMA (autoregresive integrated moving average) y
+usualmente se expresan como proceso:
+ARIMA (p,d,q)
+Donde:
+p : es el grado de la parte autorregresiva;
+d : es el grado de diferenciación;
+q : es el grado del proceso de promedios móviles.
+Matemáticamente se expresa como:
+Y* = ф Y* + ф Y* +.....+ ф Y* + ε + θ ε + θ ε +......+ θ ε
+t 1 t-1 2 t-2 p t-p t 1 t-1 2 t-2 q t-q
+29
+
+donde ф y θ son parámetros desconocidos y e son errores independientes e idéntica y normalmente
+distribuidos, con media cero. En este modelo, a diferencia de los modelos econométricos, como se dijo, no
+hay variable explicativa. El modelo expresa la variable Y* en una combinación lineal de sus variables pasadas
+y sus errores pasados (shock).
+Recordando lo expuesto, en esa expresión, p representa el número de valores rezagados que expresan
+la dimensión autorregresiva del modelo (AR), d el número de diferencias necesarias para producir Y*, y q es
+el número de valores rezagados del término de error.
+Detallar el proceso de desarrollo de un modelo ARIMA no integra los objetivos de este texto. En
+cualquier caso se estima necesaria esta introducción, para dotar al lector de conocimiento de las
+características básicas del modelo.
+Los modelos ARIMA pueden también ajustar la estacionalidad de los datos, en cuyo caso el modelo
+es denotado como:
+SARIMA (p,d,q) x (p,d,q)
+s = n
+Donde s es el parámetro estacional de extensión n.
+Procesos ARIMA aplicados a finanzas
+Las finanzas han sido uno de los campos de aplicación de los modelos ARIMA.
+En particular, se han desarrollado algunos modelos para predecir ganancias por acción (GPA).
+Los tres modelos que se presentarán son del tipo SARIMA, dada la clara estacionalidad trimestral de
+las ganancias por acción.
+Modelo de FOSTER (1977)
+SARIMA (1,0,0) × (0,1,0)
+s =4
+GPA = ф GPA + GPA – ф GPA + ф + ε
+t t t-1 t-4 1 t-5 o t
+Modelo de GRIFFIN y WATTS. Extensión del anterior para permitir parámetros de promedio móviles.
+SARIMA (0,1,1) × (0,1,1)
+s=4
+GPA = GPA + GPA – GPA – θ ε - θε - θ ε + ε
+t t-1 t-4 t-5 1 t-1 t-4 θ1 t-5 t
+donde:
+θ : es el parámetro de promedios móviles de primer orden (MA [1]);
+1
+θ : es el parámetro estacional de promedios móviles de primer orden.
+El tercer modelo, desarrollado por BROWN y ROZEFF (1979), es similar en el uso de parámetros de
+promedios móviles estacionales.
+SARIMA (1,0,0) × (0,1,1)
+s = 4
+GPA = ф GPA + GPA - ф GPA + ф – ф ε
+t t-1 t-4 t-5 0 t-4
+La mayor parte de la evidencia empírica muestra que, para predicciones de corto plazo, los modelos
+de series de tiempo son mejores que los modelos más sencillos (promedios simples de crecimiento pasado,
+por ejemplo),
+30
+
+Por otra parte, debe trabajarse con un apreciable número de datos (40/60 como mínimo) para que los
+errores de estimación sean suficientemente bajos.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Diferencias con los modelos econométricos.
+2. Principales modelos estocásticos.
+3. Los procesos ARIMA.
+4. Aplicaciones a finanzas de análisis de series de tiempo.
+31
+
+REFERENCIAS SELECCIONADAS
+Un excelente texto general, particularmente de ratios, es:
+BERNSTEIN, LEOPOLD, Analysis of financie statements, Richard D. Irwin, 1994.
+Para el análisis discriminante multivariante se aconseja la lectura de:
+ALTMAN, EDWARD, Corporate financial distress and bankruptcy, John Wiley & Sons, 1993.
+PASCALE, RICARDO, "A multivariate model to predict firm financial problems: the case of Uruguay",
+The Journal of Banking and Finance, 1988.
+Para el análisis estadístico de descomposición se recomienda:
+THEIL, H., Statistical descomposition analysis, North Holland Publishing Co., 1972.
+Para series de tiempo se sugiere:
+Box, G. E. R y JENKINS, G. M., Time series analysis: forecasting and control, Holden Day Inc., 1976.
+32

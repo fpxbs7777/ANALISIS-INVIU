@@ -1,0 +1,760 @@
+{
+ "fecha": "2026-08-25",
+ "cuenta": "264900",
+ "empresas": [
+  {
+   "ticker": "GOOGL",
+   "ticker_yf": "GOOGL",
+   "sector": "Comunicacion",
+   "cantidad": 61,
+   "scores": {
+    "liquidez": 100.0,
+    "solvencia": 94.0,
+    "rentabilidad": 100.0,
+    "bancarrota": 100.0,
+    "flujo": 91.7
+   },
+   "score_total": 96.8,
+   "calificacion": "SANO",
+   "es_financiera": false,
+   "notas": [],
+   "empresa": "Alphabet Inc.",
+   "moneda": "USD",
+   "sector_yf": "Communication Services",
+   "market_cap": 4241158045696.0,
+   "razon_corriente": 2.005333592875566,
+   "prueba_acida": 1.9793469268577546,
+   "endeudamiento_biondi": 0.4334966828410774,
+   "endeudamiento_amat": 0.3024050826416432,
+   "calidad_deuda": 0.5707548217936184,
+   "deuda_patrimonio": 0.14277870757227312,
+   "deuda_ebitda": 0.3281220600117323,
+   "lp_deuda_total": 0.7850601271693849,
+   "cobertura_intereses": 216.7961956521739,
+   "rentabilidad_activa": 0.26804483932798123,
+   "costo_deuda": 0.012413351098817697,
+   "spread_leverage": 0.25563148822916354,
+   "margen_bruto": 0.5965231508603998,
+   "margen_operativo": 0.39609667457724734,
+   "margen_neto": 0.3280987796522654,
+   "roe": 0.3182786895115167,
+   "roa": 0.22202959610671263,
+   "roe_dupont": 0.3182786895115167,
+   "rotacion_activos": 0.6767157023321759,
+   "multiplicador_leverage": 1.4334966828410773,
+   "fcf": 73266000000.0,
+   "fcf_ingresos": 0.18187550268595656,
+   "fcf_utilidad": 0.5543315427101461,
+   "crec_ingresos": 0.242,
+   "crec_utilidades": 2.94,
+   "z": 45.45034664180632,
+   "pascale": {
+    "x1_vtas_d": 2.2377788641009686,
+    "x2_gain_at": 0.22202959610671263,
+    "x3_lp_dt": 0.7850601271693849
+   },
+   "z_pascale": 4.29755124906268,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:22:53.247642",
+   "altman": {
+    "x1_wc_at": 0.17351973269766716,
+    "x2_re_at": 0.5443731615825131,
+    "x3_gaii_at": 0.26804483932798123,
+    "x4_mv_d": 71.53122810706515,
+    "x5_v_at": 0.6767157023321759
+   }
+  },
+  {
+   "ticker": "NVDA",
+   "ticker_yf": "NVDA",
+   "sector": "Tecnologia",
+   "cantidad": 56,
+   "scores": {
+    "liquidez": 94.0,
+    "solvencia": 88.0,
+    "rentabilidad": 100.0,
+    "bancarrota": 100.0,
+    "flujo": 100.0
+   },
+   "score_total": 96.1,
+   "calificacion": "SANO",
+   "es_financiera": false,
+   "notas": [],
+   "empresa": "NVIDIA Corporation",
+   "moneda": "USD",
+   "sector_yf": "Technology",
+   "market_cap": 5142348300288.0,
+   "razon_corriente": 3.905263812455306,
+   "prueba_acida": 3.239809719242608,
+   "endeudamiento_biondi": 0.3147628947251308,
+   "endeudamiento_amat": 0.23940658501085574,
+   "calidad_deuda": 0.6496263381135124,
+   "deuda_patrimonio": 0.07018748450344262,
+   "deuda_ebitda": 0.07637390004980907,
+   "lp_deuda_total": 0.6765398550724637,
+   "cobertura_intereses": 547.1389961389962,
+   "rentabilidad_activa": 0.6852366745163271,
+   "costo_deuda": 0.02346014492753623,
+   "spread_leverage": 0.6617765295887909,
+   "margen_bruto": 0.7106808435754708,
+   "margen_operativo": 0.656248552825348,
+   "margen_neto": 0.5560253406070261,
+   "roe": 0.7633333969089534,
+   "roa": 0.5805863551302447,
+   "roe_dupont": 0.7633333969089534,
+   "rotacion_activos": 1.0441724733200195,
+   "multiplicador_leverage": 1.3147628947251309,
+   "fcf": 96676000000.0,
+   "fcf_ingresos": 0.44770258129648327,
+   "fcf_utilidad": 0.8051837723937468,
+   "crec_ingresos": 0.852,
+   "crec_utilidades": 2.145,
+   "z": 284.3180805615624,
+   "pascale": {
+    "x1_vtas_d": 4.3615027267218744,
+    "x2_gain_at": 0.5805863551302447,
+    "x3_lp_dt": 0.6765398550724637
+   },
+   "z_pascale": 8.160459647845506,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:23:07.988986",
+   "altman": {
+    "x1_wc_at": 0.45184064060966234,
+    "x2_re_at": 0.7106908507129974,
+    "x3_gaii_at": 0.6852366745163271,
+    "x4_mv_d": 465.79241850434784,
+    "x5_v_at": 1.0441724733200195
+   }
+  },
+  {
+   "ticker": "NU",
+   "ticker_yf": "NU",
+   "sector": "Financieras",
+   "cantidad": 16,
+   "scores": {
+    "liquidez": null,
+    "solvencia": null,
+    "rentabilidad": 90.0,
+    "bancarrota": null,
+    "flujo": 100.0
+   },
+   "score_total": 95.0,
+   "calificacion": "SANO",
+   "es_financiera": true,
+   "notas": [
+    "Entidad financiera (Financial Services): modelos de bancarrota y ratios corporativos de deuda no aplicables (depositos distorsionan el pasivo)"
+   ],
+   "empresa": "Nu Holdings Ltd.",
+   "moneda": "USD",
+   "sector_yf": "Financial Services",
+   "market_cap": 71470039040.0,
+   "razon_corriente": null,
+   "prueba_acida": null,
+   "endeudamiento_biondi": 5.6303788663272565,
+   "endeudamiento_amat": 0.8491790559543203,
+   "calidad_deuda": null,
+   "deuda_patrimonio": 0.16808358341567067,
+   "deuda_ebitda": null,
+   "lp_deuda_total": 0.14216605025863846,
+   "cobertura_intereses": null,
+   "rentabilidad_activa": null,
+   "costo_deuda": 2.4125959059406488,
+   "spread_leverage": null,
+   "margen_bruto": 0.0,
+   "margen_operativo": 0.50154,
+   "margen_neto": 0.26996623177788726,
+   "roe": 0.2540877878456264,
+   "roa": 0.03830609543688064,
+   "roe_dupont": 0.2540877878456264,
+   "rotacion_activos": 0.141892173641912,
+   "multiplicador_leverage": 6.633090241846832,
+   "fcf": 3159695000.0,
+   "fcf_ingresos": 0.2973311483030492,
+   "fcf_utilidad": 1.1013642200542928,
+   "crec_ingresos": 0.521,
+   "crec_utilidades": 0.663,
+   "z": null,
+   "pascale": {
+    "x1_vtas_d": 0.1671616803635356,
+    "x2_gain_at": 0.03830609543688064,
+    "x3_lp_dt": 0.14216605025863846
+   },
+   "z_pascale": -2.509001417747874,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:23:04.154242",
+   "altman": {
+    "x1_wc_at": null,
+    "x2_re_at": 0.08562382209162439,
+    "x3_gaii_at": null,
+    "x4_mv_d": 37.65895926016283,
+    "x5_v_at": 0.141892173641912
+   }
+  },
+  {
+   "ticker": "TSM",
+   "ticker_yf": "TSM",
+   "sector": "Tecnologia",
+   "cantidad": 1,
+   "scores": {
+    "liquidez": 94.0,
+    "solvencia": 88.0,
+    "rentabilidad": 100.0,
+    "bancarrota": 100.0,
+    "flujo": 91.7
+   },
+   "score_total": 94.4,
+   "calificacion": "SANO",
+   "es_financiera": false,
+   "notas": [],
+   "empresa": "Taiwan Semiconductor Manufacturing Company Limited",
+   "moneda": "USD",
+   "sector_yf": "Technology",
+   "market_cap": 2152179171328.0,
+   "razon_corriente": 2.5072882934602547,
+   "prueba_acida": 2.318043120990742,
+   "endeudamiento_biondi": 0.4736890696980397,
+   "endeudamiento_amat": 0.32143080887143927,
+   "calidad_deuda": 0.6001734668289138,
+   "deuda_patrimonio": 0.19880018794261936,
+   "deuda_ebitda": 0.3882332347417866,
+   "lp_deuda_total": 0.8417025751029018,
+   "cobertura_intereses": 166.04354750048503,
+   "rentabilidad_activa": 0.25892674662329423,
+   "costo_deuda": 0.011619952118327679,
+   "spread_leverage": 0.24730679450496657,
+   "margen_bruto": 0.5989134888415741,
+   "margen_operativo": 0.5392480490498652,
+   "margen_neto": 0.4456759778929904,
+   "roe": 0.3170105941531291,
+   "roa": 0.2139969374155607,
+   "roe_dupont": 0.3170105941531291,
+   "rotacion_activos": 0.4801626024971503,
+   "multiplicador_leverage": 1.481379116830659,
+   "fcf": 992378400000.0,
+   "fcf_ingresos": 0.2605314395229283,
+   "fcf_utilidad": 0.5845759081623276,
+   "crec_ingresos": 0.36,
+   "crec_utilidades": 0.774,
+   "z": 3.7136776251134136,
+   "pascale": {
+    "x1_vtas_d": 1.5016239502333673,
+    "x2_gain_at": 0.2139969374155607,
+    "x3_lp_dt": 0.8417025751029018
+   },
+   "z_pascale": 3.8252827248341443,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:23:14.757927",
+   "altman": {
+    "x1_wc_at": 0.2892679137396211,
+    "x2_re_at": 0.5849747678716677,
+    "x3_gaii_at": 0.25892674662329423,
+    "x4_mv_d": 2.0216176454191865,
+    "x5_v_at": 0.4801626024971503
+   }
+  },
+  {
+   "ticker": "MU",
+   "ticker_yf": "MU",
+   "sector": "Tecnologia",
+   "cantidad": 1,
+   "scores": {
+    "liquidez": 94.0,
+    "solvencia": 94.0,
+    "rentabilidad": 96.7,
+    "bancarrota": 100.0,
+    "flujo": 83.3
+   },
+   "score_total": 93.6,
+   "calificacion": "SANO",
+   "es_financiera": false,
+   "notas": [],
+   "empresa": "Micron Technology, Inc.",
+   "moneda": "USD",
+   "sector_yf": "Technology",
+   "market_cap": null,
+   "razon_corriente": 2.5179849834119086,
+   "prueba_acida": 1.7885454862929981,
+   "endeudamiento_biondi": 0.5286254961691129,
+   "endeudamiento_amat": 0.3458175318244402,
+   "calidad_deuda": 0.4000279397897531,
+   "deuda_patrimonio": 0.28206406350964647,
+   "deuda_ebitda": 0.8265974138397446,
+   "lp_deuda_total": 0.7548762927084697,
+   "cobertura_intereses": 21.238993710691823,
+   "rentabilidad_activa": 0.12235802797169014,
+   "costo_deuda": 0.031221364052886502,
+   "spread_leverage": 0.09113666391880364,
+   "margen_bruto": 0.39790786023864305,
+   "margen_operativo": 0.27104178928781636,
+   "margen_neto": 0.22844989030980792,
+   "roe": 0.1576479276285424,
+   "roa": 0.1031305103988019,
+   "roe_dupont": 0.1576479276285424,
+   "rotacion_activos": 0.45143602502475905,
+   "multiplicador_leverage": 1.5286254961691128,
+   "fcf": 1668000000.0,
+   "fcf_ingresos": 0.04462518058751137,
+   "fcf_utilidad": 0.1953390326736152,
+   "crec_ingresos": 3.457,
+   "crec_utilidades": 13.685,
+   "z": null,
+   "pascale": {
+    "x1_vtas_d": 1.3054168267383788,
+    "x2_gain_at": 0.1031305103988019,
+    "x3_lp_dt": 0.7548762927084697
+   },
+   "z_pascale": 2.4250329974984903,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:23:00.502551",
+   "altman": {
+    "x1_wc_at": 0.20999299499987922,
+    "x2_re_at": 0.5867653808062997,
+    "x3_gaii_at": 0.12235802797169014,
+    "x4_mv_d": null,
+    "x5_v_at": 0.45143602502475905
+   }
+  },
+  {
+   "ticker": "AMZN",
+   "ticker_yf": "AMZN",
+   "sector": "Discrecional",
+   "cantidad": 109,
+   "scores": {
+    "liquidez": 82.0,
+    "solvencia": 94.0,
+    "rentabilidad": 80.0,
+    "bancarrota": 100.0,
+    "flujo": 83.3
+   },
+   "score_total": 88.5,
+   "calificacion": "SANO",
+   "es_financiera": false,
+   "notas": [],
+   "empresa": "Amazon.com, Inc.",
+   "moneda": "USD",
+   "sector_yf": "Consumer Cyclical",
+   "market_cap": 2811290976256.0,
+   "razon_corriente": 1.0508153482718285,
+   "prueba_acida": 0.8750166280589895,
+   "endeudamiento_biondi": 0.9900551007748166,
+   "endeudamiento_amat": 0.49750135078638996,
+   "calidad_deuda": 0.5356690918651422,
+   "deuda_patrimonio": 0.37217228418863196,
+   "deuda_ebitda": 0.9252816905667681,
+   "lp_deuda_total": 0.42910835561191474,
+   "cobertura_intereses": 43.79287598944591,
+   "rentabilidad_activa": 0.12173580329616328,
+   "costo_deuda": 0.014864008052971821,
+   "spread_leverage": 0.10687179524319146,
+   "margen_bruto": 0.5028566486824266,
+   "margen_operativo": 0.13890593703098236,
+   "margen_neto": 0.10833784334183261,
+   "roe": 0.1889482198679041,
+   "roa": 0.09494622525493801,
+   "roe_dupont": 0.1889482198679041,
+   "rotacion_activos": 0.8763902097936291,
+   "multiplicador_leverage": 1.9900551007748166,
+   "fcf": 7695000000.0,
+   "fcf_ingresos": 0.010733355278941701,
+   "fcf_utilidad": 0.09907300115874855,
+   "crec_ingresos": 0.196,
+   "crec_utilidades": 2.423,
+   "z": 12.748744387520523,
+   "pascale": {
+    "x1_vtas_d": 1.7615835784331793,
+    "x2_gain_at": 0.09494622525493801,
+    "x3_lp_dt": 0.42910835561191474
+   },
+   "z_pascale": 1.0291044381537573,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:22:50.731973",
+   "altman": {
+    "x1_wc_at": 0.013542091970827903,
+    "x2_re_at": 0.3062630036110615,
+    "x3_gaii_at": 0.12173580329616328,
+    "x4_mv_d": 18.376012185715126,
+    "x5_v_at": 0.8763902097936291
+   }
+  },
+  {
+   "ticker": "PAMP",
+   "ticker_yf": "PAM",
+   "sector": "Energia",
+   "cantidad": 74,
+   "scores": {
+    "liquidez": 94.0,
+    "solvencia": 94.0,
+    "rentabilidad": 86.7,
+    "bancarrota": 77.5,
+    "flujo": 71.7
+   },
+   "score_total": 84.8,
+   "calificacion": "SANO",
+   "es_financiera": false,
+   "notas": [],
+   "empresa": "Pampa Energía S.A.",
+   "moneda": "USD",
+   "sector_yf": "Industrials",
+   "market_cap": 4238985984.0,
+   "razon_corriente": 3.111111111111111,
+   "prueba_acida": 2.763693270735524,
+   "endeudamiento_biondi": 0.8312013348164627,
+   "endeudamiento_amat": 0.4539104024297646,
+   "calidad_deuda": 0.21378387420541986,
+   "deuda_patrimonio": 0.5361512791991101,
+   "deuda_ebitda": 1.6270042194092826,
+   "lp_deuda_total": 0.9564315352697096,
+   "cobertura_intereses": 4.079365079365079,
+   "rentabilidad_activa": 0.11692447679708826,
+   "costo_deuda": 0.09802904564315353,
+   "spread_leverage": 0.01889543115393473,
+   "margen_bruto": 0.3148148148148148,
+   "margen_operativo": 0.3858858858858859,
+   "margen_neto": 0.18868868868868868,
+   "roe": 0.10483870967741936,
+   "roa": 0.057173187746436156,
+   "roe_dupont": 0.10483870967741936,
+   "rotacion_activos": 0.30300272975432213,
+   "multiplicador_leverage": 1.8337041156840934,
+   "fcf": -215000000.0,
+   "fcf_ingresos": -0.10760760760760761,
+   "fcf_utilidad": -0.5702917771883289,
+   "crec_ingresos": 0.535,
+   "crec_utilidades": 3.333,
+   "z": 2.328058211090429,
+   "pascale": {
+    "x1_vtas_d": 0.6684509869521579,
+    "x2_gain_at": 0.057173187746436156,
+    "x3_lp_dt": 0.9564315352697096
+   },
+   "z_pascale": 2.601676901905923,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:22:46.444639",
+   "altman": {
+    "x1_wc_at": 0.2045799211404307,
+    "x2_re_at": 0.053230209281164696,
+    "x3_gaii_at": 0.11692447679708826,
+    "x4_mv_d": 2.198644182572614,
+    "x5_v_at": 0.30300272975432213
+   }
+  },
+  {
+   "ticker": "IBM",
+   "ticker_yf": "IBM",
+   "sector": "Tecnologia",
+   "cantidad": 4,
+   "scores": {
+    "liquidez": 68.5,
+    "solvencia": 76.0,
+    "rentabilidad": 90.0,
+    "bancarrota": 100.0,
+    "flujo": 56.7
+   },
+   "score_total": 78.6,
+   "calificacion": "SANO",
+   "es_financiera": false,
+   "notas": [],
+   "empresa": "International Business Machines Corporation",
+   "moneda": "USD",
+   "sector_yf": "Technology",
+   "market_cap": 218339639296.0,
+   "razon_corriente": 0.9556624760722231,
+   "prueba_acida": 0.9241036784106783,
+   "endeudamiento_biondi": 3.649197500612595,
+   "endeudamiento_amat": 0.7849091160639581,
+   "calidad_deuda": 0.32447813058696146,
+   "deuda_patrimonio": 1.978896103896104,
+   "deuda_ebitda": 3.7379657486692897,
+   "lp_deuda_total": 0.8487625179934063,
+   "cobertura_intereses": 6.337467700258398,
+   "rentabilidad_activa": 0.08074137476955491,
+   "costo_deuda": 0.029950314981348772,
+   "spread_leverage": 0.05079105978820614,
+   "margen_bruto": 0.5818674484719261,
+   "margen_operativo": 0.18157723288320304,
+   "margen_neto": 0.15684968017057568,
+   "roe": 0.3244609164420485,
+   "roa": 0.0697458519884119,
+   "roe_dupont": 0.3244609164420485,
+   "rotacion_activos": 0.44466684224387676,
+   "multiplicador_leverage": 4.6520460671404065,
+   "fcf": 11455000000.0,
+   "fcf_ingresos": 0.16961324330727315,
+   "fcf_utilidad": 1.081374492589446,
+   "crec_ingresos": 0.011,
+   "crec_utilidades": -0.018,
+   "z": 4.160006418771389,
+   "pascale": {
+    "x1_vtas_d": 0.5668672726814897,
+    "x2_gain_at": 0.0697458519884119,
+    "x3_lp_dt": 0.8487625179934063
+   },
+   "z_pascale": 1.989549414889534,
+   "fuente": "yfinance",
+   "_fetched_at": "2026-08-25T14:22:56.812559",
+   "altman": {
+    "x1_wc_at": -0.011285225177771925,
+    "x2_re_at": 1.02480905978404,
+    "x3_gaii_at": 0.08074137476955491,
+    "x4_mv_d": 3.379504377172752,
+    "x5_v_at": 0.44466684224387676
+   }
+  }
+ ],
+ "etfs": [
+  {
+   "ticker": "SMH",
+   "ticker_yf": "SMH",
+   "empresa": "VanEck Semiconductor ETF",
+   "es_etf": true,
+   "top_holdings": [
+    {
+     "holding": "NVIDIA Corp",
+     "symbol": "NVDA",
+     "peso": 0.2082777
+    },
+    {
+     "holding": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "symbol": "TSM",
+     "peso": 0.09574351
+    },
+    {
+     "holding": "Broadcom Inc",
+     "symbol": "AVGO",
+     "peso": 0.0659583
+    },
+    {
+     "holding": "Advanced Micro Devices Inc",
+     "symbol": "AMD",
+     "peso": 0.0574075
+    },
+    {
+     "holding": "Micron Technology Inc",
+     "symbol": "MU",
+     "peso": 0.0524723
+    },
+    {
+     "holding": "ASML Holding NV ADR",
+     "symbol": "ASML",
+     "peso": 0.0509517
+    },
+    {
+     "holding": "Applied Materials Inc",
+     "symbol": "AMAT",
+     "peso": 0.0486165
+    },
+    {
+     "holding": "Texas Instruments Inc",
+     "symbol": "TXN",
+     "peso": 0.047600098
+    },
+    {
+     "holding": "Analog Devices Inc",
+     "symbol": "ADI",
+     "peso": 0.0449666
+    },
+    {
+     "holding": "Lam Research Corp",
+     "symbol": "LRCX",
+     "peso": 0.0445432
+    }
+   ],
+   "descripcion": "The fund normally invests at least 80% of its total assets in securities that comprise the fund's benchmark index. The index includes common stocks and depositary receipts of U.S. exchange-listed companies in the semiconductor industry. Such companies may include medium-capitalization companies and foreign companies that are listed on a U.S. exchange. The fund is non-diversified.",
+   "expense_ratio": null,
+   "_fetched_at": "2026-08-25T14:23:09.236921"
+  },
+  {
+   "ticker": "SPY",
+   "ticker_yf": "SPY",
+   "empresa": "State Street SPDR S&P 500 ETF Trust",
+   "es_etf": true,
+   "top_holdings": [
+    {
+     "holding": "NVIDIA Corp",
+     "symbol": "NVDA",
+     "peso": 0.0754943
+    },
+    {
+     "holding": "Apple Inc",
+     "symbol": "AAPL",
+     "peso": 0.070445
+    },
+    {
+     "holding": "Microsoft Corp",
+     "symbol": "MSFT",
+     "peso": 0.053599
+    },
+    {
+     "holding": "Amazon.com Inc",
+     "symbol": "AMZN",
+     "peso": 0.0412761
+    },
+    {
+     "holding": "Alphabet Inc Class A",
+     "symbol": "GOOGL",
+     "peso": 0.032421898
+    },
+    {
+     "holding": "Broadcom Inc",
+     "symbol": "AVGO",
+     "peso": 0.0286201
+    },
+    {
+     "holding": "Alphabet Inc Class C",
+     "symbol": "GOOG",
+     "peso": 0.026171401
+    },
+    {
+     "holding": "Meta Platforms Inc Class A",
+     "symbol": "META",
+     "peso": 0.0189809
+    },
+    {
+     "holding": "JPMorgan Chase & Co",
+     "symbol": "JPM",
+     "peso": 0.0146384
+    },
+    {
+     "holding": "Berkshire Hathaway Inc Class B",
+     "symbol": "BRK-B",
+     "peso": 0.0145635
+    }
+   ],
+   "descripcion": "The trust seeks to achieve its investment objective by holding a portfolio of the common stocks that are included in the index (the “Portfolio”), with the weight of each stock in the Portfolio substantially corresponding to the weight of such stock in the index.",
+   "expense_ratio": null,
+   "_fetched_at": "2026-08-25T14:23:10.395795"
+  },
+  {
+   "ticker": "URA",
+   "ticker_yf": "URA",
+   "empresa": "Global X Uranium ETF",
+   "es_etf": true,
+   "top_holdings": [
+    {
+     "holding": "Cameco Corp",
+     "symbol": "CCO.TO",
+     "peso": 0.229852
+    },
+    {
+     "holding": "NexGen Energy Ltd",
+     "symbol": "NXE.TO",
+     "peso": 0.064698905
+    },
+    {
+     "holding": "Oklo Inc Class A Shares",
+     "symbol": "OKLO",
+     "peso": 0.0553023
+    },
+    {
+     "holding": "Uranium Energy Corp",
+     "symbol": "UEC",
+     "peso": 0.0527636
+    },
+    {
+     "holding": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+     "symbol": "KAP",
+     "peso": 0.0490692
+    },
+    {
+     "holding": "Centrus Energy Corp Class A",
+     "symbol": "LEU",
+     "peso": 0.035493802
+    },
+    {
+     "holding": "Paladin Energy Ltd",
+     "symbol": "PDN.AX",
+     "peso": 0.0348935
+    },
+    {
+     "holding": "BHP Group Ltd",
+     "symbol": "BHP.AX",
+     "peso": 0.034315
+    },
+    {
+     "holding": "Samsung C&T Corp",
+     "symbol": "028260.KS",
+     "peso": 0.0339512
+    }
+   ],
+   "descripcion": "The fund invests at least 80% of its total assets in the securities of the underlying index and in American Depositary Receipts (\"ADRs\") and Global Depositary Receipts (\"GDRs\") based on the securities in the underlying index. The underlying index is designed to measure broad based equity market performance of global companies involved in the uranium industry. The fund is non-diversified.",
+   "expense_ratio": null,
+   "_fetched_at": "2026-08-25T14:23:16.024346"
+  },
+  {
+   "ticker": "XLE",
+   "ticker_yf": "XLE",
+   "empresa": "State Street Energy Select Sector SPDR ETF",
+   "es_etf": true,
+   "top_holdings": [
+    {
+     "holding": "ExxonMobil Holdings Corp",
+     "symbol": "XOM",
+     "peso": 0.20581141
+    },
+    {
+     "holding": "Chevron Corp",
+     "symbol": "CVX",
+     "peso": 0.1525565
+    },
+    {
+     "holding": "ConocoPhillips",
+     "symbol": "COP",
+     "peso": 0.0607684
+    },
+    {
+     "holding": "Marathon Petroleum Corp",
+     "symbol": "MPC",
+     "peso": 0.049300198
+    },
+    {
+     "holding": "Phillips 66",
+     "symbol": "PSX",
+     "peso": 0.0491118
+    },
+    {
+     "holding": "Valero Energy Corp",
+     "symbol": "VLO",
+     "peso": 0.047444202
+    },
+    {
+     "holding": "EOG Resources Inc",
+     "symbol": "EOG",
+     "peso": 0.0455115
+    },
+    {
+     "holding": "SLB Ltd",
+     "symbol": "SLB",
+     "peso": 0.043176398
+    },
+    {
+     "holding": "Kinder Morgan Inc Class P",
+     "symbol": "KMI",
+     "peso": 0.0390768
+    },
+    {
+     "holding": "Williams Companies Inc",
+     "symbol": "WMB",
+     "peso": 0.0386299
+    }
+   ],
+   "descripcion": "In seeking to track the performance of the index, the fund employs a replication strategy. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies that have been identified as Energy companies by the GICS®, including securities of companies from the following industries: oil, gas and consumable fuels; and en",
+   "expense_ratio": null,
+   "_fetched_at": "2026-08-25T14:23:17.855452"
+  }
+ ],
+ "errores": [],
+ "subyacentes_cartera": [
+  "AMZN",
+  "GOOGL",
+  "IBM",
+  "MU",
+  "NU",
+  "NVDA",
+  "PAM",
+  "SMH",
+  "SPY",
+  "TSM",
+  "URA",
+  "XLE"
+ ]
+}

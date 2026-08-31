@@ -1,0 +1,149 @@
+NVIDIA
+riva-translate-4b-instruct-v2: Traducción automática multilingüe en 37 idiomas con soporte para prompts estructurados con pocos ejemplos (few-shots).
+
+ising-calibration-1.5-31b: Análisis visual de gráficos de experimentos de calibración en computación cuántica y generación automática de documentación técnica.
+
+nemotron-3-embed-1b: Generación de vectores de características (embeddings) de 1B de parámetros para motores de búsqueda semántica y recuperación en sistemas RAG.
+
+nemotron-3-ultra-550b-a55b: Agentes inteligentes autónomos, planificación compleja, razonamiento avanzado, desarrollo de código y llamadas a herramientas en contextos masivos de hasta 1M de tokens.
+
+nemotron-3.5-content-safety: Detección y filtrado de contenido tóxico o peligroso en aplicaciones multilingües y multimodales.
+
+cosmos3-nano: Generación de videos realistas y físicamente coherentes a partir de texto o imágenes para el desarrollo de IA física y simulación en robótica.
+
+cosmos3-nano-reasoner: Comprensión y razonamiento estructurado sobre videos e imágenes enfocado en la física y dinámica del entorno visual.
+
+nemotron-3-nano-omni-30b-a3b-reasoning: Razonamiento omnimodal fluido procesando de forma unificada texto, imágenes, video y audio/voz.
+
+synthetic-video-detector: Detección automatizada de contenido audiovisual sintético y videos manipulados mediante IA (deepfakes).
+
+Active Speaker Detection: Identificación y seguimiento en tiempo real del hablante activo en transmisiones de video.
+
+ising-calibration-1-35b-a3b: Interpretación de gráficos de calibración de cúbits para diferentes arquitecturas de hardware cuántico.
+
+nemotron-voicechat: Conversación natural y fluida voz a voz orientada a asistentes virtuales en inglés.
+
+nemotron-3-super-120b-a12b: Automatización agéntica, lógica de programación y ejecución de herramientas en una arquitectura MoE eficiente con 1M de tokens de contexto.
+
+cosmos-transfer2.5-2b: Generación de estados del mundo en video guiados por texto y múltiples controles espaciales para simulación.
+
+nemotron-3-nano-30b-a3b: Seguimiento de instrucciones, programación, razonamiento general y llamadas a funciones con ventana de contexto de 1M de tokens.
+
+riva-translate-4b-instruct-v1_1: Traducción rápida y adaptable mediante prompts en un conjunto de 12 idiomas principales.
+
+streampetr: Detección 3D de objetos en tiempo real orientada a sistemas de percepción en vehículos autónomos.
+
+nemotron-nano-12b-v2-vl: Análisis de múltiples imágenes y fragmentos de video, respuestas a preguntas visuales (VQA) y resúmenes de contenido visual.
+
+llama-3.1-nemotron-safety-guard-8b-v3: Moderación de seguridad multilingüe para evaluar entradas de usuario y salidas de modelos de lenguaje.
+
+nvidia-nemotron-nano-9b-v2: Tareas agénticas y razonamiento liviano de alta eficiencia gracias a su arquitectura híbrida Transformer-Mamba.
+
+llama-3.3-nemotron-super-49b-v1.5: Razonamiento lógico, resolución de problemas matemáticos, interacción en chat y ejecución precisa de herramientas.
+
+cosmos-transfer1-7b: Simulación de video consciente de las leyes de la física a partir de entradas de control para entrenamiento de IA física.
+
+Background Noise Removal: Supresión de ruido de fondo en streams de audio para mejorar la inteligibilidad de la voz.
+
+llama-3.1-nemotron-nano-vl-8b-v1: Procesamiento inteligente de documentos, extracción de datos y comprensión de texto embebido en imágenes.
+
+magpie-tts-zeroshot: Síntesis de texto a voz (TTS) con clonación de estilo expresiva a partir de pequeñas muestras de audio (zero-shot).
+
+sparsedrive: Pila integral de conducción autónoma que combina percepción, predicción y planificación eficiente de rutas.
+
+bevformer: Transformación de imágenes de cámaras en una vista aérea 3D (Bird's-Eye-View) para vehículos autónomos.
+
+llama-3.3-nemotron-super-49b-v1: Razonamiento matemático, chat general y ejecución de funciones con alto equilibrio de velocidad y rendimiento.
+
+llama-3.1-nemotron-nano-8b-v1: Ejecución local en computadoras y dispositivos Edge para tareas agénticas y razonamiento continuo.
+
+nv-embedcode-7b-v1: Recuperación semántica de código fuente a partir de consultas en lenguaje natural o fragmentos de código.
+
+Studio Voice: Limpieza y restauración de grabaciones de audio en entornos ruidosos o con reverberación para calidad de estudio.
+
+nemotron-mini-4b-instruct: Inferencia local en dispositivos de bajo consumo para juegos de rol (roleplay), RAG y llamadas a funciones.
+
+nv-embed-v1: Vectorización de texto para motores de búsqueda, recomendación y recuperación semántica de datos.
+
+rerank-qa-mistral-4b: Reordenamiento (re-ranking) de precisión para evaluar qué pasajes contienen la respuesta correcta en sistemas QA.
+
+Meta
+muse-glimmer-30b: Razonamiento multimodal sobre texto e imágenes con llamadas a herramientas nativas en vLLM.
+
+llama-guard-4-12b: Clasificación multimodal de seguridad para auditar solicitudes de usuarios y respuestas generadas.
+
+llama-3.3-70b-instruct: Razonamiento complejo de propósito general, resolución matemática, conocimientos generales y uso de funciones.
+
+llama-3.2-3b-instruct: Asistente de chat liviano, resumen de textos y razonamiento eficiente en dispositivos con memoria reducida.
+
+llama-3.2-11b-vision-instruct: Razonamiento visual, descripción de imágenes y extracción de información gráfica.
+
+llama-3.2-90b-vision-instruct: Análisis e interpretación compleja de imágenes detalladas e instrucciones compuestas.
+
+llama-3.2-1b-instruct: Generación ultrarrápida de texto y asistentes básicos de conversación directamente en el dispositivo.
+
+esm2-650m: Generación de representaciones vectoriales (embeddings) de proteínas a partir de secuencias de aminoácidos.
+
+llama-3.1-70b-instruct: Conversaciones profundas en contextos amplios, redacción avanzada y razonamiento de alto nivel.
+
+llama-3.1-8b-instruct: Asistente versátil de propósito general con excelente velocidad de respuesta para texto y chat.
+
+esmfold: Predicción rápida de la estructura tridimensional (3D) de proteínas a partir de su secuencia biológica.
+
+Google
+diffusiongemma-26b-a4b-it: Generación paralela de tokens mediante modelos de difusión para respuestas de texto en tiempo real.
+
+gemma-4-31b-it: Razonamiento lógico profundo, programación avanzada, flujos agénticos y ajuste fino (fine-tuning).
+
+paligemma: Comprensión conjunta de imagen y texto para generación de descripciones informativas y VQA.
+
+OpenAI
+gpt-oss-20b: Razonamiento matemático y lógico de texto eficiente mediante arquitectura de mezcla de expertos (MoE).
+
+gpt-oss-120b: Razonamiento avanzado en lenguaje natural diseñado para ejecutarse dentro del límite de memoria de una sola GPU de 80 GB.
+
+Mistral AI
+mistral-nemotron: Creación de agentes autónomos, generación/depuración de código fuente y llamadas a funciones.
+
+mixtral-8x7b-instruct-v0.1: Razonamiento general, redacción creativa y seguimiento de instrucciones en formato MoE.
+
+Stepfun-ai
+step-3.7-flash: Razonamiento multimodal de baja latencia para entornos empresariales, programación y automatización agéntica.
+
+step-3.5-flash: Motor de razonamiento MoE a gran escala para impulsar sistemas de agentes autónomos.
+
+ByteDance
+seed-oss-36b-instruct: Procesamiento de documentos extensos, razonamiento paso a paso y flujos de trabajo agénticos.
+
+Minimaxai
+minimax-m3: Modelo multimodal (visión-lenguaje) optimizado para programación, razonamiento lógico y llamadas a herramientas externas.
+
+Poolside
+laguna-xs-2.1: Desarrollo de agentes autónomos de programación a largo plazo y automatización de comandos en terminales.
+
+Qwen
+qwen3-next-80b-a3b-instruct: Análisis de textos extremadamente largos, generación de respuestas extensas y razonamiento continuo.
+
+Sarvamai
+sarvam-m: Tareas lingüísticas focalizadas en idiomas del subcontinente indio, programación y razonamiento matemático.
+
+Thinkingmachines
+inkling: Razonamiento multimodal (texto e imagen) con arquitectura híbrida Mamba y razonamiento conmutable con herramientas.
+
+Upstage
+solar-10.7b-instruct: Procesamiento de lenguaje natural, tareas matemáticas, razonamiento lógico y cumplimiento de instrucciones paso a paso.
+
+Z.ai
+glm-5.2: Agentes avanzados para ingeniería de software, desarrollo de código y tareas de razonamiento de horizonte largo.
+
+
+
+
+gh repo clone NVIDIA-AI-Blueprints/financial-fraud-detection
+
+gh repo clone NVIDIA/skills
+
+gh repo clone NVIDIA-AI-Blueprints/ai-model-distillation-for-financial-data
+
+gh repo clone NVIDIA-AI-Blueprints/portfolio-optimization
+gh repo clone NVIDIA-AI-Blueprints/quantitative-signal-discovery-agent

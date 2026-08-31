@@ -1,0 +1,12 @@
+{
+ "dia": "2026-08-26",
+ "eventos": [
+  {
+   "ticker": "NVDA",
+   "fecha": "2026-08-26",
+   "faltan_dias": 0,
+   "eps_est": 2.09,
+   "beat_rate_8q": "8/8"
+  }
+ ]
+}

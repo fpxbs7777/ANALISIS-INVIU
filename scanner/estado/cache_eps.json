@@ -1,0 +1,171 @@
+{
+ "_ts": "2026-08-26T00:43:17.071950",
+ "data": {
+  "MRVL": {
+   "ticker": "MRVL",
+   "eps_dil_ttm": 2.92,
+   "eps_basic_ttm": null,
+   "eps_forward": 6.27568,
+   "yoy_trim": -80.0,
+   "cagr_anual": null,
+   "tendencia": "\ud83d\udcc9 declinante",
+   "n_trim": 5,
+   "pares": [
+    "ADI",
+    "AM",
+    "AMD",
+    "ARM",
+    "AVGO"
+   ],
+   "sector": "Tecnolog\u00eda",
+   "industria": "Semiconductores",
+   "rank_pares": 3,
+   "total_pares": 4
+  },
+  "PANW": {
+   "ticker": "PANW",
+   "eps_dil_ttm": 1.22,
+   "eps_basic_ttm": null,
+   "eps_forward": 4.12012,
+   "yoy_trim": -159.5,
+   "cagr_anual": null,
+   "tendencia": "\ud83d\udcc9 declinante",
+   "n_trim": 5,
+   "pares": [
+    "AKAM",
+    "FFIV",
+    "FTNT",
+    "GEN",
+    "MDB"
+   ],
+   "sector": "Tecnolog\u00eda",
+   "industria": "Software - Infraestructura",
+   "rank_pares": 4,
+   "total_pares": 4
+  },
+  "SNOW": {
+   "ticker": "SNOW",
+   "eps_dil_ttm": -3.52,
+   "eps_basic_ttm": null,
+   "eps_forward": 2.7067,
+   "yoy_trim": 33.3,
+   "cagr_anual": null,
+   "tendencia": "\ud83d\udcc8 creciente",
+   "n_trim": 5,
+   "pares": [
+    "ADBE",
+    "ADP",
+    "ADSK",
+    "CDNS",
+    "CRM"
+   ],
+   "sector": "Tecnolog\u00eda",
+   "industria": "Software - Aplicacion",
+   "rank_pares": 4,
+   "total_pares": 4
+  },
+  "PBF": {
+   "ticker": "PBF",
+   "eps_dil_ttm": 11.3,
+   "eps_basic_ttm": null,
+   "eps_forward": 9.69788,
+   "yoy_trim": 313.6,
+   "cagr_anual": null,
+   "tendencia": "\ud83d\udcc8 creciente",
+   "n_trim": 5,
+   "pares": [
+    "AAAU",
+    "AALC",
+    "AAPL",
+    "AAPLC",
+    "ABBVC"
+   ],
+   "sector": "Sin Clasificar",
+   "industria": "Pendiente",
+   "rank_pares": 1,
+   "total_pares": 2
+  },
+  "AMD": {
+   "ticker": "AMD",
+   "eps_dil_ttm": 3.89,
+   "eps_basic_ttm": null,
+   "eps_forward": 15.48597,
+   "yoy_trim": 155.6,
+   "cagr_anual": 46.7,
+   "tendencia": "\ud83d\udcc8 creciente",
+   "n_trim": 5,
+   "pares": [
+    "ADI",
+    "AM",
+    "ARM",
+    "AVGO",
+    "GFS"
+   ],
+   "sector": "Tecnolog\u00eda",
+   "industria": "Semiconductores",
+   "rank_pares": 2,
+   "total_pares": 4
+  },
+  "DINO": {
+   "ticker": "DINO",
+   "eps_dil_ttm": 10.48,
+   "eps_basic_ttm": null,
+   "eps_forward": 9.37352,
+   "yoy_trim": 348.2,
+   "cagr_anual": -40.0,
+   "tendencia": "\ud83d\udcc8 creciente",
+   "n_trim": 5,
+   "pares": [
+    "AAAU",
+    "AALC",
+    "AAPL",
+    "AAPLC",
+    "ABBVC"
+   ],
+   "sector": "Sin Clasificar",
+   "industria": "Pendiente",
+   "rank_pares": 1,
+   "total_pares": 2
+  },
+  "MPC": {
+   "ticker": "MPC",
+   "eps_dil_ttm": 29.09,
+   "eps_basic_ttm": null,
+   "eps_forward": 32.20183,
+   "yoy_trim": 347.7,
+   "cagr_anual": -22.2,
+   "tendencia": "\ud83d\udcc8 creciente",
+   "n_trim": 5,
+   "pares": [
+    "PSX",
+    "UGP",
+    "VLO"
+   ],
+   "sector": "Energ\u00eda",
+   "industria": "Refinacion y comercializacion de petr\u00f3leo y gas",
+   "rank_pares": 1,
+   "total_pares": 4
+  },
+  "CRWD": {
+   "ticker": "CRWD",
+   "eps_dil_ttm": -0.05,
+   "eps_basic_ttm": null,
+   "eps_forward": 1.56744,
+   "yoy_trim": 125.0,
+   "cagr_anual": null,
+   "tendencia": "\ud83d\udcc8 creciente",
+   "n_trim": 5,
+   "pares": [
+    "ABNB",
+    "ACWI",
+    "AEM",
+    "AI",
+    "ALAB"
+   ],
+   "sector": "Fondos y ETFs",
+   "industria": "ETF generales",
+   "rank_pares": 3,
+   "total_pares": 3
+  }
+ }
+}

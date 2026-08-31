@@ -1,0 +1,429 @@
+ELECTRONIC MARKETS AND
+HIGH FREQUENCY TRADING
+Mauricio Labadie, PhD
+Algorithmic Quant/Trader
+Electronic Broker (Investment Bank)
+London, UK
+Workshop in Quantitative Trading 2017
+Facultad de Ciencias, UNAM
+Mexico City, 17-19 May 2017
+HFT - Mauricio Labadie
+1
+
+Disclaimer
+Everything I say during this workshop, in written and/or orally:
+www.svsamiti.org
+ Is my own and personal opinion
+ It is meant to be solely for educational purposes
+ Does not commit me or my employer to anything
+ Does not necessarily represent my employer’s point of view
+ Does not constitute any kind of investment advice
+HFT - Mauricio Labadie
+2
+
+A bit about myself
+HFT - Mauricio Labadie
+3
+
+Table of Contents
+1. Electronic Markets
+ Limit Order Book
+ Market orders
+ Limit orders
+2. High Frequency Trading (HFT)
+ Evolution towards electronic markets
+ Definition
+ Different types of HFT
+3. Algorithmic trading
+ Simple algorithms: Iceberg, Stop Loss, Take Profit
+ Complex algorithms: TWAP, VWAP, PoV
+ Comparing complex algorithms
+4. Conclusions
+HFT - Mauricio Labadie
+4
+
+1. Electronic Markets
+HFT - Mauricio Labadie
+5
+
+NYSE specialists
+ Designated market makers: specialists (NYSE)
+ They are dedicated market makers on a particular security
+ They are obliged to quote buy and ask prices all the time
+ Based on inventory and risk appetite, they change their quotes
+ Positive inventory  need to sell  aggressive ask prices
+ Negative inventory  need to buy  aggressive bid prices
+ Increased risk (market or liquidity)  increased spread
+newsok.com
+HFT - Mauricio Labadie
+6
+
+Self-organised liquidity
+ In electronic markets, there are several liquidity providers:
+ Traders providing liquidity in the market
+ Limit Orders in the Limit Order Book
+ And several liquidity consumers:
+ Traders consuming the liquidity of the market
+ Market Orders
+ Traders can change from providers to consumers and vice-versa
+ No dedicated dealers or specialists
+geek-whisperers.com
+ How can electronic markets operate without dedicated market makers?
+ It is the aggregate of liquidity providers that makes the market
+ But providers (generally) have no obligation to place both ask and bid quotes
+ Self-organised liquidity
+ Any trader can choose, at any instant of time, to either provide or consume liquidity
+HFT - Mauricio Labadie
+7
+
+Limit Order Book (LOB)
+ The LOB is the current liquidity of the market at every
+batstrading.com
+available price level
+ It is the aggregate of all Limit Orders (LOs)
+ A LOB has 2 sides:
+ Bid side: Prices at which the market buys from clients
+ Ask side: Prices at which the market sells to clients
+ In electronic markets, dealers are anonymous and real-
+time data is aggregated:
+ All you see are the total volumes at every price
+ But you do not know how many shares each trader
+inserted in the LOB
+ For regulation, stock markets have the ID of every trader
+and every order
+HFT - Mauricio Labadie
+8
+
+Microstructure of the LOB
+ Most common priority is price/time priority:
+ First, price priority: LOs at the best price are selected first
+ Second, time priority: Within the best price level, the oldest LOs are selected first
+ But there is also pro-rata priority:
+ First, price priority as before
+ Second, volume priority: trades are distributed in proportion of the volumes of the LOs
+ Tick:
+ The smallest price increment in the LO
+ Real prices are discrete, not continuous
+ Spread:
+ Difference between the best ask price and the best bid price
+ Price of liquidity: the expected gain of a dealer
+ Measure of liquidity:
+ Highly liquid markets  spread = 1 tick
+batstrading.com
+HFT - Mauricio Labadie
+9
+
+Limit orders vs market orders
+ When you send a buy market order:
+ You buy at the best selling market price, i.e. the lowest available
+ Your order hits the ask side: buy MO ↔ sell LO
+ If you trade via Limit Orders:
+ You have a better price: you earn the spread
+ But delayed and uncertain execution: deal-too.com
+ Your LO sits passively on the LOB, waiting to be matched against an MO
+ Market risk and execution risk
+ If you trade via Market Orders:
+ You have a worse price: you pay the spread
+ But immediate and certain execution:
+ Your MO hits the LOB and is matched vs the LOs at the best price
+ No market risk and no execution risk
+HFT - Mauricio Labadie
+10
+
+LOB and LOs
+HFT - Mauricio Labadie
+11
+
+LOB and MOs
+HFT - Mauricio Labadie
+12
+
+2. High Frequency Trading
+HFT - Mauricio Labadie
+13
+
+Evolutions in financial markets
+ Automatisation
+ All markets are essentially electronic
+ “The pit” is essentially in the past (except NYSE)
+ Fragmentation
+ Before: Only the primary market existed
+ Now: Dozens of different venues where to trade
+ Primary market, MTFs, dark pools, etc
+benkepple.com
+ Information
+ Faster, richer real-time data
+ Before: the problem was to find data for trading
+ Now: the problem is how to filter meaningful data from noise (data mining)
+wired.co.uk
+HFT - Mauricio Labadie
+14
+
+The rise of Algorithmic Trading
+ What is Algorithmic Trading?
+ Systematic investment decisions
+ More productivity due to automated processes
+ Widespread use of quantitative tools
+ In a sentence: “Algorithms execute whilst humans monitor”
+phys.org
+HFT - Mauricio Labadie
+15
+
+The birth of High Frequency Trading
+ Algorithmic Trading vs human traders
+ Faster
+ More reactive
+ More accurate
+ Information access at very high speeds
+ Low-latency real-time
+ Direct market access
+ Co-location
+ Technological advances in computing
+ Data processing investmentnews.com
+ Parallel computing
+ Overclocking
+ In a sentence: “HFT” are algorithmic traders using speed as their main advantage
+ Remark: Ironically, HFT does not necessarily mean very frequent trading !
+HFT - Mauricio Labadie
+16
+
+Definition of high frequency trading
+ Algorithmic trading firms
+ Using computer algorithms to trade
+ Which automatically determine individual parameters of the order
+ Time, price, size
+ With limited or no human intervention
+ An automated system makes decisions on initiation, routing and execution of the order
+ High frequency trading
+ Subset of algorithmic trading
+ Infrastructure intended to minimise latency
+ No human intervention in order initiation, routing or execution
+ High message intraday rate (orders, quotes, cancellations)
+ Average of 2 messages per second in a single instrument
+ Or 4 messages per second in all instruments
+shutterstock.com
+ Sources: www.acacomplianceeurope.com & MiFID II
+HFT - Mauricio Labadie
+17
+
+HFTs are not homogeneous
+ 4 types of HFTS, according to the SEC:
+ HF Market Making
+ HF Arbitrage
+ HF directional
+ Manipulators
+lebeauleblog.files.wordpress.com
+ Alternative definition (mine):
+ Makers
+ Takers
+ Gamers
+supercoolrobots.com
+HFT - Mauricio Labadie
+18
+
+Makers
+ Liquidity providers:
+williambanzai7.blogspot.mx
+ Place limit orders in both sides of the Limit
+Order Book (LOB)
+ Dealers:
+ They earn the spread by buying at the bid and
+selling at the ask
+ Speed:
+ Fast and frequent trades
+ Earn the spread as many times as possible
+ Priority in the LOB:
+ Be the first in the queue (price and time) for higher probability of execution
+ High reactivity
+ Quick response to liquidity shocks, market conditions and inventory risk
+HFT - Mauricio Labadie
+19
+
+Takers
+ Liquidity consumers:
+ They take the liquidity offered by market makers
+ They use speed to seize profitable opportunities before others:
+ Directional
+Dailyfx.com
+ Non directional
+ Examples:
+ Macro events
+ News trading
+ Short term alpha
+ Arbitrage
+HFT - Mauricio Labadie
+20
+
+Gamers
+ They exploit structural deficiencies in
+electronic markets
+ They can play as makers, takers or both
+ Example 1: Spoofing
+Dailyfx.com
+ Place big order, generating a false pressure in the market to push it
+ Example 2: Momentum Ignition
+ Lure traders to trade in a direction by trading another highly correlated security
+ Example 3: Flash trades
+ Traders can pay some markets to see incoming orders before they hit the book
+ Example 4: Stuffing
+ Rapidly send and cancel orders to confuse markets and saturate data lines
+HFT - Mauricio Labadie
+21
+
+3. Algorithmic Trading
+HFT - Mauricio Labadie
+22
+
+Iceberg
+ Goal: Minimise the market impact of a fully visible big limit order
+ An iceberg order of (say) 1000 shares consists of two parts:
+ A visible part of (say) 100 shares
+ A hidden part of (say) 900 shares
+ Mechanism:
+ Place the visible part in the LOB at the current best price
+ Send a first clip of 100 shares
+ When the visible part is executed:
+ Send a second clip of 100 shares at the same price
+ When the second clip is executed:
+ Send a third LO of 100 shares at the same price
+ We repeat the iceberg game until full execution www.express.co.uk
+ In our example, until the 10th clip of 100 shares is executed
+ Risk: Incomplete execution if the price moves away from us
+HFT - Mauricio Labadie
+23
+
+Stop Loss & Take Profit
+ Stop Loss:
+ Set a maximal loss for our portfolio
+ Set a minimal price or lower bound for our
+portfolio
+ When the portfolio value hits the threshold
+o Get out of the position: sell everything via MO
+ Take Profit:
+ Set a maximal gain for our portfolio
+ Set a maximal price or upper bound for our
+portfolio
+ When the portfolio value hits the threshold
+ Get out of the position: sell everything via LO
+ The LO can be placed in advance e.g. at entry
+ How to determine the thresholds?
+ Investor’s risk appetite and expected return
+ Volatility of the asset
+HFT - Mauricio Labadie
+24
+
+Time-weighted average price (TWAP)
+ Goal: Minimise the market impact by spreading a big trade along the day
+ Benchmark: Average price of the day
+M.C. Escher
+ Example: Average 1-minute mid price
+ Mechanism: Assume we want to buy 1,000,000 shares
+ TWAP splits the full trade evenly in time
+ During 8.5 hours: from 8:00 to 16:30 (London)
+ 1,000,000 / 8.5 ~ 117,000 shares per hour
+ 1,000,000 / (8.5 * 60) ~ 1,960 shares per minute
+ It is a static algorithm:
+ The schedule is known a priori
+ The times and quantities of the “child orders” are constant
+ Risks:
+ Very predictable pattern
+ Can easily be spotted by HFTs and be “gamed”
+ We can add some randomness in the number of shares and the times of the child orders
+HFT - Mauricio Labadie
+25
+
+Volume-weighted average price (VWAP)
+ Goal: Minimise the market impact by spreading a big trade along the day
+ Benchmark: Average price of the day weighted by volume
+∑(cid:3017) (cid:3023)
+ 𝑀𝑎𝑟𝑘𝑒𝑡 𝑉𝑊𝐴𝑃 = (cid:3295) (cid:3295)
+∑(cid:3023)
+(cid:3295)
+ Mechanism:
+ VWAP splits the full trade based on the intraday historical volume curve
+ High historical volume  bigger child order than TWAP
+Katsushika Hokusai
+ EU open, EU close, US open
+ Low historical volume  smaller child order than TWAP
+ It is a static algorithm:
+ The schedule is known a priori
+ But sizes are not constant as in TWAP
+ Risks:
+ Still predictable pattern (but less than TWAP)
+ The historical volume curve can diverge from the real volume curve
+ Volume shocks, news, etc
+HFT - Mauricio Labadie
+26
+
+Percentage of Volume (PoV)
+ Goal: Execute a big order based on a given fraction of the traded volume in the market
+ Benchmark: Market VWAP of the execution interval Eugene Delacroix
+ Mechanism: Assume we want to buy 1,000,000 shares
+ PoV aims a constant participation of (say) 20%
+ 10,000 shares traded in the market  PoV executed 2,000 shares
+ 100,000 shares traded in the market  PoV executed 20,000 shares
+ It is a dynamic algorithm:
+ The schedule and the end time are not known a priori
+ The algorithm depends on the real volume curve, not the historical volume curve
+ Risk:
+ Very sensitive to volume shocks
+ We can add some price protection when there are predictable volume shocks
+ Quarterly results, weekly data release, etc
+HFT - Mauricio Labadie
+27
+
+Comparing TWAP, VWAP and PoV
+Volume
+Historical
+Volume
+Curve
+VWAP
+PoV
+TWAP
+Time
+8:00 PoV 14:30 16:30
+EU Open End Time US Open EU Close
+HFT - Mauricio Labadie
+28
+
+4. Conclusions
+HFT - Mauricio Labadie
+29
+
+Summary and conclusions
+ Summary
+ We compared dealer markets with electronic markets
+ We explained the Limit Order Book, limit orders and market orders
+ We defined High Frequency Trading
+ We analysed the different types of HFTs
+ We explained simple algorithms: Iceberg, Stop Loss, Take Profit
+ We compared complex algorithms: TWAP, VWAP, PoV
+ Conclusions
+ Financial markets will become more electronic, no less
+ Regulators favour listed markets over OTC markets
+ HFTs are not homogeneous
+ Not all kinds are toxic to the markets (gamers)
+ Some can even stabilise markets (makers)
+ Trading algorithms follow predetermined trading rules and patterns
+ It is important to understand the features and risks of each algorithm
+ A very sophisticated algorithm can be created with several small algorithms
+HFT - Mauricio Labadie
+30
+
+References
+ Harris, “Trading and Exchanges”, Oxford University Press, 2003
+ Barry Johnson, “Algorithmic Trading & DMA”, 4Myeloma Press, 2010
+ Fodra, Labadie, “High-frequency market-making with inventory constraints and directional bets”, Preprint ArXiv, 2012
+ Labadie, “Optimal algorithmic trading and market microstructure”. MSc thesis
+ Labadie, Lehalle“Optimal starting times, stopping times and risk measures for algorithmic trading”, Journal of
+Investment Strategies (Risk) Volume 3, Number 2 (December 2014)
+ Cartea, Jaimungal, Penalva, “Algorithmic and High Frequency Trading”, Cambridge University Press, 2015
+LOTR Movie
+HFT - Mauricio Labadie
+31
+
+Thank you for your
+attention
+www.processexcellencenetwork.com
+HFT - Mauricio Labadie
+32

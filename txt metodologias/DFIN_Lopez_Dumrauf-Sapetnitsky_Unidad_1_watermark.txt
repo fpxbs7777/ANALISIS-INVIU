@@ -1,0 +1,783 @@
+Administración Financiera
+de las Organizaciones
+Claudio E. Sapetnitzky
+(Coordinador)
+Ediciones Macchi
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos
+
+ÍNDICE
+CAPÍTULO 1
+Objetivos y decisiones financieras básicas de las organizaciones
+por CLAUDIO E. SAPETNITZKY
+I. Contenido...................................................................................................................................3
+II. Objetivos...................................................................................................................................3
+III. Desarrollo teórico....................................................................................................................3
+1. El concepto de lo "financiero"................................................................................................3
+2. La decisión financiera.............................................................................................................4
+3. ¿Y por qué no la contabilidad?...............................................................................................7
+4. ¿Qué implica una decisión?....................................................................................................7
+5. La modelización de las alternativas........................................................................................8
+6. "...Pero también se necesitan objetivos.................................................................................12
+7. Hacia una redefinición de las organizaciones.......................................................................15
+8. La función financiera: incumbencias, ubicación en la estructura institucional y formas
+habituales de organización funcional........................................................................................16
+IV. Conceptos para releer, retener y recordar.............................................................................18
+V. Cuestionario de autoevaluación..............................................................................................18
+CAPÍTULO 2
+Elementos de cálculo financiero aplicado
+por GUILLERMO LÓPEZ DUMRAUF
+CLAUDIO E. SAPETNITZKY
+I. Contenido.................................................................................................................................21
+II. Objetivos.................................................................................................................................21
+III. Desarrollo teórico..................................................................................................................21
+1. Los conceptos de "flujo de fondos" y "valor tiempo del dinero"..........................................21
+2. Capitalización y actualización..............................................................................................22
+3. Los mecanismos y criterios de medición del valor del dinero.
+La tasa de interés......................................................................................................................23
+4. Los componentes de la tasa de interés..................................................................................23
+4,1. Interés simple..................................................................................................................25
+4,2. Interés compuesto...........................................................................................................25
+4,3 Capitalización periódica y subperiódica..........................................................................26
+4,4. El poder adquisitivo y la tasa de interés real...................................................................27
+5. Cómo calcular el valor de una corriente de pagos................................................................32
+5,1. Valor actual de una corriente de pagos temporaria.........................................................32
+5,2. Obtención del valor actual de una sucesión de pagos fijos
+(renta temporaria inmediata de pagos vencidos)....................................................................33
+IV. Conceptos para releer, retener y recordar.............................................................................39
+V. Cuestionario de autoevaluación..............................................................................................40
+CAPÍTULO 3
+Conceptos básicos de análisis financiero
+por CLAUDIO E. SAPETNITZKY
+2
+
+PEDRO J. VULOVIC
+Sección 1a: Análisis de costo-utilidad-volumen.
+Contribución marginal. Efecto de palanca operativo
+I. Contenido.................................................................................................................................45
+II. Objetivos.................................................................................................................................45
+III. Desarrollo teórico..................................................................................................................46
+IV. Conclusiones.........................................................................................................................60
+1. El "leverage" operativo o "palanca" operativa.....................................................................60
+2. El punto de equilibrio financiero..........................................................................................63
+3. Un ejemplo de aplicación.....................................................................................................64
+V. Conceptos para releer, retener y recordar...............................................................................65
+VI. Cuestionario de autoevaluación............................................................................................65
+Sección 2a: Origen y aplicación de fondos
+I. Contenido.................................................................................................................................67
+II. Objetivos.................................................................................................................................67
+III. Desarrollo teórico..................................................................................................................67
+1. Las ideas fundamentales.......................................................................................................68
+2. La interpretación "fondos = recursos totales".......................................................................70
+3. La interpretación "fondos = capital de trabajo"....................................................................74
+4. La interpretación "fondos = disponibilidades".....................................................................76
+IV. Conclusiones.........................................................................................................................76
+V. Conceptos para releer, retener y recordar...............................................................................77
+VI. Cuestionario de autoevaluación............................................................................................78
+Sección 3a: Presupuestos, presupuesto económico y presupuesto financiero:
+relaciones y diferencias
+I. Contenido.................................................................................................................................79
+II. Objetivos.................................................................................................................................79
+III. Desarrollo teórico..................................................................................................................80
+1. ¿Por qué un presupuesto?.....................................................................................................80
+2. Características fundamentales de un sistema presupuestario................................................80
+3. La estructura de un sistema presupuestario..........................................................................83
+4. Metodologías de preparación. La "moneda del presupuesto".
+El presupuesto en moneda extranjera. Incidencia sobre el tratamiento de los desvíos.............85
+IV. Conceptos para releer, retener y recordar.............................................................................87
+V. Cuestionario de autoevaluación..............................................................................................88
+Sección 4a: Índices y relaciones
+I. Contenido.................................................................................................................................97
+II. Objetivos.................................................................................................................................97
+III. Desarrollo teórico..................................................................................................................97
+1. Análisis de razones de estados contables..............................................................................97
+1,1. Razones o porcentajes verticales.....................................................................................99
+1,2. Razones o porcentajes horizontales..............................................................................103
+3
+
+1,3. Razones que surgen de relaciones dentro del balance general......................................106
+1,4. Razones de relaciones dentro del estado de resultados.................................................107
+1,5. Razones de relaciones entre cuentas del balance general y del estado de resultados....108
+1,6. Recapitulación de las razones financieras usuales........................................................110
+2. Ejercicio..............................................................................................................................112
+3. Caso práctico......................................................................................................................113
+4. Planeamiento y control.......................................................................................................115
+CAPÍTULO 4
+La decisión de inversión
+por CLAUDIO E. SAPETNITZKY
+I. Contenido...............................................................................................................................121
+II. Objetivos...............................................................................................................................121
+III. Desarrollo teórico................................................................................................................121
+1. Concepto de proyecto de inversión: componentes y variables...........................................121
+2. La evaluación financiera de los proyectos de inversión: criterios de aplicación y selección127
+2,1. Los métodos contables..................................................................................................127
+2,2. Los métodos financieros...............................................................................................129
+3. La liberación de flujos de fondos y su reinversión.
+Otras consideraciones sobre la selección de proyectos..........................................................156
+3,1. El presupuesto de capitales. Racionamiento de capitales.
+Proyectos mutuamente excluyentes y proyectos simultáneos..............................................156
+3,2. Una advertencia para los futuros analistas y/o decididores...........................................159
+IV. Conceptos para releer, retener y recordar...........................................................................160
+V. Cuestionario de autoevaluación............................................................................................160
+CAPÍTULO 5
+La decisión de financiamiento
+por CELESTINO CARBAJAL
+I. Contenido...............................................................................................................................187
+II. Objetivos...............................................................................................................................187
+III. Desarrollo teórico................................................................................................................188
+1. Costo de capital..................................................................................................................188
+1,1. Concepto de costo de capital.........................................................................................188
+1,2. Estimación del costo de capital de un proyecto............................................................190
+1,3. El costo de capital de la empresa..................................................................................194
+IV. Conclusiones.......................................................................................................................207
+V. Preguntas y problemas..........................................................................................................208
+CAPÍTULO 6
+Decisiones de estructura de capital
+por GUILLERMO LÓPEZ DUMRAUF
+4
+
+I. Contenido...............................................................................................................................213
+II. Objetivos...............................................................................................................................213
+III. Desarrollo teórico................................................................................................................214
+1. La estructura de capital de la firma.....................................................................................214
+2. Visión panorámica de las teorías de la estructura de capital de la firma............................216
+2,1. La tesis de MODIGLIANI-MILLER............................................................................216
+2,2. La posición tradicional..................................................................................................228
+3. Impuestos en la estructura de capital..................................................................................230
+3,1, El efecto del impuesto sobre sociedades.......................................................................230
+3,2. Costo de capital con impuestos corporativos................................................................236
+3,3. La incertidumbre de la protección fiscal.......................................................................238
+3,4. El efecto de los impuestos personales: la visión de la "clientela" en la
+estructura de capital.............................................................................................................239
+4. Valor de los peligros financieros........................................................................................242
+4,1. Costos directos de la quiebra y costos indirectos de las dificultades financieras..........243
+4,2. Formas en que puede ser afectado el resultado operativo.............................................244
+4,3. Cómo estimar la posibilidad de dificultades financieras...............................................248
+IV. Conceptos para releer, retener y recordar...........................................................................254
+V. Cuestionario de autoevaluación............................................................................................254
+VI. Bibliografía.........................................................................................................................256
+CAPÍTULO 7
+Gestión del capital de trabajo
+por PEDRO J. VULOVIC
+I. Contenido...............................................................................................................................261
+II. Objetivos...............................................................................................................................261
+III. Desarrollo teórico................................................................................................................262
+1. Introducción........................................................................................................................262
+2. Gestión financiera del corto plazo......................................................................................270
+3. Gestión del efectivo e inversiones a corto plazo.................................................................285
+4. Gestión de los inventarios...................................................................................................287
+5. Gestión de los créditos........................................................................................................290
+6. Gestión de los pasivos corrientes........................................................................................292
+IV. Conceptos para releer, retener y recordar...........................................................................302
+V. Cuestionario de autoevaluación............................................................................................303
+VI. Bibliografía.........................................................................................................................304
+CAPÍTULO 8
+Riesgo e incertidumbre en las decisiones financieras
+por JUAN C. ALONSO
+I. Contenido...............................................................................................................................313
+II. Objetivos...............................................................................................................................313
+III. Desarrollo teórico................................................................................................................314
+1. Teorías de carteras..............................................................................................................315
+1,1. Teoría de la decisión.....................................................................................................316
+1,2. Objeto de elección.........................................................................................................318
+5
+
+1,3. Selección de la cartera óptima de inversión..................................................................326
+1,4. La línea de mercado de capitales, el mercado de capitales y la teoría de la
+separación............................................................................................................................327
+1,5. Beta como medida del riesgo........................................................................................331
+1,6. Propiedades de la Beta..................................................................................................333
+1,7. Caso de aplicación práctica en decisiones de inversión de capital................................334
+1,8. Validez del uso del CAPM............................................................................................339
+2. Técnica de las coberturas....................................................................................................340
+2,1. Cobertura con futuros....................................................................................................341
+2,2. Coberturas con tasa de interés.......................................................................................342
+2,1 Opciones........................................................................................................................344
+IV. Conceptos para releer, retener y recordar...........................................................................350
+V. Cuestionario de autoevaluación............................................................................................352
+CAPÍTULO 9
+Decisiones financieras en contextos especiales
+I. Contenido.........................................................................................................................................359
+II. Objetivos.........................................................................................................................................359
+III. Resumen de trabajos que integran el capítulo...............................................................................360
+ALDO H. ALONSO, Los modelos financieros en PyMEs..................................................................361
+CELESTINO CARBAJAL, Economía y finanzas de empresas de servicios
+públicos de gestión privada.................................................................................................................433
+GERARDO O. DESOUCHES, Empresas en crisis: consideraciones financieras.............................459
+MARIA C. DIZ DE SAMITIER, Empresas agropecuarias: decisiones financieras.........................473
+GREGORIO FELDMAN, Decisiones financieras en las entidades financieras................................489
+GUSTAVO A. HERRERO, Administración financiera de empresas de familia................................517
+DOMINGO J. MESSUTI, Administración financiera de empresas multinacionales.........................529
+RICARDO PASCALE, Finanzas de las organizaciones sin fines de lucro.
+Aproximación a algunos aspectos introductorios...............................................................................565
+6
+
+CAPÍTULO 2
+ELEMENTOS DE CÁLCULO FINANCIERO APLICADO
+por GUILLERMO LÓPEZ DUMRAUF
+CLAUDIO E. SAPETNITZKY
+I. CONTENIDO
+Los conceptos de "flujo de fondos" y "valor tiempo del dinero". Capitalización y actualización:
+Valor actual y valor terminal. Las tasas de interés: sus componentes y modalidades. Aplicaciones: la
+valuación de operaciones en los mercados.
+II. OBJETIVOS
+Necesariamente debe considerarse, como punto de partida, que esta asignatura reconoce como
+prerrequisito la materia "Cálculo Financiero", y que por lo tanto los alumnos que la cursan han aprobado
+previamente la correlativa. Ello implica que no se recorrerán otra vez los razonamientos matemáticos,
+fórmulas, etc., ya vistos en "Cálculo Financiero", sino que se pasará revista en forma somera a los conceptos
+básicos que interesan a la Administración Financiera en relación con los cambios en el valor del dinero a
+través del tiempo y su medición a través de tasas de interés o descuento, y las aplicaciones de estos
+principios a la valuación de operaciones financieras, como soporte de las decisiones de inversión y de
+financiamiento.
+III. DESARROLLO TEÓRICO
+1. LOS CONCEPTOS DE "FLUJO DE FONDOS" Y "VALOR TIEMPO DEL DINERO"
+En el cap. 1 (punto 5) ha quedado expresado que la enorme mayoría de las decisiones financieras
+implica el desplazamiento de recursos entre distintos o bien su incorporación a las organizaciones, según se
+trate de decisiones de inversión o de financiamiento. Según sea el perfil de estos movimientos y la
+cronología de su ocurrencia, los valores involucrados tendrán distinta significación para la organización. El
+primer ejemplo usado como ilustración (la decisión de pago al contado o en cuotas de una obligación)
+tipifica, dentro de su extrema simplicidad, esta afirmación. En efecto, estábamos modelizando, entonces, la
+repercusión de la decisión en términos de entradas y salidas (o de "no entradas" y "no salidas") y su
+ubicación en un eje de tiempos: en resumen, el perfil cuantitativo y cronológico del flujo de fondos asociado
+con la decisión. El perfil cuantitativo se asocia con los valores nominales de los movimientos de recursos; el
+cronológico determinará los valores efectivos, reales, o representativos de su significación económica para la
+organización. Concluíamos, entonces, que la conveniencia de una decisión financiera, medida en términos de
+su contribución al valor del ente, requiere la combinación de ambos conceptos: el de cuantía de los flujos de
+fondos y el de su valuación según su ubicación en el tiempo.
+2. CAPITALIZACIÓN Y ACTUALIZACIÓN
+Según cuál sea nuestra ubicación temporal al analizar una decisión financiera, podemos vernos en la
+necesidad de responder a uno de los interrogantes:
+a) ¿.Qué valor tiene hoy para mí (o para mi organización) un flujo de fondos que deberé percibir o pagar en
+un momento futuro?, interrogante equivalente a "sabiendo que en un momento futuro deberé pagar una suma
+determinada: ¿con cuánto debo contar hoy para que ello resulte posible?".
+7
+
+b) Si tengo hoy disponible una suma conocida (capital) ¿.en qué monto se transformará al llegar al momento
+futuro "n"?
+Estos dos problemas son obviamente simétricos y su solución depende, en exclusiva de la posición
+en que nos encontremos:
+capitalización
+0 1 2 3 . . . n-1 n . . . t
+actualización
+Si conocemos el valor de un flujo de fondos en t , podremos proyectarlo hasta determinar el valor en
+0
+t , teóricamente superior al inicial. Si, en cambio, el dato conocido es el valor en t (por ejemplo, un
+n n
+compromiso de pago o el importe de una venta que recibiremos en ese momento) podremos retrotraerlo hasta
+t para determinar su valor actual (ver cap. 1) que será lógicamente inferior. En el primer caso el valor se
+0
+capitaliza; en el segundo, se descuenta o actualiza.
+3. LOS MECANISMOS Y CRITERIOS DE MEDICIÓN DEL VALOR DEL DINERO.
+LA TASA DE INTERÉS
+Básicamente existen dos alternativas para el uso de fondos: el gasto o la inversión (dirán los
+economistas: el consumo o el ahorro). En ambos casos se presume una contrapartida, que será la satisfacción
+de una necesidad: presente, en el caso del gasto; diferida, en el caso de la inversión. El argumento para
+postergar la satisfacción de una necesidad actual generalmente se basa en la existencia de una necesidad
+futura cuantitativa o cual cualitativamente preferible. La medición de ese sistema de preferencias M decisor
+reconoce como instrumento la tasa de interés, que no es más que un criterio racional para referenciar los
+cambios en el valor del dinero a través del tiempo.
+La unidad de medida universal en el mundo de las finanzas es el porcentaje o tanto por ciento;
+ocasionalmente y por conveniencias operativas se utiliza también el tanto por uno. En cualquier caso, resulta
+ineludible la referencia al período de vigencia de la operación, que es el tiempo de exposición del dinero a
+los efectos de la tasa de interés. Cuando decimos que "un depósito a plazo fijo gana el 8 % de interés anual",
+lo que queremos significar es que por cada 100 unidades de la moneda de que se trate, se devengarán 8
+unidades por año en concepto de interés. La tasa se expresará en alguna de estas formas:
+i = 8 % = 8 / 100 = 0,08
+Si bien las tres expresiones son equivalentes, las dos últimas expresan la tasa en términos unitarios;
+es decir, por unidad de capital o tanto por uno. En algunos textos suele distinguirse entre "R" (rate) o tanto
+por ciento e "i" o tanto por uno, de manera que i = R/100 (en el ejemplo, R = 8, i = 0,08).
+4. LOS COMPONENTES DE LA TASA DE INTERÉS
+Básicamente, las variables que intervienen en cualquier operación financiera son tres:
+a) la suma de dinero involucrada;
+b) el tiempo de vigencia de la operación, y
+e) la tasa de interés.
+8
+
+Si enfocamos específicamente el elemento c), podemos detenernos brevemente en los factores que
+determinan su nivel.
+En primer lugar, debemos suponer que cualquier cambio acordado en las condiciones de
+disponibilidad de los fondos origina un sacrificio para una de las partes y una ventaja para la otra. Ese
+sacrificio y esa ventaja tienen un precio. En otras palabras, la disponibilidad del dinero tiene un valor, y
+consecuentemente la transferencia de la disponibilidad en forma temporaria tiene un precio, análogo al
+alquiler de un bien.
+Pero en segundo lugar, el nivel del precio estará influenciado por un conjunto de circunstancias que
+rodean a la operación en sí o a alguna de las partes intervinientes, y que designaremos con el nombre
+genérico de riesgo.
+Este concepto es multifacético, pero a los fines prácticos podemos distinguir dos conjuntos de
+influencias que lo determinan, a saber:
+a) Las vinculadas a las expectativas de cobrabilidad o cancelación de la operación a su vencimiento. Aquí
+intervienen elementos de tipo personal de la parte deudora, como su calificación crediticia, las garantías
+reales y/o personales ofrecidas, etc.; pero también elementos más generales o contextuales, como, por
+ejemplo, el negocio a que se dedica, el país de su radicación ("riesgo país") etc. (puede argumentarse que
+estos elementos están ya incluidos en el concepto de "calificación crediticia", junto con la evaluación del
+patrimonio, la historia de cumplimientos o incumplimientos anteriores, etc.).
+b) Las vinculadas a la ausencia de certeza respecto del nivel de poder adquisitivo del dinero con que será
+cancelada la operación, es decir, con los conceptos de inflación o de devaluación (paridad) si la
+operación no fuera concertada en moneda local.
+Una vez definido -sobre la base de ambos elementos- el nivel de una tasa de interés, su incidencia
+sobre la evolución del valor del dinero de una operación de capitalización puede asumir una de dos
+modalidades, según el destino que se dé a las sumas que se vayan devengando en concepto de interés:
+4,1. INTERÉS SIMPLE
+En este caso, por definición, las sumas devengadas en concepto de interés se desvinculan del capital
+-y por ende de la operación- en el momento de su periodicidad convenida. Si suponemos un depósito de $
+1.000 por 3 años al 8 % anual, el flujo de fondos ubicado en un eje de tiempos asumirá el siguiente formato:
+Intereses 80 80 80
+0 1 2 3 t
+Capital 1.000 1.000 1.000
+La fórmula de cálculo será entonces:
+Cn = Co + Coi + Coi + Coi = Co (1 + in)
+O sea
+1.000 (1 + 0,08* 3) = 1.240
+Siendo I (intereses) Co* i* n = 240
+En este caso los intereses anuales han sido retirados al llegar al vencimiento de cada período, de
+modo que el capital inicial continúa vigente durante el período siguiente, hasta llegar al fin de la operación
+así pactada.
+9
+
+Dependiendo de las necesidades financieras del depositante (vale decir, si no necesitara contar con
+los intereses para asignarlos a otros destinos) nada obstaría para que el capital más los intereses fuesen
+retirados año a año y vueltos a depositar para el período siguiente. Tampoco resultan necesarios el retiro y el
+nuevo depósito: existe un sistema de capitalización que se encarga de ello, y es el de
+4,2. INTERES COMPUESTO
+El flujo de fondos en este caso tendría el siguiente aspecto:
+Intereses 80 86,40 93,31
+0 1 2 3 t
+Capital 1.000 1.080 1.166,40
+Co Co (1+i) Co(1+i)(1 + i)
+o sea que la suma de los intereses -que era de $ 240 en el sistema "simple"- ha pasado a ser de $ 259,71, es
+decir que se ha logrado un mayor rendimiento de $ 19,71, proveniente de la aplicación de la tasa no sólo a un
+capital inicial invariante, sino a la acumulación del capital inicial más los intereses que se van generando
+durante la vigencia de la operación.
+La fórmula de cálculo será entonces:
+Cn = Co (1 + i) (1 + i)...(1 + i) = Co* .(1 + i)n
+O bien, si nos interesara calcular cuánto sería necesario invertir para alcanzar un objetivo financiero
+futuro (o sea: dato Cn, incógnita Co) tendríamos:
+Co = Cn / (1 + i)n
+4,3. CAPITALIZACIÓN PERIÓDICA Y SUBPERIÓDICA
+El elemento denominado "período" (en ambas fórmulas "n") es la unidad de tiempo con la que se
+vincula la capitalización de los intereses devengados, que a efectos financieros equivale a una reinversión de
+utilidades.
+Puede interesar saber si con el mismo capital y con idéntica tasa de interés o de descuento es factible
+lograr valores de diferente magnitud; por ejemplo, si el objetivo fuera maximizar el valor de una inversión.
+La respuesta es, en principio, afirmativa, ya que una operación puede pactarse con distintos regímenes de
+capitalización "intra-período". Supongamos que el acuerdo de operación sea de $ 1.000 colocados durante un
+a al 8% anual, pero con capitalización semestral de los intereses. ¿,Qué va a ocurrir? Simplemente que al
+finalizar el primer semestre del período pactado (del cual el semestre es un subperíodo) el capital impuesto
+habrá ganado una cierta proporción de la tasa convenida: la que corresponde a la relación entre el semestre
+transcurrido y el período anual de referencia de la tasa. La proporción ganada se capitaliza, incorporándose al
+capital vigente durante el semestre faltante para completar el período pactado. En números, al final del
+primer semestre, el monto sería C = 1.000 (1 + 0,08 / 12) = 1.040, y este algoritmo se repetirá en el segundo
+semestre, pero con distinto capital inicial.
+C = 1.040 (1 + 0,08 / 2) = 1.081,60
+La tasa que resulta de comparar el monto al final del año con el capital original de 1.000 será de
+8,16%, distinta del 8% básico, y reflejará el interés proporcional ganado durante el segundo semestre por la
+suma acumulada al capital inicial en el primer semestre. En este esquema, la tasa pactada para la operación
+10
+
+(8% anual) se denomina "tasa nominal" y la tasa resultante una vez computada la capitalización intermedia
+(8,16%) se designa como "tasa efectiva".
+Es fácil ver que el proceso puede convenirse con muy distintos ritmos de capitalización dentro de
+cada período anual, surgiendo así numerosas tasas efectivas para cada tasa nominal. Por ejemplo, con capital
+inicial de 1.000 y tasa nominal 8% anual:
+Capitalización Monto Tasa resultante
+Semestral 1.081,60 8,16%
+Trimestral 1.082,43 8,24%
+Mensual 1.083,00 8,30%
+Semanal 1.083,22 8,32%
+Diaria 1.083,28 8,33%
+La fórmula de cálculo será en todos los casos:
+Monto = (1 + tasa nominal anual / cantidad de subperíodos)cantidad de subperíodos
+Así para el caso semestral:
+C = Co (1 + 0,08/2)2
+para el trimestral
+C = Co (1 + 0,08/4)4
+etcétera (el lector puede verificar los cálculos con los consignados en la tabla).
+Por razones convencionales, entre otras para la publicidad de las operaciones, en el mercado
+financiero se expresan tasas nominales anuales (TNA) y tasas efectivas mensuales (TEM).
+4,4. EL PODER ADQUISITIVO Y LA TASA DE INTERES REAL
+¿Será, entonces, la tasa efectiva y no la nominal, la que refleje la verdadera rentabilidad o el
+verdadero costo de una operación? Sí y no. Por un lado, no hay duda de que la tasa efectiva se acerca más a
+la realidad que la nominal, que sólo coincide con aquélla si el régimen de capitalización es anual. Por otro
+lado, el poder adquisitivo del dinero puede haber experimentado cambios durante el período de vigencia de
+la operación, con lo cual la tasa efectiva puede reflejar una ilusión óptica si se considera la cantidad de
+bienes o los consumos que pueden adquirirse o abonarse una vez finalizada la operación.
+La medida universal de los cambios en el poder adquisitivo del dinero puede conceptualizarse por
+medio de la tasa de inflación, y para llegar a apreciar el verdadero resultado de una operación financiera,
+para fines comparativos con sus alternativas, para dictaminar sobre su aceptación o rechazo, etc., es
+necesario contar con un algoritmo que introduzca la tasa de inflación en el cálculo de la tasa de interés. Ese
+algoritmo es el que se define como tasa de interés real o en términos reales, y a él nos referiremos a
+continuación.
+Identificaremos previamente los términos a utilizar:
+i = tasa de interés real.
+r
+i = tasa de interés efectiva ("aparente").
+a
+π = tasa de inflación.
+Como resulta obvio, en ausencia de inflación será:
+i = i
+r a
+11
+
+Ya que pueden igualarse los montos producidos por cada unidad de capital a ambas tasas,
+suponiendo π = 0:
+1 + i =1 + i / 1 + π
+r a
+Se sobrentiende que la tasa i , por ser una tasa efectiva, ya contempla el régimen de capitalización
+a
+subperiódica de la operación.
+Si π es distinto de 0, la igualdad entre i e i desaparece. Con inflación positiva, la lógica nos dice que
+r a
+el poder adquisitivo final será menor que el inicial y, por lo tanto, 1 + i < 1 + i .
+r a
+¿Cuánto menor? Lo que resulte de descontar o actualizar el monto a tasa aparente, a la tasa de
+inflación del mismo período de vigencia:
+1 + i = (1 + 1 )/ 1 + π
+r a
+de donde
+i = (1 + i ) / 1 + π -1
+r a
+El factor de descuento debe ser sin duda (1 + π), ya que lo que pierde poder adquisitivo es el monto,
+y no solamente los intereses ganados. Gráficamente, si se parte de $ 1 de capital, con la tasa efectiva se
+llegará a un punto (1 + i ):
+a
+1 → 1 + i
+a
+En presencia de inflación, el monto retrocederá en términos de poder adquisitivo. Podemos
+considerar tres casos posibles:
+Caso 1
+La tasa de inflación es igual a la tasa efectiva o aparente:
+1 1+i
+a
+1 (cid:1)
+π = i (cid:2) (1+i) / 1 + π = 1
+a a
+Como resultado de la pérdida de poder adquisitivo, los intereses que aparentemente habían sido
+ganados a la tasa efectiva se desvanecen, y terminamos con el mismo valor inicial del capital.
+Caso 2
+La tasa de inflación es menor que la tasa aparente:
+1 (cid:3) 1+i
+a
+(cid:1)
+π < i (cid:2) (1+i) / 1+(cid:4) > 1
+a a
+12
+
+En este caso se habrá perdido parte de los intereses ganados, pero terminaremos con una tasa real
+positiva (i > 0)
+r
+Caso 3
+La tasa de inflación es mayor que la tasa aparente:
+1 (cid:3) 1+i
+a
+(cid:1)
+p > i (cid:2) (1+i) / 1 + p < 1
+a a
+Aquí la pérdida en términos de poder adquisitivo es mayor que los intereses ganados, y el monto
+final será, por lo tanto, menor que el capital inicial en términos reales (tasa real negativa, i < 0).
+r
+Un atajo: la fórmula aproximada del interés real.
+Si buscamos una respuesta intuitiva para la pregunta "¿cómo se define la tasa en términos reales?"
+probablemente recibiríamos un buen porcentaje de respuestas del tipo "es la diferencia entre la tasa efectiva y
+la inflación" o bien, "se resta la inflación de la tasa aparente". ¿Qué hay de cierto en estos planteos? Veamos.
+A partir de la tasa definida más arriba:
+1 + i = 1 + i / 1 + (cid:1)
+r a
+podemos deducir:
+1 + i = (1+i) (1+(cid:1))
+a r
+1 + i = 1 + i + (cid:1) + i(cid:1)
+a r r
+simplificando y reordenando:
+i = i - (cid:1) - i (cid:1)
+r a r
+Las respuestas intuitivas mencionadas más arriba son de la forma:
+i = i - (cid:1)
+r a
+De manera que se está omitiendo en ellas el término:
+i * p
+r
+obtenido del desarrollo de la fórmula.
+¿Será significativo este término? ¿Podemos olvidarnos de él y considerar la respuesta intuitiva
+i = i - p como definición aproximada de la tasa real?
+r a
+Depende -como en muchas cuestiones matemáticas, económicas, etc- de las magnitudes que estemos
+manejando: las palabras "grande" y "pequeño" no tienen significados en matemáticas salvo en términos
+relativos.
+Para valores "grandes" (en términos relativos) de inflación, la tasa de interés efectiva tenderá a
+reflejar esa alta inflación. Supongamos estos valores mensuales:
+i = 30 %
+a
+(cid:1) = 25 %
+La tasa real calculada por la fórmula exacta será entonces:
+i = 1,30 / 1,25 - 1 = 0,042
+r
+13
+
+Mientras que la fórmula aproximada nos daría
+i (cid:2) 0,30 - 0,25 = 0,05
+r
+Obviamente, una diferencia significativa (25%) que afectaría la exactitud de los cálculos y la
+precisión de las decisiones.
+En cambio, supongamos los siguientes valores mensuales:
+i = 3 %
+a
+π = 2,5%
+Entonces:
+i = 1,03 / 1,025 - 1 = 0,0049
+r
+Y la aproximada:
+1,03 - 1,025 = 0,005
+Con una diferencia de 0,0001 que, en términos de tasa mensual, podrá desestimarse.
+Puede comprobarse este mismo proceso observando que la diferencia entre el cálculo exacto y el
+aproximado es el término
+i * π
+r
+que en el primer ejemplo resulta ser
+0,042 * 0,25 = 0,01
+y en el segundo
+0,0049 * 0,025 = 0,00012
+El uso del cálculo exacto o del aproximado dependerá entonces de las magnitudes relativas de los
+elementos intervinientes (i y π) y de las exigencias de precisión inherentes al problema que se pretende
+a
+resolver.
+Hasta aquí hemos dado los fundamentos del valor tiempo del dinero en sentido positivo y negativo
+del mismo, esto es, los valores futuro y presente. Pero hemos trabajado con un solo capital, y en Finanzas es
+muy común que se trabaje con una corriente de varios pagos iguales (o diferentes) a lo largo de un período.
+Por caso, cuando las empresas se endeudan con una institución financiera deben abonar una cantidad de
+cuotas que incluyen intereses y capital a lo largo de varios períodos. Es por eso que ahora nos introduciremos
+en el cálculo de rentas.
+5. COMO CALCULAR EL VALOR DE UNA CORRIENTE DE PAGOS
+5,1. VALOR ACTUAL DE UNA CORRIENTE DE PAGOS TEMPORARIA
+Uno de los cálculos más frecuentes en la práctica financiera cotidiana es el valor actual o presente de
+una corriente de pagos durante un período determinado. Existe una gran cantidad de situaciones donde el
+directivo financiero necesita saber cuánto representa "hoy" una corriente de pagos constantes que se
+realizarán o cobrarán a lo largo de varios períodos. En el contexto estricto de cálculo financiero, una sucesión
+de pagos que se realiza a intervalos equidistantes de tiempo es denominada como "renta".
+Las rentas involucran una gran cantidad de operaciones, de las cuales mencionaremos algunas:
+14
+
+(cid:1) Los préstamos bajo el sistema de amortización francés.
+(cid:1) El cálculo del valor de mercado de un activo que genera una corriente de rendimientos a lo largo de
+varios períodos (como los bonos emitidos por las empresas o por el Estado nacional).
+(cid:1) El valor de mercado de una acción que genera una corriente de dividendos en forma perpetua.
+(cid:1) La corriente de intereses que involucra una obligación emitida por el sistema americano.
+(cid:1) El fondo de amortización (sinking fund) que realiza una empresa con el objetivo de redimir una
+obligación en un momento futuro.
+(cid:1) Los aportes que se realizan a los Fondos de Pensión durante la vida activa y los retiros posteriores
+durante la jubilación.
+(cid:1) Las cuotas que se depositan en un plan de ahorro con el objetivo de formar un capital.
+(cid:1) El costo anual equivalente de una inversión.
+(cid:1) La fijación de tarifas de una empresa prestadora de servicios públicos.
+(cid:1) El valor actual neto de un proyecto de inversión.
+5,2. OBTENCIÓN DEL VALOR ACTUAL DE UNA SUCESIÓN DE PAGOS FIJOS (RENTA
+TEMPORARIA INMEDIATA DE PAGOS VENCIDOS)
+Existen muchísimos ejemplos donde se involucran pagos fijos o limitados y también matices que
+introducen alguna diferencia. Pero debido a que la renta temporaria inmediata de pagos vencidos es la
+más importante, resulta particularmente conveniente prestar atención a su desarrollo, que se muestra de
+manera sistemática en tres pasos.
+Los casos más comunes de aplicación de la renta temporaria lo constituyen los préstamos con cuotas
+fijas (francés) y también la corriente de intereses de los bonos emitidos por el sistema americano.
+1. Planteo del eje de tiempo: definimos en un eje de tiempo una sucesión de pagos unitarios vencidos que se
+realizan durante n períodos. Siempre es conveniente tener muy claro el eje de tiempo para plantear el tipo de
+renta, pues el error en este paso invalida cualquier paso posterior:
+2. Sumamos los valores actuales obtenidos. Observamos que del polinomio surge una progresión geométrica
+decreciente, ya que cada término es igual al anterior multiplicado por 1 / (1 + i), que es la razón de la
+progresión. Puesto que 1 / (1 + i) < 1, cada término disminuye su valor con respecto al anterior:
+S = 1 / (1 + i) + 1 / (1 + i)2 + 1 / (1 + i)3 +..........+ 1 / (1 + i)n
+Observe que la renta temporaria inmediata es una suma de valores actuales. El análisis matemático
+nos brinda una fórmula para calcular el valor de la suma de términos de una progresión geométrica
+decreciente, que es:
+15
+
+1(cid:1)q n
+S (cid:2) a1
+1(cid:1)q
+Donde a representa el primer término de la progresión 1 / (1 + i) y q es la razón de la progresión,
+1
+que, como vimos antes, también es igual a 1 / (1 + i). Resolviendo S resulta:
+1
+1(cid:2)
+1
+(cid:1) 1(cid:1)i (cid:2)n
+S (cid:4) (cid:1) (cid:2) (cid:3)
+1(cid:1)i 1
+1(cid:2)
+(cid:1) (cid:2)
+1(cid:1)i
+(cid:1) 1(cid:1)i (cid:2)n (cid:2)1
+1
+(cid:1) 1(cid:1)i (cid:2)n (cid:1) 1(cid:1)i (cid:2)n (cid:2)1
+S (cid:3) (cid:1) 1(cid:1)i (cid:2) (cid:4) (cid:1) 1(cid:1)i (cid:2) (cid:2)1 (cid:3) i (cid:1) 1(cid:1)i (cid:2)n
+(cid:1) (cid:2)
+1(cid:1)i
+De acuerdo con la nomenclatura utilizada en Cálculo Financiero, llamaremos a esta expresión (1):
+(cid:1) 1(cid:1)i (cid:2)n (cid:2)1
+(cid:1) (cid:2)
+V 1,n,i (cid:3)
+(cid:1) 1(cid:1)i (cid:2)n *i
+Ejemplo de aplicación
+J.G., gerente de Finanzas de una empresa cotizante en la Bolsa de Comercio, debía calcular cuánto
+podía pedir en préstamo para financiar una ampliación de planta que le permitiría a la empresa aumentar su
+producción y poder expandirse en otros mercados. El flujo de fondos libre de la empresa siempre giraba en
+torno a los $ 2 millones mensuales, de manera que J.G. pensaba en un préstamo por 5 años que no lo obligara
+a pagar una cuota fija de más de 1 millón por mes. La tasa de interés mensual es del 1 %.
+Solución: Sabiendo que el préstamo se pagará en 5 años (60 cuotas mensuales) siendo la tasa de
+interés mensual del 1%, podemos calcular la cantidad a solicitar en préstamo con la fórmula antes vista:
+V = 44.955.038,41
+Valuación de perpetuidades
+El uso de perpetuidades en Finanzas está ligado al cálculo del valor de los activos de los cuales se
+conoce el flujo de fondos que éstos producen. Sea, por ejemplo, el valor de las acciones de las empresas que
+pagan una corriente de dividendos sobre la cual no se conoce el período final.
+El valor presente de una corriente de pagos perpetua constituye un excelente atajo para calcular
+valores de activos y es uno de los cálculos más frecuentes en las Finanzas Corporativas. Para considerar
+1 La fórmula de la renta temporaria inmediata de pagos vencidos es una de las más utilizadas en el cálculo financiero
+aplicado. Ya lo verá a lo largo de este libro.
+16
+
+como "perpetua" a una corriente de fondos no es necesario que sea realmente infinita, sino que no se conozca
+su final, esto es que, en principio, tienda al infinito.
+Existen muchos ejemplos de corrientes de pagos cuyo final no se conoce: los dividendos que paga
+periódicamente una empresa, los intereses que genera una deuda cuyo capital se renueva permanentemente,
+la renta que genera un depósito que nunca es retirado (2) y otros casos donde existe un activo que produce
+una renta permanente.
+Calculo del valor actual de una corriente de pagos perpetuos vencidos
+Extenderemos ahora el cálculo del valor actual de una corriente de pagos temporaria para el caso
+particular cuando n tiende a infinito (n (cid:3) (cid:4)).
+Sumando los valores actuales, obtenemos nuevamente una progresión geométrica decreciente, de
+razón 1/1 + i:
+S = 1 / (1 + i) + 1 / (1 + i) 2 + 1 / (1 + i)3 + ..........(cid:4)
+Nuevamente aplicamos la fórmula para la suma de términos de una progresión geométrica:
+1
+1(cid:2)
+1
+(cid:1) 1(cid:1)i (cid:2)n
+S (cid:4) (cid:1) (cid:2) (cid:3)
+1(cid:1)i 1
+1(cid:2)
+(cid:1) (cid:2)
+1(cid:1)i
+En el límite, cuando n (cid:3) (cid:4):
+1 1 1
+S (cid:1) (cid:1) 1(cid:2)i (cid:2) (cid:4) (cid:1) 1(cid:2)i (cid:2) (cid:3)1 (cid:1) i
+(cid:1) (cid:2)
+1(cid:2)i
+De acuerdo con la nomenclatura de Cálculo Financiero, llamaremos a esta expresión:
+2 El premio Nobel es justamente un ejemplo de este tipo.
+17
+
+(cid:1) (cid:2) 1
+V 1, (cid:2),i (cid:1)
+i
+Ejemplo de aplicación: calculamos el valor de las acciones de Perpetua S.A.
+Ahora calcule el valor presente de una corriente perpetua de pagos unitarios. Según hemos visto,
+dicho valor sería igual a:
+1
+(cid:1)10
+0,10
+¿No parece algo extraño que una corriente de pagos infinita, aun cuando cada pago sea de $ 1, valga
+hoy solamente $ 10? La respuesta es que los pagos del futuro tienden a cero en valor actual; por ejemplo, el
+pago del momento 10 valdría hoy:
+1 1
+(cid:1) (cid:1)0,038
+(cid:1) (cid:2)10 (cid:1) (cid:2)10
+1,10 1,10
+Análogamente, el pago efectuado en el período 100, hoy tendría un valor menor:
+1 1
+(cid:1) (cid:1)0,00007
+(cid:1) (cid:2)100 (cid:1) (cid:2)100
+1,10 1,10
+Mostramos cómo evoluciona el valor actual de una corriente de pagos a medida que aumenta el
+número de períodos en el gráfico:
+Valor actual de una corriente de pagos cuando n tiende a infinito
+Valor final de una corriente de pagos temporaria (imposición)
+Es el caso donde los individuos o las empresas realizan depósitos periódicos de dinero con el
+objetivo de formar un capital en el futuro. En rigor de verdad, es una suma de montos a interés compuesto,
+18
+
+Casos concretos de imposiciones son los aportes que realizan los individuos a los fondos de pensión con el
+objetivo de acumular el capital que luego financiará la jubilación, o los fondos de amortización (sinking
+funds) que constituyen las empresas con el objetivo de acumular el capital necesario para redimir una
+obligación con vencimiento al final de dicho plazo de ahorro.
+Sumando los valores futuros, y aplicando la propiedad conmutativa de la suma, obtenemos una
+progresión geométrica creciente, de razón (1 + i):
+S = 1 + (1 + i) + (1 + i)2 +.........+ (1 + i)n - 2 + (1 + i)n - 1 + (1 + i)n
+Aplicando la fórmula de la suma de términos para una progresión geométrica creciente:
+q
+n(cid:1)1
+S (cid:2) a1
+q(cid:1)1
+Nos queda finalmente:
+(cid:1) 1(cid:2)i (cid:2)n (cid:1)1
+S (cid:3)
+i
+De acuerdo con la nomenclatura del cálculo financiero, llamaremos a esta expresión:
+(cid:1) 1(cid:2)i (cid:2)n (cid:1)1
+(cid:1) (cid:2)
+A1,n,i (cid:3)
+i
+Ejemplo de aplicación:
+19
+
+La firma Coff... había obtenido un préstamo por el sistema americano de amortización y debido a
+que el capital se redime al final en este tipo de sistema, su gerente financiero evaluaba alternativas para
+formar el capital que le permitiera saldar el préstamo, que alcanzaba a los $ 200.000.
+Dado que restaban dos años para el vencimiento, debía calcular cuál sería la cuota de ahorro
+facultativa que la empresa podría realizar mensualmente, y que te permitiera formar dicho monto en ese
+plazo, teniendo en cuenta que podía acceder a una tasa de interés del 1 % mensual en un depósito
+remunerado, y comenzaría a realizar los depósitos dentro de 30 días.
+Solución:
+Debemos despejar la cuota que, capitalizada, forma los $ 200.000 al cabo de dos años (24 meses).
+(cid:1) 1(cid:3)0,01 (cid:2)24 (cid:2)1
+200.000(cid:1) (cid:1)7.414,7
+0,01
+IV. CONCEPTOS PARA RELEER, RETENER Y RECORDAR
+1. Razones para los cambios en el valor del dinero a través del tiempo.
+2. Medición del cambio: la tasa de interés y sus componentes.
+3. Tasas de interés reales versus aparentes.
+4. Existe una gran cantidad de situaciones donde el directivo financiero necesita saber cuánto representa
+"hoy" una corriente de pagos constantes que se realizarán o cobrarán a lo largo de varios períodos. En el
+contexto estricto de cálculo financiero, una sucesión de pagos que se realiza a intervalos equidistantes de
+tiempo es denominada como "renta".
+5. El valor presente de una corriente de pagos perpetua constituye un excelente atajo para calcular valores
+de activos y es uno de los cálculos más frecuentes en las Finanzas Corporativas.
+V. CUESTIONARIO DE AUTOEVALUACIÓN
+1. Suponiendo que usted esté a cargo de la fijación de las tasas de interés en uña entidad financiera, indique
+cuáles serían las "tasas nominales anuales" para el otorgamiento de créditos a plazos de 30 y 60 días, si
+la política de la institución establece que la "tasa efectiva anual" debe ser del 57,5 % para todos los
+plazos.
+2. Imagine que usted es gerente general de una entidad financiera y que su empresa se ha fijado objetivos
+de rentabilidad y costo para sus asignaciones y fuentes de recursos, respectivamente, objetivos que se
+resumen como sigue:
+- retorno sobre activos: 2 % mensual real;
+- costo de pasivos: 0,5 % mensual real.
+Las tasas efectivas resultantes de estas metas se revisan a fin de cada mes de acuerdo con las
+expectativas de inflación que para el mes siguiente definen los asesores económicos de la empresa.
+Suponga que el mes anterior se determinaron tasas activas y pasivas sobre la base de una expectativa
+de inflación del 1, 1 %, y que al final del mes se comprueba que esa inflación esperada no se va a cumplir y
+que el porcentaje resultará en definitiva del 1,5 %, mientras. que la expectativa para el próximo mes es del
+1,2%.
+Determine:
+a) qué tasas nominales anuales activas y pasivas se fijaron el mes anterior;
+b) qué tasas reales mensuales resultaron ex post;
+c) qué tasas nominales anuales activas y pasivas se fijarían para el mes siguiente.
+20
+
+3. Su empresa solicitó un préstamo de U$S 120.000 al Banco Crédito General por 60 días.
+La institución concede el mismo a una tasa del 18% anual, debiendo abonar al momento de recibirlo
+un sellado del 1% sobre el monto a abonar y gastos administrativos por U$S 600.
+Nuestro asesor financiero estima que la convertibilidad de $ 1 U$S 1 se mantendrá al contraer la
+deuda, pero considera prudente prever una devaluación del 5 % mensual.
+El presidente de la empresa ante esta situación quiere saber:
+a) cuál va a ser el costo efectivo mensual en dólares;
+b) cuál va a ser el costo efectivo mensual estimado en pesos.
+4. Determine el valor actual de una serie de 12 pagos vencidos, iguales y consecutivos de $ 100 cada uno, si
+se sabe que las cuotas se abonan al vencimiento de cada período, y que la tasa de valuación de cada período
+es del 8 %.
+5. Si la tasa de interés es del 8 % anual, ¿cuánto tendrá que reservar anualmente y durante 10 años un
+benefactor para poder donar cada una de las siguientes cantidades a una institución educativa?
+a) 50.000 al final de cada año a perpetuidad;
+b) una perpetuidad que rinde 50.000 al final del primer año y crece al 4 % anual;
+c) 50.000 al final de cada año durante 20 años;
+d) 50.000 al año distribuidos uniformemente durante 20 años.
+21

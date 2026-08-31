@@ -1,0 +1,4281 @@
+Ticker and Tickers
+Class
+The Ticker module, allows you to access ticker data in a Pythonic way.
+
+Ticker(ticker[, session, proxy])
+
+Tickers(tickers[, session])
+
+Ticker Sample Code
+The Ticker module, allows you to access ticker data in a Pythonic way.
+
+import yfinance as yf
+
+dat = yf.Ticker("MSFT")
+
+# get historical market data
+dat.history(period='1mo')
+
+# options
+dat.option_chain(dat.options[0]).calls
+
+# get financials
+dat.balance_sheet
+dat.quarterly_income_stmt
+
+# dates
+dat.calendar
+
+# general info
+dat.info
+
+# analysis
+dat.analyst_price_targets
+
+# websocket
+dat.live()
+To initialize multiple Ticker objects, use
+
+import yfinance as yf
+
+tickers = yf.Tickers('msft aapl goog')
+
+# access each ticker using (example)
+tickers.tickers['MSFT'].info
+tickers.tickers['AAPL'].history(period="1mo")
+tickers.tickers['GOOG'].actions
+
+# websocket
+tickers.live()
+For tickers that are ETFs/Mutual Funds, Ticker.funds_data provides access to fund related data.
+
+Funds’ Top Holdings and other data with category average is returned as pd.DataFrame.
+
+import yfinance as yf
+spy = yf.Ticker('SPY')
+data = spy.funds_data
+
+# show fund description
+data.description
+
+# show operational information
+data.fund_overview
+data.fund_operations
+
+# show holdings related information
+data.asset_classes
+data.top_holdings
+data.equity_holdings
+data.bond_holdings
+data.bond_ratings
+data.sector_weightings
+If you want to use a proxy server for downloading data, use:
+
+import yfinance as yf
+
+msft = yf.Ticker("MSFT")
+
+msft.history(..., proxy="PROXY_SERVER")
+msft.get_actions(proxy="PROXY_SERVER")
+msft.get_dividends(proxy="PROXY_SERVER")
+msft.get_splits(proxy="PROXY_SERVER")
+msft.get_capital_gains(proxy="PROXY_SERVER")
+msft.get_balance_sheet(proxy="PROXY_SERVER")
+msft.get_cashflow(proxy="PROXY_SERVER")
+msft.option_chain(..., proxy="PROXY_SERVER")
+...
+To initialize multiple Ticker objects, use Tickers module
+
+import yfinance as yf
+
+tickers = yf.Tickers('msft aapl goog')
+
+# access each ticker using (example)
+tickers.tickers['MSFT'].info
+tickers.tickers['AAPL'].history(period="1mo")
+tickers.tickers['GOOG'].actions
+
+# websocket
+tickers.live()
+
+
+Ticker
+class yfinance.Ticker(ticker, session=None, proxy=<object object>)
+Attributes
+
+actions
+analyst_price_targets
+balance_sheet
+balancesheet
+calendar
+Returns a dictionary of events, earnings, and dividends for the ticker
+
+capital_gains
+cash_flow
+cashflow
+dividends
+earnings
+earnings_dates
+earnings_estimate
+earnings_history
+eps_revisions
+eps_trend
+fast_info
+financials
+funds_data
+growth_estimates
+history_metadata
+income_stmt
+incomestmt
+info
+insider_purchases
+insider_roster_holders
+insider_transactions
+institutional_holders
+isin
+major_holders
+mutualfund_holders
+news
+options
+quarterly_balance_sheet
+quarterly_balancesheet
+quarterly_cash_flow
+quarterly_cashflow
+quarterly_earnings
+quarterly_financials
+quarterly_income_stmt
+quarterly_incomestmt
+recommendations
+recommendations_summary
+revenue_estimate
+sec_filings
+shares
+splits
+sustainability
+ttm_cash_flow
+ttm_cashflow
+ttm_financials
+ttm_income_stmt
+ttm_incomestmt
+upgrades_downgrades
+Methods
+
+__init__(ticker, session=None, proxy=<object object>)
+get_actions(proxy=<object object>, period='max') → Series
+get_analyst_price_targets(proxy=<object object>) → dict
+get_balance_sheet(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+Parameters
+:
+as_dict: bool
+Return table as Python dict Default is False
+
+pretty: bool
+Format row names nicely for readability Default is False
+
+freq: str
+“yearly” or “quarterly” Default is “yearly”
+
+get_balancesheet(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+get_calendar(proxy=<object object>) → dict
+get_capital_gains(proxy=<object object>, period='max') → Series
+get_cash_flow(proxy=<object object>, as_dict=False, pretty=False, freq='yearly') → DataFrame | dict
+Parameters
+:
+as_dict: bool
+Return table as Python dict Default is False
+
+pretty: bool
+Format row names nicely for readability Default is False
+
+freq: str
+“yearly” or “quarterly” Default is “yearly”
+
+get_cashflow(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+get_dividends(proxy=<object object>, period='max') → Series
+get_earnings(proxy=<object object>, as_dict=False, freq='yearly')
+Parameters
+:
+as_dict: bool
+Return table as Python dict Default is False
+
+freq: str
+“yearly” or “quarterly” or “trailing” Default is “yearly”
+
+get_earnings_dates(limit=12, proxy=<object object>) → DataFrame | None
+Get earning dates (future and historic)
+
+Parameters
+:
+limit (int) – max amount of upcoming and recent earnings dates to return. Default value 12 should return next 4 quarters and last 8 quarters. Increase if more history is needed.
+
+Returns
+:
+pd.DataFrame
+
+get_earnings_estimate(proxy=<object object>, as_dict=False)
+get_earnings_history(proxy=<object object>, as_dict=False)
+get_eps_revisions(proxy=<object object>, as_dict=False)
+Index: 0q +1q 0y +1y Columns: upLast7days upLast30days downLast7days downLast30days
+
+get_eps_trend(proxy=<object object>, as_dict=False)
+Index: 0q +1q 0y +1y Columns: current 7daysAgo 30daysAgo 60daysAgo 90daysAgo
+
+get_fast_info(proxy=<object object>)
+get_financials(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+get_funds_data(proxy=<object object>) → FundsData | None
+get_growth_estimates(proxy=<object object>, as_dict=False)
+Index: 0q +1q 0y +1y +5y -5y Columns: stock industry sector index
+
+get_history_metadata(proxy=<object object>) → dict
+get_income_stmt(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+Parameters
+:
+as_dict: bool
+Return table as Python dict Default is False
+
+pretty: bool
+Format row names nicely for readability Default is False
+
+freq: str
+“yearly” or “quarterly” or “trailing” Default is “yearly”
+
+get_incomestmt(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+get_info(proxy=<object object>) → dict
+get_insider_purchases(proxy=<object object>, as_dict=False)
+get_insider_roster_holders(proxy=<object object>, as_dict=False)
+get_insider_transactions(proxy=<object object>, as_dict=False)
+get_institutional_holders(proxy=<object object>, as_dict=False)
+get_isin(proxy=<object object>) → str | None
+get_major_holders(proxy=<object object>, as_dict=False)
+get_mutualfund_holders(proxy=<object object>, as_dict=False)
+get_news(count=10, tab='news', proxy=<object object>) → list
+Allowed options for tab: “news”, “all”, “press releases
+
+get_recommendations(proxy=<object object>, as_dict=False)
+Returns a DataFrame with the recommendations Columns: period strongBuy buy hold sell strongSell
+
+get_recommendations_summary(proxy=<object object>, as_dict=False)
+get_revenue_estimate(proxy=<object object>, as_dict=False)
+get_sec_filings(proxy=<object object>) → dict
+get_shares(proxy=<object object>, as_dict=False) → DataFrame | dict
+get_shares_full(start=None, end=None, proxy=<object object>)
+get_splits(proxy=<object object>, period='max') → Series
+get_sustainability(proxy=<object object>, as_dict=False)
+get_upgrades_downgrades(proxy=<object object>, as_dict=False)
+Returns a DataFrame with the recommendations changes (upgrades/downgrades) Index: date of grade Columns: firm toGrade fromGrade action
+
+history(*args, **kwargs) → DataFrame
+live(message_handler=None, verbose=True)
+option_chain(date=None, tz=None)
+property calendar: dict
+Returns a dictionary of events, earnings, and dividends for the ticker 
+
+Tickers
+class yfinance.Tickers(tickers, session=None)
+Methods
+
+__init__(tickers, session=None)
+download(period='1mo', interval='1d', start=None, end=None, prepost=False, actions=True, auto_adjust=True, repair=False, proxy=<object object>, threads=True, group_by='column', progress=True, timeout=10, **kwargs)
+history(period='1mo', interval='1d', start=None, end=None, prepost=False, actions=True, auto_adjust=True, repair=False, proxy=<object object>, threads=True, group_by='column', progress=True, timeout=10, **kwargs)
+live(message_handler=None, verbose=True)
+news()
+
+Stock
+Ticker stock methods
+get_isin([proxy])
+
+isin
+
+history(*args, **kwargs)
+
+See also
+
+yfinance.scrapers.history.PriceHistory.history()
+Documentation for history
+
+Price Repair
+Documentation for price repair
+
+get_history_metadata([proxy])
+
+get_dividends([proxy, period])
+
+dividends
+
+get_splits([proxy, period])
+
+splits
+
+get_actions([proxy, period])
+
+actions
+
+get_capital_gains([proxy, period])
+
+capital_gains
+
+get_shares_full([start, end, proxy])
+
+get_info([proxy])
+
+info
+
+get_fast_info([proxy])
+
+fast_info
+
+get_news([count, tab, proxy])
+
+Allowed options for tab: "news", "all", "press releases
+
+news
+
+
+yfinance.Ticker.get_isin
+Ticker.get_isin(proxy=<object object>) → str | None 
+
+yfinance.Ticker.isin
+property Ticker.isin
+
+
+yfinance.Ticker.history
+Ticker.history(*args, **kwargs) → DataFrame
+
+yfinance.Ticker.get_history_metadata
+Ticker.get_history_metadata(proxy=<object object>) → dict
+
+yfinance.Ticker.get_dividends
+Ticker.get_dividends(proxy=<object object>, period='max') → Series
+
+yfinance.Ticker.dividends
+property Ticker.dividends: Series
+
+yfinance.Ticker.get_splits
+Ticker.get_splits(proxy=<object object>, period='max') → Series
+
+yfinance.Ticker.splits
+property Ticker.splits: Series
+
+
+yfinance.Ticker.get_actions
+Ticker.get_actions(proxy=<object object>, period='max') → Series
+
+yfinance.Ticker.actions
+property Ticker.actions: DataFrame
+
+yfinance.Ticker.get_capital_gains
+Ticker.get_capital_gains(proxy=<object object>, period='max') → Series
+
+yfinance.Ticker.capital_gains
+property Ticker.capital_gains: Series
+
+yfinance.Ticker.get_shares_full
+Ticker.get_shares_full(start=None, end=None, proxy=<object object>)
+
+
+yfinance.Ticker.get_info
+Ticker.get_info(proxy=<object object>) → dict
+
+yfinance.Ticker.info
+property Ticker.info: dict
+
+yfinance.Ticker.get_fast_info
+Ticker.get_fast_info(proxy=<object object>)
+
+yfinance.Ticker.fast_info
+property Ticker.fast_info
+
+yfinance.Ticker.get_news
+Ticker.get_news(count=10, tab='news', proxy=<object object>) → list
+Allowed options for tab: “news”, “all”, “press releases
+
+yfinance.Ticker.news
+property Ticker.news: list
+
+Market
+Class
+The Market class, allows you to access market data in a Pythonic way.
+
+Market(market[, session, proxy, timeout])
+
+Market Sample Code
+import yfinance as yf
+
+EUROPE = yf.Market("EUROPE")
+
+status = EUROPE.status
+summary = EUROPE.summary
+Markets
+There are 8 different markets available in Yahoo Finance.
+
+US
+
+GB
+
+ASIA
+
+EUROPE
+
+RATES
+
+COMMODITIES
+
+CURRENCIES
+
+CRYPTOCURRENCIES
+
+Market
+class yfinance.Market(market: str, session=None, proxy=<object object>, timeout=30)
+Attributes
+
+status
+summary
+Methods
+
+__init__(market: str, session=None, proxy=<object object>, timeout=30)
+
+Financials
+get_income_stmt([proxy, as_dict, pretty, freq])
+
+income_stmt
+
+quarterly_income_stmt
+
+ttm_income_stmt
+
+get_balance_sheet([proxy, as_dict, pretty, freq])
+
+balance_sheet
+
+get_cashflow([proxy, as_dict, pretty, freq])
+
+cashflow
+
+quarterly_cashflow
+
+ttm_cashflow
+
+get_earnings([proxy, as_dict, freq])
+
+earnings
+
+calendar
+
+Returns a dictionary of events, earnings, and dividends for the ticker
+
+get_earnings_dates([limit, proxy])
+
+Get earning dates (future and historic)
+
+earnings_dates
+
+get_sec_filings([proxy])
+
+sec_filings
+
+yfinance.Ticker.get_income_stmt
+Ticker.get_income_stmt(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+Parameters
+:
+as_dict: bool
+Return table as Python dict Default is False
+
+pretty: bool
+Format row names nicely for readability Default is False
+
+freq: str
+“yearly” or “quarterly” or “trailing” Default is “yearly” 
+yfinance.Ticker.income_stmt
+property Ticker.income_stmt: DataFrame
+
+yfinance.Ticker.quarterly_income_stmt
+property Ticker.quarterly_income_stmt: DataFrame
+
+yfinance.Ticker.ttm_income_stmt
+property Ticker.ttm_income_stmt: DataFrame
+
+yfinance.Ticker.get_balance_sheet
+Ticker.get_balance_sheet(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+Parameters
+:
+as_dict: bool
+Return table as Python dict Default is False
+
+pretty: bool
+Format row names nicely for readability Default is False
+
+freq: str
+“yearly” or “quarterly” Default is “yearly”
+
+yfinance.Ticker.balance_sheet
+property Ticker.balance_sheet: DataFrame
+
+yfinance.Ticker.get_cashflow
+Ticker.get_cashflow(proxy=<object object>, as_dict=False, pretty=False, freq='yearly')
+
+yfinance.Ticker.cashflow
+property Ticker.cashflow: DataFrame
+
+yfinance.Ticker.quarterly_cashflow
+property Ticker.quarterly_cashflow: DataFrame
+
+yfinance.Ticker.ttm_cashflow
+property Ticker.ttm_cashflow: DataFrame
+
+yfinance.Ticker.get_earnings
+Ticker.get_earnings(proxy=<object object>, as_dict=False, freq='yearly')
+Parameters
+:
+as_dict: bool
+Return table as Python dict Default is False
+
+freq: str
+“yearly” or “quarterly” or “trailing” Default is “yearly”
+
+yfinance.Ticker.earnings
+property Ticker.earnings: DataFrame
+
+yfinance.Ticker.calendar
+property Ticker.calendar: dict
+Returns a dictionary of events, earnings, and dividends for the ticker
+
+yfinance.Ticker.get_earnings_dates
+Ticker.get_earnings_dates(limit=12, proxy=<object object>) → DataFrame | None
+Get earning dates (future and historic)
+
+Parameters
+:
+limit (int) – max amount of upcoming and recent earnings dates to return. Default value 12 should return next 4 quarters and last 8 quarters. Increase if more history is needed.
+
+Returns
+:
+pd.DataFrame
+
+yfinance.Ticker.earnings_dates
+property Ticker.earnings_dates: DataFrame
+
+yfinance.Ticker.get_sec_filings
+Ticker.get_sec_filings(proxy=<object object>) → dict
+yfinance.Ticker.sec_filings
+property Ticker.sec_filings: dict
+
+Analysis & Holdings
+Analysis
+get_recommendations([proxy, as_dict])
+
+Returns a DataFrame with the recommendations Columns: period strongBuy buy hold sell strongSell
+
+recommendations
+
+get_recommendations_summary([proxy, as_dict])
+
+recommendations_summary
+
+get_upgrades_downgrades([proxy, as_dict])
+
+Returns a DataFrame with the recommendations changes (upgrades/downgrades) Index: date of grade Columns: firm toGrade fromGrade action
+
+upgrades_downgrades
+
+get_sustainability([proxy, as_dict])
+
+sustainability
+
+get_analyst_price_targets([proxy])
+
+analyst_price_targets
+
+get_earnings_estimate([proxy, as_dict])
+
+earnings_estimate
+
+get_revenue_estimate([proxy, as_dict])
+
+revenue_estimate
+
+get_earnings_history([proxy, as_dict])
+
+earnings_history
+
+get_eps_trend([proxy, as_dict])
+
+Index: 0q +1q 0y +1y Columns: current 7daysAgo 30daysAgo 60daysAgo 90daysAgo
+
+eps_trend
+
+get_eps_revisions([proxy, as_dict])
+
+Index: 0q +1q 0y +1y Columns: upLast7days upLast30days downLast7days downLast30days
+
+eps_revisions
+
+get_growth_estimates([proxy, as_dict])
+
+Index: 0q +1q 0y +1y +5y -5y Columns: stock industry sector index
+
+growth_estimates
+
+Holdings
+get_funds_data([proxy])
+
+funds_data
+
+See also
+
+yfinance.scrapers.funds.FundsData()
+
+get_insider_purchases([proxy, as_dict])
+
+insider_purchases
+
+get_insider_transactions([proxy, as_dict])
+
+insider_transactions
+
+get_insider_roster_holders([proxy, as_dict])
+
+insider_roster_holders
+
+get_major_holders([proxy, as_dict])
+
+major_holders
+
+get_institutional_holders([proxy, as_dict])
+
+institutional_holders
+
+get_mutualfund_holders([proxy, as_dict])
+
+mutualfund_holders 
+
+yfinance.Ticker.get_recommendations
+Ticker.get_recommendations(proxy=<object object>, as_dict=False)
+Returns a DataFrame with the recommendations Columns: period strongBuy buy hold sell strongSell
+
+yfinance.Ticker.recommendations
+property Ticker.recommendations
+
+yfinance.Ticker.get_recommendations_summary
+Ticker.get_recommendations_summary(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.recommendations_summary
+property Ticker.recommendations_summary
+
+yfinance.Ticker.get_upgrades_downgrades
+Ticker.get_upgrades_downgrades(proxy=<object object>, as_dict=False)
+Returns a DataFrame with the recommendations changes (upgrades/downgrades) Index: date of grade Columns: firm toGrade fromGrade action
+
+yfinance.Ticker.upgrades_downgrades
+property Ticker.upgrades_downgrades
+
+yfinance.Ticker.get_sustainability
+Ticker.get_sustainability(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.sustainability
+property Ticker.sustainability: DataFrame
+
+yfinance.Ticker.get_analyst_price_targets
+Ticker.get_analyst_price_targets(proxy=<object object>) → dict
+
+yfinance.Ticker.analyst_price_targets
+property Ticker.analyst_price_targets: dict
+
+yfinance.Ticker.get_earnings_estimate
+Ticker.get_earnings_estimate(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.earnings_estimate
+property Ticker.earnings_estimate: DataFrame
+
+yfinance.Ticker.get_revenue_estimate
+Ticker.get_revenue_estimate(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.revenue_estimate
+property Ticker.revenue_estimate: DataFrame
+
+yfinance.Ticker.get_earnings_history
+Ticker.get_earnings_history(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.earnings_history
+property Ticker.earnings_history: DataFrame
+
+yfinance.Ticker.get_eps_trend
+Ticker.get_eps_trend(proxy=<object object>, as_dict=False)
+Index: 0q +1q 0y +1y Columns: current 7daysAgo 30daysAgo 60daysAgo 90daysAgo
+
+yfinance.Ticker.eps_trend
+property Ticker.eps_trend: DataFrame
+
+yfinance.Ticker.get_eps_revisions
+Ticker.get_eps_revisions(proxy=<object object>, as_dict=False)
+Index: 0q +1q 0y +1y Columns: upLast7days upLast30days downLast7days downLast30days
+
+yfinance.Ticker.eps_revisions
+property Ticker.eps_revisions: DataFrame
+
+yfinance.Ticker.get_growth_estimates
+Ticker.get_growth_estimates(proxy=<object object>, as_dict=False)
+Index: 0q +1q 0y +1y +5y -5y Columns: stock industry sector index
+
+yfinance.Ticker.growth_estimates
+property Ticker.growth_estimates: DataFrame
+
+yfinance.Ticker.get_funds_data
+Ticker.get_funds_data(proxy=<object object>) → FundsData | None
+
+yfinance.Ticker.funds_data
+property Ticker.funds_data: FundsData
+
+yfinance.Ticker.get_insider_purchases
+Ticker.get_insider_purchases(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.insider_purchases
+property Ticker.insider_purchases: DataFrame
+
+yfinance.Ticker.get_insider_transactions
+Ticker.get_insider_transactions(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.insider_transactions
+property Ticker.insider_transactions: DataFrame
+
+yfinance.Ticker.get_insider_roster_holders
+Ticker.get_insider_roster_holders(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.insider_roster_holders
+property Ticker.insider_roster_holders: DataFrame
+
+yfinance.Ticker.get_major_holders
+Ticker.get_major_holders(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.major_holders
+property Ticker.major_holders: DataFrame
+
+yfinance.Ticker.get_institutional_holders
+Ticker.get_institutional_holders(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.institutional_holders
+property Ticker.institutional_holders: DataFrame
+
+yfinance.Ticker.get_mutualfund_holders
+Ticker.get_mutualfund_holders(proxy=<object object>, as_dict=False)
+
+yfinance.Ticker.mutualfund_holders
+property Ticker.mutualfund_holders: DataFrame
+
+Search & Lookup
+Class
+The Search module, allows you to access search data in a Pythonic way.
+
+Search(query[, max_results, news_count, ...])
+
+Fetches and organizes search results from Yahoo Finance, including stock quotes and news articles.
+
+The Lookup module, allows you to look up tickers in a Pythonic way.
+
+Lookup(query[, session, proxy, timeout, ...])
+
+Fetches quote (ticker) lookups from Yahoo Finance.
+
+Sample Code
+The Search module, allows you to access search data in a Pythonic way.
+
+import yfinance as yf
+
+# get list of quotes
+quotes = yf.Search("AAPL", max_results=10).quotes
+
+# get list of news
+news = yf.Search("Google", news_count=10).news
+
+# get list of related research
+research = yf.Search("apple", include_research=True).research
+The Lookup module, allows you to look up tickers in a Pythonic way.
+
+import yfinance as yf
+
+# Get All
+all = yf.Lookup("AAPL").all
+all = yf.Lookup("AAPL").get_all(count=100)
+
+# Get Stocks
+stock = yf.Lookup("AAPL").stock
+stock = yf.Lookup("AAPL").get_stock(count=100)
+
+# Get Mutual Funds
+mutualfund = yf.Lookup("AAPL").mutualfund
+mutualfund = yf.Lookup("AAPL").get_mutualfund(count=100)
+
+# Get ETFs
+etf = yf.Lookup("AAPL").etf
+etf = yf.Lookup("AAPL").get_etf(count=100)
+
+# Get Indices
+index = yf.Lookup("AAPL").index
+index = yf.Lookup("AAPL").get_index(count=100)
+
+# Get Futures
+future = yf.Lookup("AAPL").future
+future = yf.Lookup("AAPL").get_future(count=100)
+
+# Get Currencies
+currency = yf.Lookup("AAPL").currency
+currency = yf.Lookup("AAPL").get_currency(count=100)
+
+# Get Cryptocurrencies
+cryptocurrency = yf.Lookup("AAPL").cryptocurrency
+cryptocurrency = yf.Lookup("AAPL").get_cryptocurrency(count=100)
+
+
+Search
+class yfinance.Search(query, max_results=8, news_count=8, lists_count=8, include_cb=True, include_nav_links=False, include_research=False, include_cultural_assets=False, enable_fuzzy_query=False, recommended=8, session=None, proxy=<object object>, timeout=30, raise_errors=True)
+Fetches and organizes search results from Yahoo Finance, including stock quotes and news articles.
+
+Parameters
+:
+query – The search query (ticker symbol or company name).
+
+max_results – Maximum number of stock quotes to return (default 8).
+
+news_count – Number of news articles to include (default 8).
+
+lists_count – Number of lists to include (default 8).
+
+include_cb – Include the company breakdown (default True).
+
+include_nav_links – Include the navigation links (default False).
+
+include_research – Include the research reports (default False).
+
+include_cultural_assets – Include the cultural assets (default False).
+
+enable_fuzzy_query – Enable fuzzy search for typos (default False).
+
+recommended – Recommended number of results to return (default 8).
+
+session – Custom HTTP session for requests (default None).
+
+timeout – Request timeout in seconds (default 30).
+
+raise_errors – Raise exceptions on error (default True).
+
+Attributes
+
+all
+filtered down version of response.
+
+Type
+:
+Get all the results from the search results
+
+lists
+Get the lists from the search results.
+
+nav
+Get the navigation links from the search results.
+
+news
+Get the news from the search results.
+
+quotes
+Get the quotes from the search results.
+
+research
+Get the research reports from the search results.
+
+response
+Get the raw response from the search results.
+
+Methods
+
+__init__(query, max_results=8, news_count=8, lists_count=8, include_cb=True, include_nav_links=False, include_research=False, include_cultural_assets=False, enable_fuzzy_query=False, recommended=8, session=None, proxy=<object object>, timeout=30, raise_errors=True)
+Fetches and organizes search results from Yahoo Finance, including stock quotes and news articles.
+
+Parameters
+:
+query – The search query (ticker symbol or company name).
+
+max_results – Maximum number of stock quotes to return (default 8).
+
+news_count – Number of news articles to include (default 8).
+
+lists_count – Number of lists to include (default 8).
+
+include_cb – Include the company breakdown (default True).
+
+include_nav_links – Include the navigation links (default False).
+
+include_research – Include the research reports (default False).
+
+include_cultural_assets – Include the cultural assets (default False).
+
+enable_fuzzy_query – Enable fuzzy search for typos (default False).
+
+recommended – Recommended number of results to return (default 8).
+
+session – Custom HTTP session for requests (default None).
+
+timeout – Request timeout in seconds (default 30).
+
+raise_errors – Raise exceptions on error (default True).
+
+search() → Search
+Search using the query parameters defined in the constructor.
+
+property all: dict[str, list]
+filtered down version of response.
+
+Type
+:
+Get all the results from the search results
+
+property lists: list
+Get the lists from the search results.
+
+property nav: list
+Get the navigation links from the search results.
+
+property news: list
+Get the news from the search results.
+
+property quotes: list
+Get the quotes from the search results.
+
+property research: list
+Get the research reports from the search results.
+
+property response: dict
+Get the raw response from the search results.
+
+search() → Search
+Search using the query parameters defined in the constructor.
+
+Lookup
+class yfinance.Lookup(query: str, session=None, proxy=<object object>, timeout=30, raise_errors=True)
+Fetches quote (ticker) lookups from Yahoo Finance.
+
+Parameters
+:
+query (str) – The search query for financial data lookup.
+
+session – Custom HTTP session for requests (default None).
+
+proxy – Proxy settings for requests (default None).
+
+timeout – Request timeout in seconds (default 30).
+
+raise_errors – Raise exceptions on error (default True).
+
+Attributes
+
+all
+Returns all available financial instruments.
+
+cryptocurrency
+Returns Cryptocurrencies related financial instruments.
+
+currency
+Returns Currencies related financial instruments.
+
+etf
+Returns ETFs related financial instruments.
+
+future
+Returns Futures related financial instruments.
+
+index
+Returns Indices related financial instruments.
+
+mutualfund
+Returns mutual funds related financial instruments.
+
+stock
+Returns stock related financial instruments.
+
+Methods
+
+__init__(query: str, session=None, proxy=<object object>, timeout=30, raise_errors=True)
+get_all(count=25) → DataFrame
+Returns all available financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_cryptocurrency(count=25) → DataFrame
+Returns Cryptocurrencies related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_currency(count=25) → DataFrame
+Returns Currencies related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_etf(count=25) → DataFrame
+Returns ETFs related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_future(count=25) → DataFrame
+Returns Futures related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_index(count=25) → DataFrame
+Returns Indices related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_mutualfund(count=25) → DataFrame
+Returns mutual funds related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_stock(count=25) → DataFrame
+Returns stock related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+property all: DataFrame
+Returns all available financial instruments.
+
+property cryptocurrency: DataFrame
+Returns Cryptocurrencies related financial instruments.
+
+property currency: DataFrame
+Returns Currencies related financial instruments.
+
+property etf: DataFrame
+Returns ETFs related financial instruments.
+
+property future: DataFrame
+Returns Futures related financial instruments.
+
+get_all(count=25) → DataFrame
+Returns all available financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_cryptocurrency(count=25) → DataFrame
+Returns Cryptocurrencies related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_currency(count=25) → DataFrame
+Returns Currencies related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_etf(count=25) → DataFrame
+Returns ETFs related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_future(count=25) → DataFrame
+Returns Futures related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_index(count=25) → DataFrame
+Returns Indices related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_mutualfund(count=25) → DataFrame
+Returns mutual funds related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+get_stock(count=25) → DataFrame
+Returns stock related financial instruments.
+
+Parameters
+:
+count (int) – The number of results to retrieve.
+
+property index: DataFrame
+Returns Indices related financial instruments.
+
+property mutualfund: DataFrame
+Returns mutual funds related financial instruments.
+
+property stock: DataFrame
+Returns stock related financial instruments.
+
+WebSocket
+The WebSocket module allows you to stream live price data from Yahoo Finance using both synchronous and asynchronous clients.
+
+Classes
+WebSocket([url, verbose])
+
+Synchronous WebSocket client for streaming real time pricing data.
+
+AsyncWebSocket([url, verbose])
+
+Asynchronous WebSocket client for streaming real time pricing data.
+
+Synchronous WebSocket
+The WebSocket class provides a synchronous interface for subscribing to price updates.
+
+Sample Code:
+
+import yfinance as yf
+
+# define your message callback
+def message_handler(message):
+    print("Received message:", message)
+
+# =======================
+# With Context Manager
+# =======================
+with yf.WebSocket() as ws:
+    ws.subscribe(["AAPL", "BTC-USD"])
+    ws.listen(message_handler)
+
+# =======================
+# Without Context Manager
+# =======================
+ws = yf.WebSocket()
+ws.subscribe(["AAPL", "BTC-USD"])
+ws.listen(message_handler)
+Asynchronous WebSocket
+The AsyncWebSocket class provides an asynchronous interface for subscribing to price updates.
+
+Sample Code:
+
+import asyncio
+import yfinance as yf
+
+# define your message callback
+def message_handler(message):
+    print("Received message:", message)
+
+async def main():
+    # =======================
+    # With Context Manager
+    # =======================
+    async with yf.AsyncWebSocket() as ws:
+        await ws.subscribe(["AAPL", "BTC-USD"])
+        await ws.listen()
+
+    # =======================
+    # Without Context Manager
+    # =======================
+    ws = yf.AsyncWebSocket()
+    await ws.subscribe(["AAPL", "BTC-USD"])
+    await ws.listen()
+
+asyncio.run(main())
+Note
+
+If you’re running asynchronous code in a Jupyter notebook, you may encounter issues with event loops. To resolve this, you need to import and apply nest_asyncio to allow nested event loops.
+
+Add the following code before running asynchronous operations:
+
+import nest_asyncio
+nest_asyncio.apply() 
+
+WebSocket
+class yfinance.WebSocket(url: str = 'wss://streamer.finance.yahoo.com/?version=2', verbose=True)
+Synchronous WebSocket client for streaming real time pricing data.
+
+Initialize the WebSocket client.
+
+Parameters
+:
+url (str) – The WebSocket server URL. Defaults to Yahoo Finance’s WebSocket URL.
+
+verbose (bool) – Flag to enable or disable print statements. Defaults to True.
+
+Methods
+
+__init__(url: str = 'wss://streamer.finance.yahoo.com/?version=2', verbose=True)
+Initialize the WebSocket client.
+
+Parameters
+:
+url (str) – The WebSocket server URL. Defaults to Yahoo Finance’s WebSocket URL.
+
+verbose (bool) – Flag to enable or disable print statements. Defaults to True.
+
+close()
+Close the WebSocket connection.
+
+listen(message_handler: Callable[[dict], None] | None = None)
+Start listening to messages from the WebSocket server.
+
+Parameters
+:
+message_handler (Optional[Callable[[dict], None]]) – Optional function to handle received messages.
+
+subscribe(symbols: str | List[str])
+Subscribe to a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to subscribe to.
+
+unsubscribe(symbols: str | List[str])
+Unsubscribe from a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to unsubscribe from.
+
+close()
+Close the WebSocket connection.
+
+listen(message_handler: Callable[[dict], None] | None = None)
+Start listening to messages from the WebSocket server.
+
+Parameters
+:
+message_handler (Optional[Callable[[dict], None]]) – Optional function to handle received messages.
+
+subscribe(symbols: str | List[str])
+Subscribe to a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to subscribe to.
+
+unsubscribe(symbols: str | List[str])
+Unsubscribe from a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to unsubscribe from.
+
+AsyncWebSocket
+class yfinance.AsyncWebSocket(url: str = 'wss://streamer.finance.yahoo.com/?version=2', verbose=True)
+Asynchronous WebSocket client for streaming real time pricing data.
+
+Initialize the AsyncWebSocket client.
+
+Parameters
+:
+url (str) – The WebSocket server URL. Defaults to Yahoo Finance’s WebSocket URL.
+
+verbose (bool) – Flag to enable or disable print statements. Defaults to True.
+
+Methods
+
+__init__(url: str = 'wss://streamer.finance.yahoo.com/?version=2', verbose=True)
+Initialize the AsyncWebSocket client.
+
+Parameters
+:
+url (str) – The WebSocket server URL. Defaults to Yahoo Finance’s WebSocket URL.
+
+verbose (bool) – Flag to enable or disable print statements. Defaults to True.
+
+async close()
+Close the WebSocket connection.
+
+async listen(message_handler=None)
+Start listening to messages from the WebSocket server.
+
+Parameters
+:
+message_handler (Optional[Callable[[dict], None]]) – Optional function to handle received messages.
+
+async subscribe(symbols: str | List[str])
+Subscribe to a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to subscribe to.
+
+async unsubscribe(symbols: str | List[str])
+Unsubscribe from a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to unsubscribe from.
+
+async close()
+Close the WebSocket connection.
+
+async listen(message_handler=None)
+Start listening to messages from the WebSocket server.
+
+Parameters
+:
+message_handler (Optional[Callable[[dict], None]]) – Optional function to handle received messages.
+
+async subscribe(symbols: str | List[str])
+Subscribe to a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to subscribe to.
+
+async unsubscribe(symbols: str | List[str])
+Unsubscribe from a stock symbol or a list of stock symbols.
+
+Parameters
+:
+symbols (Union[str, List[str]]) – Stock symbol(s) to unsubscribe from.
+
+Sector and Industry
+Sector class
+The Sector and Industry modules provide access to the Sector and Industry information.
+
+Sector(key[, session, proxy])
+
+Represents a financial market sector and allows retrieval of sector-related data such as top ETFs, top mutual funds, and industry data.
+
+Industry(key[, session, proxy])
+
+Represents an industry within a sector.
+
+See also
+
+Sector.industries
+Map of sector and industry
+
+Sample Code
+To initialize, use the relevant sector or industry key as below.
+
+import yfinance as yf
+
+tech = yf.Sector('technology')
+software = yf.Industry('software-infrastructure')
+
+# Common information
+tech.key
+tech.name
+tech.symbol
+tech.ticker
+tech.overview
+tech.top_companies
+tech.research_reports
+
+# Sector information
+tech.top_etfs
+tech.top_mutual_funds
+tech.industries
+
+# Industry information
+software.sector_key
+software.sector_name
+software.top_performing_companies
+software.top_growth_companies
+
+The modules can be chained with Ticker as below.
+
+import yfinance as yf
+# Ticker to Sector and Industry
+msft = yf.Ticker('MSFT')
+tech = yf.Sector(msft.info.get('sectorKey'))
+software = yf.Industry(msft.info.get('industryKey'))
+
+# Sector and Industry to Ticker
+tech_ticker = tech.ticker
+tech_ticker.info
+software_ticker = software.ticker
+software_ticker.history()
+
+Sector
+class yfinance.Sector(key, session=None, proxy=<object object>)
+Represents a financial market sector and allows retrieval of sector-related data such as top ETFs, top mutual funds, and industry data.
+
+Parameters
+:
+key (str) – The key representing the sector.
+
+session (requests.Session, optional) – A session for making requests. Defaults to None.
+
+proxy (dict, optional) – A dictionary containing proxy settings for the request. Defaults to None.
+
+See also
+
+Sector.industries
+Map of sector and industry
+
+Attributes
+
+industries
+Gets the industries within the sector.
+
+Returns
+:
+A DataFrame with industries’ key, name, symbol, and market weight.
+
+Return type
+:
+pandas.DataFrame
+
+Permitted Keys/Values
+Key
+
+Values
+
+basic-materials
+
+agricultural-inputs
+
+aluminum
+
+building-materials
+
+chemicals
+
+coking-coal
+
+copper
+
+gold
+
+lumber-wood-production
+
+other-industrial-metals-mining
+
+other-precious-metals-mining
+
+paper-paper-products
+
+silver
+
+specialty-chemicals
+
+steel
+
+communication-services
+
+advertising-agencies
+
+broadcasting
+
+electronic-gaming-multimedia
+
+entertainment
+
+internet-content-information
+
+publishing
+
+telecom-services
+
+consumer-cyclical
+
+apparel-manufacturing
+
+apparel-retail
+
+auto-manufacturers
+
+auto-parts
+
+auto-truck-dealerships
+
+department-stores
+
+footwear-accessories
+
+furnishings-fixtures-appliances
+
+gambling
+
+home-improvement-retail
+
+internet-retail
+
+leisure
+
+lodging
+
+luxury-goods
+
+packaging-containers
+
+personal-services
+
+recreational-vehicles
+
+residential-construction
+
+resorts-casinos
+
+restaurants
+
+specialty-retail
+
+textile-manufacturing
+
+travel-services
+
+consumer-defensive
+
+beverages-brewers
+
+beverages-non-alcoholic
+
+beverages-wineries-distilleries
+
+confectioners
+
+discount-stores
+
+education-training-services
+
+farm-products
+
+food-distribution
+
+grocery-stores
+
+household-personal-products
+
+packaged-foods
+
+tobacco
+
+energy
+
+oil-gas-drilling
+
+oil-gas-e-p
+
+oil-gas-equipment-services
+
+oil-gas-integrated
+
+oil-gas-midstream
+
+oil-gas-refining-marketing
+
+thermal-coal
+
+uranium
+
+financial-services
+
+asset-management
+
+banks-diversified
+
+banks-regional
+
+capital-markets
+
+credit-services
+
+financial-conglomerates
+
+financial-data-stock-exchanges
+
+insurance-brokers
+
+insurance-diversified
+
+insurance-life
+
+insurance-property-casualty
+
+insurance-reinsurance
+
+insurance-specialty
+
+mortgage-finance
+
+shell-companies
+
+healthcare
+
+biotechnology
+
+diagnostics-research
+
+drug-manufacturers-general
+
+drug-manufacturers-specialty-generic
+
+health-information-services
+
+healthcare-plans
+
+medical-care-facilities
+
+medical-devices
+
+medical-distribution
+
+medical-instruments-supplies
+
+pharmaceutical-retailers
+
+industrials
+
+aerospace-defense
+
+airlines
+
+airports-air-services
+
+building-products-equipment
+
+business-equipment-supplies
+
+conglomerates
+
+consulting-services
+
+electrical-equipment-parts
+
+engineering-construction
+
+farm-heavy-construction-machinery
+
+industrial-distribution
+
+infrastructure-operations
+
+integrated-freight-logistics
+
+marine-shipping
+
+metal-fabrication
+
+pollution-treatment-controls
+
+railroads
+
+rental-leasing-services
+
+security-protection-services
+
+specialty-business-services
+
+specialty-industrial-machinery
+
+staffing-employment-services
+
+tools-accessories
+
+trucking
+
+waste-management
+
+real-estate
+
+real-estate-development
+
+real-estate-diversified
+
+real-estate-services
+
+reit-diversified
+
+reit-healthcare-facilities
+
+reit-hotel-motel
+
+reit-industrial
+
+reit-mortgage
+
+reit-office
+
+reit-residential
+
+reit-retail
+
+reit-specialty
+
+technology
+
+communication-equipment
+
+computer-hardware
+
+consumer-electronics
+
+electronic-components
+
+electronics-computer-distribution
+
+information-technology-services
+
+scientific-technical-instruments
+
+semiconductor-equipment-materials
+
+semiconductors
+
+software-application
+
+software-infrastructure
+
+solar
+
+utilities
+
+utilities-diversified
+
+utilities-independent-power-producers
+
+utilities-regulated-electric
+
+utilities-regulated-gas
+
+utilities-regulated-water
+
+utilities-renewable
+
+key
+Retrieves the key of the domain entity.
+
+Returns
+:
+The unique key of the domain entity.
+
+Return type
+:
+str
+
+name
+Retrieves the name of the domain entity.
+
+Returns
+:
+The name of the domain entity.
+
+Return type
+:
+str
+
+overview
+Retrieves the overview information of the domain entity.
+
+Returns
+:
+A dictionary containing an overview of the domain entity.
+
+Return type
+:
+Dict
+
+research_reports
+Retrieves research reports related to the domain entity.
+
+Returns
+:
+A list of research reports, where each report is a dictionary with metadata.
+
+Return type
+:
+List[Dict[str, str]]
+
+symbol
+Retrieves the symbol of the domain entity.
+
+Returns
+:
+The symbol representing the domain entity.
+
+Return type
+:
+str
+
+ticker
+Retrieves a Ticker object based on the domain entity’s symbol.
+
+Returns
+:
+A Ticker object associated with the domain entity.
+
+Return type
+:
+Ticker
+
+top_companies
+Retrieves the top companies within the domain entity.
+
+Returns
+:
+A DataFrame containing the top companies in the domain.
+
+Return type
+:
+pandas.DataFrame
+
+top_etfs
+Gets the top ETFs for the sector.
+
+Returns
+:
+A dictionary of ETF symbols and names.
+
+Return type
+:
+Dict[str, str]
+
+top_mutual_funds
+Gets the top mutual funds for the sector.
+
+Returns
+:
+A dictionary of mutual fund symbols and names.
+
+Return type
+:
+Dict[str, str]
+
+Methods
+
+__init__(key, session=None, proxy=<object object>)
+Parameters
+:
+key (str) – The key representing the sector.
+
+session (requests.Session, optional) – A session for making requests. Defaults to None.
+
+proxy (dict, optional) – A dictionary containing proxy settings for the request. Defaults to None.
+
+See also
+
+Sector.industries
+Map of sector and industry
+
+property industries: DataFrame
+Gets the industries within the sector.
+
+Returns
+:
+A DataFrame with industries’ key, name, symbol, and market weight.
+
+Return type
+:
+pandas.DataFrame
+
+Permitted Keys/Values
+Key
+
+Values
+
+basic-materials
+
+agricultural-inputs
+
+aluminum
+
+building-materials
+
+chemicals
+
+coking-coal
+
+copper
+
+gold
+
+lumber-wood-production
+
+other-industrial-metals-mining
+
+other-precious-metals-mining
+
+paper-paper-products
+
+silver
+
+specialty-chemicals
+
+steel
+
+communication-services
+
+advertising-agencies
+
+broadcasting
+
+electronic-gaming-multimedia
+
+entertainment
+
+internet-content-information
+
+publishing
+
+telecom-services
+
+consumer-cyclical
+
+apparel-manufacturing
+
+apparel-retail
+
+auto-manufacturers
+
+auto-parts
+
+auto-truck-dealerships
+
+department-stores
+
+footwear-accessories
+
+furnishings-fixtures-appliances
+
+gambling
+
+home-improvement-retail
+
+internet-retail
+
+leisure
+
+lodging
+
+luxury-goods
+
+packaging-containers
+
+personal-services
+
+recreational-vehicles
+
+residential-construction
+
+resorts-casinos
+
+restaurants
+
+specialty-retail
+
+textile-manufacturing
+
+travel-services
+
+consumer-defensive
+
+beverages-brewers
+
+beverages-non-alcoholic
+
+beverages-wineries-distilleries
+
+confectioners
+
+discount-stores
+
+education-training-services
+
+farm-products
+
+food-distribution
+
+grocery-stores
+
+household-personal-products
+
+packaged-foods
+
+tobacco
+
+energy
+
+oil-gas-drilling
+
+oil-gas-e-p
+
+oil-gas-equipment-services
+
+oil-gas-integrated
+
+oil-gas-midstream
+
+oil-gas-refining-marketing
+
+thermal-coal
+
+uranium
+
+financial-services
+
+asset-management
+
+banks-diversified
+
+banks-regional
+
+capital-markets
+
+credit-services
+
+financial-conglomerates
+
+financial-data-stock-exchanges
+
+insurance-brokers
+
+insurance-diversified
+
+insurance-life
+
+insurance-property-casualty
+
+insurance-reinsurance
+
+insurance-specialty
+
+mortgage-finance
+
+shell-companies
+
+healthcare
+
+biotechnology
+
+diagnostics-research
+
+drug-manufacturers-general
+
+drug-manufacturers-specialty-generic
+
+health-information-services
+
+healthcare-plans
+
+medical-care-facilities
+
+medical-devices
+
+medical-distribution
+
+medical-instruments-supplies
+
+pharmaceutical-retailers
+
+industrials
+
+aerospace-defense
+
+airlines
+
+airports-air-services
+
+building-products-equipment
+
+business-equipment-supplies
+
+conglomerates
+
+consulting-services
+
+electrical-equipment-parts
+
+engineering-construction
+
+farm-heavy-construction-machinery
+
+industrial-distribution
+
+infrastructure-operations
+
+integrated-freight-logistics
+
+marine-shipping
+
+metal-fabrication
+
+pollution-treatment-controls
+
+railroads
+
+rental-leasing-services
+
+security-protection-services
+
+specialty-business-services
+
+specialty-industrial-machinery
+
+staffing-employment-services
+
+tools-accessories
+
+trucking
+
+waste-management
+
+real-estate
+
+real-estate-development
+
+real-estate-diversified
+
+real-estate-services
+
+reit-diversified
+
+reit-healthcare-facilities
+
+reit-hotel-motel
+
+reit-industrial
+
+reit-mortgage
+
+reit-office
+
+reit-residential
+
+reit-retail
+
+reit-specialty
+
+technology
+
+communication-equipment
+
+computer-hardware
+
+consumer-electronics
+
+electronic-components
+
+electronics-computer-distribution
+
+information-technology-services
+
+scientific-technical-instruments
+
+semiconductor-equipment-materials
+
+semiconductors
+
+software-application
+
+software-infrastructure
+
+solar
+
+utilities
+
+utilities-diversified
+
+utilities-independent-power-producers
+
+utilities-regulated-electric
+
+utilities-regulated-gas
+
+utilities-regulated-water
+
+utilities-renewable
+
+property top_etfs: Dict[str, str]
+Gets the top ETFs for the sector.
+
+Returns
+:
+A dictionary of ETF symbols and names.
+
+Return type
+:
+Dict[str, str]
+
+property top_mutual_funds: Dict[str, str]
+Gets the top mutual funds for the sector.
+
+Returns
+:
+A dictionary of mutual fund symbols and names.
+
+Return type
+:
+Dict[str, str]
+
+Industry
+class yfinance.Industry(key, session=None, proxy=<object object>)
+Represents an industry within a sector.
+
+Parameters
+:
+key (str) – The key identifier for the industry.
+
+session (optional) – The session to use for requests.
+
+Attributes
+
+key
+Retrieves the key of the domain entity.
+
+Returns
+:
+The unique key of the domain entity.
+
+Return type
+:
+str
+
+name
+Retrieves the name of the domain entity.
+
+Returns
+:
+The name of the domain entity.
+
+Return type
+:
+str
+
+overview
+Retrieves the overview information of the domain entity.
+
+Returns
+:
+A dictionary containing an overview of the domain entity.
+
+Return type
+:
+Dict
+
+research_reports
+Retrieves research reports related to the domain entity.
+
+Returns
+:
+A list of research reports, where each report is a dictionary with metadata.
+
+Return type
+:
+List[Dict[str, str]]
+
+sector_key
+Returns the sector key of the industry.
+
+Returns
+:
+The sector key.
+
+Return type
+:
+str
+
+sector_name
+Returns the sector name of the industry.
+
+Returns
+:
+The sector name.
+
+Return type
+:
+str
+
+symbol
+Retrieves the symbol of the domain entity.
+
+Returns
+:
+The symbol representing the domain entity.
+
+Return type
+:
+str
+
+ticker
+Retrieves a Ticker object based on the domain entity’s symbol.
+
+Returns
+:
+A Ticker object associated with the domain entity.
+
+Return type
+:
+Ticker
+
+top_companies
+Retrieves the top companies within the domain entity.
+
+Returns
+:
+A DataFrame containing the top companies in the domain.
+
+Return type
+:
+pandas.DataFrame
+
+top_growth_companies
+Returns the top growth companies in the industry.
+
+Returns
+:
+DataFrame containing top growth companies.
+
+Return type
+:
+Optional[pd.DataFrame]
+
+top_performing_companies
+Returns the top performing companies in the industry.
+
+Returns
+:
+DataFrame containing top performing companies.
+
+Return type
+:
+Optional[pd.DataFrame]
+
+Methods
+
+__init__(key, session=None, proxy=<object object>)
+Parameters
+:
+key (str) – The key identifier for the industry.
+
+session (optional) – The session to use for requests.
+
+property sector_key: str
+Returns the sector key of the industry.
+
+Returns
+:
+The sector key.
+
+Return type
+:
+str
+
+property sector_name: str
+Returns the sector name of the industry.
+
+Returns
+:
+The sector name.
+
+Return type
+:
+str
+
+property top_growth_companies: DataFrame | None
+Returns the top growth companies in the industry.
+
+Returns
+:
+DataFrame containing top growth companies.
+
+Return type
+:
+Optional[pd.DataFrame]
+
+property top_performing_companies: DataFrame | None
+Returns the top performing companies in the industry.
+
+Returns
+:
+DataFrame containing top performing companies.
+
+Return type
+:
+Optional[pd.DataFrame]
+
+Screener & Query
+Query Market Data
+The Sector and Industry modules allow you to access the sector and industry information.
+
+EquityQuery(operator, operand)
+
+The EquityQuery class constructs filters for stocks based on specific criteria such as region, sector, exchange, and peer group.
+
+FundQuery(operator, operand)
+
+The FundQuery class constructs filters for mutual funds based on specific criteria such as region, sector, exchange, and peer group.
+
+screen(query[, offset, size, count, ...])
+
+Run a screen: predefined query, or custom query.
+
+See also
+
+EquityQuery.valid_fields
+supported operand values for query
+
+EquityQuery.valid_values
+supported EQ query operand parameters
+
+FundQuery.valid_fields
+supported operand values for query
+
+FundQuery.valid_values
+supported EQ query operand parameters
+
+
+EquityQuery
+class yfinance.EquityQuery(operator: str, operand: List[QueryBase] | Tuple[str, Tuple[str | Real, ...]])
+The EquityQuery class constructs filters for stocks based on specific criteria such as region, sector, exchange, and peer group.
+
+Start with value operations: EQ (equals), IS-IN (is in), BTWN (between), GT (greater than), LT (less than), GTE (greater or equal), LTE (less or equal).
+
+Combine them with logical operations: AND, OR.
+
+Example
+
+Predefined Yahoo query aggressive_small_caps:
+
+from yfinance import EquityQuery
+
+EquityQuery('and', [
+    EquityQuery('is-in', ['exchange', 'NMS', 'NYQ']),
+    EquityQuery('lt', ["epsgrowth.lasttwelvemonths", 15])
+])
+Attributes
+
+valid_fields
+Valid operands, grouped by category.
+
+Permitted Keys/Values
+Key
+
+Values
+
+eq_fields
+
+exchange
+
+peer_group
+
+region
+
+sector
+
+price
+
+eodprice
+
+fiftytwowkpercentchange
+
+intradaymarketcap
+
+intradayprice
+
+intradaypricechange
+
+lastclose52weekhigh.lasttwelvemonths
+
+lastclose52weeklow.lasttwelvemonths
+
+lastclosemarketcap.lasttwelvemonths
+
+percentchange
+
+trading
+
+avgdailyvol3m
+
+beta
+
+dayvolume
+
+eodvolume
+
+pctheldinsider
+
+pctheldinst
+
+short_interest
+
+days_to_cover_short.value
+
+short_interest.value
+
+short_interest_percentage_change.value
+
+short_percentage_of_float.value
+
+short_percentage_of_shares_outstanding.value
+
+valuation
+
+bookvalueshare.lasttwelvemonths
+
+lastclosemarketcaptotalrevenue.lasttwelvemonths
+
+lastclosepriceearnings.lasttwelvemonths
+
+lastclosepricetangiblebookvalue.lasttwelvemonths
+
+lastclosetevtotalrevenue.lasttwelvemonths
+
+pegratio_5y
+
+peratio.lasttwelvemonths
+
+pricebookratio.quarterly
+
+profitability
+
+consecutive_years_of_dividend_growth_count
+
+forward_dividend_per_share
+
+forward_dividend_yield
+
+returnonassets.lasttwelvemonths
+
+returnonequity.lasttwelvemonths
+
+returnontotalcapital.lasttwelvemonths
+
+leverage
+
+ebitdainterestexpense.lasttwelvemonths
+
+ebitinterestexpense.lasttwelvemonths
+
+lastclosetevebit.lasttwelvemonths
+
+lastclosetevebitda.lasttwelvemonths
+
+ltdebtequity.lasttwelvemonths
+
+netdebtebitda.lasttwelvemonths
+
+totaldebtebitda.lasttwelvemonths
+
+totaldebtequity.lasttwelvemonths
+
+liquidity
+
+altmanzscoreusingtheaveragestockinformationforaperiod.lasttwelvemonths
+
+currentratio.lasttwelvemonths
+
+operatingcashflowtocurrentliabilities.lasttwelvemonths
+
+quickratio.lasttwelvemonths
+
+income_statement
+
+basicepscontinuingoperations.lasttwelvemonths
+
+dilutedeps1yrgrowth.lasttwelvemonths
+
+dilutedepscontinuingoperations.lasttwelvemonths
+
+ebit.lasttwelvemonths
+
+ebitda.lasttwelvemonths
+
+ebitda1yrgrowth.lasttwelvemonths
+
+ebitdamargin.lasttwelvemonths
+
+epsgrowth.lasttwelvemonths
+
+grossprofit.lasttwelvemonths
+
+grossprofitmargin.lasttwelvemonths
+
+netepsbasic.lasttwelvemonthsnetepsdiluted.lasttwelvemonths
+
+netincome1yrgrowth.lasttwelvemonths
+
+netincomeis.lasttwelvemonths
+
+netincomemargin.lasttwelvemonths
+
+operatingincome.lasttwelvemonths
+
+quarterlyrevenuegrowth.quarterly
+
+totalrevenues.lasttwelvemonths
+
+totalrevenues1yrgrowth.lasttwelvemonths
+
+balance_sheet
+
+totalassets.lasttwelvemonths
+
+totalcashandshortterminvestments.lasttwelvemonths
+
+totalcommonequity.lasttwelvemonths
+
+totalcommonsharesoutstanding.lasttwelvemonths
+
+totalcurrentassets.lasttwelvemonths
+
+totalcurrentliabilities.lasttwelvemonths
+
+totaldebt.lasttwelvemonths
+
+totalequity.lasttwelvemonths
+
+totalsharesoutstanding
+
+cash_flow
+
+capitalexpenditure.lasttwelvemonths
+
+cashfromoperations.lasttwelvemonths
+
+cashfromoperations1yrgrowth.lasttwelvemonths
+
+forward_dividend_yield
+
+leveredfreecashflow.lasttwelvemonths
+
+leveredfreecashflow1yrgrowth.lasttwelvemonths
+
+unleveredfreecashflow.lasttwelvemonths
+
+esg
+
+environmental_score
+
+esg_score
+
+governance_score
+
+highest_controversy
+
+social_score
+
+valid_values
+Most operands take number values, but some have a restricted set of valid values.
+
+Permitted Keys/Values
+Key
+
+Values
+
+region
+
+ar, at, au, be, br, ca, ch, cl, cn, co, cz, de, dk, ee, eg, es, fi, fr, gb, gr, hk, hu, id, ie, il, in, is, it, jp, kr, kw, lk, lt, lv, mx, my, nl, no, nz, pe, ph, pk, pl, pt, qa, ro, ru, sa, se, sg, sr, th, tr, tw, us, ve, vn, za
+
+exchange
+
+ar: BUE. at: VIE. au: ASX. be: BRU
+br: SAO. ca: CNQ, NEO, TOR, VAN
+ch: EBS. cl: SGO. cn: SHH, SHZ
+co: BVC. cz: PRA
+de: BER, DUS, FRA, GER, HAM, MUN, STU
+dk: CPH. ee: TAL. eg: CAI. es: MCE
+fi: HEL. fr: PAR. gb: AQS, IOB, LSE
+gr: ATH. hk: HKG. hu: BUD. id: JKT
+ie: ISE. il: TLV. in: BSE, NSI
+is: ICE. it: MIL. jp: FKA, JPX, SAP
+kr: KOE, KSC. kw: KUW. lk:
+lt: LIT. lv: RIS. mx: MEX. my: KLS
+nl: AMS. no: OSL. nz: NZE. pe:
+ph: PHP, PHS. pk: . pl: WSE
+pt: LIS. qa: DOH. ro: BVB. ru:
+sa: SAU. se: STO. sg: SES. sr:
+th: SET. tr: IST. tw: TAI, TWO
+us: ASE, BTS, CXI, NCM, NGM, NMS, NYQ, OEM, OQB, OQX, PCX, PNK, YHD
+ve: CCS. vn: . za: JNB
+sector
+
+Basic Materials
+
+Communication Services
+
+Consumer Cyclical
+
+Consumer Defensive
+
+Energy
+
+Financial Services
+
+Healthcare
+
+Industrials
+
+Real Estate
+
+Technology
+
+Utilities
+
+peer_group
+
+Aerospace & Defense
+
+Auto Components
+
+Automobiles
+
+Banks
+
+Building Products
+
+Chemicals
+
+China Fund Aggressive Allocation Fund
+
+China Fund Equity Funds
+
+China Fund QDII Greater China Equity
+
+China Fund QDII Sector Equity
+
+China Fund Sector Equity Financial and Real Estate
+
+Commercial Services
+
+Construction & Engineering
+
+Construction Materials
+
+Consumer Durables
+
+Consumer Services
+
+Containers & Packaging
+
+Diversified Financials
+
+Diversified Metals
+
+EAA CE Global Large-Cap Blend Equity
+
+EAA CE Other
+
+EAA CE Sector Equity Biotechnology
+
+EAA CE UK Large-Cap Equity
+
+EAA CE UK Small-Cap Equity
+
+EAA Fund Asia ex-Japan Equity
+
+EAA Fund China Equity
+
+EAA Fund China Equity - A Shares
+
+EAA Fund Denmark Equity
+
+EAA Fund EUR Aggressive Allocation - Global
+
+EAA Fund EUR Corporate Bond
+
+EAA Fund EUR Moderate Allocation - Global
+
+EAA Fund Emerging Europe ex-Russia Equity
+
+EAA Fund Europe Large-Cap Blend Equity
+
+EAA Fund Eurozone Large-Cap Equity
+
+EAA Fund Germany Equity
+
+EAA Fund Global Emerging Markets Equity
+
+EAA Fund Global Equity Income
+
+EAA Fund Global Flex-Cap Equity
+
+EAA Fund Global Large-Cap Blend Equity
+
+EAA Fund Global Large-Cap Growth Equity
+
+EAA Fund Hong Kong Equity
+
+EAA Fund Japan Large-Cap Equity
+
+EAA Fund Other Bond
+
+EAA Fund Other Equity
+
+EAA Fund RMB Bond - Onshore
+
+EAA Fund Sector Equity Consumer Goods & Services
+
+EAA Fund Sector Equity Financial Services
+
+EAA Fund Sector Equity Industrial Materials
+
+EAA Fund Sector Equity Technology
+
+EAA Fund South Africa & Namibia Equity
+
+EAA Fund Switzerland Equity
+
+EAA Fund US Large-Cap Blend Equity
+
+EAA Fund USD Corporate Bond
+
+Electrical Equipment
+
+Energy Services
+
+Food Products
+
+Food Retailers
+
+Healthcare
+
+Homebuilders
+
+Household Products
+
+India CE Multi-Cap
+
+India Fund Large-Cap
+
+India Fund Sector - Financial Services
+
+Industrial Conglomerates
+
+Insurance
+
+Machinery
+
+Media
+
+Mexico Fund Mexico Equity
+
+Oil & Gas Producers
+
+Paper & Forestry
+
+Pharmaceuticals
+
+Precious Metals
+
+Real Estate
+
+Refiners & Pipelines
+
+Retailing
+
+Semiconductors
+
+Software & Services
+
+Steel
+
+Technology Hardware
+
+Telecommunication Services
+
+Textiles & Apparel
+
+Traders & Distributors
+
+Transportation
+
+Transportation Infrastructure
+
+US CE Convertibles
+
+US CE Options-based
+
+US CE Preferred Stock
+
+US Fund China Region
+
+US Fund Consumer Cyclical
+
+US Fund Diversified Emerging Mkts
+
+US Fund Equity Energy
+
+US Fund Equity Precious Metals
+
+US Fund Financial
+
+US Fund Foreign Large Blend
+
+US Fund Health
+
+US Fund Large Blend
+
+US Fund Large Growth
+
+US Fund Large Value
+
+US Fund Miscellaneous Region
+
+US Fund Natural Resources
+
+US Fund Technology
+
+US Fund Trading–Leveraged Equity
+
+Utilities
+
+Methods
+
+__init__(operator: str, operand: List[QueryBase] | Tuple[str, Tuple[str | Real, ...]])
+to_dict() → Dict
+property valid_fields: Dict
+Valid operands, grouped by category.
+
+Permitted Keys/Values
+Key
+
+Values
+
+eq_fields
+
+exchange
+
+peer_group
+
+region
+
+sector
+
+price
+
+eodprice
+
+fiftytwowkpercentchange
+
+intradaymarketcap
+
+intradayprice
+
+intradaypricechange
+
+lastclose52weekhigh.lasttwelvemonths
+
+lastclose52weeklow.lasttwelvemonths
+
+lastclosemarketcap.lasttwelvemonths
+
+percentchange
+
+trading
+
+avgdailyvol3m
+
+beta
+
+dayvolume
+
+eodvolume
+
+pctheldinsider
+
+pctheldinst
+
+short_interest
+
+days_to_cover_short.value
+
+short_interest.value
+
+short_interest_percentage_change.value
+
+short_percentage_of_float.value
+
+short_percentage_of_shares_outstanding.value
+
+valuation
+
+bookvalueshare.lasttwelvemonths
+
+lastclosemarketcaptotalrevenue.lasttwelvemonths
+
+lastclosepriceearnings.lasttwelvemonths
+
+lastclosepricetangiblebookvalue.lasttwelvemonths
+
+lastclosetevtotalrevenue.lasttwelvemonths
+
+pegratio_5y
+
+peratio.lasttwelvemonths
+
+pricebookratio.quarterly
+
+profitability
+
+consecutive_years_of_dividend_growth_count
+
+forward_dividend_per_share
+
+forward_dividend_yield
+
+returnonassets.lasttwelvemonths
+
+returnonequity.lasttwelvemonths
+
+returnontotalcapital.lasttwelvemonths
+
+leverage
+
+ebitdainterestexpense.lasttwelvemonths
+
+ebitinterestexpense.lasttwelvemonths
+
+lastclosetevebit.lasttwelvemonths
+
+lastclosetevebitda.lasttwelvemonths
+
+ltdebtequity.lasttwelvemonths
+
+netdebtebitda.lasttwelvemonths
+
+totaldebtebitda.lasttwelvemonths
+
+totaldebtequity.lasttwelvemonths
+
+liquidity
+
+altmanzscoreusingtheaveragestockinformationforaperiod.lasttwelvemonths
+
+currentratio.lasttwelvemonths
+
+operatingcashflowtocurrentliabilities.lasttwelvemonths
+
+quickratio.lasttwelvemonths
+
+income_statement
+
+basicepscontinuingoperations.lasttwelvemonths
+
+dilutedeps1yrgrowth.lasttwelvemonths
+
+dilutedepscontinuingoperations.lasttwelvemonths
+
+ebit.lasttwelvemonths
+
+ebitda.lasttwelvemonths
+
+ebitda1yrgrowth.lasttwelvemonths
+
+ebitdamargin.lasttwelvemonths
+
+epsgrowth.lasttwelvemonths
+
+grossprofit.lasttwelvemonths
+
+grossprofitmargin.lasttwelvemonths
+
+netepsbasic.lasttwelvemonthsnetepsdiluted.lasttwelvemonths
+
+netincome1yrgrowth.lasttwelvemonths
+
+netincomeis.lasttwelvemonths
+
+netincomemargin.lasttwelvemonths
+
+operatingincome.lasttwelvemonths
+
+quarterlyrevenuegrowth.quarterly
+
+totalrevenues.lasttwelvemonths
+
+totalrevenues1yrgrowth.lasttwelvemonths
+
+balance_sheet
+
+totalassets.lasttwelvemonths
+
+totalcashandshortterminvestments.lasttwelvemonths
+
+totalcommonequity.lasttwelvemonths
+
+totalcommonsharesoutstanding.lasttwelvemonths
+
+totalcurrentassets.lasttwelvemonths
+
+totalcurrentliabilities.lasttwelvemonths
+
+totaldebt.lasttwelvemonths
+
+totalequity.lasttwelvemonths
+
+totalsharesoutstanding
+
+cash_flow
+
+capitalexpenditure.lasttwelvemonths
+
+cashfromoperations.lasttwelvemonths
+
+cashfromoperations1yrgrowth.lasttwelvemonths
+
+forward_dividend_yield
+
+leveredfreecashflow.lasttwelvemonths
+
+leveredfreecashflow1yrgrowth.lasttwelvemonths
+
+unleveredfreecashflow.lasttwelvemonths
+
+esg
+
+environmental_score
+
+esg_score
+
+governance_score
+
+highest_controversy
+
+social_score
+
+property valid_values: Dict
+Most operands take number values, but some have a restricted set of valid values.
+
+Permitted Keys/Values
+Key
+
+Values
+
+region
+
+ar, at, au, be, br, ca, ch, cl, cn, co, cz, de, dk, ee, eg, es, fi, fr, gb, gr, hk, hu, id, ie, il, in, is, it, jp, kr, kw, lk, lt, lv, mx, my, nl, no, nz, pe, ph, pk, pl, pt, qa, ro, ru, sa, se, sg, sr, th, tr, tw, us, ve, vn, za
+
+exchange
+
+ar: BUE. at: VIE. au: ASX. be: BRU
+br: SAO. ca: CNQ, NEO, TOR, VAN
+ch: EBS. cl: SGO. cn: SHH, SHZ
+co: BVC. cz: PRA
+de: BER, DUS, FRA, GER, HAM, MUN, STU
+dk: CPH. ee: TAL. eg: CAI. es: MCE
+fi: HEL. fr: PAR. gb: AQS, IOB, LSE
+gr: ATH. hk: HKG. hu: BUD. id: JKT
+ie: ISE. il: TLV. in: BSE, NSI
+is: ICE. it: MIL. jp: FKA, JPX, SAP
+kr: KOE, KSC. kw: KUW. lk:
+lt: LIT. lv: RIS. mx: MEX. my: KLS
+nl: AMS. no: OSL. nz: NZE. pe:
+ph: PHP, PHS. pk: . pl: WSE
+pt: LIS. qa: DOH. ro: BVB. ru:
+sa: SAU. se: STO. sg: SES. sr:
+th: SET. tr: IST. tw: TAI, TWO
+us: ASE, BTS, CXI, NCM, NGM, NMS, NYQ, OEM, OQB, OQX, PCX, PNK, YHD
+ve: CCS. vn: . za: JNB
+sector
+
+Basic Materials
+
+Communication Services
+
+Consumer Cyclical
+
+Consumer Defensive
+
+Energy
+
+Financial Services
+
+Healthcare
+
+Industrials
+
+Real Estate
+
+Technology
+
+Utilities
+
+peer_group
+
+Aerospace & Defense
+
+Auto Components
+
+Automobiles
+
+Banks
+
+Building Products
+
+Chemicals
+
+China Fund Aggressive Allocation Fund
+
+China Fund Equity Funds
+
+China Fund QDII Greater China Equity
+
+China Fund QDII Sector Equity
+
+China Fund Sector Equity Financial and Real Estate
+
+Commercial Services
+
+Construction & Engineering
+
+Construction Materials
+
+Consumer Durables
+
+Consumer Services
+
+Containers & Packaging
+
+Diversified Financials
+
+Diversified Metals
+
+EAA CE Global Large-Cap Blend Equity
+
+EAA CE Other
+
+EAA CE Sector Equity Biotechnology
+
+EAA CE UK Large-Cap Equity
+
+EAA CE UK Small-Cap Equity
+
+EAA Fund Asia ex-Japan Equity
+
+EAA Fund China Equity
+
+EAA Fund China Equity - A Shares
+
+EAA Fund Denmark Equity
+
+EAA Fund EUR Aggressive Allocation - Global
+
+EAA Fund EUR Corporate Bond
+
+EAA Fund EUR Moderate Allocation - Global
+
+EAA Fund Emerging Europe ex-Russia Equity
+
+EAA Fund Europe Large-Cap Blend Equity
+
+EAA Fund Eurozone Large-Cap Equity
+
+EAA Fund Germany Equity
+
+EAA Fund Global Emerging Markets Equity
+
+EAA Fund Global Equity Income
+
+EAA Fund Global Flex-Cap Equity
+
+EAA Fund Global Large-Cap Blend Equity
+
+EAA Fund Global Large-Cap Growth Equity
+
+EAA Fund Hong Kong Equity
+
+EAA Fund Japan Large-Cap Equity
+
+EAA Fund Other Bond
+
+EAA Fund Other Equity
+
+EAA Fund RMB Bond - Onshore
+
+EAA Fund Sector Equity Consumer Goods & Services
+
+EAA Fund Sector Equity Financial Services
+
+EAA Fund Sector Equity Industrial Materials
+
+EAA Fund Sector Equity Technology
+
+EAA Fund South Africa & Namibia Equity
+
+EAA Fund Switzerland Equity
+
+EAA Fund US Large-Cap Blend Equity
+
+EAA Fund USD Corporate Bond
+
+Electrical Equipment
+
+Energy Services
+
+Food Products
+
+Food Retailers
+
+Healthcare
+
+Homebuilders
+
+Household Products
+
+India CE Multi-Cap
+
+India Fund Large-Cap
+
+India Fund Sector - Financial Services
+
+Industrial Conglomerates
+
+Insurance
+
+Machinery
+
+Media
+
+Mexico Fund Mexico Equity
+
+Oil & Gas Producers
+
+Paper & Forestry
+
+Pharmaceuticals
+
+Precious Metals
+
+Real Estate
+
+Refiners & Pipelines
+
+Retailing
+
+Semiconductors
+
+Software & Services
+
+Steel
+
+Technology Hardware
+
+Telecommunication Services
+
+Textiles & Apparel
+
+Traders & Distributors
+
+Transportation
+
+Transportation Infrastructure
+
+US CE Convertibles
+
+US CE Options-based
+
+US CE Preferred Stock
+
+US Fund China Region
+
+US Fund Consumer Cyclical
+
+US Fund Diversified Emerging Mkts
+
+US Fund Equity Energy
+
+US Fund Equity Precious Metals
+
+US Fund Financial
+
+US Fund Foreign Large Blend
+
+US Fund Health
+
+US Fund Large Blend
+
+US Fund Large Growth
+
+US Fund Large Value
+
+US Fund Miscellaneous Region
+
+US Fund Natural Resources
+
+US Fund Technology
+
+US Fund Trading–Leveraged Equity
+
+Utilities
+
+
+
+
+FundQuery
+class yfinance.FundQuery(operator: str, operand: List[QueryBase] | Tuple[str, Tuple[str | Real, ...]])
+The FundQuery class constructs filters for mutual funds based on specific criteria such as region, sector, exchange, and peer group.
+
+Start with value operations: EQ (equals), IS-IN (is in), BTWN (between), GT (greater than), LT (less than), GTE (greater or equal), LTE (less or equal).
+
+Combine them with logical operations: AND, OR.
+
+Example
+
+Predefined Yahoo query solid_large_growth_funds:
+
+from yfinance import FundQuery
+
+FundQuery('and', [
+    FundQuery('eq', ['categoryname', 'Large Growth']),
+    FundQuery('is-in', ['performanceratingoverall', 4, 5]),
+    FundQuery('lt', ['initialinvestment', 100001]),
+    FundQuery('lt', ['annualreturnnavy1categoryrank', 50]),
+    FundQuery('eq', ['exchange', 'NAS'])
+])
+Attributes
+
+valid_fields
+Valid operands, grouped by category.
+
+Permitted Keys/Values
+Key
+
+Values
+
+eq_fields
+
+annualreturnnavy1categoryrank
+
+categoryname
+
+exchange
+
+initialinvestment
+
+performanceratingoverall
+
+riskratingoverall
+
+price
+
+eodprice
+
+intradayprice
+
+intradaypricechange
+
+valid_values
+Most operands take number values, but some have a restricted set of valid values.
+
+Permitted Keys/Values
+Key
+
+Values
+
+exchange
+
+us: NAS
+
+Methods
+
+__init__(operator: str, operand: List[QueryBase] | Tuple[str, Tuple[str | Real, ...]])
+to_dict() → Dict
+property valid_fields: Dict
+Valid operands, grouped by category.
+
+Permitted Keys/Values
+Key
+
+Values
+
+eq_fields
+
+annualreturnnavy1categoryrank
+
+categoryname
+
+exchange
+
+initialinvestment
+
+performanceratingoverall
+
+riskratingoverall
+
+price
+
+eodprice
+
+intradayprice
+
+intradaypricechange
+
+property valid_values: Dict
+Most operands take number values, but some have a restricted set of valid values.
+
+Permitted Keys/Values
+Key
+
+Values
+
+exchange
+
+us: NAS
+
+yfinance.screen
+yfinance.screen(query: str | ~yfinance.screener.query.EquityQuery | ~yfinance.screener.query.FundQuery, offset: int = None, size: int = None, count: int = None, sortField: str = None, sortAsc: bool = None, userId: str = None, userIdType: str = None, session=None, proxy=<object object>)
+Run a screen: predefined query, or custom query.
+
+Parameters:
+Defaults only apply if query = EquityQuery or FundQuery
+
+query
+str | Query:
+The query to execute, either name of predefined or custom query. For predefined list run yf.PREDEFINED_SCREENER_QUERIES.keys()
+
+offset
+int
+The offset for the results. Default 0.
+
+size
+int
+number of results to return. Default 100, maximum 250 (Yahoo) Use count instead for predefined queries.
+
+count
+int
+number of results to return. Default 25, maximum 250 (Yahoo) Use size instead for custom queries.
+
+sortField
+str
+field to sort by. Default “ticker”
+
+sortAsc
+bool
+Sort ascending? Default False
+
+userId
+str
+The user ID. Default empty.
+
+userIdType
+str
+Type of user ID (e.g., “guid”). Default “guid”.
+
+Example: predefined query
+import yfinance as yf
+response = yf.screen("aggressive_small_caps")
+Example: custom query
+import yfinance as yf
+from yfinance import EquityQuery
+q = EquityQuery('and', [
+       EquityQuery('gt', ['percentchange', 3]),
+       EquityQuery('eq', ['region', 'us'])
+])
+response = yf.screen(q, sortField = 'percentchange', sortAsc = True)
+To access predefineds query code
+import yfinance as yf
+query = yf.PREDEFINED_SCREENER_QUERIES['aggressive_small_caps']
+Predefined queries (Dec-2024)
+Key
+
+Values
+
+aggressive_small_caps
+
+query:
+EquityQuery(AND, [
+EquityQuery(IS-IN, [‘exchange’, ‘NMS’, ‘NYQ’]),
+EquityQuery(LT, [‘epsgrowth.lasttwelvemonths’, 15])
+])
+sortField: eodvolume
+sortType: desc
+day_gainers
+
+query:
+EquityQuery(AND, [
+EquityQuery(GT, [‘percentchange’, 3]),
+EquityQuery(EQ, [‘region’, ‘us’]),
+EquityQuery(GTE, [‘intradaymarketcap’, 2000000000]),
+EquityQuery(GTE, [‘intradayprice’, 5]),
+EquityQuery(GT, [‘dayvolume’, 15000])
+])
+sortField: percentchange
+sortType: DESC
+day_losers
+
+query:
+EquityQuery(AND, [
+EquityQuery(LT, [‘percentchange’, -2.5]),
+EquityQuery(EQ, [‘region’, ‘us’]),
+EquityQuery(GTE, [‘intradaymarketcap’, 2000000000]),
+EquityQuery(GTE, [‘intradayprice’, 5]),
+EquityQuery(GT, [‘dayvolume’, 20000])
+])
+sortField: percentchange
+sortType: ASC
+growth_technology_stocks
+
+query:
+EquityQuery(AND, [
+EquityQuery(GTE, [‘quarterlyrevenuegrowth.quarterly’, 25]),
+EquityQuery(GTE, [‘epsgrowth.lasttwelvemonths’, 25]),
+EquityQuery(EQ, [‘sector’, ‘Technology’]),
+EquityQuery(IS-IN, [‘exchange’, ‘NMS’, ‘NYQ’])
+])
+sortField: eodvolume
+sortType: desc
+most_actives
+
+query:
+EquityQuery(AND, [
+EquityQuery(EQ, [‘region’, ‘us’]),
+EquityQuery(GTE, [‘intradaymarketcap’, 2000000000]),
+EquityQuery(GT, [‘dayvolume’, 5000000])
+])
+sortField: dayvolume
+sortType: DESC
+most_shorted_stocks
+
+count: 25
+offset: 0
+query:
+EquityQuery(AND, [
+EquityQuery(EQ, [‘region’, ‘us’]),
+EquityQuery(GT, [‘intradayprice’, 1]),
+EquityQuery(GT, [‘avgdailyvol3m’, 200000])
+])
+sortField: short_percentage_of_shares_outstanding.value
+sortType: DESC
+small_cap_gainers
+
+query:
+EquityQuery(AND, [
+EquityQuery(LT, [‘intradaymarketcap’, 2000000000]),
+EquityQuery(IS-IN, [‘exchange’, ‘NMS’, ‘NYQ’])
+])
+sortField: eodvolume
+sortType: desc
+undervalued_growth_stocks
+
+query:
+EquityQuery(AND, [
+EquityQuery(BTWN, [‘peratio.lasttwelvemonths’, 0, 20]),
+EquityQuery(LT, [‘pegratio_5y’, 1]),
+EquityQuery(GTE, [‘epsgrowth.lasttwelvemonths’, 25]),
+EquityQuery(IS-IN, [‘exchange’, ‘NMS’, ‘NYQ’])
+])
+sortField: eodvolume
+sortType: DESC
+undervalued_large_caps
+
+query:
+EquityQuery(AND, [
+EquityQuery(BTWN, [‘peratio.lasttwelvemonths’, 0, 20]),
+EquityQuery(LT, [‘pegratio_5y’, 1]),
+EquityQuery(BTWN, [‘intradaymarketcap’, 10000000000, 100000000000]),
+EquityQuery(IS-IN, [‘exchange’, ‘NMS’, ‘NYQ’])
+])
+sortField: eodvolume
+sortType: desc
+conservative_foreign_funds
+
+query:
+FundQuery(AND, [
+FundQuery(IS-IN, [‘categoryname’, ‘Foreign Large Value’, ‘Foreign Large Blend’, ‘Foreign Large Growth’, ‘Foreign Small/Mid Growth’, ‘Foreign Small/Mid Blend’, ‘Foreign Small/Mid Value’]),
+FundQuery(IS-IN, [‘performanceratingoverall’, 4, 5]),
+FundQuery(LT, [‘initialinvestment’, 100001]),
+FundQuery(LT, [‘annualreturnnavy1categoryrank’, 50]),
+FundQuery(IS-IN, [‘riskratingoverall’, 1, 2, 3]),
+FundQuery(EQ, [‘exchange’, ‘NAS’])
+])
+sortField: fundnetassets
+sortType: DESC
+high_yield_bond
+
+query:
+FundQuery(AND, [
+FundQuery(IS-IN, [‘performanceratingoverall’, 4, 5]),
+FundQuery(LT, [‘initialinvestment’, 100001]),
+FundQuery(LT, [‘annualreturnnavy1categoryrank’, 50]),
+FundQuery(IS-IN, [‘riskratingoverall’, 1, 2, 3]),
+FundQuery(EQ, [‘categoryname’, ‘High Yield Bond’]),
+FundQuery(EQ, [‘exchange’, ‘NAS’])
+])
+sortField: fundnetassets
+sortType: DESC
+portfolio_anchors
+
+query:
+FundQuery(AND, [
+FundQuery(EQ, [‘categoryname’, ‘Large Blend’]),
+FundQuery(IS-IN, [‘performanceratingoverall’, 4, 5]),
+FundQuery(LT, [‘initialinvestment’, 100001]),
+FundQuery(LT, [‘annualreturnnavy1categoryrank’, 50]),
+FundQuery(EQ, [‘exchange’, ‘NAS’])
+])
+sortField: fundnetassets
+sortType: DESC
+solid_large_growth_funds
+
+query:
+FundQuery(AND, [
+FundQuery(EQ, [‘categoryname’, ‘Large Growth’]),
+FundQuery(IS-IN, [‘performanceratingoverall’, 4, 5]),
+FundQuery(LT, [‘initialinvestment’, 100001]),
+FundQuery(LT, [‘annualreturnnavy1categoryrank’, 50]),
+FundQuery(EQ, [‘exchange’, ‘NAS’])
+])
+sortField: fundnetassets
+sortType: DESC
+solid_midcap_growth_funds
+
+query:
+FundQuery(AND, [
+FundQuery(EQ, [‘categoryname’, ‘Mid-Cap Growth’]),
+FundQuery(IS-IN, [‘performanceratingoverall’, 4, 5]),
+FundQuery(LT, [‘initialinvestment’, 100001]),
+FundQuery(LT, [‘annualreturnnavy1categoryrank’, 50]),
+FundQuery(EQ, [‘exchange’, ‘NAS’])
+])
+sortField: fundnetassets
+sortType: DESC
+top_mutual_funds
+
+query:
+FundQuery(AND, [
+FundQuery(GT, [‘intradayprice’, 15]),
+FundQuery(IS-IN, [‘performanceratingoverall’, 4, 5]),
+FundQuery(GT, [‘initialinvestment’, 1000]),
+FundQuery(EQ, [‘exchange’, ‘NAS’])
+])
+sortField: percentchange
+sortType: DESC
+
+
+
+Functions and Utilities
+Download Market Data
+The download function allows you to retrieve market data for multiple tickers at once.
+
+download(tickers[, start, end, actions, ...])
+
+Download yahoo tickers :Parameters: tickers : str, list List of tickers to download period : str Valid periods: 1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max Default: 1mo Either Use period parameter or use start and end interval : str Valid intervals: 1m,2m,5m,15m,30m,60m,90m,1h,1d,5d,1wk,1mo,3mo Intraday data cannot extend last 60 days start: str Download start date string (YYYY-MM-DD) or _datetime, inclusive. Default is 99 years ago E.g. for start="2020-01-01", the first data point will be on "2020-01-01" end: str Download end date string (YYYY-MM-DD) or _datetime, exclusive. Default is now E.g. for end="2023-01-01", the last data point will be on "2022-12-31" group_by : str Group by 'ticker' or 'column' (default) prepost : bool Include Pre and Post market data in results? Default is False auto_adjust: bool Adjust all OHLC automatically? Default is True repair: bool Detect currency unit 100x mixups and attempt repair Default is False keepna: bool Keep NaN rows returned by Yahoo? Default is False actions: bool Download dividend + stock splits data. Default is False threads: bool / int How many threads to use for mass downloading. Default is True ignore_tz: bool When combining from different timezones, ignore that part of datetime. Default depends on interval. Intraday = False. Day+ = True. rounding: bool Optional. Round values to 2 decimal places? timeout: None or float If not None stops waiting for a response after given number of seconds. (Can also be a fraction of a second e.g. 0.01) session: None or Session Optional. Pass your own session object to be used for all requests multi_level_index: bool Optional. Always return a MultiIndex DataFrame? Default is True.
+
+Enable Debug Mode
+Enables logging of debug information for the yfinance package.
+
+enable_debug_mode()
+
+Set Timezone Cache Location
+Sets the cache location for timezone data.
+
+set_tz_cache_location(cache_dir)
+
+yfinance.download
+yfinance.download(tickers, start=None, end=None, actions=False, threads=True, ignore_tz=None, group_by='column', auto_adjust=None, back_adjust=False, repair=False, keepna=False, progress=True, period=None, interval='1d', prepost=False, proxy=<object object>, rounding=False, timeout=10, session=None, multi_level_index=True) → DataFrame | None
+Download yahoo tickers :Parameters:
+
+tickersstr, list
+List of tickers to download
+
+periodstr
+Valid periods: 1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max Default: 1mo Either Use period parameter or use start and end
+
+intervalstr
+Valid intervals: 1m,2m,5m,15m,30m,60m,90m,1h,1d,5d,1wk,1mo,3mo Intraday data cannot extend last 60 days
+
+start: str
+Download start date string (YYYY-MM-DD) or _datetime, inclusive. Default is 99 years ago E.g. for start=”2020-01-01”, the first data point will be on “2020-01-01”
+
+end: str
+Download end date string (YYYY-MM-DD) or _datetime, exclusive. Default is now E.g. for end=”2023-01-01”, the last data point will be on “2022-12-31”
+
+group_bystr
+Group by ‘ticker’ or ‘column’ (default)
+
+prepostbool
+Include Pre and Post market data in results? Default is False
+
+auto_adjust: bool
+Adjust all OHLC automatically? Default is True
+
+repair: bool
+Detect currency unit 100x mixups and attempt repair Default is False
+
+keepna: bool
+Keep NaN rows returned by Yahoo? Default is False
+
+actions: bool
+Download dividend + stock splits data. Default is False
+
+threads: bool / int
+How many threads to use for mass downloading. Default is True
+
+ignore_tz: bool
+When combining from different timezones, ignore that part of datetime. Default depends on interval. Intraday = False. Day+ = True.
+
+rounding: bool
+Optional. Round values to 2 decimal places?
+
+timeout: None or float
+If not None stops waiting for a response after given number of seconds. (Can also be a fraction of a second e.g. 0.01)
+
+session: None or Session
+Optional. Pass your own session object to be used for all requests
+
+multi_level_index: bool
+Optional. Always return a MultiIndex DataFrame? Default is True 
+
+yfinance.enable_debug_mode
+yfinance.enable_debug_mode()
+
+yfinance.set_tz_cache_location
+yfinance.set_tz_cache_location(cache_dir: str)
+
+FundsData class
+FundsData(data, symbol[, proxy])
+
+ETF and Mutual Funds Data Queried Modules: quoteType, summaryProfile, fundProfile, topHoldings
+
+FundsData
+class yfinance.scrapers.funds.FundsData(data: ~yfinance.data.YfData, symbol: str, proxy=<object object>)
+ETF and Mutual Funds Data Queried Modules: quoteType, summaryProfile, fundProfile, topHoldings
+
+Notes: - fundPerformance module is not implemented as better data is queryable using history
+
+Parameters
+:
+data (YfData) – The YfData object for fetching data.
+
+symbol (str) – The symbol of the fund.
+
+Attributes
+
+asset_classes
+Returns the asset classes of the fund.
+
+Returns
+:
+The asset classes.
+
+Return type
+:
+Dict[str, float]
+
+bond_holdings
+Returns the bond holdings of the fund.
+
+Returns
+:
+The bond holdings.
+
+Return type
+:
+pd.DataFrame
+
+bond_ratings
+Returns the bond ratings of the fund.
+
+Returns
+:
+The bond ratings.
+
+Return type
+:
+Dict[str, float]
+
+description
+Returns the description of the fund.
+
+Returns
+:
+The description.
+
+Return type
+:
+str
+
+equity_holdings
+Returns the equity holdings of the fund.
+
+Returns
+:
+The equity holdings.
+
+Return type
+:
+pd.DataFrame
+
+fund_operations
+Returns the fund operations.
+
+Returns
+:
+The fund operations.
+
+Return type
+:
+pd.DataFrame
+
+fund_overview
+Returns the fund overview.
+
+Returns
+:
+The fund overview.
+
+Return type
+:
+Dict[str, Optional[str]]
+
+sector_weightings
+Returns the sector weightings of the fund.
+
+Returns
+:
+The sector weightings.
+
+Return type
+:
+Dict[str, float]
+
+top_holdings
+Returns the top holdings of the fund.
+
+Returns
+:
+The top holdings.
+
+Return type
+:
+pd.DataFrame
+
+Methods
+
+__init__(data: ~yfinance.data.YfData, symbol: str, proxy=<object object>)
+Parameters
+:
+data (YfData) – The YfData object for fetching data.
+
+symbol (str) – The symbol of the fund.
+
+quote_type() → str
+Returns the quote type of the fund.
+
+Returns
+:
+The quote type.
+
+Return type
+:
+str
+
+property asset_classes: Dict[str, float]
+Returns the asset classes of the fund.
+
+Returns
+:
+The asset classes.
+
+Return type
+:
+Dict[str, float]
+
+property bond_holdings: DataFrame
+Returns the bond holdings of the fund.
+
+Returns
+:
+The bond holdings.
+
+Return type
+:
+pd.DataFrame
+
+property bond_ratings: Dict[str, float]
+Returns the bond ratings of the fund.
+
+Returns
+:
+The bond ratings.
+
+Return type
+:
+Dict[str, float]
+
+property description: str
+Returns the description of the fund.
+
+Returns
+:
+The description.
+
+Return type
+:
+str
+
+property equity_holdings: DataFrame
+Returns the equity holdings of the fund.
+
+Returns
+:
+The equity holdings.
+
+Return type
+:
+pd.DataFrame
+
+property fund_operations: DataFrame
+Returns the fund operations.
+
+Returns
+:
+The fund operations.
+
+Return type
+:
+pd.DataFrame
+
+property fund_overview: Dict[str, str | None]
+Returns the fund overview.
+
+Returns
+:
+The fund overview.
+
+Return type
+:
+Dict[str, Optional[str]]
+
+quote_type() → str
+Returns the quote type of the fund.
+
+Returns
+:
+The quote type.
+
+Return type
+:
+str
+
+property sector_weightings: Dict[str, float]
+Returns the sector weightings of the fund.
+
+Returns
+:
+The sector weightings.
+
+Return type
+:
+Dict[str, float]
+
+property top_holdings: DataFrame
+Returns the top holdings of the fund.
+
+Returns
+:
+The top holdings.
+
+Return type
+:
+pd.DataFrame 
+PriceHistory class
+class yfinance.scrapers.history.PriceHistory(data, ticker, tz, session=None, proxy=<object object>)
+get_actions(period='max', proxy=<object object>) → Series
+get_capital_gains(period='max', proxy=<object object>) → Series
+get_dividends(period='max', proxy=<object object>) → Series
+get_history_metadata(proxy=<object object>) → dict
+get_splits(period='max', proxy=<object object>) → Series
+history(period=None, interval='1d', start=None, end=None, prepost=False, actions=True, auto_adjust=True, back_adjust=False, repair=False, keepna=False, proxy=<object object>, rounding=False, timeout=10, raise_errors=False) → DataFrame
+Parameters:
+periodstr
+Valid periods: 1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max
+Default: 1mo
+Can combine with start/end e.g. end = start + period
+intervalstr
+Valid intervals: 1m,2m,5m,15m,30m,60m,90m,1h,1d,5d,1wk,1mo,3mo
+Intraday data cannot extend last 60 days
+startstr
+Download start date string (YYYY-MM-DD) or _datetime, inclusive.
+Default: 99 years ago
+E.g. for start=”2020-01-01”, first data point = “2020-01-01”
+endstr
+Download end date string (YYYY-MM-DD) or _datetime, exclusive.
+Default: now
+E.g. for end=”2023-01-01”, last data point = “2022-12-31”
+prepostbool
+Include Pre and Post market data in results?
+Default: False
+auto_adjustbool
+Adjust all OHLC automatically?
+Default: True
+back_adjustbool
+Back-adjusted data to mimic true historical prices
+repairbool
+Fixes price errors in Yahoo data: 100x, missing, bad dividend adjust.
+Default: False
+Full details at: Price Repair.
+keepnabool
+Keep NaN rows returned by Yahoo?
+Default: False
+roundingbool
+Optional: Round values to 2 decimal places?
+Default: False = use precision suggested by Yahoo!
+timeoutNone or float
+Optional: timeout fetches after N seconds
+Default: 10 seconds
+raise_errorsbool
+If True, then raise errors as Exceptions instead of logging.
+
+Development
+yfinance relies on the community to investigate bugs and contribute code. Here’s how you can help:
+
+Code
+Running a branch
+Documentation
+Unit Tests
+
+
+Code
+To support rapid development without breaking stable versions, this project uses a two-layer branch model:
+
+Branching Model
+Inspiration
+
+dev: New features and some bug fixes are merged here. This branch allows collective testing, conflict resolution, and further stabilization before merging into the stable branch.
+
+main: Stable branch where PIP releases are created.
+
+By default, branches target main, but most contributions should target dev.
+
+Exceptions: Direct merges to main are allowed if:
+
+yfinance is massively broken
+
+Part of yfinance is broken, and the fix is simple and isolated
+
+Not updating the code (e.g. docs)
+
+Creating your branch
+Fork the repository on GitHub. If already forked, remember to Sync fork
+
+Clone your forked repository:
+
+git clone https://github.com/{user}/{repo}.git
+Create a new branch for your feature or bug fix, from appropriate base branch:
+
+git checkout {base e.g. dev}
+git pull
+git checkout -b {your branch}
+Make your changes, commit them, and push your branch to GitHub. To keep the commit history and network graph compact, give your commits a very short summary then description:
+
+git commit -m "short sentence summary" -m "full commit message"
+# Long message can be multiple lines (tip: copy-paste)
+Open a pull request on Github.
+
+Running a branch
+Please see this page.
+
+Git stuff
+You might be asked to move your branch from main to dev. This is a git rebase. Remember to update all branches involved.
+
+# update all branches:
+git checkout main
+git pull
+git checkout dev
+git pull
+# rebase from main to dev:
+git checkout {your branch}
+git pull
+git rebase --onto dev main {your branch}
+git push --force-with-lease origin {your branch}
+git rebase can also be used to update your branch with new commits from base, but without adding a commit to your branch history like git merge does. This keeps history clean and avoids future merge problems.
+
+git checkout {base branch e.g. dev}
+git pull
+git checkout {your branch}
+git rebase {base}
+git push --force-with-lease origin {your branch}
+git squash tiny or negligible commits with meaningful ones, or to combine successive related commits. git squash guide
+
+git rebase -i HEAD~2
+git push --force-with-lease origin {your branch}
+
+Running a branch
+With PIP
+pip install git+https://github.com/{user}/{repo}.git@{branch}
+E.g.:
+
+pip install git+https://github.com/ranaroussi/yfinance.git@feature/name
+With Git
+1: Download from GitHub:
+
+Or if a specific branch:
+
+Note
+
+Only do the next part if you are installing globally
+
+If you are installing for 1 specific project, then you can skip this step and just git clone in the project directory
+
+Add download location to Python search path
+
+Two different ways, choose one:
+
+Add path to PYTHONPATH environment variable
+
+2) Add to top of Python file: .. code-block:: python
+
+import sys sys.path.insert(0, “path/to/downloaded/yfinance”)
+
+3: Verify
+
+Output should be:
+
+<module ‘yfinance’ from ‘path/to/downloaded/yfinance/yfinance/__init__.py’>
+
+If output looks like this then you did step 2 wrong
+
+<module ‘yfinance’ from ‘…/lib/python3.10/site-packages/yfinance/__init__.py’>
+
+Documentation
+Documentation:
+
+About documentation
+
+Building documentation locally
+
+Publishing documentation
+
+About documentation
+yfinance documentation is written in reStructuredText (rst) and built using Sphinx.
+
+The documentation file is in doc/source/...
+
+Most of the notes under API References read from class and methods docstrings. These documentations, found in doc/source/reference/api is autogenerated by Sphinx and not included in git.
+
+Building documentation locally
+To build the documentation locally, follow these steps:
+
+Install Required Dependencies:
+
+Make sure Sphinx and any other dependencies are installed. If a requirements.txt file is available, you can install dependencies by running:
+
+pip install -r requirements.txt
+pip install Sphinx==8.0.2 pydata-sphinx-theme==0.15.4 Jinja2==3.1.4 sphinx-copybutton==0.5.2
+Build with Sphinx:
+
+After dependencies are installed, use the sphinx-build command to generate HTML documentation.
+
+Go to doc/ directory Run:
+
+sphinx-build -b html doc/source doc/_build/html
+View Documentation Locally:
+
+python -m http.server -d ./doc/_build/html
+Then open “localhost:8000” in browser
+
+Publishing documentation
+Merge into main branch triggers auto-generating documentation by action .github/workflows/deploy_doc.yml. This publishes the generated HTML into branch documentation.
+
+Review the changes locally and push to dev.
+
+When dev gets merged to main, GitHub Actions workflow is automated to build documentation. 

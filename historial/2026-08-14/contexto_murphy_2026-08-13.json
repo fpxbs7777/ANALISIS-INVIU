@@ -1,0 +1,390 @@
+{
+  "fecha": "2026-08-14",
+  "periodo": "6y",
+  "cap1": {
+    "titulo": "Cap.1 - Intermarket Analysis (riesgo 1987)",
+    "resultados": {
+      "DXY->CRB": {
+        "lag": 0,
+        "corr": -0.0860890648741044
+      },
+      "TLT->SPY": {
+        "lag": 0,
+        "corr": 0.06331020627366954
+      },
+      "CRB->SPY": {
+        "lag": 0,
+        "corr": 0.12730368606923012
+      },
+      "TNX->CRB": {
+        "lag": 0,
+        "corr": 0.15944411521984803
+      },
+      "filtro_riesgo": {
+        "dxy_6m": 3.0444613531773745,
+        "crb_6m": 18.58604110161601,
+        "tnx_6m": 12.224358515715172,
+        "vix_nivel": 14.579999923706056
+      }
+    }
+  },
+  "cap2": {
+    "titulo": "Cap.2 - 1990 / Guerra del Golfo (divergencias y leading)",
+    "resultados": {
+      "divergencia_bonos_comm": {
+        "tlt_6m": -4.623021853187836,
+        "crb_6m": 18.58604110161601,
+        "corr": -0.1577717330096823,
+        "alerta": true
+      },
+      "dxy_oro": {
+        "dxy_6m": 3.0444613531773745,
+        "gold_6m": -9.659404082097334,
+        "corr": -0.39851644757587307
+      },
+      "xle_wtic": {
+        "xle_6m": 12.53503564461611,
+        "uso_6m": 61.36392956857024,
+        "corr": 0.6185169182821293
+      },
+      "divergencia_global": {
+        "ewu_6m": 3.442693256750373,
+        "ewj_6m": 4.630540191050381,
+        "corr": 0.6589262538660592
+      }
+    }
+  },
+  "cap5": {
+    "titulo": "Cap.5 - 1999: tendencias que precedieron al tope",
+    "resultados": {
+      "comm_tasas_juntas": {
+        "crb_6m": 18.58604110161601,
+        "tnx_6m": 12.224358515715172,
+        "corr": 0.15944411521984803,
+        "reflacion": true
+      },
+      "ratio_comm_bond": {
+        "slope200": 31.650281518183938,
+        "pct200": 79.0
+      },
+      "sector_rotation": {
+        "xlk_6m": 32.41958672509888,
+        "xle_6m": 12.53503564461611,
+        "xlp_6m": -2.5423604389104626,
+        "xlf_6m": 10.77296480655232
+      },
+      "asia": {
+        "hsi_6m": -5.537352301009147,
+        "aud_corr_crb": 0.23703776320565095
+      }
+    }
+  },
+  "cap6": {
+    "titulo": "Cap.6 - Review of Intermarket Principles",
+    "resultados": {
+      "vinculos_madre": {
+        "dxy_crb": -0.0860890648741044,
+        "tlt_crb": -0.1577717330096823,
+        "tlt_spy": 0.06331020627366954
+      },
+      "comm_bond_XLE": 0.6135119423120275,
+      "comm_bond_XLB": 0.18384104001078214,
+      "comm_bond_GOLD": 0.18067724231011922,
+      "comm_bond_XLP": -0.06856380978264605,
+      "comm_bond_XLF": 0.13573423346555602,
+      "comm_bond_XLU": -0.07757996620498141,
+      "japon": {
+        "n225_1y": 66.32308890138879,
+        "tnx_1y": 9.061260631646473,
+        "corr": -0.038264975112893125
+      },
+      "global": {
+        "smh_tsm": 0.8269056735584436,
+        "gm_tm": 0.42673706223416225
+      },
+      "dolar_tamano": {
+        "dxy_iwm": -0.2572236557899979,
+        "dxy_ups": -0.17165395374739842
+      }
+    }
+  },
+  "cap7": {
+    "titulo": "Cap.7 - 2000: el estallido de la burbuja Nasdaq",
+    "resultados": {
+      "curva_invertida": {
+        "IRX": 3.7070000171661377,
+        "TNX": 4.682000160217285,
+        "invertida": false
+      },
+      "SPY_sobre_ma200": true,
+      "DIA_sobre_ma200": true,
+      "QQQ_sobre_ma200": true,
+      "value_vs_growth": {
+        "vtv_6m": 10.556016180535433,
+        "vug_6m": 13.937628362841114,
+        "value_lidera": false
+      },
+      "defensivas": {
+        "xlp_spy_6m": -14.773587798535138,
+        "vnq_spy_6m": -5.957559301235117
+      },
+      "cobre": {
+        "copper_6m": 13.992373910405176,
+        "tnx_6m": 12.224358515715172
+      },
+      "ranking": {
+        "xlk_6m": 32.41958672509888,
+        "xle_6m": 12.53503564461611
+      }
+    }
+  },
+  "cap8": {
+    "titulo": "Cap.8 - Spring 2003: deflacion y flight to gold",
+    "resultados": {
+      "oro_dolar": {
+        "dxy_6m": 3.0444613531773745,
+        "gold_6m": -9.659404082097334,
+        "corr": -0.39851644757587307
+      },
+      "gold_stocks": {
+        "gdx_6m": -14.164387999740812,
+        "gold_6m": -9.659404082097334,
+        "gdx_gold_slope200": -1.4770471520714412
+      },
+      "bonos_comm": {
+        "tlt_6m": -4.623021853187836,
+        "crb_6m": 18.58604110161601,
+        "corr": -0.1577717330096823
+      },
+      "acciones_comm": {
+        "spy_crb_corr": 0.12730368606923012
+      },
+      "bonos_acciones": {
+        "tlt_spy_corr": 0.06331020627366954
+      },
+      "clima_deflacionario": {
+        "dxy_6m": 3.0444613531773745,
+        "spy_6m": 12.231227359624675,
+        "tnx_nivel": 4.682000160217285,
+        "gold_6m": -9.659404082097334,
+        "activo": false
+      }
+    }
+  },
+  "cap9": {
+    "titulo": "Cap.9 - 2002: dolar debil impulsa commodities",
+    "resultados": {
+      "dolar_comm": {
+        "dxy_6m": 3.0444613531773745,
+        "crb_6m": 18.58604110161601,
+        "corr": -0.0860890648741044
+      },
+      "bonos_comm": {
+        "tnx_6m": 12.224358515715172,
+        "crb_6m": 18.58604110161601,
+        "corr": 0.15944411521984803,
+        "decoupling": false
+      },
+      "divergencia_agri_metales": {
+        "dba_6m": 7.823394584193566,
+        "hg_6m": 13.992373910405176
+      },
+      "metales_tasas": {
+        "hg_6m": 13.992373910405176,
+        "tnx_6m": 12.224358515715172,
+        "corr": -0.07066149548774843
+      },
+      "japon_tasas": {
+        "n225_6m": 25.905918535767512,
+        "tnx_6m": 12.224358515715172,
+        "corr": -0.038264975112893125
+      },
+      "bear_global": {
+        "spy_efa": 0.7994935550446918,
+        "spy_acwi": 0.970542901650261
+      },
+      "deflacion_stocks_tasas": {
+        "spy_6m": 12.231227359624675,
+        "tnx_6m": 12.224358515715172,
+        "ambos_cae": false
+      },
+      "dolar_oro": {
+        "dxy_6m": 3.0444613531773745,
+        "gold_6m": -9.659404082097334
+      }
+    }
+  },
+  "cap10": {
+    "titulo": "Cap.10 - Giro de papel a hard assets",
+    "resultados": {
+      "oro_proxy_comm": {
+        "gold_6m": -9.659404082097334,
+        "crb_6m": 18.58604110161601,
+        "corr": 0.18067724231011922,
+        "gold_crb_slope200": -30.783489050106827
+      },
+      "oro_vs_acciones": {
+        "gold_6m": -9.659404082097334,
+        "spy_6m": 12.231227359624675,
+        "corr": 0.10393455975002616
+      },
+      "crb_spy": {
+        "crb_spy_slope200": 14.387866791546273
+      },
+      "monedas_comm": {
+        "aud_crb": 0.23703776320565095,
+        "cad_crb": 0.3092870072373045
+      },
+      "dolar_divisas_oro": {
+        "dxy_eur": -0.9382720071422921,
+        "eur_gold": 0.34221841797391,
+        "dxy_gold": -0.39851644757587307
+      },
+      "gold_stocks": {
+        "gdx_1y": 57.39670069579104,
+        "gold_1y": 32.43517320159175,
+        "gdx_gold_slope200": -1.4770471520714412
+      },
+      "acciones_comm": {
+        "xle_crb": 0.6135119423120275,
+        "xlb_crb": 0.18384104001078214,
+        "xlb_hg": 0.37318243462952133
+      }
+    }
+  },
+  "cap11": {
+    "titulo": "Cap.11 - Asset allocation con ratios",
+    "resultados": {
+      "bonos_vs_stocks": {
+        "tlt_spy_slope200": -17.435445758958906,
+        "tlt_6m": -4.623021853187836,
+        "spy_6m": 12.231227359624675
+      },
+      "comm_vs_bonos": {
+        "crb_tlt_slope200": 31.650281518183938,
+        "crb_tlt_pct200": 79.0
+      },
+      "dow_gold": {
+        "dji_gold_slope200": 14.09821945876468,
+        "dji_gold_6m": 18.750673851255794
+      },
+      "oro_divisas_1y": {
+        "gbp": 29.641521349954814,
+        "cad": 33.73058209441111,
+        "jpy": 43.417715478507525,
+        "eur": 33.16948541032656
+      },
+      "diversificacion": {
+        "spy_tlt": 0.06331020627366954,
+        "crb_tlt": -0.1577717330096823,
+        "crb_spy": 0.12730368606923012
+      }
+    }
+  },
+  "cap12": {
+    "titulo": "Cap.12 - Ciclo de negocios",
+    "resultados": {
+      "etapa_pring": "Stage 4 (bonos caen, acciones/comm suben)",
+      "tlt_6m": -4.623021853187836,
+      "spy_6m": 12.231227359624675,
+      "crb_6m": 18.58604110161601,
+      "tlt_spy_corr": 0.06331020627366954,
+      "spy_crb_corr": 0.12730368606923012,
+      "dxy_gold_corr": -0.39851644757587307
+    }
+  },
+  "cap13": {
+    "titulo": "Cap.13 - Rotacion sectorial",
+    "resultados": {
+      "liderazgo_sectorial_200d": {
+        "XLE": 19.57493857328724,
+        "XLK": 18.73547014300991,
+        "XLI": 5.839755945151434,
+        "XLB": 5.151079407916508,
+        "XLP": -2.4545269194029697,
+        "XLU": -8.223099306466063,
+        "XLV": -8.855486886019898,
+        "XLF": -9.359260412844868,
+        "XLY": -16.363185248244182
+      },
+      "ciclicos_vs_staples": {
+        "xly_xlp_slope200": -14.499087361120106
+      },
+      "tech": {
+        "xlk_spy_slope200": 18.73547014300991,
+        "qqq_spy_slope200": 6.568442872537764
+      },
+      "transports": {
+        "iyt_dji_slope200": 10.125673026645583
+      },
+      "small_caps": {
+        "iwm_spy_slope200": 9.557276697078375
+      },
+      "yield_curve": {
+        "irx": 3.7070000171661377,
+        "tnx": 4.682000160217285,
+        "spread": 0.9750001430511475,
+        "irx_tnx_slope200": -13.603816620697732
+      }
+    }
+  },
+  "cap14": {
+    "titulo": "Cap.14 - Real estate",
+    "resultados": {
+      "reits_tech": {
+        "vnq_6m": 6.273668058389559,
+        "qqq_6m": 18.316263253588705,
+        "corr": 0.5100937824399142
+      },
+      "reits_tasas": {
+        "vnq_6m": 6.273668058389559,
+        "tnx_6m": 12.224358515715172,
+        "corr": -0.13528332300927412
+      },
+      "reits_spy": {
+        "vnq_spy_slope200": 0.8861459030075933,
+        "vnq_1y": 13.609814473283976,
+        "spy_1y": 21.528170795197976
+      },
+      "homebuilders_tasas": {
+        "xhb_6m": -9.755497602444196,
+        "tnx_6m": 12.224358515715172,
+        "corr": -0.17778445368942905
+      }
+    }
+  },
+  "cap15": {
+    "titulo": "Cap.15 - Thinking globally",
+    "resultados": {
+      "global": {
+        "spy_efa": 0.7994935550446918,
+        "spy_acwi": 0.970542901650261,
+        "spy_eem": 0.6754191517865684
+      },
+      "emergentes": {
+        "eem_6m": 8.520861816382673,
+        "eem_crb": 0.11354453476001489,
+        "eem_dxy": -0.41330733152551646
+      },
+      "dolar_bloc": {
+        "aud_crb": 0.23703776320565095,
+        "cad_crb": 0.3092870072373045
+      },
+      "decoupling": {
+        "spy_tlt": 0.06331020627366954
+      },
+      "japon": {
+        "n225_6m": 25.905918535767512,
+        "tnx_6m": 12.224358515715172,
+        "corr": -0.038264975112893125
+      },
+      "post_boom": {
+        "spy_6y_total": 149.03648091787426
+      },
+      "ancla_oro": {
+        "dxy_gold": -0.39851644757587307,
+        "crb_gold": 0.18067724231011922
+      }
+    }
+  }
+}

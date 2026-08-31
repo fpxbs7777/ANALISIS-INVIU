@@ -1,0 +1,1023 @@
+INSTRUCCIONES COMPLETAS PARA LOVABLE — IMPLEMENTAR TAB ANALISIS FUNDAMENTAL EN CLARITY DASHBOARD
+Seguir exactamente el orden de los pasos. No hacer preguntas. No agregar funcionalidades extra.
+
+=============================================================
+RESTRICCIONES ABSOLUTAS QUE DEBEN RESPETARSE EN CADA PASO:
+=============================================================
+- No modificar ningun archivo existente salvo src/components/herramientas/AnalisisFundamentalTab.tsx
+- No modificar src/routes/herramientas.tsx bajo ningun concepto
+- No modificar src/lib/yahoo-http.ts, yahoo-types.ts, yahoo-coronar.functions.ts
+- No usar datos fallback ni datos simulados. Si un campo es null, mostrar "--" en la UI
+- No usar emojis en ningun texto de la aplicacion
+- No cambiar colores, clases de Tailwind ni estructura del resto del dashboard
+- Cuando un dato de Yahoo Finance llega null, NO inventar un numero, mostrar "--"
+- El disclaimer existente de Cintia Boos CNV N 2192 debe permanecer al inicio del tab
+
+=============================================================
+CONTEXTO DEL PROYECTO:
+=============================================================
+- Framework: TanStack Start con React + TypeScript
+- Server functions usan createServerFn de @tanstack/react-start
+- yahoo-http.ts exporta: fetchYahooQuoteSummaryJson y yahooHeaders
+- yahoo-types.ts exporta: QuoteSummaryResult y tipos relacionados
+- El tab "06 · Analisis Fundamental" ya esta registrado en herramientas.tsx con value="fundamental"
+- AnalisisFundamentalTab.tsx existe pero solo tiene el disclaimer — reemplazar su contenido completo
+- debtToEquity de Yahoo Finance viene en formato porcentual (150 = 1.5x ratio)
+- Los campos de rentabilidad (returnOnEquity, profitMargins, revenueGrowth, etc.) vienen como fraccion decimal (0.15 = 15%)
+
+=============================================================
+PASO 1 DE 2: CREAR el archivo src/lib/fundamental-af.functions.ts con el siguiente contenido exacto:
+=============================================================
+
+import { createServerFn } from "@tanstack/react-start";
+import { z } from "zod";
+import { fetchYahooQuoteSummaryJson, yahooHeaders } from "@/lib/yahoo-http";
+
+// ---------------------------------------------------------------------------
+// Helpers internos
+// ---------------------------------------------------------------------------
+
+function num(v: unknown): number | null {
+  if (typeof v === "number" && isFinite(v)) return v;
+  if (v !== null && v !== undefined && typeof v === "object") {
+    const raw = (v as Record<string, unknown>).raw;
+    if (typeof raw === "number" && isFinite(raw)) return raw;
+  }
+  return null;
+}
+
+function numDate(v: unknown): number | null {
+  if (typeof v === "number") return v;
+  if (v !== null && v !== undefined && typeof v === "object") {
+    const raw = (v as Record<string, unknown>).raw;
+    if (typeof raw === "number") return raw;
+  }
+  return null;
+}
+
+interface RawChartResult {
+  chart?: {
+    result?: Array<{
+      timestamp?: number[];
+      indicators?: {
+        quote?: Array<{ close?: (number | null)[] }>;
+      };
+    }>;
+    error?: { code?: string; description?: string } | null;
+  };
+}
+
+async function fetchChart10yMonthly(
+  symbol: string
+): Promise<{ timestamps: number[]; closes: number[] }> {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
+    symbol
+  )}?range=10y&interval=1mo`;
+  try {
+    const res = await fetch(url, { headers: yahooHeaders() });
+    if (!res.ok) return { timestamps: [], closes: [] };
+    const json = (await res.json()) as RawChartResult;
+    if (json.chart?.error) return { timestamps: [], closes: [] };
+    const result = json.chart?.result?.[0];
+    if (!result) return { timestamps: [], closes: [] };
+    const rawTs = result.timestamp ?? [];
+    const rawCloses = result.indicators?.quote?.[0]?.close ?? [];
+    const timestamps: number[] = [];
+    const closes: number[] = [];
+    for (let i = 0; i < rawCloses.length; i++) {
+      const c = rawCloses[i];
+      if (typeof c === "number" && isFinite(c) && c > 0 && rawTs[i]) {
+        timestamps.push(rawTs[i]);
+        closes.push(c);
+      }
+    }
+    return { timestamps, closes };
+  } catch {
+    return { timestamps: [], closes: [] };
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Tipos exportados
+// ---------------------------------------------------------------------------
+
+export interface PeHistoryPoint {
+  year: number;
+  pe: number;
+}
+
+export interface ScoreDetail {
+  metric: string;
+  valor: string;
+  pts: number;
+  maxPts: number;
+}
+
+export interface FundamentalAFResult {
+  symbol: string;
+  companyName: string | null;
+  sector: string | null;
+  industry: string | null;
+  country: string | null;
+  currentPrice: number | null;
+  marketCapM: number | null;
+  trailingPE: number | null;
+  forwardPE: number | null;
+  pegRatio: number | null;
+  priceToBook: number | null;
+  evToEbitda: number | null;
+  returnOnEquity: number | null;
+  returnOnAssets: number | null;
+  profitMargin: number | null;
+  operatingMargin: number | null;
+  grossMargin: number | null;
+  revenueGrowth: number | null;
+  earningsGrowth: number | null;
+  debtToEquityRaw: number | null;
+  currentRatio: number | null;
+  quickRatio: number | null;
+  freeCashflowM: number | null;
+  fcfYield: number | null;
+  dividendYield: number | null;
+  payoutRatio: number | null;
+  targetMeanPrice: number | null;
+  targetLowPrice: number | null;
+  targetHighPrice: number | null;
+  recommendationMean: number | null;
+  numberOfAnalystOpinions: number | null;
+  upsidePct: number | null;
+  beta: number | null;
+  sharesOutstanding: number | null;
+  min10y: number | null;
+  max10y: number | null;
+  avg10y: number | null;
+  pricePercentile10y: number | null;
+  peHistory: PeHistoryPoint[];
+  pePercentile: number | null;
+  fundScore: number;
+  scoreDetails: ScoreDetail[];
+  plazo: string;
+  accion: string;
+  error: string | null;
+}
+
+// ---------------------------------------------------------------------------
+// Server function principal
+// ---------------------------------------------------------------------------
+
+const AF_MODULES = [
+  "assetProfile",
+  "summaryDetail",
+  "financialData",
+  "defaultKeyStatistics",
+  "incomeStatementHistory",
+  "earnings",
+  "earningsTrend",
+  "recommendationTrend",
+];
+
+export const fetchFundamentalAF = createServerFn({ method: "GET" })
+  .inputValidator(
+    (d: { symbol: string }) =>
+      z
+        .object({
+          symbol: z
+            .string()
+            .min(1)
+            .max(20)
+            .transform((s) => s.trim().toUpperCase()),
+        })
+        .parse(d)
+  )
+  .handler(async ({ data }): Promise<FundamentalAFResult> => {
+    const symbol = data.symbol;
+
+    const empty: FundamentalAFResult = {
+      symbol,
+      companyName: null, sector: null, industry: null, country: null,
+      currentPrice: null, marketCapM: null,
+      trailingPE: null, forwardPE: null, pegRatio: null,
+      priceToBook: null, evToEbitda: null,
+      returnOnEquity: null, returnOnAssets: null,
+      profitMargin: null, operatingMargin: null, grossMargin: null,
+      revenueGrowth: null, earningsGrowth: null,
+      debtToEquityRaw: null, currentRatio: null, quickRatio: null,
+      freeCashflowM: null, fcfYield: null,
+      dividendYield: null, payoutRatio: null,
+      targetMeanPrice: null, targetLowPrice: null, targetHighPrice: null,
+      recommendationMean: null, numberOfAnalystOpinions: null, upsidePct: null,
+      beta: null, sharesOutstanding: null,
+      min10y: null, max10y: null, avg10y: null, pricePercentile10y: null,
+      peHistory: [], pePercentile: null,
+      fundScore: 0, scoreDetails: [],
+      plazo: "", accion: "",
+      error: null,
+    };
+
+    try {
+      const [yfRes, chartRes] = await Promise.all([
+        fetchYahooQuoteSummaryJson<{
+          quoteSummary?: {
+            result?: unknown[];
+            error?: { description?: string } | null;
+          };
+        }>(symbol, AF_MODULES),
+        fetchChart10yMonthly(symbol),
+      ]);
+
+      if (!yfRes.json) {
+        return { ...empty, error: `Yahoo Finance devolvio status ${yfRes.status}` };
+      }
+
+      const qs = yfRes.json.quoteSummary;
+      if (qs?.error?.description) {
+        return { ...empty, error: qs.error.description };
+      }
+      const r = qs?.result?.[0] as Record<string, unknown> | undefined;
+      if (!r) {
+        return { ...empty, error: "No se encontraron datos para el simbolo ingresado. Verificar que sea un ticker valido de Yahoo Finance." };
+      }
+
+      const ap = r.assetProfile as Record<string, unknown> | undefined;
+      const sd = r.summaryDetail as Record<string, unknown> | undefined;
+      const fd = r.financialData as Record<string, unknown> | undefined;
+      const ks = r.defaultKeyStatistics as Record<string, unknown> | undefined;
+      const ish = r.incomeStatementHistory as
+        | { incomeStatementHistory?: unknown[] }
+        | undefined;
+
+      // Identity
+      const companyName =
+        ap?.longName
+          ? String(ap.longName)
+          : ap?.shortName
+          ? String(ap.shortName)
+          : null;
+      const sector = ap?.sector ? String(ap.sector) : null;
+      const industry = ap?.industry ? String(ap.industry) : null;
+      const country = ap?.country ? String(ap.country) : null;
+
+      // Precio y market cap
+      const currentPrice =
+        num(fd?.currentPrice) ?? num(sd?.regularMarketPrice);
+      const marketCapRaw =
+        num(ks?.marketCap) ?? num(sd?.marketCap) ?? num((r.price as Record<string, unknown> | undefined)?.marketCap);
+      const marketCapM = marketCapRaw !== null ? marketCapRaw / 1_000_000 : null;
+
+      // Valoracion
+      const trailingPE =
+        num(sd?.trailingPE) ?? num(ks?.trailingPE);
+      const forwardPE =
+        num(sd?.forwardPE) ?? num(ks?.forwardPE);
+      const pegRatio = num(ks?.pegRatio);
+      const priceToBook =
+        num(sd?.priceToBook) ?? num(ks?.priceToBook);
+      const evToEbitda = num(ks?.enterpriseToEbitda);
+      const beta = num(ks?.beta) ?? num(sd?.beta);
+      const sharesOutstanding = num(ks?.sharesOutstanding);
+
+      // Rentabilidad (fracciones decimales de Yahoo)
+      const returnOnEquity = num(fd?.returnOnEquity);
+      const returnOnAssets = num(fd?.returnOnAssets);
+      const profitMargin =
+        num(fd?.profitMargins) ?? num(ks?.profitMargins);
+      const operatingMargin = num(fd?.operatingMargins);
+      const grossMargin = num(fd?.grossMargins);
+
+      // Crecimiento (fracciones decimales)
+      const revenueGrowth = num(fd?.revenueGrowth);
+      const earningsGrowth = num(fd?.earningsGrowth);
+
+      // Salud financiera
+      // debtToEquity de Yahoo viene en formato porcentual: 150 = 1.5x
+      const debtToEquityRaw = num(fd?.debtToEquity);
+      const currentRatio = num(fd?.currentRatio);
+      const quickRatio = num(fd?.quickRatio);
+      const freeCashflowRaw = num(fd?.freeCashflow);
+      const freeCashflowM =
+        freeCashflowRaw !== null ? freeCashflowRaw / 1_000_000 : null;
+      const fcfYield =
+        freeCashflowRaw !== null &&
+        marketCapRaw !== null &&
+        marketCapRaw > 0
+          ? freeCashflowRaw / marketCapRaw
+          : null;
+
+      // Dividendos
+      const dividendYield =
+        num(sd?.dividendYield) ??
+        num(sd?.trailingAnnualDividendYield);
+      const payoutRatio = num(sd?.payoutRatio);
+
+      // Analistas
+      const targetMeanPrice = num(fd?.targetMeanPrice);
+      const targetLowPrice = num(fd?.targetLowPrice);
+      const targetHighPrice = num(fd?.targetHighPrice);
+      const recommendationMean = num(fd?.recommendationMean);
+      const numberOfAnalystOpinions = num(fd?.numberOfAnalystOpinions);
+      const upsidePct =
+        targetMeanPrice !== null &&
+        currentPrice !== null &&
+        currentPrice > 0
+          ? ((targetMeanPrice - currentPrice) / currentPrice) * 100
+          : null;
+
+      // 10y price stats
+      const { timestamps, closes } = chartRes;
+      let min10y: number | null = null;
+      let max10y: number | null = null;
+      let avg10y: number | null = null;
+      let pricePercentile10y: number | null = null;
+
+      if (closes.length > 0) {
+        min10y = closes.reduce((a, b) => Math.min(a, b), closes[0]);
+        max10y = closes.reduce((a, b) => Math.max(a, b), closes[0]);
+        avg10y = closes.reduce((a, b) => a + b, 0) / closes.length;
+        const ref = currentPrice ?? closes[closes.length - 1];
+        const range = max10y - min10y;
+        pricePercentile10y =
+          range > 0
+            ? Math.max(0, Math.min(100, ((ref - min10y) / range) * 100))
+            : 50;
+      }
+
+      // P/E historico: precio anual / EPS calculado de estados de resultados
+      const incomeRows = (ish?.incomeStatementHistory ?? []) as Record<
+        string,
+        unknown
+      >[];
+      const peHistory: PeHistoryPoint[] = [];
+
+      if (
+        sharesOutstanding !== null &&
+        sharesOutstanding > 0 &&
+        incomeRows.length > 0 &&
+        timestamps.length > 0
+      ) {
+        for (const row of incomeRows) {
+          const endDateTs = numDate(row.endDate);
+          const netIncome = num(row.netIncome);
+          if (!endDateTs || netIncome === null || netIncome <= 0) continue;
+          const eps = netIncome / sharesOutstanding;
+          if (eps <= 0) continue;
+          const endYear = new Date(endDateTs * 1000).getFullYear();
+          // Buscar el cierre mensual mas cercano a diciembre de ese año fiscal
+          const targetTs = new Date(endYear, 11, 15).getTime() / 1000;
+          let bestIdx = -1;
+          let bestDiff = Infinity;
+          for (let i = 0; i < timestamps.length; i++) {
+            const diff = Math.abs(timestamps[i] - targetTs);
+            if (diff < bestDiff) {
+              bestDiff = diff;
+              bestIdx = i;
+            }
+          }
+          if (bestIdx >= 0) {
+            const price = closes[bestIdx];
+            const pe = price / eps;
+            if (pe > 0 && pe < 500 && !peHistory.find((x) => x.year === endYear)) {
+              peHistory.push({ year: endYear, pe: Math.round(pe * 10) / 10 });
+            }
+          }
+        }
+        peHistory.sort((a, b) => a.year - b.year);
+      }
+
+      // Percentil del P/E actual dentro del historico disponible
+      let pePercentile: number | null = null;
+      if (trailingPE !== null && peHistory.length >= 2) {
+        const values = peHistory.map((x) => x.pe);
+        const below = values.filter((v) => v <= trailingPE).length;
+        pePercentile = Math.round((below / values.length) * 100);
+      }
+
+      // Scoring fundamental (0-100)
+      const scoreDetails: ScoreDetail[] = [];
+
+      if (returnOnEquity !== null) {
+        const roe = returnOnEquity * 100;
+        const pts = roe >= 20 ? 15 : roe >= 12 ? 10 : roe >= 5 ? 5 : 0;
+        scoreDetails.push({ metric: "ROE", valor: `${roe.toFixed(1)}%`, pts, maxPts: 15 });
+      }
+      if (revenueGrowth !== null) {
+        const g = revenueGrowth * 100;
+        const pts = g >= 15 ? 15 : g >= 8 ? 10 : g >= 0 ? 5 : 0;
+        scoreDetails.push({ metric: "Crecimiento ingresos", valor: `${g.toFixed(1)}%`, pts, maxPts: 15 });
+      }
+      if (fcfYield !== null) {
+        const fy = fcfYield * 100;
+        const pts = fy >= 6 ? 15 : fy >= 3 ? 10 : fy >= 0 ? 5 : 0;
+        scoreDetails.push({ metric: "FCF Yield", valor: `${fy.toFixed(1)}%`, pts, maxPts: 15 });
+      }
+      if (debtToEquityRaw !== null) {
+        // debtToEquityRaw: 150 = 1.5x
+        const pts = debtToEquityRaw < 50 ? 15 : debtToEquityRaw < 100 ? 10 : debtToEquityRaw < 200 ? 5 : 0;
+        scoreDetails.push({
+          metric: "Deuda / Patrimonio",
+          valor: `${(debtToEquityRaw / 100).toFixed(2)}x`,
+          pts,
+          maxPts: 15,
+        });
+      }
+      if (profitMargin !== null) {
+        const pm = profitMargin * 100;
+        const pts = pm >= 20 ? 15 : pm >= 10 ? 10 : pm >= 0 ? 5 : 0;
+        scoreDetails.push({ metric: "Margen neto", valor: `${pm.toFixed(1)}%`, pts, maxPts: 15 });
+      }
+      if (upsidePct !== null) {
+        const pts = upsidePct >= 25 ? 15 : upsidePct >= 15 ? 10 : upsidePct >= 5 ? 5 : 0;
+        scoreDetails.push({
+          metric: "Upside consenso analistas",
+          valor: `${upsidePct.toFixed(1)}%`,
+          pts,
+          maxPts: 15,
+        });
+      }
+      if (earningsGrowth !== null) {
+        const eg = earningsGrowth * 100;
+        const pts = eg >= 20 ? 10 : eg >= 10 ? 7 : eg >= 0 ? 3 : 0;
+        scoreDetails.push({ metric: "Crecimiento ganancias", valor: `${eg.toFixed(1)}%`, pts, maxPts: 10 });
+      }
+
+      const earnedPts = scoreDetails.reduce((s, d) => s + d.pts, 0);
+      const maxPossible = scoreDetails.reduce((s, d) => s + d.maxPts, 0);
+      const fundScore =
+        maxPossible > 0 ? Math.round((earnedPts / maxPossible) * 100) : 0;
+
+      // Señal de inversion
+      const growthPct = (revenueGrowth ?? 0) * 100;
+      const upside = upsidePct ?? 0;
+      const pricePct = pricePercentile10y ?? 50;
+      const pePct = pePercentile ?? 50;
+      let plazo = "";
+      let accion = "";
+
+      if (fundScore >= 65 && pricePct < 65 && growthPct > 0 && upside > 15) {
+        plazo = "Largo plazo";
+        accion = "Acumular";
+      } else if (fundScore >= 55 && pricePct < 75 && upside > 8) {
+        plazo = "Mediano plazo";
+        accion = "Acumular gradualmente";
+      } else if (fundScore >= 45 && pricePct < 82) {
+        plazo = "Mediano plazo";
+        accion = "Mantener";
+      } else if (pricePct > 88 || (pePct > 80 && upside < 5)) {
+        plazo = "Corto plazo";
+        accion = "Evaluar reduccion de exposicion";
+      } else {
+        plazo = "Sin definicion clara";
+        accion = "Cautela - monitorear metricas";
+      }
+
+      return {
+        symbol,
+        companyName,
+        sector,
+        industry,
+        country,
+        currentPrice,
+        marketCapM,
+        trailingPE,
+        forwardPE,
+        pegRatio,
+        priceToBook,
+        evToEbitda,
+        returnOnEquity,
+        returnOnAssets,
+        profitMargin,
+        operatingMargin,
+        grossMargin,
+        revenueGrowth,
+        earningsGrowth,
+        debtToEquityRaw,
+        currentRatio,
+        quickRatio,
+        freeCashflowM,
+        fcfYield,
+        dividendYield,
+        payoutRatio,
+        targetMeanPrice,
+        targetLowPrice,
+        targetHighPrice,
+        recommendationMean,
+        numberOfAnalystOpinions,
+        upsidePct,
+        beta,
+        sharesOutstanding,
+        min10y,
+        max10y,
+        avg10y,
+        pricePercentile10y,
+        peHistory,
+        pePercentile,
+        fundScore,
+        scoreDetails,
+        plazo,
+        accion,
+        error: null,
+      };
+    } catch (e) {
+      return {
+        ...empty,
+        error: e instanceof Error ? e.message : "Error desconocido al consultar Yahoo Finance",
+      };
+    }
+  });
+
+
+=============================================================
+PASO 2 DE 2: REEMPLAZAR el contenido completo de src/components/herramientas/AnalisisFundamentalTab.tsx con:
+=============================================================
+
+import { useState } from "react";
+import { fetchFundamentalAF } from "@/lib/fundamental-af.functions";
+import type { FundamentalAFResult, ScoreDetail, PeHistoryPoint } from "@/lib/fundamental-af.functions";
+
+// ---------------------------------------------------------------------------
+// Formatters
+// ---------------------------------------------------------------------------
+
+function f(v: number | null, dec = 2): string {
+  if (v === null) return "--";
+  return v.toFixed(dec);
+}
+
+function fPct(v: number | null, alreadyPct = false): string {
+  if (v === null) return "--";
+  const val = alreadyPct ? v : v * 100;
+  return `${val >= 0 ? "+" : ""}${val.toFixed(1)}%`;
+}
+
+function fPctNoSign(v: number | null, alreadyPct = false): string {
+  if (v === null) return "--";
+  const val = alreadyPct ? v : v * 100;
+  return `${val.toFixed(1)}%`;
+}
+
+function fMarketCap(mM: number | null): string {
+  if (mM === null) return "--";
+  if (mM >= 1_000_000) return `USD ${(mM / 1_000_000).toFixed(2)} T`;
+  if (mM >= 1_000) return `USD ${(mM / 1_000).toFixed(2)} B`;
+  return `USD ${mM.toFixed(0)} M`;
+}
+
+function fPrice(v: number | null): string {
+  if (v === null) return "--";
+  return `USD ${v.toFixed(2)}`;
+}
+
+function recLabel(v: number | null): string {
+  if (v === null) return "--";
+  if (v <= 1.5) return "Compra fuerte";
+  if (v <= 2.5) return "Compra";
+  if (v <= 3.5) return "Mantener";
+  if (v <= 4.5) return "Venta";
+  return "Venta fuerte";
+}
+
+function peLabel(pct: number | null): string {
+  if (pct === null) return "--";
+  if (pct <= 20) return "Historicamente barato";
+  if (pct <= 40) return "Por debajo del promedio historico";
+  if (pct <= 60) return "Cercano al promedio historico";
+  if (pct <= 80) return "Por encima del promedio historico";
+  return "Historicamente caro";
+}
+
+function priceRangeLabel(pct: number | null): string {
+  if (pct === null) return "--";
+  if (pct <= 20) return "Cerca del minimo historico (10a)";
+  if (pct <= 40) return "En zona baja del rango historico (10a)";
+  if (pct <= 60) return "En zona media del rango historico (10a)";
+  if (pct <= 80) return "En zona alta del rango historico (10a)";
+  return "Cerca del maximo historico (10a)";
+}
+
+function signalColor(accion: string): string {
+  const a = accion.toLowerCase();
+  if (a.includes("acumular")) return "text-emerald-400";
+  if (a.includes("mantener")) return "text-amber-400";
+  if (a.includes("reduccion") || a.includes("cautela")) return "text-red-400";
+  return "text-muted-foreground";
+}
+
+function metricColor(value: number | null, good: "high" | "low"): string {
+  if (value === null) return "text-muted-foreground";
+  return "text-foreground";
+}
+
+function pctColor(v: number | null, alreadyPct = false): string {
+  if (v === null) return "text-muted-foreground";
+  const val = alreadyPct ? v : v * 100;
+  if (val >= 0) return "text-emerald-400";
+  return "text-red-400";
+}
+
+// ---------------------------------------------------------------------------
+// Sub-componentes
+// ---------------------------------------------------------------------------
+
+function MetricRow({ label, value, colorClass }: { label: string; value: string; colorClass?: string }) {
+  return (
+    <tr className="border-b border-border/20 last:border-0">
+      <td className="py-1.5 pr-4 text-[10px] text-muted-foreground whitespace-nowrap">{label}</td>
+      <td className={`py-1.5 text-[10px] font-mono text-right ${colorClass ?? "text-foreground"}`}>
+        {value}
+      </td>
+    </tr>
+  );
+}
+
+function SectionHeader({ label }: { label: string }) {
+  return (
+    <tr>
+      <td colSpan={2} className="pt-3 pb-1 text-[9px] font-semibold uppercase tracking-widest text-muted-foreground/60">
+        {label}
+      </td>
+    </tr>
+  );
+}
+
+function PriceBar({ min, max, current, avg }: { min: number; max: number; current: number; avg: number | null }) {
+  const range = max - min;
+  if (range <= 0) return null;
+  const pct = Math.max(0, Math.min(100, ((current - min) / range) * 100));
+  const avgPct = avg !== null ? Math.max(0, Math.min(100, ((avg - min) / range) * 100)) : null;
+  return (
+    <div className="mt-2 mb-1">
+      <div className="relative h-2 w-full rounded-full bg-border/30">
+        {avgPct !== null && (
+          <div
+            className="absolute top-0 h-2 w-px bg-amber-400/60"
+            style={{ left: `${avgPct}%` }}
+          />
+        )}
+        <div
+          className="absolute top-0 h-2 w-1 -translate-x-0.5 rounded-full bg-emerald-400"
+          style={{ left: `${pct}%` }}
+        />
+      </div>
+      <div className="mt-1 flex justify-between text-[9px] font-mono text-muted-foreground">
+        <span>Min {fPrice(min)}</span>
+        {avgPct !== null && <span className="text-amber-400/70">Prom {fPrice(avg)}</span>}
+        <span>Max {fPrice(max)}</span>
+      </div>
+    </div>
+  );
+}
+
+function ScoreBar({ score }: { score: number }) {
+  const color =
+    score >= 65 ? "bg-emerald-500" : score >= 45 ? "bg-amber-500" : "bg-red-500";
+  return (
+    <div className="flex items-center gap-2">
+      <div className="flex-1 h-1.5 rounded-full bg-border/30">
+        <div
+          className={`h-1.5 rounded-full ${color} transition-all`}
+          style={{ width: `${score}%` }}
+        />
+      </div>
+      <span className={`text-[11px] font-bold font-mono ${color.replace("bg-", "text-")}`}>
+        {score}
+      </span>
+    </div>
+  );
+}
+
+function ScoreDetailTable({ details }: { details: ScoreDetail[] }) {
+  if (details.length === 0) return null;
+  return (
+    <table className="w-full mt-2">
+      <tbody>
+        {details.map((d) => (
+          <tr key={d.metric} className="border-b border-border/10 last:border-0">
+            <td className="py-1 text-[9px] text-muted-foreground">{d.metric}</td>
+            <td className="py-1 text-[9px] font-mono text-right text-foreground">{d.valor}</td>
+            <td className="py-1 text-[9px] font-mono text-right w-12">
+              <span className={d.pts >= d.maxPts * 0.67 ? "text-emerald-400" : d.pts > 0 ? "text-amber-400" : "text-red-400"}>
+                {d.pts}/{d.maxPts}
+              </span>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}
+
+function PeHistoryTable({ history, currentPE, percentile }: { history: PeHistoryPoint[]; currentPE: number | null; percentile: number | null }) {
+  if (history.length === 0) return (
+    <p className="text-[9px] text-muted-foreground mt-1">Datos insuficientes para calcular percentil historico de P/E. Se requieren al menos 2 ejercicios con EPS positivo disponibles en Yahoo Finance.</p>
+  );
+  return (
+    <table className="w-full mt-2">
+      <thead>
+        <tr className="border-b border-border/30">
+          <th className="py-1 text-left text-[9px] font-medium text-muted-foreground">Año fiscal</th>
+          <th className="py-1 text-right text-[9px] font-medium text-muted-foreground">P/E calculado</th>
+        </tr>
+      </thead>
+      <tbody>
+        {history.map((h) => (
+          <tr key={h.year} className="border-b border-border/10 last:border-0">
+            <td className="py-1 text-[10px] text-muted-foreground">{h.year}</td>
+            <td className="py-1 text-[10px] font-mono text-right text-foreground">{h.pe.toFixed(1)}x</td>
+          </tr>
+        ))}
+        {currentPE !== null && (
+          <tr className="border-t border-border/30 bg-border/10">
+            <td className="py-1 text-[10px] font-semibold text-foreground">Actual (trailing)</td>
+            <td className="py-1 text-[10px] font-mono font-semibold text-right text-foreground">
+              {currentPE.toFixed(1)}x
+              {percentile !== null && (
+                <span className={`ml-2 text-[9px] font-normal ${percentile >= 70 ? "text-red-400" : percentile <= 30 ? "text-emerald-400" : "text-amber-400"}`}>
+                  pct {percentile}
+                </span>
+              )}
+            </td>
+          </tr>
+        )}
+      </tbody>
+    </table>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Componente principal del tab
+// ---------------------------------------------------------------------------
+
+export function AnalisisFundamentalTab() {
+  const [ticker, setTicker] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [result, setResult] = useState<FundamentalAFResult | null>(null);
+  const [fetchError, setFetchError] = useState<string | null>(null);
+
+  const handleSearch = async () => {
+    const sym = ticker.trim().toUpperCase();
+    if (!sym) return;
+    setLoading(true);
+    setFetchError(null);
+    setResult(null);
+    try {
+      const data = await fetchFundamentalAF({ data: { symbol: sym } });
+      if (data.error) {
+        setFetchError(data.error);
+      } else {
+        setResult(data);
+      }
+    } catch (e) {
+      setFetchError(e instanceof Error ? e.message : "Error al consultar Yahoo Finance");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") handleSearch();
+  };
+
+  return (
+    <div className="space-y-4">
+
+      {/* Disclaimer CNV */}
+      <div className="rounded-md border border-border/40 bg-[#0a120e]/60 px-4 py-2.5 text-[9px] text-muted-foreground leading-relaxed">
+        Cintia Boos — Agente Productora Registrada CNV N° 2192. La informacion presentada es de
+        caracter informativo y educativo, no constituye asesoramiento personalizado ni recomendacion
+        de inversion. Ninguna consulta a traves de este canal tiene costo. Los datos provienen de
+        Yahoo Finance. Rentabilidades pasadas no garantizan resultados futuros.
+      </div>
+
+      {/* Buscador */}
+      <div className="rounded-md border border-border/40 bg-[#0a120e]/60 p-4">
+        <p className="text-[10px] text-muted-foreground mb-2">
+          Ingresar el ticker de Yahoo Finance. Para acciones argentinas usar sufijo .BA (ej: GGAL.BA). Para CEDEARs ingresar el ticker del subyacente en USA (ej: AAPL, MSFT, GOOGL).
+        </p>
+        <div className="flex gap-2">
+          <input
+            type="text"
+            value={ticker}
+            onChange={(e) => setTicker(e.target.value.toUpperCase())}
+            onKeyDown={handleKey}
+            placeholder="Ej: AAPL  /  GGAL.BA  /  MELI"
+            maxLength={20}
+            className="flex-1 rounded-md border border-border/40 bg-background/20 px-3 py-2 text-[11px] font-mono text-foreground placeholder:text-muted-foreground/40 outline-none focus:border-emerald-500/50"
+          />
+          <button
+            onClick={handleSearch}
+            disabled={loading || !ticker.trim()}
+            className="rounded-md border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-[11px] text-emerald-400 hover:bg-emerald-500/20 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+          >
+            {loading ? "Consultando..." : "Analizar"}
+          </button>
+        </div>
+      </div>
+
+      {/* Error */}
+      {fetchError && (
+        <div className="rounded-md border border-red-500/30 bg-red-500/5 px-4 py-3 text-[10px] text-red-400">
+          {fetchError}
+        </div>
+      )}
+
+      {/* Loading */}
+      {loading && (
+        <div className="rounded-md border border-border/40 bg-[#0a120e]/60 px-4 py-6 text-center text-[10px] text-muted-foreground">
+          Consultando Yahoo Finance y calculando metricas...
+        </div>
+      )}
+
+      {/* Resultados */}
+      {result && !loading && (
+        <div className="space-y-4">
+
+          {/* Identidad de la empresa */}
+          <div className="rounded-md border border-border/40 bg-[#0a120e]/60 p-4">
+            <div className="flex items-start justify-between gap-2 flex-wrap">
+              <div>
+                <p className="text-[13px] font-semibold text-foreground">
+                  {result.companyName ?? result.symbol}
+                </p>
+                <p className="text-[10px] text-muted-foreground mt-0.5">
+                  {[result.sector, result.industry, result.country].filter(Boolean).join(" · ")}
+                </p>
+              </div>
+              <div className="text-right">
+                <p className="text-[11px] font-mono font-semibold text-foreground">
+                  {fPrice(result.currentPrice)}
+                </p>
+                <p className="text-[9px] text-muted-foreground">
+                  Market cap: {fMarketCap(result.marketCapM)}
+                </p>
+                {result.beta !== null && (
+                  <p className="text-[9px] text-muted-foreground">
+                    Beta: {result.beta.toFixed(2)}
+                  </p>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* Señal de inversion — bloque principal */}
+          <div className="rounded-md border border-border/40 bg-[#0a120e]/60 p-4">
+            <p className="text-[9px] uppercase tracking-widest text-muted-foreground mb-3">
+              Señal de inversion
+            </p>
+            <div className="flex items-center gap-4 flex-wrap">
+              <div>
+                <p className="text-[9px] text-muted-foreground">Horizonte</p>
+                <p className="text-[12px] font-semibold text-foreground">{result.plazo}</p>
+              </div>
+              <div className="h-6 w-px bg-border/30" />
+              <div>
+                <p className="text-[9px] text-muted-foreground">Accion sugerida</p>
+                <p className={`text-[14px] font-bold ${signalColor(result.accion)}`}>
+                  {result.accion}
+                </p>
+              </div>
+            </div>
+            <p className="mt-2 text-[9px] text-muted-foreground leading-relaxed">
+              Esta señal resulta del score fundamental ({result.fundScore}/100) combinado con la posicion del precio en su rango historico de 10 años (percentil {result.pricePercentile10y !== null ? Math.round(result.pricePercentile10y) : "--"}) y el upside al precio objetivo consensuado por analistas. No constituye una recomendacion formal de inversion.
+            </p>
+          </div>
+
+          {/* Score + posicion en rango */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            {/* Score fundamental */}
+            <div className="rounded-md border border-border/40 bg-[#0a120e]/60 p-4">
+              <p className="text-[9px] uppercase tracking-widest text-muted-foreground mb-2">
+                Score fundamental
+              </p>
+              <ScoreBar score={result.fundScore} />
+              <ScoreDetailTable details={result.scoreDetails} />
+              <p className="mt-2 text-[9px] text-muted-foreground">
+                Score calculado sobre metricas disponibles en Yahoo Finance. Si un dato no existe, no se incluye en el calculo.
+              </p>
+            </div>
+
+            {/* Posicion en rango de precios 10 años */}
+            <div className="rounded-md border border-border/40 bg-[#0a120e]/60 p-4">
+              <p className="text-[9px] uppercase tracking-widest text-muted-foreground mb-2">
+                Posicion en rango de precios (10 años, mensual)
+              </p>
+              {result.min10y !== null && result.max10y !== null && result.currentPrice !== null ? (
+                <>
+                  <PriceBar
+                    min={result.min10y}
+                    max={result.max10y}
+                    current={result.currentPrice}
+                    avg={result.avg10y}
+                  />
+                  <p className="mt-2 text-[10px] text-foreground">
+                    Percentil {result.pricePercentile10y !== null ? Math.round(result.pricePercentile10y) : "--"}/100
+                    <span className="ml-2 text-muted-foreground text-[9px]">
+                      — {priceRangeLabel(result.pricePercentile10y)}
+                    </span>
+                  </p>
+                  <p className="mt-1 text-[9px] text-muted-foreground">
+                    Linea amarilla = promedio de los ultimos 10 años. Posicion actual del precio normalizada entre el minimo y maximo de cierre mensual en 10 años de datos historicos.
+                  </p>
+                </>
+              ) : (
+                <p className="text-[9px] text-muted-foreground mt-1">No hay datos historicos suficientes para calcular el rango de 10 años.</p>
+              )}
+            </div>
+          </div>
+
+          {/* Tabla de metricas fundamentales */}
+          <div className="rounded-md border border-border/40 bg-[#0a120e]/60 p-4">
+            <p className="text-[9px] uppercase tracking-widest text-muted-foreground mb-3">
+              Metricas fundamentales detalladas
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8">
+              <table className="w-full">
+                <tbody>
+                  <SectionHeader label="Valoracion" />
+                  <MetricRow label="P/E Trailing" value={result.trailingPE !== null ? `${result.trailingPE.toFixed(1)}x` : "--"} />
+                  <MetricRow label="P/E Forward" value={result.forwardPE !== null ? `${result.forwardPE.toFixed(1)}x` : "--"} />
+                  <MetricRow label="PEG Ratio" value={result.pegRatio !== null ? result.pegRatio.toFixed(2) : "--"} colorClass={result.pegRatio !== null ? (result.pegRatio < 1 ? "text-emerald-400" : result.pegRatio < 2 ? "text-amber-400" : "text-red-400") : undefined} />
+                  <MetricRow label="Precio / Libro" value={result.priceToBook !== null ? `${result.priceToBook.toFixed(2)}x` : "--"} />
+                  <MetricRow label="EV / EBITDA" value={result.evToEbitda !== null ? `${result.evToEbitda.toFixed(1)}x` : "--"} />
+
+                  <SectionHeader label="Rentabilidad" />
+                  <MetricRow label="ROE" value={fPctNoSign(result.returnOnEquity)} colorClass={result.returnOnEquity !== null ? (result.returnOnEquity * 100 >= 12 ? "text-emerald-400" : result.returnOnEquity * 100 >= 5 ? "text-amber-400" : "text-red-400") : undefined} />
+                  <MetricRow label="ROA" value={fPctNoSign(result.returnOnAssets)} colorClass={result.returnOnAssets !== null ? (result.returnOnAssets >= 0 ? "text-emerald-400" : "text-red-400") : undefined} />
+                  <MetricRow label="Margen bruto" value={fPctNoSign(result.grossMargin)} />
+                  <MetricRow label="Margen operativo" value={fPctNoSign(result.operatingMargin)} colorClass={result.operatingMargin !== null ? (result.operatingMargin >= 0 ? "text-foreground" : "text-red-400") : undefined} />
+                  <MetricRow label="Margen neto" value={fPctNoSign(result.profitMargin)} colorClass={result.profitMargin !== null ? (result.profitMargin * 100 >= 10 ? "text-emerald-400" : result.profitMargin >= 0 ? "text-amber-400" : "text-red-400") : undefined} />
+
+                  <SectionHeader label="Crecimiento" />
+                  <MetricRow label="Crecimiento ingresos (YoY)" value={fPct(result.revenueGrowth)} colorClass={pctColor(result.revenueGrowth)} />
+                  <MetricRow label="Crecimiento ganancias (YoY)" value={fPct(result.earningsGrowth)} colorClass={pctColor(result.earningsGrowth)} />
+                </tbody>
+              </table>
+
+              <table className="w-full">
+                <tbody>
+                  <SectionHeader label="Salud financiera" />
+                  <MetricRow
+                    label="Deuda / Patrimonio"
+                    value={result.debtToEquityRaw !== null ? `${(result.debtToEquityRaw / 100).toFixed(2)}x` : "--"}
+                    colorClass={result.debtToEquityRaw !== null ? (result.debtToEquityRaw < 100 ? "text-emerald-400" : result.debtToEquityRaw < 200 ? "text-amber-400" : "text-red-400") : undefined}
+                  />
+                  <MetricRow label="Ratio corriente" value={result.currentRatio !== null ? result.currentRatio.toFixed(2) : "--"} colorClass={result.currentRatio !== null ? (result.currentRatio >= 1.5 ? "text-emerald-400" : result.currentRatio >= 1 ? "text-amber-400" : "text-red-400") : undefined} />
+                  <MetricRow label="Ratio rapido" value={result.quickRatio !== null ? result.quickRatio.toFixed(2) : "--"} colorClass={result.quickRatio !== null ? (result.quickRatio >= 1 ? "text-emerald-400" : "text-amber-400") : undefined} />
+                  <MetricRow label="Free Cash Flow" value={result.freeCashflowM !== null ? `${result.freeCashflowM >= 0 ? "" : "-"}USD ${Math.abs(result.freeCashflowM).toFixed(0)} M` : "--"} colorClass={result.freeCashflowM !== null ? (result.freeCashflowM >= 0 ? "text-emerald-400" : "text-red-400") : undefined} />
+                  <MetricRow label="FCF Yield" value={fPctNoSign(result.fcfYield)} colorClass={result.fcfYield !== null ? (result.fcfYield * 100 >= 3 ? "text-emerald-400" : result.fcfYield >= 0 ? "text-amber-400" : "text-red-400") : undefined} />
+
+                  <SectionHeader label="Dividendos" />
+                  <MetricRow label="Rendimiento dividendo" value={fPctNoSign(result.dividendYield)} />
+                  <MetricRow label="Ratio de distribucion" value={result.payoutRatio !== null ? fPctNoSign(result.payoutRatio) : "--"} />
+
+                  <SectionHeader label="Consenso de analistas" />
+                  <MetricRow label="Recomendacion consenso" value={recLabel(result.recommendationMean)} colorClass={result.recommendationMean !== null ? (result.recommendationMean <= 2.5 ? "text-emerald-400" : result.recommendationMean <= 3.5 ? "text-amber-400" : "text-red-400") : undefined} />
+                  <MetricRow label="Numero de analistas" value={result.numberOfAnalystOpinions !== null ? String(Math.round(result.numberOfAnalystOpinions)) : "--"} />
+                  <MetricRow label="Precio objetivo promedio" value={fPrice(result.targetMeanPrice)} />
+                  <MetricRow label="Precio objetivo minimo" value={fPrice(result.targetLowPrice)} />
+                  <MetricRow label="Precio objetivo maximo" value={fPrice(result.targetHighPrice)} />
+                  <MetricRow
+                    label="Upside al precio objetivo"
+                    value={result.upsidePct !== null ? `${result.upsidePct >= 0 ? "+" : ""}${result.upsidePct.toFixed(1)}%` : "--"}
+                    colorClass={result.upsidePct !== null ? (result.upsidePct >= 10 ? "text-emerald-400" : result.upsidePct >= 0 ? "text-amber-400" : "text-red-400") : undefined}
+                  />
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* P/E historico */}
+          <div className="rounded-md border border-border/40 bg-[#0a120e]/60 p-4">
+            <p className="text-[9px] uppercase tracking-widest text-muted-foreground mb-1">
+              Historial de P/E por año fiscal
+            </p>
+            <p className="text-[9px] text-muted-foreground mb-2">
+              P/E calculado usando el precio de cierre de diciembre de cada año fiscal y el EPS derivado de la utilidad neta anual dividida las acciones en circulacion. Yahoo Finance provee hasta 4 años de estados de resultados.
+              {result.pePercentile !== null && (
+                <span className={`ml-1 font-medium ${result.pePercentile >= 70 ? "text-red-400" : result.pePercentile <= 30 ? "text-emerald-400" : "text-amber-400"}`}>
+                  Percentil actual: {result.pePercentile} — {peLabel(result.pePercentile)}.
+                </span>
+              )}
+            </p>
+            <PeHistoryTable
+              history={result.peHistory}
+              currentPE={result.trailingPE}
+              percentile={result.pePercentile}
+            />
+          </div>
+
+        </div>
+      )}
+    </div>
+  );
+}
+
+
+=============================================================
+FIN DEL PROMPT
+=============================================================
+VERIFICAR ANTES DE EJECUTAR:
+1. El archivo src/lib/fundamental-af.functions.ts no existe — crearlo
+2. El archivo src/components/herramientas/AnalisisFundamentalTab.tsx existe — reemplazar todo su contenido
+3. No crear ningun otro archivo
+4. No modificar ningun otro archivo
+5. No agregar rutas ni registros en herramientas.tsx — ya estan

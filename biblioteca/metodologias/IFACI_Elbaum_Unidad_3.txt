@@ -1,0 +1,2690 @@
+Cap 05 8/24/03 10:43 PM Page 1
+Incidencia
+de los indicadores
+económicos sobre los
+5
+mercados financieros
+5.1 ¿CUÁLES SON LAS PRINCIPALES VARIABLES ECO- 5.5.3 Gastos del consumidor
+NÓMICAS QUE SE DEBEN OBSERVAR PARA ANALI- 5.5.4 Inmuebles y construcciones
+ZAR LOS MERCADOS FINANCIEROS? 5.5.5 Comercio exterior
+5.2 PRINCIPALES VARIABLES DE LA ECONOMÍA ESTA- 5.5.6 Precios, salarios y productividad
+DOUNIDENSE QUE IMPACTAN EN LOS MERCADOS 5.5.7 Finanzas del gobierno
+5.2.1 Nivel de precios y de actividad 5.5.8 Medidas sobre oferta de dinero
+5.2.2 Tasas de interés 5.5.9 Federal reserve policy disclosures and
+5.3 EL AJUSTE ESTACIONAL tools
+5.4 EL RIESGO PAÍS 5.5.10 Cronograma de remates del tesoro
+5.5 PRINCIPALES INDICADORES DE EE.UU. 5.6 ORGANISMOS QUE PUBLICAN LOS ÍNDICES
+5.5.1 Empleo, ingreso y producción nacional
+5.5.2 Órdenes, producción sectorial e inven-
+tarios
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 2
+2 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+L
+a importancia de los datos económicos que determina gran parte de los ciclos
+para los participantes de los mercados económicos.
+financieros se ha incrementado fuerte- 2) Timing de la información. Existen cier-
+mente con los años. Esta importancia se de- tos informes que adquieren gran valor
+be a dos mejoras:, la primera en lo referido por el momento en que son emitidos.
+a la tecnología, que ayuda a la disemina- Uno de ellos es el National Purchasing
+ción de la información económica en forma Managers Survey (Encuesta de los Ge-
+instantánea, y la segunda, la creciente so- rentes de Compras de Empresas a Ni-
+fisticación en la evaluación de esos datos y vel Nacional), que justo es emitido el
+su significado para el valor de los activos fi- primer día de negocios del mes si-
+nancieros. guiente al mencionado en el informe.
+A continuación se expondrán una serie de Esto hace que termine el mes y ya se
+factores a tener en cuenta en el uso de los in- cuente con información, mientras que,
+dicadores. por ejemplo, el PBI trimestral es deter-
+minado tres meses después o sea un
+A su vez, en el anexo se presenta una
+trimestre después del informado, con
+compilación de los principales indicadores
+lo cual ya es información muy añeja.
+económicos de los EE.UU., con un detalle
+que tiene como objetivo evaluar acabada- 3) Confiabilidad de los datos. En este caso
+mente el valor de cada indicador. No todos hay que tener atención a la magnitud
+los datos tienen igual valor, se debe ver cui- de las muestras, si son revisadas, si no
+dadosamente su confiabilidad y valía. A me- son demasiado revisadas (lo cual insu-
+nudo este juicio sólo se alcanza con varios me mucho tiempo) o si tiene datos
+años de experiencia de trabajo con esos da- que son muy volátiles y entorpecen el
+tos. La razón de presentar los indicadores de desempeño del indicador.
+EE.UU. radica en que es el mercado que en Ahora bien, más allá de estas considera-
+muchos casos determina el comportamiento ciones, cuando se intenta evaluar qué infor-
+de otros mercados. me estadístico tiene el poder de mover el
+En los sitios de Internet habitualmente mercado hay que tener en cuenta dos consi-
+están las fechas de salida de cada indicador deraciones claves:, una es el ciclo económi-
+bajo la opción “economic calendar”. La sec- co y la otra son los cambios estructurales.
+ción de economía del USA Today lo posee. Ciclo económico. En los estadios tempra-
+nos del ciclo económico no hay peligro de
+inflación, por lo que los reportes más obser-
+5.1 PRINCIPALES VARIABLES
+vados son aquellos referidos a demanda o
+ECONÓMICAS A OBSERVAR
+producción. Sin embargo, en la expansión de
+PARA ANALIZAR LOS MERCADOS
+los negocios y cuando ya hay capacidad es-
+FINANCIEROS?
+casa, comienza a haber mucha ansiedad
+Para determinar esto existen tres criterios acerca de si habrá aumento de salarios o de
+básicos; éstos son: precios, es decir peligro de inflación, y los
+informes referidos a estos ítem son los más
+1) Relevancia para la economía en conjun-
+mirados.
+to. Si bien los datos pueden tratar de
+toda la economía, algunos disparan Cambios estructurales. Estos cambios son
+ciertos efectos. Las ventas minoristas aquellos referidos a cuando un informe deja
+representan 2⁄ de la actividad econó- de ser importante u otro se vuelve importan-
+3
+mica de los EE.UU., por lo que el gasto te. Así, la estadística semanal de provisión
+personal total sobre ventas minoristas de moneda por la Fed en 1980 era determi-
+es un dato de crucial importancia ya nante para las tasas de interés de corto pla-
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 3
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 3
+zo. Sin embargo, cuando la Fed dejó de tener rie del EMBI+ para el conjunto de
+como objetivo un determinado nivel de reser- mercados emergentes, América Latina
+vas bancarias y cuando se rompió la relación y Argentina.
+entre crecimiento económico y agregados
+3) Inflación. Si baja se genera mayor
+monetarios, esto hizo que estos datos en par-
+confianza en el programa económico
+ticular dejaran de ser útiles.
+y en los inversores. Como ejemplo, en
+Se detallan a continuación los que, cree- Argentina desde 1995 hasta el año
+mos, son los principales —aunque no los 2000 se registró una inflación minoris-
+únicos— indicadores económicos que un in- ta (IPC) inferior a la internacional, por
+versor debe tener en cuenta a la hora de in- lo que no existían temores de presio-
+vertir en un determinado mercado. nes inflacionarias en el corto plazo,
+contrariamente a lo que sucedía en
+1) El producto bruto interno (PBI) mide
+otros países latinoamericanos.
+el nivel de actividad económica o el vo-
+lumen total de producción de bienes y 4) Balanza comercial. Es la diferencia
+servicios finales de la economía (a dife- entre las exportaciones y las importa-
+rencia de la producción, que sí imputa ciones. Como estas últimas están co-
+todos los bienes intermedios). Desde el rrelacionadas con el PBI, cuando la
+lado de la demanda se tiene consumo, economía se expande, las importacio-
+más inversión, más gasto del gobierno, nes aumentan fuertemente y se dete-
+más superávit/déficit de la cuenta co- riora el saldo de la balanza comercial.
+rriente. Por el lado de la oferta sería el El aumento del déficit en la balanza
+consumo más el ahorro. Cuanto más comercial preocupa a largo plazo, por-
+cerca del pleno empleo se encuentre, que debe financiarse con entrada de
+un aumento puede te-
+ner un impacto positi- Fig.
+vo sobre las tasas de 5 - 1
+interés y otro negativo
+sobre los mercados de
+riesgo.
+2) Una variable clave es el
+seguimiento del riesgo-
+país, que en la práctica
+es medido por el Emer-
+ging Markets Bond Index
+(EMBI+) elaborado por
+el banco de inversión
+JP Morgan. Representa
+el rendimiento diferen-
+cial —o spread prome-
+dio ponderado— de los
+bonos de un determi-
+capitales o mediante la depreciación
+nado país emergente por sobre el de
+de la moneda doméstica.
+los EE.UU. (mercado definido como li-
+bre de riesgo). En relación con el PBI, 5) Resultado fiscal. Es la diferencia entre
+si las expectativas de crecimiento eco- ingresos y egresos (incluyendo intere-
+nómico en un país son fundadas, el ses) del sector público. Por ejemplo, en
+riesgo-país tiende a bajar. En la fig. 5-1 Argentina, durante el régimen de con-
+se expone en forma comparativa la se- vertibilidad la evolución del déficit fis-
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 4
+4 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+cal era clave para mantener la confianza de la cartera de préstamos y los nive-
+en el tipo de cambio 1 ×1, ya que por la les de capitalización de las entidades.
+convertibilidad el gobierno no podía
+8) El tipo de cambio es fundamental, ya
+emitir dinero para financiar este dese-
+que determina el verdadero poder ad-
+quilibrio. Cuando el déficit fiscal tiene
+quisitivo de una inversión para un ex-
+una tendencia creciente, o sea que per-
+tranjero. Un inversor puede mantener
+manentemente se gasta más de lo que
+una cartera diversificada de activos de
+se recauda, pueden producirse dificul-
+diversos países, pero no mide sus ren-
+tades para financiar la diferencia por
+dimientos en la moneda local respecti-
+desconfianza de los inversores. Un défi-
+va, sino que lo mide generalmente en
+cit fiscal alto, creciente o no sostenible
+moneda “fuerte” o divisas de gran acep-
+a través del tiempo lleva a un escena-
+tación, que cumplen con la función de
+rio pesimista. Detrás de esta variable
+reserva de valor, como lo es el dólar es-
+se encuentra la estructura del gasto pú-
+tadounidense. En países emergentes la
+blico y del sistema tributario: a los in-
+expectativa de una depreciación del ti-
+versores no les importa cómo se logra
+po de cambio, o si se espera que ese
+reducir el déficit fiscal, sino que sea
+país devalúe en el caso de tipo de cam-
+efectivamente reducido.
+bio fijo, es la antesala de un rally alcis-
+6) Tasa de desempleo.Ésta mide la canti- ta en los precios, medidos en moneda
+dad de gente que está desocupada so- local, para poder mantener sus precios
+bre la población económicamente relativamente neutros en dólares. Se
+activa (PEA), es decir no sobre la po- buscan generalmente acciones de em-
+blación activa en edad de trabajar total, presas exportadoras que poseen sus in-
+sino solamente sobre aquellas perso- gresos denominados en moneda fuerte.
+nas que estén buscando un trabajo y
+9) Un concepto asociado al tipo de cambio
+los que ya lo tienen. Si ésta crece, el
+es el efecto contagio entre economías
+gobierno está más presionado para ha-
+emergentes, muy tenido en cuenta por
+cer política monetaria expansiva y lo los inversores, especialmente por aque-
+más probable es que las tasas de inte-
+llos fondos diversificados por países en
+rés tengan tendencia decreciente. La
+busca de altos retornos. Los shocks ex-
+tasa de desempleo aun en pleno em-
+ternos, especialmente los movimien-
+pleo no es cero, pues siempre habrá tos de tasas de interés internacionales,
+gente buscando trabajo, lo que se deno- influyen en forma directamente pro-
+mina la tasa natural de desempleo. porcional al grado de similitud de las
+economías.
+7) Reservas del sistema financiero. In-
+cluye las reservas internacionales de Si bien la estrategia de inversión de di-
+los países, los coeficientes de liquidez versificar riesgos a través de la tenen-
+mantenidos en depósitos en el exterior cia de muchos activos de distintos
+y los préstamos contingentes negocia- sectores económicos y tipos de empre-
+dos por los distintos países. Cuanto más sas por fase de crecimiento resulta
+altas sean estas reservas en relación acertada en la teoría, los problemas
+con la masa total de depósitos, más re- surgirán inmediatamente al fondo de
+cursos tendrá el sistema financiero pa- inversión excesivamente concentrado
+ra hacer frente a una corrida sobre los en activos de riesgo de un determina-
+depósitos. También influyen positiva- do país, especialmente si se trata de
+mente sobre la confianza de los inver- un país emergente, o de una región,
+sores la mayor solidez del sistema por la correlación existente entre paí-
+bancario medida a través de la calidad ses de un mismo bloque comercial
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 5
+Argentina 1,00 0,75 0,56 0,42 0,22 0,32 0,64 0,07 0,52 0,31 0,52
+Brasil 0,75 1,00 0,63 0,52 0,34 0,33 0,77 0,20 0,60 0,36 0,64
+Bulgaria 0,56 0,63 1,00 0,41 0,25 0,32 0,53 0,14 0,45 0,36 0,51
+Ecuador 0,42 0,52 0,41 1,00 0,22 0,21 0,47 0,12 0,37 0,22 0,47
+Filipinas 0,22 0,34 0,25 0,22 1,00 -0,02 0,44 0,82 0,10 0,36 0,22
+Marruecos 0,32 0,33 0,32 0,21 -0,02 1,00 0,37 -0,28 0,33 0,24 0,29
+México 0,64 0,77 0,53 0,47 0,44 0,37 1,00 0,22 0,55 0,39 0,59
+Nigeria 0,07 0,20 0,14 0,12 0,82 -0,28 0,22 1,00 -0,05 0,23 0,12
+Panamá 0,52 0,60 0,45 0,37 0,10 0,33 0,55 -0,05 1,00 0,26 0,48
+Perú 0,31 0,36 0,36 0,22 0,36 0,24 0,39 0,23 0,26 1,00 0,27
+Rusia 0,52 0,64 0,51 0,47 0,22 0,29 0,59 0,12 0,48 0,27 1,00
+(Argentina y Brasil, por ejemplo, o Mé- cirse cambios de rumbo en el programa
+xico y los EE.UU.). económico o que se adopten medidas
+legislativas que afecten negativamente
+Para ver este tema pueden armarse
+las ganancias de las empresas. El crono-
+distintas matrices de correlación entre
+grama de elecciones genera volatilidad
+mercados, ya sea de bonos, acciones y
+de precios, sin que esto implique ma-
+otros activos como tipos de cambio. En
+yor riesgo ya que debe considerarse un
+la fig. 5-2 se presenta la matriz de co-
+ingrediente necesario de un régimen
+rrelación del EMBI+ calculada sobre
+democrático. En general, las inversio-
+una base diaria para un período de
+nes en proyectos empresariales necesi-
+cuatro años y medio para diversos
+tan contar con un marco de estabilidad
+mercados emergentes, en la cual se
+y confianza dentro del cual desarrollar-
+observa una alta correlación en los ín-
+se a largo plazo. La incertidumbre es dices de Argentina, Brasil y México:
+enemiga de la inversión, y cuando las
+10) Un indicador que hace a la solvencia y
+circunstancias políticas y sociales no
+liquidez intertemporal de un país es el
+son capaces de garantizar un cierto cli-
+ratio de servicios de la deuda en re-
+ma de estabilidad en las políticas eco-
+lación con las exportaciones, así co-
+nómicas y en la legislación que afecta a
+mo la tasa de crecimiento de este
+las empresas, éstas eluden afrontar pro-
+indicador. Los servicios incluyen tanto
+yectos de inversión que les permitan
+el capital como los intereses netos pa-
+incrementar su competitividad y sus
+gados en concepto de deuda pública
+beneficios. En este sentido, la ruptura
+soberana interna y externa.
+de contratos y la inseguridad jurídica
+11) Factores políticos.Las noticias políticas atenta contra la inversión en países
+inciden sobre el riesgo soberano en la emergentes, tanto directa como a tra-
+medida que se crea que puedan produ- vés de sus mercados financieros.
+anitnegrA
+lisarB
+a ir
+a
+g
+lu
+B
+rodaucE sanipiliF
+soceurraM
+ocixéM airegiN ámanaP
+úreP
+aisuR
+Fig.
+5 - 2
+.nagroM
+PJ
+a
+esab
+ne
+aiporp
+nóicarobale
+:ETNEUF
+Cap 05 8/24/03 10:43 PM Page 5
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 6
+6 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+5.2 PRINCIPALES VARIABLES Ambos índices se usan para medir si exis-
+DE LA ECONOMÍA ten presiones inflacionarias que podrían lle-
+ESTADOUNIDENSE QUE var a la Reserva Federal a ajustar las tasas
+IMPACTAN EN LOS MERCADOS de interés.
+Dada la importancia que tiene esta econo- El efecto de un aumento en la tasa de in-
+mía para los mercados mundiales, es de gran terés es deprimir el nivel de consumo e in-
+importancia dar a conocer aquellos de sus versión, y por lo tanto la demanda agregada,
+indicadores de mayor significación. lo cual reduce la presión inflacionaria.
+Habitualmente la curva de Cuando se empezó a anali-
+EL REEMPLAZO DE LA CURVA DE TASAS DE LOS
+tasas usadas como referencia zar el problema de la tasa de
+BONOS DEL TESORO NORTEAMERICANO
+relativa a ser libre de riesgo fue referencia y se habían comen-
+la tasa de los strips de los bo- zado a resignar a que la nueva
+nos del tesoro. Es decir, cada cupón cotizado como si fue- referencia sería la curva de swaps, todos se dieron cuenta
+ra un zero-coupon. de que esta curva está construida sobre los swpas que es-
+La posición de deuda del gobierno de EE.UU. ha comen- tán operativos, es decir es una verdadera curva de tasas
+zado a caer dramàticamente, estando en el 2000 por de- libres de riesgos.
+bajo de 3,5 billones de dólares, Se puede ver en la figura que
+calculándose caer debajo de 2 respecto a la curva de bonos
+billones para el 2005 y por de- tiene muy poca diferencia
+bajo de 1 billón para el 2010.
+En el resumen de tasas BTMM
+Con lo cual la curva de bonos
+de Bloomberg se puede ver que
+de tesoro perderá peso relativo. en todos los países se encuentra
+Se han comenzado a buscar la curva de tasas relevante, por
+sustitutos de referencia, así se lo que se ha convertido en un
+han descartado las deudas de instrumento de uso diario. Se
+las agencias, tanto el Fredy Mac resalta que ni en la Argentina
+como el Fannie Mae están por actual ni en la de antes de dic
+debajo de los 1,4 billones. de 2001 el BTMM de Argentina
+Así se comenzó a pensar en tenía curva de tasas de swaps,
+usar la curva de swaps como reemplazo, cuando habitual- lo cual muestra el subdesarrollo del mercado local.
+mente esta curva se usaba como chequeo de la otra curva. Ref.: Swaps and the swaps yield curve – Federal reserve
+La curva de tasa de swaps es realidad es un derivado de Bank of Cleveland. Dic. 2001
+tasa, en este caso de la tasa Libor. Ésta se calcula sobre va- Are US Treasuries still a valid benchmark for corporate
+rias monedas y cuando no lleva ninguna aclaración adi- bonds and interest rate swaps? John Wreith. Royal Bank
+cional es que se refiere a la tasa Libor en dólares. of Scotland
+5.2.1 Nivel de precios y
+Tasa de crecimiento del PBI trimestral:
+de actividad
+considera datos trimestrales desestacionali-
+Índice de precios al productor (PPI)
+zados y la variación trimestral se expresa en
+(mensual): equivale al índice de precios ma-
+tasa equivalente anual. Si la tasa es mayor
+yoristas, o sea al incremento en los precios
+que 3%, se considera que la economía está
+que reciben los productores por bienes fina-
+creciendo demasiado rápido y por lo tanto
+les, intermedios o materias primas.
+existe riesgo de inflación. En este caso, es de
+Índice de precios al consumidor (CPI) esperar que la Fed eleve las tasas de inte-
+(mensual): equivale a la variación del costo rés de corto plazo (Fed Funds y Discount -
+de vida. Incluye precios minoristas de bie- tasade descuentos) para morigerar la expan-
+nes y servicios. sión de la demanda agregada.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 7
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 7
+5.2.2 Tasas de interés Tasa de los fondos federales (Federal
+Funds Rate).En sus últimas intervenciones,
+Tasa de los US Treasury strips a 30 años:
+ésta es la tasa que ha modificado la Fed para
+es la tasa de rendimiento de un bono cupón
+evitar el recalentamiento de la economía.
+cero del tesoro norteamericano con madu-
+rez a 30 años y libre de riesgo. Como estos Tasa prime - frecuencia diaria: tasa de in-
+bonos son con un rendimiento fijo, cual- terés activa para empresas de primera línea.
+quier incremento en la tasa de inflación im-
+Tasa CD a 3 meses - frecuencia diaria: ta-
+plica un menor retomo para los inversores
+sa de depósitos a plazo fijo de 90 días de
+y, por lo tanto, una caída en el precio de los
+grandes bancos de los EE.UU.
+bonos. Esta tasa es considerada como una
+proxy de las expectativas de inflación a largo Todos los indicadores se pueden resumir
+plazo del mercado. en el cuadro 5-1.
+Cuadro
+EMPLEO, INGRESO Y PRODUCCIÓN NACIONAL 5-1
+Indicador Organismo Frecuencia
+Unemployment insurance claims Departament of Labour Semanal (S)
+Help-wanted advertising index The Conference Board Mensual (M)
+GDP (Gross Domestic Product) Departament of Commerce, Trimestral (T)
+Bureau of Economic Analysis
+Personal Income Departament of Commerce, M
+Bureau of Economic Analysis
+Corporate Profits Departament of Commerce, T
+Bureau of Economic Analysis
+ÓRDENES, PRODUCCIÓN SECTORIAL E INVENTARIOS
+Indicador Organismo Frecuencia
+National Purchasing managers’survey National Association of Purchasing M
+of manufacturing management
+Current Economic Conditions Federal Reserve Board Cada 6 semanas
+(“Beige” Book)
+Durable Goods Orders (Advance Report) Departament of Commerce, M
+Bureau of the Census
+Producción Industrial Federal Reserve Board M
+Capacity Utilization Federal Reserve Board M
+Composite Index of leading indicators. The Conference Board M
+GASTOS DEL CONSUMIDOR
+Indicador Organismo Frecuencia
+Retail Sales Departament of Commerce, M
+Bureau of the Census
+Personal Consume Expenditure (PCE) Departament of Commerce, M
+Bureau of Economic Analysis
+LJR Redbook Report Lynch, Jones and Ryan S
+Consumer Confidence The Conference Board M
+Consumer Sentiment University of Michigan Survey 2 Meses
+Research Center
+Consumer Installement credit Federal Reserve Board M
+Continúa en la pág. sigte.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 8
+8 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Cuadro
+5-1
+Continuación
+INMUEBLES Y CONSTRUCCIONES
+Indicador Organismo Frecuencia
+Housing Starts and Building permits Departament of Commerce, M
+Bureau of the Census
+New single-family home sales. Departament of Commerce, M
+Bureau of the Census
+Existing Home sales National Association of Realtors M
+Construction spending Departament of Commerce, M
+Bureau of the Census
+COMERCIO EXTERIOR
+Indicador Organismo Frecuencia
+International Trade Balance Departament of Commerce, M
+Bureau of the Census
+Current Account Balance Departament of Commerce, T
+Bureau of Economic Analysis
+Financial Account Balance Departament of Commerce, T o M
+Treasury Department
+PRECIOS, SALARIOS Y PRODUCTIVIDAD
+Indicador Organismo Frecuencia
+GDP- Base price indices Departament of Commerce, T revision M
+Bureau of Economic Analysis
+Producer Price Index Departament of Labour, M
+Bureau of labor statistic
+Consumer Price Index Departament of Labour, M
+Bureau of labor statistic
+Employement cost index Departament of Labour, T
+Bureau of labor statistic
+Productivity and Cost Departament of Labour, T
+Bureau of labor statistic
+FINANZAS DEL GOBIERNO
+Indicador Organismo Frecuencia
+Federal Budget Balance Department of Treasury, Financial M
+Management Service
+US Treasury borrowing schedule Department of Treasury, via Federal Según Maturity
+Reserve Bank of New York City
+MEDIDAS SOBRE OFERTA DE DINERO
+Indicador Organismo Frecuencia
+Agregados Monetarios Federal Reserve Board —
+Base Monetaria Federal Reserve Bank of —
+St.Louis – Federal Reserve Board
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 9
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 9
+Por otra parte, el Goldman Sachs Finan- En cuanto a acciones, casi ni se mira la in-
+cial Conditions Index reúne los efectos de flación y se preocupa más en mirar ganan-
+la política monetaria y los efectos de mer- cias y el estado general de la economía.
+cado, por lo que ha venido usándose cada
+Con respecto al valor del dólar respecto
+vez más.
+del yen y del euro sigue una serie de factores
+propios del mercado de monedas, aunque
+A continuación se verá un análisis de lo
+llamativamente a principio de año sigue mu-
+sucedido en el año 2000 para el mercado de
+cho lo que sucede en el mercado accionario.
+renta fija en los EE.UU. (índices), siendo la
+principal preocupación la inflación, uno de Finalmente, el cuadro 5-2 integra estos
+los 4 de los mayores factores explicativos de tres mercados para visualizar con claridad
+este mercado. Se puede observar que todos qué informes observa con atención cada
+estos movimientos son antes de mayo del uno. Para los indicadores en que sólo se
+2000. Después de ello los reportes más im- mencione una sigla, se puede encontrar su
+portantes son los de actividad. explicación en el detalle de indicadores Cuadro
+5-2
+MERCADO DE RENTA FIJA
+Ranking Orden de Fecha Movimiento en Informe estadístico Lectura del indicador
+importancia basics points o evento preanunciado
+1 1 3 ene +14 Primer día de negocios Se vio que los temores
+después del Y2k al efecto del Y2k habían
+sido infundados, las
+acciones remontaron
+y los bonos sufrieron
+2 1 20 jul -14 Greenspan Testimony Se enfatizó en las
+razones del retraso
+3 3 14 abr -13 CPI, producción industrial Fuerte inflación,
+rally de bonos y
+caída de acciones
+4 3 27 abr +13 Precios al consumidor Muy fuerte ECI y GDP
+(CPI), producción industrial
+5 5 5 dic -10 Discurso de Greenspan Greenspan enfatizó
+a la comunidad sobre la debilidad
+de banqueros de la economía
+6 6 13 ene -9 PPI, retail sales, Greenspan destacó las
+Greenspan Testimony ganancias en
+productividad
+7 6 12 may +9 PPI, Business inventories Bien PPI (Índice
+precios industriales)
+8 6 2 jun -9 Employement Más débil que lo esperado
+9 6 1 sep -9 Employement, NAPM Más débil que lo esperado,
+corrobora el NAPM
+10 10 11 ago +9 Retail sales, PPI Fuertes ventas de retail,
+datos de inflación
+controlada
+11 10 13 dic -9 Retail sales Gore concession Débiles ventas de
+retail y fin de la
+elección presidencial
+Continúa
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 10
+10 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Cuadro
+5-2
+Continuación
+MERCADO DE ACCIONES
+Ranking Fecha Movimiento en % Informe estadístico o Lectura del indicador
+diario del S&P 500 evento preanunciado
+1 14 abr -5,83 Precios al consumidor Fuerte inflación, rally
+(CPI),producción industrial de bonos y caída
+de acciones
+2 5 dic +3,89 Discurso de Greenspan a la Greenspan enfatizó sobre
+comunidad de banqueros la debilidad de la economía
+3 28 ener -2,75 GDP Reporte de GDP
+4 7 enero +2,71 Employement Débiles datos de empleos
+5 21 mar +2,56 FOMC Fed aumenta la tasa
+y los mercados de acciones
+se esperanzan
+6 15 dic -2,15 Precios al consumidor Débil producción industrial,
+(CPI),producción industrial se acompaña con indicios de
+inflación
+7 11 feb -2,1 Retail sales Revisión hacia arriba aumenta
+miedo de recorte de tasa
+8 28 jul -2,05 GDP Fuerte GDP report aumenta
+miedo a la Fed
+9 30 nov -2,01 Chicago PMI Personal Muy baja lectura del reporte
+Income,Claims de Chicago y se condice con
+aumento de las reclamaciones
+por desempleo
+10 1 jun +1,99 NAPM Débiles números del NAPM
+MERCADO DEL DÓLAR
+Ranking Fecha Movimiento en % Informe estadístico o Lectura del indicador
+v. euro y yen evento preanunciado
+1 28 ene +1,58 GDP Fuerte GDP report aumenta
+miedo a la Fed
+2 26 may -1,21 Durable goods orders Débiles órdenes
+3 6 sep +1,24 Productivity Muy fuerte reporte
+de productividad nonfarm
+4 1 sep -0,97 Employement, NAPM Más débil que lo esperado,
+corrobora el NAPM
+5 14 ene +0,88 CPI Precios al consumidor
+contenidos aumentan
+los stocks
+6 14 abr -0,82 Precios al consumidor (CPI), Fuerte inflación,
+producción industrial rally de bonos y
+caída de acciones
+7 2 jun -0,80 Employement Débiles datos de empleos
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 11
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 11
+Ranking Fecha Movimiento en % Informe estadístico o Lectura del indicador
+> v. euro y yen evento preanunciado
+8 28 jul +0,76 GDP Fuerte GDP report aumenta
+miedo a la Fed
+9 30 nov -0,73 Chicago PMI Personal
+Income,Claims Muy baja lectura del reporte
+de Chicago y se condice
+con aumento de las
+reclamaciones por
+desempleo.
+10 3 ene -0,72 First Trading day Se vio que los temores al
+efecto del Y2k habían sido
+infundados, las acciones
+remontaron y los bonos
+sufrieron.
+ÍNDICES COMPARADOS POR SU IMPACTO EN EL VALOR DE LOS ACTIVOS FINANCIEROS
+Bonds Stocks Dólar
+GDP Employement GDP
+ECI GDP ECI
+Employement Retail sales Productivity
+CPI CPI CPI
+NAPM Productivity Retail sales
+Durable goods Producción Industrial Employement
+Retail sales NAPM NAPM
+Productivity PPI Durable goods
+Producción Industrial Durable goods PPI
+PPI ECI Producción
+industrial
+EVOLUCIÓN DE LOS PRINCIPALES INDICADORES MACROECONÓMICOS
+1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001
+EE.UU.
+PBI real var.%) 3,5 1,8 -0,5 3,0 2,7 4,0 2,7 3,6 4,4 4,3 4,1 4,1 1,2
+Tasa de desempleo 5,3 5,6 6,9 7,5 6,9 6,1 5,6 5,4 4,9 4,5 4,2 4,0 4,8
+Precios minoristas 4,8 5,4 4,3 3,0 3,0 2,6 2,8 2,9 2,3 1,6 2,2 3,4 4,8
+Alemania
+PBI real (var. %) 3,6 5,7 5,0 1,8 -1,9 2,2 1,9 1,4 2,4 3,0 1,7 3,2 0,7
+Tasa de desempleo 7,1 6,4 5,7 5,9 7,3 8,2 9,4 10,3 11,3 10,6 8,6 7,9 7,9
+Precios minoristas 2,8 2,7 3,5 4,0 3,6 2,7 1,8 1,5 1,8 2,0 1,5 2,0 1,7
+Japón
+PB real var. %) 4,8 5,1 3,8 0,7 0,2 0,6 1,6 3,4 2,0 -1,0 0,8 2,6 -
+Tasa de desempleo 2,3 2,1 2,1 2,2 2,5 2,9 3,2 3,4 3,4 4,1 4,7 4,7 5,0
+Precios minoristas 2,3 3,1 3,3 1,6 1,3 0,7 -0,1 0,1 1,8 0,6 -0,3 -0,7 -1,2
+FUENTE:Bureau of Economic Analysis http://www.bea.doc.gov/U.S. Bureau of Labor Statistics http://stats.bls.gov/home.htm
+Ministry of Public Management, Home Affaris, Post and Telecommunications of Japan –Statistics Bureau & Statistics Center;
+Economic and Social Research Institute – Cabinet Office – Government of Japan; OECD Statistics on the Members Countries;
+Índices armonizados de la Unión Europea.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 12
+12 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+5.3 EL AJUSTE ESTACIONAL embargo, los analistas son conscientes de es-
+tas limitaciones y reconocen que debería
+Este ajuste pretende eliminar los cambios
+analizarse el tema en profundidad. Lo que sí
+que se producen en los datos por efectos del
+es cierto es que, a pesar de sus fallas, el aná-
+calendario, por ejemplo, la caída de ventas
+lisis estacional proporciona una base estadís-
+en enero después de Navidad, la diferente
+tica, sistemática y metodológica de cómo
+cantidad de días de negocio que tiene cada
+tratar este problema.
+mes, etcétera.
+Un método para detectar un inadecuado
+Con este examen se busca ajustar los datos
+análisis estacional es el uso de un promedio
+semana a semana, mes a mes. Si no se confía
+móvil centrado sobre un período de trece
+en este ajuste sólo se puede trabajar con los
+meses; si el cambio neto o tasa de crecimien-
+cambios de año a año, pero es difícil aplicar
+to de la variable sospechada de mal ajuste es
+estos datos a los cambios de corto plazo.
+sistemáticamente más alta o más baja que el
+Este ajuste es bastante complicado, pero promedio móvil centrado, es un fuerte indi-
+de manera conceptual se puede expresar cio de problemas con el ajuste estacional.
+que para un mes dado los cocientes de ese
+mes con respecto a sus adyacentes es com-
+putado para varios años, como mínimo tres 5.4 EL RIESGO PAÍS
+y en general cinco o siete años. Este proceso
+El riesgo país (o riesgo soberano o prima
+se repite para cada mes.
+de riesgo país) es un indicador de confianza
+De esta manera, un factor de 0,90 para un de los inversores que muestra cuánta más
+mes dado significa que ese mes en promedio rentabilidad (en términos de tasa de interés
+su valor tiende a estar 10% bajo el promedio. o rendimiento) exigen los inversores para co-
+Sin embargo, el factor estacional tiende a locar sus fondos en papeles de determinado
+moverse en el tiempo, es decir a cambiar de país con más riesgo que un país desarrollado
+valor, debido a cambios demográficos, climá- (en general se compara con EE.UU.). A ma-
+ticos, etc. Asimismo, en la actividad económi- yor riesgo requerirán un retorno mayor para
+ca se observa el impacto deeventos inusuales. compensar la potencial volatilidad de precios
+En el período de noviembre de 1999 a marzo o la probabilidad de no pagar la deuda.
+de 2000 el clima fue llamativamente templa-
+Hay diversos factores: económicos, políti-
+do y seco en EE.UU., lo cual provocó que la
+cos e internacionales que afectan el riesgo
+cifra resultante del ajuste estacional fuese
+país. Cuánto más inestable sea la situación
+muy alta debido a que la actividad de la
+económica o política, más rendimiento se
+construcción habitualmente decae entre oc-
+exige y consecuentemente más alto es el
+tubre y enero. Cuando hubo que recalcular
+para el año 2001, los estadísticos se enfrenta- riesgo país; Cuando el riesgo sube, los pre-
+ron a un dilema; se debía tratar ese periodo cios de los bonos y acciones argentinos caen
+pasado como una aberración o debía ser in- y lo opuesto sucede cuando cae el riesgo
+corporado, ya que había evidencias de un ca- país. Por eso, si bien el índice de riesgo país
+lentamiento global del clima terrestre. es un número, tal como se puede observar
+en la fig. 5-3, también es interesante obser-
+Si bien los análisis de series de tiempo rea-
+varlo con todas los hechos económicos y po-
+lizan sofisticados cálculos incorporando otros
+líticos que lo acompañaron, tal como en la
+factores y tratando de eliminar estas distor-
+fig. 5-4, donde aparecen la renuncia del vi-
+siones, por diferentes causas éstas se produ-
+cepresidente de Argentina, Carlos Álvarez
+cen. Los participantes de los mercados
+en 2000 y la caída del NASDAQ.
+financieros a menudo se burlan de este ajus-
+te, ya que los ajustes parecen arbitrarios. Es- El cuadro 5-3 resume el efecto de las va-
+tos actores se focalizan en el cambio año a riables antes mencionadas sobre los niveles
+año, con las limitaciones que ello tiene. Sin de riesgo
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 13
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 13
+Fig.
+5 - 2 Fig.
+5 - 3
+FUENTE: Secretaría de finanzas, Ministerio de Economía – FUENTE: Secretaría de finanzas, Ministerio de Economía –
+Argentina. Argentina.
+Cuadro
+Variable Evolución Efecto sobre el riesgo
+5-3
+Crecimiento PBI real Alto -
+Inflación En alza +
+Déficit comercial Creciente +
+Déficit fiscal Creciente +
+Tasa de desempleo Alta +
+Incertidumbre política Alta +
+Reservas sist. financiero Altas -
+Tasa de interés USA En alza +
+5.5 PRINCIPALES INDICADORES cia de salida y una explicación sobre los mis-
+DE EE.UU. mos. A su vez, se presentan los distintos or-
+ganismos que publican los índices así como
+En el presente se describen los principa-
+la dirección de Internet
+les indicadores económicos, con la frecuen-
+5.5.1 Empleo, ingreso y producción nacional
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Employement M 1er. viernes del Civilian unemployement rate: Se deriva de un relevamiento
+situation mes siguiente o se usa para medir el balance de familias y un relevamiento
+2º viernes si el 1º entre oferta y demanda de de empresas. Un individuo
+es 1 empleo; antes de despedir o con dos trabajos se registra
+sumar gente, las empresas una vez en el relevamiento de
+suben o bajan el total de ho- familias y dos en el de empre-
+ras trabajadas. sas.
+>
+Average nonfarm workweek: El relevamiento de familias es
+mide el promedio de horas más sensible ante el autoem-
+trabajadas, sirve para antici- pleo y formación de nuevas
+par cambios en el producto. empresas.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+14 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Change in total nonfarm pay- El relevamiento de empresas
+roll employment:se usa para sirve mejor para el desagre-
+anticipar las medidas de em- gado por sectores de los da-
+pleo y para anticipar ingreso tos.
+personal. Se toma como empleo si ha
+Change in manufacturing estado empleado todo el pe-
+payroll employment:refleja la ríodo, para el gobierno se to-
+composición de sectores; se ma la nómina al final del mes.
+usa para prever el sendero de Entre los cambios metodoló-
+desarrollo industrial gicos está la incorporación de
+Average worweek in manu- los “trabajadores disponibles”
+facturing: es más preciso que se refiere a personas part
+que el nonfarm worweek, time o que desearían un tra-
+por lo que se lo incluye co- bajo.
+mo uno de los indicadores Se esta corrigiendo lo que
+top. significa “trabajador descora-
+Index of agregate weekly zonado”, que ha cesado la
+hours: este índice ajustado búsqueda de empleo pero
+por cambios en la productivi- quisiera trabajar.
+dad del trabajo es un muy Los datos de empleo se che-
+buen proxy del gpd trimestral quean con los provenientes
+o mensual. de reclamos por devolucio-
+Payroll employment diffu- nes de impuestos por seguro
+sion: calculado como el por- de desempleo. Usualmente
+centaje de industrias que no hay errores.
+informan un aumento de la
+nómina, sirve para medir la
+extensión del empleo total.
+Unemploy- W Martes Ratio de nuevos reclamos Es muy volátil, por lo que se
+ment respecto de los que se hacen ajustes estacionales
+insurance vienen pagando. Es uno de y promedios móviles.
+claims los top leading indicators.
+Muy fuerte señal del mer-
+cado de trabajo de la mar-
+cha del desempleo.
+Challenger, M Primera semana Ésta es una firma de outplace- Los datos son presentados tal
+Gray and del mes siguiente ment, es decir retiro progra- cual están, es decir, sin ajuste
+Christmas al informado. mado o despido programado, estacional.
+Layoff y anuncia la cifra bruta de
+Announce- despidos de empresas de
+ments EE.UU.
+Help-want- M Último martes del Se registra la cantidad de Es ajustado por ciudad, can-
+ed advertis- mes para el mes avisos de empleo en 51 pe- tidad de días de semana,
+ing index anterior riódicos líderes. Se usa base cantidad de domingos en el
+1987, pero tiene más de cua- mes y factores estacionales
+renta años de historia. Es un para áreas específicas.
+confiable indicador de los pi- Tiene cierto lag con respecto
+cos del total nonfarm payroll al mercado de trabajo y al ci-
+employment. clo económico. Además aho-
+ra está influido por la gran
+cantidad de avisos que circu-
+lan por Internet, a expensas
+de los medios gráficos.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+lanoican
+nóiccudorp
+y
+osergni
+,oelpmE
+Cap 05 8/24/03 10:43 PM Page 14
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 15
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+GDP (Gross T/rM 4 semanas Mide el valor total de los bie- Hay tres informes, el Advan-
+Domestic después del mes nes producidos por personas ce en el mes siguiente al
+Product) terminado, cifras físicas, jurídicas, gobierno y terminar un trimestre, el
+finales dos propiedades, en valor nomi- Preliminary al mes siguiente
+meses después. nal y real (ajustado por infla- del anterior y el Revised al
+ción, base 1996). Tiene 5 mes siguiente del anterior.
+grandes categorías:1) consu- El 68% de GPD es consumo
+mo personal, 2) inversiones personal, el resto de los ru-
+en infraestructura, equipos y bros son muy volátiles.
+software; 3) inversión en in- Las ventas finales son muy
+ventarios, 4) exportaciones usadas para estimar la de-
+netas y 5) gasto en consumo manda total, pero es un mal
+e inversión de gobierno. indicador de gasto ya que las
+Este producto difiere del cifras se oscurecen cuando
+Gross National Product, que hay grandes compras de
+es el ganado por todos los commodities por el gobierno.
+residentes estadounidenses Respecto a inventario, lo que
+en todo el mundo menos lo importa es su derivada se-
+ganado por los extranjeros gunda, es decir, si crece
+en EE.UU. constante no tiene influencia
+en el GPD; pero si esta tasa
+de crecimiento cambia, allí
+hay un cambio.
+Una nueva metodología es la
+llamada “Chain-weighted”,
+que rebalancea automática-
+mente los componentes del
+GPD; se pierde, sin embargo,
+la característica de aditividad
+del mismo.
+Personal M 4 semanas des- Mide el total de ingresos de
+Income pués del mes los individuos antes de im-
+terminado, 1 día puestos, también de organi-
+después del re- zaciones sin fines de lucro,
+porte de GDP fondos de fideicomisos pri-
+vados, expresados como una
+tasa anual. Los salarios y jor-
+nales son el 58% de este
+componente, también inclu-
+ye rentas personales, trans-
+ferencias de desempleo,
+seguro social, etcétera.
+Los descuentos para el segu-
+ro social son descontados.
+El DPI Disposable personal
+income se mide sin impues-
+tos personales y sin los pagos
+sin impuestos. Es un gran in-
+dicador de los cambios en el
+modelo de gastos.
+De esta medida también se
+elabora el personal saving
+rate.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+lanoican
+nóiccudorp
+y
+osergni
+,oelpmE
+Cap 05 8/24/03 10:43 PM Page 15
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+16 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Corporate T 8 a 9 semanas de Estos datos se presentan de Mientras que el tax-based es
+Profits terminado el tri- dos maneras, una llamada el mas difundido, el ajustado
+mestre tax-based y otra llamada ad- proporciona una medida de
+justed. Es un indicador valioso mayor significación econó-
+en lo que se refiere al gasto en mica, ya que refleja las ga-
+capital para el crecimiento del nancias de la producción
+GDP. corriente.
+Este indicador difiere del
+S&P, ya que este último sólo
+es de empresas selectas, y
+tiene dos problemas que es-
+te indicador elimina: el efec-
+to de inflación de inventario
+y el tratamiento preferencial
+de impuestos de la deprecia-
+ción del capital.
+5.5.2 Órdenes, producción sectorial e inventarios
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+National M Primer día de Este estudio reúne las com-
+Purchasing negocios del pras de las empresas como
+managers’- mes siguiente baja, alta o sin cambios, y las
+survey of agrupa con una ponderación
+manufactur- en cinco categorías: a) 30%
+ing de nuevas órdenes, b) 25%
+producción, c) 20% nuevo em-
+pleo, d) 15% velocidad de en-
+trega y e) 10% inventarios.
+Si el índice da debajo de 43 -
+44%, se asocia con una rece-
+sión. Esto se debe a que la
+construcción y el sector de
+servicios pueden sostener ga-
+nancias cuando el resto de los
+sectores están débiles.
+NAPM non- M Tercer día de Este reporte fue elaborado co- Tiene una corta historia aún,
+manufactur- negocios mo complemento del anterior ya que se elabora desde julio
+ing index. después del mes y cubre sectores como agri- de 1997.
+informado cultura, forestación, pesca,
+construcción, minería, trans-
+porte, comunicaciones, mino-
+ristas, finanzas, inmuebles,
+servicios y administración pú-
+blica.
+Por debajo de 50% es rece-
+sión.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+nóiccudorp
+y
+osergni
+,oelpmE lanoican
+Cap 05 8/24/03 10:43 PM Page 16
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 17
+soiratnevni
+e
+lairotces
+nóiccudorp
+,senedrÓ
+Cap 05 8/24/03 10:43 PM Page 17
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Chicago M Ultimo día de ne- Idéntica formación que el A pesar de que históricamen-
+Purchasing gocios del mes in- NAPM survey te se ha movido igual que al
+managers’- formado. de nivel nacional, no hay ra-
+survey zones para suponer que lo
+que suceda en Chicago se
+pueda extrapolar al resto del
+país.
+Philadelphia M Tercer jueves de Cubre las firmas bajo el dis- No es comparable a los sur-
+Federal Re- cada mes trito de la reserva de Phila- veys del NAPM.
+serve Bank delphia y son consultadas
+Business acerca de cada sector y de las
+Outlook condiciones generales. Una
+Survey lectura sobre cero es una ga-
+nancia y bajo cero es una
+contracción.
+Kansas City M Dos semanas Cubre más ítem que el NAPM, La serie histórica no es gran- Federal Re- después del mes como precios pagados, pre- de, ya que comienza en 1995,
+serve Bank informado cios recibidos, empleo y ho- y recién ha cambiado a fre-
+Manufactu- ras trabajadas, entre otros. cuencia mensual en 2001, ya
+ring Survey que antes era trimestral.
+Richmond M Segundo jueves De contenido similar a los
+Federal del mes anteriores
+Reserve >
+Bank
+Survey
+Current 8 vecesSegundo miér- Antes de las reuniones se Si bien es un reporte anecdó-
+Economic por coles ante del prepare un informe, denomi- tico, tal vez porque proviene
+Conditions año meeting de la nado “beige” book por el co- de las autoridades regulato-
+(“Beige” Fed lor de la tapa, donde figura rias, a veces el mercado se ha
+Book) un relevamiento de las con- movido conforme a él.
+diciones del mercado. Existe
+un “green” book con el clima
+de negocios y un “blue” book
+sin difusión pública con las
+perspectivas.
+Durable M 3 a 4 semanas Este reporte se basa en las Contrariamente a lo que po-
+Goods después del mes órdenes de compra de bienes dría pensarse, estas cifras
+Orders informado durables con expectativa de son muy volátiles.
+(Advance vida de más de tres años. Los analistas excluyen los
+Report) gastos militares, que son una
+pequeña parte de la econo-
+mía en conjunto y son los
+más volátiles. También lo son
+los gatos relacionados con la
+aviación privada, a pesar de
+que las órdenes tardan mu-
+cho en llenarse y mientras ge-
+neran mucho empleo.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+18 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Manufactu- M 4 a 5 semanas Este reporte cubre tanto fir- A partir del ratio de inventa-
+rers’ Ship- después del mes mas de bienes durables y no rios a embarques se puede in-
+ments terminado durables, inventarios, ferir si hay un desbalance de
+inventories nuevas órdenes, órdenes no inventarios. También el desa-
+and orders cubiertas y embarques. gregado de insumos, bienes
+en proceso y terminados da
+una idea de la marcha de la
+producción de bienes.
+Producción M Dos semanas Este informe comprende la Dentro de transportes, la
+Industrial después del mes gran mayoría de los bienes producción de vehículos de
+terminado industriales (87,4% en 2000) motor es especialmente volá-
+y constituye el 25-30% del til. Los eventos inusuales, las
+GDP. huelgas, los desastres natu-
+La ponderación de este índice rales, influyen fuertemente
+en sus subgrupos más gran- sobre este índice.
+des es: a) 10,5% tabaco y co-
+mida, b) 10,3% químicos, c)
+9,1% maquinaria industrial y
+equipos, d) 9% maquinaría
+eléctrica, e) 6,6% imprentas y
+publicaciones, d) 5,7% vehícu-
+los y autopartes, y e) 5,5% me-
+talúrgicos.
+Capacity M Dos semanas Mide el porcentaje de capa-
+Utilization después del mes cidad productiva de manu-
+terminado facturas y minerías. Un alto
+porcentaje o alto crecimien-
+to de este indicador muestra
+presiones inflacionarias. Se
+estima que si sobrepasa el
+85%, hay alto riesgo de infla-
+ción.
+Manufactu- M Seis semanas Este reporte indica los niveles Como cada unidad tiene un
+ring and después del mes de inventario; una medida alto valor, la producción de
+trade in- terminado muy útil es el ratio ventas a autos y camiones provoca
+ventories inventario, que muestra si el mucha volatilidad en esta
+sendero de construcción de medida.
+inventarios se condice con la
+demanda.
+Composite M Tres semanas Tiene como objetivo prede- Los tres indicadores de ciclo
+Index of después del mes cir el ciclo económico. Para son tomados desde 1995. Se
+leading terminado ello está compuesto con in- ha modificado continuamente
+indicators. dicadores financieros y no fi- la canasta de indicadores a fin
+nancieros, y se agregan dos de mejorar la eficiencia del
+índices más de ciclo econó- índice.
+mico.
+Financial Indicators: precios
+acciones, Real Money Suplí
+(M2), cambios en la yield
+curve de notas de 10 años
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+soiratnevni
+e
+lairotces
+nóiccudorp
+,senedrÓ
+Cap 05 8/24/03 10:43 PM Page 18
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 19
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+menos la tasa federal de fon-
+dos. Expectativas del consu-
+midor.
+Non Financial Indicators:
+average factory workweek,
+Initial claims for unemploye-
+ment insurance, vendor per-
+fomance, buildings permits,
+real new orders for consumer
+goods and materials and real
+manufacturers’new order, non-
+defense capital goods.
+5.5.3 Gastos del consumidor
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Retail Sales M Dos semanas Este indicador mide ventas El primer informe (Advan-
+después del mes minoristas no anualizadas, ced) está realizado sobre
+terminado ajustadas estacionalmente, una muestra de 4.100 firmas
+vacaciones y diferencias en y tiene diferencias sustancia-
+los días de negocios. les con el los otros informes
+(revised y final), por ello de-
+ben tomarse con cuidado las
+cifras provenientes de los úl-
+timos informes.
+Como la venta de autos in-
+cluye usados y autopartes,
+es preferible mirar estas ci-
+fras en los reportes de ma-
+nufacturers.
+Incluye ventas de e-commer-
+ce y se excluyen agencias de
+viajes, finanzas, fabricantes
+y ventas mayoristas.
+Personal M 4 semanas Mide el gasto del consumidor
+Consume después del mes para todos los bienes y servi-
+Expenditur terminado cios. Este gasto comprende 2⁄3
+e (PCE) del GDP. El mismo viene de-
+sagregado en amplias cate-
+gorías. Las ventas minoristas
+comprenden el 40% de este
+gasto. Este indicador es muy
+útil para predecir cambios en
+el gasto del consumidor.
+Esta medida es informada en
+términos nominales y reales,
+por ello el deflactor usado en
+este caso es seguido como
+medida alternativa de la infla-
+ción minorista.
+-otces
+nóiccudorp
+,senedrÓ
+soiratnevni
+e
+lair
+Cap 05 8/24/03 10:43 PM Page 19
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+20 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Unit Auto M 1 o 2 días hábiles Esta medida es provista por Esta cifra es muy volátil ya que
+and Truck después del mes los mayores fabricantes de varía conforme a la finan-
+Sales terminado vehículos, ajustada con fac- ciación ofrecida, la moda y
+tores estacionales oficiales. otros factores, pero provee
+Presenta una acabada mues- señales tempranas de cam-
+tra de las tendencias de la bios en los hábitos de con-
+demanda. sumo. Por ejemplo, la venta
+de camionetas fue un alto por-
+centaje en los 90 y sobrepasó
+las ventas de autos domésti-
+cos en 1999.
+BTM-UBSW w Martes Usando fuentes privadas de Existen problemas de ajuste
+grandes cadenas los analis- estacional, una muy limitada
+tas del Tokio Mitsubishi Bank muestra, un muy pequeño
+y del UBS Warburg elaboran porcentaje del consumo, por
+un índice acerca de las ven- lo que estas cifras deben
+tas en valor nominal. usarse con cuidado.
+La serie mensual está desde El Federal Reserve Bank de
+1969 y semanal desde 1989. Nueva York encontró que el
+porcentaje de cambio de es-
+te índice es un predictor de
+las ventas minoristas, exclu-
+yendo autos.
+LJR w Martes Elaborado sobre la base de Las ventas por este canal
+Redbook 21 grandes tiendas de depar- sólo representan 10% de las
+Report tamentos, a diferencia del ventas minoristas.
+anterior incluye un ajuste
+estacional.
+Goldman M Primero o segun- También se basa en la infor- Como estas ventas son muy
+Sachs do jueves mación de grandes cadenas volátiles, se recomienda un
+Retail después del mes de retail. Este índice se basa promedio de tres meses para
+Index terminado en la comparación año a año ganar sensibilidad.
+de la ventas y es valioso para
+detectar tendencias.
+Consumer M Ultimo martes del Este dato es compilado a tra- Más volátil que el Consumer
+Confidence mes informado vés de un relevamiento que Sentiment.
+comprende más de 5.000 fa-
+milias, a las que después de
+que se les pregunta sobre las
+condiciones generales de la
+economía se les interroga so-
+bre los planes de compra de
+bienes durables.
+La pregunta referida a si el
+empleo es pleno o duro de
+conseguir tiene una relación
+muy cerrada con el índice de
+desempleo.
+Tiene correlación negativa
+con este índice mencionado.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+rodimusnoc
+led
+sotsaG
+Cap 05 8/24/03 10:43 PM Page 20
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 21
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Consumer M/2 Datos prelimina- Elaborado desde 1950, es
+Sentiment res, viernes si- más completo que el anterior
+guiente a la ya que incluye las condicio-
+segunda semana. nes actuales y las futuras. Es-
+Datos finales, to hace que sea menos volátil
+viernes siguiente que el Consumer confidence
+a la última sema- y muy buen indicador, de allí
+na del mes. que sea uno de los top lea-
+ding indicators.
+La pregunta referida a la in-
+flación da un resultado corre-
+lacionado negativamente con
+la misma.
+ABC Money W Miércoles Se toma una encuesta sobre Da sistemáticamente lecturas
+Magazine 1.000 personas en todo el negativas, salvo en 1986 y en
+Consume territorio de EE.UU. 1997-2001.
+Confort Es complementario a los índi-
+Index ces anteriores en el sentido de
+que es semanal y sirve para
+chequear ciertas actitudes o
+modas.
+Consumer M 5 semanas Este informe indica la canti- Desde la reforma de impues-
+Installement después del mes dad de créditos en cuotas del tos de 1986, donde se pue-
+credit terminado mes incluyendo préstamos a den deducir algunos ítem,
+individuos por bancos y com- ese indicador ha perdido cier-
+pañías financieras. El crédito to valor en lo referido a pro-
+se presenta como revolving pensión al gasto.
+credit (tarjetas de crédito no
+pagas) y nonrevolving credits,
+que incluye préstamos para
+mejora de hogar, crédito para
+autos y otros.
+5.5.4 Inmuebles y construcciones
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Housing M 2 o 3 semanas Muestra los permisos para
+Starts and después del mes construcción de residencias
+Building terminado privadas de más de 19.000
+permits localidades. Se divide en fami-
+lia simple, residencias y edifi-
+cios de 2 a cuatro unidades o
+multifamiliar.Como también
+se divide por área geográfica,
+sirve para detectar desvíos
+debidos al clima.
+Es un top leading indicator.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+rodimusnoc
+led
+sotsaG
+Cap 05 8/24/03 10:43 PM Page 21
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+22 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+New single- M 4 o 5 semanas Este reporte da el nivel de La venta de casas es en ge-
+family después del mes ventas anualizado, ajustado neral una medida muy volátil
+home terminado estacionalmente, y el porcen- mes a mes.
+sales. taje de cambio. Se incluye en
+este informe si la casa y el te-
+rreno son vendidos simultá-
+neamente.
+Existing M El 25 del mes si- Es un índice que compila la
+Home sales guiente o si- venta de casas existentes. Si
+guiente día hábil bien tiene un muy pequeño
+impacto en el producto, es
+un buen indicador de la de-
+manda de durables por las fa-
+milias.
+Construc- M 4 o 5 semanas Este indicador se presenta Como es parte integrante del
+tion spen- después del mes tanto en términos reales co- GDP esta sometido a fre-
+ding terminado mo nominales. Se divide en cuentes revisiones y siempre
+tres categorías: residenciales, es oscurecido por housing
+privados no residenciales y start, buildings permits y ho-
+públicos. me sales.
+National M Mitad de mes Este informe tiene las condi-
+Association ciones actuales y la prospec-
+of Home tiva para los seis meses
+Builders siguientes.
+Survey
+Mortgage M Miércoles a la Es una compilación semanal Como es muy volátil semana
+Bankers mañana de todas las aplicaciones re- a semana, es preferible apli-
+Association cibidas por sus miembros. Se car técnicas de suavizado.
+Weekly separan luego en nuevas apli-
+Survey caciones y refinanciaciones.
+Si bien el primer índice es va-
+lioso, el segundo lo es más
+ya que revela la propensión
+al gasto de las familias.
+5.5.5 Comercio exterior
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Internatio- M 6 semanas Balanza comercial.De impor- Las importaciones de petró-
+nal Trade después del mes tancia creciente, si existen leo y las exportaciones de ve-
+Balance terminado fuertes desviaciones de los hículos aéreos le dan mucha
+supuestos oficiales, se prevé volatilidad a esta medida.
+gran cambio en las cifras del
+GDP.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+senoiccurtsnoc
+y
+selbeumnI
+Cap 05 8/24/03 10:43 PM Page 22
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 23
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Current T 10 a 11 semanas Incluye bienes, servicios y Es influenciado por el cam-
+Account después de ter- transferencias unilaterales. bio del valor del dólar en el
+Balance minado el Se excluyen bienes militares extranjero. Estos cambios
+trimestre y ayuda militar. aparecen en ingresos por in-
+versiones.
+Financial M y T Este informe se complementa Las transacciones de capital
+Account con el Treasury Bulletin, que del gobierno de los EE.UU.
+Balance desagrega el tipo de transac- no están incluidas,
+ciones financieras efectua-
+das, tales como securities
+domésticos y extranjeros de
+largo plazo, reclamos sobre
+extranjeros por bancos de
+EE.UU. y reclamos sobre ex-
+tranjeros presentados por
+empresas no bancarias.
+5.5.6 Precios, salarios y productividad
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+GDP- Base T/rM 4 semanas Está compuesto por la cade- Por su amplia cobertura esta
+price después del mes na ponderada de precios del medida es mucho menos
+indices terminado GDP, de las compras y por el volátil que el PPI o CPI.
+deflactor del GDP. Se dispone
+de los valores para cada de-
+sagregado.
+Producer M Dos semanas Es el índice de precios recibido Al tener excluidos servicios
+Price Index después de ter- por los productores de EE.UU. es la más volátil de las medi-
+minado el mes por bienes y commodities. Se das relacionadas con la infla-
+reporta el PPI para bienes ter- ción. Se muestrea a mediados
+minados, bienes intermedios y de mes.
+para insumos.
+Su composición es: a) 22,5%
+alimentos y bebidas, b) 38,2%
+bienes de consumo excluidos
+alimentos, c) 15,4% bienes
+durables, d) 23,9% bienes de
+capital.
+Consumer M 2 o 3 semanas Mide el precio de una canas- Para evaluar acabadamente
+Price Index después del mes ta fija de bienes y servicios la inflación se debe excluir
+terminado que los consumidores com- del índice energía y alimen-
+pran en EE.UU. tos.
+A diferencia del PPI, se mues- Una comisión del senado
+trea todo el mes. (Boskin Com.) determinó que
+Hay dos poblaciones: jornale- el CPI-U sobrestimaba la in-
+ros urbanos y trabajadores flación minorista, por lo que
+clericales CPI-W (esta muestra se creó una serie corregida
+se usa para los pagos de se- denominada CPI-U-RS.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+roiretxe
+oicremoC
+Cap 05 8/24/03 10:43 PM Page 23
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+24 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+guridad social) y el otro para Al eliminar energía y alimen-
+todos los consumidores ur- tos sin duda hay un problema
+banos, que es el que recibe de sesgo, el Federal Bank de
+más atención pública CPI-U. Cleveland calcula un Medium
+El CPI-U se compone de a) CPI, que elimina estos proble-
+39,9% hogar y suministros, mas.
+b) 16,2% comidas y bebidas,
+c) 17,6% transporte, d) 5,8%
+gastos médicos, e) 4,5% ves-
+tido, f) 5,9% recreación, g)
+5,3% educación y comunica-
+ción, h) 4,8% otros bienes y
+servicios.
+Employe- T 4 semanas Este índice es superior al de No son incluidas las accio-
+ment cost después de ter- horas trabajadas por: a) no nes dadas como forma de
+index minado el existe ajuste de cambio de beneficios y las compensa-
+trimestre trabajos, que siempre involu- ciones que tienen gran in-
+cran distintas industrias y fluencia de los impuestos a
+distintas escalas salariales; veces provocan cambios en
+b) la estadística de horas no estas medidas.
+refleja los beneficios; c) La
+cobertura de trabajadores es
+más amplia; d) al ser reporta-
+dos los beneficios no pagos,
+se obtiene un indicador de
+las tendencias salariales.
+Se reporta con ajuste esta-
+cional y sin él.
+Goldman D Este índice mide el retorno
+Sachs obtenible de inversión (no
+Commodity apalancada) en commodities
+Index sobre un período. Sólo se
+compone de commodities
+con mercado de futuros y se
+pondera de acuerdo con su
+producción mundial. Es útil y
+por ello se ha negociado des-
+de 1992 un futuro sobre este
+índice.
+Se compone de: a) 63,5%
+energía, b) 17% agrícolas, c)
+10,3% ganado, d) 7% metales
+industriales y e) 2,3% meta-
+les preciosos.
+Bridge D Este índice refleja el precio de Al tener gran cantidad de
+Commodity 23 commodities igualmente productos agrícolas, estos ín-
+Research ponderados, 10 productos ali- dices son muy influenciados
+Bureau menticios y 13 insumos in- por el clima.
+dustriales.
+El CRB “raw materials” es muy
+usado como indicador de la
+producción industrial.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+dadivitcudorp
+y
+soiralas
+,soicerP
+Cap 05 8/24/03 10:43 PM Page 24
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 25
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Producti- T/rM 5 o 6 semanas Es el cambio del producto
+vity and después de ter- por hora de trabajo ajustado
+Cost minado el estacionalmente. Del produc-
+trimestre to se excluyen gobierno, org.
+sin fines de lucro, empleados
+domésticos, renta de inmue-
+bles y sector agrícola.
+La fuente primaria sería el
+Employement Cost Index con
+la inclusión de pagos con ac-
+ciones y costos no laborales.
+Import- M 10 días después Este índice se basa en una
+Export de terminado el canasta de bienes estableci-
+Index mes da en 1995, es útil para eva-
+luar la competitividad de
+EE.UU. Excluyendo el petró-
+leo se obtiene una buena me-
+dida de la influencia de la
+inflación de EE.UU. sobre el
+comercio exterior.
+5.5.7 Finanzas del gobierno
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+FederaL M 15 días hábiles El déficit o superávit mensual A pesar de que se puede usar
+Budget después del mes del gobierno es anunciado la comparación con el mes de
+Balance informado sin ajuste estacional. años anteriores, existe mucha
+volatilidad entre meses debi-
+da a cambios en los pagos de
+seguridad social y gastos mili-
+tares. También puede haber
+efectos externos como la cri-
+sis de los 80 de los saving &
+loans americanos, que tuvo
+impacto en el presupuesto de
+1989 a 1996.
+US El cronograma de remates se
+Treasury coloca por separado al final. Es
+borrowing necesario destacar la presen-
+schedule cia de emisiones especiales
+denominadas cash-manage-
+ment bills, que tienen un ma-
+turity muy corto de días o
+semanas y que usualmente
+coinciden con días de grandes
+vencimientos impositivos.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+dadivitcudorp
+y
+soiralas
+,soicerP
+Cap 05 8/24/03 10:43 PM Page 25
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+26 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Federal Este es un techo establecido
+Debt Limit en 1917 que comprende a
+casi el 99% de toda la deuda
+pública de los EE.UU. Si bien
+nunca ha sido una amenaza
+sobre las actividades de fon-
+deo del gobierno es bueno
+que exista.
+5.5.8 Medidas sobre oferta de dinero
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Agregados W Lunes posterior a Se listan los siguientes agre- La innovación financiera ha
+monetarios la semana termi- gados monetarios: roto la tradicional importancia
+nada M1: moneda en circulación, de estas medidas.
+cheques de viajero de entida- Sólo ocasionalmente la Fed
+des no financieras, demanda reacomoda el agregado mo-
+de depósitos, ordenes nego- netario para incorporar nue-
+ciadas de cuentas a la vista, vos instrumentos.
+cuentas de certificados de L viene dado con un mes de
+uniones de créditos. atraso.
+M2: lo anterior más REPOs, Una medida muy popular se
+depósitos de money mar- conoce como MZM, o sea mo-
+kets, depósitos a plazo de ney-zero-maturtity que es M2
+pequeña denominación, de- menos depósitos pequeños a
+pósitos de ahorro, depósitos plazo (menos de 100.000)
+de eurodólares y money mar- más money markets mutual
+kets mutual funds funds institucionales.
+M3: lo anterior más depósitos
+a plazos de más de 100.000
+dólares, REPOs a termino, de-
+pósitos de eurodólares a tér-
+mino, money markets mutual
+funds (solo instituciones).
+L: lo de arriba más tenencias
+empresarias no bancarias de
+bonos del gobierno, bonos
+del tesoro de corto plazo, pa-
+peles comerciales, aceptacio-
+nes bancarias.
+Debt: tenencias del mercado
+de crédito de bonos del go-
+bierno a todo nivel, bonos
+empresarios, hipotecas, cré-
+ditos al consumidor, acepta-
+ciones bancarias, papeles
+comerciales y otros.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+onreibog
+led
+saznaniF
+Cap 05 8/24/03 10:43 PM Page 26
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 27
+atrefo
+erbos
+sadideM
+orenid
+ed
+Cap 05 8/24/03 10:43 PM Page 27
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Base W Es la oferta de dinero de alto Factores externos pueden ha-
+Monetaria poder, es decir la que después cer crecer la base monetaria
+los bancos pueden apalancar. sin que exista contrapartida
+Los monetaristas creen que el de gasto en EE.UU. Esto fue
+crecimiento de la base condu- particularmente claro con el
+ce a aumento de los agrega- derrumbe de los gobiernos de
+dos monetarios. Europa Oriental, donde surgió
+La base monetaria consiste una fuerte demanda de dóla-
+en reservas totales de los res que hizo crecer la base
+bancos, la porción de mone- monetaria pero que sólo se
+das del stock de circulante y destina a reserva de valor.
+el cash en exceso a las reser-
+vas exigidas por el regulador.
+5.5.9 Federal reserve policy disclosures and tools
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+FOMC Policy Federal Open Market Comité
+Announce- desde febrero de 1994 ha
+ments anunciado todos los cambios
+de política el día de realiza-
+dos.
+La política de la Fed es reali-
+zar los cambios durante sus
+meetings y de los 27 cam-
+bios ocurridos desde 1994
+hasta mediados del 2001 só-
+lo 4 se tomaron fuera de es-
+tas reuniones.
+La preocupación principal de
+este comité es la evolución
+>
+de la economía y conforme a
+ello se realizan los cambios,
+se realiza lo que se denomi-
+na un “balance de riesgos”
+sobre la economía, básica-
+mente si hay debilidad en el
+crecimiento, presiones infla-
+cionarias o si se está neutral.
+FOMC Jueves siguiente Se compilan los documentos
+Minutes and del próximo oficiales y no se da a conocer
+transcripts meeting de la quién expresó tal o cual opi-
+FOMC nión, sino sólo “pocos” miem-
+bros o la “mayoría” de los
+miembros, y así se dan a co-
+nocer estos documentos.
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+28 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador - F (2) Fecha de salida Qué mide el indicador Tener en cuenta que:
+Fuente
+ref Nº (1)
+Tasa de Con la mayoría de los miem-
+descuento bros se aprueba la tasa a la
+cual pueden pedir prestado
+los bancos comerciales fon-
+dos de corto plazo por iliqui-
+dez transitoria.
+Esta tasa es un verdadero pi-
+so, ya que si hubiera en el
+mercado una tasa más baja
+la Fed dejaría de funcionar
+como prestamista. Además,
+a pesar de que en teoría pue-
+de tomar diferentes valores,
+según la región, es raro que
+esto suceda.
+El valor de esta tasa es extre-
+madamente poderoso.
+Requeri- Estos requerimientos son el
+mientos de amortiguador de la liquidez
+reserva en el sistema financiero. Sin
+embargo, el último cambio
+fue en 1991, mientras que el
+anterior cambio fue en 1983.
+Operacio- Son compras o ventas de se-
+nes de curities del tesoro o de agen-
+mercado cias federales y tiene como
+abierto objetivo tomar o inyectar dó-
+lares en el mercado a través
+de los bancos. Sin embargo,
+desde febrero de 1994 la
+principal acción es a través
+de la FOMC.
+Estas operaciones se mantie-
+nen hoy en día pero más por
+motivos técnicos que por
+cambios de política.
+5.5.10 Cronograma de remates del tesoro
+Emisión Frecuencia Anuncios Remate Entrega
+Documentos a 4 semanas W Lunes Martes - miércoles Jueves
+Documentos a 13-26 semanas W Jueves Lunes - martes Jueves
+Notas a 2 años M Último mes Miércoles Final mes
+Notas a 5 años T Feb-may-ago-nov Martes 15 del mes
+Notas a 10 años T Feb-may-ago-nov Miércoles 15 del mes
+Bonos a 30 años 2 Y Feb – ago Jueves 15 del mes
+Notas a 10 años 2 Y Enero – julio Miércoles 15 del mes
+Bonos a 30 años Y Octubre Miércoles 15 del mes
+Referencias. D, Diario; W, semanal; M, mensual; T, trimestral; T/rM, trimestral con revisión mensual; Y, anual; 2 Y, bianual.
+sloot
+dna
+serusolcsid
+ycilop
+evreser
+laredeF
+Cap 05 8/24/03 10:43 PM Page 28
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 29
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 29
+Tipos de remates. Si bien se han emplea- briendo la demanda al igual que en el ante-
+do muchas técnicas, una de las más usadas rior, sólo que se iba formando una tasa pro-
+es el sistema alemán o remate de precio sim- medio para cada oferta y surgía entonces lo
+ple. En este caso se entrega el securitie a la que se denominaba riesgo del ganador, que
+oferta más baja y así sucesivamente, hasta ir era pagar una tasa más alta que otro por el
+cubriendo toda la demanda. Las ofertas que mismo securitie. El sistema de precio simple
+estén en la tasa de corte se reparten propor- elimina este riesgo y permite, por su clari-
+cionalmente. dad, una participación más amplia.
+Antes se usaba el sistema denominado re-
+mate de precio múltiple, en él se iba cu-
+5.6 ORGANISMOS QUE PUBLICAN LOS ÍNDICES
+EMPLEO, INGRESO Y PRODUCCIÓN NACIONAL
+Indicador Organismo Dirección de Internet
+Employement Departament http://stats.bls.gov:80/news.release/empsit.nr0.htm
+Situation of Labour, Bureau
+of labor statistic
+Unemployment Departament http://www.dol.gov./cgi-bin/consoled.pl?media+press
+insurance claims of Labour
+Challenger, Gray and Challenger, Gray http://www.challengergray.com
+Christmas Layoff andChristmas Inc.
+Announcements
+Help-wanted The Conference http://www.conferenceboard.org/economics/indicators/
+advertising index Board index.htm
+GDP (Gross Departament of http://www.bea.doc.gov/bea/rels.htm
+Domestic Product) Commerce, Bureau
+of Economic Analysis
+Personal Income Departament of http://www.bea.doc.gov/bea/rels.htm
+Commerce, Bureau
+of Economic Analysis
+Corporate Profits Departament of http://www.bea.doc.gov/bea/rels.htm
+Commerce, Bureau
+of Economic Analysis
+ÓRDENES, PRODUCCIÓN SECTORIAL E INVENTARIOS
+Indicador Organismo Dirección de Internet
+National Purchasing National Association of http://www.napm.org/NAPMreport
+managers’survey Purchasing management
+of manufacturing
+NAPM nonmanu- National Association of http://www.napm.org/NAPMreport
+facturing index. Purchasing management
+Chicago Purchasing Purchasing management http://www.napm-chicago.org
+managers’survey Association of Chicago
+Philadelphia Federal Federal Reserve Bank http://www.phil.frb.org/econ/index.html
+Reserve Bank Busi- of Philadelphia
+ness Outlook Survey
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 30
+30 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Indicador Organismo Dirección de Internet
+Kansas City Federal Federal Reserve Bank http://www.kc.frb.org/mfgsurv/mfgmain.htm
+Reserve Bank of Kansas City
+Manufacturing Survey
+Richmond Federal Federal Reserve Bank http://www.rich.frb.org/research/regional.html
+Reserve Bank Survey of Richmond
+Current Economic Federal Reserve Board http://www.federalreserve.gov/fomc/beigebook/2001/
+Conditions (“Beige” default.htm
+Book)
+Durable Goods Orders Departament of Commerce, http://www.census.gov/indicator/www/m3/adv/index.htm
+(Advance Report) Bureau of the Census
+Manufacturers’Ship- Departament of Commerce, http://www.census.gov/indicator/www/m3
+ments inventories Bureau of the Census
+and orders
+Production Industrial Federal Reserve Board http://www.federalreserve.gov/releases/g17/current
+Capacity Utilization Federal Reserve Board http://www.federalreserve.gov/releases/g17/current
+Manufacturing and Departament of Commerce, http://www.census.gov/mtis/www/current.html
+trade inventories Bureau of the Census
+Composite Index of The Conference Board http://www.conference-board.org/products/lei1.cfm
+leading indicators
+GASTOS DEL CONSUMIDOR
+Indicador Organismo Dirección de Internet
+Retail Sales Departament of Commerce, http://www.census.gov/svsd/www/fullpub.html
+Bureau of the Census
+Personal Consume Departament of Commerce, http://www.bea.doc.gov/bea/rels.htm
+Expenditure (PCE) Bureau of Economic
+Analysis
+Unit Auto and Truck Empresas Automotrices
+Sales
+BTM-UBSW Bank of Tokio Mitsubishi
+y UBS Warburg
+LJR Redbook Report Lynch, Jones and Ryan
+Goldman Sachs Retail Goldman Sachs Co.
+Index
+Consumer Confidence The Conference Board http://www.conference-board.org/products/c-consumer.cfm
+Consumer Sentiment University of Michigan http://Athena.sca.isr.umich.edu/scripts/contents.asp
+Survey Research Center
+ABC Money Magazine ABC Inc./AOL Time Warner http://www.abcnews.go.com/sections/business
+Consume Confort
+Index
+Consumer Installement Federal Reserve Board http://www.federalreserve.gov/releases/g19
+credit
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 31
+INCIDENCIA DE LOS INDICADORES ECONÓMICOS SOBRE LOS ... 31
+INMUEBLES Y CONSTRUCCIONES
+Indicador Organismo Dirección de Internet
+Housing Starts and Departament of Commerce, http://www.census.gov/ftp/pub/const/www/newresconstin-
+Building permits Bureau of the Census dex.html
+New single-family Departament of Commerce, http://www.census.gov/const/newressales.pdf
+home sales. Bureau of the Census
+Existing Home sales National Association http://nar.realtors.com/research/home.htm
+of Realtors
+Construction spending Departament of Commerce, http://www.census.gov/pub/const/c30_curr.txt
+Bureau of the Census
+National Association of National Association of http://www.nahb.com/facts/hmi.htm
+Home Builders Survey Home Builders
+Mortgage Bankers Mortgage Bankers http://www.mbaa.com/marketdata
+Association Weekly Association
+Survey
+COMERCIO EXTERIOR
+Indicador Organismo Dirección de Internet
+International Trade Departament of Commerce, http://www.census.gov/indicator/www/ustrade.html
+Balance Bureau of the Census
+Current Account Departament of Commerce, http://www.bea.doc.gov/bea/rels.htm
+Balance Bureau of Economic Analysis
+Financial Account Departament of Commerce, http://www.bea.doc.gov/bea/rels.htm
+Balance Treasury Department
+PRECIOS, SALARIOS Y PRODUCTIVIDAD
+Indicador Organismo Dirección de Internet
+GDP- Base price indices Departament of Commerce, http://www.bea.doc.gov/bea/rels.htm
+Bureau of Economic Analysis
+Producer Price Index Departament of Labour, http://stats.bls.gov:80/news.release/ppi.nr0.htm
+Bureau of labor statistic
+Consumer Price Index Departament of Labour, http://stats.bls.gov:80/news.release/cpi.toc.htm
+Bureau of labor statistic
+Employement cost Departament of Labour, http://stats.bls.gov:80/news.release/eci.toc.htm
+index Bureau of labor statistic
+Goldman Sachs Goldman Sachs Co. http://www.gs.com
+Commodity Index
+Bridge Commodity Bridge CRB http://www.crbindex.com
+Research Bureau
+Productivity and Cost Departament of Labour, http://stats.bls.gov:80/news.release/prod2.toc.htm
+Bureau of labor statistic
+Import-Export Index Departament of Labour, http://stats.bls.gov:80/news.release/ximpim.toc.htm
+Bureau of labor statistic
+>
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 05 8/24/03 10:43 PM Page 32
+32 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+FINANZAS DEL GOBIERNO
+Indicador Organismo Dirección de Internet
+Federal Budget Balance Department of Treasury, http://www.fms.treas.gov/mts
+Financial Management
+Service
+US Treasury borrowing Department of Treasury, http://www.treas.gov/domfin/aution.htm#anchor724507
+schedule via Federal Reserve Bank
+of New York City
+Federal Debt Limit
+MEDIDAS SOBRE OFERTA DE DINERO
+Indicador Organismo Dirección de Internet
+Agregados Monetarios Federal Reserve Board http://www.federalreserve.gov/releases/H16
+Base Monetaria Federal Reserve Bank http://www.stls.frb.org/research/newbase.html
+of St.Louis - Federal
+Reserve Board
+FEDERAL RESERVE POLICY DISCLOSURES AND TOOLS
+Indicador Organismo Dirección de Internet
+FOMC Policy Federal Reserve Board http://www.federalreserve.gov/boarddocs/press/general
+Announcements Federal Open Market
+Committe
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP

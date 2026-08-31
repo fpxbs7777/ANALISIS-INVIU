@@ -1,0 +1,44 @@
+Cotización del dólar
+Devuelve la cotización actual del dólar.
+
+Respuestas
+200
+Cotización del dólar exitosa
+Content-Type
+application/json
+Schema
+JSON
+
+{
+"mayorista": 
+{...},
+"oficial": 
+{...},
+"ahorro": 
+{...},
+"tarjeta": 
+{...},
+"blue": 
+{...},
+"cripto": 
+{...},
+"mep": 
+{...},
+"ccl": 
+{...}
+}
+
+GET
+/api/dolar
+Probar
+Ejemplos
+
+cURL
+
+JavaScript
+
+PHP
+
+Python
+
+fetch('https://criptoya.com/api/dolar')

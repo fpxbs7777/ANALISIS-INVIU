@@ -1,0 +1,836 @@
+import os
+import pandas as pd
+import numpy as np
+import scipy.stats as st
+import matplotlib.pyplot as plt
+
+def load_timeseries(ric, directory):
+    path = os.path.join(directory, f"{ric}.csv")
+    raw_data = pd.read_csv(path)
+    t = pd.DataFrame()
+    t['date'] = pd.to_datetime(raw_data['datetime'], utc=True, errors='coerce').dt.normalize()
+    t['close'] = raw_data['last']  # Asegurarse de usar la columna 'last'
+    t = t.sort_values(by='date', ascending=True)
+    t['close_previous'] = t['close'].shift(1)
+    t['return'] = t['close'] / t['close_previous'] - 1
+    t = t.dropna(subset=['date', 'close', 'close_previous', 'return'])
+    t = t.reset_index(drop=True)
+    return t
+
+def synchronise_timeseries(benchmark, security, directory):
+    timeseries_x = load_timeseries(benchmark, directory)
+    timeseries_y = load_timeseries(security, directory)
+    
+    if timeseries_x.empty or timeseries_y.empty:
+        return pd.DataFrame()
+    
+    # Obtener las fechas comunes
+    common_dates = pd.to_datetime(timeseries_x['date']).isin(pd.to_datetime(timeseries_y['date']))
+    timeseries_x = timeseries_x[common_dates].sort_values(by='date').reset_index(drop=True)
+    timeseries_y = timeseries_y[timeseries_y['date'].isin(timeseries_x['date'])].sort_values(by='date').reset_index(drop=True)
+    
+    timeseries = pd.DataFrame()
+    timeseries['date'] = timeseries_x['date']
+    timeseries['close_x'] = timeseries_x['close']
+    timeseries['close_y'] = timeseries_y['close']
+    timeseries['return_x'] = timeseries_x['return']
+    timeseries['return_y'] = timeseries_y['return']
+    
+    return timeseries
+
+def synchronise_returns(rics, directory):
+    dic_timeseries = {}
+    for ric in rics:
+        t = load_timeseries(ric, directory)
+        dic_timeseries[ric] = t
+    
+    # Obtener las fechas comunes a todos los RICs
+    common_dates = set(dic_timeseries[rics[0]]['date'])
+    for ric in rics[1:]:
+        common_dates = common_dates.intersection(set(dic_timeseries[ric]['date']))
+    common_dates = sorted(common_dates)
+    
+    df = pd.DataFrame({'date': common_dates})
+    for ric in rics:
+        t = dic_timeseries[ric]
+        t = t[t['date'].isin(common_dates)].sort_values(by='date').reset_index(drop=True)
+        df = df.merge(t[['date', 'return']], on='date', how='left')
+        df.rename(columns={'return': ric}, inplace=True)
+    return df
+
+class distribution:
+    def __init__(self, ric, directory, decimals=5):  
+        self.ric = ric
+        self.directory = directory
+        self.decimals = decimals
+        self.str_title = None
+        self.timeseries = None
+        self.vector = None
+        self.mean_annual = None
+        self.volatility_annual = None
+        self.sharpe_ratio = None
+        self.var_95 = None
+        self.skewness = None
+        self.kurtosis = None
+        self.jb_stat = None
+        self.p_value = None
+        self.is_normal = None
+        
+    def load_timeseries(self):
+        self.timeseries = load_timeseries(self.ric, self.directory)
+        self.vector = self.timeseries['return'].values
+        self.size = len(self.vector)
+        self.str_title = self.ric + " | datos reales"
+        
+    def plot_timeseries(self):
+        plt.figure()
+        self.timeseries.plot(kind='line', x='date', y='close', grid=True, color='blue',
+                             title='Serie de precios de cierre para ' + self.ric)
+        plt.show()
+                
+    def compute_stats(self, factor=252):
+        self.mean_annual = st.tmean(self.vector) * factor
+        self.volatility_annual = st.tstd(self.vector) * np.sqrt(factor)
+        self.sharpe_ratio = self.mean_annual / self.volatility_annual if self.volatility_annual > 0 else 0.0
+        self.var_95 = np.percentile(self.vector, 5)
+        self.skewness = st.skew(self.vector)
+        self.kurtosis = st.kurtosis(self.vector)
+        self.jb_stat = self.size / 6 * (self.skewness**2 + (self.kurtosis**2) / 4)
+        self.p_value = 1 - st.chi2.cdf(self.jb_stat, df=2)
+        self.is_normal = (self.p_value > 0.05)  # Equivalente a jb_stat < 6
+                
+    def plot_histogram(self):
+        self.str_title += '\n' + 'mean_annual=' + str(np.round(self.mean_annual, self.decimals)) \
+            + ' | ' + 'volatility_annual=' + str(np.round(self.volatility_annual, self.decimals)) \
+            + '\n' + 'sharpe_ratio=' + str(np.round(self.sharpe_ratio, self.decimals)) \
+            + ' | ' + 'var_95=' + str(np.round(self.var_95, self.decimals)) \
+            + '\n' + 'skewness=' + str(np.round(self.skewness, self.decimals)) \
+            + ' | ' + 'kurtosis=' + str(np.round(self.kurtosis, self.decimals)) \
+            + '\n' + 'JB stat=' + str(np.round(self.jb_stat, self.decimals)) \
+            + ' | ' + 'p-value=' + str(np.round(self.p_value, self.decimals)) \
+            + '\n' + 'is_normal=' + str(self.is_normal)
+        plt.figure()
+        plt.hist(self.vector, bins=100)
+        plt.title(self.str_title)
+        plt.show()import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats as st
+import scipy.optimize as op
+import importlib
+
+import market_data
+importlib.reload(market_data)
+
+def compute_beta(benchmark, security, directory):
+    m = model(benchmark, security, directory)
+    m.synchronise_timeseries()
+    m.compute_linear_regression()
+    return m.beta
+
+def compute_correlation(security_1, security_2, directory):
+    m = model(security_1, security_2, directory)
+    m.synchronise_timeseries()
+    m.compute_linear_regression()
+    return m.correlation
+
+def dataframe_correlation_beta(benchmark, position_security, hedge_universe, directory):
+    decimals = 5
+    df = pd.DataFrame()
+    correlations = []
+    betas = []
+    for hedge_security in hedge_universe:
+        try:
+            correlation = compute_correlation(position_security, hedge_security, directory)
+            beta = compute_beta(benchmark, hedge_security, directory)
+            correlations.append(np.round(correlation, decimals))
+            betas.append(np.round(beta, decimals))
+        except ValueError as e:
+            correlations.append(np.nan)
+            betas.append(np.nan)
+    df['hedge_security'] = hedge_universe
+    df['correlation'] = correlations
+    df['beta'] = betas
+    df = df.dropna()
+    df = df.sort_values(by='correlation', ascending=False)
+    return df
+
+def dataframe_factors(security, factors, directory):
+    decimals = 5
+    df = pd.DataFrame()
+    correlations = []
+    betas = []
+    for factor in factors:
+        try:
+            correlation = compute_correlation(factor, security, directory)
+            beta = compute_beta(factor, security, directory)
+            correlations.append(np.round(correlation, decimals))
+            betas.append(np.round(beta, decimals))
+        except ValueError as e:
+            correlations.append(np.nan)
+            betas.append(np.nan)
+    df['factor'] = factors
+    df['correlation'] = correlations
+    df['beta'] = betas
+    df = df.dropna()
+    df = df.sort_values(by='correlation', ascending=False)
+    return df
+
+# Definir la función de costo para la optimización del hedge
+def cost_function_capm(x, betas, target_delta, target_beta, regularisation):
+    f_delta = (np.sum(x) + target_delta) ** 2
+    f_beta = (np.dot(betas, x) + target_beta) ** 2
+    f_penalty = regularisation * np.sum(x ** 2)
+    f = f_delta + f_beta + f_penalty
+    return f
+
+class model:
+    def __init__(self, benchmark, security, directory, decimals=6):
+        self.benchmark = benchmark
+        self.security = security
+        self.directory = directory
+        self.decimals = decimals
+        self.timeseries = None
+        self.x = None
+        self.y = None
+        self.alpha = None
+        self.beta = None
+        self.p_value = None
+        self.null_hypothesis = None
+        self.correlation = None
+        self.r_squared = None
+        self.predictor_linreg = None
+
+    def synchronise_timeseries(self):
+        self.timeseries = market_data.synchronise_timeseries(self.benchmark, self.security, self.directory)
+        if self.timeseries.empty:
+            raise ValueError(f"Timeseries for {self.benchmark} and {self.security} is empty.")
+
+    def plot_timeseries(self):
+        plt.figure(figsize=(12, 5))
+        plt.title('Series de tiempo de precios de cierre')
+        plt.xlabel('Tiempo')
+        plt.ylabel('Precios')
+        ax = plt.gca()
+        self.timeseries.plot(kind='line', x='date', y='close_x', ax=ax, grid=True, color='blue', label=self.benchmark)
+        self.timeseries.plot(kind='line', x='date', y='close_y', ax=ax, grid=True, color='red', secondary_y=True, label=self.security)
+        plt.legend()
+        plt.show()
+
+    def compute_linear_regression(self):
+        self.x = self.timeseries['return_x'].values
+        self.y = self.timeseries['return_y'].values
+        if len(self.x) == 0 or len(self.y) == 0:
+            raise ValueError("Los vectores para regresión lineal no deben estar vacíos.")
+        slope, intercept, r_value, p_value, std_err = st.linregress(self.x, self.y)
+        self.alpha = np.round(intercept, self.decimals)
+        self.beta = np.round(slope, self.decimals)
+        self.p_value = np.round(p_value, self.decimals)
+        self.null_hypothesis = p_value > 0.05
+        self.correlation = np.round(r_value, self.decimals)
+        self.r_squared = np.round(r_value ** 2, self.decimals)
+        self.predictor_linreg = intercept + slope * self.x
+
+    def plot_linear_regression(self):
+        str_self = f'Regresión lineal | security {self.security} | benchmark {self.benchmark}\n' \
+                   f'alpha (intercept): {self.alpha} | beta (slope): {self.beta}\n' \
+                   f'p-value: {self.p_value} | hipótesis nula: {self.null_hypothesis}\n' \
+                   f'correlación (r): {self.correlation} | r-cuadrado: {self.r_squared}'
+        plt.figure()
+        plt.title(f'Dispersión de retornos\n{str_self}')
+        plt.scatter(self.x, self.y)
+        plt.plot(self.x, self.predictor_linreg, color='green')
+        plt.xlabel(self.benchmark)
+        plt.ylabel(self.security)
+        plt.grid()
+        plt.show()
+
+class Hedger:
+    def __init__(self, position_security, position_delta_usd, benchmark, hedge_securities, directory):
+        self.position_security = position_security
+        self.position_delta_usd = position_delta_usd
+        self.position_beta = None
+        self.position_beta_usd = None
+        self.benchmark = benchmark
+        self.hedge_securities = hedge_securities
+        self.hedge_betas = []
+        self.hedge_weights = None
+        self.hedge_delta_usd = None
+        self.hedge_cost_usd = None
+        self.hedge_beta_usd = None
+        self.directory = directory
+
+    def compute_betas(self):
+        self.position_beta = compute_beta(self.benchmark, self.position_security, self.directory)
+        self.position_beta_usd = self.position_beta * self.position_delta_usd
+        for security in self.hedge_securities:
+            beta = compute_beta(self.benchmark, security, self.directory)
+            self.hedge_betas.append(beta)
+
+    def compute_hedge_weights(self, regularisation=0):
+        x0 = [-self.position_delta_usd / len(self.hedge_betas)] * len(self.hedge_betas)
+        optimal_result = op.minimize(
+            fun=cost_function_capm,
+            x0=x0,
+            args=(self.hedge_betas, self.position_delta_usd, self.position_beta_usd, regularisation)
+        )
+        self.hedge_weights = optimal_result.x
+        self.hedge_delta_usd = np.sum(self.hedge_weights)
+        self.hedge_cost_usd = np.sum(np.abs(self.hedge_weights))
+        self.hedge_beta_usd = np.dot(self.hedge_betas, self.hedge_weights)
+
+    def compute_hedge_weights_exact(self):
+        dimensions = len(self.hedge_securities)
+        if dimensions != 2:
+            print('No se puede calcular la solución exacta porque las dimensiones son:', dimensions, '≠ 2')
+            return
+        betas = np.array(self.hedge_betas)
+        A = np.vstack([np.ones(dimensions), betas]).T
+        b = np.array([-self.position_delta_usd, -self.position_beta_usd])
+        self.hedge_weights = np.linalg.solve(A, b)
+        self.hedge_delta_usd = np.sum(self.hedge_weights)
+        self.hedge_beta_usd = np.dot(betas, self.hedge_weights)import numpy as np
+import pandas as pd
+import scipy.optimize as op
+import matplotlib.pyplot as plt
+import scipy.stats as st
+import market_data
+
+def portfolio_variance(x, mtx_var_covar):
+    variance = np.matmul(np.transpose(x), np.matmul(mtx_var_covar, x))
+    return variance
+
+class manager:
+    def __init__(self, rics, notional, directory):
+        self.rics = rics
+        self.notional = notional
+        self.directory = directory
+        self.mtx_var_covar = None
+        self.mtx_correl = None
+        self.returns = None
+        self.volatilities = None
+        self.dataframe_metrics = None
+        self.dataframe_timeseries = None
+
+    def compute_covariance(self):
+        """
+        Computa la matriz de varianza-covarianza y la matriz de correlación.
+        """
+        factor = 252
+        df = market_data.synchronise_returns(self.rics, self.directory)
+        mtx = df.drop(columns=['date'])
+        self.mtx_var_covar = np.cov(mtx, rowvar=False) * factor
+        self.mtx_correl = np.corrcoef(mtx, rowvar=False)
+        returns = []
+        volatilities = []
+        decimals = 6
+        for ric in self.rics:
+            r = np.round(np.mean(df[ric]) * factor, decimals)
+            v =  np.round(np.std(df[ric]) * np.sqrt(factor), decimals)
+            returns.append(r)
+            volatilities.append(v)
+        self.returns = np.array(returns)
+        self.volatilities = np.array(volatilities)
+        df_m = pd.DataFrame()
+        df_m['rics'] = self.rics
+        df_m['returns'] = self.returns 
+        df_m['volatilities'] = self.volatilities
+        self.dataframe_metrics = df_m
+        self.dataframe_timeseries = df
+
+    def compute_portfolio(self, portfolio_type=None, target_return=None):
+        # initial conditions
+        x0 = [1 / len(self.rics)] * len(self.rics)
+        
+        # constraints and boundary conditions for the optimiser
+        l1_norm = [{"type": "eq", "fun": lambda x: sum(abs(x)) - 1}] # unitary in norm L1
+        l2_norm = [{"type": "eq", "fun": lambda x: sum(x**2) - 1}] # unitary in norm L2
+        markowitz = [{"type": "eq", "fun": lambda x: self.returns.dot(x) - target_return}] # target return for markowitz
+        
+        # boundary conditions
+        non_negative = [(0, None) for i in range(len(self.rics))]
+        
+        # compute optimal portfolios
+        if portfolio_type == 'min-variance-l1':
+            optimal_result = op.minimize(fun=portfolio_variance, x0=x0,
+                                         args=(self.mtx_var_covar),
+                                         constraints=(l1_norm))
+            weights = np.array(optimal_result.x)
+            
+        elif portfolio_type == 'min-variance-l2':
+            optimal_result = op.minimize(fun=portfolio_variance, x0=x0,
+                                         args=(self.mtx_var_covar),
+                                         constraints=(l2_norm))
+            weights = np.array(optimal_result.x)
+                       
+        elif portfolio_type == 'long-only':
+            optimal_result = op.minimize(fun=portfolio_variance, x0=x0,
+                                          args=(self.mtx_var_covar),
+                                          constraints=(l1_norm),
+                                          bounds=non_negative)
+            weights = np.array(optimal_result.x)
+            
+        elif portfolio_type == 'markowitz':
+            epsilon = 10**-4
+            if target_return is None:
+                target_return = np.mean(self.returns)
+            elif target_return < np.min(self.returns):
+                target_return = np.min(self.returns) + epsilon
+            elif target_return > np.max(self.returns):
+                target_return = np.max(self.returns) - epsilon
+            optimal_result = op.minimize(fun=portfolio_variance, x0=x0,
+                                          args=(self.mtx_var_covar),
+                                          constraints=(l1_norm + markowitz),
+                                          bounds=non_negative)
+            weights = np.array(optimal_result.x)
+        
+        elif portfolio_type == 'volatility-weighted':
+            weights = np.array(1 / self.volatilities)
+            
+        else:
+            portfolio_type = 'equi-weight'
+            weights = np.array(x0)
+        
+        # normalise weights with L1 norm
+        weights /= sum(abs(weights))
+                      
+        # fill output
+        decimals = 6
+        optimal_portfolio = output(self.rics, self.notional)
+        optimal_portfolio.type = portfolio_type
+        optimal_portfolio.weights = weights
+        optimal_portfolio.allocation = self.notional * weights
+        optimal_portfolio.target_return = target_return
+        optimal_portfolio.return_annual = np.round(self.returns.dot(weights), decimals)
+        optimal_portfolio.volatility_annual = np.round(np.sqrt(
+                                              portfolio_variance(weights, self.mtx_var_covar)),
+                                              decimals)
+        optimal_portfolio.sharpe_ratio =  optimal_portfolio.return_annual / optimal_portfolio.volatility_annual \
+            if optimal_portfolio.volatility_annual > 0.0 else 0.0
+        
+        # extend dataframe of metrics with optimal weights and allocations
+        df_al = self.dataframe_metrics.copy()
+        df_al['weights'] = optimal_portfolio.weights
+        df_al['allocation'] = optimal_portfolio.allocation
+        optimal_portfolio.dataframe_allocation = df_al
+        
+        # extend dataframe of timeseries with portfolio returns
+        df_ts = self.dataframe_timeseries.copy()
+        rics = list(df_al['rics'])
+        port_rets = df_ts[rics[0]].values * 0.0
+        for ric in rics:
+            df = df_al.loc[df_al['rics'] == ric]
+            w = df['weights'].item()
+            port_rets += df_ts[ric].values * w
+        df_ts['portfolio'] = port_rets
+        optimal_portfolio.dataframe_timeseries = df_ts
+        
+        # compute the remaining metrics for the optimal portfolio
+        optimal_portfolio.compute_stats()
+            
+        return optimal_portfolio
+
+
+class output:
+    def __init__(self, rics, notional):
+        self.rics = rics
+        self.notional = notional
+        self.type = None
+        self.weights = None
+        self.allocation = None
+        self.target_return = None
+        self.return_annual = None
+        self.volatility_annual = None
+        self.sharpe_ratio = None
+        self.dataframe_allocation = None
+        self.dataframe_timeseries = None
+        self.var_95 = None
+        self.skewness = None
+        self.kurtosis = None
+        self.jb_stat = None
+        self.p_value = None
+        self.is_normal = None
+
+    def compute_stats(self):
+        x = self.dataframe_timeseries['portfolio'].values
+        self.var_95 = np.percentile(x, 5)
+        self.skewness = st.skew(x)
+        self.kurtosis = st.kurtosis(x)
+        self.jb_stat = len(x) / 6 * (self.skewness**2 + 1/4 * self.kurtosis**2)
+        self.p_value = 1 - st.chi2.cdf(self.jb_stat, df=2)
+        self.is_normal = (self.p_value > 0.05)  # equivalently jb < 6
+
+    def plot_histogram(self):
+        decimals = 4
+        str_title = 'Portfolio = ' + self.type
+        if self.target_return is not None:
+            str_title += ' | target return = ' + str(np.round(self.target_return, decimals))
+        str_title += '\n' + 'return_annual=' + str(np.round(self.return_annual, decimals)) \
+            + ' | ' + 'volatility_annual=' + str(np.round(self.volatility_annual, decimals)) \
+            + '\n' + 'sharpe_ratio=' + str(np.round(self.sharpe_ratio, decimals)) \
+            + ' | ' + 'var_95=' + str(np.round(self.var_95, decimals)) \
+            + '\n' + 'skewness=' + str(np.round(self.skewness, decimals)) \
+            + ' | ' + 'kurtosis=' + str(np.round(self.kurtosis, decimals)) \
+            + '\n' + 'JB stat=' + str(np.round(self.jb_stat, decimals)) \
+            + ' | ' + 'p-value=' + str(np.round(self.p_value, decimals)) \
+            + '\n' + 'is_normal=' + str(self.is_normal)
+        plt.figure()
+        x = self.dataframe_timeseries['portfolio'].values
+        plt.hist(x, bins=100)
+        plt.title(str_title)
+        plt.show() 
+
+def compute_efficient_frontier(rics, notional, target_return, include_min_variance):
+    # special portfolios    
+    label1 = 'min-variance-l1'
+    label2 = 'min-variance-l2'
+    label3 = 'equi-weight'
+    label4 = 'long-only'
+    label5 = 'markowitz-none'
+    label6 = 'markowitz-target'
+    
+    # compute covariance matrix
+    port_mgr = manager(rics, notional, 'C:/Users/Outlet VL/Desktop/API/coti/')
+    port_mgr.compute_covariance()
+    
+    # compute vectors of returns and volatilities for Markowitz portfolios
+    min_returns = np.min(port_mgr.returns)
+    max_returns = np.max(port_mgr.returns)
+    returns = min_returns + np.linspace(0.05,0.95,100) * (max_returns-min_returns)
+    volatilities = np.zeros([len(returns),1])
+    counter = 0
+    for ret in returns:
+        port_markowitz = port_mgr.compute_portfolio('markowitz', ret)
+        volatilities[counter] = port_markowitz.volatility_annual
+        counter += 1
+        
+    # compute special portfolios
+    port1 = port_mgr.compute_portfolio(label1)
+    port2 = port_mgr.compute_portfolio(label2)
+    port3 = port_mgr.compute_portfolio(label3)
+    port4 = port_mgr.compute_portfolio(label4)
+    port5 = port_mgr.compute_portfolio('markowitz')
+    port6 = port_mgr.compute_portfolio('markowitz', target_return)
+    
+    # create scatterplots of special portfolios
+    x1 = port1.volatility_annual
+    y1 = port1.return_annual
+    x2 = port2.volatility_annual
+    y2 = port2.return_annual
+    x3 = port3.volatility_annual
+    y3 = port3.return_annual
+    x4 = port4.volatility_annual
+    y4 = port4.return_annual
+    x5 = port5.volatility_annual
+    y5 = port5.return_annual
+    x6 = port6.volatility_annual
+    y6 = port6.return_annual
+    
+    # plot Efficient Frontier
+    plt.figure()
+    plt.title('Efficient Frontier for a portfolio including ' + rics[0])
+    plt.scatter(volatilities,returns)
+    if include_min_variance:
+        plt.plot(x1, y1, "oy", label=label1) # yellow circle
+        plt.plot(x2, y2, "or", label=label2) # red circle
+    plt.plot(x3, y3, "^y", label=label3) # yellow triangle
+    plt.plot(x4, y4, "^r", label=label4) # red triangle
+    plt.plot(x5, y5, "sy", label=label5) # yellow square
+    plt.plot(x6, y6, "sr", label=label6) # red square
+    plt.ylabel('portfolio return')
+    plt.xlabel('portfolio volatility')
+    plt.grid()
+    if include_min_variance:
+        plt.legend(loc='best')
+    else:
+        plt.legend(loc='lower right',  borderaxespad=0.)
+    plt.show()
+    
+    dict_portfolios = {label1: port1,
+                       label2: port2,
+                       label3: port3,
+                       label4: port4,
+                       label5: port5,
+                       label6: port6}
+    
+    return dict_portfolios
+   import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy.stats as st
+import importlib
+
+# Importar nuestros propios archivos y recargar
+import market_data
+importlib.reload(market_data)
+import capm
+importlib.reload(capm)
+
+# Lista de RICs
+rics = ["GGAL.BA","YPFD.BA","BMA.BA","PAMP.BA","TECO2.BA","SUPV.BA", "CEPU.BA", "COME.BA","TXAR.BA", "ALUA.BA","EDN.BA","TGSU2.BA","MIRG.BA", "TRAN.BA","CRES.BA", "HARG.BA","IRSA.BA","LOMA.BA","VALO.BA","AGRO.BA"]
+
+# Definir el directorio donde se encuentran tus datos
+directory = 'C:/Users/Outlet VL/Desktop/PRUEBA SIMULADOR/data-master/'
+
+# Sincronizar todas las series de tiempo de retornos
+df = market_data.synchronise_returns(rics, directory)
+
+# Calcular las matrices de varianza-covarianza y correlación
+mtx = df.drop(columns=['date'])
+mtx_var_covar = np.cov(mtx, rowvar=False) * 252
+mtx_correl = np.corrcoef(mtx, rowvar=False)
+
+# Calcular autovalores y autovectores
+eigenvalues, eigenvectors = np.linalg.eigh(mtx_var_covar)
+variance_explained = eigenvalues / np.sum(eigenvalues)
+prod = np.matmul(eigenvectors, np.transpose(eigenvectors))
+
+##########################
+# PCA para visualización 2D
+##########################
+
+# Calcular volatilidades mínima y máxima
+volatility_min = np.sqrt(eigenvalues[0])
+volatility_max = np.sqrt(eigenvalues[-1])
+
+# Calcular la base PCA para visualización 2D
+pca_vector_1 = eigenvectors[:, -1]
+pca_vector_2 = eigenvectors[:, -2]
+pca_eigenvalue_1 = eigenvalues[-1]
+pca_eigenvalue_2 = eigenvalues[-2]
+pca_variance_explained = variance_explained[-2:].sum()
+
+# Calcular el portafolio de mínima varianza
+min_var_vector = eigenvectors[:, 0]
+min_var_eigenvalue = eigenvalues[0]
+min_var_variance_explained = variance_explained[0]# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 24 09:00:46 2023
+
+@author: Meva
+"""
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt 
+import scipy.stats as st
+import importlib
+import random
+import scipy.optimize as op
+
+# import our own files and reload
+import market_data
+importlib.reload(market_data)
+import capm
+importlib.reload(capm)
+
+# create offline instances of pca_model
+notional = 1 # in mn USD
+universe = ["GGAL.BA","YPFD.BA","BMA.BA","PAMP.BA","TECO2.BA","SUPV.BA", "CEPU.BA", "COME.BA","TXAR.BA", "ALUA.BA","EDN.BA","TGSU2.BA","MIRG.BA", "TRAN.BA","CRES.BA", "HARG.BA","IRSA.BA","LOMA.BA","VALO.BA","AGRO.BA"]
+rics = random.sample(universe, 15)
+
+# define the directory
+directory = 'C://Users//Outlet VL//Desktop//PRUEBA SIMULADOR//data-master//'
+
+# sincronizar todas las series temporales de rendimientos
+df = market_data.synchronise_returns(rics, directory)
+
+# Agregar diagnósticos para verificar el contenido del DataFrame
+print("Contenido del DataFrame después de la sincronización:")
+print(df.head())
+
+# Verificar si el DataFrame está vacío
+if df.empty:
+    raise ValueError("El DataFrame de rendimientos está vacío después de la sincronización.")
+
+mtx = df.drop(columns=['date'])
+if mtx.shape[0] == 0:
+    raise ValueError("El DataFrame de rendimientos no tiene filas después de eliminar la columna de fechas.")
+
+mtx_var_covar = np.cov(mtx, rowvar=False) * 252
+mtx_correl = np.corrcoef(mtx, rowvar=False)
+
+# min-var with eigenvectors
+try:
+    eigenvalues, eigenvectors = np.linalg.eigh(mtx_var_covar)
+    min_var_vector = eigenvectors[:,0]
+except np.linalg.LinAlgError as e:
+    raise ValueError("Los autovalores no convergieron. Verifica la matriz de varianza-covarianza.") from e
+
+# unit test for variance function
+variance_1 = np.matmul(np.transpose(min_var_vector), np.matmul(mtx_var_covar, min_var_vector))
+
+######################################
+# min-var with scipy optimize minimize
+######################################
+
+# function to minimize
+def portfolio_variance(x, mtx_var_covar):
+    variance = np.matmul(np.transpose(x), np.matmul(mtx_var_covar, x))
+    return variance
+
+# compute optimisation
+x0 = [1 / np.sqrt(len(rics))] * len(rics)
+l2_norm = [{"type": "eq", "fun": lambda x: sum(x**2) - 1}] # unitary in norm L2
+l1_norm = [{"type": "eq", "fun": lambda x: sum(abs(x)) - 1}] # unitary in norm L1
+optimal_result = op.minimize(fun=portfolio_variance, x0=x0, args=(mtx_var_covar), constraints=(l2_norm))
+optimize_vector = optimal_result.x
+variance_2 = optimal_result.fun
+
+df_weights = pd.DataFrame()
+df_weights['rics'] = rics
+df_weights['min_var_vector'] = min_var_vector
+df_weights['optimize_vector'] = optimize_vector
+
+print("Resultados de los pesos mínimos de varianza:")
+print(df_weights)
+# %%
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 25 09:18:34 2023
+
+@author: Meva
+"""
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy.stats as st
+import importlib
+import random
+import scipy.optimize as op
+
+# importar nuestros archivos y recargarlos
+import market_data
+importlib.reload(market_data)
+import capm
+importlib.reload(capm)
+import portfolio
+importlib.reload(portfolio)
+
+# inputs
+notional = 15 # in mn USD
+universe =  ["GGAL.BA","YPFD.BA","BMA.BA","PAMP.BA","TECO2.BA","SUPV.BA", "CEPU.BA", "COME.BA","TXAR.BA", "ALUA.BA","EDN.BA","TGSU2.BA","MIRG.BA", "TRAN.BA","CRES.BA", "HARG.BA","IRSA.BA","LOMA.BA","VALO.BA","AGRO.BA"]
+#["GGAL.BA","YPFD.BA","BMA.BA","PAMP.BA","TECO2.BA","SUPV.BA", "CEPU.BA", "COME.BA","TXAR.BA", "ALUA.BA","EDN.BA","TGSU2.BA","MIRG.BA", "TRAN.BA","CRES.BA", "HARG.BA","IRSA.BA","LOMA.BA","VALO.BA","AGRO.BA"]
+#['XLK','XLF','XLV','XLE','XLC','XLY','XLP','XLI','XLB','XLRE','XLU',"GGAL.BA","YPFD.BA","BMA.BA","PAMP.BA","TECO2.BA","SUPV.BA", "CEPU.BA", "COME.BA","TXAR.BA", "ALUA.BA","EDN.BA","TGSU2.BA","MIRG.BA", "TRAN.BA","CRES.BA", "HARG.BA","IRSA.BA","LOMA.BA","VALO.BA","AGRO.BA",'BTC-USD','ETH-USD','SOL-USD','USDC-USD','USDT-USD','DAI-USD']
+# Ajustar el tamaño de la muestra para que no exceda el tamaño de la lista universe
+sample_size = min(30, len(universe))
+rics = random.sample(universe, sample_size)
+
+directory = 'C://Users//Outlet VL//Desktop//PRUEBA SIMULADOR//data-master//'
+
+print(rics)
+
+# inicializar la instancia de la clase
+port_mgr = portfolio.manager(rics, notional, directory)
+
+# computar correlación y matriz de varianza-covarianza
+port_mgr.compute_covariance()
+
+# computar los portafolios deseados: clase de salida = portfolio.output
+port_min_variance_l1 = port_mgr.compute_portfolio('min-variance-l1')
+port_min_variance_l2 = port_mgr.compute_portfolio('min-variance-l2')
+port_long_only = port_mgr.compute_portfolio('long-only')
+port_equi_weight = port_mgr.compute_portfolio('equi-weight')
+port_markowitz = port_mgr.compute_portfolio('markowitz', target_return=None)
+
+# graficar los histogramas de retornos para el portafolio deseado
+port_min_variance_l1.plot_histogram()
+port_min_variance_l2.plot_histogram()
+port_long_only.plot_histogram()
+port_equi_weight.plot_histogram()
+port_markowitz.plot_histogram()import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy.stats as st
+import importlib
+import random
+import scipy.optimize as op
+
+# import our own files and reload
+import market_data
+importlib.reload(market_data)
+import capm
+importlib.reload(capm)
+import portfolio
+importlib.reload(portfolio)
+
+# inputs
+notional = 1 # in mn USD
+universe = ['^SPX','^IXIC','^MXX','^STOXX','^GDAXI','^FCHI','^VIX',
+            'XLK','XLF','XLV','XLE','XLC','XLY','XLP','XLI','XLB','XLRE','XLU',
+            'SPY','EWW',
+            'IVW','IVE','QUAL','MTUM','SIZE','USMV',\
+            'AAPL','MSFT','NVDA','AMZN','GOOG','META','NFLX',\
+            'BRK-B','JPM','V','MA','BAC','MS','GS','BLK',\
+            'LLY','JNJ','PG','MRK','ABBV','PFE',\
+            'BTC-USD','ETH-USD','SOL-USD','USDC-USD','USDT-USD','DAI-USD',\
+            'EURUSD=X','GBPUSD=X','CHFUSD=X','SEKUSD=X','NOKUSD=X','JPYUSD=X','MXNUSD=X',"GGAL","YPFD","BMA","PAMP","TECO2","SUPV", "CEPU", "COME","TXAR", "ALUA","EDN","TGSU2","MIRG", "TRAN","CRES", "HARG","IRSA","LOMA","VALO","AGRO"]
+rics = random.sample(universe, 50)
+#◘rics = ['^SPX','^IXIC','^MXX','^STOXX','^GDAXI']
+#rics = ['XLK','XLF','XLV','XLE','XLC','XLY','XLP','XLI','XLB','XLRE','XLU']
+#rics = ['IVW','IVE','QUAL','MTUM','SIZE','USMV']
+#rics = ['AAPL','MSFT','NVDA','AMZN','GOOG','META','NFLX']
+#rics = ['BRK-B','JPM','V','MA','BAC','MS','GS','BLK']
+#rics = ['LLY','JNJ','PG','MRK','PFE']
+#rics = ['BTC-USD','ETH-USD','SOL-USD','USDC-USD','USDT-USD','DAI-USD']
+#rics = ['BTC-USD','ETH-USD','SOL-USD']
+#rics = ['USDC-USD','USDT-USD','DAI-USD']
+#rics = ['AAPL','MSFT','NVDA','AMZN','GOOG','META','NFLX',
+        #'BRK-B','JPM','V','MA','BAC','MS','GS','BLK',         'LLY','JNJ','PG','MRK','ABBV','PFE']
+#rics = ['XLC', 'XLU', 'QUAL', 'BTC-USD', 'XLY', 'NOKUSD=X', 'XLB', '^GDAXI', 'GOOG', 'CHFUSD=X']
+#rics = universe
+rics= ["GGAL","YPFD","BMA","PAMP","TECO2","SUPV", "CEPU", "COME","TXAR", "ALUA","EDN","TGSU2","MIRG", "TRAN","CRES", "HARG","IRSA","LOMA","VALO","AGRO"]
+
+# efficient frontier
+target_return = None
+include_min_variance = True
+dict_portfolios = portfolio.compute_efficient_frontier(rics, notional, target_return, include_min_variance)
+print(rics)
+dict_portfolios['markowitz-target'].plot_histogram()
+
+
+# Obtener los pesos del portafolio óptimo
+optimal_weights = dict_portfolios['markowitz-target'].weights
+
+# Imprimir las claves disponibles
+print("\nClaves disponibles en dict_portfolios:")
+print(dict_portfolios.keys())
+
+# Mostrar pesos no nulos (> 0.1%)
+print("\nPesos óptimos del portafolio (posiciones > 0.1%):")
+print("-" * 50)
+df_alloc = dict_portfolios['markowitz-target'].dataframe_allocation
+for _, row in df_alloc[df_alloc['weights'] > 0.01].iterrows():
+    print(f"{row['rics']:10} : {row['weights']:8.2%}")
+print("-" * 50)
+print(f"Suma total: {df_alloc['weights'].sum():8.2%}")
+
+# Graficar
+plt.figure(figsize=(10, 6))
+
+# Usar volatilidades y retornos del dataframe_allocation
+#plt.scatter(df_alloc['volatilities'], 
+        #   df_alloc['returns'],
+        #   alpha=0.5,
+         #  s=50,
+        #   label='Activos Individuales')
+
+# Marcar activos seleccionados (peso > 0.1%)
+#selected = df_alloc[df_alloc['weights'] > 10.0]
+#plt.scatter(selected['volatilities'],
+          # selected['returns'],
+         #  color='red',
+          # s=100,
+         #  label='Activos Seleccionados')
+
+#plt.xlabel('Riesgo (Volatilidad)')
+#plt.ylabel('Rendimiento Esperado')
+#plt.title('Selección de Activos en el Portafolio Óptimo')
+#plt.legend()
+#plt.grid(True)
+#plt.show()
+
+
+
+

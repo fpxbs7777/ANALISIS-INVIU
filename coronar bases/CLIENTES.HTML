@@ -1,0 +1,4671 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ETR · Asesor de Portafolio IA | Coronar Inversiones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --black: #080808;
+        --dark: #111;
+        --card: #181818;
+        --card2: #1f1f1f;
+        --card3: #252525;
+        --border: #2a2a2a;
+        --border2: #333;
+        --gold: #c9a84c;
+        --gold-light: #e2c46a;
+        --gold-dim: rgba(201, 168, 76, 0.13);
+        --gold-dim2: rgba(201, 168, 76, 0.06);
+        --teal: #2dd4bf;
+        --teal-dim: rgba(45, 212, 191, 0.1);
+        --red: #f87171;
+        --red-dim: rgba(248, 113, 113, 0.1);
+        --green: #4ade80;
+        --green-dim: rgba(74, 222, 128, 0.1);
+        --amber: #fbbf24;
+        --amber-dim: rgba(251, 191, 36, 0.1);
+        --purple: #a78bfa;
+        --purple-dim: rgba(167, 139, 250, 0.1);
+        --white: #edeae1;
+        --muted: #555;
+        --text: #c8c4bb;
+        --text2: #777;
+        --text3: #444;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background: var(--black);
+        color: var(--text);
+        font-family: "DM Sans", sans-serif;
+        font-size: 13px;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      /* ── SCROLLBAR ── */
+      ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--dark);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--border2);
+        border-radius: 2px;
+      }
+
+      /* ── HEADER ── */
+      #header {
+        background: var(--dark);
+        border-bottom: 1px solid var(--border);
+        padding: 0 24px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 200;
+      }
+      .logo-wrap {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .logo {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 22px;
+        letter-spacing: 2.5px;
+        color: var(--gold);
+        line-height: 1;
+      }
+      .logo-sep {
+        width: 1px;
+        height: 28px;
+        background: var(--border2);
+      }
+      .logo-sub {
+        font-family: "DM Mono", monospace;
+        font-size: 9px;
+        color: var(--muted);
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .live-badge {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--green);
+        letter-spacing: 1px;
+      }
+      .live-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--green);
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.3;
+        }
+      }
+      .step-bar {
+        display: flex;
+        gap: 4px;
+      }
+      .step-node {
+        width: 28px;
+        height: 4px;
+        border-radius: 2px;
+        background: var(--border2);
+        transition: background 0.3s;
+      }
+      .step-node.active {
+        background: var(--gold);
+      }
+      .step-node.done {
+        background: var(--teal);
+      }
+
+      /* ── MACRO STRIP ── */
+      #macro-strip {
+        background: var(--dark);
+        border-bottom: 1px solid var(--border);
+        padding: 0 24px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        gap: 0;
+        overflow-x: auto;
+      }
+      .macro-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0 18px;
+        border-right: 1px solid var(--border);
+        white-space: nowrap;
+      }
+      .macro-item:first-child {
+        padding-left: 0;
+      }
+      .macro-label {
+        font-size: 9px;
+        color: var(--muted);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+      .macro-val {
+        font-family: "DM Mono", monospace;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .macro-val.gold {
+        color: var(--gold-light);
+      }
+      .macro-val.teal {
+        color: var(--teal);
+      }
+      .macro-val.red {
+        color: var(--red);
+      }
+      .macro-val.green {
+        color: var(--green);
+      }
+      .macro-val.amber {
+        color: var(--amber);
+      }
+      .macro-loading {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--muted);
+        animation: blink 1.2s infinite;
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 0.3;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      /* ── LAYOUT ── */
+      #app {
+        display: flex;
+        min-height: calc(100vh - 92px);
+      }
+      #sidebar {
+        width: 280px;
+        flex-shrink: 0;
+        background: var(--dark);
+        border-right: 1px solid var(--border);
+        padding: 20px 16px;
+        overflow-y: auto;
+      }
+      #main {
+        flex: 1;
+        overflow-y: auto;
+        padding: 24px;
+      }
+
+      /* ── SECTIONS ── */
+      .section {
+        display: none;
+      }
+      .section.active {
+        display: block;
+      }
+
+      /* ── SIDEBAR STEPS ── */
+      .side-title {
+        font-family: "DM Mono", monospace;
+        font-size: 9px;
+        color: var(--muted);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid var(--border);
+      }
+      .side-step {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-bottom: 4px;
+        transition: all 0.2s;
+        border: 1px solid transparent;
+      }
+      .side-step:hover {
+        background: var(--card2);
+        border-color: var(--border);
+      }
+      .side-step.active {
+        background: var(--gold-dim);
+        border-color: rgba(201, 168, 76, 0.3);
+      }
+      .side-step.done {
+        border-color: rgba(45, 212, 191, 0.2);
+      }
+      .step-num {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: var(--border2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--muted);
+        flex-shrink: 0;
+        font-weight: 500;
+      }
+      .side-step.active .step-num {
+        background: var(--gold-dim);
+        color: var(--gold-light);
+        border: 1px solid var(--gold);
+      }
+      .side-step.done .step-num {
+        background: var(--teal-dim);
+        color: var(--teal);
+      }
+      .step-info {
+        flex: 1;
+      }
+      .step-name {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text);
+        margin-bottom: 2px;
+      }
+      .step-desc {
+        font-size: 10px;
+        color: var(--text2);
+      }
+      .side-step.active .step-name {
+        color: var(--gold-light);
+      }
+      .side-step.done .step-name {
+        color: var(--teal);
+      }
+
+      .side-divider {
+        height: 1px;
+        background: var(--border);
+        margin: 14px 0;
+      }
+      .side-macro-mini {
+        padding: 10px;
+      }
+      .smm-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+      .smm-label {
+        font-size: 10px;
+        color: var(--text2);
+      }
+      .smm-val {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        font-weight: 500;
+      }
+
+      /* ── SECTION HEADER ── */
+      .sec-head {
+        margin-bottom: 20px;
+      }
+      .sec-title {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 28px;
+        letter-spacing: 1.5px;
+        color: var(--gold);
+        line-height: 1;
+        margin-bottom: 4px;
+      }
+      .sec-sub {
+        font-size: 12px;
+        color: var(--text2);
+      }
+
+      /* ── FORM ELEMENTS ── */
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+      .form-group {
+        margin-bottom: 14px;
+      }
+      .form-label {
+        font-size: 10px;
+        color: var(--muted);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+        display: block;
+      }
+      .form-input,
+      .form-select {
+        width: 100%;
+        background: var(--card);
+        border: 1px solid var(--border);
+        color: var(--white);
+        padding: 9px 12px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-family: "DM Sans", sans-serif;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .form-input:focus,
+      .form-select:focus {
+        border-color: var(--gold);
+      }
+      .form-select option {
+        background: #1a1a1a;
+      }
+      .form-input.live-prefill {
+        border-color: rgba(45, 212, 191, 0.4);
+        background: rgba(45, 212, 191, 0.03);
+      }
+
+      /* ── RADIO OPTIONS ── */
+      .radio-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 7px;
+      }
+      .radio-grid.cols3 {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .radio-grid.cols4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .r-opt {
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 10px 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-align: center;
+        user-select: none;
+      }
+      .r-opt:hover {
+        border-color: rgba(201, 168, 76, 0.4);
+        background: var(--gold-dim2);
+      }
+      .r-opt.sel {
+        border-color: var(--gold);
+        background: var(--gold-dim);
+        color: var(--gold-light);
+      }
+      .r-opt .r-main {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text);
+      }
+      .r-opt .r-sub {
+        font-size: 10px;
+        color: var(--text2);
+        margin-top: 2px;
+      }
+      .r-opt.sel .r-main {
+        color: var(--gold-light);
+      }
+      .r-opt.sel .r-sub {
+        color: rgba(201, 168, 76, 0.5);
+      }
+
+      /* ── BUTTONS ── */
+      .btn {
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-family: "DM Sans", sans-serif;
+        cursor: pointer;
+        transition: all 0.2s;
+        border: 1px solid;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .btn-primary {
+        background: var(--gold);
+        border-color: var(--gold);
+        color: #080808;
+      }
+      .btn-primary:hover {
+        background: var(--gold-light);
+      }
+      .btn-ghost {
+        background: transparent;
+        border-color: var(--border2);
+        color: var(--text);
+      }
+      .btn-ghost:hover {
+        border-color: var(--muted);
+      }
+      .btn-teal {
+        background: var(--teal-dim);
+        border-color: rgba(45, 212, 191, 0.4);
+        color: var(--teal);
+      }
+      .btn-teal:hover {
+        background: rgba(45, 212, 191, 0.2);
+      }
+      .btn-red {
+        background: var(--red-dim);
+        border-color: rgba(248, 113, 113, 0.4);
+        color: var(--red);
+      }
+      .btn-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 22px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+      }
+
+      /* ── PILLS ── */
+      .pill {
+        display: inline-block;
+        font-size: 9px;
+        padding: 2px 8px;
+        border-radius: 20px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        font-family: "DM Mono", monospace;
+      }
+      .pill-gold {
+        background: var(--gold-dim);
+        color: var(--gold-light);
+        border: 1px solid rgba(201, 168, 76, 0.3);
+      }
+      .pill-teal {
+        background: var(--teal-dim);
+        color: var(--teal);
+        border: 1px solid rgba(45, 212, 191, 0.3);
+      }
+      .pill-red {
+        background: var(--red-dim);
+        color: var(--red);
+        border: 1px solid rgba(248, 113, 113, 0.3);
+      }
+      .pill-green {
+        background: var(--green-dim);
+        color: var(--green);
+        border: 1px solid rgba(74, 222, 128, 0.3);
+      }
+      .pill-amber {
+        background: var(--amber-dim);
+        color: var(--amber);
+        border: 1px solid rgba(251, 191, 36, 0.3);
+      }
+      .pill-purple {
+        background: var(--purple-dim);
+        color: var(--purple);
+        border: 1px solid rgba(167, 139, 250, 0.3);
+      }
+      .pill-muted {
+        background: rgba(85, 85, 85, 0.2);
+        color: var(--muted);
+        border: 1px solid var(--border2);
+      }
+
+      /* ── CARDS ── */
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px;
+      }
+      .card2 {
+        background: var(--card2);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 12px;
+      }
+
+      /* ── ALERT ── */
+      .alert {
+        background: var(--card2);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--gold);
+        border-radius: 6px;
+        padding: 10px 14px;
+        margin-bottom: 10px;
+        font-size: 11px;
+        line-height: 1.5;
+      }
+      .alert.alt {
+        border-left-color: var(--amber);
+      }
+      .alert.aok {
+        border-left-color: var(--green);
+      }
+      .alert.aerr {
+        border-left-color: var(--red);
+      }
+      .alert.ateal {
+        border-left-color: var(--teal);
+      }
+
+      /* ── PORTFOLIO OUTPUT HEADER ── */
+      .port-header {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin-bottom: 16px;
+      }
+      .ph-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 14px;
+        text-align: center;
+      }
+      .ph-label {
+        font-size: 9px;
+        color: var(--muted);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+      }
+      .ph-val {
+        font-family: "DM Mono", monospace;
+        font-size: 17px;
+        font-weight: 500;
+      }
+      .ph-val.gold {
+        color: var(--gold-light);
+      }
+      .ph-val.teal {
+        color: var(--teal);
+      }
+      .ph-val.green {
+        color: var(--green);
+      }
+
+      /* ── ASSET TABLE ── */
+      .asset-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .asset-table thead th {
+        font-size: 9px;
+        color: var(--muted);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        padding: 6px 10px;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+      .asset-table thead th.r {
+        text-align: right;
+      }
+      .asset-table tbody tr {
+        border-bottom: 1px solid rgba(42, 42, 42, 0.6);
+        transition: background 0.15s;
+        cursor: default;
+      }
+      .asset-table tbody tr:hover {
+        background: var(--card2);
+      }
+      .asset-table tbody tr.cat-row {
+        background: rgba(42, 42, 42, 0.4);
+      }
+      .asset-table tbody td {
+        padding: 8px 10px;
+        vertical-align: middle;
+      }
+      .asset-table tbody td.r {
+        text-align: right;
+      }
+      .td-ticker {
+        font-family: "DM Mono", monospace;
+        font-size: 12px;
+        color: var(--gold-light);
+        font-weight: 500;
+      }
+      .td-name {
+        font-size: 11px;
+        color: var(--text2);
+      }
+      .td-vtto {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--muted);
+      }
+      .td-pct {
+        font-family: "DM Mono", monospace;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--white);
+      }
+      .td-monto {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        color: var(--teal);
+      }
+      .td-tir {
+        font-family: "DM Mono", monospace;
+        font-size: 12px;
+      }
+      .td-bench {
+        font-size: 10px;
+        color: var(--text2);
+      }
+      .td-signal {
+        font-size: 10px;
+        font-family: "DM Mono", monospace;
+      }
+      .td-signal.up {
+        color: var(--green);
+      }
+      .td-signal.eq {
+        color: var(--amber);
+      }
+      .td-signal.down {
+        color: var(--red);
+      }
+      .cat-label {
+        font-size: 9px;
+        color: var(--muted);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 10px 10px 4px;
+      }
+
+      /* ── BAR CHART ── */
+      .bar-wrap {
+        height: 5px;
+        background: var(--border);
+        border-radius: 3px;
+        overflow: hidden;
+        margin-top: 3px;
+      }
+      .bar-fill {
+        height: 100%;
+        border-radius: 3px;
+        transition: width 1s ease;
+      }
+
+      /* ── BENCHMARK GRID ── */
+      .bench-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 16px;
+      }
+      .bench-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 14px;
+      }
+      .bench-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 0;
+        border-bottom: 1px solid var(--border);
+      }
+      .bench-row:last-child {
+        border-bottom: none;
+      }
+      .bench-name {
+        font-size: 12px;
+        color: var(--text);
+      }
+      .bench-val {
+        font-family: "DM Mono", monospace;
+        font-size: 12px;
+      }
+
+      /* ── DONUT CHART ── */
+      .donut-section {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+      .donut-legend {
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+      }
+      .leg-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .leg-dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        flex-shrink: 0;
+      }
+      .leg-label {
+        font-size: 11px;
+        color: var(--text);
+        flex: 1;
+      }
+      .leg-pct {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--white);
+      }
+
+      /* ── DISPARADORES ── */
+      .disp-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+      .disp-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-left: 2px solid var(--amber);
+        border-radius: 6px;
+        padding: 10px 12px;
+      }
+      .disp-trigger {
+        font-size: 10px;
+        color: var(--text2);
+        margin-bottom: 3px;
+      }
+      .disp-action {
+        font-size: 11px;
+        color: var(--amber);
+        font-weight: 500;
+      }
+
+      /* ── CHECKLIST ── */
+      .checklist {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+      }
+      .check-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 8px 10px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .check-item:hover {
+        border-color: var(--border2);
+      }
+      .check-item.checked {
+        border-color: rgba(74, 222, 128, 0.3);
+        background: var(--green-dim);
+      }
+      .check-box {
+        width: 16px;
+        height: 16px;
+        border: 1px solid var(--border2);
+        border-radius: 3px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+        margin-top: 1px;
+      }
+      .check-item.checked .check-box {
+        background: var(--green);
+        border-color: var(--green);
+      }
+      .check-text {
+        font-size: 11px;
+        color: var(--text);
+        line-height: 1.4;
+      }
+      .check-item.checked .check-text {
+        color: var(--green);
+      }
+
+      /* ── LOADING OVERLAY ── */
+      #loading {
+        position: fixed;
+        inset: 0;
+        background: rgba(8, 8, 8, 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+      }
+      #loading.hidden {
+        display: none;
+      }
+      .loading-logo {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 36px;
+        letter-spacing: 4px;
+        color: var(--gold);
+        margin-bottom: 16px;
+      }
+      .loading-msg {
+        font-family: "DM Mono", monospace;
+        font-size: 12px;
+        color: var(--muted);
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+      }
+      .loading-bar {
+        width: 200px;
+        height: 2px;
+        background: var(--border);
+        border-radius: 1px;
+        overflow: hidden;
+      }
+      .loading-progress {
+        height: 100%;
+        background: var(--gold);
+        border-radius: 1px;
+        animation: load 2s ease forwards;
+      }
+      @keyframes load {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 100%;
+        }
+      }
+
+      /* ── ERROR TOAST ── */
+      #toast {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: var(--card2);
+        border: 1px solid var(--red);
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-size: 12px;
+        color: var(--red);
+        z-index: 999;
+        display: none;
+        max-width: 300px;
+      }
+
+      /* ── RESPONSIVE ── */
+      @media (max-width: 900px) {
+        #sidebar {
+          width: 220px;
+        }
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+        .bench-grid {
+          grid-template-columns: 1fr;
+        }
+        .port-header {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media (max-width: 640px) {
+        #sidebar {
+          display: none;
+        }
+        .radio-grid.cols3 {
+          grid-template-columns: 1fr 1fr;
+        }
+        .radio-grid.cols4 {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      /* ── TAB NAV ── */
+      .tab-nav {
+        display: flex;
+        gap: 2px;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 16px;
+      }
+      .tab-btn {
+        padding: 8px 16px;
+        font-size: 11px;
+        font-family: "DM Mono", monospace;
+        letter-spacing: 0.5px;
+        background: transparent;
+        border: none;
+        color: var(--text2);
+        cursor: pointer;
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s;
+        text-transform: uppercase;
+      }
+      .tab-btn.active {
+        color: var(--gold-light);
+        border-bottom-color: var(--gold);
+      }
+      .tab-content {
+        display: none;
+      }
+      .tab-content.active {
+        display: block;
+      }
+
+      /* ── SECTION DIVIDER ── */
+      .sec-divider {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0 12px;
+      }
+      .sec-divider-label {
+        font-size: 10px;
+        color: var(--muted);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      .sec-divider-line {
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- LOADING -->
+    <div id="loading">
+      <div class="loading-logo">ETR · IA</div>
+      <div class="loading-msg" id="loading-msg">Conectando con datos de mercado...</div>
+      <div class="loading-bar"><div class="loading-progress"></div></div>
+    </div>
+
+    <!-- TOAST -->
+    <div id="toast"></div>
+
+    <!-- HEADER -->
+    <div id="header">
+      <div class="logo-wrap">
+        <div>
+          <div class="logo">ETR · Asesor IA</div>
+          <div class="logo-sub">Portfolio Builder · Coronar Inversiones</div>
+        </div>
+        <div class="logo-sep"></div>
+        <div id="live-status" class="live-badge"><span>CARGANDO</span></div>
+      </div>
+      <div class="header-right">
+        <span style="font-size: 11px; color: var(--muted)" id="step-label">Paso 1 / 3</span>
+        <div class="step-bar" id="step-bar">
+          <div class="step-node active" id="sn0"></div>
+          <div class="step-node" id="sn1"></div>
+          <div class="step-node" id="sn2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MACRO STRIP -->
+    <div id="macro-strip">
+      <div class="macro-item">
+        <div class="macro-label">USD Oficial</div>
+        <div class="macro-val gold" id="ms-oficial"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item">
+        <div class="macro-label">USD Blue</div>
+        <div class="macro-val amber" id="ms-blue"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item">
+        <div class="macro-label">USD CCL</div>
+        <div class="macro-val amber" id="ms-ccl"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item">
+        <div class="macro-label">Brecha CCL</div>
+        <div class="macro-val" id="ms-brecha"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item">
+        <div class="macro-label">Inflación Mensual</div>
+        <div class="macro-val teal" id="ms-infl"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item">
+        <div class="macro-label">Riesgo País</div>
+        <div class="macro-val" id="ms-rp"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item">
+        <div class="macro-label">TAMAR Ref.</div>
+        <div class="macro-val gold" id="ms-tamar"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item">
+        <div class="macro-label">Crawling Peg</div>
+        <div class="macro-val" id="ms-crawling"><span class="macro-loading">···</span></div>
+      </div>
+      <div class="macro-item" style="border-right: none">
+        <div class="macro-label">Actualizado</div>
+        <div class="macro-val" style="color: var(--muted); font-size: 10px" id="ms-ts">–</div>
+      </div>
+    </div>
+
+    <!-- APP -->
+    <div id="app">
+      <!-- SIDEBAR -->
+      <div id="sidebar">
+        <div class="side-title">Flujo de trabajo</div>
+
+        <div class="side-step active" id="ss0" onclick="goStep(0)">
+          <div class="step-num">1</div>
+          <div class="step-info">
+            <div class="step-name">Entrevista</div>
+            <div class="step-desc">Capital, horizonte y perfil del inversor</div>
+          </div>
+        </div>
+        <div class="side-step" id="ss1" onclick="goStep(1)">
+          <div class="step-num">2</div>
+          <div class="step-info">
+            <div class="step-name">Contexto Macro</div>
+            <div class="step-desc">Variables en tiempo real + visión asesor</div>
+          </div>
+        </div>
+        <div class="side-step" id="ss2" onclick="goStep(2)">
+          <div class="step-num">3</div>
+          <div class="step-info">
+            <div class="step-name">Portafolio</div>
+            <div class="step-desc">Tickers, montos y benchmarks</div>
+          </div>
+        </div>
+
+        <div class="side-divider"></div>
+        <div class="side-title">Macro Live</div>
+        <div class="side-macro-mini">
+          <div class="smm-row">
+            <span class="smm-label">USD Oficial</span
+            ><span class="smm-val gold" id="sm-oficial">–</span>
+          </div>
+          <div class="smm-row">
+            <span class="smm-label">USD Blue</span><span class="smm-val amber" id="sm-blue">–</span>
+          </div>
+          <div class="smm-row">
+            <span class="smm-label">Brecha</span><span class="smm-val" id="sm-brecha">–</span>
+          </div>
+          <div class="smm-row">
+            <span class="smm-label">Riesgo País</span><span class="smm-val" id="sm-rp">–</span>
+          </div>
+          <div class="smm-row">
+            <span class="smm-label">Inflación</span><span class="smm-val teal" id="sm-infl">–</span>
+          </div>
+          <div class="smm-row">
+            <span class="smm-label">TAMAR est.</span
+            ><span class="smm-val gold" id="sm-tamar">–</span>
+          </div>
+        </div>
+        <div class="side-divider"></div>
+        <button
+          class="btn btn-ghost"
+          style="width: 100%; justify-content: center; font-size: 11px"
+          onclick="refreshMacro()"
+        >
+          ↻ Actualizar datos
+        </button>
+      </div>
+
+      <!-- MAIN -->
+      <div id="main">
+        <!-- ══ STEP 0: ENTREVISTA ══ -->
+        <div class="section active" id="s0">
+          <div class="sec-head">
+            <div class="sec-title">Entrevista al Inversor</div>
+            <div class="sec-sub">Datos patrimoniales, horizonte y tolerancia al riesgo real</div>
+          </div>
+
+          <div class="sec-divider">
+            <div class="sec-divider-label">Capital disponible</div>
+            <div class="sec-divider-line"></div>
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Capital en Pesos (ARS)</label>
+              <input
+                type="number"
+                class="form-input"
+                id="monto-ars"
+                placeholder="Ej: 10.000.000"
+                min="0"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Capital en USD (dólares físicos / MEP)</label>
+              <input
+                type="number"
+                class="form-input"
+                id="monto-usd"
+                placeholder="Ej: 50.000"
+                min="0"
+              />
+            </div>
+          </div>
+
+          <div class="sec-divider">
+            <div class="sec-divider-label">Horizonte y liquidez</div>
+            <div class="sec-divider-line"></div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Horizonte de inversión</label>
+            <div class="radio-grid cols3">
+              <div class="r-opt" onclick="sel(this, 'horizonte', 'corto')">
+                <div class="r-main">Hasta 12 meses</div>
+                <div class="r-sub">Bucket 0-1</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'horizonte', 'medio')">
+                <div class="r-main">1 a 3 años</div>
+                <div class="r-sub">Bucket 1-2-3</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'horizonte', 'largo')">
+                <div class="r-main">3 años o más</div>
+                <div class="r-sub">Bucket 3-4</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Necesidad de liquidez próximos 6 meses</label>
+            <div class="radio-grid cols3">
+              <div class="r-opt" onclick="sel(this, 'liquidez', 'alta')">
+                <div class="r-main">Alta</div>
+                <div class="r-sub">Puede necesitar capital</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'liquidez', 'media')">
+                <div class="r-main">Media</div>
+                <div class="r-sub">Posiblemente</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'liquidez', 'baja')">
+                <div class="r-main">Baja</div>
+                <div class="r-sub">No la necesita</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label"
+              >¿Tiene reserva de emergencia separada de esta inversión?</label
+            >
+            <div class="radio-grid">
+              <div class="r-opt" onclick="sel(this, 'reserva', 'si')">
+                <div class="r-main">Sí, separada</div>
+                <div class="r-sub">+3 meses de gastos cubiertos</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'reserva', 'no')">
+                <div class="r-main">No</div>
+                <div class="r-sub">Esta es toda su liquidez</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-divider">
+            <div class="sec-divider-label">Tolerancia real al riesgo</div>
+            <div class="sec-divider-line"></div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Si su cartera cae un 20% en 30 días, ¿qué hace?</label>
+            <div class="radio-grid cols4">
+              <div class="r-opt" onclick="sel(this, 'caida', 'rescata')">
+                <div class="r-main">Rescato todo</div>
+                <div class="r-sub">No tolero pérdidas</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'caida', 'espera')">
+                <div class="r-main">Espero</div>
+                <div class="r-sub">Con ansiedad alta</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'caida', 'mantiene')">
+                <div class="r-main">Mantengo</div>
+                <div class="r-sub">Confío en la TIR</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'caida', 'compra')">
+                <div class="r-main">Compro más</div>
+                <div class="r-sub">Es oportunidad</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Experiencia previa en inversiones</label>
+            <div class="radio-grid cols3">
+              <div class="r-opt" onclick="sel(this, 'experiencia', 'nula')">
+                <div class="r-main">Ninguna</div>
+                <div class="r-sub">Primera vez</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'experiencia', 'plazofijo')">
+                <div class="r-main">Plazo fijo / FCI</div>
+                <div class="r-sub">Instrumentos simples</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'experiencia', 'bonos')">
+                <div class="r-main">Bonos / Acciones</div>
+                <div class="r-sub">Mercado de capitales</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-divider">
+            <div class="sec-divider-label">Exposición cambiaria</div>
+            <div class="sec-divider-line"></div>
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Ingresos recurrentes en</label>
+              <div class="radio-grid">
+                <div class="r-opt" onclick="sel(this, 'ingresos', 'pesos')">
+                  <div class="r-main">Pesos</div>
+                  <div class="r-sub">Sueldo / monotributo</div>
+                </div>
+                <div class="r-opt" onclick="sel(this, 'ingresos', 'dolares')">
+                  <div class="r-main">Dólares</div>
+                  <div class="r-sub">Exporta / freelance</div>
+                </div>
+                <div class="r-opt" onclick="sel(this, 'ingresos', 'mixto')">
+                  <div class="r-main">Mixto</div>
+                  <div class="r-sub">Ambas monedas</div>
+                </div>
+                <div class="r-opt" onclick="sel(this, 'ingresos', 'ninguno')">
+                  <div class="r-main">Sin ingresos</div>
+                  <div class="r-sub">Capital propio</div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Gastos en dólares (alquiler, educación, viajes)</label>
+              <div class="radio-grid cols3">
+                <div class="r-opt" onclick="sel(this, 'gastosusd', 'si')">
+                  <div class="r-main">Sí, +30%</div>
+                  <div class="r-sub">Exposición alta</div>
+                </div>
+                <div class="r-opt" onclick="sel(this, 'gastosusd', 'algo')">
+                  <div class="r-main">Algo</div>
+                  <div class="r-sub">10-30%</div>
+                </div>
+                <div class="r-opt" onclick="sel(this, 'gastosusd', 'no')">
+                  <div class="r-main">No</div>
+                  <div class="r-sub">Todo en pesos</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label"
+              >¿Tiene deudas activas? (hipoteca UVA, préstamos, tarjetas rolling)</label
+            >
+            <div class="radio-grid">
+              <div class="r-opt" onclick="sel(this, 'deudas', 'si')">
+                <div class="r-main">Sí</div>
+                <div class="r-sub">Pasivos con cuotas activas</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'deudas', 'no')">
+                <div class="r-main">No</div>
+                <div class="r-sub">Libre de deudas</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-row">
+            <span style="font-size: 11px; color: var(--text2)"
+              >Completá todos los campos para continuar</span
+            >
+            <button class="btn btn-primary" onclick="goStep(1)">Siguiente: Contexto Macro →</button>
+          </div>
+        </div>
+
+        <!-- ══ STEP 1: CONTEXTO MACRO ══ -->
+        <div class="section" id="s1">
+          <div class="sec-head">
+            <div class="sec-title">Contexto Macro</div>
+            <div class="sec-sub">
+              Variables cargadas automáticamente — ajustá si tenés información más precisa del
+              mercado
+            </div>
+          </div>
+
+          <div class="alert ateal" id="macro-status-msg">
+            Cargando datos en tiempo real desde dolarapi.com y ArgentinaDatos...
+          </div>
+
+          <div class="card2" style="margin-bottom: 14px">
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; gap: 10px"
+            >
+              <div style="flex: 1">
+                <label class="form-label" style="margin-bottom: 4px"
+                  >Token BCRA (opcional — para TAMAR en tiempo real)</label
+                >
+                <input
+                  type="password"
+                  class="form-input"
+                  id="bcra-token"
+                  placeholder="Ingresá tu token de estadisticasbcra.com"
+                  style="font-size: 12px"
+                />
+              </div>
+              <button
+                class="btn btn-ghost"
+                style="flex-shrink: 0; margin-top: 14px"
+                onclick="guardarTokenBCRA()"
+              >
+                Guardar
+              </button>
+            </div>
+            <div style="font-size: 10px; color: var(--text2); margin-top: 6px">
+              Obtené tu token gratuito en
+              <a
+                href="https://estadisticasbcra.com/api/registracion"
+                target="_blank"
+                style="color: var(--teal)"
+                >estadisticasbcra.com/api/registracion</a
+              >. 100 req/día, válido 1 año.
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Inflación mensual reciente — INDEC (%)</label>
+              <input
+                type="number"
+                class="form-input live-prefill"
+                id="ctx-inflacion"
+                placeholder="Cargando..."
+                step="0.1"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Brecha CCL vs Oficial (%)</label>
+              <input
+                type="number"
+                class="form-input live-prefill"
+                id="ctx-brecha"
+                placeholder="Cargando..."
+                step="0.5"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Riesgo País — EMBI+ ARG (bps)</label>
+              <input
+                type="number"
+                class="form-input live-prefill"
+                id="ctx-rp"
+                placeholder="Cargando..."
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">TAMAR estimada — Pase Pasivo BCRA (% anual)</label>
+              <input
+                type="number"
+                class="form-input live-prefill"
+                id="ctx-tamar"
+                placeholder="Cargando..."
+                step="0.5"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Crawling peg mensual estimado (%)</label>
+              <input
+                type="number"
+                class="form-input live-prefill"
+                id="ctx-crawling"
+                placeholder="Cargando..."
+                step="0.1"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">TIR AL30 referencia (% USD — ingreso manual)</label>
+              <input
+                type="number"
+                class="form-input"
+                id="ctx-al30"
+                placeholder="Ej: 11.5"
+                step="0.1"
+                value="11.5"
+              />
+            </div>
+          </div>
+
+          <div class="sec-divider">
+            <div class="sec-divider-label">Escenario macro — tu visión</div>
+            <div class="sec-divider-line"></div>
+          </div>
+          <div class="form-group">
+            <div class="radio-grid">
+              <div class="r-opt" onclick="sel(this, 'escenario', 'estabilizacion')">
+                <div class="r-main">Estabilización</div>
+                <div class="r-sub">Desinflación + ancla cambiaria creíble</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'escenario', 'riesgofx')">
+                <div class="r-main">Riesgo FX</div>
+                <div class="r-sub">Brecha creciente / devaluación posible</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'escenario', 'compresion')">
+                <div class="r-main">Compresión riesgo país</div>
+                <div class="r-sub">Upside soberanos hard dollar largo</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'escenario', 'tasasaltas')">
+                <div class="r-main">Tasas reales altas</div>
+                <div class="r-sub">TAMAR outperforms, carry positivo</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'escenario', 'aceleracion')">
+                <div class="r-main">Aceleración inflación</div>
+                <div class="r-sub">CER largo outperforms</div>
+              </div>
+              <div class="r-opt" onclick="sel(this, 'escenario', 'mixto')">
+                <div class="r-main">Sin convicción clara</div>
+                <div class="r-sub">Portafolio equilibrado diversificado</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-row">
+            <button class="btn btn-ghost" onclick="goStep(0)">← Volver</button>
+            <button class="btn btn-primary" onclick="buildPortfolio()">
+              Generar Portafolio IA ✦
+            </button>
+          </div>
+        </div>
+
+        <!-- ══ STEP 2: PORTAFOLIO ══ -->
+        <div class="section" id="s2">
+          <div id="portfolio-output">
+            <!-- generado dinámicamente -->
+          </div>
+        </div>
+      </div>
+      <!-- /main -->
+    </div>
+    <!-- /app -->
+
+    <script>
+      // ═══════════════════════════════════════════════════════════════
+      // STATE
+      // ═══════════════════════════════════════════════════════════════
+      const S = {
+        horizonte: null,
+        liquidez: null,
+        reserva: null,
+        caida: null,
+        experiencia: null,
+        ingresos: null,
+        gastosusd: null,
+        deudas: null,
+        escenario: null,
+        arsInput: 0,
+        usdInput: 0,
+        // macro live
+        oficial: 0,
+        blue: 0,
+        ccl: 0,
+        brecha: 0,
+        inflacion: 3.5,
+        riesgoPais: 750,
+        tamar: 32,
+        crawling: 1,
+        tirAl30: 11.5,
+        macroLoaded: false,
+      };
+
+      // ═══════════════════════════════════════════════════════════════
+      // TICKERS DATABASE — todos los candidatos por categoría
+      // ═══════════════════════════════════════════════════════════════
+      const TICKERS = {
+        // BUCKET 0 (hasta 30/06/2026)
+        CER_B0: [
+          { t: "S30A6", n: "CER", vtto: "30/04/26", bucket: 0 },
+          { t: "S15Y6", n: "CER", vtto: "15/05/26", bucket: 0 },
+          { t: "S29Y6", n: "CER", vtto: "29/05/26", bucket: 0 },
+          { t: "TTJ26", n: "CER", vtto: "30/06/26", bucket: 0 },
+          { t: "T30J6", n: "CER", vtto: "30/06/26", bucket: 0 },
+        ],
+        DL_B0: [
+          { t: "X15Y6", n: "Dól.Link.", vtto: "15/05/26", bucket: 0 },
+          { t: "X29Y6", n: "Dól.Link.", vtto: "29/05/26", bucket: 0 },
+          { t: "TZX26", n: "Dól.Link.", vtto: "30/06/26", bucket: 0 },
+        ],
+        TAMAR_B0_SOB: [{ t: "M30A6", n: "TAMAR Sob.", vtto: "30/04/26", bucket: 0 }],
+        TAMAR_B0_ON: [
+          { t: "DHD1O", n: "TAMAR ON", vtto: "29/04/26", bucket: 0 },
+          { t: "RCCTO", n: "TAMAR ON", vtto: "11/05/26", bucket: 0 },
+          { t: "OZC5O", n: "TAMAR ON", vtto: "12/05/26", bucket: 0 },
+          { t: "T651O", n: "TAMAR ON", vtto: "28/05/26", bucket: 0 },
+          { t: "PSSWO", n: "TAMAR ON", vtto: "23/06/26", bucket: 0 },
+          { t: "BSCRO", n: "TAMAR ON", vtto: "02/06/26", bucket: 0 },
+        ],
+        HD_B0_ON: [
+          { t: "MTCGO", n: "HD ON", vtto: "30/06/26", bucket: 0 },
+          { t: "RZ9BO", n: "HD ON", vtto: "29/06/26", bucket: 0 },
+        ],
+        DL_B0_ON: [
+          { t: "TLCLO", n: "DL ON", vtto: "08/06/26", bucket: 0 },
+          { t: "RZ9AO", n: "DL ON", vtto: "29/06/26", bucket: 0 },
+          { t: "YMCWO", n: "DL ON", vtto: "01/07/26", bucket: 0 },
+        ],
+        SUBSOB_HD_B0: [
+          { t: "CO26", n: "CABA HD", vtto: "27/10/26", bucket: 0 },
+          { t: "BUY26", n: "CABA TF", vtto: "20/05/26", bucket: 0 },
+        ],
+        BOPREAL_B0: [
+          { t: "BPOB7", n: "BOPREAL", vtto: "30/04/26", bucket: 0 },
+          { t: "BPY26", n: "BOPREAL", vtto: "01/06/26", bucket: 0 },
+        ],
+        // BUCKET 1 (01/07/2026–31/12/2026)
+        CER_B1: [
+          { t: "S17L6", n: "CER", vtto: "17/07/26", bucket: 1 },
+          { t: "S31L6", n: "CER", vtto: "31/07/26", bucket: 1 },
+          { t: "S14G6", n: "CER", vtto: "14/08/26", bucket: 1 },
+          { t: "S31G6", n: "CER", vtto: "31/08/26", bucket: 1 },
+          { t: "TTS26", n: "CER", vtto: "15/09/26", bucket: 1 },
+          { t: "S30S6", n: "CER", vtto: "30/09/26", bucket: 1 },
+          { t: "TO26", n: "CER", vtto: "19/10/26", bucket: 1 },
+          { t: "S30O6", n: "CER", vtto: "30/10/26", bucket: 1 },
+          { t: "S30N6", n: "CER", vtto: "30/11/26", bucket: 1 },
+          { t: "TTD26", n: "CER", vtto: "15/12/26", bucket: 1 },
+        ],
+        DL_B1_SOB: [
+          { t: "X31L6", n: "DL Sob.", vtto: "31/07/26", bucket: 1 },
+          { t: "X30S6", n: "DL Sob.", vtto: "30/09/26", bucket: 1 },
+          { t: "TZXO6", n: "DL Sob.", vtto: "30/10/26", bucket: 1 },
+          { t: "X30N6", n: "DL Sob.", vtto: "30/11/26", bucket: 1 },
+          { t: "TZXD6", n: "DL Sob.", vtto: "15/12/26", bucket: 1 },
+          { t: "TX26", n: "DL Sob.", vtto: "09/11/26", bucket: 1 },
+        ],
+        TAMAR_B1_ON: [
+          { t: "SXC1O", n: "TAMAR ON", vtto: "20/07/26", bucket: 1 },
+          { t: "DNC9O", n: "TAMAR ON", vtto: "07/08/26", bucket: 1 },
+          { t: "COC1O", n: "TAMAR ON", vtto: "24/08/26", bucket: 1 },
+          { t: "DHSIO", n: "TAMAR ON", vtto: "20/11/26", bucket: 1 },
+          { t: "T661O", n: "TAMAR ON", vtto: "30/11/26", bucket: 1 },
+          { t: "ZPC1O", n: "TAMAR ON", vtto: "02/12/26", bucket: 1 },
+          { t: "NHC1O", n: "TAMAR ON", vtto: "09/12/26", bucket: 1 },
+          { t: "VWCDO", n: "TAMAR ON", vtto: "11/12/26", bucket: 1 },
+          { t: "LR7AO", n: "TAMAR ON", vtto: "10/12/26", bucket: 1 },
+          { t: "OZC7O", n: "TAMAR ON", vtto: "18/12/26", bucket: 1 },
+        ],
+        HD_B1_ON: [
+          { t: "T662O", n: "HD ON", vtto: "31/08/26", bucket: 1 },
+          { t: "BF37O", n: "HD ON", vtto: "24/08/26", bucket: 1 },
+          { t: "OTS5O", n: "HD ON", vtto: "23/10/26", bucket: 1 },
+          { t: "DHSJO", n: "HD ON", vtto: "20/08/26", bucket: 1 },
+        ],
+        DL_B1_ON: [
+          { t: "SNAAO", n: "DL ON", vtto: "29/07/26", bucket: 1 },
+          { t: "AER9O", n: "DL ON", vtto: "19/08/26", bucket: 1 },
+          { t: "CP28O", n: "DL ON", vtto: "07/09/26", bucket: 1 },
+          { t: "YMCTO", n: "DL ON", vtto: "09/10/26", bucket: 1 },
+          { t: "EAC1O", n: "DL ON", vtto: "13/10/26", bucket: 1 },
+        ],
+        // BUCKET 2 (01/01/2027–31/12/2027)
+        CER_B2: [{ t: "T15E7", n: "CER", vtto: "15/01/27", bucket: 2 }],
+        DL_B2_SOB: [
+          { t: "TZXM7", n: "DL Sob.", vtto: "31/03/27", bucket: 2 },
+          { t: "TZXA7", n: "DL Sob.", vtto: "30/04/27", bucket: 2 },
+          { t: "TZXY7", n: "DL Sob.", vtto: "31/05/27", bucket: 2 },
+          { t: "TZX27", n: "DL Sob.", vtto: "30/06/27", bucket: 2 },
+          { t: "TZXS7", n: "DL Sob.", vtto: "30/09/27", bucket: 2 },
+          { t: "TZXD7", n: "DL Sob.", vtto: "15/12/27", bucket: 2 },
+        ],
+        TAMAR_B2_SOB: [{ t: "TMF27", n: "TAMAR Sob.", vtto: "26/02/27", bucket: 2 }],
+        TAMAR_B2_ON: [
+          { t: "RVS1O", n: "TAMAR ON", vtto: "01/03/27", bucket: 2 },
+          { t: "SXC3O", n: "TAMAR ON", vtto: "23/02/27", bucket: 2 },
+          { t: "T641O", n: "TAMAR ON", vtto: "30/04/27", bucket: 2 },
+        ],
+        HD_B2_ON: [
+          { t: "CS51O", n: "HD ON", vtto: "20/01/27", bucket: 2 },
+          { t: "CS44O", n: "HD ON", vtto: "18/01/27", bucket: 2 },
+          { t: "YM41O", n: "HD ON", vtto: "08/01/27", bucket: 2 },
+          { t: "LOC5O", n: "HD ON", vtto: "26/07/27", bucket: 2 },
+          { t: "YM37O", n: "HD ON", vtto: "07/05/27", bucket: 2 },
+          { t: "VSCWO", n: "HD ON", vtto: "15/04/27", bucket: 2 },
+          { t: "GYC4O", n: "HD ON", vtto: "01/11/27", bucket: 2 },
+          { t: "MCC2O", n: "HD ON", vtto: "02/06/27", bucket: 2 },
+          { t: "MR35O", n: "HD ON", vtto: "30/08/27", bucket: 2 },
+          { t: "EMC1O", n: "HD ON", vtto: "05/07/27", bucket: 2 },
+        ],
+        HD_B2_SOB: [{ t: "AO27", n: "Sob. HD", vtto: "29/10/27", bucket: 2 }],
+        DL_B2_ON: [
+          { t: "VSCJO", n: "DL ON", vtto: "03/03/27", bucket: 2 },
+          { t: "EP4BP", n: "DL ON", vtto: "14/07/27", bucket: 2 },
+          { t: "PQCOO", n: "DL ON", vtto: "22/09/27", bucket: 2 },
+          { t: "LECHO", n: "DL ON", vtto: "30/08/27", bucket: 2 },
+          { t: "MGCEO", n: "DL ON", vtto: "17/12/27", bucket: 2 },
+        ],
+        SUBSOB_HD_B2: [
+          { t: "JUS22", n: "Jujuy HD", vtto: "22/03/27", bucket: 2 },
+          { t: "SA24D", n: "Salta HD", vtto: "01/12/27", bucket: 2 },
+        ],
+        SUBSOB_CER_B2: [
+          { t: "COY27", n: "CABA CER", vtto: "24/05/27", bucket: 2 },
+          { t: "PMM27", n: "Mendoza CER", vtto: "15/03/27", bucket: 2 },
+        ],
+        BOPREAL_B2: [
+          { t: "BPOC7", n: "BOPREAL", vtto: "30/04/27", bucket: 2 },
+          { t: "BPOD7", n: "BOPREAL", vtto: "01/11/27", bucket: 2 },
+          { t: "BPOA7", n: "BOPREAL", vtto: "01/11/27", bucket: 2 },
+        ],
+        // BUCKET 3 (01/01/2028–31/12/2029)
+        DL_B3_SOB: [
+          { t: "TX28", n: "DL Sob.", vtto: "09/11/28", bucket: 3 },
+          { t: "TZX28", n: "DL Sob.", vtto: "30/06/28", bucket: 3 },
+          { t: "TZXS8", n: "DL Sob.", vtto: "30/09/28", bucket: 3 },
+          { t: "TZXM9", n: "DL Sob.", vtto: "28/03/29", bucket: 3 },
+        ],
+        HD_B3_ON: [
+          { t: "CS47O", n: "HD ON", vtto: "15/11/28", bucket: 3 },
+          { t: "PZCGO", n: "HD ON", vtto: "05/06/28", bucket: 3 },
+          { t: "CIC8O", n: "HD ON", vtto: "13/11/28", bucket: 3 },
+          { t: "MSSGO", n: "HD ON", vtto: "16/04/29", bucket: 3 },
+          { t: "MGCTO", n: "HD ON", vtto: "03/04/29", bucket: 3 },
+        ],
+        HD_B3_SOB: [
+          { t: "AO28", n: "Sob. HD", vtto: "31/10/28", bucket: 3 },
+          { t: "AL29", n: "Sob. HD", vtto: "10/07/29", bucket: 3 },
+          { t: "GD29", n: "Sob. HD NY", vtto: "10/07/29", bucket: 3 },
+          { t: "AN29", n: "Sob. HD", vtto: "30/11/29", bucket: 3 },
+        ],
+        SUBSOB_HD_B3: [
+          { t: "CO27D", n: "CABA HD", vtto: "01/02/29", bucket: 3 },
+          { t: "PMM29", n: "Mendoza HD", vtto: "19/03/29", bucket: 3 },
+          { t: "ERF25", n: "Entre Ríos HD", vtto: "08/08/28", bucket: 3 },
+          { t: "CH24D", n: "Chubut HD", vtto: "18/02/28", bucket: 3 },
+        ],
+        BOPREAL_B3: [
+          { t: "BPOB8", n: "BOPREAL", vtto: "31/10/28", bucket: 3 },
+          { t: "BPOA8", n: "BOPREAL", vtto: "31/10/28", bucket: 3 },
+        ],
+        // BUCKET 4 (2030+)
+        CER_B4: [
+          { t: "TY30P", n: "CER Sob.", vtto: "30/05/30", bucket: 4 },
+          { t: "DICP", n: "CER Sob.", vtto: "02/01/34", bucket: 4 },
+        ],
+        DL_B4: [{ t: "TX31", n: "DL Sob.", vtto: "01/12/31", bucket: 4 }],
+        HD_B4_SOB: [
+          { t: "AL30", n: "Sob. HD", vtto: "09/07/30", bucket: 4 },
+          { t: "GD30", n: "Sob. HD NY", vtto: "09/07/30", bucket: 4 },
+          { t: "AL35", n: "Sob. HD", vtto: "09/07/35", bucket: 4 },
+          { t: "GD35", n: "Sob. HD NY", vtto: "09/07/35", bucket: 4 },
+          { t: "AE38", n: "Sob. HD", vtto: "11/01/38", bucket: 4 },
+          { t: "GD38", n: "Sob. HD NY", vtto: "11/01/38", bucket: 4 },
+          { t: "AL41", n: "Sob. HD", vtto: "09/07/41", bucket: 4 },
+          { t: "GD41", n: "Sob. HD NY", vtto: "09/07/41", bucket: 4 },
+          { t: "GD46", n: "Sob. HD NY", vtto: "09/07/46", bucket: 4 },
+        ],
+        SUBSOB_HD_B4: [
+          { t: "TFU27", n: "T.Fuego HD", vtto: "21/01/30", bucket: 4 },
+          { t: "NDT25", n: "Neuquén HD", vtto: "29/04/30", bucket: 4 },
+          { t: "BA37D", n: "PBA HD", vtto: "01/09/37", bucket: 4 },
+          { t: "BDC33", n: "PBA HD", vtto: "28/11/33", bucket: 4 },
+          { t: "SFD34", n: "Sta.Fe HD", vtto: "11/12/34", bucket: 4 },
+          { t: "BB37D", n: "PBA HD B", vtto: "01/09/37", bucket: 4 },
+          { t: "BC37D", n: "PBA HD C", vtto: "01/09/37", bucket: 4 },
+          { t: "CO32", n: "CABA HD", vtto: "02/07/32", bucket: 4 },
+          { t: "CO35", n: "CABA HD", vtto: "05/02/35", bucket: 4 },
+        ],
+        HD_B4_ON: [
+          { t: "TTCAO", n: "HD ON", vtto: "24/01/33", bucket: 4 },
+          { t: "RC1CO", n: "HD ON", vtto: "01/08/33", bucket: 4 },
+          { t: "VSCUO", n: "HD ON", vtto: "07/03/30", bucket: 4 },
+          { t: "PLC5O", n: "HD ON", vtto: "19/05/31", bucket: 4 },
+          { t: "LECKO", n: "HD ON", vtto: "03/11/31", bucket: 4 },
+          { t: "YM43O", n: "HD ON", vtto: "12/04/30", bucket: 4 },
+          { t: "TSC4O", n: "HD ON", vtto: "20/11/35", bucket: 4 },
+        ],
+      };
+
+      // ═══════════════════════════════════════════════════════════════
+      // PORTFOLIO CATEGORÍAS — Configuración de benchmarks y reglas por categoría
+      // ═══════════════════════════════════════════════════════════════
+      const CATEGORIAS = {
+        FCI_MM: {
+          label: "FCI Money Market",
+          tipo: "TAMAR",
+          benchmark: { nombre: "TAMAR", fuente: "tamar", spreadRef: 0 },
+          reglas: {
+            spreadAtractivo: 0.5,
+            spreadNeutro: 0,
+            spreadNegativo: -Infinity,
+            usarCuando: [
+              "Horizonte < 30 días",
+              "Liquidez inmediata T+0/T+1",
+              "Parking entre operaciones",
+              "Conservador con cash en ARS",
+            ],
+            evitarCuando: [
+              "Inflación > TAMAR (tasa real negativa)",
+              "Horizonte > 3 meses",
+              "CER corto ofrece spread > 3%",
+            ],
+          },
+          rendimiento: { tipo: "TNA", formula: (tna) => tna, unidad: "% TNA", horizonte: "1 mes" },
+        },
+        CER_CORTO: {
+          label: "CER Corto",
+          tipo: "CER",
+          benchmark: { nombre: "CER", fuente: "inflacion", spreadRef: 0 },
+          reglas: {
+            spreadAtractivo: 5,
+            spreadNeutro: 2,
+            spreadNegativo: 0,
+            usarCuando: [
+              "Inflación mensual > 3% sostenida",
+              "Horizonte 3-12 meses",
+              "Protección capital ARS",
+              "Spread CER > 4%",
+            ],
+            evitarCuando: [
+              "Inflación cae abruptamente",
+              "Crawling > inflación (DL mejor)",
+              "TIR real < 0%",
+              "Riesgo país > 1000",
+            ],
+          },
+          rendimiento: {
+            tipo: "TIR real",
+            formula: (tirReal, inflacion) =>
+              (Math.pow(1 + inflacion / 100, 12) * (1 + tirReal / 100) - 1) * 100,
+            unidad: "% nominal ARS",
+            horizonte: "12 meses",
+          },
+        },
+        ON_HD: {
+          label: "ONs Hard Dollar",
+          tipo: "HD",
+          benchmark: { nombre: "TIR AO27", fuente: "tirAl30", spreadRef: 0 },
+          reglas: {
+            spreadAtractivo: 1.5,
+            spreadNeutro: 0,
+            spreadNegativo: -Infinity,
+            usarCuando: [
+              "Cliente dolarizado",
+              "Horizonte 12-36 meses",
+              "Riesgo país < 800",
+              "Emisor IG local",
+              "Bid-ask < 0.5%",
+            ],
+            evitarCuando: [
+              "Riesgo país > 1200",
+              "Emisor sin covenant protection",
+              "Duration > 3 años sin call",
+              "Spread < 100 bps",
+            ],
+          },
+          rendimiento: {
+            tipo: "TIR USD",
+            formula: (tir) => tir,
+            unidad: "% USD",
+            horizonte: "al vto",
+          },
+        },
+        DOLAR_LINKED: {
+          label: "Dólar Linked",
+          tipo: "DL",
+          benchmark: { nombre: "Crawling", fuente: "crawling", spreadRef: 0 },
+          reglas: {
+            spreadAtractivo: 2,
+            spreadNeutro: 0,
+            spreadNegativo: -Infinity,
+            usarCuando: [
+              "Expectativa devaluación acelerada",
+              "Crawling < inflación",
+              "Cobertura cambiaria sin salir de ARS",
+              "Spread DL > 1%",
+            ],
+            evitarCuando: [
+              "Apreciación real del peso",
+              "Crawling acelerado priceado",
+              "Preferencia HD",
+              "Riesgo pesificación",
+            ],
+          },
+          rendimiento: {
+            tipo: "TIR sobre crawling",
+            formula: (spreadAnual, crawling) =>
+              (Math.pow(1 + crawling / 100, 12) * (1 + spreadAnual / 100) - 1) * 100,
+            unidad: "% ARS equiv",
+            horizonte: "12 meses",
+          },
+        },
+        TAMAR_ON: {
+          label: "ONs Tasa TAMAR",
+          tipo: "TAMAR",
+          benchmark: { nombre: "TAMAR", fuente: "tamar", spreadRef: 0 },
+          reglas: {
+            spreadAtractivo: 3,
+            spreadNeutro: 1,
+            spreadNegativo: 0,
+            usarCuando: [
+              "Tasas altas y volátiles",
+              "Horizonte 6-18 meses",
+              "View BCRA mantiene tasas",
+              "Spread > 200bps",
+              "Emisor AA+",
+            ],
+            evitarCuando: [
+              "Ciclo baja tasas BCRA",
+              "Inflación → tasa real negativa",
+              "CER corto equivalente o superior",
+              "Duration elevada",
+            ],
+          },
+          rendimiento: {
+            tipo: "TNA flotante",
+            formula: (spread, tamar) => tamar + spread,
+            unidad: "% TNA",
+            horizonte: "rolling",
+          },
+        },
+        SOBERANO_HD: {
+          label: "Soberano Hard Dollar",
+          tipo: "HD",
+          benchmark: { nombre: "AL30", fuente: "tirAl30", spreadRef: 0 },
+          reglas: {
+            spreadAtractivo: 1,
+            spreadNeutro: 0,
+            spreadNegativo: -0.5,
+            usarCuando: [
+              "Duration extendida",
+              "Riesgo país comprimido",
+              "Liquidez prioridad",
+              "TIR soberano atractiva",
+            ],
+            evitarCuando: [
+              "Riesgo país > 1000",
+              "Duration larga sin call",
+              "ONs ofrecen spread > 150bps",
+              "Preferencia privado",
+            ],
+          },
+          rendimiento: {
+            tipo: "TIR USD",
+            formula: (tir) => tir,
+            unidad: "% USD",
+            horizonte: "al vto",
+          },
+        },
+        SUBSOBERANO: {
+          label: "Subsoberano",
+          tipo: "HD",
+          benchmark: { nombre: "AL30+100bps", fuente: "tirAl30", spreadRef: 1 },
+          reglas: {
+            spreadAtractivo: 3,
+            spreadNeutro: 1.5,
+            spreadNegativo: 0,
+            usarCuando: [
+              "Riesgo país < 700",
+              "Spread > 200bps",
+              "Duration moderada",
+              "Cliente mod_agresivo+",
+            ],
+            evitarCuando: [
+              "Riesgo país > 900",
+              "Liquidez escasa",
+              "Monto operación > 30% categoría",
+            ],
+          },
+          rendimiento: {
+            tipo: "TIR USD",
+            formula: (tir) => tir,
+            unidad: "% USD",
+            horizonte: "al vto",
+          },
+        },
+        BOPREAL: {
+          label: "BOPREAL",
+          tipo: "HD",
+          benchmark: { nombre: "AL30+1.5%", fuente: "tirAl30", spreadRef: 1.5 },
+          reglas: {
+            spreadAtractivo: 2.5,
+            spreadNeutro: 1,
+            spreadNegativo: 0,
+            usarCuando: ["Riesgo diferenciado aceptable", "Spread > 2%", "Horizonte medio"],
+            evitarCuando: [
+              "Liquidez prioridad",
+              "Preferencia soberano directo",
+              "Riesgo regulatorio elevado",
+            ],
+          },
+          rendimiento: {
+            tipo: "TIR USD",
+            formula: (tir) => tir,
+            unidad: "% USD",
+            horizonte: "al vto",
+          },
+        },
+      };
+
+      // ═══════════════════════════════════════════════════════════════
+      // TICKER STATE — Estado de TIR/TNA ingresada manualmente
+      // ═══════════════════════════════════════════════════════════════
+      const tickerState = {};
+
+      function getCategoriaFromTipo(tipo) {
+        const map = { TAMAR: "TAMAR_ON", CER: "CER_CORTO", HD: "ON_HD", DL: "DOLAR_LINKED" };
+        return map[tipo] || "ON_HD";
+      }
+
+      function initTickerState(ticker, tipo) {
+        if (!tickerState[ticker]) {
+          tickerState[ticker] = {
+            categoria: getCategoriaFromTipo(tipo),
+            tipo: tipo,
+            tir: null,
+            tna: null,
+            señal: null,
+            rendimiento: null,
+            spread: null,
+          };
+        }
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // SIGNAL ENGINE — Evaluación de señales y cálculo de rendimiento
+      // ═══════════════════════════════════════════════════════════════
+      function evaluarSeñal(categoria, tir, macro) {
+        const cfg = CATEGORIAS[categoria];
+        if (!cfg)
+          return {
+            señal: "NEUTRO",
+            color: "yellow",
+            icono: "→",
+            label: "—",
+            spread: 0,
+            benchmarkValue: 0,
+          };
+
+        const fuente = cfg.benchmark.fuente;
+        let benchmarkValue = 0;
+        switch (fuente) {
+          case "tamar":
+            benchmarkValue = macro.tamar ?? 32;
+            break;
+          case "inflacion":
+            benchmarkValue = (macro.inflacion ?? 3.5) * 12;
+            break;
+          case "tirAl30":
+            benchmarkValue = (macro.tirAl30 ?? 11.5) + cfg.benchmark.spreadRef;
+            break;
+          case "crawling":
+            benchmarkValue = (macro.crawling ?? 1.0) * 12;
+            break;
+          default:
+            benchmarkValue = 0;
+        }
+
+        const spread = tir - benchmarkValue;
+        const r = cfg.reglas;
+        let señal, color, icono;
+
+        if (spread >= r.spreadAtractivo) {
+          señal = "ATRACTIVO";
+          color = "green";
+          icono = "▲";
+        } else if (spread >= r.spreadNeutro) {
+          señal = "NEUTRO";
+          color = "yellow";
+          icono = "→";
+        } else {
+          señal = "EVITAR";
+          color = "red";
+          icono = "▼";
+        }
+
+        return {
+          benchmarkValue,
+          spread: +spread.toFixed(2),
+          señal,
+          color,
+          icono,
+          label: `${icono} ${spread >= 0 ? "+" : ""}${spread.toFixed(1)}%`,
+        };
+      }
+
+      function calcularRendimiento(categoria, inputs, macro) {
+        const cfg = CATEGORIAS[categoria];
+        if (!cfg) return { valor: inputs.tir || 0, descripcion: "TIR directa" };
+        const f = cfg.rendimiento.formula;
+
+        switch (categoria) {
+          case "FCI_MM":
+            return {
+              valor: f(inputs.tna || 0),
+              descripcion: `TNA ${(inputs.tna || 0).toFixed(1)}%`,
+            };
+          case "CER_CORTO": {
+            const inf = macro.inflacion;
+            const tirReal = inputs.tir || 0;
+            const nominal = f(tirReal, inf);
+            return {
+              valor: +nominal.toFixed(1),
+              descripcion: `CER (inf ${inf}%/m) + ${tirReal}% spread`,
+            };
+          }
+          case "ON_HD":
+          case "SOBERANO_HD":
+          case "SUBSOBERANO":
+          case "BOPREAL":
+            return {
+              valor: inputs.tir || 0,
+              descripcion: `TIR ${(inputs.tir || 0).toFixed(1)}% USD`,
+            };
+          case "DOLAR_LINKED": {
+            const crawling = macro.crawling;
+            const spread = inputs.tir || 0;
+            const total = f(spread, crawling);
+            return {
+              valor: +total.toFixed(1),
+              descripcion: `Crawling ${crawling}%/m + ${spread}% spread`,
+            };
+          }
+          case "TAMAR_ON": {
+            const tamar = macro.tamar;
+            const spread = (inputs.tir || 0) - tamar;
+            const total = f(spread, tamar);
+            return {
+              valor: +total.toFixed(1),
+              descripcion: `TAMAR ${tamar}% + ${spread.toFixed(1)}% spread`,
+            };
+          }
+          default:
+            return { valor: inputs.tir || 0, descripcion: "TIR ingresada" };
+        }
+      }
+
+      function onTIRInput(ticker, valorIngresado, macro) {
+        initTickerState(ticker, "HD");
+        const state = tickerState[ticker];
+        const tirNum = parseFloat(valorIngresado);
+        if (isNaN(tirNum)) return;
+
+        state.tir = tirNum;
+        state.señal = evaluarSeñal(state.categoria, tirNum, macro);
+        state.rendimiento = calcularRendimientoEsperado(
+          state.categoria,
+          { tir: tirNum, tna: tirNum },
+          macro,
+        );
+        state.spread = state.señal.spread;
+
+        actualizarBenchmarkCategoria(state.categoria, macro);
+        renderTickerRow(ticker);
+      }
+
+      function resolverBenchmark(fuente, macro) {
+        const mapa = {
+          tamar: macro.tamar ?? 32,
+          inflacion: (macro.inflacion ?? 3.5) * 12,
+          tirAl30: macro.tirAl30 ?? 11.5,
+          crawling: (macro.crawling ?? 1.0) * 12,
+          "macro.tamar": macro.tamar ?? 32,
+          "macro.inflacion": (macro.inflacion ?? 3.5) * 12,
+          "macro.tirAL30": macro.tirAl30 ?? 11.5,
+          "macro.crawlingPeg": (macro.crawling ?? 1.0) * 12,
+        };
+        return mapa[fuente] ?? 0;
+      }
+
+      function calcularRendimientoEsperado(categoria, inputs, macro) {
+        const cfg = CATEGORIAS[categoria];
+        if (!cfg) return { valor: inputs.tir || 0, descripcion: "TIR ingresada directamente" };
+        const f = cfg.rendimiento.formula;
+
+        switch (categoria) {
+          case "FCI_MM":
+            const tna = inputs.tna || 0;
+            return {
+              valor: f(tna),
+              descripcion: `TNA ${tna.toFixed(1)}% → rinde ${tna.toFixed(1)}% anual`,
+            };
+
+          case "CER_CORTO": {
+            const tirReal = inputs.tir || 0;
+            const inf = macro.inflacion ?? 3.5;
+            const nominal = f(tirReal, inf);
+            return {
+              valor: +nominal.toFixed(1),
+              descripcion: `CER (inf ${inf}%/m) + ${tirReal}% spread → ~${nominal.toFixed(1)}% nominal ARS anual`,
+            };
+          }
+
+          case "ON_HD":
+          case "SOBERANO_HD":
+          case "SUBSOBERANO":
+          case "BOPREAL":
+            const tirHD = inputs.tir || 0;
+            return {
+              valor: tirHD,
+              descripcion: `TIR ${tirHD.toFixed(1)}% USD anual al vencimiento`,
+            };
+
+          case "DOLAR_LINKED": {
+            const crawling = macro.crawling ?? 1.0;
+            const spread = inputs.tir || 0;
+            const total = f(spread, crawling);
+            return {
+              valor: +total.toFixed(1),
+              descripcion: `Crawling ${crawling}%/m + ${spread}% spread → ~${total.toFixed(1)}% ARS equiv. anual`,
+            };
+          }
+
+          case "TAMAR_ON": {
+            const tamar = macro.tamar ?? 32;
+            const spread = (inputs.tir || 0) - tamar;
+            const total = f(spread, tamar);
+            return {
+              valor: +total.toFixed(1),
+              descripcion: `TAMAR ${tamar}% + ${spread.toFixed(1)}% spread → ~${total.toFixed(1)}% TNA variable`,
+            };
+          }
+
+          default:
+            return { valor: inputs.tir || 0, descripcion: "TIR ingresada directamente" };
+        }
+      }
+
+      function actualizarBenchmarkCategoria(categoria, macro) {
+        const tickers = Object.entries(tickerState).filter(
+          ([, s]) => s.categoria === categoria && s.tir !== null,
+        );
+
+        if (tickers.length === 0) return;
+
+        const tirPromedio = tickers.reduce((acc, [, s]) => acc + s.tir, 0) / tickers.length;
+        const señalCategoria = evaluarSeñal(categoria, tirPromedio, macro);
+
+        renderCategoriaBadge(categoria, tirPromedio, señalCategoria);
+      }
+
+      function renderTooltipReglas(categoria, señal) {
+        const cfg = CATEGORIAS[categoria];
+        if (!cfg) return "";
+        const benchmark = cfg.benchmark;
+
+        return `
+    <div class="tooltip-reglas" style="background:var(--card2);border:1px solid var(--border);border-radius:6px;padding:12px;font-size:11px;max-width:300px;line-height:1.5;">
+      <h4 style="margin:0 0 8px;color:var(--gold-light);font-size:12px;">${cfg.label}</h4>
+
+      <section style="margin-bottom:10px;">
+        <strong style="color:var(--text);">Benchmark:</strong> ${benchmark.nombre}<br>
+        <span style="color:var(--text2);font-size:10px;">${cfg.benchmark.descripcion || ""}</span>
+      </section>
+
+      <section style="margin-bottom:10px;">
+        <strong style="color:var(--green);">✅ Usar cuando:</strong>
+        <ul style="margin:4px 0;padding-left:16px;color:var(--text2);">${cfg.reglas.usarCuando.map((r) => `<li>${r}</li>`).join("")}</ul>
+      </section>
+
+      <section style="margin-bottom:10px;">
+        <strong style="color:var(--red);">⛔ Evitar cuando:</strong>
+        <ul style="margin:4px 0;padding-left:16px;color:var(--text2);">${cfg.reglas.evitarCuando.map((r) => `<li>${r}</li>`).join("")}</ul>
+      </section>
+
+      <section style="border-top:1px solid var(--border);padding-top:8px;">
+        <strong style="color:var(--${señal?.color || "text"});">Señal actual:</strong> 
+        ${señal?.señal ?? "—"} <span style="color:var(--${señal?.color || "text"});">(${señal?.label ?? "—"})</span>
+      </section>
+    </div>
+  `;
+      }
+
+      function calcularRendimientoCartera(asignaciones, macro) {
+        let rendimientoTotal = 0;
+        const detalle = [];
+
+        for (const item of asignaciones) {
+          const rend = calcularRendimientoEsperado(
+            item.categoria,
+            { tir: item.tirIngresada, tna: item.tirIngresada },
+            macro,
+          );
+
+          const contribucion = (item.porcentaje / 100) * rend.valor;
+          rendimientoTotal += contribucion;
+
+          const cfg = CATEGORIAS[item.categoria];
+          detalle.push({
+            ...item,
+            rendimientoEsperado: rend.valor,
+            unidad: cfg ? cfg.rendimiento.unidad : "%",
+            descripcion: rend.descripcion,
+            contribucion: +contribucion.toFixed(2),
+          });
+        }
+
+        return {
+          rendimientoTotalARS: +rendimientoTotal.toFixed(2),
+          detalle,
+          advertencia:
+            "Rendimiento ponderado informativo. ARS y USD no son directamente sumables sin CCL proyectado.",
+        };
+      }
+
+      // UI functions (placeholders - se implementan según el render del Paso 3)
+      function renderTickerRow(ticker) {
+        // Actualiza la UI del ticker específico
+        const state = tickerState[ticker];
+        if (!state) return;
+
+        // Buscar elementos del ticker en el DOM y actualizarlos
+        const row = document.querySelector(`[data-ticker="${ticker}"]`);
+        if (row) {
+          const badge = row.querySelector(".ticker-badge");
+          if (badge && state.señal) {
+            badge.className = `ticker-badge pill pill-${state.señal.color}`;
+            badge.textContent = state.señal.señal;
+          }
+        }
+      }
+
+      function renderCategoriaBadge(categoria, tirPromedio, señal) {
+        // Actualiza el badge de la categoría en el header del bucket
+        const header = document.querySelector(`[data-categoria="${categoria}"]`);
+        if (header) {
+          const badge = header.querySelector(".cat-badge");
+          if (badge && señal) {
+            badge.className = `cat-badge pill pill-${señal.color}`;
+            badge.textContent = `${señal.señal} (${señal.label})`;
+          }
+        }
+      }
+
+      // ═══════════════════════════════════════════════════════════════════════════════
+      // MOTOR AVANZADO DE ESCENARIO MACRO — ARGENTINA
+      const MACRO_CONFIG = {
+        BCRA_TOKEN: localStorage.getItem("bcra_token") || "",
+        PROXY: "",
+        SERIES_DAYS: 180,
+        REFRESH_MS: 5 * 60 * 1000,
+      };
+
+      const MACRO_ENDPOINTS = {
+        dolar_oficial: "https://dolarapi.com/v1/dolares/oficial",
+        dolar_blue: "https://dolarapi.com/v1/dolares/blue",
+        dolar_ccl: "https://dolarapi.com/v1/dolares/contadoconliqui",
+        riesgo_pais: "https://api.argentinadatos.com/v1/finanzas/indices/riesgo-pais",
+        riesgo_ultimo: "https://api.argentinadatos.com/v1/finanzas/indices/riesgo-pais/ultimo",
+        inflacion: "https://api.argentinadatos.com/v1/finanzas/indices/inflacion",
+        ccl_hist: "https://api.argentinadatos.com/v1/cotizaciones/dolares/contadoconliqui",
+        oficial_hist: "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
+        depositos30d: "https://api.argentinadatos.com/v1/finanzas/tasas/depositos30Dias",
+        bcra_pase_pasiva: "https://api.estadisticasbcra.com/tasa_pase_pasivas_1_dia",
+        bcra_reservas: "https://api.estadisticasbcra.com/reservas",
+        bcra_merval_usd: "https://api.estadisticasbcra.com/merval_usd",
+      };
+
+      const ESCENARIOS = {
+        NORMALIZACION: {
+          id: "NORMALIZACION",
+          label: "Normalización Financiera",
+          emoji: "🟢",
+          color: "#16a34a",
+          colorBg: "#f0fdf4",
+          descripcion:
+            "Desinflación sostenida con ancla cambiaria creíble. Riesgo país comprimiendo. Condiciones favorables para alargar duration y aumentar exposición ARS.",
+          outlook: "favorable",
+          sesgo: {
+            aumentar: ["CER_CORTO", "ON_HD", "TAMAR_ON"],
+            mantener: ["DOLAR_LINKED"],
+            reducir: ["FCI_MM"],
+            duration: "alargar",
+            moneda: "aumentar ARS",
+            nota: "Oportunidad de capturar compresión de spreads. CER con duration 6-12m y ONs corporativas.",
+          },
+        },
+        ESTABILIDAD_FRAGIL: {
+          id: "ESTABILIDAD_FRAGIL",
+          label: "Estabilidad Frágil",
+          emoji: "🟡",
+          color: "#d97706",
+          colorBg: "#fffbeb",
+          descripcion:
+            "Variables controladas pero con tensiones latentes. Ancla cambiaria bajo presión moderada. Riesgo país elevado limita el crédito voluntario.",
+          outlook: "neutral",
+          sesgo: {
+            aumentar: ["FCI_MM", "CER_CORTO"],
+            mantener: ["ON_HD", "TAMAR_ON"],
+            reducir: ["DOLAR_LINKED"],
+            duration: "corta (< 6m)",
+            moneda: "balance",
+            nota: "Cautela táctica. Favorecer liquidez sobre carry. CER corto como base, ON HD como ancla USD.",
+          },
+        },
+        PRESION_CAMBIARIA: {
+          id: "PRESION_CAMBIARIA",
+          label: "Presión Cambiaria",
+          emoji: "🟠",
+          color: "#ea580c",
+          colorBg: "#fff7ed",
+          descripcion:
+            "Brecha CCL en expansión. Crawling peg insuficiente. Atraso de tipo de cambio real. Riesgo de overshooting cambiario.",
+          outlook: "cauteloso",
+          sesgo: {
+            aumentar: ["DOLAR_LINKED", "ON_HD"],
+            mantener: ["CER_CORTO"],
+            reducir: ["FCI_MM", "TAMAR_ON"],
+            duration: "acortar",
+            moneda: "cobertura USD",
+            nota: "Priorizar Dólar Linked sobre nominal ARS. ONs HD con vencimientos < 18 meses.",
+          },
+        },
+        ESTRES_INFLACIONARIO: {
+          id: "ESTRES_INFLACIONARIO",
+          label: "Estrés Inflacionario",
+          emoji: "🔴",
+          color: "#dc2626",
+          colorBg: "#fef2f2",
+          descripcion:
+            "Inflación reacelerando. TAMAR por debajo de inflación — tasa real negativa. Erosión de capital en activos nominales ARS.",
+          outlook: "negativo",
+          sesgo: {
+            aumentar: ["CER_CORTO"],
+            mantener: ["ON_HD", "DOLAR_LINKED"],
+            reducir: ["FCI_MM", "TAMAR_ON"],
+            duration: "CER alargar, resto acortar",
+            moneda: "evitar nominal ARS",
+            nota: "CER como escudo principal. Si spread CER > 5%: alargar duration en CER.",
+          },
+        },
+        RIESGO_SOBERANO: {
+          id: "RIESGO_SOBERANO",
+          label: "Riesgo Soberano Elevado",
+          emoji: "⛔",
+          color: "#b91c1c",
+          colorBg: "#fff1f2",
+          descripcion:
+            "EMBI+ Argentina > 1000 bps. Sin acceso voluntario al crédito. Presión sobre reservas. Escenario de máxima cautela.",
+          outlook: "negativo severo",
+          sesgo: {
+            aumentar: ["FCI_MM", "ON_HD"],
+            mantener: ["CER_CORTO"],
+            reducir: ["DOLAR_LINKED", "TAMAR_ON"],
+            duration: "mínima",
+            moneda: "máxima USD",
+            nota: "Hard dollar corporativo (no soberano) con vencimientos cortos. Evitar soberanos.",
+          },
+        },
+        CRISIS: {
+          id: "CRISIS",
+          label: "Crisis / Reestructuración",
+          emoji: "🚨",
+          color: "#7f1d1d",
+          colorBg: "#fff1f2",
+          descripcion:
+            "Indicadores de crisis sistémica simultáneos. Riesgo de reestructuración de deuda. Fuga de capitales. Prioridad: liquidez en USD.",
+          outlook: "crisis",
+          sesgo: {
+            aumentar: ["ON_HD", "FCI_MM"],
+            mantener: [],
+            reducir: ["CER_CORTO", "DOLAR_LINKED", "TAMAR_ON"],
+            duration: "mínima absoluta",
+            moneda: "todo USD",
+            nota: "Salida de soberanos. ONs corporativas de alta calidad con amortización próxima. Cash en USD.",
+          },
+        },
+      };
+
+      // ═══════════════════════════════════════════════════════════════════════════════
+      // MOTOR AVANZADO — Funciones simplificadas (versión sin dependencias pesadas)
+      // ═══════════════════════════════════════════════════════════════════════════════
+
+      async function cargarSeriesMacro() {
+        const resultados = {};
+        const errores = {};
+        const publicas = [
+          ["dolar_oficial", MACRO_ENDPOINTS.dolar_oficial, false],
+          ["dolar_blue", MACRO_ENDPOINTS.dolar_blue, false],
+          ["dolar_ccl", MACRO_ENDPOINTS.dolar_ccl, false],
+          ["riesgo_ultimo", MACRO_ENDPOINTS.riesgo_ultimo, false],
+          ["riesgo_pais", MACRO_ENDPOINTS.riesgo_pais, false],
+          ["inflacion", MACRO_ENDPOINTS.inflacion, false],
+          ["ccl_hist", MACRO_ENDPOINTS.ccl_hist, false],
+          ["oficial_hist", MACRO_ENDPOINTS.oficial_hist, false],
+          ["depositos30d", MACRO_ENDPOINTS.depositos30d, false],
+        ];
+        const bcraEndpoints = [
+          ["bcra_pase_pasiva", MACRO_ENDPOINTS.bcra_pase_pasiva, true],
+          ["bcra_reservas", MACRO_ENDPOINTS.bcra_reservas, true],
+          ["bcra_merval_usd", MACRO_ENDPOINTS.bcra_merval_usd, true],
+        ];
+        const todos = [...publicas, ...(MACRO_CONFIG.BCRA_TOKEN ? bcraEndpoints : [])];
+        await Promise.allSettled(
+          todos.map(async ([key, url, auth]) => {
+            try {
+              resultados[key] = await fetchMacroJSON(url, auth);
+            } catch (e) {
+              errores[key] = e.message;
+            }
+          }),
+        );
+        return { series: resultados, errores };
+      }
+
+      async function fetchMacroJSON(url, bcraAuth = false) {
+        const target = MACRO_CONFIG.PROXY ? MACRO_CONFIG.PROXY + encodeURIComponent(url) : url;
+        const headers = { Accept: "application/json" };
+        if (bcraAuth && MACRO_CONFIG.BCRA_TOKEN)
+          headers["Authorization"] = `BEARER ${MACRO_CONFIG.BCRA_TOKEN}`;
+        const res = await fetch(target, { headers });
+        if (!res.ok) throw new Error(`HTTP ${res.status} — ${url}`);
+        return res.json();
+      }
+
+      function extraerSeñalesMacro(series) {
+        const s = {};
+        if (series.inflacion?.length) {
+          const vals = series.inflacion.map((p) => p.valor);
+          s.inflacion = {
+            ultimo: vals[vals.length - 1],
+            promedio3m: vals.slice(-3).reduce((a, b) => a + b, 0) / 3,
+          };
+        }
+        if (series.riesgo_pais?.length) {
+          const vals = series.riesgo_pais.map((p) => p.valor);
+          s.riesgoPais = {
+            actual: series.riesgo_ultimo?.valor || vals[vals.length - 1],
+            cambio7d: vals.length >= 7 ? vals[vals.length - 1] - vals[vals.length - 7] : null,
+          };
+        }
+        if (series.ccl_hist?.length && series.oficial_hist?.length) {
+          const cclSpot = series.dolar_ccl?.venta,
+            ofSpot = series.dolar_oficial?.venta;
+          s.brecha = {
+            actual: cclSpot && ofSpot && ofSpot > 0 ? (cclSpot / ofSpot - 1) * 100 : 15,
+          };
+        }
+        if (series.bcra_pase_pasiva?.length) {
+          const vals = series.bcra_pase_pasiva.map((p) => p.v);
+          const anualizar = (d) => (Math.pow(1 + d / 100, 365) - 1) * 100;
+          s.tamar = { actual: anualizar(vals[vals.length - 1]) };
+        } else if (series.depositos30d?.length) {
+          s.tamar = { actual: series.depositos30d[series.depositos30d.length - 1]?.valor || 32 };
+        }
+        if (s.tamar?.actual && s.inflacion?.ultimo) {
+          const tamarMensual = (Math.pow(1 + s.tamar.actual / 100, 1 / 12) - 1) * 100;
+          s.tasaRealMensual = tamarMensual - s.inflacion.ultimo;
+        }
+        if (s.inflacion?.ultimo && series.oficial_hist?.length) {
+          const pts = series.oficial_hist,
+            ultimo = pts[pts.length - 1].venta || pts[pts.length - 1].valor;
+          const hace90 =
+            pts[Math.max(0, pts.length - 90)].venta || pts[Math.max(0, pts.length - 90)].valor;
+          const crawling = hace90 > 0 ? (Math.pow(ultimo / hace90, 1 / 3) - 1) * 100 : 1.0;
+          s.atrasoTCR = s.inflacion.ultimo - crawling;
+          s.crawling = { mensualPromedio3m: crawling };
+        }
+        return s;
+      }
+
+      function calcularDimensionesMacro(s) {
+        const dims = {};
+        if (s.inflacion) {
+          let score = 0;
+          const inf = s.inflacion.ultimo || 3;
+          if (inf < 2) score = 0;
+          else if (inf < 3) score = 15;
+          else if (inf < 4) score = 30;
+          else if (inf < 5) score = 50;
+          else if (inf < 7) score = 70;
+          else if (inf < 10) score = 85;
+          else score = 100;
+          dims.inflacion = { score, valor: inf };
+        } else {
+          dims.inflacion = { score: 50, valor: null };
+        }
+        if (s.brecha) {
+          let score = 0;
+          const b = s.brecha.actual || 0;
+          if (b < 3) score = 0;
+          else if (b < 8) score = 10;
+          else if (b < 15) score = 25;
+          else if (b < 30) score = 50;
+          else if (b < 50) score = 70;
+          else if (b < 80) score = 85;
+          else score = 100;
+          if (s.atrasoTCR > 2) score += 10;
+          dims.cambio = { score, valor: b };
+        } else {
+          dims.cambio = { score: 40, valor: null };
+        }
+        if (s.riesgoPais) {
+          let score = 0;
+          const rp = s.riesgoPais.actual || 700;
+          if (rp < 350) score = 0;
+          else if (rp < 500) score = 15;
+          else if (rp < 700) score = 30;
+          else if (rp < 900) score = 50;
+          else if (rp < 1200) score = 65;
+          else if (rp < 1500) score = 80;
+          else if (rp < 1800) score = 90;
+          else score = 100;
+          if (s.riesgoPais.cambio7d > 50) score += 10;
+          dims.soberano = { score, valor: rp };
+        } else {
+          dims.soberano = { score: 50, valor: null };
+        }
+        if (s.tasaRealMensual !== undefined) {
+          let score = 0;
+          const tr = s.tasaRealMensual;
+          if (tr > 1) score = 0;
+          else if (tr > 0) score = 10;
+          else if (tr > -0.5) score = 30;
+          else if (tr > -1) score = 50;
+          else if (tr > -2) score = 65;
+          else if (tr > -3) score = 80;
+          else score = 100;
+          dims.tasaReal = { score, valor: tr };
+        } else {
+          dims.tasaReal = { score: 40, valor: null };
+        }
+        return dims;
+      }
+
+      function calcularScoreCompuestoMacro(dims, tieneTokenBCRA) {
+        const pesos = tieneTokenBCRA
+          ? {
+              inflacion: 0.2,
+              cambio: 0.2,
+              soberano: 0.25,
+              tasaReal: 0.1,
+              reservas: 0.15,
+              sentimiento: 0.1,
+            }
+          : {
+              inflacion: 0.3,
+              cambio: 0.3,
+              soberano: 0.3,
+              tasaReal: 0.05,
+              reservas: 0.025,
+              sentimiento: 0.025,
+            };
+        return Object.entries(pesos).reduce((t, [d, p]) => t + (dims[d]?.score ?? 50) * p, 0);
+      }
+
+      function evaluarOverridesMacro(s, dims) {
+        const inf = s.inflacion?.ultimo,
+          rp = s.riesgoPais?.actual,
+          brecha = s.brecha?.actual,
+          tr = s.tasaRealMensual;
+        if (rp > 1800 && inf > 8 && brecha > 80)
+          return {
+            escenario: "CRISIS",
+            confianza: 95,
+            trigger: `RP ${rp}bps + inf ${inf}% + brecha ${brecha}%`,
+          };
+        if (rp > 1200 && dims.soberano.score > 80)
+          return { escenario: "RIESGO_SOBERANO", confianza: 90, trigger: `Riesgo país ${rp}bps` };
+        if (brecha > 40 && s.atrasoTCR > 2)
+          return {
+            escenario: "PRESION_CAMBIARIA",
+            confianza: 85,
+            trigger: `Brecha ${brecha.toFixed(1)}% + atraso TCR ${s.atrasoTCR?.toFixed(1)}%`,
+          };
+        if (tr < -2 && inf > 5 && dims.tasaReal.score > 75)
+          return {
+            escenario: "ESTRES_INFLACIONARIO",
+            confianza: 88,
+            trigger: `Tasa real ${tr.toFixed(2)}%/m + inflación ${inf}%`,
+          };
+        return null;
+      }
+
+      function clasificarEscenarioMacro(s, dims, tieneTokenBCRA) {
+        const score = calcularScoreCompuestoMacro(dims, tieneTokenBCRA);
+        const override = evaluarOverridesMacro(s, dims);
+        let escenarioId, confianza, metodo;
+        if (override) {
+          escenarioId = override.escenario;
+          confianza = override.confianza;
+          metodo = `override: ${override.trigger}`;
+        } else {
+          if (score < 18) {
+            escenarioId = "NORMALIZACION";
+            confianza = 85;
+          } else if (score < 35) {
+            escenarioId = "ESTABILIDAD_FRAGIL";
+            confianza = 75;
+          } else if (score < 52) {
+            escenarioId = "PRESION_CAMBIARIA";
+            confianza = 70;
+          } else if (score < 68) {
+            escenarioId = "ESTRES_INFLACIONARIO";
+            confianza = 72;
+          } else if (score < 82) {
+            escenarioId = "RIESGO_SOBERANO";
+            confianza = 80;
+          } else {
+            escenarioId = "CRISIS";
+            confianza = 88;
+          }
+          metodo = `score: ${score.toFixed(1)}/100`;
+        }
+        return { escenarioId, score, confianza, metodo };
+      }
+
+      function generarAlertasMacro(s, dims, escenarioId) {
+        const alertas = [];
+        if (s.tasaRealMensual !== undefined && s.tasaRealMensual < 0) {
+          const nivel =
+            s.tasaRealMensual < -2 ? "crítica" : s.tasaRealMensual < -1 ? "moderada" : "leve";
+          alertas.push({
+            tipo: "warning",
+            icono: "📉",
+            texto: `Tasa real mensual: ${s.tasaRealMensual.toFixed(2)}%/m (represión ${nivel})`,
+            accion: "Rotar FCI MM → CER corto",
+          });
+        }
+        if (s.inflacion?.ultimo > 5)
+          alertas.push({
+            tipo: "danger",
+            icono: "🔥",
+            texto: `Inflación elevada: ${s.inflacion.ultimo.toFixed(1)}%/m`,
+            accion: "Aumentar CER; reducir tasa fija",
+          });
+        if (s.brecha?.actual > 15)
+          alertas.push({
+            tipo: "warning",
+            icono: "💱",
+            texto: `Brecha CCL elevada: ${s.brecha.actual.toFixed(1)}%`,
+            accion: "Evaluar cobertura Dólar Linked",
+          });
+        if (s.atrasoTCR > 1.5)
+          alertas.push({
+            tipo: "info",
+            icono: "⚠️",
+            texto: `Atraso TCR: ${s.atrasoTCR.toFixed(1)}%/m — crawling < inflación`,
+            accion: "Riesgo cambiario latente",
+          });
+        if (s.riesgoPais?.cambio7d > 50)
+          alertas.push({
+            tipo: "warning",
+            icono: "📊",
+            texto: `Riesgo país subió ${s.riesgoPais.cambio7d.toFixed(0)} bps en 7 días`,
+            accion: "Revisar exposición soberana",
+          });
+        return alertas;
+      }
+
+      async function analizarEscenarioMacroAvanzado(macroManual = {}) {
+        const inicio = Date.now();
+        const resultado = {
+          timestamp: new Date().toISOString(),
+          fuentes: {},
+          señales: {},
+          dimensiones: {},
+          escenario: null,
+          alertas: [],
+          metadatos: {},
+          error: null,
+        };
+        try {
+          const { series, errores } = await cargarSeriesMacro();
+          resultado.fuentes = { series: Object.keys(series), errores };
+          const señales = extraerSeñalesMacro(series);
+          if (macroManual.inflacionMensual) {
+            señales.inflacion = {
+              ...(señales.inflacion || {}),
+              ultimo: macroManual.inflacionMensual,
+            };
+          }
+          if (macroManual.brechaCCL) {
+            señales.brecha = { ...(señales.brecha || {}), actual: macroManual.brechaCCL };
+          }
+          if (macroManual.riesgoPais) {
+            señales.riesgoPais = { ...(señales.riesgoPais || {}), actual: macroManual.riesgoPais };
+          }
+          if (macroManual.tamar) {
+            señales.tamar = { ...(señales.tamar || {}), actual: macroManual.tamar };
+          }
+          if (macroManual.crawlingPeg) {
+            señales.crawling = {
+              ...(señales.crawling || {}),
+              mensualPromedio3m: macroManual.crawlingPeg,
+            };
+          }
+          if (macroManual.tamar && macroManual.inflacionMensual) {
+            const tamarMensual = (Math.pow(1 + macroManual.tamar / 100, 1 / 12) - 1) * 100;
+            señales.tasaRealMensual = tamarMensual - macroManual.inflacionMensual;
+          }
+          if (macroManual.inflacionMensual && macroManual.crawlingPeg) {
+            señales.atrasoTCR = macroManual.inflacionMensual - macroManual.crawlingPeg;
+          }
+          resultado.señales = señales;
+          const tieneTokenBCRA = !!MACRO_CONFIG.BCRA_TOKEN;
+          const dimensiones = calcularDimensionesMacro(señales);
+          resultado.dimensiones = dimensiones;
+          const { escenarioId, score, confianza, metodo } = clasificarEscenarioMacro(
+            señales,
+            dimensiones,
+            tieneTokenBCRA,
+          );
+          const alertas = generarAlertasMacro(señales, dimensiones, escenarioId);
+          resultado.escenario = ESCENARIOS[escenarioId];
+          resultado.alertas = alertas;
+          resultado.metadatos = {
+            scoreTotal: score,
+            confianza,
+            metodo,
+            tieneTokenBCRA,
+            seriesDisponibles: Object.keys(series).length,
+            tiempoMs: Date.now() - inicio,
+            variables: {
+              inflacion: señales.inflacion?.ultimo,
+              brecha: señales.brecha?.actual,
+              riesgoPais: señales.riesgoPais?.actual,
+              tamar: señales.tamar?.actual,
+              tasaReal: señales.tasaRealMensual,
+              atrasoTCR: señales.atrasoTCR,
+            },
+          };
+          S.escenarioDetectado = escenarioId;
+          S.scoreRiesgo = score;
+        } catch (e) {
+          resultado.error = e.message;
+          console.error("Error en analizarEscenarioMacroAvanzado:", e);
+        }
+        return resultado;
+      }
+
+      function renderizarBadgeEscenarioAvanzado(resultado, elementId) {
+        const el = document.getElementById(elementId);
+        if (!el) return;
+        if (resultado.error) {
+          el.innerHTML = `<div style="color:var(--red);">⚠️ Error: ${resultado.error}</div>`;
+          return;
+        }
+        if (!resultado.escenario) {
+          el.innerHTML = `<span style="color:var(--muted);">Cargando análisis macro...</span>`;
+          return;
+        }
+        const { escenario, metadatos, alertas } = resultado;
+        const vars = metadatos.variables;
+        const sesgo = escenario.sesgo;
+        el.innerHTML = `
+    <div style="border-left:4px solid ${escenario.color};background:${escenario.colorBg};padding:16px;border-radius:8px;margin:14px 0;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+        <span style="font-size:1.5rem">${escenario.emoji}</span>
+        <div>
+          <div style="font-weight:700;font-size:1rem;color:${escenario.color}">${escenario.label}</div>
+          <div style="font-size:0.75rem;color:var(--muted)">Score: ${metadatos.scoreTotal.toFixed(0)}/100 · Confianza: ${metadatos.confianza}% · ${metadatos.tieneTokenBCRA ? "✅ BCRA activo" : "⚠️ Sin BCRA token"}</div>
+        </div>
+      </div>
+      <p style="font-size:0.85rem;color:var(--text2);margin:8px 0;line-height:1.5">${escenario.descripcion}</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0;font-size:0.8rem;">
+        ${vars.tamar ? `<div><span style="color:var(--muted)">TAMAR</span><br><strong>${vars.tamar.toFixed(1)}% TNA</strong></div>` : ""}
+        ${vars.tasaReal !== undefined ? `<div><span style="color:var(--muted)">Tasa real</span><br><strong style="color:${vars.tasaReal < 0 ? "var(--red)" : "var(--green)"}">${vars.tasaReal.toFixed(2)}%/m</strong></div>` : ""}
+        ${vars.atrasoTCR !== undefined ? `<div><span style="color:var(--muted)">Atraso TCR</span><br><strong style="color:${vars.atrasoTCR > 1 ? "var(--red)" : "var(--green)"}">${vars.atrasoTCR.toFixed(1)}%/m</strong></div>` : ""}
+        ${vars.riesgoPais ? `<div><span style="color:var(--muted)">Riesgo país</span><br><strong>${vars.riesgoPais.toFixed(0)} bps</strong></div>` : ""}
+        ${vars.brecha ? `<div><span style="color:var(--muted)">Brecha CCL</span><br><strong>${vars.brecha.toFixed(1)}%</strong></div>` : ""}
+      </div>
+      <div style="font-size:0.8rem;margin:12px 0;">
+        <div style="margin-bottom:4px"><span style="color:var(--green)">↑ AUMENTAR:</span> ${sesgo.aumentar.join(" · ") || "—"}</div>
+        <div style="margin-bottom:4px"><span style="color:var(--gold)">→ MANTENER:</span> ${sesgo.mantener.join(" · ") || "—"}</div>
+        <div style="margin-bottom:4px"><span style="color:var(--red)">↓ REDUCIR:</span> ${sesgo.reducir.join(" · ") || "—"}</div>
+        <div style="color:var(--teal);font-style:italic;font-size:0.75rem">💡 ${sesgo.nota}</div>
+      </div>
+      ${alertas.length > 0 ? `<div style="border-top:1px solid var(--border);padding-top:10px;margin-top:10px;">${alertas.map((a) => `<div style="display:flex;gap:8px;align-items:flex-start;margin-bottom:6px;font-size:0.78rem;"><span>${a.icono}</span><div><div style="color:var(--text)">${a.texto}</div><div style="color:${escenario.color};font-weight:600">→ ${a.accion}</div></div></div>`).join("")}</div>` : ""}
+      <div style="font-size:0.7rem;color:var(--muted);margin-top:10px;text-align:right">Actualizado: ${new Date(resultado.timestamp).toLocaleTimeString("es-AR")} · ${metadatos.seriesDisponibles} series · ${metadatos.tiempoMs}ms</div>
+    </div>
+  `;
+      }
+
+      async function iniciarMotorMacro(elementId, macroManual = {}) {
+        const correr = async () => {
+          const resultado = await analizarEscenarioMacroAvanzado(macroManual);
+          renderizarBadgeEscenarioAvanzado(resultado, elementId);
+          window.__macroResultado = resultado;
+          return resultado;
+        };
+        const r = await correr();
+        setInterval(correr, MACRO_CONFIG.REFRESH_MS);
+        return r;
+      }
+
+      function onVariableMacroChange() {
+        const macroManual = {
+          inflacionMensual:
+            parseFloat(document.getElementById("ctx-inflacion")?.value) || S.inflacion,
+          brechaCCL: parseFloat(document.getElementById("ctx-brecha")?.value) || S.brecha,
+          riesgoPais: parseFloat(document.getElementById("ctx-rp")?.value) || S.riesgoPais,
+          tamar: parseFloat(document.getElementById("ctx-tamar")?.value) || S.tamar,
+          crawlingPeg: parseFloat(document.getElementById("ctx-crawling")?.value) || S.crawling,
+          tirAL30: parseFloat(document.getElementById("ctx-al30")?.value) || S.tirAl30,
+        };
+        iniciarMotorMacro("escenario-badge", macroManual);
+      }
+
+      window.MacroEngine = {
+        analizar: analizarEscenarioMacroAvanzado,
+        renderizar: renderizarBadgeEscenarioAvanzado,
+        iniciar: iniciarMotorMacro,
+        ESCENARIOS,
+        MACRO_CONFIG,
+      };
+
+      // ═══════════════════════════════════════════════════════════════
+      // PORTAFOLIO TEMPLATES — categorías con candidatos referenciados
+      // ═══════════════════════════════════════════════════════════════
+
+      function getTemplate(perfil, esc, macro) {
+        const inf = macro.inflacion;
+        const tam = macro.tamar;
+        const al30 = macro.tirAl30;
+        const craw = macro.crawling;
+        const br = macro.brecha;
+        const rp = macro.riesgoPais;
+
+        const templates = {
+          conservador: [
+            {
+              cat: "Liquidez",
+              label: "FCI Money Market",
+              tickers: ["FCI MM"],
+              vttos: ["Daily"],
+              tipo: "TAMAR",
+              pct: 30,
+              benchLabel: "TAMAR",
+              benchVal: tam,
+              tirEst: tam - 1,
+              color: "#666",
+              key: "CER_B0",
+            },
+            {
+              cat: "CER Ultra Corto (Bucket 0)",
+              label: "CER vto. hasta Jun/26",
+              tickers: TICKERS.CER_B0.map((x) => x.t),
+              vttos: TICKERS.CER_B0.map((x) => x.vtto),
+              tipo: "CER",
+              pct: 40,
+              benchLabel: "CER+0%",
+              benchVal: inf * 12,
+              tirEst: inf * 12 + 5,
+              color: "#2dd4bf",
+              key: "CER_B0",
+            },
+            ...(br > 15
+              ? [
+                  {
+                    cat: "Dólar Linked Corto (Bucket 0)",
+                    label: "DL vto. hasta Jun/26",
+                    tickers: TICKERS.DL_B0.map((x) => x.t),
+                    vttos: TICKERS.DL_B0.map((x) => x.vtto),
+                    tipo: "DL",
+                    pct: 15,
+                    benchLabel: "Crawling",
+                    benchVal: craw * 12,
+                    tirEst: craw * 12 + 2,
+                    color: "#fbbf24",
+                    key: "DL_B0",
+                  },
+                ]
+              : []),
+            {
+              cat: "ON Hard Dollar Corta (Bucket 0)",
+              label: "HD ON vto. Jun/26",
+              tickers: TICKERS.HD_B0_ON.map((x) => x.t),
+              vttos: TICKERS.HD_B0_ON.map((x) => x.vtto),
+              tipo: "HD",
+              pct: br > 15 ? 15 : 30,
+              benchLabel: "TIR AO27",
+              benchVal: al30 + 1,
+              tirEst: al30 - 1.5,
+              color: "#c9a84c",
+              key: "HD_B0_ON",
+            },
+          ],
+          mod_conservador: [
+            {
+              cat: "Liquidez",
+              label: "FCI Money Market",
+              tickers: ["FCI MM"],
+              vttos: ["Daily"],
+              tipo: "TAMAR",
+              pct: 15,
+              benchLabel: "TAMAR",
+              benchVal: tam,
+              tirEst: tam - 1,
+              color: "#666",
+              key: "LIQ",
+            },
+            {
+              cat: "CER Corto (Bucket 1)",
+              label: "CER vto. Jul-Dic/26",
+              tickers: TICKERS.CER_B1.map((x) => x.t),
+              vttos: TICKERS.CER_B1.map((x) => x.vtto),
+              tipo: "CER",
+              pct: 35,
+              benchLabel: "CER+5%",
+              benchVal: inf * 12 + 5,
+              tirEst: inf * 12 + 7,
+              color: "#2dd4bf",
+              key: "CER_B1",
+            },
+            {
+              cat: "ON Hard Dollar (Bucket 2)",
+              label: "HD ON vto. 2027",
+              tickers: TICKERS.HD_B2_ON.map((x) => x.t),
+              vttos: TICKERS.HD_B2_ON.map((x) => x.vtto),
+              tipo: "HD",
+              pct: 25,
+              benchLabel: "TIR AO27",
+              benchVal: al30 + 1,
+              tirEst: al30 - 0.5,
+              color: "#c9a84c",
+              key: "HD_B2_ON",
+            },
+            {
+              cat: "Dólar Linked (Bucket 1)",
+              label: "DL Soberano vto. 2026",
+              tickers: TICKERS.DL_B1_SOB.map((x) => x.t),
+              vttos: TICKERS.DL_B1_SOB.map((x) => x.vtto),
+              tipo: "DL",
+              pct: 15,
+              benchLabel: "Crawling",
+              benchVal: craw * 12,
+              tirEst: craw * 12 + 2.5,
+              color: "#fbbf24",
+              key: "DL_B1_SOB",
+            },
+            {
+              cat: "TAMAR ON (Bucket 1)",
+              label: "TAMAR ON vto. 2H26",
+              tickers: TICKERS.TAMAR_B1_ON.map((x) => x.t),
+              vttos: TICKERS.TAMAR_B1_ON.map((x) => x.vtto),
+              tipo: "TAMAR",
+              pct: 10,
+              benchLabel: "TAMAR+2%",
+              benchVal: tam + 2,
+              tirEst: tam + 3,
+              color: "#a78bfa",
+              key: "TAMAR_B1_ON",
+            },
+          ],
+          moderado: [
+            {
+              cat: "Liquidez",
+              label: "FCI Money Market",
+              tickers: ["FCI MM"],
+              vttos: ["Daily"],
+              tipo: "TAMAR",
+              pct: 10,
+              benchLabel: "TAMAR",
+              benchVal: tam,
+              tirEst: tam - 1,
+              color: "#666",
+              key: "LIQ",
+            },
+            {
+              cat: "CER Medio (Bucket 1-2)",
+              label: "CER vto. 4T26-1T27",
+              tickers: [
+                ...TICKERS.CER_B1.slice(-3).map((x) => x.t),
+                ...TICKERS.CER_B2.map((x) => x.t),
+              ],
+              vttos: [
+                ...TICKERS.CER_B1.slice(-3).map((x) => x.vtto),
+                ...TICKERS.CER_B2.map((x) => x.vtto),
+              ],
+              tipo: "CER",
+              pct: 25,
+              benchLabel: "CER+6%",
+              benchVal: inf * 12 + 6,
+              tirEst: inf * 12 + 9,
+              color: "#2dd4bf",
+              key: "CER_B1",
+            },
+            {
+              cat: "ON Hard Dollar (Bucket 2-3)",
+              label: "HD ON vto. 2027-28",
+              tickers: [...TICKERS.HD_B2_ON.map((x) => x.t), ...TICKERS.HD_B3_ON.map((x) => x.t)],
+              vttos: [
+                ...TICKERS.HD_B2_ON.map((x) => x.vtto),
+                ...TICKERS.HD_B3_ON.map((x) => x.vtto),
+              ],
+              tipo: "HD",
+              pct: 25,
+              benchLabel: "TIR AL29",
+              benchVal: al30 - 0.5,
+              tirEst: al30 - 1.5,
+              color: "#c9a84c",
+              key: "HD_B2_ON",
+            },
+            {
+              cat: "Soberano HD Corto (Bucket 2)",
+              label: "AO27 / AL29 / GD29",
+              tickers: TICKERS.HD_B2_SOB.map((x) => x.t).concat(
+                TICKERS.HD_B3_SOB.slice(0, 2).map((x) => x.t),
+              ),
+              vttos: TICKERS.HD_B2_SOB.map((x) => x.vtto).concat(
+                TICKERS.HD_B3_SOB.slice(0, 2).map((x) => x.vtto),
+              ),
+              tipo: "HD",
+              pct: 15,
+              benchLabel: "TIR AL30",
+              benchVal: al30,
+              tirEst: al30 + 0.5,
+              color: "#e8c96e",
+              key: "HD_B2_SOB",
+            },
+            {
+              cat: "Dólar Linked Medio (Bucket 2)",
+              label: "DL Soberano vto. 2027",
+              tickers: TICKERS.DL_B2_SOB.map((x) => x.t),
+              vttos: TICKERS.DL_B2_SOB.map((x) => x.vtto),
+              tipo: "DL",
+              pct: 15,
+              benchLabel: "Crawling",
+              benchVal: craw * 12,
+              tirEst: craw * 12 + 3,
+              color: "#fbbf24",
+              key: "DL_B2_SOB",
+            },
+            {
+              cat: "TAMAR Soberano/ON (Bucket 2)",
+              label: "TMF27 + ONs TAMAR",
+              tickers: [
+                ...TICKERS.TAMAR_B2_SOB.map((x) => x.t),
+                ...TICKERS.TAMAR_B2_ON.map((x) => x.t),
+              ],
+              vttos: [
+                ...TICKERS.TAMAR_B2_SOB.map((x) => x.vtto),
+                ...TICKERS.TAMAR_B2_ON.map((x) => x.vtto),
+              ],
+              tipo: "TAMAR",
+              pct: 10,
+              benchLabel: "TAMAR+2%",
+              benchVal: tam + 2,
+              tirEst: tam + 2.5,
+              color: "#a78bfa",
+              key: "TAMAR_B2_SOB",
+            },
+          ],
+          mod_agresivo: [
+            {
+              cat: "Soberano HD Medio (Bucket 3-4)",
+              label: "AL29/GD29/AL30/GD30",
+              tickers: [
+                ...TICKERS.HD_B3_SOB.slice(0, 2).map((x) => x.t),
+                ...TICKERS.HD_B4_SOB.slice(0, 2).map((x) => x.t),
+              ],
+              vttos: [
+                ...TICKERS.HD_B3_SOB.slice(0, 2).map((x) => x.vtto),
+                ...TICKERS.HD_B4_SOB.slice(0, 2).map((x) => x.vtto),
+              ],
+              tipo: "HD",
+              pct: 30,
+              benchLabel: "TIR AL30",
+              benchVal: al30,
+              tirEst: al30 + 0.3,
+              color: "#e8c96e",
+              key: "HD_B4_SOB",
+            },
+            {
+              cat: "Soberano HD Largo (Bucket 4)",
+              label: "AE38/GD38/AL35",
+              tickers: TICKERS.HD_B4_SOB.slice(4, 7).map((x) => x.t),
+              vttos: TICKERS.HD_B4_SOB.slice(4, 7).map((x) => x.vtto),
+              tipo: "HD",
+              pct: 15,
+              benchLabel: "UST10Y+600bps",
+              benchVal: 12,
+              tirEst: 13.5,
+              color: "#c9a84c",
+              key: "HD_B4_SOB",
+            },
+            {
+              cat: "ON HD Media-Larga (Bucket 3-4)",
+              label: "HD ON vto. 2028-2030",
+              tickers: [
+                ...TICKERS.HD_B3_ON.map((x) => x.t),
+                ...TICKERS.HD_B4_ON.slice(0, 4).map((x) => x.t),
+              ],
+              vttos: [
+                ...TICKERS.HD_B3_ON.map((x) => x.vtto),
+                ...TICKERS.HD_B4_ON.slice(0, 4).map((x) => x.vtto),
+              ],
+              tipo: "HD",
+              pct: 20,
+              benchLabel: "TIR AL30+spread",
+              benchVal: al30,
+              tirEst: al30 - 1,
+              color: "#c9a84c",
+              key: "HD_B3_ON",
+            },
+            {
+              cat: "CER Largo (Bucket 3)",
+              label: "T30A7 / T31Y7 / T30J7 / TY30P",
+              tickers: [...TICKERS.CER_B4.slice(0, 1).map((x) => x.t)],
+              vttos: [...TICKERS.CER_B4.slice(0, 1).map((x) => x.vtto)],
+              tipo: "CER",
+              pct: 15,
+              benchLabel: "CER+8%",
+              benchVal: inf * 12 + 8,
+              tirEst: inf * 12 + 11,
+              color: "#2dd4bf",
+              key: "CER_B4",
+            },
+            {
+              cat: "Subsoberano HD (Bucket 3-4)",
+              label: "CABA / Mendoza / ERF",
+              tickers: [
+                ...TICKERS.SUBSOB_HD_B3.slice(0, 3).map((x) => x.t),
+                ...TICKERS.SUBSOB_HD_B4.slice(0, 2).map((x) => x.t),
+              ],
+              vttos: [
+                ...TICKERS.SUBSOB_HD_B3.slice(0, 3).map((x) => x.vtto),
+                ...TICKERS.SUBSOB_HD_B4.slice(0, 2).map((x) => x.vtto),
+              ],
+              tipo: "HD",
+              pct: 10,
+              benchLabel: "TIR AL30+200bps",
+              benchVal: al30 + 2,
+              tirEst: al30 + 2.8,
+              color: "#f87171",
+              key: "SUBSOB_HD_B3",
+            },
+            {
+              cat: "Dólar Linked Largo (Bucket 3)",
+              label: "TX28 / TZXS8 / TZXM9",
+              tickers: TICKERS.DL_B3_SOB.map((x) => x.t),
+              vttos: TICKERS.DL_B3_SOB.map((x) => x.vtto),
+              tipo: "DL",
+              pct: 10,
+              benchLabel: "Fwd ROFEX",
+              benchVal: craw * 12 + 5,
+              tirEst: craw * 12 + 3,
+              color: "#fbbf24",
+              key: "DL_B3_SOB",
+            },
+          ],
+          agresivo: [
+            {
+              cat: "Soberano HD Largo máx. duration (Bucket 4)",
+              label: "AL35/GD35/AL41/GD41/GD46",
+              tickers: TICKERS.HD_B4_SOB.slice(2).map((x) => x.t),
+              vttos: TICKERS.HD_B4_SOB.slice(2).map((x) => x.vtto),
+              tipo: "HD",
+              pct: 40,
+              benchLabel: "UST10Y+700bps",
+              benchVal: 12.5,
+              tirEst: 14,
+              color: "#e8c96e",
+              key: "HD_B4_SOB",
+            },
+            {
+              cat: "Subsoberano HD Largo (Bucket 4)",
+              label: "CO32/CO35/BA37D/BDC33/SFD34",
+              tickers: TICKERS.SUBSOB_HD_B4.slice(2).map((x) => x.t),
+              vttos: TICKERS.SUBSOB_HD_B4.slice(2).map((x) => x.vtto),
+              tipo: "HD",
+              pct: 15,
+              benchLabel: "TIR AL35+300bps",
+              benchVal: al30 + 5,
+              tirEst: al30 + 6.5,
+              color: "#f87171",
+              key: "SUBSOB_HD_B4",
+            },
+            {
+              cat: "ON HD Larga (Bucket 4)",
+              label: "PLC5O/LECKO/TTCAO/YM43O",
+              tickers: TICKERS.HD_B4_ON.map((x) => x.t),
+              vttos: TICKERS.HD_B4_ON.map((x) => x.vtto),
+              tipo: "HD",
+              pct: 15,
+              benchLabel: "TIR AL35",
+              benchVal: al30 + 2,
+              tirEst: al30 + 1,
+              color: "#c9a84c",
+              key: "HD_B4_ON",
+            },
+            {
+              cat: "CER/DICP (Bucket 4)",
+              label: "DICP · TY30P",
+              tickers: TICKERS.CER_B4.map((x) => x.t),
+              vttos: TICKERS.CER_B4.map((x) => x.vtto),
+              tipo: "CER",
+              pct: 15,
+              benchLabel: "CER+12%",
+              benchVal: inf * 12 + 12,
+              tirEst: inf * 12 + 15,
+              color: "#2dd4bf",
+              key: "CER_B4",
+            },
+            {
+              cat: "BOPREAL (Bucket 3)",
+              label: "BPOB8 / BPOA8",
+              tickers: TICKERS.BOPREAL_B3.map((x) => x.t),
+              vttos: TICKERS.BOPREAL_B3.map((x) => x.vtto),
+              tipo: "HD",
+              pct: 10,
+              benchLabel: "TIR AL30+1.5%",
+              benchVal: al30 + 1.5,
+              tirEst: al30 + 2.5,
+              color: "#a78bfa",
+              key: "BOPREAL_B3",
+            },
+            {
+              cat: "Liquidez Táctica",
+              label: "FCI Money Market",
+              tickers: ["FCI MM"],
+              vttos: ["Daily"],
+              tipo: "TAMAR",
+              pct: 5,
+              benchLabel: "TAMAR",
+              benchVal: tam,
+              tirEst: tam - 1,
+              color: "#666",
+              key: "LIQ",
+            },
+          ],
+        };
+        return templates[perfil] || templates["moderado"];
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // PERFIL DETECTOR
+      // ═══════════════════════════════════════════════════════════════
+      function calcPerfil() {
+        let score = 0;
+        if (S.horizonte === "medio") score += 2;
+        else if (S.horizonte === "largo") score += 4;
+        if (S.liquidez === "media") score += 1;
+        else if (S.liquidez === "baja") score += 2;
+        if (S.reserva === "si") score += 1;
+        if (S.caida === "espera") score += 1;
+        else if (S.caida === "mantiene") score += 3;
+        else if (S.caida === "compra") score += 5;
+        if (S.experiencia === "plazofijo") score += 1;
+        else if (S.experiencia === "bonos") score += 3;
+        if (S.deudas === "si") score -= 1;
+        if (S.gastosusd === "si") score += 0.5;
+        if (score <= 2) return "conservador";
+        if (score <= 5) return "mod_conservador";
+        if (score <= 8) return "moderado";
+        if (score <= 11) return "mod_agresivo";
+        return "agresivo";
+      }
+
+      const PERFIL_NAMES = {
+        conservador: "Conservador",
+        mod_conservador: "Mod. Conservador",
+        moderado: "Moderado",
+        mod_agresivo: "Mod. Agresivo",
+        agresivo: "Agresivo",
+      };
+
+      // ═══════════════════════════════════════════════════════════════
+      // MACRO LOADER — Módulo completo para datos macro argentinos
+      // Fuentes: dolarapi.com · api.argentinadatos.com · estadisticasbcra.com
+      // ═══════════════════════════════════════════════════════════════
+      const MacroLoader = {
+        PROXY: "https://corsproxy.io/?",
+
+        ENDPOINTS: {
+          oficial: "https://dolarapi.com/v1/dolares/oficial",
+          blue: "https://dolarapi.com/v1/dolares/blue",
+          ccl: "https://dolarapi.com/v1/dolares/contadoconliqui",
+          riesgoPais: "https://api.argentinadatos.com/v1/finanzas/indices/riesgo-pais",
+          inflacion: "https://api.argentinadatos.com/v1/finanzas/indices/inflacion",
+        },
+
+        async fetchJSON(url, useProxy = false) {
+          const target = useProxy ? this.PROXY + encodeURIComponent(url) : url;
+          const res = await fetch(target, { headers: { Accept: "application/json" } });
+          if (!res.ok) throw new Error(`HTTP ${res.status} — ${url}`);
+          return res.json();
+        },
+
+        parseDolar(data) {
+          return {
+            compra: data.compra,
+            venta: data.venta,
+            fecha: data.fechaActualizacion,
+          };
+        },
+
+        parseRiesgoPais(arr) {
+          const last = arr[arr.length - 1];
+          return { valor: last.valor, fecha: last.fecha };
+        },
+
+        parseInflacion(arr) {
+          const last = arr[arr.length - 1];
+          return { valor: last.valor, fecha: last.fecha };
+        },
+
+        async fetchTAMAR(bcraToken) {
+          if (!bcraToken) return null;
+          try {
+            const url = "https://api.estadisticasbcra.com/tasa_pase_pasiva_1_dia";
+            const res = await fetch(url, {
+              headers: {
+                Authorization: `BEARER ${bcraToken}`,
+                Accept: "application/json",
+              },
+            });
+            const data = await res.json();
+            const last = data[data.length - 1];
+            const tasaDiaria = last.v / 100;
+            const tasaAnual = ((1 + tasaDiaria) ** 365 - 1) * 100;
+            return { valor: parseFloat(tasaAnual.toFixed(1)), fecha: last.d };
+          } catch (e) {
+            console.warn("TAMAR fetch error:", e);
+            return null;
+          }
+        },
+
+        async cargarMacroLive({ bcraToken = null, useProxy = false } = {}) {
+          const resultados = {
+            usdOficial: null,
+            usdBlue: null,
+            usdCCL: null,
+            brechaCCL: null,
+            riesgoPais: null,
+            inflacion: null,
+            tamar: null,
+            crawlingPeg: null,
+            timestamp: new Date().toLocaleTimeString("es-AR"),
+            errores: [],
+          };
+
+          try {
+            const [oficial, blue, ccl] = await Promise.all([
+              this.fetchJSON(this.ENDPOINTS.oficial, useProxy),
+              this.fetchJSON(this.ENDPOINTS.blue, useProxy),
+              this.fetchJSON(this.ENDPOINTS.ccl, useProxy),
+            ]);
+
+            resultados.usdOficial = this.parseDolar(oficial);
+            resultados.usdBlue = this.parseDolar(blue);
+            resultados.usdCCL = this.parseDolar(ccl);
+
+            const brechaRaw = ((ccl.venta - oficial.venta) / oficial.venta) * 100;
+            resultados.brechaCCL = parseFloat(brechaRaw.toFixed(1));
+          } catch (e) {
+            resultados.errores.push(`Dólares: ${e.message}`);
+          }
+
+          try {
+            const rp = await this.fetchJSON(this.ENDPOINTS.riesgoPais, useProxy);
+            resultados.riesgoPais = this.parseRiesgoPais(rp);
+          } catch (e) {
+            resultados.errores.push(`Riesgo País: ${e.message}`);
+          }
+
+          try {
+            const inf = await this.fetchJSON(this.ENDPOINTS.inflacion, useProxy);
+            resultados.inflacion = this.parseInflacion(inf);
+          } catch (e) {
+            resultados.errores.push(`Inflación: ${e.message}`);
+          }
+
+          const tamarResult = await this.fetchTAMAR(bcraToken);
+          if (tamarResult) {
+            resultados.tamar = tamarResult;
+          } else if (bcraToken) {
+            resultados.errores.push("TAMAR: error al obtener datos del BCRA");
+          } else {
+            resultados.errores.push("TAMAR: sin token BCRA — ingreso manual requerido");
+          }
+
+          resultados.crawlingPeg = {
+            valor: null,
+            nota: "Ingresar manualmente — banda BCRA (referencia: 1.0%)",
+          };
+
+          return resultados;
+        },
+      };
+
+      // ═══════════════════════════════════════════════════════════════
+      // MACRO FETCH — Integración con MacroLoader
+      // ═══════════════════════════════════════════════════════════════
+      async function fetchMacro() {
+        const bcraToken = localStorage.getItem("bcra_token") || null;
+
+        try {
+          const macro = await MacroLoader.cargarMacroLive({ bcraToken, useProxy: false });
+
+          S.oficial = macro.usdOficial?.venta || 0;
+          S.blue = macro.usdBlue?.venta || 0;
+          S.ccl = macro.usdCCL?.venta || 0;
+          S.brecha = macro.brechaCCL || 15;
+          S.inflacion = macro.inflacion?.valor || 3.5;
+          S.riesgoPais = macro.riesgoPais?.valor || 750;
+          S.tamar = macro.tamar?.valor || Math.max(S.inflacion * 12 * 0.85, 28);
+          S.crawling = 1.0;
+          S.macroLoaded = true;
+
+          if (macro.errores.length > 0) {
+            console.warn("Macro loader — campos incompletos:", macro.errores);
+          }
+
+          updateMacroUI();
+          prefillCtxForm();
+          return true;
+        } catch (e) {
+          console.warn("Macro fetch error:", e);
+          S.oficial = 1260;
+          S.blue = 1430;
+          S.ccl = 1450;
+          S.brecha = 15;
+          S.inflacion = 3.5;
+          S.riesgoPais = 750;
+          S.tamar = 32;
+          S.crawling = 1;
+          S.macroLoaded = true;
+          updateMacroUI();
+          prefillCtxForm();
+          return false;
+        }
+      }
+
+      function updateMacroUI() {
+        const fmt = (n) =>
+          n > 0 ? "$" + n.toLocaleString("es-AR", { maximumFractionDigits: 0 }) : "–";
+        const fmtP = (n) => n.toFixed(1) + "%";
+        const fmtBps = (n) => Math.round(n) + "bps";
+
+        // STRIP
+        setText("ms-oficial", fmt(S.oficial), "gold");
+        setText("ms-blue", fmt(S.blue), "amber");
+        setText("ms-ccl", fmt(S.ccl), "amber");
+        const brechaEl = document.getElementById("ms-brecha");
+        if (brechaEl) {
+          brechaEl.textContent = fmtP(S.brecha);
+          brechaEl.className =
+            "macro-val " + (S.brecha > 20 ? "red" : S.brecha > 10 ? "amber" : "green");
+        }
+        setText("ms-infl", fmtP(S.inflacion), "teal");
+        const rpEl = document.getElementById("ms-rp");
+        if (rpEl) {
+          rpEl.textContent = fmtBps(S.riesgoPais);
+          rpEl.className =
+            "macro-val " + (S.riesgoPais > 1000 ? "red" : S.riesgoPais > 600 ? "amber" : "green");
+        }
+        setText("ms-tamar", fmtP(S.tamar), "gold");
+        setText("ms-crawling", S.crawling.toFixed(1) + "%/m", "");
+        document.getElementById("ms-ts").textContent = new Date().toLocaleTimeString("es-AR", {
+          hour: "2-digit",
+          minute: "2-digit",
+        });
+
+        // SIDEBAR
+        setText("sm-oficial", fmt(S.oficial), "gold");
+        setText("sm-blue", fmt(S.blue), "amber");
+        const sbEl = document.getElementById("sm-brecha");
+        if (sbEl) {
+          sbEl.textContent = fmtP(S.brecha);
+          sbEl.className = "smm-val " + (S.brecha > 20 ? "red" : S.brecha > 10 ? "amber" : "green");
+        }
+        const srpEl = document.getElementById("sm-rp");
+        if (srpEl) {
+          srpEl.textContent = fmtBps(S.riesgoPais);
+          srpEl.className =
+            "smm-val " + (S.riesgoPais > 1000 ? "red" : S.riesgoPais > 600 ? "amber" : "green");
+        }
+        setText("sm-infl", fmtP(S.inflacion), "teal");
+        setText("sm-tamar", fmtP(S.tamar), "gold");
+
+        // LIVE badge
+        const lv = document.getElementById("live-status");
+        if (lv) lv.innerHTML = '<div class="live-dot"></div><span>LIVE · dolarapi.com</span>';
+
+        // ctx status msg
+        const sm = document.getElementById("macro-status-msg");
+        if (sm) {
+          sm.textContent =
+            "✓ Datos cargados automáticamente — " + new Date().toLocaleTimeString("es-AR");
+          sm.className = "alert aok";
+        }
+      }
+
+      function setText(id, val, cls) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.textContent = val;
+        if (cls) el.className = "macro-val " + cls;
+      }
+
+      function prefillCtxForm() {
+        prefill("ctx-inflacion", S.inflacion);
+        prefill("ctx-brecha", S.brecha);
+        prefill("ctx-rp", Math.round(S.riesgoPais));
+        prefill("ctx-tamar", S.tamar);
+        prefill("ctx-crawling", S.crawling);
+      }
+      function prefill(id, val) {
+        const el = document.getElementById(id);
+        if (el && !el.dataset.userEdited) {
+          el.value = val;
+        }
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // UI HELPERS
+      // ═══════════════════════════════════════════════════════════════
+      function sel(el, key, val) {
+        el.closest(".radio-grid")
+          .querySelectorAll(".r-opt")
+          .forEach((o) => o.classList.remove("sel"));
+        el.classList.add("sel");
+        S[key] = val;
+      }
+
+      function goStep(n) {
+        document.querySelectorAll(".section").forEach((s) => s.classList.remove("active"));
+        document.getElementById("s" + n).classList.add("active");
+        ["ss0", "ss1", "ss2"].forEach((id, i) => {
+          const el = document.getElementById(id);
+          el.classList.remove("active", "done");
+          if (i < n) el.classList.add("done");
+          else if (i === n) el.classList.add("active");
+        });
+        ["sn0", "sn1", "sn2"].forEach((id, i) => {
+          const el = document.getElementById(id);
+          el.classList.remove("active", "done");
+          if (i < n) el.classList.add("done");
+          else if (i === n) el.classList.add("active");
+        });
+        document.getElementById("step-label").textContent = "Paso " + (n + 1) + " / 3";
+        document.getElementById("main").scrollTop = 0;
+
+        // Cargar token BCRA al entrar al Paso 1 (Contexto Macro)
+        if (n === 1) {
+          cargarTokenBCRA();
+        }
+      }
+
+      function refreshMacro() {
+        const sm = document.getElementById("macro-status-msg");
+        if (sm) {
+          sm.textContent = "Actualizando datos...";
+          sm.className = "alert ateal";
+        }
+        fetchMacro();
+      }
+
+      function guardarTokenBCRA() {
+        const tokenInput = document.getElementById("bcra-token");
+        if (tokenInput && tokenInput.value.trim()) {
+          localStorage.setItem("bcra_token", tokenInput.value.trim());
+          tokenInput.value = "";
+          tokenInput.placeholder = "Token guardado en localStorage ";
+          setTimeout(() => {
+            const sm = document.getElementById("macro-status-msg");
+            if (sm) {
+              sm.textContent = "Token BCRA guardado. Actualizando datos...";
+              sm.className = "alert ateal";
+            }
+            fetchMacro();
+          }, 300);
+        }
+      }
+
+      function cargarTokenBCRA() {
+        const tokenInput = document.getElementById("bcra-token");
+        const savedToken = localStorage.getItem("bcra_token");
+        if (tokenInput && savedToken) {
+          tokenInput.placeholder = "Token ya configurado (guardado en localStorage)";
+        }
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // PORTFOLIO BUILDER
+      // ═══════════════════════════════════════════════════════════════
+      function buildPortfolio() {
+        // read ctx fields (user may have overridden)
+        const getVal = (id) => parseFloat(document.getElementById(id).value) || 0;
+        S.arsInput = parseFloat(document.getElementById("monto-ars").value) || 0;
+        S.usdInput = parseFloat(document.getElementById("monto-usd").value) || 0;
+        S.inflacion = getVal("ctx-inflacion") || S.inflacion;
+        S.brecha = getVal("ctx-brecha") || S.brecha;
+        S.riesgoPais = getVal("ctx-rp") || S.riesgoPais;
+        S.tamar = getVal("ctx-tamar") || S.tamar;
+        S.crawling = getVal("ctx-crawling") || S.crawling;
+        S.tirAl30 = getVal("ctx-al30") || 11.5;
+
+        const perfil = calcPerfil();
+        const macro = {
+          inflacion: S.inflacion,
+          tamar: S.tamar,
+          tirAl30: S.tirAl30,
+          crawling: S.crawling,
+          brecha: S.brecha,
+          riesgoPais: S.riesgoPais,
+        };
+        const assets = getTemplate(perfil, S.escenario, macro);
+
+        // Normalize pcts to 100
+        const sumPct = assets.reduce((a, x) => a + x.pct, 0);
+        if (sumPct !== 100) assets.forEach((x) => (x.pct = Math.round((x.pct * 100) / sumPct)));
+
+        const TC = S.oficial > 0 ? S.oficial : 1260;
+        const totalUSD = S.usdInput + S.arsInput / TC;
+        const totalARS = S.arsInput + S.usdInput * TC;
+
+        document.getElementById("portfolio-output").innerHTML = renderPortfolio(
+          perfil,
+          assets,
+          totalUSD,
+          totalARS,
+          macro,
+        );
+        goStep(2);
+
+        // draw donut after render
+        setTimeout(() => drawDonut(assets), 80);
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // RENDER
+      // ═══════════════════════════════════════════════════════════════
+      function fmt1(n) {
+        return Number(n).toFixed(1);
+      }
+      function fmtUSD(n) {
+        if (n >= 1000000) return "USD " + Number(n / 1000000).toFixed(2) + "M";
+        if (n >= 1000) return "USD " + Number(n / 1000).toFixed(1) + "K";
+        return "USD " + Math.round(n).toLocaleString("es-AR");
+      }
+      function fmtARS(n) {
+        if (n >= 1000000) return "$" + Number(n / 1000000).toFixed(1) + "M";
+        if (n >= 1000) return "$" + Number(n / 1000).toFixed(0) + "K";
+        return "$" + Math.round(n);
+      }
+      function pillTipo(t) {
+        const m = { CER: "pill-teal", HD: "pill-gold", DL: "pill-amber", TAMAR: "pill-purple" };
+        return m[t] || "pill-muted";
+      }
+      function sigClass(d) {
+        return d > 0 ? "up" : d < -1.5 ? "down" : "eq";
+      }
+      function sigChar(d) {
+        return d > 0 ? "▲" : d < 0 ? "▼" : "●";
+      }
+
+      function renderPortfolio(perfil, assets, totalUSD, totalARS, macro) {
+        let html = "";
+
+        // ── HEADER MÉTRICAS
+        const expRend = assets.reduce((a, x) => a + (x.pct / 100) * x.tirEst, 0);
+        const pUSD = assets
+          .filter((x) => x.tipo === "HD" || x.tipo === "DL")
+          .reduce((a, x) => a + x.pct, 0);
+        const pPesos = 100 - pUSD;
+        html += `<div class="port-header">
+    <div class="ph-card"><div class="ph-label">Perfil Detectado</div><div class="ph-val gold">${PERFIL_NAMES[perfil]}</div></div>
+    <div class="ph-card"><div class="ph-label">Capital Total USD ref.</div><div class="ph-val teal">${fmtUSD(totalUSD)}</div></div>
+    <div class="ph-card"><div class="ph-label">Rend. Ponderado Est.</div><div class="ph-val green">${fmt1(expRend)}%</div></div>
+    <div class="ph-card"><div class="ph-label">Exposición USD / ARS</div><div class="ph-val">${pUSD}% / ${pPesos}%</div></div>
+  </div>`;
+
+        // ── ALERTAS CONTEXTUALES
+        const alertas = [];
+        if (macro.brecha > 20)
+          alertas.push({
+            cls: "alt",
+            msg: "⚠ Brecha > 20%: priorizar cobertura cambiaria. Sobreponderar dólar linked y hard dollar.",
+          });
+        if (macro.riesgoPais > 1000)
+          alertas.push({
+            cls: "aerr",
+            msg: "⚠ Riesgo País > 1000bps: acortar duration en HD soberano. Refugio en ONs primera línea y CER corto.",
+          });
+        if (macro.riesgoPais < 500)
+          alertas.push({
+            cls: "aok",
+            msg: "✓ Riesgo País comprimido < 500bps: extender duration soberanos. Upside de capital significativo.",
+          });
+        if (macro.inflacion > 5)
+          alertas.push({
+            cls: "ateal",
+            msg: "⚠ Inflación > 5% mensual: rotar de tasa fija / TAMAR a CER medio-largo.",
+          });
+        if (macro.tamar < macro.inflacion * 12 - 5)
+          alertas.push({
+            cls: "alt",
+            msg: "⚠ Tasa real negativa: TAMAR < inflación. Subponderar instrumentos TAMAR puro.",
+          });
+        if (macro.tamar > macro.inflacion * 12 + 5)
+          alertas.push({
+            cls: "aok",
+            msg: "✓ Tasa real positiva alta: TAMAR outperforms mientras dure el diferencial.",
+          });
+        alertas.forEach((a) => (html += `<div class="alert ${a.cls}">${a.msg}</div>`));
+
+        // ── DONUT + LEYENDA
+        html += `<div class="donut-section">
+    <canvas id="donut" width="130" height="130" style="flex-shrink:0;" aria-label="Distribución del portafolio"></canvas>
+    <div class="donut-legend">`;
+        assets.forEach((a) => {
+          html += `<div class="leg-item"><div class="leg-dot" style="background:${a.color}"></div><span class="leg-label" style="font-size:10px;">${a.cat.split("(")[0].trim()}</span><span class="leg-pct">${a.pct}%</span></div>`;
+        });
+        html += `</div></div>`;
+
+        // ── TABS
+        html += `<div class="tab-nav">
+    <button class="tab-btn active" onclick="switchTab(this,'tab-activos')">Activos y Tickers</button>
+    <button class="tab-btn" onclick="switchTab(this,'tab-benchmark')">Benchmarks & Tasas</button>
+    <button class="tab-btn" onclick="switchTab(this,'tab-disparadores')">Disparadores</button>
+    <button class="tab-btn" onclick="switchTab(this,'tab-checklist')">Checklist</button>
+  </div>`;
+
+        // ── TAB: ACTIVOS
+        html += `<div class="tab-content active" id="tab-activos">`;
+        html += `<table class="asset-table"><thead><tr>
+    <th>Ticker</th><th>Categoría</th><th>Vencimiento</th><th>Tipo</th>
+    <th class="r">% Port.</th><th class="r">Monto USD</th>
+    <th class="r">TIR Est.</th><th class="r">Benchmark</th><th class="r">Señal</th>
+  </tr></thead><tbody>`;
+
+        assets.forEach((a) => {
+          const montoUSD = (totalUSD * a.pct) / 100;
+          const tirDiff = a.tirEst - a.benchVal;
+          const sc = sigClass(tirDiff);
+          const sg = sigChar(tirDiff);
+
+          if (a.tickers.length === 1 && a.tickers[0] === "FCI MM") {
+            html += `<tr>
+        <td class="td-ticker">FCI MM</td>
+        <td><div class="td-name" style="white-space:normal;">${a.cat}</div></td>
+        <td class="td-vtto">Diaria</td>
+        <td><span class="pill ${pillTipo(a.tipo)}">${a.tipo}</span></td>
+        <td class="r td-pct">${a.pct}%</td>
+        <td class="r td-monto">${fmtUSD(montoUSD)}</td>
+        <td class="r td-tir" style="color:var(--muted)">${fmt1(a.tirEst)}%</td>
+        <td class="r td-bench">${a.benchLabel}<br>${fmt1(a.benchVal)}%</td>
+        <td class="r td-signal ${sc}">${sg} ${fmt1(tirDiff) > 0 ? "+" : ""}${fmt1(tirDiff)}%</td>
+      </tr>`;
+          } else {
+            // HEADER ROW de la categoría con totales
+            html += `<tr class="cat-row">
+        <td colspan="4"><div style="display:flex;align-items:center;gap:8px;"><div style="width:8px;height:8px;border-radius:50%;background:${a.color};flex-shrink:0;"></div><span style="font-size:11px;font-weight:500;color:var(--white);">${a.cat}</span></div></td>
+        <td class="r td-pct">${a.pct}%</td>
+        <td class="r td-monto">${fmtUSD(montoUSD)}</td>
+        <td class="r td-tir ${sc}">${fmt1(a.tirEst)}%</td>
+        <td class="r td-bench">${a.benchLabel}<br><span style="color:var(--muted);">${fmt1(a.benchVal)}%</span></td>
+        <td class="r td-signal ${sc}">${sg} ${tirDiff >= 0 ? "+" : ""}${fmt1(tirDiff)}%</td>
+      </tr>`;
+            // TICKERS individuales con INPUTS editables para TIR/TNA
+            a.tickers.forEach((tk, i) => {
+              const montoTk = montoUSD / a.tickers.length;
+              const inputId = `tir-${tk.replace(/[^a-zA-Z0-9]/g, "")}`;
+              const tickerKey = `${a.key}-${tk}`;
+              html += `<tr data-ticker-row="${tickerKey}" data-categoria="${a.key}" data-bench="${a.benchVal}" data-tipo="${a.tipo}">
+          <td><span class="td-ticker" style="font-size:11px;">${tk}</span></td>
+          <td><div class="td-name">${a.label}</div></td>
+          <td class="td-vtto">${a.vttos[i] || "–"}</td>
+          <td><span class="pill ${pillTipo(a.tipo)}" style="font-size:8px;">${a.tipo}</span></td>
+          <td class="r" style="font-size:10px;color:var(--text2);">${fmt1(a.pct / a.tickers.length)}%</td>
+          <td class="r" style="font-size:10px;color:var(--teal);">${fmtUSD(montoTk)}</td>
+          <td class="r" style="padding:4px;">
+            <input type="number" id="${inputId}" data-ticker="${tk}" data-cat="${a.key}" data-bench="${a.benchVal}" 
+                   placeholder="TIR" step="0.1" style="width:55px;font-size:10px;padding:4px;background:var(--card2);border:1px solid var(--border);border-radius:4px;color:var(--text);"
+                   onchange="validarTIRManual('${inputId}', '${tk}', ${a.benchVal}, '${a.tipo}')"
+                   oninput="validarTIRManualDebounced('${inputId}', '${tk}', ${a.benchVal}, '${a.tipo}')">
+          </td>
+          <td class="r td-bench" style="font-size:10px;">${a.benchLabel}<br>${fmt1(a.benchVal)}%</td>
+          <td class="r" id="signal-${inputId}" style="font-size:10px;font-weight:600;">—</td>
+        </tr>`;
+            });
+          }
+        });
+
+        html += `</tbody></table>
+    <div style="margin-top:12px;padding:10px;background:var(--card2);border:1px solid var(--border);border-radius:6px;font-size:11px;color:var(--text2);line-height:1.6;">
+      <strong style="color:var(--gold-light);">¿Cómo usar esta tabla?</strong> — Cada categoría muestra TODOS los tickers candidatos del bucket correspondiente. 
+      Abrí IOL o Balanz, chequeá la TIR real de mercado de cada ticker y seleccioná el que ofrezca mayor spread sobre el benchmark con liquidez adecuada (bid-ask &lt; 0.5%). 
+      Los montos son referenciales: dividí el total de la categoría entre los tickers que efectivamente elijas.
+    </div>
+  </div>`;
+
+        // ── TAB: BENCHMARKS
+        html += `<div class="tab-content" id="tab-benchmark">`;
+        html += `<div class="bench-grid">
+    <div class="bench-card">
+      <div style="font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">Tasas Macro del Día</div>
+      <div class="bench-row"><span class="bench-name">TAMAR estimada</span><span class="bench-val gold">${fmt1(macro.tamar)}% TNA</span></div>
+      <div class="bench-row"><span class="bench-name">Inflación mensual</span><span class="bench-val teal">${fmt1(macro.inflacion)}% m/m</span></div>
+      <div class="bench-row"><span class="bench-name">Inflación anualizada</span><span class="bench-val teal">${fmt1(macro.inflacion * 12)}% est.</span></div>
+      <div class="bench-row"><span class="bench-name">Crawling peg</span><span class="bench-val">${fmt1(macro.crawling)}% mensual</span></div>
+      <div class="bench-row"><span class="bench-name">Crawling anualizado</span><span class="bench-val">${fmt1(macro.crawling * 12)}% est.</span></div>
+      <div class="bench-row"><span class="bench-name">Tasa real (TAMAR-infl)</span>
+        <span class="bench-val ${macro.tamar - macro.inflacion * 12 > 0 ? "" : ""}" style="color:${macro.tamar > macro.inflacion * 12 ? "#4ade80" : "#f87171"}">
+          ${macro.tamar - macro.inflacion * 12 >= 0 ? "+" : ""}${fmt1(macro.tamar - macro.inflacion * 12)}%
+        </span>
+      </div>
+    </div>
+    <div class="bench-card">
+      <div style="font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">Tipo de Cambio y Riesgo</div>
+      <div class="bench-row"><span class="bench-name">USD Oficial (venta)</span><span class="bench-val gold">$${S.oficial > 0 ? S.oficial.toLocaleString("es-AR", "") : "–"}</span></div>
+      <div class="bench-row"><span class="bench-name">USD Blue</span><span class="bench-val amber">$${S.blue > 0 ? S.blue.toLocaleString("es-AR") : "–"}</span></div>
+      <div class="bench-row"><span class="bench-name">USD CCL</span><span class="bench-val amber">$${S.ccl > 0 ? S.ccl.toLocaleString("es-AR") : "–"}</span></div>
+      <div class="bench-row"><span class="bench-name">Brecha CCL/Oficial</span>
+        <span class="bench-val" style="color:${macro.brecha > 20 ? "#f87171" : macro.brecha > 10 ? "#fbbf24" : "#4ade80"}">${fmt1(macro.brecha)}%</span>
+      </div>
+      <div class="bench-row"><span class="bench-name">Riesgo País (EMBI+)</span>
+        <span class="bench-val" style="color:${macro.riesgoPais > 1000 ? "#f87171" : macro.riesgoPais > 600 ? "#fbbf24" : "#4ade80"}">${Math.round(macro.riesgoPais)} bps</span>
+      </div>
+      <div class="bench-row"><span class="bench-name">TIR AL30 ref. (USD)</span><span class="bench-val gold">${fmt1(macro.tirAl30)}%</span></div>
+    </div>
+  </div>`;
+
+        // Tabla benchmarks por instrumento
+        html += `<div class="bench-card" style="margin-bottom:12px;">
+    <div style="font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">Benchmarks por Categoría</div>
+    <table class="asset-table"><thead><tr>
+      <th>Instrumento</th><th>Benchmark mínimo</th><th class="r">Valor hoy</th><th>Señal</th>
+    </tr></thead><tbody>
+      <tr><td>FCI Money Market</td><td>TAMAR diaria</td><td class="r td-bench">${fmt1(macro.tamar - 1)}% TNA est.</td><td><span class="pill pill-muted">Referencia</span></td></tr>
+      <tr><td>CER cualquier plazo</td><td>FCI Ahorro CER</td><td class="r td-bench">CER+0% mín / CER+5% deseable</td><td><span class="pill pill-teal">CER+${fmt1(macro.inflacion * 12)}%</span></td></tr>
+      <tr><td>TAMAR Soberano / ON</td><td>FCI Money Market</td><td class="r td-bench">${fmt1(macro.tamar)}% + spread</td><td><span class="pill pill-purple">TAMAR+2-4%</span></td></tr>
+      <tr><td>Dólar Linked</td><td>Crawling peg proyectado</td><td class="r td-bench">${fmt1(macro.crawling)}%/m = ${fmt1(macro.crawling * 12)}% anual</td><td><span class="pill ${macro.brecha > 15 ? "pill-amber" : "pill-muted"}">${macro.brecha > 15 ? "Cobertura válida" : "HD mejor"}</span></td></tr>
+      <tr><td>Hard Dollar ON primera línea</td><td>TIR soberano igual duration</td><td class="r td-bench">${fmt1(macro.tirAl30)}% USD</td><td><span class="pill pill-gold">ON puede rendir -200bps</span></td></tr>
+      <tr><td>Soberano HD corto (AO27)</td><td>UST 2Y + 400-600bps</td><td class="r td-bench">${fmt1(macro.tirAl30 + 1)}% USD est.</td><td><span class="pill pill-gold">Benchmark</span></td></tr>
+      <tr><td>Soberano HD medio (AL30/GD30)</td><td>UST 5Y + 500-700bps</td><td class="r td-bench">${fmt1(macro.tirAl30)}% USD</td><td><span class="pill ${macro.riesgoPais < 700 ? "pill-green" : "pill-amber"}">${macro.riesgoPais < 700 ? "Atractivo" : "Evaluar"}</span></td></tr>
+      <tr><td>Soberano HD largo (AL35/GD46)</td><td>UST 10Y + 700-900bps</td><td class="r td-bench">${fmt1(macro.tirAl30 + 2)}% USD est.</td><td><span class="pill ${macro.riesgoPais < 600 ? "pill-green" : "pill-muted"}">${macro.riesgoPais < 600 ? "Upside capital" : "Alta volatilidad"}</span></td></tr>
+      <tr><td>Subsoberano (CABA, PBA)</td><td>Soberano + 100-300bps</td><td class="r td-bench">${fmt1(macro.tirAl30 + 2)}% USD est.</td><td><span class="pill pill-red">Solo mod.agresivo+</span></td></tr>
+      <tr><td>BOPREAL</td><td>Soberano + spread BCRA/Tesoro</td><td class="r td-bench">${fmt1(macro.tirAl30 + 1.5)}% USD est.</td><td><span class="pill pill-purple">Riesgo diferenciado</span></td></tr>
+    </tbody></table>
+  </div>
+
+  <div style="padding:10px 14px;background:var(--card2);border:1px solid var(--border);border-left:3px solid var(--teal);border-radius:6px;font-size:11px;color:var(--text2);line-height:1.6;margin-bottom:8px;">
+    <strong style="color:var(--teal);">¿Cómo comparar en IOL?</strong> — Para CER: buscás el ticker, anotás la TIR CER implícita (ej: CER+6%) y la comparás con el benchmark. 
+    Para HD: anotás la TIR en USD y la comparás con AL30 de igual duration. Para TAMAR: comparás contra el rendimiento diario del FCI MM.
+    Si el ticker no supera el benchmark del costo de oportunidad, usás el instrumento más simple directamente.
+  </div></div>`;
+
+        // ── TAB: DISPARADORES
+        html += `<div class="tab-content" id="tab-disparadores">
+    <div class="disp-grid">
+      <div class="disp-card"><div class="disp-trigger">Inflación mensual > 5% por 2 meses consecutivos</div><div class="disp-action">→ Rotar de tasa fija / TAMAR a CER medio</div></div>
+      <div class="disp-card"><div class="disp-trigger">Brecha CCL-Oficial supera 20%</div><div class="disp-action">→ ↑ Dólar linked · ↓ CER puro</div></div>
+      <div class="disp-card"><div class="disp-trigger">Riesgo País sube +200bps en 30 días</div><div class="disp-action">→ Acortar duration HD · refugio ONs + CER corto</div></div>
+      <div class="disp-card"><div class="disp-trigger">Riesgo País cae -200bps en 30 días</div><div class="disp-action">→ Extender duration soberanos · tomar ganancia cortos</div></div>
+      <div class="disp-card"><div class="disp-trigger">TAMAR cae -5pts en una decisión BCRA</div><div class="disp-action">→ Rotar TAMAR a CER medio o HD</div></div>
+      <div class="disp-card"><div class="disp-trigger">Reservas netas BCRA < USD 5.000M</div><div class="disp-action">→ Máxima cobertura cambiaria · DL + HD</div></div>
+      <div class="disp-card"><div class="disp-trigger">Brecha se cierra a < 5%</div><div class="disp-action">→ Reducir dólar linked · priorizar HD y CER</div></div>
+      <div class="disp-card"><div class="disp-trigger">Vencimiento en cartera próximos 60 días</div><div class="disp-action">→ Definir reinversión antes del vencimiento</div></div>
+    </div>
+    <div style="margin-top:14px;">
+      <div style="font-size:10px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;">Estado actual vs disparadores</div>
+      <div class="card2">
+        <div class="bench-row"><span class="bench-name">Inflación ${fmt1(macro.inflacion)}% mensual</span><span class="bench-val" style="color:${macro.inflacion > 5 ? "#f87171" : "#4ade80"}">${macro.inflacion > 5 ? "ACTIVO — Rotar a CER" : "Normal"}</span></div>
+        <div class="bench-row"><span class="bench-name">Brecha CCL ${fmt1(macro.brecha)}%</span><span class="bench-val" style="color:${macro.brecha > 20 ? "#f87171" : macro.brecha > 15 ? "#fbbf24" : "#4ade80"}">${macro.brecha > 20 ? "ACTIVO — ↑ DL" : macro.brecha > 15 ? "Atencion" : "Normal"}</span></div>
+        <div class="bench-row"><span class="bench-name">Riesgo País ${Math.round(macro.riesgoPais)}bps</span><span class="bench-val" style="color:${macro.riesgoPais > 1000 ? "#f87171" : macro.riesgoPais > 600 ? "#fbbf24" : "#4ade80"}">${macro.riesgoPais > 1000 ? "ACTIVO — Acortar duration" : macro.riesgoPais < 500 ? "ACTIVO — Extender duration" : "Normal"}</span></div>
+        <div class="bench-row" style="border:none;"><span class="bench-name">Tasa real TAMAR</span><span class="bench-val" style="color:${macro.tamar > macro.inflacion * 12 ? "#4ade80" : "#f87171"}">${macro.tamar > macro.inflacion * 12 ? "Positiva ✓" : "Negativa — Subponderar TAMAR"}</span></div>
+      </div>
+    </div>
+  </div>`;
+
+        // ── TAB: CHECKLIST
+        html += `<div class="tab-content" id="tab-checklist">
+    <div style="font-size:11px;color:var(--text2);margin-bottom:12px;">Tildá cada ítem antes de ejecutar la orden en IOL o Balanz</div>
+    <div class="checklist" id="checklist">
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿El vencimiento del ticker es compatible con el horizonte del cliente?</div></div>
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿La TIR implícita supera el benchmark relevante para esa categoría?</div></div>
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿El spread bid-ask es razonable para el monto a operar (&lt; 0.5%)?</div></div>
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿Hay concentración mayor al 20% en un solo emisor?</div></div>
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿Hay concentración mayor al 40% en una sola categoría?</div></div>
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿El cliente entendió el riesgo de precio si necesita salir antes del vencimiento?</div></div>
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿Definiste con el cliente el disparador de salida antes de entrar?</div></div>
+      <div class="check-item" onclick="toggleCheck(this)"><div class="check-box"></div><div class="check-text">¿La composición es consistente con el escenario macro que creés más probable?</div></div>
+    </div>
+    <div style="margin-top:12px;padding:10px;background:var(--card);border:1px solid var(--border);border-radius:6px;display:flex;align-items:center;justify-content:space-between;">
+      <span style="font-size:11px;color:var(--text2);" id="check-counter">0 / 8 ítems validados</span>
+      <span style="font-size:11px;color:var(--red);" id="check-warning">No ejecutes hasta completar el checklist</span>
+    </div>
+  </div>`;
+
+        // ── BOTONES FINALES
+        html += `<div class="btn-row">
+    <div style="display:flex;gap:8px;">
+      <button class="btn btn-ghost" onclick="goStep(0)">↺ Nueva entrevista</button>
+      <button class="btn btn-ghost" onclick="goStep(1)">← Modificar contexto</button>
+    </div>
+    <button class="btn btn-teal" onclick="window.print()">⬇ Imprimir / PDF</button>
+  </div>`;
+
+        return html;
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // DONUT CANVAS
+      // ═══════════════════════════════════════════════════════════════
+      function drawDonut(assets) {
+        const c = document.getElementById("donut");
+        if (!c) return;
+        const ctx = c.getContext("2d");
+        const cx = 65,
+          cy = 65,
+          r = 55,
+          ri = 30;
+        let start = -Math.PI / 2;
+        const total = assets.reduce((a, x) => a + x.pct, 0);
+        assets.forEach((a) => {
+          const angle = (a.pct / total) * Math.PI * 2;
+          ctx.beginPath();
+          ctx.moveTo(cx, cy);
+          ctx.arc(cx, cy, r, start, start + angle);
+          ctx.closePath();
+          ctx.fillStyle = a.color;
+          ctx.fill();
+          ctx.strokeStyle = "#080808";
+          ctx.lineWidth = 2;
+          ctx.stroke();
+          start += angle;
+        });
+        // inner circle
+        ctx.beginPath();
+        ctx.arc(cx, cy, ri, 0, Math.PI * 2);
+        ctx.fillStyle = "#111";
+        ctx.fill();
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // TABS / CHECKLIST
+      // ═══════════════════════════════════════════════════════════════
+      function switchTab(btn, tabId) {
+        btn
+          .closest(".tab-nav")
+          .querySelectorAll(".tab-btn")
+          .forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        const parent = btn.closest(".section");
+        parent.querySelectorAll(".tab-content").forEach((t) => t.classList.remove("active"));
+        document.getElementById(tabId).classList.add("active");
+      }
+
+      function toggleCheck(el) {
+        el.classList.toggle("checked");
+        const box = el.querySelector(".check-box");
+        if (el.classList.contains("checked"))
+          box.innerHTML =
+            '<svg width="10" height="10" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2" fill="none" stroke="#080808" stroke-width="1.8" stroke-linecap="round"/></svg>';
+        else box.innerHTML = "";
+        const all = document.querySelectorAll(".check-item");
+        const done = document.querySelectorAll(".check-item.checked").length;
+        const counter = document.getElementById("check-counter");
+        const warn = document.getElementById("check-warning");
+        if (counter) counter.textContent = `${done} / ${all.length} ítems validados`;
+        if (warn) {
+          if (done === all.length) {
+            warn.textContent = "✓ Todo validado — podés ejecutar";
+            warn.style.color = "var(--green)";
+          } else {
+            warn.textContent = `Faltan ${all.length - done} ítem(s)`;
+            warn.style.color = "var(--red)";
+          }
+        }
+      }
+
+      function actualizarContadorTickersValidados() {
+        const validados = Object.keys(window.tickerTIRManual).length;
+        const total = document.querySelectorAll("input[data-ticker]").length;
+
+        // Calcular señal
+        const evitar = Object.values(window.tickerTIRManual).filter(
+          (t) => t.señal === "EVITAR",
+        ).length;
+        const atractivos = Object.values(window.tickerTIRManual).filter(
+          (t) => t.señal === "ATRACTIVO",
+        ).length;
+
+        // Crear o actualizar indicador visual
+        let indicator = document.getElementById("tir-validation-counter");
+        if (!indicator && total > 0) {
+          indicator = document.createElement("div");
+          indicator.id = "tir-validation-counter";
+          indicator.style.cssText =
+            "position:fixed;bottom:20px;right:20px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px 16px;font-size:12px;z-index:1000;box-shadow:0 4px 12px rgba(0,0,0,0.3);";
+          document.body.appendChild(indicator);
+        }
+
+        if (indicator) {
+          indicator.innerHTML = `
+      <div style="font-weight:600;color:var(--text);margin-bottom:4px;">Tickers Validados: ${validados}/${total}</div>
+      <div style="display:flex;gap:8px;font-size:11px;">
+        <span style="color:#4ade80;">▲ ${atractivos} Atractivos</span>
+        <span style="color:#fbbf24;">● ${validados - atractivos - evitar} Neutros</span>
+        ${evitar > 0 ? `<span style="color:#f87171;">▼ ${evitar} Evitar</span>` : ""}
+      </div>
+      ${evitar > 0 ? '<div style="margin-top:6px;padding:6px;background:rgba(248,113,113,0.15);border-radius:4px;color:#f87171;font-size:10px;">⚠️ ' + evitar + " ticker(s) por debajo del benchmark</div>" : ""}
+    `;
+        }
+      }
+
+      // VALIDACIÓN MANUAL DE TIR POR TICKER
+      // ═══════════════════════════════════════════════════════════════════════════════
+
+      // Almacena valores TIR ingresados manualmente: { ticker: { tir, bench, tipo, señal } }
+      window.tickerTIRManual = {};
+
+      let debounceTimer = null;
+
+      function validarTIRManualDebounced(inputId, ticker, benchVal, tipo) {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => validarTIRManual(inputId, ticker, benchVal, tipo), 300);
+      }
+
+      function validarTIRManual(inputId, ticker, benchVal, tipo) {
+        const input = document.getElementById(inputId);
+        const signalCell = document.getElementById(`signal-${inputId}`);
+        if (!input || !signalCell) return;
+
+        const tirVal = parseFloat(input.value);
+        if (isNaN(tirVal) || input.value === "") {
+          signalCell.textContent = "—";
+          signalCell.style.color = "var(--muted)";
+          delete window.tickerTIRManual[ticker];
+          actualizarContadorTickersValidados();
+          return;
+        }
+
+        // Calcular señal
+        const diff = tirVal - benchVal;
+        let señal, color, label, clase;
+
+        if (diff >= 0) {
+          señal = "ATRACTIVO";
+          color = "#4ade80"; // verde
+          label = `▲ +${diff.toFixed(1)}%`;
+          clase = "up";
+        } else if (diff >= -1.5) {
+          señal = "NEUTRO";
+          color = "#fbbf24"; // ámbar
+          label = `● ${diff.toFixed(1)}%`;
+          clase = "eq";
+        } else {
+          señal = "EVITAR";
+          color = "#f87171"; // rojo
+          label = `▼ ${diff.toFixed(1)}%`;
+          clase = "down";
+        }
+
+        // Guardar en estado global
+        window.tickerTIRManual[ticker] = {
+          tir: tirVal,
+          bench: benchVal,
+          tipo: tipo,
+          señal: señal,
+          diff: diff,
+          timestamp: Date.now(),
+        };
+
+        // Actualizar UI
+        signalCell.textContent = `${señal} ${label}`;
+        signalCell.style.color = color;
+        signalCell.className = `r td-signal ${clase}`;
+
+        // Si es EVITAR, destacar la fila
+        const row = input.closest("tr");
+        if (row) {
+          if (señal === "EVITAR") {
+            row.style.background = "rgba(248, 113, 113, 0.1)";
+            row.style.opacity = "0.7";
+          } else if (señal === "NEUTRO") {
+            row.style.background = "rgba(251, 191, 36, 0.05)";
+            row.style.opacity = "1";
+          } else {
+            row.style.background = "rgba(74, 222, 128, 0.05)";
+            row.style.opacity = "1";
+          }
+        }
+      }
+
+      function getTickersSuboptimos() {
+        return Object.entries(window.tickerTIRManual)
+          .filter(([_, data]) => data.señal === "EVITAR")
+          .map(([ticker, data]) => ({
+            ticker,
+            tir: data.tir,
+            bench: data.bench,
+            diff: data.diff,
+            tipo: data.tipo,
+          }));
+      }
+
+      // CHECKLIST AUTOMÁTICO + DISPARADORES DINÁMICOS POR PORTAFOLIO
+      // ═══════════════════════════════════════════════════════════════════════════════
+
+      // Helper: obtener categoría desde tipo
+      function getCategoriaFromTipo(tipo) {
+        const mapa = { CER: "CER_CORTO", HD: "ON_HD", DL: "DOLAR_LINKED", TAMAR: "TAMAR_ON" };
+        return mapa[tipo] || tipo;
+      }
+
+      // ─── MÓDULO A — CHECKLIST 100% AUTOMÁTICO ─────────────────────────────────────
+
+      function checkVencimientoCompatible(assets, horizonte) {
+        const hMap = { corto: 12, medio: 36, largo: 84 };
+        const mesesHorizonte = hMap[horizonte] || 36;
+        const hoy = new Date();
+        const warnings = [];
+
+        assets.forEach((cat) => {
+          if (cat.tickers[0] === "FCI MM") return;
+          cat.vttos.forEach((vtto, i) => {
+            if (vtto === "Daily") return;
+            const [d, m, a] = vtto.split("/").map(Number);
+            const fechaVtto = new Date(a, m - 1, d);
+            const mesesAlVto = (fechaVtto - hoy) / (1000 * 60 * 60 * 24 * 30.4);
+            if (mesesAlVto > mesesHorizonte * 1.2) {
+              warnings.push({
+                ticker: cat.tickers[i],
+                categoria: cat.cat,
+                mesesAlVto: Math.round(mesesAlVto),
+                mesesHorizonte,
+                status: "INCOMPATIBLE",
+                msg: `${cat.tickers[i]} vence en ${Math.round(mesesAlVto)}m — horizonte cliente: ${mesesHorizonte}m`,
+              });
+            }
+          });
+        });
+
+        return {
+          ok: warnings.length === 0,
+          warnings,
+          label:
+            warnings.length === 0
+              ? "✓ Todos los vencimientos compatibles con el horizonte"
+              : `⚠ ${warnings.length} ticker(s) exceden el horizonte del cliente`,
+        };
+      }
+
+      function checkTIRvsBenchmark(assets, macro) {
+        const suboptimos = assets.filter((a) => {
+          const cat = getCategoriaFromTipo(a.tipo);
+          const señal = evaluarSeñal(cat, a.tirEst, macro);
+          return señal.señal === "EVITAR";
+        });
+
+        return {
+          ok: suboptimos.length === 0,
+          suboptimos,
+          label:
+            suboptimos.length === 0
+              ? "✓ Todas las categorías superan su benchmark"
+              : `⚠ ${suboptimos.length} categoría(s) por debajo del benchmark`,
+        };
+      }
+
+      async function checkBidAsk(assets, totalUSD, iolToken) {
+        const warnings = [];
+        if (!iolToken)
+          return { ok: true, warnings: [], label: "ℓ Spreads bid-ask — token IOL no configurado" };
+
+        for (const cat of assets) {
+          if (cat.tickers[0] === "FCI MM") continue;
+          for (const ticker of cat.tickers.slice(0, 3)) {
+            try {
+              const res = await fetch(`https://api.iol.com/v2/bCBA/Titulos/${ticker}/Cotizacion`, {
+                headers: { Authorization: `Bearer ${iolToken}` },
+              });
+              const data = await res.json();
+              const puntas = data.puntas || [];
+              if (puntas.length >= 2) {
+                const bid = puntas[0]?.precioCompra || 0;
+                const ask = puntas[0]?.precioVenta || 0;
+                if (bid > 0 && ask > 0) {
+                  const spread = ((ask - bid) / ask) * 100;
+                  if (spread > 0.5)
+                    warnings.push({
+                      ticker,
+                      spread: spread.toFixed(2),
+                      msg: `${ticker}: spread ${spread.toFixed(2)}% — liquidez insuficiente`,
+                    });
+                }
+              }
+            } catch (e) {
+              /* sin datos IOL */
+            }
+          }
+        }
+
+        return {
+          ok: warnings.length === 0,
+          warnings,
+          label:
+            warnings.length === 0
+              ? "✓ Spreads bid-ask dentro del umbral"
+              : `⚠ ${warnings.length} ticker(s) con baja liquidez (spread > 0.5%)`,
+        };
+      }
+
+      function checkConcentracionEmisor(assets, totalUSD) {
+        const emisorMap = {};
+        const emisorPrefijos = {
+          YPF: ["YM", "YFCM", "YFCL"],
+          Pampa: ["MCC", "MR3"],
+          IRSA: ["CS4", "CS5"],
+          TGS: ["GYC"],
+          Galicia: ["GD"],
+          CABA: ["CO2", "CO3", "BUY"],
+          PBA: ["BA3", "BDC", "BB3", "BC3"],
+          Mendoza: ["PMM"],
+          Edenor: ["EMC"],
+          "Loma N.": ["LOC"],
+        };
+
+        assets.forEach((cat) => {
+          cat.tickers.forEach((ticker) => {
+            const pesoTicker = cat.pct / cat.tickers.length;
+            let emisorAsignado = "Otros";
+            for (const [emisor, prefijos] of Object.entries(emisorPrefijos)) {
+              if (prefijos.some((p) => ticker.startsWith(p))) {
+                emisorAsignado = emisor;
+                break;
+              }
+            }
+            emisorMap[emisorAsignado] = (emisorMap[emisorAsignado] || 0) + pesoTicker;
+          });
+        });
+
+        const warnings = Object.entries(emisorMap)
+          .filter(([emisor, pct]) => pct > 20 && emisor !== "Otros")
+          .map(([emisor, pct]) => ({
+            emisor,
+            pct: pct.toFixed(1),
+            msg: `${emisor}: ${pct.toFixed(1)}% — supera límite 20%`,
+          }));
+
+        return {
+          ok: warnings.length === 0,
+          warnings,
+          emisorMap,
+          label:
+            warnings.length === 0
+              ? "✓ Sin concentración de emisor > 20%"
+              : `⚠ Concentración excesiva: ${warnings.map((w) => w.emisor).join(", ")}`,
+        };
+      }
+
+      function checkConcentracionCategoria(assets) {
+        const warnings = assets
+          .filter((a) => a.pct > 40)
+          .map((a) => ({
+            categoria: a.cat,
+            pct: a.pct,
+            msg: `${a.cat}: ${a.pct}% — supera límite 40%`,
+          }));
+        return {
+          ok: warnings.length === 0,
+          warnings,
+          label:
+            warnings.length === 0
+              ? "✓ Sin concentración de categoría > 40%"
+              : `⚠ ${warnings.map((w) => w.categoria).join(" / ")} supera 40%`,
+        };
+      }
+
+      function checkRiesgoPrecio(assets, horizonte) {
+        const hMap = { corto: 12, medio: 36, largo: 84 };
+        const mesesHorizonte = hMap[horizonte] || 36;
+        const hoy = new Date();
+        const alertas = [];
+
+        assets.forEach((cat) => {
+          if (cat.tipo === "TAMAR" || cat.tipo === "CER") return;
+          cat.vttos.forEach((vtto, i) => {
+            if (vtto === "Daily") return;
+            const [d, m, a] = vtto.split("/").map(Number);
+            const fechaVtto = new Date(a, m - 1, d);
+            const durationAprox = (fechaVtto - hoy) / (1000 * 60 * 60 * 24 * 365);
+            if (durationAprox * 12 > mesesHorizonte) {
+              alertas.push({
+                ticker: cat.tickers[i],
+                durationAprox: durationAprox.toFixed(1),
+                msg: `${cat.tickers[i]}: duration ~${durationAprox.toFixed(1)}a > horizonte`,
+              });
+            }
+          });
+        });
+
+        return {
+          ok: alertas.length === 0,
+          alertas,
+          label:
+            alertas.length === 0
+              ? "✓ Duration compatible con horizonte"
+              : `ℹ ${alertas.length} ticker(s) con duration > horizonte`,
+        };
+      }
+
+      function checkConsistenciaMacro(assets, escenarioDetectado) {
+        const sesgo = ESCENARIOS[escenarioDetectado]?.sesgo;
+        if (!sesgo) return { ok: true, label: "✓ Escenario no clasificado — portafolio neutro" };
+        const tiposEnCartera = new Set(assets.map((a) => getCategoriaFromTipo(a.tipo)));
+        const inconsistencias = [];
+        sesgo.reducir.forEach((cat) => {
+          if (tiposEnCartera.has(cat))
+            inconsistencias.push({
+              cat,
+              label: CATEGORIAS[cat]?.label || cat,
+              msg: `${CATEGORIAS[cat]?.label || cat} presente pero escenario sugiere REDUCIR`,
+            });
+        });
+        return {
+          ok: inconsistencias.length === 0,
+          inconsistencias,
+          label:
+            inconsistencias.length === 0
+              ? `✓ Composición consistente con escenario`
+              : `⚠ Inconsistencia: ${inconsistencias.map((i) => i.label).join(", ")}`,
+        };
+      }
+
+      // ─── MÓDULO B — FUNCIÓN MAESTRA DE VALIDACIÓN ───────────────────────────────────
+
+      async function ejecutarValidacionCompleta(
+        assets,
+        horizonte,
+        macro,
+        escenarioDetectado,
+        totalUSD,
+        iolToken,
+      ) {
+        const resultados = await Promise.all([
+          Promise.resolve(checkVencimientoCompatible(assets, horizonte)),
+          Promise.resolve(checkTIRvsBenchmark(assets, macro)),
+          checkBidAsk(assets, totalUSD, iolToken),
+          Promise.resolve(checkConcentracionEmisor(assets, totalUSD)),
+          Promise.resolve(checkConcentracionCategoria(assets)),
+          Promise.resolve(checkRiesgoPrecio(assets, horizonte)),
+          Promise.resolve({ ok: true, label: "✓ Disparadores asignados automáticamente" }),
+          Promise.resolve(checkConsistenciaMacro(assets, escenarioDetectado)),
+        ]);
+
+        const aprobados = resultados.filter((r) => r.ok).length;
+        const bloqueantes = resultados.filter((r) => !r.ok && r.critico);
+        const advertencias = resultados.filter((r) => !r.ok && !r.critico);
+
+        return {
+          resultados,
+          aprobados,
+          total: resultados.length,
+          puedeEjecutar: bloqueantes.length === 0,
+          bloqueantes,
+          advertencias,
+          resumen: `${aprobados}/${resultados.length} validaciones OK`,
+        };
+      }
+
+      // ─── MÓDULO C — DISPARADORES DINÁMICOS POR PORTAFOLIO REAL ─────────────────────
+
+      function generarDisparadoresDinamicos(assets, macro, horizonte) {
+        const disparadores = [];
+        const tiposPresentes = [...new Set(assets.map((a) => a.tipo))];
+        const hoy = new Date();
+
+        if (tiposPresentes.includes("CER")) {
+          const cerAssets = assets.filter((a) => a.tipo === "CER");
+          disparadores.push({
+            activos: cerAssets.map((a) => a.cat),
+            tipo: "MONITOREO",
+            variable: "Inflación mensual",
+            valorActual: macro.inflacion,
+            umbralActivacion: 2.5,
+            umbralActivacionLabel: "< 2.5% / mes",
+            estado: macro.inflacion < 2.5 ? "ACTIVO" : "VIGILA",
+            accion:
+              macro.inflacion < 2.5
+                ? "🔴 ACTIVO — Rotar CER a TAMAR o HD. CER pierde ventaja relativa."
+                : `Monitorear: si inflación cae < 2.5%, rotar a TAMAR o HD`,
+            frecuencia: "Mensual (dato INDEC)",
+          });
+          disparadores.push({
+            activos: cerAssets.map((a) => a.cat),
+            tipo: "OPORTUNIDAD",
+            variable: "Inflación mensual",
+            valorActual: macro.inflacion,
+            umbralActivacion: 5,
+            umbralActivacionLabel: "> 5% por 2 meses",
+            estado: macro.inflacion > 5 ? "ACTIVO" : "VIGILA",
+            accion:
+              macro.inflacion > 5
+                ? "🟢 ACTIVO — Alargar duration CER. Spread CER ampliándose."
+                : `Si inflación > 5% por 2 meses → alargar CER hacia bucket 2`,
+            frecuencia: "Mensual",
+          });
+        }
+
+        if (tiposPresentes.includes("HD")) {
+          const hdAssets = assets.filter((a) => a.tipo === "HD");
+          const rpActual = macro.riesgoPais;
+          disparadores.push({
+            activos: hdAssets.map((a) => a.cat),
+            tipo: "RIESGO",
+            variable: "Riesgo País",
+            valorActual: rpActual,
+            umbralActivacion: rpActual + 200,
+            umbralActivacionLabel: `> ${Math.round(rpActual + 200)} bps (+200 desde hoy)`,
+            estado: "VIGILA",
+            accion: `Si RP sube a ${Math.round(rpActual + 200)} bps → acortar duration HD. Rotar soberanos largos → ONs cortas + FCI MM.`,
+            frecuencia: "Diaria",
+          });
+          disparadores.push({
+            activos: hdAssets.map((a) => a.cat),
+            tipo: "OPORTUNIDAD",
+            variable: "Riesgo País",
+            valorActual: rpActual,
+            umbralActivacion: rpActual - 200,
+            umbralActivacionLabel: `< ${Math.round(rpActual - 200)} bps (-200 desde hoy)`,
+            estado: "VIGILA",
+            accion: `Si RP comprime a ${Math.round(rpActual - 200)} bps → extender duration soberanos. Upside de capital significativo en AL35/GD35.`,
+            frecuencia: "Diaria",
+          });
+        }
+
+        if (tiposPresentes.includes("DL")) {
+          const dlAssets = assets.filter((a) => a.tipo === "DL");
+          disparadores.push({
+            activos: dlAssets.map((a) => a.cat),
+            tipo: "SALIDA",
+            variable: "Brecha CCL",
+            valorActual: macro.brecha,
+            umbralActivacion: 5,
+            umbralActivacionLabel: "< 5% (cierre de brecha)",
+            estado: macro.brecha < 5 ? "ACTIVO" : "VIGILA",
+            accion:
+              macro.brecha < 5
+                ? "🔴 ACTIVO — Brecha cerrada. Rotar DL → HD o CER. DL pierde sentido."
+                : `Si brecha < 5% → rotar DL a HD o CER. Cobertura cambiaria innecesaria.`,
+            frecuencia: "Diaria",
+          });
+          disparadores.push({
+            activos: dlAssets.map((a) => a.cat),
+            tipo: "AUMENTAR",
+            variable: "Brecha CCL",
+            valorActual: macro.brecha,
+            umbralActivacion: 20,
+            umbralActivacionLabel: "> 20% (devaluación expectativa)",
+            estado: macro.brecha > 20 ? "ACTIVO" : "VIGILA",
+            accion:
+              macro.brecha > 20
+                ? "🟢 ACTIVO — Aumentar DL. Cobertura cambiaria prioritaria."
+                : `Si brecha > 20% → aumentar posición DL. Señal de estrés cambiario.`,
+            frecuencia: "Diaria",
+          });
+        }
+
+        if (tiposPresentes.includes("TAMAR")) {
+          const tamarAssets = assets.filter((a) => a.tipo === "TAMAR");
+          disparadores.push({
+            activos: tamarAssets.map((a) => a.cat),
+            tipo: "SALIDA",
+            variable: "TAMAR",
+            valorActual: macro.tamar,
+            umbralActivacion: macro.tamar - 5,
+            umbralActivacionLabel: `< ${(macro.tamar - 5).toFixed(1)}% (-5pts desde hoy)`,
+            estado: "VIGILA",
+            accion: `Si BCRA baja TAMAR a ${(macro.tamar - 5).toFixed(1)}% → rotar TAMAR ON → CER corto o HD. Carry pierde atractivo.`,
+            frecuencia: "Cada decisión BCRA",
+          });
+        }
+
+        assets.forEach((cat) => {
+          if (cat.tickers[0] === "FCI MM") return;
+          cat.vttos.forEach((vtto, i) => {
+            if (vtto === "Daily") return;
+            const [d, m, a] = vtto.split("/").map(Number);
+            const fechaVtto = new Date(a, m - 1, d);
+            const diasAlVto = (fechaVtto - hoy) / (1000 * 60 * 60 * 24);
+            if (diasAlVto <= 60) {
+              disparadores.push({
+                activos: [cat.tickers[i]],
+                tipo: "VENCIMIENTO",
+                variable: "Días al vencimiento",
+                valorActual: Math.round(diasAlVto),
+                umbralActivacion: 0,
+                estado: "ACTIVO",
+                accion: `🟡 ${cat.tickers[i]} vence en ${Math.round(diasAlVto)} días. Definir reinversión antes de ${vtto}. Evaluar mismo bucket o rotación según macro vigente.`,
+                frecuencia: "Inmediata",
+              });
+            }
+          });
+        });
+
+        const orden = { ACTIVO: 0, VIGILA: 1, OPORTUNIDAD: 2 };
+        disparadores.sort((a, b) => (orden[a.estado] || 2) - (orden[b.estado] || 2));
+        return disparadores;
+      }
+
+      // ─── MÓDULO D — RENDER INTEGRADO ───────────────────────────────────────────────
+
+      function renderDisparadoresDinamicos(disparadores) {
+        const activos = disparadores.filter((d) => d.estado === "ACTIVO");
+        const vigila = disparadores.filter((d) => d.estado === "VIGILA");
+        const opport = disparadores.filter((d) => d.estado === "OPORTUNIDAD");
+
+        const renderCard = (d) => {
+          const colorBorde = { ACTIVO: "#f87171", VIGILA: "#fbbf24", OPORTUNIDAD: "#4ade80" }[
+            d.estado
+          ];
+          const badge = {
+            ACTIVO: '<span class="pill pill-red">ACTIVO</span>',
+            VIGILA: '<span class="pill pill-amber">VIGILA</span>',
+            OPORTUNIDAD: '<span class="pill pill-green">OPORTUNIDAD</span>',
+          }[d.estado];
+          const unit = d.variable.includes("Riesgo")
+            ? " bps"
+            : d.variable.includes("%") ||
+                d.variable.includes("Inflación") ||
+                d.variable.includes("TAMAR") ||
+                d.variable.includes("Brecha")
+              ? "%"
+              : "";
+
+          return `
+      <div style="background:var(--card);border:1px solid var(--border);border-left:3px solid ${colorBorde};border-radius:6px;padding:12px;margin-bottom:8px;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;">
+          <span style="font-size:10px;color:var(--text2);">${d.activos.join(" · ")}</span>
+          ${badge}
+        </div>
+        <div style="font-size:11px;color:var(--text);margin-bottom:4px;">
+          <strong>${d.variable}:</strong> Actual <strong>${d.valorActual}${unit}</strong> → Umbral <strong>${d.umbralActivacionLabel}</strong>
+        </div>
+        <div style="font-size:12px;color:var(--white);line-height:1.5;">${d.accion}</div>
+        <div style="font-size:9px;color:var(--muted);margin-top:6px;text-transform:uppercase;letter-spacing:1px;">Frecuencia: ${d.frecuencia}</div>
+      </div>`;
+        };
+
+        return `
+    ${activos.length > 0 ? `<div style="font-size:10px;color:var(--red);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;">🔴 Disparadores activos ahora (${activos.length})</div>${activos.map(renderCard).join("")}` : ""}
+    ${vigila.length > 0 ? `<div style="font-size:10px;color:var(--amber);letter-spacing:1.5px;text-transform:uppercase;margin:12px 0 8px;">🟡 En vigilancia (${vigila.length})</div>${vigila.map(renderCard).join("")}` : ""}
+    ${opport.length > 0 ? `<div style="font-size:10px;color:var(--green);letter-spacing:1.5px;text-transform:uppercase;margin:12px 0 8px;">🟢 Oportunidades (${opport.length})</div>${opport.map(renderCard).join("")}` : ""}
+  `;
+      }
+
+      function renderValidacionAutomatica(validacion) {
+        const rows = validacion.resultados
+          .map(
+            (r, i) => `
+    <div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);${!r.ok ? "opacity:0.9;" : ""}">
+      <span style="font-size:14px;">${r.ok ? "✅" : "⚠️"}</span>
+      <span style="font-size:12px;color:var(--text);flex:1;">${r.label}</span>
+      ${!r.ok && r.warnings ? `<span style="font-size:10px;color:var(--muted);">${r.warnings.length} item(s)</span>` : ""}
+    </div>
+  `,
+          )
+          .join("");
+
+        return `
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:12px;border-bottom:2px solid ${validacion.puedeEjecutar ? "var(--green)" : "var(--red)"}">
+        <span style="font-size:14px;font-weight:600;color:var(--text);">Validación Automática del Portafolio</span>
+        <span class="pill pill-${validacion.puedeEjecutar ? "green" : "red"}">${validacion.resumen}</span>
+      </div>
+      <div>${rows}</div>
+      ${!validacion.puedeEjecutar ? `<div style="margin-top:12px;padding:10px;background:var(--red-bg);border-radius:6px;color:var(--red);font-size:11px;">❌ Hay validaciones bloqueantes. Corregir antes de ejecutar.</div>` : ""}
+    </div>
+  `;
+      }
+
+      // ═══════════════════════════════════════════════════════════════
+      // INIT
+      // ═══════════════════════════════════════════════════════════════
+      (async () => {
+        const loadMsg = document.getElementById("loading-msg");
+        const msgs = [
+          "Conectando con ArgentinaDatos...",
+          "Obteniendo cotizaciones del día...",
+          "Cargando inflación BCRA...",
+          "Calibrando riesgo país...",
+        ];
+        let mi = 0;
+        const iv = setInterval(() => {
+          if (loadMsg && mi < msgs.length) loadMsg.textContent = msgs[mi++];
+        }, 500);
+
+        await fetchMacro();
+
+        clearInterval(iv);
+        setTimeout(() => {
+          const ld = document.getElementById("loading");
+          if (ld) ld.classList.add("hidden");
+        }, 2200);
+
+        // refresh macro every 5 min
+        setInterval(fetchMacro, 300000);
+      })();
+    </script>
+  </body>
+</html>

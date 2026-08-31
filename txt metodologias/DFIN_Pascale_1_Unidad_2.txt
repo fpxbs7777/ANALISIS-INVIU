@@ -1,0 +1,788 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 7
+VALOR PRESENTE NETO vs. TASA DE RENTABILIDAD
+OBJETIVOS DE APRENDIZAJE
+• Determinar cuándo coinciden en su aceptación o en su rechazo el VPN y la TR.
+• Precisar cuándo no coinciden.
+• Señalar por qué el valor presente neto es el criterio superior técnicamente.
+En el capítulo anterior se desarrollaron las generalidades de los criterios utilizados para evaluar
+inversiones. El presente se dedica a efectuar una profundización en el análisis de la tasa de rentabilidad y del
+valor presente neto.
+Los temas del capítulo van desde la aceptación y el rechazo de una inversión en cada uno de ellos
+hasta el estudio de situaciones conflictivas entre los resultados de ambos criterios.
+7,1. DECISIÓN DE ACEPTACIÓN O DE RECHAZO
+La tasa de rentabilidad (i), tal corno se vio, es la tasa de descuento que hace el valor presente neto
+igual a cero.
+El análisis de la inversión se realiza a través de rendimientos atribuibles a la misma, con
+prescindencia de su financiamiento.
+En la aceptación o en el rechazo de una inversión confluyen distintos elementos, algunos de los
+cuales son estrictamente económicos. En este sentido se efectuarán las siguientes consideraciones sobre la
+aceptación o el rechazo:
+Regla de aceptación bajo el criterio de la fusa de rentabilidad: que la tasa de rentabilidad (i) sea
+superior a la tasa mínima aceptable o tasa de retorno requerida (k).
+O sea:
+i > k
+Regla de aceptación bajo el criterio de valor presente neto: que el VPN sea mayor que cero.
+Es decir:
+VPN > 0
+Es preciso señalar que, ante el caso del análisis de una inversión individualmente considerada, si ella
+es aceptada por los resultados que surgen de determinar la tasa de rentabilidad, también lo será por el criterio
+del valor presente neto.
+Como se recordará, la tasa de rentabilidad es aquella i que satisface la ecuación:
+n F
+(cid:1) i (cid:3)F (cid:2)0
+j(cid:2)1
+(cid:1)
+1(cid:4)i
+(cid:2)j 0
+Por otra parte, el valor presente neto se define como:
+2
+
+n F
+(cid:1) i (cid:3)F
+j(cid:2)1
+(cid:1)
+1(cid:4)k
+(cid:2)j 0
+Por lo tanto, ambos serán iguales, esto es:
+n F n F
+(cid:1) i (cid:3)F (cid:2) (cid:1) i (cid:3)F (cid:2)0
+j(cid:2)1
+(cid:1)
+1(cid:4)i
+(cid:2)j 0
+j(cid:2)1
+(cid:1)
+1(cid:4)k
+(cid:2)j 0
+cuando i = k
+¿Qué sucede cuando i ≠ k? La igualdad, naturalmente, no se seguirá cumpliendo. Si estamos en el
+caso de que i > k. En atención a la definición de ambas, el valor presente neto será mayor que cero.
+Por otra parte, si i < k, el valor presente neto será menor que cero.
+En suma, para el caso de una inversión individualmente considerada, los resultados
+en cuanto a aceptación o rechazo, obtenidos a través de la utilización de la tasa de rentabilidad, serán
+coincidentes con los del valor presente neto.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+Si llegan a ser coincidentes los resultados de la TR y el VPN
+7,2. CONSIDERACIONES TÉCNICAS ADICIONALES SOBRE LA TASA DE
+RENTABILIDAD
+A lo expresado en este capítulo y en los anteriores se agregan algunas consideraciones técnicas sobre
+la tasa de rentabilidad.
+1 Supónganse dos proyectos, A y B, que tienen los siguientes flujos de fondos:
+Períodos Proyecto A Proyecto B
+($) ($)
+0 (2.487) (2.487)
+1 100 1.000
+2 100 1.000
+3 3.080 1.000
+En ambos casos la tasa de rentabilidad es del 10 %.
+El ejemplo pone de manifiesto que a pesar de la regularidad de los flujos de rendimiento en el caso
+del proyecto B y de la irregularidad en el proyecto A, ambos tienen la misma tasa.
+La ilustración evidencia que la tasa de rentabilidad que se obtiene por el método ya desarrollado no
+es la correspondiente a un año específico de la vida del proyecto, sino que se trata de una tasa de
+rentabilidad promedio por el período, en el cual se ha dividido la vida útil de la inversión.
+Si los flujos del ejemplo fueran anuales, la tasa obtenida también sería anual.
+2. Cuando el patrón de flujos de fondos muestra que luego de un flujo negativo, que puede
+extenderse por un período o más, aparecen flujos positivos que se continúan hasta el fin de la vida útil de la
+inversión (fig. 7.1) existe una sola tasa de rentabilidad.
+3
+
+Figura 7.1
+n F j
+El polinomio (cid:2) (cid:1)0
+j(cid:1)0
+(cid:1)
+1(cid:3)i
+(cid:2)j
+presenta una sola raíz real.
+Cuando existe un patrón "no normal" de flujos de fondos, esto es, por ejemplo, que luego de los
+flujos negativos aparecen ]os positivos y luego vuelven a ocurrir los negativos (fig.7.2) surge la posibilidad
+de que exista más de una tasa(1).
+A efectos de evitar estos problemas, las modernas máquinas calculadoras, cuando existe una
+inversión en un año intermedio, la descuentan a la tasa de retorno requerida del proyecto hasta el momento
+cero. Esto es, se suman todas las inversiones con el mismo valor tiempo.
+Figura 7.2
+(1) Por la regla de los signos de DESCARTES, el polinomio puede tener tantas raíces como cambios de signos.
+La regla de DESCARTES se expresa más formalmente como el número de raíces positivas de la ecuación P(x) = 0; no
+es mayor que el número de variaciones de signos que presenta la serie de coeficiente del polinomio P(x) y se diferencia
+de éste sólo en un número par.
+4
+
+Para ilustrar se toma el famoso ejemplo expuesto por LORIE Y SAVAGE (1955) del proyecto que
+presenta el siguiente flujo de fondos:
+Períodos F
+j
+($)
+0 (1.600)
+1 1.000
+2 (10.000)
+En este caso el proyecto tiene dos tasas de rentabilidad, que son:
+i’ = 25% e i’’ = 400 %
+¿Cuál es entonces la correcta? E1 criterio de tasa de rentabilidad no está en condiciones de dar una
+solución satisfactoria a este tipo de problemas.
+3. Se ha establecido que la tasa de rentabilidad que se obtiene es un promedio durante la vida útil de
+la inversión, para el período en que se ha dividido aquélla.
+El criterio de aceptación, tal como se expuso, consiste en que la tasa de rentabilidad sea superior a la
+tasa de retorno requerida (k).
+Sin embargo, ésta (k) es una magnitud que puede ir variando durante el transcurso de la vida útil de
+la inversión.
+Esto puede ocurrir por muchas razones, como cambios en la estructura de financiamiento del
+proyecto, en la tasa de interés, en ambas, etcétera.
+Supóngase un proyecto de tres años de vida útil, con una tasa de rentabilidad del 10 %, y cuya tasa
+de retorno requerida esperada será, para el año 1, del 7 %, para el año 2. del 10 %, y para el año 3, del 12 %.
+En esta situación, ¿el proyecto sería aceptable por un año? ¿No sería aceptable en ningún caso? Así,
+la tasa de rentabilidad como criterio tampoco aporta una respuesta clara a este problema.
+4. Más en el campo práctico, la tasa de rentabilidad es generalmente bien aceptada por aquellos que
+deben utilizarla, en especial, en los niveles ejecutivos.
+Es comprensible expresar la evaluación de una inversión en términos de una tasa de productividad
+por período, que a través de un número como de valor creado como es el caso del valor presente neto.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1 Cuáles son las principales consideraciones técnicas sobre la TR.
+7,3. CONSIDERACIONES TÉCNICAS ADICIONALES SOBRE EL VALOR PRESENTE
+NETO
+1. La existencia de patrones de flujos de fondos "no normales" no obstaculiza la obtención del valor
+presente neto.
+Supóngase la inversión cuyo flujo de fondos es:
+F
+Períodos j
+($)
+0 (2.000)
+1 1.000
+2 1.000
+3 (500)
+4 2.000
+5
+
+Si el costo del capital, en el ejemplo, es del 8 %, se tiene que el valor presente neto es igual a 856, tal
+como se aprecia seguidamente:
+Factor Flujo
+F
+Períodos j de act. actualizado
+($)
+(8%) ($)
+0 (2.000) 1 (2.000)
+1 1.000 0,9259 925,9
+2 1.000 0,8573 857,3
+3 (500) 0,7938 (396,9)
+4 2.000 0,7350 1.470
+––––––
+856,30
+Valor presente neto ––––––
+––––––
+2. La variación del costo del capital durante la vida útil del proyecto tiene en el caso del valor
+presente neto la solución propia de su forma de cálculo. Se actualizan los flujos de fondos a la tasa que ha
+correspondido a los períodos transcurridos.
+Para aclarar el punto, supóngase que el proyecto está formado por los siguientes flujos de fondos y
+de tasa de retorno requerida, para cada uno de los períodos.
+Períodos F k
+j j
+($) (%)
+0 (1.000)
+1 700 8
+2 900 10
+3 1.200 12
+En este caso, el valor presente neto se obtiene de la siguiente forma:
+700 900
+VPN (cid:1) (cid:1) (cid:2) (cid:3) (cid:1) (cid:2)(cid:1) (cid:2) (cid:3)
+1(cid:3)0,08 1(cid:3)0,08 1(cid:3)0,10
+1.200
+(cid:1) (cid:2)(cid:1) (cid:2)(cid:1) (cid:2)
+(cid:2)1.000(cid:1)1.308
+1(cid:3)0,08 1(cid:3)0,10 1(cid:3)0,12
+3. El criterio del valor presente neto, como ya se ha expresado, muestra el monto en pesos que
+reporta una inversión.
+Por lo general, a nivel de su utilización práctica, apreciar una inversión por su monto neto
+actualizado ofrece mayores dificultades desde el punto de vista de una comprensión intuitiva.
+Quien debe decidir una inversión se encontrará, por lo común, más familiarizado al expresar que la
+misma tiene, por ejemplo, una tasa de rentabilidad del 18 %, en vez de un valor presente neto de $ 4.283
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las consideraciones técnicas del VPN.
+6
+
+7.4. PRESENCIA DE SITUACIONES CONFLICTIVAS
+Se ha expresado que en el análisis de una inversión independiente, tanto la tasa de rentabilidad como
+el valor presente neto reportan la misma decisión de aceptación o de rechazo.
+En las empresas, existen frecuentemente situaciones en las cuales se hace necesario establecer un
+ranking entre las inversiones bajo consideración. Estos casos se plantean, sobre todo, cuando hay:
+a) inversiones excluyentes, esto es que para la solución de un determinado problema, por ejemplo, existan
+dos opciones;
+b) racionamiento de capital, es decir, cuando no existen montos ilimitados para efectuar Las inversiones.
+Se verá en primer lugar lo relativo a inversiones excluyentes; pueden plantearse situaciones
+conflictivas en cuanto a la elección según la tasa de rentabilidad o el valor presente neto.
+La presencia de esas situaciones conflictivas se debe a las siguientes razones:
+a) el monto o tamaño de los proyectos;
+b) el desplazamiento temporal de los flujos de fondos.
+A efectos de ejemplificar con respecto al tamaño, supónganse dos proyectos, A y B, con los
+siguientes datos:
+Proyectos (F)
+j
+Períodos A B K
+($) ($) (%)
+0 (50.000) (1.000) -
+1 60.000 1.000 12
+Los resultados son:
+Criterio Proyectos (F)
+i
+A B
+Tasa de rentabilidad (%) 20 75
+Valor presente neto ($) 3.571 563
+Según el valor presente neto, sería superior A, en tanto que siguiendo por el criterio de la tasa de
+rentabilidad, la elección recaería sobre B.
+En cuanto al desplazamiento temporal de los flujos de fondos, pueden presentarse casos parecidos.
+En efecto, supónganse los siguientes proyectos:
+Proyectos (F)
+i K
+Períodos
+A B (%)
+($) ($)
+0 (1.100) (1.100) -
+1 700 100 7
+2 700 500 7
+3 700 1.800 7
+Los resultados que se obtienen son:
+7
+
+Proyectos (F)
+Criterio i
+A B
+Tasa de rentabilidad(%) 40,87 34,06
+Valor presente neto ($) 732,02 899,5
+A la tasa de descuento del 7 %, el proyecto B aparece como más conveniente, en tanto que a través
+del criterio de la tasa de rentabilidad, lo sería el proyecto A.
+Situaciones como la planteada se visualizan claramente por medio de las curvas de valores presentes
+de ambos proyectos. Ellas se obtienen calculando los valores presentes netos de cada uno de los proyectos
+para distintas tasas de descuento. Para k = 0, el valor actual neto será igual a la diferencia de los flujos de
+ingresos menos la inversión inicial. Cuando k = tasa de rentabilidad, el valor actual neto es igual a cero.
+Los valores presentes netos para distintas tasas de descuento serían los siguientes en cada uno de los
+proyectos:
+Tasa de
+VPN A VPN B
+Descuento
+($) ($)
+(%)
+0 1.000 1.300
+1 806 1.400
+10 641 756
+15 498 549
+20 375 372
+30 171 92
+34,06 102 0
+40,87 0 (133)
+45 (55) (203)
+Gráficamente se aprecia en la fig. 7.3 que ambas curvas se igualan en la tasa de descuento del
+19,76%.
+Figura 7,3.
+El proyecto B se castiga sobre la base de que, con mayor tasa, su concentración de fondos en los
+últimos años hace que los mismos se castiguen más.
+Esta tasa se reconoce con el nombre de "tasa de FISHER" Y se obtiene calculando la tasa de
+rentabilidad de la inversión incremental, esto es, de la inversión B-A.
+En este caso se procedería a efectuar la diferencia entre ambos flujos, que sería:
+8
+
+Concepto 0 1 2 3
+Proyecto A (1.100) 700 700 700
+Proyecto B (1.100) 100 500 1.800
+B-A - (600) (200) 1.100
+La tasa cumple:
+(600) (200) 1.100
+(cid:1)0
+(1(cid:2)i) (1(cid:2)i) 2 (1(cid:2)i) 3
+es i = 19,76%
+Cabe recordar que no siempre en el caso de inversiones excluyentes se producen conflictos, sino
+cuando los montos involucrados, así como los del desarrollo temporal de los flujos de fondos, pesan en
+forma especial. Por ejemplo, supóngase que los proyectos C y D sean excluyentes:
+Proyectos (F)
+j
+Períodos C D
+($) ($)
+0 (100) (100)
+1 20 15
+2 35 40
+3 140 110
+Las tasas de rentabilidad son, pues, para C = 29,9 % y para D = 21,9 %.
+Si se efectuaran los cálculos de la curva de valores actuales, se llegaría a las siguientes cifras:
+Tasa de VPN A VPN B
+Descuento (S) (S)
+(%)
+0 95 65
+5 72 46
+10 52 29
+15 36 16
+20 22 4
+21,9 17 0
+29,9 0 (15)
+35 (9) (22)
+45 (17) (29)
+Gráficamente se observa que no se plantean cruzamientos:
+9
+
+Figura 7,4.
+De la misma forma pueden encontrarse situaciones en que las diferencias en los tamaños no lleven a
+planteos conflictivos.
+Supónganse los proyectos E y F con los siguientes flujos de fondos:
+Proyectos (F)
+j
+Períodos E F
+($) ($)
+0 (1.000) (2.000)
+1 500 1.000
+2 700 2.000
+3 1.000 3.000
+Las tasas de rentabilidad obtenidas son para F = 45,42 % y para F = 65,35 %
+Las curvas de valores actuales planteadas gráficamente a partir de los siguientes datos tampoco
+presentarían cruzamientos:
+Tasa de VPN E VPN F
+Descuento ($) ($)
+(%)
+0 1.200 4.000
+5 975 3.358
+10 784 2.816
+20 481 1.958
+40 79 828
+45,42 0 609
+65,35 (220) 0
+70 (260) (109)
+Recuérdese ahora el caso de las situaciones conflictivas como la planteada en el caso de los
+proyectos A y B. ¿Cuál es la causa de esas distorsiones?
+La misma radica en el supuesto implícito de la tasa de reinversión de flujos de fondos intermedios.
+¿Qué supuesto implícito hay cuando se calcula la tasa de rentabilidad o el valor actual neto?
+La deducción de este supuesto aparece vinculada a la metodología seguida para efectuar las
+actualizaciones.
+10
+
+Las tablas de valores actuales se construyen a partir de los mismos supuestos que subyacían en la
+determinación del interés compuesto. Como se recordará (cap. 4) un monto (M) de un capital (C), impuesto a
+una tasa de interés (i), capitalizable durante n períodos, se obtiene a través de la expresión:
+(cid:1) (cid:2)
+M(cid:2)C1(cid:1)i n
+La tarea de actualización de los flujos definidos se efectúa multiplicando por:
+1
+(cid:1)
+1(cid:1)i
+(cid:2)n
+por lo que la tasa de rentabilidad supone que los flujos de fondos se reinvierten a la misma tasa, en tanto que
+el valor actual neto hace lo propio con la tasa de rendimiento requerida.
+Se ha expresado, a veces, que en realidad los fondos intermedios no se invierten a la misma tasa. Por
+ejemplo, podrían incluso destinarse al consumo.
+Efectivamente, eso es cierto, y en muchos casos así sucede. Sin embargo, más allá del destino
+específico que se dé a los flujos intermedios, lo que existe en los hechos, basado en la forma de
+determinación de los factores de actualización, es el supuesto de la oportunidad de reinversión a la misma
+tasa de rentabilidad.
+El criterio del valor presente neto, conforme a lo que se ha expresado, supone la reinversión de los
+flujos intermedios a la tasa de rendimiento requerida.
+Resumiendo el problema de la tasa de reinversión, se puede señalar que el criterio de la tasa de
+rentabilidad implica la oportunidad de reinversión a la misma tasa de los flujos de fondos intermedios, en
+tanto que el valor actual neto supone que se reinvierten a la tasa de retorno requerida.
+Por lo tanto, en la medida en que los flujos de fondos estén distribuidos en el tiempo en forma
+diferente, al suponerse reinversiones distintas de los mismos, se arriba a soluciones que con frecuencia son
+contradictorias.
+¿Cuál es, entonces, el criterio más adecuado para decidir en materia de inversiones: el valor actual neto o la
+tasa de rentabilidad?
+La respuesta depende sobre todo de la tasa de reinversión de los flujos de fondos intermedios. En el
+gráfico de las curvas de valores se aprecia que, para tasas de reinversión implícitas (que equivalen a una tasa
+de descuento), superiores a la de FISHER, ambos criterios daban la misma respuesta, es decir, el proyecto A
+era superior. Sin embargo, para tasas de reinversiones inferiores a la de la intersección, el proyecto B parece
+más atractivo.
+¿Cuál de los supuestos es entonces más razonable, el de la tasa de rentabilidad que supone los flujos
+intermedios reinvirtiéndose a la misma tasa de rentabilidad o el valor actual neto que asuma reinversiones a
+la tasa de retorno requerida?
+El supuesto que subyace en el cálculo de la tasa de rentabilidad implica que para cada proyecto en
+estudio, sus flujos intermedios se reinvierten a la tasa de rentabilidad de cada uno de ellos, es decir,
+diferentes tasas, a pesar de que los flujos intermedios de todos ellos ingresen en ]a empresa en conjunto para
+asignarlos también agregados a determinados usos.
+El valor actual neto, al utilizar la tasa de retorno requerida, implica suponer reinversión de los flujos
+de fondos a esa misma tasa.
+Asimismo, ésta es la tasa de retorno mínima requerida para los fondos aplicados a un determinado
+proyecto.
+Es evidente que en ciertos casos puede llegarse a conocer la tasa a la cual efectivamente se
+reinvertirán los fondos. Se puede establecer entonces que cuando no se conoce o no puede utilizarse la tasa a
+que se reinvertirán los flujos de fondos intermedios el supuesto de reinvertirlos a la tasa mínima de
+rendimiento aparece como el más adecuado; por lo tanto el valor presente neto surge como el criterio que
+reporta el resultado más confiable.
+11
+
+Esta es, a grandes rasgos, la posición que sostienen los tratadistas. Interesa agregar que la tasa de
+rentabilidad puede utilizarse, y que sus resultados de aceptación o de rechazo, en caso de inversiones
+excluyentes, serían iguales a los del valor actual neto, en la medida en que éste se calcule sobre la inversión
+incremental de la forma que se ha expuesto. Cuando la tasa de rentabilidad sobre la inversión incremental es
+superior a la tasa de retorno requerida, la inversión que mostraba un valor actual neto descontado mayor a
+una tasa igual a cero será la más conveniente, y coincidirá con los resultados reportados por el VPN. Por el
+contrario, si la tasa de rentabilidad sobre la inversión incremental es interior a la tasa de retorno requerida, la
+inversión de menor valor actual neto obtenido a la tasa cero será la más conveniente, lo que también,
+naturalmente, coincidirá con los resultados que ya reportaba el valor actual neto.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las causas de presencia de situaciones conflictivas entre la TIR y el VPN.
+7,5. ENFOQUE TERMINAL
+Los problemas acerca de la tasa de reinversión que se han tratado tienen su origen en el
+desconocimiento de una estimación razonable de la misma.
+Sin embargo, en ciertas oportunidades, ésta puede conocerse. E1 procedimiento a efectuar en estos
+casos sería calcular el valor terminal de los flujos de fondos. El mismo se determina capitalizando los flujos
+intermedios hasta el fin de la vida útil de la inversión a la tasa de reinversión considerada.
+Una vez obtenido el valor terminal, la tasa de rentabilidad terminal será aquella i que satisfaga:
+Valor terminal
+F (cid:2)
+0 (cid:1)
+1(cid:1)i
+(cid:2)n
+donde:
+n: es la vida útil de la inversión.
+A efectos de ejemplificar, supóngase el siguiente caso:
+F
+Períodos j
+($)
+0 (1.000)
+1 700
+2 700
+3 700
+La rentabilidad es:
+i = 48,72 %
+Suponiendo que los flujos de fondos se reinvertirán al 15 %, se tiene:
+F F terminales
+Períodos j j
+($) ($)
+0 (1.000) (1.000)
+1 700 (1+0,15)2 925,75
+12
+
+2 700 (1+0,15) 805
+3 700 700
+El valor terminal de los flujos de fondos se obtiene sumando
+925,75 + 805 + 700 = 2.430,75
+La tasa de rentabilidad terminal será aquella i que satisfaga:
+2.430,74
+1.000(cid:2)
+(cid:1)
+1(cid:1)i
+(cid:2)3
+Este valor es i = 34,46 %.
+El mismo procedimiento, que se efectuó con la tasa de rentabilidad, podría aplicarse con el valor
+actual neto. En este caso, se reinvertirían los flujos intermedios a una tasa adecuada, y luego de obtenido el
+valor terminal de los mismos, se descontaría a la tasa de retorno requerida.
+Según se conozcan las tasas de reinversión apropiadas, tanto la tasa de rentabilidad terminal como
+el valor actual neto terminal reportarán una medida de rentabilidad más afinada que las versiones comunes
+de ambos criterios.
+En el caso de inversiones excluyentes, la posibilidad de una situación conflictiva queda limitada a los
+problemas de diferencias en el tamaño de la inversión. En este caso, igual que antes, el VPN reporta la mejor
+solución. Puede calcularse también la tasa de rentabilidad terminal incremental, y en la medida en que la
+misma fuera superior a la tasa de retorno requerida, determinará que la inversión con mayor valor actual neto
+será la más conveniente (esto es, el resultado que ya había aportado el valor actual neto).
+En caso contrario, la solución es la inversa.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es la lógica económica del enfoque terminal y hasta qué punto soluciona los problemas que
+se buscan subsanar.
+7,6 DISPARIDADES EN EL TAMAÑO Y EN LAS VIDAS ÚTILES
+Puede suceder que dos inversiones excluyentes tengan disparidades en el tamaño y en las vidas
+útiles. Eso suele acarrear algunos problemas que es preciso repasar.
+a ) DISPARIDAD EN EL TAMAÑO
+Cuando se presenta esta situación, la solución viene dada por el cálculo de la tasa de rentabilidad de
+la inversión incremental.
+De esta forma, supónganse los proyectos A y B:
+Proyectos (F )
+j k
+Períodos A B
+(%)
+($) ($)
+0 (1.800) (3.000) -
+1 850 900 10
+2 1.000 1.200 10
+3 700 1.800 10
+13
+
+Los resultados son:
+Proyectos
+Criterio
+A B
+Tasa de rentabilidad (%) 20,29 13,92
+Valor presente neto ($) 325 237
+Si se obtiene la inversión incremental B-A, se tiene:
+F
+Períodos j
+($)
+0 (1.200)
+1 50
+2 200
+3 1.200
+La tasa de rentabilidad de la inversión incremental es i = 7,03 %, que es inferior a la tasa de retorno
+requerida (10 %), por lo que la inversión conveniente es la A. La inversión mayor que se efectúa con B no
+obtiene la rentabilidad mínima o, lo que es equivalente, tiene valor presente neto negativo de (87,68).
+Si existieran cruzamientos, se procedería de igual forma, como en el caso de los siguientes
+proyectos:
+Proyectos (F )
+j
+Períodos A B
+($) ($)
+0 (1.800) (2.800)
+1 850 900
+2 1.000 1.200
+3 700 1.900
+Los resultados son:
+Proyectos
+Criterio
+A B
+Tasa de rentabilidad (%) 20,29 17,62
+Valor presente neto ($) 325 437
+Si se obtuviese la tasa de rentabilidad sobre la inversión incremental, la misma sería igual al 14,32
+%, superior a la tasa de retorno requerida, por lo que una vez más el valor presente neto habría reportado el
+resultado adecuado.
+En estos casos, se podría proceder de la misma forma utilizando los flujos terminales.
+b) DISPARIDAD EN LAS VIDAS ÚTILES
+En el caso de inversiones excluyentes que tengan disparidad de las vidas útiles, es necesario
+homogeneizarlas, a efectos de una comparación adecuada.
+14
+
+En general, se ha planteado más de una solución a esta situación. Una de ellas implica suponer
+reinversiones al término de las vidas útiles de las inversiones, de modo tal de obtener el mínimo común
+múltiplo.
+Otra consiste en ampliar las vidas útiles de las inversiones, presumiendo reinversiones hasta
+igualarlas. El exceso de vida útil de una reinversión se resuelve a través del concepto del valor residual de la
+misma.
+Un método alternativo que ha recibido buena acogida técnica es suponer reemplazos infinitos.
+Se supone el caso de dos proyectos, A y B, de los cuales se extraen los siguientes datos:
+Proyectos
+Concepto
+A B
+Vida útil (años) 4 7
+Costo (F ) ($) 500 1.300
+0
+Flujo de fondos anuales (F) ($) 300 400
+j
+Tasa de rendimiento requerida (%) 8 10
+Se procede calculando en primera instancia el valor actual neto:
+A 300 x 3.3121 - 500 = 493,63
+B 400 x 4,8684 - 1.300 = 647,36
+Estos valores actuales netos corresponden al total de la vida útil de la inversión. ¿Qué valores
+anuales promedio deberían haber existido para que se produjera ese valor actual neto?
+Dicho total se obtiene dividiendo el valor actual neto calculado entre el valor de actualización, esto
+es:
+493,63
+A: (cid:2)149,04
+3,3121
+647,36
+B: (cid:2)132,97
+4,8684
+Sabiendo que la valuación en el caso perpetuo es U/k = V, se tiene que:
+(ver)
+149,04
+A: (cid:1)1863
+0,08
+132,97
+B: (cid:1)1329,7
+0,10
+de donde la inversión A sería la más conveniente.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+15
+
+1. Qué efecto tiene en la deseabilidad de las inversiones la disparidad en el tamaño y en las vidas
+útiles.
+7,7. RACIONAMIENTO DE CAPITAL
+La situación de racionamiento de capital se produce cuando las inversiones a realizar en un período
+están limitadas a un determinado monto. Esta situación es bastante común en los casos en que las empresas
+destinan a nuevas inversiones, por ejemplo, un monto igual al de las depreciaciones del ejercicio, o de los
+fondos generados internamente.
+El tema admite la existencia de racionamiento de capital interno o externo; este último, cuando el
+propio mercado de capitales establece restricciones. Una corriente de pensamiento formada principalmente
+por economistas entiende que el racionamiento de capital no existe en el mundo real. Se asume que toda
+buena proposición de inversión tendría el financiamiento requerido.
+Más allá de la validez conceptual de esta afirmación se supone que, de hecho, existen estas
+restricciones.
+El análisis del tratamiento de las decisiones de inversión se hará en distintas aproximaciones.
+PRIMERA APROXIMACIÓN
+Una primera forma de encarar el problema del análisis de inversiones en condiciones de
+racionamiento de capital consiste en seleccionar aquel grupo de inversiones que pueden participar tomando
+esa restricción y que maximizan el valor de la empresa.
+Suponiendo que una empresa en la que existe, para el ejercicio en consideración, una restricción de
+capital de $ 30.000 tiene las siguientes oportunidades de inversión:
+Oportunidades Inversión inicial Relación
+de inversión ($) beneficio/costo
+1 22.000 1,3
+2 20.000 1,25
+3 10.000 1,20
+4 15.000 1,10
+5 30.000 0,9
+La inversión 1 es la que tiene mayor beneficio/costo (1,3), lo que equivale a suponer que posee un
+valor actual neto de 6.600, surgido de 22.000 ( 1,3 - 1). De elegirse esa inversión. no podría efectuarse otra,
+puesto que el exceso de capital 8.000 = (30.000 - 22.000) es inferior al monto de las restantes inversiones.
+Si, por el contrario, se eligieran las inversiones 2 y 3, se llegaría a un valor actual neto de
+7.000 que es superior a l de la inversión l.
+20.000 (1,25 -1) 5.000
+10.000 (1,2- 1) 2.000
+7.000
+Esta forma de resolver el problema del racionamiento de capital merece algunos comentarios:
+a) en primer lugar, y ello no sólo se atribuye a esta forma de resolver el problema, debe quedar claro que la
+situación de racionamiento de capital significa una suboptimización, es decir, quedan sin implementar
+proyectos que aumentarían el valor de la empresa y que no se llevan adelante por exceder las
+dimensiones del capital asignado;
+b) en condiciones de racionamiento, la tasa de rendimiento requerida (costo del capital) más allá de la
+restricción se hace infinita;
+c) en el caso de que luego de efectuar la combinación de proyectos más adecuada sobraran fondos, se
+supone que los mismos se invierten a la tasa de rendimiento requerida.
+16
+
+Esta suposición no siempre puede ser la adecuada.
+SEGUNDA APROXIMACIÓN
+LORIE y SAVAGE (1955) desarrollaron, dando un paso más adelante en este análisis, la aplicación de
+la programación lineal. El problema que ellos plantearon fue el siguiente:
+Valor presente
+Valor actual neto
+Inversiones Periodo 1 Periodo 2
+($)
+($) ($)
+1 12 3 14
+2 54 7 17
+3 6 6 17
+4 6 2 15
+5 30 35 40
+6 6 6 12
+7 48 4 14
+8 36 3 10
+9 18 3 12
+Las restricciones de capital para el período 1 son 50, y para el período 2 son 20.
+El problema planteado consistía en maximizar:
+n
+(cid:1) Van x
+i i
+i(cid:2)1
+sujeto a:
+n
+(cid:1) C x (cid:3)C
+ti i t
+i(cid:2)1
+donde
+0(cid:1)x (cid:1)1
+i
+Van : valor actual neto del proyecto i;
+i
+X : proporción de la inversión a realizar, valor entre 0 y 1;
+i
+C : inversión del proyecto i en el periodo t,
+ti
+C : restricción presupuestaria del periodo t.
+t
+La solución hallada fue:
+x = 1,0
+1
+x = 0
+2
+x =1,0
+3
+17
+
+x =1,0
+4
+x = 0
+5
+x = 0,97
+6
+x = 0,045
+7
+x = 0
+8
+x = 1
+9
+En suma, el resultado dice que el proyecto 1 se debe efectuar en un 100 %; el 2 no se debe ejecutar;
+el 3 se debe realizar en un 100 %; el 6, en un 97 %; el 7, en un 4,5 %; etcétera.
+Buscando resolver esta situación, WEINGARTNER (1963) utiliza la programación lineal con números
+enteros, donde x toma valores 0 o 1 .
+El problema de LORIE y SAVAGE en la versión de WEINGARTNER rechaza el proyecto 7 y acepta el
+proyecto 6.
+Asimismo, WEINGARTNER estudió el problema dual de la solución de LORIE y SAVAGE, obteniendo
+los valores de W1 = 0,136 y W2 = /,864.
+Ello debe interpretarse así si se aumentara en $ 1 la restricción del período 1, el VAN total lo haría en
+$ 0,136. Similar interpretación cabe para el segundo caso.
+El análisis de la programación lineal con enteros se puede aplicar con otras restricciones, como
+proyectos excluyentes. Por ejemplo, si fueran excluyentes los proyectos 2, 3 y 5, debería plantearse como:
+x + x + x ≥ 1
+2 3 5
+La aplicación de la programación lineal al análisis de inversiones ha recibido críticas. Dos de ellas
+son:
+a) No toma en cuenta la incertidumbre. Esto es, la aleatoriedad de los valores actuales netos no se incluye
+en el análisis. Esta crítica toma más importancia desde el momento en que se piensa que, en las finanzas
+modernas, las relaciones entre riesgo y rendimiento son fundamentales.
+b) En segundo lugar, se debe señalar que el proceso de decisión de inversiones es dinámico; es decir,
+permanentemente están surgiendo nuevas proposiciones respecto de las que hay que tomar decisiones.
+Ese dinamismo no se incorpora en este análisis.
+De todas formas, el proceso de análisis de inversiones en condiciones de racionamiento de capital ha
+tenido aportes de significación.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. En qué consiste el racionamiento de capital, cómo se resuelven los problemas en él y cuán
+frecuente es.
+18
+
+APÉNDICE
+DECISIONES DE REEMPLAZO
+En las decisiones de reemplazo de equipos, suelen plantearse problemas derivados de las diferentes
+vidas útiles de las inversiones que se están analizando. Si dos proyectos son independientes, pueden tener
+vida útil diferente, y los resultados de sus evaluaciones pueden ser utilizables directamente. Sin embargo, en
+el caso de inversiones excluyentes —esto es, por ejemplo, dos opciones para reemplazar una máquina ya
+desgastada—, deben igualarse las vidas útiles.
+Esta circunstancia da lugar a lo que se conoce como "cadena de reemplazos". Su tratamiento se
+efectuará en dos aproximaciones.
+PRIMERA APROXIMACIÓN
+Supóngase que se va a reemplazar una máquina, que ya estaba obsoleta y producía en forma
+ineficiente. Se le abren a la firma dos posibilidades para reemplazaría, que se llamarán 1 y 2.
+La posibilidad 1 es la de una máquina que tiene una vida útil de 5 años, con un costo inicial de $
+10.000 y una producción de flujo de fondos positivo durante los 5 años de $ 3.400.
+En el caso 2, se tiene una máquina que cuesta $ 15.000 y que posee una vida útil de 10 años, con un
+flujo de fondos anual de $ 3. 100.
+Si la tasa de costo del capital es del 8 % y no se igualan las vidas útiles, se llega a los siguientes
+valores actuales netos:
+VPN1 = 3.400 x 3,9927 - 10.000 = 13.575,18 - 10.000 = 3.575,18
+VPN2 = 3.100 x 6,7101 - 15.000 = 20.801,31 - 15.000 = 5.801,31
+Siguiendo este razonamiento, la opción 2 seria más conveniente, puesto que con ella se obtendría un
+valor actual neto de $ 5.801,31, en tanto que en la opción 1 el valor actual neto llega a $ 3.575,18. Este
+análisis, sin embargo, consideró las inversiones excluyentes con distintas vidas útiles.
+Estas inversiones podrían igualarse en su vida útil, suponiendo una reinversión al fin del año 5 de
+una nueva máquina 1, de forma que, con esa cadena de reemplazos, las dos inversiones tendrían un período
+de evaluación de 10 años.
+En esta aproximación el valor actual neto de la opción 2 queda en $ 5.801,31. En el caso de la opción
+1, éste se debe recalcular. El nuevo valor actual neto se obtiene de la siguiente forma:
+Valor actual neto de los flujos positivos
+3.400 x 6,71 = 22.814
+Valor actual neto = 22.814 - 10.000 x 0,68 - 10.000 = 6.014
+La alternativa 1, suponiendo una cadena de reemplazos, tiene un valor actual neto de $ 6.014,
+superior al de la alternativa 2. De esta forma, el proyecto a llevar adelante es el l.
+SEGUNDA APROXIMACIÓN
+En esta oportunidad se van a evaluar dos inversiones, 1 y 2, considerando un reemplazo infinito de
+las dos alternativas. Se aplica el método señalado en este capítulo, para el caso de inversiones excluyentes
+con distinta vida útil.
+19
+
+Supónganse dos alternativas, con los siguientes elementos:
+Detalle Alternativa 1 Alternativa 2
+Flujo de fondos anual ($) 2.500 2.900
+Inversión Inicial ($) 10.000 20.000
+Vida útil (años) 7 9
+Tasa de rendimiento requerida(%) 6 8
+Se calcula primariamente el valor actual neto de cada alternativa.
+1. 2.500 x 5,5824 - 10.000 = 3.956.
+2. 3.900 x 6,2469 - 20.000 = 4.363.
+Como se aprecia, el valor actual neto de la alternativa 2 es mayor que el de la alternativa l .
+Se puede entonces, partiendo de esas cifras, determinar cuáles serian los flujos de fondos anuales que
+hubiera hecho obtener ese valor presente neto.
+Los mismos serían:
+3.956
+1. (cid:1)709
+5,5824
+4.363
+2. (cid:1)698
+6,2469
+Si se suponen rentas perpetuas, es sabido que la valuación en este caso es igual a:
+anualidad equivalente
+tasa de rendimiento requerida
+De esta forma, para ambas alternativas se llega a los siguientes resultados:
+709
+1. (cid:1)11.817
+0,06
+698
+2. (cid:1)8.725
+0,08
+La elección ahora recae en la alternativa 1, en lugar de la 2.
+El método supone la posibilidad de efectuar renovaciones perpetuas. Su aplicabilidad depende, en
+buena medida, de la realidad de ese supuesto.
+20

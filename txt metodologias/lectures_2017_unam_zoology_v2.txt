@@ -1,0 +1,520 @@
+ZOOLOGY OF FINANCIAL MARKETS
+Mauricio Labadie, PhD
+Algorithmic Quant/Trader
+AES – Credit Suisse (London, UK)
+Workshop in Quantitative Trading 2017
+Facultad de Ciencias, UNAM
+Mexico City, 17-19 May 2017
+“The opinions and views expressed in this presentation are uniquely those of the author and do not necessarily
+represent those of Credit Suisse.”
+1 Zoology - Mauricio Labadie
+
+Disclaimer
+Everything I say during this workshop, in written and/or orally:
+www.svsamiti.org
+ Is my own and personal opinion
+ It is meant to be solely for educational purposes
+ Does not commit me or my employer to anything
+ Does not necessarily represent my employer’s point of view
+ Does not constitute any kind of investment advice
+2 Zoology - Mauricio Labadie
+
+A bit about myself
+3 Zoology - Mauricio Labadie
+
+Table of Contents
+1. Zoology of financial markets
+ Sell side: retail and investment banks, etc
+ Buy side: investors, asset managers, hedge funds, etc
+ Middle men: brokers, market makers, etc
+2. Investment funds
+ Capital Asset Pricing Model (CAPM)
+ Index trackers: beta one
+ Asset managers: positive alpha, smart beta
+ Hedge funds: pure alpha
+3. Some investment strategies
+ Leverage
+ Short selling
+ Derivatives
+4. Conclusions
+4 Zoology - Mauricio Labadie
+
+1. Zoology of financial markets
+5 Zoology - Mauricio Labadie
+
+Financial markets as an ecosystem
+ All markets have:
+ Infrastructure: geography
+ Regulations: Nature’s constraints
+ Investment opportunities: food
+ Agents: species
+ All financial agents are related in the market:
+ Cooperative way: symbiosis
+ Competitive way: parasitism, food chain
+wildscenics.photoshelter.com
+ Agents adapt and change strategies:
+ Increase profits and reduce losses: mutation
+ Only the most profitable strategies survive: natural selection
+6 Zoology - Mauricio Labadie
+
+Agents: investors (UK)
+•
+Sma ll savers:
+ bonnerandpartners.com
+They deposit their money in banks, earning an interest rate
+•
+Small investors:
+
+People with less than 85k GBP
+
+Protected by the Financial Services Compensation Scheme
+
+Can only invest in standard instruments
+
+Information disadvantage  more legal protection
+•
+High net worth investors (according to the Financial Conduct Authority)
+
+People with more than 250k GBP in assets or annual income of at least 100k GBP
+
+Can invest in standard and non-standard financial instruments
+
+Information advantage  less legal protection
+•
+Institutional investors:
+
+Entities that pool money from multiple individual clients
+
+They invest to increase their assets under management (AUM)
+
+Examples: Pension funds, insurance companies, asset managers, hedge funds, sovereign
+wealth funds
+7 Zoology - Mauricio Labadie
+
+Agents: banks
+•
+Retail banks:
+
+Their profit is lend rate – deposit rate
+ residential.jll.co.uk
+They receive deposits from savers
+
+They lend money to consumers
+
+Risk management: creditworthiness of clients
+
+They move capital to where it is needed
+
+From savers to consumers/entrepreneurs
+•
+Investment banks:
+
+They sell financial instruments to investors: selling side
+
+They create new financial products based on investors’ demand
+
+Complex products require strong quantitative analysts: quants
+
+Mathematical and financial models
+
+Risk management policies and forecasts
+
+Profits made by volume traded + margin/prime over hedging price: flow trading
+8 Zoology - Mauricio Labadie
+
+Agents: markets
+•
+A ma rket is a place where a buyer of an instrument meets a seller
+
+It can be an exchange or over-the-counter
+•
+A transaction in an exchange: chapelleconsulting.com
+
+Done with listed, standard instruments
+
+Shares, bonds, futures, options, ETFs
+
+Buyers and sellers do not meet
+
+They trade based on what is available in the market
+
+Has a clearing house:
+
+Daily margins and settlements
+
+It minimises counterparty and credit risk
+•
+A transaction OTC: www.entrepreneur.com
+
+Done with ad hoc, tailored financial instruments
+
+Exotic options, structured products, CDOs
+
+Buyers and sellers meet and agree to trade
+
+Has no guarantee both sides will honour the agreement:
+
+Counterparty and credit risk
+9 Zoolo gy - Mauricio Labadie
+
+Agents: brokers
+
+They are intermediaries between investors and the markets
+
+They buy/sell financial instruments on exchanges/OTC on behalf of clients
+
+They can also give financial and investment advice to clients
+stockbrokerpro.com
+
+Suggest products based on clients’ risk appetite
+
+Provide research on stocks and market trends
+
+They charge commissions for their services:
+
+Account management: annual fee
+
+Per deal: unitary price
+
+Per volume: fraction of total notional traded
+
+Their risk is more reputational than monetary
+
+The profit and loss (PNL) on a trade sits totally on the client’s side
+
+Brokers live by the commissions: no volume  no business
+
+Investors choose brokers for their trustworthiness and services
+10 Zoology - Mauricio Labadie
+
+Agents: market makers
+ They are liquidity providers
+youtube.com – investor trading academy
+ They offer buy and sell prices to traders and investors
+ They make firm buy and sell quotes:
+ They show a price and a volume on both buy and sell
+ They are bound to trade at those conditions
+ Their profit is made via the spread:
+ The spread is sell price – buy price
+ If there is a buy (sell) followed by a sell (buy), they earn the spread
+ If there is enough flow on both buys and sells, they are profitable
+quantinsti.com
+ Their risk profile has two components
+ Adverse selection: they are always on the wrong side of a trend
+ Inventory risk: they cannot (fully) control the arrival of trade orders
+ Side note: the spread is a proxy of liquidity
+ More liquid names  more market makers competing  tighter spreads
+11 Zoology - Mauricio Labadie
+
+Agents: asset managers
+
+They are professionals of portfolio management
+
+They invest on financial instruments on behalf of their clients
+
+High net worth individuals, institutional investors
+
+Small investors via pooling and investment vehicles
+keywordsuggest.org/gallery
+
+They charge an annual fee based on the AUM
+
+Between 0.5% and 2%
+
+They invest based on a given mandate
+
+Index trackers, long only, long/short, leveraged, etc
+
+Equities, fixed income, cash, property, etc
+
+Allocation based on risk appetite
+
+Benchmark: target return for the fund (e.g. the return of the S&P 500)
+
+As long as the manager beats the benchmark, they are doing well
+
+Tracker funds try to replicate the benchmark’s performance, not beat it
+12 Zoology - Mauricio Labadie
+
+Agents: hedge funds
+
+They are asset management firms with alternative investment strategies
+
+More liberty in their investment toolkit
+
+Leveraged products
+cnbc.com
+
+Long/short
+
+Derivatives
+
+High turnover
+
+They charge 2 kinds of fees:
+
+Like asset managers, an annual fee: 2%
+
+Performance fee:
+
+The fund keeps 20% of all profits
+
+But only if the fund is profitable
+
+They aim for absolute return
+
+Aim to deliver positive returns in all market conditions
+
+Not a relative return vs benchmark, as asset managers
+13 Zoology - Mauricio Labadie
+
+Agents: prime brokers
+
+They are the credit lines of the investment management firms
+
+This service is mainly provided by investment banks psihologiya.top
+
+Some of the services they offer:
+
+Borrow money, so investors can trade
+
+Borrow stock, so investors can short sell
+
+Advisory and support:
+
+Legal, accounting, commercial
+
+Access to a wide range of products:
+
+All products and services in the prime broker’s firm
+
+Execution, research, structured products, swaps, funds, ETFs, etc
+14 Zoology - Mauricio Labadie
+
+Agents: arbitrageurs
+
+An arbitrage is to take advantage of a market inefficiency
+
+An arbitrageur
+
+Generally a short-term speculator
+
+But they make markets more efficient
+
+Examples of arbitrage:
+
+Prices or mispricing arbitrage:
+www.mql5.com
+
+Buy and sell instruments far from their fundamental price
+
+Venues or space arbitrage:
+
+Buy and sell the same product in two different markets, cashing the difference
+
+Time value or term-structure arbitrage:
+
+Interest rates and volatility; calendar strategies with options
+
+Statistical arbitrage or stat arb:
+
+Spot and exploit trading patterns that are statistically robust
+15 Zoology - Mauricio Labadie
+
+Agents: prop traders
+ They speculate in capital markets with their own money
+ Unlike funds, they have no clients
+ They have the highest flexibility on investment strategies:
+ All asset classes: equities, fixed income, forex, credit, commodities
+ All markets: US, Europe, APAC, Emerging, etc
+ All derivatives: vanilla, exotic, structured, etc
+www.sanglucci.com
+ Particular case of prop trading: High Frequency Trading
+ Investing in technology and speed for a competitive advantage
+ Latency and reaction time measured in microseconds
+ Examples of HFTs: arbitrageurs and market makers
+ Before the Dodd-Frank reform and the Volcker Rule:
+ Banks used to have their own prop trading desks
+ Currently, prop trading in banks is almost banned
+ But market makers and risk traders are exonerated of the Volker rule
+16 Zoology - Mauricio Labadie
+
+The financial ecosystem in one picture
+17 Zoology - Mauricio Labadie
+
+2. Investment funds and CAPM
+18 Zoology - Mauricio Labadie
+
+Capital Asset Pricing Model (CAPM)
+ The CAPM relates the return of an asset to the return of the market
+ Define
+ 𝑟 the return of asset 𝑎
+𝑎
+ 𝑟 the return of the market 𝑀
+𝑀
+ 𝑟 the return of the risk-free rate 𝐹
+𝐹
+ Then
+ E 𝑟 − 𝑟 = 𝛽 E 𝑟 − 𝑟
+𝑎 𝐹 𝑀 𝐹
+ Where
+𝐶𝑜𝑣 𝑟 ,𝑟
+ 𝛽 = 𝑎 𝑀
+𝑉𝑎𝑟 𝑟
+𝑀
+19 Zoology - Mauricio Labadie
+
+CAPM, alpha and beta
+ In a sentence, the CAPM is a linear regression of 𝑟 w.r.t. 𝑟
+𝑎 𝑀
+ A classical linear regression with intercept is
+ 𝑟 = 𝛼 + 𝛽𝑟 + 𝜀
+𝑎 𝑀
+ The error 𝜀 is called the idiosyncratic risk
+ It can be eliminated via diversification
+ 𝜀 is orthogonal to 𝑟 and 𝐸 𝜀 = 0
+𝑀
+ 𝛽 is called the systematic risk
+ Exposure of asset 𝑎 to the market
+ Cannot be diversified away
+imgs.xkcd.com
+ 𝛼 is called the absolute return
+ 𝛼 is orthogonal to 𝑟 and 𝜀
+𝑀
+ It is the fraction of the total return 𝑟 that cannot be explained by market fluctuations
+𝑎
+20 Zoology - Mauricio Labadie
+
+Classifying funds with CAPM
+ Index tracker: Replicate the performance of a benchmark e.g. an index such as S&P 500
+ 𝛽 = 1
+ 𝛼 = 0
+ Asset manager: Outperform the market by adding some uncorrelated extra return
+ 𝛽 = 1
+ 𝛼 > 0
+ Smart beta: Outperform the market by slightly modifying the market weights of an index
+ 𝛽 > 1 when the market is up
+ 𝛽 < 1 when the market is down
+ 𝛼 = 0
+ Hedge fund: Deliver absolute returns not correlated with the market
+ 𝛽 = 0
+ 𝛼 > 0
+21 Zoology - Mauricio Labadie
+
+Diagram of funds
+alpha
+Hedge fund
+Asset manager
+Index tracker
+beta
+1
+Smart beta
+22 Zoology - Mauricio Labadie
+
+3. Some investment strategies
+23 Zoology - Mauricio Labadie
+
+Leverage
+• The leverage is the ratio of the total value of the positions over the total assets under
+management (AUM)
+𝑃𝑜𝑠𝑖𝑡𝑖𝑜𝑛𝑠
+ 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒 =
+𝐴𝑈𝑀
+• According to the OECD (OCDE in Spanish), during the 2007 crisis:
+ The investment banks had an average leverage of 30
+• The Basel III rules require at least 10.5% of liquid assets
+ Maximum leverage of 9.5
+• Historically, hedge funds have an average leverage of 5
+biggerpockets.com
+• Leverage is a double-edged sword
+ It amplifies the profits
+ But also amplifies the losses
+• Some Forex websites offer leverages up to 400%
+ A gain of 0.10% in the trade  a profit of 0.1% ∗ 400 = 40% in the investment
+ A loss of 0.25% in the trade  a loss of 0.25% ∗ 400 = 100% in the investment
+24 Zoology - Mauricio Labadie
+
+Short selling
+ A short sell is a trading strategy
+ It is a bet that a security (usually a stock) will fall in price
+ We sell an asset now with the idea of buying it later at a cheaper price, making a profit
+napkinfinance.com
+ It is often labelled as “selling something you do not own”
+ But it is more than that:
+ Step 1: Borrow a stock from your prime broker
+ Step 2: Sell the borrowed stock on the market
+ Step 3: Buy back the stock on the market
+ Step 4: Return the borrowed stock to the prime broker
+ Plus an interest rate for the loan
+ Short selling is an asymmetric bet due to the loan rate:
+ Suppose the loan rate is 0.10%
+ If the price goes down by 1%  the net profit is 0.9%
+ If the price goes up by 1%  the net loss is 1.1%
+25 Zoology - Mauricio Labadie
+
+Derivatives
+ A derivative is a financial instrument whose value depends on another instrument
+quora.com
+ The underlying
+ Examples:
+ Futures, options, ETFs, swaps, CDSs, CDOs, etc
+ Properties:
+ They allow investors to have specific return profiles (payoff)
+ Their price depends on several variables and their sensitivities (derivatives or greeks):
+ Delta: price of the underlying
+ Vega: volatility of the underling
+ Rho: interest rates
+ Theta: time
+ Gamma: changes in the delta
+ Some derivatives have an intrinsic leverage effect
+26 Zoology - Mauricio Labadie
+
+Example of leverage in options
+• Spot price: 𝑆 𝑡 = 100 GBP
+• Strike Price: 𝐾 = 100 GBP (at-the-money option)
+• Assume 𝑆 𝑡 follows a binomial tree of period 1:
+ Price can go up to 103 with probability 𝑝
+ Price can go down to 98 with probability 1 − 𝑝
+• Risk-neutral probability: 𝑝 such that 𝑆 𝑡 is a martingale
+ 𝐸 𝑆 𝑡 + 1 |F = 𝑆 𝑡 = 100
+𝑡
+• Binomial tree:
+ 𝐸 𝑆(𝑡 + 1)|F = 𝑝 ∗ 103 + 1 − 𝑝 ∗ 98
+𝑡
+• Therefore 100 = 𝑝 ∗ 103 + 1 − 𝑝 ∗ 98  𝑝 = 2/5
+ Call option price:
+2 3
+ 𝐸 (𝑆 𝑡 + 1 − 𝐾) |F = ∗ 103 − 100 + ∗ 98 − 100 = 1.20 GBP
++ 𝑡 + +
+5 5
+3−1.2
+ Price up 3%  option at 𝑡 + 1 is worth 3 GBP  return of = +150%
+1.2
+0−1.2
+ Price down 2%  option at 𝑡 + 1 is worthless  return of = −100%
+1.2
+27 Zoology - Mauricio Labadie
+
+4. Conclusions
+28 Zoology - Mauricio Labadie
+
+Summary and conclusions
+ Summary
+ We described the different “species” in the “zoology” of the financial markets
+ We showed how the agents interact between themselves
+ We revisited the CAPM and showed how it can be used to classify investment funds
+ We explained 3 investment strategies: leverage, short selling and derivatives
+ Conclusions
+ There are several different agents in the financial markets
+ The beauty of Finance is that there is a niche for everyone
+ Trading styles
+ Investment strategies
+ Asset classes
+ But not all strategies, styles and asset classes are adequate for every one
+ Choose the best combination based on your personal risk profile
+29 Zoology - Mauricio Labadie
+
+Thank you for your
+attention
+www.processexcellencenetwork.com
+30 Zoology - Mauricio Labadie

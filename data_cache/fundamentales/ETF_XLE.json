@@ -1,0 +1,60 @@
+{
+ "ticker_yf": "XLE",
+ "empresa": "State Street Energy Select Sector SPDR ETF",
+ "es_etf": true,
+ "top_holdings": [
+  {
+   "holding": "ExxonMobil Holdings Corp",
+   "symbol": "XOM",
+   "peso": 0.20581141
+  },
+  {
+   "holding": "Chevron Corp",
+   "symbol": "CVX",
+   "peso": 0.1525565
+  },
+  {
+   "holding": "ConocoPhillips",
+   "symbol": "COP",
+   "peso": 0.0607684
+  },
+  {
+   "holding": "Marathon Petroleum Corp",
+   "symbol": "MPC",
+   "peso": 0.049300198
+  },
+  {
+   "holding": "Phillips 66",
+   "symbol": "PSX",
+   "peso": 0.0491118
+  },
+  {
+   "holding": "Valero Energy Corp",
+   "symbol": "VLO",
+   "peso": 0.047444202
+  },
+  {
+   "holding": "EOG Resources Inc",
+   "symbol": "EOG",
+   "peso": 0.0455115
+  },
+  {
+   "holding": "SLB Ltd",
+   "symbol": "SLB",
+   "peso": 0.043176398
+  },
+  {
+   "holding": "Kinder Morgan Inc Class P",
+   "symbol": "KMI",
+   "peso": 0.0390768
+  },
+  {
+   "holding": "Williams Companies Inc",
+   "symbol": "WMB",
+   "peso": 0.0386299
+  }
+ ],
+ "descripcion": "In seeking to track the performance of the index, the fund employs a replication strategy. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies that have been identified as Energy companies by the GICS®, including securities of companies from the following industries: oil, gas and consumable fuels; and en",
+ "expense_ratio": null,
+ "_fetched_at": "2026-08-25T14:23:17.855452"
+}

@@ -1,0 +1,1239 @@
+Optimal starting times, stopping times and risk measures for
+algorithmic trading: Target Close and Implementation Shortfall
+Mauricio Labadie 1 3 Charles-Albert Lehalle 2 3
+December 17, 2013
+Abstract
+WederiveexplicitrecursiveformulasforTargetClose(TC)andImplementationShortfall(IS)in
+theAlmgren-Chrissframework. Weexplainhowtocomputetheoptimalstartingandstoppingtimes
+for IS and TC, respectively, given a minimum trading size. We also show how to add a minimum
+participation rate constraint (Percentage of Volume, PVol) for both TC and IS.
+Wealsostudyanalternativesetofriskmeasuresfortheoptimisationofalgorithmictradingcurves.
+We assume a self-similar process (e.g. L´evy process, fractional Brownian motion or fractal process)
+anddefineanewriskmeasure,thep-variation,whichreducestothevarianceiftheprocessisaBrown-
+ianmotion. WededucetheexplicitformulafortheTCandISalgorithmsunderaself-similarprocess.
+We show that there is an two-way relationship between self-similar models and a family of risk
+measures called p-variations. indeed, it is equivalent to have (1) a self-similar process and calibrate
+empiricallytheparameterpforthep-variation, or(2)aBrownian motion andusethep-variationas
+risk measure instead of the variance. We also show that p can be seen as a fine-tuning parameter
+which modulates the aggressiveness of the trading protocole: p increases if and only if the TC algo-
+rithm starts later and executes faster.
+Finally,weshowhowtheparameterpofthep-variationcanbeimpliedfromtheoptimalstarting
+timeofTC.Underthisframeworkpcanbeviewedasameasureofthejointimpactofmarketimpact
+(i.e. liquidity) and volatility.
+Keywords: Quantitative Finance, High-Frequency Trading, Algorithmic Trading, Optimal Execution,
+Market Impact, Risk Measures, Self-similar Processes, Fractal Processes.
+1Correspondingauthor. EXQIM(EXclusiveQuantitativeInvestmentManagement). 24RuedeCaumartin75009Paris,
+France. Email: mauricio.labadie@gmail.com.
+2CFM(CapitalFundManagement). 23Ruedel’Universit´e75007Paris,France.
+3 This research was mostly done when both authors were working at Cr´edit Agricole - Cheuvreux (now Kepler
+Cheuvreux).
+1
+3102
+ceD
+61
+]RT.nif-q[
+6v2843.5021:viXra
+
+2 M. Labadie · C.A. Lehalle
+Contents
+1 Introduction 3
+2 Optimal starting and stopping times 5
+2.1 A review of the mean-variance optimisation of Almgren-Chriss . . . . . . . . . . . . . . . 5
+2.2 The Shooting Method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+2.3 Derivation of the Target Close (TC) algorithm . . . . . . . . . . . . . . . . . . . . . . . . 9
+2.4 Derivation of the Implementation Shortfall (IS) algorithm . . . . . . . . . . . . . . . . . . 10
+2.5 Comparison between TC and IS. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+2.6 Adding constraints: Percentage of Volume (PVol) . . . . . . . . . . . . . . . . . . . . . . . 12
+2.7 Computing the optimal stopping time for TC . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.8 Numerical results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+3 Non-Brownian models: self-similar processes 15
+3.1 The p-variation model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+3.2 Optimal trading algorithms using p-variance as risk measure. . . . . . . . . . . . . . . . . 16
+3.3 Examples of self-similar processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+3.4 Numerical results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+4 Assessing the effects of the risk measure 20
+4.1 Equivalence between risk measures and models . . . . . . . . . . . . . . . . . . . . . . . . 20
+4.2 Risk measures, starting times and slopes for the TC algorithm . . . . . . . . . . . . . . . 21
+4.3 Implied p-variation for CAC40 and link with liquidity . . . . . . . . . . . . . . . . . . . . 22
+5 Final remarks 24
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 3
+1 Introduction
+Purpose of the paper. Trading algorithms are used by asset managers to control the trading rate of
+alargeorder,performingabalancebetweentradingfasttominimiseexposuretomarketriskandtrading
+slow to minimise market impact (for an overview of quantitative trading methods, see [Lehalle, 2012]
+and [Abergel et al., 2012]). This balance is usually captured via a cost function which takes into account
+two joint effects, namely the market impact and the market risk. The first frameworks to be proposed
+were [Bertsimas and Lo, 1998] and [Almgren and Chriss, 2000], the latter using a mean-variance crite-
+ria. More sophisticated cost functions have been already proposed in the academic literature, leading
+to the use of different optimization approaches like stochastic control (see [Bouchard et al., 2011] or
+[Gu´eant et al., 2011]) or stochastic algorithms (see [Pag`es et al., 2012]).
+From the practitioners’ viewpoint, the cost function to choose is far from obvious. The easiest way
+to proceed is to replace the choice of the cost function by observable features of the market. This is the
+approachchoseninthispaper, wherethecostfunctiongeneralisesthemean-varianceframeworksofboth
+Almgren-Chriss and [Gatheral et al., 2010], which a mean-p-variation. Instead of complex cost functions
+and compute-intensive parameter calibration, this paper proposes a simpler approach that covers a large
+class of parametrized cost function already in use by practitioners. We calibrate the parameters from
+observable variables like stopping times and maximum participation rates.
+This approach is very flexible and customisable. Indeed, since it depends on a single fine-tuning
+parameter p, a practitioner can either calibrate p or modify it by hand to fit their risk budget. A
+good example is the maximum participation rate: actually most practitioners are using a mean-variance
+criteria with an arbitrary risk aversion parameter, but add a “control layer” to their algorithms in order
+to ensure that the participation on real time will never be more than a pre-determined threshold (i.e.
+the trading algorithm will never buy or sell more than a certain percentage of the volume traded by the
+wholemarket); hereweproposeawaytoincludethisconstraintintothefulloptimisationprocess, atthe
+very first step of the process. Moreover, some traders know that they would like to see a given algorithm
+finishabuyofagivennumberofshareswithinacertaintimeperiod; again; weproposeawaytoimplicit
+the parameters of the cost function to achieve this.
+Anoptimaltradingframeworkforthetargetcloseandimplementationshortfallbenchmarks
+with percentage of volume constraints.
+ATC(TargetClose)algorithmisatradingstrategythataimstoexecuteacertainamountofsharesas
+nearaspossibletotheclosingauctionprice. SincethebenchmarkwithrespecttowhichtheTCalgorithm
+ismeasuredistheclosingprice,thetraderhasinterestinexecutingmostoftheirorderatthecloseauction.
+However, if the number of shares to trade is too large, the order cannot be totally executed at the
+close auction without moving the price too much due to its market impact [Gatheral and Schied, 2012].
+Therefore,thetraderhastotradesomesharesduringthecontinuousauctionphase(i.e. beforetheclose)
+followingoneofthenowwell-knownoptimaltradingalgorithmsavailable,e.g. mean-varianceoptimisation
+(following [Almgren and Chriss, 2000]) or stochastic control (like in [Bouchard et al., 2011]).
+As we have mentioned above, this paper will stay close to the original Almgren-Chriss framework,
+extending the risk measure from the variance to a general p-variation criterion. The goal of this paper
+to explain the practical interpretation of the p-variation parameter used in the optimisation scheme and
+show how to choose them optimally in practice.
+The p-variation is an extension of the variance, depending on p, since when p = 2 we recover the
+variance. When p (cid:54)= 2 the trader assumes that (1) the price is no longer a martingale, i.e. there are
+patterns in prices (trend-following or mean-reverting), and (2) the time-scaling properties of prices are
+
+4 M. Labadie · C.A. Lehalle
+notasintheBrownianmotion. Therefore, anewriskmeasureotherthanvarianceisneeded. Thispaper
+explores the impact of p on the properties of the obtained optimal trading curve, and relates it with
+self-similar processes (e.g. fractional Brownian motion, L´evy processes and multifractal processes).
+Inverting the optimal liquidation problem putting the emphasis on observables of the ob-
+tained trading process.
+We will show that the TC (Target Close) algorithm can be seen as a “reverse IS” (Implementation
+Shortfall) –see equation (12) and following for details–. In this framework, the starting time for a TC
+is as important than the ending time for an IS. For practitioners this distinction is even more critical
+since shortening the trading duration of an IS because of an interesting price opportunity can always be
+justified, but beginning sooner or later than an “expected optimal start time” for a TC is more difficult
+to explain.
+The paper also shows that the results obtained for the TC criterion can be applied to the IS criterion
+becauseTCandISarebothsidesofthesamecoin. Indeed,ontheonehand,theTChasapre-determined
+end time, its benchmark is the price at the end of the execution and the starting time is unknown. On
+the other hand, IS has a pre-determined starting time, its benchmark is the price at the beginning of the
+execution and the stopping time is unknown. Therefore, there is no surprise that the recursive formula
+for IS turns out to be exactly the same that for TC but with the time running backwards.
+It is customary for practitioners to put constraints on the maximum participation rate of a trading
+algorithms (say 20% of the volume traded by the market). Therefore, it is of paramount importance
+to find a systematic way of computing the starting time of a TC under a percentage of volume (PVol)
+constraint. Such an “optimal trading policy under PVol constraint” is properly defined and solved in
+this paper. A numerical example with real data is provided, where the optimal trading curves and their
+corresponding optimal starting times are computed.
+Solving the TC problem under constraints allows us to analyze the impact of the parameters of the
+optimisation criterion on observable variables of the trading process. It should be straightforward for
+quantitative traders the task to implement our results numerically, i.e. to choose the characteristics of
+the trading process they would like to target and then infer the proper value of the parameters of the
+criterion they need.
+Link between a mean p-variation criterion and self similar price formation processes.
+[Almgren and Chriss, 2000]developedamean-varianceframeworktotradeIS(ImplementationShort-
+fall) portfolios driven by a Brownian motion. More recently, [Lehalle, 2009] extended the model to
+Gaussian portfolios whilst [Gatheral and Schied, 2012] addressed the same problem for the geometric
+Brownian motion. In this article we extend the analysis to a broad class of non-Brownian models, the
+so-called self-similar models, which include L´evy processes and fractional Brownian motion (for empiri-
+cal studies about the self-similarity of intraday data, see [Xu and Genc¸ay, 2003], [Mu¨ller et al., 1990] or
+[Cont et al., 1997]). Westudyindetailtherelationshipbetweentheexponentofself-similarity,thechoice
+oftheriskmeasureandthelevelofaggressivenessofthealgorithm. Weshowthattherearetwoopposite
+approaches that nevertheless give the same recursive trading formula: one assumes a self-similar process,
+estimates the exponent of self-similarity H and chooses the p-variation via p = 1/H; the other assumes
+a classical Brownian motion and chooses the p-variation as the risk measure instead of the the variance.
+InthesamewaythestartingtimeofaTCortheendingtimeofanIScanbeusedasanobservableto
+infer values of parameters of the optimization program, the maximum participation rate is expressed as
+a function of p for a mean p-variance criterion. In the light of this, a quantitative trader who has chosen
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 5
+to trade no more than 30% of the market volume during a given time interval, can modifie the value of
+p to fine-tune their execution and respect their constraints.
+This paper formalizes an innovative approach of optimal trading based on observable variables, risk
+budget and participation constraints. By doing so, it opens the door to a framework close to risk neutral
+valuation of derivative products in optimal trading: instead of choosing the measure under which to
+compute the expectation of the payoff (because optimal trading is always considered under historical
+measure), we propose to infer the value of some parameters of the cost function so that the trading
+process will satisfy some observable characteristics (start time, end time, maximum participation rate,
+etc). In this framework, instead of being hedged with respect to market prices, the trader will be hedged
+with respect to the risk-performance profile of an ideal trading process, i.e. a proxy she defined a priori.
+Noticethatwehavechosentoextendtheusualmean-variancecriterionratherthangoingtomorenon-
+parametricapproacheslikestochasticcontrol. Themainreasonforthisapproachisbecauseourframework
+allows more explicit recurrent formulas, not to mention that our method can be easily extended to other
+execution algorithms besides TC and IS.
+Organisation of the article.
+InSection2wederiveanonlinear,explicitrecursiveformulaforboththeTCandISalgorithmswitha
+nonlinear market impact. We explain how to build a TC algorithm under a maximum participation rate
+constraint (percentage of volume, PVol). We provide a numerical example using real data, in which we
+computed the trading curves and their optimal starting time. All our computations can be also applied
+to IS.
+In Section 3 we extend the analysis for a class of non-Brownian models called self-similar processes,
+whichincludeL´evyProcesses,fractionalBrownianmotionandfractalprocesses. Wedefineanadhoc risk
+measure,denotedp-variation,whichrendersthecostfunctionallinearintime. Weshownumericallythat
+the exponent of self-similarity H can be viewed as a fine-tuning parameter for the level of aggressiveness
+of the TC algorithm under PVol constraint.
+In Section 4 we assess the effect of the parameter p in terms of risk management. We show the
+existenceofanequivalencebetweenriskmeasuresofp-variationtypeandself-similarmodelsofexponent
+H: choosingaself-similarmodel,estimatingH anddefiningp=1/H fortheriskmeasureyieldsthesame
+tradingcurveasassumingaBrownianmotionbutchangingtheriskmeasurefromvariancetop-variation.
+We also study the effect of p on the starting times for TC and the slopes of the corresponding trading
+curves
+We conclude by showing how the parameter p of the p-variation can be implied from the optimal
+starting time of TC. In that framework p can be viewed measure of the joint impact of market impact
+(i.e. liquidity) and volatility.
+2 Optimal starting and stopping times
+2.1 A review of the mean-variance optimisation of Almgren-Chriss
+Thissectionrecallstheframework,notationandresultsin[Almgren and Chriss, 2000]and[Lehalle, 2009].
+Suppose we want to trade an asset S throughout a time horizon T > 0. Assume that we have already
+set the trading schedule, i.e. we will do N trades at evenly distributed times
+0=t <t <t <···<t =T.
+0 1 2 N
+
+6 M. Labadie · C.A. Lehalle
+The goal is, given a volume to execute v∗, find the optimal quantity of shares v to execute at time t
+n n
+that minimise the joint effect of market impact and market risk under the constraint
+N
+(cid:88)
+v =v∗ >0. (1)
+i
+i=1
+Define τ =t −t and assume that the price dynamics follows a Brownian motion, i.e.
+n n−1
+S =S +σ τ1/2ε , (2)
+n+1 n n+1 n+1
+where (ε ) are i.i.d. normal random variables of mean zero and variance 1, and (σ ) are
+n 1≤n≤N n 1≤n≤N
+the historical volatilities at the trading times (t ) .4 Following [Almgren and Chriss, 2000] and
+n 1≤n≤N
+[Lehalle, 2009], we will model the temporary market impact as a function h(v ), i.e. depending solely
+n
+on what happens at each trading time.5 Under this framework, the wealth process (i.e. the full trading
+revenue upon completion of all trades) is
+N
+(cid:88)
+W = q v (S +q h(v )) (3)
+n n n n n
+n=1
+N N
+(cid:88) (cid:88)
+= q v S + v h(v ),
+n n n n n
+n=1 n=1
+N N n N
+(cid:88) (cid:88)(cid:88) (cid:88)
+= S q v + q v σ τε + v h(v ),
+0 n n n n i i n n
+n=1 n=1i=1 n=1
+where q = 1 if we buy at time t and q = −1 if we sell. Assume we have long-only portfolio, i.e.
+n n n
+q =+1. In this framework, if we use the identity
+n
+N n N (cid:32) N (cid:33)
+(cid:88)(cid:88) (cid:88) (cid:88)
+a b = b a
+n i n i
+n=1i=1 n=1 i=n
+and the change of variables
+N
+(cid:88)
+x := v ⇐⇒ v =x −x
+n i n n n+1
+i=n
+it follows that the wealth process becomes
+N N
+(cid:88) (cid:88)
+W(x ,...,x )=S v∗+ σ τ1/2ε x + (x −x )h(x −x ). (4)
+1 n 0 n n n n n+1 n n+1
+n=1 n=1
+4 We will be assuming in this paper that the historical volatility and volume curves (σn)
+1≤n≤N
+and (Vn)
+1≤n≤N
+are
+non-costantthroughoutthedayandknownex-antee.g. astheaverageoveraperiodoftime. Inpractice,boththeaverage
+historical volatility and volume present a U-shape pattern: they are higher at the open and close of the market than in
+between.
+5 Strictly speaking, the function h(·) is the temporary market impact. In our study we have decided to neglect the
+permanentmarketimpactfortwomainreasons. First, thepermanentimpactissmallerthanthetemporaryimpactsince
+wearenottakingintoaccounttherelaxationduetotheelasticityofprices. Therefore,weareovervaluingtherealimpact
+in the long run, and as such our analysis is thus conservative. Second, since the permanent impact is usually modelled
+as linear, any trading curve will have the same permanent impact. There is thus no loss of generality if we assume zero
+permanentimpact.
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 7
+The expectation and variance of the wealth process (3) are, respectively,
+N N
+(cid:88) (cid:88)
+E(W)=S v∗+ (x −x )h(x −x ), V(W)= σ2τx2 .
+0 n n+1 n n+1 n n
+n=1 n=1
+Therefore, the corresponding mean-variance cost functional for a level of risk aversion λ>0 is
+J (x ,...,x ) = E(W)+λV(W) (5)
+λ 1 N
+N N
+(cid:88) (cid:88)
+= S v∗+ (x −x )h(x −x )+λ σ2τx2 .
+0 n n+1 n n+1 n n
+n=1 n=1
+In order to find the optimal trading curve we have to find the points (x ,...,x ) that solve the system
+1 N
+∂J
+λ =0, n=1,...,N.
+∂x
+n
+If the market impact function v (cid:55)→h(v ) is strictly monotone and differentiable for positive values, e.g.
+n n
+h(s)=sγ with γ >0, it is possible to obtain explicit recursive algorithms of the form
+x =f(x ,x ) (6)
+n+1 n n−1
+constraints x =v∗ and x =0.
+0 N+1
+2.2 The Shooting Method
+Notice that (6) is completely determined once the values x and x are known. More generally, once two
+0 1
+different values x and x with i < j are known, the other values x can be computed. However, the
+i j n
+method is not necessarily explicit and recursive if i (cid:54)= 0 or j (cid:54)= 1. In our case, we have the constraints
+x = v∗ and x = 0, i.e. an initial and a final condition, which implies that (6) is no longer an
+0 N+1
+explicitandrecursivealgorithm. Nevertheless, theproblemcanbesolvedexplicitlyandrecursivelyusing
+a dichotomy method called Shooting Method.
+We start with the following ordinary Differential Equation (ODE):
+y(cid:48)(cid:48) =g(y,y(cid:48)); t∈[a,b], y(a)=A, y(cid:48)(a)=α, (7)
+where g is a bounded and differentiable function. According to the standard theory of ODEs, the initial-
+value problem (7) has a unique solution y(t).6
+Now consider the boundary problem
+y(cid:48)(cid:48) =g(y,y(cid:48)); t∈[a,b], y(a)=A∈R, y(b)=B ∈R. (8)
+It is not evident that (8) has a solution. However, we can try to translate the boundary problem (8) into
+an initial-value problem of type (7), for which we know that solutions do exist.
+6Strictly speaking, the solution y(t) only exists locally, but it is globally defined if g and all its partial derivatives are
+continuousandbounded(seee.g. [Perko,2001]).
+
+8 M. Labadie · C.A. Lehalle
+The shooting method consists exactly in this translation. Indeed, for any α ∈ R, the initial-value
+problem (7) has a solution y(t,α). To solve the boundary problem (8), we need to find α such that
+0
+y(b,α )=B. Roughly speaking, we are playing with the parameter α in order to “hit” B (see Figure 1).
+0
+In consequence, the boundary problem (8) reduces to find a zero of the function
+F(α)=y(b,α)−B,
+whichcanbesolvedusinganynumericalmethod,e.g. bisectionorNewton(seee.g. [Stoer and Bulirsch, 1983]).
+Figure 1: The shooting method. Varying the “shooting angle” α we can find the right angle α such that the
+0
+curve y(t,α) ”hits the target”, i.e. y(b,α )=B.
+0
+Suppose we have already found the optimal trading curve (x ,...,x ) via a recursive algorithm of
+1 N
+the form, i.e.
+x =F(x ,x ) (9)
+n+1 n n−1
+under the constraints x = 1 and x = 0. Using an induction argument it can be shown that x is a
+0 N+1 n
+function of x and x for n≥2. By induction we obtain that x is a function of x , i.e.
+0 1 N+1 1
+x =F(x ),
+N+1 1
+because x has been already fixed to be equal to 1. If we define x = α then α is a free parameter that
+0 1
+completely determines the optimal trading curve. An important remark is that α can be related to the
+the slope of the trading curve at x because
+0
+x −x
+1 0 =α−1.
+1−0
+By considering α as the “slope” we can see an analogy of the optimal trading curve with the shooting
+method. Underthisnewframework,ouroptimizationproblemreducestofindα suchthatF(α )=0(=
+0 0
+x ). Indeed, if we choose x =α then x =F(α )=0, as we wished.
+N+1 1 0 n+1 0
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 9
+The beauty of the analogy with the shooting method is that we are working with a 1-dimensional
+functionF(x )insteadoftheN-dimensionalfunctionalJ (x ,...,x ). Inconsequence, usingtheshoot-
+1 λ 1 N
+ing method we are always solving a 1D problem regardless of the number of trades N. This fact renders
+our algorithm very appealing for high frequency trading.
+2.3 Derivation of the Target Close (TC) algorithm
+As in [Almgren, 2003], [Almgren, 2003] and [Bouchaud, 2010], we will consider a power market impact
+function, i.e.
+(cid:18)
+v
+(cid:19)γ
+h(v )=κσ τ1/2 n , (10)
+n n V
+n
+where v is the amount of shares executed at the n-th pillar (i.e. at time t ), V is the historical volume
+n n n
+at the n-th pillar, σ is the (normalised) historical volatility at the n-th pillar, and κ and γ are positive
+n
+constants. Under this framework, the wealth process (4) takes the form
+W =S v∗+ (cid:88)
+N
+σ τ1/2ε x + (cid:88)
+N
+κσ τ1/2v
+(cid:18)
+v n
+(cid:19)γ
+, (11)
+0 n n n n n V
+n
+n=1 n=1
+where N is the number of slices in the trading algorithm. The first term in the right-hand side of (11) is
+the cost of executing v∗ := (cid:80)N v shares; the second term models the market impact of the execution
+i=1 i
+as a power law of the percentage of volume executed at each pillar n=1,...,N.
+ForaTCalgorithm, thebenchmarkistheclosingprice. Therefore, thewealthprocessrelativetothis
+benchmark is
+N
+(cid:88)
+W(cid:93) = W −S v .
+N n
+n=1
+Define
+n N
+(cid:88) (cid:88)
+x := v and y := v
+n i n i
+i=1 i=n
+(notice that this notation differs from what we used in Section 2.1). Under this framework, it follows
+that
+N
+(cid:88)
+W(cid:93) = W −S v∗−y σ τ1/2ε
+0 1 n n
+n=1
+= (cid:88) N (y −y )σ τ1/2ε + (cid:88) N κσ τ1/2 (y n −y n+1 )γ+1
+n 1 n n n Vγ
+n
+n=1 n=1
+= (cid:32) − N (cid:88) −1 x σ ε + (cid:88) N κσ (x n −x n−1 )γ+1 (cid:33) τ1/2. (12)
+n n+1 n+1 n Vγ
+n
+n=1 n=1
+Since the time-step τ1/2 is a constant multiplicative factor, we can consider a normalised relative wealth
+W(cid:93)
+W˜ := .
+τ1/2
+
+10 M. Labadie · C.A. Lehalle
+We are not losing any generality with the normalisation because it is equivalent to use a normalised
+volatility σ˜ :=σ τ1/2. Under this new framework, the average and variance of W˜ are, respectively,
+n n
+E(W˜)= (cid:88) N κσ (x n −x n−1 )γ+1 , V(W˜)= N (cid:88) −1 x2σ2 .
+n Vγ n n+1
+n
+n=1 n=1
+The corresponding mean-variance functional is thus
+J (x ,...,x ) = E(W˜)+λV(W˜)
+λ 1 N
+= (cid:88) N κσ (x n −x n−1 )γ+1 +λ N (cid:88) −1 x2σ2
+n Vγ n n+1
+n
+n=1 n=1
+= (cid:88) N κσ (x n −x n−1 )γ+1 + (cid:88) N λ(n,N)x2σ2 ,
+n Vγ n n+1
+n
+n=1 n=1
+where λ(n,N)=λ if n<N and λ(N,N)=0. The optimal trading curve is determined by solving
+∂J
+λ =0, n=1,...,N,
+∂x
+n
+i.e.
+(x −x )γ (x −x )γ
+κσ (γ+1) n n−1 −κσ (γ+1) n+1 n +2λ(n,N)σ2 x =0.
+n Vγ n+1 Vγ n+1 n
+n n+1
+Returning to the variables v we get
+n
+κσ (γ+1)
+(cid:18)
+v n
+(cid:19)γ
+−κσ (γ+1)
+(cid:18)
+v n+1
+(cid:19)γ
++2λ(n,N)σ2
+(cid:32)
+(cid:88)
+n
+v
+(cid:33)
+=0.
+n V n+1 V n+1 i
+n n+1
+i=1
+Finally,weobtainanexplicit,nonlinearrecursiveformulaoftheoptimaltradingcurveforaTCalgorithm:
+v =V
+(cid:34)
+σ n
+(cid:18)
+v n
+(cid:19)γ
++ 2λ(n,N) σ
+(cid:32)
+(cid:88)
+n
+v
+(cid:33)(cid:35)1/γ
+. (13)
+n+1 n+1 σ V κ(γ+1) n+1 i
+n+1 n
+i=1
+2.4 Derivation of the Implementation Shortfall (IS) algorithm
+For an IS algorithm, the starting time is given and we have to find the optimal stopping time for our
+execution. Sincethebenchmarkisthepriceatthemomentwhentheexecutionstarts,therelativewealth
+of an IS algorithm is7
+N
+(cid:88)
+W(cid:93) =W −S v .
+1 n
+n=1
+7 S0 isthepriceattimet0 i.e. themomentwhenthetraderdecidedtostarttheirexecution. S1 isthepriceatt1 i.e.
+themomentthefirsttradetookplace. Ifwetakeintoaccountthepriceslippageduetothedelaybetweent0 andt1 then
+the benchmark for IS should be S0. On the contrary, if we neglect the delay then the benchmark is S1. In this paper we
+takethesecondapproach.
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 11
+Using the change of variables
+N
+(cid:88)
+x := v ⇐⇒ v =x −x ,
+n i n n n+1
+i=n
+and equation (11) it can be shown that the relative wealth process is
+W(cid:93) = (cid:88) N x σ τ1/2ε + (cid:88) N κσ τ1/2 (x n −x n−1 )γ+1
+n n n n Vγ
+n
+n=2 n=1
+= (cid:32) (cid:88) N x σ ε + (cid:88) N κσ (x n −x n−1 )γ+1 (cid:33) τ1/2.
+n n n n Vγ
+n
+n=2 n=1
+As in the TC case, we can consider a normalised relative wealth
+W(cid:93)
+W˜ := ,
+τ1/2
+whose mean and variance are, respectively,
+E(W˜)= (cid:88) N κσ (x n −x n+1 )γ+1 , V(W˜)= (cid:88) N x2σ2.
+n Vγ n n
+n
+n=1 n=2
+In consequence, the corresponding mean-variance functional is
+J (x ,...,x ) = E(W˜)+λV(W˜)
+λ 1 N
+= (cid:88) N κσ (x n −x n+1 )γ+1 + (cid:88) N λ(n,1)x2σ2,
+n Vγ n n
+n
+n=1 n=1
+where λ(n,1)=λ if n>1 and λ(1,1)=0. The optimal trading curve is determined by solving
+∂J
+λ =0, n=1,...,N,
+∂x
+n
+i.e.
+(x −x )γ (x −x )γ
+κσ (γ+1) n n+1 −κσ (γ+1) n−1 n +2λ(n,1)σ2x =0.
+n Vγ n−1 Vγ n n
+n n+1
+Returning to the variables v we get
+n
+κσ (γ+1)
+(cid:18)
+v n
+(cid:19)γ
+−κσ (γ+1)
+(cid:18)
+v n−1
+(cid:19)γ
++2λ(n,1)σ2
+(cid:32)
+(cid:88)
+N
+v
+(cid:33)
+=0.
+n V n−1 V n i
+n n+1
+i=n
+We thus obtain the recursive nonlinear formula for the optimal IS trading curve:
+v =V (cid:34) σ n (cid:18) v n (cid:19)γ + 2λ(n,1) σ n 2 (cid:32) (cid:88) N v (cid:33)(cid:35)1/γ . (14)
+n−1 n−1 σ V κ(γ+1)σ i
+n−1 n n−1
+i=n
+
+12 M. Labadie · C.A. Lehalle
+2.5 Comparison between TC and IS
+If the volatility is constant then the recursive algorithm (13) for TC is exactly the same as (14) for IS,
+except for the time in IS running backwards. In the light of this mirror property, the analysis we will
+be performing fro TC can be nturally extrapolated for IS, e.g. adding a maximum participation rate
+constraint and computing the optimal starting time.
+If the volatility is not constant then there is a slight difference in the formulas (13) and (14), namely
+a factor σ (=σ2 /σ ) for TC and a factor of σ2/σ . From the practitioner’s point of view, this
+n+1 n+1 n+1 n n−1
+difference is paramount. For TC it is the forward volatility σ which determines the weight of
+(cid:80)n
+v
+n+1 i=1 i
+i.e. the shares already executed. This comes from the fact that the ending time is fixed (the market
+close)andthenumberofsharestotradeperpillarincreasesintime. Inthisscenario, notonlythetrader
+has little room to change their schedule, but also they have to anticipate the volatility one step ahead in
+order to avoid nasty surprises. For IS it is the spot volatility σ that counts: since the number of shares
+n
+per pillar decreases in time, the trader has more room to change the trading schedule the closer they are
+to the end of the execution. In consecuence, they can capitalise on potential arbitrage opportunities.
+2.6 Adding constraints: Percentage of Volume (PVol)
+The TC algorithm can have a participation rate constraint, meaning that the size of each slice cannot
+exceed a fixed percentage of the available volume (either current or historic average). This restriction is
+called Percentage of Volume (PVol), which is an execution algorithm itself. Under a PVol constraint, the
+trading slices v of the TC algorithm satisfy the constraint
+n
+v ≤qV , q ∈(0,1).
+n n
+ItisworthtonoticethatthePVolalgorithmisnotasolutionoftheAlmgren-Chrissoptimisation. Indeed,
+if it were then
+v
+n =p ∀n=1,...,N,
+V
+n
+and from (13) we would have that
+n
+(cid:88)
+v =0.
+i
+i=1
+In consequence, since v ≥0 it follows that v =0 for all n, which contradicts (1).
+n n
+In general, if two adjacent pillars n and n+1 satisfy the PVol constraint then the previous argument
+showsthatv =0foralli=1,...,N. Therefore,thetwoalgorithmsTCandPVolaremutuallyexclusive.
+i
+ThisimpliesthataclassicaloptimisationschemeofTCwiththePVolconstraintviaLagrangemultipliers
+is not straightforward, to say the least. We thus have to find another way to obtain a solution of the TC
+algorithm under the PVol constraint.
+From (13) we see that given v , the corresponding v depends on
+(cid:80)n
+v , i.e. the cumulative
+n n+1 i=1 i
+execution up to n, which implies that curve is in general increasing. Therefore, in order to satisfy the
+constraint of maximum percentage of volume (PVol), if the total volume to execute is large then the
+algorithm has to be divided into two patterns:
+1. Aslongastheconstraintofmaximumparticipationrate(PVol)isnotreached,weexecutetheslices
+according to the Almgren-Chriss recursive formula. This corresponds to the TC pattern.
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 13
+2. As soon as the PVol constraint is attained, the algorithm executes the minimum between the TC
+curve and PVol curve.
+Loosely speaking, we start with a TC algorithm, but once the slices are saturated we switch to a PVol
+algorithm until the end of the execution. However, it can happen that the algo switches back to TC if
+the PVol curve is bigger at a further pillar; this situation is exceptional though, save for cases where the
+volume curve presents sharp peaks or gaps.
+It is worth to mention that adding a PVol constraint to IS is essentially the same as adding the
+constraint for TC and running the TC algorithm backwards.
+2.7 Computing the optimal stopping time for TC
+Let us describe in detail all the steps of our TC algorithm under PVol constraint. Let n be the starting
+0
+time, n theswitchingtime(i.e. whenwechangefromTCtoPVol)andαthenumberofshareswetrade
+1
+at pillar n .
+0
+1. According to the historical estimates of the available volume at the close auction, plus the desired
+participation rate, we define the execution at the pillar n=103 (the close auction), denoted v(cid:93).
+2. We compute the Almgren-Chriss algorithm for the residual shares v(cid:91) = v∗−v(cid:93) i.e. the shares to
+execute in continuous, outside of the close auction. We start with n =1 and n =102 and launch
+0 1
+theTCrecursiveargument(13). Sincethealgorithmiscompletelydeterminedbyv =α,itsuffices
+1
+to find the right α such that the cumulative shares at n =102 are equal to v(cid:91).
+1
+3. We compare the trading curve of the previous step with the PVol curve. If the PVol constraint is
+satisfied then we are done. If not, we saturate pillar n=102 with the PVol constraint and redefine
+theparameters: v(cid:91) isnowthesharestoexecuteoutsidebothpillars103and102,i.e. v(cid:91) =v(cid:91)−v ,
+102
+whilst n is set to 101, i.e. n =n −1.
+1 1 1
+4. Eventually, we will obtain a TC curve starting at n = 1 that switches to PVol at n ≤ 102,
+0 1
+satisfying the constraint. Moreover, the algorithm finds the right α at n = 1 such that the total
+0
+execution from n = 1 to n = 103 is equal to v∗. Remark that the whole algorithm executes TC
+between n = 1 to n , PVol between n and n = 102, and the desired participation at the close
+0 1 1
+auction at n=103.
+5. In order to find the right starting time n , we define a minimal trading size for each slice, that we
+0
+denote α . Let α be the minimum of the trading curve we have already found in the previous
+min 0
+step. If α < α then we advance one pillar, i.e. n passes from 1 to 2, and we recompute the
+0 min 0
+trading curve. In order to continue hitting the target we change α for the cumulative trades of the
+previous step up to pillar n=2. We continue until we find the first pillar n such that α ≥α ;
+0 0 min
+notice that in this case α will be the cumulative trades of the previous step up to the pillar n .
+0
+Therefore, n is determined by the PVol constraint whilst n is determined by the minimal trading size
+1 0
+constraintα . Noticehoweverthattheoptimalstartingpillarn isdeterminedaftern , whichimplies
+min 0 1
+that n depends not only on α but also on the rest of the parameters, in particular the PVol curve, the
+0 0
+participation rate at the close auction and the market impact parameters.
+Observe that there is a systematic way of computing the stopping pillar for an IS algorithm: it corre-
+sponds to the backwards or symmetrical image of the starting time we computed for the TC algorithm.
+
+14 M. Labadie · C.A. Lehalle
+2.8 Numerical results
+Target Close with PVol constraint (start=34 switch=94)
+10000
+5000
+0
+40 50 60 70 80 90 100
+serahs
+TC with PVol constraint
+PVol
+x 104 Cum. Target Close with PVol constraint
+15
+10
+5
+0
+40 50 60 70 80 90 100
+pillar number
+serahs
+.muc
+cum. TC with PVol constraint
+volume to execute
+Figure 2: Cumulative TC curves under PVol constraint.
+InthefirstplotofFigure2wehavetheTCcurve(solidline)underPVolconstraintvsthePVolcurve
+(brokenline)ofstockAIRP.PA(AirLiquide). Inthesecondplotwehavethecumulativeexecutionofthe
+TC curve (solid line) under PVol constraint vs the volume to execute v∗ (broken line). The parameters
+we used are v∗ = 150,000 shares, α = 500 shares and a maximum participation of 20% in both the
+min
+continuous trading period and the close auction. The historical volatility and volume curves, the market
+impactparametersκandγ andtherisk-aversioncoefficientλwereprovidedbytheQuantitativeResearch
+at Cheuvreux - Cr´edit Agricole.
+In Figure 2 we can also observe that the algorithm finds the optimal starting time at pillar n = 34
+(beginning of the horizontal axis), at which it starts to execute the order following the TC algorithm
+based on the Almgren-Chriss optimisation. At pillar n = 94 (vertical line) the algorithm switches to
+PVol in order to satisfy the constraint. Moreover, during the whole execution, the PVol constraint has
+been satisfied. In the second plot we can see that the TC algorithm under PVol constraint successfully
+executed the whole order.
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 15
+3 Non-Brownian models: self-similar processes
+3.1 The p-variation model
+Letp>1andy =(y ,...,y )∈RN bearandomvectorofmeanzero. Wedefinethep-variation ofy as
+1 N
+N
+(cid:88)
+V (y):= E[|y |p].
+p n
+n=1
+The p-variation V (y) and the l -norm in RN are related via
+p p
+(cid:107)y(cid:107) =V (y)1/p.
+p p
+Notice that if y =(y ,...,y ) is a time series of i.i.d. random variables then the 2-variation reduces to
+1 N
+the variance, i.e.
+V (y)=Var(y).
+2
+Moreover, it is easy to show that the p-variation defines a metric on RN, and since all norms in RN are
+equivalent there exist 0<β <β such that
+1 2
+β (cid:107)y(cid:107) ≤(cid:107)y(cid:107) ≤β (cid:107)y(cid:107) .
+1 p 2 2 p
+Therefore, the variance (i.e. the 2-variation) and the p-variation are two equivalent metrics on RN, and
+in particular
+V (y)∼V (y)p/2. (15)
+p 2
+Nowletusdefinethep-variationforaspecialfamilyoffunctionsofrandomvariables. Lety =(y ,...,y )
+1 N
+a random vector of mean zero and consider the function F :RN →R defined as
+N
+(cid:88)
+F(y)= y .
+n
+n=1
+We define the p-variation of F as
+N
+(cid:88)
+V (F)= E[|y |p].
+p n
+n=1
+Observe that if y =(y ,...,y ) is a time series of mean zero then V (F) is the sample p-th moment of
+1 N p
+the time series y multiplied by N. Finally, for general functions F such that
+N
+(cid:88)
+F −E(F)= y
+n
+n=1
+we define their p-variation as
+V (F):=V (F −E(F))=V (y).
+p p p
+It is worth o remark that if the random variables y =(y ,...,y ) are i.i.d. of mean zero and variance 1
+1 N
+then the 2-variation and the variance of y coincide:
+V (F)=Var(y).
+2
+
+16 M. Labadie · C.A. Lehalle
+3.2 Optimal trading algorithms using p-variance as risk measure
+Assume that the price dynamics is self-similar, i.e.
+S =S +σ τHε , (16)
+n+1 n n+1 n+1
+where H ∈ (0,1) and (ε ) are identically-distributed random variables such that E[ε ] = 0, not
+n 1≤n≤N n
+necessarily independent. We will assume a power market impact of the form
+(cid:18)
+v
+(cid:19)γ
+h(v )=κσ τH n . (17)
+n n V
+n
+In order to use the p-variation as a risk measure, we have to choose the right p. From (16) we see
+that if H = 1/2 we recover the classical Brownian motion, for which the variance is the most common
+choice for a risk measure. In this case we have H =1/2 and p=2, which implies that the risk measure
+is linear in time. This suggests that the correct choice of p is p=1/H, since it is the only p that renders
+the risk p-variation as a risk measure linear in time.
+We would like to remark that the idea of a risk measure that is linear in time was also introduced
+by Gatheral and Schied [Gatheral and Schied, 2012], where the risk measure was the expectation of the
+time-average. The advantage of our approach is that we do not fix a priori the dynamics of the price
+process. Indeed, we first find empirically the right exponent of self-similarity H and then we choose the
+correct risk measure via p=1/H.
+In order to derive the recursive formula for a process following (16), we normalise the relative wealth
+as in the previous case of Brownian motion. Under this framework, the normalised relative wealth of a
+TC algorithm is
+W˜ =− N (cid:88) −1 x σ ε + (cid:88) N κσ (x n −x n−1 )γ+1 . (18)
+n n+1 n+1 n Vγ
+n
+n=1 n=1
+We will assume that the process (16) is normalised, i.e. E[|ε |p] = 1 for all n. In the case of Brownian
+n
+motion (H =1/2 and p=2) this is equivalent to suppose that the increments (ε ) have variance
+n 1≤n≤N
+1. Under this framework, the mean and p-variation of W˜ are
+E(W˜)= (cid:88) N κσ (x n −x n−1 )γ+1 , V (W˜)= N (cid:88) −1 xpσp .
+n Vγ p n n+1
+n
+n=1 n=1
+Therefore, the corresponding p-functional is
+J (x ,...,x ) = E(W˜)+λV (W˜)
+p 1 N p
+= (cid:88) N κσ (x n −x n−1 )γ+1 + (cid:88) N λ(n,N)xpσp ,
+n Vγ n n+1
+n
+n=1 n=1
+where λ(n,N)=λ if n<N and λ(N,N)=0. The optimal trading curve is determined by solving
+∂J
+p =0, n=1,...,N,
+∂x
+n
+i.e.
+(x −x )γ (x −x )γ
+κσ (γ+1) n n−1 −κσ (γ+1) n+1 n +pλ(n,N)σp xp−1 =0.
+n Vγ n+1 Vγ n+1 n
+n n+1
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 17
+Returning to the variables v we get
+n
+κσ (γ+1)
+(cid:18)
+v n
+(cid:19)γ
+−κσ (γ+1)
+(cid:18)
+v n+1
+(cid:19)γ
++pλ(n,N)σp
+(cid:32)
+(cid:88)
+n
+v
+(cid:33)p−1
+=0.
+n V n+1 V n+1 i
+n n+1
+i=1
+WethusobtaintherecursivenonlinearformulafortheoptimalTCtradingcurveforaself-similarprocess:
+v n+1 =V n+1
+
+ σ σ n
+(cid:18)
+V v n
+(cid:19)γ
++ p κ λ (γ (n + ,N 1) ) σ n p− + 1 1
+(cid:32)
+(cid:88)
+n
+v i
+(cid:33)p−1 
+
+1/γ
+. (19)
+n+1 n
+i=1
+If we were interested in the IS algorithm, an argument similar to the previous one would show that the
+optimal trading curve for IS satisfies
+v n−1 =V n−1   σ σ n (cid:18) V v n (cid:19)γ + κ p ( λ γ (n + ,1 1 ) )σ σ n p (cid:32) (cid:88) N v i (cid:33)p−1  1/γ , (20)
+n−1 n n−1
+i=n
+where λ(n,1)=λ if n>1 and λ(1,1)=0.
+3.3 Examples of self-similar processes
+Amongsttheclassofcontinuousstochasticprocessesthatadmitadiscretisationoftheform(16),wehave
+three processes in mind: L´evy processes, fractional Brownian motion and fractal processes (for more de-
+tailswesuggest[Bacry et al., 2001],[Bouchaud and Potters, 2004],[Embrechts, 2002],[Mandelbrot and Hudson, 2004]
+and [Mantegna and Stanley, 1994])).
+• Truncated L´evy processes. p-stable L´evy processes are the only self-similar processes satisfying
+(16) with H = 1/p and with independent, stationary increments. If p = 2 we recover the classical
+Brownianmotion. However,forsuchprocessesthep-thmomentisinfinite,andassuchtheycannot
+beusedinourframework. Nevertheless,onecanconsidertheso-calledtruncated L´evydistributions,
+whichareL´evywithinaboundedintervalandexponentialonthetails. Thisallowsmomentsofany
+order, inparticularthep-thmoment, whilstwithintheboundedintervalwekeeptheself-similarity
+given by (16).
+• Fractional Brownian motion. The fractional Brownian motion is the only self-similar process
+withstationary,Gaussianincrements. Itsexponentofself-similarityH iscalledHurst exponent). If
+H =1/2 we recover the classical Brownian motion. The fractional Brownian motion has moments
+of all orders, hence the p-variation is well-defined and we can apply our model. However, for
+H (cid:54)=1/2 the increments are auto-correlated (positively if H >1/2 and negatively if H <1/2) and
+our model does not take into account the auto correlations. Therefore, we can consider our model
+as an approximation when auto correlations are weak with respect to the market impact and the
+p-variance.
+• Multifractal processes. Multifractal processes are defined as follows. Given a stochastic process
+X(t) its fluctuation is defined as
+δ X(t):=X(t+l)−X(t).
+l
+
+18 M. Labadie · C.A. Lehalle
+For any q >0 define
+m(q,l):=E[|δ X(t)|q] .
+l
+We say that X(t) is multifractal of exponents ζ(q) if for any q >0 there exists K(q)>0 such that
+m(q,l)=K(q)lζ(q).
+In the case where ζ(q) is linear, i.e. ζ(q) = qH the process X(t) is called monofractal. If ζ(q) is
+not linear then X(t) is called multifractal. Notice that all self-similar processes are monofractal, in
+particular the fractional Brownian motion and L´evy processes. However, we will continue to use
+the term self-similar, even for monofractal process, since it is more common in the literature.
+3.4 Numerical results
+In Figure 3 we plotted three TC curves under the PVol constraint for three different self-similarity
+exponents H, which gives three different p’s for the p-variation (recall p=1/H).
+H p start pillar switch pillar
+0.55 1.8 17 102
+0.50 2.0 34 94
+0.45 2.2 50 89
+Our numerical example renders the following evidence, which has been found in all runs we have
+performed:
+• If H increases then the starting pillar of the execution decreases, i.e. the execution starts earlier.
+• IfH increasesthenthepillaratwithweswitchfromTCtoPVolincreases, i.e. thePVolconstraint
+is saturated later.
+SincestartingtheexecutionlaterandsaturatingthePVolconstraintearlierisrelatedtohigherlevels
+of aggressiveness, we can infer from Figure 3 that the level of aggressiveness of TC under the PVol
+constraint decreases as H increases. This finding is quite natural if we assume that the model is a
+fractional Brownian motion and H is the Hurst exponent:
+• ForH <1/2theprocesshasnegativeautocorrelations,i.e. itbehavesasamean-revertingprocess.
+Therefore, the market impact is reduced because prices go back to their level after an execution.
+In consequence, we can execute the order faster than in the case of a classical Brownian motion:
+we start the execution later and we go as fast as possible, and as such we saturate the constraint
+earlier.
+• For H > 1/2 the process has positive auto correlations, i.e. it has a trend. Therefore, the market
+impact is of paramount importance because if we execute too fast then prices will move in the
+wrong direction. In consequence, we start the execution earlier and we go as slow as possible, and
+as such we saturate the constraint later.
+In the next section we will study in detail, in the TC algorithm without PVol constraint, the relation
+between the risk measures of p-variation type and both the starting time and the slope at the last pillar.
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 19
+x 104
+15
+10
+5
+0
+10 20 30 40 50 60 70 80 90 100
+pillar number
+serahs
+.muc
+Cum. Target Close with PVol constraint
+H=0.55 (p=1.8 start=17 switch=102)
+H=0.50 (p=2.0 start=34 switch=94)
+H=0.45 (p=2.2 start=50 switch=89)
+Figure 3: Cumulative TC curves under PVol constraint for different values of H.
+
+20 M. Labadie · C.A. Lehalle
+4 Assessing the effects of the risk measure
+In this section we consider the TC algorithm without PVol constraint and without participation at the
+close auction. As expected, the algorithm starts closer to the close without PVol constraint (Figure 4)
+than under the restriction (Figure 3).
+x 104 Target Close
+15
+10
+p=1.8 (start=22)
+p=2.0 (start=52)
+p=2.2 (start=66)
+5
+0
+10 20 30 40 50 60 70 80 90 100
+Figure 4: Cumulative TC curves without PVol constraint.
+We will show that the choice of the parameter p for the p-variation plays a crucial role in both the
+model of the asset we are trading and the weight we give to the market risk with respect to the market
+impact.
+4.1 Equivalence between risk measures and models
+If we compare the recursive formula (13) for a Brownian motion with the recursive formula (19) for a
+self-similar process, we see that the former can be recovered from the latter by setting p=2 . Therefore,
+formula (19) can be derived for a Brownian model when the risk measure is not the variance but the
+p-variation.
+In consequence, (19) is independent of the model we choose for the asset: assuming a self-similar
+process, estimating empirically its exponent of self-similarity H and defining p = 1/H is equivalent to
+assuming a Brownian model, choosing p and using the p-variation as the risk measure instead of the
+variance.
+A direct consequence of this analysis is that the risk measure is of paramount importance. Indeed,
+it not only determines the weight we impose to the market risk but it is implicitly related to a model
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 21
+choice. Indeed,choosingp>2isequivalenttochoosingaself-similarprocesswithH <1/2,whichforthe
+fractional Brownian motion would mean a process with negative auto correlations, i.e. a mean-reverting
+process. On the other hand, choosing p<2 implies H >1/2, hence the corresponding fractional Brown-
+ian motion has positive auto correlations, i.e. it has a trend.
+In summary:
+Proposition 1 In order to obtain the recursive formula (19) for a TC algorithm via an Almgren-Chriss
+optimisation, the following two paths are equivalent:
+1. Assuming a self-similar model for the asset, calibrating empirically its exponent of self-similarity H
+and choosing the p-variation as the risk measure with p=1/H.
+2. Assuming a Brownian motion model for the asset and choosing the p-variation as the risk measure.
+4.2 Risk measures, starting times and slopes for the TC algorithm
+The aggressiveness of a TC algorithm can be measured in terms of both the starting time and the slope
+of the trading curve: an algorithm is more aggressive if it starts later and it executes faster the trades
+i.e. it puts more shares per pillar and the rate of change between consecutive pillars is bigger.
+Our numerical simulations confirm the analytical results of the previous section: the optimal start-
+ing time and the slope of the trading curve are both monotone increasing in p (see Figures 5 and 6,
+respectively). Under this framework, p can be viewed as a tuning parameter for aggressiveness:
+70
+65
+60
+55
+50
+45
+40
+35
+30
+25
+20
+15
+1.8 1.85 1.9 1.95 2 2.05 2.1 2.15 2.2
+p
+emit
+gnitrats
+lamitpo
+Optimal starting time for TC as a function of p
+volume to execute = 100k
+volume to execute = 150k
+Figure 5: The optimal start time is increasing in p.
+
+22 M. Labadie · C.A. Lehalle
+4000
+3500
+3000
+2500
+2000
+1500
+1000
+1.8 1.85 1.9 1.95 2 2.05 2.1 2.15 2.2
+p
+rallip
+tsal
+ta
+epols
+Slope of the trading curve as a function of p
+volume to execute = 100k
+volume to execute = 150k
+Figure 6: The slope at the last pillar is increasing in p.
+Proposition 2 The parameter p in the recursive formula (19) measures the level of aggressiveness of
+the TC algorithm. More precisely:
+1. p increases ⇐⇒ the optimal stating time increases.
+2. p increases ⇐⇒ the slope of the cumulative trading curve at the last pillar increases.
+In consequence, p increases if and only the TC algorithm is more aggressive, i.e. it starts the execution
+later and executes more at each pillar.
+4.3 Implied p-variation for CAC40 and link with liquidity
+In Figure 7 we plotted the starting times as a function of p for 39 out of 40 stocks in the CAC40 index.
+The p parameter has been considered so far as an input whilst the starting time n was an output.
+0
+However, since p (cid:55)→ n (p) is increasing, we can consider the inverse problem: given a starting time n(cid:93)
+0
+thereisapsuchthatthetradingcurvefortheTCalgorithmexecutesthetotalnumberofsharesbetween
+n and the last trade before the closing auction. The p is not unique because n can only take discrete
+0 0
+values, which implies that p (cid:55)→ n (p) is piecewise constant. However, it can be rendered unique if we
+0
+define the implied p as
+p:=sup{p(cid:48) : n (p(cid:48))=n(cid:93)}.
+0
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 23
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+1.6 1.7 1.8 1.9 2 2.1 2.2 2.3 2.4
+p
+emit
+gnitrats
+Starting time at different p for CAC40
+Figure 7: Cumulative TC curves.
+In consequence, we have an implied p for the CAC40 index: given a common starting time n(cid:93), for
+each stock in the CAC40 index we find their p such that n (p) = n(cid:93). For the numerical simulations in
+0
+Figure 7 we chose n(cid:93) =77, which corresponds to the opening of the NYSE in the US, a very important
+time for European traders. We supposed that, for each name on the CAC40 index, we have to execute
+6%ofthetotaldailyvolume. Forvolumecurves,volatilitycurvesandmarketimpactparametersweused
+those provided by the Quantitative Research at Cheuvreux.
+The statistics of the implied p are summarised in the next table:
+minimum 1.60 quantile 25% 2.00
+maximum 2.40 median 2.10
+mean 2.11 quantile 75% 2.20
+std deviation 0.17
+The implied p can be very useful for executing portfolios: we can synchronise all assets in our basket, so
+that all executions start at the same time n(cid:93). In this way we can assess and compare the market impact of the
+individual executions on the same ground, just as options traders use the implied volatility for that purpose. Of
+course, for real portfolio execution this is far from optimal, but at least it is a first step towards a systematic,
+quantitative measure of portfolio execution.
+Finally, the implied p can be viewed as a measure of the joint impact of the volatility and the liquidity, the
+latter modelled as the market impact. In order to illustrate that fact, we performed a linear regression on the
+implied p with respect to the average volatility per year and the average market impact per pillar given by (17).
+
+24 M. Labadie · C.A. Lehalle
+The coefficients of the linear regression are:
+implied p ∼= 2.35 + 0.14×market impact − 1.79×volatility (21)
+with R2 =0.27. The results of (21) and Figure 8 can be interpreted as follows:
+• If the market impact decreases then the TC algorithm will start the execution later because the execution
+willhaveasmallereffectonmovingthepriceinthewrongdirection. However,sincethestartingpillarhas
+been fixed, the TC algorithm compensates this fact by playing less aggressively, i.e. by decreasing p.
+• IfthevolatilityincreasesthentheTCalgorithmwouldliketostartlaterinordertoavoidpayingthemarket
+risk. However, since the starting time is fixed, the algorithm plays less aggressive and thus it decreases p.
+Figure 8: Implied p and liquidity.
+5 Final remarks
+What is the role of the Hurst exponent in the model?
+AsitwasstatedinSection4.1,thechoiceofpinthep-variationcancomefromtwosources,eithercomputing
+theHurstexponentH oftheprocessandchoosingp=1/H,eitherbyassumingaBrownianmotionandchoosing
+the value of p that fits the trader’s schedule.
+Inpractice,theHurstexponentisnotveryrobuststatistically,whichmeansthattherightpistobeimplied,
+not computed directly from H. One solution is to choose the starting time n of the TC algorithm and find the
+0
+p that forces the optimal curve to start at n , just as we did in Section 4.3. Another solution is to use p as a
+0
+fine-tuningparameter: sincetheoptimalcurvesaredefinedex-ante,changingpdynamicallyduringtheexecution
+givesroomtocapitalisepotentialtrends. Forexample,ifthetraderchosep=2thentheyassumedthattheprices
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 25
+would behave as a martingale. If a mean-reversion dynamic in the prices is observed the trader can change for a
+new parameter p >2, whilst if a trend-following dynamic is spotted the new parameter would be p <2. The
+1 2
+exactvaluesofp andp dependontheriskbudgetofthetrader,butinbothcasesthereisaclearinterpretation
+1 2
+intermsoftheHurstexponentH: theprocessismean-revertingforH <1/2, amartingaleforH =1/2andhas
+a trend for H >1/2.
+Why p-variation instead of the p-th moment of the wealth?
+Ifwechoosethecentralp-thmomentasariskmeasure,eveninthecaseofi.i.d. randomvariables(ε )
+n 1≤n≤N
+we would have several non-zero cross terms of the form
+xaxbE[εaεb], i(cid:54)=j, a+b=p.
+i j i j
+IfpisanintegerthenthewealthW stillhasanexplicitexpression,whichwouldleadtoanexplicitcostfunctional
+J and therefore explicit equations for the optimal trading curve on the variables (v ,...,v ) of the form
+p 0 N+1
+v =f(v ,v ,...,v ,...,v ,v ) for all n.
+n 0 1 n N N+1
+Theseequationscanbesolvedcomputationally,althoughthenumericalalgorithmisnolongerexplicitandrecur-
+sivebutimplicit. Ifpisnotanintegerthenthewealthisnolongerexplicit,whichmeansthatthecomputational
+effort needed to find the optimal trading curve is bigger.
+Choosing the p-variation instead of the p-th moment present several advantages. First, the algorithm for the
+optimal trading curve is explicit and recursive of the form
+v =f(v ,v ,...,v ) for all n.
+n 0 1 n−1
+This explicitness allows to study and interpret the effect of the parameters on the shape of the trading curves.
+Second,thep-variationcanbeinterpretedasthe(cid:96)p-normofavectorintimatelyrelatedtothewealthW. Indeed,
+if we define the vectors
+X := (x σ ,...,x σ ),
+1 2 N−1 N
+E := (ε ,...,ε )
+2 N
+and consider the relative wealth W˜ of the TC algorithm given in (18), we obtain the “vectorial” identities
+W˜ −E(W˜)=X·E and V (W˜)1/p =(cid:107)X(cid:107) .
+p p
+Third,thep-variationletsustomodelthepriceasageneralself-similarprocess(e.g. fractionalBrownianMotion
+and L´evy process) without much of a fuss. Indeed, there is only a single parameter to adjust, namely p, which
+can be found as the inverse of the Hurst exponent H, i.e. p = 1/H. If we use the p-th moment instead then
+theequationsbecomemuchmoreinvolvedduetotheautocorrelations. Fourth,thep-variationcanbeseenasan
+approximation of the the p-th moment, in which the cross terms are neglected.
+Why adding a new risk parameter p when we already have λ?
+Therearetwomainreasons. Thefirstisthat,intherecursiveformulas(19)and(20)fortheTCalgorithm,λ
+enters linearly whilst p enters as a power. This implies that the effect on the optimal execution curve is stronger
+varying p than λ, in particular the acceleration near the closing time. In consequence, playing with λ or p is
+similar but not equivalent, since the nonlinear behaviour of p cannot be replicated using the linear parameter λ.
+ThesecondreasonisthatλentersintoplayasaLangrangemultiplierinthemean-varianceoptimisation,andas
+such it is not evident to choose a standard value of this risk adversion parameter. On the contrary, p has a neat
+interpretation via the Hurst exponent using the identity p = 1/H. Moreover, there is a standard value for p: if
+we assume martingality on the price process then p=2.
+
+26 M. Labadie · C.A. Lehalle
+Acknowledgements
+Most of this research was done when both authors were working in the Department of Quantitative Research
+at Cr´edit Agricole Cheuvreux (now Kepler Cheuvreux); they are thankful for the help and support provided by
+the firm and the team. Mauricio Labadie would like to thank EXQIM as well for the help and support during
+the final stages of the paper. The authors would also like to thank an anonymous referee for their remarks and
+suggestions, which helped to improve this paper.
+References
+[Abergel et al., 2012] Abergel,F.,Bouchaud,J.-P.,Foucault,T.,Lehalle,C.,andRosenbaum,M.,editors(2012).
+Market Microstructure Confronting Many Viewpoints. Wiley.
+[Almgren, 2003] Almgren,R.F.(2003).Optimalexecutionwithnonlinearimpactfunctionsandtrading-enhanced
+risk. Applied Mathematical Finance, 10(1):1–18.
+[Almgren and Chriss, 2000] Almgren, R. F. and Chriss, N. (2000). Optimal execution of portfolio transactions.
+Journal of Risk, 3(2):5–39.
+[Bacry et al., 2001] Bacry,E.,Delour,J.,andMuzy,J.F.(2001). Multifractalrandomwalk. Physical Review E,
+64(2):026103+.
+[Bertsimas and Lo, 1998] Bertsimas, D. and Lo, A. W. (1998). Optimal control of execution costs. Journal of
+Financial Markets, 1(1):1–50.
+[Bouchard et al., 2011] Bouchard, B., Dang, N.-M., and Lehalle, C.-A. (2011). Optimal control of trading algo-
+rithms: a general impulse control approach. SIAM J. Financial Mathematics, 2:404–438.
+[Bouchaud, 2010] Bouchaud, J.-P. (2010). Price Impact.
+[Bouchaud and Potters, 2004] Bouchaud, J. P. and Potters, M. (2004). Theory of Financial Risk and Derivative
+Pricing: From Statistical Physics to Risk Management. Cambridge University Press.
+[Cont et al., 1997] Cont,R.,Potters,M.,andBouchaud,J.-P.(1997). ScalinginStockMarketData: StableLaws
+and Beyond. Social Science Research Network Working Paper Series.
+[Embrechts, 2002] Embrechts,P.(2002).SelfsimilarProcesses(PrincetonSeriesinAppliedMathematics).Prince-
+ton University Press.
+[Gatheral and Schied, 2012] Gatheral, J. and Schied, A. (2012). Dynamical models of market impact and algo-
+rithms for order execution. In Fouque, J.-P. and Langsam, J., editors, Handbook on Systemic Risk (Forthcom-
+ing). Cambridge University Press.
+[Gatheral et al., 2010] Gatheral, J., Schied, A., and Slynko, A. (2010). Transient Linear Price Impact and Fred-
+holm Integral Equations. Social Science Research Network Working Paper Series.
+[Gu´eant et al., 2011] Gu´eant, O., Lehalle, C.-A., and Fernandez-Tapia, J. (2011). Dealing with the inventory
+risk. Technical report.
+[Lehalle, 2009] Lehalle, C.-A. (2009). Rigorous Strategic Trading: Balanced Portfolio and Mean-Reversion. The
+Journal of Trading, 4(3):40–46.
+[Lehalle, 2012] Lehalle, C.-A. (2012). Market Microstructure knowledge needed to control an intra-day trading
+process. Cambridge University Press.
+[Mandelbrot and Hudson, 2004] Mandelbrot,B.andHudson,R.L.(2004). The (Mis)behavior of Markets. Basic
+Books, first printing edition.
+[Mantegna and Stanley, 1994] Mantegna, R. N. and Stanley, H. E. (1994). Stochastic Process with Ultraslow
+Convergence to a Gaussian: The Truncated L´evy Flight. Physical Review Letters, 73(22):2946–2949.
+
+Optimal starting times, stopping times and risk measures for algorithmic trading 27
+[Mu¨ller et al., 1990] Mu¨ller,U.A.,Dacorogna,M.M.,Olsen,R.B.,Pictet,O.V.,Schwarz,M.,andMorgenegg,
+C. (1990). Statistical study of foreign exchange rates, empirical evidence of a price change scaling law, and
+intraday analysis. Journal of Banking & Finance, 14(6):1189–1208.
+[Pag`es et al., 2012] Pag`es, G., Laruelle, S., and Lehalle, C.-A. (2012). Optimal split of orders across liquidity
+pools: a stochatic algorithm approach. SIAM Journal on Financial Mathematics (Forthcoming).
+[Perko, 2001] Perko, L. (2001). Differential Equations and Dynamical Systems. Springer Verlag.
+[Stoer and Bulirsch, 1983] Stoer,J.andBulirsch,R.(1983). Introductiontonumericalanalysis. SpringerVerlag.
+[Xu and Genc¸ay, 2003] Xu, Z. and Genc¸ay, R. (2003). Scaling, self-similarity and multifractality in FX markets.
+Physica A: Statistical Mechanics and its Applications, 323:578–590.

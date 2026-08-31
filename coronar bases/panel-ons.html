@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de Obligaciones Negociables — Coronar Inversiones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-950: #080B14;
+    --navy-900: #0D1220;
+    --navy-800: #131A2C;
+    --navy-700: #1B2438;
+    --line: rgba(148,163,184,0.14);
+    --emerald: #10B981;
+    --gold: #E8B25A;
+    --coral: #E8735A;
+    --sky: #6EA8FE;
+    --text-hi: #EDF1F7;
+    --text-mid: #A8B3C7;
+    --text-low: #6B7690;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  html,body{
+    background: var(--navy-950);
+    color: var(--text-hi);
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body{
+    background-image:
+      radial-gradient(ellipse 900px 500px at 12% -5%, rgba(16,185,129,0.08), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 92% 8%, rgba(232,178,90,0.06), transparent 55%);
+    padding: 56px 24px 80px;
+  }
+
+  .wrap{ max-width: 1180px; margin: 0 auto; }
+  .mono{ font-family: 'JetBrains Mono', monospace; }
+
+  header{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    flex-wrap: wrap; gap: 20px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 28px;
+    margin-bottom: 40px;
+  }
+  .brand{ display:flex; align-items:center; gap:12px; margin-bottom: 18px; }
+  .brand-mark{
+    width:34px; height:34px; border-radius:9px;
+    background: linear-gradient(135deg, var(--emerald), #0B7A54);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'JetBrains Mono'; font-weight:700; font-size:14px; color:#04140E;
+  }
+  .brand-name{ font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-mid); }
+  .brand-name b{ color: var(--text-hi); font-weight:600; }
+
+  h1{ font-size: 34px; font-weight:600; letter-spacing:-0.01em; line-height:1.15; max-width: 640px; }
+  h1 span{ color: var(--emerald); }
+  .subtitle{ color: var(--text-mid); font-size:15px; margin-top:10px; max-width:560px; }
+
+  .updated{ text-align:right; font-family:'JetBrains Mono'; font-size:12.5px; color: var(--text-low); }
+  .updated .dot{
+    display:inline-block; width:6px; height:6px; border-radius:50%;
+    background: var(--emerald); margin-right:7px; box-shadow: 0 0 8px var(--emerald);
+  }
+
+  .stats{
+    display:grid; grid-template-columns: repeat(4, 1fr); gap:1px;
+    background: var(--line); border: 1px solid var(--line);
+    border-radius: 14px; overflow:hidden; margin-bottom: 48px;
+  }
+  .stat{ background: var(--navy-900); padding: 20px 22px; }
+  .stat .label{ font-size:11.5px; text-transform:uppercase; letter-spacing:0.07em; color:var(--text-low); margin-bottom:8px; }
+  .stat .value{ font-family:'JetBrains Mono'; font-size:23px; font-weight:600; color:var(--text-hi); }
+  .stat .value.up{ color: var(--emerald); }
+  .stat .sub{ font-size:12px; color:var(--text-mid); margin-top:4px; }
+
+  .section-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:20px; flex-wrap:wrap; gap:8px; }
+  .section-head h2{ font-size:19px; font-weight:600; }
+  .section-head .eyebrow{ font-family:'JetBrains Mono'; font-size:11.5px; letter-spacing:0.09em; text-transform:uppercase; color: var(--emerald); margin-bottom:6px; display:block; }
+  .section-head .note{ font-size:12.5px; color: var(--text-low); }
+
+  .chart-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:16px; padding: 28px 28px 20px; margin-bottom: 52px; }
+  .chart-card svg{ width:100%; height:auto; display:block; }
+  .axis-label{ font-family:'JetBrains Mono'; font-size:11px; fill: var(--text-low); }
+  .grid-line{ stroke: var(--line); stroke-width:1; }
+  .pt-label{ font-family:'JetBrains Mono'; font-size:11.5px; fill: var(--text-mid); }
+  .pt{ stroke: var(--navy-900); stroke-width:2; }
+  .legend{ display:flex; gap:22px; margin-top:14px; flex-wrap:wrap; padding-left:4px;}
+  .legend-item{ display:flex; align-items:center; gap:7px; font-size:12px; color:var(--text-mid); }
+  .legend-swatch{ width:9px; height:9px; border-radius:50%; }
+
+  .table-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:16px; overflow:hidden; margin-bottom: 52px; }
+  table{ width:100%; border-collapse:collapse; }
+  thead th{
+    text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:0.06em;
+    color: var(--text-low); font-weight:500; padding: 16px 18px; border-bottom:1px solid var(--line);
+    background: var(--navy-800); white-space:nowrap;
+  }
+  thead th.num, tbody td.num{ text-align:right; }
+  tbody td{ padding: 15px 18px; font-family:'JetBrains Mono'; font-size:13px; border-bottom:1px solid var(--line); white-space:nowrap; color: var(--text-hi); }
+  tbody tr:last-child td{ border-bottom:none; }
+  tbody tr:hover{ background: rgba(255,255,255,0.02); }
+  .ticker{ font-weight:700; color: var(--text-hi); }
+  .issuer{ font-family:'Space Grotesk'; font-size:13px; color: var(--text-mid); }
+  .yield-hi{ color: var(--emerald); font-weight:600; }
+  .sector-tag{ display:inline-flex; align-items:center; gap:6px; font-family:'Space Grotesk'; font-size:12px; color:var(--text-mid); }
+  .sector-dot{ width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+  .var-pos{ color: var(--emerald); }
+  .var-neg{ color: var(--coral); }
+  .var-flat{ color: var(--text-low); }
+
+  .grid-cards{ display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-bottom:52px; }
+  .bond-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:14px; padding: 20px 20px 18px; }
+  .bond-card .top{ display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:14px; }
+  .bond-card .tk{ font-family:'JetBrains Mono'; font-weight:700; font-size:15px; }
+  .bond-card .em{ font-size:12px; color:var(--text-mid); margin-top:3px; max-width:170px; }
+  .bond-card .tir{ text-align:right; }
+  .bond-card .tir .n{ font-family:'JetBrains Mono'; font-size:19px; font-weight:600; color:var(--emerald); }
+  .bond-card .tir .l{ font-size:10px; color:var(--text-low); text-transform:uppercase; letter-spacing:0.06em; }
+  .kv{ display:flex; justify-content:space-between; padding:6px 0; font-size:12.5px; border-bottom:1px dashed var(--line); }
+  .kv:last-child{ border-bottom:none; }
+  .kv .k{ color: var(--text-low); }
+  .kv .v{ font-family:'JetBrains Mono'; color: var(--text-hi); }
+  .next-pay{ margin-top:14px; padding-top:14px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; }
+  .next-pay .d{ font-size:11px; color:var(--text-low); text-transform:uppercase; letter-spacing:0.05em;}
+  .next-pay .p{ font-family:'JetBrains Mono'; font-size:13px; color:var(--gold); }
+
+  .sim-card{ background: var(--navy-900); border:1px solid var(--line); border-radius:16px; padding: 26px 26px 8px; margin-bottom:24px; }
+  .sim-inputs{ display:grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap:14px; margin-bottom: 10px; }
+  .sim-input{ background: var(--navy-800); border:1px solid var(--line); border-radius:12px; padding: 12px 14px; }
+  .sim-input .lbl{ display:flex; align-items:center; gap:6px; font-family:'JetBrains Mono'; font-size:12px; font-weight:700; margin-bottom:8px; }
+  .sim-input .lbl .d{ width:7px; height:7px; border-radius:50%; }
+  .sim-input input{
+    width:100%; background: var(--navy-950); border:1px solid var(--line); border-radius:8px;
+    padding: 8px 10px; color: var(--text-hi); font-family:'JetBrains Mono'; font-size:13.5px;
+    outline:none; transition: border-color .15s ease;
+  }
+  .sim-input input:focus{ border-color: var(--emerald); }
+
+  .sim-summary{ display:grid; grid-template-columns: repeat(3, 1fr); gap:1px; background: var(--line); border:1px solid var(--line); border-radius:14px; overflow:hidden; margin-bottom: 28px; }
+  .sim-summary .box{ background: var(--navy-900); padding:18px 20px; }
+  .sim-summary .box .l{ font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-low); margin-bottom:6px; }
+  .sim-summary .box .v{ font-family:'JetBrains Mono'; font-size:21px; font-weight:600; }
+  .sim-summary .box .v.g{ color: var(--emerald); }
+  .sim-summary .box .v.a{ color: var(--gold); }
+
+  .flow-scroll{ max-height: 560px; overflow-y: auto; }
+  .flow-scroll table thead th{ position: sticky; top:0; z-index:2; }
+  .flow-scroll table tbody td.month-cell{ color: var(--text-mid); font-family:'Space Grotesk'; font-size:12.5px; }
+  .flow-scroll table tbody td.total-cell{ color: var(--emerald); font-weight:700; }
+  .flow-scroll table tbody td.zero{ color: var(--text-low); opacity:0.4; }
+  .flow-scroll table tbody tr.has-amort{ background: rgba(232,178,90,0.05); }
+  .flow-scroll table tfoot td{ padding:16px 18px; font-family:'JetBrains Mono'; font-size:13px; background: var(--navy-800); border-top:2px solid var(--line); font-weight:700; }
+  .flow-scroll table tfoot td.num{ text-align:right; }
+  .amort-highlight{ color: var(--gold); font-weight:600; }
+
+  .disclaimer{ margin-top: 56px; padding: 22px 26px; border:1px solid var(--line); border-radius:14px; background: var(--navy-900); font-size:12.5px; line-height:1.7; color: var(--text-low); }
+  .disclaimer b{ color: var(--text-mid); }
+  footer{ margin-top:40px; text-align:center; font-size:11.5px; color: var(--text-low); font-family:'JetBrains Mono'; }
+
+  @media (max-width: 720px){
+    .stats{ grid-template-columns: repeat(2, 1fr); }
+    .sim-summary{ grid-template-columns: 1fr; }
+    h1{ font-size:26px; }
+    thead th, tbody td{ padding:12px 12px; font-size:12px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <div class="brand">
+        <div class="brand-mark">CN</div>
+        <div class="brand-name"><b>Coronar Inversiones</b> · Capital Navigator</div>
+      </div>
+      <h1>Panel técnico de <span>Obligaciones Negociables</span> corporativas</h1>
+      <p class="subtitle">Rendimientos, duración, sector y cronograma de pagos de ONs en dólares negociadas en el Mercado Abierto Electrónico.</p>
+    </div>
+    <div class="updated">
+      <span class="dot"></span>Datos al 15·07·2026<br>
+      Sectores: Yahoo Finance
+    </div>
+  </header>
+
+  <section class="stats">
+    <div class="stat"><div class="label">TIR máxima</div><div class="value up">10,62%</div><div class="sub">CP38O · CGC 2030</div></div>
+    <div class="stat"><div class="label">TIR mínima</div><div class="value">6,68%</div><div class="sub">YM34O · YPF 2034</div></div>
+    <div class="stat"><div class="label">Duration promedio</div><div class="value">5,58</div><div class="sub">años, ponderado simple</div></div>
+    <div class="stat"><div class="label">Especies relevadas</div><div class="value">8</div><div class="sub">todas en USD, ley NY</div></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Mapa de rendimientos</span><h2>Duration vs. TIR por sector (Yahoo Finance)</h2></div>
+      <div class="note">El tamaño de cada punto representa el current yield</div>
+    </div>
+    <div class="chart-card">
+      <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg"> ... </svg>
+      <div class="legend">...</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Detalle técnico</span><h2>Especies ordenadas por TIR</h2></div>
+      <div class="note">Todas en USD · convención 30/360 · pago semestral</div>
+    </div>
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Ticker</th><th>Emisor</th><th>Sector</th>
+            <th class="num">Cupón</th><th>Vencimiento</th><th class="num">TIR</th>
+            <th class="num">TNA</th><th class="num">Precio</th><th class="num">Var.</th>
+            <th class="num">Duration</th><th class="num">Current Yield</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="ticker">CP38O</td><td class="issuer">Compañía General de Combustibles</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">11,875%</td><td>28/11/2030</td><td class="num yield-hi">10,62%</td>
+            <td class="num">10,36%</td><td class="num">$1.616,00</td><td class="num var-flat">0,00%</td>
+            <td class="num">3,17</td><td class="num">11,29%</td>
+          </tr>
+          <tr>
+            <td class="ticker">PLC7O</td><td class="issuer">Pluspetrol S.A. — Clase 7</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">7,55%</td><td>30/09/2037</td><td class="num">7,49%</td>
+            <td class="num">7,42%</td><td class="num">$1.538,50</td><td class="num var-pos">+0,29%</td>
+            <td class="num">6,79</td><td class="num">7,45%</td>
+          </tr>
+          <tr>
+            <td class="ticker">TLCTO</td><td class="issuer">Telecom Argentina — Clase 27</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#6EA8FE"></span>Serv. de comunicación</span></td>
+            <td class="num">8,50%</td><td>20/01/2036</td><td class="num">7,37%</td>
+            <td class="num">7,24%</td><td class="num">$1.700,90</td><td class="num var-neg">-0,27%</td>
+            <td class="num">5,90</td><td class="num">7,85%</td>
+          </tr>
+          <tr>
+            <td class="ticker">MGCRO</td><td class="issuer">Pampa Energía — Clase 26</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#E8735A"></span>Acciones industriales</span></td>
+            <td class="num">7,75%</td><td>14/11/2037</td><td class="num">7,16%</td>
+            <td class="num">7,03%</td><td class="num">$1.617,00</td><td class="num var-pos">+0,59%</td>
+            <td class="num">7,23</td><td class="num">7,34%</td>
+          </tr>
+          <tr>
+            <td class="ticker">PLC4O</td><td class="issuer">Pluspetrol S.A. — Clase 4</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">8,50%</td><td>29/05/2032</td><td class="num">6,88%</td>
+            <td class="num">6,76%</td><td class="num">$1.655,10</td><td class="num var-pos">+0,03%</td>
+            <td class="num">4,44</td><td class="num">7,85%</td>
+          </tr>
+          <tr>
+            <td class="ticker">TSC4O</td><td class="issuer">Transportadora de Gas del Sur — Clase 4</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">7,75%</td><td>20/11/2035</td><td class="num">6,88%</td>
+            <td class="num">6,78%</td><td class="num">$1.631,70</td><td class="num var-pos">+0,10%</td>
+            <td class="num">6,39</td><td class="num">7,27%</td>
+          </tr>
+          <tr>
+            <td class="ticker">IRCPO</td><td class="issuer">IRSA Inversiones y Representaciones — Clase XXIV</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#E8B25A"></span>Bienes raíces</span></td>
+            <td class="num">8,00%</td><td>31/03/2035</td><td class="num">6,83%</td>
+            <td class="num">6,72%</td><td class="num">$1.662,00</td><td class="num var-pos">+0,13%</td>
+            <td class="num">5,47</td><td class="num">7,44%</td>
+          </tr>
+          <tr>
+            <td class="ticker">YM34O</td><td class="issuer">YPF Sociedad Anónima — Clase XXXIV</td>
+            <td><span class="sector-tag"><span class="sector-dot" style="background:#10B981"></span>Energía</span></td>
+            <td class="num">8,25%</td><td>17/01/2034</td><td class="num">6,68%</td>
+            <td class="num">6,57%</td><td class="num">$1.708,00</td><td class="num var-pos">+0,64%</td>
+            <td class="num">4,77</td><td class="num">7,58%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Simulador</span><h2>Flujo de fondos mensual proyectado</h2></div>
+      <div class="note">Ajustá los nominales de cada especie — la tabla se recalcula automáticamente</div>
+    </div>
+
+    <div class="sim-card">
+      <div class="sim-inputs" id="simInputs"></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:16px;">
+      <div class="box" style="background:var(--navy-900);padding:14px 18px;"><div class="l" style="font-size:10px;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-low);margin-bottom:4px;">Inversión total</div><div class="v" style="font-family:JetBrains Mono;font-size:20px;font-weight:600;" id="sumInvestment">u$s 0</div></div>
+      <div class="box" style="background:var(--navy-900);padding:14px 18px;"><div class="l" style="font-size:10px;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-low);margin-bottom:4px;">Total a cobrar</div><div class="v g" style="font-family:JetBrains Mono;font-size:20px;font-weight:600;color:var(--emerald);" id="sumTotal">u$s 0</div></div>
+      <div class="box" style="background:var(--navy-900);padding:14px 18px;"><div class="l" style="font-size:10px;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-low);margin-bottom:4px;">Retorno vs inversión</div><div class="v a" style="font-family:JetBrains Mono;font-size:20px;font-weight:600;" id="sumReturn">—</div></div>
+      <div class="box" style="background:var(--navy-900);padding:14px 18px;"><div class="l" style="font-size:10px;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-low);margin-bottom:4px;">Dólar MEP</div><div class="v" style="font-family:JetBrains Mono;font-size:20px;font-weight:600;color:var(--gold);" id="dolarMep">—</div></div>
+    </div>
+
+    <div class="table-card">
+      <div class="flow-scroll">
+        <table>
+          <thead><tr id="flowHeadRow"><th>Fecha</th></tr></thead>
+          <tbody id="flowBody"></tbody>
+          <tfoot><tr id="flowFootRow"><td>Total general</td></tr></tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div><span class="eyebrow">Cronograma</span><h2>Próximo pago por especie</h2></div>
+      <div class="note">Fecha y monto exacto del próximo vencimiento</div>
+    </div>
+
+    <div class="grid-cards" id="nextPayCards"></div>
+  </section>
+
+  <div class="disclaimer">
+    <b>Información de carácter técnico e informativo.</b> Los datos presentados corresponden a cotizaciones y estructuras de flujo de fondos de Obligaciones Negociables relevadas del Mercado Abierto Electrónico y no constituyen una recomendación de compra o venta. Los rendimientos (TIR/TNA) se calculan sobre el último precio operado y están sujetos a variación diaria. El simulador de flujo de fondos es una proyección basada en el cronograma contractual vigente (sin default ni rescate anticipado). Antes de tomar una decisión, cada inversor debe evaluar su propio perfil de riesgo.
+  </div>
+
+  <footer>Coronar Inversiones · Agente Productor CNV Matrícula N° 2192 · Capital Navigator</footer>
+
+</div>
+
+<script>
+(function(){
+  // ─── Datos de cada ON ─────────────────────────────────────────────
+  // cf: cada entrada = [fecha, total por VN 1000] (cupón + amortización si corresponde)
+  const bonds = [
+    { id:'CP38O', issuer:'CGC 2030',                sector:'Energía',              color:'#10B981', coupon:0.11875, bullet:true,  price:1616.00, qty:6000,
+      cf:[
+        ['2026-11-28',59.38],['2027-05-28',59.38],['2027-11-28',59.38],['2028-05-28',59.38],
+        ['2028-11-28',59.38],['2029-05-28',59.38],['2029-11-28',59.38],['2030-05-28',59.38],
+        ['2030-11-28',1059.38]
+      ]},
+    { id:'MGCRO', issuer:'Pampa Energía 2037',      sector:'Acciones industriales', color:'#E8735A', coupon:0.0775, bullet:true,  price:1617.00, qty:5400,
+      cf:[
+        ['2026-11-14',38.75],['2027-05-14',38.75],['2027-11-14',38.75],['2028-05-14',38.75],
+        ['2028-11-14',38.75],['2029-05-14',38.75],['2029-11-14',38.75],['2030-05-14',38.75],
+        ['2030-11-14',38.75],['2031-05-14',38.75],['2031-11-14',38.75],['2032-05-14',38.75],
+        ['2032-11-14',38.75],['2033-05-14',38.75],['2033-11-14',38.75],['2034-05-14',38.75],
+        ['2034-11-14',38.75],['2035-05-14',38.75],['2035-11-14',38.75],['2036-05-14',38.75],
+        ['2036-11-14',38.75],['2037-05-14',38.75],['2037-11-14',1038.75]
+      ]},
+    { id:'PLC7O', issuer:'Pluspetrol Cl.7',         sector:'Energía',              color:'#10B981', coupon:0.0755, bullet:false, price:1538.50, qty:1000,
+      cf:[
+        ['2027-03-30',56.63],['2027-09-30',37.75],['2028-03-30',37.75],['2028-09-30',37.75],
+        ['2029-03-30',37.75],['2029-09-30',37.75],['2030-03-30',37.75],['2030-09-30',37.75],
+        ['2031-03-30',37.75],['2031-09-30',37.75],['2032-03-30',37.75],['2032-09-30',37.75],
+        ['2033-03-30',37.75],['2033-09-30',37.75],['2034-03-30',37.75],['2034-09-30',37.75],
+        ['2035-03-30',37.75],['2035-09-30',367.75],['2036-03-30',25.29],['2036-09-30',355.29],
+        ['2037-03-30',12.83],['2037-09-30',352.84]
+      ]},
+    { id:'TLCTO', issuer:'Telecom 2036',            sector:'Serv. de comunicación', color:'#6EA8FE', coupon:0.085,  bullet:false, price:1700.90, qty:3900,
+      cf:[
+        ['2026-07-20',42.50],['2027-01-20',42.50],['2027-07-20',42.50],['2028-01-20',42.50],
+        ['2028-07-20',42.50],['2029-01-20',42.50],['2029-07-20',42.50],['2030-01-20',42.50],
+        ['2030-07-20',42.50],['2031-01-20',42.50],['2031-07-20',42.50],['2032-01-20',42.50],
+        ['2032-07-20',42.50],['2033-01-20',42.50],['2033-07-20',42.50],['2034-01-20',42.50],
+        ['2034-07-20',42.50],['2035-01-20',542.50],['2035-07-20',21.25],['2036-01-20',521.25]
+      ]},
+    { id:'PLC4O', issuer:'Pluspetrol Cl.4',         sector:'Energía',              color:'#10B981', coupon:0.085,  bullet:true,  price:1655.10, qty:3900,
+      cf:[
+        ['2026-11-30',42.50],['2027-05-30',42.50],['2027-11-30',42.50],['2028-05-30',42.50],
+        ['2028-11-30',42.50],['2029-05-30',42.50],['2029-11-30',42.50],['2030-05-30',42.50],
+        ['2030-11-30',42.50],['2031-05-30',42.50],['2031-11-30',42.50],['2032-05-30',1042.50]
+      ]},
+    { id:'TSC4O', issuer:'TGS 2035',                sector:'Energía',              color:'#10B981', coupon:0.0775, bullet:true,  price:1631.70, qty:3300,
+      cf:[
+        ['2026-11-20',38.75],['2027-05-20',38.75],['2027-11-20',38.75],['2028-05-20',38.75],
+        ['2028-11-20',38.75],['2029-05-20',38.75],['2029-11-20',38.75],['2030-05-20',38.75],
+        ['2030-11-20',38.75],['2031-05-20',38.75],['2031-11-20',38.75],['2032-05-20',38.75],
+        ['2032-11-20',38.75],['2033-05-20',38.75],['2033-11-20',38.75],['2034-05-20',38.75],
+        ['2034-11-20',38.75],['2035-05-20',38.75],['2035-11-20',1038.75]
+      ]},
+    { id:'IRCPO', issuer:'IRSA 2035',               sector:'Bienes raíces',        color:'#E8B25A', coupon:0.08,   bullet:false, price:1662.00, qty:1000,
+      cf:[
+        ['2026-09-30',40.00],['2027-03-31',40.00],['2027-09-30',40.00],['2028-03-31',40.00],
+        ['2028-09-30',40.00],['2029-03-31',40.00],['2029-09-30',40.00],['2030-03-31',40.00],
+        ['2030-09-30',40.00],['2031-03-31',40.00],['2031-09-30',40.00],['2032-03-31',40.00],
+        ['2032-09-30',40.00],['2033-03-31',370.00],['2033-09-30',26.80],['2034-03-31',356.80],
+        ['2034-09-30',13.60],['2035-03-31',353.60]
+      ]},
+    { id:'YM34O', issuer:'YPF 2034',                sector:'Energía',              color:'#10B981', coupon:0.0825, bullet:false, price:1708.00, qty:1000,
+      cf:[
+        ['2026-07-17',41.25],['2027-01-17',41.25],['2027-07-17',41.25],['2028-01-17',41.25],
+        ['2028-07-17',41.25],['2029-01-17',41.25],['2029-07-17',41.25],['2030-01-17',41.25],
+        ['2030-07-17',41.25],['2031-01-17',41.25],['2031-07-17',41.25],['2032-01-17',341.25],
+        ['2032-07-17',28.88],['2033-01-17',328.88],['2033-07-17',16.50],['2034-01-17',416.50]
+      ]}
+  ];
+
+  const fmt = new Intl.NumberFormat('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  const TODAY = new Date('2026-07-15');
+
+  function monthKey(d){ return d.slice(0,7); }
+
+  // Calcula el cupón semestral por VN 1000
+  function couponPerBond(b){ return (b.coupon / 2) * 1000; }
+
+  // ─── Render ──────────────────────────────────────────────────────
+  function render(){
+    // 1. Build inputs
+    const wrap = document.getElementById('simInputs');
+    wrap.innerHTML = '';
+    bonds.forEach(b=>{
+      const div = document.createElement('div');
+      div.className = 'sim-input';
+      div.innerHTML =
+        '<div class="lbl"><span class="d" style="background:'+b.color+'"></span>'+b.id+'</div>' +
+        '<input type="number" min="0" step="100" value="'+b.qty+'" data-id="'+b.id+'">';
+      wrap.appendChild(div);
+    });
+    // Add investment display below inputs
+    wrap.querySelectorAll('input').forEach(inp=>{
+      inp.addEventListener('input', e=>{
+        const id = e.target.getAttribute('data-id');
+        bonds.find(b=>b.id===id).qty = parseFloat(e.target.value) || 0;
+        renderTable();
+        renderCards();
+        renderInvestmentLabels();
+      });
+    });
+
+  renderInvestmentLabels();
+
+    renderTable();
+    renderCards();
+  }
+
+  function renderTable(){
+    const baseCoupon = couponPerBond(bonds[0]); // reference, unused
+    const couponMap = new Map(); // bondId -> coupon amount per VN 1000
+    bonds.forEach(b=>{ couponMap.set(b.id, couponPerBond(b)); });
+
+    // Build list of all unique dates across all bonds
+    const allDates = new Set();
+    bonds.forEach(b=> b.cf.forEach(([d])=> allDates.add(d)));
+    const sortedDates = Array.from(allDates).sort();
+
+    // Header
+    const headRow = document.getElementById('flowHeadRow');
+    headRow.innerHTML = '<th>Fecha</th>' + bonds.map(b=>'<th class="num">'+b.id+'<br><span style="font-weight:400;font-size:10px;color:var(--text-low)">'+b.issuer+'</span></th>').join('') + '<th class="num">Total</th>';
+
+    // Track totals
+    let grandTotal = 0, couponTotal = 0, amortTotal = 0;
+
+    // Body rows
+    const body = document.getElementById('flowBody');
+    body.innerHTML = '';
+
+    sortedDates.forEach(dateStr=>{
+      const [y,m,d] = dateStr.split('-');
+      const parts = m+'/'+d+'/'+y;
+      const dt = new Date(parts);
+      const label = d+' '+['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'][parseInt(m,10)-1]+' '+y;
+
+      let rowTotal = 0;
+      let hasAmort = false;
+      const cells = bonds.map(b=>{
+        const entry = b.cf.find(([d])=> d===dateStr);
+        if(!entry) return '<td class="num zero">—</td>';
+        const perNominal = entry[1] / 1000; // monto por 1 VN
+        const amount = perNominal * b.qty;
+        rowTotal += amount;
+        const isAmortization = entry[1] > couponMap.get(b.id) * 1.3;
+        if(isAmortization) hasAmort = true;
+        // Split into coupon and amort
+        const coup = isAmortization ? couponMap.get(b.id) : entry[1];
+        const amort = isAmortization ? entry[1] - coup : 0;
+        couponTotal += (coup / 1000) * b.qty;
+        amortTotal += (amort / 1000) * b.qty;
+        const display = (coup / 1000 * b.qty).toFixed(2);
+        const displayAmort = amort > 0 ? ' <span class="amort-highlight">+'+ (amort / 1000 * b.qty).toFixed(2) +'</span>' : '';
+        return '<td class="num">'+fmt.format(amount)+displayAmort+'</td>';
+      });
+
+      grandTotal += rowTotal;
+      const tr = document.createElement('tr');
+      if(hasAmort) tr.className = 'has-amort';
+      tr.innerHTML = '<td class="month-cell">'+label+'</td>'+cells.join('')+'<td class="num total-cell">'+fmt.format(rowTotal)+'</td>';
+      body.appendChild(tr);
+    });
+
+    // Footer totals per bond
+    const footRow = document.getElementById('flowFootRow');
+    const perBondTotals = bonds.map(b=>{
+      const t = b.cf.reduce((acc,[d,total])=> acc + (total/1000)*b.qty, 0);
+      return '<td class="num">'+fmt.format(t)+'</td>';
+    });
+    footRow.innerHTML = '<td>Total general</td>'+perBondTotals.join('')+'<td class="num">'+fmt.format(grandTotal)+'</td>';
+
+    // Summary boxes
+    const totalInvestment = bonds.reduce((acc, b) => acc + (b.price / 1000) * b.qty, 0);
+    document.getElementById('sumInvestment').textContent = 'u$s ' + fmt.format(totalInvestment);
+    document.getElementById('sumTotal').textContent = 'u$s ' + fmt.format(grandTotal);
+    const ret = totalInvestment > 0 ? ((grandTotal - totalInvestment) / totalInvestment * 100) : 0;
+    document.getElementById('sumReturn').innerHTML = (ret >= 0 ? '<span style="color:var(--emerald)">+' : '<span style="color:var(--coral)">') + ret.toFixed(2) + '%</span>';
+  }
+
+  function renderCards(){
+    const container = document.getElementById('nextPayCards');
+    container.innerHTML = '';
+    // Sort by next payment date (ascending)
+    const sorted = [...bonds].sort((a,b)=>{
+      const aNext = a.cf.find(([d])=>new Date(d) > TODAY);
+      const bNext = b.cf.find(([d])=>new Date(d) > TODAY);
+      if(!aNext) return 1; if(!bNext) return -1;
+      return new Date(aNext[0]).getTime() - new Date(bNext[0]).getTime();
+    });
+    sorted.forEach(b=>{
+      const baseCoup = couponPerBond(b);
+      // Find next payment after today
+      const next = b.cf.find(([d])=>{
+        const [y,m,day] = d.split('-');
+        return new Date(m+'/'+day+'/'+y) > TODAY;
+      });
+      if(!next) return;
+      const [nextDate, nextAmount] = next;
+      const [y,m,d] = nextDate.split('-');
+      const dt = new Date(m+'/'+d+'/'+y);
+      const diffDays = Math.ceil((dt - TODAY) / (1000*60*60*24));
+      const daysLabel = diffDays === 1 ? 'mañana' : diffDays + ' días';
+      const perNominal = nextAmount / 1000;
+      const userAmount = perNominal * b.qty;
+      const isAmort = nextAmount > baseCoup * 1.3;
+
+      const card = document.createElement('div');
+      card.className = 'bond-card';
+      card.innerHTML = `
+        <div class="top">
+          <div>
+            <div class="tk" style="color:${b.color}">${b.id}</div>
+            <div class="em">${b.issuer}</div>
+          </div>
+        </div>
+        <div style="margin-bottom:12px; padding:10px; background:rgba(255,255,255,0.03); border-radius:8px; text-align:center;">
+          <div style="font-size:22px; font-family:'JetBrains Mono'; font-weight:700; color:var(--gold);">u$s ${fmt.format(userAmount)}</div>
+          <div style="font-size:11px; color:var(--text-mid); margin-top:4px;">
+            ${d}/${m}/${y} · ${daysLabel}${isAmort ? ' <span style="color:var(--gold)">(incluye amortización)</span>' : ''}
+          </div>
+        </div>
+        <div class="kv"><span class="k">Próximos pagos</span><span class="v">${b.cf.filter(([d])=>{ const [yy,mm,dd]=d.split('-'); return new Date(mm+'/'+dd+'/'+yy) > TODAY; }).length}</span></div>
+        <div class="kv"><span class="k">Total restante</span><span class="v">u$s ${fmt.format(b.cf.filter(([d])=>{ const [yy,mm,dd]=d.split('-'); return new Date(mm+'/'+dd+'/'+yy) > TODAY; }).reduce((acc,[d,t])=> acc + (t/1000)*b.qty, 0))}</span></div>
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  function renderInvestmentLabels(){
+    bonds.forEach(b=>{
+      const inv = (b.price / 1000) * b.qty;
+      const cfTotal = b.cf.reduce((acc,[d,t])=> acc + (t/1000)*b.qty, 0);
+      const ret = inv > 0 ? ((cfTotal - inv) / inv * 100) : 0;
+      const allInputs = document.querySelectorAll('.sim-input');
+      allInputs.forEach(div=>{
+        const label = div.querySelector('.lbl');
+        if(label && label.textContent.includes(b.id)){
+          let info = div.querySelector('.inv-info');
+          if(!info){
+            info = document.createElement('div');
+            info.className = 'inv-info';
+            info.style.cssText = 'font-size:10px;color:var(--text-low);margin-top:6px;font-family:JetBrains Mono';
+            div.appendChild(info);
+          }
+          info.innerHTML = 'Inversión: u$s ' + fmt.format(inv) + ' · Retorno: <span style="color:'+(ret>=0?'var(--emerald)':'var(--coral)')+'">'+(ret>=0?'+':'')+ret.toFixed(1)+'%</span>';
+        }
+      });
+    });
+  }
+
+  // ─── Fetch live prices ───────────────────────────────────────────
+  async function fetchLivePrices(){
+    try{
+      const base = window.location.origin;
+      const res = await fetch(base + '/api/ons/precios', { signal: AbortSignal.timeout(8000) });
+      if(!res.ok) return;
+      const data = await res.json();
+      const idToYf = { 'CP38O':'CP38O.BA', 'MGCRO':'MGCRO.BA', 'PLC7O':'PLC7O.BA', 'TLCTO':'TLCTO.BA', 'PLC4O':'PLC4O.BA', 'TSC4O':'TSC4O.BA', 'IRCPO':'IRCPO.BA', 'YM34O':'YM34O.BA' };
+      for(const [id, yfTicker] of Object.entries(idToYf)){
+        const info = data[yfTicker];
+        if(!info || info.error) continue;
+        const bond = bonds.find(b=>b.id===id);
+        if(bond){
+          bond.price = info.precio;
+          bond.variacion = info.variacion || 0;
+        }
+      }
+    }catch(e){ /* ignore */ }
+    renderTable();
+    renderCards();
+    renderInvestmentLabels();
+  }
+
+  // Fetch dolar MEP from ArgentinaDatos API
+  fetch('https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa')
+    .then(r=>r.json())
+    .then(data=>{
+      if(data && data.length > 0){
+        const last = data[data.length - 1];
+        document.getElementById('dolarMep').textContent = '$' + fmt.format(last.venta || last.compra);
+      }
+    })
+    .catch(()=>{ document.getElementById('dolarMep').textContent = '—'; });
+
+  // Auto-fetch on load
+  fetchLivePrices();
+
+  render();
+})();
+</script>
+</body>
+</html>

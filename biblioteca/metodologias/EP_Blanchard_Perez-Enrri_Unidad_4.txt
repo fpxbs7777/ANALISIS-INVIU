@@ -1,0 +1,1697 @@
+Macroeconomía
+Teoría y Política Económica con
+aplicaciones a América Latina
+Olivier Blanchard
+Daniel Pérez Enrri
+Prentice Hall
+México, 2000
+Este material se utiliza con fines
+exclusivamente didácticos
+1
+
+CAPÍTULO 21. PATOLOGÍAS II: UNA INFLACIÓN ELEVADA
+Como dijimos en el capítulo 2, la inflación consiste en el aumento sostenido en el nivel general
+de los precios. Sus principales características son: la persistencia en el tiempo y la
+generalidad. La persistencia significa que el aumento en los precios no debe ser dado por un
+cambio único y aislado sino recurrente. La elevada inflación es una patología que afecta a toda
+la economía. En éste capítulo, veremos los enfoques teóricos sobre la inflación y los procesos
+de estabilización, así como algunas experiencias internacionales.
+21.1A Causas y consecuencias de la inflación
+Consecuencias perjudiciales de la inflación
+La inflación no es neutral; sus efectos son nocivos. Desorienta a consumidores y productores,
+desalienta la inversión y frena el crecimiento. Provoca transferencias de ingresos sistemáticas y, a veces,
+aleatorias, acentúa el déficit fiscal (efecto Olivera-Tanzi)1, disminuye el horizonte de planeamiento y
+predecibilidad por la mayor incertidumbre que genera la fuga de capitales y deteriora el sector externo y la
+monetización de la economía. Provoca desvíos de los esfuerzos de las actividades productivas hacia las
+especulativas porque los mayores beneficios de la actividad económica empresarial no son obtenidos
+mediante conductas eficientes sino que, más bien, resultan de la apuesta especulativa que se haga en el
+futuro.
+En general, en situaciones de alta inflación, la volatilidad de los precios envuelve a los agentes
+económicos en un complejo juego de conjeturas, sin información confiable. Los costos de la inflación se
+amplifican no solamente por el crecimiento de los precios sino también por su turbulencia, porque no es fácil
+predecir las conductas de los agentes privados ni la política económica. En este contexto, los precios
+evolucionan en forma errática debido a las expectativas del público y los cambios poco regulares en la
+política económica que tiene que satisfacer demandas frecuentemente contradictorias, tales como los gastos
+de desarrollo social y económico y el equilibrio fiscal, entre otras. De esta manera se hace más dificultosa la
+política del gobierno para hacer compatibles las decisiones de los agentes privados.
+Los conflictos sociales se agudizan, y debido a las conductas especulativas se dificultan las
+posibilidades de encarar con éxito una política de crecimiento. En consecuencia, para que el sistema
+económico pueda funcionar, es preciso que el control y la baja de la inflación se transformen en objetivos
+prioritarios de las sociedades contemporáneas. De allí la necesidad de un diagnóstico que explique las causas
+de este proceso y la importancia de lograr un buen diseño de las políticas.
+No existe en la actualidad una teoría completa y bien conformada sobre la formación de los precios.
+Esto se debe en parte a que las decisiones sobre la fijación de precios no dependen exclusivamente de
+variables verificables con la observación, sino además de las conductas de los individuos y de las
+expectativas o conjeturas que cada uno de estos se haga sobre la de los demás. Describir sistemáticamente el
+proceso de fijación de precios, cuando la formación de expectativas tiene inconsistencias que también varían
+con la inflación, es una tarea reflexiva dificultosa.
+A las teorías que explican las causas de la inflación se las puede dividir en las que tienen un enfoque
+monetario (monetarismo) y las que parten de un enfoque no monetario (modelos de pugna por la distribución
+y modelos estructuralistas)2.
+Gran parte de estas teorías explican la inflación en función de la variación de la cantidad de dinero, o
+de los costos o factores que afecten a ambos. Estas hipótesis se diferencian en general en los mecanismos de
+formación de precios y en la direccionalidad de causas entre dinero, precios y salarios, tipo de cambio, tarifas
+públicas, etcétera.
+1 El economista argentino Julio H. Olivera y el experto del FM/ Vittorio Tanzi explicaron el fenómeno que hoy es
+conocido como “efecto Olivera-Tanzi”. La inflación deteriora el valor real de la recaudación fiscal (ya que se calcula
+sobre períodos anteriores. no inflacionarios), es decir, aumenta el déficit fiscal. Y cuando queda atrás el proceso
+inflacionario, la estabilidad per se aumenta el calor real de los ingresos fiscales.
+2 Herman, Daniel. “Tres ensayos sobre inflación y políticas de estabilización “, CEPAL. Estudios e Informes, Nº 64,
+1986.
+2
+
+Enfoques teóricos sobre la inflación
+Enfoque monetario
+Uno de los supuestos básicos del enfoque monetarista es la teoría cuantitativa del dinero.
+Dicha teoría considera que las modificaciones en la cantidad nominal de dinero son las que
+determinan las variaciones en el nivel general de precios. Esta afirmación se fundamenta en varios supuestos:
+(cid:131) EL público demanda dinero solo para “transacciones” (para comprar bienes y servicios), es
+decir, no mantiene saldos ociosos o inactivos. Por lo tanto, la demanda de dinero depende
+del volumen de transacciones o producto (PIB) y de factores institucionales, que se
+mantienen relativamente estables.
+(cid:131) Supone que la producción se encuentra en el pleno empleo y, por ello, la relación entre el
+volumen de transacciones y el de la producción es constante.
+(cid:131) Dado que la gente demanda dinero solo para transacciones, los factores institucionales para
+mantener saldos en efectivo (únicamente para transacciones futuras) casi no varían y el
+volumen de transacciones es constante, ya que corresponde a la situación de pleno empleo,
+la velocidad de circulación o transacción del dinero (es decir, la cantidad de veces que rota o
+cambia de manos el dinero en un año) es estable.
+Todos estos supuestos derivan en la llamada teoría cuantitativa del dinero que se expresa mediante la
+siguiente ecuación3:
+M ⋅V = P.T
+M = Cantidad de dinero.
+V = velocidad de circulación o transacción del dinero.
+P = nivel medio de precios.
+T = volumen de transacciones
+Las rayas sobre las letras V y T significan que las variables son constantes o exógenas.
+De aquí se deriva, dado que V y T son constantes, que las modificaciones en la cantidad de dinero
+repercuten en el nivel medio de precios, y casi no tienen efecto en la producción real, debido a que está
+cercana al pleno empleo.
+En conclusión, para esta teoría los precios varían proporcionalmente a las modificaciones de la oferta
+monetaria (cantidad de dinero).
+En cambio, los keynesianos afirman que la velocidad de circulación del dinero no es estable (dado
+que el dinero no solo se demanda para transacciones) y la economía no siempre se encuentra en el pleno
+empleo (que es un caso especial), ya que está sujeta a fluctuaciones. Por lo tanto, los cambios en la oferta
+monetaria no necesariamente inciden en los precios sino que impactan en la producción y en el empleo.
+Entonces, los enfoques monetarios establecen que el nivel de precios está dado por la oferta y la
+demanda monetarias considerando la cantidad de dinero como una variable exógena que regula la demanda
+agregada y, por medio de esta, el nivel de actividad económica, el producto real y el nivel de los precios. La
+base teórica, como expresáramos anteriormente, es la teoría cuantitativa del dinero en sus distintas versiones,
+que consigna que las variaciones en los precios son explicadas por variaciones en la oferta monetaria. La
+expansión monetaria, sea por déficit fiscal, por el incremento del crédito al sector privado o por otras causas,
+eleva la demanda global por encima de la disponibilidad de bienes y presiona sobre los precios.
+El incremento de la cantidad de dinero, para el enfoque monetario de la inflación de demanda, eleva
+la demanda agregada que, en pleno empleo, impacta en el nivel general de precios.
+Algunos debates y críticas al enfoque monetario
+3 El presentado es el enfoque de Fischer. En el enfoque posterior de Cambridge, como existe proporcionalidad entre
+las transacciones (T) y la actividad real (nivel Y). la fórmula quedaría: M = K .P .Y siendo: K = 1/v (coeficiente de
+1 1
+proporcionalidad)
+
+Ciertos datos empíricos observados en el largo plazo en América Latina y en la Argentina reflejan
+una correlación positiva entre inflación y variación en la cantidad de dinero, e inversa entre inflación y
+variaciones en la producción.
+Sin embargo, esta correlación no es tan relevante y clara en el corto plazo. Se han observado muchos
+casos en los que la desaceleración en la oferta monetaria no ha hecho ceder la inflación, y viceversa, en los
+que la oferta monetaria ha crecido y la inflación disminuyó. Es decir que la relación no es tan precisa y en el
+corto plazo se verifican ajustes no solo en el precio sino también en el producto físico. En el caso de la
+convertibilidad; por ejemplo, la cantidad de dinero creció más que los precios.
+Enfoque no monetario
+De pugna por la distribución del ingreso
+La teoría de la inflación por pugna distributiva enfatiza el aumento de los componentes de los costos
+(salarios, tarifas, tipo de cambio, precios de los insumos importados o márgenes de utilidad) como el impulso
+de la inflación que, a veces, obliga a la autoridad monetaria a seguir una política monetaria que convalide
+esos nuevos costos o genere una recesión. Es decir que la pugna distributiva se materializa a través de costos.
+Este enfoque no niega que, en última instancia y en el largo plazo, exista una relación directa entre moneda y
+precios (M y P), sino que asegura que la causalidad es no necesariamente de M a P. Podría ser de costos a
+precios y luego a una expansión monetaria que las convalida, es decir, de P a M, por lo que si el impulso
+inicial es monetario, en un segundo momento se desata la puja, y viceversa, si en el primer momento se da la
+puja, en el segundo la emisión convalida.
+La presión de los costos materializada por la pugna distributiva puede provenir de presiones
+oligopólicas (mark-up) para elevar los márgenes de utilidad, o de puja salarial por presión de los sindicatos,
+por aumentos en los precios de los insumos importados, o por devaluaciones. Es decir que, en los modelos de
+pugna distributiva, los salarios y los márgenes de beneficio —y por lo tanto, los precios relativos— se fijan
+por la operación de grupos socia-les en una secuencia de acciones y reacciones y en un juego colectivo que
+genera inflación.
+Enfoques estructuralistas
+Estos modelos tienen en cuenta las heterogeneidades estructurales de la economía que generan
+estrangulamientos e inflexibilidades de la oferta para adaptarse con rapidez a los cambios de la demanda.
+Las asimetrías en el sector real de la economía provocan una presión inflacionaria que podría
+difundirse y ser persistente en el tiempo por mecanismos propagadores de la pugna por la distribución del
+ingreso.
+Las heterogeneidades estructurales pueden ser provocadas por factores institucionales, mercados
+oligopólicos y segmentados, falta de capacidad e iniciativa empresariales, alta concentración del ingreso,
+riqueza y poder, y rigideces en los sectores externo, público y laboral.
+Los enfoques estructuralistas de la inflación en la década del 60, aunque reconocían ciertos
+mecanismos de propagación, destacaban las presiones inflacionarias básicas en las rigideces y asimetrías de
+la economía. Pero la realidad inflacionaria de esa época no superaba el 30 % anual en promedio para
+América Latina. En la década del 80, con altísimas inflaciones de 3 dígitos, este debate entre la distinción de
+presiones inflacionarias básicas y mecanismos de propagación salto al escenario cuando los hechos de la
+realidad demostraban que los mecanismos de propagación ahogaban las presiones inflacionarias básicas.
+Estos factores de difusión de la inflación, expectativas o indexación no inician la inflación o su aceleración,
+pero les dan persistencia. Es decir que, ante un stock de oferta o demanda como presión inicial de la
+inflación, se podría llegar a altísimos niveles por los mecanismos de propagación e indexación (salarios,
+precios, tipos de cambio, tarifas, impuestos), los cuales casi no guardan relación con la presión inflacionaria
+inicial.
+Hasta podría ser probable que después de un tiempo desaparecieran las causas iniciales del brote
+inflacionario y la inflación continuara y se acelerara. Pero estos factores ahora no serían las causas (exceso
+de demanda en el sector real, provocado por desequilibrios en el mercado monetario, o inflación estructural o
+de costos). La causa más importante es el conjunto de expectativas y la indexación. En síntesis, los enfoques
+que explican la inflación —ya sea por tirón de demanda, o de costos, o estructural— podrían demostrar las
+causas del brote inflacionario inicial, pero son insuficientes para explicar su persistencia. Recientes enfoques
+se refieren no a los desequilibrios agregados sino los desequilibrios sectoriales, que se denominan
+
+microdesequilibrios, y que no pueden ser corregidos por políticas agregadas de demanda, fiscal o monetarias,
+requiriéndose un mayor grado de selectividad.
+La experiencia de varios planes de estabilización en distintos países ha demostrado una vuelta
+recurrente a la inflación por la forma en que los mercados de bienes interactúan con estrangulamientos de la
+oferta alimentaria y excesos sectoriales de demanda, con los mercados de trabajo que absorben y propagan
+los desequilibrios por un mecanismo indexatorio. Estos modelos teóricos de base keynesiana, con
+incorporación de la inflación inercial, provienen inicialmente de los modelos de dos sectores (propios de las
+décadas del 60 y 70), donde se incluye un tercer sector, alimentos no comerciables y servicios públicos y
+privados. Algunos aportes comprenden el papel del sector financiero, el movimiento internacional de
+capitales y una mayor complejidad del mercado laboral urbano.
+Muchos autores contemporáneos han incorporado las expectativas4, por ejemplo, las adaptativas, en
+las cuales los precios cambian con una indexación según períodos anteriores de inflación. En otros casos, las
+llamadas expectativas racionales suponen que los individuos con información relevante se adelantan en sus
+comportamientos a las decisiones de políticas públicas fiscales o monetarias.
+Debate monetarismo vs. estructuralismo
+La polémica se centra en varias posiciones fundamentales5. La primera es la referente a las causas de
+la inflación.
+El monetarismo consigna que la causa de la inflación se da por un exceso de demanda en los
+mercados de bienes y servicios (economía real) provocado por un desequilibrio en el mercado monetario, y
+en el que el crecimiento de la cantidad de dinero supera los requerimientos de los negocios. Para el
+estructuralismo, las causas de la inflación deben buscarse en desequilibrios sectoriales y microdesequilibrios,
+y no en un desajuste entre oferta y demanda globales. Por la inflexibilidad de la oferta se producen
+estrangulamientos y aumentos sectoriales de precios que a veces se hacen crónicos y luego se generalizan. Es
+decir, el alza de los precios ocurre por rigideces en la estructura productiva y por imperfección de los
+mercados, y no exclusivamente por decisiones autónomas de expansión de la oferta monetaria por parte de
+las autoridades.
+La segunda posición controvertida se refiere a los objetivos de la política económica donde se
+involucran los conceptos de estabilidad y crecimiento. Para el monetarismo, la estabilidad es precondición
+del crecimiento; y en general este es una consecuencia normal de la estabilidad de precios porque con ella
+mejora la capacidad de realizar ahorro genuino, desaparecen las inversiones especulativas y se reorientan las
+inversiones productivas, liberándose las fuerzas inmanentes de la economía, sin trabas para su expansión.
+Para los estructuralistas, la estabilidad no es garantía de crecimiento, y muchas veces este es precondición
+para la estabilidad. El proceso de crecimiento del producto provoca desequilibrios parciales en distintos
+sectores que se expanden en forma general al resto de la economía.
+En tercer lugar, para el monetarismo la política monetaria es el instrumento fundamental y más apto
+para lograr la estabilidad. Para el estructuralismo, la política monetaria con restricción de la cantidad de
+dinero es ineficaz para la estabilización porque no considera los factores no monetarios que empujan el alza
+de precios. Según el estructuralismo, la política monetaria es solo un instrumento más, entre otros más
+selectivos y diferenciados como las políticas cambiaria, crediticia, fiscal. etc., cuyos objetivos deben
+contribuir al cambio social global6. Se observa que, para el estructuralismo, la expansión monetaria es una
+consecuencia y no una causa de la inflación. Es un fenómeno inducido, y no autónomo o exógeno, como lo
+es para el monetarismo. Se produce por las propias necesidades de abastecer de liquidez adicional al
+incrementar los precios en el sistema económico: Por otro lado, la poca elasticidad de la oferta que
+privilegian los estructuralistas como causa de los estrangulamientos productivos no es un fenómeno tan
+autónomo e independiente de la inflación para los monetaristas. Estas heterogeneidades estructurales son
+consecuencias y no causas de la inflación porque las inversiones no fluyen hacia los sectores con
+embotellamientos y se orientan hacia actividades especulativas, malgastando el excedente social. Además,
+los controles de los precios de productos agropecuarios agravan las rigideces de la oferta. Los controles
+4 Para mayor profundidad, véase Sachs, jeffre y Larrain, afelipe, Macroeconomía en la economía global, Prentice Hall,
+mexico, 1994.
+5 Olivera, Julio, Conferencia sobre moneterismo vs. estructuralismo, acto de incorporación a la Academia Nacional de
+Ciencias Económicas, Buenos Aires, 1965.
+6 Recordemos las funciones del sector público y la visión estructural donde el Estado no solo participaba en forma
+subsidiaria para solucionar las fallas de mercado, sino que también era un actor fundamental en la promoción del
+desarrollo económico, por medio de políticas activas
+
+cambiarlos y la inflación acentúan los desequilibrios externos, reducen las exportaciones y elevan la
+propensión a importar. En síntesis, los problemas estructurales para el monetarismo no son exógenos, sino
+inducidos por la inflación. La controversia general está centrada entonces entre estos enfoques en la
+direccionalidad de las causas y consecuencias de la inflación y, por lo tanto, en los diseños de la política
+económica que surgen de ellos. En términos de política económica global, es posible señalar algunas
+diferencias entre el estructuralismo y sus visiones más contemporáneas (neoestructuralismo), y el
+monetarismo o liberalismo y sus enfoques más recientes (neoliberalismo)7.
+En cuanto al rol del Estado en la economía, el monetarismo sostiene que no debe ser protagonista ni
+productor. Propone la privatización de las empresas públicas, poniendo énfasis en la participación de las
+empresas privadas capitalistas. Para el estructuralismo, sin embargo, la empresa privada y la pública se
+complementan. Este propicia el papel activo de la empresa pública, sobre todo en áreas prioritarias, y
+fomenta el pluralismo en la propiedad. Afirma que la intervención en la producción tiene que ser selectiva y
+destinada a crear condiciones igualitarias. En cambio, el monetarismo no respalda la redistribución, sino que
+solo la acepta eventualmente en transferencias monetarias. Es decir, postula una producción sin
+interferencias públicas. Como podemos observar a partir de los conceptos vertidos anteriormente, el modelo
+monetarista propone un modelo pasivo y políticas económicas neutrales. El otro modelo se basa en un
+gobierno activo y políticas económicas selectivas.
+Estos dos enfoques son muy distintos en lo que respecta a la intervención de los agentes económicos:
+mientras que el monetarismo promueve desestímulos a los organismos intermedios, el estructuralismo
+persigue el desarrollo de sindicatos, asociaciones profesionales y cooperativas.
+En referencia al comercio exterior, el estructuralismo prefiere la inserción selectiva: negociaciones
+con empresas transnacionales y otros gobiernos para acceder a mercados externos, subsidios diferenciados
+no excesivos y arancel efectivo diferenciado; acepta tener mecanismos paraarancelarios en caso de
+inestabilidad exterior para orientar las compras estatales, graduación condicionada a la marcha de la
+economía internacional y tratamiento preferencial a países asociados. El monetarismo promueve el libre
+comercio: fomento de las exportaciones mediante el tipo de cambio y la liberalización de las importaciones,
+arancel nominal uniforme y bajo, eliminación de mecanismos paraarancelarios y apertura indiscriminada a
+todo el mundo.
+El sistema tributario para los defensores del monetarismo debe ser neutro, salvo en la promoción del
+ahorro y la inversión privados. Para quienes defienden al otro modelo, debe ser progresivo, redistribuidor de
+los gastos y reasignador de recursos productivos.
+El monetarismo propone un sistema financiero libre, orientando así la estructura de la oferta y la
+demanda. La tasa de interés debe determinarse libremente por el mercado. Para este paradigma, el banco
+central debe ser autónomo de la autoridad política. Esto no coincide con la propuesta estructuralista: el banco
+central debe subordinarse al Ejecutivo, el sistema financiero debe tener un grado razonable de regulación,
+con tasas de interés real preferenciales para productores pequeños. Los movimientos de capitales deben ser
+también regulados.
+La admisión de inversión extranjera debe ser selectiva para lograr aportes de tecnología y acceder a
+mercados externos. El monetarismo, contrariamente, sostiene que los movimientos de capitales deben ser
+libres y que la inversión extranjera debe competir sin restricciones con la nacional.
+Para el estructuralismo, debe haber un tipo de cambio real regulado que puede ser único o dual.
+El monetarismo propone un tipo de cambio único y tasa libre o fija. El tipo de cambio real no debe
+ser modificado por el gobierno, excepto en el corto plazo.
+Si observamos las cuatro últimas décadas de la economía latinoamericana, habremos verificado en la
+mayoría de los países un arsenal de instrumentos más selectivos para el estructuralismo y neoestructuralismo
+y menos diferenciados para el monetarismo y neoliberalismo, pero en casi todas estas experiencias se pudo
+observar una aplicación del instrumental basado en alguno de estos enfoques.
+Inflación inercial y mecanismos de propagación
+La inflación inercial está explicada por las expectativas. Si se supone la inercia inflacionaria, la
+inflación de hoy es igual a la de ayer más los choques de oferta y causas cíclicas de demanda8:
+7 French-Davis, Ricardo, “Esbozo de un planeamiento neoestructuralista”, Revista de la CEPAL, Nº 34.
+8 Dornbusch. Rudiger y Simonsen, M., “Estabilización de la inflación en el apoyo de una política de ingresos”, El
+Trimestre Económico. N° 214, Fondo de Cultura Económica. México, 1987.
+
+P = P - 1 + choques de oferta + causas cíclicas de demanda
+Donde: P - 1 es la tasa de inflación anterior.
+Es decir que la inflación está ligada al pasado por varios canales. Cuando las empresas fijan sus
+precios, formulan conjeturas sobre sus incrementos de costos y los aumentos de precios de las otras
+empresas.
+Vale decir que, en la ecuación, la parte inicial (P - 1) puede ser estable en algún nivel, pero se
+pueden producir explosiones o ruidos debidos a las otras causas y hacer que la inflación varíe. En general, la
+persistencia tiene lugar por indexación formal a informal de los contratos. Si nos referimos a los salarios, hay
+reglas salariales legalmente aceptadas en las cuales los ajustes salariales de hoy se basan en la inflación de
+períodos anteriores.
+También se pueden otorgar esos aumentos sectoriales en forma irregular, según la inflación esperada,
+que en general seguirá la siguiente regla: la inflación de hoy es igual a la pasada. Los choques de oferta
+pueden estar relacionados con los incrementos de precios de los productos agrícolas o del petróleo, o
+provocados por devaluaciones. Los factores cíclicos denotan la brecha cíclica de la economía, como, por
+ejemplo, la inflación de demanda o la desaceleración inflacionaria por retracción de la actividad económica.
+Ejemplo: la crisis de Brasil, en 1999, acentuó la depresión en la Argentina y muchos precios bajaron en lugar
+de subir.
+El público actuará de acuerdo con las expectativas y fijará sus precios otorgando concesiones
+salariales conforme a la inflación esperada. Si todos los agentes económicos actúan según esas conjeturas, la
+inflación esperada será la inflación efectiva en un equilibrio de conjeturas racionales.
+Modelos simples de dos sectores
+En estos modelos existen dos tipos de bienes producidos cada uno por el sector industrial y
+agropecuario, respectivamente. El precio del bien industrial no transable internacionalmente (no
+comercializable porque se produce principalmente para el mercado interno y está protegido) se fija según un
+mark-up sobre los costos primos, constituidos por los salarios y los insumos importados. El bien
+agropecuario es transable (se exporta), es consumido por los asalariados y su precio depende del tipo de
+cambio y de los precios internacionales de las exportaciones (ley de un solo precio). Es decir, dados los
+costos se le remarcan los beneficios y se fija el precio. El mark-up (margen neto de beneficios) sobre los
+costos primos implica para los formadores de precios tomar primero los costos como los salarios, el tipo de
+cambio, los precios de los insumos importados y luego fijar el precio en el mercado. Esto quiere decir que los
+precios no se fijan exclusivamente según la oferta y la demanda, aunque los componentes cíclicos pueden
+influenciar en bajar el porcentaje de mark-up en casos de recesión. Un ejemplo intuitivo es el de las empresas
+eléctricas o de gas. Como no puede haber muchas en la misma zona, los precios son fijados sobre los costos
+y no en múltiples decisiones entre oferentes y demandantes, a diferencia de los precios flex, como la fruta o
+la verdura en nuestro Mercado Central, que sí dependen de las cantidades demandadas y ofrecidas en un
+período determinado.
+Ecuación estructural de la variación de los precios
+ind
+fix agr
+P = k P (w , E, Pm) + k P (E, Px) (*)
+1 2
+G
+(*)variación del nivel general de precios —porcentajes entre períodos—.
+donde P ind (w, E, Pm)
+P agr (E, Px)
+Siendo:
+w = salarios.
+E = tipo de cambio.
+Pm = precio de las importaciones.
+Px = precio de las exportaciones.
+P ind = precios del sector industrial y urbano.
+P agr = precios del sector agropecuario.
+
+Estos modelos de dos sectores prevalecieron hasta fines de los años 70, donde los salarios, el tipo de
+cambio y los precios internacionales eran variables exógenas.
+En modelos recientes con inflación inercial y siempre con dos sectores, los costos primos del salario
+no son dados exógenamente sino que dependen de la productividad, incorporándose también la indexación
+en el mercado de trabajo.
+A partir de estos modelos se diseñaron algunas políticas económicas heterodoxas de estabilización
+(por ejemplo, el Plan Austral en la Argentina), con controles de precios en los que se anclaban variables
+como los precios, los salarios y el tipo de cambio y corrección fiscal (política de ingresos con este último
+tipo de corrección), a diferencia de las políticas ortodoxas, de los programas tradicionales del FMI, que
+privilegiaban las políticas monetarias y fiscales estrictas como instrumento exclusivo (políticas más
+agregadas).
+Por otro lado, los modelos macroeconómicos de dos sectores también explicaban las relaciones entre
+el sector externo, el nivel de precios internos y el nivel de actividad económica. Estaban además basados en
+un sector productor de bienes transables (rurales), que exporta y abastece al mercado interno.
+La demanda local y la externa compiten por bienes primarios que tienen una gran incidencia en la
+participación de la canasta familiar de consumo de los asalariados. La oferta de este sector rural es inelástica
+a los precios a corto plazo.
+El sector urbano manufacturero, que produce bienes no transables internacionalmente, carece de
+competencia externa y por el tipo de desarrollo sustitutivo de importaciones de la posguerra se caracteriza
+por la tendencia a la concentración y existencia de empresas oligopólicas formadores de precios. Cuando el
+ciclo económico es expansivo, se produce un incremento de las importaciones, una demanda creciente de
+divisas que, ante una oferta rígida, genera condiciones estructurales para una devaluación. El alza del tipo de
+cambio se transmite a los precios y baja el salario real; se ponen en marcha un proceso de redistribución
+regresiva del ingreso y una concentración del nivel de actividad económica y del empleo. Es decir, la
+devaluación pone en marcha un mecanismo recesivo por aumento de precios en lugar de lograr un
+incremento de la oferta agropecuaria que es rígida en el corto plazo. Los aumentos de precios afectan no solo
+a los salarios, las utilidades empresariales y los ingresos del sector rural, sino que además afectan al sector
+público por baja de la recaudación real y por incremento del gasto público a los nuevos precios, aunque el
+gobierno intente frenar los gastos que también son inflexibles.
+En varios estudios en América Latina9, se hace referencia a los efectos más factibles de una
+devaluación para los países que se encuentran en vías de desarrollo (efecto ingreso: caída del salario real por
+un proceso inflacionario y redistribución de la renta) y para los países desarrollados (efecto precio: mejora
+casi inmediata de la balanza comercial).
+Efectos de las devaluaciones
+Países industriales Efecto precio Mejora de la balanza comercial
+(ΔΧ∇Μ )
+Países en desarrollo Efecto ingreso Redistribución del Y ΔPrecios
+∇W real Recesión ∇ Y
+Una devaluación en los países industriales tiene un efecto equilibrante en la balanza de pagos: un
+aumento de las exportaciones y una baja de las importaciones (mejora de la balanza comercial). Ante el
+aumento de precio de los bienes importados, estos son reemplazados por producción local, sobre todo las
+compras externas no esenciales (sustitución de importaciones). También, los productos industriales de estos
+países son potencialmente exportables a precios internacionales y una pequeña mejora en el tipo de cambio
+aumenta su competitividad (suba de exportaciones). Este es el llamado “efecto precio”.
+Las consecuencias en el mercado interno serán distintas según la economía esté trabajando con pleno
+empleo o existan recursos ociosos. En el primer caso, disminuye el consumo global, y en el segundo, se
+produce un efecto reactivante.
+En cambio, en los países en desarrollo, se produce el “efecto ingreso”, donde existen dos categorías
+de devaluaciones: las correctoras de inflación y las obligadas.
+La primera proviene de una decisión del gobierno y pretende corregir los efectos de la inflación en la
+distribución del ingreso, incentivando la actividad exportadora. Es decir, en los países en vías de desarrollo,
+9 Diamand, Marcelo, Doctrinas económicas, desarrollo e independencia Ed. Paidós. Buenos Aires, 1973.
+
+especialmente en la Argentina, se produciría una redistribución del ingreso a favor del sector primario
+exportador y el sector financiero, a costa de los sectores asalariado y empresario (industrial y de servicios).
+La devaluación obligada tiene como finalidad corregir los déficit externos, por el agotamiento de las
+reservas. Pero las consecuencias no son las mismas que en los países industrializados, dada la especial
+estructura productiva de estos países.
+En general, la mayor parte de las importaciones son esenciales; por lo tanto, son no sustituibles en el
+corto plazo (insumos para la producción). Los bienes no esenciales que se compran en el exterior se amparan
+en un régimen de exenciones y son poco sensibles a los cambios en el precio, dado que se consumen por un
+sector de altos ingresos.
+En el caso de las exportaciones agropecuarias, estas no responden inmediatamente a las
+modificaciones en el tipo de cambio, ya que las inversiones en el sector requieren una considerable cantidad
+de tiempo. Además, la mayor parte del volumen colocable ya se exporta y los países se enfrentan a una
+demanda mundial rígida.
+La conjugación de todos estos factores hace que la devaluación no aumente las exportaciones y
+disminuya las importaciones más allá de lo normal. Es decir, la devaluación no actúa por el efecto precio
+sino por el efecto ingreso: la caída de las importaciones se produce como consecuencia de un fenómeno
+recesivo (baja del nivel de actividad).
+El tipo de cambio influye sobre los costos industriales, ya que el aumento del precio de los insumos
+importados se traslada a los servicios: es el efecto propagación. Del mismo modo, determina el precio
+interno de los bienes exportables, que suben como consecuencia de la devaluación: es el efecto arrastre. Los
+dos efectos combinados provocan un alza en el nivel general de precios, a la que se denomina “inflación
+cambiaria”, causada principalmente por un estrangulamiento en el mercado de divisas.
+La inflación provoca una baja de los salarios reales y una transferencia de ingresos desde el sector
+asalariado hacia el primario exportador. Esta redistribución regresiva del ingreso ocasiona una caída del
+consumo global (recesión). También, como consecuencia de la inflación, disminuyen la inversión y el
+ingreso, aumentando el desempleo. De este modo se restablece el equilibrio externo, pero por la vía de la
+recesión (efecto ingreso).
+El esquema siguiente resume estos conceptos:
+Px W/P (baja el salario real) → ↓ C
+Devaluación → ↓ M/P → ↑ i →↓I
+↓ ↑ Pm ↓ G por retracción del presupuesto y efecto Olivera-Tanzi
+General inflación estructural cambiaria
+(cid:131) W/P. Siendo W el salario nominal, si se incrementa el nivel general de precios (P),
+baja el salario real e impacta en el consumo.
+(cid:131) M/P. Sabemos que la cantidad nominal de dinero la fija el banco central. Si los
+precios aumentan, baja la cantidad real de dinero y no es que disminuya la oferta
+monetaria extinguiendo dinero, pero a mayores precios por cantidad fija de dinero,
+es como si se produjera iliquidez que puede disminuir la oferta de saldos reales y
+aumentar las tasas de interés si la demanda de dinero no varía. La suba de la tasa de
+interés puede bajar la demanda planeada de inversión y afectar el financiamiento del
+sector público y el sector privado impactando en la demanda agregada, la producción
+y el empleo.
+(cid:131) Efecto Olivera-Tanzi. Se debe recordar que el gasto público es a precios de hoy, y
+si hay inflación, se recauda a precios de hace días o meses. El sector público baja su
+recaudación real y la inflación afecta el déficit público, que debe ajustar y a veces
+bajar el gasto.
+En síntesis, la devaluación puede generar un aumento del nivel de precios que influyen en el
+consumo, la inversión, los gastos de gobierno, las importaciones y las exportaciones produciendo una baja en
+el nivel de actividad económica o una desaceleración de las tasas de crecimiento.
+Modelos de más de dos sectores con mercados diferenciados
+A mediados de la década de 1980, y a la luz de las experiencias estabilizadoras del Plan Austral y la
+vuelta de la inflación recurrente, surgieron algunas controversias con los modelos de dos sectores y la
+
+eficiencia antiinflacionaria de las políticas de anclaje, congelamiento o administración del tipo de cambio,
+salarios, precios y tarifas públicas10. Este debate se dio por la presencia en la economía argentina de
+alimentos no comerciables (con flex-prices), que dependen de la oferta y la demanda internas; son
+insensibles al control de tipo de cambio y reaccionan en forma muy flexible con el nivel de actividad.
+Además, los asalariados en realidad consumen bienes que tienen una importante proporción de servicios muy
+elásticos al nivel de la actividad. Por último, el mercado de trabajo, como se ha expresado anteriormente con
+la inflación inercial, para un modelo de dos sectores, se refiere solo al sector industrial. Si se incluyen los
+servicios públicos y privados como una actividad urbana que contribuye en forma relevante al empleo, se
+alteran las características de la propagación de la inflación. Es decir, para los modelos de los sectores
+descriptos, el brote inflacionario y la inercia solo se explicarían por el sector externo, o por algún empuje
+salarial. Controlando esas variables (administración de precios industriales y tipo de cambio), se podría
+controlar la inflación. Los rebrotes inflacionarios demostraron ciertas inconsistencias de estos modelos.
+Surgieron entonces modelos de tres sectores que incluyen los alimentos no comerciables, los servicios
+públicos y privados, el empleo público y el empleo de los servicios privados.
+En estos nuevos modelos de corte neoestructuralista, los asalariados consumen una canasta de bienes
+distinta de la de los modelos de los sectores, que incluye no solo los comerciables e industriales, sino que
+también se indexan por la gran participación en la canasta familiar de los no transables y los servicios
+públicos y privados (ya más insensibles al manejo del tipo de cambio). Por otro lado, los mecanismos de
+propagación institucional y su cadena de solidaridad generan reglas distintas de indexación y reacciones
+notorias del mercado de trabajo ante cualquier perturbación. En síntesis, y como consecuencia de estas
+heterogeneidades estructurales, aunque la política económica disponga de controles de precios y salarios, se
+produce una diferenciación en los mercados con respuestas distintas: un mercado que reacciona por
+cantidades ante una expansión de la demanda (bienes industriales) y otro mercado constituido por alimentos
+no comerciables y servicios, que responde por precios (flex-prices: precios que se definen en el mercado, por
+ejemplo. algunos productos agropecuarios y no transables). El mercado de trabajo propaga estas asimetrías y
+brotes inflacionarios ante cualquier shock y relanza la inercia inflacionaria.
+Una ecuación general en el modelo de tres sectores puede ser representada por:
+ind-gob
+fix agr flex
+P=k P + k P + k P
+1 2 3
+ind-gob
+kfix → Son aquellos influenciados por los formadores de precios o precios fijados o administrados.
+1
+Ejemplo: tarifas, precios de empresas monopólicas, etcétera.
+k agr→ Están influenciados por el tipo de cambio. Ante una devaluación, aumentan los precios
+2
+transables del sector.
+k flex→ Son aquellos no transables que dependen de componentes cíclicos. Ejemplo: si por alguna
+2
+razón no pueden entrar alimentos frescos al Mercado Central (un caso podrían ser las fuertes
+lluvias que no permiten la entrada de los camiones con frutas y verduras frescas), aparece una
+pequeña brecha de oferta durante unos días que implica que en el corto plazo, por ser bienes
+no transables, no se pueden traer por otro medio para abastecer el mercado. El precio de estos
+bienes aumenta y luego se expande al resto de los precios.
+Es decir, la inflación en este caso tiene varias causas:
+(cid:131) Precios administrados (tarifas públicas o empresas privadas formadoras de precios).
+(cid:131) Precios afectados por la devaluación (bienes transables).
+(cid:131) Sector agropecuario y precios flex que dependen del mercado y no son afectados por el tipo
+de cambio.
+Aquí, la tasa de inflación para el nivel general de precios (variaciones porcentuales entre períodos) es
+una suma ponderada de la tasa de variación de los precios administrativos (llamados también fix-prices:
+fijados al margen de los mecanismos normales del mercado), los precios transables y los flexibles.
+Algunos modelos más desagregados aun dividen los precios administrados entre el gobierno y la
+industria y los flex entre agropecuarios no comerciables y servicios, e introducen en esta ecuación general las
+productividades del trabajo de cada sector y los salarios.
+10 Fanelli. José María y Frenkel, Roberto. Políticas de estabilización hiperinflación en Argentina. CEDES-Ed. Tesis.
+Buenos Aires. 1990.
+
+Se observa que estas ecuaciones más generales consignan una canasta para el nivel de precios que
+indicaría una canasta de precios al consumidor, distinta de la canasta de precios mayoristas, no solo por las
+ponderaciones sino por el tipo de bienes que se privilegian. Hay que recordar que en el IPC están incluidos
+los servicios y entretenimientos (por ejemplo, restaurantes, odontólogo, etc.) que no se incluyen en el IPM
+(índice de precios mayoristas).
+En síntesis, la inflación estaría explicada por vanas causas (aunque existen otras):
+(cid:131) Una de ellas se da cuando en forma autónoma se aumentan las tarifas públicas o una empresa
+que tiene poder oligopólico sube los precios que luego se expanden al resto de la economía.
+(cid:131) En segundo lugar, los bienes que están influenciados por los transables, tales como los
+agropecuarios, a veces son automáticamente afectados por una devaluación.
+(cid:131) En tercera instancia, aquellos que dependen de componentes cíclicos ante cambios en la
+demanda en el corto plazo o microdesequilibrios estructurales en la oferta, por ejemplo, los
+alimentos frescos (como frutas, verduras u hortalizas), llamados flex.
+21.1B Evolución de la inflación y políticas de estabilización
+Pasaremos a analizar la evolución de la inflación en algunos países de América Latina en las décadas
+de 1980 y 1990.
+Después de la crisis que afectó a la región en 1982 y que provocó un incremento de la tasa de
+inflación en los años posteriores, en la década de 1990 las economías han mostrado una tendencia a la
+reducción de la inflación. Entre 1985 y 1990, solo dos países presentaban una inflación de un dígito. En el
+período 1991-1994, se redujo el número de países con alta inflación; Brasil fue la excepción, dado que aún
+tenía inflación elevada. En 1994, Brasil implementó el Plan Real para lograr la estabilización, y su principal
+objetivo era reducir el déficit público.
+Es dificultoso poder generalizar las causas del éxito de las políticas que han aplicado algunos países
+para disminuir la inflación, pero sí se ha reconocido que la situación financiera del sector público debe
+mostrar un equilibrio. Es fundamental destacar la importancia de la supresión de la inercia inflacionaria; la
+orientación de las expectativas contribuye a la aplicación de estos planes. El logro de esos objetivos está muy
+vinculado al saneamiento del sector público, que influye en las expectativas de los agentes económicos:
+Cuadro 21.1 A La tasa de inflación anual en diecinueve países de América Latina.
+1978-1981 1982-1984 1985-1990 1991-1994 1990 1994 1995
+Argentina 132.1 443.5 1216.2 28.2 1343.9 3.7 1.8
+Bolivia 27.0 934.1 1383.9 10.7 18.0 8.5 10.7
+Brasil 76.8 162.5 855.6 1260.8 1584.6 929.3 22.0
+Chile 26.1 36.6 17.6 17.8 27.3 8.9 8.2
+Colombia 27.5 22.4 21.1 13.1 32.4 22.6 20.0
+Costa Rica 25.4 19.6 25.7 24.3 27.3 19.9 24.9
+Ecuador 13.3 34.0 45.6 41.4 49.3 25.4 22.2
+El Salvador 14.9 13.0 23.8 12.7 19.3 8.9 11.4
+Guatemala 10.2 6.9 25.1 11.9 59.6 11.6 8.6
+Haití 13.2 7.2 7.9 19.1 26.1 52.1 25.0
+Honduras 12.2 6.1 10.8 17.5 36.4 28.8 26.5
+México 23.7 79.6 71.7 11.5 29.9 7.1 48.5
+Nicaragua 30.7 34.1 8526.0 202.7 13490.2 12.4 11.0
+Panamá 8.6 2.2 0.4 1.3 0.8 1.4 1.3
+Paraguay 19.1 16.0 28.1 17.1 44.1 18.3 10.4
+Perú 68.2 103.2 2080.5 62.7 7649.6 15.3 10.3
+República 9.8 17.7 37.6 7.5 79.9 14.3 12.0
+Dominicana
+Uruguay 50.3 46.0 83.0 59.3 129.0 44.1 36.8
+Venezuela 14.6 10.9 35.5 44.9 36.5 70.9 52.9
+Fuente: CEPAL
+Preguntas de reflexión
+a) Observe cómo varió la inflación en Brasil, que bajó de 1.584,6 a 22,0 en el período 1990-1995.
+
+b) Realice el mismo análisis para la Argentina en el período 1990-1995.
+La inflación y el financiamiento del déficit
+Según la opinión de algunos economistas, en especial los monetaristas, la inflación alta es
+consecuencia de los déficit presupuestarios debido a que el Estado financia sus mayores gastos con emisión
+monetaria.
+Si bien esto es cierto, se debe aclarar que existen posibilidades de financiamiento no inflacionario del
+déficit. Además, los déficit pueden ser financiados con deuda y existe una relación de causalidad que va de la
+inflación a los déficit.
+Por lo tanto, el déficit se puede financiar por medio de estas tres vías:
+a) Base monetaria.
+b) Con deuda interna.
+c) Con deuda externa.
+(1) H / P + D int/ P + D ext . E / P = gY
+Donde:
+g = déficit como proporción del PIB.
+Y = PIB real.
+H = base monetaria interna.
+D int = deuda interna.
+D ext = deuda externa.
+E = tipo de cambio.
+El punto sobre las variables significa la tasa de crecimiento.
+Se observa que los déficit pueden ser financiados transitoriamente solicitando un préstamo interno o
+externo, si no se quiere aumentar la oferta monetaria. Centraremos la atención en el financiamiento mediante
+la emisión monetaria.
+Cuadro 21.1B Déficit y financiamiento.
+Periodo Total Financiado Financiado
+internamente externamente
+1940-1944 2,7 7,4 -4,7
+1945-1949 8,1 10,1 -2,0
+1950-1654 6,6 6,7 -0,1
+1955-1959 6,0 5,7 0,3
+1960-1964 5,7 5,3 0,4
+1965-1969 3,1 3,4 -0,3
+1970-1974 5,3 5,3 0,0
+1975-1979 11,6 14,4 -2,8
+1980-1984 14,4 9,0 5.4
+1981 15,2 8,2 7,0
+1982 12,6 6,7 5,9
+1983 15,7 12,9 2,8
+1984 17,2 11,2 6,0
+1985 12,3 9,9 2,4
+1986 8,5 5,6 2,9
+1987 10,8 7,9 2,9
+Fuente. Dornbusch. Rudiger y De Pablo. Juan Carlos, Deudo externo e inestabilidad macroeconómica en la Argentina.
+Ed. Sudamericana. Buenos Aires, 1988.
+En investigaciones realizadas en el período de los años 8011, que tienen en cuenta los aportes de John
+Maynard Keynes de los años 30, se enfatizó que financiar los déficit con emisión significa que todo el dinero
+11 Dornbusch, Rudiger y De Pablo. Juan Carlos, Deuda externa e inestabilidad macroeconómica en la Argentina. Ed.
+Sudamericana. Buenas Aires. 1988.
+
+no deseado debe ser impuesto al público, al nivel de precios de la economía. Cuando la economía se
+encuentra en crecimiento, se requieren más saldos reales para el mayor nivel de transacciones. Los agentes
+económicos deben restablecer sus saldos reales: por lo tanto, deben aumentar sus tenencias nominales de
+dinero.
+En síntesis, la inflación genera una demanda del dinero creado para financiar el déficit.
+Ya Keynes, en 1923, se refirió al impuesto inflacionario con la siguiente idea:
+“[...] mientras el público utilice moneda, el Estado puede seguir captando recursos mediante
+se inflación [...] un Estado puede obtener recursos mediante una práctica continua de la inflación,
+aun cuando esta sea prevista por el público, a menos que las sumas que trate de reunir de esta manera
+sean excesivamente desmedidas.
+[...] Lo que se recauda imprimiendo billetes se le saca al público, del mismo modo que un
+impuesto a la cerveza o un impuesto a los réditos. El público paga lo que un Estado gasta. No existe
+algo así como el déficit no cubierto”.
+La alta inflación
+En la discusión anterior, hemos presentado algunas ideas sobre los enfoques y debates
+contemporáneos referidos a la inflación, sus consecuencias y el interrogante de cómo corregir estas
+patologías, en especial la alta inflación.
+Hemos señalado que de las realidades de los países desarrollados surgen teorías que tal vez no
+incorporan las deficiencias estructurales en su sector externo, así como las asimetrías de su sistema
+productivo y sus instituciones. Sin embargo, en las experiencias de alta inflación, el ajuste y la estabilización
+han presentado rasgos comunes en su dinámica. Este proceso se caracteriza por la interacción de varios
+aspectos que hacen al financiamiento del déficit, shocks externos, estructura institucional de los contratos,
+innovaciones financieras, liberalización y reformas básicas de las políticas, apoyo y acuerdos internacionales.
+En el próximo apartado, presentaremos la dinámica de la alta inflación en varios países y su impacto en la
+economía real, así como algunos planes de estabilización, sus éxitos y sus fracasos.
+En 1913, el valor de todas las monedas y billetes que circulaban en Alemania era de DM 6.000
+millones. Diez años después, en octubre de 1923, esa cifra apenas era suficiente para comprar un kilo de pan
+de centeno en Berlín. Un mes más tarde, el precio del pan había subido a DM 428.000 millones12.
+La hiperinflación alemana de principios de los años 20 es, probablemente, el caso más famoso (el
+término hiperinflación significa simplemente una inflación muy alta), pero no el único. El cuadro 21.2
+resume las siete grandes hiperinflaciones que se registraron tras la Primera y la Segunda Guerra Mundial.
+Comparten algunas características. Todas fueron breves (duraron un año aproximadamente) pero intensas; la
+inflación mensual giró en tomo al 50 % o más. En todos los casos, la subida del nivel de precios fue
+asombrosa. Como puede observarse, la mayor subida de los precios no se registró, en realidad, durante la
+hiperinflación alemana sino en Hungría después de la Segunda Guerra Mundial. Lo que costaba un pengo
+húngaro en julio de 1946 costaba 3.800 billones de billones de pengos menos que un año después.
+Desde entonces no se han registrado nunca más esas tasas de inflación tan altas. El caso reciente más
+cercano es el de Bolivia. Entre enero de 1984 y septiembre de 1985, la inflación boliviana fue, en promedio,
+de un 40 % al mes, lo que implica que el nivel de precios se multiplicaba por 1.000 en veintiún meses13. Pero
+muchos países, especialmente en América Latina, han luchado durante muchos años contra los brotes de
+elevada inflación, a menudo superior al 15 o al 20 % al mes14.
+¿A qué se deben las hiperinflaciones? En el capítulo 18, vimos que la inflación se debe, en última
+instancia, al crecimiento del dinero. Las dos últimas columnas del cuadro 21.2 confirman esta relación entre
+el crecimiento del dinero y la inflación: en todos los países, la elevada inflación va acompañada de un
+elevado crecimiento de la cantidad nominal de dinero. Pero esta relación plantea otra cuestión: ¿Por qué fue
+tan elevado el crecimiento del dinero? La respuesta es la misma para todas las hiperinflaciones: el
+crecimiento del dinero es elevado porque el déficit presupuestario es alto y este es alto, a su vez, porque la
+economía sufre grandes perturbaciones que dificultan o impiden al Estado financiar sus gastos si no es
+12 Estos datos proceden de webb. Steven, Hyperinflation and Stabilization in the Weimar Republic, Oxford Universty
+Press. Nueva York. 1959.
+13 Una inflación mensual del 40% implica que el nivel de precios existente al final de veintiún meses es igual a (1 +
+0.4)21= 1.171 veces el nivel de precios existente al principio.
+14 La transición en Europa del Este en la década de 1990 también se ha producido a menudo con una elevada
+inflación. Véase el capítulo 26
+
+creando dinero. En el resto de este capítulo, examinamos más detalladamente esta respuesta, basándonos en
+ejemplos de distintas hiperinflaciones.
+Cuadro 21.2 Siete hiperinflaciones de los años 20 y los años 40.
+País Comenzó en Terminó en P/P Tasa mensual Crecimiento
+t o
+media de mensual medio
+inflación (%) de dinero (%)
+Austria Oct 1921 Ag. 1922 70 47 31
+Alemania Ag. 1922 Nov. 1923 1,0 x -1010 322 314
+Grecia Nov. 1943 Nov. 1944 4,7 x -106 365 220
+Hungría I Mar. 1923 Feb. 1924 44 46 33
+Hungría II Ag. 1945 Jul. 1946 3,8 x 1027 19.800 12.200
+Polonia En. 1923 En. 1924 699 82 72
+Rusia Dic. 1921 En. 1924 1,2 x 105 57 49
+PP : nivel de precios del último mes de hiperinflación dividido por el nivel de precios del primer mes.
+t 0
+Fuente: Cagan, Philip,”The Monetary Dynamics of Hyperinflation”, en Friedman, Milton (comp.). Studies in the
+Quantity Theory of Money, University of Chicago Press, Chicago, 1956, cuadro I.
+21.1 Los déficit presupuestarios y la creación de dinero
+El Estado puede financiar su déficit de una de las dos formas que se explicarán a continuación.
+Puede financiarlo de la misma manera que lo financiaríamos nosotros, a saber, endeudándose. El
+Estado se endeuda emitiendo bonos. Pero también puede hacer algo que nosotros no podemos hacer. Puede
+financiar, de hecho, su déficit creando dinero. La razón por la que empleamos la expresión “de hecho” se
+halla en que, como vimos en el capítulo 5, no es el Estado el que crea dinero, sino el banco central. Pero con
+la cooperación del banco central, puede financiarse, de hecho, creando dinero. Puede emitir bonos y pedir al
+banco central que los compre. El banco central paga entonces al Estado con el dinero que crea y este utiliza,
+a su vez, ese dinero para financiar su déficit. Este proceso se denomina monetización de la deuda.
+La mayoría de las veces y en la mayoría de los países, los déficit se financian principalmente
+endeudándose, no creando dinero. Por ejemplo, menos del 10 % de los grandes déficit presupuestarios en que
+se incurrió en Estados Unidos durante la década de 1980 se financió creando dinero. Pero al comienzo de las
+hiperinflaciones, normalmente ocurren dos cambios.
+El primero es una crisis presupuestaria. La causa generalmente es una gran convulsión social o
+económica. Puede ser una guerra civil o una revolución que destruye la capacidad del Estado para recaudar
+impuestos, como ocurrió en Nicaragua en la década de 1980. 0 puede ser, como en el caso de las
+hiperinflaciones del cuadro 21.2, tras una guerra, como consecuencia de la cual el Estado tiene menos
+ingresos fiscales y necesita realizar grandes gastos para reconstruir el país. Alemania tenía un déficit
+presupuestario que representaba más de dos tercios de sus gastos debido a las indemnizaciones que tuvo que
+pagar a las fuerzas aliadas en 1922 y 1923 a raíz de la guerra. La crisis presupuestaria también puede deberse
+a una gran perturbación económica; por ejemplo, a un descenso del precio de una materia prima que
+constituye tanto un importante bien de exportación del país como la principal fuente de ingresos del Estado.
+Como veremos más adelante en este capítulo, el descenso del precio del estaño, que es el principal producto
+de exportación de Bolivia, fue una de las causas de la hiperinflación boliviana de los años 80.
+La segunda es la creciente falta de disposición o incapacidad del Estado para obtener préstamos del
+público o de otros países con el fin de financiar su déficit. La razón se halla en la magnitud del propio déficit.
+Temiendo que el Estado no pueda devolver la deuda en el futuro, los posibles prestamistas comienzan a
+pedirle tipos de interés cada vez más altos. A veces, deciden dejar de prestarle; como consecuencia, el Estado
+recurre cada vez más a la otra fuente de financiación de que dispone, a saber, la creación de dinero.
+Finalmente, la mayor parte del déficit se financia creando dinero.
+¿Cuál es la tasa de crecimiento del dinero necesaria para financiar un déficit? Para responder a esta
+pregunta, supongamos que el déficit se financia totalmente creando dinero, por lo que:
+Δ M = $déficit
+Esta ecuación indica simplemente que el Estado (a través del banco central) debe crear suficiente
+dinero para cubrir el déficit nominal. M es la cantidad nominal de dinero, medida, por ejemplo, a fines de
+
+cada mes15 (en el caso de una hiperinflación, las variables cambian tan deprisa que es útil dividir el tiempo
+en meses en lugar de trimestres o años, como hemos hecho en capítulos anteriores). ΔM es la variación que
+experimenta la cantidad nominal de dinero desde el final del mes anterior hasta el final de este; en otras
+palabras, es igual a la creación de dinero nominal de este mes; “$déficit” es el déficit presupuestario
+expresado en términos nominales.
+Si dividimos los dos miembros de la ecuación por el nivel de precios existente durante el mes, P, y
+representamos el déficit real por medio del “déficit” sin el signo del dólar, tenemos que:
+ΔM
+= déficit
+P
+(21.1)
+Los ingresos derivados de la creación de dinero, ΔM /P, se denominan señoriaje. El término es
+revelador: el derecho a emitir dinero era, de hecho, una preciosa fuente de ingresos para los “señores” del
+pasado. La ecuación (21.1) indica que el Estado debe crear suficiente dinero para que el señoriaje sea
+suficiente para financiar el déficit real.
+Multiplicando el numerador y el denominador de ΔM /Ppor M , podemos formular de nuevo el
+señoriaje de la manera siguiente:
+Señoriaje = crecimiento del dinero x saldos reales
+ΔM ΔM M
+(21.2)
+P M P
+El señoriaje es el crecimiento del dinero (ΔM /M ) multiplicado por los saldos reales (M /P).
+Cuanto mayores son los saldos reales que hay en la economía, mayor es la cantidad de señoriaje
+correspondiente a una determinada tasa de crecimiento del dinero.
+Para estudiar las magnitudes relevantes, es conveniente dividir los dos miembros de la ecuación
+(21.2) por la renta real, Y (expresada en valores mensuales):
+ΔM /P ΔM ⎛M /P⎞
+= ⎜ ⎟
+Y M ⎝ Y ⎠
+(21.3)
+Esta ecuación establece que el cociente entre el señoriaje y la renta real (el término del primer
+miembro) es igual a la tasa de crecimiento del dinero (el primer término del segundo miembro) multiplicada
+por el cociente entre los saldos reales y la renta real (el segundo término del segundo miembro). Supongamos
+que el Estado está incurriendo en un déficit presupuestario igual al 10 % de la renta real. Si lo financia
+creando dinero, el señoriaje también debe ser igual al 10 % de la renta real. Supongamos que el público tiene
+saldos reales iguales a dos meses de renta, por lo que (M/P)/Y= 2. En ese caso, la ecuación (21.3) nos dice
+que la tasa mensual de crecimiento del dinero debe ser igual a 10 %/2 = 5 %.
+¿Implica esto que el Estado puede financiar un déficit igual a un 20 % de la renta real por medio de
+una tasa de crecimiento del dinero del 10 %, un déficit del 40 % de la renta real por medio de un crecimiento
+del dinero del 20 %, etc.? No. A medida que aumenta el crecimiento del dinero, también aumenta la
+inflación. Y a medida que aumenta la inflación, aumenta el coste de oportunidad de tener dinero, lo que lleva
+al público a reducir sus saldos reales. En la ecuación (21.2), un aumento de ΔM /M provoca una reducción
+de M /P, por lo que un aumento del crecimiento del dinero no provoca un aumento proporcional del
+señoriaje. Lo fundamental aquí es cómo ajusta el público sus saldos reales en respuesta a la inflación, y ese
+es el tema del que nos ocupamos a continuación.
+15 “Estamos utilizando un atajo. Lo que debería figurar en el primer miembro de la ecuación es H, que es la base
+monetaria —el dinero creado por el banco central—en lugar de M, que es la cantidad de dinero. Prescindiré de la
+distinción entre los dos en este capítulo, ya que no desempeña un papel importante en los argumentos siguientes.
+
+21.2 La inflación y los saldos reales
+¿De qué depende la cantidad de saldos reales que tiene el público? Recordemos la relación LM que
+hemos utilizado hasta ahora:
+M
+( )
+=YL i
+P
+Cuando aumenta la renta real, el público tiende a tener mayores saldos reales. Cuando sube el tipo de
+interés nominal, aumenta el coste de oportunidad de tener dinero en lugar de bonos, por lo que el público
+tiende a reducir sus saldos reales.
+Esta caracterización es válida tanto en las épocas de estabilidad económica como en las de
+hiperinflación. Pero en las segundas, podemos simplificar algo más. He aquí cómo. En primer lugar,
+formulamos de nuevo la relación LM utilizando la relación entre el tipo de interés nominal y el real,
+i = r+πe 16
+M ( )
+=YL r +πe
+P
+Los saldos reales dependen de la renta real (Y), del tipo de interés real (r) y de la inflación esperada
+(πe). Las tres variables varían durante las hiperinflaciones, pero la inflación esperada varía mucho más que
+las otras dos. Durante una hiperinflación representativa, la inflación efectiva —y, por lo tanto,
+probablemente también la esperada— puede pasar de cerca del 0 % al 50 % al mes o más. En consecuencia,
+no es una mala aproximación simplificar suponiendo que tanto la renta como el tipo de interés real se
+mantienen constantes y centrar la atención en las variaciones de la inflación esperada. Expresemos, pues, la
+relación de la forma siguiente:
+M ( )
+=YL r +πe
+P
+(21.4)
+donde las barras situadas encima de Y y de r significan que ahora consideramos que se mantienen constantes.
+En las épocas de hiperinflación, la ecuación (21.4) nos dice que podemos pensar que los saldos reales
+dependen principalmente de la inflación esperada. A medida que esta aumenta y es cada vez más costoso
+tener dinero, el público reduce sus saldos reales.
+Y de hecho, durante las hiperinflaciones, el público encuentra muchas formas de reducir sus saldos
+reales. Cuando la tasa mensual de inflación es del 100 %, por ejemplo, tener dinero en efectivo durante un
+mes implica perder la mitad de su valor real (porque las cosas cuestan el doble un mes más tarde). Por lo
+tanto, aumenta el trueque, es decir, el intercambio de unos bienes por otros y no por dinero. Los salarios se
+abonan con una frecuencia cada vez mayor (a menudo, dos veces a la semana). Una vez que se abonan, la
+gente corre a las tiendas a comprar bienes. Aunque los gobiernos suelen declarar ilegal el uso de monedas
+distintas de la nacional, el público utiliza monedas extranjeras como depósito de valor. Al describir la
+hiperinflación austríaca de los años 20, Keynes señaló: “En Viena, durante el período de colapso,
+aparecieron oficinas de cambio como hongos en cada esquina, en las cuales se podían cambiar coronas en
+francos de Zurich nada más recibirlos y evitar así el riesgo de perder dinero en el espacio de tiempo que se
+tardaba en llegar al banco habitual”17. Y aunque sea ilegal, una creciente proporción de las transacciones se
+realiza en moneda extranjera. Durante las hiperinflaciones latinoamericanas de los años 80, la gente utilizaba
+moneda extranjera, pero no francos suizos sino dólares norteamericanos. Esta práctica se ha extendido tanto
+en todo el mundo que ha recibido el nombre de dolarización (el uso de dólares para realizar transacciones
+interiores).
+¿Cuánto disminuyen realmente los saldos reales cuando aumenta la inflación? En la figura 21.2,
+examinamos la evidencia de la hiperinflación húngara de los años 20 y aportamos algunas ideas.
+La figura 21.1A representa la evolución de los saldos reales y la tasa mensual de inflación desde
+noviembre de 1922 hasta febrero de 1924. Obsérvese que las variaciones de la inflación se traducen en
+variaciones contrarias de los saldos reales. La breve disminución de la inflación húngara registrada entre
+julio y octubre de 1923 se traduce en un aumento igualmente breve de los saldos reales. Al final de la
+hiperinflación, en febrero de 1924, estos eran algo más de la mitad que al principio.
+16 Véase el capitulo 7 para un repaso
+17 Keynes. John Maynard. Tract on Monetary Reform, Harcourt Brace and Company, Nueva York. 1924. pág. 51.
+
+Figura 21.1 La inflación y los saldos reales en Hungría, noviembre de 1922-febrero de 1924.
+Al final de la hiperinflación húngara, los saldos reales representaban alrededor de la mitad del nivel en el que se
+encontraban antes.
+Fuente: véase el cuadro 21.2.
+La figura 21.1B presenta las mismas cifras, pero por medio de un diagrama de puntos. Representa los
+saldos reales mensuales en el eje de abscisas y la inflación en el de ordenadas (pues no podemos observar la
+inflación esperada, que es claramente la variable que nos gustaría representar). Obsérvese que los puntos
+describen a la perfección una demanda de dinero de pendiente negativa: a medida que aumenta la inflación
+—efectiva y, probablemente, esperada—, la demanda de dinero disminuye notablemente18.
+Hemos observado las cifras de la primera hiperinflación húngara, pero la conclusión es general: los
+aumentos de la inflación llevan al público a emplear menos dinero y provocan una disminución de los saldos
+reales.
+21.3 Los déficit, el señoriaje y la inflación
+Hemos examinado la relación entre los déficit y la creación de dinero y, a continuación, la relación
+entre los saldos reales y la inflación. Uniendo las dos, ahora podemos mostrar que la necesidad de financiar
+18 Obsérvese que esta disminución de los saldos reales explica por qué en el cuadro 21.2 la inflación media es mayor
+que el crecimiento medio del dinero en cada una de las siete hiperinflaciones ocurridas desde la Segundo Guerra
+Mundial. El hecho de que los saldos reales, M/P. disminuyan durante las hiperinflaciones implica que los precios. P,
+deben subir más que M. En otras palabras, la inflación media debe ser mayor que el crecimiento medio del dinero.
+
+un déficit presupuestario puede provocar no solo una elevada inflación sino también, al igual que en el caso
+de las hiperinflaciones, una elevada y creciente inflación.
+Crecimiento constante del dinero
+Supongamos, en primer lugar, que el gobierno elige una tasa constante de crecimiento del dinero y la
+mantiene indefinidamente (es evidente que eso no es lo que ocurre durante las hiperinflaciones, en las que la
+tasa de crecimiento del dinero normalmente aumenta durante la hiperinflación; seremos más realistas en la
+segunda parte de este apartado). ¿Cuánto señoriaje generará esta tasa constante de crecimiento del dinero? En
+otras palabras, ¿cuánto déficit podrá financiar el Estado?
+Combinando lo que hemos aprendido, podemos formular la siguiente expresión:
+ΔM M
+señoriaje =
+P P
+ΔM [ ( )]
+= YL r +πe
+M
+(21.5)
+La primera línea repite la ecuación (21.2): el señoriaje es igual ala tasa de crecimiento del dinero
+multiplicada por los saldos reales. La segunda línea incorpora lo que hemos aprendido en la ecuación (21.4):
+que los saldos reales dependen negativamente de la inflación esperada.
+Si el crecimiento del dinero se mantiene constante indefinidamente, la inflación y la inflación
+esperada deben acabar siendo también constantes. Para simplificar el análisis, suponemos que el crecimiento
+de la producción es nulo. En ese caso, la inflación efectiva y la esperada deben ser iguales al crecimiento del
+dinero:
+ΔM
+πe =π=
+M
+Sustituyendo πepor ΔM /M en la ecuación (21.5), tenemos que:
+ΔM ⎡ ⎛ ΔM ⎞⎤
+señoriaje = ⎢ YL⎜r + ⎟⎥
+M ⎣ ⎝ M ⎠⎦
+(21.6)
+A medida que aumenta el crecimiento del dinero —el primer término del segundo miembro de la
+ecuación (21.6)—, los saldos reales —los términos entre corchetes del segundo miembro— disminuyen. Por
+lo tanto, lo que ocurre con el producto de estos términos, con el señoriaje, es ambiguo. Según la evidencia
+empírica, la relación entre el señoriaje y el crecimiento del dinero se parece a la que se observa en la figura
+21.2.
+La relación tiene forma de joroba. Cuando las tasas de crecimiento del dinero son bajas, como ocurre
+actualmente en Europa o en Estados Unidos, un aumento del crecimiento del dinero provoca una pequeña
+reducción de los saldos reales. Por lo tanto, provoca un aumento del señoriaje. Sin embargo, cuando la tasa
+de crecimiento del dinero (y, por ende, la inflación) se vuelve muy elevada, la reducción de los saldos reales
+causada por el aumento del crecimiento del dinero es cada vez mayor. Finalmente, hay una tasa de
+crecimiento del dinero —representada por el punto A de la figura 21.2— a partir de la cual los nuevos
+aumentos del crecimiento del dinero reducen, en realidad, el señoriaje.
+Tal vez resulte familiar la forma de la relación de la figura 21.2 a los lectores que hayan estudiado
+Hacienda Pública. Pensemos en los impuestos sobre la renta. Los ingresos que generan estos son iguales al
+tipo del impuesto sobre la renta multiplicado por la renta, es decir, la base impositiva. Cuando los tipos
+impositivos son bajos, apenas influyen en cuanto trabaja la gente, por lo que los ingresos fiscales aumentan
+con el tipo impositivo. Pero a medida que este aumenta más, algunas personas comienzan a trabajar menos o
+dejan de declarar parte de sus ingresos, por lo que disminuye la base impositiva. Cuando el impuesto sobre la
+renta es muy alto, las subidas del tipo impositivo provocan una reducción de los ingresos fiscales.
+Evidentemente, los tipos del 100 % no generan ningún ingreso fiscal:
+
+Figura 21.2 El señoriaje y el crecimiento del dinero.
+El señorioje es primero una función creciente y luego uno función decreciente del crecimiento del dinero.
+¿Para qué trabajar si el Estado se queda con toda nuestra renta? Esta relación entre los ingresos fiscales y el
+tipo impositivo suele denominarse curva de Laffer, por el economista Arthur Laffer, quien sostenía a
+principios de los años 80 que una reducción de los tipos impositivos de Estados Unidos elevaría los ingresos
+fiscales. Estaba claramente equivocado sobre la posición en que se encontraba Estados Unidos en la curva: la
+reducción de los tipos impositivos redujo, a su vez, los ingresos fiscales; no los incrementó19. No obstante, el
+principio general es válido: cuando los tipos impositivos son suficientemente altos, una nueva subida puede
+provocar, en realidad, una reducción de los ingresos fiscales.
+Aquí hay algo más que una mera analogía. La inflación puede concebirse, de hecho, como un
+impuesto sobre los saldos reales. El tipo impositivo es la tasa de inflación, π, que reduce el valor real de las
+tenencias de dinero. La base impositiva son los saldos reales, M/P. El producto de estas dos variables,
+( )
+πM /P , se denomina impuesto de la inflación. Existe una sutil diferencia con otros tipos de tributación:
+lo que recibe el Estado por la creación de dinero en cualquier momento del tiempo no es el impuesto de la
+( ) ( )
+inflación, sino el señoriaje: ΔM /M multiplicado por M /P . Sin embargo, los dos están estrechamente
+relacionados. Cuando el crecimiento del dinero se mantiene constante, la inflación debe terminar siendo
+igual al crecimiento del dinero, por lo que:
+⎛M ⎞
+impuesto de la inflación =π⎜ ⎟
+⎝ P ⎠
+ΔM ⎛M ⎞
+= ⎜ ⎟
+M ⎝ P ⎠
+= señoriaje
+¿Qué tasa de crecimiento del dinero genera el máximo señoriaje y cuánto señoriaje genera? Estas son
+las preguntas que se hizo Philip Cagan en un artículo clásico sobre las hiperinflaciones escrito en 195620. En
+uno de los primeros usos de la econometría, Cagan estimó la relación entre la demanda de dinero y la
+inflación esperada [ecuación (21.4)] durante cada una de las hiperinflaciones del cuadro 21.2. Utilizando la
+ecuación (21.6), calculó entonces la tasa de crecimiento del dinero que maximizaba el señoriaje y la
+correspondiente cantidad de señoriaje. El cuadro 21.3 contiene en las dos primeras columnas las respuestas
+que obtuvo. La tercera columna repite las cifras relativas al crecimiento monetario efectivo del cuadro 21.2.
+Este cuadro tiene una característica muy interesante. En las siete hiperinflaciones, el crecimiento
+monetario medio efectivo (indicado en la columna 3) fue muy superior a la tasa de crecimiento del dinero
+que maximiza el señoriaje (indicada en la columna 1). Compárese el crecimiento monetario efectivo
+registrado en Hungría tras la Segunda Guerra Mundial, 12.200 %, con la tasa de crecimiento del dinero que
+maximiza el señoriaje, que es del 32 %. Estos datos parecen plantear un serio problema a la explicación que
+19 Véase el recuadro “En detalle” del capítulo 13 para un análisis de los efectos de la reducción de los impuestos de
+1981-1983.
+20 Cagan. Philip, The Monetary Dynamics of Hyperinflation”, en Friedman. Milton (comp.), Studies in the Quantity
+Theory of Money. University of Chicago Press. Chicago, 1956.
+
+hemos presentado hasta ahora. Si la causa del crecimiento del dinero fue la financiación del déficit
+presupuestario, ¿por qué era la tasa de crecimiento del dinero mucho más alta que la cifra que maximiza el
+señoriaje? Por una sencilla razón, que subyace a la dinámica del ajuste de la economía a un elevado
+crecimiento del dinero. A continuación, pasamos a examinarla.
+Cuadro 21.3 La tasa de crecimiento del dinero que maximiza el señoriaje y la correspondiente cantidad de señoriaje
+(tasas mensuales).
+Tasa de crecimiento del Señoriaje implicado(% de Tasa efectiva de
+dinero que maximiza el la producción) crecimiento del dinero (%)
+señoriaje (%)
+Austria 12 13 31
+Alemania 20 14 314
+Grecia 28 11 220
+Hungría I 12 19 33
+Hungría II 32 6 12.200
+Polonia 54 4,6 72
+Rusia 39 0,5 49
+Fuente: Cagan. Philip.”The Monetary Dynamics of Hyperinflation”, en Friedman, Milton (camp.), Studies in the
+Quantity Theory of Money, University of Chicago Press, Chicago, l 956, cuadro 10.
+La dinámica y la inflación creciente
+Volviendo al argumento que recién formulamos, si aumentara la tasa de crecimiento del dinero y se
+mantuviera indefinidamente, acabaría provocando un aumento proporcional tanto de la inflación efectiva
+como de la esperada y, por lo tanto, una reducción de los saldos reales. Si el crecimiento del dinero es mayor
+que la cantidad que maximiza el señoriaje, el aumento del crecimiento del dinero provoca una reducción del
+señoriaje.
+Las palabras cruciales del argumento son: “Si se mantuviera indefinidamente” y “acabaría”.
+Consideremos el caso de un gobierno que necesita financiar un déficit repentinamente mucho mayor y decide
+financiarlo creando dinero. A medida que aumenta la tasa de crecimiento del dinero, la inflación y la
+inflación esperada pueden tardar un tiempo en ajustarse. Incluso, a medida que aumenta la inflación
+esperada, el público tarda más tiempo en ajustar totalmente sus saldos reales: se tarda tiempo en crear
+sistemas de trueque, comienzan a utilizarse poco a poco monedas extranjeras, etcétera.
+Formulemos esta conclusión en términos más formales. Recordemos nuestra ecuación del señoriaje:
+ΔM ⎛M ⎞
+señoriaje = ⎜ ⎟
+M ⎝ P ⎠
+A corto plazo, un aumento de la tasa de crecimiento del dinero, ΔM /M , provoca un pequeño
+cambio en los saldos reales, M/P. En otras palabras, si el gobierno está dispuesto a aumentar el crecimiento
+del dinero lo suficiente, puede generar casi la cantidad de señoriaje que quiera a corto plazo, muy por encima
+de las cifras de la segunda columna del cuadro 21.3. Pero con el paso del tiempo, a medida que se ajustan los
+precios y disminuyen los saldos reales, este gobierno se encuentra con que la misma tasa de crecimiento del
+dinero genera cada vez menos señoriaje. Por lo tanto, si continúa tratando de financiar un déficit mayor que
+el que muestra la segunda columna del cuadro 21.3 (por ejemplo, si Austria trata de financiar un déficit que
+representa más de un 13 % de su PIB), observará que no puede hacerlo a largo plazo con una tasa constante
+de crecimiento del dinero. La única manera de conseguirlo es aumentando continuamente la tasa de
+crecimiento del dinero. Esa es la razón por la que el crecimiento monetario efectivo es superior a las cifras de
+la primera columna y por la que las hiperinflaciones casi siempre se caracterizan por un crecimiento del
+dinero y una inflación crecientes.
+Existe también otro efecto. A medida que la inflación va siendo muy alta, el déficit presupuestario
+normalmente empeora. Esto se debe en parte a los retardos en la recaudación de impuestos. Este efecto,
+como ya dijimos, se conoce con el nombre de efecto Olivera-Tanzi, en honor a Julio Olivera y Vittorio
+Tanzi, dos economistas que han subrayado su importancia. Como los impuestos se recaudan sobre la renta
+nominal pasada, su valor real disminuye con la inflación. Por ejemplo, si los impuestos sobre la renta se
+calculan en función de la renta del año pasado, el tipo impositivo es del 20 % y el nivel de precios de este
+año es 100 veces mayor que el del año pasado, el valor real de los impuestos sobre la renta recaudados este
+
+año solo es igual a 20 %/100 = 0,2 % de la renta actual. Por lo tanto, la presencia de una elevada inflación
+normalmente reduce los ingresos fiscales en términos reales, empeorando el problema del déficit. Este suele
+agravarse como consecuencia de otros factores en el lado del gasto: los gobiernos suelen tratar de frenar la
+inflación prohibiendo a las empresas controladas por el Estado que suban sus precios, aunque sus costes
+estén creciendo con la inflación. El efecto directo que produce esta medida en la inflación es pequeño en el
+mejor de los casos, pero el déficit de las empresas tiene que ser financiado entonces por el Estado, lo que
+eleva aun más el déficit presupuestario. A medida que aumenta este, también aumenta la necesidad de
+generar más señoriaje y. por lo tanto, de elevar aun más el crecimiento del dinero.
+Las hiperinflaciones y la actividad económica
+Hasta ahora hemos centrado la atención en las variaciones del crecimiento del dinero y de la
+inflación, que dominan claramente en el escenario durante las hiperinflaciones. Pero estas afectan a la
+economía de muchas otras formas.
+Inicialmente, el aumento del crecimiento del dinero provoca un incremento de la producción. La
+razón se halla en que los aumentos del crecimiento del dinero tardan un tiempo en traducirse en inflación, y
+durante ese tiempo, los efectos de estos aumentos son expansivos: como vimos en el capítulo 19,
+inicialmente un aumento del crecimiento de la cantidad nominal de dinero, en realidad, reduce los tipos de
+interés nominales y reales, lo que provoca un aumento de la demanda y de la producción.
+Pero a medida que la inflación se vuelve muy alta, dominan los efectos negativos de la
+hiperinflación. A medida que aumenta la inflación y la población reduce sus saldos reales, el sistema de
+intercambio es cada vez menos eficiente. Un famoso ejemplo de intercambio ineficiente es la historia de la
+gente que utilizaba carretillas al final de la hiperinflación alemana para llevar la moneda necesaria para
+realizar transacciones. Pero también se distorsionan muchas otras decisiones, como lo muestra un chiste que
+se contaba durante la elevada inflación israelí de los años 80: “¿Por qué es más barato ir en taxi que ir en
+autobús? Porque en el autobús, hay que pagar el billete al principio, y en el taxi, al final”.
+A medida que aumenta la inflación, las señales de precios son cada vez menos útiles: como estos
+varían tan a menudo, es difícil para los consumidores y los productores evaluar los precios relativos de los
+bienes y tomar decisiones informadas. De hecho, la evidencia muestra que cuanto mayor es la tasa de
+inflación, mayor es la variación de los precios relativos de los diferentes bienes. Por lo tanto, el sistema de
+precios, que es fundamental para el funcionamiento de una economía de mercado, también es cada vez
+menos eficiente.
+Las oscilaciones de la tasa de inflación también son mayores a medida que esta aumenta. Resulta
+más difícil predecir cuál va a ser la inflación en un futuro cercano, por ejemplo, si va a ser del 1.000 % o del
+1.500 % el próximo año. Endeudarse a un determinado tipo de interés nominal se convierte cada vez más en
+una apuesta. La petición y la concesión de préstamos suelen detenerse en los últimos meses de la
+hiperinflación, lo que provoca una gran disminución de la inversión.
+Por lo tanto, a medida que aumenta la inflación y sus costes son mayores, hay una creciente
+unanimidad en que debe detenerse21. Eso nos lleva al último apartado de este capítulo: ¿Cómo terminan
+realmente las hiperinflaciones?
+21.4 ¿Cómo terminan las hiperinflaciones?
+Las hiperinflaciones no mueren de muerte natural, sino que tienen que detenerse por medio de lo que
+se conoce con el nombre de programa de estabilización.
+El ajuste
+El desafío que debieron enfrentar los responsables de las políticas económicas en América Latina es
+la conciliación del desarrollo económico y social con el ajuste y la estabilización (control de la inflación), así
+como los efectos en la actividad económica y el empleo.
+El problema del ajuste está vinculado a los desequilibrios externos.
+Una economía presenta un problema de desequilibrio externo cuando tiene un déficit en su cuenta
+corriente de la balanza de pagos que no puede ser financiado con crédito externo por medio de la cuenta
+21 Hemos analizado el coste de una elevada inflación. En el capítulo 28, volveremos a examinar los costes de una
+inflación moderada, por ejemplo, del 5 al 10 % al año.
+
+capital, sufriendo disminución de las reservas internacionales (con tipo de cambio fijo). Como dichas
+reservas no son ilimitadas, resulta prioritario eliminar los desequilibrios y analizar el ajuste de los flujos
+financieros y comerciales para equilibrar el balance entre ingresos y egresos de divisas.
+El equilibrio interno se produce cuando la actividad económica funciona cerca del pleno empleo y a
+un nivel estable de precios. Los dilemas de la política económica contemporánea están relacionados con la
+interacción de los desequilibrios internos y externos, en los cuales la corrección de desequilibrios externos
+(por ejemplo, con una devaluación) podría agravar los desequilibrios internos, actuando sobre el nivel de
+precios o el nivel de actividad económica. La convertibilidad presenta también un debate sobre el impacto de
+las crisis externas de Asia y Brasil, con devaluaciones promedio del 50 % pero con aumento de precios
+internos que no superaron en muchos casos el 30 %, provocando un cambio de precios relativos y una
+devaluación en términos reales.
+La estabilización
+El problema de la estabilización reside en lograr una disminución en el ritmo de aumento de los
+precios y que esta disminución sea verdadera. La estabilización puede considerarse a veces como un paso
+previo para el establecimiento de políticas de largo plazo. Esto implica acercarse a una situación en la que los
+factores económicos puedan tener mayor previsibilidad y estén en mejores condiciones de planear y hacer
+más compatibles sus decisiones. Es decir, la política económica debería guiar las decisiones privadas para
+una evolución de precios previsible. Esto se hace más importante en condiciones de alta inflación y en
+situaciones erráticas de los precios. En estos casos las acciones de política para el crecimiento y la
+redistribución pierden significación frente al desorden de corto plazo.
+La experiencia ha demostrado que los cambios abruptos en la tasa de inflación requieren señales más
+ordenadas para un movimiento más sincronizado del conjunto de todos los precios. El solo anuncio de
+correcciones monetarias o fiscales y la disciplina de la demanda global pueden no ser suficientes. Los
+anuncios deben ser interpretados y transformados en expectativas de disminución de precios y luego en
+decisiones sobre precios y cantidades producidas. Cada empresa hace conjeturas sobre lo que harán sus
+proveedores y sus competidores y acerca de cómo variarán los salarios. Pero aunque haya habido un cambio
+creíble en la política, la incertidumbre no desaparece y la tasa de inflación podría no reducirse al mismo
+ritmo que la demanda, produciéndose variaciones erráticas de los precios relativos. Entonces, la coordinación
+es fundamental para lograr resultados favorables. Este es un instrumento de coordinación en la política de
+ingresos, cuya función es facilitar y guiar la transición a tasas más bajas de inflación22.
+Los elementos de un programa de estabilización
+Lo que hay que hacer para poner fin a una hiperinflación se desprende de nuestro análisis de sus
+causas.
+1. Hay que introducir una reforma fiscal y llevar a cabo una reducción creíble del déficit
+presupuestario. Esta reforma debe realizarse tanto en el lado del gasto como en el de los ingresos.
+Por lo que se refiere al lado del gasto, normalmente la reforma implica reducir las subvenciones que
+suelen proliferar durante las hiperinflaciones. La suspensión temporal de los pagos de intereses sobre la
+deuda externa también ayuda a reducir los gastos. Un importante componente de la estabilización de
+Alemania en 1923 fue la reducción de las indemnizaciones pagadas por los daños causados en la guerra, que
+habían sido precisamente las que habían desencadenado la hiperinflación.
+En cuanto a los ingresos, lo que se necesita no es tanto un aumento de los impuestos globales como
+un cambio de su composición. Esta cuestión es importante: durante una hiperinflación, los contribuyentes
+pagan, de hecho, un impuesto, el impuesto de la inflación. La estabilización implica sustituir este impuesto
+por otros. El reto es introducir y recaudar estos otros impuestos. Esta tarea no puede hacerse de la noche a la
+mañana, pero es esencial que la población se convenza de que se hará y de que el déficit presupuestario se
+reducirá.
+2. El banco central debe comprometerse de una forma creíble a que ya no monetizará
+automáticamente la deuda pública. Esta credibilidad puede conseguirse de varias formas. Se puede prohibir
+22 Heyman, Daniel, “Tres ensayos sobre inflación y políticas de estabilización”, CEPAL. Estudios e Informes, N° 64.
+1986:.Dornbusch. Rudiger y Simonsen. M., “Estabilización de la inflación con el apoyo de una política de ingresos”.
+El Trimestre Económico. N° 214, Fonda de Cultura Económicae. México. 1987.
+
+por decreto al banco central que compre deuda pública, a fin de que sea imposible monetizarla. El banco
+central también puede fijar el tipo de cambio con respecto a la moneda de un país que tenga una inflación
+baja. Una medida aun más radical es adoptar oficialmente la dolarización, es decir, hacer de una moneda
+extranjera la moneda oficial del país. Este paso es radical porque implica renunciar totalmente al señoriaje y
+suele considerarse que supone renunciar a la independencia del país. En la década de 1980, se destituyó a un
+ministro israelí de Hacienda al proponer este una medida de ese tipo dentro de un programa de
+estabilización23.
+3. ¿Se necesitan también otras medidas? Algunos economistas creen que deben utilizarse políticas de
+rentas —es decir, directrices o controles de los salarios y/o de los precios— además de medidas fiscales y
+monetarias, para ayudar a la economía a conseguir una nueva tasa más baja de inflación. Sostienen que la
+política de rentas ayuda a coordinar las expectativas en torno a una nueva tasa de inflación más baja. Si las
+empresas saben que los salarios no subirán, ellas no subirán los precios. Si los trabajadores saben que los
+precios no subirán, ellos no pedirán subidas salariales, por lo que la inflación se eliminará más fácilmente.
+Otros creen que lo único que hace falta es una reducción creíble del déficit y la independencia del
+banco central. Sostienen que unas medidas acertadas, si son creíbles, pueden modificar radicalmente las
+expectativas y, por lo tanto, erradicar casi de la noche a la mañana la inflación esperada y la efectiva. Señalan
+los posibles peligros de los controles de los precios y los salarios. Los gobiernos pueden terminar recurriendo
+a los controles y no tomar las dolorosas, pero necesarias, medidas fiscales y de otro tipo, lo que acabaría
+llevando al fracaso. Por otra parte, si la estructura de precios relativos está distorsionada de entrada, el
+control de los precios corre el riesgo de mantener esas distorsiones.
+Los programas de estabilización que no contienen políticas de rentas se llaman ortodoxos; los que las
+contienen se denominan heterodoxos (porque se basan tanto en cambios monetarios y fiscales como en la
+política de rentas). Las hiperinflaciones del cuadro 21.2 terminaron todas ellas por medio de programas
+ortodoxos. Muchas de las estabilizaciones latinoamericanas más recientes han recurrido, en cambio, a
+programas heterodoxos.
+La estabilización con política de ingresos o rentas se caracteriza por ciertos controles de precios y
+salarios, tipo de cambio, tarifas, etc., como complemento de otras políticas de la demanda global. Las
+políticas de estabilización que incluyen la combinación de ajuste fiscal y política de ingresos suelen ser
+denominadas programas heterodoxos porque son políticas más pragmáticas que reconocen los problemas
+estructurales y la necesidad del equilibrio macroeconómico de corto plazo y utilizan instrumentos tales como
+el control y la administración de precios combinados con correcciones en lo fiscal y control monetario.
+Por otro lado, tenemos las políticas tradicionales del FMI, que privilegian las políticas monetarias y
+fiscales estrictas (políticas de demanda) como instrumento casi exclusivo de estabilización.
+En los programas ortodoxos, se promovía la liberalización de precios. En los programas heterodoxos,
+se combinan la austeridad fiscal y el control monetario con políticas de ingresos. Es decir, se intenta atacar la
+inercia estructural negociando en el corto plazo la administración de precios con las empresas, los sindicatos
+y las tarifas de las empresas de servicios públicos. Esto implica dar señales del sendero probable de los
+precios futuros.
+Recientes enfoques reconocen que la política de ingresos es necesaria para enfrentar la inercia
+inflacionaria y producir un desplazamiento más rápido de la economía a un estado de inflación más bajo y
+soportable social y políticamente.
+Lo fundamental en los controles y administración de precios no es frenar la toma de decisiones
+individuales sino dar información a cada agente económico acerca de cómo actuarán los demás actores
+dentro de un juego no cooperativo y sin coordinación. En este juego, aunque se hagan anuncios de
+eliminación de déficit, no se adelantarán a disminuir sus aumentos por sector mientras piensen en la
+posibilidad de incrementos en los otros agentes. Por ello es necesario conducir una acción simultánea y
+coordinada con políticas de ingresos.
+Un elemento sustancial a tener en cuenta en la política de ingresos con controles es que la
+estabilización solo puede obtenerse con una rígida disciplina fiscal y monetaria de la demanda agregada
+porque la reactivación con controles genera desequilibrios y acentúa la incertidumbre cuando se eliminan
+esos controles.
+Desde el decenio de 1950 hasta nuestros días, el debate sobre la política económica en América
+Latina y sus experiencias ha sostenido un prolongado contrapunto. Los dos enfoques principales fueron el
+23 Para más información sobre las implicaciones de la estabilización basada en la cantidad de dinero frente a
+la estabilización basada en el tipo de cambio, véase Dornbusch, Rudiger; Sturzenegger, Federico y Wolf Helper.
+“Extreme Inflation: Dynamics and Stabilization”, Brookings Papers on Economic Activity, 2, 1990, págs. 1-84.
+
+monetarismo y el estructuralismo y sus revisiones: a partir de mediados de la década del 70 en el
+monetarismo (neoliberalismo o nuevo monetarismo), y las políticas más pragmáticas o heterodoxas a partir
+de mediados de la década del 80, el neoestructuralismo o nuevo pragmatismo, cuyos ejemplos son el Plan
+Cruzado en Brasil y el Plan Austral en la Argentina, y, en parte, la heterodoxia de los planes de
+convertibilidad en la Argentina y el Plan Real en Brasil, en la década del 90.
+El contrapunto de las últimas cuatro décadas se dio entre las exigencias de una política
+macroeconómica simple y ejecutable en forma agregada y unificada, y los requerimientos del lado real de la
+economía con sus heterogeneidades estructurales, segmentada sectorialmente y diferenciada en sus costos
+productivos, mercados, distribución de ingreso y asimetrías del comercio exterior.
+El estructuralismo, que reconoció las diferenciaciones sectoriales, adoptó políticas más selectivas y
+lideró intelectualmente el proceso de desarrollo (sustitución de importaciones) hasta mediados de los 70.
+El antiguo monetarismo (enfoques de políticas ortodoxos) tuvo una concepción más globalista y
+menos específica en relación con las asimetrías y los desequilibrios estructurales. Su visión del mundo estaba
+influenciada por el FMI. Su tesis central se fundaba en que si no hubiera exceso de demanda, no habría
+problemas de balance de pagos ni inflación. Ese exceso de demanda provenía de políticas monetarias y
+fiscales expansivas. El ajuste y la estabilización se caracterizaban en general por devaluaciones para
+recuperar la paridad cambiaria y las correcciones fiscal y monetaria. Es decir, se trataba de una política
+simple, unificada y globalista. En general, la devaluación bajaba el salario real, y las correcciones fiscales y
+monetarias afectaban también la demanda agregada bajando las importaciones y generando excedentes para
+exportar y equilibrio en el sector externo.
+Los estructuralistas de las décadas de 1950 y 1960 consignaban que los desequilibrios en el balance
+de pagos y la inflación eran consecuencia y síntoma del propio proceso de desarrollo. Por lo tanto, las
+políticas económicas restrictivas y la contracción monetaria y fiscal solo frenarían el crecimiento sin
+desmantelar las causas de la inflación.
+Los problemas del balance de pagos, dada la baja elasticidad de precios de la oferta exportable, no se
+resolverían con una devaluación. Solo se acentuarían la recesión y las transferencias de ingreso a los sectores
+exportadores de bienes primarios.
+Estos enfoques estructuralistas, en contrapunto con la ortodoxia, sostenían que la inflación y los
+desequilibrios del balance de pagos tenderían a desaparecer en el mediano y en el largo plazo con el proceso
+de desarrollo, reequilibrando la economía y eliminando las asimetrías de los sectores reales de la producción.
+Por ello, habría que combatir la inflación con controles de precios, durante el tiempo de maduración de los
+cambios estructurales.
+Por otro lado, los problemas del sector externo se resolverían con controles cuantitativos, aranceles y
+tipos de cambio múltiples. Esto aceleraría la sustitución de importaciones hasta un nuevo equilibrio en la
+estructura productiva. Los precios entonces ya no cumplirían su función de asignadores de recursos y solo
+tendrían un papel de redistribuidores de los ingresos debido a las asimetrías estructurales (oligopolios, baja
+elasticidad de precios, rigideces de los sectores público y laboral, etc.). En estas condiciones ya no se
+cumplen los supuestos clásicos de la competencia perfecta24.
+El proceso de sustitución de importaciones que se dio en esas décadas en varios países de América
+Latina se basaba en conceptos dinámicos y significaba lisa y llanamente la superación de las ventajas
+comparativas estáticas. Privilegiaba las externalidades, las industrias protegidas incipientes y el cambio
+dinámico que con el tiempo se produce en las actitudes y aptitudes de la sociedad, en un proceso de
+aprendizaje que genera el desarrollo industrial local. Pero este proceso, que significó un incentivo para el
+abastecimiento de la demanda interna, no tuvo un correlato en los incentivos a la exportación, y el patrón de
+desarrollo implicó una expansión mucho más rápida de los sectores que demandaban divisas que los
+oferentes de ellas. Es decir que la tasa de crecimiento de la industria que demanda materias primas y
+productos semielaborados importados es mayor que la tasa de crecimiento de las exportaciones primarias.
+Como las inversiones para aumentar la capacidad instalada se concentraron más en el sector
+industrial que en el sector primario, se produjo una asimetría en el acervo de capital, de manera tal que
+cuando se lo quiere utilizar a pleno, genera desequilibrios en el sector externo. Por lo tanto, el equilibrio
+interno de pleno empleo produce problemas en el balance de pagos (equilibrio externo). Estas crisis externas
+no se resolvían con la devaluación y la depresión económica era la respuesta del sistema. Tampoco la
+restricción monetaria y la fiscal (como pretendía el monetarismo para combatir la inflación) eran la solución,
+porque no se eliminaban los desequilibrios fundamentales en el acervo de capital que dieran mayor
+24 Schydlowsky. Daniel. “Políticas macroeconómicas en busca de una síntesis”. Revista de la CEPAL. N° 40, 1989.
+
+flexibilidad al apartado productivo. La experiencia dio por resultado un proceso de parada y arranque en
+ciclos (stop and go)25
+Reconociendo ciertas heterogeneidades estructurales, nace en la década de 1970 el neoliberalismo.
+En la Argentina, por ejemplo, se manifestó a través del nuevo monetarismo entre 1976 y 1983, con una
+apertura de la economía a la competencia internacional de bienes y al ingreso de capitales provenientes de la
+banca comercial privada (enfoque monetario del balance de pagos durante el período de Martínez de Hoz).
+El reconocimiento de las estructuras oligopólicas formadoras de precios significó la aceptación de la
+visión estructuralista por parte del nuevo monetarismo. La competencia externa frenaría los precios, se
+controlaría la tasa de cambio y se incentivaría el aumento de la tasa de interés local. Pero la experiencia de
+estos modelos fracasó porque las propias empresas oligopólicas que producían o comercializaban los
+productos en el mercado interno también se transformaron en las empresas comerciales importadoras por su
+know-how comercial y sus contactos internacionales. En consecuencia, los mercados no fueron competitivos
+y los precios no tuvieron los techos previstos. Por otro lado, las devaluaciones a menor ritmo que el
+crecimiento de los precios internos y las altas tasas de interés generaron un crecimiento sin precedentes de la
+deuda externa. Ese aumento del endeudamiento externo se produjo por varias causas. Primero, por la
+liberalización del mercado financiero que expandió el crédito de consumo, en especial de bienes importados.
+Segundo, por las altas tasas de interés en dólares de los capitales de corto plazo, con un tipo de cambio
+asegurado y retrasado. Al mismo tiempo, en muchas oportunidades —y en particular, en los países del Cono
+Sur—, el tipo de cambio tuvo un crecimiento a menor ritmo que la tasa de inflación. A principios de los 80,
+las nuevas deudas se sumaron a las que se habían contraído años atrás con los aumentos del precio del
+petróleo. El resultado fue que, al aumentar las tasas de interés internacionales, el problema de la deuda
+externa se hizo insostenible y generó el colapso de aquellas políticas monetaristas de apertura
+indiscriminada.
+En algunos países se volvió a la aplicación de las recetas ortodoxas del llamado “antiguo
+monetarismo”: devaluación y restricciones monetaria y fiscal (disminución del crédito, altas tasas de interés
+y recorte de gastos del gobierno, inclusive de imprescindibles gastos sociales).
+El problema de la deuda externa acentuó la inestabilidad y los desequilibrios fiscales e interactuó con
+todas las variables macroeconómicas como una pesada carga. Esta década de 1980 se llamó “década
+perdida”, con tasas de crecimiento casi nulas.
+La aplicación y la vuelta a la ortodoxia en el primer quinquenio de los 80 no disminuyeron la
+inflación. En cambio, hubo caídas estrepitosas de la producción industrial y aumento del desempleo. Se logró
+un ajuste con una fuerte caída de las importaciones —como, por ejemplo, en 1983, cuando en promedio
+descendieron un 43 % para América Latina— y una caída de alrededor del 10 % del PIB per capita.
+La tasa de desempleo osciló en más del 10 % en los mismos años, superando el promedio histórico
+del 6 o el 7 %. Por otro lado, hubo un cambio en el perfil del desempleo: los jóvenes, las mujeres y las
+personas de edad madura fueron los más perjudicados. También aumentaron las ocupaciones del sector
+informal y del sector público de baja productividad, con un debilitamiento del poder negociador de los
+sindicatos afectados por el desempleo abierto. Disminuyeron en general los ingresos promedio y bajó el
+salario real. Simultáneamente, hubo una reducción en los gastos sociales básicos, en la inversión pública y en
+la privada, que tendió a agudizar la baja de la productividad media de la economía y a comprometer el
+empleo futuro.
+Se ha criticado al nuevo monetarismo de los 70 por el uso de la política monetaria para equilibrar la
+balanza de pagos (movimiento de capitales y tasas de interés) y de la política cambiaria para controlar la tasa
+de inflación (fijando el tipo de cambio). Se lo llamó también monetarismo abierto (o neomonetarismo) y
+significó un cambio espectacular en el enfoque con respecto al viejo monetarismo de los años 50 y 60, en el
+que se utilizaba el tipo de cambio libre para equilibrar el balance de pagos y la oferta de dinero para controlar
+la inflación.
+La tendencia actual después de las experiencias mencionadas es una vuelta a dejar que los mercados
+funcionen libremente y sin distorsiones causadas por el Estado y los controles. A nivel macroeconómico, se
+aplican políticas poco diferenciadas y se realizan reformas estructurales de achicamiento del Estado. Para
+estos enfoques, es el gobierno el que crea las segmentaciones de la economía. No obstante, muchos analistas
+estiman que la reducción del tamaño del sector público no significa que han desaparecido las
+heterogeneidades y diferencias de la economía real, porque estas, en gran medida, son endógenas al propio
+proceso de desarrollo. Por ello se insiste en la vuelta del péndulo a una nueva heterodoxia neoestructuralista
+y pragmática que defina con precisión las áreas que requieren una mayor y más eficaz intervención del
+25 Diammod. Marcelo. Doctrinas económicas, desarrollo independencia. Ed. Paidós, Buenos Aires, 1973.
+
+Estado, que acepte las limitaciones en su capacidad de administrar y controlar como base para la
+implementación de políticas ejecutables y, al mismo tiempo, que mantenga el equilibrio macroeconómico
+interno y externo. En síntesis, políticas que concilien la estabilización con el ajuste y el desarrollo.
+Se hace necesario tener un principio de unidad de las políticas. La política económica debe ser una
+sola. Esta no debe tender a buscar la estabilidad primero y el crecimiento económico después, ni perseguir el
+camino inverso.
+Las políticas económicas deben tener la suficiente coherencia para conciliar simultáneamente la
+estabilidad con los equilibrios monetarios, fiscal y externo.
+Si aplicáramos estos conceptos al caso de la convertibilidad, vertamos que tiene en su esencia
+aspectos ortodoxos y aspectos heterodoxos de política económica. El éxito de la estabilización expandió en
+las primeras etapas la demanda agregada con un aumento inicial del salario real, una recomposición de la
+monetización de la economía, y una expansión del crédito y de la producción. No obstante, presenta
+interrogantes para la autosustentabilidad de largo plazo. Problemas con el déficit comercial para el 2000,
+desempleo que llegó al 15 %, precios relativos que significan señales con sesgo antiexportador a favor de los
+bienes no transables internacionalmente, problemas fiscales y un aumento sustancial de la tasa de interés y
+del riesgo país con gran volatilidad financiera.
+¿Pueden fracasar los programas de estabilización?
+¿Pueden fracasar los programas de estabilización? Sí, pueden fracasar y a menudo fracasan. La
+Argentina pasó por cinco planes de estabilización entre 1984 y 1989 antes de conseguirla en 1990. En
+diciembre de 1995, Brasil tenía su sexto plan desde 1984; los cinco anteriores fracasaron. Parece que el sexto
+hasta ahora ha tenido un éxito que aún perdura en el 2000, porque a pesar de la devaluación, la inflación no
+fue tan alta.
+A veces, el fracaso se debe a un intento mal diseñado o poco decidido de estabilizar la economía. Un
+gobierno introduce controles salariales, pero no toma las medidas necesarias para reducir el déficit y el
+crecimiento del dinero. Los controles salariales no pueden dar resultado si la cantidad de dinero continúa
+creciendo, por lo que el programa de estabilización acaba fracasando.
+Otras veces, el fracaso se debe a la oposición política. Si el conflicto social es la causa de la
+hiperinflación, es posible que siga presente y sea igual de difícil de resolver en el momento de la
+estabilización. Los que pierden con la reforma fiscal necesaria para reducir el déficit se opondrán al
+programa de estabilización y pueden obligar al gobierno a dar marcha atrás. A menudo, los trabajadores que
+se dan cuenta de la subida del precio de los servicios públicos o de los impuestos, pero que no se dan cuenta
+totalmente de la disminución del impuesto de la inflación, van a la huelga o incluso provocan disturbios, lo
+que da al traste con el plan de estabilización.
+El fracaso de un plan también puede deberse a que se piensa que fracasará. Supongamos, por
+ejemplo, que el tipo de cambio está fijo con respecto al dólar como parte del programa de estabilización26 y
+que los participantes en los mercados financieros prevén que el gobierno pronto se verá obligado a devaluar.
+Para compensar el riesgo de devaluación, exigen tipos de interés muy altos para tener bonos nacionales en
+lugar de bonos norteamericanos. Estos tipos de interés tan altos provocan una gran recesión, la cual obliga, a
+su vez, al gobierno a devaluar, validando los temores iniciales de los mercados. En cambio, si los mercados
+hubieran creído que el gobierno iba a mantener el tipo de cambio, el riesgo de devaluación habría sido
+menor, los tipos de interés habrían sido más bajos y el gobierno podría haber estabilizado la economía. Para
+muchos economistas, los éxitos y los fracasos de los planes de estabilización parecen tener algo de profecía
+que lleva aparejado su propio cumplimiento. Incluso los planes perfectamente concebidos solo dan resultado
+si se espera que lo den. En otras palabras, la suerte y las buenas relaciones públicas desempeñan un papel
+importante.
+Los costes de la estabilización
+En el apartado 18.4, capítulo 18, vimos que la desinflación norteamericana de principios de los años
+80 fue acompañada de una gran recesión y de un aumento considerable del desempleo. Cabría esperar, pues,
+que las desinflaciones mucho mayores que se registran cuando concluye una hiperinflación fueran
+acompañadas de enormes recesiones. No siempre es así. Para comprender por qué, recordemos nuestro
+26 Esta es una variación sobre el tema de las crisis de los tipos de cambio analizadas en los capítulos 14 y 19.
+
+análisis de la desinflación del apartado 18.3. Vimos tres razones por las que la inflación puede no disminuir
+en la misma medida que el crecimiento monetario y provocar una reducción de los saldos reales y una
+recesión. La primera era el hecho de que los salarios normalmente se fijan en términos nominales para un
+determinado período (hasta tres años en Estados Unidos), por lo que muchos de ellos ya están determinados
+cuando se toma la decisión de reducirla inflación. La segunda era que los convenios laborales normalmente
+están escalonados, lo que dificulta la desaceleración de todos los salarios al mismo tiempo. La tercera era la
+credibilidad.
+La hiperinflación elimina los dos primeros problemas. Durante las hiperinflaciones, los salarios y los
+precios varían tan a menudo que las rigideces nominales y el escalonamiento de las decisiones salariales se
+vuelven casi irrelevantes.
+Pero persiste la cuestión de la credibilidad. El hecho de que incluso un programa coherente pueda no
+tener éxito implica que ningún programa es totalmente creíble desde el principio. Por ejemplo, si el gobierno
+decide fijar el tipo de cambio, es posible que sea necesario inicialmente un elevado tipo de interés para
+mantener la paridad. Los programas que tienen éxito son aquellos que el gobierno mantiene y en los que el
+aumento de la credibilidad provoca una reducción del tipo de interés con el paso del tiempo. Pero incluso en
+ese caso, el elevado tipo de interés inicial suele generar una recesión. En conjunto, según la evidencia, la
+mayoría de las estabilizaciones, pero no todas, tienen algún coste desde el punto de vista de la producción.
+Una gran parte de las investigaciones actuales trata de averiguar cómo deben elaborarse las medidas de
+estabilización para reducir este coste: ortodoxas frente a heterodoxas, restricciones del crecimiento del dinero
+o fijación del tipo de cambio, etcétera.
+Algunos casos de hiperinflación y estabilización27
+En la década de 1970, Bolivia consiguió un elevado crecimiento de la producción, en gran parte
+gracias a los elevados precios mundiales de sus exportaciones: estaño, plata, coca, petróleo y gas natural.
+Pero a fines de esa década, la situación económica empezó a deteriorarse. Bajó el precio del estaño. Los
+préstamos extranjeros, que habían financiado una gran parte del gasto boliviano en los años 70, se recortaron
+bruscamente, al comenzar los prestamistas extranjeros a inquietarse ante la posibilidad de no poder recuperar
+su dinero. En parte, como consecuencia, y en parte, por viejos conflictos sociopolíticos, estalló el caos
+político. Entre 1979 y 1982, el país tuvo doce presidentes, nueve militares y tres civiles.
+Cuando en 1982 llegó al poder el primer presidente libremente elegido en dieciocho años, tuvo que
+afrontar una tarea casi imposible. Los bancos comerciales norteamericanos y otros prestamistas extranjeros
+estaban asustados. No solo no querían conceder nuevos préstamos a Bolivia sino que, además, querían
+recuperar los anteriores. Los préstamos extranjeros (a mediano y a largo plazo) privados netos, concedidos al
+Estado boliviano, se habían reducido del 3,5 % del PIB en 1980 al -0,3 % en 1982 y al -1 % en 1983. Como
+el gobierno pensaba que no tenla otra opción, recurrió a la creación de dinero para financiar el déficit
+presupuestario.
+La inflación y los déficit presupuestarios
+Los tres años siguientes se caracterizaron por la interacción de una inflación y unos déficit cada vez
+más altos.
+El cuadro 21.4 muestra las cifras presupuestarias del período 1981-1986. Como consecuencia de los
+retardos en la recaudación de impuestos, la creciente inflación redujo espectacularmente el valor real de los
+impuestos. Por otra parte, el intento del gobierno de mantener bajos los precios de los servicios públicos fue
+la fuente de grandes déficit en las empresas gestionadas por el Estado. El resultado fue la concesión de
+subvenciones a esas empresas y un nuevo aumento del déficit presupuestario. En 1984, este representaba la
+asombrosa cifra del 30,6 % del PIB.
+El resultado del aumento de los déficit presupuestarios y de la necesidad de aumentar el señoriaje fue
+un incremento de la inflación (recuérdese, una vez más, la relación entre el crecimiento del dinero y la
+27 El tratamiento del caso boliviano procede principalmente de Sachs. Jeffrey, “The Bolivian Hyperin flation and
+Stabilization”. Documento de Trabajo N° 2073, NBER. noviembre de 1986. Sachs fue uno de los artifices del programa
+de estabilización.
+Véase también Morales. Juan Antonio, The Transition from Stabilization to Sustained Growth in Bolivia”, en Bruno.
+Michael et al. (comps.). Lessons of Economic Stabilization and Its Aftermath. MIT Press, Cambridge. MA, 1991.
+
+inflación). La inflación, que había sido, en promedio, del 2,5 % al mes en 1981, aumentó al 7 % en 1982 y al
+11 % en 1983.
+Como muestra la figura 21.3, que representa la tasa mensual de inflación de Bolivia registrada entre
+enero de 1984 y abril de 1986 (la línea vertical indica el comienzo de la estabilización, que analizamos más
+adelante), la inflación continuó creciendo en 1984 y 1985, alcanzando el 183 % en febrero de 1985.
+Cuadro 21.4 Los ingresos, los gastos y el déficit en porcentajes del PNB boliviano.
+1981 1982 1983 1984 1985 1986
+Ingresos 9,4 4,6 2,6 2,6 1,3 10,3
+Gastos 15,1 26,9 20,1 33,20 6,1 7,7
+Superávit presupuestario (-: déficit) -5,7 -2,3 -17,5 -30,6 -4,8 2,6
+Ingresos y gastos de la administración central.
+Fuente: Sachs, jeffrey,'The Bolivian Hyperinflation and Stabilization”, Documento de Trabajo N' 2073, NBER,
+noviembre de 1986, cuadro 3.
+Figura 21.3 Tasa mensual de inflación de Bolivia, enero de 1984-abril de 1986.
+Fuente: Sachs. jeffrey,”The Bolivian Hyperinflation and Stabilization”, Documento de Trabajo N' 2073, NBER,
+noviembre de 1986.
+Planes de estabilización
+Expondremos a continuación algunos planes de estabilización implementados en América Latina.
+En numerosas ocasiones, se intentó estabilizar la economía de Bolivia. Se adoptaron programas de
+estabilización en noviembre de 1982, en noviembre de 1983, en abril de 1984, en agosto de 1984 y en
+febrero de 1985. El plan de abril de 1984 era un programa ortodoxo que consistía en una gran devaluación, el
+anuncio de una reforma fiscal y una subida de los precios del sector público. Pero la oposición de los
+sindicatos era demasiado grande, por lo que se abandonó el programa.
+Tras la elección de un nuevo presidente, se intentó de nuevo estabilizar la economía en septiembre de
+1985. Este intento tuvo éxito. Fue un plan ortodoxo de estabilización, que giraba en tomo a la eliminación
+del déficit presupuestario. Sus principales características eran:
+(cid:131) Política fiscal. Se subieron los precios del sector público, los de los productos alimenticios y
+los de la energía; se congelaron los salarios del sector público; se anunció una reforma fiscal,
+destinada a restablecer y ampliar la base impositiva.
+(cid:131) Política monetaria. Se ajustó el tipo de cambio oficial del peso al nivel que existía en el
+mercado negro antes de la estabilización. Por lo tanto, se fijó en $ 1,1 millones por dólar,
+mientras que un mes antes era de $ 67.000 por dólar (lo que representa una devaluación del
+1,600 %). A partir de entonces, se iba a dejar que fluctuara dentro de ciertos límites.
+(cid:131) Para recuperar la posición crediticia internacional, se anunció la celebración de
+negociaciones con organismos y bancos comerciales internacionales. Nueve meses más
+tarde, en junio de 1986, se llegó a un acuerdo con los acreedores extranjeros y con el FMI.
+
+Al igual que en el intento anterior de estabilización, los sindicatos convocaron una huelga general,
+ante lo cual el gobierno declaró el estado de sitio, por lo que la huelga se desvaneció rápidamente. Tras la
+hiperinflación y tantos intentos fallidos de controlarla, la opinión pública estaba claramente a favor de la
+estabilización.
+La repercusión en la inflación fue espectacular. En la segunda semana de septiembre, ¡la tasa de
+inflación fue, de hecho, negativa! No siguió siéndolo durante mucho tiempo, pero la tasa mensual media fue
+inferior al 2 % durante el período 1986-1989. Como muestra el cuadro 21.4, el déficit presupuestario se
+redujo radicalmente en 1986 y el déficit medio fue inferior al 5 % del PNB durante el resto de la década.
+¿Influyó negativamente la estabilización en la producción? Probablemente sí. Los tipos de interés
+reales continuaron siendo muy altos durante más de un año después de la estabilización. Sin embargo, es
+difícil estimar el efecto total de estos elevados tipos sobre la producción. Al tiempo que se llevaba a cabo la
+estabilización, Bolivia se vio sacudida por nuevas y grandes reducciones del precio del estaño y del gas
+natural. Por otra parte, una gran campaña contra los narcóticos perturbó la producción de coca. Es difícil
+saber en qué medida se debió la recesión boliviana de 1986 a la estabilización y en qué medida se debió a
+estos otros factores.
+Argentina: el Plan Austral
+A principios de 1985, la Argentina se encontraba en un proceso hiperinflacionario. La tasa de
+aumento de los precios se aceleraba todos los meses y esta había alcanzado un nivel cercano al 6.000 %
+(anualizado). En aquel momento, el gobierno decidió implementar un plan de estabilización.
+Dicho programa tuvo como objetivo controlar los precios y los salarios, establecer un tipo de cambio
+fijo y la corrección fiscal, así como la expansión monetaria.
+En junio de 1985, se puso en marcha el Plan Austral, un programa que contemplaba tanto la política
+de ingresos como la austeridad fiscal. La inflación durante los cinco años anteriores había crecido desde el
+100 % anual hasta casi un 1.000 % a comienzos de 1985. En junio de ese año, la inflación anualizada tenía
+un nivel superior al 6.000 %. Anteriormente, se presentaron períodos de alta inflación en 1975 y 1976, que se
+logró reducir en el período 1976-1981. En el cuadro 21.5A se puede observar la evolución de los principales
+indicadores macroeconómicos de esos años.
+En 1983, asumió un nuevo gobierno que enfrentó él problema con políticas gradualistas (programa
+del FMI) que no tuvieron éxito. Como ya se mencionó, en junio de 1985 la economía iba hacia una
+hiperinflación. El gobierno se vio forzado a explorar nuevos caminos para terminar con este problema, dadas
+la pérdida de confianza en la política gradualista y la no austeridad fiscal propuesta por el FMI. Es así que se
+implementó dicho plan, además de la adopción de medidas de control de precios-salarios-tipo de cambio.
+Los principales puntos del Plan Austral eran los siguientes:
+a. El gobierno aumentó los precios del sector público, devaluó el tipo de cambio, impuso
+gravámenes a la importación y a la exportación y fijó un esquema de ahorro forzoso. Se
+incrementaron algunas tasas impositivas, tendientes a mejorar el presupuesto.
+b. También impuso el congelamiento de precios y salarios, así como un tipo de cambio fijo.
+c. Asimismo, planteó una escala de conversión para ajustar los contratos existentes debido a la
+reducción de la inflación.
+d. Se creó una nueva unidad monetaria, el austral, que circulaba con la moneda anterior.
+e. Este programa fue aceptado por el FMI y sirvió de base del reajuste del servicio de la deuda
+con moneda nueva.
+¿Qué sucedió después de la implementación de dicho plan? Podemos destacar dos consecuencias
+principales: la primera fue que la inflación fue reducida pero no erradicada totalmente. La segunda era el
+marcado crecimiento de la actividad económica, que retomó a niveles semejantes a los de los años 1979 y
+1980. Al mismo tiempo, hubo una corrección significativa en el presupuesto. Esta se debió a una reducción
+del costo del servicio de la deuda en moneda local, así como a un aumento en la recaudación impositiva. El
+fin del deterioro de los ingresos públicos por la inflación, los nuevos impuestos y el esquema de ahorro
+explicaron la mejor recaudación impositiva. A pesar de las correcciones en el déficit, el mismo seguía
+aumentando.
+Con respecto al tipo de cambio, este se mantuvo fijo hasta abril de 1986 y luego se siguió con una
+política de “minidevaluaciones” para evitar la pérdida de competitividad externa. El tipo de cambio real se
+mantuvo relativamente constante pese a la inflación interna, debido a la devaluación que el dólar había
+sufrido en los mercados mundiales.
+
+En síntesis, el programa tuvo como objetivo la estabilización fiscal, comprometiéndose a no emitir
+moneda para financiar déficit del presupuesto, pero no se propuso como meta una inflación cero. La
+economía estaba cerrada y existía poca competencia; las empresas presionaban a través del poder de
+negociación de los sindicatos sobre los ingresos relativos de los sectores. El gobierno no pudo homologar la
+mayoría de los aumentos salariales.
+Cuadro 21.5A Principales indicadores macroeconómicos, 1970-1986.
+Año Inflación Déficit Base MI/PIB M2/PIB M3/PIB M4/PIB
+fiscal/PIB monetaria/PIB
+1970 21,7 2,03 0,12 0,15 0,25 0,25 0,25
+1971 39,1 4,58 0,10 0,13 0,22 0,23 0,23
+1972 64,1 6,10 0,09 0,11 0,19 0,21 0,21
+1973 43,8 8,60 0,13 0,11 0,20 0,22 0,22
+1974 40,2 8,52 0,14 0,14 0,25 0,27 0,28
+1975 335,1 15,59 0,16 0,09 0,14 0,16 0,17
+1976 347,5 10,56 0,14 0,07 0,11 0,12 0,16
+1977 160,4 5,04 0,16 0,06 0,14 0,15 0,16
+1978 169,8 6,67 0,14 0,06 0,18 0,18 0,20
+1979 139,7 6,65 0,09 0,06 0,19 0,19 0,21
+1980 87,6 8,56 0,08 0,07 0,21 0,21 0,23
+1981 131,3 17,97 0,09 0,05 0,20 0,20 0,22
+1982 209,7 18,78 0,29 0,05 0,17 0,16 0,19
+1983 433,7 17,76 0,29 0,04 0,13 0,14 0,14
+1984 688,0 13,79 0,20 0,04 0,11 0,12 0,12
+1985 385,0 5,10 0,12 0,04 0,11 0,11 0,13
+1986 81,9 4,70 0,09 0,05 0,14 0,16 0,18
+Fuente: Dombusch, Rudiger y De Pablo, Juan Carlos. Deuda externa e inestabilidad macroeconómico en la Argentina, Ed.
+Sudamericana, Buenos Aires. 1988.
+Brasil: el Plan Cruzado
+En los primeros años de la década de 1980, la economía brasileña presentaba altas tasas de inflación.
+Las políticas implementadas entre 1981 y 1984 tuvieron poco efecto sobre la misma (véase el cuadro 21.5B).
+Luego de una gran aceleración de la inflación a partir de 1983 como consecuencia de la “maxidevaluación”
+del cruzeiro, en febrero de 1986 se decidió implementar el Plan Cruzado. Dicho plan consideraba que la
+inflación era inercial. La inercia se debía a los mecanismos de indexación para la corrección de los precios,
+los salarios, el tipo de cambio y los activos financieros que perpetuaba la inflación del pasado. Este proceso,
+según el pensamiento estructuralista, deriva en un conflicto en la distribución del ingreso.
+Los principales objetivos que tenla este plan de estabilización eran suprimir los mecanismos de
+indexación y la diferencia existente en los precios relativos; proponía una reforma monetaria que establecía
+el cruzado como la unidad básica de la moneda nacional. La tasa de conversión era de mil cruzeiros por
+cruzado. Se necesitaban reglas que provocaran un “choque neutral” para restablecer con la nueva moneda los
+patrones de distribución del ingreso.
+Los puntos más relevantes del programa fueron los siguientes:
+a) La política de ingresos. Podemos destacar la conversión de salarios, que consistía en que
+los mismos se convertirían a cruzados sobre la base del poder de compra de los últimos seis
+meses. Anteriormente, los salarios se ajustaban cada tres meses. Se otorgó un bono del 8 % a
+los asalariados, independientemente de las ganancias obtenidas mediante negociaciones
+laborales. Esta fue una medida netamente política de redistribución del ingreso hacia los
+asalariados. El Plan Cruzado no congeló los salarios, sino que solo estableció las fechas de la
+negociación. Por lo tanto, lo que se logró fue ampliar el intervalo entre las sucesivas
+negociaciones; se estableció un ajuste automático en relación con el costo de vida. Los
+salarios siguieron conectados con la tasa de inflación.
+Cuadro 21.5B La inflación y el crecimiento en Brasil, 1970-1990.
+Tasa de crec. Tasa de cree. del Inflación (%)
+del PIB real PIB per cápita IPC IPC
+
+(media mensual)
+1970
+1971 11.3 8.6 19.1 1.5
+1972 12.0 9.4 15.6 1.2
+1973 14.0 11.3 15.3 1.2
+1974 9.0 6.5 34.5 2.5
+1975 5.2 2.8 29.4 2.2
+1976 9.8 7.2 46.3 3.2
+1977 4.6 2.2 38.8 2.8
+1978 4.8 2.4 40.8 2.9
+1979 7.2 4.8 77.2 4.9
+1980 7.0 4.6 110.3 6.4
+1981 -4.3 -6.4 95.2 5.7
+1982 0.6 -1.7 99.7 5.9
+1983 -3.6 -5.7 210.9 9.9
+1984 5.3 3.0 223.8 10.3
+1985 7.9 5.6 235.6 10.6
+1986 7.6 5.3 62.4 4.1
+1987 3.6 1.5 365.9 13.7
+1988 -0.1 -2.1 933.6 21.5
+1989 3.3 I.2 1764.9 27.6
+1990 -4.0 -5.9 1584.7 26.5
+Prom.1974-1980: 6.80 4.34 3.54
+Prom.1981-1984: -0.60 -2.80 7.95
+Prom.1985-1986: 7.70 5.40 7.30
+Prom.1987-1990: 0.88 -1.85 22.19
+Promedio 1981-1990: 1.54 -0.62 13.31
+Fuente: CEPAL.
+b) Los precios y el tipo de cambio. Los precios deberían ser convertidos a cruzados como los
+salarios. Antes de la implementación del Plan Cruzado, existía una política de congelamiento
+de precios. Esta fue levantada y las pérdidas que había ocasionado debían compensarse
+gradualmente. El Plan Cruzado modificó el índice de precios al consumidor que en 1985 se
+había adoptado como medida de la inflación. Se cambió el año base a febrero de 1986 y la
+canasta siguió siendo la misma. El tipo de cambio se ajustaba diariamente desde 1985.
+Luego se fijaron “minidevaluaciones” diarias para ser consistentes con la tasa de inflación
+del mes anterior. Por lo tanto, el tipo de cambio se convirtió a cruzados al nivel de febrero
+cuando se puso en marcha el programa.
+c) La política monetaria y la fiscal. Con respecto a la política fiscal, se tomaron medidas
+tendientes a eliminar los requerimientos de préstamos al sector público, así como también un
+cambio en la estructura de los ingresos fiscales. Los objetivos de la política monetaria fueron
+más difíciles de controlar. Se esperaba que la tasa de interés aumentaría por el incremento de
+la demanda de dinero, lo que traería como consecuencia un efecto negativo en las principales
+variables de la actividad económica.
+¿Cuáles fueron los resultados del plan? Al comienzo de su implementación, se logró bajar la tasa de
+inflación, si bien se agudizó la distorsión de los precios relativos entre precios congelados y no controlados,
+La redistribución del ingreso hacia los asalariados, el desahorro, la caída de la tasa de interés, entre otros
+factores, provocaron al combinarse un auge de consumo (durante los primeros meses, se observó escasez de
+algunos bienes). También aumentó la monetización de la economía que se vio reflejada en las tasas de
+interés reales. El Banco Central de Brasil trató de restringir la política monetaria para controlar la tasa de
+interés. La situación fiscal no estaba equilibrada. Luego, el gobierno trató de frenar las presiones sobre el
+consumo, principalmente, a través de la creación de impuestos. Esta medida no tuvo éxito. En 1986, hubo un
+cambio de gobierno que puso en marcha el Cruzado II, que contemplaba un aumento en los impuestos y una
+reducción del gasto. Este incremento de los impuestos se trasladó a los precios, dando lugar nuevamente a un
+impulso en las expectativas inflacionarias. La indexación de salarios volvió a ponerse en práctica, con lo que
+se generó la amenaza de una explosión inflacionaria. En 1987, la tasa de inflación era elevada y existía
+riesgo de una hiperinflación.
+
+21.5 Conclusiones
+Con esto damos por concluidos nuestros dos capítulos sobre patologías.
+En el capítulo 20, afirmamos que no existía una única patología de elevado desempleo. Sostuvimos
+que la Gran Depresión consistió en una enorme disminución de la actividad seguida de una larga y fuerte
+recuperación y que el elevado desempleo europeo es una enfermedad duradera y más insidiosa, que solo
+presenta perspectivas de una recuperación lenta.
+En cambio, existe una clara patología de la hiperinflación. Una elevada inflación es una enfermedad
+intensa, pero breve. Sus causas son en gran medida comunes en todos los casos: se debe a la incapacidad de
+los gobiernos para controlar su presupuesto ante grandes perturbaciones económicas o políticas. Por otra
+parte, sus síntomas son en gran medida comunes a todos los casos: una aceleración de la inflación y costes
+reales cada vez mayores hasta que se intenta estabilizar la economía y se logra finalmente.
+RESUMEN
+(cid:190) Las hiperinflaciones son períodos de elevada inflación. Las más extremas se registraron tras
+la Primera y la Segunda Guerra Mundial en Europa. Pero en América Latina ha habido casos
+de elevada, inflación incluso a principios de los años 90.
+(cid:190) La causa de una elevada inflación es un elevado crecimiento del dinero, el cual se debe, a su
+vez, ala existencia de elevados déficit presupuestarios, así como a la incapacidad de
+financiarlos mediante préstamos procedentes del público o del extranjero.
+(cid:190) Los ingresos generados por la creación de dinero se denominan señoriaje. Este es igual al
+crecimiento del dinero multiplicado por los saldos reales. Por lo tanto, cuanto menores son
+estos, mayor es la tasa necesaria de crecimiento del dinero y, por consiguiente, mayor la tasa
+de inflación necesaria para generar una determinada cantidad de señoriaje.
+(cid:190) Las hiperinflaciones se caracterizan normalmente por una creciente inflación. Hay dos
+razones por las que ocurren. En primer lugar, un aumento del crecimiento del dinero provoca
+un incremento de la inflación, lo que induce al público a reducir sus saldos reales y exige un
+crecimiento aun mayor del dinero (y, por lo tanto, provoca una inflación aun mayor) para
+financiar el mismo déficit real. En segundo lugar, un aumento de la inflación suele reducir
+los ingresos fiscales y elevar el déficit, lo cual exige, a su vez, un aumento del crecimiento
+del dinero y, por ende, una inflación aun mayor.
+(cid:190) Las hiperinflaciones se acaban por medio de programas de estabilización. Para que estos
+tengan éxito, deben contener medidas fiscales destinadas a reducir el déficit y medidas
+monetarias destinadas a reducir o eliminar la creación de dinero como fuente de financiación
+del déficit. Algunos planes de estabilización también incluyen directrices o controles de los
+salarios y de los precios.
+(cid:190) Un programa de estabilización que imponga controles de los salarios y de los precios sin
+modificaciones de las políticas fiscal y monetaria está abocado al fracaso. Pero ni siquiera
+los programas coherentes y perfectamente concebidos tienen éxito siempre. Las previsiones
+de fracaso pueden hacer que incluso un plan coherente fracase.
+(cid:190) El Plan Austral de la Argentina y el Plan Cruzado de Brasil representan experiencias
+paradigmáticas de planes heterodoxos en América Latina.
+TÉRMINOS CLAVE
+(cid:190) hiperinflación
+(cid:190) monetización de la deuda
+(cid:190) señoriaje
+(cid:190) trueque
+(cid:190) dolarización
+(cid:190) curva de Laffer
+(cid:190) impuesto de la inflación
+(cid:190) efecto Olivera-Tanzi
+(cid:190) programa de estabilización
+(cid:190) política de rentas
+(cid:190) programa ortodoxo de estabilización
+(cid:190) programa heterodoxo de estabilización
+
+PREGUNTAS Y PROBLEMAS
+1. Para ver por qué son importantes las pequeñas diferencias de inflación:
+a) Utilizando 1,0 como índice de precios del año base, calcule el nivel de precios
+existente después de cinco años y la variación porcentual del nivel global de precios
+suponiendo que la tasa mensual de inflación es del:
+(i) 1 %.
+(ii)2%.
+(iii)5 %.
+(iv)10 %.
+b) ¿Cuál sería el precio de una taza de café de $ 0,50 al cabo de cinco años con cada
+una de las tasas mensuales de inflación de la pregunta a?
+2. ¿Por qué podría preferir un gobierno una tasa mensual de inflación de 1 % a una del 2 %?
+¿Por qué podría elegir una tasa del 2 %?
+[ ( )]
+3. Suponga que la demanda de saldos reales es Y1− r+re , donde Y = 1.000 y r = 0,1.
+a) Suponga que, a corto plazo, πe't permanece constante en 0,25, o sea, el 25 %.
+Calcule la cantidad de señoriaje a corto plazo suponiendo que la tasa de crecimiento
+del dinero es del:
+i) 25 %.
+ii) 50 %.
+iii) 75 %.
+b) A largo plazo, n` es igual a AM/M. Calcule la cantidad de señoriaje a largo plazo
+correspondiente a cada una de las tres tasas de crecimiento del dinero anteriores.
+c) ¿Son sus respuestas coherentes con la conducta a corto y a largo plazo del señoriaje
+descripta en este capítulo? Explique brevemente su respuesta.
+4. En este capítulo, hemos prescindido de la distinción entre el dinero (M) y el dinero de alta
+potencia (H). Suponga que el multiplicador del dinero es 2, por lo que M = 2H.
+a) ¿Tiene sentido definir la cantidad de señoriaje (los ingresos del Estado generados
+por la creación de dinero) como AM/P? En caso afirmativo, explique por qué. En
+caso negativo, formule la nueva definición de señoriaje.
+b) ¿Sigue cumpliéndose la ecuación (21.2)? En caso afirmativo, explique por qué. En
+caso negativo, formule la nueva ecuación.
+c) ¿Sigue dependiendo el señoriaje positivamente tanto del crecimiento del dinero
+como de los saldos reales?
+5. “El gobierno solo tiene dos formas de financiar un déficit presupuestario: recaudar
+impuestos o endeudarse.” Comente esta afirmación.
+6. Es de esperar que el ajuste a una reducción de los saldos reales Lleve más tiempo cuando el
+crecimiento del dinero aumenta del 10 % al 200 % que cuando aumenta del 200 % al 400 %?
+¿Por qué?
+7. ¿Cómo alteraría cada una de las siguientes medidas el efecto Olivera-Tanzi?:
+a) Obligar a los hogares a pagar los impuestos mensualmente en lugar de anualmente.
+b) Imponer mayores multas por no retener suficientes impuestos a cuenta en las
+nóminas semanales.
+c) Calcular la renta mensual en dólares (o en moneda nacional) de fines de año y
+calcular los impuestos sobre el total.
+8. Considere la siguiente versión de la máxima de Milton Friedman (del capítulo 18): “La
+inflación siempre es un fenómeno fiscal”. Coméntela a la luz de lo que ha aprendido en este
+capítulo.
+9. Analice la diferencia entre políticas ortodoxas y heterodoxas en los distintos períodos de la
+Argentina y Brasil de las tres últimas décadas.
+10. Explique la diferencia entre el enfoque monetario y el no monetario de la inflación, el ajuste
+y la estabilización.
+11. Señale los aspectos sustanciales de los modelos estructurales de la inflación y su dinámica.
+12. Explique la dinámica de las hiperinflaciones y el financiamiento del sector público.
+
+LECTURAS COMPLEMENTARIAS
+Dombusch, Rudiger y De Pablo, Juan Carlos, Deuda externa e inestabilidad macroeconómica en la
+Argentina, Ed. Sudamericana, Buenos Aires, 1988.
+Bruno, Michael; Di Tella, Guido; Dornbusch, Rudiger y Fischer, Stanley, “Inflación y estabilización.
+La experiencia de Israel, Argentina, Brasil, Bolivia y México”, El Trimestre Económico, Fondo de
+Cultura Económica, México, 1988.
+Díaz Alejandro, Carlos, Ensayos sobre la historia económica argentina, Amorrortu Editores, Buenos
+Aires, 1983.
+Quince años de desempeño económico. América Latina y el Caribe, 1980-1995, Naciones Unidas-
+CEPAL. Santiago de Chile, 1996.
+Dos buenas visiones panorámicas acerca de lo que saben y no saben los economistas sobre la
+hiperinflación son:
+Dombusch, Rudiger; Sturzenegger, Federico y Wolf, Holger, “Extreme Inflation: Dynamics and
+Stabilization”, Brookings Papers on Economic Activity, 2, 1990, págs. 1-84.
+Agenor, Pierre Richard y Montiel, Peter, Development Macroeconomics, Princeton University Press,
+Princeton, NJ, 1995, caps. 8-11. El capítulo 8 es de fácil lectura; el resto es más difícil.
+El caso de Israel, que experimentó una elevada inflación y una estabilización en la década de 1980,
+se describe en Bruno, Michael, Crisis, Stabilization and Economic Reform, Oxford University Press,
+Nueva York, 1993, especialmente los capítulos 2 a 5. Michael Bruno fue el gobernador del Banco
+Central de Israel durante la mayor parte de ese período.
+Una gran parte de las investigaciones recientes ha centrado la atención en la forma de poner fin a las
+hiperinflaciones. Uno de los artículos clásicos sobre esta cuestión es el de Sargent, Thomas, “The
+Ends of Four Big Inflations”, en Hall, Robert (comp.), Inflation: Causes and Effects, NBER y
+Universidad de Chicago, Chicago, 1982, págs. 41-97. En ese artículo, Sargent sostiene que un
+programa creíble puede conseguir una estabilización con un coste bajo o nulo desde el punto de vista
+de la actividad.
+Dornbusch, Rudiger y Fischer, Stanley, “Stopping Hyperinflations, Past and Present”,
+Weltwirtschaftlichers Archiv, 1, 1986, págs. 1-47, contiene una amena descripción acerca del fin de
+las hiperinflaciones de Alemania, Austria, Polonia e Italia en 1947, Israel en 1985 y Argentina en
+1985.

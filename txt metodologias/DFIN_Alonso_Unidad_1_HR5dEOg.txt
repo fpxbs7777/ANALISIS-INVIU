@@ -1,0 +1,1790 @@
+Administración Financiera
+de las Organizaciones
+Claudio E. Sapetnitzky
+(Coordinador)
+Ediciones Macchi
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos
+
+ÍNDICE
+CAPÍTULO 1
+Objetivos y decisiones financieras básicas de las organizaciones
+por CLAUDIO E. SAPETNITZKY
+I. Contenido...................................................................................................................................3
+II. Objetivos...................................................................................................................................3
+III. Desarrollo teórico....................................................................................................................3
+1. El concepto de lo "financiero"................................................................................................3
+2. La decisión financiera.............................................................................................................4
+3. ¿Y por qué no la contabilidad?...............................................................................................7
+4. ¿Qué implica una decisión?....................................................................................................7
+5. La modelización de las alternativas........................................................................................8
+6. "...Pero también se necesitan objetivos.................................................................................12
+7. Hacia una redefinición de las organizaciones.......................................................................15
+8. La función financiera: incumbencias, ubicación en la estructura institucional y formas
+habituales de organización funcional........................................................................................16
+IV. Conceptos para releer, retener y recordar.............................................................................18
+V. Cuestionario de autoevaluación..............................................................................................18
+CAPÍTULO 2
+Elementos de cálculo financiero aplicado
+por GUILLERMO LÓPEZ DUMRAUF
+CLAUDIO E. SAPETNITZKY
+I. Contenido.................................................................................................................................21
+II. Objetivos.................................................................................................................................21
+III. Desarrollo teórico..................................................................................................................21
+1. Los conceptos de "flujo de fondos" y "valor tiempo del dinero"..........................................21
+2. Capitalización y actualización..............................................................................................22
+3. Los mecanismos y criterios de medición del valor del dinero.
+La tasa de interés......................................................................................................................23
+4. Los componentes de la tasa de interés..................................................................................23
+4,1. Interés simple..................................................................................................................25
+4,2. Interés compuesto...........................................................................................................25
+4,3 Capitalización periódica y subperiódica..........................................................................26
+4,4. El poder adquisitivo y la tasa de interés real...................................................................27
+5. Cómo calcular el valor de una corriente de pagos................................................................32
+5,1. Valor actual de una corriente de pagos temporaria.........................................................32
+5,2. Obtención del valor actual de una sucesión de pagos fijos
+(renta temporaria inmediata de pagos vencidos)....................................................................33
+IV. Conceptos para releer, retener y recordar.............................................................................39
+V. Cuestionario de autoevaluación..............................................................................................40
+CAPÍTULO 3
+Conceptos básicos de análisis financiero
+por CLAUDIO E. SAPETNITZKY
+2
+
+PEDRO J. VULOVIC
+Sección 1a: Análisis de costo-utilidad-volumen.
+Contribución marginal. Efecto de palanca operativo
+I. Contenido.................................................................................................................................45
+II. Objetivos.................................................................................................................................45
+III. Desarrollo teórico..................................................................................................................46
+IV. Conclusiones.........................................................................................................................60
+1. El "leverage" operativo o "palanca" operativa.....................................................................60
+2. El punto de equilibrio financiero..........................................................................................63
+3. Un ejemplo de aplicación.....................................................................................................64
+V. Conceptos para releer, retener y recordar...............................................................................65
+VI. Cuestionario de autoevaluación............................................................................................65
+Sección 2a: Origen y aplicación de fondos
+I. Contenido.................................................................................................................................67
+II. Objetivos.................................................................................................................................67
+III. Desarrollo teórico..................................................................................................................67
+1. Las ideas fundamentales.......................................................................................................68
+2. La interpretación "fondos = recursos totales".......................................................................70
+3. La interpretación "fondos = capital de trabajo"....................................................................74
+4. La interpretación "fondos = disponibilidades".....................................................................76
+IV. Conclusiones.........................................................................................................................76
+V. Conceptos para releer, retener y recordar...............................................................................77
+VI. Cuestionario de autoevaluación............................................................................................78
+Sección 3a: Presupuestos, presupuesto económico y presupuesto financiero:
+relaciones y diferencias
+I. Contenido.................................................................................................................................79
+II. Objetivos.................................................................................................................................79
+III. Desarrollo teórico..................................................................................................................80
+1. ¿Por qué un presupuesto?.....................................................................................................80
+2. Características fundamentales de un sistema presupuestario................................................80
+3. La estructura de un sistema presupuestario..........................................................................83
+4. Metodologías de preparación. La "moneda del presupuesto".
+El presupuesto en moneda extranjera. Incidencia sobre el tratamiento de los desvíos.............85
+IV. Conceptos para releer, retener y recordar.............................................................................87
+V. Cuestionario de autoevaluación..............................................................................................88
+Sección 4a: Índices y relaciones
+I. Contenido.................................................................................................................................97
+II. Objetivos.................................................................................................................................97
+III. Desarrollo teórico..................................................................................................................97
+1. Análisis de razones de estados contables..............................................................................97
+1,1. Razones o porcentajes verticales.....................................................................................99
+1,2. Razones o porcentajes horizontales..............................................................................103
+3
+
+1,3. Razones que surgen de relaciones dentro del balance general......................................106
+1,4. Razones de relaciones dentro del estado de resultados.................................................107
+1,5. Razones de relaciones entre cuentas del balance general y del estado de resultados....108
+1,6. Recapitulación de las razones financieras usuales........................................................110
+2. Ejercicio..............................................................................................................................112
+3. Caso práctico......................................................................................................................113
+4. Planeamiento y control.......................................................................................................115
+CAPÍTULO 4
+La decisión de inversión
+por CLAUDIO E. SAPETNITZKY
+I. Contenido...............................................................................................................................121
+II. Objetivos...............................................................................................................................121
+III. Desarrollo teórico................................................................................................................121
+1. Concepto de proyecto de inversión: componentes y variables...........................................121
+2. La evaluación financiera de los proyectos de inversión: criterios de aplicación y selección127
+2,1. Los métodos contables..................................................................................................127
+2,2. Los métodos financieros...............................................................................................129
+3. La liberación de flujos de fondos y su reinversión.
+Otras consideraciones sobre la selección de proyectos..........................................................156
+3,1. El presupuesto de capitales. Racionamiento de capitales.
+Proyectos mutuamente excluyentes y proyectos simultáneos..............................................156
+3,2. Una advertencia para los futuros analistas y/o decididores...........................................159
+IV. Conceptos para releer, retener y recordar...........................................................................160
+V. Cuestionario de autoevaluación............................................................................................160
+CAPÍTULO 5
+La decisión de financiamiento
+por CELESTINO CARBAJAL
+I. Contenido...............................................................................................................................187
+II. Objetivos...............................................................................................................................187
+III. Desarrollo teórico................................................................................................................188
+1. Costo de capital..................................................................................................................188
+1,1. Concepto de costo de capital.........................................................................................188
+1,2. Estimación del costo de capital de un proyecto............................................................190
+1,3. El costo de capital de la empresa|..................................................................................194
+IV. Conclusiones.......................................................................................................................207
+V. Preguntas y problemas..........................................................................................................208
+CAPÍTULO 6
+Decisiones de estructura de capital
+por GUILLERMO LÓPEZ DUMRAUF
+4
+
+I. Contenido...............................................................................................................................213
+II. Objetivos...............................................................................................................................213
+III. Desarrollo teórico................................................................................................................214
+1. La estructura de capital de la firma.....................................................................................214
+2. Visión panorámica de las teorías de la estructura de capital de la firma............................216
+2,1. La tesis de MODIGLIANI-MILLER............................................................................216
+2,2. La posición tradicional..................................................................................................228
+3. Impuestos en la estructura de capital..................................................................................230
+3,1, El efecto del impuesto sobre sociedades.......................................................................230
+3,2. Costo de capital con impuestos corporativos................................................................236
+3,3. La incertidumbre de la protección fiscal.......................................................................238
+3,4. El efecto de los impuestos personales: la visión de la "clientela" en la
+estructura de capital.............................................................................................................239
+4. Valor de los peligros financieros........................................................................................242
+4,1. Costos directos de la quiebra y costos indirectos de las dificultades financieras..........243
+4,2. Formas en que puede ser afectado el resultado operativo.............................................244
+4,3. Cómo estimar la posibilidad de dificultades financieras...............................................248
+IV. Conceptos para releer, retener y recordar...........................................................................254
+V. Cuestionario de autoevaluación............................................................................................254
+VI. Bibliografía.........................................................................................................................256
+CAPÍTULO 7
+Gestión del capital de trabajo
+por PEDRO J. VULOVIC
+I. Contenido...............................................................................................................................261
+II. Objetivos...............................................................................................................................261
+III. Desarrollo teórico................................................................................................................262
+1. Introducción........................................................................................................................262
+2. Gestión financiera del corto plazo......................................................................................270
+3. Gestión del efectivo e inversiones a corto plazo.................................................................285
+4. Gestión de los inventarios...................................................................................................287
+5. Gestión de los créditos........................................................................................................290
+6. Gestión de los pasivos corrientes........................................................................................292
+IV. Conceptos para releer, retener y recordar...........................................................................302
+V. Cuestionario de autoevaluación............................................................................................303
+VI. Bibliografía.........................................................................................................................304
+CAPÍTULO 8
+Riesgo e incertidumbre en las decisiones financieras
+por JUAN C. ALONSO
+I. Contenido...............................................................................................................................313
+II. Objetivos...............................................................................................................................313
+III. Desarrollo teórico................................................................................................................314
+1. Teorías de carteras..............................................................................................................315
+1,1. Teoría de la decisión.....................................................................................................316
+1,2. Objeto de elección.........................................................................................................318
+5
+
+1,3. Selección de la cartera óptima de inversión..................................................................326
+1,4. La línea de mercado de capitales, el mercado de capitales y la teoría de la
+separación.............................................................................................................................327
+1,5. Beta como medida del riesgo........................................................................................331
+1,6. Propiedades de la Beta..................................................................................................333
+1,7. Caso de aplicación práctica en decisiones de inversión de capital................................334
+1,8. Validez del uso del CAPM............................................................................................339
+2. Técnica de las coberturas....................................................................................................340
+2,1. Cobertura con futuros....................................................................................................341
+2,2. Coberturas con tasa de interés.......................................................................................342
+2,1 Opciones.........................................................................................................................344
+IV. Conceptos para releer, retener y recordar...........................................................................350
+V. Cuestionario de autoevaluación............................................................................................352
+CAPÍTULO 9
+Decisiones financieras en contextos especiales
+I. Contenido.........................................................................................................................................359
+II. Objetivos.........................................................................................................................................359
+III. Resumen de trabajos que integran el capítulo...............................................................................360
+ALDO H. ALONSO, Los modelos financieros en PyMEs..................................................................361
+CELESTINO CARBAJAL, Economía y finanzas de empresas de servicios
+públicos de gestión privada.................................................................................................................433
+GERARDO O. DESOUCHES, Empresas en crisis: consideraciones financieras.............................459
+MARIA C. DIZ DE SAMITIER, Empresas agropecuarias: decisiones financieras.........................473
+GREGORIO FELDMAN, Decisiones financieras en las entidades financieras................................489
+GUSTAVO A. HERRERO, Administración financiera de empresas de familia................................517
+DOMINGO J. MESSUTI, Administración financiera de empresas multinacionales.........................529
+RICARDO PASCALE, Finanzas de las organizaciones sin fines de lucro.
+Aproximación a algunos aspectos introductorios...............................................................................565
+6
+
+LOS MODELOS FINANCIEROS EN PyMES
+por ALDO H. ALONSO
+I. INTRODUCCIÓN
+ABSTRACT: bajo este título el autor sintetiza la vasta problemática referida a los problemas de
+optimización de decisiones en este segmento de empresas. Por lo general, se vinculan a limitaciones de
+las propias empresas (en contextos con algunos aspectos discriminatorios) para poder beneficiarse de la
+utilidad que los modelos decisionales de naturaleza financiera han evidenciado en otras organizaciones.
+Se vinculan de tal modo aspectos que hacen a la naturaleza de la información empleada, a restricciones
+estratégicas y a problemas instrumentales u operacionales, asociados en una perspectiva integradora.
+II. OBJETO Y CONTENIDO
+La evidencia empírica en PyMES no comprueba que la teoría financiera y los correspondientes
+instrumentos que hacen a la tecnología disponible para el logro de sus objetivos sean reconocidos y aplicados
+en ellas.
+Tal comprobación (en empresas que en la Argentina y Brasil son fuente de aproximadamente el 80
+% del empleo total) alimenta el propósito recogido por este capítulo de identificar marcos teóricos
+pertinentes para explicar un comportamiento que se exhibe heterodoxo según principios generalmente
+aceptados. Asimismo, sugerir adecuaciones y procedimientos aplicables con el propósito de mejorar las
+rutinas existentes en estas empresas. Tales rutinas o procedimientos expresan las respuestas al problema de
+elección que enfrentan.
+No se evitan contenidos con carácter normativo, no obstante reconocerse un ámbito de evidente
+suboptimización por apartamientos de supuestos simplificadores propios del modelo ortodoxo de
+maximización.
+Predomina, sin embargo, una permanente evocación del modelo teórico generalmente aceptado, que
+sirve de referencia a técnicas y mecánicas que se pregonan pertinentes para el tratamiento de los problemas
+de información, para la adopción de decisiones de inversión y financiamiento en circunstancias contextuales
+típicas, para la más explícita consideración del contexto de incerteza y para paliar dificultades emergentes de
+funcionamientos que no se sujetan formalmente a la disciplina de un mercado que aparece, en el mejor de los
+casos, imperfectamente representado por ventanillas bancarias, informales instancias de calificación y
+apreciación de valor empresario, y por múltiples formas de intermediación financiera.
+Las propuestas que se formulan representan más bien el propósito de apoyar en este segmento de
+empresas la pertinencia de fundamentos y la aplicación de técnicas conocidas que la identificación de
+modelos novedosos o prácticas particularmente innovativas.
+1. LOS PROBLEMAS DE LAS PyMES
+Los problemas de las PyMEs no refieren en este lugar a problemas nuevos, sino a los que nacen de
+su propia caracterización. Quedan sin abordar, por ejemplo, los que, desde una óptica centrada en el
+funcionamiento de mercados e instituciones, pueden aparecer como una discriminación de facto dadas
+características institucionales, instrumentales y operacionales impuestas por mercados globalizados1.
+En efecto, no cabe pretender una teoría Financiera propia para PyMEs. Más bien, se trata de
+problemas en la disposición o en la aplicación de modelos e instrumentos propios de una teoría (en este caso,
+la teoría financiera), en este tipo de empresas.
+Esta teoría, sus fundamentos y modelos, técnicas y mecánicas capaces de brindar anticipaciones de
+resultados (supuestas determinadas condiciones ambientales), es una sola y no admite que su validez se vea
+1 ALONSO, A. H., "Asimetría informativa en materia financiera - Manifestaciones relevantes y tratamiento respectivo",
+XII Jornadas Nacionales de Administración Financiera (SADAF), Vaquerías, Córdoba, 1997.
+7
+
+limitada en razón de ámbitos geográficos, dimensión temporal, tamaño u organización institucional, sin otra
+condición que su validación empírica2.
+No obstante esto, la aplicabilidad de tales herramientas de decisión o, dicho de otro modo, las
+restricciones operacionales existentes en ciertos segmentos empresarios para su más fructífero empleo,
+promueven recurrentemente cuestionamientos a su pertinencia.
+Por cierto, la identificación de los aludidos problemas y su propia existencia surgen de interés a
+partir de un enfoque o perspectiva de análisis que no niegue la posibilidad de discrepancias entre situaciones
+reales y situaciones óptimas (que las decisiones puedan diferir de la óptima). Esta posible discrepancia es
+ignorada, por ejemplo, por el planteo ortodoxo-neoclásico para el cual los problemas de elección se
+resuelven en forma óptima3. También quedan sin explicación las conclusiones a que arriban LOVEMAN Y
+SENGENGERBER4 sobre un comportamiento económico medio en empresas pequeñas inferior al de las
+grandes y sobre el estándar social promedio de calidad de los trabajos y condiciones laborales predominantes
+en las pequeñas empresas, también inferior.
+Desde una perspectiva evolucionista ("neoschumpeteriana") en cambio, se abandona el supuesto de
+maximización de una función objetivo y se la reemplaza por la "búsqueda de ganancia" (o algún/algunos
+subrogantes), validándose el planteo que constituye a la capacidad de elección (decisión) y a la capacidad de
+instrumentación de tales decisiones en variables útiles para explicar comportamientos de organizaciones que,
+como los hombres, aprenden.
+Así, el mejoramiento del procesamiento de información asociado a decisiones para pronosticar-
+presupuestar ventas en una empresa es teóricamente invisible a la visión ortodoxa, en cuanto constituye parte
+del proceso de elección. Al respecto, no admite que ante situaciones similares las decisiones puedan ser
+diferentes (al igual que los resultados):
+"No existe una optimización global dada a través de la elección de un grupo objetivo de
+alternativas. La rentabilidad surge de la comparación inexacta, vez por vez, de alternativas individuales
+que se presentan a través de un proceso no enteramente bajo control. Es un supuesto de búsqueda de la
+ganancia o de motivación por la ganancia, pero no de maximización de la ganancia".5
+El enfoque evolucionista basa el comportamiento de una organización en el concepto de rutinas por
+ella empleadas, es decir, los patrones de actividad que se repiten a nivel organizacional posibilitando por su
+intermedio la calificación de un desempeño dado, aunque se reconozca la existencia de elementos
+estocásticos en la toma de decisiones y en su instrumentación. Las rutinas se prueban adecuadas en función
+del flujo de ganancias (u otros resultados) que su aplicación posibilita6. Tal enfoque es particularmente
+aplicable para explicar diferentes resultados en PyMES como asimismo entre éstas y otras organizaciones.
+En este entendimiento, la aplicación en el ámbito de las PyMEs de modelos desarrollados bajo el
+supuesto de maximización adoptado por la visión más ortodoxa demandaría ciertas adaptaciones dada la
+particular significación de situaciones que constituyen notas características de] proceso de elección-decisión
+que en aquel modelo se entienden meras restricciones. Esto último con ciertas reservas a favor de la escuela
+austríaca o marginalista -MENCER, BÖHM BAWERK-, que ya admite la inexistencia de una magnitud
+económica absoluta entendiendo que el valor surge del estudio de las variables en relación con otras. El valor
+es una relación más que una medida, y surge de un proceso subjetivo7.
+2. PROBLEMAS DE INFORMACIÓN
+2 WESTON, FRED, "Toward theories of financial policy" en The Journal of Finance, vol. X, N° 2. mayo 1955, págs.
+130 a 143.
+3 REBORI, ALFREDO J., "Análisis de la pertinencia de la aplicación de las teorías y enfoques referidos a la tecnología
+y el cambio tecnológico a la explicación del fenómeno del desarrollo y difusión de tecnologías de gestión", Tesis
+Doctoral, UNCPBA, 1998. pág. 62.
+4 LOVEMAN y SENGENGERBER, citados en Las pequeñas y medianas empresas en la Argentina. Edit. FIEL, 1996,
+pág. 30.
+5 NELSON, R.y WINTER, S., (1982), en REBORI, op. cit. en nota (3), pág. 63.
+6 REBORI, op. cit. en nota (3), pág. 94.
+7 Una reciente síntesis de cuestionamientos al modelo neoclásico tradicional (JEVONS. MARSHALL, WALRAS,
+PARETO) en CRESPO, RICARDO. "La crisis del modelo neoclásico", en Económica, Departamento de Economía,
+UNLP, vol. XLIV. N° 1-2. 1998, págs. 29 a 58.
+8
+
+2,1. OBJETIVO PERSEGUIDO
+a) Presentación de problemas
+Por razones como las aludidas previamente, el objetivo de la empresa PyME suele adoptar
+definiciones alejadas del teóricamente aceptado: maximización del valor presente del capital propio según
+determinación del mercado.
+En este tipo de empresas, si bien no puede negarse la búsqueda de optimización de una función
+objetivo, ésta suele ser la que optimiza la particular función de utilidad del empresario. Esta solución puede
+distar de la que un mercado eficiente define como resultante de arbitrajes ilimitados, sin costo y con
+información completa.
+Tal apartamiento de la disciplina del mercado origina improcedentes empleos de medidas y
+referencias de valor como, por ejemplo, medidas patrimoniales, la propiedad de ciertos activos de alto
+reconocimiento social, la abstención de endeudamiento o, por el contrario, el mayoritario recurso a estas
+fuentes. Tales evidencias no niegan, por el contrario, que se satisfaga cierta función de utilidad propia del
+empresario o que algunas de estas empresas dispongan ya de procesos de transformación de información que
+les posibilite mediciones en términos económicos y aun financieros, como veremos más adelante (pero que,
+incluso así, en lo inmediato no perciben la disciplina del mercado).
+Son contados los casos de PyMEs que hayan resuelto el problema que significa para ellas contar con
+referencias adecuadas para saber si la propia visión de su situación y evolución coincide con la del mercado,
+esto es, la visión objetiva que impide el dominio de subjetividades dominantes, por ejemplo, las del
+propietario o la administración.
+Cuando es el mercado quien domina la escena, las apreciaciones sobre valor, individuales y
+subjetivas, conducen a la definición de un valor económico que se coteja con el precio (valor de mercado)
+determinando órdenes de compra o de venta según superen o queden por debajo de aquél.
+Precisamente, estas órdenes de compra o de venta suscitadas por diferencias con el valor de mercado
+son las que aseguran convergencias hacia el equilibrio en ausencia de restricciones o imperfecciones (tal cual
+lo supone el modelo clásico).
+Por tal razón, el valor de mercado es el único al que se reconoce como valor objetivo, referencia
+inapelable de la aptitud del management, ya que es una resultante del arbitraje generado por los valores
+calculados por todos los participantes en el mercado. Así resulta natural que tal valor sea aceptable como
+referencia incuestionable del éxito o fracaso empresarial.
+En el caso de las PyMEs el aludido alejamiento de tal referencia, la existencia de empresarios
+producto-orientados y las limitaciones de información de base y de transformaciones necesarias para obtener
+formas próximas a las decididas por el mercado determinan en conjunto el predominio de referencias
+imperfectas, de contenidos parciales y, a veces, contrarios a los que promovería la maximización de aquél.
+Tal es el caso de kilos obtenidos por hectárea en una explotación agropecuaria, monto de activos totales (la
+inversión) o de disponibilidades, etcétera.
+También es generalizado el improcedente empleo de ciertas medidas de naturaleza contable como
+equivalentes a las que pregona el análisis financiero a partir de flujos de fondos descontados, caso de
+UAIT/AT (por TIRat), UN/PN (por TIRpn), Utilidad Operativa (VANat) o Utilidad Neta (VANpn),
+Utilidades por Acción (por relación Dividendos/UPA), una confusión capaz de generar fuertes desequilibrios
+por ignorancia del factor tiempo, del riesgo implicado por el financiamiento, etcétera.
+b) Propuesta
+A este respecto, es imperativo asegurar, por parte del Administrador PyME.. un marco referencial y
+la disposición de un sistema de medidas que posibilite el control de la empresa, por ejemplo:
+(cid:131) La observación de pautas que el mercado haya impuesto. Porque es inevitable la calificación basada en
+tal dictamen, ya sea cuando se decida disponer de los activos (pretendiendo algo diferente al valor de
+nuda propiedad de los bienes) en caso de venta, sucesión o ante situaciones más reiteradas como, por
+ejemplo, la pretensión o concesión de créditos comerciales, el acceso al financiamiento externo, la
+incorporación de nuevos socios, etcétera.
+9
+
+(cid:131) El conocimiento de estándares locales y sectoriales correspondiente a la industria de que se trate, el
+reconocimiento de los benchmarks, el análisis comparativo con otras firmas de] ramo, como asimismo la
+justificación de las diferencias respecto de toda variable significativa, es un imperativo inevitable.
+(cid:131) El anticipo de efectos ante escenarios diferentes, capaces de originar modificaciones en ventas y por su
+intermedio de resultados.
+(cid:131) La permanente observación de variables del contexto que puedan exigir definiciones estratégicas de
+reorientación, de alteraciones de mezclas en activos y financiamiento, en pérdida/ganancia de posiciones
+en nichos de negocios, en posiciones dominantes del mercado, etcétera.
+En muchos casos, la respuesta a estas necesidades puede verse facilitada a través de funciones
+gerenciales tercerizadas, en común con otras empresas o no, pero con contenidos muy diferentes a los que el
+profesional independiente ha venido prestando hasta el presente.
+2,2. NATURALEZA DE LA INFORMACIÓN EMPLEADA
+a) Presentación de problemas
+Las decisiones requeridas en una empresa para justificar que ciertos elementos (materias primas,
+dinero, etc.) pierdan su naturaleza para verse transformados en productos diferentes requieren del cotejo de
+medidas que demuestren su conveniencia. Mejor dicho, de un sistema de medidas.
+En efecto, debe anticiparse que el valor * de las materias primas, recursos humanos y financieros
+que "se pierden" sea inferior al valor de los Y productos que se obtienen para que sea una operación
+conveniente (ver fig. 1,a]).
+Al respecto:
+(cid:131) Inexcusablemente, la empresa cuantificará entradas y salidas en términos físicos, de unidades adquiridas,
+incorporadas al proceso productivo, almacenadas, vendidas y cobradas. La relación de productos
+(salidas) con insumos requeridos (entradas) determina una relación de productividad, efectividad o
+eficacia. Podría hablarse así de productividad de la tierra, de los recursos humanos, de las máquinas
+intervinientes en el proceso productivo, etcétera.
+En su vinculación con la competitividad de la empresa (determinada también por los demás atributos), se
+entenderá que la misma se verá positivamente afectada si, por ejemplo, se obtienen quintales o kilos
+adicionales de cereal en una determinada superficie de tierra.
+(cid:131) Necesariamente también, la empresa requiere relacionar entradas y salidas en términos económicos.
+Podrá así justificar económicamente que puedan emplearse (consumirse) determinados elementos en la
+producción de un bien o servicio destinado al mercado, garantizándose de tal forma la continuidad de las
+satisfacciones implicadas.
+En este caso, tanto las entradas como las salidas son medidas con el auxilio de un factor adicional a las
+unidades físicas: el precio. Es ciertamente un mundo diferente dominado por dos términos: Q
+(cantidades) y P (precios), cuyo producto referido a entradas y salidas puede llegar a convertir una
+evolución positiva en términos de productividad en una relación negativa en términos de rentabilidad.
+Q > Q pero (Q * P) < (Q * P )
+t t-1 t t t-1 t-1
+Naturalmente, una relación desfavorable de precios puede torcer una dirección que en términos
+físicos de productividad emergía positiva.
+Puede suceder, empero, que una gestión que descuide la dimensión tiempo deba sufrir, a pesar de
+relaciones de productividad y rentabilidad favorables, los inconvenientes derivados de no poder honrar
+oportunamente sus compromisos por insuficiencias financieras.
+10
+
+(Q * P) > (Q * P ) pero (Q * P * T) < (Q * P * T )
+t t t-1 t-1 t t t t-1 t-1 t-1
+donde:
+T = relaciones temporales de ingresos y egresos.
+(t y t-1)
+Términos inadecuados de cobros y pagos pueden conducir a tal situación, que puede ponerse bajo
+control a través de una correcta gestión en términos financieros o de caja o, como se lo denomina muy
+corrientemente, del cash-flow.
+En conclusión, estos diferentes tipos de mediciones son todos imprescindibles. Pero debe arribarse a
+esta última instancia de mediciones financieras si realmente quieren eliminarse los sinsabores de una
+inadecuada, insuficiente o inoportuna conversión del dinero requerido por el proceso (adquisición-
+producción-almacenamiento-venta-nuevamente dinero).
+Todo resultado determinado en términos diferentes al dinero (la naturaleza del activo que se "pierde"
+con motivo de haber adoptado una decisión de inversión) es provisorio y sujeto a ajustes varios hasta tanto se
+recupere aquella naturaleza de efectivo disponible. Sólo el dinero posee poder cancelatorio de deudas y
+permite acceder inmediatamente y sin gestiones paralelas a la corriente de bienes y servicios que se transa en
+un orden económico dado. Sólo cuando cualquier activo adquiere nuevamente la forma de dinero es dable su
+reasignación al mismo u otro destino, una elección que posibilita la asignación eficiente de los recursos.
+MEDICIONES Y DECISIONES EMPRESARIAS
+Figura 1,a)
+Por esta razón, no se puede obviar el análisis y la visión de "lo financiero": el sacrificio demandado
+por una alternativa de inversión involucra ineludiblemente el tiempo y oportunidades perdidas hasta que se
+recupera el monto esperado en los mismos términos de lo invertido, esto es, en dinero. Los resultados, en
+consecuencia, se determinan por comparación entre dinero invertido y dinero recuperado, donde este último
+monto se pretende superior al capital inicial.
+11
+
+b) Propuesta
+En este entendimiento, sorprende que el sistema de transformación informacional requerido para
+arribar a resultados financieros sea prácticamente inexistente. Empresarios provenientes por lo general M
+área producción son naturalmente producto-orientados. Toda abstracción como la demandada por la
+determinación de utilidades contables es ajena a muchas visiones empresarias, más aún cuando se pretende
+mejorar tal medida con los necesarios ajustes temporales, ajustes por riesgos involucrados y por la necesidad
+de evitar ambigüedades como las originadas por clásicas convenciones (caso de amortizaciones, previsiones.
+métodos de valuación de inventarios, etc.).
+El cash-flow debe estar disponible:
+(cid:131) Para decidir inversiones y financiamiento, o sea para definir las condiciones estructurales del negocio
+(inmovilizaciones en activos fijos propios o su arrendamiento, tecnologías intensivas o ahorradoras de
+capital, estructuras de financiamiento con alta proporción de pasivos o de financiamiento de tipo
+permanente, etc.); en estos casos, las decisiones se basan en informaciones cuyo horizonte temporal
+cubre la vida total de un proyecto de inversión, de financiación o la duración de efectos de la estrategia
+analizada (caso en que es impropio pretender basar tal tipo de decisiones en resultados periódicos
+normalizados por la técnica contable).
+(cid:131) Cuando se está operando sobre tal estructura o escenario para definir el plan del negocio para el año
+entrante (cambios. en plazos de venta o de cancelación de deudas comerciales, órdenes de compra
+orientadas según políticas "stockistas" o de "inventario cero", etc.). En estos casos, provee información
+fundamental para anticipar situaciones (y decisiones) de faltantes o excedentes de fondos. También para
+poder ajustar cifras que ignoran el valor tiempo del dinero en la determinación periódica de resultados.
+Es, por lo tanto, una herramienta de decisión imprescindible para considerar, por ejemplo, la
+adquisición o reemplazo de una máquina, cuando se deba optar por contratar un préstamo bancario o la
+emisión de O.N., el descuento de facturas, la modificación de condiciones de compra o de venta, el precio de
+venta o el proceso de cobro de clientes ubicados en distintas localidades, el impacto de programas de
+disminución de costos. O cuando deba discutirse el presupuesto del año venidero (una decisión global sobre
+alternativas de inversión, financiamiento y operativas).
+Las dificultades para incorporar el factor tiempo al sistema de información corrientemente empleado
+y, en consecuencia, para asociar magnitud y timing de ingresos y egresos conspiran fuertemente contra el
+propósito de optimizar la gestión financiera aun en casos tan simples y repetitivos como:
+(cid:131) colocación de excedentes (transitorios o no);
+(cid:131) solicitud de créditos para paliar desequilibrios;
+(cid:131) concesión de ventajas por pronto pago;
+(cid:131) fijación de condiciones de pago a proveedores o de crédito a clientes.
+Es evidente, en estos casos, el importante aporte que significaría la utilización de un cash-flow
+proyectado para, por ejemplo, definir el plan del negocio para el ejercicio siguiente.
+Caso contrario, se inhibe la pretensión de todo modelo de optimización que persiga mejores
+resultados esperados a partir del cotejo de costos-beneficios y de ingresos-egresos marginales.
+Por tanto, al igual que la prescripción común que se ofrece para la gestión en tiempos difíciles, un
+estado natural de las PyMEs, a este respecto también se considera pertinente la sugerencia de "más cash-
+flow, menos utilidad"8 cuando se juzga la importancia marginal atribuible a la adopción de nuevas
+tecnologías y procedimientos administrativos.
+Este instrumento imprescindible adopta la forma tipo que exhibe la fig. 1,b).
+La propia autoridad monetaria de nuestro país ha promovido esta práctica a través de las
+comunicaciones BCRA A 2.180 y complementarias, que hacen obligatoria la presentación de estados
+proyectados de ingresos y egresos de fondos como requisito de la calificación de todo crédito solicitado al
+sistema bancario.
+8 VANDELL, R.F. y PENNELL, R.M., "El financiamiento en épocas de crédito escaso", Harvard Business Review,
+artículo 45 de la Biblioteca Harvard de Administración de Empresas.
+12
+
+2,3. DINÁMICA DE CREACIÓN DE VALOR
+a) Presentación de problemas
+Aun cuando se haya avanzado hacia una adecuada medición de resultados con aceptación de
+principios financiero-contables, los sistemas de información y los procesos de decisión empleados
+evidencian un descuido casi absoluto de aspectos que hacen a la construcción de los resultados (o de] valor,
+si se pretende mayor precisión).
+En efecto, aspectos estratégicamente privilegiados corno la satisfacción del cliente, la de proveedores
+de fondos en general -no sólo los aportados por el propietario-, la de los propios empleados, la eficiencia
+interna y la capacidad de crecimiento de la organización parecen generalmente relegados en la atención del
+empresario PyME.
+FORMATO TIPO DEL CASH-PLOW
+Períodos de tiempo
+CONCEPTOS
+1 2 3 4 5 6 7 8 9 10 11 12
+SALDO INICIAL Saldo existente como disponibilidades al inicio del período.
++
+Ingresos operativos Ingresos originados en ¡a operatoria regular de la empresa.
+-
+Salidas operativas Egresos originados en la operatoria regular de la empresa.
+=
+SALDO OPERATIVO Suma algebraica de ingresos y egresos por operatoria regular.
++/-
+Saldo de operaciones Resulta de actividades no habituales del giro corriente de la empresa. No incluye
+extraordinarias operaciones financieras de corto plazo.
+Saldo de Tesorería del período Resulta de la suma algebraica del resultado financiero de operaciones ordinarias y
+extraordinarias.
+SALDO FINAL Suma algebraica del Saldo al Inicio y del movimiento del período. Expone la
+posición de Tesorería previa a decisiones sobre financiamiento o disposición de
+excedentes.
+Figura 1,b).
+Deben añadirse a estas menciones las vinculadas al contexto. En efecto, en un trabajo efectuado en la
+UNICEN9, sólo un 35% de las PyMEs encuestadas presta atención a la evolución de la industria o sector y
+un 32%, a la del producto o servicio en particular.
+La misma fuente indica que de ocho indicadores o instrumentos presentados a la consideración del
+empresario PyME, los referidos como "pronósticos del sector", "anticipación de resultados" y
+"posicionamiento en el mercado" ocuparon los últimos lugares cuando dichos dirigentes los ordenaron según
+frecuencia de empleo e importancia asignada.
+9 ALONSO, ALDO H. y equipo de investigación. "Metas, decisiones y tecnologías administrativas en PyME,
+UNCPBA. Departamento de investigaciones, 1990/91.
+13
+
+b) Propuesta
+1. Aspectos estratégicos en la planificación, programación y control
+A este respecto, las PyMEs deben enfatizar la obtención de mejoras en procesos de planificación y
+programación. En primer término, debe darse prioridad al manejo de información referida al sector de
+actividad, a la competencia, a los clientes actuales y potenciales, con paralela atención a la necesidad de
+traducir objetivos abstractos en metas de significación operativa.
+En la instancia, deben entenderse requeridos los aportes que se reconocen a técnicas como el
+benchmarking10, a enfoques como el balanced scorecar11 y a la correcta apreciación del valor de intangibles.
+fuentes relevantes de valor que las PyMEs tienden a ignorar12.
+Respecto de la programación, instancia en que los objetivos adquieren carácter de compromisos
+asumidos formalmente con respectiva asignación de recursos para su satisfacción, nos referiremos
+sintéticamente al Presupuesto Integral, es decir, el documento que expresa en términos financieros anuales.
+decisiones sobre usos y fuentes de fondos que se adoptan a través de un proceso de optimización de
+resultados. A esta optimización se arriba por comparación de opciones cuyo mérito relativo se determina en
+función de metas definidas.
+Estas metas, elementos por lo general ausentes en la programación a cargo de PyMEs, deben dar
+satisfacción a requerimientos fundamentales, generales y específicos, por ejemplo:
+a) generales: deben explicitar la asignación de recursos en función de resultados pretendidos y expresar
+compromisos plausibles a ojos de los responsables;
+b) particulares: las metas reconocen como rasgos característicos:
+(cid:131) Expresión en términos verificables (pueden ser o no cuantificables) de la dimensión de los compromisos,
+en términos que el nivel operativo interpreta y reconoce.
+(cid:131) Responsable identificado, destinatario de reconocimientos por éxitos alcanzados y de cargos por
+defectos, todo en función de compromisos y logros explícitos.
+(cid:131) Tiempo especificado, determinando plazos definidos para comprobar a su vencimiento tanto
+satisfacciones como incumplimientos.
+Estas referencias (aparentes generalidades) se justifican porque, dada una ausencia muy generalizada
+de estos instrumentos en PyMEs, cabe la reiteración de su pertinencia y absoluta necesidad en este ámbito.
+La instancia de Programación puede recoger el importante aporte de profesionales independientes
+que al presente suelen limitar su contribución a los aspectos contable-impositivos. Ellos pueden incorporar al
+menú ofrecido contribuciones como las que grandes empresas obtienen de la aplicación de modalidades
+como, por ejemplo, el benchmarking previamente aludido, esto es, de referencias conspicuas para el
+establecimiento de metas, una función a la que se vería facilitada por la actuación simultánea en varias
+empresas.
+A su vez, se deberá cumplir que dichas metas refieran a aspectos que no debieran ignorar los
+sugeridos por el también aludido balanced scorecard y que se recogen a título meramente ejemplificativo en
+la fig. 2. Entre tales aspectos se ha incorporado a los sugeridos por NORTON y KAPLAN el referido a la
+información, que entendemos una referencia obligada en el proceso de creación de valor, ya sea referida a
+variables de manejo interno de la organización como la recibida y reportada a terceros (mercado en general),
+una función que también debe ser optimizada si el objetivo empresario es debidamente atendido.
+2. Programas para aumentar la competitividad
+El compromiso con metas claramente explicitadas debe ser reconocido a nivel organización, con
+targets que no admitan ambigüedad y con explicitación del proceso de seguimiento al que quedan expuestos
+los responsables.
+10 Al respecto. ver SUAREZ, J.L. y otros, Benchmarking de la función financiera,. McGraw-Hill 1996.
+11 KAPLAN, R.S. Y NORTON. D.P., "The halanced scorecard", Harvard Business Review, Cambridge, Massachusetts,
+1996.
+12 GATES, S., "CFO 2.000: the global CFO as strategie business partner", Research report, The International Board,
+Madrid, 1997.
+14
+
+Por lo general, la dirección expone objetivos que se plantean como horizontes de la toma de
+decisiones, pero no se traducen a metas con significación operativa, en una sucesión de eslabonamientos de
+medios-fines que debiera entenderse imprescindible.
+En rigor, si no se conoce este camino hacia las metas de orden superior, por ejemplo obtención de un
+incremento del 10% en utilidades, poco se habrá avanzado hacia su satisfacción, no obstante figurar como
+punto central de los objetivos manifestados al iniciar un nuevo ejercicio.
+A tal finalidad puede contribuir el empleo de una "hoja tipo de programación y control aplicada a
+programas de aumento de competitividad, cuyo formato tipo queda ejemplificado a través de la fig. 3, al que
+se vuelve al final de este capítulo cuando se aborda el compromiso de mejorar resultados.
+CRÉDITOS DE UNA PERFORMANCE EQUILIBRADA
+Figura 2
+FORMULARIO MAESTRO DE PLANIFICACIÓN
+Variable considerada Rubro Opción Efecto Resultado Esperado vs.
+Eval.
+atendido considerada pretendido proyectado real
+1. Precios compra y forma de
+pago
+a) Insumos
+b) Mercad.. de reventa (1, 2,...)
+c) Servicios contratados
+d) Forma de pago
+2. Inventarios
+a) Productos terminados (1, 2,...)
+b) Producción en proceso (1, 2,...)
+c) Materias primas (1, 2,...)
+d) Gestión de almacenes
+15
+
+Variable considerada Rubro Opción Efecto Resultado Esperado vs. Eval.
+atendido considerada pretendido proyectado real
+a) Menores inmovilizaciones
+b) Relac. y condic. proveedores
+c) Relac. y condic. bancos
+4. Mercado y volumen de
+ventas
+a) Zona (1, 2, 3,...)
+b) Vendedor (1, 2, 3,...)
+c) Producto (1, 2, 3,...)
+5. Condiciones de venta
+a) Precios
+b) Crédito ofrecido
+c) Descuentos s/pago
+d) Forma y condic. entrega
+6. Gastos de venta
+a) Promoción
+b) Empaque
+c) Transp. y entrega
+7. Producción
+a) Tecnología
+b) Procesos
+c) Calidad-Terminación
+8. Gastos
+a) Comb., lubric., etc. (1, 2,...)
+b) Papelería, fotoc.
+c) Teléfonos (1, 2,...)
+9. Activos inmovilizados
+a) Efectivo
+b) Otros activos corr. (1, 2,...)
+c) Equipos
+d) Locales
+10. Organización
+a) Desarr. y organización
+b) Motivación e incentivos
+c) Asign./reasign. funciones
+d) Deleg.-Reglas de decisión
+11. Resultados por inflación
+a) Positivos
+b) Negativos
+12. Gestión de riesgos
+a) Diversificación
+b) Adecuac. tamaño proyectos
+c) Contratación seguros
+d) Contratos y operaciones "a
+futuro" (coberturas)
+Figura 3.
+3. DECISIONES ESTRATÉGICAS DE INVERSIÓN Y FINANCIAMIENTO
+3,1. PRESENTACIÓN DE PROBLEMAS
+El modelo básico de la teoría tradicional-ortodoxa postula que las decisiones de inversión se
+resuelven en función del cotejo entre el rendimiento de la inversión total implicada por el proyecto y el costo
+incurrido en el financiamiento de dicha inversión. Al mismo resultado se arriba en función del cotejo entre el
+valor presente de los ingresos generados por el proyecto cuando se los descuenta a una tasa representativa del
+aludido costo del financiamiento y el valor presente de las erogaciones incurridas con motivo de la inversión
+analizada. En efecto, sin racionamiento de fondos, en mercados sin restricciones, con información completa,
+16
+
+la relación entre VAN positivo y la desigualdad positiva entre TIR y Ko (costo del financiamiento o estándar
+financiero) es unívoca (ver fig. 4).
+Figura 4.
+En tal contexto se asegura, a través de decisiones que satisfagan tal condición, una óptima asignación
+de recursos, ya que no quedarían sin aceptar alternativas de inversión que prometan una generación de
+recursos al menos igual a la de los insumidos. Ningún proyecto quedaría sin aceptar por carencia de recursos
+ya que éstos están asegurados por una disponibilidad ¡limitada a igual costo. Nada impide financiarlos a un
+mismo costo a condición de mantener la estructura de fuentes y costos, la que a su vez debe ser óptima (de
+mínimo costo) para no inhibir la satisfacción también optima del objetivo empresario.
+No es éste, debe aceptarse, el contexto en el que las PyMEs enfrentan decisiones de elección de las
+alternativas de inversión y financiamiento. En efecto, son por demás frecuentes los casos de líneas de crédito
+que estipulan condiciones especiales que se justifican en razón, precisamente, de su dimensión. de destinos
+que el poder político considera prioritarios, del lugar de asentamiento de los proyectos, del eventual efecto
+sobre variables estratégicas como empleo o las asociadas a convenios entre países miembros de una
+determinada zona o región, del origen (país) del bien adquirido, etcétera.
+En tales casos, debe admitirse el apartamiento de los supuestos que justificarían aquel modelo de
+maximización. No está ya asegurada la disponibilidad ilimitada de recursos a determinado costo para
+cualquier alternativa de riesgo similar. No se podrá desvincular la decisión de inversión de la de
+financiamiento, puesto que son determinados destinos los que también posibilitan el acceso a determinadas
+fuentes. Tampoco se podrá asegurar, por parte del decididor, la compatibilidad entre su decisión y el interés
+general, pues no asegura que no pueda quedar sin aceptar una alternativa que prometa un mayor rendimiento
+que cualquiera de las aceptada.
+Esto sucede porque dicha responsabilidad, en cuanto asignación de recursos en un orden económico
+dado, quedó a cargo de quien con poder sobre el ordenamiento legal y fáctico, determina las aludidas
+condiciones especiales (tasas de interés especiales, desgravaciones impositivas, exención de ciertas
+formalidades, etc.).
+En casos como los aludidos (y otros que pueden denominarse "casos de restricción interna", según
+lo propone MESSUTI13), muy frecuentes en caso de PyMEs, el decididor (en nuestro caso una PyME) ve
+limitado el problema a la determinación de ventajas o desventajas que pueda reportarle la asignación de
+recursos propios a una alternativa que cuenta con el favor de condiciones especiales capaces de impactar
+fuertemente en los flujos residuales para dicho capital propio.
+Estas situaciones pueden determinar que un proyecto aceptable para el decididor privado
+desemboque en una ineficiente asignación de recursos desde el punto de vista de la economía global, toda
+vez que el generador de las aludidas "condiciones especiales" haya equivocado su cálculo o que no se haya
+13 MESSUTI, DOMINGO J., "Ensayos sobre administración y análisis financiero", en Contabilidad moderna. 1977,
+págs. 179 y sigtes.
+17
+
+podido controlar efectivamente el cumplimiento de requisitos condicionantes para acceder a las mismas
+(situación que suele darse, por ejemplo, ante medidas promocionales o subsidios).
+Para no limitar el planteo a casos tan puntuales y rígidos, no obstante su reiterada observación
+(financiamiento atado al origen de los bienes, regímenes promocionales para favorecer asentamientos en
+determinados lugares, la construcción de hoteles u otras inversiones destinadas a actividades o sectores
+prioritarios según definiciones del poder político, etc.), deben también entenderse comprendidos en este
+contexto de capital racionado, de mercados imperfectos y elecciones condicionadas, a los más generales de:
+a) información incompleta;
+b) existencia de spread (tasas activas distintas de las pasivas), para no referir al vinculado a problemas y
+economías de escala14.
+En el primer caso, el planteo maximizador cede ante restricciones de información sólo superables a
+través de erogaciones, tiempos y adquisición de conocimientos que determinan, per se, que los costos de
+transacción impliquen la improcedencia del supuesto. Así, por ejemplo, elecciones limitadas por opciones
+entre maíz y girasol en explotaciones pampeanas, pick-ups que se reducen a dos marcas prototípicas,
+camiones de dos o tres marcas. financiamiento de uno o dos bancos cuando no fuentes irregulares (por
+condiciones en las regulares que inhiben el acceso a muchas entidades),
+En el segundo, porque el supuesto de fondos obtenibles a una tasa idéntica a la de colocación de
+excedentes durante la vida de los proyectos, tampoco coincide con una realidad que exhibe consistentemente
+otra situación. La existencia de spread coloca a las PyMEs en posición de relativa desventaja (aunque por
+causas que son atribuibles a las mismas empresas) porque determina para éstas un mayor alejamiento relativo
+del modelo de maximización que se concibe en el planteo teórico (que subyace como referencia de última
+instancia en toda decisión de inversión y financiamiento).
+En efecto, la situación implícita en el modelo básico de decisiones de inversión que se exhibe en la
+fig. 5,a) revierte en la que exhibe la fig. 5,b) cuando el supuesto de financiación y colocación de excedentes a
+la tasa K se bifurca determinando costos de financiamiento a la tasa K y de reinversión de flujos netos
+0 i
+positivos a la tasa K .
+r
+Figura 5,a).
+Figura 5,b).
+El problema de una PyME no es equiparable al de una gran empresa, porque ambos tipos de
+empresas enfrentan, en un mismo mercado, diferentes spreads. En situación de requerir fondos (pensemos en
+fondos ajenos) la posibilidad de acceso a los mismos se define a un nivel de K sustancialmente superior,
+i
+14 Problema de ineficiencia adjudicado a PYMEs, en virtud del comportamiento errático de la productividad del capital
+(Q/K) que surge del análisis de LITTLE (1987) citado en FIEL, op. cit. en nota (4), págs. 28 y, 29. El interrogante es
+sobre por qué estas empresas permanecen chicas en vez de crecer.
+18
+
+limitando la posibilidad de aceptar inversiones que otras organizaciones no tienen dificultades en acometer
+(por enfrentar spreads con inferiores tasas activas-K’).
+i
+Así, por ejemplo, la PyME con disponibilidades actuales de magnitud O-F en la fig. 5,b) sólo podrá
+1
+incrementar los fondos destinados a inversión en la proporción F -F’, dado que con ese incremento llega al
+1
+punto en que los rendimientos (r) igualan el costo de los recursos solicitados (K). Por el contrario, una
+i
+empresa mejor calificada enfrentará un nivel K’, pudiendo requerir fondos adicionales en la magnitud
+i
+F F’’ , incrementando significativamente el monto de inversión con contribuciones positivas a los resultados
+1 1
+de la empresa.
+A su vez, toda PyME con disponibilidades que le permitan acceder a rendimientos entre los puntos
+A’ y B no puede justificar recurrir a mercados financieros ni como solicitante de fondos (pues r < K) ni
+i
+como colocadora (pues r > K ). En B, la empresa coloca en el mercado en vez de hacerlo en proyectos
+r
+propios, pues K representa un costo de oportunidad mayor a la TIR de los proyectos propios. En similar
+r
+situación, la gran empresa enfrenta una zona mucho más reducida de abstención de participaciones en los
+mercados financieros, con el consiguiente beneficio.
+La disciplina de] mercado, con vigencia siempre presente, pero menos inmediata, reclama que las
+decisiones en PyMEs se instrumenten sobre bases lo más parecidas posible a las racionalmente aceptables, lo
+cual remite, en primer término, al análisis de las causas del mayor spread que enfrentan las PyMEs respecto
+de la empresa promedio; en segundo lugar, a la posibilidad de eliminarlas o mitigarlas para evitar el perjuicio
+implicado.
+Una importante cantidad de autores ha enfatizado la importancia de las asimetrías informativas que
+se establecen entre el principal (la institución financiera desventajosamente informada) y el agente (el
+prestatario con ventajas relativas de información), una evidencia empírica que aparece sustancialmente
+magnificada en el caso de PyMEs15.
+En el trabajo de FIEL ya referenciado16, se expresa que el costo del crédito bancario es del 23 al 35%
+en PyMEs, frente al 12% que se exige a grandes empresas. Asimismo, no puede desatenderse otra
+observación obrante en la misma fuente: no existe gran empresa que no opere con crédito bancario, pero un
+sorprendente 25 % de las pequeñas no lo hace. Asimismo, OVIEDO17 se pregunta por qué las PyMEs pagan
+más del 20%, y no el 9% como las grandes empresas, hallando como respuesta que el riesgo diferencial
+atribuido a aquéllas explica tal diferencia, a lo que contribuye el aludido problema de asimetría de
+información.
+En trabajos recientes18 abordamos la cuestión sugiriendo vías posibles para mitigar tales asimetrías
+(mejoras en calificación a través de producción y reporte adecuados de la misma, adecuaciones
+institucionales-operacionales a partir de una calificación regional institucionalizada), y se indicaba asimismo
+que se había detectado un excesivo recurso a fuentes irregulares de financiamiento en este segmento
+empresario, sugiriendo la existencia de una especie de "ley de Gresham" aplicada al financiamiento, en el
+sentido de un financiamiento irregular, desplazando al considerado regular. Se tratarla de una especie de
+disfunción en la que confluyen factores determinantes de debilidades generalizadas en el segmento de
+PyMEs: exigencias formales, fiscales, previsionales, problemas de información, debilidades en garantías
+ofrecidas y, también, ciertos impactos de la globalización que las discriminan, no obstante ser éste un efecto
+seguramente indeseado.
+15 Entre tales autores, MYERS y MAJLUF, "Corporate financing and investment decisions when firms have
+information that investors do not have", Journal of Financial Economics. vol. 13, N° 2, págs. 187 y sigtes: STIGLITZ y
+WEISS. "Credit rationing in markets with iniperfect information". A. Economic Review. N° 3, 1981. págs. 393 y sigtes.
+WILLIAMSON, S.D. "Costly monitoring. financial intermediation and equilibrium credit rationing", en Journal of
+Monetary Economics, N° 2, set. 1986, págs. 159 a 179; BASTER H., "Screening vs. rationing in credit markets with
+imperfect information", A. Economic Review. 1995. 850; AZOFRA, V. y LOPEZ ITURRIAGA, F., "Aproximación a
+las decisiones financieras de la empresa española en condiciones de Restricciones Financieras", VI Congreso de la
+ACEDE, La Coruña. España, 1996.
+16 FIEL, op. cit., pág. 16.
+17 OVIEDO, MARCELO P., "Tasas: ¿por qué más del 20% y no el 9%?, Banca y Banque. CFB. marzo-abril 1996, pág.
+19 y sigtes.
+18 ALONSO, ALDO H., "Globalización y competitividad vs. asimetría informativa y deficiencias de intermediación",
+XVI Jornadas Nacionales de Docentes en Administración Financiera (SADAF), 1996: "Asimetría informativa en
+materia financiera: manifestaciones relevantes y tratamiento respectivo", XVII Jornadas Nacionales de Docentes en
+Administración Financiera (SADAF), 1997; "Región y globalización en los mercados financieros. Situación de las
+PyMEs regionales", en Banca y Banque, Centro de Estudios Bonaerenses, julio-agosto de 1996.
+19
+
+Por entender fundamental este propósito de mitigar asimetrías y propender a mejores condiciones de
+financiamiento, se dedica el Anexo I a la explicitación de criterios empleados por bancos en la calificación
+del crédito.
+3,2. PROPUESTA
+a) Aplicaciones necesarias
+Para disminuir tal incidencia en las condiciones de financiamiento, claramente una restricción no
+visible al planteo más ortodoxo, deben buscarse procedimientos y emplearse instrumentos que la función
+financiera dispone, entre ellos:
+- Consideración de alternativas mediante técnicas de flujos descontados.
+- Estados económico-financieros proyectados.
+- Cash-flows probabilísticos ante escenarios predefinidos.
+- Adecuaciones en la relación rentabilidad riesgo de las operaciones financieras por mejoramiento de
+colaterales o garantías (garantía recíproca).
+- Adecuaciones de estructuras de costos tanto en decisiones de inversión (relación costos fijos/costos
+variables de producción) como en decisiones de financiamiento (relación costos fijos/costos variables de
+financiamiento).
+- Contratación de futuros (forwards o futuros propiamente dichos).
+Por supuesto, el énfasis con que se propone el empleo de estos instrumentos y procedimientos (los
+tradicionales más algunos relativamente más novedosos de la teoría y práctica financiera), en ámbito de las
+PyMEs se debe no sólo al descuido que a su respecto exhiben los relevamientos practicados, sino también a
+modificaciones ambientales que magnifican su necesidad.
+Por ejemplo, respecto de estos cambios en el contexto, el creciente grado de globalización de las
+economías ha determinado la estandarización de procedimientos y requisitos formales, de trámites y
+exigencias de información, etc., aspectos demostrativos de una creciente despersonalización de trato y
+normalización de exigencias, una tendencia que no favorece, por cierto, a las PyMEs.
+Debe, en consecuencia, extremarse el esfuerzo por detectar posibilidades de mejoras en calificación,
+incluyendo alternativas menos difundidas en la práctica, por ejemplo:
+(cid:131) Que algunas funciones propias del gerenciamiento financiero puedan ser desempeñadas por terceros (se
+trataría de outsourcing respecto de ciertas funciones).
+(cid:131) La actualización de conocimientos, técnicas y prácticas con paralelo recurso a los hoy disponibles
+medios de acceso y procesamiento de información, lo que facilitaría la aplicación de modelos financieros
+en PyMEs.
+(cid:131) La adecuación de los propios modelos parece, asimismo, justificada para no ignorar tan sensibles
+divergencias entre situaciones reales y mundos ideales (y modelos en ellos concebidos y muchas veces
+sólo en ellos justificados de utilidad).
+A este último respecto, señalamos que hace ya tiempo nos asociamos a la propuesta de ajustes al
+modelo clásico de evaluación de alternativas de inversión, aceptando en circunstancias muy comunes en
+nuestro medio:
+a) la metodología del enfoque residual;
+b) la adopción de tasas de descuento representativas de costos marginales más bien que tasas medias
+óptimas,
+c) la optimización de decisiones de inversión y financiamiento a través de la combinación de la mejor
+opción de inversión detectada con la mejor opción de financiamiento compatible y disponible19.
+19 ALONSO, ALDO H. y ETCHEGOYEN, R., Análisis de la rentabilidad de inversiones en la empresa argentina.
+Ediciones Macchi. 1980 y sucesivas reimpresiones. Respecto de los primeros aspectos tal como lo había pregonado
+DOMINGO J. MESSUTI en la obra citada en nota19 y en un muy divulgado anexo al texto de VAN HORNE titulado
+"Administración financiera", Ediciones Contabilidad Moderna, 1973. Respecto del último punto, ALONSO, A.H.,
+20
+
+En tiempos más recientes, se ha propuesto el APV (Adjusted Present Value 20) como otra posibilidad
+a la que se le pueden reconocer aportes significativos. En vez de ajustar por tiempo (a través de tasas
+representativas del costo del capital propio), los flujos residuales que derivan de restar a los flujos operativos
+positivos los flujos negativos generados por la operación de financiamiento o, alternativamente, de sumar
+algebraicamente el VAN de la inversión con el VAN del financiamiento, en ambos casos descontando al
+costo del capital propio (Ke en la nomenclatura más difundida), el APV propone un procedimiento que invita
+a la asociación con aquéllos, al menos en cuanto al objetivo perseguido.
+En su concepción básica, el APV resulta de la suma de varios valores presentes que se pueden
+resumir en dos términos:
+a) Valor presente de los flujos residuales (free cash-flows) descontados al costo de oportunidad del capital
+propio como si la totalidad de la inversión fuera financiada con fondos propios (equity), esto es, a costo
+variable en relación con utilidades operativas sin considerar aún eventuales ventajas prometidas por
+alternativas de financiación a costo fijo (pasivos). Se incluye, en este primer término, el valor terminal
+que pueda asignarse a los activos al finalizar el horizonte de planeamiento, por lo común estimado a
+través del cálculo de una perpetuidad.
+b) Sumatoria de valores presentes correspondientes a fuentes diversas, como por ejemplo:
+- Desgravaciones impositivas por uso de pasivos frente a dividendos no deducibles a efectos del impuesto
+a las ganancias. Este valor presente, que se suma al primer término, se obtiene de la suma de
+desgravaciones anuales descontadas a una "tasa apropiada" (se ha sugerido la de costo de la deuda más
+algún adicional que se justifica en la incerteza asociada a la factibilidad real de que la desgravación
+pueda ser usufructuada debido a malos resultados operativos).
+- Subsidios por radicaciones en zonas prioritadas, destinos prioritarios, etcétera.
+- Costo de bancarrota (directo o indirecto según refiera a los incurridos en proceso de quiebra o a costos
+de contratación originados en la percepción del mayor riesgo implicado por parte de financistas,
+proveedores, clientes, etc.21)
+- Coberturas de riesgos para prevenir efectos desfavorables por causas de variables exógenas que generan
+variabilidad en resultados operativos, etcétera.
+Se puede obtener de esta forma una medida de riqueza incremental generada por una alternativa de
+inversión que surge de un proceso de agregación del valor creado por cada una de las decisiones sobre
+financiamiento consideradas por la empresa. Tal involucramiento de la voluntad respecto de sucesivas
+alternativas permite eludir la asimilación a situaciones generales que claramente no son pertinentes a las
+PyMEs (caso de la tasa única de descuento).
+b) consideración de la incertidumbre
+Si se remueve el supuesto de certidumbre perfecta, se comprueba la existencia de múltiples
+resultados posibles para las oportunidades de inversión que puedan considerarse. Con lo que una inversión
+dada puede generar n resultados posibles en función del escenario que prevalezca.
+Si tales resultados no pueden ser asociados a su respectiva probabilidad de ocurrencia, se dirá que
+existe un contexto de incertidumbre. Si, por el contrario, se les puede asociar una distribución de
+probabilidades, se dirá que el contexto es de riesgo.
+Ciertamente, en ámbito de los negocios es muchas veces difícil asignar probabilidades a los
+resultados futuros. Puede ser inadecuado pretender que el pasado informe sobre lo que está por ocurrir, más
+aún si las condiciones en las que aquéllos se pudieron dar difieren de las que servirán de contexto a las
+esperadas. El hombre cambia: tanto el que decide como los comprendidos en la función de demanda
+agregada.
+Así, se justifica la importancia reconocida al planteo de decisiones en ámbito de incertidumbre, sin
+dejar de apreciar la mayor precisión, contundencia y aparente rigor científico que suele asignársele al
+"Decisiones de inversión y financiamiento en el segmento de empresas medianas y pequeñas", en Rev. Administración
+de Empresas, N° 125, junio 1980.
+20 LUERHMAN, TIMOTHY A., "Using APV: a better tool for valuing operations", en Harvard Business Review,
+mayo-junio 1997, págs. 145-153.
+21 Para este punto, ver DAMODARAN, ASWATH, Corporate Finance, J. Wiley. Nueva York. 1997.
+21
+
+tratamiento en condiciones de riesgo o de asimilación a éste. Decimos aparente, pues se coincide con que las
+decisiones humanas no pueden reducirse a una estricta esperanza matemática, ya que no existirían, en
+general, las bases para cálculos de esta clase"22.
+Se pueden identificar dos maneras de considerar la incertidumbre en decisiones de inversión:
+a) a través de "métodos empíricos" (ver nota 19);
+b) aplicación de criterios23.
+Rápidamente expuestos, los procedimientos que caen en la primera categoría pueden ser
+identificados a través de los siguientes tres métodos:
+a) hipótesis extremas (o de tres M);
+b) análisis de sensibilidad;
+c) cambios en parámetros de evaluación, que se presentan a continuación pensando en su gran aplicabilidad
+en PyMEs.
+Las hipótesis extremas surgen al agregar a la hipótesis de base, o la única prevista con anterioridad
+(hipótesis media), una hipótesis optimista (o de máxima) y una pesimista (o de mínima). Tales escenarios
+pueden generar importantes diferencias en caso de proyectos a los que un estado de naturaleza dado impacta
+de manera diferente.
+Por ejemplo, en la fig. 6, en caso de escenario optimista, el proyecto A (agrícola) anticipa resultados
+muy superiores al proyecto G (ganadero), pero también recoge una mayor pérdida (medimos su rendimiento
+"r" respecto del estándar Ko) en caso de darse un escenario desfavorable. Un escenario medio exhibe
+resultados ligeramente superiores para el proyecto A.
+Este ejemplo posibilita ilustrar la relevancia de las cuestiones que se suscitan una vez que distintas
+hipótesis son concebidas y observadas:
+Figura 6.
+a) En caso de darse el escenario pesimista, ¿puede tolerar la empresa la pérdida implicada por la
+representada diferencia entre r y Ko? Si la respuesta es no, parecería obvio que ese proyecto no puede
+22 VAZQUEZ PRESEDO, V.. citado por CRESPO, op. cit. en nota (7), pág. 15.
+23 Una síntesis en ALONSO, ALDO H., "Planeamiento: una herramienta para la excelencia", VII Congreso
+Latinoamericano de Estrategia, SLADE, Córdoba, 1994 (también en Alta Gerencia).
+22
+
+ser acometido. No se ajusta a su situación presente, promoviendo la consideración de otra alternativa,
+otra versión del proyecto considerado o alguna combinación con otros proyectos,
+b) Aunque resultara tolerable la eventual pérdida asociada a un escenario pesimista, habría que ver cómo
+responde el decididor ante la cuantía del plus de rendimiento que determina el escenario optimista (surge
+de relacionar r y Ko correspondientes): ¿compensa el incremento en rendimiento el evidente aumento en
+la variabilidad de los resultados posibles correspondientes al escenario optimista versus el escenario
+pesimista?
+c) Ante dilemas como los esbozados, ¿no podría resultar atractiva al inversor una combinación de los
+proyectos o una limitación a impactos negativos, no obstante tener que soportar la disminución de
+rendimiento? Por ejemplo, podría resultar conveniente (de mayor valor) una alternativa que destine parte
+de la superficie al proyecto A y otra parte al proyecto G, o conviniendo con un contratista una parte
+variable del eventual rendimiento, o buscando un socio que permita soportar la ocurrencia del contexto
+desfavorable.
+En el caso del análisis de sensibilidad, finalmente, se busca detectar los cambios en resultados que se
+operarían ante determinados cambios porcentuales en las variables del proyecto, tal como se ilustra a través
+de la fig. 7 (cualquiera que asuma posibles distintos valores durante la vida del proyecto).
+Los resultados logrados pueden ser muy útiles, por ejemplo:
+a) Se conocen las variables cuyos cambios afectan en mayor medida el rendimiento del proyecto. Se conoce
+por su intermedio la sensibilidad con que responde el rendimiento a modificaciones en las variables que
+lo componen.
+Figura 7.
+b) A partir de tal conocimiento, queda para el análisis averiguar si tales cambios son en rigor verosímiles y,
+de serlo, si se operan en variables que admiten su control total o parcial. En efecto, un determinado
+comportamiento posible puede ser cubierto a través de compras o ventas anticipadas, de contratos
+forwards o de hedging vía futuros, opciones, cte., en versiones más sofisticadas.
+c) En este último caso, la pérdida operativa que se produciría por el anticipado cambio (desfavorable) en
+precios de insumos, por ejemplo, se compensaría con la ganancia que en mercados financieros se
+obtendría precisamente por haber apostado a tal comportamiento. Se compensan así ambos efectos (en la
+medida en que el número de contratos de futuros adquirido lo posibilite).
+La modificación de parámetros opera sobre términos fundamentales del modelo de evaluación (a
+través de flujos descontados) como la tasa de descuento y los flujos esperados, como se exhibe en la fig. 8.
+23
+
+Un procedimiento, el más empleado, es incrementar la tasa de descuento para evidenciar el mayor
+rendimiento que se requiere para compensar el mayor riesgo relativo de los proyectos. A este fin puede ser
+ilustrativa una elaboración referencial conio la que se comenta más abajo (fig. 10).
+El cuestionamiento de este procedimiento se basa en el "efecto interés compuesto" al que se asimila
+el comportamiento del riesgo, un supuesto cuestionable en muchos casos y más aún si los proyectos son de
+larga duración.
+Figura 8.
+Nace así el apoyo que algunos autores brindan al ajuste de los flujos en vez del incremento del factor
+de descuento. El mismo s e instrumenta por el coeficiente de equivalencia a la certeza (α), una determinación
+que surge de la relación entre rendimiento sin riesgo y rendimiento con riesgo del proyecto que se esté
+considerando necesario para permanecer en la misma curva de indiferencia. Por caso, puede resultar
+indiferente un rendimiento del 8% anual en un plazo fijo en instituciones de alta calificación, frente a un
+rendimiento esperado del 16% en un fondo de renta variable (ver fig. 9).
+Figura 9.
+En tal caso, un flujo de, digamos, $ 7,000 es ajustado por dicho valor de α, para quedar determinado
+un flujo periódico de $ 7.000 * 0,5 = $ 3.500, que será actualizado mediante una tasa de descuento
+equivalente al rendimiento pretendido en el caso libre de riesgo.
+La tabla a la que se aludiera más arriba para obtener valores de referencia para incrementos de la tasa
+de descuento (h) podría surgir al considerar que la misma puede aumentar:
+(cid:131) Por la naturaleza de los proyectos, por ejemplo por referirse a alternativas:
+a) de reemplazo o reinversión;
+b) de incremento de actividad;
+c) de nuevos productos.
+(cid:131) Por pasar de proyectos incluidos en un sector a idénticos proyectos en otro sector, por ejemplo:
+a) sector ganadería bovina;
+24
+
+b) agricultura;
+c) agroindustria;
+por citar casos en los que puede resultar sencillo imaginar el posible comportamiento de la variabilidad de
+los resultados posibles (se ilustra a través de la fig. 10).
+Sector Proy. Reemplazo ΔCapacidad Nuevo producto
+Ganadería 8% 15% 25%
+Agricultura 12% 18% 30%
+Agroindustria 20% 28% 40%
+Figura 10
+Se ha supuesto que el decididor, basado en resultados pasados y su correspondiente experiencia,
+interpreta que el rendimiento mínimo que pretendería para aceptar un proyecto de reemplazo (el tipo de
+inversión menos riesgoso) en el mismo sector ganadería debería superar en un 8% a la referencia del
+proyecto sin riesgo de un depósito renovable en iguales condiciones en un banco de primera línea. Tal
+pretensión aumentaría con incrementos del 15 y 25% si se tratara de proyectos de incremento de la capacidad
+operativa y de nuevo producto, respectivamente, si permanece en el mismo sector.
+En caso de proyectos de reemplazo, pero en sectores distintos al de ganadería, la pretensión de
+rendimientos crecería sobre el libre de riesgo en un 12 o un 20 % tratándose de proyectos en sector agrícola o
+agroindustria, respectivamente, siendo similar la interpretación para las demás combinaciones expuestas en
+la fig. 10.
+Hasta aquí, hemos considerado que no se dispone de probabilidades de ocurrencia de los escenarios
+anticipados en cada caso, probablemente la situación que en muchos casos corresponde entender como la que
+mejor expresa la realidad del hombre de negocios, enfrentado a un mundo en cambio permanente, con
+resultados que dependen del comportamiento desconocido de múltiples variables, con interrelaciones
+también indeterminables al presente.
+Si la manifestación de incerteza se presentara de manera tal que además de la cuantificación precisa
+de los resultados posibles (asumido un determinado contexto o estado de naturaleza) se contara con la
+respectiva probabilidad de ocurrencia, se estarían dando las condiciones que determinan un contexto de
+riesgo (al que referirá un apartado posterior).
+4. NECESIDADES DE CAPITAL DE TRABAJO Y SU FINANCIAMIENTO
+4,1. PRESENTACIÓN DE PROBLEMAS
+El gap tecnológico que reconoce la PyME media respecto de tecnologías administrativas y en
+particular las referidas a fundamentos, técnicas y mecánicas propios de las finanzas empresariales, se hace
+evidente cuando se refiere a inversiones en activos corrientes y su financiamiento.
+El tema merece ciertas aclaraciones preliminares. Por ejemplo:
+a) La decisión de inversión del modelo clásico refiere al total de los activos requeridos desde
+disponibilidades a las más definidas y prolongadas inmovilizaciones; las decisiones de financiamiento, a
+la totalidad del financiamiento requerido por el activo total, por tanto comprende desde el provisto por
+proveedores (si esta fuente reconoce permanencia) hasta el obtenido por emisión de capital propio,
+pasando por un amplio menú de fuentes diversas (bancarias, financieras, y aun las fiscales y
+previsionales sujetas a la condición de permanencia antes aludida).
+De ello cabe deducir que la consideración por separado de necesidades (usos) de capital de giro y de
+consecuente financiamiento debe referir, necesariamente, a requerimientos incrementales y a su
+correspondiente necesidad de fondeo.
+b) Estas inversiones incrementales y las implicadas fuentes de financiamiento adicionales deben entenderse
+marginales también en sentido de una limitada magnitud. En tal caso, se las podrá entender habilitadas
+25
+
+por una optimización-rango más bien que optimización-punto de las mezclas estratégicamente definidas
+y seleccionadas tanto de activos como de fuentes de financiamiento (fundamentalmente de éstas, pues
+respecto de activos es la inmovilización el aspecto que debe generar los mayores interrogantes).
+c) La necesidad de estas aclaraciones resulta, sin embargo, demasiado pretenciosa en un ámbito PyME
+como el exhibido en tantos trabajos de investigación aplicada. En estas empresas, la optimización de
+mezclas según pautas del modelo clásico de maximización constituiría, en todo caso, una excepción. La
+adquisición de un torno, de un camión, o un tractor gracias al financiamiento provisto por el proveedor
+que se limita a prendar el bien como condición del mismo define una problemática horizontal en el
+cuadro patrimonial, es decir, entre el destino y la fuente de recursos específicos que lo financia. Este
+planteo se impone al de optimización de relaciones verticales de mezcla de activos y de mezclas de
+fuentes de financiamiento, para no limitarnos al caso puntual de decisiones prácticamente atadas de
+inversión-financiamiento.
+d) Se fundamenta así el planteo de la necesidad de decidir en condiciones apartadas, por cierto, de las
+definidas teóricamente por un modelo que en el mejor (te los casos es evocado, pero no practicado.
+La evocación aludida estaría representada, respecto del capital de trabajo, por la condición impuesta
+a toda inversión en activos corrientes de cotejar rendimientos esperados con el costo de su financiación si se
+pretenden determinar impactos respecto del objetivo empresario de maximizar el valor presente del capital
+propio invertido.
+En ámbito de las PyMEs, decisiones como las de aceptar el plan de pagos propuesto por un cliente o
+el financiamiento concedido por un proveedor de acatar períodos de reaprovisionamiento de inventarios o el
+acuerdo de condiciones generales de venta suelen adoptarse en función de variables de muy ambigua
+relación con aquel objetivo normativo (no operativo).
+Por lo tanto, es del caso señalar con las anteriores puntualizaciones in mente, la conveniencia de
+atender el objetivo normativo a través de medidas convergentes con aquél.
+Este planteo24 difiere del más tradicional, que apuntaba a la optimización de cada rubro,
+determinando pautas para la cuestión capaces de satisfacer tal objetivo parcial, útil, por cuanto posibilita
+detectar ineficiencias en la gestión de cada rubro, pero que no debe llegar a prevalecer, pues inhibiría la
+optimización sistémica de la gestión del capital de giro (el óptimo de las partes no desemboca
+necesariamente en el óptimo del conjunto).
+4,2. PROPUESTA
+La empresa que pretende conocer el resultado en términos financieros de decisiones que impliquen
+inversiones incrementales en activos corrientes (caso de cambios en condiciones de venta, políticas de
+gestión de disponibilidades o de inventarios, etc.) debe determinar el producido o rendimiento de las
+implicadas inmovilizaciones incrementales y el costo de financiarlas, un cálculo imprescindible, aunque el
+objetivo perseguido por las decisiones pueda estar referido a otras metas (que de todas formas deben
+adoptarse con cabal conocimiento de sus efectos financieros).
+Por lo tanto, la decisión surgirá conveniente toda vez que,
+r ≥k
+A su vez, la determinación de r se resuelve mediante
+Δ en contibución marginal total
+r =
+Δ en Capital de Trabajo Neto
+24 Se puede ver PASCALE, RICARDO, Decisiones financieras, Ediciones Macchi. Buenos, Aires, 3ra ed., 1998.
+26
+
+El cálculo del Δ en contribución marginal total resulta de estimar las unidades incrementales que el
+cambio de las condiciones permite anticipar, multiplicado por la diferencia entre el precio y los costos
+variables unitarios, esto es:
+CMgT = CMg unit * Δ en Ventas físicas
+donde:
+CMgT = Contribución Marginal Total
+CMg unit = Contribución Marginal Unitaria
+El cálculo del Δ en Capital de Trabajo Neto no se estima tan sencillamente. En efecto, está influido
+por decisiones sobre niveles deseados de liquidez, por condiciones de venta, por magnitud del stock de
+materias primas y productos terminados que se crea conveniente mantener, por condiciones ofrecidas por los
+proveedores, etcétera.
+Naturalmente, las ventas a crédito no generan efectivo al instante de su concreción. Las necesidades
+financieras, en cambio, aparecen más temprano, por lo general ocurren ya desde el momento en que deben
+pagarse las materias primas, los sueldos, gastos de fábrica, etcétera.
+Y transcurre un tiempo hasta que se completa el recupero de tales activos en forma de dinero. Tal
+demanda de financiamiento se ve modificada por el importe y plazo otorgados por los proveedores. La
+diferencia constituye el capital de trabajo neto demandado por el giro comercial a determinado nivel de
+operaciones. Se lo dimensional a partir de la suma algebraica de requerimientos (adicionales) en concepto de
+materias primas, disponibilidad de productos terminados (inventarios), cuentas a cobrar (clientes) y
+generación automática de financiamiento, caso de proveedores, cuentas fiscales y previsionales, etcétera.
+CTN =∑∈−∑γ
+i x
+donde:
+ε1 = Disponibilidades
+ε2 = Cuentas de clientes
+ε 3 = Materias Primas
+ε4 = Producción en Proceso
+ε5 = Productos Terminados
+γ1 = Proveedores
+γ2 = Cuentas fiscales-previsionales
+Tal sumatoria exige que se manejen unidades homogéneas, lo que se consigue a través de una
+referencia común: días de venta (de ingresos por ventas, en realidad).
+Para cada variable considerada (clientes, inventarios de materias primas o productos terminados y
+proveedores) el requerimiento financiero (o generación de fondos en caso de proveedores) queda
+determinado por la consideración conjunta de los días que se posterga la conversión del rubro en efectivo
+(ciclo del activo respectivo) y los recursos financieros demandados por tales días del ciclo. El procedimiento,
+tan conocido en ámbitos académico-profesionales como ignorado en la gestión de PyMEs, merece, por esta
+razón, ser incluido en la presente reseña de modelos aplicables en este ámbito.
+Cuentas a Cobrar (clientes)
+1. Cálculo del ciclo o período medio de cobranza: imaginemos que son 35 los días que en promedio
+requieren ser financiados toda vez que se vende en las condiciones de venta financiada (mitad al contado y
+mitad a 60 días). La cuantificación surge de dos procedimientos posibles:
+27
+
+a) estimación: se ha estimado que los cobros podrían tener un desvío desfavorable de 5 días respecto de los
+30 que en promedio resultan de percibir 50 % al contado y 50 % a treinta días en cada venta financiada;
+b) datos contables: un saldo medio de $ 100 cuando se venden $ 500 en el año implica para aquél una
+rotación igual a 5 (cinco veces en el año). El cociente entre los días del año (360) y la rotación del activo
+en cuestión determina el ciclo o días de espera que las ventas a crédito implican para recuperar su
+importe en efectivo. En nuestro caso pudo ser:
+360 360
+Cc= = =72
+( )
+Rotación 500.000/20.000
+donde:
+Cc = Ciclo de Clientes
+Rotación = Total anual de ventas a crédito/ Saldo Mensual Medio de Cuentas a Cobrar.
+2. Requerimientos financieros: los expresaremos en términos de "días de ingresos por ventas" (sería mejor
+ingreso medio diario por ventas). Si las ventas a crédito constituyen el 60% de las ventas totales, tendríamos
+un ingreso medio diario por cobro de ventas a crédito equivalente a:
+⎛Ventas a Crédito Ventas Totales⎞
+Ic =Cc⎜ ∗ ⎟ =
+⎝ Ventas Totales 360 ⎠
+0,60 ∗ Ingreso Medio Diario por Ventas Totales
+donde
+Ic = Inmovilización por ciclo de clientes.
+Considerando exclusivamente la inmovilización originada por este ítem, se entiende que este
+requerimiento financiero crecerá en relación directa con las Ventas Totales toda vez que se mantengan
+iguales los demás términos que la afectan, caso de la duración del ciclo, relación ventas totales/ventas a
+crédito, precio, etcétera.
+Inventarios (productos terminados o mercaderías de reventa)
+1. Cálculo del cielo o período medio de conversión en dinero: siguiendo el mismo procedimiento comentado
+para el caso de las Cuentas a Cobrar. se procede a calcular el cielo correspondiente a Inventarios (término
+medio en días que los productos terminados o mercaderías de reventa permanecen en ese rubro):
+360 360
+Ci = = = 20 días
+Rotación Costo deVentas/saldomediomensualdeInversiones
+Estos 20 días de demora en convertirse en dinero o en cuentas a cobrar podrían indicar para la
+empresa una oportunidad para mejorar la competitividad toda vez que se entienda posible reducirlos por
+reposiciones más frecuentes, por procesos más eficientes, etc. El paradigma al respecto es, resulta obvio, el
+"just in time".
+2. Requerimientos financieros: en este caso, tendremos que respetar que el costo diario promedio de la
+mercadería vendida puede ser el 70% de las Ventas Totales, por lo que la inversión media en este ítem se
+aproximará a través de:
+28
+
+⎛Costo de Ventas Ventas Totales⎞
+Ii=Ci⎜ ∗ ⎟=
+⎝ Ventas Totales 360 ⎠
+0,70 ∗ Venta media Diaria
+donde:
+Ii = Inmovilización por ciclo de inventarios.
+Productos en Proceso (producción)
+Con interpretaciones que básicamente reiteran los párrafos precedentes, podemos proceder
+directamente al cálculo de los requerimientos financieros, para lo cual:
+⎛Costo de Producción Ventas Totales⎞
+Ip=Ci⎜ ∗ ⎟=
+⎝ Ventas Totales 360 ⎠
+0,70 ∗ Venta Media Diaria
+donde:
+Ip = Inmovilización por ciclo de productos terminados.
+Materias Primos
+Igualmente, podemos proceder directamente al cálculo de los requerimientos financieros originados
+en el stock de materias primas o materiales, para lo cual:
+⎛Costo Medio de M. Primas Ventas Totales⎞
+Im=Cm⎜ ∗ ⎟=
+⎝ Ventas Totales 360 ⎠
+0,70 ∗ Venta Media Diaria =
+donde:
+Im = Inmovilización por ciclo de materias primas.
+Proveedores (deuda)
+En este caso, el saldo de deudas con proveedores constituye una fuente en vez de un uso de fondos.
+Portal razón, posibilita una reducción de los montos definanciamiento requeridos por la suma de usos o
+inmovilizaciones de fondos en activos corrientes.
+Con interpretaciones que básicamente reiteran los párrafos precedentes, podemos proceder
+directamente al cálculo de los recursos financieros provistos por esta fuente, para lo cual:
+⎛Saldo Mensual Medio de Proveedores Ventas Totales⎞
+Id=Cd⎜ ∗ ⎟=
+⎝ Ventas Totales 360 ⎠
+0,70 ∗ Venta Media Diaria =
+29
+
+donde:
+Id = Ingreso generado por el ciclo de proveedores.
+Se podrían adicionar al cálculo otras fuentes automáticas de financiamiento, por ejemplo deudas
+fiscales (ligada directamente al nivel de producción y ventas).
+4,3. SUGERENCIAS
+Dado el marco provisto por el enfoque de variable única (CTN) aplicado al capital de trabajo, es
+pertinente ahora explicitar las contribuciones al mejoramiento de la gestión de corto plazo que pueden lograr
+las PyMEs (como cualquier otra empresa) teniendo como referencia el otro enfoque disponible a tal efecto:
+el de rubro por rubro.
+A condición de no vulnerar la visión proporcionada por el enfoque sistémico y global de estas
+decisiones, el análisis particular de cada rubro posibilita detectar oportunidades de mejoras competitivas a
+partir de la observancia de pautas y procedimientos que la teoría y la práctica financiera disponen para la
+gestión eficiente de cada uno de los rubros correspondientes al activo y al pasivo corrientes.
+a) En términos generales, respecto de activos corrientes, es emblemática la inobservancia de criterios
+tendientes a la optimización de stocks, en particular disponibilidades, cuentas por cobrar, materias
+primas y productos terminados. Algunas sugerencias a título de ejemplos, son:
+- Disponibilidades: trabajar consistentemente con cuadro de ingresos y egresos proyectados, con períodos
+anuales para planificaciones de largo plazo, mensuales para el ejercicio anual y combinaciones de
+diarios, quincenales y mensuales para el corto plazo propio del day to day de tesorería; convenir cuentas
+recaudadoras con bancos para acortar plazos de conversión en disponibilidades; definir la cuantía
+apropiada de cuentas corrientes bancarias (regularmente más que una, pero menos que muchas...);
+establecer días de pago y atención a proveedores para buscar el equilibrio de la relación ingresos-
+egresos, el mejor cumplimiento de normas de control interno, mejor empleo del tiempo, etcétera.
+- Cuentas a cobrar: definición precisa de las condiciones que avalan el otorgamiento de créditos y el
+cumplimiento efectivo del procedimiento aplicable (disposición de antecedentes, referencias de sistemas
+de alerta e información de deudores [Dun y Bradstreet, Alerta], recurso a un dictamen tercerizado, etc.).
+Igualmente, cumplimiento estricto del seguimiento del pago de deudas, comunicación de
+incumplimientos desde el día mismo en que se producen para no dar imagen de ineficiencia además del
+perjuicio financiero, etcétera.
+- Inventarios: control permanente del inventario, eliminando causales de sobrestock, definición de puntos
+de pedido (reposición) tan frecuentes como el análisis costo-beneficio lo aconseje, estudio de
+posibilidades de almacenes comunes (parciales o totales).
+b) También es prototípico el recurso permanente a fuentes extraordinarias normalmente circunstanciales de
+financiamiento, como el caso de proveedores y descubierto bancario, a lo que se suman también ciertas
+operaciones con fuentes irregulares de alto costo.
+Por ejemplo, es prácticamente desconocido el cálculo requerido por la determinación del costo
+implícito en el financiamiento de proveedores, para cuyo cálculo es necesario que se explicite el precio
+correspondiente a pagos contado y los días durante los cuales puede usufructuarse tal ventaja. Con tales
+datos, supuesta una factura por $ 500 que reconozca un descuento del 10 % en pagos concretados en los
+primeros diez días de una factura con vencimiento a 50 días fecha factura, se tendría:
+D 360 50 360
+Cp= ∗ ∗100= ∗ ∗100=100%
+C T 450 40
+30
+
+Se trata de un costo que supera claramente hasta el de un descubierto bancario que, también
+claramente, dista de constituir una fuente aconsejable, sobre todo cuando las condiciones de liquidez de la
+empresa determinan una inconveniente recurrencia.
+En condiciones como las implicadas en comentarios precedentes, la aceptación de plazos de venta,
+de ofertas especiales de proveedores- viajantes que tientan adquisiciones de mayor cuantía entre otras
+frecuentes situaciones, requeriría una consideración mucho más detenida y decisiones más cautelosas.
+En muchos casos, lo que se necesita es una estructura de vencimientos de compromisos más acorde
+con la capacidad generadora de liquidez de las empresas, según puede aconsejarlo un cash-flow proyectado.
+En estos casos, no deberían desatenderse innovaciones operacionales e instrumentales que pueden aportar
+beneficios, como, por ejemplo, las obligaciones negociables en condiciones especiales para PyMEs (por caso
+no tener que calificar, ya que esto se exige al inversor), la contribución de sociedades de garantía recíproca
+para mejorar la calificación crediticia, etcétera.
+Cálculos y sugerencias como los precedentes, en conocimiento de los responsables de las decisiones
+en PyMEs, han despertado en muchos casos la motivación necesaria para incorporar conocimientos y
+familiarización con aplicaciones de técnicas y procedimientos fundamentales para racionalizar decisiones.
+En general, la necesidad de mejorar rutinas que resuman elecciones alineadas con el objetivo formal
+o sus subrogantes en PyME es evidente. Un desafío que reclama la aceptación de principios y
+procedimientos como los antes referidos.
+Para evitar sospechas de excesiva complejidad, debe quedar en claro que no es imprescindible la
+fuente histórica representada por estados contables para instrumentar estos modelos. Por ejemplo, la rotación
+igual a 6 veces que surge de ventas por $ 120.000 en relación con un stock medio de $ 20.000 es
+exactamente el mismo resultado que se obtiene al vincular ventas por $ 120.000 con condiciones de venta
+fijadas políticamente con plazo de pago de 60 días (dos meses "en la calle" representan el promedio mensual
+de ventas multiplicado por dos, esto es 20.000).
+5. PLANIFICACIÓN Y CONTROL FINANCIERO.
+TRATAMIENTO DEL RIESGO
+5,1. PRESENTACIÓN DE PROBLEMAS
+El análisis del riesgo asumido por las empresas aparece vinculado a dos fuentes bien diferenciadas:
+a) decisiones estratégicas de inversión y financiamiento;
+b) control de riesgos comerciales y financieros de operaciones corrientes.
+En el primer caso, cabe distinguir situaciones vinculadas al grado de apalancamiento operativo de las
+asociadas al apalancamiento financiero.
+Respecto del apalancamiento operativo, la magnitud de los apartamientos de los resultados
+operativos esperados respecto de cifras de ventas es influida directamente por la participación de los costos
+fijos en la estructura de costos totales de producción, los cuales alteran la medida del grado de palanca
+operativa (GPO) que se puede determinar para cualquier magnitud de operación y ventas.
+Siendo
+Δ % en UAIT
+GPO=
+Δ % en VENTAS
+Se podría esperar que el efecto riesgo producido por activos generadores de costos fijos fuera
+relativamente menor en PyMEs, dado que es reconocida la primacía de estrategias de diferenciación frente a
+las de liderazgo en costos (competitividad basada en bajos costos de producción que posibilitan bajos precios
+de venta) en este segmento de empresas, como asimismo de concomitantes preeminencias de tecnologías
+trabajo-intensivas frente a las capital-intensivas.
+31
+
+No obstante esto, particulares orientaciones de empresarios PyME, por lo general producto-
+orientados, generan frecuentemente estructuras con alta participación de activos fijos, con muy bajo
+aprovechamiento de ventajas derivadas de tercerizaciones o de acuerdos de cooperación capaces de diluir
+efectos negativos motivados por caídas en los niveles de actividad.
+Precisamente, las debilidades en materia estratégica, que también constituyen una nota característica
+en PyMEs juntamente con marcadas carencias de flexibilidad y adaptabilidad ante cambiantes condiciones
+contextuales, han colocado a este segmento empresarial en una generalizada situación de exceso en sus
+estructuras operativas por bajas producidas en el nivel de actividad (por debilidades competitivas frente a
+productos importados o frente a empresas mejor posicionadas en el nuevo marco competitivo).
+En este contexto, la observancia más precisa de fundamentos y de instrumentos propios de la función
+financiera propiciaría compromisos a favor de reestructuraciones o de acuerdos/alianzas que contribuyan a
+minimizar impactos de inmovilizaciones o el aseguramiento de niveles de actividad y ventas compatibles con
+dichas estructuras. Además, asegurar la adecuación de tales estructuras con el escenario prevaleciente.
+De manera similar, en el caso de apalancamiento financiero, la variabilidad de las utilidades por
+acción, dado cierto nivel de UAIT, es función de la participación de fuentes de financiamiento de costo fijo
+(deudas) en la estructura de financiamiento total.
+También, a este respecto, se observa un exagerado impacto de fuentes de financiamiento de costo
+fijo debido a muy elevadas participaciones del endeudamiento en la mezcla total, a muy elevadas tasas
+pagadas por magnitudes regulares de tales fuentes, o a ambas situaciones conjuntamente (sobre todo cuando
+coexisten con caídas en las UAIT esperadas).
+Respecto de b) (control de riesgos comerciales y financieros de operaciones corrientes), asumiendo
+como dadas las estructuras patrimoniales, son decisiones sobre condiciones de ventas (que alteran las ventas
+esperadas) o sobre políticas de capital de trabajo con sesgo rentabilidad o sesgo liquidez, las que adicionan o
+disminuyen la variabilidad de resultados respecto de los valores esperados tratándose de variables
+controlables por parte de la empresa. Deben adicionarse, asimismo, los efectos de variables ajenas a su
+control, que pueden modificar sus valores y, por lo tanto, afectar la variabilidad de resultados operativos y/o
+residuales dadas ciertas estructuras patrimoniales del activo y de financiamiento.
+5,2. PROPUESTA
+a) Estructuras de activos y de financiamiento. Riesgo implícito
+Respecto de estas cuestiones, la aplicación de modelos financieros hace imperativo el mejoramiento
+de la aptitud empresarial orientada a la flexibilización de las estructuras de activos y de financiamiento,
+además de la obtención de mejores condiciones para éste. A estos efectos, el mejoramiento del sistema de
+información para identificar alternativas y medir el mérito relativo de las mismas, como asimismo el
+perfeccionamiento del reporting a bancos u otras fuentes de financiación surgen como los compromisos de
+más urgente aceptación.
+Las PyMEs no cuentan, por lo general, con facilidades que benefician a otras organizaciones pero no
+se descartan alternativas que viabilizan resultados en idéntica dirección, por caso:
+a) Los acuerdos de cooperación posibilitan beneficios que no desprecian las organizaciones de mayor
+dimensión y especialización funcional a las que acceden vía tercerizaciones (outsourcing), M & A
+(fusiones y adquisiciones), cte. Así, por caso, los modelos financieros posibilitan dimensionar beneficios
+y costos en términos de flujos financieros además de económicos que derivan de compras en común, de
+mantenimiento de stocks de poca movilidad también de manera común, del uso común de ciertos activos
+(medios de movilidad, instalaciones como corrales y mangas en explotaciones agropecuarias),
+dotaciones de mantenimiento de equipos e instalaciones, ciertas funciones relativas a áreas como
+finanzas y control, contabilidad, asesoría jurídica, cte., que también son susceptibles de tercerizarse y
+disponer conjuntamente como medio de difusión de los costos fijos implicados, etcétera.
+b) La extrema variabilidad de flujos también puede controlarse total o parcialmente en PyMEs. Contratos
+forwards o futuros y opciones posibilitan disminuir, si no eliminar, impactos desfavorables vía caps,
+floors, collars como asimismo la adquisición de contratos que al ejercerse posibiliten beneficios
+financieros capaces de anular el resultado operativo negativo que puede generar una desfavorable
+evolución de precios de materias primas o productos destinados a la venta.
+32
+
+c) Ciertamente, la reconversión de activos que pueda decidirse se debe acompañar del equivalente análisis
+y decisiones del lado del financiamiento, en particular para evitar el tremendo impacto desfavorable de
+financiamientos irregulares o al menos inconvenientes. La existencia de sociedades de garantía
+recíproca, por ejemplo, facilita operaciones que bien pueden orientarse al mejoramiento del
+financiamiento por cambios en condiciones de costo, tiempo, riesgo y flexibilidad.
+Los efectos que derivan de las mezclas de inversión y de financiamiento merecen que, aunque
+sucintamente, se identifiquen algunas herramientas y modelos que posibiliten una explícita consideración de
+la incerteza, esto es que en vez de considerarse sólo un resultado se acepte la posibilidad de diferentes
+resultados. En caso de que a tales diferentes resultados (pueden ser valores centrales de rangos que se
+consideran representativos de situaciones muy buenas, regulares y malas, por ejemplo) puedan asociarse las
+respectivas probabilidades de ocurrencia, se está en un contexto denominado de riesgo. Si no es posible
+contar con tales probabilidades (por requerirse investigaciones adicionales, por dudas en su procedencia ante
+situaciones que no son repetitivas en un medio que no se modifica, cte.), se está en presencia de
+incertidumbre.
+En una primera instancia, el análisis C-V-U (Costo-Volumen-Utilidades) puede dimensionar
+impactos en la UAIT (utilidad operativa) ante diferentes resultados posibles representativos de escenarios
+calificables como muy bueno, regular y malo que se identifican por sendos puntos en la abscisa que contiene
+la escala de valores correspondientes a diferentes valores de producción y ventas (Qi).
+Si las condiciones se presentaran muy buenas, con un alto nivel de ventas se obtendrá un alto nivel
+de UAIT, que obviamente puede ser cuantificado; pueden determinarse también las magnitudes de UAIT que
+se darían ante escenarios regular y malo, para apreciar por su intermedio la relación directa entre incrementos
+del rango de variabilidad de los resultados posibles y la participación de costos fijos en la estructura de
+costos.
+Si bien la inobservancia de probabilidades constituye una sensible limitación es muy importante en
+una PyME anticipar los resultados que derivarían, de diferentes escenarios respecto de ventas cuando se
+proyectan respecto de diferentes estructuras de costos, caso de las empresas A y B en las figs. 11,a) y 11,b)
+En estos casos, se observa que la empresa representada en 11,a) accede al beneficio del mayor
+apalancamiento en un grado superior a la empresa reflejada en 11,b) toda vez que el nivel de operación
+exceda el break-even point (Qo), dado que a partir de éste, los costos totales adicionales están representados
+sólo por los costos variables, siendo éstos más bajos cuando la tecnología es capital-intensiva.
+La mayor contribución marginal en tal caso queda evidenciada por la zona sombreada inscripta en él
+círculo que permite localizar la atención en la parte relevante de la representación (se la determina trazando
+una paralela al eje de la abscisa a partir del punto que define la total cobertura de los costos fijos).
+Figura 11,a). Figura 11,b).
+Cuando a los resultados posibles es viable asociar su respectiva probabilidad de ocurrencia, es
+factible un paso adicional en beneficio de decisiones basadas en la relación utilidad-riesgo dado el
+generalmente aceptado comportamiento asimétrico de los decididores ante diferentes combinaciones de tales
+elementos (curvas de indiferencia con pendientes diferentes para decididores que sólo coincidirían en sus
+elecciones en ausencia total de riesgo).
+Por ejemplo, suponiendo que la variable aleatoria es ventas, se puede obtener el valor esperado de
+ventas (sumatoria de los productos "ventas posibles por su respectiva probabilidad de ocurrencia"), el desvío
+33
+
+estándar como promedio de los apartamientos posibles respecto de la E(V) y, por ejemplo, la probabilidad de
+no superar un determinado nivel de ventas.
+En primer término, dada la problemática que se viene presentando, puede ser de interés determinar el
+nivel de ventas necesario (tal sería la incógnita) para que los ingresos totales igualen a los costos totales (It =
+Ct). Siendo:
+Precio $ 3.000, Costos Fijos $ 5,8 millones y el Costo Variable Unitario =$1.750, se tendría un nivel
+de Ventas (físicas) de equilibrio dado por:
+Costos Fijos 5.800.000
+Qo= = =4.640 unidades
+Precio - Cvu 3.000−1.750
+Si adicionalmente se acepta que:
+a) ventas es variable aleatoria (en el ejemplo, única);
+b) su distribución de probabilidades es adecuadamente expresada por la distribución. normal;
+c) el Valor Esperado de Ventas (Q) pueda ser de 5.000 unidades;
+d) por estimaciones subjetivas pueda también calcularse que la probabilidad de ventas en el intervalo 4.600-
+5.400 es de aproximadamente 2/3 o 66,7 %,
+Quedará determinado que:
+a) el desvío estándar esperado (σq) es igual a 400 unidades;
+b) la probabilidad de ventas superiores al punto de equilibrio (4.640 unidades) y/o ventas inferiores a 4.640
+unidades (su complemento respecto de la unidad) es determinable:
+P (Q < 4.640) = 1 – P (Q > 4.640)
+Por lo tanto, de la superposición de tal distribución al modelo CVU puede obtenerse, por ejemplo, la
+esperanza de alcanzar utilidades (dada una esperanza de ventas de 5.000 unidades):
+Siendo U = Q * (P - V) - CF
+resulta por propiedad de la esperanza:
+E [U]= E [(Q) (P - V) - CF]
+E [U] = E [Q] (P - V) - CF
+y por lo tanto:
+= 5.000 (3.000 - 1.750) - 5.800.000
+= 450.000
+donde:
+E [U] = esperanza de utilidades.
+De manera similar, el desvío estándar se obtiene por:
+σ[U] = σ (Q) * CMg = 400 * $ 1.250 = 500.000
+En síntesis, en condiciones de incertidumbre, la empresa podrá anticipar los efectos que se darían en
+caso de ventas a tal o cual nivel. Si cuenta con información adicional suficiente, a través de la pertinente
+34
+
+distribución de probabilidades, podrá estimar además cuán probable resulta alcanzar el punto de equilibrio,
+un determinado nivel de utilidades, etc., datos de gran valor cuando se pretende decidir sobre mezclas
+óptimas de activos (generadores de costos fijos o variables) y lo mismo de mezclas óptimas de
+financiamiento (relación de fuentes de costos fijos o variables).
+La mera anticipación de efectos posibles ante escenarios variables coloca al decididor en una
+disyuntiva muy diferente a la que enfrenta en caso de atender la hipótesis única del resultado medio (el caso
+más reiterado en la realidad). Decisiones coherentes con tales resultados en función de impactos en su
+patrimonio y su propia función de utilidad pueden evitar posteriores sorpresas de imprevisibles
+consecuencias, que en el segmento PyME se traducen lamentablemente en una típica tasa de mortalidad muy
+elevada (8 al 16 % en países de la OCDE y sólo un 20 % del total de nacimientos que sobreviven al cabo de
+10 años)25.
+b) Presupuestos a tres niveles y probabilísticos
+Puede suponerse aceptado que un empresario no puede pretender decisiones en un ámbito de certeza
+(un solo resultado posible). Pero llamativamente, una mayoría de empresas (no sólo PyMEs), programan su
+acción atendiendo una sola hipótesis de ventas, de rendimientos por hectárea o de compradores entre quienes
+respondieron a un reclame. Esto es ignorar la variabilidad de las ventas y, por su intermedio, la variabilidad
+de los resultados posibles.
+Para tomar en cuenta este aspecto, una posibilidad con muchos adeptos es la de considerar tres
+escenarios considerados, por ejemplo: excelente, bueno-regular, malo. En este caso, se obtendrían tres
+diferentes niveles de resultados, corno se exhibe en la fig. 12.
+Una primera etapa puede aceptar condiciones de incertidumbre, en cuyo caso el decididor se enfrenta
+a tres resultados que, siendo todos posibles, pueden desconcertar por dar igual peso a resultados muy
+extraños que a otros de característica regularidad.
+Al interpretar tales resultados, se podrá pensar que las cifras de ventas referidas a los tres escenarios
+son promedios de las cifras que se asociaron a performances respectivamente "muy buenas" (3 años en los
+últimos 10), "buenas-regulares" (5 años en igual lapso) y "malas" (2 años).
+Se tendría en tal caso de incertidumbre la siguiente síntesis de ventas y correspondientes utilidades:
+Hipótesis
+Concepto
+Pesimista Media Optimista
+Ventas (unidades) 3.200 4.000 4.400
+Utilidad 481 800 1.025,5
+En este caso, el decididor descubrirá su propia actitud frente a la incertidumbre a partir de su
+reacción ante los diferentes resultados posibles que enfrenta.
+También podría resolver la misma situación de manera más indirecta a través de la adhesión a otros
+procedimientos propios del contexto de incertidumbre. por ejemplo los criterios predefinidos sugeridos por
+WALD, HURWICKS, SAVAGE o LAPLACE26.
+Alternativamente, se puede seguir el procedimiento PERT. que traduce una actitud muy difundida.
+Según este criterio27, la decisión se basa en una versión particular de "valor esperado" [E’(U)] que se obtiene
+por promedio simple de tres resultados posibles ponderados de acuerdo con la siguiente expresión:
+E’ (U) = 1/3 [2m + 1/2 (Op + Pe)] =
+= 1/3 (1.600 + 1.506,5/2) =
+= 784.417 u.m.
+25 FIEL, op. cit. en nota (4), pág. 15, 1996.
+26 Los hemos comentado brevemente en el trabajo citado en nota (23).
+27 Tal "esperanza" refiere a una distribución Beta. Para obtener la respectiva ley de distribución se supone, de acuerdo
+con la ley uniforme, que σ = 1 / 6 (b - a). Así se posibilita un sistema de ecuaciones del cual se despeja el valor E(t) =
+(a + 4m + b) / 6, donde a = tiempo optimista (mínimo), m = tiempo más probable, como más frecuentemente requerido
+para completar normalmente una actividad, y b = tiempo máximo admitido para realizar la tarea. El tema puede verse
+en autores como MARIN, I., (La programación lineal en el proceso de decisión, Ediciones Macchi. 1977) e IVAN
+OBREGON SANIN, (Teoría de la probabilidad, Editorial Limusa, México, 1977).
+35
+
+Como se aprecia, este método propone un peso doble para la hipótesis que traduce las observaciones
+más reiteradas (se asocia al estadístico moda) y suma la mitad de los resultados extremos para obtener un
+"valor esperado" por promedio simple de tales valores ponderados.
+Respecto de la variabilidad de los resultados, un aspecto que todo promedio esconde, la expresión
+PERT para su medición asume que las hipótesis extremas se apartan de E' en seis "desvíos". Tal variabilidad
+(D’) sería entonces:
+D’= (Op - Pe) /6
+= (1.025,5 - 481) / 6
+= 90,75 u.m.
+Si bien nuevas circunstancias podrían hacer que las frecuencias observadas en años anteriores (que
+propiciarían un procedimiento como el referido) nada tengan que ver con la probabilidad de que se reiteren
+en el futuro, es cierto que son muchos los que aceptan que la información histórica tiene valor al intentar
+anticipar el futuro. En este caso, el decididor podría considerar que las frecuencias de observaciones en el
+pasado, eventualmente con algún ajuste por cambio tecnológico o la aplicación de técnicas de coberturas
+diversas (hedging), son razonables aproximaciones a las probabilidades de ocurrencia futura.
+En este caso, dadas las frecuencias que se anticiparon, se asignarán probabilidades de 0,20; 0.50 y
+0,30 a las cifras de ventas correspondientes a escenarios muy bueno, y malo, respectivamente, de acuerdo
+con un procedimiento subjetivamente elegido. Se podrá entonces obtener el árbol probabilístico de la fig. 13,
+con un resultado esperado de 845,2 u.m., una variabilidad expresada por el desvío estándar de 170,99, y un
+coeficiente de variabilidad de 20,33%, medidas cuyo significado y obtención se considera innecesario
+comentar en la ocasión.
+Conceptos Optimista Pesimista Más probable
+Ingreso por ventas (A 20) 4.400.000 3.200.000 4.000.000
+Costos variables:
+de producción 2.100.000 1.730.000 2.000.000
+de comercialización 220.000 170.000 200.000
+_________ _________ __________
+2.320.000 1.900.000 2.200.000
+Contribución marginal 2.080.000 1.300.000 1.800.000
+Costos fijos discrecionales:
+de producción 50.000 30.000 40.000
+de comercialización 25.000 20.000 20.000
+de administración 80.000 60.000 80.000
+________ ________ _________
+155.000 110.000 140.000
+Margen de corto plazo 1.925.000 1.190.000 1.660.000
+Costos fijos de estructura:
+de producción 260.000 260.000 260.000
+de comercialización 80.000 80.000 80.000
+de administración 120.000 120.000 120.000
+________ ________ _________
+460.000 460.000 460.000
+Utilidad antes de impuestos 1.465.000 730.000 1.200.000
+Impuestos 439.500 249.000 400.000
+__________ _________ _________
+Utilidad luego de
+1.025.500 481.000 800.000
+impuestos
+Figura 12
+36
+
+Figura 13
+6. MEDICIONES DE APTITUD EMPRESARIAL Y RESULTADOS
+6,1. PRESENTACIÓN DE PROBLEMAS
+Es tentadora la suposición de que empresas con mejores calificaciones (por calidad del management
+y estructuras patrimoniales armoniosas) generen en el largo plazo resultados también superiores. No es
+pertinente, sin embargo, concluir que muy buenos resultados impliquen la existencia de empresas de alta
+calificación, pues pueden ser motivados por causas muy distintas y eventualmente exógenas.
+Ciertamente, los puntos de vista de la teoría financiera y del posicionamiento estratégico están en el
+centro de una importante controversia respecto de la asignación de recursos e, indirectamente, de la
+información que sirve de base a la creación y asignación de valor.
+El proceso que satisface los requerimientos de los mercados de bienes y de los mercados de capitales
+(o de los derechos sobre los flujos de fondos) es el de la administración de la creación de valor. Y es la
+gestión la que debe responder a interrogantes sobre asignación de recursos en función de contribuciones a la
+creación de valor y su capitalización (para asegurar su participación en un proceso objetivo de determinación
+de valor). Por ejemplo, ¿qué incremento en flujos de fondos adicionales se requiere para justificar una
+determinada cotización?, ¿cuánto menos capital invertido es requerido para un aceptable rendimiento?, ¿qué
+reducción de riesgo resulta pertinente a determinado precio?
+En definitiva, la administración debe identificar factores de creación de valor para poder orientar al
+negocio hacia el éxito (evidenciado por cambios positivos en las cotizaciones) y adoptar decisiones en un
+proceso en el que serán características las instancias siguientes:
+1. Determinación de los objetivos de valor de los accionistas o propietarios alineados por la disciplina del
+mercado.
+2. Organización de una administración eficiente de carteras de inversiones reales y financieras basadas en
+valor.
+37
+
+3. Determinación del perfil de valor respecto de cada combinación de inversiones, cuál es el valor agregado
+por cada una, qué cambios se esperan, cuál es la responsabilidad de la gerencia y sobre qué variables o
+resultados.
+4. Explicitación de la responsabilidad asumida por los agentes de la administración respecto de los
+resultados esperados y el correspondiente sistema de medición orientado hacia el valor (ventas,
+márgenes, capital necesario, etc.).
+5. Relacionar la administración orientada a la creación de valor con otros procedimientos administrativos:
+asignación de recursos, desarrollo de estrategias, compensación y medición de desempeño.
+6. Comunicación: la comunicación interna está orientada a alinear a toda la empresa en la búsqueda de los
+objetivos de valor y su satisfacción. La comunicación externa es indispensable para la capitalización del
+valor. Se debe comunicar dónde y cómo se piensa crear valor, cuándo y qué resultados son esperados,
+cómo se los medirá y expondrá. En el caso más bien extraño (tratándose de PYMEs) de empresas con
+capital abierto, los inversores querrán saber y tener confianza en la visión, la estrategia y las evidencias
+de competitividad. Además, saber cuál es la productividad económica de los recursos humanos, cuál es
+la compensación de la administración, etcétera.
+Como se dijera, la cuantificación de la performance genera procesos administrativos específicos,
+exige un análisis detallado de fuentes de creación de valor y de la información pertinente, del ajuste de
+procesos de estimación, de la definición de escalas, etcétera.
+La dinámica del valor se aprecia a través de subrogantes, medidas que evolucionan a través del
+tiempo y permiten establecer objetivos de desempeño a nivel de estrategia de la empresa. Estas medidas se
+han considerado más o menos válidas en función del grado de correlación existente entre ellas y la evolución
+de los valores de mercado, a partir de un intento deliberado por establecer conexiones entre las mediciones
+económicas y las financieras.
+Los problemas de los sistemas de medición de performance tienen su origen en su debilidad
+intrínseca para poner en valor algunos objetivos corporativos cuando se trabaja en un plano estratégico. En
+ocasiones frecuentes, funcionan mejor las matrices de grandes agregados que los modelos complejos con
+fuertes fundamentos numéricos28.
+Ciertas formas organizativas, diferentes balances de poder, coincidencias o desacuerdos en
+expectativas y en la consecuente valoración, son aspectos que dejan de lado, o al menos en un plano inferior,
+a los indicadores de desempeño tradicionales como guías de asignación de recursos29.
+En síntesis, a las dificultades propias de trabajar con indicadores de desempeño periódico referidos a
+comportamientos en mercados de bienes y en mercados financieros, en corto y en largo plazo, considerando
+y armonizando intereses de proveedores de fondos, empleados, comunidad y estado, se añaden ahora las
+dificultades y limitaciones que reconocen las medidas de origen financiero cuando se las emplea con el
+mismo propósito de proveer confiables medidas de desempeño.30
+El sistema de medidas debe completarse y complementarse integrando, a pesar de diferentes
+orígenes, indicadores financieros como resultados finales ineludibles con indicadores sobre clientes,
+procesos, inversiones en recursos humanos, capacidades directivas, etc., como requisitos también inevitables
+del proceso de construcción de aquellos resultados.
+Entre los desarrollos innovadores que apuntan a tal integración se cuentan el Balanced Scorecard, el
+Benchmarking, ABC, Strategic Cost Management, Dashboard y EVA®. Este último es a veces presentado
+como un sintetizador de cualidades de medición que, aunque exageradas en ocasiones, supera algunas
+insuficiencias de las medidas individuales31, como, por ejemplo, el riesgo involucrado en el negocio y en la
+estructura financiera, y el costo de los fondos propios, no registrado por la contabilidad.
+28 NICHOLS, NANCY, "El director financiero combativo", en Cuadernos de Finanzas N° 32, Centro de
+Investigaciories de SADAF, Mendoza. SADAF. 1993.
+29 HAX, A, Y MAJKUF, N., Estrategias para el liderazgo competitivo, Granica, Barcelona, 1997.
+30 KAPLAN,. R. y NORTON, D., "Using the balanced scorecard as a strategie management system". en HBR, enero
+1996. The balanced scorecard. HBR Press, 1996.
+31 FORNERO, RICARDO, "¿Qué tiene el EVA que no tenga el ROE?", Disertaciones, XII Jornadas Nacionales de
+Administración Financiera, SADAF, Córdoba, 1997.
+38
+
+6,2. PROPUESTA
+a) Mejoras en aptitud empresaria
+Los resultados contables, en síntesis, constituyen sólo un tipo de las mediciones requeridas. Resultan
+imprescindibles para dar idea de un resultado periódico "normalizado" (que resuelve la irregularidad de un
+flujo de fondos que exhibe, por ejemplo, un primer ejercicio "víctima" de egresos por compra de equipos que
+se utilizarán por cinco ejercicios ... ).
+Tales resultados contables presumirían implícitamente de un dudoso carácter permanente cuando se
+los emplea con finalidades diferentes de la específica, lo que se pone de manifiesto, por ejemplo, a través del
+empleo del PER (Price Earning Ratio), para determinar el valor de una empresa (Ve), en cuyo caso se acepta
+que:
+Ve = P/E * Utilidades Anuales
+Sin embargo, aun cuando se verifiquen resultados favorables, la aptitud empresaria requiere otras
+comprobaciones, fundamentalmente las que pueda exhibir el management como factor determinante de la
+gestación de resultados favorables, de su mantenimiento y/o su incremento.
+Tan relevantes capacidades no pueden ser apreciadas en forma directa: no hay fotografía ni
+mediciones directas que las expongan. En caso de las PyMEs ha sido de gran interés comprobar
+correlaciones positivas entre ciertos atributos de tipo cualitativo, y buenos resultados en términos de
+supervivencia, ganancias y crecimiento. Las mismas han sido recogidas en un check-list empleado,
+precisamente, con el propósito de determinar la presencia de factores asociados a la buena performance de
+las organizaciones. Se diferencia así una empresa "buena" de otra que meramente pueda "estar buena".
+Tal check-list (lista de control) podría comprender, por caso, referencias a aspectos como:
+1. Conocimientos (Conceptos y aplicaciones fundamentales
+a) Fundamentos:
+Diferenciación de mediciones contables y financieras............................................................................................(cid:0)
+Relevancia de la anticipación de resultados y fijación de metas..............................................................................(cid:0)
+Teoría de la utilidad.................................................................................................................................................(cid:0)
+Valor tiempo del dinero y costo de oportunidad del dinero.....................................................................................(cid:0)
+Benchmarking..........................................................................................................................................................(cid:0)
+Modelos "media-varianza" y CAPM.......................................................................................................................(cid:0)
+Métodos de evaluación de Proyectos de Inversión..................................................................................................(cid:0)
+Forwards y futuros: utilidad de su empleo..............................................................................................................(cid:0)
+Noción de rentabilidad.............................................................................................................................................(cid:0)
+Noción de productividad..........................................................................................................................................(cid:0)
+...................................................................................................................................................................................
+b) Técnicas
+Break-even point......................................................................................................................................................(cid:0)
+Determinación de efectos de apalancamiento..........................................................................................................(cid:0)
+Presupuestos a tres niveles y probabilísticos...........................................................................................................(cid:0)
+Métodos empíricos para tratamiento de la incerteza................................................................................................(cid:0)
+Presupuesto "base cero"...........................................................................................................................................(cid:0)
+Determinación de muestras para análisis de mercado.............................................................................................(cid:0)
+Pronósticos..............................................................................................................................................................(cid:0)
+Cálculo del VAN y TIR...........................................................................................................................................(cid:0)
+Cálculo del costo total del financiamiento empleado..............................................................................................(cid:0)
+...................................................................................................................................................................................
+c) Mecánicas
+Conciliaciones bancarias.........................................................................................................................................(cid:0)
+Conciliaciones de cuentas deudoras........................................................................................................................(cid:0)
+Conciliaciones de cuentas acreedoras......................................................................................................................(cid:0)
+39
+
+Determinación de antigüedad de cuentas de clientes...............................................................................................(cid:0)
+Determinación de antigüedad de existencias...........................................................................................................(cid:0)
+Descuento y capitalización......................................................................................................................................(cid:0)
+Costo de créditos (proveedores, directos bancarios, titulizados, etc.)......................................................................(cid:0)
+Planilla para cálculo del cash-flow..........................................................................................................................(cid:0)
+...................................................................................................................................................................................
+2. Disponibilidad de datos
+a) Resultados últimos 5 años...................................................................................................................................(cid:0)
+En unidades físicas..................................................................................................................................................(cid:0)
+En unidades monetarias...........................................................................................................................................(cid:0)
+Cash-flow.................................................................................................................................................................(cid:0)
+...................................................................................................................................................................................
+b) Performance de la competencia..........................................................................................................................(cid:0)
+c) Datos sectoriales..................................................................................................................................................(cid:0)
+d) Datos macroeconómicos......................................................................................................................................(cid:0)
+...................................................................................................................................................................................
+3. Mediciones de periódica determinación y difusión
+a) Balances mensuales completos............................................................................................................................(cid:0)
+b) Ventas totales, por producto, zona y agente de ventas........................................................................................(cid:0)
+c) Diseño tipificado de reporting a terceros (memorias, etc.)..................................................................................(cid:0)
+d) Inventarios actualizados mensualmente..............................................................................................................(cid:0)
+e) Inventarios actualizados anualmente...................................................................................................................(cid:0)
+...................................................................................................................................................................................
+4. Medidas referidas a interesados legítimos
+a) Opiniones y grado de satisfacción de clientes.....................................................................................................(cid:0)
+b) Opiniones y grado de satisfacción-autorrealización empleados..........................................................................(cid:0)
+c) Medidas de contaminación y protección ambiental.............................................................................................(cid:0)
+d) Estudios e instrumentación de innovaciones tecnológicas duras.........................................................................(cid:0)
+e) Estudio e instrumentación de innovaciones en tecnologías administrativas........................................................(cid:0)
+...................................................................................................................................................................................
+5. Organización empresaria
+Manual de Misiones y Funciones............................................................................................................................(cid:0)
+Existencia de procedimientos escritos.....................................................................................................................(cid:0)
+Organigrama............................................................................................................................................................(cid:0)
+Circuitos de autorización, control y efectivización de pagos...................................................................................(cid:0)
+Responsabilidad específica de seguimiento fiscal, juicios, seguridad, etcétera.......................................................(cid:0)
+Medios electrónicos para registración, control y reporte.........................................................................................(cid:0)
+Diferenciación de espacios s/funciones (administrativas, producción, ventas, atención proveedores)....................(cid:0)
+...................................................................................................................................................................................
+6. Relaciones con otras instituciones y la competencia
+a) Pertenencia a cámaras y otras organizaciones empresarias.................................................................................(cid:0)
+b) Asistencia o participación en congresos, ferias y misiones de negocios.............................................................(cid:0)
+...................................................................................................................................................................................
+7. Compromisos con necesidades de mejoras
+a) Participación en cursos de actualización.............................................................................................................(cid:0)
+b) Reuniones entre socios y ejecutivos para considerar estrategias, situación de la empresa,
+seguimiento y evaluación de políticas, conflictos, poder, etcétera.)........................................................................(cid:0)
+...................................................................................................................................................................................
+Estos aspectos, bajo la forma de variables y modalidades, pueden ser objeto de un análisis factorial
+de correspondencias por ejemplo, para determinar la asociación con la presencia/ausencia de éxito de las
+organizaciones (aplicaciones de softwares como el SPSS o SPADN mediante).
+40
+
+b) Mejoras en resultados
+El programa tendiente a la obtención de una mejor performance empresaria debe reconocer metas
+explícitas: una clara e inequívoca expresión del resultado que se espera obtener. De tal forma,
+a) se orienta la acción demandada por su cumplimiento;
+b) se justifica la asignación de los recursos necesarios;
+c) se define la referencia objetiva que posibilitará reconocimientos o responsabilidades emergentes de su
+ejecución.
+La anticipación de la respectiva incidencia en resultados operativos y financieros es, en
+consecuencia, ineludible.
+El formulario tipo de planificación y control expuesto precedentemente (fig. 3) puede servir al
+propósito de programar y controlar iniciativas tendientes al mejoramiento de la performance empresaria y de
+resultados específicos. En este lugar se pretende ilustrar la forma de cuantificar la efectividad en el
+cumplimiento de metas ya se trate de metas cuantificables, o no cuantificables.
+Respecto de metas que refieran a compromisos cuantificables como ventas, cobros, km recorridos o
+km pavimentados, etc., no existirían mayores problemas para definir el rango dentro del cual se puede
+considerar satisfecha la meta o target. Otros objetivos operativos o de resultados financieros, aunque también
+cuantificables, son de más complicada determinación, como, por ejemplo, mediciones de fondos liberados,
+reducción de costos financieros, disminución de inmovilizaciones financieras, etcétera.
+Al respecto, habiendo ya ejemplificado la determinación de inmovilizaciones en activos corrientes
+cuando se abordó la estimación de necesidades en capital de trabajo, se presenta, en este lugar, la expresión
+básica que permite (con eventuales adecuaciones), la estimación de ahorros en la gestión de tesorería, una
+función que en PyMEs es frecuentemente desatendida. no obstante ser causa de desproporcionados costos
+financieros. Dicha expresión básica es la siguiente:
+D
+Ahorro financiero= (F∗R1) ∗ ∗Fm∗R2∗Km
+360
+donde:
+F = magnitud de fondos involucrados,
+R1 = proporción (%) de los fondos (F) sobre la cual se concretaría el efecto pretendido.
+D = cantidad de días ganados en la recepción de fondos o en el retraso de su salida.
+Fm = factor de conversión (medio) de días laborales (hábiles) a días calendario usados en medición
+corriente de plazos financieros (v. gr., 1,25 si en un plazo dado se dan días feriados en proporción
+igual a un cuarto de los hábiles).
+R2 = porcentual (%) de éxito pretendido sobre la cantidad teórica de días ganados.
+Km = costo medio de la financiación a corto plazo (mezcla) prevaleciente de descubierto bancario,
+descuento de cheques y otros documentos, créditos bancarios, etcétera.
+Así, por ejemplo, si entre la recepción del pedido, su procesamiento, facturación y gestión de cobro
+(hasta que los fondos son acreditados en cuenta corriente) se ganan 5 días, en una proporción del 40 % de las
+ventas periódicas estimadas en $ 150.000, suponiendo que se tiene éxito en el 95% de la máxima efectividad
+posible y que el costo del financiamiento de corto plazo es del 35 % real, se tendría:
+5
+Ahorro financiero = (150.000∗0,40) ∗ ∗1,25∗0,95∗0,35
+360
+Ahorro financiero = (60.000) 0,0139 * 1,25 * 0,95 * 0,35
+Ahorro financiero = $ 346,63
+41
+
+Supuesto un giro de 12 veces (ventas mensuales), se estaría ante un ahorro financiero de $ 4.160,
+cuya obtención representaría un beneficio que ninguna PYME puede despreciar.
+También se pueden esperar similares resultados favorables cuando se decide el recurso a "cuentas
+recaudadoras" para acelerar la disposición de los pagos de clientes, la modificación del punto de pedido y las
+frecuencias de reposiciones de inventarios, etcétera.
+Tratándose de variables no cuantificables, por ejemplo, el cambio en el sistema de procesamiento de
+información, sin el cual objetivos como los comentados no se cumplirían, el cumplimiento o incumplimiento
+se verifica por resultados tipo SI/NO, respectivamente, lo que, en principio, inhibe su adición a metas
+cuantificables. La situación se resuelve si, como se anticipara, se predetermina el rango de incumplimiento
+tolerable, con lo que un 90%, por ejemplo, implica meta cumplida, esto es, obtiene una respuesta SI, que se
+suma a los SI obtenidos respecto de variables no cuantificables.
+Es posible, pues, arribar a una medición de efectividad en el cumplimiento de metas (cuantificables o
+no) de, por caso, el 85% (es la proporción de resultados SI sobre el total de metas definidas).
+42

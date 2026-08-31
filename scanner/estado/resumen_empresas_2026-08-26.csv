@@ -1,0 +1,103 @@
+﻿ticker,nombre,sector_etf,sector,industria,peso_industria,mcap_B,precio,r1m_pct,r3m_pct,r6m_pct,exceso_r6m_pct,vol60,rsi14,tendencia,score_fuerza,regla_oro_vs_etf,accion,r2_vs_etf,cedear_ba
+PR,Permian Resources Corporation,XLE,Energia,Oil & Gas E&P,0.17697449,19.5,23.3,18.1,21.6,34.6,23.5,0.364,66.3,ALCISTA,17.7,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.62,
+COP,ConocoPhillips,XLE,Energia,Oil & Gas E&P,0.17697449,158.4,131.84,16.3,15.3,21.5,10.5,0.315,66.5,ALCISTA,9.64,NEUTRO,VIGILAR,0.788,COP.BA
+EOG,"EOG Resources, Inc.",XLE,Energia,Oil & Gas E&P,0.17697449,77.0,146.83,5.1,10.1,21.7,10.6,0.343,54.3,ALCISTA,7.91,NEUTRO,VIGILAR,0.738,
+CNQ,Canadian Natural Resources Limi,XLE,Energia,Oil & Gas E&P,0.17697449,102.2,49.59,12.2,9.6,18.8,7.7,0.334,61.3,ALCISTA,6.41,NEUTRO,VIGILAR,0.569,
+FANG,"Diamondback Energy, Inc.",XLE,Energia,Oil & Gas E&P,0.17697449,56.0,199.89,5.6,4.2,21.2,10.1,0.379,50.4,ALCISTA,5.61,NEUTRO,VIGILAR,0.642,
+OXY,Occidental Petroleum Corporatio,XLE,Energia,Oil & Gas E&P,0.17697449,58.4,58.41,8.3,3.1,15.7,4.7,0.355,53.0,ALCISTA,2.78,NEUTRO,VIGILAR,0.643,OXY.BA
+DVN,Devon Energy Corporation,XLE,Energia,Oil & Gas E&P,0.17697449,51.6,46.91,10.0,6.7,11.4,0.3,0.377,55.4,ALCISTA,2.09,CAMBIO DE REGIMEN,VIGILAR,0.704,
+EXE,Expand Energy Corporation,XLE,Energia,Oil & Gas E&P,0.17697449,21.9,94.66,7.6,2.8,-9.2,-20.3,0.274,53.9,BAJISTA,-8.95,CAMBIO DE REGIMEN,VIGILAR,0.201,
+EQT,EQT Corporation,XLE,Energia,Oil & Gas E&P,0.17697449,33.8,54.0,4.9,-1.8,-8.5,-19.6,0.287,57.1,BAJISTA,-10.27,CAMBIO DE REGIMEN,VIGILAR,0.206,
+TPL,Texas Pacific Land Corporation,XLE,Energia,Oil & Gas E&P,0.17697449,25.7,372.79,-4.3,-8.1,-26.8,-37.8,0.503,48.0,BAJISTA,-20.66,CAMBIO DE REGIMEN,VIGILAR,0.181,
+EQNR,Equinor ASA,XLE,Energia,Oil & Gas Integrated,0.4032401,97.8,41.21,8.7,14.0,44.2,33.1,0.421,57.1,ALCISTA,19.37,NEUTRO,VIGILAR,0.568,EQNR.BA
+E,ENI S.p.A.,XLE,Energia,Oil & Gas Integrated,0.4032401,78.0,54.05,7.6,3.0,24.4,13.3,0.322,50.1,ALCISTA,6.64,NEUTRO,VIGILAR,0.465,E.BA
+SHEL,Shell PLC,XLE,Energia,Oil & Gas Integrated,0.4032401,254.0,92.22,7.9,11.0,14.1,3.0,0.238,62.3,ALCISTA,4.79,NEUTRO,VIGILAR,0.493,SHEL.BA
+SU,Suncor Energy  Inc.,XLE,Energia,Oil & Gas Integrated,0.4032401,77.2,65.36,2.3,2.9,18.9,7.8,0.333,52.3,ALCISTA,4.12,NEUTRO,VIGILAR,0.547,
+CVX,Chevron Corporation,XLE,Energia,Oil & Gas Integrated,0.4032401,392.1,199.89,7.5,10.5,10.5,-0.6,0.256,58.9,ALCISTA,3.0,NEUTRO,VIGILAR,0.821,
+BP,BP p.l.c.,XLE,Energia,Oil & Gas Integrated,0.4032401,110.4,42.86,4.1,4.2,15.2,4.1,0.323,51.4,ALCISTA,2.9,NEUTRO,VIGILAR,0.597,BP.BA
+XOM,ExxonMobil Holdings Corporation,XLE,Energia,Oil & Gas Integrated,0.4032401,660.5,160.64,5.6,9.3,9.2,-1.9,0.263,57.4,ALCISTA,2.0,NEUTRO,VIGILAR,0.827,XOM.BA
+TTE,TotalEnergies SE,XLE,Energia,Oil & Gas Integrated,0.4032401,196.5,88.8,5.5,2.5,12.9,1.8,0.263,57.6,ALCISTA,1.27,CAMBIO DE REGIMEN,VIGILAR,0.416,TTE.BA
+PBR,Petroleo Brasileiro S.A. Petrob,XLE,Energia,Oil & Gas Integrated,0.4032401,115.0,17.85,1.7,-2.3,11.5,0.4,0.304,50.6,ALCISTA,-1.07,CAMBIO DE REGIMEN,VIGILAR,0.376,PBR.BA
+PBR-A,Petroleo Brasileiro S.A. Petrob,XLE,Energia,Oil & Gas Integrated,0.4032401,110.0,16.06,3.2,-0.9,8.6,-2.5,0.281,52.6,ALCISTA,-1.84,CAMBIO DE REGIMEN,VIGILAR,0.32,
+VG,"Venture Global, Inc.",XLE,Energia,Oil & Gas Midstream,0.23791507,35.2,14.07,15.6,13.9,51.5,40.5,0.707,54.2,ALCISTA,22.66,NEUTRO,VIGILAR,0.302,
+LNG,"Cheniere Energy, Inc.",XLE,Energia,Oil & Gas Midstream,0.23791507,57.6,278.8,10.8,21.0,26.9,15.8,0.305,61.7,ALCISTA,14.05,NEUTRO,VIGILAR,0.383,
+TRGP,"Targa Resources, Inc.",XLE,Energia,Oil & Gas Midstream,0.23791507,61.5,286.91,10.2,9.3,25.9,14.8,0.336,55.9,ALCISTA,9.51,NEUTRO,VIGILAR,0.494,
+ET,Energy Transfer LP,XLE,Energia,Oil & Gas Midstream,0.23791507,72.4,21.02,5.8,10.6,16.9,5.9,0.171,61.8,ALCISTA,5.92,NEUTRO,VIGILAR,0.374,
+OKE,"ONEOK, Inc.",XLE,Energia,Oil & Gas Midstream,0.23791507,57.8,91.7,4.5,5.2,14.1,3.0,0.272,50.2,ALCISTA,2.78,NEUTRO,VIGILAR,0.566,
+EPD,Enterprise Products Partners L.,XLE,Energia,Oil & Gas Midstream,0.23791507,82.6,38.27,0.5,2.2,9.7,-1.4,0.187,53.3,ALCISTA,-0.26,NEUTRO,POSIBLE MEAN-REVERSION (verificar macro),0.32,
+MPLX,MPLX LP,XLE,Energia,Oil & Gas Midstream,0.23791507,59.2,58.36,0.4,6.7,3.5,-7.6,0.181,52.0,ALCISTA,-1.5,NEUTRO,VIGILAR,0.09,
+WMB,"Williams Companies, Inc. (The)",XLE,Energia,Oil & Gas Midstream,0.23791507,86.9,71.08,1.3,-3.7,-2.5,-13.6,0.258,44.8,MIXTA,-8.03,CAMBIO DE REGIMEN,POSIBLE MEAN-REVERSION (verificar macro),0.206,
+KMI,"Kinder Morgan, Inc.",XLE,Energia,Oil & Gas Midstream,0.23791507,68.9,30.94,-1.2,-3.1,-3.8,-14.9,0.204,42.0,MIXTA,-8.4,CAMBIO DE REGIMEN,POSIBLE MEAN-REVERSION (verificar macro),0.295,
+ENB,Enbridge Inc,XLE,Energia,Oil & Gas Midstream,0.23791507,108.6,49.74,-8.7,-10.2,-2.6,-13.6,0.2,33.8,BAJISTA,-10.52,NEUTRO,POSIBLE MEAN-REVERSION (verificar macro),0.147,
+PBF,PBF Energy Inc.,XLE,Energia,Oil & Gas Refining & Marketing,0.08350666,7.9,66.51,9.4,72.1,92.1,81.0,0.695,50.2,ALCISTA,61.25,CAMBIO DE REGIMEN,VIGILAR,0.322,
+DINO,HF Sinclair Corporation,XLE,Energia,Oil & Gas Refining & Marketing,0.08350666,16.6,93.24,5.1,37.8,91.4,80.3,0.403,58.3,ALCISTA,48.95,CAMBIO DE REGIMEN,VIGILAR,0.312,
+MPC,Marathon Petroleum Corporation,XLE,Energia,Oil & Gas Refining & Marketing,0.08350666,99.7,354.88,16.3,44.0,82.5,71.4,0.365,66.0,ALCISTA,47.12,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.502,
+VLO,Valero Energy Corporation,XLE,Energia,Oil & Gas Refining & Marketing,0.08350666,98.0,340.41,14.3,42.2,72.0,60.9,0.362,63.1,ALCISTA,41.76,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.46,
+PSX,Phillips 66,XLE,Energia,Oil & Gas Refining & Marketing,0.08350666,95.0,236.9,15.7,36.4,57.9,46.8,0.32,68.0,ALCISTA,33.39,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.595,PSX.BA
+UGP,Ultrapar Participacoes S.A. (Ne,XLE,Energia,Oil & Gas Refining & Marketing,0.08350666,7.1,6.7,6.2,23.4,28.6,17.5,0.358,64.2,ALCISTA,15.66,CAMBIO DE REGIMEN,VIGILAR,0.015,UGP.BA
+SUN,Sunoco LP,XLE,Energia,Oil & Gas Refining & Marketing,0.08350666,14.1,74.6,-1.1,14.2,24.6,13.5,0.312,52.6,ALCISTA,10.65,CAMBIO DE REGIMEN,VIGILAR,0.187,
+RTX,RTX Corporation,XLI,Industriales,Aerospace & Defense,0.3906788,283.4,210.28,-3.5,19.5,8.1,-3.0,0.304,46.3,ALCISTA,5.06,NEUTRO,VIGILAR,0.228,RTX.BA
+GD,General Dynamics Corporation,XLI,Industriales,Aerospace & Defense,0.3906788,101.9,376.58,-4.2,10.4,10.7,-0.3,0.233,42.2,ALCISTA,3.06,CAMBIO DE REGIMEN,VIGILAR,0.171,
+GE,GE Aerospace,XLI,Industriales,Aerospace & Defense,0.3906788,362.7,349.54,-3.9,10.3,2.2,-8.9,0.32,44.8,MIXTA,-0.99,NEUTRO,VIGILAR,0.488,GE.BA
+HWM,Howmet Aerospace Inc.,XLI,Industriales,Aerospace & Defense,0.3906788,105.3,264.04,-7.6,2.4,1.8,-9.3,0.308,36.3,MIXTA,-3.96,NEUTRO,VIGILAR,0.442,HWM.BA
+LMT,Lockheed Martin Corporation,XLI,Industriales,Aerospace & Defense,0.3906788,128.4,556.52,-4.3,5.5,-13.0,-24.1,0.362,43.6,MIXTA,-9.55,NEUTRO,VIGILAR,0.086,LMT.BA
+TDG,Transdigm Group Incorporated,XLI,Industriales,Aerospace & Defense,0.3906788,65.9,1192.6,-8.8,-3.9,-7.9,-19.0,0.299,39.8,BAJISTA,-10.73,CAMBIO DE REGIMEN,VIGILAR,0.214,
+BA,Boeing Company (The),XLI,Industriales,Aerospace & Defense,0.3906788,166.8,211.08,-4.7,-5.9,-8.4,-19.5,0.378,37.9,BAJISTA,-11.63,NEUTRO,VIGILAR,0.247,
+NOC,Northrop Grumman Corporation,XLI,Industriales,Aerospace & Defense,0.3906788,77.1,542.52,-1.2,-1.2,-22.6,-33.6,0.305,43.1,BAJISTA,-16.36,NEUTRO,VIGILAR,0.085,
+SPCX,Space Exploration Technologies ,XLI,Industriales,Aerospace & Defense,0.3906788,1818.4,137.95,18.5,,,,1.021,58.5,BAJISTA,,NEUTRO,VIGILAR,0.086,SPCX.BA
+HONA,Honeywell Aerospace Inc.,XLI,Industriales,Aerospace & Defense,0.3906788,50.8,160.36,-25.7,,,,1.117,51.6,BAJISTA,,NEUTRO,VIGILAR,0.027,
+DE,Deere & Company,XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,170.2,630.66,-1.4,19.4,1.7,-9.4,0.361,55.8,ALCISTA,2.16,NEUTRO,VIGILAR,0.266,DE.BA
+PCAR,PACCAR Inc.,XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,68.0,129.22,-6.3,15.4,4.3,-6.8,0.303,49.5,ALCISTA,1.94,NEUTRO,VIGILAR,0.392,
+OSK,Oshkosh Corporation (Holding Co,XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,9.6,155.23,2.2,20.3,-9.2,-20.3,0.383,56.7,ALCISTA,-2.44,NEUTRO,VIGILAR,0.497,
+TEX,Terex Corporation,XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,7.5,65.22,-4.8,11.0,-3.6,-14.7,0.471,47.9,MIXTA,-3.36,NEUTRO,VIGILAR,0.454,
+FSS,Federal Signal Corporation,XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,7.4,120.65,2.5,3.8,1.4,-9.7,0.407,46.2,MIXTA,-3.62,CAMBIO DE REGIMEN,VIGILAR,0.321,
+CNH,CNH Industrial N.V.,XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,18.6,11.56,1.0,9.9,-5.5,-16.6,0.516,59.7,ALCISTA,-4.41,NEUTRO,VIGILAR,0.342,
+CAT,"Caterpillar, Inc.",XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,372.9,811.29,-3.5,-10.7,6.2,-4.9,0.476,39.9,MIXTA,-6.53,NEUTRO,VIGILAR,0.583,
+AGCO,AGCO Corporation,XLI,Industriales,Farm & Heavy Construction Machinery,0.07169979,7.8,110.94,-10.1,-2.6,-16.7,-27.8,0.407,57.3,BAJISTA,-14.23,CAMBIO DE REGIMEN,VIGILAR,0.325,
+CSX,CSX Corporation,XLI,Industriales,Railroads,0.06124338,95.4,51.51,1.3,9.6,22.8,11.7,0.216,60.7,ALCISTA,8.21,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.257,
+UNP,Union Pacific Corporation,XLI,Industriales,Railroads,0.06124338,183.9,309.59,5.1,11.4,18.4,7.3,0.227,68.0,ALCISTA,6.86,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.178,UNP.BA
+WAB,Westinghouse Air Brake Technolo,XLI,Industriales,Railroads,0.06124338,50.2,296.94,-2.8,14.0,13.2,2.2,0.329,57.6,ALCISTA,5.45,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.56,
+CNI,Canadian National Railway Compa,XLI,Industriales,Railroads,0.06124338,76.9,127.12,-1.9,7.8,18.0,6.9,0.186,51.9,ALCISTA,5.4,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.166,
+NSC,Norfolk Southern Corporation,XLI,Industriales,Railroads,0.06124338,78.9,351.24,4.1,8.3,13.6,2.5,0.212,65.6,ALCISTA,3.6,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.187,
+CP,Canadian Pacific Kansas City Li,XLI,Industriales,Railroads,0.06124338,82.9,94.34,2.9,3.6,10.5,-0.6,0.202,57.5,ALCISTA,0.57,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.213,
+PH,Parker-Hannifin Corporation,XLI,Industriales,Specialty Industrial Machinery,0.13571626,128.1,1016.31,2.6,18.6,0.7,-10.4,0.28,51.7,ALCISTA,1.42,NEUTRO,VIGILAR,0.463,
+EMR,Emerson Electric Company,XLI,Industriales,Specialty Industrial Machinery,0.13571626,86.4,154.96,2.4,11.3,5.2,-5.9,0.315,51.4,ALCISTA,0.88,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.618,
+ETN,"Eaton Corporation, PLC",XLI,Industriales,Specialty Industrial Machinery,0.13571626,158.9,409.2,6.2,0.9,10.5,-0.6,0.505,43.0,MIXTA,-0.56,CAMBIO DE REGIMEN,VIGILAR,0.515,
+AME,"AMETEK, Inc.",XLI,Industriales,Specialty Industrial Machinery,0.13571626,55.4,241.77,0.1,7.0,4.1,-7.0,0.236,45.3,ALCISTA,-1.13,NEUTRO,VIGILAR,0.615,
+ITW,Illinois Tool Works Inc.,XLI,Industriales,Specialty Industrial Machinery,0.13571626,80.2,281.65,-4.6,13.2,-1.6,-12.7,0.222,45.8,ALCISTA,-1.49,NEUTRO,VIGILAR,0.369,
+ROK,"Rockwell Automation, Inc.",XLI,Industriales,Specialty Industrial Machinery,0.13571626,47.8,429.4,-8.6,-5.6,7.4,-3.7,0.34,39.4,MIXTA,-4.23,NEUTRO,VIGILAR,0.46,
+GEV,GE Vernova Inc.,XLI,Industriales,Specialty Industrial Machinery,0.13571626,246.8,926.73,-1.8,-10.1,5.9,-5.2,0.579,37.3,MIXTA,-6.49,NEUTRO,VIGILAR,0.348,
+IR,Ingersoll Rand Inc.,XLI,Industriales,Specialty Industrial Machinery,0.13571626,30.5,78.57,-9.1,10.8,-15.5,-26.6,0.342,37.5,BAJISTA,-9.0,NEUTRO,VIGILAR,0.538,
+CMI,Cummins Inc.,XLI,Industriales,Specialty Industrial Machinery,0.13571626,78.8,572.67,-10.4,-13.9,-3.0,-14.1,0.406,30.1,BAJISTA,-12.02,NEUTRO,POSIBLE MEAN-REVERSION (verificar macro),0.544,
+DOV,Dover Corporation,XLI,Industriales,Specialty Industrial Machinery,0.13571626,27.2,202.06,-0.5,-5.1,-10.5,-21.5,0.289,41.5,BAJISTA,-12.28,CAMBIO DE REGIMEN,VIGILAR,0.433,
+SONY,Sony Group Corporation,XLK,Tecnologia,Consumer Electronics,0.16165756,140.8,24.05,5.9,10.0,12.3,1.2,0.328,62.3,MIXTA,3.45,NEUTRO,VIGILAR,0.031,SONY.BA
+AAPL,Apple Inc.,XLK,Tecnologia,Consumer Electronics,0.16165756,4522.7,309.9,-8.8,-0.2,13.2,2.1,0.327,47.9,MIXTA,0.27,NEUTRO,VIGILAR,0.047,
+MRVL,"Marvell Technology, Inc.",XLK,Tecnologia,Semiconductors,0.37467614,216.0,240.38,37.8,21.0,197.3,186.2,1.227,56.4,ALCISTA,90.73,NEUTRO,VIGILAR,0.398,MRVL.BA
+AMD,"Advanced Micro Devices, Inc.",XLK,Tecnologia,Semiconductors,0.37467614,782.2,479.18,5.4,-3.3,127.3,116.2,0.777,48.0,MIXTA,50.51,NEUTRO,VIGILAR,0.519,AMD.BA
+ARM,Arm Holdings plc,XLK,Tecnologia,Semiconductors,0.37467614,258.0,241.56,-1.3,-20.2,83.4,72.3,0.964,39.2,MIXTA,24.84,NEUTRO,VIGILAR,0.443,ARM.BA
+INTC,Intel Corporation,XLK,Tecnologia,Semiconductors,0.37467614,462.4,87.48,1.4,-28.2,86.6,75.5,0.843,37.5,MIXTA,23.52,NEUTRO,VIGILAR,0.385,INTC.BA
+NVDA,NVIDIA Corporation,XLK,Tecnologia,Semiconductors,0.37467614,5160.3,213.05,8.1,0.3,9.1,-2.0,0.407,49.6,ALCISTA,-1.2,NEUTRO,VIGILAR,0.516,NVDA.BA
+TXN,Texas Instruments Incorporated,XLK,Tecnologia,Semiconductors,0.37467614,237.5,260.05,-5.7,-17.7,22.8,11.7,0.497,37.4,MIXTA,-1.51,NEUTRO,VIGILAR,0.204,TXN.BA
+TSM,Taiwan Semiconductor Manufactur,XLK,Tecnologia,Semiconductors,0.37467614,2164.9,417.41,6.4,-1.0,8.2,-2.9,0.495,49.9,MIXTA,-2.27,CAMBIO DE REGIMEN,VIGILAR,0.595,TSM.BA
+ADI,"Analog Devices, Inc.",XLK,Tecnologia,Semiconductors,0.37467614,181.1,373.66,2.1,-10.1,4.2,-6.9,0.448,46.1,MIXTA,-7.27,CAMBIO DE REGIMEN,VIGILAR,0.353,ADI.BA
+AVGO,Broadcom Inc.,XLK,Tecnologia,Semiconductors,0.37467614,1697.2,356.74,-6.3,-15.3,7.7,-3.3,0.548,34.8,BAJISTA,-7.67,NEUTRO,POSIBLE MEAN-REVERSION (verificar macro),0.496,AVGO.BA
+SNOW,Snowflake Inc.,XLK,Tecnologia,Software - Application,0.075371854,109.9,317.02,17.3,80.9,87.4,76.3,0.471,55.9,ALCISTA,62.22,CAMBIO DE REGIMEN,SOBRECOMPRADO: NO PERSEGUIR,0.082,SNOW.BA
+DDOG,"Datadog, Inc.",XLK,Tecnologia,Software - Application,0.075371854,80.1,222.99,-11.1,0.5,102.1,91.0,0.698,39.2,MIXTA,40.54,CAMBIO DE REGIMEN,VIGILAR,0.075,
+SHOP,Shopify Inc.,XLK,Tecnologia,Software - Application,0.075371854,199.7,153.88,18.1,44.4,27.9,16.8,0.627,64.5,MIXTA,22.48,NEUTRO,VIGILAR,0.098,SHOP.BA
+ADP,"Automatic Data Processing, Inc.",XLK,Tecnologia,Software - Application,0.075371854,112.3,282.78,7.0,30.9,34.1,23.0,0.317,66.7,ALCISTA,20.76,NEUTRO,VIGILAR,0.035,ADP.BA
+NOW,"ServiceNow, Inc.",XLK,Tecnologia,Software - Application,0.075371854,131.3,127.0,14.8,24.4,21.8,10.8,0.637,60.2,MIXTA,12.76,NEUTRO,VIGILAR,0.012,NOW.BA
+SAP,SAP  SE,XLK,Tecnologia,Software - Application,0.075371854,250.4,216.93,21.1,24.6,11.3,0.2,0.482,73.0,MIXTA,8.1,NEUTRO,VIGILAR,0.01,SAP.BA
+UBER,"Uber Technologies, Inc.",XLK,Tecnologia,Software - Application,0.075371854,164.1,80.35,13.6,13.6,10.3,-0.8,0.425,65.0,MIXTA,3.81,NEUTRO,VIGILAR,0.051,UBER.BA
+ADBE,Adobe Inc.,XLK,Tecnologia,Software - Application,0.075371854,108.9,273.92,9.9,15.0,6.2,-4.8,0.51,61.1,MIXTA,2.45,NEUTRO,VIGILAR,0.002,ADBE.BA
+INTU,Intuit Inc.,XLK,Tecnologia,Software - Application,0.075371854,97.8,357.46,14.2,16.7,-5.5,-16.6,0.514,61.4,BAJISTA,-2.45,NEUTRO,VIGILAR,0.0,
+CDNS,"Cadence Design Systems, Inc.",XLK,Tecnologia,Software - Application,0.075371854,91.4,331.9,-3.7,-11.3,10.0,-1.1,0.447,49.4,MIXTA,-5.06,CAMBIO DE REGIMEN,VIGILAR,0.309,
+PANW,"Palo Alto Networks, Inc.",XLK,Tecnologia,Software - Infrastructure,0.21314465,277.0,339.9,6.6,36.8,134.7,123.6,0.516,44.0,ALCISTA,68.08,CAMBIO DE REGIMEN,VIGILAR,0.185,
+CRWD,"CrowdStrike Holdings, Inc.",XLK,Tecnologia,Software - Infrastructure,0.21314465,188.8,185.38,2.0,14.9,104.1,93.0,0.545,38.8,MIXTA,46.46,CAMBIO DE REGIMEN,VIGILAR,0.227,CRWD.BA
+FTNT,"Fortinet, Inc.",XLK,Tecnologia,Software - Infrastructure,0.21314465,112.7,153.66,2.5,20.1,98.7,87.6,0.388,46.4,MIXTA,45.83,CAMBIO DE REGIMEN,VIGILAR,0.126,
+NET,"Cloudflare, Inc.",XLK,Tecnologia,Software - Infrastructure,0.21314465,98.8,277.58,5.1,32.7,61.6,50.5,0.574,46.0,ALCISTA,33.74,CAMBIO DE REGIMEN,VIGILAR,0.135,
+XYZ,"Block, Inc.",XLK,Tecnologia,Software - Infrastructure,0.21314465,49.7,82.72,-0.5,15.8,59.3,48.2,0.419,56.3,ALCISTA,26.8,NEUTRO,VIGILAR,0.144,XYZ.BA
+PLTR,Palantir Technologies Inc.,XLK,Tecnologia,Software - Infrastructure,0.21314465,415.1,172.73,39.8,30.4,28.7,17.6,0.817,61.8,MIXTA,17.95,NEUTRO,VIGILAR,0.178,PLTR.BA
+MSFT,Microsoft Corporation,XLK,Tecnologia,Software - Infrastructure,0.21314465,3651.2,491.71,25.2,19.4,23.2,12.2,0.458,66.2,MIXTA,11.64,NEUTRO,VIGILAR,0.123,MSFT.BA
+ORCL,Oracle Corporation,XLK,Tecnologia,Software - Infrastructure,0.21314465,417.0,144.76,20.7,-23.9,-1.4,-12.5,0.631,51.2,BAJISTA,-14.82,CAMBIO DE REGIMEN,VIGILAR,0.249,
+CRWV,"CoreWeave, Inc.",XLK,Tecnologia,Software - Infrastructure,0.21314465,48.6,88.04,30.8,-15.6,-10.2,-21.3,1.114,48.4,BAJISTA,-15.83,CAMBIO DE REGIMEN,VIGILAR,0.335,CRWV.BA
+SNPS,"Synopsys, Inc.",XLK,Tecnologia,Software - Infrastructure,0.21314465,78.3,408.79,6.5,-22.3,-9.0,-20.1,0.363,51.1,BAJISTA,-17.64,CAMBIO DE REGIMEN,VIGILAR,0.128,

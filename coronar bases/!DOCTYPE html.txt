@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulador Bonos Hard Dollar · Coronar Inversiones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #fafaf8;
+  --bg2:     #f4f3ef;
+  --bg3:     #eceae3;
+  --white:   #ffffff;
+  --ink:     #1a1a18;
+  --ink2:    #3d3c39;
+  --ink3:    #7a7870;
+  --ink4:    #b0aea6;
+  --gold:    #8a6d3b;
+  --gold2:   #c9a55a;
+  --gold3:   #f5ead6;
+  --gold4:   #fdf8ee;
+  --green:   #1d7a4f;
+  --green2:  #ebf6f0;
+  --red:     #b03a2e;
+  --red2:    #fdf0ee;
+  --border:  #e2dfd6;
+  --border2: #d0cabc;
+  --shadow:  0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  --shadow2: 0 2px 8px rgba(0,0,0,0.08), 0 12px 32px rgba(0,0,0,0.06);
+  --sans:    'DM Sans', sans-serif;
+  --serif:   'Playfair Display', Georgia, serif;
+  --mono:    'DM Mono', monospace;
+  --r:       10px;
+  --r2:      14px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 14px; scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ── HEADER ─────────────────────── */
+header {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  padding: 0 40px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 0 var(--border);
+}
+.logo { display: flex; align-items: center; gap: 12px; }
+.logo-mark {
+  width: 36px; height: 36px;
+  background: var(--ink);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif);
+  font-size: 14px;
+  color: var(--gold2);
+  letter-spacing: -0.5px;
+  font-weight: 600;
+}
+.logo-name { font-family: var(--serif); font-size: 16px; color: var(--ink); letter-spacing: -0.3px; }
+.logo-sub { font-size: 10px; color: var(--ink4); letter-spacing: 0.5px; margin-top: 1px; }
+.header-right {
+  display: flex; align-items: center; gap: 24px;
+  font-size: 11px; color: var(--ink4); font-family: var(--mono);
+}
+.live-pill {
+  display: flex; align-items: center; gap: 5px;
+  background: var(--green2);
+  border: 1px solid rgba(29,122,79,0.2);
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--green);
+  font-family: var(--sans);
+}
+.live-dot { width: 5px; height: 5px; background: var(--green); border-radius: 50%; animation: blink 2s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+/* ── HERO ───────────────────────── */
+.hero {
+  background: var(--ink);
+  color: var(--white);
+  padding: 56px 40px 52px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -60px; right: -60px;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(201,165,90,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold2);
+  border: 1px solid rgba(201,165,90,0.3);
+  border-radius: 20px;
+  padding: 5px 14px;
+  margin-bottom: 20px;
+}
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  color: var(--white);
+  margin-bottom: 16px;
+  max-width: 600px;
+}
+.hero h1 em { color: var(--gold2); font-style: italic; }
+.hero-sub {
+  font-size: 15px;
+  color: rgba(255,255,255,0.55);
+  max-width: 520px;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+/* ── ESTRATEGIA BANNER ──────────── */
+.estrategia-bar {
+  background: var(--gold4);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 40px;
+}
+.estrategia-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.est-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  white-space: nowrap;
+  margin-top: 2px;
+}
+.est-text {
+  font-size: 13px;
+  color: var(--ink2);
+  line-height: 1.6;
+  font-style: italic;
+  font-family: var(--serif);
+  border-left: 2px solid var(--gold2);
+  padding-left: 16px;
+}
+
+/* ── APP LAYOUT ─────────────────── */
+.app {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 24px;
+}
+
+/* ── SIDEBAR ────────────────────── */
+.sidebar { display: flex; flex-direction: column; gap: 16px; }
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.card-head {
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--ink4);
+  background: var(--bg);
+}
+
+/* BOND CARDS */
+.bc {
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.2s;
+  position: relative;
+}
+.bc:last-child { border-bottom: none; }
+.bc:hover { background: var(--bg); }
+.bc.active {
+  background: var(--gold4);
+}
+.bc.active::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--gold);
+  border-radius: 0 2px 2px 0;
+}
+.bc-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px; }
+.bc-ticker { font-family: var(--serif); font-size: 20px; font-weight: 600; color: var(--ink); letter-spacing: -0.5px; }
+.bc-badge {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.ny  { background: rgba(138,109,59,0.08); color: var(--gold); border: 1px solid rgba(138,109,59,0.2); }
+.arg { background: var(--bg2); color: var(--ink3); border: 1px solid var(--border); }
+.bc-strategy {
+  font-size: 11px;
+  color: var(--green);
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-family: var(--sans);
+}
+.bc-name { font-size: 11px; color: var(--ink3); margin-bottom: 12px; line-height: 1.4; }
+.bc-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.bc-st-label { font-size: 9px; color: var(--ink4); margin-bottom: 2px; letter-spacing: 0.3px; font-family: var(--mono); }
+.bc-st-val { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--ink2); }
+.bc-st-val.accent { color: var(--gold); font-size: 13px; font-weight: 600; }
+.bc-recommend {
+  margin-top: 10px;
+  font-size: 10px;
+  color: var(--green);
+  font-weight: 600;
+  display: none;
+}
+.bc.active .bc-recommend { display: block; }
+
+/* INPUT PANEL */
+.input-body { padding: 20px; }
+.field-label { font-size: 10px; font-weight: 600; letter-spacing: 0.8px; color: var(--ink3); text-transform: uppercase; margin-bottom: 8px; font-family: var(--mono); }
+.field-wrap {
+  display: flex;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+  margin-bottom: 12px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.field-wrap:focus-within {
+  border-color: var(--gold2);
+  box-shadow: 0 0 0 3px rgba(201,165,90,0.12);
+}
+.field-prefix {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink3);
+  padding: 0 14px;
+  border-right: 1.5px solid var(--border);
+  height: 46px;
+  display: flex;
+  align-items: center;
+  background: var(--bg2);
+}
+.field-wrap input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0 14px;
+  height: 46px;
+  width: 100%;
+}
+.field-wrap input::placeholder { color: var(--ink4); font-size: 14px; }
+.quick-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.quick-btn {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 6px 12px;
+  background: var(--bg2);
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
+  color: var(--ink3);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.quick-btn:hover { border-color: var(--gold2); color: var(--gold); }
+.quick-btn.sel { border-color: var(--gold); color: var(--gold); background: var(--gold4); }
+
+.noms-chip {
+  background: var(--gold4);
+  border: 1px solid rgba(138,109,59,0.15);
+  border-radius: var(--r);
+  padding: 10px 14px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink3);
+  margin-bottom: 14px;
+  display: none;
+  align-items: center;
+  gap: 6px;
+}
+.noms-chip.show { display: flex; }
+.noms-chip strong { color: var(--gold); }
+
+.calc-btn {
+  width: 100%;
+  background: var(--ink);
+  color: var(--white);
+  border: none;
+  border-radius: var(--r);
+  padding: 15px;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.calc-btn:hover { background: #2c2b28; }
+.calc-btn:active { transform: scale(0.99); }
+
+/* ── RESULTADO AREA ─────────────── */
+.result-col { display: flex; flex-direction: column; gap: 20px; }
+
+.empty-state {
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink4);
+  text-align: center;
+  padding: 40px;
+  background: var(--white);
+  border: 1.5px dashed var(--border2);
+  border-radius: var(--r2);
+}
+.empty-state h3 { font-family: var(--serif); font-size: 20px; font-weight: 500; color: var(--ink3); margin-bottom: 10px; }
+.empty-state p { font-size: 13px; max-width: 280px; line-height: 1.7; }
+
+/* ── RESULTADO PRINCIPAL ─────────── */
+
+/* ENCABEZADO resultado */
+.res-header {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  padding: 28px 32px;
+  box-shadow: var(--shadow);
+}
+.res-bond-name {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 4px;
+  letter-spacing: -0.3px;
+}
+.res-bond-sub { font-size: 12px; color: var(--ink3); margin-bottom: 24px; }
+.res-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+}
+.kpi {
+  padding: 20px 18px;
+  border-right: 1px solid var(--border);
+  position: relative;
+}
+.kpi:last-child { border-right: none; }
+.kpi-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink4);
+  margin-bottom: 10px;
+}
+.kpi-val {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+.kpi-val.gold { color: var(--gold); }
+.kpi-val.green { color: var(--green); }
+.kpi-val.ink { color: var(--ink); }
+.kpi-sub { font-size: 10px; color: var(--ink3); line-height: 1.5; font-family: var(--mono); }
+
+/* BLOQUE CLIENTE — lo más importante */
+.client-card {
+  background: var(--ink);
+  color: var(--white);
+  border-radius: var(--r2);
+  padding: 28px 32px;
+  box-shadow: var(--shadow2);
+  position: relative;
+  overflow: hidden;
+}
+.client-card::before {
+  content: '';
+  position: absolute;
+  top: -80px; right: -80px;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(201,165,90,0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+.client-title {
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--gold2);
+  margin-bottom: 20px;
+  letter-spacing: -0.2px;
+}
+.client-narrative {
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  max-width: 680px;
+  font-weight: 300;
+}
+.client-narrative strong { color: var(--white); font-weight: 600; }
+.client-cobros {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.cobro-chip {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 140px;
+}
+.cobro-date { font-family: var(--mono); font-size: 10px; color: rgba(255,255,255,0.4); margin-bottom: 4px; }
+.cobro-amt { font-family: var(--serif); font-size: 18px; font-weight: 600; color: var(--gold2); }
+.cobro-label { font-size: 10px; color: rgba(255,255,255,0.35); margin-top: 2px; }
+.cobro-chip.next { border-color: rgba(201,165,90,0.35); background: rgba(201,165,90,0.08); }
+.cobro-chip.next .cobro-date { color: var(--gold2); }
+
+/* CONTEXTO CARDS */
+.contexto-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.ctx-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+.ctx-card-title { font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+.ctx-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.ctx-dot.green { background: var(--green); }
+.ctx-dot.gold { background: var(--gold2); }
+.ctx-body { font-size: 12px; color: var(--ink3); line-height: 1.7; }
+.ctx-body strong { color: var(--ink2); font-weight: 600; }
+
+/* TABS SECTION */
+.tabs-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.tab-bar {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  overflow-x: auto;
+  padding: 0 8px;
+}
+.tab-btn {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink3);
+  padding: 13px 18px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+  white-space: nowrap;
+  margin-bottom: -1px;
+}
+.tab-btn:hover { color: var(--ink); }
+.tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+.tab-content { display: none; padding: 24px; }
+.tab-content.active { display: block; }
+
+/* TABLES */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--r); }
+.tbl { width: 100%; border-collapse: collapse; }
+.tbl thead { background: var(--bg2); }
+.tbl th {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink4);
+  padding: 11px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.tbl th:not(:first-child) { text-align: right; }
+.tbl td {
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 11px 16px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  color: var(--ink3);
+}
+.tbl td:not(:first-child) { text-align: right; }
+.tbl tr:last-child td { border-bottom: none; }
+.tbl tr:hover td { background: var(--bg); }
+.tbl tr.prox td { background: var(--gold4); }
+.tbl tr.prox td:first-child { border-left: 3px solid var(--gold); padding-left: 13px; }
+.c-ink { color: var(--ink) !important; font-weight: 600; }
+.c-gold { color: var(--gold) !important; }
+.c-green { color: var(--green) !important; }
+.tag-prox {
+  font-size: 8px; font-weight: 700; letter-spacing: 0.5px;
+  background: rgba(138,109,59,0.12);
+  color: var(--gold);
+  border: 1px solid rgba(138,109,59,0.25);
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-family: var(--mono);
+}
+
+/* BAR CHART */
+.chart-outer { padding: 4px 0; }
+.bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
+.bar-label { font-family: var(--mono); font-size: 9px; color: var(--ink4); width: 72px; flex-shrink: 0; }
+.bar-track {
+  flex: 1; height: 18px;
+  background: var(--bg2);
+  border-radius: 3px;
+  position: relative; overflow: hidden;
+  border: 1px solid var(--border);
+}
+.bar-rent {
+  position: absolute; left:0; top:0; bottom:0;
+  background: var(--gold2);
+  opacity: 0.7;
+  border-radius: 3px;
+  transition: width 0.6s cubic-bezier(.4,0,.2,1);
+}
+.bar-amor {
+  position: absolute; top:0; bottom:0;
+  background: rgba(138,109,59,0.2);
+  transition: width 0.6s cubic-bezier(.4,0,.2,1), left 0.6s cubic-bezier(.4,0,.2,1);
+}
+.bar-amount { font-family: var(--mono); font-size: 10px; color: var(--ink3); width: 80px; text-align: right; flex-shrink: 0; }
+.chart-legend { display: flex; gap: 20px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.leg { display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--ink3); }
+.swatch { width: 12px; height: 10px; border-radius: 2px; }
+
+/* FICHA */
+.ficha-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.ficha-item {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+.ficha-label { font-family: var(--mono); font-size: 9px; letter-spacing: 1px; color: var(--ink4); text-transform: uppercase; margin-bottom: 6px; }
+.ficha-val { font-family: var(--mono); font-size: 12px; color: var(--ink2); }
+.ficha-val.gold { color: var(--gold); font-weight: 500; }
+
+/* INTERPRET BLOCKS */
+.interp-block {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 16px 18px;
+  margin-bottom: 12px;
+}
+.interp-block:last-child { margin-bottom: 0; }
+.interp-term { font-size: 12px; font-weight: 600; color: var(--ink); margin-bottom: 6px; }
+.interp-def {
+  font-size: 12px;
+  color: var(--ink3);
+  line-height: 1.7;
+  font-style: italic;
+  font-family: var(--serif);
+}
+.interp-impact {
+  margin-top: 8px;
+  font-size: 11px;
+  color: var(--green);
+  font-weight: 500;
+  padding: 6px 10px;
+  background: var(--green2);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* NOTA LEGAL */
+.legal {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 14px 18px;
+  font-size: 10px;
+  color: var(--ink4);
+  line-height: 1.7;
+  margin-top: 12px;
+}
+
+/* INFO ROWS */
+.info-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.info-block2 {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 16px 18px;
+}
+.info-block2 h4 { font-family: var(--mono); font-size: 9px; letter-spacing: 2px; color: var(--ink4); text-transform: uppercase; margin-bottom: 14px; }
+.irow { display: flex; justify-content: space-between; align-items: center; padding: 7px 0; border-bottom: 1px solid rgba(0,0,0,0.05); }
+.irow:last-child { border-bottom: none; }
+.ikey { font-size: 12px; color: var(--ink3); }
+.ival { font-family: var(--mono); font-size: 12px; color: var(--ink); font-weight: 500; }
+.ival.gold { color: var(--gold); }
+.ival.green { color: var(--green); }
+
+/* SEC TITLE */
+.sec-title {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--ink4);
+  margin-bottom: 14px;
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+.au  { animation: fadeUp 0.35s ease both; }
+.au1 { animation-delay: 0.05s; }
+.au2 { animation-delay: 0.1s; }
+.au3 { animation-delay: 0.15s; }
+.au4 { animation-delay: 0.2s; }
+
+/* SCROLL */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+/* RESPONSIVE */
+@media (max-width: 860px) {
+  .app { grid-template-columns: 1fr; }
+  .res-kpi-grid { grid-template-columns: 1fr 1fr; }
+  .contexto-grid { grid-template-columns: 1fr; }
+  .info-grid2 { grid-template-columns: 1fr; }
+  .ficha-grid { grid-template-columns: 1fr 1fr; }
+  header { padding: 0 20px; }
+  .hero { padding: 40px 20px 36px; }
+  .estrategia-bar { padding: 14px 20px; }
+  .app { padding: 20px 14px 60px; }
+  .res-header { padding: 20px; }
+  .client-card { padding: 20px; }
+}
+@media (max-width: 560px) {
+  .res-kpi-grid { grid-template-columns: 1fr; }
+  .kpi { border-right: none; border-bottom: 1px solid var(--border); }
+  .kpi:last-child { border-bottom: none; }
+  .ficha-grid { grid-template-columns: 1fr; }
+  .header-right span:not(.live-pill) { display: none; }
+  .client-cobros { gap: 8px; }
+  .cobro-chip { min-width: 120px; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <div class="logo-mark">CI</div>
+    <div>
+      <div class="logo-name">Coronar Inversiones</div>
+      <div class="logo-sub">Agente Productor CNV · N° 2192</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="live-pill"><div class="live-dot"></div>Datos actualizados</div>
+    <span>20 ABR 2026</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-tag">Bonos Hard Dollar · Semana del 20 de abril 2026</div>
+  <h1>Cobrá en dólares,<br><em>sin depender del tipo de cambio.</em></h1>
+  <div class="hero-sub">
+    Calculá cuánto vas a cobrar, en qué fecha y durante cuánto tiempo — antes de tomar la decisión.
+  </div>
+</div>
+
+<!-- ESTRATEGIA -->
+<div class="estrategia-bar">
+  <div class="estrategia-inner">
+    <div class="est-label">Visión semanal</div>
+    <div class="est-text">
+      Mantenemos una visión constructiva sobre el crédito soberano argentino, con foco en capturar rentabilidad en dólares y proteger el capital. Priorizamos bonos globales largos y valor relativo en ley local, respaldados por la mejora en reservas y el acuerdo con el FMI.
+    </div>
+  </div>
+</div>
+
+<!-- APP -->
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <!-- INSTRUMENTOS -->
+    <div class="card">
+      <div class="card-head">Elegí el bono</div>
+
+      <div class="bc active" onclick="selectBond('gd41', this)">
+        <div class="bc-top">
+          <div class="bc-ticker">GD41</div>
+          <span class="bc-badge ny">Ley NY</span>
+        </div>
+        <div class="bc-strategy">Apuesta principal de la semana</div>
+        <div class="bc-name">Global República Argentina 2041 · Step Up USD</div>
+        <div class="bc-stats">
+          <div><div class="bc-st-label">Precio actual</div><div class="bc-st-val">u$s 1.053,60</div></div>
+          <div><div class="bc-st-label">Rendimiento anual</div><div class="bc-st-val accent">9,21%</div></div>
+          <div><div class="bc-st-label">Sensibilidad</div><div class="bc-st-val">5,75 años</div></div>
+          <div><div class="bc-st-label">Precio s/ valor</div><div class="bc-st-val">73,9%</div></div>
+        </div>
+        <div class="bc-recommend">Seleccionado para simular</div>
+      </div>
+
+      <div class="bc" onclick="selectBond('al29', this)">
+        <div class="bc-top">
+          <div class="bc-ticker">AL29</div>
+          <span class="bc-badge arg">Ley ARG</span>
+        </div>
+        <div class="bc-strategy">Mejor valor relativo esta semana</div>
+        <div class="bc-name">Bono República Argentina 2029 · 1% USD</div>
+        <div class="bc-stats">
+          <div><div class="bc-st-label">Precio actual</div><div class="bc-st-val">u$s 902,50</div></div>
+          <div><div class="bc-st-label">Rendimiento anual</div><div class="bc-st-val accent">6,86%</div></div>
+          <div><div class="bc-st-label">Sensibilidad</div><div class="bc-st-val">1,54 años</div></div>
+          <div><div class="bc-st-label">Precio s/ valor</div><div class="bc-st-val">91,0%</div></div>
+        </div>
+        <div class="bc-recommend">Seleccionado para simular</div>
+      </div>
+
+      <div class="bc" onclick="selectBond('sfd34', this)">
+        <div class="bc-top">
+          <div class="bc-ticker">SFD34</div>
+          <span class="bc-badge ny">Ley NY</span>
+        </div>
+        <div class="bc-strategy">Sólidos fundamentos provinciales</div>
+        <div class="bc-name">Provincia de Santa Fe 2034 · 8,1% USD</div>
+        <div class="bc-stats">
+          <div><div class="bc-st-label">Precio actual</div><div class="bc-st-val">u$s 1.488,00</div></div>
+          <div><div class="bc-st-label">Rendimiento anual</div><div class="bc-st-val accent">7,79%</div></div>
+          <div><div class="bc-st-label">Sensibilidad</div><div class="bc-st-val">5,01 años</div></div>
+          <div><div class="bc-st-label">Precio s/ valor</div><div class="bc-st-val">102,4%</div></div>
+        </div>
+        <div class="bc-recommend">Seleccionado para simular</div>
+      </div>
+    </div>
+
+    <!-- INPUTS -->
+    <div class="card">
+      <div class="card-head">Simulá tu inversión</div>
+      <div class="input-body">
+        <div class="field-label">Monto a invertir</div>
+        <div class="field-wrap">
+          <div class="field-prefix">USD</div>
+          <input type="number" id="monto" value="10000" min="100" step="500" placeholder="0" oninput="onMontoChange()">
+        </div>
+        <div class="field-label">Montos frecuentes</div>
+        <div class="quick-row" id="quickRow">
+          <button class="quick-btn" onclick="setMonto(5000,this)">5.000</button>
+          <button class="quick-btn sel" onclick="setMonto(10000,this)">10.000</button>
+          <button class="quick-btn" onclick="setMonto(25000,this)">25.000</button>
+          <button class="quick-btn" onclick="setMonto(50000,this)">50.000</button>
+          <button class="quick-btn" onclick="setMonto(100000,this)">100.000</button>
+        </div>
+        <div class="noms-chip" id="nomsChip">
+          Comprás <strong id="nomsVal">—</strong> · Capital efectivo: <strong id="capitalVal">—</strong>
+        </div>
+        <button class="calc-btn" onclick="calcular()">
+          Ver mi proyección de cobros
+        </button>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- RESULTADO -->
+  <div class="result-col" id="resultCol">
+    <div class="empty-state" id="emptyState">
+      <h3>Tu proyección aparece aquí</h3>
+      <p>Elegí el bono que más te interesa, ingresá cuánto querés invertir y presioná el botón.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const BONDS = {
+  gd41: {
+    ticker: 'GD41',
+    nombre: 'Global República Argentina Step Up USD 2041',
+    subtitulo: 'Soberano · Ley Nueva York · Cupón step-up · Vence julio 2041',
+    isin: 'US040114HV54',
+    jurisdiccion: 'Nueva York (ley internacional)',
+    cupon: '3,50% anual',
+    frecuencia: 'Semestral',
+    vencimiento: '09/07/2041',
+    vtoLabel: 'Julio 2041',
+    residual: 100,
+    precio: 1053.60,
+    ytm: 9.21,
+    ytmLabel: '9,21%',
+    tna: '5,59%',
+    duracion: 5.745,
+    macaulay: 6.275,
+    convexity: 51.003,
+    paridad: 0.738625,
+    valorTec: 1.009917,
+    corriente: '4,76%',
+    valorPar: 1,
+    valorNominal: 1000,
+    pagosTotal: 42,
+    pagosPend: 31,
+    strategy: 'Apuesta principal: mayor potencial de suba si Argentina continúa comprimiendo spreads hacia categoría B-. Ideal para inversores con horizonte de 3 a 5 años.',
+    contexto: [
+      {
+        titulo: 'Reservas del BCRA en alza',
+        texto: 'El Banco Central acumula más de USD 6.000M en lo que va del año. Más reservas significa menor riesgo de default y mayor capacidad de pago de los bonos.',
+        tipo: 'green'
+      },
+      {
+        titulo: 'Acuerdo con el FMI activo',
+        texto: 'El programa vigente refuerza la credibilidad fiscal del país. Históricamente, los bonos argentinos suben cuando hay acuerdo activo con el FMI, porque baja el riesgo percibido.',
+        tipo: 'green'
+      },
+      {
+        titulo: 'Precio aún bajo par',
+        texto: 'El bono cotiza al 73,9% de su valor nominal. Eso significa que si comprás hoy, además de cobrar los cupones, tenés potencial de ganancia por suba de precio si el país mejora su calificación.',
+        tipo: 'gold'
+      },
+      {
+        titulo: 'Ley Nueva York: mayor protección',
+        texto: 'Al estar emitido bajo jurisdicción de NY, en caso de conflicto legal, el inversor litiga en tribunales internacionales, no argentinos. Eso reduce el riesgo regulatorio.',
+        tipo: 'green'
+      }
+    ],
+    flows: [
+      {f:'2026-07-09',r:1.75,a:0},{f:'2027-01-09',r:1.75,a:0},{f:'2027-07-09',r:1.75,a:0},
+      {f:'2028-01-09',r:1.75,a:3.57},{f:'2028-07-09',r:1.69,a:3.57},{f:'2029-01-09',r:1.63,a:3.57},
+      {f:'2029-07-09',r:1.56,a:3.57},{f:'2030-01-09',r:2.09,a:3.57},{f:'2030-07-09',r:2.00,a:3.57},
+      {f:'2031-01-09',r:1.92,a:3.57},{f:'2031-07-09',r:1.85,a:3.57},{f:'2032-01-09',r:1.77,a:3.57},
+      {f:'2032-07-09',r:1.70,a:3.57},{f:'2033-01-09',r:1.63,a:3.57},{f:'2033-07-09',r:1.55,a:3.57},
+      {f:'2034-01-09',r:1.48,a:3.57},{f:'2034-07-09',r:1.40,a:3.57},{f:'2035-01-09',r:1.33,a:3.57},
+      {f:'2035-07-09',r:1.25,a:3.57},{f:'2036-01-09',r:1.18,a:3.57},{f:'2036-07-09',r:1.10,a:3.57},
+      {f:'2037-01-09',r:1.03,a:3.57},{f:'2037-07-09',r:0.95,a:3.57},{f:'2038-01-09',r:0.88,a:3.57},
+      {f:'2038-07-09',r:0.80,a:3.57},{f:'2039-01-09',r:0.73,a:3.57},{f:'2039-07-09',r:0.65,a:3.57},
+      {f:'2040-01-09',r:0.57,a:3.57},{f:'2040-07-09',r:0.49,a:3.57},{f:'2041-01-09',r:0.41,a:3.57},
+      {f:'2041-07-09',r:0.18,a:5.30}
+    ]
+  },
+  al29: {
+    ticker: 'AL29',
+    nombre: 'Bono República Argentina USD 2029',
+    subtitulo: 'Soberano · Ley Argentina · Cupón 1% · Vence julio 2029',
+    isin: 'ARARGE3209Y4',
+    jurisdiccion: 'Argentina (ley local)',
+    cupon: '1,00% anual',
+    frecuencia: 'Semestral',
+    vencimiento: '09/07/2029',
+    vtoLabel: 'Julio 2029',
+    residual: 70,
+    precio: 902.50,
+    ytm: 6.86,
+    ytmLabel: '6,86%',
+    tna: '3,65%',
+    duracion: 1.535,
+    macaulay: 1.641,
+    convexity: 4.667,
+    paridad: 0.910236,
+    valorTec: 0.701983,
+    corriente: '1,10%',
+    valorPar: 0.7,
+    valorNominal: 1000,
+    pagosTotal: 18,
+    pagosPend: 7,
+    strategy: 'Mejor valor relativo tras la compresión de spreads en el AL30. A corto plazo, es la opción con menor riesgo de tasa y vencimiento cercano. Ideal para horizontes de 1 a 3 años.',
+    contexto: [
+      {
+        titulo: 'Vencimiento cercano: menor riesgo',
+        texto: 'Con vencimiento en 2029 y solo 7 pagos restantes, el riesgo de que algo cambie radicalmente en el país es menor. Mientras más corto el bono, más predecible el flujo.',
+        tipo: 'green'
+      },
+      {
+        titulo: 'Alta paridad: precio cerca del valor real',
+        texto: 'Cotiza al 91% de su valor nominal, lo que indica que el mercado ya reconoce su baja riesgo. Es una señal de confianza en el cobro a término.',
+        tipo: 'green'
+      },
+      {
+        titulo: 'Amortiza capital desde el primer pago',
+        texto: 'A diferencia de otros bonos, el AL29 ya está devolviendo capital en cada cuota. Eso significa que tu inversión inicial se recupera progresivamente mientras cobrás renta.',
+        tipo: 'gold'
+      },
+      {
+        titulo: 'Ley argentina: mayor liquidez local',
+        texto: 'Al operar bajo ley local, puede ser más sencillo de comprar y vender en el mercado argentino. Para inversores que operan en pesos, tiene ventajas operativas.',
+        tipo: 'gold'
+      }
+    ],
+    flows: [
+      {f:'2026-07-09',r:0.35,a:10},{f:'2027-01-09',r:0.30,a:10},{f:'2027-07-09',r:0.25,a:10},
+      {f:'2028-01-09',r:0.20,a:10},{f:'2028-07-09',r:0.15,a:10},
+      {f:'2029-01-09',r:0.10,a:10},{f:'2029-07-09',r:0.05,a:10}
+    ]
+  },
+  sfd34: {
+    ticker: 'SFD34',
+    nombre: 'Provincia de Santa Fe 8,1% USD 2034',
+    subtitulo: 'Provincial · Ley Nueva York · Cupón fijo 8,1% · Vence diciembre 2034',
+    isin: 'USP84641AD49',
+    jurisdiccion: 'Nueva York (ley internacional)',
+    cupon: '8,10% anual',
+    frecuencia: 'Semestral',
+    vencimiento: '11/12/2034',
+    vtoLabel: 'Diciembre 2034',
+    residual: 100,
+    precio: 1488.00,
+    ytm: 7.79,
+    ytmLabel: '7,79%',
+    tna: '6,09%',
+    duracion: 5.012,
+    macaulay: 5.403,
+    convexity: 35.213,
+    paridad: 1.023566,
+    valorTec: 1.02925,
+    corriente: '7,91%',
+    valorPar: 1,
+    valorNominal: 1000,
+    pagosTotal: 19,
+    pagosPend: 18,
+    strategy: 'El respaldo de la Provincia de Santa Fe aporta solidez: es una de las provincias con mejor historial de pago. El cupón del 8,1% es de los más altos disponibles hoy en bonos provinciales argentinos.',
+    contexto: [
+      {
+        titulo: 'Santa Fe: una de las provincias más sólidas',
+        texto: 'Santa Fe es la tercera economía provincial de Argentina, con fuerte base agroindustrial y soja exportable. Su historial de pago de deuda es consistente y no registra defaults provinciales recientes.',
+        tipo: 'green'
+      },
+      {
+        titulo: 'Cupón del 8,1%: renta real en USD',
+        texto: 'Con un cupón fijo del 8,1% anual, cada semestre recibís intereses calculados sobre el 100% del capital nominal. Es una de las rentas más altas disponibles en el segmento provincial hoy.',
+        tipo: 'green'
+      },
+      {
+        titulo: 'Cotiza sobre la par: alta demanda',
+        texto: 'El bono cotiza al 102,4% de su valor nominal. Eso indica que el mercado paga más que el valor original, señal de alta confianza en el emisor. El capital de amortización se paga al 100% al vencimiento.',
+        tipo: 'gold'
+      },
+      {
+        titulo: 'Diversificación fuera del soberano',
+        texto: 'Invertir en una provincia permite reducir la exposición exclusiva a la República Argentina. Santa Fe tiene ingresos propios (regalías, impuestos provinciales) independientes del gobierno nacional.',
+        tipo: 'green'
+      }
+    ],
+    flows: [
+      {f:'2026-06-11',r:4.05,a:0},{f:'2026-12-11',r:4.05,a:0},{f:'2027-06-11',r:4.05,a:0},
+      {f:'2027-12-11',r:4.05,a:0},{f:'2028-06-11',r:4.05,a:0},{f:'2028-12-11',r:4.05,a:0},
+      {f:'2029-06-11',r:4.05,a:0},{f:'2029-12-11',r:4.05,a:0},{f:'2030-06-11',r:4.05,a:0},
+      {f:'2030-12-11',r:4.05,a:0},{f:'2031-06-11',r:4.05,a:0},{f:'2031-12-11',r:4.05,a:0},
+      {f:'2032-06-11',r:4.05,a:0},{f:'2032-12-11',r:4.05,a:0},{f:'2033-06-11',r:4.05,a:0},
+      {f:'2033-12-11',r:4.05,a:0},{f:'2034-06-11',r:4.05,a:100},{f:'2034-12-11',r:4.05,a:0}
+    ]
+  }
+};
+
+const TODAY = new Date('2026-04-20');
+let activeBond = 'gd41';
+
+function fmt(n, d=2) { return n.toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d}); }
+function days(dateStr) { return Math.round((new Date(dateStr) - TODAY) / 86400000); }
+function fmtFecha(s) {
+  const [y,m,d] = s.split('-');
+  const meses = ['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  return `${parseInt(d)} ${meses[parseInt(m)]} ${y}`;
+}
+
+function selectBond(id, el) {
+  activeBond = id;
+  document.querySelectorAll('.bc').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  onMontoChange();
+}
+
+function setMonto(v, btn) {
+  document.getElementById('monto').value = v;
+  document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('sel'));
+  if (btn) btn.classList.add('sel');
+  onMontoChange();
+}
+
+function onMontoChange() {
+  const b = BONDS[activeBond];
+  const m = parseFloat(document.getElementById('monto').value) || 0;
+  const noms = Math.floor(m / b.precio);
+  const chip = document.getElementById('nomsChip');
+  if (noms > 0) {
+    chip.classList.add('show');
+    document.getElementById('nomsVal').textContent = noms.toLocaleString('es-AR') + ' nominales';
+    document.getElementById('capitalVal').textContent = 'u$s ' + fmt(noms * b.precio, 0);
+  } else { chip.classList.remove('show'); }
+}
+
+function showTab(id, btn) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+function calcular() {
+  const b = BONDS[activeBond];
+  const monto = parseFloat(document.getElementById('monto').value) || 0;
+  const noms = Math.floor(monto / b.precio);
+  if (noms < 1) { alert('El monto ingresado no alcanza para adquirir al menos 1 nominal de este bono.'); return; }
+
+  const invertido = noms * b.precio;
+  const VN = b.valorNominal;
+
+  let totalR = 0, totalA = 0, acum = 0;
+  const rows = b.flows.map((f, i) => {
+    const rUSD = (f.r / 100) * noms * VN * b.valorPar;
+    const aUSD = (f.a / 100) * noms * VN * b.valorPar;
+    const tot  = rUSD + aUSD;
+    acum += tot;
+    totalR += rUSD;
+    totalA += aUSD;
+    return { fecha: f.f, rUSD, aUSD, tot, acum, d: days(f.f) };
+  });
+
+  const totalFlow = totalR + totalA;
+  const ganancia  = totalFlow - invertido;
+  const retPct    = (ganancia / invertido) * 100;
+  const proxTot   = rows[0].tot;
+  const diasProx  = rows[0].d;
+
+  // Narrative para el cliente
+  const narrativa = buildNarrativa(b, noms, invertido, totalFlow, totalR, totalA, ganancia, retPct, rows);
+
+  // Próximos cobros (primeros 4)
+  const cobrosHtml = rows.slice(0, 4).map((r, i) => `
+    <div class="cobro-chip ${i===0?'next':''}">
+      <div class="cobro-date">${fmtFecha(r.fecha)}</div>
+      <div class="cobro-amt">u$s ${fmt(r.tot, 0)}</div>
+      <div class="cobro-label">${r.d} días · ${i===0?'Próximo cobro':i===1?'2° cobro':i===2?'3° cobro':'4° cobro'}</div>
+    </div>
+  `).join('');
+
+  // Contexto cards
+  const ctxHtml = b.contexto.map(c => `
+    <div class="ctx-card">
+      <div class="ctx-card-title">
+        <div class="ctx-dot ${c.tipo}"></div>
+        ${c.titulo}
+      </div>
+      <div class="ctx-body">${c.texto}</div>
+    </div>
+  `).join('');
+
+  // Tabla CF
+  const tblHtml = rows.map((r, i) => {
+    const diasStr = r.d < 0 ? 'Vencido' : r.d === 0 ? 'Hoy' : r.d + ' días';
+    return `<tr class="${i===0?'prox':''}">
+      <td class="c-ink">${fmtFecha(r.fecha)}${i===0?'<span class="tag-prox">PRÓXIMO</span>':''}</td>
+      <td>${diasStr}</td>
+      <td class="c-gold">${r.rUSD > 0 ? 'u$s '+fmt(r.rUSD) : '—'}</td>
+      <td>${r.aUSD > 0 ? 'u$s '+fmt(r.aUSD) : '—'}</td>
+      <td class="c-ink">u$s ${fmt(r.tot)}</td>
+      <td>u$s ${fmt(r.acum,0)}</td>
+    </tr>`;
+  }).join('');
+
+  // Barras
+  const maxV = Math.max(...rows.map(r => r.tot));
+  const barHtml = rows.map(r => {
+    const pr = (r.rUSD / maxV) * 100;
+    const pa = (r.aUSD / maxV) * 100;
+    return `<div class="bar-row">
+      <div class="bar-label">${r.fecha.substring(0,7)}</div>
+      <div class="bar-track">
+        <div class="bar-rent" style="width:${pr}%"></div>
+        <div class="bar-amor" style="left:${pr}%;width:${pa}%"></div>
+      </div>
+      <div class="bar-amount">u$s ${fmt(r.tot,0)}</div>
+    </div>`;
+  }).join('');
+
+  // Glosario interpretativo
+  const glosario = buildGlosario(b);
+
+  // Ficha técnica
+  const fichaItems = [
+    ['Nombre completo', b.nombre],['ISIN', b.isin],['Jurisdicción', b.jurisdiccion],
+    ['Moneda', 'USD'],['Tipo de cupón', 'Tasa fija'],['Frecuencia', b.frecuencia],
+    ['Cupón anual', b.cupon],['Vencimiento', b.vencimiento],['Amortización', 'Sinkable'],
+    ['Convención días', '30/360'],['Residual vigente', b.residual+'%'],['Valor par', 'u$s '+(b.valorPar*1000).toLocaleString()],
+    ['Precio mercado', 'u$s '+fmt(b.precio)],['YTM', b.ytmLabel],['TNA', b.tna],
+    ['Current yield', b.corriente],['Paridad', fmt(b.paridad*100,4)+'%'],['Valor técnico', fmt(b.valorTec,6)],
+    ['Duration mod.', fmt(b.duracion,4)],['Macaulay', fmt(b.macaulay,4)],['Convexity', fmt(b.convexity,3)],
+    ['Pagos totales', b.pagosTotal],['Pagos pendientes', b.pagosPend],['Próximo pago', fmtFecha(b.flows[0].f)]
+  ];
+  const fichaHtml = fichaItems.map(([l,v]) => `
+    <div class="ficha-item">
+      <div class="ficha-label">${l}</div>
+      <div class="ficha-val">${v}</div>
+    </div>
+  `).join('');
+
+  const html = `
+    <!-- HEADER RESULTADO -->
+    <div class="res-header au">
+      <div class="res-bond-name">${b.nombre}</div>
+      <div class="res-bond-sub">${b.subtitulo}</div>
+      <div class="res-kpi-grid">
+        <div class="kpi">
+          <div class="kpi-label">Invertís</div>
+          <div class="kpi-val gold">u$s ${fmt(invertido,0)}</div>
+          <div class="kpi-sub">${noms.toLocaleString('es-AR')} nominales · u$s ${fmt(b.precio)} c/u</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Cobrás en total</div>
+          <div class="kpi-val green">u$s ${fmt(totalFlow,0)}</div>
+          <div class="kpi-sub">En ${b.pagosPend} pagos hasta ${b.vtoLabel}</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Ganancia total</div>
+          <div class="kpi-val green">+${fmt(retPct,1)}%</div>
+          <div class="kpi-sub">u$s ${fmt(ganancia,0)} sobre tu capital</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Primer cobro</div>
+          <div class="kpi-val ink">u$s ${fmt(proxTot,0)}</div>
+          <div class="kpi-sub">En ${diasProx} días · ${fmtFecha(rows[0].fecha)}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NARRATIVA CLIENTE -->
+    <div class="client-card au au1">
+      <div class="client-title">Lo que esto significa para vos</div>
+      <div class="client-narrative">${narrativa}</div>
+      <div class="client-cobros">
+        ${cobrosHtml}
+      </div>
+    </div>
+
+    <!-- CONTEXTO -->
+    <div class="au au2">
+      <div class="sec-title" style="margin-bottom:12px;">Por qué este bono hoy</div>
+      <div class="contexto-grid">${ctxHtml}</div>
+    </div>
+
+    <!-- TABS -->
+    <div class="tabs-card au au3">
+      <div class="tab-bar">
+        <button class="tab-btn active" onclick="showTab('calendario',this)">Calendario de cobros</button>
+        <button class="tab-btn" onclick="showTab('grafico',this)">Gráfico</button>
+        <button class="tab-btn" onclick="showTab('glosario',this)">Entender los datos</button>
+        <button class="tab-btn" onclick="showTab('ficha',this)">Ficha técnica</button>
+      </div>
+
+      <!-- CALENDARIO -->
+      <div class="tab-content active" id="tab-calendario">
+        <div class="sec-title">${b.ticker} · ${noms.toLocaleString('es-AR')} nominales · ${b.pagosPend} cobros hasta ${b.vencimiento}</div>
+        <div class="tbl-wrap">
+          <table class="tbl">
+            <thead>
+              <tr>
+                <th>Fecha de pago</th>
+                <th>Días restantes</th>
+                <th>Intereses</th>
+                <th>Devolución capital</th>
+                <th>Total a cobrar</th>
+                <th>Acumulado cobrado</th>
+              </tr>
+            </thead>
+            <tbody>${tblHtml}</tbody>
+          </table>
+        </div>
+        <div class="legal">
+          Simulación educativa. Flujos calculados sobre valor nominal (láminas de u$s ${(b.valorPar*1000).toLocaleString()} c/u). El precio de mercado determina las nominales adquiribles. Los pagos se realizan sobre el residual nominal vigente al momento del cobro. No constituye asesoramiento de inversión personalizado. Cintia Boos · Agente Productor CNV N° 2192.
+        </div>
+      </div>
+
+      <!-- GRAFICO -->
+      <div class="tab-content" id="tab-grafico">
+        <div class="sec-title">Distribución de pagos por período</div>
+        <div class="chart-outer">
+          ${barHtml}
+          <div class="chart-legend">
+            <div class="leg"><div class="swatch" style="background:rgba(201,165,90,0.7)"></div>Intereses (renta)</div>
+            <div class="leg"><div class="swatch" style="background:rgba(138,109,59,0.2)"></div>Devolución de capital</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GLOSARIO -->
+      <div class="tab-content" id="tab-glosario">
+        <div class="sec-title">Entendé cada dato — y cómo afecta tu inversión</div>
+        ${glosario}
+      </div>
+
+      <!-- FICHA TÉCNICA -->
+      <div class="tab-content" id="tab-ficha">
+        <div class="sec-title">Datos completos del instrumento</div>
+        <div class="ficha-grid">${fichaHtml}</div>
+      </div>
+
+    </div>
+  `;
+
+  const col = document.getElementById('resultCol');
+  col.innerHTML = html;
+
+  // Animate bars after paint
+  setTimeout(() => {
+    col.querySelectorAll('.bar-rent, .bar-amor').forEach(el => {
+      const w = el.style.width;
+      el.style.width = '0';
+      setTimeout(() => { el.style.width = w; }, 80);
+    });
+  }, 150);
+}
+
+function buildNarrativa(b, noms, invertido, totalFlow, totalR, totalA, ganancia, retPct, rows) {
+  const proxFecha = fmtFecha(rows[0].fecha);
+  const proxAmt   = rows[0].tot;
+  const diasProx  = rows[0].d;
+
+  if (b.ticker === 'GD41') {
+    return `Invertís <strong>u$s ${fmt(invertido,0)}</strong> hoy y a lo largo de ${b.pagosPend} pagos semestrales hasta julio de 2041 vas a cobrar un total de <strong>u$s ${fmt(totalFlow,0)}</strong>. De ese total, <strong>u$s ${fmt(totalR,0)}</strong> son intereses y <strong>u$s ${fmt(totalA,0)}</strong> es la devolución de tu capital. Tu primer cobro es el <strong>${proxFecha}</strong>, en ${diasProx} días, por <strong>u$s ${fmt(proxAmt,0)}</strong>. Si el país continúa comprimiendo spreads hacia una calificación B-, el bono puede subir de precio y generarte una ganancia adicional al venderlo antes del vencimiento. Comprado hoy al 73,9% de su valor, hay margen de apreciación.`;
+  }
+  if (b.ticker === 'AL29') {
+    return `Invertís <strong>u$s ${fmt(invertido,0)}</strong> hoy. A diferencia de otros bonos, el AL29 te devuelve capital e intereses desde el primer pago. En ${diasProx} días, el <strong>${proxFecha}</strong>, cobrás tu primer cuota de <strong>u$s ${fmt(proxAmt,0)}</strong> — parte es interés, parte es tu capital de vuelta. Al completar los ${b.pagosPend} pagos en julio de 2029, habrás cobrado un total de <strong>u$s ${fmt(totalFlow,0)}</strong>. Es el bono con vencimiento más cercano de los tres: menor riesgo de tasa, pero también menor rendimiento potencial por suba de precio. Ideal si querés flujo constante en el corto plazo.`;
+  }
+  if (b.ticker === 'SFD34') {
+    return `Invertís <strong>u$s ${fmt(invertido,0)}</strong> hoy en un bono que paga el <strong>8,1% anual</strong> en dólares — uno de los cupones más altos del mercado provincial. Cada semestre, sin excepción, cobrás intereses. Tu primer cobro es el <strong>${proxFecha}</strong>, en ${diasProx} días, por <strong>u$s ${fmt(proxAmt,0)}</strong>. A lo largo de ${b.pagosPend} pagos hasta diciembre de 2034, el total acumulado es <strong>u$s ${fmt(totalFlow,0)}</strong>. La Provincia de Santa Fe tiene uno de los mejores historiales de pago del país, lo que hace a este bono una alternativa de renta predecible y respaldada por una economía provincial sólida.`;
+  }
+  return '';
+}
+
+function buildGlosario(b) {
+  const items = [
+    {
+      term: `YTM ${b.ytmLabel} — Rendimiento al vencimiento`,
+      def: 'Es el retorno anual que obtenés si comprás el bono hoy y lo mantenés hasta que vence, considerando tanto los cobros de intereses como la diferencia entre el precio de compra y el valor nominal.',
+      impact: `Con el ${b.ticker} a ${b.ytmLabel} de YTM, tu dinero rinde más que un plazo fijo en dólares tradicional.`
+    },
+    {
+      term: `Paridad ${fmt(b.paridad*100,1)}% — A cuánto cotiza respecto de su valor original`,
+      def: 'Si el bono vale 100 al vencimiento y hoy cotiza al 73,9%, significa que lo comprás "barato". Si cotiza al 102,4%, el mercado paga más porque confía en el emisor.',
+      impact: b.paridad < 1
+        ? 'Comprarlo bajo la par (menos del 100%) da potencial de ganancia por precio si mejora la situación del país.'
+        : 'Cotiza sobre la par: el mercado ya paga una prima por la calidad del emisor. Ganás principalmente por el cupón alto.'
+    },
+    {
+      term: `Duration ${fmt(b.duracion,2)} años — Cuánto tiempo tardás en recuperar tu inversión`,
+      def: 'La duration mide cuántos años tardás, en promedio, en recuperar el dinero invertido a través de los pagos del bono. También indica cuánto sube o baja el precio si cambian las tasas de interés en el mundo.',
+      impact: `Una duration de ${fmt(b.duracion,2)} años significa que por cada 1% que suban las tasas globales, el precio del bono baja aproximadamente un ${fmt(b.duracion,1)}%. Y viceversa.`
+    },
+    {
+      term: 'Current yield — Renta sobre el precio que pagás hoy',
+      def: 'Es el porcentaje de intereses que cobrás al año en relación al precio que pagás hoy. Diferente al cupón, porque el cupón es fijo sobre el valor nominal.',
+      impact: `Con un current yield de ${b.corriente}, por cada u$s 1.000 que invertís hoy, cobrás aproximadamente u$s ${fmt(parseFloat(b.corriente)*10,0)} en intereses el primer año.`
+    },
+    {
+      term: 'Amortización — Devolución del capital',
+      def: 'Es cuando el bono devuelve parte (o todo) del capital original. Algunos bonos solo pagan intereses y devuelven todo al final; otros van devolviendo capital en cuotas junto con los intereses.',
+      impact: 'Cuando el bono amortiza capital, cobrás más en ese período pero la renta futura es menor (porque el capital restante disminuye).'
+    }
+  ];
+  return items.map(it => `
+    <div class="interp-block">
+      <div class="interp-term">${it.term}</div>
+      <div class="interp-def">${it.def}</div>
+      <div class="interp-impact">${it.impact}</div>
+    </div>
+  `).join('');
+}
+
+// Init
+onMontoChange();
+</script>
+</body>
+</html> implementar la opcion de calcular ganancia de capital basado en la paridad y precio actual. permitir actualizar precio de mercado manualmente y recalcular flujos, tene en cuenta que la ytm tmb cambia y demas datos que teenes que tener en cuenta para automatizar todo manualmente. o permitir añadir ytm manualmente y paridad. pero dudo que el cliente quiera, coloca ambas opciones. eliminar esto CI
+
+Coronar Inversiones
+
+
+
+Datos en vivo
+
+IOL · Balanz20 ABR 2026  detectar y corregir incoherencias y errores de calculo no puedo fallar en eso,, ademas el texto y demas es muy claro y no llega a verse con el fondo blanco

@@ -1,0 +1,1126 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones Macchi
+3ª ed., Buenos Aires, 1998
+ISBN 950-537435-6
+Este material se utiliza con fines
+exclusivamente didácticos
+
+ÍNDICE
+PARTE I. CONCEPTOS FUNDAMENTALES EN FINANZAS.....................................................1
+CAPÍTULO 1. FUNCIONES Y OBJETIVOS DE LAS FINANZAS...............................................3
+1,1. De qué tratan las finanzas modernas...................................................................................3
+1,2. La maximización del valor como objetivo de la firma......................................................11
+1,3. El gerente financiero..........................................................................................................17
+CAPÍTULO 2. MERCADOS FINANCIEROS.................................................................................21
+2,1. Interrelación entre las finanzas de la firma y los mercados financieros............................21
+2,2. Mercados financieros.........................................................................................................22
+2,3. Intermediación financiera..................................................................................................28
+2,4. Activos o instrumentos financieros...................................................................................31
+2,5. Integración de los mercados financieros............................................................................33
+CAPÍTULO 3. MERCADOS FINANCIEROS Y VALOR PRESENTE NETO...........................37
+3,1. Mercados financieros y su equilibrio.................................................................................37
+3,2. Las elecciones de consumo................................................................................................38
+3,3. Introduciendo en el análisis la inversión en activos reales................................................40
+3,4. Referencia conceptual básica para las decisiones de inversión.........................................44
+3,5. Tasa de interés e inflación.................................................................................................45
+CAPÍTULO 4. VALOR TIEMPO DEL DINERO...........................................................................49
+4,1. Valor futuro.......................................................................................................................50
+4,2. Valor presente....................................................................................................................55
+4,3. Anualidades.......................................................................................................................59
+4,4. Valor presente de una serie de flujos desiguales...............................................................61
+CAPÍTULO 5. ELEMENTOS DE VALUACIÓN............................................................................63
+5,1. Aproximaciones a la determinación del valor de un activo...............................................63
+5,2. Fundamentos de la valuación a través de flujos de fondos esperados...............................65
+5,3. Valor de un bono de descuento puro.................................................................................67
+5,4. Valor de un bono con cupón y principal............................................................................67
+5,5. Valor de un bono perpetuo................................................................................................70
+5,6. Valor de una acción...........................................................................................................71
+5,7- Rendimiento de una acción...............................................................................................75
+PARTE II. ANÁLISIS DE INVERSIONES......................................................................................77
+CAPÍTULO 6. CRITERIOS PARA EL ANÁLISIS DE INVERSIONES.....................................79
+6,1. Tasa de rentabilidad...........................................................................................................79
+6,2. Valor presente neto............................................................................................................84
+2
+
+6,3. Relación beneficio-costo (BIC).........................................................................................87
+6,4. Algunos puntos prácticos relacionados con el cálculo de la tasa de rentabilidad y
+el valor presente neto................................................................................................................88
+6,5. Período de repago..............................................................................................................92
+6,6. Tasa simple de rendimiento sobre la inversión .................................................................95
+6,7. Período de repago ajustado por el tiempo..........................................................................96
+6,8. Tasa de rentabilidad y tasa simple de rendimiento sobre la inversión...............................97
+CAPÍTULO 7. VALOR PRESENTE NETO VS. TASA DE RENTABILIDAD...........................99
+7,1. Decisión de aceptación o de rechazo.................................................................................99
+7,2. Consideraciones técnicas adicionales sobre la tasa de rentabilidad.................................101
+7,3 Consideraciones técnicas adicionales sobre el valor presente neto..................................104
+7,4. Presencia de situaciones conflictivas...............................................................................106
+7,5. Enfoque terminal.............................................................................................................113
+7,6. Disparidades en el tamaño y en las vidas útiles...............................................................115
+7,7. Racionamiento de capital.................................................................................................118
+Apéndice.................................................................................................................................122
+CAPÍTULO 8. DEFINICIÓN DE FLUJO DE FONDOS..............................................................125
+8,1. Base caja..........................................................................................................................125
+8,2. Flujos de caja incrementales............................................................................................126
+8,3. El tiempo de los flujos de fondos....................................................................................127
+8,4. Flujos de fondos prescindentes del financiamiento de la inversión.................................128
+8,5. Los flujos de fondos en proyectos interdependientes......................................................129
+8,6. Los efectos de la inflación en los flujos de fondos..........................................................129
+8,7. Modelo general de flujo de fondo....................................................................................129
+8,8. Flujo de fondos para el accionista...................................................................................135
+81-9. Flujo de fondos para el período de repago....................................................................137
+8,10. Inflación, flujos y criterios de análisis de inversiones...................................................138
+8,11. Un enfoque alternativo..................................................................................................148
+CAPÍTULO 9. RIESGO Y OPCIONES EN EL ANÁLISIS DE INVERSIONES......................151
+9,1. Introducción.....................................................................................................................151
+9,2. El riesgo en finanzas........................................................................................................152
+9,3. Algunas dicotomías.........................................................................................................154
+9,4. La varianza como subrogante cuantitativo del riesgo......................................................156
+9,5. La utilización de algunas funciones de probabilidad.......................................................158
+9,6. El riesgo en el tiempo......................................................................................................161
+9,7. Modelos de simulación....................................................................................................166
+9,8. Otras aproximaciones al tratamiento de la incertidumbre...............................................172
+9,9. Opciones reales y análisis de inversiones........................................................................180
+Apéndice.................................................................................................................................181
+PARTE III. RIESGO Y RENDIMIENTO
+CAPÍTULO 10. TEORÍA DEL PORTAFOLIO............................................................................189
+3
+
+10,1. Introducción...................................................................................................................189
+10,2. Rendimiento y riesgo de portafolios..............................................................................190
+10,1 La frontera de eficiencia.................................................................................................194
+10,4. Elección de portafolios óptimos....................................................................................196
+10,5. La determinación de¡ conjunto de portafolios óptimos.................................................198
+10,6. Oportunidades de inversión y portafolios dominantes..................................................199
+10,7. La inflación y la selección de portafolios......................................................................202
+10,8. Un ejemplo de aplicación..............................................................................................203
+Apéndice.................................................................................................................................208
+CAPÍTULO 11. TEORÍA DEL MERCADO DE CAPITALES Y EL MODELO DE
+FIJACIÓN DE PRECIOS DE ACTIVOS DE CAPITAL.............................................................213
+11,1. Las etapas del análisis de Markowitz............................................................................213
+11,2. Supuestos del CAPM.....................................................................................................214
+11,1 Teoría del mercado de capitales.....................................................................................215
+11,4. El CAPM.......................................................................................................................220
+11,5. Algunos problemas teóricos..........................................................................................232
+11,6. La evidencia empírica sobre el CAPM..........................................................................235
+CAPÍTULO 12. OTROS MODELOS DE FIJACIÓN DE PRECIOS..........................................237
+12,1. Introducción...................................................................................................................237
+12,2. Modelo de beta cero de BLACK...................................................................................238
+12,3. Modelo multifactorial de MERTON.............................................................................240
+12,4. Modelo de fijación de precios de arbitraje.....................................................................241
+12,5. Acuerdos y desacuerdos sobre teorías para determinar estrategias de inversión...........243
+CAPÍTULO 13. EL RENDIMIENTO REQUERIDO PARA LAS INVERSIONES..................245
+13,1. Los grandes enfoques para el análisis de la tasa de rendimiento requerida...................245
+13,2. La tasa de rendimiento requerida: aproximación del costo promedio del capital..........246
+13,3 Valor presente ajustado: otra aproximación de tasa de rendimiento requerida..............263
+13,4. Valor presente neto de una inversión. Una visión complexiva de tres aproximaciones
+de tasa de rendimiento requerida............................................................................................265
+13,5. La evaluación de inversiones en un contexto de riesgo total de la firma......................267
+13,6. Evaluando los dos métodos...........................................................................................268
+Apéndice.................................................................................................................................269
+PARTE IV. POLÍTICAS DE FINANCIAMIENTO......................................................................271
+CAPÍTULO 14. DECISIONES DE FINANCIAMIENTO Y LA HIPÓTESIS DE
+MERCADOS EFICIENTES.............................................................................................................273
+14,1. Decisiones de inversión y de financiamiento................................................................273
+14,2. Mercados financieros perfectos y mercados financieros eficientes...............................274
+14,1 Diferentes tipos de eficiencia..........................................................................................276
+14,4. Rendimiento “ab nominal”............................................................................................277
+14,5. Algunas críticas y aportes de hipótesis sobre mercados eficientes................................278
+CAPÍTULO 15. LOS ELEMENTOS DEL ANÁLISIS DE DECISIONES DE
+FINANCIAMIENTO........................................................................................................................281
+4
+
+15,1. Decisiones fundamentales sobre financiamiento...........................................................281
+15,2. Tres aspectos básicos para las decisiones de financiamiento........................................282
+15,1 Algunas diferencias entre las decisiones de inversión y las de financiamiento..............284
+CAPÍTULO 16. COSTO DE LAS DEUDAS..................................................................................285
+16, l. Algunas definiciones.....................................................................................................285
+16,2. Costo de las deudas........................................................................................................287
+16,3. Comparación de las alternativas de la renegociación de deudas...................................296
+CAPÍTULO 17. LEASING...............................................................................................................297
+17,1. Introducción...................................................................................................................297
+17,2. Valuación de una operación de leasing..........................................................................298
+17,3. Ventajas y desventajas de una operación de leasing......................................................301
+CAPÍTULO 18. EL LEVERAGE Y SUS EFECTOS.....................................................................303
+18,1. Punto de equilibrio.........................................................................................................303
+18,2. Leverage operativo........................................................................................................309
+18,3. Leverage financiero.......................................................................................................315
+18,4. Leverage combinada......................................................................................................317
+18,5. El efecto leverage: una visión........................................................................................318
+18,6. El efecto leverage y el leverage combinado..................................................................321
+18,7. El efecto leverage en condiciones inflacionarias...........................................................322
+18,8. El efecto de la distribución en el tiempo del servicio de deuda,
+la inflación y el efecto leverage..............................................................................................324
+18,9. El efecto leverage cuando la tasa de interés es negativa...............................................325
+CAPÍTULO 19. TEORÍA DE LA ESTRUCTURA FINANCIERA.............................................329
+19,1. Modelos iníciales sobre la teoría de la estructura financiera.........................................329
+19,2. El efecto de los impuestos.............................................................................................336
+19,1 Efectos de los costos de bancarrota................................................................................342
+19,4. Efectos de los costos de agencia....................................................................................347
+19,5. Efectos de la información asimétrica y la señalización.................................................353
+19,6. Efectos de la interacción de los mercados de insumos y de productos..........................355
+19,7. Efectos del control de la propiedad...............................................................................356
+19,8. Efectos de otras imperfecciones....................................................................................357
+19,9. A manera de conclusión.................................................................................................358
+CAPÍTULO 20. EVIDENCIA EMPÍRICA DE ESTRUCTURAS FINANCIERAS
+Y LOS LÍMITES DEL ENDEUDAMIENTO.................................................................................361
+20,1. La evidencia empírica sobre estructuras financieras.....................................................361
+20,2. Determinación de la mezcla de fuentes de corto y largo plazo......................................369
+20,1 Los límites del endeudamiento de la empresa................................................................372
+20,4. Modelo de crecimiento autosostenido de HIGGINGS..................................................383
+PARTE V. POLÍTICA DE DIVIDENDOS.....................................................................................387
+5
+
+CAPÍTULO 21. FACTORES QUE INFLUYEN EN LA POLÍTICA DE DIVIDENDOS.........389
+21,1. La influencia de los dividendos en el valor de la empresa............................................389
+21,2. Factores que influyen en la práctica de la política de dividendos..................................392
+CAPÍTULO 22. DIVIDENDOS Y SU RELACIÓN CON INVERSIONES Y
+FINANCIAMIENTO........................................................................................................................395
+22,1. Las relaciones entre inversiones, financiamiento y dividendos: un ejemplo.................395
+22,2. Elementos para una política de dividendos residual......................................................399
+PARTE VI. ADMINISTRACIÓN DE LOS RIESGOS FINANCIEROS....................................401
+CAPÍTULO 23. EVOLUCIÓN DE LA ADMINISTRACIÓN DE LOS RIESGOS
+FINANCIEROS.................................................................................................................................403
+23,1. En un mundo más riesgoso............................................................................................403
+23,2. Resultancias del riesgo de los precios financieros.........................................................405
+CAPÍTULO 24. CONDICIONES DE PARIDAD EN LAS FINANZAS INTERNACIONALES
+Y FORWARDS..................................................................................................................................409
+24,1. Condiciones de paridad en finanzas internacionales.....................................................409
+24,2. Mercados forwards o a término.....................................................................................415
+CAPÍTULO 25. FUTUROS..............................................................................................................425
+25,1. Introducción...................................................................................................................425
+25,2. Definición y características de los mercados de futuros................................................426
+25,3. Márgenes.......................................................................................................................426
+25,4. El mercado y sus participantes......................................................................................428
+25,5. Precio futuro y precio contado (spot)............................................................................428
+25,6. Cobertura con futuros de divisas...................................................................................429
+CAPÍTULO 26. OPCIONES............................................................................................................433
+26,1. Introducción conceptual.................................................................................................433
+26,2. Algunas estrategias de mercado con opciones...............................................................440
+26,1 Factores que afectan el valor de las opciones.................................................................447
+26,4. Los aportes de BLACK, MERTON y SCHOLES.........................................................452
+26,5. Fórmula para la valuación de una opción......................................................................453
+26,6. Relaciones entre el modelo de opciones (MPO) y el CAPM.........................................457
+26,7. Comparación de algunos aspectos de los forwards, de los futuros y de las opciones...458
+CAPÍTULO 27. SWAPS...................................................................................................................461
+27,1. Definición de swap........................................................................................................461
+27,2. Swap de tasas de interés.................................................................................................462
+CAPÍTULO 28. ADMINISTRACIÓN DEL RIESGO Y CREACIÓN DE VALOR..................471
+28,1. Administración del riesgo y valor..................................................................................471
+6
+
+28,2. Efectos de la administración del riesgo y la tasa de descuento......................................472
+28,1 Efectos tributarios sobre el valor....................................................................................472
+28,4. Efectos sobre los costos de transacciones y de serios problemas financieros...............474
+28,5. Efectos sobre las decisiones de inversión......................................................................475
+PARTE VIII. ADMINISTRACIÓN PARA LA CREACIÓN DEL VALOR...............................477
+CAPÍTULO 29. VALOR AGREGADO ECONÓMICO...............................................................479
+29,1. Objetivo financiero de la firma. Su subrogante cuantitativo.
+Las medidas de la performance..............................................................................................479
+29,2. El EVA..........................................................................................................................481
+29,3 MVA y EVA...................................................................................................................483
+CAPÍTULO 30. VALUACIÓN DE EMPRESAS...........................................................................487
+30,1. Las grandes aproximaciones a la valuación de una empresa en marcha.......................487
+30,2. El flujo de fondos en los métodos de flujos de fondos descontados..............................491
+30,3. La tasa de rendimiento requerida...................................................................................495
+30,4. Valuación de la empresa. Visión global........................................................................500
+30,5. Consistencias básicas.....................................................................................................501
+30,6. Ejemplo de valuación de una firma...............................................................................502
+CAPÍTULO 31. ALGORITMOS DE DIAGNÓSTICO FINANCIERO......................................509
+31,1. Semiología, diagnóstico clínico y algoritmos de diagnóstico........................................509
+31,2. Algoritmo de diagnóstico financiero.............................................................................514
+PARTE VIII. LIQUIDEZ Y ADMINISTRACIÓN DEL CAPITAL DE TRABAJO.................529
+CAPÍTULO 32. LIQUIDEZ E INSOLVENCIA............................................................................531
+32,1. Liquidez de un activo.....................................................................................................531
+32,2. Liquidez de la firma.......................................................................................................532
+32,1 Insolvencia......................................................................................................................547
+CAPÍTULO 33. LA ADMINISTRACIÓN DEL EFECTIVO
+33,1. De la administración del capital de trabajo a la moderna administración
+de las finanzas de corto plazo.................................................................................................551
+33,2, Razones para mantener caja...........................................................................................554
+33,1 Los grandes aspectos de la administración de caja.........................................................555
+33,4. Determinación de las reservas de caja...........................................................................557
+33,5. La administración de los ingresos y egresos de caja.....................................................567
+33,6. Inversión de los saldos ociosos de caja..........................................................................570
+CAPÍTULO 34. ADMINISTRACIÓN DE CRÉDITOS E INVENTARIOS...............................575
+7
+
+34,1. Introducción...................................................................................................................575
+34,2. Condiciones para establecer la modalidad de la venta...................................................576
+34,1 Análisis crediticio...........................................................................................................583
+34,4. Política de cobranzas.....................................................................................................587
+34,5. Principios crediticios generales.....................................................................................589
+34,6. La inflación y las cuentas por cobrar.............................................................................590
+34,7. Elementos sobre administración de inventarios.............................................................594
+34,8. Consideraciones financieras de la inversión en inventarios en contextos
+inflacionarios..........................................................................................................................604
+PARTE IX. DIAGNÓSTICOS FINANCIEROS Y PLANIFICACIÓN.......................................605
+CAPÍTULO 35. ESTADOS CONTABLES BÁSICOS. ELEMENTOS
+INTRODUCTORIOS........................................................................................................................607
+35,1. Definición de contabilidad.............................................................................................607
+35,2. Importancia de los estados financieros..........................................................................608
+35,3 Estados financieros básicos............................................................................................609
+35,4. Algunos conceptos contables importantes.....................................................................619
+35,5. Las visiones del economista y del contador sobre valor y beneficio.............................621
+CAPÍTULO 36. TÉCNICAS DE APOYO A LOS DIAGNÓSTICOS FINANCIEROS.............625
+36,1. Introducción...................................................................................................................625
+36,2. Ratios ............................................................................................................................626
+36,3 Sistema DUPONT..........................................................................................................645
+36,4. Análisis discriminante multivariante.............................................................................648
+36,5. Análisis estadístico de descomposición.........................................................................653
+36,6. Modelos de series de tiempo en el análisis y en la planificación financieros................655
+CÁPITULO 37. INSTRUMENTOS DE PLANIFICACIÓN FINANCIERA..............................661
+37,1. Planificación financiera de corto y de largo plazo.........................................................661
+37,2. Desarrollo de un caso de planificación financiera de corto plazo.................................665
+PARTE X. ELEMENTOS DE FINANZAS INTERNACIONALES............................................685
+CAPÍTULO 38. MERCADOS FINANCIEROS INTERNACIONALES.....................................687
+38,1. Mercados cambiarios.....................................................................................................687
+38,2. Mercados monetarios internacionales............................................................................692
+38,1 Mercados de eurobonos..................................................................................................698
+CAPÍTULO 39. ADMINISTRACIÓN FINANCIERA INTERNACIONAL...............................701
+39,1. La importancia de las finanzas internacionales.............................................................701
+39,2. Exposición a la conversión............................................................................................707
+39,3. Exposición económica...................................................................................................708
+39,4. Elementos de administración financiera internacional..................................................711
+8
+
+PARTE XI. FINANZAS DE EMPRESAS FINANCIERAS E INNOVACIÓN
+FINANCIERA...................................................................................................................................715
+CAPÍTULO 40. INTRODUCCIÓN A LAS FINANZAS DE INSTITUCIONES
+FINANCIERAS.................................................................................................................................717
+40,1. Algunas características de los estados financieros de las instituciones financieras.......717
+40,2. El objetivo financiero de una institución financiera......................................................721
+40,3. Riesgo y rendimiento en instituciones financieras........................................................722
+CAPÍTULO 41. RENTABILIDAD DE INSTITUCIONES FINANCIERAS..............................725
+41,1. Introducción...................................................................................................................725
+41,2. Un modelo de rendimiento sobre el capital...................................................................725
+41,3 L os elementos de la rentabilidad...................................................................................728
+41,4. La administración del margen neto de interés o spread y los ingresos por servicios....729
+41,5. Consideraciones sobre los costos de “no intereses”......................................................739
+41,6. Liquidez.........................................................................................................................740
+41,7. Administración del capital.............................................................................................745
+CAPÍTULO 42. RIESGOS DE INSTITUCIONES FINANCIERAS...........................................747
+42,1. Introducción...................................................................................................................747
+42,2. Una presentación general de los riesgos en instituciones financieras............................748
+42,3 Riesgo crediticio.............................................................................................................750
+42,4. Riesgo de liquidez.........................................................................................................754
+42,5. Riesgo de tasa de interés, duración e inmunización......................................................756
+42,6. Riesgo de tipo de cambio...............................................................................................761
+42,7. Riesgo de fraude............................................................................................................761
+42,8. Riesgo regulatorio..........................................................................................................762
+42,9. Riesgo de capitalización................................................................................................762
+42,10. Riesgo en la prestación de servicios............................................................................764
+42,11. Riesgo de actividades fuera de balance.......................................................................765
+CAPÍTULO 43. INNOVACIÓN FINANCIERA Y TITULARIZACIÓN
+(SECURITIZATION).......................................................................................................................767
+43,1. Introducción...................................................................................................................768
+43,2. Causalidad de la innovación financiera.........................................................................768
+43,3. Tipos de innovación......................................................................................................768
+43,4. Elementos de titularización............................................................................................769
+Glosario..................................................................................................................................781
+Tablas.....................................................................................................................................825
+9
+
+CAPÍTULO 13. EL RENDIMIENTO REQUERIDO PARA LAS
+INVERSIONES
+OBJETIVOS DE APRENDIZAJE
+• Analizar la tasa de rendimiento requerida y la deseabilidad de las inversiones en una síntesis
+globalizante.
+• Exponer las tres grandes aproximaciones en cuanto a la deseabilidad de una inversión en términos
+del riesgo sistemático.
+• Analizar las dos grandes líneas para estudiar la deseabilidad de una inversión en un contexto de
+incertidumbre. Esto es, tomando el riesgo sistemático o tomando el riesgo total.
+13,1. LOS GRANDES ENFOQUES PARA EL ANÁLISIS DE LA TASA DE RENDIMIENTO
+REQUERIDA
+Los caps. 6, 7, 8 y 9 fueron dedicados a tratar los distintos criterios para analizar inversiones. Una de
+las partes básicas en el tema es la tasa de descuento a utilizar. En efecto, en el criterio de valor presente neto,
+es la tasa a la cual descuentan los flujos de fondos para obtener el mismo. En el criterio de tasa de
+rentabilidad, es la tasa contra la que se compara la rentabilidad obtenida, para establecer su deseabilidad.
+Esta tasa de rendimiento requerida de las inversiones como puede apreciarse es de crucial
+importancia en las decisiones financieras. En los referidos capítulos, sólo se trató como un aspecto
+instrumental en la aplicación de los criterios de análisis de inversiones. Ello se debió al hecho que para la
+determinación de la tasa de rendimiento requerida es necesario haber tratado el tema del riesgo. No debe
+olvidarse que el riesgo se introduce modernamente en el análisis financiero a través de la citada tasa.
+Tratado el tema del riesgo en los caps. 10, 11 y 12 en el presente se aborda el tratamiento de la tasa
+de rendimiento requerida.
+El desarrollo del tema de la tasa de rendimiento requerida se efectuará en la siguiente secuencia:
+1. En los ptos. 13,2; 13,3 y 13,4 se analiza la tasa de rendimiento requerida suponiendo que se ha
+efectuado antes de decidir la inversión, una diversificación eficiente por parte de quien lleva adelante
+la inversión. Esto es, solo ingresará en el análisis el riesgo sistemático.
+En este camino se tratan tres aproximaciones, que son:
+a) Costo promedio del capital (pto. 13,2)
+b) Valor presente neto ajustado (pto. 13,3)
+c) Valor presente neto en el enfoque para el accionista, que tratado en el cap. 8 se retorna en éste.
+Estas tres aproximaciones se analizan y se comparan en el pto. 13,4.
+2. En segundo término se revisa la deseabilidad de una inversión en un contexto de riesgo total
+(sistemático y no sistemático).
+Esta tal como se expuso en el pto. 12,5 del capítulo anterior, el análisis del impacto de una inversión
+en el riesgo total de la empresa es necesario, en el caso de que no exista diversificación eficiente o existan
+varias imperfecciones en los mercados financieros que las alejen de los eficientes, y conveniente en cualquier
+situación.
+10
+
+Por tanto, el tema de la tasa de rendimiento requerida y de la deseabilidad de las inversiones se
+efectúa en dos etapas. En la primera se considera sólo el riesgo sistemático y en la segunda el riesgo total.
+Ambas serán de utilidad a la hora de analizar una inversión.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las dos grandes líneas en las que se analiza el tema del riesgo en el análisis de
+inversiones.
+13,2. LA TASA DE RENDIMIENTO REQUERIDA: APROXIMACIÓN DEL COSTO PROMEDIO
+DEL CAPITAL
+La tasa de rendimiento requerida como costo de oportunidad
+Como se ha expresado, cuatro aspectos fundamentales aparecen en el análisis de inversiones. Ellos
+son:
+a) la elección del criterio para efectuar la evaluación de la inversión;
+b) la definición de los flujos relevantes para trabajar con el criterio seleccionado;
+c) el análisis del riesgo de los proyectos;
+d) la tasa de rendimiento requerida.
+La tasa de rendimiento requerida es el mínimo rendimiento aceptable de la inversión. Esta tasa
+requerida, en la teoría financiera, no se refiere a la que la administración de la empresa tiene en
+consideración, sino a la que tienen como objetivo los propietarios de la firma.
+Cuando se efectúa una inversión, destinando fondos a ella, se pospone otra que reportaría una
+rentabilidad r, es decir, se pierde la oportunidad de efectuar una inversión de un riesgo similar.
+En suma, como definición general se puede decir que la tasa de rendimiento requerida de una
+inversión es la tasa que se deja de obtener en la mejor inversión alternativa de riesgo similar.
+Esta tasa será mínima de rendimiento cuando se utiliza el criterio de tasa de rentabilidad, o sería
+aquella tasa a la que se supone se reinvierten los fondos cuando se usa el valor presente neto.
+Breves consideraciones sobre aversión al riesgo
+El tema está extensamente tratado en el cap. 10. Se recordará que, en términos generales, en la
+aproximación más ampliamente difundida en finanzas, el riesgo era medido por dispersión de la distribución
+de probabilidades en tomo de un valor esperado, es decir, por desviación típica.
+Aquí sólo se efectuarán las condiciones que corresponden al tema en tratamiento.
+Con respecto a la postura relativa al riesgo, los inversores pueden ser, como se ha visto, aversos,
+neutrales o buscadores de riesgo. La teoría y la práctica del análisis de inversiones suponen que los
+inversores son aversos al riesgo.
+En términos de inversiones, la aversión al riesgo implica que el inversor, por tomar riesgo, requiere
+una compensación en el rendimiento a obtener por las mismas.
+Ello conduce a un concepto básico en análisis de inversiones y que puede establecerse como que el
+rendimiento requerido de una oportunidad de inversión depende del riesgo del proyecto sometido a estudio.
+La fig. 13,1, representa la asociación entre riesgo y rendimiento.
+11
+
+Figura 13,1. Riesgo/rendimiento.
+A medida que se van tomando las inversiones que implican un mayor riesgo, es decir, se van
+corriendo hacia la derecha en el eje que mide el riesgo, el inversor irá exigiendo un mayor rendimiento.
+En caso de no existir riesgo, igual se requiere un rendimiento, en este caso representado por la tasa
+libre de riesgo (r). Al ir incrementando el riesgo, la compensación por el mismo debe irse computando.
+f
+De esta forma, la tasa de rendimiento requerida (r) es la suma de una tasa libre de riesgo (r) más un
+f
+premio por el riesgo (P).
+Esto es:
+r = r + P
+f
+Más adelante se volverá sobre este tema, extendiéndose en los componentes del rendimiento
+requerido.
+Rendimiento requerido y costo del capital
+El tema del costo del capital, importante en finanzas, es sin embargo fuente de confusiones. Aquí se
+busca vincular el concepto de costo de capital y el de tasa de rendimiento requerida.
+El costo del capital, en su más amplia expresión, puede ser referido como la tasa de rendimiento
+requerida por quienes suministran capital a la firma.
+El costo del endeudamiento k y el costo de fondos propios k son las tasas de rendimiento requeridas
+d e
+por cada uno de quienes detentan esas deudas. En ellos se toman en cuenta las oportunidades de inversión y,
+por lo tanto, el riesgo.
+Para los propósitos de evaluación de inversiones, el costo de capital puede ser interpretado como los
+rendimientos esperados que, como se expresó, toman en cuenta el riesgo involucrado. De esta forma, pues, a
+estos efectos, el costo del capital y la tasa de rendimiento requerida son términos intercambiables. En el resto
+del capítulo se seguirá denominando con esta última expresión.
+El rendimiento requerido para nuevas inversiones
+Las firmas tienen un costo promedio del capital resultante de:
+D FP
+CPC = (1 – t) k +k
+d
+D+FP e D+FP
+donde:
+t: tasa de impuesto a la renta;
+k : tasa de costo de las deudas;
+d
+k : tasa de costo de los fondos propios;
+e
+FP: monto de fondos propios;
+D: monto de deudas.
+12
+
+Esto es, el promedio ponderado de las tasas de costo de las deudas después de impuestos y de los
+fondos propios, CPC, luego, en este capítulo, será K .
+0
+La tasa resultante de esta expresión es la que debe usarse como tasa de rendimiento requerida cuando
+se evalúa una nueva inversión.
+Cuando se efectúa una inversión, se están comprometiendo fondos que pueden provenir de
+acreedores (los fondos que provienen de las deudas) y de inversores (los que son aportados por los
+propietarios). La aversión al riesgo es un supuesto implícito que ya se repasó. Ambos, tanto acreedores como
+inversores, van a demandar rendimientos que estén acordes con los riesgos involucrados.
+Por lo tanto, las nuevas inversiones tienen su propia tasa de rendimiento requerida que depende de su
+nivel de riesgo, y usar el costo promedio del capital de la firma implica reconocer que el riesgo del nuevo
+proyecto en estudio es igual que el promedio de la firma, circunstancia que sólo se da excepcionalmente.
+Tomar el costo promedio del capital de la empresa como tasa de rendimiento requerida para un
+proyecto puede conducir a errores.
+Suponiendo que se deban evaluar dos inversiones X e Y, conforme a la figura que sigue, cuyos
+rendimientos y riesgos definan su posición en el mismo.
+Figura 13,2.
+Si se utiliza el costo promedio del capital de la empresa como tasa requerida de rendimiento, el
+proyecto X hubiera sido rechazado, pues tiene menor rendimiento que el costo promedio. Por el contrario, el
+proyecto Y hubiera sido aceptado porque su rendimiento supera el costo promedio.
+Sin embargo, la decisión es errónea debido a que si se toman las consideraciones de riesgo, propias
+de cada proyecto, el proyecto X sería aceptado puesto que, para ese nivel de riesgo, el rendimiento requerido
+era menor, en tanto que el proyecto Y sería rechazado por no alcanzar el nivel de rendimiento requerido para
+el riesgo que tiene implícito.
+Por lo tanto, las nuevas inversiones, salvo casos muy especiales ya referidos, deben analizarse a la
+luz de su propio rendimiento requerido que, por otra parte, era función del riesgo involucrado en ella.
+En suma, pues:
+Cada proyecto debe evaluarse con su propia tasa de rendimiento requerido (o costo del capital) que
+contemple el riesgo implícito. O sea, la tasa de rendimiento requerida depende del destino al que se asignen
+los recursos.
+El rendimiento requerido para los fondos propios sin endeudamiento
+Se considerará en primer término la determinación de la tasa de rendimiento requerida para
+inversiones financiadas totalmente con fondos propios; es decir, sin endeudamiento.
+En este caso el rendimiento requerido es la suma de una tasa libre de riesgo más un precio por el
+riesgo operativo, o sea:
+13
+
+k = r + P
+t o
+donde:
+k: costo de los fondos propios para una firma que se financia sin deudas;
+r: tasa libre de riesgo;
+t
+P : premio por el riesgo operativo.
+o
+En el campo de la teoría de las finanzas se han desarrollado aproximaciones para establecer este
+premio por el riesgo. La más conocida es el CAPM(1). Partiendo de un conjunto de supuestos, llega a que el
+rendimiento esperado de un activo es:
+[ ]ρ σσ
+r = r + r −r jm j m
+i t m t σ2
+m
+[1]
+donde:
+r: es el rendimiento esperado del activo j;
+i
+r : es el rendimiento esperado del portafolio de activos riesgosos del mercado;
+m
+σ: desviación estándar de la función de probabilidad de los posibles rendimientos del activo j;
+i
+σ : desviación estándar de la función de distribución de probabilidad de los posibles rendimientos del
+m
+portafolio del mercado;
+ρ : correlación entre los rendimientos del activo j y los del portafolio del mercado.
+jm
+Esta es, a su vez, la tasa de costo de capital de los fondos propios para una empresa sin
+endeudamiento.
+El modelo no toma en consideración el riesgo total del activo, que sería σ, sino que recoge sólo el
+j
+riesgo sistemático representado por ρ σ. El riesgo sistemático es aquel que, como se ha señalado, no puede
+jm j
+ser reducido a través de la diversificación de las inversiones en activos riesgosos, puesto que es el que
+depende de las condiciones generales del mercado (por ejemplo, una incertidumbre política que puede
+afectar a todos los activos).
+Este marco aplicado al caso de una inversión específica k, que lleve adelante la empresa y que se
+financia solamente con fondos propios sería:
+ρ σσ
+r = k = r + [r - r] km k m
+k t m t σ2
+m
+donde la expresión
+ρ σσ
+km k m
+σ2
+m
+es conocida como β con lo que quedaría como:
+p
+r = k = r + [r - r] β
+k t m t p
+donde:
+r : es la tasa de rendimiento requerida para la propuesta de inversión k,
+k
+(1) Este tema en sus aspectos teóricos se desarrolló en profundidad en el cap. 11.
+14
+
+σ : la desviación estándar de la función de distribución de probabilidad de los posibles rendimientos de la
+k
+propuesta k,
+r : correlación entre las tasas de rendimiento de la propuesta k y el portafolio del mercado.
+km
+En el criterio de valor presente neto, k será la tasa a la que se descuentan los flujos (en el criterio de
+tasa de rentabilidad será la tasa con la que se compara el rendimiento esperado).
+En la figura que continúa y de acuerdo con el criterio establecido, serían aceptables aquellos
+proyectos que están por encima de la recta del mercado de valores (CAPM).
+Figura 13,3.
+La inversión X sería, pues, aceptable, en tanto que la Y no lo sería.
+Es preciso establecer algunas consideraciones sobre los resultados de la aplicación del modelo en el
+caso que las inversiones estén totalmente financiadas con fondos propios:
+a) El rendimiento requerido que se obtiene no depende de la firma que lo esté impulsando. El
+rendimiento requerido que surge a partir del riesgo sistemático (no diversificable) es el que
+resulta del modelo. Ello no implica que el rendimiento esperado al que lleguen dos firmas sobre
+un proyecto similar no puedan ser diferentes. De hecho lo pueden ser. Sin embargo, el criterio de
+aceptación conduce al mismo rendimiento requerido para ambas firmas.
+b) El modelo que determina el rendimiento requerido es uniperiódico en tanto que las
+proposiciones acerca de inversiones de capital son multiperiódicas. Hasta ahora, se ha supuesto
+que β era constante durante toda la vida útil de la inversión. Sin embargo, en la medida en que
+cambie en dicho período será adecuado utilizar como tasa de descuento distintas tasas de
+rendimiento requerido según los años.
+c) La aplicación del modelo implica, como ya se ha señalado, que el inversor ha diversificado su
+portafolio, llegando a mantener solamente el riesgo sistemático (no diversificable). Ello significa
+que los esfuerzos de diversificación los debe hacer el inversor, la firma, en ese caso, no puede
+hacer nada por mejorar su posición de riesgo.
+d) Dicho en otros términos, no se toma en consideración la diversificación que una firma hace en
+su portafolio. Lo supone diversificando eficientemente.
+El rendimiento requerido de los fondos propios con endeudamiento
+Hasta ahora se ha tratado la determinación del rendimiento requerido para los fondos propios, en el
+supuesto que ellos financiaran el 100% de la inversión. En ese caso, sólo el riesgo operativo influía en el
+premio por el riesgo.
+Se agrega, entonces, el financiamiento con deudas. Ante esta situación, se buscará determinar la tasa
+de rendimiento requerida para los fondos propios en el supuesto caso en que parte de la inversión se financia
+con fondos propios, y parte con endeudamiento.
+15
+
+Al riesgo operativo se agrega el riesgo financiero. No se incluye dentro de él el riesgo de bancarrota.
+El riesgo financiero considerado es el que deriva de tener una estructura financiera que impone un
+determinado costo financiero.
+El modelo original de CAPM ha sido extendido por el profesor R. HAMADA (1969) para
+determinar los efectos del endeudamiento sobre el rendimiento esperado de un activo.
+La tasa de rendimiento requerida para los fondos propios de una firma cuando existe endeudamiento
+k, o costo del capital de los fondos propios con deudas, es:
+t
+⎡ D ⎤
+r E = k = r + [r - r] β 1+ (1−t)
+k e t m t k ⎢ ⎣ S ⎥ ⎦
+[2]
+donde:
+D: ratio de deudas a fondos propios.
+S
+t: impuesto a la renta.
+Si a ello se agrega el costo por concepto de riesgo de bancarrota, la curva a partir de un cierto nivel
+de endeudamiento comenzará a crecer más rápidamente. El gráfico que sigue ilustra a este respecto.
+Figura 13,4.
+Si el beta de un proyecto k, financiado con endeudamiento, se representa por:
+⎡ D ⎤
+βE = β 1+ (1−t)
+k k ⎢ ⎥
+⎣ S ⎦
+se llega a que:
+r E = k = r + [r - r] βE
+k e t m t k
+[3]
+Esta misma expresión puede ser transformada, sabiendo que:
+16
+
+r −r r −r D
+rE = r + m t ρ σ + m t ρ σ (1 - t)
+k t km k km k
+σ σ S
+m m
+siendo:
+r −r
+r = k = r + m t ρ σ
+k t km k
+σ
+m
+se tiene que:
+k = r E = k + (k – k ) (1 – t) (D/S)
+e k d
+[4]
+Al ser k = r conforme a los supuestos establecidos.
+d f
+En suma, se han expuesto dos aproximaciones para calcular la tasa de rendimiento requerida de los
+fondos propios cuando existe endeudamiento (k ).
+e
+Ellas son:
+a) cuando se cuenta con el beta que recoge el riesgo operativo k se determina como:
+e
+[ ] ⎡ D⎤
+k = r + r −r β 1+(1−t)
+e f m f ⎢ ⎣ S ⎥ ⎦
+k
+que es la ecuación [2]:
+b) cuando se tiene la tasa de rendimiento requerida para fondos propios sin endeudamiento, es
+decir, k, k se determina como:
+e
+k = k + (k - k ) (1 - t) (D/S)
+e d
+que es la ecuación [4]
+Ambas formas de establecer k serán de utilidad para la determinación de la tasa de rendimiento
+e
+requerida para los fondos propios según los datos con que se cuenten.
+• Ejemplo
+Un ejemplo sencillo puede ser de utilidad para ilustrar el concepto de k , en ambas aproximaciones.
+e
+Supóngase que:
+r = 0,1β = 1,8 r = 0,18 t = 0,5 D/S = 1
+f m
+O sea, la empresa se financiaría con igual proporción de fondos propios y de endeudamiento.
+En primer lugar se procede a determinar k, utilizando la ecuación [1]. Que es:
+k = 0,1 + (0,18 - 0,1) 1,8 = 0,244
+k = 0,244
+el cálculo de k es el siguiente:
+e
+17
+
+a) utilizando la ecuación [2], al conocer β, sería:
+k = 0,10 + (0,18 - 0,1) 1,8 [1 + (1 - 0,5) 1] = 0,316
+e
+o:
+b) utilizando la ecuación [4], si sólo se conociera k, sería:
+k = 0,244 + (0,244 + 0,10) (1 - 0,5) 1 = 0,316
+e
+Costo promedio del capital
+Se vuelve ahora sobre el costo promedio del capital (CPC) para presentar elementos que serán de
+utilidad en la determinación de rendimiento requerido de las inversiones.
+Se establecerán en este punto dos aproximaciones al CPC, que son:
+a) cuando se conoce la tasa de rendimiento requerida de los fondos propios existiendo
+endeudamiento, esto es k ;
+e
+b) cuando se cuenta con la tasa de rendimiento requerida de los fondos sin endeudamiento, es decir
+k.
+Se verán los dos casos.
+Cálculo del CPC, conociendo k
+e
+En este caso la fórmula es la ya conocida, expresada como:
+D S
+CPC = (1 – t) k +k
+e D+S e D+S
+[5]
+Si k surge de la aplicación del modelo de fijación de precios de activos de capital y, por los
+e
+supuestos del mismo, se sabe que k = r de donde:
+d f
+D S
+CPC = (1 – t) r +k
+f D+S e D+S
+[6]
+Cálculo del CPC, conociendo k
+La fórmula fue desarrollada por MODIGLIANI y MILLER (1963) y partiendo de:
+D S
+CPC = (1 – t) r +k
+f D+S e D+S
+Sustituyendo k por la expresión de la ecuación [2], se llega a:
+e
+18
+
+D D
+CPC = r −tr +
+f D+S f D+S
+⎡ D⎤ S
++ r +(r −r )β+r −r (1−t)
+⎢ ⎣ f m f m f S ⎥ ⎦ D+S
+Y reagrupando se obtiene:
+[ ] D
+CPC = r+ (r −r )β−t r +(r −r ).β
+f m f f m f D+S
+Por lo que utilizando la ecuación [1] se llega a:
+D
+CPC = k – k. t
+D+S
+O sea:
+⎡ D ⎤
+CPC = k 1−t
+⎢ ⎥
+⎣ D+S⎦
+[7]
+que es la expresión del costo del capital promedio conociendo k.
+Con esta expresión y suponiendo como variable independiente D/S se tiene la expresión gráfica del
+CPC y de k o sea:
+e
+Figura 13,5
+De donde puede apreciarse que:
+a) el costo de los fondos propios crece a medida que aumenta el endeudamiento;
+b) el CPC va descendiendo a medida que se van agregando fuentes de endeudamiento.
+• Ejemplo
+Siguiendo con los datos del ejemplo utilizado para calcular k y suponiendo
+e
+19
+
+D
+= 0,5
+D+S
+Se llega:
+a) con la primera aproximación:
+CPC = 0,1 (1 - 0,5) 0,5 + 0,316 × 0,5 = 0,138
+b) con la segunda aproximación:
+CPC = 0,244 (1 - 0,5 × 0,5) = 0,138
+La tasa de rendimiento requerida para una inversión (k )
+0
+Se ha visto que la tasa de rendimiento requerida depende del riesgo involucrado en cada inversión.
+Asimismo se ha analizado la tasa de rendimiento requerida para los fondos propios con y sin
+endeudamiento, así como el costo promedio del capital.
+Ante una inversión específica, ¿cuál es la tasa de rendimiento requerida para la misma?
+Esta pregunta se irá respondiendo en varias aproximaciones, que van representando situaciones de
+complejidad creciente, recurriendo a los elementos teóricos conocidos y agregando opiniones personales:
+a) En un primer caso, sería el análisis de una inversión financiada en un 100 % con fondos propios,
+y que fuera impulsada por una empresa que también se financiara totalmente con fondos propios.
+El riesgo operativo es igual en ambos casos.
+La respuesta a la pregunta se encuentra en el modelo de fijación de precios de activos de capital,
+en la expresión dada por la ecuación [1], y la tasa requerida será k.
+En este caso, al no existir endeudamiento, el riesgo que debe computarse es el derivado de los
+flujos operativos de caja de la inversión.
+• Ejemplo
+En el ejemplo que se venía desarrollando, la tasa requerida que recoge el riesgo sistemático de los
+flujos operativos de caja, que es k, era del 24,4 %. En este caso k = k. La inversión, para ser aceptada,
+0
+debería tener un rendimiento esperado superior a esa tasa k.
+b) Un segundo caso a analizar es el de una inversión que tenga endeudamiento en su componente
+de financiamiento y que la proporción de deudas a fondos propios, así como el riesgo operativo,
+son iguales que los de la empresa en su conjunto.
+Es por cierto un caso muy especial, en el cual la tasa de rendimiento requerida puede resolverse
+a través de la fórmula de costo promedio del capital.
+• Ejemplo
+Siguiendo el ejemplo, si tanto la inversión como la empresa se financian a una tasa preferencial de
+interés, la que se supone igual que la tasa libre de riesgo del 10 %, la tasa requerida k es del 24,4 %, de donde
+la k = 3,16, la relación de deudas a activo total es de 0,5 y la tasa de impuesto a la renta es 0,5 aplicando la
+e
+ecuación [6], se tiene que:
+k = CPC = 0,1 × (1 - 0,5) × 0,5 + 0,316 × 0,5 = 0,183(2).
+0
+En este caso, el proyecto sería admisible toda vez que supere la tasa de rendimiento requerida del
+18,3%.
+(2) Se llegaría al mismo resultado aplicando la ecuación [7]
+20
+
+Se van agregando ahora al rendimiento requerido que contempla el riesgo operativo los efectos de
+financiarse con deudas.
+c) Un tercer caso puede ser que la inversión tenga un riesgo operativo diferente del riesgo
+operativo de la empresa. Sin embargo, el financiamiento de la inversión mantiene las mismas
+proporciones de deudas a fondos propios de la empresa en su conjunto.
+En esta situación debe trabajarse, en primera instancia, con el rendimiento requerido que refleje
+el nivel de riesgo operativo-propio de la inversión. Es decir, si se utiliza el CAPM, se debe
+trabajar con el beta para una firma no endeudada.
+Entonces el β para el proyecto es aquél calculado sin considerar los efectos del endeudamiento.
+• Ejemplo
+En el ejemplo que se viene desarrollando, beta era igual a 1,8, y es el que debe usarse para la
+inversión.
+Con este dato se calcula el rendimiento requerido para el caso en que el proyecto se financia 100 %
+con fondos propios, utilizando la ecuación [1]. Siguiendo los datos del ejemplo anterior, sería:
+k = 0, 1 + (0,18 - 0, 10) × 1,8 = 0,244
+luego deben agregarse los efectos derivados del financiamiento.
+Desafortunadamente, no existe un herramental teórico que permita resolver en forma general y
+correcta todas las situaciones. Sin embargo, existen algunas aproximaciones que dan un marco teórico, que
+son de utilidad para el tratamiento del tema.
+Supóngase que la empresa tiene una relación de deudas a activos totales de 0,3 y que la tasa
+impositiva es del 50 %.
+Para agregar el efecto de las deudas, puede recurrirse a la fórmula MM, que se representa en la
+ecuación [7].
+En este caso el rendimiento requerido sería:
+k = 0,244 (1 - 0,5 × 0,3) = 0,2074
+0
+La fórmula MM opera adecuadamente si se dan dos supuestos que son:
+1. Que trabaja con fondos de flujos perpetuos, es decir, convida útil perpetua de los proyectos.
+2. Cuando se mantiene una deuda permanente, es decir, que conserva el mismo monto absoluto de
+deuda.
+Sin perjuicio de reconocer que se trata de dos limitaciones apreciables, existen estudios sobre el
+desvío que su aplicación puede tener, los cuales revelan que el error que se comete en estos casos no es serio.
+Más recientemente J. MILES y R. EZZELL (1980) han desarrollado una nueva fórmula para
+determinar la tasa de rendimiento requerida con endeudamiento que levanta los supuestos de la fórmula MM.
+En efecto, trabaja para proyectos de vida limitada y mantiene la proporción inicial de deudas a fondos
+propios.
+La fórmula de J. MILES y R. EZZELL es:
+D 1+k
+k = k - k t
+0 d
+D+S 1+k
+d
+[8]
+o sea, que el caso que se está tratando sería:
+21
+
+⎡1+0,244⎤
+k = 0,244 - 0,3 × 0,1 × 0,5 = 0,227
+0 ⎢ ⎥
+⎣ 1+0,1 ⎦
+Típicamente, la fórmula de MILES y EZZELL arroja un valor de k superior al de la fórmula MM.
+0
+d) Se verá un cuarto caso, más general. Supóngase que el proyecto bajo análisis tiene un riesgo
+diferente de la empresa en su conjunto, a la vez que adopta para financiarse una estructura de
+deudas a fondos propios también diferente de la que tiene la firma.
+¿Cómo se determina la tasa de rendimiento requerida en esos casos?
+Es importante examinar la separabilidad entre las decisiones de inversión y de financiamiento.
+De no existir imposición a las rentas de las sociedades y existiendo algunas condiciones de
+financiamiento eficiente de los mercados financieros, las decisiones de inversión y de
+financiamiento son independientes.
+En un mundo más cercano a la realidad, con existencia de impuestos, el valor que reporta un
+proyecto no es independiente de la decisión de financiamiento del mismo.
+Naturalmente, si se supone que la empresa define una estructura financiera óptima y alinea todos los
+proyectos sobre esa estructura se infiere que pudiera tratarse a todos los proyectos como si la decisión de
+inversión se realiza con independencia de la decisión de financiamiento.
+Sin embargo, hay proyectos que tienen una mayor o menor capacidad para soportar deudas que la
+empresa en promedio. En este caso, la decisión de inversión no es independiente de la decisión de
+financiamiento.
+Entonces, debe trabajarse con las proporciones marginales de la contribución a la capacidad de deuda
+de la empresa sobre la inversión.
+En esta posición coinciden la mayoría de los autores.
+Si el proyecto que se viene analizando tiene una relación de deudas a fondos propios del 40% en
+lugar del 30%, que es el ratio medio de la empresa, usando la fórmula MM y manteniendo los demás datos
+de la tasa de rendimiento requerida k sería:
+0
+k = 0,244 (1 - 0,5 × 0,4) = 0,1952
+0
+El rendimiento requerido es 19,52 %, que es inferior al calculado por un ratio de D/(D + S) de 0,30,
+caso en el cual k era 20,74 %.
+0
+Es decir, el efecto de la mayor capacidad del proyecto de soportar más deuda hace descender el
+rendimiento requerido para el mismo. Puede ser útil, sin embargo, hacer referencia a algunos casos extremos.
+Tal puede ser la situación en la cual la empresa, manteniendo una relación de deudas a fondos propios del
+30%, quiere llevar adelante un proyecto, por ejemplo, financiado con 100% de endeudamiento o con 100%
+de fondos propios, a la vez que el mismo representa marginalmente una parte importante de la inversión
+actual de la firma.
+Los profesores COPELAND y WESTON (1983) sugieren que si bien no es imposible encontrar en
+una firma que tiene su objetivo de deudas a fondos propios definido en, por ejemplo, 30%, una inversión que
+tenga una capacidad de 100% de endeudamiento, o que no tenga ninguna capacidad de soportar deudas
+(100% fondos propios), y tenga el mismo riesgo operativo, sí es poco probable.
+En ese caso, exponen el siguiente criterio, que se desarrolla a través de un ejemplo.
+Supóngase que los activos de la empresa sean 1.000, las deudas 300 y su tasa de rendimiento
+requerida sea del 15%. Con el mismo riesgo operativo de la empresa, se desea calcular el rendimiento
+requerido de un proyecto que tiene una inversión de 400 y que es totalmente financiada con deudas. La tasa
+de impuesto a la renta es del 50%.
+Sabiendo que:
+⎡ D ⎤
+CPC = k. 1−t. = 0,15
+⎢ ⎥
+⎣ D+S⎦
+k. (1 – 0,5. 0,3) = 0,15
+k = 0,176
+22
+
+La nueva estructura financiera queda:
+700
+=0,5
+1,400
+de donde sería la relación a aplicar al proyecto.
+Por lo tanto, el rendimiento requerido sería:
+k = 0,176 (1 - 0,5 × 0,5) = 0,132
+0
+COPELAND y WESTON (1983) sostienen que es razonable que el proyecto que tiene mayor
+capacidad de mantener deudas tenga una tasa de rendimiento requerida inferior.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo se determina el costo de los fondos propios sin endeudamiento y con endeudamiento.
+2. Distintas formas de establecer el costo promedio del capital.
+3. Cómo se aplican los conceptos anteriores en el caso de inversiones que tengan o no el mismo riesgo
+operativo que la empresa y que tengan o no el mismo riesgo financiero que ella.
+13,3. VALOR PRESENTE AJUSTADO: OTRA APROXIMACIÓN DE TASA DE RENDIMIENTO
+REQUERIDA
+En el punto anterior se expuso la determinación de la tasa de rendimiento requerida, ajustándola por
+el riesgo del proyecto, tomando en consideración los efectos que pudieran sobrevenir por el financiamiento.
+Se ha visto, asimismo, que para determinar la tasa de rendimiento requerida se ha utilizado una
+combinación del modelo CAPM y de la fórmula de MODIGLIANI-MILLER o la de MILES y EZZELL.
+Se expusieron los supuestos de la fórmula de MM y los aportes que podría dar la de MILES y
+EZZELL (1980).
+Sin embargo, ambas fórmulas tienen un supuesto que les es común. Las dos suponen que el único
+efecto sobre el valor del proyecto que proviene de la forma de financiarlo se debe al ahorro impositivo por la
+deducibilidad fiscal de los intereses. Es decir, que no existen otros elementos financieros que afectan el
+valor, más allá de los impuestos.
+A la luz de estos elementos, un enfoque alternativo es determinar la tasa de rendimiento requerida
+que tenga en cuenta los efectos del financiamiento.
+El enfoque fue originalmente desarrollado por MYERS (1974) y luego retomado por BREALEY y
+MYERS (1984).
+A tal fin se determina, en primer lugar, el VPN de la inversión, en lo que los autores llamaron VPN
+base, que surge de evaluarlo como si fuera totalmente financiado con fondos propios.
+Luego, se le suma el valor presente de los efectos derivados de las decisiones de financiamiento de
+aceptar el proyecto, así como otros efectos con excepción de los tomados en el VPN base.
+VPN = VPN base + suma de los valores presentes de los efectos financieros y otros no incluidos en
+el VPN base.
+• Ejemplo
+Supóngase un proyecto cuya inversión es de $1.000.000, que arroja un flujo de caja después de
+impuestos de $400.000 por año durante 5 años. La tasa de rendimiento requerida, de los fondos propios sin
+endeudamiento k, es 0,12. El proyecto se financia con $ 500.000 de deuda, que se pagan en cuotas iguales
+por año, con un interés sobre saldos del 10 %.
+Lo primero en calcular es el VPN base:
+23
+
+5 400.000
+VPN base = -1.000.000 + ∑ = 442.000
+(1,12)j
+j=1
+Deben agregarse ahora los efectos financieros. Supóngase, por simplicidad, que sólo se cuentan los
+fiscales de los intereses, de haber partido de considerar el proyecto totalmente financiado con fondos propios.
+Deuda al Ahorro Valor presente
+Año Intereses
+comienzo del año fiscal(3) ahorro fiscal(4)
+1 500.000 50.000 25.000 22.727
+2 400.000 40.000 20.000 16.530
+3 300.000 30.000 15.000 11.270
+4 200.000 20.000 10.000 6.830
+3.105
+5 100.000 10.000 5.000
+60.462
+El valor presente sería entonces:
+VPN = 442.000 + 60.462 = 502.462
+Esta aproximación se basa sobre el principio de aditividad de valor, por el cual se entiende que, en
+un comportamiento adecuado de los mercados financieros, el valor de mercado de una firma es la suma de
+los valores presentes de los activos de la firma.
+Si el principio no opera, el valor de un proyecto no tiene por qué ser necesariamente igual que la
+suma de los activos que lo integran; puede ser mayor o menor.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son los componentes del valor presente neto ajustado.
+2. Qué tasa de descuento se aplica a cada uno de ellos.
+13,4. VALOR PRESENTE NETO DE UNA INVERSIÓN. UNA VISION COMPLEXIVA DE TRES
+APROXIMACIONES DE TASA DE RENDIMIENTO REQUERIDA
+Tres formas de determinar el valor presente neto de una inversión
+A través de este texto se han analizado tres formas de determinar el valor presente neto de una
+inversión. Ellas se han expuesto en los capítulos que se ha considerado más conveniente a efectos de la
+exposición de los distintos temas. A esta altura, sin embargo, es importante hacer una visión complexiva de
+las tres aproximaciones. Estas son:
+1. Valor presente neto de la inversión utilizando el costo promedio del capital
+Este caso ha sido analizado en términos de sus flujos en el cap. 8 y en términos de su tasa de
+descuento en el presente (pto. 13,2)
+El mismo se caracteriza por:
+(3) Tasa marginal de impuesto a la renta = 50 %.
+(4) El valor presente es calculado al 10 % sobre la base de que los ahorros respectivos son tratados igual que los intereses
+generados por el financiamiento.
+24
+
+a) los flujos de fondos prescinden del financiamiento;
+b) la inversión a deducir es la total, sea financiada con fondos propios o ajenos;
+c) la tasa de descuento es el promedio ponderado del costo del capital que surge de ponderar las
+siguientes tasas:
+− Costo de las deudas después de impuestos.
+− Costo de los fondos propios con endeudamiento (k ).
+e
+2. Valor presente neto de la inversión en el enfoque para el accionista
+Este caso ha sido tratado en el cap. 8 Sus características diferenciales con respecto al anterior son:
+a) a los flujos de fondos provenientes del financiamiento, se deben deducir los intereses (que
+tienen efecto fiscal) y las amortizaciones del principal;
+b) como inversión inicial sólo se computa la que está financiada con fondos propios;
+c) la tasa de descuento es la tasa de costo de los fondos propios con endeudamiento (k )
+e
+3. Valor presente neto ajustado de la inversión
+Este caso se ha visto en el pto. 13,3 de este capítulo y se caracteriza por:
+a) utiliza los mismos flujos de fondos que la situación de costo promedio de capital;
+b) la inversión a deducir es la total (sea financiada con fondos propios o ajenos);
+c) la tasa de descuento de estos flujos es la tasa de costo de los fondos propios sin endeudamiento
+(k), esto es, cuando solo cuenta el riesgo del tipo de negocio, es decir, se supone una firma
+financiada 100 % con fondos propios;
+d) se debe adicionar o deducir la ventaja o desventaja proveniente de las deudas. Por ejemplo, si se
+tiene una tasa de interés menor que la que el mercado fija habitualmente para la empresa se
+generaría valor. Los flujos de esta porción del análisis se descuentan a la tasa de mercado para la
+firma de costo de las deudas;
+e) a los flujos derivados de a), b) y c) se les adicionan algebraicamente los expuestos en d) y así se
+arriba al valor presente neto ajustado.
+Cuál de las tres aproximaciones usar
+Se pueden a estos efectos, exponer las siguientes consideraciones:
+1. Bajo condiciones teóricas severas de funcionamiento de los mercados financieros y de
+comportamiento de ciertos patrones financieros de las empresas, los tres métodos deberían
+arrojar el mismo resultado.
+En muchas situaciones de la realidad, éste puede llegar a no ser el caso.
+2. La mayor parte de la decisión de usar uno u otro método (sin perjuicio de lo expuesto en 1)
+deriva de la constancia o no del costo de los fondos propios sin endeudamiento (k) y de la
+constancia de la relación de deudas a fondos propios.
+25
+
+3. Si no hay una constancia de deudas a fondos propios en el correr de la vida útil de la inversión
+van a cambiar tanto el costo de los fondos propios con endeudamiento (k ) como el costo
+e
+promedio del capital (CPC). Ello trae no pocos problemas de estimaciones al análisis.
+4. El método de valor presente neto ajustado puede ser de utilidad cuando la relación de deudas a
+fondos propios varía y esta variación es conocida con mínima incertidumbre en la vida de la
+inversión.
+5. Cuando es estable la relación de deudas a fondos propios es factible utilizar las otras dos
+aproximaciones, el costo promedio del capital o el enfoque del accionista.
+6. En el mundo real, las dos aproximaciones aludidas en 5 son las más utilizadas, basándose en que
+es razonable suponer que la firma tiene el objetivo de deudas a fondos propios establecido para
+el largo plazo y además por sus facilidades de cálculo.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las tres aproximaciones para estudiar la deseabilidad de las inversiones, suponiendo
+que se ha efectuado una diversificación eficiente y que sólo cuenta el riesgo sistemático.
+2. Cuándo es preferible utilizar cada una.
+13,5. LA EVALUACIÓN DE INVERSIONES EN UN CONTEXTO DE RIESGO TOTAL DE LA
+FIRMA
+Hasta ahora, la presentación de la evaluación se ha efectuado tomando en consideración sólo el
+riesgo de la inversión analizada. No se ha tenido en cuenta el impacto de la inversión en el riesgo total de la
+firma.
+La decisión, en este caso, debe venir de la presentación de los riesgos y rendimientos. El riesgo
+marginal ahora depende de la correlación entre las inversiones existentes, así como de la correlación de las
+inversiones propuestas.
+Figura 13,6.
+Tal es el caso de que luego de la evaluación de las nuevas inversiones, la relación entre riesgo y
+rendimiento sea B, en lugar de A. En este caso se observa que B reporta más rendimiento y menos riesgo que
+A, por lo que, más allá de la dificultad práctica que pueda existir en la definición de las curvas de
+indiferencia, el impacto marginal, en cuanto a riesgos y rendimientos de las nuevas proposiciones, es un
+elemento a tomar en cuenta.
+26
+
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las condiciones para la aceptación de una nueva inversión en el contexto de riesgo
+total.
+13,6. EVALUANDO LOS DOS MÉTODOS
+El pto. 13,4 resume las distintas aproximaciones suponiendo que se considera sólo el riesgo
+sistemático (que exista diversificación eficiente que ya haya eliminado el no sistemático).
+En el pto. 13,5 se trató la inversión en un contexto de riesgo total de la firma.
+¿Cuál es el camino más idóneo para transitar?
+El pto. 12,5 del capítulo anterior da un marco de referencia para la respuesta.
+En el caso de que ambos métodos den el mismo resultado en cuanto a la aceptación o el rechazo de
+las propuestas, el problema está superado.
+Si se produce en cruzamiento en los resultados, ¿cuál debe primar?
+Si efectivamente, los mercados son eficientes, resulta muy difícil que los costos de insolvencia se
+produzcan, ya que la tasa libre de riesgo es la tasa a la cual se pide prestado y se presta, y existe
+diversificación eficiente, entonces la utilización del primer método aparece como más conveniente.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuándo es aconsejable el camino del riesgo sistemático.
+2. Cuándo lo es el de riesgo total.
+3. Son excluyentes o pueden ser complementarios.
+REFERENCIAS SELECCIONADAS
+Sin perjuicio de la lectura seleccionada que se indicó en los caps. 10, 11 y 12, se agregan:
+Para el riesgo financiero y su impacto en beta:
+• HAMADA, R. S., “The effect of the firm's capital structure on the systematic risk of common
+stocks”, Journal of Finance, mayo de 1969.
+Para el costo promedio del capital:
+• MILES, J. y EZZELL, R., “The weighted average cost of capital market, perfect capital markets and
+project life: a clarification”, Journal of Finance and Quantitative Analysis, setiembre de 1980.
+Para valor presente neto ajustado:
+• MYERS, S. C., “Interactions of corporate financing and investment decisions-implications for
+capital budgeting”, Journal of Finance, N° 29, marzo de 1974.
+27
+
+APÉNDICE
+TASA DE RENDIMIENTO REQUERIDA PARA LAS NUEVAS EMISIONES DE CAPITAL Y
+UTILIDADES RETENIDAS
+Cuando se considera el financiamiento de una nueva emisión con fondos propios es frecuente
+distinguir entre utilidades retenidas y nuevas emisiones de capital.
+En el caso de las nuevas emisiones de capital se suele efectuar un ajuste sobre la tasa de rendimiento
+requerida para tomar en consideración los costos de flotación.
+De esta forma, el rendimiento requerido para una nueva emisión sería:
+k
+k =
+ne
+1−k
+donde:
+F: es el costo de flotación en tanto por uno.
+Si la tasa de rendimiento requerida para los fondos propios de una empresa es del 15% y el costo de
+flotación es del 10%, entonces se tendría que:
+15
+k = =16,67%
+ne
+1−0,1
+El rendimiento requerido para una nueva emisión será del 16,67%, que resulta algo superior a la tasa
+de rendimiento requerida del 15%.
+Por otra parte, las utilidades retenidas suelen tener una tasa de rendimiento requerida menor que las
+nuevas emisiones de capital. En efecto, a la tasa requerida básica k se le efectúan algunos ajustes para llegar
+al rendimiento requerido de las utilidades retenidas. Los principales son:
+a. los impuestos que puedan existir en los dividendos;
+b. los costos de nuevas colocaciones.
+Suponiendo que la empresa tenga un capital de $1.000.000 y que la tasa de rendimiento requerida
+sea k = 15 %.
+La distribución de utilidades se ajusta a la misma y, por lo tanto, se distribuyen $150.000.
+Existe un impuesto a los dividendos del 30% y los costos de colocación son del 2%. El neto que queda para
+el accionista sería:
+Capital……………………………………… 1.000.000
+Dividendos (15%)………………………….. 150.000
+Impuesto a los dividendos (30%)………….. 45.000
+Neto para colocar………………………….. 105.000
+Costo de colocación (2%)…………………. 2.100
+Neto colocado 102.900
+Por lo tanto, la tasa de rentabilidad neta resultó del 10,29 %, que es el porcentaje de 102.900 sobre
+1.000.000.
+De esta forma, ante un rendimiento inicial requerido del 15% los accionistas estarían dispuestos a
+retener las utilidades por una menor tasa. En el ejemplo planteado, por un 10,29%.
+Generalizando, se dice que si t , es la tasa impositiva sobre los dividendos y que si c es el costo de
+d
+nuevas colocaciones, la tasa de rendimiento requerida de las utilidades retenidas (k) será igual a:
+r
+28
+
+k = k (1 - t ) (1 - c)
+t d
+En el ejemplo sería:
+k = 15 (1 - 0,3) (1 - 0,02) = 10,29
+t
+29

@@ -1,0 +1,3472 @@
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+CAPÍTULO 12
+LAS “NORMAS INTERNACIONALES DE
+INFORMACIÓN FINANCIERA” (NIIF)
+12,1. INTRODUCCIÓN
+En la sección 1,6,g):
+a) señalamos que uno de los juegos de NC a los que prestamos especial
+atención en nuestros libros es el de las Normas Internacionales de In-
+formación Financiera (NIIF);
+b) explicamos que tomamos esta decisión porque la aplicación de las
+NIIF se acepta o se requiere en más de un centenar de países, al me-
+nos para la preparación de los estados financieros de las entidades
+que cotizan en ellos sus títulos de deuda o de patrimonio.
+En la Argentina, comenzará a requerírsela a las entidades que coticen
+públicamente títulos valores en secciones distintas a las de pymes,
+para los ejercicios iniciados desde 2012, permitiéndose su aplicación
+anticipada desde el ejercicio anterior.
+Utilizamos la expresión “Normas Internacionales de Información Fi-
+nanciera” porque:
+a) es la traducción de International Financial Reporting Standards
+(IFRSs) que se emplea en las publicaciones en español editadas
+por la IFRS Foundation (Fundación IFRS);
+b) tiene amplia difusión y arraigo.
+No obstante, hacemos notar que nos parecería mejor el empleo de la
+expresión “Estándares Internacionales de Información Financiera”,
+porque el organismo que los emite (el IASB) no está facultado para
+requerir su aplicación, de modo que su contenido no pasa de ser una
+propuesta que otras entidades pueden convertir en norma.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+470 ENRIQUE FOWLER NEWTON
+Lo mismo opinaron en 2003 Koliver y González Ayala (l).
+En este capítulo nos referiremos, entre otros temas, a la emisión de las
+NIIF, a otras cuestiones referidas a éstas (como producto) y a su papel en el
+proceso de armonización universal de las NC.
+Los componentes de las NIIF que tratan cuestiones específicas se es-
+tudian en Contabilidad Superior, sexta edición, La Ley, 2010.
+En el capítulo 16 nos referiremos al proyecto de convergencia entre las
+NIIF y los USGAAP.
+12,2. COMPONENTES DE LAS NIIF
+El conjunto denominado Normas Internacionales de Información Finan-
+ciera (en plural) comprende (2):
+a) cada uno de los pronunciamientos que en su título contiene la frase
+Norma Internacional de Información Financiera (en singular), como
+la NIIF 1 o la NIIF 9;
+b) las interpretaciones aprobadas por el IASB, que contienen guías que
+se emiten para evitar que determinadas cuestiones puedan recibir
+tratamientos divergentes o inaceptables;
+c) las Normas Internacionales de Contabilidad (NIC) y las interpretacio-
+nes que el IASB heredó del International Accounting Standards Corn-
+mittee (IASC, Comité de Normas Internacionales de Contabilidad),
+mientras no sean abrogadas y con las modificaciones que el IASB les
+introduzca.
+Todos estos pronunciamientos tienen el mismo nivel normativo.
+De algunas NIC (como la 27) existen versiones revisadas que fueron ela-
+boradas por el IASB.
+El MC al que nos referimos en el apartado 1,7,c) 1) no integra las NIIF sino
+que constituye un punto de referencia que debería ser tenido en cuenta para
+su elaboración, lo que no siempre ocurre.
+En 2005, el IASB propuso la emisión de un nuevo tipo de pronunciamien-
+to denominado Corrección técnica, para la realización de correcciones me-
+nores. Poco después concluyó que era preferible seguir los procedimientos a
+los que nos referiremos en la sección 12,4, con períodos más cortos de expo-
+sición de los correspondientes borradores.
+(1) KOLIVER, OLIVIO y GONZÁLEZ AYALA, MARTA, Las normas internacionales de contabi-
+lidad y su adecuación a escala nacional, trabajo presentado a la XXV Conferencia Interameri-
+cana de Contabilidad (2003) y publicado en el tomo de trabajos interamericanos, págs. 17-44.
+(2) NIC 1, párrafo 7.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 471
+12,3. PARTICIPANTES EN LA EMISIÓN DE LAS NIIF
+Las NIIF están integradas por pronunciamientos emanados de:
+a) dos organismos en actividad que dependen de la Fundación IFRS, que
+hasta comienzos de 2010 se denominaba International Accounting
+Standards Committee Foundation (IASCF, Fundación del Comité de
+las Normas Internacionales de Contabilidad):
+1) el International Accounting Standards Board (IASB, Consejo de
+Normas Internacionales de Contabilidad);
+2) el IFRS Interpretations Committee (Comité de Interpretaciones de
+las NIIF), antes denominado International Financial Reporting In-
+terpretations Committee (IFRIC, traducido oficialmente como Co-
+mité de Interpretaciones de las Normas Internacionales de Infor-
+mación Financiera, CINIIF);
+b) dos que finalizaron su actividad en 2000:
+1) el International Accounting Standards Committee (IASC, Comité
+de Normas Internacionales de Contabilidad);
+2) el Standing Interpretatton Committee (SIC, Comité Permanente de
+Interpretaciones), dependiente del anterior.
+En nuestros libros acostumbramos traducir Board como Junta, pero
+en el caso del IASB usamos la palabra Consejo porque es la empleada
+en las publicaciones oficiales de la Fundación IFRS.
+La traducción adecuada de International Financial Reporting Inter-
+pretations Committee es Comité de Interpretaciones Internacionales
+de Información Financiera, pero en las publicaciones en español de
+la IASCF (ahora Fundación IFRS) se usó, arbitrariamente, la expre-
+sión Comité de Interpretaciones de las Normas Internacionales de
+Información Financiera. Curiosamente, esta traducción es adecuada
+para la nueva denominación del organismo (International Financial
+Reporting Standards Interpretations Committee).
+A continuación nos referiremos a las principales características de los or-
+ganismos citados, pero en orden cronológico de aparición.
+A) EL IASC Y EL SIC
+El IASC fue creado en 1973 por organizaciones de la profesión contable
+de Alemania, Australia, Canadá, Estados Unidos, Francia, Gran Bretaña e Ir-
+landa, Holanda, Japón y México.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+472 ENRIQUE FOWLER NEWTON
+Para ampliar la información sobre el tema puede leerse:
+Ángulo, José Antonio Gonzalo y Tua Pereda, Jorge, Introducción
+a la labor del IASC, en Normas Internacionales de Contabilidad
+del IASC, Instituto de Auditores-Censores Jurados de Cuentas de
+España, Madrid, 1997.
+Su constitución de 1992 lo describía como un cuerpo independiente del
+sector privado cuyo objetivo era el logro de uniformidad en los principios
+contables (sic) utilizados por las empresas y otras organizaciones para la pre-
+sentación de información financiera alrededor del mundo. Más específica-
+mente, dicha carta orgánica enunciaba estos objetivos:
+a) formular y dar a publicidad, en el interés público, NC a ser observadas
+en la preparación de los estados financieros y promover su aceptación
+y observancia en todo el mundo;
+b) trabajar por la mejora y la armonización de las regulaciones, NC y pro-
+cedimientos relacionados con la preparación de dichos estados.
+En virtud de un convenio con la IFAC, desde 1983 los miembros de ésta
+lo eran también del IASC, en cuyo trabajo participaban también otras orga-
+nizaciones.
+En 1999 (penúltimo año de funcionamiento pleno), su costo de funciona-
+miento fue de £ 2.070.000 y sus recursos tuvieron tres orígenes principales:
+a) pagos de las organizaciones integrantes de su Junta (£ 770.000);
+b) ganancia por la venta de publicaciones (£ 1.030.000);
+c) donaciones (£ 660.000, provenientes de 101 organizaciones) (3).
+El hecho de que alrededor de un tercio de los recursos del IASC provinie-
+ra de las organizaciones que integraban la Junta que lo conducía no ayudaba
+a crearle una imagen de independencia. Dicha Junta podía tener hasta 17
+miembros, de los cuales 13 representaban a países o grupos de países y eran
+nominados por la IFAC. Los restantes representaban a organizaciones inte-
+resadas en la información financiera (4). A las reuniones de la Junta asistían
+también observadores, sin voto (5).
+(3) IASC Annual Review 1999, páginas 17-18.
+(4) A mediados de 2000: el International Council of Investment Associations (Consejo In-
+ternacional de Asociaciones de Inversión), la Federation of Swiss Industrial Holding Companies
+(Federación de Empresas Controladoras Suizas) y el International Association of Financial Ex-
+ecutives Institutes (Asociación Internacional de Institutos de Ejecutivos de Finanzas). El cuarto
+lugar estaba vacante.
+(5) A mediados de 2000: la Comisión Europea, la FASB, la IOSCO y el Gobierno de la Re-
+pública Popular China.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 473
+Dos veces por año, la Junta del IASC se reunía con un Grupo Consultivo
+integrado por representantes de organizaciones internacionales vinculadas
+con preparadores y usuarios de estados financieros (6), para discutir cues-
+tiones técnicas de los proyectos del organismo, su programa de trabajo y su
+estrategia.
+Entre 1995 y 2000 funcionó un Consejo Asesor integrado por personalida-
+des de la profesión, de los negocios y de los usuarios de estados financieros.
+Sus tareas incluían la promoción de la aceptación de las NIC y el mejora-
+miento de la credibilidad del trabajo del IASC mediante acciones como:
+a) la revisión y el comentario de la estrategia y de los planes de la Junta,
+para satisfacerse de que se alcanzasen las necesidades de los constitu-
+yentes del IASC;
+b) la preparación de un informe anual sobre la efectividad de la Junta en
+el logro de sus objetivos y en el cumplimiento de sus tareas;
+c) la promoción de la participación en el trabajo del IASC y de su acepta-
+ción por parte de la profesión contable, la comunidad de negocios, los
+usuarios de estados financieros y otros interesados en la información
+financiera;
+d) la búsqueda y obtención de fondos para el trabajo del IASC de una
+manera que no debilitase su independencia; y
+e) la revisión de los presupuestos y estados financieros del IASC.
+En su sede (situada en Londres), el IASC contaba con un plantel reducido
+de personal técnico que provenía de diversos países y era encabezado por un
+Secretario General.
+Tuvo a su cargo la aprobación de las NIC, basándose (en cada caso) en
+propuestas formuladas por un comité conductor constituido al efecto. La
+aprobación requería el voto favorable de las tres cuartas partes de sus miem-
+bros, previa exposición del correspondiente borrador a los comentarios pú-
+blicos por no menos de seis meses.
+Puede encontrarse una explicación detallada del proceso de emisión
+de una NIC en las páginas 30-32 del trabajo de Gonzalo Ángulo y Tua
+Pereda referido precedentemente.
+En 1997, el S1C comenzó a emitir interpretaciones de las NIC, referidas a:
+a) prácticas insatisfactorias, dentro del alcance de las NIC existentes; o
+b) cuestiones relacionadas con las NIC que no habían sido consideradas
+al momento de su desarrollo.
+(6) A mediados de 2000 el Grupo Consultivo tenía 16 integrantes, entre ellos la FASB, la
+IOSCO y la UE.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+474 ENRIQUE FOWLER NEWTON
+Los textos oficiales de las NIC y de las interpretaciones eran los publica-
+dos en idioma inglés. Existieron traducciones efectuadas por el propio IASC
+al español y a otros idiomas, que eran relativamente oficiales, pues en caso de
+contradicción con la versión en inglés, prevalecía ésta.
+Como se indica en el apartado que sigue, el IASC y su SIC fueron disuel-
+tos en 2001.
+B) LA IFRS FOUNDATION (ANTES IASCF)
+1) Génesis
+En 1997, el IASC consideró que debía actualizar su estructura y creó un
+comité especial para el estudio del tema. Es probable que esta decisión haya
+tenido que ver con las críticas que venía recibiendo el trabajo del Comité, que
+la FASB resumió así en 1999:
+(...) algunos creen que la estructura y el proceso de
+emisión de normas del IASC no son lo suficientemen-
+te robustos como para satisfacer futuras demandas de
+normas contables de alta calidad. En particular, bajo
+la estructura existente, los miembros de la Junta del
+IASC representan a organizaciones, no a individuos.
+Quienes sirven en la Junta lo hacen con dedicación
+parcial, manteniendo lazos con sus empleadores. (...)
+El IASC sólo tiene una pequeña planta con dedicación
+exclusiva y una porción sustancial del trabajo re-
+lativo a los proyectos es tomada a su cargo por vo-
+luntarios que sirven en los comités conductores. El
+debido proceso del IASC sólo provee limitadas opor-
+tunidades de input a los constituyentes y al público
+en general y, hasta hace poco, estuvo cerrado a la
+observación pública. Las audiencias públicas y la in-
+teracción cara a cara con la Junta del IASC y con sus
+constituyentes no es una parte normal del debido pro-
+ceso del IASC. Además, el IASC no está sujeto a su-
+pervisión por parte de un cuerpo independiente. Estas
+características del IASC motivan preguntas acerca de
+sus capacidades continuas para emitir coherentemente
+normas contables de alta calidad, para ocuparse de
+cuestiones emergentes y para adaptarse a los cambios
+del contexto económico. A medida que la demanda de
+normas internacionales de contabilidad aumenta, hay
+quienes se preguntan si la Junta del IASC, tal como
+está construida, puede llevar a cabo sus responsabi-
+lidades adecuadamente, discutir y debatir cuestiones
+técnicas con la profundidad adecuada y asegurarse de
+que los representantes en la Junta voten sobre la
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONAL DE INFORMACIÓN FINANCIERA” 475
+base de los méritos técnicos de una propuesta más que
+sobre la base de intereses sectoriales (7).
+El informe del comité especial se conoció en 1999 (8). En ese año, el IASC
+introdujo ciertos cambios en su organización y en marzo de 2000 aprobó una
+nueva Constitución, que dos meses después fue aprobada por la IFAC. En
+cumplimiento de una de sus disposiciones, en febrero de 2001 se constituyó
+la Fundación IASC.
+La Constitución de esta fundación se basó en la última emitida por el
+IASC, que fue modificada en seis oportunidades. La versión vigente recoge
+los cambios que se le efectuaron el 26 de enero de 2010 y establece que la
+emisión de normas técnicas está a cargo de dos cuerpos dependientes de la
+Fundación: el IASB y el IFRS Interpretations Committee (nombre dado en
+2010 al IFRIC, que había sido creado en 2002).
+2) Cambio de denominación
+La denominación dada originalmente a la Fundación transmitía la idea
+de cierta ligazón con el disuelto IASC, que en lo principal se limitó a la in-
+corporación a las NIIF de los pronunciamientos previamente emitidos por el
+IASC y por la SIC que existían a la fecha de su disolución y fueron heredados
+por el IASB en 2001. Por ello, nos parece bien su cambio de denominación a
+Fundación IFRS, dispuesto en enero de 2010.
+3) Objetivos
+En la constitución de 2010 se define:
+Los objetivos de la Fundación IFRS son:
+(a) Desarrollar, en el interés público, un conjunto
+único de normas de información financiera legal-
+mente exigibles, globalmente aceptadas, compren-
+sibles y de alta calidad basado en principios
+claramente articulados. Estas normas deberían
+requerir información comparable, transparente y
+de alta calidad en los estados financieros y en
+otra información financiera que ayude a los in-
+versores, a otros partícipes en los mercados de
+capitales de todo el mundo y a otros usuarios de
+la información financiera.
+(7) The IASC-U.S. Comparison Project: A Report on the Similarities and Differences be-
+tween IASC Standards and U.S. GAAP. segunda edición, FASB, 1999, página 15.
+(8) IASC Strategy Working Party, Recommendations on Shaping IASC for the Future,
+1999.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+476 ENRIQUE FOWLER NEWTON
+(b) Promover el uso y la aplicación rigurosa de ta-
+les normas.
+(c) Considerar en el cumplimiento de los objetivos
+asociados con (a) y (b), cuando sea adecuado,
+las necesidades de un abanico de tamaños y tipos
+de entidades en escenarios económicos diferen-
+tes.
+(d) Promover y facilitar la adopción de las Nor-
+mas Internacionales de Información Financiera
+(NIIF), que son las normas e interpretaciones
+emitidas por el IASB, mediante la convergencia
+de las normas de contabilidad nacionales y las
+NIIF(9).
+4) Gobierno
+La conducción de la Fundación IFRS está a cargo de:
+a) un cuerpo de fideicomisarios (10);
+b) los otros órganos de gobierno que ellos determinen de acuerdo con
+las disposiciones de la Constitución (11).
+Los fideicomisarios deben emplear sus mejores esfuerzos para asegurar
+que se observen los requerimientos de la Constitución, pero en aras de la
+viabilidad operativa pueden efectuar variaciones menores, las que deben ser
+aprobadas por el 75 % del cuerpo (12).
+Respecto de dicho cuerpo se ha establecido que:
+a) los fideicomisarios serán veintidós personas físicas (13), con esta dis-
+tribución geográfica:
+1) seis de Asia y Oceanía;
+2) seis de Europa;
+3) seis de América del Norte;
+4) uno de África;
+(9) Constitución de la Fundación IFRS (2010), párrafo 2.
+(10) Traducción de trustees empleada en la versión oficial en español del prólogo a las
+NIIF. En la traducción oficial de la Constitución de 2010 se los denomina fiduciarios, lo que
+puede provocar confusiones. Peores fueron las traducciones en que se los denominaba patro-
+nes o administradores, pues esto daba a entender que tenían a su cargo actividades gerencia-
+les.
+(11) Constitución de la Fundación IFRS (2010), párrafo 3.
+(12) Ibídem, párrafo 3.
+(13) Ibídem, párrafo 4.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 477
+5) uno de América del Sud ( 14);
+6) dos de cualquier área, siempre que se mantenga un balance geo-
+gráfico global (15).
+b) el cuerpo debe incluir:
+1) preparadores, auditores y usuarios, así como académicos y funcio-
+narios que sirvan al interés público;
+2) normalmente, dos socios principales de firmas contables interna-
+cionales prominentes (16);
+c) actuando en grupo, sus miembros deben proveer un balance adecua-
+do de antecedentes profesionales (17);
+d) serán designados por un Monitoring Board (Consejo de Seguimien-
+to), siguiendo cierto procedimiento (18), que incluye consultas efec-
+tuadas con la IFAC y con otras organizaciones nacionales e interna-
+cionales de auditores, preparadores, usuarios y académicos (19);
+e) los fideicomisarios establecerán procedimientos para invitar a la for-
+mulación de sugerencias de designaciones por parte de esas organi-
+zaciones y para permitir que los individuos propongan sus propios
+nombres, lo que incluye la publicidad de las posiciones vacantes (20);
+f) los fideicomisarios duran tres años en su cargo y pueden ser reelegi-
+dos una vez (21), aunque pueden ser removidos en caso de desempe-
+ño pobre, inconducta o incapacidad (22);
+g) deben reunirse no menos de dos veces por año, recibiendo un hono-
+rario anual y otro por cada reunión, que ellos mismos fijan (23).
+Los fiduciarios tienen diversas obligaciones. Las que más interesan en
+relación con las cuestiones tratadas en este capítulo son las de:
+a) nombrar a los miembros del IASB y establecer las condiciones de sus
+contratos de servicio, así como los criterios de evaluación de su de-
+sempeño;
+b) nombrar a los miembros del Comité de Interpretaciones y del Consejo
+Asesor referidos más adelante;
+(14) Actualmente, Pedro Malan, de Brasil.
+(15) Constitución de la Fundación IFRS (2010), párrafo 6.
+(16) Ibídem, párrafo 7.
+(17) Ibídem, párrafo 7.
+(18) Ibídem, párrafo 5.
+(19) Ibídem, párrafo 7.
+(20) Ibídem, párrafo 7.
+(21) Ibídem, párrafo 8.
+(22) Ibídem, párrafo 9.
+(23) Ibídem, párrafo 11.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+478 ENRIQUE FOWLER NEWTON
+c) revocar los nombramientos indicados en función del bajo rendimien-
+to, del mal comportamiento, de la incapacidad o de otras falencias en
+el cumplimiento de las exigencias contractuales;
+d) aprobar anualmente el presupuesto de la Fundación IFRS y determi-
+nar las bases para su financiación;
+e) revisar las cuestiones generales de carácter estratégico que afecten a
+las NIIF y promover su aplicación rigurosa, sin involucrarse en asun-
+tos técnicos relativos a ellas;
+f) aprobar las modificaciones a la Constitución, después de observar un
+procedimiento que incluye consultas al Consejo Asesor y la publica-
+ción de un borrador de documento para recibir comentarios del pú-
+blico (24).
+Es adecuado que los fideicomisarios no intervengan en la sanción de las
+NIIF porque éstas son más creíbles si quienes las emiten (el IASB y el Comité
+de Interpretaciones) están desligados de la obtención de los fondos necesa-
+rios para el funcionamiento de la Fundación IFRS.
+5) Supervisión
+El Consejo de Seguimiento proporcionará un vínculo formal entre la jun-
+ta de fideicomisarios y las autoridades públicas (25). Inicialmente estará in-
+tegrado por:
+a) el miembro responsable de la Comisión Europea;
+b) el presidente de la SEC;
+c) el comisionado de la Agencia de Servicios Financieros de Japón;
+d) el presidente del Comité de Mercados Emergentes de la IOSCO;
+e) el presidente del Comité Técnico de la IOSCO (o su vicepresidente,
+si el presidente fuera alguna de las personas indicadas en los incisos
+anteriores);
+f) como observador, el presidente del Comité de Basilea de Supervisión
+Bancaria (26).
+Varios integrantes del Consejo (la UE, la IOSCO y la Agencia de Servicios
+Financieros de Japón) habían solicitado la creación de un organismo de este
+tipo en 2007 (27).
+(24) Ibídem, párrafos 15 y 16.
+(25) Ibídem, párrafo 18.
+(26) Ibídem. párrafo 21.
+(27) http://www.sec.gov/news/press/20O7/2007-226.htm.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 479
+Entre sus funciones se cuenta, ya lo mencionamos, la designación de los
+fideicomisarios de la Fundación IFRS.
+6) Financiamiento
+El costo de funcionamiento de la Fundación IFRS se incrementa año
+tras año. En 2009 llegó a £ 19.696.000 y fue financiado principalmente con
+donaciones (£ 16.584.000) y con el resultado de la venta de publicaciones
+(£ 2.394.000). Compárese la primera cifra con los £ 2.070.000 que erogó el
+IASC en 1999.
+La Fundación IFRS procura que su funcionamiento sea solventado prin-
+cipalmente a través de un número de regímenes financieros nacionales que
+alcancen a los participantes en los mercados de valores, de modo de diversi-
+ficar las fuentes de financiamiento.
+c) EL IASB
+El IASB es el órgano de la Fundación IFRS que tiene a su cargo la emisión
+de las NIIF y de sus borradores, así como la aprobación final de las interpre-
+taciones del Comité de Interpretaciones de las NIIF (28).
+Nos llama la atención que, después de los cambios introducidos a la Cons-
+titución de la Fundación IFRS en 2010, la denominación de la IASB induzca
+a relacionarla con las NIC y no con las NIIF. Lo coherente con esos cambios
+habría sido rebautizarlo International Financial Reporting Standards Board
+(Consejo de Normas Internacionales de Información Financiera).
+También se espera que, en acuerdo con los fideicomisarios, establezca y
+mantenga enlaces con los emisores de normas nacionales, con otros emiso-
+res de normas y con otros organismos oficiales interesados en la emisión de
+NC, para apoyar el desarrollo de las NIIF y promover la convergencia entre
+las NC nacionales y las NIIF (29).
+El IASB no es el IASC con otro nombre, como dan a entender quienes re-
+latan su historia diciendo que nació en 1973 y no en 2001 o que simplemente
+afirman que el IASC fue “rebautizado como IASB”.
+Actualmente está integrado por 15 miembros a los que deberá agregase
+uno no después del 1º de julio de 2012 (30). A esa fecha, el IASB debería que-
+dar compuesto por:
+a) cuatro miembros provenientes de Asia y Oceanía;
+b) cuatro de Europa;
+(28) Constitución de la Fundación IFRS (2010), párrafo 36.
+(29) Ibídem, párrafo 28.
+(30) Ibídem, párrafo 24.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+480 ENRIQUE FOWLER NEWTON
+c) cuatro de América del Norte;
+d) uno de África;
+e) uno de América del Sud;
+f) dos de cualquier área, siempre que se mantenga un balance geográfi-
+co global (31).
+Del total de miembros, hasta tres pueden tener dedicación parcial (32).
+Entendemos que el requerimiento de una gran mayoría con dedicación ex-
+clusiva apunta al logro de una mayor independencia relativa.
+Los fideicomisarios deben seleccionar a los miembros del IASB de modo
+que este cuerpo:
+a) quede compuesto por un grupo de personas que representen la mejor
+combinación disponible de experiencia técnica y diversidad de nego-
+cios internacionales y experiencia en mercados, con el propósito de
+contribuir al desarrollo de normas globales de información financiera
+de alta calidad (33);
+b) proporcione una combinación adecuada de experiencia práctica en-
+tre preparadores, auditores, usuarios y académicos (34).
+No se puede ser fideicomisario e integrante del IASB simultáneamen-
+te (35).
+Para ser designado miembro se requiere:
+a) competencia técnica y conocimientos de contabilidad demostrados,
+aunque no se exige título de contador público;
+b) capacidad para analizar cuestiones y para considerar las implicacio-
+nes del análisis en el proceso de toma de decisiones;
+c) talento para la comunicación oral y escrita;
+d) capacidad de considerar diversos puntos de vista, pesar imparcial-
+mente las evidencias presentadas y llegar oportunamente a decisio-
+nes oportunas, razonadas y sostenibles;
+e) conocimiento del entorno dentro del cual se preparan los informes
+financieros;
+f) capacidad para el trabajo colegiado;
+(31) Ibídem, párrafo 26. El puesto de América del Sur lo ocupa el brasileño Amaro Go-
+mes.
+(32) Ibídem, párrafo 24.
+(33) Ibídem, párrafo 25.
+(34) Ibídem, párrafo 27.
+(35) Ibídem, párrafo 25.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 481
+g) integridad, objetividad y disciplina;
+h) compromiso con la misión de la Fundación IFRS y el interés públi-
+co (36).
+Se los elige por hasta cinco años, pudiendo ser reelectos una vez por tér-
+minos que varían entre tres y cinco años en función de dos circunstancias:
+a) que hayan sido designados antes o después al 2 de julio de 2009 (37);
+b) que hayan ocupado o no la presidencia o la vicepresidencia del cuer-
+po (38).
+La remuneración de los integrantes del IASB es fijada (ya lo dijimos) por
+los fideicomisarios (39).
+El IASB tiene libertad total para establecer su agenda técnica, aunque
+debe efectuar consultas a los fideicomisarios y al Comité Asesor. Desde 2011
+también tendrá que efectuar consultas públicas cada tres años (40).
+Al organizar su trabajo técnico, puede encargar investigaciones detalla-
+das a organismos emisores de NC o a otros terceros (41).
+También puede decidir sobre el número de reuniones y los lugares don-
+de tendrán lugar. Los debates del IASB son públicos, pero ciertas cuestiones
+(normalmente las relacionadas con la administración del personal) puede
+tratarse en reunión secreta (42).
+D) EL IFRS INTERPRETATIONS COMMITTEE (ANTES IFRIC)
+De acuerdo con la Constitución de la Fundación IFRS, el Comité de Inter-
+pretaciones tiene las siguientes funciones:
+a) interpretar la aplicación de las NIIF y proporcionar de forma oportuna
+guías sobre cuestiones de información financiera que no hayan sido
+tratadas específicamente en ellas, en el contexto del MC del IASB y
+teniendo en consideración el objetivo de este organismo de trabajar
+activamente junto con los emisores nacionales de normas para con-
+seguir la convergencia de las normas contables nacionales y las NIIF,
+buscando soluciones de alta calidad;
+b) ejecutar otras tareas que le encargue el IASB;
+(36) Ibídem. Anexo.
+(37) Suponemos que ninguno fue designado justamente el 2 de julio de 2009, en cuyo
+caso no entraría en ninguno de los dos grupos.
+(38) Constitución de la Fundación IFRS (2010), párrafo 31.
+(39) Ibídem, párrafo 33.
+(40) Ibídem. párrafo 37(d).
+(41) Ibídem, párrafo 37(e).
+(42) Ibídem, párrafo 34.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+482 ENRIQUE FOWLER NEWTON
+c) elaborar interpretaciones de las NIIF e informar de ello al IASB (43).
+El manual para su funcionamiento del (entonces) IFRIC aprobado por los
+fideicomisarios en 2007 indica que este Comité debe identificar, oportuna-
+mente, las cuestiones que merecen la emisión de interpretaciones (44). Tam-
+bién señala que debe resolverlas aplicando un enfoque basado en principios
+fundado en el MC adoptado por el IASB (45) y evitar que sus conclusiones en-
+tren en conflicto con las NIIF (46). Esto crea un problema práctico porque:
+a) la regla indica que el Comité debe dar preeminencia al MC sobre las
+NIIF;
+b) las interpretaciones son finalmente aprobadas por el IASB, que ha
+dictado NIIF que no respetan al MC.
+El Comité tiene catorce miembros con derecho a voto, con mandatos
+renovables de tres años (47). Son designados por los fideicomisarios, que
+también eligen a otra persona para que presida las reuniones del Comité y a
+miembros observadores. Tanto éstos como el presidente tienen voz pero no
+voto (48).
+Debe reunirse cuando se le requiera. El quorum se logra con la presencia
+física o por telecomunicación de diez integrantes. Uno o dos miembros del
+IASB, designados por ésta, pueden asistir (sin voto). Las reuniones son públi-
+cas, aunque ciertos temas pueden ser tratados en sesión secreta (49).
+Al votar, los miembros del Comité deben hacerlo de acuerdo con sus pro-
+pias opiniones independientes y nunca como representantes de puntos de
+vista de las empresas, instituciones u organizaciones constituyentes a las que
+puedan estar asociados. No están permitidos los votos por delegación (50).
+E) EL IFRS ADVISORY COUNCIL (ANTES SAC)
+Este Consejo tiene las siguientes funciones:
+a) asesorar al IASB sobre el contenido de sus agendas de trabajo y sus
+prioridades;
+b) informarle los puntos de vista de los integrantes del Consejo sobre los
+principales proyectos de emisión de normas; y
+(43) Ibídem, párrafo 43.
+(44) Due Process Handbook for the International Financial Reporting Interpretations
+Committee (IFRIC) IASCF, 2007, párrafo 5.
+(45) Ibídem, párrafo 6, cuya traducción oficial al español da a entender que son los prin-
+cipios (y no el enfoque) los que deben estar fundados en el MC.
+(46) Ibídem, párrafo 7.
+(47) Constitución de la Fundación IFRS (2010), párrafo 39.
+(48) Ibídem, párrafo 40.
+(49) Ibídem, párrafo 41.
+(50) Ibídem, párrafo 42.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 483
+c) brindar otros asesoramientos al IASB y a los fideicomisarios (51).
+Debe ser consultado:
+a) por el IASB antes de decidir sobre los principales proyectos;
+b) por los fideicomisarios sobre cualquier propuesta de cambio a la
+Constitución (52).
+Lo integran no menos de treinta organizaciones e individuos interesados
+en la información financiera internacional, designados por términos renova-
+bles de tres años, que deben tener una diversidad de antecedentes profesio-
+nales y procedencias geográficas (53).
+Normalmente, se reúne tres veces por año en sesiones abiertas al públi-
+co (54), que son conducidas por un presidente que es designado por la junta
+de fideicomisarios y que no puede pertenecer al IASB ni a su personal (55).
+Las reglas para su funcionamiento se describen en el apéndice III al ma-
+nual de procedimientos a seguir por el IASB aprobado por los fideicomisarios
+en 2006.
+12,4. PROCEDIMIENTOS DE EMISIÓN DE LAS NIIF
+A) ASPECTOS GENERALES
+Como anticipamos en la sección 12,3, la emisión, la modificación o la
+derogación de cualquier componente de las NIIF requiere la aprobación del
+IASB. En la elaboración y la aprobación de las interpretaciones, participa
+también el Comité de Interpretaciones de las NIIF.
+La constitución establece que los miembros del IASB deben acordar con-
+tractualmente que actuarán a favor del interés público y que el decidir sobre
+las normas y sus revisiones tendrán en cuenta el MC adoptado por ese orga-
+nismo, con las modificaciones que se le introdujeren con el paso del tiem-
+po (56). Lamentablemente, sólo se obligan a tenerlo en cuenta, que no es lo
+mismo que respetarlo.
+La misma Constitución contiene algunas indicaciones sobre los pasos a
+dar para emitir los componentes de las NIIF (57) y una descripción detallada
+de ellos aparece en dos manuales que:
+a) describen los procedimientos a seguir por parte del IASB y del Comité
+de Interpretaciones;
+(51) Ibídem, párrafo 44.
+(52) Ibídem, párrafo 46.
+(53) Ibídem, párrafo 45.
+(54) Ibídem, párrafo 46.
+(55) Ibídem, párrafo 45.
+(56) Ibídem. párrafo 29.
+(57) Ibídem, párrafos 37 y43.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+484 ENRIQUE FOWLER NEWTON
+b) fueron aprobados por los fideicomisarios en marzo de 2006 y enero de
+2007, respectivamente.
+c) tratan con bastante detalle:
+1) las cuestiones a considerar para agregar un tema a las agendas téc-
+nicas de ambos organismos;
+2) las actividades de planeamiento referidas a cada proyecto;
+3) los procedimientos a seguir para la aprobación de un pronuncia-
+miento, que respetan los requisitos generales que enunciamos en
+la sección 10,4;
+4) las actividades posteriores a la emisión de un pronunciamiento.
+La lectura íntegra de los manuales es recomendable para quienes organi-
+cen, en cualquier ámbito, sistemas de emisión de normas profesionales (58).
+Aquí, nos limitaremos a enunciar los pasos principales que deben darse para
+emitir componentes de las NIIF.
+Antes, señalemos que la corrección de pequeños errores (ortográficos,
+referencias incorrectas, trasposiciones de números en ejemplos, etcétera):
+a) no requiere la ejecución de los pasos que describiremos;
+b) está a cargo del personal técnico del IASB;
+c) se comunica utilizando el sitio web del IASB mediante unos docu-
+mentos muy breves denominados correcciones editoriales, que tienen
+la estructura de una fe de erratas.
+B) PRONUNCIAMIENTOS DISTINTOS A LAS INTERPRETACIONES
+1) Procedimientos obligatorios
+Para emitir un pronunciamiento técnico que contenga una nueva NIIF o
+una versión revisada de una NIIF o de una NIC preexistente, o bien una mo-
+dificación a otros pronunciamientos preexistentes, es imprescindible:
+a) desarrollar un borrador del mismo que:
+1) contenga el texto propuesto y una invitación a formular comenta-
+rios;
+2) esté acompañado por los correspondientes fundamentos y por las
+visiones alternativas de los miembros del IASB que estuvieren en
+desacuerdo;
+(58) Debe tenerse en cuenta que el texto de los manuales disponible a la fecha del pre-
+facio de este libro no ha sido corregido en función de los cambios introducidos en 2010 a la
+Constitución de la Fundación IFRS.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 485
+3) puede incluir guías de aplicación (que tienen carácter normativo)
+o de implementación (que no lo tienen);
+b) ponerlo a consideración del público por un periodo que generalmen-
+te es de 120 días, pero que puede acortarse a no más de 30 si la cues-
+tión es excepcionalmente urgente;
+c) por intermedio del personal técnico del IASB, colectar, resumir y ana-
+lizar los comentarios que se reciban;
+d) corregir el borrador en función del estudio de las cartas con comenta-
+rios;
+e) emitir el pronunciamiento (en idioma inglés) y publicar sus funda-
+mentos.
+Eventualmente, el IASB podría decidir la emisión de un segundo borra-
+dor y someterlo a otra rueda de consultas.
+Las discusiones del IASB se llevan a cabo en reuniones públicas que sue-
+len realizarse a razón de una por mes (excepto en agosto) durante tres a cinco
+días.
+Las decisiones referidas a la aprobación de componentes de las NIIF o de
+borradores de ellos deberán ser tomadas por no menos de diez miembros del
+IASB cuando este cuerpo tenga dieciséis. Mientras esto no suceda, bastará
+con nueve votos (59). Las emisiones de papeles para discusión pueden apro-
+barse por mayoría simple en una reunión que cuente con la presencia física
+o por telecomunicación del 60 % de los miembros (60).
+2) Procedimientos omisibles
+El IASB puede también optar por:
+a) desarrollar y publicar un papel para discusión (propio del IASB o de
+un organismo que esté colaborando con él en un proyecto), que pue-
+de incluir puntos de vista del autor.
+b) establecer grupos de trabajo o de asesoramiento especializado para
+recibir consejos sobre proyectos importantes;
+c) efectuar visitas a emisores de estados financieros para comprender
+mejor las prácticas de la industria correspondiente y la forma que el
+nuevo pronunciamiento (si fuere aprobado) podría afectarlas;
+d) organizar audiencias públicas o mesas redondas.
+(59) Constitución de la Fundación IFRS (2010), párrafo 36. Antes de la reforma de 2005
+sólo se requerían ocho votos.
+(60) Ibídem, párrafo 36.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+486 ENRIQUE FOWLER NEWTON
+De omitirse alguno de estos procedimientos, la causa debe ser publicada
+dentro de los fundamentos del borrador o norma correspondiente.
+C) INTERPRETACIONES
+Los pasos principales para la emisión de una interpretación del IFRS ln-
+terpretations Committee son:
+a) el desarrollo de un borrador para comentario público, que debe in-
+cluir:
+1) un resumen de las cuestiones contables identificadas;
+2) el consenso al que se arribó acerca del tratamiento contable ade-
+cuado;
+3) referencias a las NIIF, a las partes del MC y a otros pronunciamien-
+tos que sirven de base para el consenso;
+4) la fecha de vigencia y las normas de transición;
+b) su publicación, junto con los fundamentos del consenso, por no me-
+nos de 60 días;
+c) la consideración de todos los comentarios recibidos durante el perío-
+do de exposición pública del borrador;
+d) la elaboración y aprobación de la interpretación final por el Comité de
+Interpretaciones (o la elaboración de un nuevo borrador a ser someti-
+do a otra rueda de consultas);
+e) su ratificación por el IASB.
+Para que dentro del Comité exista consenso sobre un borrador o sobre
+una interpretación final, no debe haber más de tres votos en contra.
+La mayoría requerida para su ratificación por el IASB es la misma que se
+exige para aprobar una NIIF:
+a) diez votos cuando el IASB tenga dieciséis miembros;
+b) nueve hasta entonces.
+12,5. OTRAS CUESTIONES REFERIDAS A LAS NIIF COMO
+PRODUCTO
+A) CONTENIDO TÍPICO DE UNA NIIF
+Entre los componentes típicos de una NIIF, son especialmente relevantes
+los que siguen:
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 487
+a) una aclaración que indica que el pronunciamiento debe ser entendi-
+do en el marco de sus fundamentos de las conclusiones, del prólogo a
+las NIIF y del MC adoptado por el IASB;
+b) la delimitación de su alcance;
+c) las normas;
+d) las modificaciones que se efectuaren a normas preexistentes;
+e) las definiciones de los términos empleados (el glosario);
+f) la vigencia de las normas y de las modificaciones a pronunciamientos
+preexistentes;
+g) a veces, normas de transición;
+h) en algunos pronunciamientos, una guía de aplicación.
+La aclaración referida en el inciso a) indica también que al seleccionar
+políticas contables deben tenerse en cuenta las previsiones de la NIC 8.
+Al definir el alcance suele emplearse la palabra entidad, para cuya inter-
+pretación debe tenerse en cuenta este párrafo del prólogo a las NIIF:
+Las NIIF están diseñadas para ser aplicadas en los
+estados financieros con propósito de información ge-
+neral, así como en otras informaciones financieras,
+de todas las entidades con ánimo de lucro. Entre és-
+tas se incluyen las que desarrollan actividades co-
+merciales, industriales, financieras u otras simila-
+res, fuere que estén organizadas en forma de socie-
+dades o revistan otras formas jurídicas. También se
+incluyen organizaciones tales como las compañías de
+seguros mutuos y otras entidades de cooperación mu-
+tualista, que suministran a sus propietarios, miem-
+bros o participantes, dividendos u otros beneficios
+de forma directa y proporcional. Aunque las NIIF no
+están diseñadas para ser aplicadas a las entidades
+sin ánimo de lucro en los sectores privado, público,
+ni en las administraciones públicas, las entidades
+que desarrollen estas actividades pueden encontrar-
+las apropiadas. El Consejo de Normas Internacionales
+de Contabilidad del Sector Público (IPSASB) prepara
+normas contables para las administraciones públicas
+y para otras entidades del sector público, diferen-
+tes de las entidades gubernamentales de negocios, que
+están basadas en las NIIF (61).
+(61) Prólogo a las NIIF (2010), párrafo 9.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+488 ENRIQUE FOWLER NEWTON
+Algunos párrafos normativos aparecen resaltados y otros con tipos nor-
+males, pero todos tienen el mismo nivel de obligatoriedad. En el prólogo a las
+NIIF se dice que los primeros contienen los principios más importantes (62).
+Entendemos que se refiere a las normas principales, porque no están prepa-
+radas con el enfoque basado en principios, aunque algunos miembros del
+IASB sostengan lo contrario.
+Los términos empleados en una NIIF se incluyen también en un glosario
+general que se presenta en su publicación anual.
+Dado el carácter no imperativo de los estándares publicados, la vigencia
+indicada en una NIIF y las normas de transición previstas sólo constituyen
+propuestas que los (verdaderos) emisores de NC pueden aceptar o rechazar.
+Una NIIF podría indicar que tiene vigencia para la preparación de
+estados financieros correspondientes a ejercicios o períodos inter-
+medios iniciados desde 2011 pero un emisor de NC aceptarla con
+vigencia desde 2022.
+Las guías de aplicación suelen contener normas cuya inclusión en los pá-
+rrafos normativos principales haría más pesada y entrecortada la lectura de
+éstos.
+B) CONTENIDO TÍPICO DE UNA INTERPRETACIÓN
+Una interpretación incluye:
+a) los antecedentes de la cuestión a interpretar;
+b) el alcance de la interpretación;
+c) las cuestiones objeto de ella;
+d) el consenso alcanzado en el Comité de Interpretaciones de las NIIF;
+e) la fecha de vigencia;
+f) a veces, normas de transición;
+g) ocasionalmente, modificaciones a normas preexistentes.
+C) MATERIAL ACOMPAÑANTE
+Junto con una NIIF o una interpretación deben publicarse los siguientes
+elementos, que no tienen carácter normativo:
+(62) Ibídem, párrafo 14.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 489
+a) los fundamentos de la NIIF o del consenso del caso;
+b) en el caso de las NIIF:
+1) los nombres de los miembros del IASB que votaron a favor y en
+contra;
+2) las opiniones disidentes de los segundos.
+Ya mencionamos que la publicación de los fundamentos es importan-
+te por razones de transparencia y porque facilita su interpretación y aplica-
+ción.
+El material acompañante puede incluir también:
+a) guías para la implementación de las reglas contenidas en la NIIF o en
+la interpretación;
+b) ejemplos ilustrativos de su aplicación.
+D) CLARIDAD
+Las NIIF no son, en general, de lectura fluida. Su redacción podría ser
+mejorada si:
+a) la terminología empleada estuviese siempre en armonía con el len-
+guaje común;
+b) no se incluyeran normas dentro de los sectores destinados a explicar
+los términos utilizados;
+c) no se incluyesen, en la parte normativa, aclaraciones que no constitu-
+yen reglas y que poco agregan.
+E) IDIOMAS Y TRADUCCIONES
+De acuerdo con la Constitución de la Fundación IFRS:
+a) el texto oficial de un componente de las NIIF es el publicado por el
+IASB en idioma inglés;
+b) el IASB puede publicar traducciones o autorizar que otros lo ha-
+gan (63).
+En la realidad, el manejo de las traducciones no está a cargo del IASB sino
+de la Fundación.
+La disponibilidad de una traducción (debidamente aprobada) de las NIIF
+al idioma de un país es imprescindible respecto de los pronunciamientos de
+(63) Constitución de la Fundación IFRS (2010), párrafo 38.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+490 ENRIQUE FOWLER NEWTON
+aplicación obligatoria en él. En relación con esta cuestión, la UE tiene esta-
+blecido que las NIIF que ella adopte deben publicarse íntegramente en todas
+las lenguas oficiales de la Comunidad, en forma de reglamento de la Comi-
+sión, en el Diario Oficial de la Unión Europea (64).
+Cualquier traducción inadecuada de una regla podría ocasionar una si-
+tuación de difícil resolución.
+Para ilustrar el punto tomemos la versión revisada en 2009 de la NIC
+24, referida principalmente a la información que debe brindarse en
+los estados financieros sobre las transacciones, saldos y compromi-
+sos con partes relacionadas.
+Para definir el alcance de la expresión en bastardilla, la NIC contie-
+ne una definición de personal clave de la gerencia y otra que permi-
+te determinar quiénes integran el grupo de sus familiares cercanos.
+El texto en inglés de esta última es:
+Close members of the family of a person are those
+family members who may be expected to influence,
+or be influenced by, that person in their deal-
+ings with the entity and include:
+(a) that person’s children and spouse or domes-
+tic partner;
+(b) children of that person’s spouse or domestic
+partner; and
+(c) dependants of that person or that person’s
+spouse or domestic partner.
+La traducción oficial al español de esta definición es la que sigue:
+Familiares cercanos a una persona son aquellos
+miembros de la familia de los que se podría es-
+perar que influyeran a, o fueran influidos por
+esa persona en sus relaciones con la entidad e
+incluyen:
+(a) los hijos de esa persona y el cónyuge o per-
+sona con análoga relación de afectividad;
+(b) los hijos del cónyuge de esa persona o per-
+sona con análoga relación de afectividad; y
+(c) personas dependientes de esa persona o el
+cónyuge de esa persona, o persona con análoga
+relación de afectividad.
+(64) Reglamento (CE) 1606/2002 del Parlamento Europeo y del Consejo, artículo 3, apar-
+tado 4.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 491
+Puede observarse que la expresión inglesa “domestic partner” fue
+traducida como “persona con análoga relación de afectividad”, lo
+que nos merece los siguientes comentarios:
+a) El Merriam Webster Dictionary (65) define:
+Domestic partner
+2. either one of an unmarried heterosexual or
+homosexual cohabiting couple especially when
+considered as to eligibility for spousal be-
+nefits
+b) se refiere, en consecuencia, a cada uno de los miembros de una
+pareja (de heterosexuales o de homosexuales) que cohabita sin
+estar casada, especialmente a los efectos de definir si pueden re-
+cibir los mismos beneficios que los esposos;
+c) una “relación de afectividad” análoga con la que vincula a una
+persona con su cónyuge:
+1) es, por naturaleza, subjetiva;
+2) podría ser de cualquier tipo (una persona podría tener simi-
+lares sentimientos de amor o de odio por su esposa y por un
+tercero);
+d) la expresión usada en la traducción al español (además de ser el
+producto de una invención) no incluye el requisito de cohabita-
+ción, que figura en el texto original en inglés.
+Consecuentemente, una novia o una amante del accionista contro-
+lador de una empresa, que no cohabite con éste:
+a) no se consideraría una parte relacionada (porque no cohabita)
+si se aplica la NIC 24 original;
+b) lo sería de acuerdo con la traducción oficial al español de la NIC
+24, siempre que el referido accionista tuviera por ella una re-
+lación de afectividad “análoga” a la que sentiría por una espo-
+sa (66).
+Vale recordar que un emisor de estados financieros no debería afirmar
+que en la preparación de éstos ha aplicado las NIIF si no ha seguido el texto
+oficial de ellas emitido en inglés (67).
+Por lo indicado, nos parece preferible que:
+(65) http://www.merriam-webster.com.
+(66) No analizaremos la hipótesis de que el accionista tenga amante pero no esposa.
+(67) NIC 1, párrafo 16.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+492 ENRIQUE FOWLER NEWTON
+a) en todo el planeta y por cada idioma se utilice una sola traducción de
+las NIIF;
+b) esa traducción:
+1) sea (si existiere) la publicada por la Fundación IFRS;
+2) resulte de un proceso que asegure su calidad y que evite la comi-
+sión de errores.
+Cuando los borradores de normas tienen plazos exiguos de exposición
+pública, la demora en su traducción coloca en desventaja a quienes desean
+opinar sobre su contenido y no dominan el idioma inglés.
+F) TRADUCCIONES AL ESPAÑOL
+1) La traducción “oficial” y la “europea”
+Existen no menos de dos juegos de traducciones al español de las NIIF
+que se presentan como tales. Son las publicadas:
+a) por la Fundación IFRS (la denominaremos traducción oficial);
+b) en el ya referido Diario Oficial de la UE (la llamaremos traducción eu-
+ropea).
+Los libros anuales que incluyen la traducción oficial de las NIIF contie-
+nen también las versiones en español del material acompañante de cada uno
+de sus componentes, de la Constitución de la Fundación IFRS, de los manua-
+les de procedimientos del IASB y del Comité de Interpretaciones, del prólogo
+de las NIIF, del MC adoptado por el IASB y del glosario general.
+La traducción europea alcanza sólo a las NIIF adoptadas por la UE y no
+incluye los materiales acompañantes.
+La Fundación ha informado que la traducción española del libro NIIF
+2010 fue “coordinada” por Vicente Pina Martínez y Lourdes Torres Pra-
+das (68). Lo mismo ocurrió con las correspondientes a los años inmediata-
+mente precedentes.
+La información señala que ambas personas pertenecen a la Universidad
+de Zaragoza, pero ni en las publicaciones indicadas ni en el sitio de la Funda-
+ción se encuentra indicación alguna de que exista una relación directa entre
+ésta y dicha Universidad. En consecuencia, debe interpretarse que:
+a) el contrato para la traducción fue suscripto entre la Fundación y los
+coordinadores;
+b) éstos son los únicos responsables por la calidad de su trabajo;
+(68) NIIF 2010, Prólogo a la traducción española de las NIIF2010, página vi.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 493
+c) su pertenencia a la Universidad de Zaragoza se informa con fines pu-
+ramente informativos.
+Sabemos que el mismo equipo elabora la traducción europea y presumi-
+mos que en este caso debe existir un contrato:
+a) entre la Fundación y la UE; o
+b) directamente entre la UE y los coordinadores.
+La tarea de los traductores es sometida a la consideración de un comité
+de revisión de la traducción oficial y otro de la europea. Ambos comités, ac-
+tuando por separado:
+a) examinan los borradores de las traducciones; y
+b) sugieren los cambios que consideran pertinentes.
+Aunque en los libros publicados por la Fundación hasta 2009 se dé a en-
+tender lo contrario, el comité de revisión de la traducción oficial no tiene po-
+der de decisión sobre el contenido final de las traducciones publicadas (69).
+Desconocemos el alcance de la tarea del comité revisor de la UE.
+En las traducciones europeas se han incluido expresiones que:
+a) parecen reflejar los gustos personales de los traductores o la termino-
+logia de uso habitual en España;
+b) no respetan, a veces, la intención de la IASB o el sentido de las NIIF.
+Esa política fue aplicada incluso en casos en que los traductores debían
+saber que se apartaban del texto aprobado por la IASB.
+Al caso de la traducción de “domestic partner” que presentamos en
+el apartado e) de esta sección, agreguémosle otros dos.
+Ejemplo 1
+La asignación de medidas monetarias a los activos, a los pasivos y a
+los otros elementos de los estados financieros no es una valuación
+(o valoración) cuando su resultado no es un valor. Por esto (supo-
+nemos) tanto el IASC como el IASB identificaron a ese proceso con
+la palabra measurement, cuya traducción al español es medición.
+Esto es, una medición puede consistir en una valuación, pero no
+toda valuación es una medición.
+(69) En el prólogo a la traducción española contenido en el libro NIIF2009 se dice que el
+Comité Revisor da por finalizado el texto, pero por haber integrado el Comité durante varios
+años sabemos que la decisión final sobre su contenido queda en manos de los traductores y
+de personal administrativo de la Fundación IFRS. En la publicación NIIF2010 no se incluye la
+frase que cuestionamos.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+494 ENRIQUE FOWLER NEWTON
+Sin embargo, los preparadores de la traducción europea de las NIIF
+parecen haber supuesto que el IASC y el IASB se equivocan al utili-
+zar la palabra measurement y resolvieron corregirle este “error”, tra-
+duciendo ese vocablo como valoración.
+Ejemplo 2
+El párrafo 116 de la NIC 1 de 2007 (actualmente, párrafo 125) re-
+quiere que en los estados financieros se suministre información
+que advierta al lector que es posible que las medidas contables
+asignadas mediante estimaciones deban ser modificadas en el fu-
+turo. En la versión en inglés, se lo dice de este modo:
+Sources of estimation uncertainty
+An entity shall disclose information about the
+assumptions it makes about the future, and other
+major sources of estimation uncertainty at the
+end of the reporting period, that have a signif-
+icant risk of resulting in a material adjustment
+to the carrying amounts of assets and liabili-
+ties within the next financial year.
+In respect of those assets and liabilities, the
+notes shall include details of:
+(a) their nature, and
+(b) their carrying amount as at the end of the
+reporting period.
+En la traducción al español del texto ordenado al 25/11/07 de las
+NIIF adoptadas por la UE, los párrafos precedentes fueron traduci-
+dos de este modo:
+Principios clave para la estimación de la incer-
+tidumbre
+La entidad revelará en las notas, información
+sobre los supuestos clave acerca del futuro,
+así como las claves para la estimación de la
+incertidumbre en la fecha del balance, siempre
+que lleven asociado un riesgo significativo que
+supongan cambios materiales en el valor de los
+activos o pasivos dentro del ejercicio próximo.
+Respecto de tales activos y pasivos, las notas
+deberán incluir información sobre:
+(a) su naturaleza; y
+(b) su importe en libros en la fecha del balan-
+ce.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 495
+Mientras el texto original se refiere a las incertidumbres en las es-
+timaciones, los traductores prefirieron tocar un tema que no está
+tratado en la norma: la “estimación de la incertidumbre” Además:
+a) no hicieron referencia a sus causas o fuentes (sources) sino a
+unos imaginarios “principios clave”;
+b) hablaron de “la entidad” en lugar de “una entidad”;
+c) usaron la palabra “material” con el sentido de “significativo”;
+d) emplearon la expresión “valor en libros” en el primero de los dos
+casos en que la norma original refiere al “importe en libros” (ca-
+rrying amount).
+Los coordinadores de la traducción oficial defendieron el texto que
+habían utilizado en la europea, pero tras largas discusiones con el
+correspondiente Comité Revisor (que por entonces integrábamos)
+terminaron por aceptar este otro, que en general refleja el sentido
+de la norma original:
+Causas de incertidumbre en las estimaciones
+Una entidad revelará información sobre los su-
+puestos realizados acerca del futuro y otras
+causas de incertidumbre en la estimación al fi-
+nal del periodo sobre el que se informa, que ten-
+gan un riesgo significativo de ocasionar ajustes
+significativos en el valor en libros de los ac-
+tivos o pasivos dentro del periodo contable si-
+guiente. Con respecto a esos activos y pasivos,
+las notas incluirán detalles de:
+(a) su naturaleza; y
+(b) su importe en libros al final del periodo so-
+bre el que se informa.
+No obstante, objetamos que en el texto publicado se utilice la ex-
+presión “valor en libros” en un caso en que correspondería hablar
+de “importe en libros” (carrying amount).
+Finalmente, en el texto ordenado de la traducción europea de las
+NIIF al 3/01/08 se modificó el texto publicado por la UE en 2007,
+acercándolo (en la cuestión de fondo) al aprobado por la Funda-
+ción IFRS. La nueva traducción europea es:
+Principales causas de incertidumbre en la esti-
+mación
+La entidad revelará en las notas información so-
+bre los supuestos clave acerca del futuro, así
+como las principales causas de incertidumbre en
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+496 ENRIQUE FOWLER NEWTON
+la estimación en la fecha del balance, siempre
+que lleven asociado un riesgo significativo que
+suponga cambios materiales en el valor de los
+activos o pasivos dentro del siguiente ejerci-
+cio. Respecto de tales activos y pasivos, las
+notas deberán incluir información sobre:
+a) su naturaleza, y
+b) su importe en libros en la fecha del balan-
+ce.
+En este caso, los traductores:
+a) volvieron a emplear:
+1) “valor de los activos o pasivos” en un caso en que correspon-
+día referirse a su “importe en libros”;
+2) “materiales” en lugar de “significativos”;
+b) agregaron (porque se les antojó) la palabra “Principales” delante
+de “causas de incertidumbre de la estimación”.
+Lamentablemente, los primeros componentes de la traducción oficial de
+las NIIF fueron preparados tomando como base la primera traducción hecha
+para la UE y no todos los errores que ésta contenía fueron corregidos. Hace
+unos años, cuando integrábamos el Comité Revisor de la IASCF, sugerimos
+que se hiciera una revisión integral de los textos traducidos hasta entonces,
+pero nuestra propuesta no tuvo éxito.
+Por todo lo indicado, es posible que las traducciones oficiales acumula-
+das hasta 2010 contengan:
+a) errores no descubiertos por el Comité Revisor;
+b) errores detectados por el Comité que no fueron corregidos en las pu-
+blicaciones oficiales de las NIIF en español, por no tener dicho cuerpo
+el poder de decisión final sobre ellas.
+Por lo expuesto, nos permitimos sugerir que cuando en una traduc-
+ción al español de las NIIF se encuentren párrafos o frases que pa-
+rezcan extrañas (como las expuestas en los ejemplos), se recurra a su
+versión en inglés, ya que ésta es la única reconocida por el IASB.
+Debe señalarse, también, que los problemas de traducción de voces uti-
+lizadas habitualmente en los estados financieros afectarán también la com-
+prensión y la comparación de éstos.
+La NIC 16 lleva los títulos Property, Plant and Equipment en su ver-
+sión original y Propiedades, Planta y Equipo en la traducción ofi-
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 497
+cial al español. En cambio, la traducción europea de la misma NIC
+lo titula Inmovilizado Material. En consecuencia:
+a) quien compare un juego de estados financieros según NIIF ela-
+borado en América Latina con otro preparado en España se en-
+contrará con partidas que tienen distinta denominación pero se
+refieren a las mismas clases de activos;
+b) es poco probable que un traductor profesional que no sea tam-
+bién un contador público y que deba poner en inglés un juego
+de estados financieros preparado según las NIIF y elaborado en
+España, imagine que Inmovilizado Material corresponde a Pro-
+perty, Plant and Equipment.
+Habida cuenta de nuestra insatisfacción con la calidad de las traduccio-
+nes al español de las NIIF, pensamos que la Fundación IFRS debería:
+a) mejorar los controles de calidad sobre los textos publicados, para re-
+ducir el riesgo de que éstos contengan errores;
+b) designar traductores después de efectuar concursos abiertos y debi-
+damente publicitados;
+c) exigir que los traductores respeten los textos originales de las NIIF;
+d) aclarar, en sus publicaciones, que el Comité Revisor tiene una función
+de asesoramiento pero no tiene responsabilidad final por lo publica-
+do.
+Las sugerencias precedentes son aplicables a las traducciones a otros
+idiomas.
+Terminemos este apartado con dos buenas noticias:
+a) las traducciones oficiales al español suelen estar disponibles antes
+que las efectuadas a otros idiomas;
+b) últimamente, las traducciones de las NIIF y de las interpretaciones
+pueden encontrarse (sin materiales acompañantes) en el sitio web del
+IASB unos sesenta días después de su emisión en inglés.
+2) La traducción chilena
+Por medio de su boletín técnico 79, el Colegio de Contadores de Chile
+adoptó los componentes de las NIIF a cierto momento cambiando sus deno-
+minaciones del modo que sigue (70):
+(70) Convergencia de los principios de contabilidad generalmente aceptados en Chile a
+las Normas Internacionales de Información Financiera (NIIF o IFRS por su sigla en inglés),
+Boletín Técnico 79 de Colegio de Contadores de Chile, párrafo 6.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+498 ENRIQUE FOWLER NEWTON
+Pronunciamientos Equivalente
+de la IASB
+NIIF Normas de Información Financiera de Chile
+NIC Normas de Información Contable de Chile
+Interpretaciones del CINIIF Complemento de Interpretación de Normas de
+Información Financiera de Chile
+Interpretaciones del SIC Suplemento de Interpretación Contable de Chile
+No obstante, en el mismo boletín se informa:
+La versión chilena de las NIIF y NIC, preparadas por
+la Comisión de Principios y Normas de Contabilidad
+del Colegio de Contadores de Chile A.G., incorporan
+integral, explícita (sic) y sin reservas, el cuerpo
+normativo de cada norma original en inglés emitida
+por el IASB y sus correspondientes normas de inter-
+pretación, manteniendo rigurosamente su contenido,
+sin ningún tipo de adaptación, desviación, adición ni
+excepción técnica, (...) (71)
+En anexos al boletín técnico se incluyen los textos adoptados, que resul-
+tan de una tercera traducción al español (hecha en Chile) de los pronuncia-
+mientos equivalentes de la IASB.
+Para complementar el ejemplo 2 presentado en el apartado ante-
+rior, veamos cómo fue traducido el párrafo 125 de la NIC 1 de 2007
+a los efectos de su inclusión en la Norma de Información Contable
+de Chile 1:
+Fuentes para la estimación de incertidumbres
+Una entidad revelará información respecto a los
+supuestos que efectúa respecto al futuro y otras
+fuentes significativas para la estimación de in-
+certidumbres al cierre del periodo sobre el cual
+se informa que tienen un riesgo significativo de
+resultar en un ajuste significativo de los va-
+lores de libros de activos y pasivos dentro del
+próximo año financiero. En relación a esos ac-
+tivos y pasivos, las notas deberán incluir de-
+talles de:
+(a) su naturaleza; y
+(b) su valor de libros al cierre del periodo so-
+bre el cual se informa.
+(71) Ibídem, párrafo 7.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 499
+Esta versión parece inspirada en la primera traducción europea
+(que expusimos en la página 495) y arrastra sus principales defec-
+tos.
+No sabemos si en algún momento del futuro el Colegio de Contadores de
+Chile comenzará a utilizar la traducción oficial aprobada por la Fundación
+IFRS.
+G) DERECHOS DE AUTOR
+Los derechos de autor de todo el material producido por la Fundación
+IFRS, el 1ASB y el Comité de Interpretaciones pertenecen a la primera. Sin
+embargo, la publicación de una NIIF o de una interpretación en cualquier
+boletín oficial permite el acceso gratuito a ella, lo que crea una situación atí-
+pica.
+De todos modos, el problema no es muy importante porque:
+a) existen planes que permiten que los miembros de determinados or-
+ganismos accedan por medio de la Internet a todo el material de pro-
+piedad intelectual de la Fundación IFRS (en cualquier idioma) por
+veinticinco dólares anuales;
+b) la Fundación IFRS permite el acceso gratuito (por Internet) a los pro-
+nunciamientos que componen los libros anuales que condenen las
+NIIF (en inglés, en español y en unos pocos idiomas más), sin los ele-
+mentos acompañantes.
+La publicación recién referida se hace en los primeros meses de cada año
+e incluye generalmente los pronunciamientos aprobados hasta el final del
+anterior.
+12,6. PRIMERA APLICACIÓN
+La NIIF 1 prevé los procedimientos a aplicar cuando:
+a) una entidad aplica por primera vez las NIIF, tomadas en su conjunto;
+b) así lo expresa en sus estados financieros, mediante una declaración
+explícita y sin reservas (72).
+Por lo tanto, sus reglas son aplicables cuando, para la preparación de los
+estados financieros anteriores a la adopción de las NIIF:
+a) se emplearon NC nacionales que no coincidían totalmente con las
+NIC, aunque:
+(72) NIIF 1, párrafo 2.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+500 ENRIQUE FOWLER NEWTON
+1) se hubiese aplicado alguna NIIF para el tratamiento de cuestiones
+no contempladas por las NC locales; o
+2) se hubiese incluido una conciliación de algunas cifras informadas
+con las que habrían resultado de aplicar las NIIF; o
+b) se emplearon las NIIF, pero:
+1) no se incluyó ninguna declaración explícita y sin reservas referida
+a su aplicación; o
+2) se incluyó una que no alcanzaba a todas las NIIF (73):
+En los casos en que la NIIF 1 resulte de aplicación, debe prepararse un
+estado de situación reformulado a la fecha de comienzo del ejercicio más an-
+tiguo por el que se exponga información en el primer juego de estados finan-
+cieros según NIIF. Para elaborarlo:
+a) deben emplearse las NIIF vigentes a la fecha de cierre de ese primer
+juego de estados financieros (lo que mejora la comparabilidad de las
+cifras que se presenten);
+b) puede adoptarse una nueva NIIF que no sea obligatoria, siempre que
+esté permitida su aplicación anticipada (74), lo que evita que en un
+ejercicio posterior al de la primera aplicación de las NIIF deba efec-
+tuarse un cambio de políticas contables.
+Si los primeros estados financieros según los NIIF corresponden al
+ejercicio terminado el 31/12/X3 e incluyen información comparati-
+va del ejercicio precedente (y de ningún otro):
+a) debe reformularse el estado de situación al 31/12/X1, que sirve
+como punto de partida para determinar el resultado, los cam-
+bios en el patrimonio y el flujo de efectivo por el ejercicio 20X2;
+b) toda la información presentada debe prepararse utilizando las
+NIIF vigentes al 31/12/X3;
+c) pueden aplicarse otras NIIF ya emitidas, con vigencia prevista
+para 20X4 o un año posterior, siempre que su aplicación antici-
+pada esté admitida.
+Cuando se aplica la regla general, en los estados reformulados:
+a) deben incluirse todos los activos y pasivos cuyo reconocimiento sea
+requerido por las NIIF;
+(73) NIIF 1, párrafo 3.
+(74) NIIF 1, párrafo 8.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 501
+b) no deben incluirse activos o pasivos que no deban ser reconocidos de
+acuerdo con las NIIF;
+c) las partidas reconocidas previamente en alguna categoría de activo,
+pasivo o patrimonio de alguna manera distinta a la prevista por las
+NIIF deben ser reclasificadas de acuerdo con éstas;
+d) la medición de los activos y pasivos reconocidos debe hacerse de
+acuerdo con las NIIF (75).
+Sin embargo, y por razones prácticas, la NIIF 1:
+a) permite la aplicación de ciertas reglas de transición especifica-
+das (76);
+b) prohíbe la aplicación retroactiva de ciertas disposiciones de otras
+NIIF (77).
+Naturalmente, la remedición de activos y pasivos obliga a la de los resul-
+tados acumulados y a la del ORIA.
+La NIIF 1 contiene también algunas normas de exposición (78), que no
+enunciaremos aquí.
+12,7. CALIDAD
+A) SITUACIÓN ACTUAL
+A pesar de la importancia de los recursos que se destinan al desarrollo de
+las NIIF, creemos que no se ha logrado convertirlas en juego de NC de alta
+calidad. Para llegar a esta conclusión, consideramos:
+a) el concepto de “alta calidad” que presentamos en el apartado 10,2,b).
+b) los numerosos defectos de los componentes individuales de las NIIF.
+Dado el objetivo con el que escribimos este libro, no puntualizaremos
+aquí esos defectos específicos, a los que nos referimos en diversos capítu-
+los de Contabilidad Superior (sexta edición, La Ley, 2010). En lugar de ello,
+señalaremos las principales transgresiones al MC adoptado por el IASB, ya
+que una de las bases de nuestra definición de “alta calidad” es, justamente, la
+coherencia entre las normas emitidas y el MC que debería considerarse para
+su dictado.
+Una primera transgresión tiene que ver con el objetivo de que los esta-
+dos financieros satisfagan las necesidades informativas de sus usuarios. Para
+(75) NIIF 1, párrafo 10.
+(76) NHP I. párrafos 13-25.
+(77) NIIF 1, párrafos 26-34.
+(78) NIIF 1, párrafos 35-46.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+502 ENRIQUE FOWLER NEWTON
+lograr este propósito, ellas deben tener prioridad sobre las conveniencias de
+los emisores de dichos estados. Sin embargo, es claro que:
+a) en diversas oportunidades, se dictaron NIIF (a veces copiadas de US
+GAAP) con el evidente propósito de permitir que los emisores de es-
+tados financieros no muestren la volatilidad de ciertos resultados, lo
+que se logra excluyendo del resultado informado (79) ciertas ganan-
+cias o pérdidas devengadas, que se difieren en cuentas de resultados
+diferidos, aunque el IASB ha reconocido que los importes excluidos
+del resultado forman parte de lo que se ha dado en denominar resul-
+tado integral;
+b) el empleo de mecanismos de diferimiento como los indicados con-
+lleva la presentación, en los estados financieros, del ORÍ y de ORIA
+que son elementos que no están reconocidos como tales en el MC del
+IASB (80).
+La intención a la que nos referimos en el inciso a) fue confesada por el
+IASB cuando en 2010 modificó la NIIF 9, de modo que los cambios en los
+VR de los pasivos financieros que obedecieran a modificaciones en el riesgo
+crediticio de su emisor sean imputados a cuentas de ORI en lugar de ser reco-
+nocidos en resultados. En la información suministrada por el IASB sobre esta
+cuestión se dijo, textualmente:
+El nuevo requerimiento soluciona el problema de la
+volatilidad en la ganancia o pérdida (...) que se ori-
+gina cuando un emisor opta por medir su propia deuda
+al valor razonable (...) (81)
+En otros casos, la adopción de mecanismos de diferimiento de ganan-
+cias o pérdidas devengadas se ha “fundamentado” haciendo referencia a “de-
+mandas” (eufemismo por “acciones de lobbying”), pero sin explicar por qué
+deberían aceptarse pedidos de los emisores de estados financieros en detri-
+mento de los intereses de los usuarios.
+Algo más insólito, todavía, puede encontrarse en la NIC 19 sobre benefi-
+cios posteriores al retiro, que permite que los aumentos de pasivos por tales
+beneficios y los resultados de los fondos mantenidos para su futuro pago se
+dividan en dos partes:
+a) las cifras estimadas para esos conceptos al cierre del ejercicio ante-
+rior;
+(79) La ganancia o pérdida, según la NIC 1.
+(80) Salvo en el caso de los ajustes por mantenimiento de capital a que refiere el párrafo
+81 de dicho MC.
+(81) http://www.ifrs.org/News/Press+Releases/lFRS9+October+l0.htm.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 503
+b) las diferencias entre ellas y sus importes reales, que pueden diferirse
+dentro de ciertos límites, en cuentas de resultados diferidos (82).
+En este caso, se ha adoptado la idea de que los administradores de una
+entidad pueden definir, al cierre de un ejercicio, qué importes imputarán a
+resultados en el siguiente, lo que facilita la manipulación de la información
+suministrada a los usuarios de estados financieros. Es absurdo.
+También facilitan la manipulación contable y afectan la comparabilidad
+las opciones que permiten que determinados grupos de activos o pasivos si-
+milares puedan ser tratados con NC alternativas. Peor aún, para los instru-
+mentos financieros existe una opción del valor razonable (OVR) que puede
+ejercerse para cada uno de ellos en forma individual, lo que lleva la posibili-
+dad de manipulación a un nivel extremo.
+Describimos la OVR y su versión NIIF en las páginas 275-277 de Con-
+tabilidad Superior, sexta edición, La Ley, 2010.
+También es notable que las NIIF prohíban la exposición de partidas ex-
+traordinarias en los estados de resultado integral y de resultados o en las no-
+tas a los estados financieros. Además de fundamentar esta norma empleando
+argumentos falaces (83), el IASB simplemente ignoró este párrafo de su MC
+de entonces:
+(...) la capacidad de hacer predicciones a partir de
+los estados financieros puede acrecentarse por la
+manera como es presentada la información sobre las
+transacciones y otros sucesos pasados. Por ejemplo,
+el valor predictivo del estado de resultados se acre-
+cienta cuando los gastos o ingresos inusuales, anor-
+males e infrecuentes se presentan por separado (84).
+Otros problemas importantes que pueden observarse en las NIIF:
+a) no se permite el reconocimiento como activo de los costos previos a la
+puesta en marcha de una entidad, aunque coadyuven a la obtención
+de ingresos futuros (o al ahorro de costos futuros);
+b) sólo se obliga a la consideración de los efectos de la inflación en cier-
+tos contextos;
+c) en los estados separados de una controladora los resultados de sus
+participaciones en controladas y asociadas se reconocen en períodos
+(82) En un tiempo la norma era peor, porque permitía la modificación de las medidas
+contables asignadas a los activos y pasivos del plan.
+(83) Enunciados y comentados en las páginas 1397-1400 de Contabilidad Superior, sexta
+edición, La Ley. 2010.
+(84) Marco conceptual de 1989, párrafo 28 (suprimido en Conceptual Framework for Fi-
+nancial Reporting 2010),
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+504 ENRIQUE FOWLER NEWTON
+distintos a los de su devengo, lo que crea serios problemas en los paí-
+ses donde las decisiones societarias se basan en las cifras que mues-
+tran dichos estados individuales (85).
+A veces se dice que, a pesar de sus defectos, las NIIF (junto con los US
+GAAP) son las NC de mayor calidad que existen en el mundo. No conocemos
+estudios que avalen tal conclusión. Para llegar a ésta, deberían compararse
+juegos de NC de todo el mundo y establecerse criterios objetivos de pondera-
+ción que permitan considerar las virtudes y defectos de cada una de ellos.
+B) PERSPECTIVAS
+A veces de dice que los defectos de las NIIF irán desapareciendo con el
+tiempo, porque el IASB se preocupa por su mejoramiento.
+Pensamos que esta percepción es demasiado optimista. En los últimos
+años, algunas acciones del IASB mejoraron las NIIF pero otras las empeora-
+ron.
+Ejemplos de estos últimos casos:
+a) la creación, en 2003, del problema referido a la medición con-
+table de las participaciones en controladas y asociadas en los
+estados financieros separados de una controladora (antes podía
+aplicarse un método por el cual el inversor reconoce su partici-
+pación de las ganancias y pérdidas de la participada en los mis-
+mos períodos que ésta);
+b) el agregado de la OVR;
+c) la inclusión, en la NIIF 9, de una opción que permite medir cier-
+tas inversiones en otras entidades por su VR pero diferir en ORI
+las ganancias o pérdidas que ocasionan.
+12,8. APOYOS
+Aunque las NIIF no sean (en nuestra opinión) de alta calidad, diversos e
+importantes organismos internacionales se han unido a la Fundación IFRS y
+el IASB en la promoción de su aceptación, que es creciente.
+(85) Con referencia a esta cuestión, la IASB no ha mostrado ninguna disposición positiva
+para solucionar el problema que ella misma ha creado. Nos referimos al caso argentino en La
+resolución técnica 26, sobre el empleo de las NIIF para la preparación de estados financieros,
+Enfoques Contabilidad y Administración, mayo de 2009. En Uruguay, debió dictarse el decreto
+538/09.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 505
+A) LA INTERNATIONAL FEDERATION OF ACCOUNTANTS (IFAC)
+La IFAC es una entidad sin fines de lucro que:
+a) se ha asignado la misión de servir al interés público;
+b) está integrada por organizaciones de la profesión contable que han
+sido reconocidas por la ley o por el consenso general.
+Fue fundada en 1977 y funciona como una asociación que se rige por el
+Código Civil de Suiza (86) y por la constitución y los estatutos de la organiza-
+ción, cuya última modificación data de noviembre de 2006.
+La Constitución actual de la IFAC reitera la intención de que ese organis-
+mo sirva al interés público para:
+a) fortalecer a la profesión contable a nivel mundial;
+b) contribuir al desarrollo de economías internacionales fuertes me-
+diante:
+1) el establecimiento y la promoción de adherencia a normas profe-
+sionales de alta calidad;
+2) el fomento de la convergencia internacional de tales normas;
+3) discursos explícitos sobre cuestiones de interés público en las que
+la pericia profesional sea más relevante (87).
+Estas ideas ya aparecían en constituciones anteriores.
+En noviembre de 2010, la IFAC agrupaba a 159 organizaciones de la pro-
+fesión contable, de 124 países.
+Entre ellas, la FACPCE, que es miembro pleno, a pesar de no ser una
+organización de la profesión contable sino una federación de orga-
+nismos de derecho público no estatal.
+Más información sobre la federación internacional en http://www.
+ifac.org.
+Los miembros de la IFAC tienen ciertas obligaciones, que están estable-
+cidas en unas Statements of Membership Obligations (SMOs, declaraciones
+de obligaciones de los miembros) (88). Una de ellas (la SMO 7) requiere que
+los miembros:
+(86) Esto, porque tiene domicilio legal en Ginebra, aunque sus oficinas están en Nueva
+York.
+(87) IFAC Constitution, párrafo 1.4.
+(88) Ibídem, párrafo 2.2.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+506 ENRIQUE FOWLER NEWTON
+a) incorporen las normas propuestas por el IASB a los requerimientos
+contables nacionales que ellos sancionen;
+b) persuadan a los otros organismos emisores de NC para que requieran
+que los estados financieros de propósito general:
+1) cumplan con las NIIF o con NC nacionales que converjan con las
+NIIF;
+2) informen ese hecho;
+c) brinden su asistencia en la implementación de las NIIF o de las NC
+nacionales que las incorporen.
+Nótese que la IFAC no solicita la adopción plena de las NIIF sino la con-
+vergencia con ellas. No hay reglas que permitan determinar de una manera
+objetiva cuándo tal convergencia puede considerarse alcanzada.
+B) LA INTERNATIONAL ORGANIZATION OF SECURITIES
+COMMISSIONS (IOSCO)
+La IOSCO es una organización integrada por:
+a) comisiones de valores y otros órganos gubernamentales con respon-
+sabilidad en materia de regulación sobre los mercados de capitales,
+que pueden ser miembros ordinarios u asociados, cuestión que de-
+pende (entre otras cosas) del alcance de su jurisdicción (89);
+b) organismos de autorregulación (como las bolsas de valores), que pue-
+den ser:
+1) miembros ordinarios mientras en su país no haya comisiones de
+valores ni órganos equivalentes (90);
+2) miembros afiliados en los restantes casos (91);
+c) entes internacionales con un interés pertinente en la regulación de los
+mercados, que pueden ser miembros afiliados (92).
+La CNV argentina es miembro ordinario.
+(89) Estatutos de la IOSCO aprobados en 1999, párrafos 1.1, 8.1 y 8.2. Si el organismo re-
+gulador nacional de un país ya es miembro ordinario, se acepta el ingreso como miembros
+asociados de los organismos públicos reguladores con jurisdicción en las subdivisiones de ese
+país y de una asociación de ellos.
+(90) Ibídem, párrafos 7.1 y 7.2.
+(91) Ibídem. párrafo 9.1.
+(92) Ídem.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 507
+Sus miembros han decidido:
+a) cooperar en la promoción de normas de regulación elevadas para
+mantener mercados justos, eficientes y sólidos;
+b) intercambiar información sobre sus experiencias para promover el
+desarrollo de los mercados nacionales;
+c) unir sus esfuerzos para establecer normas y una vigilancia efectiva so-
+bre las transacciones internacionales de valores;
+d) brindarse asistencia mutua para promover la integridad de los merca-
+dos mediante la aplicación rigurosa de las normas y la aplicación de
+medidas efectivas contra sus violaciones (93).
+Los objetivos concretos de la IOSCO son:
+a) el desarrollo de los mercados de valores y el mejoramiento de su efi-
+ciencia;
+b) la coordinación de la aplicación de las regulaciones de valores; y
+c) la implantación de normas comunes (94).
+Sus idiomas oficiales son el inglés, el francés, el portugués y el espa-
+ñol (95).
+Dentro de la IOSCO funciona un Comité Técnico, que se encarga de:
+a) examinar las principales cuestiones regulatorias referidas a los mer-
+cados internacionales de títulos y futuros;
+b) coordinar las respuestas a ellas, incluyendo las que tienen que ver con
+aspectos contables multinacionales.
+Según el comunicado final de la conferencia de la IOSCO de 2005, su Co-
+mité Técnico:
+a) respalda el trabajo del IASB, en cuyo Consejo Asesor tiene un repre-
+sentante;
+b) estimula a sus miembros a aceptar los estados financieros preparados
+de acuerdo con las NIIF en las presentaciones transfronterizas (96),
+con las conciliaciones adicionales que sean necesarias para cumplir
+con las NC locales;
+(93) Estatutos, párrafo que precede al apartado 1.
+(94) Ibídem. párrafo 1.2.
+(95) Estatutos, párrafo 74.
+(96) Las efectuadas en jurisdicciones ajenas a la de las presentantes.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+508 ENRIQUE FOWLER NEWTON
+c) había iniciado un proyecto para promover la exigencia y la aplicación
+coherente de las NIIF por parte de los miembros de la IOSCO (97).
+C) EL GRUPO DE LOS 20 Y LA FINANCIAL STABILITY BOARD (FSB)
+La FSB fue establecida para coordinar, en el nivel internacional, el trabajo
+de las autoridades financieras nacionales y de los cuerpos emisores de nor-
+mas internacionales. Sus miembros incluyen:
+a) organismos oficiales, como autoridades monetarias, ministerios de
+economía, finanzas o hacienda o comisiones de valores;
+b) organismos internacionales;
+c) cuerpos emisores de normas internacionales, incluyendo al IASB.
+La creación de la Junta resultó de la expansión del Financial Stability Fo-
+rum (FSF, Foro de Estabilidad Financiera), acordada por el Grupo de los 20
+(G20) en su reunión de abril de 2009.
+En esta misma reunión, el G20 solicitó que la FSB implemente los doce
+códigos y normas internacionales que la FSF ya consideraba claves, lo que
+incluye a las NIIF (98).
+En el comunicado final correspondiente a la cumbre del G20 de junio de
+2010, se estimula a todos los países e instituciones financieras a implemen-
+tar los principios y normas de la FSB antes de que finalice el año y en forma
+completa (99).
+Puede ampliar la información sobre las actividades del FSB, pueden
+consultarse:
+Mantilla Blanco, Samuel A., Adherencia e implementación: otra
+forma de referirse a la adopción. La estructura del FSB para el
+fortalecimiento de la adherencia a los estándares internacionales,
+D&G Profesional y Empresaria, marzo de 2010, páginas 211-227.
+http://www.financialstabilityboard.org.
+D) EL BANCO MUNDIAL
+El personal del Banco Mundial efectúa evaluaciones sobre la observan-
+cia de ciertas normas y códigos. Con motivo de ello emite unos documentos
+en cuyos títulos aparece la expresión Report on the Observance of Standards
+(97) Final Communiqué of the XXXth. Annual Conference of the International Organiza-
+tion of Securities Commissions, 2005, sección 8.1.
+(98) Y también a las Normas Internacionales de Auditoria.
+(99) The G-20 Toronto Summit Declaration June 26 - 27, 2010, anexo, párrafo 35.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 509
+and Codes (ROSC, Informe Sobre la Observancia de Normas y Códigos). Para
+preparar los ROSCs sobre información financiera y auditoría, la evaluación
+se hace considerando como referencia a:
+a) las NIIF;
+b) las Normas Internacionales de Auditoría que elabora la IFAC;
+c) la buena práctica internacional (en el caso de los países de América
+Latina, la observada principalmente entre los países más grandes de
+la región).
+Aunque un ROSC no necesariamente refleja la opinión de los directores
+del Banco Mundial, el hecho de que se tome a las NIIF como punto de refe-
+rencia para las evaluaciones (aunque fuere por no existir otras NC de carácter
+internacional) contribuye a crear un clima favorable a la adopción de éstas.
+Por otra parte, en esos mismos informes (que se ponen en conocimiento
+de los gobiernos) se considera ventajosa la adopción de normas internacio-
+nales.
+Por ejemplo, en el ROSC referido a la Argentina (de 2007, publicado
+en 2009) se dice:
+Una mayor adherencia a las normas internaciona-
+les contribuirá a promover el crecimiento de la
+confianza de los inversores y prestamistas que
+es un ingrediente clave para que las empresas
+locales ganen acceso al crédito y atraigan al
+capital de largo plazo (100).
+12,9. ACEPTACIÓN
+Las NIIF han logrado un grado importante de aceptación. No lo atribui-
+mos a su calidad real ni a consideraciones de índole técnica sino al muy buen
+trabajo de promoción llevado adelante por la Fundación IFRS y el IASB y a los
+importantes apoyos recibidos.
+En diversos países del mundo, el empleo de las NIIF está requerido o ad-
+mitido, por lo general para las entidades que cotizan públicamente sus títu-
+los valores o para éstas y otras entidades con obligación pública de rendir
+cuenta.
+(100) Report on the Observance of Standards and Codes (ROSC) - Argentina - Accounting
+and Auditing - July 2007, Executive Summary, párrafo d.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+510 ENRIQUE FOWLER NEWTON
+En otros lugares, se intenta lograr la convergencia entre las NC locales y
+las NIIF.
+El total de países en los que da alguna de las situaciones indicadas es su-
+perior a 100.
+Las modalidades de armonización mencionadas fueron estudiadas
+en la sección 11,2.
+Existe también un proyecto bilateral referido a la convergencia de las
+NIIF y los US GAAP, que trataremos en el capítulo 16.
+Vale recordar que las NIIF adoptadas o aceptadas en un país podrían ser
+distintas a las adoptadas o aceptadas en otros, por ser las vigentes (o las emi-
+tidas) en distintos puntos del tiempo. Por lo tanto, la información contable
+publicada en dos países que hayan adoptado las NIIF puede haber sido pre-
+parada empleando criterios discordantes de reconocimiento, medición o ex-
+posición contable.
+Por otra parte:
+a) en los lugares donde no se aceptan las NIIF, es probable que su conte-
+nido sea una fuente de consulta a la hora de emitir NC locales;
+b) en algunos de ellos, las NIIF se emplean como normas supletorias
+para las cuestiones no previstas en las NC locales.
+12,10. RESUMEN
+El conjunto denominado Normas internacionales de Información Finan-
+ciera (en plural) comprende cada uno de los pronunciamientos que en su
+título contiene la frase Norma Internacional de Información Financiera (en
+singular) y las interpretaciones aprobadas por el IASB, así como las NIC y
+las interpretaciones heredadas del IASC, mientras no sean abrogadas y con
+las modificaciones que el IASB les introduzca. Todos estos pronunciamientos
+tienen el mismo nivel normativo.
+El IASC funcionó hasta 2000 y su trabajo sufrió serias críticas. La IASCF
+(hoy Fundación IFRS) se constituyó en febrero de 2001 y de ella dependen el
+IASB y el IFRS Interpretations Committee (antes, IFRIC).
+La Fundación IFRS es gobernada por un cuerpo de fideicomisarios, que
+entre otras funciones tiene las de nombrar (y en su caso remover) a los miem-
+bros del IASB y del Comité de Interpretaciones y determinar las bases de la
+financiación de estos organismos.
+La intervención de los fideicomisarios en la sanción de las NIIF está pro-
+hibida, lo que resulta adecuado porque ellas son más creíbles si quienes las
+emiten (el IASB y el IFRS Interpretations Committee) están desligados de la
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 511
+obtención de los fondos necesarios para su funcionamiento. La Fundación
+IFRS procura que esos fondos provengan principalmente de un número de
+regímenes financieros nacionales que alcancen a los participantes en los
+mercados de valores.
+Existe también un Consejo de Seguimiento, entre cuyas funciones está el
+nombramiento de los fideicomisarios.
+El IASB (que no es el IASC rebautizado) es el órgano de la Fundación IFRS
+que tiene a su cargo la emisión de las NIIF y de sus borradores, así como
+la aprobación final de las interpretaciones del Comité de Interpretaciones.
+También se espera que, en acuerdo con los fideicomisarios, establezca y
+mantenga enlaces con otros emisores de NC para apoyar el desarrollo de las
+NIIF y promover la convergencia con ellas de las NC nacionales.
+En la designación de los miembros del IASB, los fideicomisarios deben
+respetar ciertas pautas.
+El IASB tiene libertad total para establecer su agenda técnica, aunque
+debe efectuar consultas a los fideicomisarios y a un Comité Asesor. En el fu-
+turo, tendrá que efectuar consultas públicas cada tres años.
+La Constitución de la Fundación IFRS establece que los miembros del
+IASB deben acordar contractualmente que actuarán en favor del interés pú-
+blico y que el decidir sobre las normas y sus revisiones tendrán en cuenta el
+MC adoptado por ese organismo (que no es lo mismo que respetarlo).
+Para emitir un pronunciamiento que contenga una nueva NIIF, una nue-
+va versión de una NIIF o de una NIC o bien una modificación a otros pronun-
+ciamientos preexistentes, es imprescindible:
+a) desarrollar un borrador del mismo que:
+1) contenga su texto propuesto y una invitación a formular comenta-
+rios;
+2) esté acompañado por los correspondientes fundamentos y por las
+visiones alternativas de los miembros del IASB que estuvieren en
+desacuerdo;
+3) puede incluir guías de aplicación (que tienen carácter normativo)
+o de implementación (que no lo tienen);
+b) ponerlo a consideración del público por un período que generalmen-
+te es de 120 días, pero que puede acortarse a no más de 30 días si la
+cuestión es excepcionalmente urgente;
+c) colectar, resumir y analizar los comentarios que se reciban;
+d) corregir el borrador en función del estudio de las cartas con comenta-
+rios;
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+512 ENRIQUE FOWLER NEWTON
+e) emitir el pronunciamiento (en inglés) y publicar sus fundamentos.
+Eventualmente, el IASB podría decidir la emisión de un segundo borra-
+dor y someterlo a otra rueda de consultas.
+Hay también pasos optativos. Si se los omite, la causa debe ser publicada
+dentro de los fundamentos del borrador o norma correspondiente.
+El procedimiento para la emisión de interpretaciones es más sencillo,
+pero también incluye consultas al público.
+Entre los componentes típicos de una NIIF, son especialmente relevantes
+los que siguen:
+a) una aclaración que indica que el pronunciamiento debe ser entendi-
+do en el marco de sus fundamentos de las conclusiones, del prólogo a
+las NIIF y del MC adoptado por el IASB;
+b) la delimitación de su alcance;
+c) las normas;
+d) las modificaciones que se efectuaren a normas preexistentes;
+e) las definiciones de los términos empleados (el glosario);
+f) la vigencia de las normas y de las modificaciones a pronunciamientos
+preexistentes;
+g) a veces, normas de transición;
+h) en algunos pronunciamientos, una guía de aplicación.
+La aclaración referida en el inciso a) indica también que al seleccionar
+políticas contables deben tenerse en cuenta las previsiones de la NIC 8.
+Algunos párrafos normativos aparecen resaltados y otros con tipografía
+común, pero todos tienen el mismo nivel de obligatoriedad.
+Los términos empleados en una NIIF se incluyen también en un glosario
+general que se presenta en su publicación anual.
+Dado el carácter no imperativo de los estándares publicados, la vigencia
+indicada en una NIIF y las normas de transición previstas sólo constituyen
+propuestas que los (verdaderos) emisores de NC pueden aceptar o rechazar.
+Una interpretación incluye los antecedentes de la cuestión a interpretar,
+el alcance de la interpretación, las cuestiones objeto de ella, el consenso al-
+canzado en el Comité que las emite, la fecha de vigencia, normas de transi-
+ción (a veces) y las modificaciones que se hicieren a normas preexistentes.
+Junto con una NIIF o una interpretación se publica material acompañan-
+te (que no tiene carácter normativo):
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 513
+a) obligatoriamente:
+1) los fundamentos de la NIIF o del consenso del caso;
+2) en el caso de las NIIF, los nombres de los miembros del IASB que
+votaron a favor y en contra y las opiniones disidentes de los segun-
+dos;
+b) cuando se lo considera necesario:
+1) guías para la implementación de las reglas contenidas en la NIIF o
+interpretación;
+2) ejemplos ilustrativos de su aplicación.
+Las NIIF no son, en general, de lectura fluida.
+El texto oficial de un pronunciamiento técnico de la IASB es el publicado
+en idioma inglés. La Fundación IFRS puede publicar traducciones o autorizar
+que otros lo hagan.
+Existen al menos tres juegos de traducciones al español de las NIIF. Son
+las publicadas por la Fundación IFRS (la traducción oficial), la publicada por
+la UE (la traducción europea) y una efectuada en Chile. Las dos primeras tie-
+nen origen en España (son efectuadas por docentes de la Universidad de Za-
+ragoza) aunque son sometidas a la revisión de dos comités separados (uno
+de la Fundación IFRS y otro de la UE). En la traducción europea se cometen
+arbitrariedades que indican que sus autores se consideran habilitados a mo-
+dificar lo que los miembros del IASB escriben.
+La NIIF 1 prevé los procedimientos a aplicar cuando una entidad aplica
+por primera vez las NIIF en su conjunto y así lo expresa en sus estados finan-
+cieros, mediante una declaración explícita y sin reservas.
+En una primera aplicación, debe prepararse un estado de situación re-
+formulado a la fecha de comienzo del ejercicio más antiguo por el que se
+exponga información en el primer juego de estados financieros según NIIF.
+Para elaborarlo:
+a) deben emplearse las NIIF vigentes a la fecha de cierre de ese primer
+juego de estados financieros (lo que mejora la comparabilidad de las
+cifras que se presenten);
+b) puede adoptarse una nueva NIIF que no sea obligatoria, siempre que
+esté permitida su aplicación anticipada, lo que evita que en un ejer-
+cicio posterior al de la primera aplicación de las NIIF deba efectuarse
+un cambio de políticas contables.
+Por razones prácticas, la NIIF 1 permite la aplicación de ciertas reglas de
+transición especificadas y prohíbe la aplicación retroactiva de ciertas dispo-
+siciones de otras NIIF.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+514 ENRIQUE FOWLER NEWTON
+A pesar de la importancia de los recursos que se destinan al desarrollo de
+las NIIF, creemos que no se ha logrado convertirlas en juego de NC de alta
+calidad. Lo pensamos porque:
+a) en diversas oportunidades, se dictaron NIIF (a veces copiadas de US
+GAAP) con el evidente propósito de permitir que los emisores de es-
+tados financieros no muestren la volatilidad de ciertos resultados, que
+ahora se exponen dentro del denominado resultado integral;
+b) también pueden diferirse diferencias entre resultados estimados y
+reales;
+c) el empleo de tales mecanismos de diferimiento conlleva la presenta-
+ción, en los estados financieros, del ORI y de ORIA, que son elementos
+que no están reconocidos como tales en el MC adoptado por el IASB.
+Otros defectos importantes de las NIIF:
+a) se brinda una opción del valor razonable que puede ser ejercida para
+cada instrumento financiero en forma individual en el momento de su
+reconocimiento contable inicial;
+b) existen otras opciones de aplicar NC alternativas, aunque en este caso
+al nivel de grupos de activos o pasivos;
+c) está prohibida la exposición de partidas extraordinarias en los estados
+de resultados y de flujo de efectivo;
+d) no se permite el reconocimiento como activo de los costos previos a la
+puesta en marcha de una entidad, aunque coadyuven a la obtención
+de ingresos futuros (o al ahorro de costos futuros);
+e) sólo se obliga a la consideración de los efectos de la inflación en cier-
+tos contextos;
+f) en los estados separados de una controladora los resultados de sus
+participaciones en controladas y asociadas se reconocen en períodos
+distintos a los de su devengo, lo que crea serios problemas en los paí-
+ses donde las decisiones societarias se basan en las cifras que mues-
+tran dichos estados individuales.
+A veces se dice que, a pesar de sus defectos, las NIIF (junto con los US
+GAAP) son las NC de mayor calidad que existen en el mundo. No conocemos
+estudios que avalen tal conclusión.
+También se dice que los defectos de las NIIF irán desapareciendo con el
+tiempo, pero en los últimos años, algunas acciones del IASB mejoraron las
+NIIF y otras las empeoraron.
+Aunque las NIIF no sean (en nuestra opinión) de alta calidad, diversos e
+importantes organismos internacionales se han unido a la Fundación IFRS y
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 515
+el IASB en la promoción de su aceptación. Entre ellos, la IFAC, la IOSCO, el
+G20, la FSB y el Banco Mundial.
+En más de cien países, el empleo de las NIIF está requerido o admitido,
+por lo general para las entidades que cotizan públicamente sus títulos valores
+o para éstas y otras entidades con obligación pública de rendir cuenta. Las
+NIIF adoptadas o aceptadas en un país podrían ser distintas a las adoptadas
+o aceptadas en otros, por ser las vigentes (o las emitidas) en distintos puntos
+del tiempo.
+Existe un proyecto de convergencia entre las NIIF y los US GAAP, al que
+nos referiremos en el capítulo 16.
+12,11. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para
+que una aseveración sea correcta debe serlo totalmente.
+a) En los últimos años, el empleo de las NIIF se ha expandido.
+b) Los principales componentes de las NIIF son los emitidos por el
+IASB (antes denominado IASC).
+c) En los lugares en que está requerida o admitida su aplicación, la
+vigencia efectiva de una NIIF es la establecida en su texto.
+d) La IOSCO promueve el empleo de las NIIF por parte de todas las
+empresas.
+e) A fines de 2010, el IASB estaba integrado por quince miembros, de
+los que uno representaba a Sud América.
+f) Las NIIF deben ser aprobadas por la mayoría de la junta de fideico-
+misarios de la Fundación IFRS.
+2. Explique la diferencia entre “las NIIF” y “una NIIF”
+3. Indique qué tipo de pronunciamientos componen las NIIF.
+4. Indique la principal diferencia entre una guía de aplicación y una guía
+de implementación (de una NIIF),
+5. La NIIF 1 prevé que la primera vez que las NIIF se apliquen en forma
+integral debe prepararse un estado de situación reformulado al co-
+mienzo del primer ejercicio de aplicación. Indique qué normas deben
+aplicarse en la preparación de ese estado.
+6. Explique a qué alude el concepto de presentaciones trasfronterizas.
+7. Indique cuál es la principal crítica a las NIIF que expone el autor de
+este libro.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+516 ENRIQUE FOWLER NEWTON
+8. Mencione algunos organismos internacionales que a la fecha promue-
+ven la convergencia de las NC en el mundo, alrededor de las NIIF.
+9. Explique qué tipo de organización es la IOSCO.
+10. Busque información sobre el enfoque adoptado en su país en relación
+con las NIIF y resúmalo.
+11. El párrafo 2(a) de la NIC 38 indica que ésta se aplicará en la contabili-
+zación de los activos intangibles, con ciertas excepciones (por ejem-
+plo, esta NIC no alcanza a los intangibles tratados en otros compo-
+nentes de las NIIF). El párrafo 8 de la misma NIC define: “Un activo
+intangible es un activo identificable, de carácter no monetario y sin
+apariencia física”.
+Critique la definición presentada.
+12,12. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y
+EJERCICIOS
+1. a) Correcto.
+b) Incorrecto. El IASB no es el IASC rebautizado.
+c) Incorrecto. La vigencia efectiva de una NIIF sólo puede resultar de
+la decisión de un órgano facultado para emitir NC.
+d) Incorrecto. Sólo promueve la admisión de su empleo por parte de
+las empresas que efectúan presentaciones trasfronterizas.
+e) Incorrecto. Contaba con quince miembros, uno de los cuales pro-
+venía de Sud América, pero sin llevar representación alguna. Los
+integrantes del IASB deben votar de acuerdo con sus convicciones
+personales.
+f) Incorrecto. Los fideicomisarios no pueden intervenir en cuestio-
+nes técnicas.
+2. La expresión “las NIIF” refiere a un conjunto de NC, “La NIIF” a un
+componente de ese conjunto (la NIIF 1, la NIIF2, etcétera).
+3. Está integrado por los pronunciamientos denominados NIIF, NIC, in-
+terpretaciones del IFRS Interpretations Committee e interpretaciones
+del SIC. Puede haber correcciones editoriales a sus textos.
+4. La primera tiene fuerza normativa (donde la NIIF haya sido adoptada)
+y la segunda no.
+5. Deben emplearse las NIIF vigentes a la fecha de cierre de ese primer
+juego de estados financieros, pero puede adoptarse una nueva NIIF
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos
+
+12. LAS “NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA” 517
+que no sea obligatoria, siempre que esté permitida su aplicación an-
+ticipada.
+6. Se refiere a las presentaciones de estados financieros que una empre-
+sa efectúa en un país distinto al de su domicilio, normalmente porque
+cotiza allí sus títulos de deuda o de capital o porque está gestionando
+la aprobación de dicha cotización.
+7. No respetan el MC adoptado por el IASB.
+8. Pueden mencionarse a la IFAC, la IOSCO, la FSB, el G20 y el Banco
+Mundial.
+9. Es un organismo intergubernamental de comisiones de valores.
+10. Respuesta para la Argentina de comienzos de 2011, de acuerdo con la
+RT 26 (modificada en 2010) y la res. 562 de la CNV: para los períodos
+iniciados desde 2012, las NIIF (en su traducción oficial al español) se-
+rán de aplicación obligatoria para las entidades que cotizan títulos va-
+lores públicamente, con ciertas excepciones. Los restantes emisores
+de estados financieros tendrán la opción de aplicarlas.
+11. En lugar de utilizar una definición de “intangible” coherente con el
+lenguaje común, el IASB la restringió a los intangibles identificables,
+dejando fuera del concepto de intangible a los que solamente pueden
+venderse junto con una entidad o un negocio, como una plusvalía (lla-
+ve de negocio) o los costos de puesta en marcha de un negocio (cuya
+activación el IASB no acepta). Lo razonable habría sido definir intan-
+gible de una manera más amplia y por otra parte aclarar que la NIC
+38 no alcanza a la plusvalía y definir el tratamiento contable de los
+restantes activos intangibles no identificables.
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+setnaidutse
+sol
+ed
+osu
+arap
+se
+lairetam
+etsE
+.etneidnopserroc
+lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+.socitcádid
+etnemavisulcxe
+nos

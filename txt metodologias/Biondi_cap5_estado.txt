@@ -1,0 +1,1802 @@
+Capítulo 5
+TIPOS DE ANÁLISIS
+CON ESTADOS CONTABLES
+
+En el presente capítulo enfocaremos primordialmente la me-
+todología de trabajo para el análisis de estados contables, los
+pasos a seguir y, previamente, cuáles son los distintos tipos de
+análisis que pueden realizarse partiendo de un juego de esta-
+dos contables.
+1. Tipos de análisis según su objetivo
+1.1. Control de gestión
+Es el destinado a evaluar la eficiencia de la empresa. Pode-
+mos clasificarlo en control superior y control operativo.
+El control superior busca como objetivo determinar la efi-
+ciencia de la empresa en su conjunto; el operativo, en cambio,
+analiza la eficiencia de cada centro: la gerencia, la producción,
+etcétera.
+El control operativo, que actúa en el nivel medio y en el in-
+ferior, analiza la administración de los recursos, la administra-
+ción del personal, la administración de ventas, etcétera.
+El control superior analiza la eficiencia de la empresa a tra-
+vés de la rentabilidad histórica de la misma, es decir, cuál ha si-
+do su rendimiento en un ciclo o en un período de años que se
+considere representativo. Decide nuevos caminos a seguir, so-
+bre la base de nuevas proyecciones, y lógicamente luego, a tra-
+vés del análisis de dichas proyecciones y su cumplimiento en el
+tiempo, va evaluando el cumplimiento de las pautas fijadas por
+el período, para la empresa.
+159
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+El control operativo también hace los mismos análisis, se ma- das por operaciones, sino por inversiones transitorias, al tener un
+neja con datos históricos, de períodos anteriores y analiza la pro- excedente de Capital de trabajo (ya veremos sus formas de deter-
+yección de la empresa y el cumplimiento de nuevas proyecciones minación) que era transitorio hasta tanto la empresa volviera a fijar
+su política de acción futura; se cumplía así el objetivo encomenda-
+por cada centro operativo de la empresa. Al mismo tiempo anali-
+do al nuevo presidente, y entonces vino otro nuevo. Este nuevo
+za, sobre la base de dichas proyecciones, entre otras cosas, la
+presidente se encontró con una estructura mucho más chica, un
+administración de recursos y la administración del personal.
+sistema mucho más competitivo; ahora sí podría volver a encarar
+Otro factor importante de este análisis está dado por lo que
+el desarrollo de la empresa al tener costos fijos inferiores. Es un
+se denomina la administración por objetivos. Puede ser que a la
+buen ejemplo de administración por objetivos. Se pone a un res-
+empresa, en un determinado momento le interese ganar el mer-
+ponsable al frente de un sector de la empresa, con una misión con-
+cado, para descolocar a un competidor. En esa tarea deberá ela-
+creta a cumplir en un período fijado de tiempo. El análisis de efi-
+borarse un plan, que consistirá primero en ver hasta cuánto pue-
+ciencia se mide determinando qué porcentaje del objetivo se ha lo-
+de incrementar su producción con el personal empleado —si- es
+grado. Este análisis es más bien de uso interno de las empresas.
+posible, por ejemplo, implementar nuevos turnos— hasta dónde
+podrán abaratarse los costos de los productos, qué campaña pu- 1.2. Financiación de la empresa
+blicitaria lanzar; todos estos serán pasos que irán constituyendo
+La misma está dada por la administración de recursos con
+un jalón de objetivos que la empresa deberá ir cumpliendo para
+que cuenta la empresa: capital propio versus capital ajeno. Y
+lograr el objetivo final; en el ejemplo que dimos: eliminar un com-
+ver lo que más le conviene a la empresa. Este análisis se reali-
+petidor del mercado. Se denomina “administración por objetivos” za a través del empleo de un índice que veremos más adelan-
+el procedimiento en virtud del cual se asigna a un equipo de per- te, el leverage o efecto palanca. La financiación de la empresa
+sonas (organizado jerárquicamente) la responsabilidad de cum- (propia/ajena) se relaciona con los rendimientos de la misma.
+plir una función determinada en un plazo corto, para lo cual cuen-
+Es importante, cuando se analiza la posibilidad de ver qué le
+tan con administración de recursos, equipo de personal, etc. Un
+conviene más a la empresa —si endeudarse con terceros o utili-
+objetivo concreto podría ser obtener el 30% de un mercado de-
+zar su propio capital— relacionar la tasa del mercado (retribución
+terminado. Vencido el plazo acordado, se analiza el cumplimien-
+de los terceros, del “capital ajeno”) con el cómputo del capital propio
+to del objetivo, y el equipo de personas pasa a otra función.
+en la empresa, es decir, la retribución a los “dueños” de la em-
+Otro ejemplo de administración por objetivos podría estar
+presa (socios o accionistas), por estar utilizando su capital.
+dado
+Teniendo en cuenta esta retribución en este tipo de análisis, sí es-
+por una conocida marca automotriz. Hace años, esta tuvo un pre-
+taremos equilibrando ambas situaciones. Otro tipo de análisis
+I
+sidente que se encargó de desarrollar la empresa y ganar el mer-
+que también podría efectuarse es cuánto tiene que pagar la em-
+cado automotor en el país; esta empresa había instalado una nue- presa por el capital de terceros para financiarse y cuánto obten-
+va planta de camiones, con la consiguiente inmovilización de Acti- dría en el caso de realizar ciertas colocaciones o inversiones tran-
+vo fijo. En ese momento, renuevan al presidente y viene otro señor sitorias de su propio capital, lo que sería un costo de oportunidad.
+con otro objetivo concreto: reducir la producción de la empresa y No sólo deben considerarse los resultados financieros ex-
+los gastos de la misma, a fin de acomodarla a las nuevas exigen- plícitos, dados por el interés que se paga en el mercado a ter-
+cias del mercado reducido: achicar los gastos para sobrevivir. En ceros, el interés al que podría colocarse el dinero o cuánto ob-
+ese momento, esta empresa —que era líder en el mercado auto- tendría la empresa, si colocara su capital, por ejemplo, en títu-
+motor en el país— pasó a ocupar el tercero o el cuarto puesto de
+ventas. No obstante, tenía buenas utilidades, pero ya no genera-
+160 MARIO BIONDI ERR EPAR 161
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPITULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+los públicos; también debe tenerse en cuenta la inflación produ- mucho más profundo, que implica establecer un diagnóstico
+ducida en el período analizado, para compararla con los rendi- que le permitirá tomar los cursos de acción recomendados, te-
+mientos del mercado. niendo en cuenta sus principales falencias. De la misma forma,
+cuando consultamos a un médico y nos revisa, nos solicita aná-
+lisis y estudios, sobre la base de los cuales establecerá qué nos
+1.3. Saneamiento financiero pasa y el tratamiento a seguir; en el caso de la empresa, tam-
+En esta oportunidad, hay un objetivo que aplicar a una em- bién permitirá sacar conclusiones válidas para saber qué re-
+presa que se encuentra por lo general en malas condiciones. En caudos tomar, para eliminar lo que no funciona bien.
+esos casos se recurre a la fijación de un objetivo determinado;
+En la empresa se hace un diagnóstico, que es el objetivo es-
+por ejemplo, analizar el rendimiento y la utilización del Activo fijo
+pecífico, operativo, comercial y financiero. Ese diagnóstico per-
+en la empresa. Si de dicho análisis surgiera que el mismo es ob-
+mitirá elaborar los cursos de acción recomendados para elimi-
+soleto, por ejemplo, en un 50%, a esa empresa le convendrá des-
+nar lo que no funciona bien o corregirlo, lo cual constituye los
+hacerse inmediatamente de ese activo, cuya simple tenencia le
+objetivos específicos. Al mismo tiempo, en función de esos ob-
+acarrearía mayores pérdidas. Otro caso sería el de una empresa
+jetivos específicos o cursos de acción, se elaboran las perspec-
+muy endeudada en el corto plazo que consiguiera la refinancia-
+tivas futuras de la empresa. De cumplirse los cursos de acción
+ción de sus Pasivos a largo plazo con intereses preferenciales o
+recomendados, las perspectivas serán unas, de no cumplir los
+que los mismos sean capitalizados a través de aportes, por ejem-
+cursos de acción, lógicamente, las perspectivas serán otras.
+plo, de sus principales acreedores (entidades financieras/provee-
+dores). La empresa debe fijarse cuál es su objetivo final, y sobre El análisis de la empresa incluye la aplicación de índices,
+la base de ellos ir elaborando las políticas a largo plazo y luego, rendimiento de la empresa, comparación con las pautas prefija-
+en forma más minuciosa, las de mediano plazo, todas las cuales das o estándares, para saber dónde funciona mal.
+deberán ser lo suficientemente elásticas para ir adaptándose a la Por ejemplo, si tiene pocas ventas a mayoristas, y se trata
+coyuntura de cada momento en particular. de una fábrica de galletitas, quizá la falla radique en la presen-
+Un ejemplo está dado por una conocida empresa papelera tación de los envases de esas galletitas, puesto que si los ma-
+que estaba en muy malas condiciones; se encontraba en con- yoristas están representados por grandes supermercados don-
+vocatoria de acreedores. de la gente compra sus provisiones para todo el mes, segura-
+Esta empresa trató de realizar un saneamiento financiero; mente ella buscará envases, paquetes grandes y no, por ejem-
+tuvo el apoyo de los bancos oficiales y extranjeros, que fueron plo, paquetes chicos. Ese estudio que determina que la empre-
+aportando soluciones dentro del plan elaborado por la empresa; sa tiene que cambiar su forma de llegar al público, consiste en
+se capitalizaron pasivos por parte de bancos extranjeros. A ve- diagnosticar primero, buscar dónde está la falla y luego elabo-
+ces, esto se hace a través de la emisión de acciones preferidas, rar el curso de acción a seguir para erradicarla (cajas o paque-
+que no tienen derecho a voto en las asambleas, sino que sola- tes grandes); por último, habrá que ponerlo en práctica para ver
+mente tienen preferencia en la devolución del capital, y por lo si se cumplen las perspectivas determinadas.
+general tienen renta fija, siendo rescatables estas acciones en
+1.5. Otras causas que justifican o hacen necesario el análisis
+plazos más o menos cortos.
+Aparte de los ya vistos, tenemos otros tipos de análisis.
+1.4. Análisis global de la situación de la empresa Entre ellos podemos citar:
+El análisis de la empresa no es lo mismo que el análisis delos
+estados contables. El análisis de la empresa es un estudio
+162 MARIO BIONDI ERREPAR 163
+
+ESTADOS CONTABLES. PRESENTACIÓN. INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+— Casos de evaluación de una empresa, incluyendo los intan- (mano de obra, materia prima, otros costos de fabricación), pa-
+gibles. ra conseguir que el bien pueda venderse o el servicio prestar-
+se; este valor determinado en estas condiciones, aplicado a la
+— Valor de uso de los bienes integrantes del Activo fijo.
+vida útil asignada al bien, o al tiempo que la empresa pueda se-
+— Programa de ventas con contribución marginal escasa. guir prestando el servicio o vendiendo esos bienes, dará el va-
+lor de uso, valor de utilización económica, en función de los in-
+— Evaluación de una empresa
+gresos que le reporte a la empresa hacer uso de ese bien.
+Si alguien quiere comprar una empresa, busca a un exper-
+to, o sea, a alguien que esté capacitado para que en función de - Programa de venta con contribución marginal escasa
+un estudio determine cuánto es lo que se puede pagar por ella. Otro estudio que se puede realizar estaría constituido por el
+Seguramente en este caso, dentro del valor dado por los bie- objetivo de eliminar a un competidor. Esta empresa determina su
+nes que conforman la empresa, figurará otro que está dado por contribución marginal, o sea, la diferencia entre el precio de ven-
+ta y los costos variables de producción, y en función de ella, la
+el intangible, sea de vender una empresa en condiciones de
+empresa sabe si le queda algo para cubrir sus costos fijos; si es-
+funcionar (valor de hacienda en funcionamiento), sea por tener
+tos se cubren, comienza a tener ganancia. Puede ser que, para
+esa empresa cierta condición preferente en el mercado, gana-
+que la empresa pueda cumplir su objetivo, se decida a cubrir sus
+da sobre la base de su experiencia, trato, producto que vende,
+costos variables y no a cubrir totalmente sus costos fijos. Se par-
+etcétera.
+te del supuesto de que, vendiera o no, igual tendría que incurrir
+La determinación del precio incluirá luego ese valor llave. Pa-
+en ellos. De esta forma y por un período corto, la empresa po-
+ra su determinación habrá que tener en cuenta los métodos tra-
+dría reducir sus precios de venta, con lo cual su producto segu-
+dicionales que relacionan las utilidades obtenidas por la empre-
+ramente se va a ubicar con facilidad en el mercado, o consegui-
+sa en un ciclo o período de años representativo; luego se vincu-
+rá que el mismo resulte conocido por el “atrayente” precio de
+la nueva determinación con la habitual de plaza; la diferencia
+venta. Esta política no puede ser aplicada por la empresa por
+aplicada sobre el patrimonio de la empresa, por un período de
+tiempo indefinido; debe tener ciertos límites que podrían estar
+años que puede ser de tres a cinco, constituirá el valor llave.
+dados por cuánto es lo que la empresa está dispuesta a perder,
+— Valor de uso de los bienes
+continuando con esa política para eliminar a un competidor.
+En algunos casos, a la empresa le interesa conocer si sus
+En estos casos siempre deben cubrirse los costos variables,
+activos fijos están bien valuados, si es correcta la amortización
+la materia prima y la mano de obra directa, aunque la mano de
+aplicada. Es común en estos casos, solicitar la determinación del
+obra poco a poco vaya revistiendo el carácter de costo fijo en
+valor de uso o valor de utilización económica del Activo fijo, que
+nuestro país. Un ejemplo de mano de obra variable estaría da-
+relaciona en este caso la utilidad que presta el bien a la empre-
+do en la industria del pescado. Por ejemplo, en Mar del Plata es
+sa, a través de su participación en el producto o servicio que la
+común escuchar el llamado a fileteros u otro tipo de trabajado-
+empresa comercializa, y se aplica a ese porcentaje en función
+res, según sea la necesidad del día del frigorífico de pescado.
+de la cantidad de unidades que los Activos fijos pueden llegar a
+Esas personas cobran por horas o días trabajados. Otro ejem-
+producir o que ese servicio puede seguir prestándose.
+plo podría estar dado por la zafra de lana o de la industria azu-
+Otra forma de determinarlo estaría dada por el precio total
+carera; se paga de acuerdo con los días trabajados. Pero en el
+del producto, el valor de venta del mismo menos todos aquellos
+caso de una empresa industrial o comercial, es un poco difícil
+costos adicionales en los cuales tendrá que incurrir la empresa
+hablar de mano de obra como costo variable.
+165
+164 MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN. INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+2.2. Análisis horizontal. Relaciones comparativas
+2. Análisis numérico
+Permite hacer proyecciones. Se comparan sucesivamente
+Para este tipo de análisis, es común observar una empresa varios estados contables y la evolución de los rubros de un año
+a lo largo de un período de tres a cinco años. Como primera con respecto a otro. Lógicamente, todos los estados contables
+premisa, debemos partir de estados contables homogeneizados tienen que estar homogeneizados a moneda del último período
+a moneda de cierre de cada uno de esos años. Como segunda analizado.
+premisa, los estados contables que no corresponden al último Pueden hacerse con un año base, en cuyo caso se toma un
+deberán luego ser convertidos integralmente a moneda de la fe- año como tal, el más antiguo, y los posteriores se analizan con
+cha hasta la cual se está efectuando la comparación. respecto a él, para determinar los incrementos o disminuciones
+Esta conversión a moneda homogénea debe ser practicada, sufridos por los rubros.
+en estos casos, aun cuando no lo admitieran las normas conta- Este análisis horizontal puede confeccionarse sin año base;
+bles vigentes para los estados contables de publicación. en este caso, simplemente se van determinando los incremen-
+Por ejemplo, si analizamos los estados contables de una tos o disminuciones sufridos por cada rubro con respecto al año
+anterior.
+empresa, correspondientes a los ejercicios económicos cerra-
+dos el 30/6/X6, el 30/6/X7 y el 30/6/X8, los estados contables no La técnica de determinación de las diferencias absolutas es
+sólo deben estar homogeneizados a moneda de cada uno de muy simple; se trata de restar valores, y la variación tendrá el
+esos momentos (primera premisa), sino que después los esta- signo que corresponde (positivo si aumentó y negativo si dismi-
+dos contables pertenecientes a los ejercicios cerrados el nuyó). Veamos un ejemplo:
+30/6/X6 y el 30/6/X7 deberán ser reexpresados íntegramente
+(tanto los rubros monetarios como los no monetarios) a mone-
+Rubros cifras cifras variación
+da del 30/6/X8, para lo cual se aplicará la variación operada en al 30/9/X7 al 30/9/X8 absoluta
+la inflación entre el 30/6/X6 y el 30/6/X8 para el ejercicio cerra- Caja y Bancos 1.000 1.500 500
+Bienes de cambio 5.000 3.500 (1.500)
+do el 30/6/X6; y para el ejercicio cerrado el 30/6/X7, la variación
+Total Activo 6.000 5.000 (1.000)
+operada en la inflación entre el 30/6/X7 y el 30/6/X8. Así ten-
+dremos los tres estados contables a una moneda de un mismo Patrimonio neto 6.000 5.000 (1.000)
+poder adquisitivo (segunda premisa): la del 30/6/X8.
+Al determinarse variaciones relativas, o sea, porcentajes de
+2.1. Razones, ratios, índices aumentos o disminuciones de cifras, el cálculo también es fácil,
+Razones son divisiones de dos cifras; por ejemplo, el saldo dado que se obtienen dividiendo la variación absoluta por la ci-
+de disponibilidades dividido el total del Activo. Ratios son nú- fra del año más antigua, y a ese cociente se lo multiplica por
+mero de veces; por ejemplo, cuántas veces están contenidas cien. El signo de la variación porcentual será negativo o positivo,
+las disponibilidades dentro del Activo. Y los índices son porcen- según el correlativo signo que tuvo la variación absoluta. Vea-
+tajes, las disponibilidades dividido el total del Activo, por 100, mos un ejemplo:
+nos dará el porcentaje que representan sobre el total del Activo.
+Consecuentemente, según el caso, ratios e índices pueden Rubros cifras cifras (%) Variación
+al 30/9/X7 al 30/9/X8 relativa
+ser expresados en valores absolutos, valores unitarios o valores
+porcentuales. 500
+Caja y Bancos 1.000 1.500 50 x 100
+1.000
+166
+MARIO BIONDI ERREPAR 167
+
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+Rubros cifras cifras (%) Variación
+al 30/9/X7 al 30/9/X8 relativa nio neto. Es decir, el total del Activo será 100, y cada rubro ten-
+1.500 drá su porcentaje dividiendo, por ejemplo, sobre el total del Ac-
+Bienes de cambio 5.000 3.500 (30) x 100 tivo y multiplicando el cociente por 100. Así, sucesivamente, se
+5.000
+determinará la participación de cada rubro que conforma el Ac-
+1.000
+tivo y el Pasivo más el Patrimonio neto. En el ejemplo que trans-
+Total Activo 6.000 5.000 (17) X 100
+cribimos en el punto 2.2. se vio claramente la relación.
+6.000
+El análisis del Estado de resultados o cuadro demostrativo
+1.000
+Patrimonio neto 6.000 5.000 (17) X 100 de ganancias y pérdidas es algo distinto. En efecto, al rubro
+6.000 Ventas brutas se le asigna un valor 100; cada rubro represen-
+Conviene realizar una aclaración importante: cuando el año tará el porcentaje en relación con las ventas: dividiendo el total
+más antiguo arroja una cifra de cero, solamente puede calcu- de Devoluciones sobre ventas por las Ventas brutas y multipli-
+larse la variación absoluta. La variación relativa es incalculable, cando el cociente por 100, tendremos el porcentaje de Devolu-
+dado que si dividiéramos esa variación absoluta por cero, el re- ciones en relación con las ventas.
+sultado no sería recopilable, porque cualquier división por cero Igualmente se calcularán los porcentajes de Ventas netas,
+da infinito (∞) Costo de ventas, Utilidad bruta sobre ventas, Gastos, etc., y fi-
+E n tal caso, la variación relativa debe desecharse. Veamos nalmente la Utilidad neta.
+otro ejemplo: Es decir que, en este caso, cada porcentaje genera un resi-
+duo decreciente, hasta llegar a la Utilidad neta, que podría ser
+Rubros cifras al cifras al variaciones (%) variaciones
+—por ejemplo— el 7% sobre las Ventas brutas.
+30/9/X7 30/9/X8 absolutas relativas
+Caja y Bancos — 1.000 1.000 — Tanto el análisis vertical del Balance general como el del Es-
+900 tado de resultados son útiles cuando se los compara con están-
+Bienes de cambio 1.000 1.900 900 90 x 100
+dares; es decir que, previamente, se estableció que el Inventario
+1.000
+1.900 de bienes de cambio no deberá ser superior al 10% del Activo o
+Total Activo 1.000 2.900 1.900 190 ----------- x 100 que los Gastos de administración no deberán superar el 11 % de
+1.000
+todas las Ventas brutas. La comparación de los porcentajes rea-
+1.900
+Patrimonio neto 1.000 2.900 1.900 190 ------------ x 100 les con los estándares u objetivos señalados permitirá evaluar
+1.000
+parte de la gestión empresaria. A continuación, se transcribe un
+2.3. Relaciones con un mismo estado caso de aplicación de análisis horizontal y vertical.
+En este caso, sólo tenemos un juego de estados contables,
+el del período considerado, cuyas cifras deben estar totalmente
+homogeneizadas a moneda de dicho período.
+2.3.1. Análisis vertical
+Es el más difundido de los análisis y se practica en un año de-
+terminado; es decir, con los estados contables de un solo perío-
+do, los cuales deben estar debidamente ajustados por inflación.
+El análisis del Balance general asigna las relaciones que ca-
+da rubro aporta al total del Activo y del Pasivo, más el Patrimo-
+168 MARIO BIONDI ERREPAR 169
+
+FSTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+2.3.2. Razones que relacionan diferentes rubros
+En este caso, se relacionan ciertos rubros o componentes
+del esquema patrimonial de la empresa, a efectos de determi-
+nar su composición y poder sacar conclusiones.
+2.3.2.1. Capital de trabajo. Diferentes enfoques. Determinación
+del ciclo operativo
+El Capital de trabajo es fundamental en toda empresa, por
+cuanto es el que le genera beneficios, al circular más o menos rá-
+pidamente. En general se afirma que está formado por el Activo
+corriente menos el Pasivo corriente; esa es la forma tradicional y
+más conocida de exteriorizarlo, pero a su vez hay otras maneras
+o variantes que conforman en total, cinco enfoques distintos para
+definir los elementos integrantes del Capital de trabajo.
+El temporal-financiero es el más conocido; es el mencionado
+anteriormente con carácter general, es igual al Activo corriente de
+la empresa menos el Pasivo corriente. Es el Activo realizable me-
+nos el Pasivo exigible. El concepto básico es el plazo en el que
+razonablemente se pueden realizar los bienes y servicios para
+atender las deudas. Los interesados en esta forma de confeccio-
+narlos son tanto los analistas internos de la empresa como los
+analistas externos. Es la más conocida; está vinculada con el
+tiempo (el año de plazo a partir del cierre) y es el exigido por las
+normas contables para exponer el patrimonio de la empresa (con-
+forme lo solicita la Ley de Sociedades Comerciales).
+Otro enfoque es el temporal-operativo, que sólo toma en
+cuenta el Activo corriente, considerando que es lo que se va a
+transformar en dinero dentro del año de plazo. Lo que se busca
+es la magnitud del Activo corriente disponible con prescindencia
+de la fuente de financiación.
+También en este caso el Activo corriente está vinculado con
+el año siguiente.
+No tienen en cuenta quién es el dueño de ese Activo confor-
+mado por el saldo en efectivo, depositado en bancos, las cuentas
+a cobrar dentro de los doce meses, las inversiones transitorias y
+las materias primas que debemos tener en stock para abastecer
+170 MARIO BIONDI ERREPAR 171
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+la capacidad de producción de la empresa, la producción en pro- En períodos de depresión, la técnica señalada podría apli-
+ceso y los productos terminados destinados a venderse y cobrar- carse para medir los efectos de una reducción de actividad, en
+se en el año. Este enfoque es principalmente para analistas in- cuyo caso el enfoque podría vincularse con “variaciones de la
+ternos y se calcula para establecer las pautas, los objetivos y, capacidad operativa” (incremento o disminución).
+vencido el plazo, ver si los mismos se han cumplido.
+Este enfoque es particularmente útil para análisis de uso in-
+Otro enfoque es el funcional, dado por la diferencia entre el terno de la empresa, a los efectos de adoptar decisiones.
+Activo circulante y el Pasivo circulante; aquí ya no hablamos de
+Por último tenemos el enfoque sectorial del Capital de tra-
+un plazo (corriente) como en los anteriores, sino que ahora lo
+bajo. En teoría es posible aplicarlo, pero es bastante difícil de
+relacionamos con el ciclo operativo de la empresa. El nombre
+llevar a la práctica. Por ejemplo, si una empresa desea analizar
+circulante en lugar de corriente no tiene otro objetivo que dife-
+los resultados que obtiene por cada línea de producción, hay
+renciarlo de los demás enfoques.
+que asignar a cada una el Capital de trabajo empleado o asig-
+Dicho ciclo es exclusivo de cada empresa, no arbitrario co-
+nado a cada una de esas líneas. Este concepto se vincula con
+mo el plazo de doce meses a partir del cierre. Cada empresa
+la contabilidad por áreas de responsabilidad. Si un sector trans-
+tiene su propio ciclo operativo constituido por su forma de ope-
+fiere a otro lo producido, para que aquel continúe con el proce-
+rar, que no tiene por qué ser el mismo que el de otra empresa,
+so, la asignación de valor no estará dada por los costos incurri-
+aun de su misma actividad. Después veremos cómo se confor-
+dos hasta ese momento, sino también por la participación en las
+ma el ciclo operativo en la empresa.
+utilidades a obtener por la “venta” de ese producto por parte de
+Tenemos luego el enfoque incremental, igual al Activo directo ese sector que lo está transfiriendo al siguiente, y así sucesiva-
+menos el Pasivo directo; busca demostrar cómo varían los com- mente. La suma de todos los costos más la participación en las
+ponentes frente a los cambios en el nivel de actividad de la em- utilidades de cada área productiva dará, cuando se llegue al úl-
+presa. Es muy útil, ya que si una empresa quiere mejorar su po-
+timo, el precio total, el cual, luego de agregarle un margen de
+sición en el mercado y realiza una campaña agresiva para ello,
+utilidad comercial, nos dará el precio de venta.
+por ejemplo, pretendiendo aumentar las ventas en 1.000.000 por
+Este enfoque puede brindar una información útil, pero es
+mes, eso va a significar un incremento de Capital de trabajo; por
+bastante difícil de lograr, sobre todo por la asignación de costos
+eso se llama incremental. Lo importante será analizar cuáles son
+y Capital de trabajo a los distintos sectores de la empresa,
+las consecuencias del incremento en las ventas, en el Capital de
+puesto que por lo general, lo que se hace para la determinación
+trabajo, otorgando más facilidades de pago a los clientes; ade-
+de costos y utilidades sectoriales es calcular todo por prorrateo,
+más, al tener un mayor stock para hacer frente a mayores ventas,
+y esto no aporta datos ni información útil.
+qué gastos nuevos ocasionará; al mismo tiempo implicará, si es
+una empresa industrial, mayor materia prima, mayor cantidad de Resumimos lo expuesto en un esquema de los distintos en-
+productos terminados y será importante ver si en la misma medi- foques del Capital de trabajo:
+da aumentó el Pasivo corriente, por ejemplo, buscando financia-
+ción en bancos o de los proveedores de la empresa.
+En este caso, el Activo y el Pasivo involucrados en el análi-
+sis reciben el nombre de directos en lugar de corrientes, porque
+puede tratarse de una parte del Activo o del Pasivo corrientes,
+o sea, la porción aplicada a la actividad que se desea reactivar.
+172
+MARIO BIONDI ERREPAR 173
+
+ESTADOS CONTABLES. PRESENTACIÓN. INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+PASIVO
+ENFOQUES DEL CAPITAL DE TRABAJO
+PASIVO CORRIENTE
+ENFOQUE
+DE
+FÓ
+C
+R
+Á
+M
+LC
+U
+U
+LA
+LO
+C
+F
+A
+U
+R
+N
+A
+D
+C
+A
+T
+M
+ER
+E
+Í
+N
+S
+T
+T
+A
+IC
+L
+A CO
+B
+N
+Á
+C
+S
+E
+IC
+P
+O
+T O D
+To
+e
+t
+u
+a
+d
+l
+a
+P
+s
+a sivo corriente
+3
+3
+.
+.
+2
+2
+0
+0
+0
+0
+2
+2
+.
+.
+0
+0
+0
+0
+0
+0
+1
+1
+.
+.
+2
+2
+0
+0
+0
+0
+Activo corriente Realizable y
+P
+d
+l
+e
+a
+n
+z o
+re
+e
+a
+n
+li z
+q
+a
+u
+r
+e
+s e
+p u
+lo
+e
+s
+-
+PASIVO NO CORRIENTE
+Temporal financiero menos exigible bs. y servicios para Deudas (a 2 años: 1.000;
+Pasivo corriente dentro del año atender deudas a 3 años: 3.000) 4.000 3.000 2.500
+Magnitud del Total Pasivo no corriente 4.000 3.000 2.500
+Realización del
+Temporal operativo Activo corriente Activo Act. cte. con Total Pasivo 7.200 5.000 3.700
+dentro del año
+prescindencia
+PATRIMONIO NETO
+de su financiación
+Capital social 650 100 100
+Activo circulante Rotación efectivo/ Ajuste del capital 500 500 500
+Vinculación circuito
+Funcional menos Pasivo producir/ Reservas 50 50 50
+operativo
+circulante vender/cobrar Resultados no asignados 1.800 1.250 1.050
+Reacción Total Patrimonio neto 3.000 1.900 1.700
+“Paripassu” frente
+Activo directo Variabilidad frente Total 10.200 6.900 5.400
+a todo aumento o
+Incremental menos Pasivo a los cambios en el
+disminución de la Estado de resultados
+directo nivel de actividad
+producción o Ventas 10.000
+de las ventas Costo de ventas -5.200
+Inversión neta, Ut. bruta 4.800
+Activo directo Afectación de utilizada por el Gastos de operaciones -2.800
+Sectorial menos Pasivo bienes, derechos y sector industrial Gastos de intereses -300 -3.100
+sectorial obligac. a sectores comercial y
+Utilidad ordinaria 1.700
+financiero
+Result. vta. Bienes de uso 100
+Realizaremos a continuación un sencillo caso de aplicación, Utilidad neta 1.800
+ejemplificando los distintos supuestos del Capital de trabajo, su-
+Información adicional:
+poniendo inflación 0:
+1. Gastos de operaciones incluyen amortización de Activo fijo
+Caso de aplicación Ns 1: Enfoques del Capital de trabajo industrial por $ 500.
+ESTADOS CONTABLES AL: 30/9/X8 30/9/X7 30/9/X6 2. Se compró un terreno por $ 2.300, de los cuales se abona-
+BALANCE GENERAL
+ron en efectivo $ 1.300; el resto se pagará a partir de los
+ACTIVO
+ACTIVO CORRIENTE
+dos años de la fecha de cierre. Se vendió una máquina con
+Caja y bancos 1.000 600 100 valor de libros por $ 800.
+Cuentas por cobrar 2.000 1.300 1.000 3. Los resultados no asignados del 30/9/X7 se distribuyeron:
+Inventarios 3.200 2.000 1.100
+$ 1.000 en efectivo y $ 250 en acciones que ya fueron emi-
+Total Activo corriente 6.200 3.900 2.200
+tidas al 30/9/X8.
+ACTIVO NO CORRIENTE 4. Hubo una suscripción de acciones en el ejercicio cerrado el
+Bienes de uso 4.000 3.000 3.200
+30/9/X8 que fue integrada en su totalidad, por $ 300, desti-
+Total Activo no corriente 4.000 3.000 3.200
+nada a expandir la planta industrial.
+Total del Activo 10.200 6.900 5.400
+174 MARIO BIONDI ERREPAR 175
+
+ESTADOS CONTABLES. PRESENTACIÓN. INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+Solución modelo
+5. Del ejercicio cerrado el 30/9/X6 se distribuyeron $ 400 en
+a) Enfoque temporal-financiero (Activo corriente - Pasivo co-
+efectivo. El resultado del ejercicio cerrado el 30/9/X7 fue de
+rriente)
+$ 600 (totalmente de operaciones ordinarias). Con respecto
+al año anterior no hubo variaciones en el Activo fijo, siendo
+la diferencia la amortización correspondiente al período.
+METODO INDIRECTO
+Determinar el Capital de trabajo en sus distintos enfoques:
+VARIACIONES DEL CAPITAL CORRIENTE $
+a) Enfoque temporal-financiero (Activo corriente - Pasivo Capital corriente al inicio del ejercicio 1.900
+corriente).
+Aumento de Activo corriente 2.300
+b) Enfoque temporal-operativo. Aumento de Pasivo corriente (1.200)
+c) Enfoque funcional: Aumento del Cap. cte. 1.100
+SUPUESTO: Capital corriente al cierre del ejercicio 3.000
+El ciclo operativo de la empresa es de 24 meses.
+El capital circulante al 30/9/X6 es de $ 1.000.
+ACTIVIDADES OPERATIVAS
+El capital circulante al 30/9/X8 es de $ 2.000. Ganancia ordinaria 1.700
+Más: Partidas que no significaron aplicación del Cap.
+d) Enfoque incremental:
+corriente^) 500
+SUPUESTO:
+Cap. cte. originado en operaciones ordinarias 2.200
+a) La empresa decide disminuir sus ventas de $ 10.000 a
+Ganancia extraordinaria 100
+$ 4.000 (respecto del último ejercicio cerrado). Más: Partidas que no significan aplicación del Cap.
+800
+b) Los análisis financieros permitieron establecer la si- corriente^2)
+Capital corriente originado en operac. extraordinar. 900
+guiente información respecto de la sensibilidad o el
+Capital corriente generado por las actividades operativas 3.100
+efecto de esa decisión sobre el Capital de trabajo:
+ACTIVIDADES DE FINANCIACIÓN
+• Caja y bancos: no sufriría alteración: $ Aporte de los propietarios 300
+• Cuentas por cobrar: no sufriría 1.000 Retiro de los propietarios -1.000
+alteración: 2.000 Nuevas deudas a largo plazoí3) 1.000
+• Inventarios: se reducirían a: 1.700
+(3.200) Capital corriente originado en actividades de financiación 300
+• Deudas: no sufriría alteración:
+Nuevo Capital de trabajo 1.500
+ACTIVIDADES DE INVERSIÓN
+e) Enfoque sectorial: Adquisición de Bienes de uso(3) -2.300
+SUPUESTO: Capital corriente aplicado a actividades de inversión -2.300
+Sectores Comercial Industrial Total Aumento del Capital corriente 1.100
+Act. cte. al 30/9/X7 1.300 2.600 3.900
+Pas. cte. al 30/9/X7 800 1.200 2.000
+(1) Amortización de Activo fijo.
+Cap. cte. al 30/9/X7 500 1.400 1.900 (2) Valor residual de libros de la máquina vendida.
+Act. cte. al 30/9/X8 2.337 3.863 6.200 (3) Valor pagado en efectivo: es el que modifica el Capital corriente; la porción
+Pas. cte. al 30/9/X8 1.300 1.900 3.200 pa por la que se contrae la deuda a largo plazo no lo altera.
+Se lo expresa para un mejor análisis como una aplicación (el costo total del
+Cap. cte. al 30/9/X8 1.037 1.963 3.000
+fijo) y un origen (el incremento de Alac tdiveou da a largo plazo).
+Ganancia ord. 30/9/X8 800 900 1.700
+176
+MARIO BIONDI ERREPAR 177
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+Aumento del Capital circulante 1.000
+Capital circulante al cierre del ciclo operativo 2.000
+b) Enfoque temporal-operativo (Activo corriente) CAUSAS DE LA VARIACIÓN DEL CAPITAL CIRCULANTE
+ACTIVIDADES OPERATIVAS
+MÉTODO INDIRECTO
+Ganancia ordinaria (1) 2.300
+Más: Partidas que no significan aplicación del Capital
+VARIACIONES DEL ACTIVO CORRIENTE $ circulante 700
+Activo corriente al inicio del ejercicio 3.900 Capital circulante originado en operaciones ordinarias 3.000
+Aumento de Activo corriente 2.300 Ganancia extraordinaria 100
+Activo corriente al cierre del ejercicio 6.200 Más: Partidas que no significan aplicación del Capital
+CAUSAS DE LA VARIACIÓN DEL ACTIVO CORRIENTE Circulante(3) 800
+ACTIVIDADES OPERATIVAS Capital circulante originado en operaciones extraord. 900
+Ganancia ordinaria 1.700 Capital circulante generado por las actividades operativas 3.900
+Más: Partidas que no significan aplicación del Cap.
+corriente(2) 500 ACTIVIDADES DE FINANCIACIÓN
+Aporte de los propietarios 300
+Capital corriente originado en operac. ordinarias 2.200
+Retiro de los propietarios (4) -1.400
+Ganancia extraordinaria 100
+Nuevas deudas a largo plazo 500
+Más: Partidas que no significaron aplicación del Cap.
+Capital circulante aplicado a actividades de financiación -600
+corriente^2)
+800
+Capital corriente originado en operaciones extraord. 900 ACTIVIDADES DE INVERSIÓN
+Capital corriente generado por las actividades operativas 3.100 Adquisición de Bienes de uso - 2.300
+Capital circulante aplicado a actividades de inversión -2.300
+ACTIVIDADES DE FINANCIACIÓN Aumento del Capital circulante 1.000
+Aporte de los propietarios 300
+Nuevas deudas a largo plazof3) 1.000 (1) Ganancia ordinaria 30/9/X7 600
+Ganancia ordinaria 30/9/X8 1.700
+Retiro de los propietarios -1.000
+2.300
+Aumento de deudas a corto plazo 1.200
+(2) Amortización de Activo fijo 30/9/X7 200
+Activo corriente generado por actividades de financiación 1.500
+Amortización de Activo fijo 30/9/X8 500
+700
+ACTIVIDADES DE INVERSIÓN
+Adquisición de Bienes de uso(3) 2.300 (3) Valor residual de libros de la máquina vendida.
+Activo corriente aplicado a actividades de inversión 2.300 (4) Dividendos en efectivo 30/9/X6 400
+Aumento del Activo corriente 2.300 (5) Dividendos en efectivo 30/9/X7 1.000
+1.400
+(1) Amortización de Activo fijo.
+(2) Valor residual de libros de la máquina vendida. (A) El incremento de la deuda a largo plazo por la adquisición del Activo fijo se ha
+(3) Valor pagado en efectivo: es el que modifica el Activo corriente. Para un tomado como Pasivo circulante (vence en el ciclo operativo de la empresa).
+mejor análisis se expresa como una aplicación el costo total del Activo fijo, y
+el incremento de la deuda a largo plazo. como un origen,
+c) Enfoque funcional (Activo circulante menos Pasivo circulante)
+MÉTODO INDIRECTO
+VARIACIONES DEL CAPITAL CIRCULANTE
+$
+Capital circulante al inicio del ciclo operativo 1.000
+Aumento del Activo circulante 4.000
+Aumento de Pasivo circulante (A) (3.000)
+178 MARIO BIONDI 179
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+d) Enfoque incremental
+Sobre la base de los supuestos del planteo, se sacaron las si-
+guientes conclusiones: para una disminución de ventas del 60%
+solamente habrá una disminución del Capital de trabajo del 50%.
+La empresa destinará la disminución del Capital de trabajo
+a remodelar su planta industrial (Activo fijo).
+VARIACIONES DEL CAPITAL DIRECTO $
+Capital directo al 30/9/X8 3.000
+Disminución del Activo directo (1.500)
+Disminución del Capital directo (1.500)
+Capital directo al 30/9/X8 1.500
+CAUSAS DE LA VARIACIÓN DEL CAPITAL DIRECTO
+Afectación del Capital de trabajo a remodelación planta
+industrial
+1.500
+Total aplicaciones 1.500
+Disminución del Capital directo 1.500
+e) Enfoque sectorial
+MÉTODO INDIRECTO
+SECTOR SECTOR
+COM. IND.
+VARIACIONES DEL CAPITAL CORRIENTE $ $
+Capital corriente al Inicio del ejercicio 500 1.400
+Aumento del Activo corriente sectorial 1.037 1.263
+Aumento del Pasivo corriente sectorial 500 700
+Aumento del Capital corriente sectorial 537 563 • Determinación del ciclo operativo
+Capital corriente sectorial al cierre del 1.037 1.963 A través de la determinación de este ciclo en las empresas,
+ejercicio se busca determinar el tiempo que tarda el circuito: comprar-
+producir-vender-cobrar, o dicho en otras palabras, cuánto tarda
+CAUSAS DE LA VARIACIÓN DEL
+el efectivo en volver a convertirse en efectivo.
+CAPITAL CORRIENTE SECTORIAL
+ACTIVIDADES OPERATIVAS Ello es igual a:
+Ganancia ordinaria 800 900
+Los días de ventas a cobrar, o lo que es lo mismo, los días
+Más: Partidas que no significan aplicación
+que tarda la empresa en cobrar sus ventas.
+del Capital corriente sectorial(1)
+— 500
+(+) Los días que permanecen en stock las materias primas.
+Capital corriente sectorial originado en
+(+) Los días que insume el proceso de producción.
+operaciones ordinarias 800 1.400
+Ganancia extraordinaria — 100
+180 MARIO BIONDI ERREPAR 181
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+mulados en el rubro A sobre la manera de determinar el prome-
+(+) Los días que permanecen en stock los productos terminados.
+dio mensual. Veamos un ejemplo:
+(=) Ciclo operativo de la empresa, o cantidad de días que insu-
+me el ciclo operativo.
+Vamos a ver ahora cómo se determina cada uno de esos puntos.
+A. Días de ventas o cuentas a cobrar
+Para determinarlo, primero tenemos que calcular las ventas de
+un día. Lo obtenemos dividiendo el total de ventas, del período al
+que se le adicionará el impuesto al valor agregado, por los días que
+trabajó la empresa en el año. El segundo paso consiste en relacio-
+C. Días que tarda el proceso de producción
+nar esta cifra con el promedio mensual de cuentas por cobrar. Se
+Primero determinamos la producción en proceso de un día,
+acostumbra, a veces, tomar un promedio de trece meses, en lugar
+que es igual a la producción terminada que se entregó a stock
+de un promedio anual (o inicial y final). Dividiendo el promedio men-
+en el año, y la dividimos por los días trabajados en el año. Así
+sual de cuentas por cobrar por las ventas de un día, obtenemos los
+obtenemos la producción terminada en un día. El paso siguien-
+días que tardan en cobrarse las ventas. Veamos un ejemplo:
+te consiste en dividir el promedio mensual de la producción en
+Días de cuentas por cobrar, pendientes: proceso por la producción terminada en un día; obtenemos los
+Ventas anuales 500.000 días que tarda el proceso de producción.
+= = = $ 2.000 Los promedios mensuales se determinan en igual forma que
+Días de ventas 250
+la señalada en A y B. Veamos un ejemplo:
+Promedio mensual de ctas. por cobrar
+• Días en la calle = = 13.000 = 6 días
+Venta de un día 2.000
+Cabe hacer una aclarac ión con respecto a estas cifras.
+Si la empresa es contrib uyente del impuesto al valor agregado,
+la cifra de ventas aparecerá , por supuesto, sin considerar dicho im-
+puesto, pero en la cifra de las cuentas por cobrar provenientes de
+ventas, estará incluido el efecto del impuesto al valor agregado.
+D. Días que permanecen en stock los productos terminados
+Para que ambos valores sean “compatibles”, deberá restarse del
+Primero determinamos la relación costo de mercaderías
+monto del impuesto contenido en los saldos de clientes a cobrar.
+vendidas, divididos los días que trabajó la empresa en el perío-
+B. Días que permanecen en stock las materias primas
+do. El cociente arroja el costo de lo vendido en un día.
+Primero determinamos la materia prima consumida en un
+El paso siguiente consiste en dividir el promedio mensual de
+día, que es igual al total de materias primas que ingresaron en
+stock de productos terminados para ser vendidos por el costo
+el proceso en el año, dividido por los días que trabajó la em-
+de lo vendido en un día, y así obtenemos los días que perma-
+presa, y así obtenemos el consumo de materia prima de un día.
+nece la producción terminada en existencia, o sea, para cuán-
+El paso siguiente consiste en relacionar este dato con el tos días de venta nos alcanza el stock.
+promedio mensual de existencias de materia prima\ obtenemos Los promedios mensuales se determinan según lo señalado.
+así los días que permanecen en stock las materias primas, o di- Veamos un ejemplo:
+cho de otra manera, para cuántos días de producción tenemos
+en stock las materias primas. Valen aquí los comentarios for-
+182 MARIO BIONDI ERREPAR 183
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+La suma de días de estos cuatro conceptos (A a D) arroja la
+duración del ciclo productivo de la empresa (6 + 23 + 22 + 22 =
+73 días).
+Sintetizando, veamos el siguiente ejemplo:
+Caso de aplicación Ns 2: Determinación del ciclo operativo
+Sobre la base del caso de aplicación descripto en el punto
+2.3.1. (pág. 168) y los datos que se indican a continuación, de-
+terminar el ciclo operativo de la empresa para el ejercicio eco-
+nómico cerrado el 30/9/X8.
+— La empresa trabaja 280 días en el año.
+— El saldo promedio de las cuentas por cobrar es de $ 1.500,40.
+Dicho saldo incluye el impuesto al valor agregado, sacando el
+efecto de dicho impuesto, el monto se reduce a $ 1.240.
+— Las materias primas ingresadas en el proceso productivo
+en el ejercicio ascendieron a $ 2.500.
+— El promedio mensual de materias primas (stock) en el ejer-
+cicio fue de $ 250.
+— El total de producción terminada en el año fue de $ 5.800.
+— El promedio de la producción en proceso (stock) es de $ 150.
+— El promedio mensual de productos terminados (stock) es de
+$ 960.
+— Todas las cifras indicadas se encuentran expresadas a mo- 2.3.2.2. Liquidez corriente
+neda de cierre. Este índice surge de la relación del Activo corriente dividido
+— La empresa vende a responsables inscriptos (tasa IVA: 21 %). por el Pasivo corriente, multiplicando el cociente por 100. A ve-
+ces se calcula el ratio sin multiplicar por 100. Como en todos los
+CICLO OPERATIVO
+índices que se calculan para el análisis, será muy útil compa-
+Solución Modelo
+rarlo con un estándar u objetivo.
+Se denomina “liquidez corriente” porque considera la totalidad
+de los Activos de la empresa destinados a afrontar compromisos
+normales. Este índice no debería ser inferior al 100% o a 1, dado
+que de otra forma se podrían producir dificultades para atender
+Pasivos, perjudicando la calificación de la empresa.
+Para mejorar este índice se puede recurrir a alguno de los
+siguientes árbitrios:
+184 MARIO BIONDI ERREPAR 185
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+a) aporte de Capital; problema de obsolescencia, en cuyo caso el incremento del re-
+sultado negativo sería de intercambio y no financiero.
+b) liquidación de Activos no corrientes;
+c) obtención de Pasivos no corrientes.
+La decisión de la mejor de las alternativas dependerá del Veamos un ejemplo:
+mercado de capitales y de la posición de la empresa, en lo que
+se refiere a su calificación crediticia. La interpretación de ese resultado es: por cada $ 100 que
+debe la empresa con vencimiento a un año, dispone de fondos
+Una herramienta útil para decidir el camino a seguir podría
+y cuentas a cobrar en el mismo lapso, de $ 47.
+ser el leverage o efecto de palanca, que analizaremos en este
+mismo capítulo, algo más adelante. 2.3.2.4. Inventarios sobre Capital corriente
+Es igual al total de Bienes de cambio dividido por el Capital
+Veamos un ejemplo del índice de liquidez:
+corriente (diferencia del Activo corriente, menos el Pasivo co-
+rriente). El ratio daría una cifra absoluta; si al cociente lo multi-
+plicamos por 100 tendremos el porcentaje del que el Inventario
+participa respecto del Capital de trabajo. Este índice es útil, pa-
+Significa que por cada $ 100 que debe la empresa, dispone de $ 105 pa- ra analizar el cumplimiento de los objetivos previstos, toda vez
+ra cancelarlos, en el plazo de un año. que deberá ser comparado con el estándar respectivo. Del es-
+tudio podrá resultar —por ejemplo— la conveniencia de au-
+2.3.2.3. Prueba ácida
+mentar o no el stock de bienes de cambio. Veamos un ejemplo:
+Es una relación más estricta que la anterior. Al numerador
+se le elimina los bienes de cambio, por ser el elemento incluido,
+que presenta más dificultades de convertirse en efectivo.
+Es igual por lo tanto a la suma de Caja y bancos, más las In-
+versiones de carácter transitorio, y las Cuentas por cobrar corrien- 2.3.2.5. Créditos sobre Capital corriente
+tes (cuentas por cobrar por ventas y otros créditos), dividido el Pa-
+Es igual al total de Cuentas por cobrar —créditos— dividido
+sivo corriente. Si calculamos el ratio, el cociente es un número ab-
+por el Capital corriente (Activo corriente menos Pasivo corrien-
+soluto; si lo convertimos en índice, lo multiplicamos por 100.
+te). El cociente, multiplicado por 100, dará el índice de relación.
+Este ratio es útil cuando la rotación del Inventario se volvió Si no se multiplica por 100, el ratio dirá el número de veces que
+“pesada”, o sea, si supera los cómputos previstos. vincula los créditos con el Capital de trabajo. Este índice tiene
+Los valores normales deberían estar cerca de 1 o del 100% una utilidad similar al anterior y, como siempre, debe ser vincu-
+(algo por debajo), pero, naturalmente, sólo la comparación con lado con el estándar previamente fijado para ver el cumplimien-
+estándares u objetivos nos dirá si es adecuada o no. to del objetivo. Veamos un ejemplo:
+Para mejorar este índice se pueden aplicar los recursos
+mencionados al tratar la liquidez corriente, a los que se podría
+agregar como punto d) la posible liquidación de stocks de Bie-
+2.3.2.6. Rotación de Activo en relación con las Ventas
+nes de cambio, afectados por la pesadez de su rotación.
+Es igual al total de Ventas dividido por el Activo total. El co-
+En estos casos, el sacrificio de precio de la liquidación ace-
+ciente, multiplicado por 100, dirá la vinculación de ambos con-
+lerada de Bienes de cambio debería ser considerado un resul-
+ceptos. El ratio (cifra absoluta sin multiplicar por 100) nos dirá el
+tado financiero, salvo que la inmovilización excesiva fuera un
+número de veces que el Activo está contenido en las Ventas, o
+186 MARIO BIONDI ERREPAR 187
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+sea, el número de veces que el Activo “rotó” en el período res-
+2.3.2.10. índice de inmovilización sobre el Patrimonio neto
+pecto de las Ventas. Cuanto más elevada es la rotación, tanto
+Es igual al Activo fijo dividido por el Patrimonio neto, multipli-
+mejor, o sea que poco Activo generó ventas importantes. Los
+cado por 100. Generalmente se expresa como ratio (sin multipli-
+estándares dirán la última palabra. Veamos un ejemplo:
+car por 100), y se considera, en este caso, como Activo fijo el in-
+movilizado como Bienes de uso. Un ratio razonable debería ser 1
+o muy cercano a 1. Podría ser menor que 1 si se hubiera logrado
+una buena financiación a largo plazo. Veamos un ejemplo:
+La interpretación de este resultado es que la cifra de ventas
+rotó siete veces y media con respecto al total del activo.
+2.3.2.7. Endeudamiento total
+2.3.2.11. índice Ganancia bruta sobre ventas
+Es igual al total del Pasivo dividido el Capital propio o Patrimo-
+nio neto. Este ratio es muy importante. Si lo multiplicamos por 100
+Es igual a la Ganancia bruta dividida por el total de ventas,
+se convertirá en porcentaje. En general se estima que la cifra de
+multiplicado por 100.
+endeudamiento total debería ser igual al 100% del Capital propio
+Este índice surge del análisis vertical del Estado de resulta-
+(en ratio igual a 1). De todas formas el estándar u objetivo previs-
+dos y debe ser comparado con el estándar u objetivo señalado.
+to indicará si este se ha cumplido o no. Veamos un ejemplo:
+Veamos un ejemplo:
+2.3.2.8. Endeudamiento a corto plazo
+2.3.2.12. Margen Resultado final sobre ventas
+Es igual al Pasivo corriente dividido por el Patrimonio, mul-
+Es igual a la Ganancia neta sobre ventas multiplicada por
+tiplicado por 100. Este índice complementa el anterior. El ratio 100.
+(sin multiplicar por 100) debería ser significativamente menor
+Merece igual comentario que el índice precedente. Veamos
+que 1, y todo dependerá de la política de la empresa en mate-
+un ejemplo:
+ria del Pasivo a más de un año de plazo. De todas formas, todo
+esto debería estar programado a través del objetivo fijado por el
+estándar. Veamos un ejemplo:
+2.3.2.13. Margen Resultado final antes de resultados extraordi-
+narios sobre ventas
+El índice surge de relacionar los respectivos rubros del Esta-
+2.3.2.9. índice de inmovilización do de resultados, multiplicando el cociente por 100. También aquí
+debe analizarse lo que se previó con lo real. Veamos un ejemplo:
+Es igual al Activo fijo dividido el Activo total, multiplicado por
+100. Este índice surge directamente con el análisis vertical del
+Balance general, que ya hemos comentado. También deberá re-
+sultar de la política preestablecida y expresada a través del es-
+tándar respectivo. Veamos un ejemplo: 2.3.2.14. Rentabilidad del Capital propio
+Es igual a la Ganancia neta (ordinaria) dividida por el Patri-
+monio neto, multiplicado por 100. Este índice es tremendamen-
+te importante, señala el gran objetivo de la empresa: conocer
+188 ERREPAR
+MARIO BIONDI 189
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+qué porcentaje se ha ganado (o perdido) respecto del capital
+(resultados inflacionarios, diferencias de cotización, otros resul-
+propio invertido; en él se resume la eficiencia global de la em-
+tados de tenencia) correspondientes al Pasivo (capital ajeno), di-
+presa. Veamos un ejemplo:
+vidido por el Capital propio más el Pasivo (capital ajeno).
+Partimos de la idea de que asimilamos ese capital de terce-
+ros al capital de la empresa; por eso, en la fracción del denomi-
+nador le sumamos los resultados financieros devengados de ese
+Cabe hacer algunas consideraciones: el resultado del perío- Pasivo, al resultado del período (se crea la “ficción” cuál hubiera
+do se fue generando durante todo el desarrollo del mismo. El ca- sido el resultado si los socios hubieran aportado el capital nece-
+pital propio (patrimonio neto), consecuencia de ese resultado, va sario para la empresa y esta no hubiera tenido que recurrir al ca-
+cambiando por lo tanto a medida que esos resultados se van ge- pital de terceros. En ese caso, no tendría los resultados financie-
+nerando. Lo ideal cuando se determina este índice es relacionar ros devengados por el pasivo), lo dividimos por el Capital propio
+el resultado del período con el patrimonio neto (capital propio) más el capital ajeno (pasivo), que generaron esos resultados.
+promedio del período. De esta forma sacamos el verdadero “ren-
+dimiento” del uso de ese capital invertido en la empresa.
+La forma sintetizada sería:
+2.3.2.15. Rentabilidad del Activo Resultado neto
+Es igual a la Ganancia neta (ordinaria) sobre el Activo total mul- Patrimonio neto
+Resultado neto +/- Efecto financiero neto Pasivo
+tiplicado por 100. También se lo llama Retorno sobre el Activo; en Patrimonio neto + Pasivo
+este caso se trata al Activo como sinónimo de capital económico de
+Si este cociente da 1, es indiferente que la empresa se finan-
+la empresa. Parte de ese capital (sinónimo de Activos) fue aportado
+cie con capital propio o con capital de terceros. Si da más que 1,
+por los socios, y parte, por los terceros (Pasivos). Es un buen índi-
+la empresa tiene beneficios, porque significa que al capital ajeno
+ce de eficiencia o ineficiencia, sin interesar, en esta instancia, quién
+se le pudo sacar un usufructo mayor que el “costo” pagado por el
+aportó el capital. A las empresas les interesa reducir el Activo, sobre
+uso de ese capital ajeno. Y si da menos que 1, significa que la
+todo el Activo fijo, y manejarse con poco Capital de trabajo.
+empresa perdió por haberse endeudado con terceros; si su ren-
+Lógicamente, cuanto menor sea el Activo, mejor será el ín-
+tabilidad (Retorno sobre el capital propio) real fue por ejemplo de
+dice, que naturalmente convendrá vincular con el análisis que
+un 15% y la situación ficticia que creamos en la fracción del de-
+se presenta a continuación (efecto palanca o leverage). Vea-
+nominador nos da por ejemplo 17% (si la empresa no estuviera
+mos un ejemplo:
+endeudada y no tuviera los resultados financieros derivados de
+ese endeudamiento, hubiera obtenido una rentabilidad de un
+17%), vemos que no le convino trabajar con capital ajeno, obtu-
+2.3.2.16. Efecto palanca o leverage vo un rendimiento menor (15%) al que hubiera obtenido si no tu-
+viera pasivo (17%). Este tipo de análisis debe comprender lapsos
+Este índice es útil para saber si después que la empresa ha
+más o menos prolongados (6 meses o un año), y no se puede
+pagado intereses por la utilización del capital ajeno le queda un
+pretender analizar una operación aislada, puesto que las cifras
+margen de ganancia. Es la relación de la renta con el capital. Es-
+podrían ser engañosas y de muy difícil determinación.
+tá formado por un cociente, cuyo numerador es la relación entre
+lo que la empresa ganó (Resultado neto) sobre el Capital propio,
+o sea, el Retorno sobre el capital; y, el denominador está forma-
+do por la Ganancia (Resultado neto) más los Intereses que se
+pagaron a terceros y demás resultados financieros devengados
+190 MARIO BIONDI ERREPAR 191
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+En este caso, a la empresa le convino endeudarse, puesto pretende cubrir la inflación. Si este fuera el caso, la misma constitu-
+que da superior a 1. El rendimiento real (endeudada y sopor- ye una prolongación del Resultado por exposición a la inflación, y si
+tando los costos de ese endeudamiento) fue de un 132%; si el la empresa quisiera depurar sus resultados financieros propiamen-
+capital de terceros lo hubieran aportado los socios y no hubiera te dichos (intereses) sin efectos de la inflación, debería separarlos.
+tenido el costo por el uso del capital ajeno, apenas hubiera ob-
+Una forma sencilla de segregarlos sería comparar la tasa de
+tenido un rendimiento del 117%, por esa razón decimos que le
+intereses con la inflación del período; la diferencia constituiría el
+convino trabajar con capital ajeno, obtuvo un mayor rendimien-
+sobreprecio.
+to a través de sus resultados que el “costo” del capital ajeno.
+2.4.3. Diferencias de cambio
+2.4. Análisis de los Resultados financieros Representa la diferencia que sufre la divisa extranjera con
+Concepto y rubros que lo integran respecto a la moneda del país. También constituye un resultado
+financiero. Si consideramos la divisa extranjera como un bien,
+2.4.1. Intereses
+distinto por supuesto en su evolucionar del comportamiento del
+Comprende no sólo la financiación pagada a terceros y expli- dinero, el mayor o el menor valor que arroja en un período por
+citada, sino también aquellos intereses que se hallan incluidos en sobre el costo ajustado representa el comportamiento específi-
+el precio de venta: los intereses implícitos. Una forma sencilla de co que ha sufrido ese bien en el mercado, o sea, la diferencia
+segregar estos intereses consiste en registrar las compras y ven-
+de cotización que es el “resultado por tenencia” de ese bien que
+tas que realiza la empresa por su valor contado; de esa forma, ya
+representa moneda extranjera.
+tenemos segregados los intereses; veamos un ejemplo:
+2.4.4. Resultados por exposición a la inflación
+• La empresa A le vende a la empresa B, 300 unidades de
+mercaderías. El precio de venta de las mismas, al contado, es Surgen como consecuencia de poseer rubros expuestos a
+de $ 1.500. Por pago a 30 días, el valor de las mismas es de la inflación, es decir, monetarios, tanto Activos como Pasivos.
+$ 1.800. ¿Cómo debería registrarse esta operación, sabiendo
+La tenencia de Activos monetarios le generará a la empresa
+que la empresa B va a abonar las mercaderías a 30 días?
+Resultados por exposición a la inflación negativos. La tenencia de
+Pasivos monetarios le generará Resultados inflacionarios positivos.
+Lo correcto sería:
+Los métodos tradicionales de ajuste se determinan por los
+En la empresa B: En la empresa A:
+Mercaderías 1.500 Cuentas por cobrar 1.800 rubros no monetarios, junto con la reexpresión de los rubros ex-
+Intereses a devengar 300 a Ventas 1.500 presados a una moneda “antigua”: la de origen. Pero la forma
+a Proveedores 1.800 Intereses a devengar 300
+de determinarlos es a través de los rubros que realmente los ge-
+De esta forma, desde el principio, a partir del momento en
+neran, es decir, los expuestos a la inflación.
+que se registra la operación, segregamos los intereses (implíci-
+tos) contenidos en el precio. A medida que transcurre el tiempo, Una manera es a través del “Estado de origen y aplicación
+los mismos irán devengándose y formarán parte de los resulta- de rubros monetarios”, también llamado “Estado monetario del
+dos del período. ejercicio” o “Estado de variaciones del capital monetario”.
+En este estado se analizan los movimientos monetarios pro-
+2.4.2. Sobreprecios de inflación
+ducidos en el período y cómo evolucionó la posición monetaria
+En épocas inflacionarias es común que dentro de la tasa de in-
+desde el inicio hasta el cierre del período.
+terés pactada por la empresa exista una sobretasa con la que se
+192 MARIO BIONDI ERREPAR 193
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+La forma de confeccionarlo es la siguiente:
+1. Se determina la posición monetaria inicial, por diferencia en-
+tre el Activo monetario que poseía la empresa al inicio del
+ejercicio y el Pasivo monetario al mismo momento. Si es ma-
+yor el Activo, la empresa tendrá un Activo monetario neto ini-
+cial. Si es mayor el Pasivo, la empresa tendrá una situación
+pasiva monetaria neta inicial. Si es igual el Activo monetario
+al Pasivo monetario, la posición monetaria inicial será 0.
+2. Se determina la posición monetaria final, por diferencia entre el
+Activo monetario y el Pasivo monetario al cierre del ejercicio.
+3. Se buscan las causas que modificaron el capital monetario 2.4.5. Resultado de tenencia
+Surge como consecuencia de aplicar valores de mercado en
+inicial (determinado en 1), para convertirse en el capital
+la valuación de Activos y Pasivos. La diferencia entre los Valores
+monetario final (determinado en 2), dadas por los ingresos
+de mercado (índices específicos) y los Costos reexpresados a
+(ventas, aportes de los socios, ventas de Bienes de uso,
+moneda de cierre constituye el Resultado por tenencia, que mide
+etc.) y egresos (compras del período, gastos, dividendos en
+cuánto ganó o perdió la empresa por tener aplicado su capital en
+efectivo, etc.) monetarios. Una vez que el capital monetario
+bienes que se comportaron de una forma distinta ante la
+inicial, más los ingresos monetarios y menos los egresos
+inflación.
+monetarios del ejercicio, nos da el capital monetario final,
+estamos en condiciones entonces de reexpresar tanto la 2.4.6. Interdependencia entre todos ellos
+Todos los resultados analizados precedentemente constitu-
+posición inicial como los ingresos y egresos monetarios del
+yen Resultados financieros. Si los analizáramos separadamen-
+año, a moneda de cierre, para determinar cuál debería ser
+te podríamos tener razonamientos erróneos a los efectos de la
+el capital monetario al final del período en la empresa.
+toma de decisiones.
+4. La diferencia entre el capital monetario que la empresa debe-
+Por ejemplo, un buen Resultado por tenencia podría permi-
+ría tener (determinado en 3) y el real (determinado en 2) cons-
+tir al gerente de producción ufanarse de haber hecho una bue-
+tituirá el Resultado por exposición a la inflación del ejercicio,
+na política de inventario, y por otro lado, si el gerente de finan-
+dependiendo su signo de la posición final que tenía la empre-
+zas no reporta el dato de cuánto le costó a la empresa “mante-
+sa (activa o pasiva) y del capital monetario reexpresado.
+ner” ese stock, esa empresa sin lugar a dudas estaría dando
+Veamos un sencillo ejemplo: una pésima información.
+ESTADO DE VARIACIONES EN EL CAPITAL MONETARIO
+• Posición monetaria al 30/6/X7: 3. Análisis gráfico y numérico
+— Activo monetario neto inicial 2.000 ......................... 2 ....... 4.000 Dentro de la metodología del análisis de los estados conta-
+• Variaciones del capital monetario: bles es usual que los resultados que se obtengan, principal-
+— Incrementos (orígenes)
+mente mediante índices, sean mostrados gráficamente en cua-
+• Ventas:
+Setiembre 19X7 .................. 67.000 .... 1,6 107.200 dros que adquieran diferentes modalidades.
+Marzo 19X8 ....................... 45.000 .... 1,2 54.000
+Por ejemplo, podríamos citar:
+Total de orígenes ...................
+112.000 161.200
+— Disminuciones (aplicaciones) a) exposición en coordenadas cartesianas;
+b) gráficos por barras;
+194 MARIO BIONDI ERREPAR 195
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+c) gráficos de tortas;
+d) gráficos de circunferencias;
+e) curvas.
+Las más difundidas y útiles de estas representaciones son
+las que se exponen mediante coordenadas cartesianas, con
+sus ejes de las “x” (o abscisas) y el eje de las “y” (u ordenadas).
+Decimos que son las representaciones más difundidas, tenien-
+do en cuenta las múltiples aplicaciones que a diario aparecen
+en libros, periódicos, etcétera.
+Dentro de estas coordenadas cartesianas, pueden utilizarse
+barras, curvas, etc., aprovechando la expresión bidimensional
+del sistema.
+También existe multiplicidad de barras, divididas sectorial-
+mente, acumuladas, sucesivas, etc. Las curvas, que no son si-
+no rectas quebradas, se pueden utilizar combinadas con barras
+u otras expresiones.
+Los gráficos de circunferencias y las tortas son expresiones
+en un solo plano, bi o tridimensional, y se emplean indepen-
+dientemente de las coordenadas cartesianas.
+Es importante destacar que las expresiones en coordena-
+das cartesianas pueden serlo en escala aritmética y en escala
+logarítmica. A veces uno de los ejes se expresa en escala arit-
+mética, y el otro, en logarítmica, con lo cual el gráfico queda
+mostrado en escala semilogarítmica.
+Esta aclaración es importante, ya que si se desea hacer una
+comparación de variables con magnitudes no homogéneas, se-
+ría prácticamente imposible la expresión gráfica. En tales casos
+existen dos soluciones:
+a) mostrar variaciones porcentuales de cada elemento a con-
+siderar, que, de esa manera, son comparables, o;
+b) utilizar la escala semilogarítmica, que admite representa-
+ciones comparables en magnitudes totalmente diferentes.
+Veamos un ejemplo de ambas escalas:
+196 MARIO BIONDI ERREPAR 197
+
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+Utilizamos un sistema de barras apiladas, para la exposición:
+En el cuadro 1, las escalas de los ejes de la “x” y de las “y”
+son equivalentes.
+En el cuadro 2, la escala del eje de las “x” tiene una magni-
+tud aritmético decimal, mientras que en el eje de las “y” cada ci-
+fra es el logaritmo del número anterior. Así, 100 es el logaritmo Otra modalidad podría ser:
+de 10; 1.000 es el logaritmo de 100 y así sucesivamente.
+Este tipo de gráficos admite mostrar expresiones diversas
+que pueden superponerse.
+A continuación mostramos algunos de los ejemplos de grá-
+ficos para el análisis:
+3.1. Análisis de ventas
+Las ventas se incrementan el 23% en el año 5. El promedio
+de
+crecimiento anual de las ventas en los últimos 5 años fue del
+18%.
+La facturación de las asociadas del exterior fue el 27% su-
+perior que en el año 4, con un promedio anual de crecimiento
+3.2. Análisis de distribución de ventas por divisiones opera-
+de los últimos 5 años del 22%.
+tivas
+Las divisiones cales y cementos acumularon el 81 % de las
+ventas del año.
+El resto de las divisiones completaron el 19% restante.
+198 MARIO BIONDI ERREPAR 199
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+Otra forma de graficarlo podría ser:
+Otra variante podría ser:
+3.3. Análisis de distribución de ventas por mercados
+Los mercados del exterior totalizaron el
+64% de las ventas
+en el año X3.
+200 MARIO BIONDI ERREPAR 201
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPTRTACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+3.6. Análisis de inversiones de capital y generación interna
+3.4. Análisis de ingresos antes de costos aplicados e im-
+de fondos
+puestos
+Las inversiones en propiedades, plantas y equipos totalizaron
+$ 7.250 millones desde el primero al quinto año. Estas inversio-
+nes no fueron financiadas por generación interna de fondos.
+3.5. Análisis de retorno en relación con el Activo
+La tasa del retorno sobre el total del Activo se incrementó
+3.7. Análisis de inversiones en investigación y desarrollo
+del 13,5% en el año 5 al 15,5% en el año 6.
+Las inversiones en investigación y desarrollo durante los úl-
+Durante el mismo período, la inflación del país declinó del timos 5 años, ascendieron a un total de $ 8.400 millones, equi-
+15% al 6%. valente a un promedio de más del 7% sobre las ventas anuales.
+202 MARIO BIONDI ERREPAR 203
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+3.8. Ejemplo de análisis literal
+Su determinación es relativamente sencilla, partiendo de la
+1. La Empresa S.A. facturó, en el ejercicio, 185.700 unidades,
+siguiente ecuación:
+o sea, 3.840 unidades menos que en el año anterior. Tal
+disminución tuvo su origen en restricciones en el poder ad-
+Monto de las ventas en el punto de equilibrio = X
+quisitivo de ciertas capas de la población. Gastos fijos = G.F.
+Gastos variables en función de X = G.V. = % X = contribución marginal
+2. La facturación total de la compañía durante el ejercicio, ex-
+porcentual
+presada en pesos, fue de 521 millones, 18% más que en el
+X G.F. + % X
+ejercicio anterior. Analizando su composición surge que el
+X - % X = G.F.
+65,3%, o sea, 340 millones, corresponde al mercado inter- X (1 - %) = G.F.
+no, y el 34,7% restante, 181 millones, a exportaciones, des- X G.F.
+tacándose las exportaciones a Brasil como el principal mer- (1-%) (*)
+cado interno, con el 31% de ese total.
+(*) La síntesis de la ecuación relaciona los gastos fijos con la contribución marginal (que es la diferencia
+3. En el mercado de unidades para el campo, La Empresa S.A. entre 1 v el porcentaje de gastos variables):
+con-
+Veamos un ejemplo:
+solidó su liderazgo, con una participación del 62% del mercado.
+G.F. = 1.000
+4. Las exportaciones, expresadas en pesos, crecieron un 27% G.V. = 70% del precio de
+respecto del año anterior, evolución muy superior a la factu- venta
+X = ?
+ración externa, que creció un 15%, medida en igual forma”. X = 1.000 + 0.70X + 0,70X
+X - 70X = 1.000 = 1.000 1.000
+Como puede verse, generalmente las representaciones grá-
+0,30X = 1.000 1.000
+ficas se completan con expresiones literales que conforman lo
+1.000
+que “dicen” los gráficos y los índices. X = = 3333.33 venta que no arroja ganancia ni pérdida,
+Estos gráficos, de alguna manera, son la expresión final del 0,30 sino que cubre los Gastos fijos y variables
+trabajo de análisis; casi siempre se incluyen en memorias, fo-
+Comprobación:
+lletos de divulgación, etc., y están destinados al gran público.
+Precio venta 3333,33
+Gastos variables 2333,33 (70 % s/ 3333,33)
+Contr. marginal = 1.000,00
+4. Otros análisis
+Gastos fijos = -1.000,00
+4.1. Efecto de palanca o leverage Resultado 0,00
+Lo vimos anteriormente en el punto 2.3.2.16. (pág. 190) y es De esa forma sencilla podemos determinar el monto de ven-
+muy útil para saber qué le conviene a la empresa desde el pun- tas que le permite a la empresa cubrir la totalidad de sus costos.
+to de vista financiero. Este análisis es muy importante. Partiendo de él, la empresa de-
+Es importante para la relación de la renta con el capital (pro- termina su “estrategia de ventas”. Es importante destacar que
+pio y de terceros) y los cargos financieros a tener en cuenta. cualquier variación (en el precio de venta, en los costos varia-
+bles, que hagan variar el porcentaje de contribución marginal, o
+4.2. Análisis con el punto de equilibrio económico en la cifra de gastos fijos) en las variables involucradas, deter-
+El punto de equilibrio económico es aquel en el cual las ci- mina la necesidad de volver a determinar el punto de equilibrio.
+fras de ventas igualan a los gastos fijos más la porción de gas-
+El problema principal que existe para aplicar estos cálculos
+tos variables contenida en esas mismas ventas.
+está representado por las dificultades para separar adecuada-
+mente algunos costos (y gastos) fijos de los costos (y gastos)
+204
+205
+MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN. INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+• Ahora debemos convertir las ventas devengadas en ventas
+variables, sobre todo cuando la empresa opera con un número
+grande de productos. cobradas, a saber:
+La principal herramienta para poder hacer un trabajo más o Ventas:
+menos aceptable está constituida por un buen plan de cuentas Devengadas
+- Aumento saldos clientes
+y su correcta utilización al realizar las imputaciones.
++ Disminución saldos
+Existe un procedimiento matemático llamado de los míni- clientes
+Cobradas
+mos cuadrados, que pretende determinar sobre la base de cier-
+tos datos la cuantificación de los Gastos fijos y los variables. Só-
+Ahora estamos en condiciones de determinar la relación de
+lo puede emplearse en casos muy concretos y fundamental-
+gastos variables “pagados” sobre las ventas “cobradas”:
+mente para prospecciones.
+Más adelante veremos la determinación del punto de equili- Total gastos variables pagados x 100 = Gtos. variables s/ventas
+brio económico “múltiple”. Cuando la empresa trabaja con va-
+Ventas cobradas
+rios productos, puede también determinar, en función de la
+mezcla de sus ventas, la cantidad de unidades a vender de ca-
+da producto para cubrir la totalidad de sus costos.
+• De esta forma determinamos el punto de equilibrio financiero.
+El punto de equilibrio económico puede convertirse en el
+Veamos un ejemplo:
+punto de equilibrio financiero transformando las cifras de ven-
+tas, gastos y costos, de devengados en percibidos y pagados.
+Un sencillo ejemplo clarificará adecuadamente este tema: X = ventas cobradas = Gtos. fijos pagados + 50 % X
+X - 0,5 X = Gtos. fijos pagados = 200.000
+• Punto de equilibrio financiero
+0,50 X = Gtos. fijos pagados
+Ventas cobradas
+Debemos convertir los costos de ventas devengados en pa- X = Gtos. fijos pagados = 200.000 = 400.000
+gados, a saber: 0,50 0,50
+200.000 + 50% s/400.000 = 400.000
+Si hacemos el gráfico:
+207
+206 MARIO BIONDI ERREPAR
+
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+ESTADOS CONTABLES. PRESENTACIÓN. INTERPRETACIÓN Y ANÁLISIS
+A continuación veremos un caso de aplicación de análisis La relación de Costos variables sobre ventas (35/45) es del
+con el punto de equilibrio económico.
+78%.
+CASO DE APLICACIÓN
+Las Ventas en el punto de equilibrio serán iguales a:
+ANÁLISIS CON EL PUNTO DE EQUILIBRIO ECONÓMICO
+Ventas = Costos fijos + % Costos variables sobre ventas
+a) Producción de un solo producto
+X = 22.000 + 78 % . X
+Datos del planteo:
+ Costo de producción por unidad: X – 78 % = 22.000
+— Costo de la materia prima variable ...................................... $ 22
+— Costo de la mano de obra variable ...................................... $ 10 X . (1 – 0.78) = 22.000
+— Carga fabril variable (amortización del Activo fijo
+X = 22.000 = $ 100.000
+Industria en función de las unidades producidas,
+materiales directos, etc.) $ 3 0.22
+Total de costos variables por unidad .................................... $ 35
+Carga fabril fija:
+Las Ventas en el punto de equilibrio serán iguales a $ 100.000,
+— La capacidad de planta instalada por la empresa es para
+Producir 10.000 unidades $ 22.000 equivalentes a 2.222 unidades.
+ Producción de la empresa: 8.000 unidades.
+ Comprobación
+ Precio de venta por unidad: $ 45.
+Ventas……………………………………………………………..$ 100.000
+ El total de la producción es vendido.
+C. variables (78 % de 100.000………………………………..$ (78.000)
+ Determinar:
+1. Punto de equilibrio económico, sin tener en cuenta la capacidad de planta Contrib. Marg……………………………………………………..$ 22.000
+ociosa de la empresa. Luego volver a determinarlo, suponiendo una reducción C. fijos……………………………………………………………..$ (22.000)
+de gastos fijos en $ 4.400. Resultado………………………………………………………….$ 0
+2. Luego, disminuir proporcionalmente los Costos fijos, en función de la
+capacidad ¿Cuál seria el nuevo monto de ventas, si se disminuyen los Cos-
+de planta no utilizada, determinando la reducción proporcional que la empresa
+debería efectuar a sus ventas, para establecer el nuevo punto de equilibrio tos fijos en $ 4.400?
+económico. variables (78% de 100.000) ........................ $ 22 000
+Nuevo monto de Ventas = (22.000 – 4.400) = $ 80.000
+3. Luego, incrementar proporcionalmente los Costos fijos, en función de los
+0.22
+Costos fijos totales, determinando el incremento proporcional que la empresa
+.. ....... ..L..a...s.. .v..e...n..t.a...s.. .d...e..b..e...r.í.a...n.. .d...i.s..m....i.n..u..i.r.. . .(..1..0..0.... 0$0 00 – 80.000) = 20.000 = 20%
+debería efectuar a sus ventas, para establecer el nuevo punto de equilibrio
+100.000 100.000
+económico.
+Solución Modelo  Comprobación de la reducción de las Ventas en un 20%
+Alternativa(1)
+Las Ventas anteriores ............................................................... 100%
+No se considera la capacidad ociosa de la empresa en el
+Reducción operada ........................................ ………………..…20%
+prorrateo de los Gastos fijos (Capacidad ociosa instalada:
+10.000 unidades - Producción del período: 8.000 unidades - Nuevas Ventas ............ ………………………………………….80%
+Capacidad ociosa: 2.000 unidades). Ventas (80% de 100.000)…………………………………. $ 80.000
+C. variables (78 % s/80.000) .... ………………………….$ (62.400)
+…………………………………………………………….$ 17 600
+C. fijos……………………………………………………….$(17.600)
+Resultado………………………………………………….$ 0
+¿Cuál es el punto de equilibrio económico?
+ERREPAR 209
+208 MARIO BIONDI
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+Gráfico:
+¿A cuánto habría que aumentar las Ventas, si se incremen-
+taran los Costos fijos en $ 4.400?
+Alternativa (2):
+Se considera la capacidad ociosa como una pérdida, no in-
+tegrante del costo de producción.
+¿Cuál es el nuevo punto de equilibrio económico?
+La relación Costos variables sobre Ventas (35/45) es del 78%.
+Las Ventas en el punto de equilibrio serán iguales a:
+Ventas = Costos fijos + % Costos variables sobre ventas
+Las Ventas en el punto de equilibrio serán iguales a $ 80.000, b) Producción de varios productos
+equivalentes a 1.778 (80.000/45) unidades. Lo analizado hasta aquí con el punto de equilibrio económi-
+— Comprobación co es aplicable cuando la empresa fabrica un solo producto, pe-
+ro eso no es tan común. Lo habitual es que una empresa ela-
+Ventas ………………. $ (80.000)
+bore varios productos.
+C. variables ………$ (62.400) (78% de 80.000)))
+......................... En este caso, el problema radica en asignar a cada produc-
+Contrib. Marg……….. $ (17.600)
+C. fijos ………………. $(17.600) to la porción de costos fijos correspondiente para poder calcu-
+Resultado……………. lar el punto de equilibrio económico en forma individual.
+$ (0)
+210
+MARIO BIONDI ERREPAR
+
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+— Producto B - Participación en el monto de ventas (2.000 /
+A veces esta tarea se torna difícil. Si se cuenta con la infor-
+4.500 x 100), 44,44%.
+mación de los costos variables por tipo de producto, podremos
+La suma de ambas participaciones nos da el 100%.
+obtener sin problemas su relación con la cifra de ventas para
+Con este dato podemos “ponderar” la contribución de cada
+determinar la contribución marginal de cada producto. Pero el
+producto. Veamos un sencillo ejemplo:
+problema aparece (como dijimos anteriormente) cuando se
+Partiendo de la determinación de los productos A y B en el
+quieren distribuir los costos fijos entre todos los productos fabri-
+total de ventas de la empresa (“mezcla de ventas”), determina-
+cados por la empresa.
+remos el punto de equilibrio económico, sabiendo que:
+Si esto no puede hacerse, es conveniente trabajar con todos
+— Los costos variables del producto A son de$ 30 por unidad.
+los productos, y sacar un punto de equilibrio “global”, que luego
+permita determinar las unidades y en consecuencia la cifra de — Los costos variables del producto B son de$ 10 por unidad.
+ventas para cada tipo de producto, donde la empresa no gana
+— Los costos fijos totales suman $ 40.005.
+ni pierde (punto de equilibrio).
+La contribución marginal individual de cada producto (*), es
+Para conseguirlo, en lugar de trabajar con la contribución mar-
+igual a:
+ginal individual, necesitaremos ponderarla en función de la “mez-
+— Producto A (40 - 30), $ 10
+cla de ventas” de la empresa, es decir, en función de la participa-
+— Producto B (25 - 10), $ 15
+ción de cada producto en la cifra de ventas total de la empresa.
+Para determinar la contribución marginal relacionamos la
+Como los precios de venta de los distintos productos pue-
+contribución marginal individual (*), con la participación de cada
+den ser significativamente distintos, es conveniente determinar
+producto en la cifra de ventas de la empresa (**)
+la participación de cada producto en las ventas totales de la em-
+— Producto A: 10 x 55,56%, o lo que es lo mismo: 10 x 0,5556
+presa, en unidades.
+= 5,556
+Veamos un ejemplo:
+— Producto B: 15 x 44,44%, o lo que es lo mismo: 15 x 0,4444
+— Supongamos que la empresa fabrica dos productos:
+= 6,666
+- A, del cual vendió $100.000 (precio de venta $ 40), o
+sea 2.500 (100.000 / 40) unidades — La suma de ambas relaciones nos da la contribución mar-
+ginal ponderada (5,556 + 6,666), 12,222
+- B, del cual vendió $ 50.000 (precio de venta $ 25, o sea
+Ahora, sí estamos en condiciones de determinar el punto de
+2.000 (50.000 / 25) unidades
+equilibrio “global”:
+La participación de cada producto en la mezcla de ventas,
+— Relacionamos como en el caso de un solo producto, la cifra
+la obtenemos relacionando la venta en unidades individual, con
+de costos fijos con la contribución marginal “ponderada”
+el total de unidades vendidas.
+ahora: en nuestro ejemplo es la relación entre 40.005 /
+La empresa vendió un total de 4.500 (2.500 + 2.000) unida-
+12,222, lo que obtenemos a través de ese cociente son las
+des de los dos productos (A y B).
+unidades a vender de ambos productos en el punto de equi-
+Las respectivas participaciones (**), o “mezcla de ventas”,
+librio económico, donde la empresa cubre la totalidad de
+surge de la relación:
+sus costos, o sea, 3.273 unidades.
+ Producto A - Participación en el monto de ventas (2.500 /
+4.500 x 100), 55,56%.
+212
+MARIO BIONDI ERREPAR
+213
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+— Para saber cuánto tenemos que vender de cada producto Se trata de una empresa que vende 1.000.000 de unidades del producto
+aplicamos sobre el total de unidades a vender en el punto XX. El precio de venta es de $ 150 por unidad. Los costos variables repre-
+de equilibrio (3.273) la participación en la cifra de ventas de sentan el 70 % del precio de venta (105).
+cada producto: La capacidad de planta instalada es para producir 1.500.000 unidades.
+Sus costos fijos ascienden a $ 27.500.000.
+— Producto A = 3.273 x 55,56% = 1.818 unidades
+Su estado de resultados es:
+ Producto B = 3.273 x 44,44% = 1.455 unidades
+Si queremos comprobar el resultado, multiplicamos las uni- Ventas (1.000.000 x 150) 150.000.000
+dades por la contribución marginal individual, y la suma de am- Costos Variables (105.000.000)
+(70%)
+bas contribuciones debe ser igual a los costos fijos: Contribución Marginal 45.000.000
+Costos Fijos (27.500.000)
+— Producto A = 1.818 x 10 = 18.180 Resultado antes Imp. 17.500.000
+Impuestos a las Gcias. (6.125.000)
+— Producto B = 1.455 x 15 = 21.825 Resultado final 11.375.000
+Recibe un pedido de una empresa africana por 250.000 unidades, pero la
+— Contribución Marginal 40.005
+venta se concretará si le efectúan una quita en el precio de un 25%.
+— Menos costos fijos (40.005)
+El gerente de ventas quiere aceptar el pedido porque es una forma de ga
+nar el mercado africano. Pero el gerente de producción revisó los números y
+— Resultado 0
+de acuerdo al siguiente cálculo:
+Como vemos, esta sencilla aplicación le da a la empresa
+- Precio de venta (150 - 25 %) 112,50
+una herramienta utilísima para la toma de decisiones, aplicable
+- Costos de producción: 132,50
+también cuando produce más de un solo producto.
+- Costos variables 105,00
+- Costos fijos 27,50
+4.3. Análisis derivados de la contribución marginal. Algunas
+- Res
+(
+u
+2
+l
+7
+ta
+.5
+d
+0
+o
+0
+u
+.0
+n
+0
+it
+0
+a
+/
+r
+1
+io
+.0 00.000)
+20,00
+aplicaciones
+concluye que la operación dejaría pérdida a la empresa. No
+Conocer la contribución marginal es un dato importantísimo
+obstante, el gerente de finanzas se muestra entusiasta con la opera-
+para las empresas.
+ción y presenta la siguiente situación comparativa:
+Otro “dato” importante es conocer su estructura de costos fi-
+jos, y hasta dónde la empresa puede aumentar su producción,
+sin alterar sus costos fijos.
+A veces, para ganar un mercado, imponer un producto en
+una nueva zona, pueden “bonificarse” productos si le dejen a la
+empresa un pequeño margen de contribución, en tanto y en
+cuanto sus costos fijos estén cubiertos con la producción
+normal.
+Se lo conoce como “análisis de la contribución marginal”.
+Desarrollaremos una pequeña ilustración donde podemos
+ver la utilidad de ese análisis.
+214 MARIO BIONDI ERREPAR
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+El gerente de finanzas demuestra de esta forma la
+en lugar de una, tenemos dos relaciones. Por esa razón decía-
+conveniencia de aceptar el pedido, ya que cubre los costos
+mos al principio que era un desglose analítico.
+variables y toda la contribución marginal es ganancia (ya que los
+costos fijos estaban cubiertos con la producción anterior, y la
+nueva producción se podía cumplir sin alterar los costos fijos de
+producción, por tener la empresa capacidad ociosa). La empresa
+gana por aceptar el pedido 1.218.750 (12.593,750 – 11.375.000).
+A través de la relación incremental, o analizando el incremento
+de ventas con los costos variables hubiéramos llegado al mismo
+resultado (análisis de la “diferencia global”):
+Ventas (250.000 x 112,50) 28.125.000
+Costos Variables (250.000x -26.250.000 Un buen margen de rentabilidad sobre ventas es importan-
+105)
+Constribución Marginal 1.875.000 te, pero la cantidad de veces que el patrimonio neto rote en la
+Impuesto a las Ganancias -656.250
+cifra de ventas, será más importante aún. Cuanta más rotación
+Resultado final 1.218.750
+exista en el período, más veces la empresa “ganará” (o perde-
+rá... si la rentabilidad es negativa) el resultado sobre ventas,
+4.4. índice Du Pont
+mejorando la rentabilidad total (sobre el capital propio invertido).
+Es una forma muy sencilla de mejorar el análisis de la ren-
+tabilidad del capital de una empresa. A continuación, daremos un ejemplo sencillo donde puede
+verse claramente cómo la magnitud del capital, en su relación
+En efecto, la relación del beneficio (o la pérdida) con el capi- con las ventas y con el resultado neto, permite sacar conclusio-
+tal (Patrimonio neto) se puede expresar de la siguiente manera: nes, corregir políticas y, finalmente, señalar el camino adecua-
+do a seguir por la empresa.
+Resultado neto
+---------------------- x 100 = retomo sobre la inversión ILUSTRACIÓN PRÁCTICA:
+Patrimonio neto
+RENTABILIDAD DE LA INVERSIÓN TOTAL
+El índice Du Pont desglosa esa función incorporando la ci-
+fra de ventas. Para ello, parte de la base de que si en una frac- Fórmula Du Pont
+ción se multiplican el numerador y el denominador por una mis-
+ma cifra, el resultado final no se altera.
+Los resultados finales de ambas ecuaciones serán iguales.
+Sin embargo podemos sacar importantes conclusiones porque,
+MARIO BIONDI ERREPAR
+216 217
+
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+Se solicita:
+En el ejemplo que antecede hemos mantenido siempre
+Manteniendo inmutables el resultado y las ventas, aplique la
+iguales las cifras de utilidad y de ventas; en cambio, hemos au-
+fórmula Du Pont para analizar la rentabilidad de la inversión to-
+mentado la cifra de capital.
+tal, variando el capital propio invertido.
+Conclusiones:
+1. Con este índice Du Pont, la rentabilidad de la inversión to-
+tal depende de, por lo menos, tres variables:
+a) resultado neto,
+b) ventas netas,
+c) capital afectado a las operaciones de la empresa (capi-
+tal propio o patrimonio neto).
+2. A relación constante del margen de utilidad s/ventas, la ren-
+tabilidad de la inversión total se mejora en la medida en que
+el capital (inversión total) sea menor.
+3. Con menor inversión de capital y mejor relación de utilidad
+s/ventas se produce un efecto multiplicador positivo sobre
+la tasa porcentual de rentabilidad de la inversión total.
+4.5. Determinación gráfica del Resultado de tenencia sobre
+el inventario
+El Resultado por tenencia, como vimos anteriormente, sur-
+ge cuando la empresa utiliza valores corrientes en la valuación
+de sus bienes; consiste en la diferencia entre el Valor corriente
+utilizado y los Costos desembolsados, homogeneizados a mo-
+neda de cierre. Es útil determinar cómo juega este Resultado de
+tenencia o la evolución del índice específico de los inventarios
+por sobre la inflación. Esto le da a la empresa un análisis bási-
+co y sumamente sencillo para saber si está haciendo una bue-
+Explicación:
+na o una mala política con su stock.
+La rentabilidad sobre el capital puede establecerse directa-
+Por ejemplo, una empresa tiene stocks muy importantes de
+mente:
+bienes de cambio y por una causa equis sufre un congelamiento
+Resultado neto de sus precios de venta o ciertos controles (muy comunes en
+-------------------------------- x 100
+Patrimonio neto
+nuestro país, de tanto en tanto) que le impiden ajustar los precios.
+Podría ocurrir que, en algunos períodos, la inflación supere los
+Pero si introducimos el factor cifra de ventas, el análisis se
+aumentos acordados, o si en el período no hubo incrementos de
+descompone y permite la individualización de las causas:
+precios, toda la diferencia con respecto a la inflación constituirá
+Causa (1): Margen de utilidad s/ventas.
+Causa (2): Rotación del capital en relación con las ventas.
+218 MARIO BIONDI ERREPAR 219
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+para la empresa una pérdida. Si la empresa puede manejar sus
+El análisis realizado es mucho más sencillo y más rápido de
+stocks, se corrige inmediatamente reduciendo las compras de
+confeccionar, si trabajamos con variaciones porcentuales. El eje
+los
+de las “y” mide cambios en las variables consideradas: nivel de
+mismos. Pero en otras empresas, por una mala política o por un
+stock (aumentos o disminuciones con respecto al período ante-
+mal desenvolvimiento, puede darse el caso de stocks muy abul-
+rior), evolución de los precios de reposición (con respecto al mes
+tados, de los que no puede desprenderse fácilmente.
+anterior, aumento o disminución) y la evolución de la inflación en
+El siguiente ejemplo trata el caso de una empresa que era
+cada período considerado. En el eje de las “x” se marcan los me-
+muy lucrativa y que de pronto comenzó a tener malos resulta-
+ses. Insistimos, que el eje de las “y” marca variaciones porcen-
+dos. Analizando lo que pasaba con su stock de bienes de cam-
+tuales de cada una de las variables. Así vemos que en el primer
+bio, el comportamiento de sus precios en el mercado y la infla-
+mes, la empresa tenía un importante nivel de stock; el aumento
+ción fue posible detectar la falla.
+de precios otorgado (tenía control de precios) fue inferior a la in-
+En el siguiente gráfico se ve claramente:
+flación del período; la empresa perdió luego la diferencia (Re-
+sultado por tenencia negativo), y este hecho se agravó por ha-
+ber comprado tanto stock en el mes (efecto multiplicador).
+El mes siguiente, el incremento de precios no cubrió tampo-
+co la inflación; esta fue muy alta, y esta empresa, al no tener
+ningún análisis hecho, siguió comprando stocks de Bienes de
+cambio, con lo cual siguió agravando su situación e incrementó
+sus Resultados negativos por tenencia.
+En el quinto mes se nota que los precios específicos (valo-
+res de reposición) aumentaron más que la inflación, con lo cual
+la empresa tuvo Resultados por tenencia positivos en ese mes,
+pero en ese momento redujeron el stock, con lo cual seguían
+aplicando una mala política de stocks.
+Este sencillo análisis nos permite comprobar en forma muy
+práctica y clara para el empresario si la política seguida con el
+stock es buena o mala.
+En el análisis siguiente, determinamos el costo de oportuni-
+dad de la decisión tomada por la empresa:
+El gráfico está hecho en escala aritmética: las variaciones
+son porcentajes de cada variable, con relación al mes anterior.
+220 MARIO BIONDI ERREPAR 221
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS
+CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+La empresa analizada en el ejemplo anterior tenía su princi- 4.6. Exposición no convencional del Estado de resultados
+pal pérdida (por tenencia) derivada de una mala política de Aquí presentamos una forma no convencional del Estado de
+stocks; si hubiera hecho antes el análisis descripto, segura- resultados, pero que, a los efectos del análisis, es muy útil.
+mente hubiera invertido el valor de su stock de Bienes de cam- Veremos tres conceptos: Resultado de intercambio, Resul-
+bio o en otra alternativa rentable. tados financieros y otros resultados.
+Veamos un ejemplo: Al resultado final le asignamos el valor base, 100, porque es
+CASO DE APLICACIÓN interesante saber cómo contribuyeron a la formación de ese re-
+• Sobre la base de la siguiente referencia, confeccionar el grá- sultado cada uno de los sectores marcados anteriormente.
+fico de análisis de Resultados de tenencia sobre activos: Partimos del precio de venta, al cual le restamos el costo de
+reposición; luego le quitamos los Gastos directos de venta (im-
+puestos directos, comisiones) y eso nos da el Resultado de in-
+DATOS tercambio neto.
+A los resultados financieros los clasificamos en tres tipos: re-
+sultados de tenencia, REI, y otros resultados financieros. Tam-
+bién es importante señalar qué tipos de bienes lo generan, si ac-
+tivos o pasivos.
+El resultado por tenencia, que es la diferencia entre el valor
+corriente y el costo ajustado, lo exponemos separando el reali-
+zado (proveniente de bienes que se han vendido en el ejercicio)
+y el no realizado (proveniente de bienes que todavía permane-
+cen en el patrimonio de la empresa).
+El Resultado por exposición a la inflación lo separamos en-
+tre aquel producido por rubros monetarios activos, del produci-
+do por rubros monetarios pasivos.
+Lo mismo hacemos con los otros resultados financieros (in-
+tereses, actualizaciones, etc.), separados según cuáles provie-
+nen de rubros activos y cuáles, de rubros pasivos.
+Luego restamos (o sumamos) otros resultados, dados por
+los Gastos de administración, Otros ingresos y egresos, etc. Y
+así llegamos a un subtotal, al cual le restamos o sumamos, si
+hubiera, Resultados extraordinarios, y volvemos a determinar
+otro subtotal. Luego restamos el efecto del impuesto a las ga-
+nancias. El efecto del impuesto a las ganancias debería des-
+glosarse en cuánto es lo que les corresponde a los Resultados
+ordinarios y cuánto a los Resultados extraordinarios.
+ERREPAR 223
+222 MARIO BIONDI
+
+ESTADOS CONTABLES. PRESENTACIÓN, INTERPRETACIÓN Y ANÁLISIS CAPÍTULO 5: TIPOS DE ANÁLISIS CON ESTADOS CONTABLES
+Esta forma de presentar el resultado del ejercicio es mucho $ %
+más práctica y útil para tomar decisiones que la forma conven-
+3. Otros resultados (3.550) (26,66)
+cional a la que estamos acostumbrados.
+Cabe recordar que, naturalmente, este tipo de exposición es • Egresos (3.550)
+RESULTADOS ORDINARIOS 11.395 85,61
+para análisis internos y no pretende reemplazar las formas co-
+4. Resultados extraordinarios (ingresos) 2.300 17,27
+rrientes de exposición; por ejemplo, los modelos que surjan de
+las Resoluciones 8 y 9 de la Federación Argentina de Consejos
+Subtotal 13.695 102,88
+Profesionales en Ciencias. Cada uno de ellos cumple sus fines
+5. Impuesto a las ganancias (384) 2,88
+y es útil en la medida de su esfera de acción.
+La presentación propuesta del esquema de resultados sería: Resultado final 13.311 100,00
+ANÁLISIS DE LOS RESULTADOS
+(1) Se determina sobre rubros monetarios activos.
+$ % (2) Se determina sobre rubros monetarios pasivos.
+1. Resultado de intercambio neto 10.336 77,65
+• Precio de venta - Costo de
+13.186
+reposición
+(2.850)
+(-) Gastos directos de venta
+2. Resultados financieros 4.609 34,62
+2.1. Resultados de tenencia 2.740 20,58
+• Costo reposición - Costo hist.
+ajust.
+— Realizados (s/Bs. cbio.
+vendidos) (8.040)
+— No realizados (s/Bs.
+cbio.
+5.300
+en exist.)
+167 1,25
+2.2. Resultado por exposición a la infl.
+• Costo histórico ajust. - C. hist.
+— Generado por Activos (1) (16.329)
+— Generado por Pasivos (2) 16.496
+2.3. Otros resultados financieros
+• Intereses devengados,
+cobrados, pagado 1.702 12,79
+— Generados por Activos 1.920
+— Generados por Pasivos (218)
+MARIO BIONDI ERREPAR 225
+224

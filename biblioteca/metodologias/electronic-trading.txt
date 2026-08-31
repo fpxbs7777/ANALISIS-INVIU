@@ -1,0 +1,771 @@
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Electronic Trading
+Mauricio LABADIE
+PhD - Quantitative Researcher
+February13,2014
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Outline
+1 Electronicmarkets
+2 Simpletradingalgorithms
+3 Complextradingalgorithms
+4 Casestudies: whenalgosgowild
+5 Conclusions
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+1 Electronicmarkets
+2 Simpletradingalgorithms
+3 Complextradingalgorithms
+4 Casestudies: whenalgosgowild
+5 Conclusions
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Self-organised liquidity
+Fromonetomanydealers
+InthemodelsofKyleandGlosten-Milgromwestudiedmarketswith:
+(cid:63) Severalinformedtraders.
+(cid:63) Severalnon-informedtraders.
+(cid:63) Onlyonedealer.
+Butinelectronicmarketswehaveadifferentconfiguration:
+(cid:63) Severalliquidityproviders: traderswithLimitOrders(LOs).
+(cid:63) Severalliquidityconsumers: traderswithMarketOrders(MOs).
+(cid:63) Atradercanchangefromprovidertoconsumerandvice-versa.
+(cid:63) Nodedicateddealers.
+Howdoelectronicmarketsworkwithoutdealers?
+Itistheaggregateofliquidityprovidersthatmakesthemarket.
+Butprovidersarenotinobligationtoplacebothaskandbidquotes.
+⇒ Self-organisedliquidity: anytradercanchoose,atanyinstantoftime,toeither
+provideorconsumeliquidity.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Limit Order Books (LOB) I
+LimitOrders(LO)
+Whenadealeroffersliquidity,shemakesquotes:
+(cid:63) Apricee.g. 14.07EUR.
+(cid:63) Aquantitye.g. 1789shares.
+(cid:63) Asidei.e. whethershebuysorsells.
+Inelectronicmarkets,aquoteofaliquidityprovideriscalledalimitorder.
+LOscanbemodifiedorcancelledatanytime.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Limit Order Books (LOB) II
+DescriptionoftheLOB
+ALOBisthecurrentliquidityofferofthemarketateverypricelevel.
+⇒ TheLOBistheaggregateofallLOs.
+ALOBhas2sides:
+(cid:63) Bidside: Pricesatwhichthemarketbuys.
+(cid:63) Askside: Pricesatwhichthemarketsells.
+Inelectronicmarkets,“dealers”areanonymousandreal-timedataisaggregated:
+(cid:63) Allyouseearethetotalvolumesateveryprice.
+(cid:63) ButyoudonotknowhowmanyshareseachtraderinsertedintheLOB.
+Forregulation,stockmarketshavetheIDofeverytraderandeveryorder.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Limit Order Books (LOB) III
+MicrostructureoftheLOB
+Priority: Mostcommonisprice/timepriority.
+(cid:63) Pricepriority: LOsatthebestpriceareselectedfirst.
+(cid:63) Timepriority: Withinthebestpricelevel,theoldestLOsareselectedfirst.
+Tick: ThesmallestpriceincrementintheLO⇒realpricesarediscrete.
+(cid:63) IntheUS,theticksizeforstocksisalways0.01USD.
+(cid:63) InEurope,theticksizevariese.g. 0.01EURforpricesin[50,99.99]and
+0.05EURforpricesabove100.00EUR.
+Spread: Thedifferencebetweenthebestaskpriceandthebestbidprice.
+(cid:63) Itisthepriceofliquidityi.e. theexpectedgainofadealer.
+(cid:63) Itisameasureofliquidity: themoreliquidthemarket,thesmallerthe
+spread.
+(cid:63) Highlyliquidmarkets⇒spread=1tick.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Limit Order Books (LOB) IV
+Waitaminute,pricesareDISCRETE?
+DoIhavetode-learnallmycoursesandre-learneverything?
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Limit Order Books (LOB) V
+SketchofaLOB.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Limit Order Books (LOB) VI
+Left: LOBforSpyder(ETFforS&P500). Right: LOBforBankofAmerica.
+Source: http://www.batstrading.com
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Limit Order Books (LOB) VII
+MarketOrders(MO)
+Whenyousendabuymarketorder:
+(cid:63) Youbuyatthebestsellingmarketprice,i.e. thesmallestavailable.
+⇒ Yourorderhitstheaskside: buyMO↔sellLO.
+Whenyousendasellmarketorder:
+(cid:63) Youbuyatthebestsellingmarketprice,i.e. thebiggestavailable.
+⇒ Yourorderhitsthebuyside: sellMO↔buyLO.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Inserting LOs in the LOB I
+IncomingLOs: requesttobeinsertedintheLOB.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Inserting LOs in the LOB II
+ThenewlyinsertedLOsarelastintimepriority.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Matching MOs vs LOs in the LOB I
+IncomingMOs: tradingrequestatbestmarketprices.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Matching MOs vs LOs in the LOB II
+MOsarematchedwithLOsofhighestpriorityprice/time.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Matching MOs vs LOs in the LOB III
+MOsconsumesomeoftheliquidityatthefirstlimits.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Matching MOs vs LOs in the LOB IV
+LOBaftertrades.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Matching MOs vs LOs in the LOB V
+MOsvsLOs
+IfyoutradeviaLO:
+(cid:63) Youhaveabetterprice: youearnthespread.
+(cid:63) Butdelayedanduncertainexecution: yourLOsitspassivelyontheLOB,
+waitingtobematchedwithaMO.
+⇒ Marketriskandexecutionrisk.
+IfyoutradeviaMO:
+(cid:63) Youhaveaworseprice: youpaythespread.
+(cid:63) Butimmediateandcertainexecution: yourMOhitstheLOBandis
+matchedvstheLOsatthebestoppositeprice.
+⇒ Nomarketriskandnoexecutionrisk.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Data flow in real time
+LOBforLSE.Lwithtick-by-tickdataatthemillisecondscale.
+Source: http://www.liquidmetrix.com
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+1 Electronicmarkets
+2 Simpletradingalgorithms
+3 Complextradingalgorithms
+4 Casestudies: whenalgosgowild
+5 Conclusions
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Market-to-Limit
+Market-to-Limit(MtoL)
+WesendabuyingLOatapricethatcrossesthespreade.g. thebestask.
+⇒ WehittheaskoftheLOB,asinatraditionalbuyMO.
+Weconsumealltheliquidityavailableatthebestask.
+Allnon-executedshareswillremainasabuyLO.
+⇒ Ourremainingsharesattheoldbestaskbecomethenewbestbid.
+Beware: riskofincompleteexecution.
+WecanspecifyalimitpricethatconsumesseverallevelsoftheLOB.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Fill and/or Kill
+Immediate-or-Cancel(IoC)orFill-and-Kill(FaK)
+WesendaMtoLorder.
+Weconsumealltheliquidityavailableuptothespecifiedprice.
+Allnon-executedshareswillbeimmediatelycancelled.
+Beware: riskofincompleteexecution.
+Fill-or-Kill(FoK)
+WesendaMtoLorder.
+Wewaitforaconfirmationthatourordercanbefullyexecuted.
+(cid:63) Iftheordercanbefullyexecuted⇒OK.
+(cid:63) Iftheordercannotbefullyexecuted⇒wecanceltheorder.
+⇒ FoK=FaK+100%executionguarantee.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Peg Order
+Pegorder
+ItisaLOthatalwayshaspricepriority.
+WesendabuyLOatthebestbidb0.
+SupposesomeonesendsaLOandimprovesthebestbid,saytob0+δ:
+(cid:63) Wehavejustlostthepricepriority.
+(cid:63) Torecoverit,wecancelourbuyLOatb0 andsendanewbuyLOatb0+δ.
+Werepeattheprocessuntilfullexecution.
+Beware: riskofincompleteexecution.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Iceberg
+Icebergorder
+Anicebergorderof(say)500sharesconsistsoftwoparts:
+(cid:63) Avisiblepartof(say)100shares.
+(cid:63) Ahiddenpartof(say)400shares.
+WeplacethevisiblepartintheLOBviaLOatpricep0.
+Whenthevisiblepartisexecuted,wesendasecondLOof100sharesatp0.
+WhenthesecondLOisexecuted,wesendathirdLOof100sharesatp0.
+Werepeattheiceberggameuntilfullexecution:
+(cid:63) Inourexample,untilthefifthLOof100sharesatp0 isexecuted.
+Beware: riskofincompleteexecution.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Sketch pad for simple algos
+MtoL,FaK,FoK,Peg,Iceberg.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Stop-Loss and Take-Profit I
+Stop-Loss
+Itisthemostbasicalgorithmforriskmanagementofaposition:
+Webuildupourlongposition.
+Wesetamaximallossforourportfolio.
+⇒ Setaminimalpriceorlowerboundforourportfolio.
+Portfoliovaluehitslowerbound⇒wegetoutoftheposition: weselleverything.
+Take-Profit
+Itisthesecondmostbasicalgorithmforriskmanagementofaposition:
+Webuildupourlongposition.
+Wesetamaximalgainforourportfolio.
+⇒ Setamaximalpriceorupperboundforourportfolio.
+Portfoliovaluehitsupperbound⇒wegetoutoftheposition.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Stop-Loss and Take-Profit II
+SketchofStop-LossandTake-Profit.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+1 Electronicmarkets
+2 Simpletradingalgorithms
+3 Complextradingalgorithms
+4 Casestudies: whenalgosgowild
+5 Conclusions
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Order slicing
+Whattodowhenmyorderistoobig?
+Saywewishtoclearaportfolioof1%oftotalmarketcapofAXA:
+(cid:63) But0.1–1%isthedailyturnoverforhighlyliquidstocks.
+⇒ Impossibletodumpthatquantitydirectlyonthemarket.
+Therearetwowaysofdealingwiththat:
+(cid:63) Blockorder: wefindacounterpartyviaabrokertocleartheportfolio.
+(cid:63) Sliceanddice: wecuttheoriginalorderintoseveralchildorders,andsend
+themonebyone.
+Thereareprosandconsforeachstrategy:
+(cid:63) Withblockordersyourbrokerworksforyou,butyouarerevealing
+information: ex-antetothebroker,ex-posttothemarket.
+(cid:63) Withsliceanddiceyouarehidingyourinformationfromthemarket,butyou
+havetodothetradesyourself.
+⇒ Algorithmictradingandoptimalexecution: whatisthebestwaytosliceanddice?
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Time-Weighted Average Price (TWAP) I
+Definitionofthealgorithm
+Supposewewanttobuy20,000sharesofCActuariainEurope,from09:00to17:30.
+Wechoosehowmanyorderswewanttosend,sayoneevery10minutes.
+⇒ Wedividethetimeperiodfrom09:00to17:30into52smallperiodsof10
+minuteseach.
+Every10minuteswesendanordertobuy20,000/52∼385shares.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Time-Weighted Average Price (TWAP) II
+TWAP.Executionisconstantthroughoutthewholeday.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Time-Weighted Average Price (TWAP) III
+Propertiesofthealgorithm
+TheTWAPisextremelypredictable: sameorder(buy385shares)periodically
+senttothemarket(every10minutes).
+Toavoidbeingdetectedbythemarket,onecanaddsomerandomness:
+(cid:63) Randomnumberofsharesineverytrade: 385±εshares.
+(cid:63) Eachofthe52timeperiodsofrandomtimelength: 10±τ minutes.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Percentage of Volume (PoV) I
+Definitionofthealgorithm
+Supposewewanttobuy20,000sharesofCActuariainEurope,startingat09:00.
+Wecomputetheintradayvolumecurve:
+(cid:63) Foreachdaywecomputethenumberoftradedsharesevery10minutes
+from09:00to17:30⇒52periods.
+(cid:63) Wecomputetheaverageoneachperiodforthelastmonth.
+Wesetamarketshare,i.e. thepercentageofthewholemarketvolumewewill
+tradeevery10minutes. Letussupposethisis50%.
+Wetrade50%ofthe(historical)averagevolumeevery10minutes.
+Thefinaltimeofthealgorithmisnotdefinedapriori: itispartofthesolution.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Percentage of Volume (PoV) II
+PoVwithmarketshareat50%. Theendingtime15:30ispartofthesolution.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Percentage of Volume (PoV) III
+Propertiesofthealgorithm
+ThePoVislesspredictablethantheTWAP.
+Itisextremelydependentontheintradayvolumecurve:
+(cid:63) Robuststatisticalmeasuresareneeded.
+Itisastaticalgorithm: thenumberofsharestotradeissetbeforetheexecution
+anddoesnotchange.
+Toaddsomedynamicadaptation,addpricetargetsandflexiblemarketshares:
+(cid:63) Arangeofmarketshare50±ε%.
+(cid:63) Apricerangep0±x EUR.
+(cid:63) Adynamicintensity: more(less)participationatlow(high)prices.
+Example: supposeCActuariaopenedthedayat100EUR.
+(cid:63) Ifp∈[98,102]⇒50%participation.
+(cid:63) Ifp<98⇒75%participation.
+(cid:63) Ifp>102⇒25%participation.
+Beware: thedynamicPoVhasariskofincompleteexecution.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Volume-Weighted Average Price (VWAP) I
+Definitionofthealgorithm
+Supposewewanttobuy20,000sharesofCActuariainEurope,from09:00to17:30.
+Wecomputetheintradayvolumecurveevery10minutes:
+(V1,V2,...,V
+N
+), N=52.
+Wecomputetheweightsateveryperiodn:
+wn:=
+(cid:80)N
+n
+V
+=
+n
+1
+Vn
+, n=1,...,N, (cid:88)
+n
+N
+=1
+wn=1.
+Wedefinethenumberofsharestobuyateveryperiodnas:
+vn:=20,000×wn, n=1,...,N.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Volume-Weighted Average Price (VWAP) II
+VWAP.Executionfollowsthehistorical(average)volumecurve.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Volume-Weighted Average Price (VWAP) III
+Propertiesofthealgorithm
+TheVWAPsharessomeofthepropertiesofthePoV:
+ItislesspredictablethantheTWAP.
+Itisextremelydependentontheintradayvolumecurve.
+Itisastaticalgorithm.
+Itcanbemoredynamicwithpricetargets.
+ThedynamicVWAPhasariskofincompleteexecution.
+However,itismoreflexiblethanPoV:
+ThefinaltimeN oftheexecutionisaparameterwecanplaywith.
+DifferentN⇒differenttradingpattern.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+1 Electronicmarkets
+2 Simpletradingalgorithms
+3 Complextradingalgorithms
+4 Casestudies: whenalgosgowild
+5 Conclusions
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Flash Crash: May 6, 2010 I
+FastandFurious: Preface
+TheFlashCrashlastedonly36minutes,butiterased862bnUSDofmarket
+capitalisation.
+TheDowJoneslostalmost1000points(9%)butminuteslateritrecovered.
+TheerrorwastriggeredbyanexecutionalgorithmX ofa(traditional)fund. X
+activatedahugesellorder: 75,000futures,aprox. 4.1bnUSD.
+TheassetwastheE-Mini,aS&P500futureissuedbytheChicagoMercantile
+Exchange(CME).
+X wasofPoVtype,i.e. percentage-of-volume: itsendsanorderof9%ofthe
+totaltradedvolumeofthelastminute.
+⇒ Nocontrolonprice,timeormarketimpact.
+Normally,anintradayexecutionofthissizetakesatleast5hourstobefilled.
+ButX executeditinonly19minutes⇒15timesfaster.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Flash Crash: May 6, 2010 II
+FastandFurious: Exposition
+At2:32pmthefirstsellchildorderofX hitthemarket.
+X consumedthemarketliquidityatafastrate⇒HFTsand(cross-market)
+arbitrageursspotteditandstartedtooffermoreliquidity.
+ButthemoreliquiditythemarketofferedtoX,themoreX acceleratedits
+execution: PoValgowithoutuppercap.
+Themarketliquidityatthebidwasnotenoughtocounterthesellingpressureof
+X.
+Between2:41pmand2:44pm,allHFTscapitulated: theysoldaggressively2,000
+E-MinicontractstoreducetheinventoriestheybuiltupbybuyingtoX.
+⇒ HFTsnotonlystoppedprovidingliquidity,theystartedtoconsumeit.
+⇒ Chainreaction: themarketliquidityatthebiddisappeared,hencepriceswent
+intoafreefall.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Flash Crash: May 6, 2010 III
+FastandFurious: Complication
+Between2:32pmand2:45pm(13minutes),withpricesfallingdown,X sold
+35,000E-Minicontracts(1.9bnUSD)outofitstotalof75,000.
+Duringthisperiodtherewere80,000contractssoldvs50,000contractsbought,
+i.e. anetbalanceof−30,000tradedcontracts.
+Comparingwiththeformerthreedaysoftrading: 15timesmoresellvolumeand
+10timesmorebuyvolume.
+At2:45:28pmtradingintheE-Miniwassuspendedfor5seconds: theCMEStop
+LogicFunctionalitytriggeredautomaticallytostoppricesfromfurtherloss.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Flash Crash: May 6, 2010 IV
+FastandFurious: Resolution
+Afterthepause,animportantflowofbuyordersappeared: opportunisticand
+fundamentalbuyers.
+Thesebuyordersnotonlyneutralisedthefallinprices,theyevencountered
+them: pricesstartedtoclimb.
+Butatleasthalfofthemarketparticipantshadleft.
+Between2:45pmand3:08pm(23minutes)morethan110,000contractswere
+soldandmorethan110,000contratswerebought,butthenetbalancewaszero.
+At3:08pm,36minutesafterthealgoX enteredthemarket,theinterventionof
+opportunisticandfundamentalbuyerspushedpricesbacktotheirpre-crashlevels.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Flash Crash: May 6, 2010 V
+Source: SEC.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Knight Capital: August 1, 2012 I
+Knight-mare: Preface
+KnightCapitalwasoneofthebiggestretailmarket-makersintheUS:10%ofall
+tradingactivity.
+Abuginthemarket-makingsoftwaretriggeredwrongtradingorders.
+Theerroronlylasted45minutes,butitcostKnight400MUSD:almostalossof
+9MUSDperminute.
+Intheend,Knightwasbailedoutbytheprivatesectorwithoutanyintervention
+ofthegovernment.
+⇒ DamagewasreputationforKnightandmoneyofshareholders,butzerosystemic
+risk.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Knight Capital: August 1, 2012 II
+Knight-mare: Exposition
+OnWednesdayAugust1,2012anewmarket-makingregulationintheNYSE
+startedtoapply.
+Knightlaunchedanewsoftwaretocomplywiththenewregulation.
+Butthenewsoftwareawokeazombie: anold,forgottensoftware.
+Thezombiesentmarketordersinsteadoflimitorders.
+⇒ Knightconsumedliquidityinsteadofprividingit,payingthespreadoneachtrade.
+TheHFTsspottedtheglitchandstartedtosellliquiditytoKnight.
+Thebugtook45minutestobespottedandcorrected,aneternityinHFT
+timescales.
+“Itwasaslow,painful,15-cents-at-a-timedeathbysmallcuts,onlyitwas
+happeningeveryfractionofasecondbecausecomputersarefast.”
+ManojNarang,CEOdeTradeworxInc.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Knight Capital: August 1, 2012 III
+Knight-mare: Complication
+DuringtheFlashCrash,market-makersrefusedtoprovideliquidity: notclear
+whichtradeswouldbecancelledandwhichwouldnot.
+Intheend,USstockmarketsandtheFinancialIndustryRegulatoryAuthority
+cancelled5.6Mtrades.
+Thisupsetinvestors,whodemandedtransparencyandnewrules.
+⇒ Newregulationtoinvalidateelectronictrades:
+(cid:63) Forasingleinstrument,swingsbiggerthan10%.
+(cid:63) For20ormoreinstruments,swingsbiggerthan30%ofthewholeportfolio.
+KnightaskedtheNYSEthateachoneofits140tradedinstrumentswouldbe
+consideredindividually,buttheNYSEsaidno.
+⇒ Only6outof140instrumentshaditstradesinvalidated.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Knight Capital: August 1, 2012 IV
+Knight-mare: Resolution
+OnFridayAugust3,GoldmanSachsofferedKnightacreditlinetosurvivethe
+weekend.
+OnMondayAugust6,severalfirmspaidKnight400MUSDforpreferential
+convertiblestocks(73%ofKnight’smarketcap):
+(cid:63) Getco(HFTandelectronicmarket-maker).
+(cid:63) BlackstoneGroup(hedgefund).
+(cid:63) StifelNicolaus&Co. (broker).
+(cid:63) TDAmeritradeHoldingCorp. (broker).
+(cid:63) StephensInc. (investmentbank).
+(cid:63) Jefferies(investmentbank).
+TheglitchcosttheoriginalshareholdersofKnightalossof69%.
+Butitdidnotcostacenttothetaxpayers.
+⇒ Intruecapitalism:
+(cid:63) High-risk ⇐⇒ high-reward.
+(cid:63) Investorsareresponsible: theyacceptprofitsANDlosses.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+1 Electronicmarkets
+2 Simpletradingalgorithms
+3 Complextradingalgorithms
+4 Casestudies: whenalgosgowild
+5 Conclusions
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+Final comments
+Summaryofthispresentation
+Weexplainedindetailhowelectronicmarketswork: LOBs,LOs,MOs.
+Wesawsimpletradingalgorithms: FoK,Peg,Iceberg,MtoL,Stop-Loss,
+Take-Profit.
+Wereviewedseveralcomplexalgosforoptimalexecution: TWAP,PoV,VWAP.
+Wedissectedwhathappenedintwo(in)famouscasestudiesofalgotradinggoing
+wrong: FlashCrashandKnightCapital.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+References
+Books
+LawrenceHarris(2002)Tradingandexchanges. OxfordUniversityPress.
+BarryJohnson(2010)AlgorithmictradingandDMA.4MyelomaPress.
+Articles
+Jean-PhilippeBouchaud,DoyneFarmer,FabrizioLillo(2008)Howmarketsslowly
+digestchangesinsupplyanddemand. PreprintArXiv.
+KhalilDayri,MathieuRosenbaum(2012)Largetickassets: implicitspreadand
+optimalticksize. PreprintArXiv.
+SEC(2010). FindingsregardingthemarketeventsofMay6,2010. Official
+report.
+MauricioLABADIE ElectronicTrading
+
+Electronicmarkets
+Simpletradingalgorithms
+Complextradingalgorithms
+Casestudies:whenalgosgowild
+Conclusions
+THANKYOUFORYOURATTENTION
+Source: newheightsabq.org,ayceblog.blogspot.com
+MauricioLABADIE ElectronicTrading

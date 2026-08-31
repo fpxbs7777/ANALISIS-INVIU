@@ -1,0 +1,658 @@
+Decisiones
+Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 33
+LA ADMINISTRACIÓN DEL EFECTIVO
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Analizar la evolución de la tradicional administración del capital de trabajo a las modernas finanzas de
+corto plazo.
+(cid:1) Analizar las motivaciones por las cuales una empresa puede requerir mantener saldos en caja.
+(cid:1) Exponer los grandes aspectos de la administración de la caja a la luz de los objetivos que persigue.
+(cid:1) Analizar la determinación de las reservas de caja de la empresa en una visión global y, en particular,
+cuáles son algunos de los principales modelos desarrollados a estos efectos.
+(cid:1) Analizar la inversión de los saldos ociosos de caja.
+33,1. DE LA ADMINISTRACIÓN DEL CAPITAL DE TRABAJO A LA MODERNA
+ADMINISTRACIÓN DE LAS FINANZAS DE CORTO PLAZO
+Durante muchos años la administración del capital de trabajo, definido este último como activos
+comentes menos pasivos corrientes, consistió en un análisis que se caracterizo por:
+a) Segmentación: analizaba independientemente los distintos integrantes del activo y del pasivo corrientes.
+Esto es, las inversiones caja, inventarios, etc., eran tratadas sin mayor vinculación entre ellas.
+Un ejemplo de esto eran las partes que debía abordar la administración del capital de trabajo. Ellas
+eran básicamente dos:
+1. Administración de los activos corrientes que, a su vez, involucraba, por una parte, el nivel total de
+activos corrientes a mantener, que era resuelta a través de una relación de riesgos y rendimientos. A
+mayor nivel de activos corrientes, menor riesgo se asume, pero también los rendimientos son
+menores. Por otra parte, una vez definido el nivel global de los activos corrientes, se ingresaba,
+seguidamente, al estudio de cada uno de ellos.
+2. Una vez definidos los activos corrientes, su nivel y composición, se ingresaba al segundo aspecto,
+esto es, qué parte se financiaba con fuentes de corto plazo y qué parte con fuentes de mediano y
+largo plazo, en una aproximación de lo que, como modelo general de financiamiento de la empresa,
+se trató en el cap. 20, aunque en otro contexto.
+b) Estática: se abordaban los distintos temas con un sentido estático o, a veces, de estática comparada. No
+se ingresaba a una visión evolutiva dinámica del capital de trabajo.
+c) Variables de stock: la administración del capital de trabajo estaba concentrada en los niveles del stock de
+cada uno de sus integrantes, con un énfasis contable y concretamente orientado hacia la observancia del
+estado de situación patrimonial en los componentes del capital de trabajo.
+d) En ese contexto, el tratamiento del capital de trabajo no se incorporó a un cuerpo sistematizado de teoría
+financiera.
+La insuficiencia que encontraba el tratamiento de la administración del capital de trabajo en su
+versión tradicional, para la administración financiera profesional, creó la necesidad de redefinirlo.
+De esta forma, se pasó a lo que hoy se conoce como la administración de las finanzas de corto
+plazo.
+Por el contrario, ésta dejó de ser estrecha y segmentada para tener una visión más amplia y en el
+campo de la paraclínica financiera, abarcando no sólo el estado de situación patrimonial, sino un conjunto de
+instrumentos que se exponen en la fig. 33,1 donde se muestra la situación en tres dimensiones: el tiempo, la
+complejidad y la incertidumbre.
+En términos generales, pueden destacarse como algunos elementos determinantes del nuevo enfoque:
+2
+
+Figura 33,1. Finanzas de corto plazo, Estado del conocimiento1.
+a) Esta nueva visión ya no es estática, sino dinámica, focalizando la evolución temporal de las variables de
+la empresa en los distintos aspectos que involucran.
+b) No sólo mira las variables de stock, sino que esencialmente trabaja con los flujos de caja.
+c) Finalmente, es preciso señalar que está inserta en el contexto de la moderna teoría financiera, delimitada
+por algunos pilares básicos, corno la teoría del riesgo (portafolio y mercado de capitales), de los
+mercados eficientes, del precio de opciones, del valor presente neto y de la teoría de la agencia.
+En este texto, pues, las referencias a los activos corrientes se enmarcan en este concepto de la
+administración de las finanzas de corto plazo. En esa línea es que se ha dedicado un capítulo al tema de la
+liquidez (cap. 32), así como el cap. 31 versa sobre algoritmos de diagnóstico financiero y también el presente
+capítulo y el siguiente.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+Elementos caracterizadores del enfoque tradicional de la administración del capital de trabajo y
+elementos caracterizadores de la moderna aproximación de la administración de las finanzas de corto plazo.
+33,2 RAZONES PARA MANTENER CAJA
+La decisión de mantener determinado nivel de activos líquidos, como cualquier otra asignación de
+fondos dentro de la empresa, debe tener como objetivo básico maximizar el valor de la misma. En este
+sentido, su rendimiento debe superar la tasa de rendimiento mínima requerida.
+Cabe la pregunta ¿por qué las personas, las empresas y los países deciden mantener dinero en
+tesorería, aun sabiendo que puede no generar ningún rendimiento? La respuesta obvia es que las
+disponibilidades proporcionan liquidez inmediata, no así cualquier otro activo.
+Frecuentemente se encuentran tres razones para mantener caja; dos de ellas son las principales en
+este caso.
+1 Gráfico expuesto por James Gentry (1988).
+3
+
+La primera es para poder cumplir con todas las transacciones por parte de una empresa. Estas
+transacciones están relacionadas a las necesidades de desembolso, mientras se efectúan las cobranzas de la
+empresa. Los desembolsos de dinero incluyen todos los pagos que la empresa debe efectuar dentro de un
+plazo determinado, por ejemplo: el pago de sueldos y salarios, la compra de insumos, el pago de deudas
+comerciales y financieras y el pago de impuestos y/o dividendos. El dinero que ingresa es producto de las
+ventas, ventas de activos y de los financiamientos solicitados. Los ingresos y las salidas de efectivo no
+necesariamente están sincronizados en forma perfecta; es por ello que se necesita mantener un nivel de caja
+que permita cumplir oportunamente los compromisos contraídos.
+La otra razón, que es el motivo de precaución, es contar con efectivo disponible, para poder cubrir
+contingencias inesperadas de la empresa. El tercer motivo es el especulativo y está relacionado con mantener
+el efectivo que permite, de alguna manera, obtener ventajas en la variación de precios, por ejemplo, de los
+títulos. Estos motivos están explicados por KEYNES; sin embargo, la mayoría de las empresas sólo
+mantienen caja por motivos de transacciones y precaución.
+Mantener recursos líquidos, así como cualquier otro insumo de la empresa, debe tener el nivel
+adecuado y contribuir a los objetivos de la misma. Si la empresa mantiene un nivel por debajo de lo
+tolerable, puede quedarse sin efectivo; situación que la obligaría a vender sus valores negociables, a tornar
+nuevos créditos, con lo cual tendría costos adicionales, o a perder oportunidades de negocios. Por el
+contrario, si mantiene demasiada liquidez, está perdiendo la posibilidad de usar fondos en objetivos más
+rentables. Se debe tener presente que los beneficios y los costos son la principal gestión de la tesorería, El
+saldo de caja que cada empresa debe mantener es el que le posibilite un sistema de desembolso eficiente y
+oportuno, y además tener el rendimiento adecuado por la liquidez con que se cuenta.
+El costo de mantener caja equivale al costo de oportunidad de perder rendimientos que se puedan
+generar con ese efectivo. Para determinar el saldo de caja promedio, la empresa debe analizar los beneficios
+de mantener liquidez contra el costo de la misma. Usualmente, las empresas hacen proyecciones para poder
+satisfacer sus necesidades transaccionales y luego consideran cómo compensar los saldos de caja requeridos;
+el estudio de ambos determina el límite inferior del nivel de caja que debe mantener la empresa.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Motivos transaccional, de precaución y especulativo en la administración de las disponibilidades.
+33,3. LOS GRANDES ASPECTOS DE LA ADMINISTRACIÓN DE CAJA
+El objetivo general de la administración de la caja es contribuir a maximizar el valor de la empresa.
+El objetivo específico de la administración de caja es mantener la liquidez lo más baja posible, de
+modo que las actividades de la empresa se desarrollen en forma eficaz y eficiente, y se pueda, además,
+invertir los mayores saldos disponibles.
+Para la administración adecuada de caja se deberán considerar los siguientes aspectos:
+a) presupuesto del flujo de caja;
+b) determinación de las reservas de caja;
+c) administración de los ingresos y egresos de caja;
+d) inversión de los saldos ociosos de caja.
+Se pasa, en primera instancia, a efectuar una revisión somera de ellos, para luego concentrarse con
+mayor detalle en los mismos.
+Presupuesto del flujo de caja
+El presupuesto del flujo de caja es el estado en el cual se reflejan las proyecciones de los ingresos y
+de los egresos del efectivo que tendrá la empresa; de especial relevancia para la administración día a día de la
+caja; el mismo se expone en detalle en el cap. 37.
+Determinación de las reservas de caja
+4
+
+La empresa debe establecer un saldo de caja promedio apropiado, una vez analizados los beneficios
+y los costos de mantener efectivo. El beneficio de mantener caja es la conveniencia de que la empresa
+disponga de efectivo. El costo de mantener caja será el ingreso por los rendimientos que la empresa pudiera
+haber recibido si hubiera invertido sus saldos en valores negociables u otros activos. Muchos autores
+sostienen que una empresa deberá incrementar sus reservas de caja hasta que el valor presente neto de los
+flujos originados por su administración, descontados a la tasa de rendimiento requerida, sea cero y, cuando
+éste comienza a ser positivo, deberá hacerlo competir con otras oportunidades de inversión de la empresa.
+Administración de los ingresos y egresos de caja
+A la vez que se determina el monto óptimo de liquidez promedio, la empresa debe establecer los
+procedimientos para que el efectivo sea cobrado y desembolsado de la forma más eficiente; de esta manera,
+la empresa se ordenará convenientemente, cobrando antes para poder cumplir con sus pagos.
+La línea de crédito otorgada por un banco podrá servir para cubrir los saldos de caja, pero esta línea
+de crédito genera los costos que cobra el banco. Si se necesita liquidez inmediata, puede ser que pedir un
+préstamo al banco sea más barato que vender activos o perder una oportunidad de negocios rentables. El
+endeudamiento, en este caso, amerita algunos cuestionamientos adicionales: los intereses que cobran los
+bancos, comúnmente, son más altos que los que generan las inversiones que se mantienen en cartera; por lo
+tanto, es importante conocer el saldo promedio de fondos. La mayor cantidad de saldos invertidos generará
+mayores intereses, pero es probable que en algún momento sea necesario endeudarse. A esta altura puede
+darse que el saldo adecuado de caja dependa, además, del costo de los préstamos y de la probabilidad de
+necesitarlos. Por otra parte, existe una política óptima de endeudamiento. Esta y la fijación de sus límites se
+vieron en los caps. 19 y 20.
+Inversión de los saldos ociosos de caja
+Cuando la empresa determina el saldo de caja óptimo y tiene un exceso de liquidez temporal, debe
+invertirlo, por ejemplo, en valores negociables, también temporales. Estos valores pueden ser comprados y
+vendidos en el mercado de valores, tener un riesgo cuantificable y ser altamente líquidos.
+Los costos de transacción por vender y comprar valores son poco significativos por las grandes
+sumas de dinero que se manejan en las empresas, comparados con los costos de oportunidad de mantener
+saldos improductivos.
+Ejemplo
+Si el tipo de interés es del 7 % efectivo anual, la tasa diaria será = 0,01887996 %. Entonces, el
+interés que ganaría diariamente por un millón de pesos es:
+0,01887996 × $ 1.000.000 = $ 18,879,96
+En el caso más adverso, un costo de transacción de $ 60 hace ver que comprar valores hoy y
+venderlos mañana es mejor que dejar improductivo el millón referido durante un día, lo que resulta rentable.
+Las empresas mantienen altos niveles de saldos en la tesorería, principalmente, por dos motivos:
+debido a que se pueden mantener en cuentas bancarias que no generan intereses pero se dejan compensar los
+servicios recibidos por éste y porque las empresas suelen tener muchas cuentas en varios bancos.
+Frecuentemente se dejan saldos improductivos en algunas cuentas porque es mejor controlarlas diariamente
+que efectuar transacciones todos los días entre las cuentas.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son los principales temas de los que se ocupa la administración de las disponibilidades.
+33,4. DETERMINACIÓN DE LAS RESERVAS DE CAJA
+Para determinar la reserva adecuada de caja se debe hacer una evaluación que involucra la relación
+entre:
+5
+
+a) por una parte, los costos de oportunidad de mantener demasiada liquidez;
+b) por la otra, el costo de mantener poca liquidez (aquella que le permita cumplir con el motivo
+transaccional).
+Si una empresa trata de mantener poca liquidez se encontrará en la eventualidad de tener que vender
+frecuentemente sus activos. Los costos de ejecutar diferentes transacciones se reducirán, en tanto el saldo de
+caja sea más alto, Por otro lado, se tiene que los costos de oportunidad de mantener caja se elevarán,
+mientras se mantengan mayores saldos disponibles. La fig. 33,2 muestra gráficamente la evolución de los
+costos señalados.
+La fig. 33,2 muestra gráficamente la evolución de los costos señalados
+Figura 33,2.
+Existen varios modelos para determinar las reservas de caja apropiada. Aquí se incorporan cuatro de
+ellos. Uno determinísticos, que considera las distintas variables involucradas en condiciones dadas, como es
+el modelo de BAUMOL. Entre los modelos estocásticos, que suponen comportamientos aleatorios de las
+variables que se podrán aplicar en las distribuciones probabilísticas, figuran el modelo de MILLER-ORR, el
+modelo de BERANEK y el modelo de PASCALE-KHOURY, que difieren en el problema que buscan
+solucionar, por lo tanto, en sus objetivos y, naturalmente, en la variable de decisión que utilizan.
+Estos modelos, en algunos casos, arrojan interesantes conclusiones, no sólo para las reservas de caja
+de la empresa, sino para otros aspectos de la administración de la misma.
+El modelo de BAUMOL
+El prof. WILLIAM BAUMOL (1952) fue el primero en proveer un modelo sencillo de
+administración de caja y así poder determinar un saldo de caja promedio. El reconoció la similitud entre los
+problemas de inventarios y los de tesorería desde el punto de vista financiero.
+Para BAUMOL el problema de gestión de tesorería es igual que el del manejo de los inventarios y su
+objetivo es encontrar el volumen óptimo de cada pedido. El costo de mantener esa tesorería es el interés que
+se está dejando de ganar y para conocer la cantidad óptima que debemos mantener en tesorería hay que
+conocer la cantidad de valores negociables que se necesita vender para reponer los saldos. El costo
+administrativo fijo por cada transacción y el costo de mantener esa tesorería son los intereses que se dejan de
+ganar. El volumen óptimo Q de cada transacción de fondos invertidos a caja será aquel que minimiza los
+costos.
+Se debe minimizar la función de costos, que será:
+6
+
+(cid:6)T(cid:3) (cid:6)Q(cid:3)
+c(cid:4) (cid:4) (cid:1) (cid:1)(cid:7)i(cid:4) (cid:1) [1]
+(cid:5)Q(cid:2) (cid:5) 2 (cid:2)
+donde:
+Q/2: el saldo promedio de caja;
+T la demanda total de caja en el período involucrado;
+c el costo fijo de cada transacción;
+i la tasa de interés.
+Derivando [1] con respecto a Q y haciéndola cero se llega a que:
+2cT
+Q*(cid:1) [2]
+i
+que es la expresión del modelo de BAUMOL.
+La evolución del saldo de tesorería se expone gráficamente en la fig. 33,3.:
+Figura 33,3.
+Ejemplo
+Una empresa desembolsa a un ritmo de $ 100.000 mensuales, o sea, $ 1.200.000 anuales; la tasa de
+interés que rinden los activos es del 7 % anual, y el costo de cada transacción de compraventa de activos es
+de $ 25.
+2(cid:9)1.200.000(cid:9)25
+Q(cid:8) (cid:8)29.277
+0,07
+7
+
+Esto significa que la empresa tendrá que vender unos $ 30.000, aproximadamente, en valores un
+poco más de 3 veces mensuales. Su saldo promedio de caja será de 29.277/2= $14.639.
+Cuando los tipos de interés son altos, es recomendable mantener los saldos promedio caja bajos. Si el
+costo de vender valores es alto o se utiliza tesorería muy a menudo, se querrán mantener saldos promedio
+altos en la tesorería.
+El modelo de MILLER-ORR
+Los profs. MILLER y ORR (1966) elaboraron un modelo donde consideran sólo dos activos
+relativos a las disponibilidades, que son los saldos de caja y un portafolio de inversiones de corto plazo, que
+reditúan una tasa i.
+Las transferencias entre los dos activos se efectúan a un costo marginal de b unidades monetarias por
+transferencia sin considerar el tamaño o duración de la misma. Las transferencias pueden tener lugar en
+cualquier momento y se consideran instantáneas.
+Los flujos de fondos se suponen como variable estocástica que para un número grande de casos se
+asume en forma normal.
+La empresa busca minimizar los, costos de administrar los saldos de caja bajo una simple política de
+control. Los autores basan su modelo en una aproximación de control acotado por un límite inferior y otro
+superior entre los que los saldos de caja fluctúan hasta alcanzar y sobrepasar los límites respectivos (los
+límites son 0 y h).
+Las reglas de decisiones establecen una transferencia de h - z pesos en activos redituables cuando el
+saldo de caja llega a h y una transferencia de z pesos fuera de los activos de rédito cuando el saldo de caja se
+acerca a cero.
+El objetivo de esta política es minimizar el costo diario esperado de administrar los saldos de caja
+con respecto al límite superior h y al punto de retorno z.
+La función de costos es:
+E(C) = b E(N) T + i E(m)
+donde:
+b: costo por transferencia;
+T: número de días;
+i: tasa de interés diaria que reditúa a los inversores;
+E(N): valor esperado de las transferencias entre caja y el portafolio de inversiones;
+E(m): valor esperado de los saldos diarios de caja.
+La solución es optimizar h y z, lo cual implica, primero, encontrar la distribución de probabilidad de
+los saldos de caja y así desarrollar la siguiente minimización, donde:
+σ2 la varianza diaria de los cambios en los saldos de caja.
+Por consiguiente la solución sería:
+(cid:1) (cid:2)
+2
+Z opt
+(cid:1)3
+3b.σ
+[3]
+4i
+h opt (cid:1) 3 Z opt
+8
+
+Figura 33,4.
+El modelo de BERANEK
+El prof. BERANEK (1963) plantea en su modelo el problema de la asignación de fondos entre el
+efectivo y los activos rentables. Esto supone una determinada cantidad de fondos al inicio del período que no
+se pueden realimentar hasta el fin del mismo. El flujo neto de caja al final del período es la variable aleatoria
+que maneja los ingresos en general y que puede suponerse con cierta regularidad, en tanto que los
+desembolsos son cíclicos. BERANEK supone que se conoce la evolución de las necesidades de caja dentro
+del período de planeamiento, pudiendo invertir una porción de los fondos que espera no utilizar.
+Al ser:
+g (y): distribución de probabilidad de la variable aleatoria y para un período;
+y*: nivel crítico de caja;
+a: costo marginal de quedarse sin caja por unidad monetaria;
+d: rendimiento neto incremental por unidad monetaria invertida;
+K: monto de fondos al comienzo del período;
+C: monto a mantener en caja empezando el período.
+su modelo se desarrolla buscando minimizar el costo de mantener caja. Así, pues, la función del costo h(C)
+es derivada e igualada a cero. El resultado final del modelo de BERANEK es:
+y (cid:2)y*-c
+(cid:1) (cid:2) [4]
+g y dy(cid:1)d/a
+Ejemplo
+9
+
+Un administrador financiero se encuentra frente a una función de distribución de flujos netos de caja
+que supone normal con y (cid:1)8.000 y σy (cid:1) 1000. El costo de quedarse sin caja es a = 0,2 y el rendimiento
+neto por las inversiones es d = 0,02.
+El monto de fondos al inicio del período es K = 5.000 y el nivel crítico y* = 10.000.
+Se tiene que d/a = 0,02 / 0,2, al ser el valor de Z = -0,85.
+Por consiguiente:
+y(cid:2)8.000
+(cid:1)(cid:2)0,85
+1.000
+de donde:
+y(cid:1)7.150
+Dado que y = y* - C = 7.150, reemplazando y* = 10.000 se tiene que C = 2.850.
+Según el modelo de BERANEK se deberán invertir $ 4.000 - $ 2.850 = $ 1.150 y mantener en caja $
+2.850. Entonces se transferirán fondos a activos rentables hasta que la probabilidad acumulada de la función
+de distribución de y se iguale a d / a
+El modelo de PASCALE-KHOURY
+El modelo de PASCALE-KHOURY (1976) tiene como objetivo la determinación de las reservas de
+caja de la firma tomando en consideración dos atributos fundamentales: media y varianza. Se ha tratado, por
+lo tanto, de conjugar los rendimientos esperados (en este caso costos) con los riesgos involucrados.
+El modelo desarrollado difiere de los anteriores en la variable decisoria que utiliza, en la forma de
+medir el riesgo, así como en la manera en que se combinan riesgo y rendimiento (o costos, en este caso), a
+efectos de una óptima decisión en uno de los aspectos de la administración de las disponibilidades de la
+empresa, esto es, el nivel de las reservas.
+Se entiende por reservas, en este modelo, el monto de fondos a mantener en caja para atender las
+necesidades de tesorería en un período dado, una vez utilizados los ingresos previstos. El modelo, como se
+verá, está ideado para casos de déficit financieros.
+Así, de los principales aspectos que involucra la administración de las disponibilidades de la firma,
+tales como la preparación del presupuesto del fluir de caja, la fijación de los niveles de reserva a mantener y
+la asignación de ellas entre caja y activos rentables fácilmente liquidables, el presente trabajo apunta,
+fundamentalmente, al establecimiento del nivel de reservas, Es muy probable que, especialmente en
+situaciones de déficit de caja, el monto de las reservas deba obtenerse de fondos provenientes de préstamos
+que se contraigan.
+Función de probabilidad de los saldos de caja
+La naturaleza aleatoria de los flujos de fondos que componen el presupuesto de caja permite,
+entonces, asociar una función de probabilidad para los saldos de caja resultantes al final de un período de
+planificación. Siguiendo este razonamiento, varios saldos de caja pueden ser obtenidos para cada mes (por
+ejemplo) y a cada saldo puede asignársele la correspondiente probabilidad de ocurrencia en función del
+grado de confianza atribuible en las cifras de estimaciones utilizadas.
+En esta oportunidad el modelo se va desarrollando junto a un ejemplo.
+Ejemplo
+10
+
+En abril el presupuesto de caja de una empresa Z preparado sobre la base de una hipótesis muestra
+los siguientes saldos deficitarios: 180.000, 200.000, 220.000, 240.000. Las probabilidades de ocurrencia a
+cada uno de estos déficit son expuestos a continuación:
+EMPRESA Z
+Saldo deficitario Probabilidades de concurrencia
+180.000 0,16
+200.000 0,34
+220.000 0,34
+240.000 0,16
+1,00
+Cuadro 33,1. Probabilidades de ocurrencia de los déficit de abril.
+Con respecto al cuadro 33,1, existe el 16 % de probabilidad de necesitar $ 240.000 para cubrir el
+déficit de abril. Contrariamente, hay un 84 % de posibilidad de no utilizar ese monto. Los otros déficit y
+probabilidades son análogos.
+Costos de insolvencia
+Si la empresa se encuentra en época de escasez de liquidez puede (entre otras estrategias) posponer
+el pago de sus deudas, liquidar sus activos o pedir préstamos. La elección de una de estas opciones depende
+de los costos involucrados en cada una de ellas.
+En el caso de que una empresa esté muy endeudada, probablemente los costos del financiamiento de
+la situación deficitaria a través de posponer el pago pueden ser caros, debido a una alta tasa de interés. Los
+financistas propondrán restricciones sobre los préstamos que soliciten a futuro e impondrán controles sobre
+los gastos.
+La postergación del pago de una deuda o un nuevo préstamo suelen situar a la empresa en una
+categoría de riesgo financiero distinta de la que tenía anteriormente. Como resultado. los inversionistas
+pueden exigir un mayor rendimiento sobre sus inversiones y los futuros prestamistas pueden resistirse a
+prestar los fondos a menos que se impongan condiciones más severas que antes.
+Estos costos implícitos y explícitos, que derivan de una situación de insuficiencia de fondos, son uno
+de los parámetros que integran el modelo.
+En el ejemplo se está considerando un monto de los costos de insuficiencia de caja de $ 3 por cada $
+100 de déficit no cubierto con nuevos préstamos o venta de activos.
+Costos de intereses
+Son los costos que generan los préstamos. En el ejemplo se asume que son el 1 % mensual sobre el
+monto adeudado.
+La función de los costos esperados totales (CET)
+Al ser el valor de las reservas el monto a pedir prestado, es posible calcular el costo esperado de los
+distintos niveles de reservas considerando las probabilidades de ocurrencia de los déficit proyectados. Por
+ejemplo, a un nivel de reservas de $ 220.000 la empresa estará expuesta tanto a una insuficiencia como a un
+exceso de fondos. Desde el momento en que el déficit sea menor que $ 220.000, el costo de las reservas se
+limitará a $ 2.200 de intereses. Si llegara a ser $ 240.000, el costo del nivel de reservas establecido
+aumentará en $ 600, derivado de la penalización de la empresa por haber incurrido en una insuficiencia de
+fondos de $ 20.000. Si cada uno de estos costos es multiplicado por la probabilidad que le corresponde a
+cada nivel de déficit y estos resultados son sumados, se tiene para cada nivel de reservas el costo total
+esperado como a continuación se muestra:
+11
+
+Costo total a un nivel de reserva
+180.000 200.000 220.000 240.000
+Déficit
+Probabilidad
+proyectado
+180.000 0,16 2.000 2.000 2.200 2.400
+200.000 0,34 2.400 2.000 2.200 2.400
+220.000 0,34 3.000 2.6000 2.200 2.400
+240.000 0,16 3.600 3.200 2.800 2.400
+Costo total esperado 1,00 2.700 2.396 2.296 2.400
+Cuadro 33,2. Costos totales y costos totales esperados a cada nivel de reservas.
+~
+Si G es el déficit, que en el caso adopta forma discreta, con valores de 180.000, 200.000, 220,000 y
+240.000, con probabilidades correspondientes para los valores 180.000, 200.000, 220.000 y 240.000, y, si X
+representa el monto a pedir prestado (X = 180.000, 200.000, 220.000, 240.000), la función del costo total de
+las reservas puede tomarse así:
+C (cid:1) X (cid:2) (cid:3) λ1 (cid:1) G ~ (cid:1)X (cid:2)(cid:2) (cid:1) λ2 (cid:1) X (cid:2) [5]
+donde:
+λ : costo que penaliza una insuficiencia de fondos;
+1
+λ : costos de intereses por peso prestado.
+2
+~
+(cid:1) G ~ (cid:10)X (cid:2)(cid:11) (cid:7) (cid:4) (cid:4) (cid:6)G(cid:10) ~ X si (cid:9) M (cid:1) (cid:1) (cid:3)
+(cid:5)0 si G (cid:8) o (cid:7) M(cid:2)
+Entonces, de la ecuación [5] se deduce que:
+E (cid:3) C (cid:1) X (cid:2)(cid:4) (cid:2) λ1 E (cid:1) G ~ -X (cid:2)(cid:1) (cid:1) λ2 (cid:1) X (cid:2) [6]
+Nivel óptimo de las reservas de caja
+El cuadro de los costos totales esperados indicó que $ 220.000 es el nivel de reservas en el cual el
+costo esperado es el más bajo de todos los considerados. Sin embargo, es peligroso para la empresa optar por
+ese nivel de reserva sin tomar en consideración el riesgo involucrado en él. Un cierto nivel de reservas puede
+ser óptimo desde el punto de vista de minimizar los costos totales, pero a la vez involucra un riesgo que la
+firma no debe estar dispuesta a tolerar. El riesgo debe ser introducido como una restricción minimizando los
+costos totales esperados para un nivel de reservas considerado.
+Para encontrar el nivel óptimo de reservas se deberá:
+Min. E {C (X)}
+Sujeto a: Var. {c(X)} α
+Var {C(X)} es la varianza de la función C(X) para un valor dado de X, y a es el valor superior de
+varianza que la empresa puede tolerar. En el ejemplo desarrollado, X podrá adoptar los valores de $ 180.000,
+$ 200.000, $ 220.000 y $ 240.000.
+12
+
+Se ha usado la varianza como medida del riesgo (en este caso, la desviación estándar). El siguiente
+cuadro muestra la determinación de la varianza y la desviación estándar de los costos totales para un nivel
+dado de reservas de $ 220.000.
+Déficit Costo total Costo total
+Probabilidad Costo total (5) ×(5) = (6) × (2) =
+Proyectado esperado(4) Esperado
+(2) (3) (6) (7)
+(1) (3) × (2) (5)
+180.000 0,16 2.000 320 -396 156.816 25.091
+200.000 0,34 2.000 680 -396 156.816 53.317
+220.000 0,34 2.600 884 -204 41.616 14.149
+240.000 0,16 3.200 512 -804 646.416 103.427
+Costo esperado 2.396 σ2: 195.984
+σ: 443
+Cuadro 33,3.
+Varianza y desviación estándar de los costos totales a un nivel de reservas de $220.000
+A un nivel de reservas de $ 220.000 hay una desviación estándar de $ 443, lo que significa (bajo
+ciertos supuestos) que existe un 16 % de probabilidad de que el costo total de ese nivel de reservas pueda
+exceder los $ 2.830, así como un 2,3 % de probabilidad de que caiga por debajo de $ 1,5 10. A continuación,
+el cuadro muestra los costos totales esperados y las desviaciones estándar para cada nivel de reservas.
+Nivel de reserva 180.000 200.000 220.000 240.000
+Costo total esperado 2.700 2.396 2.296 2.400
+Desviación estándar 566 443 220 0
+Cuadro 33,4.
+Costos totales esperados y desviaciones estándar de los cosos para cada nivel de reservas.
+Si el riesgo máximo tolerable ha sido decidido, será posible establecer el nivel óp timo de las
+reservas de caja. Si una empresa opta por un nivel de riesgo determinado con una desviación máxima de $
+220, el nivel óptimo de las reservas será $ 220.000. Los niveles de reserva de $ 180.000 y $ 200.000 quedan
+fuera de consideración, puesto que ellos son dominados por los otros niveles.
+Es claro que el ejemplo es muy simplificado y que en la realidad debe trabajarse con más valores de
+niveles de reservas.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son los objetivos y las variables decisorias en los modelos de:
+(cid:1) BAUMOL.
+(cid:1) MILLER-ORR.
+(cid:1) BERANEK.
+(cid:1) PASCALE-KHOURY.
+33,5. LA ADMINISTRACIÓN DE LOS INGRESOS Y EGRESOS DE CAJA
+Las distintas metodologías de pago y cobranza, mediante las cuales una empresa puede mejorar la
+administración de su caja, constituyen las dos caras de una misma moneda. Ellas ejercen un impacto
+conjunto en la eficiencia general de la administración de la tesorería. La es cobrar las cuentas lo más pronto
+posible pero a la vez pagarlas con el mayor retraso, sin que esto signifique dañar ni la imagen ni el crédito de
+la empresa. En la actualidad existen técnicas que permiten acelerar las cobranzas y controlar los pagos y los
+desembolsos de efectivo.
+La administración de ingresos
+13
+
+Se ha hablado sobre los saldos de tesorería, pero se debe ser más preciso sobre el movimiento de
+fondos y el cálculo de la disponibilidad, para lo cual se analizarán los siguientes puntos:
+Saldos flotantes
+El salto flotante representa la diferencia entre el saldo de una cuenta bancaria en los libros de la
+empresa y el saldo de la compañía, que arrojan los libros del banco tenedor de esta cuenta a una fecha
+determinada. El porqué de esta diferencia puede ser atribuible a los cheques no hechos efectivos por los
+beneficiarios.
+Ejemplo
+La empresa minera Zinc S.A, tiene $ 2.000.000 en un depósito a la vista en un banco y paga en la
+fecha a uno de sus proveedores con un cheque por $ 300.000. La contabilidad de la empresa se ajusta para
+reflejar un saldo en caja de $ 1.700.000. Pero el banco donde la empresa tiene sus depósitos no habría
+reducido su saldo hasta que el cliente, a quien Zinc S.A. le giró la cantidad indicada, la cobre. Durante este
+período el banco de Zinc S.A. aún mantiene el saldo de $ 2.000.000 de pesos en su contabilidad, lo que le
+permite a Zinc. S.A. tener mejores saldos promedio hasta la compensación del cheque.
+La flotación también puede funcionar al revés. Si Zinc S.A. recibe un cheque por $ 200.000 y lo
+deposita en su banco, éste le incrementará el saldo en ese mismo importe, pero dicho monto estará disponible
+sólo cuando se efectúe la compensación y reciba el dinero del banco del girador del cheque. El plazo
+considerado como usual es de uno o dos días.
+De esta manera, el manejo de la tesorería se centra en el interés del saldo disponible, sabiendo que
+hay cheques que, por alguna razón, no pueden ser presentados de inmediato.
+La política establecida por los departamentos de tesorería indica que los cheques recibidos de los
+clientes deben ser compensados rápidamente, mientras que los enviados a los proveedores deben ser
+compensados lo más lento permisible. Esto adquiere mayor importancia cuando se manejan grandes
+cantidades de dinero diariamente, lo que permite el manejo de una mayor cantidad de fondos en tránsito, y
+por lo tanto, una mayor rentabilidad.
+Figura 33,5
+Aceleración de las cobranzas
+Un sistema que permite acelerar las cobranzas es la concentración bancaria. Los clientes de una
+determinada área geográfica pagan a una sucursal de la empresa en lugar de pagar a la sede central. Luego, la
+sucursal deposita los cheques en una cuenta de un banco local. Los fondos sobrantes se transfieren
+periódicamente a una cuenta de concentración de un banco de la empresa.
+Este método convierte los saldos pequeños en uno más importante, permitiendo, de este modo, que
+se pueda invertir en un activo que genere intereses.
+La concentración bancaria reduce los fondos en tránsito debe considerarse; que:
+(cid:1) Si el cheque está emitido contra un banco local, el tiempo de compensación será menor.
+(cid:1) La cercanía del banco reduce el tiempo para efectuarlos depósitos. Adicionalmente a los beneficios que
+conlleva la concentración bancaria, su utilización también significa incurrir en gastos adicionales, como
+14
+
+por ejemplo: los gastos administrativos de la sucursal, la retribución por los servicios y los costos por
+transferencias cablegráficas.
+Frecuentemente se combina la concentración bancaria con el sistema de correos. En el sistema de
+apartado de correo (lock box) se paga al banco local para que realice labores administrativas, de la
+siguiente manera:
+a) La empresa alquila un apartado postal en las regiones más importantes. A los clientes de esa región se les
+dan las instrucciones necesarias para que envíen sus pagos a dicho apartado postal.
+b) Un banco local de la empresa recogerá y depositará los cheques en la cuenta local de la empresa. Los
+fondos sobrantes se transferirán a una cuenta centralizada.
+c) El costo dependerá del número de cheques canalizados.
+Control de los desembolsos
+Otro modo de incrementar los fondos netos en tránsito es retrasando los desembolsos,
+incrementando el tiempo a través del uso del correo.
+Zinc S.A. pagará a sus proveedores con cheques expedidos en un banco de una determinada
+localidad, el cheque depositado pasará más de un día hasta que sea presentado al banco de Zinc S.A. para su
+cobro. La alternativa para Zinc S.A. es emitir cheques que lleguen a tiempo, pero girados contra un banco en
+otra localidad. En este caso, pueden pasar 3 o 4 días antes de que el cheque se presente a cobranza; de esta
+forma. Zinc S.A. ganaría algunos días con saldos promedio más altos.
+Cuenta de saldo cero
+Normalmente éstas son cuentas que no se manejan en plazas financieras importantes. Los sistemas
+de canje se realizan a una hora determinada, permitiendo conocer el monto de dinero que se necesita
+diariamente. El saldo se transfiere a una cuenta de concentración o que genere intereses al día siguiente; si
+fuese necesario, se hace una transferencia a la inversa.
+Base de caja
+El flujo de caja se define como la diferencia entre las unidades monetarias cobradas y las pagadas.
+Esto se relaciona, a su vez, con el valor del dinero en el tiempo. Los fondos se utilizarán una vez que se
+disponga de ellos. Una utilidad por ventas del primer año, pero que recién se van a ejecutar el segundo,
+tendrán un valor presente distinto, debido a que los fondos serán utilizados recién en el segundo año.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Señalar los aspectos claros de los ingresos y egresos de caja.
+33,6. INVERSIÓN DE LOS SALDOS OCIOSOS DE CAJA
+Si una empresa tiene exceso temporal de caja, habitualmente se recomienda invertirlo en valores de
+corto plazo. El mercado para este tipo de actividades financieras es el mercado de valores. El vencimiento o
+plazo de estas operaciones es, normalmente, menor a un año.
+Las empresas manejan sus propios activos de corto plazo, al hacer sus transacciones mediante bancos
+o intermediarios. Las empresas tienen excedentes de caja temporales para poder financiar sus actividades
+estacionales o cíclicas, para financiar los desembolsos planificados de la empresa y como provisión para
+contingencias no anticipadas.
+Actividades estacionales o cíclicas
+15
+
+Algunas empresas tienen un patrón predecible de flujo de caja. Ellas tienen excesos de caja durante
+temporadas y déficit de caja el resto del año, por ejemplo, una fábrica de helados que tiene un importante
+incremento de las ventas en la temporada de verano, lo que permitirá a la empresa tener la posibilidad de
+invertir en activos rentables, Cuando la venta se reduzca, deberá venderlos o analizar la alternativa de los
+préstamos bancarios, que son otro tipo de artificio de financiamiento a corto plazo.
+Desembolsos planificados
+Las empresas, frecuentemente, acumulan inversiones temporales en activos que reditúan intereses
+para proveer la liquidez que permita financiar un proyecto específico o efectuar pagos determinados
+previstos en el tiempo, por ejemplo, el programa de construcción de una planta o el pago de dividendos. Las
+características más importantes de valores de inversiones de corto plazo son las siguientes:
+– Vencimiento: es el período entre el compromiso del reembolso efectivo y el del principal e
+intereses.
+Dado un cambio en el nivel de los porcentajes de intereses, los precios de valores de vencimiento de
+largo plazo cambiarán más que aquellos valores de corto plazo, por lo tanto, las empresas que
+intervienen a largo plazo aceptan un mayor riesgo que las empresas que invierten a corto plazo. Este
+tipo de riesgo es llamado riesgo de interés porcentual. La mayoría de estas empresas limita sus
+inversiones a plazos que no excedan los 90 días, debido a que el rendimiento esperado de valores de
+corto plazo, usualmente, es menor que los de largo plazo.
+– Riesgo de incumplimiento de pago: es la probabilidad de que el principal o el interés no fueran
+pagados en la fecha pactada o en el monto establecido. Dado el propósito de invertir en saldos
+ociosos corporativos de caja, las empresas evitan invertir en valores con alto riesgo de
+incumplimiento.
+– Comerciabilidad: es la facilidad de convertir un activo en efectivo, lo que significa la liquidez del
+mismo. Existen dos tipos: aquellos con efecto del no precio-presión, que es cuando un activo puede
+ser vendido en grandes cantidades sin cambiar el precio del mercado, y con efecto precio-presión,
+que son los que requieren variación en el precio para facilitar su venta.
+En general, comerciabilidad es la capacidad de vender un activo por su valor real en tiempo
+inmediato,
+– Tributación: los diferentes tipos de valores tienen diversos grados de imposición o exoneración
+tributaria.
+Ejemplo
+Se tiene la posibilidad de invertir los excedentes temporales de caja en títulos que rendirán un 8 %
+anual. Asimismo, dichos títulos no son fácilmente vendibles. Ello implica que cuando se necesita dinero se
+tendrá que acudir a una línea bancaria de crédito que costará el 12 % anual.
+¿Se debería invertir más o menos en títulos, si sucediera lo siguiente?:
+a) ¿Existe incertidumbre sobre cuáles son los futuros flujos de tesorería?
+b) ¿Se pueden predecir los flujos diarios de tesorería?
+c) ¿El interés de los préstamos bancarios sube al 13 % anual?
+d) ¿El interés de los títulos y el de los préstamos suben en la misma proporción cuando se detecta que las
+necesidades de tesorería en el futuro serán, en promedio, menores?
+e) ¿Ahora cabe la posibilidad de invertir en títulos con una alta liquidez en el mercado?
+f) ¿Cuántas veces al año se deberían vender títulos si se desea llegar a un punto en el que el costo marginal
+de mantener fondos sea similar a la reducción marginal al vender los títulos y obtener los fondos? Se
+considera que la venta de cada título tiene un gasto de $ 2. Además, han pasado dos años referentes al
+período de gracia de un préstamo de largo plazo, lo que implicará una salida anual de $ 100.000.
+16
+
+Solución:
+a) Cuando no se puede conocer con certeza cuáles serán los flujos más próximos de entradas y salidas de
+tesorería, y la necesidad de fondos se hace presente, la demora en vender los títulos nos hará incurrir en
+un crédito al 12 % anual más los gastos de vender cada título. Dado esto, convendría invertir menos en
+títulos.
+b) Si se pudieran conocer las entradas y salidas de fondos, ya sea obteniendo estimados de acuerdo con las
+estadísticas o considerando las fluctuaciones estacionales relevantes, entonces se debería saber cuánto
+invertir en títulos; puede ser más o puede ser menos de un nivel en el que se estaba anteriormente.
+c) Si ello sucede, y es difícil conocer los flujos más próximos de tesorería, no se debería invertir más en
+títulos, incluso se debería bajar el nivel de inversión de los mismos. Si los flujos son posibles de conocer,
+entonces la evaluación y/o los cálculos a efectuar no nos deberían inducir a bajar el nivel de inversión en
+títulos.
+d) Si esto acontece, y se está en una situación en la que no se pueden conocer con certeza los flujos más
+próximos de caja, no debería haber variación en las inversiones en títulos. En cambio, si se conocen las
+entradas y salidas de tesorería, convendría invertir más en títulos, ya que no se necesitan los créditos a un
+mayor costo, puesto que se conocen los flujos de tesorería.
+e) Dado aquello, entonces convendría invertir más en títulos.
+f) Si no se conocieran las entradas y salidas de tesorería, títulos con una alta liquidez en el mercado y un
+buen rendimiento, se induciría a invertir más en ellos. Si se lograra determinar los flujos de tesorería,
+invertir en más títulos dependería de la tasa de rendimiento, ya que se sabría cuándo vender y no se
+necesitaría crédito bancario, por lo menos, no se lo requerirá con continuidad.
+En este caso se sabe que se va a tener una salida anual de $ 100.000 y se quiere determinar las veces
+que se van a vender títulos, ya que no se va a incurrir en créditos a un interés alto y la venta de cada título
+tiene un gasto de $ 2 cada uno.
+La cantidad de letras a ser vendidas cada vez (modelo de BAUMOL) es:
+2(cid:2)100.000(cid:2)2
+Q(cid:1)
+0,08
+Q(cid:1)2.236
+100.000
+(cid:1)8,16
+44,7
+Esta es la cantidad de dólares que se necesitarán cada vez.
+365
+(cid:1)8,16
+44,7
+Esto quiere decir que cada 8 días se deberán vender títulos, tomando cifras redondeadas.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Repasar los elementos básicos de la inversión de saldos ociosos de caja.
+17
+
+REFERENCIAS SELECCIONADAS
+Para el estado del arte en capital trabajo y administración de las finanzas de corto plazo, se
+recomienda:
+GENTRY, J. A., "State of the art of short run financial management", Financial Management, 1988.
+Para la administración de caja en general:
+BEELHER, P. J., Contemporary cash management: principles, practices and perspectives, John Wiley &
+Sons, Nueva York, 1983.
+Para modelos específicos de, caja:
+BAUMOL, W. J., "The transactions demands for cash; an inventory theoretic approach", Quarterly Journal
+of Economics, N° 66, noviembre de 1952, págs. 545 a556.
+MILLER, M. Y ORR, D., "A model for the demand for money by firms", Quarterly Journal of Economics,
+N° 80, agosto de 1966, págs. 413 a 435.
+BERANEK, W., "Analysis for financial decisions", Richard D. Irwin, Homewood, Illinois, 1963, págs. 345
+a 387.
+PASCALE, R. y KHOURY, N., "The cash reserves of the firm. An optimization model", Universidad de
+California, Los Angeles, 1976, versión traducida y publicada en la Revista Administración de
+Empresas, Ed. Contabilidad Moderna, Buenos Aires, 1977.
+18

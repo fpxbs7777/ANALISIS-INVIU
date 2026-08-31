@@ -1,0 +1,814 @@
+Cuestiones Contables
+Fundamentales
+Enrique Fowler Newton
+La Ley
+Buenos Aires
+2004
+4ª edición actualizada
+ISBN: 987-03-0537-7
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 7. VALORES RECUPERABLES Y COSTOS DE CANCELACIÓN
+7,1. INTRODUCCIÓN
+En los capítulos anteriores nos referimos a estos atributos de los activos:
+a) su costo histórico (que debe ajustarse por inflación, cuando los estados contables se presentan en
+moneda de poder adquisitivo de la fecha a la cual corresponden);
+b) su costo de reposición;
+c) su valor neto de realización (VNR);
+d) los valores descontados (VD) de los flujos netos de fondos a percibir por su cobranza, venta o uti-
+lización;
+e) en los casos de participaciones en otros activos, el porcentaje de ellas sobre las medidas contables
+de dichos bienes.
+Dado un activo o un grupo de ellos:
+a) su medida contable primaria debería establecerse considerando el atributo que resulte más ade-
+cuado en el caso;
+b) su medida contable final no debería superar a su valor recuperable (VR).
+Esto es, la medida contable final de un activo o de un grupo de ellos debería ser el menor importe en-
+tre su medida contable primaria y su VR. Esto obliga a la comparación de ambas magnitudes, salvo cuando
+la medida primaria es en sí un VR.
+Sucede, por ejemplo, con los activos cuya medición primaria se hace a su VNR.
+En el caso de los pasivos, su medición debería hacerse de modo que no queden expresados por deba-
+jo de su costo de cancelación. En algunos casos, éste puede operar como medida contable primaria y en otros
+como límite a la medida contable final.
+Dicha medida contable debería estar basada en el atributo del pasivo o pasivos del caso que resulte
+más adecuado entre:
+a) su importe histórico (que debe ajustarse por inflación, cuando los estados contables se presentan
+en moneda de poder adquisitivo de la fecha a la cual corresponden);
+b) su importe histórico ajustado por inflación (aunque los estados contables no se expresen en mone-
+da de cierre);
+c) su costo de cancelación a la fecha de los estados contables;
+d) el VD de los flujos netos de fondos a erogar para su cancelación en el futuro.
+En este capítulo nos referiremos a:
+a) los problemas que plantean la caracterización y la medición contable de los VR y de los costos de
+cancelación;
+b) la contabilización de:
+1) las desvalorizaciones puestas en evidencia por las comparaciones con VR;
+2) sus reversiones.
+
+7,2. CRITERIOS PARA LA DETERMINACIÓN DE LOS VALORES RECUPERABLES
+A) CRITERIO DEL DESTINO INMEDIATO PREVISIBLE
+Nos parece evidente que el VR de un bien o de un grupo de bienes está dado por el valor de salida
+que se obtendría por su venta (valor de cambio) o su utilización (valor de uso) de acuerdo con el destino
+inmediato previsible de los bienes1.
+Por lo tanto, pensamos que como VR debería considerarse:
+a) para los activos destinados a la venta o realización, su VNR;
+b) para los restantes activos, su valor de uso (VU), también denominado valor de utilización económica.
+B) CRITERIO DEL EMPLEO ALTERNATIVO MÁS RENTABLE
+Con otro enfoque, con el cual discrepamos, hay autores y organismos emisores de NC que conside-
+ran que el VR de un bien o de un conjunto de bienes es el mayor importe entre su valor de cambio y su VU,
+lo que implica considerar su empleo alternativo más rentable2.
+La IASB defiende la aplicación de este criterio argumentando que refleja el comportamiento proba-
+ble de una gerencia racional3. Sin embargo, y como señaló García en 1989, su aplicación supone que:
+a) el empleo alternativo más rentable del activo es factible;
+b) se han tomado o se tomarán las decisiones sobre el cambio de destino de los bienes que fueren ne-
+cesarias para lograr el mejor resultado;
+c) no hay restricciones a la movilidad de los activos4.
+Por otra parte, la decisión de mantener un activo (o grupo de activos) podría:
+a) no estar afectada por el resultado de la comparación de su VNR con su VU; o
+b) depender de la comparación de su VNR con un VU calculado con un método distinto al previsto
+por la NIC 36 o por cualesquiera otras NC.
+Así, un empresario podría decidirse por la continuación del empleo de un grupo de bienes aunque el
+VU de éstos fuera inferior a su valor de cambio porque planea efectuarle mejoras que:
+a) incrementarán sus ingresos;
+b) no deben ser consideradas para el cálculo de los VR de los bienes cuando éstos se determinan
+aplicando la NIC 365.
+Se podrá argumentar que el valor de cambio resulta de una evaluación del valor de los bienes. Es
+cierto, pero:
+a) el precio que podría obtenerse por la venta de los bienes depende de las condiciones del mercado y
+no del empleo que podría darles el emisor de los estados contables;
+b) si la venta no se concreta, el valor de cambio estimado termina siendo irrelevante para el actual
+usuario de los bienes.
+1 La expresión en bastardilla fue tomada de:
+GARCÍA, Sergio, El valor recuperable de los activos, trabajo base presentado a las Jornadas Regionales 1989
+de la Federación Argentina de Consejos Profesionales de Ciencias Económicas, págs. 45-70.
+2 Idem, págs. 50-54.
+3 Impairment of assets, International Accounting Standard 36 de la IASB, ¶BCZ23
+4 Trabajo citado en la nota 1, pág. 51.
+5 NIC 36, ¶44.
+3
+
+En definitiva, la aplicación del criterio del empleo alternativo más rentable puede producir medicio-
+nes de VR que resulten incompatibles con uno de los requisitos de la información contable cuyo respeto es
+exigido por diversos MC de NC: aproximación a la realidad.
+C) EL COSTO DE REPOSICIÓN NO ES UN VALOR RECUPERABLE
+No tendría sentido que como medida límite de un activo se tomase a su costo de reposición, porque:
+a) la recuperación de los fondos invertidos en bienes se produce siempre a través de su salida;
+b) el costo de reposición no es un valor de salida (como el VR) sino un valor de entrada.
+7,3. LOS VALORES DE CAMBIO
+Cualquiera fuere el criterio aplicado para la determinación de los VR, deben considerarse y medirse
+valores de cambio y VU. A estos temas nos referimos en esta sección y en la 7,4.
+A) CONSIDERACIONES GENERALES
+Generalmente, el valor de cambio de un bien o grupo de bienes es su VNR, el cual está dado por los
+ingresos que produciría su venta menos los gastos que demanden ella y, en su caso, la puesta del activo en
+condiciones de ser vendido.
+(cid:194) En la versión modificada en 2004 de la NIC 36, la IASB se refiere al VNR con la expre-
+sión valor razonable menos costos de venta (fair value less costs to sell)6. Antes lo había hecho con
+la expresión precio neto de venta (net selling price), lo cual era inadecuado ya que el importe corres-
+pondiente a este concepto no representa un precio.
+Para que el VNR represente un valor del momento de la medición, los precios a considerar deben ser
+los de contado, netos de bonificaciones. En el poco esperable caso de que tales precios no existiesen, debería
+reemplazárselos por VD, calculados considerando:
+a) como flujo a percibir, los resultantes de considerar precios de operaciones a plazo e incobrabilida-
+des probables;
+b) como plazo: el que va desde la fecha de la medición hasta la de cobranza estimada de las referidas
+operaciones, teniendo en cuenta las moras que sean probables;
+c) como tasa de interés: una de mercado que excluya el factor riesgo, ya que éste estaría contemplado
+al estimar los flujos de fondos y sus momentos considerando probables incobrabilidades y moras.
+Si el procedimiento anterior fuera trabajoso:
+a) el flujo de las ventas podría estimarse considerando las sumas totales a cobrar y los vencimientos
+normales;
+b) como tasa de interés podría computarse una que considere los riesgos de incobrabilidad y mora.
+Si existieran opciones de compra o de venta deberían tenerse en cuenta las consideraciones que pre-
+sentamos en el § 6,4,b)2).
+B) MERCADERÍAS PARA LA VENTA
+En el caso particular de las mercaderías para la venta, puede ser necesario hacer agrupamientos y
+segmentaciones que consideren las modalidades habituales seguidas por el ente para su comercialización.
+6 NIC 36, ¶6.
+4
+
+Ejemplos:
+a) si las ventas a distribuidores tienen precios distintos de las efectuadas a otros clientes, correspon-
+dería clasificar a las existencias por destino probable y aplicar a cada grupo los VNR que corresponda;
+b) si se venden paquetes con diversas mercaderías, los VNR deberían calcularse por paquete.
+Por otra parte, parece lógico que la comparación entre las medidas contables primarias y los VR de
+las mercaderías para la venta se haga en conjunto, dentro de cada segmento de negocio, porque no siempre
+las empresas pretenden ganar con todos los productos.
+Por ejemplo, algunos supermercados venden mercaderías por debajo de su costo para atraer clientes
+que adquieran otras.
+Cuando los cálculos se efectúan por grupos de bienes se determinan desvalorizaciones iguales o infe-
+riores a las que se establecen cuando las comparaciones se hacen individualmente.
+A una fecha dada, las comparaciones entre los costos (mediciones contables primarias) de las merca-
+derías de reventa de una empresa y sus VNR son las siguientes:
+Costo
+Producto Costo VNR o VNR
+el menor
+A-1 350 340 340
+A-2 600 650 600
+Medición final resultante de la comparación:
+• Individual 940
+• Grupal 950 990 950
+7,4. LOS VALORES DE USO
+A) MEDICIÓN
+Parece haber acuerdo en considerar que los VU deberían ser medidos sobre la base del VD de los
+flujos netos de fondos que el ente obtendrá por:
+a) el empleo continuado de los bienes;
+b) su disposición, una vez que se deje de utilizarlos.
+Naturalmente, se trata de una estimación complicada y laboriosa, que requiere:
+a) el pronóstico de:
+1) los ingresos (normalmente indirectos) que resultarán del empleo de los bienes;
+2) los costos adicionales necesarios para obtener tales ingresos;
+3) los momentos en que dichos ingresos y costos tendrán efecto sobre los flujos de fondos;
+b) la elección de una tasa de interés.
+La tarea de presupuesto se complica cuando el emisor de los informes contables tiene:
+a) activos que sólo producen ingresos en conjunción con otros;
+b) activos que prestan servicios a diversos segmentos de negocios, como los afectados a la gerencia
+general.
+5
+
+La forma práctica de encarar estos temas no parece haber concitado la atención de la doctrina, aun-
+que sí de la IASB, que trata el tema en su NIC 36, sobre cuyos conceptos basaremos los desarrollos que pre-
+sentamos en el resto de esta sección.
+B) LA CUESTIÓN DEL DESCUENTO
+Se ha discutido y discute si los flujos de fondos a considerar deben tomarse por sus importes nomina-
+les o por sus VD.
+A favor de lo segundo, está el hecho de que el descuento refleja el valor tiempo del dinero (un peso
+cobrado en cierto momento no vale lo mismo que un peso percibido en otro).
+Contra el descuento está el argumento de que, siendo el VR una medición contable límite (y no un
+criterio primario de medición), la detracción de intereses puede conducir al cómputo inmediato de desvalori-
+zaciones a sabiendas de que existirá un posterior reconocimiento de ganancias (por el rendimiento futuro de
+la inversión, a la tasa de interés elegida).
+Las siguientes cifras corresponden a bienes utilizados en la actividad productiva por una empresa lo-
+calizada en un país sin inflación:
+• Medición contable primaria (costo menos depreciación acumulada): $ 700
+• Valor neto de realización: $ 720
+• Flujo neto de fondos que generará el empleo de los bienes:
+• Nominal: $ 675
+• Descontado: $ 620
+La empresa no planea vender los bienes porque espera una recuperación de los precios de las merca-
+derías que produce con ellos.
+Las cifras resultantes de aplicar los dos criterios básicos, con descuento financiero y sin él, son las
+que siguen:
+Criterio del destino Criterio del empleo
+inmediato previsible alternativo más rentable
+Conceptos Importes nominales VD Importes nominales VD
+Medición contable primaria 700 700 700 700
+Valor de cambio (VNR) 720 720 720 720
+VU 675 620 675 620
+VR 675 620 720 720
+Medición contable final 675 620 700 700
+Si la medición contable final de estos activos se llevase al VD de uso ($ 620) y la realidad posterior
+convalidase los presupuestos efectuados, el importe nominal de los futuros flujos netos de fondos sería de
+$ 675, de modo que en ejercicios posteriores se reconocería una ganancia de $ 55, como si se obtuviesen
+intereses sobre una inversión de $ 620.
+De todos modos, parece existir un consenso favorable al descuento.
+C) NIVELES DE COMPARACIÓN
+Los ingresos obtenidos gracias a las actividades de producción y venta resultan normalmente del
+empleo conjunto de activos, incluyendo a los bienes de uso y los intangibles. Cuando esto ocurre, no hay otra
+alternativa que:
+a) calcular VU por conjuntos de bienes;
+b) definir para ello un criterio de agrupamiento de activos.
+6
+
+Para la solución del problema, diversos emisores de NC adoptaron el criterio de agregar los bienes al
+nivel de unidades generadoras de efectivo (UGE), que son los agrupamientos más bajos para los cuáles existan
+flujos de fondos identificables y mayormente independientes de los generados por otros grupos de activos.
+Para la identificación de las UGE es preciso:
+a) tener en cuenta los segmentos de negocios del ente;
+b) determinar en qué medida las entradas de fondos pueden asignarse a bienes o a grupos de bienes
+específicos.
+Cuando se elaboran productos que no son vendidos sino utilizados internamente, pero existe un mer-
+cado activo para su venta, los bienes productivos podrían ser asignados a la misma UGE que los productos
+que el ente vende en ese mercado.
+Las asignaciones de activos a las UGE pueden ser dificultosas, especialmente en los casos de:
+a) los que la NIC 36 denomina activos corporativos, que son bienes de uso general, como los edifi-
+cios de la oficina principal o del centro de cómputos;
+b) cualquier plusvalía reconocida como activo.
+Para encarar este problema, parece razonable proceder así:
+a) dado un bien cuya posible desvalorización se esté tratando de medir, lo primero que se debe inten-
+tar es la determinación de su VR individual;
+b) si ello no fuera posible, debería calcularse el VR de la UGE a la cual el bien pertenece, a cuyos
+efectos:
+1) deben definirse UGE que no incluyan a los activos corporativos y a la llave de negocio;
+2) por separado, debe intentarse la asignación de los activos corporativos y de la plusvalía a
+las UGE definidas o a grupos de ellas;
+c) si la asignación indicada en b)2) fuere posible, la comparación entre las mediciones contables
+primarias y los VR debería hacerse para cada UGE, incluyendo en la medición contable de ésta a la porción
+asignada de los activos corporativos y de la llave de negocio;
+d) si tal asignación fuera imposible, deben hacerse comparaciones en dos niveles:
+1) primero para cada UGE, sin incluir en la medición contable de ésta ninguna porción asig-
+nada de los activos corporativos y de la llave;
+2) luego al nivel de la UGE más pequeña a la cual puedan asignarse la llave de negocio y los
+activos corporativos sobre una base razonable y consistente.
+Supongamos que:
+a) una empresa opera en tres UGE (A, B y C);
+b) a la fecha de los estados contables se han determinado estas cifras:
+Conceptos Medidas primarias Valores recuperables
+Bienes de uso
+Asignados a la UGE A 2.000 1.800
+Asignados a la UGE B 1.000 2.500
+Asignados a la UGE C 800 1.100
+Comunes de las UGE A y B 200
+4.000
+Plusvalía del negocio que incluye
+a las UGE A y B7 1.520
+5.520 5.400
+En este caso, primero se realiza una comparación que no incluye a los bienes de uso generales ni al
+valor llave:
+7 Esta llave podría haberse pagado con motivo de la adquisición de un negocio que incluía a las UGE A y B.
+7
+
+Conceptos Medidas Valores Medidas
+primarias recuperables resultantes
+Activos de la UGE A 2.000 1.800 1.800
+Activos de la UGE B 1.000 2.500 1.000
+Activos de la UGE C 800 1.100 800
+Activos no asignados 1.720 1.720
+5.520 5.400 5.320
+Hasta aquí, sólo se computa una desvalorización de $ 200, correspondiente a la UGE A.
+Luego, se efectúa una segunda comparación que alcanza a las UGE A y B, ya que todos los activos
+comunes corresponden al negocio que las comprende. Las medidas anteriores son resultantes de la primera
+comparación.
+Conceptos Medidas Valores Medidas
+anteriores recuperables resultantes
+Activos de la UGE A 1.800 1.800
+Activos de la UGE B 1.000 2.500
+Activos no asignados 1.720
+4.520 4.300 4.300
+En este segundo paso se computa una desvalorización de $ 220, con lo que se llega a las siguientes
+cifras:
+Conceptos Pesos
+Medida contable primaria 5.520
+Desvalorizaciones (200 + 220) -420
+Medida contable final 5.100
+La medida contable final corresponde a esta suma:
+Conceptos Pesos
+Valor recuperable de los bienes vinculados
+con las UGE A y B. Incluyendo los bienes corporativos 4.300
+Medida contable primaria de los bienes asignados
+a la UGE C 800
+5.100
+Las UGE definidas deberían mantenerse mientras no se justifique lo contrario.
+D) ESTIMACIÓN DE LOS FLUJOS DE FONDOS8
+La forma de estimar los fondos debe ser coherente con el tipo de tasa de interés empleada para el
+descuento. En consecuencia, las proyecciones deben expresarse:
+a) en términos nominales cuando la tasa de interés incluye los efectos de la inflación futura;
+b) en moneda de la fecha de los estados contables, en el caso contrario.
+Las estimaciones deben basarse en premisas razonables y defendibles, que representen la mejor es-
+timación que la administración del ente pueda hacer de las condiciones económicas que existirán durante la
+vida útil de los activos. A las evidencias externas debe dárseles mayor peso que a las internas.
+Para su preparación debería considerase la condición actual de los activos, excluyendo el efecto que
+sobre los flujos de fondos puedan tener las mejoras que todavía no se han efectuado o las reestructuraciones
+que todavía no se han decidido.
+8 El contenido de esta sección se basa principalmente en las propuestas contenidas en los ¶¶30-57 de la NIC 36, a las
+que consideramos adecuadas.
+8
+
+Para la IASB, las proyecciones deberían basarse en los presupuestos financieros más recientes, den-
+tro de los aprobados por la administración del ente, previa exclusión de los efectos de las mejoras y reestruc-
+turaciones referidas en el párrafo anterior. Este requerimiento parece innecesario teniendo en cuenta que
+dicha administración es responsable por la totalidad del contenido de los estados contables. Suponemos que
+se lo ha incluido para fomentar un mayor compromiso de dicha administración con la determinación de la
+información contable.
+Por otra parte, podría ocurrir que:
+a) los presupuestos aprobados hubiesen sido preparados sobre bases inconsistentes con los requeri-
+mientos de las NC que corresponda aplicar en el caso; o
+b) después de su aprobación hubieran aparecido evidencias de su falta de calidad.
+En estos casos, y a los efectos de la determinación de los VR:
+a) los pronósticos anteriores deberían ser ignorados;
+b) deberían prepararse nuevos presupuestos;
+c) si las NC del caso lo requiriesen, éstos deberían ser sometidos a la aprobación de la administración
+del ente.
+La IASB también considera que:
+a) siendo poco frecuente que pueda contarse con presupuestos que cubran lapsos superiores a cinco
+años y sean confiables, las estimaciones deberían basarse en pronósticos que no se extiendan más allá de ese
+período, a menos que pueda justificarse el empleo de uno más largo9;
+b) los flujos de fondos correspondientes a la parte del período total de las estimaciones que no estén
+cubiertas por los presupuestos oficiales deberían estimarse por extrapolación, para lo cual debería usarse una
+tasa de crecimiento que:
+1) sea estable (igual a cero) o declinante (negativa), a menos que pueda justificarse el empleo
+de una tasa creciente;
+2) no supere a la tasa promedio de crecimiento en el largo plazo para los productos, indus-
+trias o países en que el ente opera o para el mercado en el cual se emplean los activos, salvo que el uso de
+una tasa mayor pueda justificarse.
+El empleo de una tasa de crecimiento estable o negativa es prudente porque los buenos negocios es-
+timulan la aparición de competidores y esto restringe el crecimiento del emisor de los estados contables. La
+justificación del empleo de una tasa creciente es mencionada por la IASB en relación con las extrapolaciones
+pero hace también a la preparación de los presupuestos oficiales que se utilicen como base para los cálculos
+de los VR, por aplicación del criterio general de que éstos se basen en premisas razonables y defendibles que
+consideren las condiciones económicas que se presentarán durante la vida útil remanente de los activos.
+Los flujos de fondos incorporados al presupuesto deberían incluir:
+a) las entradas atribuibles al uso continuo de los activos;
+b) las salidas de fondos necesarias para la obtención de tales entradas, que puedan ser atribuidas a
+esos activos sobre bases razonables y consistentes, incluyendo las que sean necesarias para que los activos
+comiencen a producir ingresos;
+c) los flujos netos de fondos a ser recibidos o pagados con motivo de la disposición de los activos.
+Como la evaluación de los VR se refiere a la condición actual de los activos, no deben incluirse (ya
+lo mencionamos):
+a) los desembolsos futuros que se hagan para mejorar su capacidad de servicio;
+b) los efectos de reestructuraciones futuras que aun no hayan sido decididas.
+Tampoco deben computarse los flujos de fondos originados por:
+9 NIC 36, ¶35.
+9
+
+a) los resultados de actividades financieras, por cuanto:
+1) deben estar consideradas en los descuentos de los flujos de fondos; o
+2) son independientes de los activos bajo evaluación;
+b) las futuras cancelaciones de pasivos que a la fecha de la estimación han sido reconocidos como ta-
+les y ya han reducido, por lo tanto, el patrimonio neto contable;
+c) los pagos o recuperos del impuesto a las ganancias.
+Para que las estimaciones de los efectos financieros de las ventas y compras consideradas10 sean más
+objetivas, es mejor considerar precios de contado correspondientes a la fecha de la medición. En concordancia:
+a) los flujos de fondos en monedas distintas a la de presentación de los estados contables deberían ser
+convertidos utilizando un tipo de cambio adecuado que corresponda a la misma fecha;
+b) para el descuento de los flujos de fondos debería usarse una tasa de interés que no contenga com-
+ponentes inflacionarios.
+La estimación objetiva de los precios futuros es más difícil. Si se decidiera utilizarlos –ya lo dijimos–
+la tasa de descuento debería incluir la correspondiente cobertura contra la inflación.
+E) TASA DE INTERÉS PARA EL CÁLCULO DE LOS VALORES DESCONTADOS
+Esta tasa debería reflejar:
+a) las evaluaciones que el mercado hace del valor tiempo del dinero;
+b) los riesgos que sean inherentes a los activos y no hayan sido considerados al estimar el flujo de
+fondos.
+La tasa debe corresponder a la fecha de la estimación porque forma parte del contexto económico
+dentro del cual se practica el cálculo del VR. Esto implica que para la estimación de un VU a una fecha dada
+debe prescindirse de la tasa empleada en el cálculo anterior.
+7,5. POSIBLE CONSIDERACIÓN DE UN “VALOR DE USO SIN DESCONTAR”
+Algunas NC permiten que la comparación entre la medida contable primaria de un activo (o grupo) y
+su correspondiente VR se omita cuando la primera está por debajo del importe que resulta de aplicar las re-
+glas para el cálculo de los VU pero omitiendo el descuento financiero de los flujos de fondos esperados.
+(cid:194) En su versión de la RT 17, el CPCECABA caracteriza al resultado de este procedimiento
+como un valor de uso sin descontar11, expresión que es inadecuada porque no hace referencia a nin-
+gún valor.
+De acuerdo con esta idea, la comparación con el VU sólo se haría si la medida contable primaria es-
+tuviese por encima de su VNR12 y del valor de uso sin descontar. Los pasos requeridos por la aplicación de
+las NC que permiten la consideración de este seudo valor son los que resumimos en el esquema siguiente,
+donde empleamos esta simbología, referida a medidas monetarias del bien o grupo de bienes:
+MCP: medida contable primaria;
+MCF: medida contable final del bien;
+VNR: valor neto de realización;
+10 Ventas de los propios bienes y de los que se producirán empleándolos; compras de los insumos necesarios para obte-
+nerlos ingresos.
+11 Normas contables profesionales: desarrollo de cuestiones de aplicación general, resolución técnica 17 de la
+FACPCE (versión CPCECABA), segunda parte, sección 4.4.2.
+12 Si el VNR superase a la medida contable primaria, el VR también lo haría, pues su límite mínimo es dicho VNR.
+10
+
+La aplicación del criterio comentado es irrazonable porque:
+a) requiere una comparación con un concepto (el valor de uso sin descontar) que:
+1) no hace a la definición del VU ni de ningún otro valor;
+2) está vacío de contenido;
+b) desconoce el valor tiempo del dinero;
+c) facilita la ocultación de pérdidas por desvalorización;
+d) puede hacer que un cambio pequeño en la medida contable primaria o en el VU sin descontar mo-
+tive el reconocimiento de una desvalorización mucho mayor.
+Supongamos que una empresa posee bienes de uso que planea seguir utilizando y a los cuales, a la
+fecha de los estados contables, les corresponden estos importes:
+a) medida contable primaria (costo histórico menos la depreciación acumulada calculada sobre su
+base): $ 100;
+b) suma de los importes no descontados de los futuros flujos netos de fondos que pueden obtenerse
+mediante el empleo de esos bienes: $ 101;
+c) valor de uso (suma de los importes descontados de los mismos flujos de fondos): $ 83;
+d) valor de cambio (VNR): $ 80.
+Aplicando los criterios generales (basados en el criterio del empleo alternativo más rentable de los
+bienes) debe computarse una desvalorización de $ 17, por cuanto:
+a) el VR de los bienes es el importe mayor entre su VNR ($ 80) y su VU ($ 83);
+b) dicho valor recuperable ($ 83) es inferior a la medida contable primaria del bien ($ 100) en $ 17.
+Con el criterio bajo análisis se procedería así:
+a) como el VNR ($ 80) es inferior a la medida contable primaria ($ 100) se compara a esta última
+con el valor de uso sin descontar;
+b) como este último ($ 101) supera a la medida contable primaria ($ 100), se omite la comparación
+con el VU y no se reconoce la desvalorización del bien.
+11
+
+Ahora bien, si la medición contable primaria fuera solamente $ 2 más alta:
+a) la medida contable primaria sería de $ 102 y superaría tanto al valor de uso sin descontar ($ 101)
+como al VR ($ 83);
+b) se efectuaría la comparación con el VR ($ 83), se rebajaría la medida contable de los bienes a este
+importe y se computaría una desvalorización de $ 19 (la diferencia entre la medida contable primaria y el VR).
+7,6. VALORES RECUPERABLES NEGATIVOS
+Nada impide que un VR sea negativo, en cuyo caso debería reconocerse un pasivo.
+Sucedería, por ejemplo, si:
+a) se hubiese resuelto discontinuar de inmediato el empleo de un bien;
+b) la venta del bien debiera estar precedida por su desinstalación;
+c) el costo de la desinstalación fuera superior al precio de venta del bien.
+7,7. VALORES RECUPERABLES DE LOS PRINCIPALES ACTIVOS
+Seguidamente presentaremos nuestras ideas sobre la forma de determinar los VR de los principales
+activos.
+Lo haremos sin pretender la cobertura total del tema y aplicando el criterio del destino inmediato
+previsible, que es el que consideramos adecuado.
+Cuando se apliquen NC basadas en el criterio del empleo alternativo más rentable deberán definirse
+criterios de determinación de los VU a ser comparados con los de valores de cambio y viceversa.
+A) BIENES FÁCILMENTE COMERCIALIZABLES
+Dadas las características de estos bienes, su VR es su VNR, que debería coincidir con su VC, de mo-
+do que remitimos al lector a lo expuesto en el § 6,4,b).
+B) DERECHOS A RECIBIR MONEDA
+También en estos casos, el VR de estos activos debería coincidir con su VC, a cuya medición nos re-
+ferimos en los §§ 6,4,c) y d).
+C) DERECHOS A RECIBIR COSAS O SERVICIOS
+Por razones obvias, los VR de los créditos no liquidables en dinero deberían medirse aplicando los
+mismos procedimientos que se empleen para la medición de los VR de los bienes o servicios a recibir.
+D) OPCIONES
+Si una opción con cotización califica como bien fácilmente comercializable, le son aplicables las
+consideraciones que presentamos en el § a): debería computarse a su VNR, cuyo cálculo sólo ofrece proble-
+mas cuando el último precio de la opción no es de la fecha de cierre o no es representativo, en cuyo caso
+debería estimarse un precio teórico basado en el último precio real conocido y en algún modelo matemático
+de fijación de precios, como el de Black y Scholes.
+Cuando la opción no tiene cotización, su VR debería ser estimado, recurriendo (también en este caso) a
+modelos matemáticos. Si esto fuera imposible, no existiría, para este activo, un VR objetivamente determinable.
+12
+
+E) BIENES DE CAMBIO EN GENERAL
+El VR de las mercaderías listas para la venta (productos terminados y mercaderías de reventa) es su VNR.
+En cambio, el VR de las materias primas, materiales y productos en proceso está dado por su VU.
+Estos activos deberán ser asignados a alguna UGE.
+F) INVERSIONES ESPECULATIVAS
+Cuando un bien se adquiere como inversión (ajena a la actividad principal) con el propósito de especu-
+lar con sus cambios de precios, su destino final es la venta. Por lo tanto, como VR debería tomarse su VNR.
+G) BIENES DE USO (PROPIEDAD, PLANTA Y EQUIPO)
+Normalmente, el VR de los bienes de uso será su VU. Si los activos se hubieran retirado del servicio
+(en cuyo caso ya no serían bienes de uso), como VR debería tomarse su VNR.
+H) ACTIVOS ENTREGADOS EN ALQUILER
+Como VR de estos bienes tendría que considerarse su VU, cuyo cálculo debería ser mucho más sen-
+cillo que el de los bienes de uso, ya que los ingresos por alquileres y los costos necesarios para obtenerlos
+son de fácil estimación.
+I) BIENES INTANGIBLES
+A los fines de determinar su VR, los intangibles utilizados en la operación normal del ente deberían
+tratarse junto con los bienes de uso. Esto incluye a la llave de negocio.
+Como VR de los intangibles generadores de rentas (como una patente usada por un tercero que paga
+regalías) debería tomarse su VU.
+Como VR de los intangibles adquiridos con fines de especulación debería tomarse su VNR.
+I) PARTICIPACIONES EN OTROS ENTES
+Como VR de las participaciones en otros entes debería tomarse:
+a) su VU, si se las mantuviera para obtener rentas;
+b) su VNR si existiera la intención de venderlas en el corto plazo.
+Hay quienes piensan que como estimación del VR de una participación en otro ente podría tomarse
+su valor patrimonial proporcional (VPP). No es así porque el VPP resulta de aplicar algún porcentaje a la
+participación del inversor en el patrimonio de la empresa del caso, pero es sabido que un patrimonio contable
+no necesariamente representa el valor de la empresa.
+No obstante, si el VPP de una inversión contabilizada al costo estuviera por debajo de su medida
+contable primaria, debería estudiarse si existe una desvalorización. En caso de duda, sería prudente reducir la
+medición contable de esa inversión a su VPP, aunque éste no sea una VR.
+7,8. FRECUENCIA DE LAS COMPARACIONES
+Por lo que hemos visto, la determinación de los VNR es relativamente simple pero la de los VU re-
+quiere el empleo de presupuestos cuya preparación puede ser complicada y trabajosa. Se plantea entonces un
+problema de costo-beneficio de la información, pues es lógico esperar que:
+13
+
+a) los usuarios de estados contables quieran que ningún activo de ningún ente aparezca, en ellos, por
+encima de su VR;
+b) los emisores de tales documentos quieran disminuir los costos de su preparación, que se ven afec-
+tados por la determinación de los VR.
+Pensamos que una solución práctica al problema consiste en:
+a) exigir siempre la determinación de los VR de los activos destinados a la venta y las cuentas por
+cobrar, pues:
+1) los cálculos necesarios son poco engorrosos;
+2) en el caso de las cuentas por cobrar, la preparación de presupuestos de cobranzas es nece-
+saria para el planeamiento financiero, de modo que el cálculo de VR tendría un costo marginal pequeño;
+b) requerirlo para los bienes destinados al uso sólo cuando existan elementos de juicio evidentes que
+permitan suponer que podría haber ocurrido una desvalorización.
+Las NC suelen ser más flexibles, ampliando la lista de activos para los cuales el cálculo del VR sólo
+es obligatorio cuando hay indicios de desvalorizaciones.
+(cid:194) Nos referiremos a ellos en los capítulos pertinentes de Contabilidad Superior, cuya quinta
+edición esperamos ver publicada en 2005.
+7,9. PÉRDIDAS POR DESVALORIZACIÓN
+Cuando el VR de un bien o de un grupo de bienes es inferior a su medición contable primaria, debe
+reconocerse una pérdida por desvalorización.
+Todas las pérdidas por desvalorización deberían imputarse al resultado del período en que se las re-
+conoce, tal como se hace con los resultados de tenencia puestos en evidencia por la aplicación de VC.
+(cid:194) Nos referimos al tratamiento contable de los resultados de tenencia en el § 6,6,b).
+Sin embargo, este criterio admite una excepción cuando:
+a) la medida contable del bien desvalorizado fue anteriormente aumentada con motivo de una o más
+revaluaciones;
+b) por así exigirlo o admitirlo las NC aplicables al caso, el mayor valor puesto en evidencia por la
+revaluación no fue incluido en el resultado del período en que se originó y fue diferido en un rubro especial
+de patrimonio.
+En este caso, la pérdida por la desvalorización de los bienes previamente revaluados debe imputarse
+al referido rubro especial de patrimonio, con el límite de las revalorizaciones no reconocidas previamente en
+resultados. Esto, para mantener coherencia: si antes no se reconoció una ganancia, ahora no debe reconocerse
+una pérdida que la revierte.
+En los estados contables, la pérdida neta debería desagregarse entre:
+a) el importe de la desvalorización;
+b) el importe desafectado del rubro especial de patrimonio.
+Ejemplo
+En un país sin inflación, un terreno fue adquirido en $ 1.200 en 1995 y revaluado a $ 1.400 en 1997.
+El mayor valor de $ 200 fue acreditado a una cuenta de patrimonio denominada saldo por revalúo.
+En 2004, después de una inundación, se determina que el VR del terreno es $ 1.100. De los $ 300 de
+desvalorización, $ 200 se imputan al saldo por revalúo y $ 100 al resultado del período. En el estado de re-
+sultados o en una nota a los estados contables debería informarse que el importe de $ 100 es el neto entre la
+desvalorización del período ($ 300) y la desafectación del saldo por revalúo ($ 200).
+14
+
+Cuando las desvalorizaciones no se calculan para bienes individuales sino por UGE, se plantea el
+problema adicional de asignarlas a los activos correspondientes. Un arbitrio que parece razonable es el pre-
+visto por la NIC 36:
+a) en primer lugar, se reduce la medición contable de la plusvalía asignada a la UGE;
+b) de quedar un remanente, se lo prorratea entre los restantes bienes de la unidad en proporción a sus
+mediciones contables (las anteriores al cómputo de la desvalorización), pero de manera que ningún activo
+quede:
+1) por debajo de su VNR, si pudiera determinárselo; ni
+2) por debajo de su VU (en el mismo caso); ni
+3) con valor nulo,
+lo que puede obligar a efectuar prorrateos adicionales de las pérdidas que (por respetarse los límites recién
+indicados) no se hubieran asignado en la primera vuelta13.
+El hecho de que la medida contable de un bien o de un grupo de ellos se haya reducido con motivo
+de una desvalorización no cambia su costo (que fue determinado en algún momento anterior). Sin embargo,
+hay NC que aplican el criterio opuesto, que nos parece inadecuado.
+7,10. REVERSIONES DE PÉRDIDAS POR DESVALORIZACIÓN
+Las posteriores comparaciones entre VR y mediciones contables primarias pueden poner en eviden-
+cia recuperos totales o parciales de desvalorizaciones oportunamente contabilizadas.
+En principio, estas reversiones deberían ser tratadas de modo de deshacer (hasta donde corresponda)
+los efectos contables de las anteriores desvalorizaciones.
+Continuemos con el caso anterior y supongamos que a final de 2005 se practica un nuevo cálculo del
+VR del terreno y el importe obtenido se compara con la medida contable determinada en 2004 ($ 1.100),
+luego de computarse una desvalorización.
+Si dicho VR fuera de $ 1.130, la diferencia de $ 30 se reconocería como resultado del ejercicio.
+Si, en cambio, fuese de $ 1.270, sólo se reconocerían en resultados los $ 100 que en el ejercicio ante-
+rior se tomaron como pérdida. Con el resto de la diferencia ($ 70) se reconstituiría parcialmente el saldo de
+revalúo, que de este modo reflejaría la diferencia entre la nueva medida contable del terreno ($ 1.270) y su
+costo ($ 1.200).
+Si el nuevo VR del terreno fuera de $ 1.500, su medida contable se elevaría hasta $ 1.400 (por ser és-
+te el importe surgido del revalúo anterior), se reconocerían en resultados $ 100 y se reconstituiría totalmente
+el saldo de revalúo antes disminuido ($ 200).
+Sin embargo, debe prestarse una atención especial respecto de las plusvalías, porque es difícil distin-
+guir entre:
+a) la reversión de la desvalorización anterior de una llave; y
+b) la creación de una nueva, ocasionado por un gerenciamiento eficaz.
+Para encarar el tema hay no menos de dos enfoques. Uno, que aparece en la NIC 36 actual, consiste
+en prohibir la reversión de desvalorizaciones de plusvalías, en cuyo caso el importe recuperado se prorratea
+entre los demás activos de la UGE correspondiente14.
+Otro enfoque consiste en admitir la reversión de la desvalorización de la llave únicamente cuando se
+cumplen determinadas y rigurosas condiciones. Así, en una versión anterior de la NIC 36 y en la actual de la
+RT 17 se establece que tal desvalorización sólo puede ser revertida si:
+a) fue causada por un hecho específico, no controlable por la empresa y de naturaleza excepcional
+cuya repetición no se espera15; y
+13 NIC 36, ¶¶104-105. No logramos imaginar un caso en que un bien quede con una medida contable nula sin que al
+resto de la UGE al cual dicho activo pertenece le ocurra lo mismo.
+14 NIC 36, ¶¶ 122 y 124
+15
+
+b) los efectos de ese hecho fueron revertidos por acontecimientos externos posteriores16.
+En estos casos, los recuperos se asignan primero a los activos distintos a la plusvalía y luego a ésta.
+Cualquiera fuere el criterio seguido respecto de la reversión de la desvalorización de la llave:
+a) los recuperos se imputan al resultado del período, excepto en la medida en que correspondan a
+bienes previamente revaluados, en cuyo caso debería reconstituirse el pertinente saldo de revalúo para que
+refleje el importe que tendría si nunca se hubiera reconocido una desvalorización;
+b) ningún bien debería quedar con una medida contable superior al importe que sea menor entre:
+1) la medida contable que habría tenido si nunca se hubiese reconocido una pérdida por des-
+valorización; y
+2) su VR.
+7,11. EFECTOS POSTERIORES DE LAS PÉRDIDAS POR DESVALORIZACIÓN
+Y SUS REVERSIONES
+Las medidas contables resultantes de una desvalorización o de la reversión total o parcial de ésta deben
+tomarse en cuenta para calcular las depreciaciones futuras y los resultados de las bajas y ventas de los bienes.
+7,12. LOS COSTOS DE CANCELACIÓN
+El costo de cancelación de un pasivo resulta de sumar los VC de los activos que el ente debería des-
+prenderse para librarse de su obligación.
+(cid:194) En los pronunciamientos de la IASB y la FASB se habla de valor razonable (fair value)
+de los pasivos, haciendo referencia a su costo de cancelación. No nos parece una terminología ade-
+cuada, porque el valor es, en el lenguaje común, un atributo de los activos pero no de los pasivos.
+A) OBLIGACIONES DE ENTREGAR MONEDA
+El costo de cancelación de estas obligaciones está dado por la suma que el acreedor aceptaría, a la
+fecha de la medición contable, para renunciar a su derecho. Si el acreedor no aceptase pagos anticipados (o
+los admitiese pero sin reducciones) el costo de cancelación debería ser estimado mediante el descuento fi-
+nanciero de las sumas a pagar, utilizando una tasa de interés que sea representativa del costo habitual de fi-
+nanciación del ente.
+Si las deudas estuviesen nominadas en moneda extranjera o tuviesen cotización en ella, el criterio in-
+dicado debería aplicarse sobre los importes medidos en esa moneda, y el resultado final debería convertirse a
+la moneda en que se expresa la información contable de acuerdo con el tipo de cambio de la fecha a la cual
+corresponda dicha información.
+B) OBLIGACIONES DE ENTREGAR COSAS O DE PRESTAR SERVICIOS
+En estos casos deben considerarse:
+a) los VC de los activos a entregar;
+b) los VD de las erogaciones adicionales que fueren necesarias para liberarse de la obligación, como:
+1) los de poner a disposición del acreedor los activos a entregar;
+2) los de la mano de obra y los impuestos relacionados, cuando la obligación consista en pres-
+tar un servicio.
+15 Por ejemplo, la sanción de normas legales que prohíben o limitan la actividad a la que la llave se refiere.
+16 NIC 36 de 1998, ¶¶ 109 y 112 y RT 17, punto 4.4.7.
+16
+
+Para el descuento financiero de las erogaciones referidas en b) podría emplearse la misma tasa usada
+para la generalidad de los pasivos. De hecho, este tema no ha sido objeto de tratamiento profundo por la doc-
+trina, de modo que podría existir un criterio mejor.
+7,13. APLICACIONES CONTABLES DE LOS COSTOS DE CANCELACIÓN
+Como dijimos al principio de este capítulo, los costos de cancelación de obligaciones deberían to-
+marse como límite para la medición contable de pasivos, de manera que ninguno sea medido por debajo del
+costo de cancelación.
+Los costos de cancelación sólo deberían tomarse como criterios primarios de medición por razones
+de consistencia con los criterios primarios empleados para la medición contable de los activos.
+Ejemplo: si la medición contable de las mercaderías en existencia tuviera que hacerse a sus costos de
+reposición, el mismo criterio debería aplicarse para la medición contable de los pasivos por anticipos de
+clientes que obligan a la entrega de parte de esas mercaderías.
+Fuera de tales casos, los costos de cancelación no deben utilizarse como criterios primarios de medi-
+ción, pues ello llevaría al cómputo anticipado de resultados que aun no han sido ganados.
+Ejemplo: si se recibiera el precio de una obra a construir y la medición contable del anticipo se efec-
+tuara sobre la base del costo a incurrir para ejecutar la obra, se estaría tomando de inmediato la ganancia total
+por la construcción, a pesar de que esta actividad (que es una parte sustancial del proceso de generación de
+resultados) ni siquiera habría comenzado.
+7,14. RESUMEN
+Los VR y los costos de cancelación marcan los límites de las medidas contables asignables a los ac-
+tivos y los pasivos, respectivamente. En consecuencia:
+a) los activos deberían ser medidos por el importe que sea menor entre su medición primaria y su VR;
+b) los pasivos deberían ser medidos por el importe que sea mayor entre su medición primaria y su
+costo de cancelación.
+Parece obvio que el VR de un bien o de un grupo de bienes está dado por lo que se obtendría por su
+venta (valor de cambio) o por su utilización (VU) de acuerdo con el destino inmediato previsible de los bienes.
+Sin embargo, algunas NC han adoptado el criterio de que el VR de un bien o conjunto de bienes es el
+mayor importe entre su valor de cambio y su VU, dando así consideración a su empleo alternativo más ren-
+table. La aplicación de este criterio puede dar lugar a mediciones de VR alejadas de la realidad por estar
+basadas en hechos puramente imaginarios, como una venta hipotética que no se corresponda con ninguna
+decisión realmente tomada.
+Cualquiera fuere el criterio aplicado para la determinación de los VR, deben considerarse y medirse
+valores de cambio y VU.
+El valor de cambio de un bien o grupo de bienes es su VNR.
+Parece haber acuerdo en considerar que los VU deberían ser medidos sobre la base del VD de los
+flujos netos de fondos que el ente obtendrá por:
+a) el empleo continuado de los bienes;
+b) su disposición, una vez que se deje de utilizarlos.
+A la fecha, parece existir un consenso favorable al descuento financiero de dichos flujos, lo que per-
+mite reflejar al efecto tiempo, que hace que un peso a ser cobrado en cierto momento no valga lo mismo que
+un peso a ser percibido en otro. Un argumento contrario a ese criterio es que siendo el VR un valor límite (y
+no un criterio primario de medición), la detracción de intereses podría dar como resultado el cómputo inme-
+diato de desvalorizaciones a sabiendas de que existirá un posterior reconocimiento de ganancias.
+17
+
+Como muchos bienes sólo generan fondos cuando se los emplea en conjunto, hay que buscar algún
+criterio para su agrupamiento. El que ha ganado predicamento es el de agregar los activos al nivel más bajo
+para el cual existen flujos de fondos identificables y mayormente independientes de los generados por otros
+grupos de activos (unidades generadoras de efectivo).
+Para el cálculo de los VU consideramos adecuadas las normas de la NIC 36.
+No es razonable que la comparación con VU se omita por el hecho de que la medición contable pri-
+maria esté por debajo de la suma algebraica no descontada de los futuros flujos de fondos, que algunos de-
+nominan valor de uso sin descontar.
+En el marco de la aplicación del criterio del destino inmediato previsible, las comparaciones con va-
+lores de cambio deberían requerirse siempre, pero la de los VU (más complejas y costosas) sólo deberían ser
+exigidas cuando existan elementos de juicio que permitan suponer que podría haber ocurrido una desvalori-
+zación.
+Si un VR fuera negativo, debería reconocerse un pasivo.
+En principio, todas las pérdidas por desvalorización deberían imputarse al resultado del período en
+que se las reconoce. Sin embargo, las que reviertan ganancias diferidas en cuentas especiales de patrimonio
+deberían ser imputadas contra ellas. Para la asignación de las pérdidas a activos individuales, debe adoptarse
+algún arbitrio. Los de la NIC 36 nos parecen razonables.
+Los recuperos de desvalorizaciones puestos en evidencia por nuevas comparaciones entre VR y me-
+diciones primarias deberían ser tratados de modo de deshacer los efectos de las primeras. Discrepamos con
+quienes opinan que cuando se reduce la medición contable de un activo o un grupo de ellos a su VR se está
+determinando un nuevo costo, a ser considerado como tal a los efectos futuros.
+El costo de cancelación de un pasivo resulta de sumar los VC de los activos que el ente debería des-
+prenderse para librarse de su obligación.
+En el caso de obligaciones en moneda, podría ser imposible determinar las sumas que el acreedor
+exigiría para libertar al ente de su deuda. En ese caso, el costo de cancelación podría ser estimado como el
+VD de los pagos a efectuar, empleando una tasa de interés que refleje el costo normal de financiación del
+ente.
+El costo de cancelación de las obligaciones de entregar cosas o prestar servicios resulta de considerar:
+a) los VC de los activos a entregar;
+b) los valores descontados de las erogaciones adicionales que sean necesarias para liberarse de la
+obligación.
+Los costos de cancelación sólo deberían tomarse como criterios primarios de medición por razones
+de consistencia con los criterios primarios empleados para la medición contable de los activos. No debe
+hacérselo cuando ello lleve al cómputo anticipado de resultados que aun no han sido ganados.
+7,15. PREGUNTAS Y EJERCICIOS
+1. Indique si las siguientes afirmaciones son correctas o incorrectas. Para que una aseveración sea co-
+rrecta debe serlo totalmente.
+a) La medición contable de los activos debería practicarse a su VR.
+b) La medición contable de los pasivos en especie no debería superar a su costo de cancelación.
+c) Las NC requieren que el VR de un bien o de un grupo de bienes sea determinado sobre la base de
+su empleo alternativo más rentable.
+d) Hay acuerdo en considerar que el valor de cambio de un bien o grupo de bienes es su VNR, que
+en general resulta de considerarlos ingresos que produciría su venta menos los gastos que ella ocasione.
+e) La medida contable final de mercaderías para la venta es más baja cuando la comparación con los
+correspondientes VR se hace bien por bien que cuando se la hace por grupos de bienes.
+f) El descuento refleja el efecto tiempo, que hace que un peso a ser cobrado en cierto momento no
+valga lo mismo que un peso a ser percibido en otro.
+g) Por razones de costo-beneficio, es aceptable que las comparaciones con VU sean menos frecuen-
+tes que las efectuadas con valores de cambio.
+2. Enuncie los atributos que podrían servir como base para la medición contable primaria de los activos.
+18
+
+3. Enuncie el concepto de VR.
+4. Enuncie al menos un argumento a favor y otro en contra del descuento financiero de los flujos de
+fondos en la determinación de los VU.
+5. Enuncie el concepto de unidad generadora de efectivo.
+6. Indique qué flujos de fondos deberían considerarse para calcular el VU de un conjunto de bienes
+afectados a la explotación.
+7. Enuncie el concepto de costo de cancelación.
+8. Mirador S.A. vende una mercadería bajo las siguientes condiciones:
+a) precio, pagadero a los 30 días: $ 1.000;
+b) descuento por pago a los 20 días: 1%;
+c) descuento por pago a los 10 días: 2%;
+d) descuento por pago inmediato: 3%;
+e) bonificación por compras superiores a 144 unidades: 10% sobre el precio.
+La empresa posee 600 unidades en existencia y la experiencia indica que el 40 % de las unidades se
+venden con la bonificación indicada.
+Los gastos de comercialización se estiman en un 5% de las ventas. Calcule el VR de las mercaderías.
+9. Indique cuál debería ser la medición contable final de los activos de Titus S.A. que se indican en
+el planteo 8 del capítulo anterior.
+7,16. SOLUCIONES PROPUESTAS A LAS PREGUNTAS Y EJERCICIOS
+1. a) Incorrecto. EIVR debe tomarse como límite, no como criterio primario de medición.
+b) Incorrecto. No debería ser inferior.
+c) Correcto, para la Argentina (es lo que establece la RT 17).
+d) Correcto.
+e) Incorrecto. Puede ser más baja o igual.
+f) Correcto.
+g) Correcto.
+2. Son:
+a) su costo histórico (ajustado por inflación, cuando los estados contables se presentan en moneda
+de poder adquisitivo de la fecha a la cual corresponden);
+b) su costo de reposición;
+c) su VNR;
+d) los VD de los flujos netos de fondos a percibir por su cobranza, venta o utilización;
+e) en los casos de participaciones en otros activos, el porcentaje de ellas sobre las medidas conta-
+bles de dichos bienes.
+3. En nuestra opinión, el VR de un bien o de un grupo de bienes está dado por lo que se obtendría
+por su venta (valor de cambio) o por su utilización (VU) de acuerdo con el destino inmediato previsible de
+los bienes. Otras personas y algunos emisores de normas consideran que debe tomarse el mayor importe
+entre los dos indicados, sin que tenga importancia el destino real de los bienes.
+4. A favor: se considera el efecto tiempo. En contra: el descuento puede llevar al cómputo de desva-
+lorizaciones en el período corriente que se verán compensadas con ganancias en períodos futuros.
+5. Es el nivel más bajo de agrupamiento de activos para el cual existen flujos de fondos identificables
+y mayormente independientes de los generados por otros grupos de activos
+6. Deberían considerarse:
+a) las entradas atribuibles al uso continuo de los activos;
+b) las salidas de fondos necesarias para la obtención de tales entradas, que puedan ser atribuidas a
+esos activos sobre bases razonables y consistentes;
+c) los flujos netos de fondos a ser recibidos o pagados con motivo de la disposición de los activos.
+7. El costo de cancelación de un pasivo resulta de sumar los VC de los activos de los que el deudor
+debería desprenderse para librarse de su obligación.
+8. De la existencia total (600 unidades) deben tratarse por separado el 40% (240 unidades) sujeto a la
+bonificación y el 6 % restante (360 unidades).
+En ambos casos debe tomarse el precio de contado:
+19
+
+1.000 (1 - 0,03) = 970
+y deducirle los gastos estimados de venta:
+970 x (1 - 0,05) =921,50
+El VR de las mercaderías sujetas a bonificación es:
+240 x 921,50 (1 - 0,10) = 199.044
+Y el de las no sujetas a bonificación:
+360 x 921,50 = 331.740
+Luego, el VR total es:
+199.044 + 331.740 = 530.784
+9. En el caso de la moneda extranjera, su VC ($ 75 por unidad, que es el importe más alto que podría
+obtenerse por su venta) coincide con su VR. Por lo tanto, su medición contable final es:
+100 x 75 = 7.500
+En el caso de las mercaderías para la venta, su VC (antes de considerar el límite del VR) es su costo
+de reposición:
+Televisores (10 x 60.000) 600.000
+Grabadores (20 x 11.000) 220.000
+Total 820.000
+Los correspondientes VNR surgen de considerar los precios de contado, reducidos por el 15% de
+gastos de venta:
+Televisores [10 x 72.000 x (1 - 0,15)] 612.000
+Grabadores [20 x 11.700 x (1 - 0,15)] 198.900
+Total 810.900
+Haciendo la comparación para el total de las mercaderías, se llega a la medición contable final de
+$ 810.900, que es el importe correspondiente al VNR conjunto, inferior al costo de reposición conjunto
+($ 820.000).
+Si la comparación se hiciera bien por bien (criterio que no compartimos), la medición contable final
+sería:
+600.000 + 198.900 = 798.900
+El terreno no ha sido aun afectado a la construcción de la planta, de modo que como VR puede to-
+marse su VC, que se estima tomando el último precio y agregándole el 20% de incremento del índice de pre-
+cios específico de los terrenos:
+1.000.000 x (1 + 0,20) = 1.200.000
+20

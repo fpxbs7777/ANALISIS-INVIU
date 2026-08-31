@@ -1,0 +1,1402 @@
+Cálculo financiero aplicado
+(Un enfoque profesional)
+Guillermo López Dumrauf
+Editorial La Ley
+2da. ed., actualizada y ampliada,
+Buenos Aires, 2006
+ISBN 987-03-0882-1
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 2. INTERÉS SIMPLE
+“La mayoría de las ideas fundamentales de la
+ciencia son esencialmente sencillas y, por regla
+general, pueden ser expresadas en un lenguaje
+comprensible para todos”
+Albert Einstein (1879-1955). Físico alemán
+INTRODUCCIÓN
+En el contexto del cálculo financiero, es posible hablar de dos tipos de régimen: simple y compuesto.
+Entendemos por régimen simple aquel donde los intereses se calculan siempre sobre el capital inicial de la
+operación; por lo tanto, los intereses que produce dicho capital son siempre una suma fija.
+El régimen simple existe tanto en sentido positivo del tiempo (capitalización) como en sentido
+negativo del mismo (actualización). En la capitalización vamos desde el presente hacia el futuro cuando
+depositamos una suma de dinero que gana interés durante un cierto período de tiempo y en la actualización
+recorremos el camino inverso cuando calculamos el valor presente de un capital futuro. También veremos
+que es posible hablar de una tasa de interés vencida y una tasa de descuento o adelantada.
+En la vida real existen numerosas situaciones donde nos encontraremos con el interés simple. ¿Quién
+no ha realizado alguna vez un depósito a plazo fijo en una institución bancaria? En este caso, los depósitos
+ganan un interés que se calcula sobre el capital inicial de la operación, por un período de tiempo determinado
+que puede ser un mes, dos meses, etcétera. Puesto que no hay capitalización de intereses en el período por el
+que se realiza el plazo fijo, éstos se calculan de acuerdo a las reglas del interés simple. Lo mismo aplica para
+la mayoría de las operaciones financieras donde calculamos el rendimiento implícito para un período
+determinado, tal es el caso de las letras de tesorería o los contratos de futuros. También los intereses de la
+caja de ahorro dentro del período de capitalización, los préstamos que calculan intereses directos sobre el
+capital, ajustes de deudas impositivas y también algunos casos de sentencias judiciales son ejemplos donde
+se aplica el interés simple.
+En este capítulo veremos las principales operaciones que se realizan mediante el régimen simple,
+incluyendo el descuento comercial, operatoria muy extendida en la práctica. Estableceremos la equivalencia
+fundamental entre la tasa de interés vencida y la tasa de descuento, y finalmente realizamos una introducción
+a la equivalencia de capitales que se encuentran expresados en diferentes momentos de tiempo.
+Después de leer este capítulo, usted debería ser capaz de:
+• Calcular el monto de un depósito a plazo fijo y el interés de la operación;
+• Calcular el valor actual y el descuento periódico que sufre en una operación de descuento;
+• Calcular una tasa proporcional;
+• Calcular un capital equivalente dando un vencimiento común a documentos que vencen en diferentes
+fechas.
+2.1. LA CAPITALIZACIÓN EN EL RÉGIMEN SIMPLE:
+CARACTERÍSTICAS PRINCIPALES
+1. Los intereses se calculan siempre sobre el capital inicial, de forma que los intereses no generan
+nuevos intereses (los intereses se devengan pero no se acreditan), permaneciendo el capital inicial constante
+hasta la fecha en que haya sido convenido su reembolso(1).
+(1) La función del monto a interés simple, en una visión estrictamente matemática, no supone que se retiran los intereses
+del capital (si así fuera, cabe pensar que podrían esos intereses depositarse en otra institución con lo cual se generarían
+nuevos intereses, transformándose en una operación de interés compuesto). Sin embargo, el contraargumento es que en
+la práctica es posible encontrar casos donde se retiran los intereses del capital, y en ese caso los intereses no producen
+nuevos intereses (por ejemplo, cuando alguien retira la renta que genera algún activo para consumirla).
+2
+
+2. Se deduce de 1. que los intereses representan una suma fija, no existiendo por lo tanto
+capitalización de intereses.
+3. Los intereses son proporcionales al capital, al tiempo y a la tasa de interés de la operación.
+La mejor forma de apreciar las variables que componen una operación de interés simple y su
+evolución, es observar el cuadro de marcha que se desarrolla a continuación:
+Cuadro de marcha progresiva del interés simple
+Supondremos un capital Co = $ 1 que se coloca a interés simple y veremos como se transforma a lo
+largo de n períodos para obtener la fórmula “genérica” del monto a interés simple:
+Período Capital inicial Interés periódico Monto
+1 Co I (0,1) = Co.i C = Co + Co.i = Co (1 + 1)
+1
+2 Co (1 + i) I (1,2) = Co.i C = Co (1 + i) + Co.i = Co (1 + 2i)
+2
+3 Co (1 + 2.i) I (2,3) = Co.i C = Co (1 + 2i) + Co.i = Co (1 + 3i)
+3
+n Co [1 + (n - 1) .i ] I (n – 1,n) = Co.i C = Co [1 + (n – 1) i ] + Co.i = Co (1 + n.i)
+n
+En general, para un período cualquiera que llamaremos “p”, el interés periódico será I (p - 1,p) = i y
+el capital final:
+Cp = Co (1 + p.i)
+Esta expresión se lee como el capital original multiplicado por 1 + “p veces” la tasa de interés. Por lo
+tanto, el capital final o monto del último período será Cn = Co (1 + n.i)
+Para obtener esta expresión solamente multiplicamos el capital original de la operación por el factor
+de capitalización (1 + in) transformando el capital inicial en un capital equivalente final o monto.
+Ejemplo: se invierten $100 durante 5 meses a una tasa de interés del 2% mensual. Al final del plazo
+tendremos:
+100 × (1+0,02 × 5) = 110
+Note que para hacer los cálculos siempre expresamos la tasa en tanto por uno. Por supuesto, es
+común que los datos sobre un rendimiento se presenten siempre en tanto por ciento, que es la medida en la
+cual estamos acostumbrados a pensar. Por ejemplo, para pasar la tasa de interés del 2% a tanto por uno,
+hacemos 2/100 = 0,02.
+Fórmulas derivadas del monto a interés simple
+Las fórmulas que se derivan de la fórmula genérica del monto a interés simple sólo requieren simples
+pasajes de términos. Realizaremos algunos comentarios respecto a ellas por encontrar que pueden revestir
+interés.
+Capital inicial Tasa de interés Número de períodos Interés acumulado
+Cn Cn - Co Cn - Co
+Co = –––––––– i = –––––––– n = –––––––– I (0,n) = Co.i.n
+(1 + i.n) Co.n Co.i
+o también o también o también o también
+I (0,n) I (0,n) I (0,n)
+Co = –––––––– i = –––––––– i = –––––––– I (0, n) = Cn - Co
+i.n Co.n Co.i
+3
+
+Fórmula del Capital inicial
+Simplemente, el capital inicial se obtiene actualizando por n períodos el monto o capital final. Por
+caso un capital final de $150, que fue obtenido con una tasa de interés del 10% al cabo de 5 períodos, tiene
+hoy un valor de
+150
+––––––––––– = 100
+(1 + 0,10 × 5)
+Fórmula de la tasa de interés
+Esta fórmula es muy intuitiva, ya que es aplicada muchas veces en forma automática, para obtener
+porcentajes de rendimiento, aunque sin conocer su naturaleza. Piense por un momento que usted vende un
+bien a $150 que adquirió cierto tiempo atrás por $120. El tiempo que media representa el período de la
+operación que para nosotros será igual a 1 (1 mes, y bimestre, un período de cierta cantidad de días, no
+importa realmente cuánto tiempo, para nosotros representa un período en este caso). Ahora supongamos que
+usted quiere conocer el porcentaje de rendimiento de esa operación. El cálculo intuitivo es tomar los 150 y
+dividirlo por 120, y restar el 1 (uno):
+150
+––– – 1 = 0,25 = 25%
+120
+La tasa de interés se calcula de esa forma, ya que la fórmula resulta de obtener la tasa a partir de la
+fórmula del monto:
+Cn
+–––= (1 + i.n)
+Co
+Si n = 1 y pasamos restando el 1, tenemos la fórmula que tantas veces se utiliza para calcular
+rápidamente un porcentaje de rendimiento:
+Cn
+i = ––– –1
+Co
+Fórmula del número de períodos
+Simplemente, observe que el numerador de la fórmula representa el interés acumulado, de forma tal
+que también puede escribirse:
+Cn – Co I (0,n)
+n = ––––– = ––––––––
+Co.i Co.i
+Fórmula del interés acumulado
+Para un capital inicial de Co, el valor de I (0,n) representa el valor absoluto del interés acumulado, y
+estará dado por la relación: I (0,n) = Co.i.n que quiere decir que ganamos “n veces la tasa de interés sobre el
+capital”. Por ejemplo 100 pesos colocados durante 10 períodos al 5%, generan intereses acumulados por $50:
+I (0,10) = 100 × 0,05 × 10 = 50
+4
+
+La fórmula del interés acumulado también puede razonarse como la diferencia entre el monto y el
+capital inicial:
+I (0,n) = Cn – Co = Co (1 + in) – Co = Co + Co.i.n – Co = Co.i.n
+O como la suma de todos los intereses periódicos:
+I (0,n) = I (0,1) + I (1,2) +....I (n–1,n) = Co.i + Co.i +... Co.i = Co.i.n
+La fórmula del monto a interés simple cuando varía la tasa de interés
+En la práctica la tasa de interés no es constante, y también es posible que cada tasa se gane por
+períodos de tiempo también diferentes; en este caso, no podemos utilizar la fórmula genérica del interés
+simple puesto que la tasa es posible que se haya modificado mensualmente. En ese caso, armaremos un
+factor de capitalización sumando las distintas tasas i , i ,.... i , para los diferentes períodos de tiempo (en el
+1 2 n
+caso de que sean diferentes, los llamaremos p , p ,.... p ). La fórmula resultante que resulta es:
+1 2 n
+Cn = Co (1 + i . p + i .p + ………+ i .p )
+1 1 2 2 n n
+De las fórmulas vistas sacamos una enseñanza importante: en el régimen simple las tasas siempre
+se suman.
+Análisis del rendimiento y funciones del monto e interés acumulado
+A continuación se analizan tres categorías de rendimiento en las operaciones a interés simple, por
+considerárselas de importancia práctica.
+a) Interés periódico
+Es el interés que gana la unidad de capital entre dos momentos consecutivos; como vimos, en el
+régimen simple el interés es constante y puede obtenerse mediante la diferencia entre el capital del período p
++ 1 y el capital al final del período p:
+I (p,p + 1) = Co – Co = Co [1 + i (p + 1)] – Co (1 + ip)
+(p + 1) (p)
+= Co [(1 +i (p + 1)) – (1 +i.p)]
+= Co (1 + i.p + I – 1 – i.p) = Co.i
+El interés generado en un período cualquiera p, debe ser siempre igual al producto del capital inicial
+por la tasa de interés.
+b) El rendimiento efectivo o intensidad periódica:
+Para determinar el rendimiento efectivo de un período, tenemos que comparar el interés de ese
+período contra el capital que lo generó. Suponga un capital inicial igual a $100 que se coloca a una tasa de
+interés del 10% periódico; según se observa en la tabla 2.1:
+t Capital Interés periódico Monto Rendimiento efectivo
+1 100 10 110 10%
+2 110 10 120 9,09%
+3 120 10 130 8,33%
+4 130 10 140 7,69%
+Tabla 2.1. Interés periódico y rendimiento efectivo en el régimen simple
+5
+
+El rendimiento efectivo se calcula dividiendo el interés periódico por el capital al inicio. Así, para el
+primer período es el 10% (10/100) –1, pero para el segundo se reduce al 9,09% pues el interés periódico
+sigue siendo de $10 pero representa un porcentaje menor cuando se lo compara contra un capital de $110. Es
+claro que mientras el interés periódico se mantenga constante, cada vez representará un porcentaje menor a
+medida que el capital para generarlo es mayor. Por lo tanto, el rendimiento efectivo en el régimen simple es
+decreciente. Por ejemplo, para calcular el rendimiento efectivo del período 4, tendríamos que comparar el
+interés periódico (que es siempre constante) contra el capital al final del período 3:
+Co.i i
+Rendimiento = –––––––––– = ––––––––
+Co.(1 + 3.i) (1 + 3.i)
+Generalizando, para obtener el rendimiento de un período cualquiera hacemos:
+i
+–––––––––
+1 + (p – 1) i
+de la expresión anterior se deduce que si el numerador es constante y el denominador es creciente (ya que
+cuando aumenta el número de períodos p también aumenta) el rendimiento periódico es decreciente.
+c) Intensidad unitaria
+Dividiendo el interés que produjo el capital Co por todo el plazo de una operación, por el total de
+períodos de la misma, obtenemos la relación de la tasa de interés con el tiempo, que viene a ser el interés
+promedio obtenido en la operación:
+Co.i.n
+–––––– = Co.i
+n
+d) Funciones monto e interés acumulado
+Para el análisis de las funciones del monto y del interés, asumiremos que el capital inicial (Co) es
+igual a $1, lo cual facilitará el razonamiento. La función del monto a interés simple Cn = 1 + i.n es una
+función lineal, creciente, de la forma y = ax + b, de forma tal que es una semirecta de coeficiente angular
+i>O definida para valores positivos de i; precisamente i representa la pendiente de la función y a es la
+ordenada al origen, que en nuestro ejemplo está representada por el capital original de $1. Por lo tanto, la
+función corta al eje de las ordenadas en 1, y es creciente con respecto al tiempo, ya que a medida que
+aumenta el número de períodos, aumentan tanto el monto como el interés acumulado. Suponiendo entonces
+que el capital inicial Co = $1 y la tasa de interés i = 0,10, en la tabla 2.2 se muestra como se acumulan los
+intereses y el monto, que aparecen en las figuras 2.1 y 2.2:
+Período Interés periódico Interés acumulado Monto
+0 0 0 1
+1 0,10 0,10 1,10
+2 0,10 0,20 1,20
+3 0,10 0,30 1,30
+4 0,10 0,40 1,40
+5 0,10 0,50 1,50
+6 0,10 0,60 1,60
+7 0,10 0,70 1,70
+8 0,10 0,80 1,80
+9 0,10 0,90 1,90
+10 0,10 1,00 2,00
+Tabla 2.2 Interés periódico, interés acumulado y monto en el régimen simple
+6
+
+Figura 2.1 Función interés acumulado
+Figura 2.2 Función monto
+La función interés I (0,n) también es lineal creciente desde cero (ya que no se devengó interés en el
+momento cero) y tiene la misma pendiente que la función monto (representada por la tasa de interés) con la
+diferencia que la función monto comienza en el capital original mientras que la función interés comienza en
+cero.
+Plazo medio
+Suponiendo que tres capitales C , C y C son colocados durante diferentes plazos t , t y t ,
+1 2 3 1 2 3
+respectivamente, se denomina plazo medio “n” al tiempo durante el cual debe ser colocada la suma de esos
+capitales, a la misma tasa, de modo que el interés producido sea igual a la suma de los intereses producidos
+por cada uno de los capitales C , C y C :
+1 2 3
+(C + C + C ).i.n = C . i. t + C . i. t + C . i. t
+1 2 3 1 2 2 2 3 3
+Dividiendo ambos miembros por i y despejando el valor de n, obtendremos:
+C . t + C t + C .t
+1 1 2 2 3 3
+n = –––––––––––––––––
+C + C + C
+1 2 3
+Esta última fórmula nos permite obtener las siguientes conclusiones:
+a) el plazo medio es independiente de la tasa de interés común
+7
+
+b) el plazo medio es la media aritmética ponderada de los plazos
+La conclusión b) nos permite establecer una fórmula general para el plazo medio, que es igual a la
+sumatoria de los plazos ponderados:
+n
+∑t × C
+j j
+j=1
+n = ––––––––
+n
+∑ C
+j
+j=1
+La fórmula del plazo medio puede ser establecida para cualquier unidad común de plazos, y el valor
+de la incógnita n, se referirá a una unidad de tiempo común de los plazos t , t y t . En particular, si C = C =
+1 2 3 1 2
+C podemos sacar factor común en la expresión anterior y nos queda:
+3
+C (t + t + t ) t + t + t
+j 1 2 3 1 2 3
+n = ––––––––––– = ––––––––
+NCj N
+Donde N representa la cantidad de capitales (N = 3 en este caso) y observamos que en este caso, el
+plazo medio será el promedio simple de los plazos dados.
+Ejemplo:
+Tres capitales de 100, 200 y 300 fueron colocados a la misma tasa del 10% mensual durante 4, 5 y 6
+meses, respectivamente. Calculamos ahora durante cuanto tiempo tendría que estar aplicada la suma de esos
+capitales, a la misma tasa, para que los intereses sean iguales a la suma de los intereses de esos capitales en
+los plazos dados.
+100 × 4 + 200 × 5 + 300 × 6
+n = ––––––––––––––––––––––– = 5,33
+100 + 200 + 300
+Tasa media
+Suponiendo que tres capitales C , C y C sean colocados durante n períodos a tasas diferentes i , i y
+1 2 3 1 2
+i , se denomina tasa media de una operación “i”, la tasa a la que debe ser colocada la suma de esos capitales
+3
+durante n períodos, para que produzcan un interés que iguale la suma de los intereses que produce cada uno
+de los capitales C , C y C :
+1 2 3
+(C +C + C ) in = C i n + C i n + C i n
+1 2 3 1 1 2 2 3 3
+Podemos sacar factor común n en el segundo término y luego despejamos la tasa media:
+C .i + C .i + C .i
+1 1 2 2 3 3
+i = –––––––––––––––––
+C + C + C
+1 2 3
+De la fórmula se observa que:
+a) la tasa media es independiente del plazo común al que fueron colocados los depósitos
+b) la tasa media es la media aritmética ponderada de tasas.
+8
+
+La conclusión b) nos permite establecer una fórmula general para la tasa media, que es igual la
+sumatoria de las tasas ponderadas:
+n
+∑ij× C
+j
+j=1
+i = ––––––––––
+n
+∑ij× C
+j
+j=1
+En particular, si C = C = C , se puede sacar factor común Cj y la fórmula de i se simplifica por la
+1 2 3
+siguiente:
+Cj (i + i + i ) i + i + i
+1 2 3 1 2 3
+i = –––––––––––– = ––––––––––
+NCj N
+En este último caso particular, la tasa media es el promedio simple de las tasas dadas. N representa la
+cantidad de capitales (N = 3 en este caso)
+Ejemplo:
+Tres capitales de 100, 200 y 300 fueron colocados a las tasas de interés mensuales del 10, 20 y 30%,
+respectivamente, durante un mes. Calculamos ahora cual fue la tasa media de la operación:
+100 × 0,10 + 200 × 0,20 + 300 × 0,30
+i = ––––––––––––––––––––––––––––––– = 0,2333 = 23,33%
+100 + 200 + 300
+Tasa proporcional en el interés simple
+En la práctica es común que se realicen operaciones de plazo fijo pactando una tasa nominal
+(generalmente anual) pero que los intereses capitalicen en forma subperiódica; en ese caso es imprescindible
+proporcionar la tasa nominal al momento donde capitalizan los intereses(2), que es el momento donde la tasa
+de interés “trabaja”. En este caso la tasa nominal de una operación es solo la tasa de pacto de la misma,
+sirviendo como referencia para el cálculo de la tasa efectiva de la operación.
+Resumiendo, la diferencia importante entre la tasa nominal y la tasa proporcional subperiódica es la
+no coincidencia de la unidad de tiempo en que esta expresada la tasa de interés nominal con el período de
+capitalización.
+Así, es posible tener una tasa nominal anual pero que capitaliza, por ejemplo, semestralmente, es
+decir, los interés se capitalizan a los seis meses. Para obtener la tasa proporcional i(m) simplemente
+dividimos la tasa nominal por el numero de subperíodos de capitalización, que denominaremos “m”:
+j (m)
+j (m) = tasa nominal tasa proporcional i (m) = –––––
+m
+Cantidad de subperíodo de
+capitalización
+(2) Se entiende por “capitalización de intereses” el momento en que estos se convierten en capital, que es el momento en
+el cual se acreditan.
+9
+
+Un punto importante es que la tasa proporcional obtenida a partir del dato de la tasa nominal, es a la
+vez una tasa efectiva para el período de capitalización que se considera; por ejemplo, una tasa nominal
+anual del 12% anual que capitaliza semestralmente, arroja una tasa semestral del 6%, que es a la vez una tasa
+efectiva y proporcional, pues representa el rendimiento que efectivamente obtuve al cabo de un semestre y a
+la vez es proporcional del 12 % anual:
+0,12
+–––– = 0,06 semestral
+2
+Otro detalle a observar es que en el régimen simple, las tasas son al mismo tiempo proporcionales y
+equivalentes. Recuerde que en el interés simple las tasas se suman, de forma tal que da lo mismo ganar 6%
+en un semestre que el 12% en el año. Las tasas proporcionales son aquellas que expresadas en tiempos
+distintos producen igual interés. Veremos en el próximo capítulo que no es lo mismo en el régimen
+compuesto, donde las tasas son solamente equivalentes.
+Si en las operaciones intervienen instituciones financieras se utiliza el año civil de 365 días, por lo
+que la tasa proporcional que resulta es ligeramente menor a la que obteníamos con un año de 360 días; por
+ejemplo, para el caso anterior la tasa de 180 días sería:
+0,12
+–––– = 0,0591= 5,91%
+365/180
+En la práctica, el cálculo suele hacerse como 0,12 × 180/365 que resulta más rápido cuando se utiliza
+una calculadora de bolsillo. La consideración de los días contenidos en el año nos lleva al tema del interés
+exacto.
+Interés civil y comercial
+Los mercados financieros exhiben algunas discrepancias con respecto a la forma en que se
+consideran los días que contiene el año. En algunos contratos se utilizan 360 días en lugar de los 365 días
+que el año contiene. De esta forma, podemos distinguir:
+Año exacto o civil: cuando se toman 365 días
+Año comercial: cuando se toman 360 días
+Ejemplo: Calcular el interés que se obtuvo en una operación donde se depositó un capital de $10.000
+durante 180 días, ganando una tasa nominal anual del 12%. Resolver por año civil y por año comercial.
+Año Civil Año Comercial
+180 180
+I = 10.000 × 0,12 × –––– = 591,78 I = 10.000 × 0,12 × –––– = 600
+365 360
+El interés obtenido utilizando el año comercial resulta un poco mayor que el obtenido utilizando el
+año civil, debido a que el resultado del cociente es un poco mayor al dividir por 360 en vez de por 365. Para
+conocer la relación entre los dos, simplemente dividimos miembro a miembro las relaciones indicadas
+anteriormente:
+10
+
+y observamos que el interés exacto es un 98,63% del interés comercial:
+Interés exacto = Interés comercial × 0,9863
+Forma de contar los intervalos de tiempo en la República Argentina
+En la República Argentina, las operaciones financieras por depósitos a plazo fijo se realizan
+considerando el año exacto, aunque algunos instrumentos financieros como cierta clase de bonos u
+obligaciones utilizan el año comercial y también la forma en que se calculan los intereses en algunos
+préstamos, por caso los hipotecarios y prendarios. No obstante volveremos sobre este tema en otras partes
+del libro, es el momento de comentar como se cuentan los intervalos de tiempo en la República Argentina.
+Nuestro Código Civil en el Título II, del modo de contar los intervalos de derecho, establece la forma de
+contar los plazos y por lo cual se transcriben los artículos respectivos.
+“Art. 23. Los días, meses y años se contarán para todos los efectos legales por el Calendario
+Gregoriano.
+Art. 24. El día es el intervalo entero que corre de media noche a media noche; y los plazos de días no
+se contarán de momento a momento, ni por horas, sino desde la media noche en que termina el día de su
+fecha.
+Art. 25. Los plazos de mes o meses, de año o años, terminarán el día que los respectivos meses
+tengan el mismo número de días de su fecha. Así, un plazo que principie el 15 de un mes, terminará el 15 del
+mes correspondiente, cualquiera que sea el número de días que tengan los meses o el año.
+Art. 26. Si el mes en que ha de principiar un plazo de meses o años, constare de más días que el mes
+en que ha de terminar el plazo, y si el plazo corriese desde alguno de los días en que el primero de dichos
+meses excede al segundo, el último día del plazo será el último día de este segundo mes.
+Art. 28. En los plazos que señalasen las leyes o los tribunales, o los decretos del Gobierno, se
+comprenderán los días feriados, a menos que el plazo señalado sea de días útiles, expresándose así”.
+Ejemplos de aplicación del interés simple en la vida real
+En general, todas las operaciones financieras que liquidan los intereses sin capitalización intermedia,
+constituyen ejemplos de interés simple. Veremos algunos a continuación.
+a) Los depósitos a plazo fijo
+Los certificados de depósito a plazo fijo son instrumentos que especifican capitales, plazos y tasas de
+interés. No son negociables y existen en general plazos mínimos de tiempo por los cuales puede
+constituírselos, de forma tal que su liquidez es menor que una cuenta de ahorro. Cuando hacemos un plazo
+fijo inmovilizamos el dinero por el período de contrato (30, 45, 60 o más días) y entonces la operación se
+realiza dentro de las reglas del interés simple, ya que no hay capitalización de intereses. La capitalización
+sólo se produciría si se renovara la operación, pero entonces habría capitalización de intereses, y habría
+interés compuesto.
+11
+
+Ejemplo:
+Se constituye un plazo fijo por $10.000 contratándose una TNA del 10% por un plazo de 30 días. Al
+final del plazo, tenemos un monto de:
+0,10
+10.000 (1 + ––––––) = 10.082,19
+365/30
+Note que hemos ganado 82,19 pesos de interés, que corresponden a un período de 30 días.
+Trabajamos con un año de 365 días por ser el año civil el que se utiliza en las operaciones de depósitos a
+plazo en el mercado financiero argentino.
+b) Los intereses en la caja de ahorro
+La mayor parte de las cajas de ahorro permite a su titular efectuar retiros de dinero, de tal forma que
+este tipo de cuentas resulta útiles para aquellas personas que desean obtener un rendimiento por sus ahorros,
+pero requieren al mismo tiempo la disponibilidad inmediata de los mismos. Esta característica es la que hace
+que los bancos en general paguen un interés modesto, pero a cambio se tiene la flexibilidad de hacer retiros y
+depósitos en cualquier momento. La tabla 2.3 muestra el movimiento en una caja de ahorro donde los
+intereses se calculan de acuerdo al régimen simple y se acreditan al final del mes. La tasa nominal anual para
+el período fue del 3%:
+Fecha Concepto Depósitos/Extracciones Saldo Días
+30/06/01 – 100 31
+01/07/01 Depósito 100 200 30
+15/07/01 Nota de débito -50 150 16
+20/07/01 Crédito 200 350 11
+25/07/01 Extracción -100 250 6
+31/07/01 Capitalización de intereses 0,57 250,57 0
+Tabla 2.3 Intereses de la caja de ahorro
+Para el cálculo del devengamiento de intereses con la TNA del 3%, se calculan los intereses bajo el
+régimen simple teniendo en cuenta los días hasta fin de mes. Por ejemplo, para el saldo inicial se calculan
+intereses por los 31 días de julio, para el depósito de $100 realizado el 1/7/01 se cuentan 30 días hasta el
+31/7, y así sucesivamente. Para los retiros anteponemos el signo menos y seguimos la misma regla,
+computando también los días que faltan hasta fin de mes.
+100 × 0,03 × 311365 + 100 × 0,03 × 30/365 - 50 × 0,03 × 16/365 +
+200 × 0,03 × 11/365 – 100 × 0,03 × 6/365 = 0,57
+Note que si bien los intereses se calculan bajo las reglas del interés simple dentro del mes, se
+acumulan al capital al final del mismo formando un monto de 250,57 para el mes siguiente. De forma tal que
+en el próximo mes los intereses se calcularán sobre 250,57 generando capitalización de intereses, por lo que
+a partir del mes siguiente opera el interés compuesto.
+c) el ajuste de deudas impositivas
+La Administración Federal de Ingresos Públicos suele cobrar intereses compensatorios y
+resarcitorios aplicando las reglas del interés simple en algunos casos. Suponga que cierta empresa mantiene
+una deuda fiscal de $15.000 hace tres meses y ahora desea saldarla. Si la tasa de interés que cobra el fisco es
+del 3% mensual, el importe a saldar será:
+15.000 × (1 + 0,03 × 3) = 16.350
+12
+
+d) el cálculo de indemnizaciones
+En los cálculos de las indemnizaciones laborales, la jurisprudencia establece que en algunos casos, el
+monto de la sentencia debe ajustarse según las reglas del interés simple, utilizando la tasa de interés activa
+del Banco Nación. La tasa de interés nominal anual para las operaciones activas fluctuó de la siguiente
+forma:
+Enero: 10% Febrero: 11% Marzo: 12%
+Un monto de sentencia de $100 se ajustaría de la siguiente forma (suponiendo que se trabaja con una
+convención 30/360 que consiste en considerar un año de 360 días y que todos los meses tienen 30 días):
+0,10 0,11 0,12
+100 × (1 + –––– + –––– + ––––) = 102,75
+12 12 12
+Al suponer que todos los meses tuvieran 30 días y el año 360, el divisa es 12 (360/30). Es posible
+que los Juzgados exhiban algunas discrepancias establezcan otras formas de computar los plazos y la forma
+de contar lo años, pero como se aprecia, si no se permite capitalizar intereses, las tasa deben sumarse.
+Ya hemos visto que en el régimen simple, los intereses siempre se calculan sobre el capital inicial.
+También aparecía una tasa proporcional, pues muchas operaciones se contratan para un período que no
+coincide con la tasa nominal. El tema de la tasa nominal de interés y sus correspondientes equivalencias será
+tratado exhaustivamente en el capítulo 4, que destinamos a las tasas de interés. Por ahora, diremos que
+cuando la tasa nominal tiene una sola capitalización en el período, es a la vez la tasa efectiva de
+período. Por ejemplo, si usted colocó dinero en una institución contratando una tasa nominal anual del 10%
+y esta tasa a la vez capitaliza anualmente, si rendimiento efectivo también será del 10% anual.
+e) Las tasas de interés implícitas en los contratos del futuro
+En los contratos de futuro, la diferencia entre el precio de contado y el precio del futuro suelen
+reflejar un spread que refleja la tasa de interés que se observa en el período del contrato. La tabla 2.4 muestra
+las cotizaciones del dólar futuro INDOL® del día 4 de mayo de 2005 para los últimos días hábiles de cada
+mes (la cotización al 4-5-05 refleja la cotización de referencia del Banco Central). Para calcular la TNA
+implícita en cada una de las operaciones, simplemente aplicamos la fórmula de la tasa de interés, dividiendo
+la cotización futuro por la cotización de referencia y luego la multiplicamos por “m” (la cantidad de
+subperíodos dentro del año). Por ejemplo para la TNA implícita para un contrato que vence el 31-5-05
+hacemos [(2,91/2,8963)-1] 365/27 = 6,39%
+Fecha Cotización Días vto TNA implícita
+04/05/05 2,8963 – –
+31/05/05 2,91 27 6,39%
+30/06/05 2,92 57 5,24%
+29/07/05 2,93 86 4,94%
+31/08/05 2,935 119 4,10%
+30/09/05 2,94 149 3,70%
+31/10/05 2,945 180 3,41%
+Tabla 2.4 Cotización del dólar futuro y tasa nominal anual implícita
+Las tasas nominales anuales para depósitos a plazo fijo en los bancos argentinos, para un plazo de 30
+días, rondaba el 3%; para 57 días el 3,2% y para 120 días, el 3,75%. Como se observa, las TNA implícitas en
+las cotizaciones de futuros reflejan estas tasas y hasta un poco más, impidiendo el arbitraje (comprar futuro y
+colocar pesos a tasa de interés para al final del contrato comprar más dólares). Volveremos sobre este tema
+en el capítulo 5, donde trataremos con más detalle el dólar futuro(3).
+(3) Inclusive debe tenerse en cuenta el rendimiento que se obtendría depositando directamente dólares.
+13
+
+f) Los tasas de interés implícitas de los bonos cupón cero
+Los bonos “cupón cero” representan títulos que no pagan interés, y su rendimiento se obtiene de
+comprarlos con un descuento. Tal es el caso de las letras del tesoro americano (T-Bills) o las Lebac que
+emite el Banco Central de la República Argentina por períodos que van desde 30 días hasta un año. La tabla
+2.5 muestra las TNA implícitas en los precios de corte del día 4 de mayo de 2005. Para comprobarlo, por
+ejemplo para la emitida por 42 días, hacemos [(100/99,4507) - 1] = 4,80%
+Título Plazo Vencimiento Precio de corte TNA implícita
+Lebac $ 42 15/06/05 99,4507 4,800%
+Lebac $ 84 27/07/05 98,7164 5,650%
+Lebac $ 266 25/01/06 95,6103 6,300%
+Lebac $ 343 12/04/06 93,704 7,150%
+Lebac $ 546 01/11/06 89,1333 8,150%
+Tabla 2.5 Tasas nominales anuales implícitas en los precios de las Lebacs
+Por supuesto, para cada cotización puede calcularse una tasa efectiva. Por ejemplo, para el plazo de
+42 días, hay un rendimiento implícito de (100/99,4507) -1 = 1,0055%
+La figura 2.3 muestra que los rendimientos exigidos por el público aumentan con el plazo de
+vencimiento. Trataremos esta relación en el capítulo 12, que se la conoce como “estructura temporal de las
+tasas de interés”.
+Figura 2.3 Curva de rendimientos de Lebacs
+g) Los intereses de las tarjetas de crédito
+Algunas empresas emisoras de tarjetas de crédito calculan los intereses tomando como base el saldo
+promedio por día. Suponga que una tarjeta de crédito tiene un saldo deudor de $1.000.- El décimo día abona
+$500 y el décimo sexto compra bienes por $250 abonando siempre con la tarjeta. La tasa de interés para
+financiar saldos deudores es del 36% nominal anual. Veremos ahora el cálculo del saldo promedio diario si
+el período de corte es de 30 días y el total de intereses abonados. Los movimientos realizados con la tarjeta
+aparecen en el siguiente eje de tiempo:
+0 10 16 30
+Saldo -500 250 Saldo final 1.000 – 500 + 250 = 420
+inicial
+1.000
+Usted puede hacer un cálculo explícito del interés sobre cada capital (como lo hicimos antes en el
+ejemplo de la caja de ahorro) hasta el día 30 o directamente hacer un cálculo del saldo promedio diario, y
+14
+
+luego calcular el interés sobre éste. El saldo va cambiando cada vez que se realiza un movimiento, por lo que
+para obtener el saldo promedio se suman los productos (número de días) × (saldo en cada plazo) y este
+resultado se divide por el total de días del período de liquidación o corte de la tarjeta.
+1.000 × 9 + 500 × 6 + 750 × 15
+Saldo promedio diario = –––––––––––––––––––––––––– = 775
+30
+Note que los diferentes plazos tienen en cuenta la cantidad de días en que el saldo permaneció en
+dicho nivel. Por ejemplo, se deben $1.000 durante 9 días, ya que el día 10 el saldo deudor baja al realizar un
+pago por $500. También es de notar que en realidad cada uno de los plazos aparece dividido por 30, con lo
+cual el saldo promedio diario es un saldo promedio ponderado.
+El cálculo de los intereses entonces es más rápido que la mecánica que utilizamos en el ejercicio
+anterior para los intereses de la caja de ahorro, ya que ahora sólo tenemos que multiplicar el saldo promedio
+diario por la tasa de interés proporcionada para los 30 días del período de corte:
+30
+Intereses abonados = 775 × 0,36 × –––– = 22,93
+365
+Preguntas de auto-evaluación:
+1. ¿La fórmula genérica del monto a interés simple puede usarse en cualquier caso?
+2. ¿Por qué las tasas se suman en el régimen simple en vez de multiplicarse?
+3. ¿Cuál es la diferencia entre el interés exacto y el interés comercial?
+4. ¿Por qué en el régimen simple las tasas son proporcionales y al mismo tiempo equivalentes?
+2.2. ACTUALIZACIÓN EN EL INTERÉS SIMPLE: DESCUENTO RACIONAL
+Y DESCUENTO COMERCIAL
+Cuando definimos el monto de un capital, se estableció una relación directa entre el capital inicial y
+el valor final del mismo, sujeto a un régimen de capitalización a una tasa de interés “i” por un número de
+unidades de tiempo que llamamos “n”.
+Supondremos inicialmente una operación genérica de descuento: queremos disponer hoy de una
+suma de dinero que tenemos a cobrar dentro de 1 año por $1; por su disponibilidad inmediata, nos
+descontarán los intereses que representan la diferencia entre el capital disponible dentro de un año y su valor
+presente.
+Hoy 1 año
+1
+–– = 0,90 $1
+(1,10)
+El capital de 0,90 representa el valor presente de la suma de dinero futura, y la diferencia entre el
+capital futuro de $1 y los 0,90 que recibimos hoy representa el descuento que se define como la
+compensación o el precio que debe pagarse por la disponibilidad inmediata de un capital antes de su
+vencimiento dentro de n unidades de tiempo.
+El proceso de transformación de los valores futuros en valores presentes se denomina genéricamente
+“actualización” y representa la contrapartida del proceso de capitalización. En el régimen simple, se
+distingue entre un descuento racional y un descuento comercial. La diferencia entre los mismos radica en la
+15
+
+forma en como se analiza la operación, siendo en el fondo, exactamente iguales. Comenzaremos
+describiendo el llamado descuento racional a los fines teóricos, para inmediatamente concentrarnos en las
+facetas del descuento comercial, por ser esta forma de calcular el descuento la más extendida en la práctica y
+por ser la forma en que el descuento es percibido por los agentes económicos.
+El descuento racional:
+Es aquel que se practica sobre el valor actual o presente del documento (que denominaremos V, o
+Co, ya que es el análogo del capital inicial en el interés simple). En el descuento racional, los intereses se
+calculan sobre el capital recibido “V”:
+Dr = V.i.n
+El valor recibido es igual al monto del documento menos el descuento:
+V = Cn – Dr
+Y como Cn = V + Dr = V + V.i.n
+Si llamamos Vr al valor actual con descuento racional tenemos
+Cn
+Vr = –––––
+(1 + in)
+Observe que la fórmula del valor actual con descuento racional es exactamente igual a la fórmula del
+capital inicial en el interés simple; ya que Vr es igual a Co.
+Cuadro de marcha del descuento racional
+Si observa la siguiente tabla verá como la función del descuento periódico es decreciente:
+Cn Cn
+T Vr = –––––– Dr = Cn - Vr Vr = ––––– Dr = Cn – Vr
+(1 + in) (1 + in)
+0 1 0 100 0
+1 1/(1 + i) 1 – 1/(1 + i) = i/(1 + i) 90,90 9,09
+2 1/(1 + i2) 1 – 1/1 + i2) = i2/ (1 + i2) 83,33 16,66
+3 1/(1 + i3) 1 - 1/1 + i3)/ (1 + i3) 76,92 23,077
+4 1/(1 + i4) 1 – 1/(1 + 4) = i4/ (1 + ia) 71,42 28,57
+.
+.
+∞ 0 1 0 100
+Fórmalas derivadas del descuento racional
+Las fórmulas son exactamente las mismas que vimos para el monto a interés simple y sus fórmulas
+derivadas. Recuerde que en el descuento racional los intereses se calculan sobre el capital recibido en
+préstamo, de ahí el nombre de “racional”.
+Valor actual Tasa de interés Número de períodos Descuento acumulado
+Cn Cn - V Cn - V
+D (0, n) = V.i.n
+V = ––––– i = ––––––––– n = –––––––
+(1 + i.n) V.n V.i
+16
+
+Análisis del descuento racional
+Descuento periódico:
+El descuento periódico es decreciente. Esto puede observarse si calculamos el descuento periódico
+por diferencia entre valores actuales de un período a otro, por ejemplo del período 2 al período 3:
+1 1 1 + i3 – 1 – i2 i
+–––––– – ––––– = –––––––––––––– = ––––––––––––––
+(1 + i2) (1 + i3) (1 + i2) . (1 + i3) (1 + i2) . (1 + i3)
+A medida que crece el número de períodos, el valor del denominador crece, por lo tanto el valor del
+cociente decrece.
+Intensidad periódica o descuento efectivo:
+Se refiere a la proporción que representa el descuento periódico respecto del valor sobre el que se
+aplica el descuento, que en este caso es el valor actual que quedó del período anterior. Entonces, dividiendo
+el descuento periódico por el valor actual, tenemos:
+i
+––––––––––––
+(1 + i2).(1 + i3) i
+–––––––––––– = ––––––
+1 (1 + i3)
+––––––
+(1 + i2)
+Intensidad unitaria:
+Viene a ser como el descuento promedio, ya que para obtenerlo se toma el descuento total de 0 a n, y
+se lo divide por el número total de períodos n:
+in i
+––––––– = ––––––
+(1 + in) n (1 + in)
+A continuación observamos en las figuras 2.3 y 2.4 las funciones del valor actual y del descuento
+acumulado
+Figura 2.3 Valor actual con descuento racional
+17
+
+Figura 2.4 Descuento acumulado con descuento racional
+Análisis de las funciones del descuento racional con derivadas
+Las funciones del valor actual y del descuento pueden analizarse también con derivadas. La derivada
+primera nos dice si la función crece o decrece mientras que la derivada segunda nos dice acerca de la forma
+de la función.
+La función valor actual
+Si expresamos la función del valor actual con descuento racional como (1 + in)-1 haciendo la
+derivada primera con respecto a n, aplicando la regla de la potencia y la regla de la cadena, tenemos:
+(-1) (1 + in)-2 . i < 0 que nos indica una función decreciente
+la derivada segunda, será (-1) . (-2) . (1 +in)-3 i2 = 2i2 /(1 +in)3 > 0
+al ser Positiva la derivada segunda, sabemos que su forma es cóncava. Por lo que podemos afirmar que es
+una función decreciente, siendo asintótica al eje de las abcisas (al principio decrece rápido, para luego
+hacerlo mas lentamente: esto también puede entenderse si tenemos en cuenta que el numerador de la función
+se divide por un denominador que crece menos que proporcionalmente, y en consecuencia, el valor de la
+función también disminuye menos que proporcionalmente).
+La función descuento racional
+1
+Si Cn = 1 entonces D =1 – –––––
+(1+in)
+(1 + in) – 1
+despejando resulta que D = –––––––––
+(1 + in)
+in
+La función D = –––––– = in (1 + in)-1 toma los siguientes valores:
+(1 + in)
+n = 0 D = 0
+n → ∞ D = Cn
+u’v + v’u
+La derivada primera, aplicando la regla uv = ––––––––
+v2
+18
+
+Por lo tanto, la derivada primera sería i
+–––––– > 0
+(l + in)2
+Y la derivada segunda es -2i2/(1 + in)3 < 0
+El descuento racional es por lo tanto, una función creciente cuyo techo es el valor nominal.
+La operación de descuento en la práctica: el descuento comercial
+Cuando los intereses se abonan al inicio de la operación de descuento, las tasas utilizadas se
+denominan adelantadas o de descuento. A este tipo de operatoria se la denomina “descuento comercial” o
+“descuento bancario”, siendo la más utilizada en la práctica de los negocios.
+Como el descuento se practica sobre un valor final o monto (el valor final es el valor nominal del
+documento, sea este un pagaré, un cheque, etc.) y no sobre el capital que realmente se presta en la operación,
+resulta un beneficio adicional para el prestamista, como veremos a continuación.
+Ejemplo: se tiene un documento de $1 que vence dentro de 1 mes(4), pero se decide descontarlo en una
+entidad financiera, para disponer de efectivo inmediatamente. El descuento es del 20% mensual, de forma tal
+que se reciben 80 centavos:
+Hoy 1 mes
+0,80 $1
+d= 0,20
+En el descuento comercial los intereses se calculan sobre el valor nominal del documento, que es
+asimilable a un capital futuro o monto (Cn):
+D = Cn.d.n
+De forma tal que el valor actual del documento es igual al valor nominal menos el descuento:
+V = Cn - Cn.d.n
+V = Cn (1 - d.n)
+En nuestro ejemplo, el valor actual recibido es:
+V = 1 - 0,20 × 1 = 0,80
+Observe que el descuento se practica, a diferencia del descuento racional, sobre un valor futuro (el
+valor nominal del documento, que es el valor que tendrá el documento dentro de un mes) pero se recibe en
+préstamo una suma menor (0,80). Por lo tanto el prestamista gana un rendimiento que es igual al descuento
+(d) sobre la cantidad que efectivamente presta (1 -d):
+Descuento d
+i = –––––––––––– = ––––
+Valor actual 1 - d
+(4) En este ejemplo se ha trabajado con una tasa efectiva de descuento que llamamos d (cuando el período de la
+operación es uno solo, la tasa nominal de descuento y la efectiva de descuento son iguales).
+19
+
+¿Cuál es el rendimiento que obtuvo el prestamista si cobró el 20% de interés sobre un capital de $1 y
+en realidad sólo prestó 0,80? Obviamente, es mayor al 20% pues si colocáramos el dinero obtenido en
+préstamo al 20% apenas alcanzaríamos 96 centavos
+0,80 × (1 + 0,20) = 0,96
+La tasa de interés implícita o equivalente en la operación anterior puede despejarse fácilmente
+razonando cuál es la tasa de interés vencida a la que tendríamos que colocar el capital obtenido en préstamo
+(1 -d), para reconstruir el peso que dio origen a la operación:
+(1 -d) . (1 + i) = 1
+0,80 × (l + i) = 1
+Donde la tasa de interés vencida i resulta ser del 25%, resultado al que también arribamos razonando
+el rendimiento que tuvo el prestamista:
+d 0,20
+i = –––– = ––––– = 0,25 = 25%
+1-d 1-0,20
+Este tipo de descuento tiene una característica distintiva: la tasa que se utiliza en la operación es una
+tasa de descuento o adelantada, ya que se calcula sobre el valor que el documento tendrá en el futuro. A esta
+tasa de descuento le corresponda una tasa equivalente “i” vencida, que en nuestro ejemplo resulta ser del 25
+%. Por lo tanto, el verdadero costo efectivo de la operación de descuento siempre hay que medirlo en
+término de tasa de interés vencida.
+Hay numerosos casos en la vida real donde aparecen operaciones que tácitamente involucran una
+tasa de descuento. Por ejemplo, los bienes que se venden con un precio de lista (que puede abonarse con
+tarjeta de crédito) o con un descuento por pago al contado. Suponga que un bien puede adquirirse según las
+siguientes condiciones:
+Precio lista: 100
+Precio al contado: 10% de descuento
+El precio de lista puede abonarse con tarjeta, y tenemos la opción de abonarlo al contado con un
+descuento. Supongamos que el resumen de la tarjeta habría que pagarlo dentro de 30 días. Pero la pregunta
+que debemos hacernos es: ¿cuál es el interés mensual que terminamos pagando si no aprovechamos el 10%
+de descuento? Podemos despejar el costo de financiar la compra con tarjeta con la fórmula para despejar la
+tasa vencida a partir de la tasa de descuento:
+d 0,10
+i = –––– = ––––––– = 0,1111 = 11,11 %
+1 -d 1 - 0,10
+Si hubiéramos abonado la compra al contado, habríamos desembolsado $90 (100 menos un diez por
+ciento). Es fácil ver que de 90 a 100 hay un 11,11%, teniendo en cuenta que al perder el descuento,
+terminamos abonando 100 dentro de un mes y esto implica un costo del 11,11%. Es posible establecer una
+relación de equivalencias entre tasas de descuento y tasas de interés vencidas, como se observa en la tabla
+2.6:
+d i
+10,0% 11,1%
+20,0% 25,0%
+30,0% 42,9%
+40,0% 66,7%
+50,0% 100,0%
+60,0% 150,0%
+70,0% 233,3%
+80,0% 400,0%
+90,0% 900,0%
+Tabla 2.6 Equivalencia entre tasas vencidas y de descuento
+20
+
+Observe como la diferencia entre ambas tasas aumenta a medida que aumenta el valor nominal de la
+tasa de descuento. Por ejemplo, para un 50% de descuento habría que colocar el dinero al 100% para
+reconstituir el capital que dio origen a la operación.
+Cómo se pacta el descuento en la vida real: la tasa de descuento nominal
+En la práctica el descuento de documentos se pacta generalmente una tasa nominal anual de
+descuento, que llamaremos “f (m)” y se proporciona para la cantidad de días hasta el vencimiento del
+documento. De la proporción de la tasa nominal de descuento surge una tasa de descuento efectiva “d” para
+el plazo de la operación.
+Ejemplo: Se descuenta un documento de $2.000 en un banco cuando faltan 35 días para su
+vencimiento, pactándose una tasa nominal anual de descuento del 90%. El descuento de la operación es
+m
+D = Cn × f (m) × –––
+365
+35
+2.000 × 0,90 × ––– = 172,6
+365
+Y el valor actual recibido
+m
+V = Cn × (1 – f (m) × ––––)
+365
+35
+2.000 × (1 – 0,90 × ––––) = 1.827,4
+365
+En el Apéndice B de este capítulo puede verse una tabla de conversión entre tasas adelantadas y
+vencidas para diferentes plazos. Por supuesto, la tasa nominal de descuento del 90% implicaba una tasa
+efectiva de descuento para 35 días de 8,63%:
+m m
+d = f (m) × ––– = 0,90 × –––– = 0,0863
+365 365
+En el capítulo 4 abundaremos sobre las relaciones entre las distintas tasas, siendo posible obtener una
+tasa efectiva de interés a partir de una nominal de descuento, o una tasa efectiva de descuento a partir de una
+nominal de interés, y así sucesivamente(5).
+La equivalencia entre las tasas de interés vencida y de descuento para operaciones con más de un
+período
+Vimos anteriormente que en la operación de descuento surge una tasa de interés vencida implícita o
+equivalente, que se podía obtener rápidamente mediante la ecuación i = d/1 -d. Esta ecuación de arbitraje
+servía para operaciones que se contrataban por un solo período y las tasas involucradas eran efectivas. Si
+bien en la práctica las operaciones de descuento se contratan siempre por un solo período
+(5) Cuando la capitalización es continua, las tasas de interés y de descuento se igualan.
+21
+
+(independientemente de cuantos días tenga éste)(6), solamente a los efectos teóricos vamos a definir la
+relación entre ambas tasas cuando la operación de descuento se contrata por más de un período, lo que nos
+permitirá establecer una importante observación: en el régimen simple, las tasas son siempre nominales.
+Para esto basta despejar la tasa de interés vencida i a la que colocada durante n períodos el valor actual (1 -
+dn) vuelve a reproducir el peso que originó la operación:
+1 -dn) . (1 + in) = 1
+Pasando términos obtenemos una expresión que nos permitirá obtener la equivalencia entre las tasas
+de interés y de descuento para diferentes períodos. Vamos a reproducir la deducción por pasos:
+i a partir de d: d a partir de i:
+1 1
+–––– = 1 +in –––– = 1 -dn
+1 -dn 1 + in
+1 1
+–––– -1 = in dn = 1 - –––––
+1 -dn (1 + in)
+1 – (1 – dn) (1 + in) - 1
+–––––––––––– = i d = ––––––––––
+(1 –dn) n (1 + in) n
+d i
+i = –––––– d = ––––––
+1 - dn 1 + in
+Una observación importante es que el valor que adquiere “n” modifica la relación entre la tasa de
+interés vencida i y la tasa adelantada d. Veremos en el próximo capítulo que esto no ocurre en el interés
+compuesto, donde se trabaja con tasas efectivas. Volvamos a mirar las fórmulas finales:
+d i
+i = –––––– d = –––––
+1 – dn 1 + in
+En rigor de verdad i debería ser denominada “j(m)” y d debería ser denominada “f(m)” en esas
+ecuaciones. La razón es muy simple: tanto i como d resultan ser siempre tasas nominales cuando el número
+de períodos de la operación es mayor a uno (y son también efectivas cuando n = 1). En el ejemplo que
+descontábamos un documento con una d = 0,20 y n = 1 entonces i = 0,25. Veamos ahora qué ocurre si d =
+0,20 pero n = 2. Matemáticamente, al realizar i = d/1-dn, cuanto mayor es el valor que adquiere n, menor es
+el valor del denominador, y en consecuencia mayor es el valor de i. Si descontamos un documento de $1 por
+dos períodos siendo d = 0,20 el descuento efectivo es del 40% (de forma tal que la tasa efectiva de descuento
+es “dn” por lo cual el valor actual resulta ser de $0,60; luego deberíamos colocar esta suma durante dos
+períodos a una tasa de interés vencida del 33,33 % para reconstruir el peso inicial(7), de forma tal que i es una
+tasa nominal, siendo “i.n” la verdadera tasa efectiva de la operación:
+(1 -0,20.2) = 0,60
+0,60 (1 + 0,33 × 2) = 1
+(6) Decimos que se contrata por un período pues la operación finaliza cuando se descuenta el documento; no vuelven a
+practicarse nuevos descuentos sobre el mismo valor nominal.
+(7) Como se verá en el próximo capítulo, en el régimen compuesto el valor del número de períodos de la operación, no
+modifica la relación entre la tasa vencida y la tasa de descuento.
+22
+
+La diferencia i-d es el interés del descuento o el descuento del interés.
+Definiendo la tasa de descuento d como lo que se descuenta a la unidad de capital en la unidad de
+tiempo, es decir que se entrega (1-d), que capitalizando a la tasa i debe reconstruir el peso:
+(1-d) . (1 + i) = 1
+De esta relación de arbitraje podemos verificar que:
+a) d = i.v la tasa de descuento es igual al valor actual de la tasa de interés (ya que v = 1/l + i)
+b) i = d(1 + i) la tasa de interés es igual al monto de la tasa de descuento
+b) i - d = d(1 + i) - d = d(1 + i-1) = d.i
+Conclusión: la diferencia entre ambas tasas puede sintetizarse como el interés de descuento o el
+descuento del interés.
+Descuento comercial y racional: dos medidas diferentes de una misma operación
+En realidad, el descuento comercial y el descuento racional son dos medidas diferentes de una misma
+operación. Cuando en el ejemplo anterior se descontaba una suma de $1 por un período y se recibían $0,80;
+los 20 centavos de diferencia representaban el descuento de la operación.
+Si el análisis se efectúa a partir del capital inicial de $80 que se obtenían en préstamo, el interés
+abonado es del 25% y podía considerarse que los intereses eran abonados por período vencido, como supone
+el descuento racional (es como si analizáramos la operación desde abajo hacia arriba).
+Si la operación se analiza “desde arriba”, o sea desde el valor final de $1 y no desde el valor
+presente, hay un descuento de 0,20 y representaba un interés cobrado al principio de la operación, resultando
+una tasa de descuento o adelantada del 20%:
+1,00
+20% de descuento
+de 1,00 a 0,80 25% de interés 0,80
+a 1,00
+0,80
+Matemáticamente, resulta fácil demostrar que el descuento racional y el comercial son lo mismo, si
+sustituimos en la fórmula del descuento comercial el valor de Cn:
+D = Cn.d.n y a la vez V = Cn (1 -dn) y como Cn = V/(1 -dn)
+Sustituyendo Cn en la expresión D, el descuento comercial queda:
+V
+D = –––––––– × d × n
+1 -dn
+Observe que esta última expresión es igual a la expresión del descuento racional, ya que d/(1 -dn) =
+i, entonces quedaría D = Vi.n, que es igual a la expresión del descuento total para el descuento racional.
+También puede observarse la equivalencia si reemplazamos V en la fórmula del descuento racional:
+23
+
+Cn
+D = ––––– × i × n
+1 + in
+Como i/1 + in = d entonces D = Cn.d.n que es igual a la expresión del descuento total para el
+descuento comercial.
+Cuadro de marcha del descuento comercial
+Prescindiremos ahora de la notación simbólica para mostrar una relación importante. Observe en la
+tabla 2.7 que el valor actual del documento es igual a cero al final del quinto período:
+Período Cn D V
+1 1,00 0,20 0,80
+2 0,80 0,20 0,60
+3 0,60 0,20 0,40
+4 0,40 0,20 0,020
+5 0,20 0,20 0,00
+Tabla 2.7 Evolución del valor actual en el descuento comercial
+Como en el régimen simple de descuento éste se calcula siempre sobre el valor final de la operación,
+el descuento periódico es constante. Las relaciones más importantes se analizan en la siguiente sección, para
+tratar luego el tiempo que tarda el descuento en anular el valor del documento.
+Fórmulas derivadas del descuento comercial
+A continuación se muestran las fórmulas utilizadas en las operaciones de descuento comercial,
+haciendo la salvedad que d es una tasa efectiva. En los casos en los que las operaciones se pactan con una
+tasa nominal de descuento, ésta debe ser proporcionada para el período de la operación.
+Valor actual Tasa de Número de Descuento
+descuento períodos acumulado
+Cn - V Cn - V
+D (0, n) = Cn.d.n
+V = Cn (1 – dn) d = ––––––––– n = –––––––
+Cn.n V.d
+Análisis del descuento comercial
+Como los intereses descontados siempre se calculan sobre el mismo valor nominal (o capital final)
+los descuentos periódicos practicados son siempre iguales (si es que no se modifica la tasa de descuento
+utilizada). Por lo tanto los descuentos acumulados serían:
+a) Descuentos acumulados
+D (0,n) = D (0,1) + D (1,2) + D (2,3) +…+ D (n -1, n) = Cn.d.n
+Por lo tanto D(0,n) = Cn - V= Cn - (Cn - Cn.d.n) = Cn.d.n
+De manera que el descuento acumulado es igual a n veces el descuento periódico.
+24
+
+b) Intensidad periódica del descuento o descuento efectivo: el descuento efectivo es creciente, ya que
+si bien el descuento periódico es constante, la proporción en relación al valor presente aumenta en cada
+período:
+d
+D (p, p + 1) = ––––––––
+1 – d × p
+Al aumentar el número de períodos p, el denominador es menor, y en consecuencia, el resultado es
+cada vez mayor.
+El valor actual en el descuento comercial aparece representado en la figura 2.5. Es una función lineal
+de la forma y = - ax + b válida en el intervalo comprendido entre n = 0 y n = 1/d; corta a los ejes en los
+puntos (0,1) y (1/ d,0) y tiene un coeficiente angular igual a (-d), donde d representa la pendiente de la
+función, que es decreciente ya que a medida que descontamos el valor nominal por un período mayor, el
+valor actual desciende. La función descuento se observa en la figura 2.6 y también es una función lineal pero
+creciente desde n = 0 y teniendo por techo el valor nominal cuando n = 1/d (no puede descontarse más que el
+capital total que dio origen a la operación)
+Figura 2.5 Valor actual con descuento comercial
+Figura 2.6 Descuento acumulado en el descuento comercial
+Tiempo que tarda el descuento en anular un capital o documento
+En teoría, como pudo observarse en el cuadro de marcha, el descuento comercial puede llegar a
+hacerse igual o superior al valor del capital descontado. En el primer caso supondría un valor actual nulo y
+en el segundo se obtendría un absurdo matemático, ya que el valor actual del documento sería negativo(8).
+El tiempo en que un capital se anula es igual a la inversa (recíproco) de la tasa de descuento(9): para
+obtener el número de períodos que anula el valor del documento, simplemente igualamos a 0 (cero) el valor
+actual:
+(8) Esto solamente tiene valor como curiosidad matemática. En la práctica nadie descuenta un documento para no recibir
+nada o lo que es más absurdo, tener que dar dinero para no recibir nada a cambio.
+25
+
+1
+Si 1 -dn = 0 y despejando el número de períodos tenemos n = ––
+d
+El descuento comercial podría ser tachado de irracional por el caso extremo mencionado, pero si
+recordamos que en la práctica su uso se limita a plazos cortos, dicha circunstancia no se presenta.
+Preguntas de auto-evaluación:
+1. ¿Por qué la operación de descuento comercial involucra una tasa de interés implícita?
+2. ¿Por qué decimos que en el régimen simple las tasas de interés son siempre nominales?
+3. ¿Cuánto tiempo tarda el descuento en anular el valor de un documento?
+2.3. EQUIVALENCIA DE CAPITALES EN EL RÉGIMEN SIMPLE Y
+REEMPLAZO DE PAGOS
+Se dice que dos capitales son equivalentes en una fecha dada cuando descontados a la misma tasa,
+tienen el mismo valor actual. Este es un principio matemático de amplio uso en las finanzas, y dicha
+equivalencia puede ser calculada tanto con el descuento comercial como con el racional.
+Vamos ahora a extender este principio para el caso del reemplazo de pagos. Cuando por alguna
+circunstancia un deudor no puede cumplir con una serie de pagos que estaban destinados a cancelar una
+deuda, es posible la re financiación de la misma a través del vencimiento común o el vencimiento medio.
+Vencimiento común
+Se habla de vencimiento común cuando se reemplaza un conjunto de documentos reemplazándolos
+por uno nuevo (cuyo valor es diferente a la suma de los documentos anteriores) y se establece un nuevo
+plazo de vencimiento (este plazo de vencimiento, es “común” para todos los documentos reemplazados).
+Entonces se trata de reemplazar a varios capitales C , C , … C , por un solo capital “C” con vencimiento en
+1 2 n t
+un período determinado “t”.
+Recordemos que para que el nuevo pago que va a reemplazar a los anteriores sea equivalente desde
+el punto de vista financiero, el valor actual del nuevo pago (V) siempre debe ser igual al valor actual de los
+anteriores pagos. Suponiendo que el documento nuevo quiere reemplazar a otros dos cuyos vencimientos
+operaban dentro de uno y diez meses respectivamente, la expresión del valor actual del nuevo documento
+según el descuento racional sería:
+C C
+1 2
+V= –––––––– + –––––––––
+(l + i) (1 + i × 10)
+En el vencimiento común las incógnitas pueden ser dos: si predefinimos el plazo de vencimiento, la
+incógnita es el valor del nuevo documento; si predefinimos éste último, la incógnita es el plazo de
+vencimiento.
+Una vez obtenido el valor actual del nuevo pago (V) se calcula el valor nominal del nuevo
+documento (o capital final) utilizando simplemente la fórmula del interés simple. Si el nuevo documento se
+firmará con un vencimiento dentro de 12 meses, su valor sería:
+C = V (1 + i × 12)
+1
+Ejemplo: Se ha documentado una deuda en 2 pagos a los 6 y 8 meses de plazo, por importes de
+$1.000 y de $10.000 respectivamente. De común acuerdo, deudor y acreedor deciden reemplazar esos dos
+(9) También puede decirse que el valor del documento se anula cuando la tasa es igual a del número de períodos.
+26
+
+pagos por uno solo, a efectivizar dentro de 10 meses. Determinar el valor de ese nuevo pago dentro de 10
+meses, sabiendo que el valor de la tasa de interés vencida es del 2% mensual. Resolveremos analizando por
+descuento comercial y racional, de acuerdo a las equivalencias que fueron tratadas anteriormente.
+a) Por descuento racional
+El primer paso es calcular el valor actual de los dos documentos, para obtener el valor actual del
+nuevo documento, que se firmará con un vencimiento a diez meses:
+1.000 10.000
+V = –––––––––– + ––––––––––– = 892,85 + 8.620,69 = 9.513,55
+(1 + 0,02 × 6) (1 + 0,02 × 8)
+Luego se calcula el valor nominal del nuevo documento mediante la fórmula del monto a interés
+simple, para diez períodos:
+C = 9.513,55 × (1 + 0,02 × 10) = 11.416,25
+10
+El nuevo documento, firmado con vencimiento dentro de diez meses por un valor de $11.416,25, es
+equivalente a los dos documentos por 1.000 y 10.000 pesos, que vencían dentro de 6 y 8 meses,
+respectivamente.
+Un punto muy importante que debe remarcarse, es que, en el régimen simple, siempre debe
+calcularse primero el valor actual del documento, para después calcular su equivalente en otra fecha futura.
+Por ejemplo, el documento de $1.000 que vencía a los 6 meses tiene un valor presente de 892,85; la
+diferencia de 107,15 son los intereses entre el momento 0 y el mes 6; si capitalizáramos el valor nominal del
+documento (1.000) para llevarlo directamente a la fecha futura donde vencerá el nuevo documento, esto sería
+incorrecto, puesto que se estaría capitalizando los intereses y se transformaría la operación en una de interés
+compuesto.
+b) por descuento comercial
+Si la tasa de interés vencida es del 2% mensual, la tasa de descuento equivalente es influida por el
+número de períodos, según vimos antes en este mismo capítulo, donde la obteníamos a partir de la siguiente
+expresión:
+i
+d = ––––––
+1 + in
+Para el primer documento la d equivalente para 6 meses es:
+0,02
+d = –––––––––– = 0,01785
+1 + 0,02 × 6
+Y para el segundo documento la d equivalente para 8 meses es:
+0,02
+d = ––––––––––– = 0,01724
+1 + 0,02 × 8
+Luego, resolvemos el valor presente de ambos documentos:
+V = V + V
+1 2
+V = 1.000 (1 – 0,01785 × 6) + 10.000 (1- 0,01724 × 8) = 9.513,55
+27
+
+Que es el mismo valor obtenido a través de la fórmula del valor actual con descuento racional que
+vimos anteriormente. El valor nominal del nuevo documento también se calcula igual que antes, mediante la
+fórmula del monto a interés simple, para diez períodos:
+C = 9.513,55 (1 + 0,02 × 10) = 11.416,25
+10
+Vencimiento medio
+Se habla de vencimiento medio cuando solamente se modifica el plazo de vencimiento; no se le
+cambia el valor a los pagos ya que los capitales se reemplazan por un capital C que es igual a la suma de
+t
+los capitales originales. Siguiendo con el ejemplo anterior, donde el valor actual de los dos documentos a
+reemplazar era de 9.513,55, debemos resolver el número de períodos que tarda ese valor en igualar la suma
+de los dos documentos (C + C = 11.000)
+1 2
+Para obtener el plazo de vencimiento se recurre a la fórmula que obtiene el número de períodos, y
+que habíamos deducido de la fórmula del monto a interés simple:
+11.000 - 9.513,55
+n = ––––––––––––––– = 7,81
+9.513,55 × 0,02
+La parte fraccionaria de la respuesta (0,81 meses), debe interpretarse como el 81% de un mes de 30
+días, lo que significaría que el plazo sería igual a 7 meses y 24 días.
+A diferencia del vencimiento común, cuando tenemos un problema de vencimiento medio la
+incógnita puede ser una sola: el número de períodos, ya que el valor nominal del nuevo documento es
+predefinido como la suma de los valores nominales de los documentos que reemplaza, y por lo tanto no es
+una incógnita.
+0 6 7 8
+1.000
+10.000
+7,81
+Observe que el valor del número de períodos cae entre los dos vencimientos, como no podía ser de
+otra manera. Si lo analizamos desde los límites, el vencimiento común nunca podría haber caído en el
+período 6 0 en el 8. En el primer caso porque el valor presente de 10.000 harían que la suma de los dos
+documentos sea menor a 11.000 y en el segundo porque en el período ocho los 1.000 capitalizados harían
+que la suma sea mayor a 11.000. Por lo tanto, necesariamente el vencimiento común debe caer entre los
+vencimientos. ¿Más cerca de 6 o de ocho? La fecha del vencimiento común dependerá de dos cosas: a) el
+valor nominal de los documentos y b) la tasa de interés. El lector puede comprobar por su cuenta que:
+• si el orden de los vencimientos se hubiera invertido, con 10.000 venciendo en el mes 6 y
+1.000 venciendo en el mes 8, el vencimiento común se produciría en el período 6,17.
+• si la tasa de interés hubiera sido del veinte en vez del dos por ciento, el vencimiento común
+caería en 7,79.
+Un atajo para calcular el vencimiento medio: la tasa no influye en el descuento comercial
+El último punto de la sección anterior ilustraba una relación muy importante: aún para grandes
+cambios en la tasa de interés vencida, el vencimiento medio se “corre muy poco”. ¿Por qué ocurre esto?
+Cuando la tasa de interés aumenta, hay dos fuerzas que juegan en sentido contrario: por un lado se capitaliza
+28
+
+el valor del documento cuya fecha de vencimiento es anterior al vencimiento medio, y por otro lado se
+reduce el valor actual del documento cuya fecha de vencimiento es posterior al vencimiento medio. En
+general, el vencimiento medio se mueve hacia la fecha de vencimiento del documento de mayor valor, pero
+un aumento en la tasa de interés produce el siguiente cambio:
+• si el documento con mayor valor aparece después el vencimiento medio se anticipa.
+• si el documento con mayor valor aparece el aumento de la tasa lo acerca a su fecha de
+vencimiento.
+Lo inverso se cumple para reducciones en la tasa de interés. Estos efectos son todavía más
+importantes en el régimen compuesto, y conocer esta relación tiene particular importancia en situaciones de
+la vida real, por ejemplo, en la “inmunización” de carteras de títulos de renta fija. Esta situación se describe
+con detalle en el capítulo 12 donde se trata el efecto precio-tasa de interés en los bonos.
+El caso del vencimiento medio en el descuento comercial plantea un caso interesante, ya que
+podemos calcularlo independientemente de la tasa de contrato de descuento de la operación. El principio de
+equivalencia nos dice que el valor actual del nuevo documento es igual a la suma de los valores actuales de
+los documentos que reemplaza:
+C (1- d.t) = C (1-d.t ) + C2 (1 -d.t )
+1 1 2
+Distribuyendo y luego sacando factor común queda:
+C - C.d.t = C - C .d. t + C – C .d.t
+1 1 1 2 2 2
+Como en el vencimiento medio el nuevo documento C = C + C podemos simplificar la ecuación y
+1 2
+queda:
+C.d.t = d (C .t + C .t)
+1 1 2
+Finalmente podemos despejar t:
+C1.t + C .t
+1 2 2
+t = ––––––––––––
+C
+1.000 × 6 + 10.000 × 8
+En el ejemplo t = –––––––––––––––––––– = 7,81
+11.000
+Y si se invirtieran los vencimientos, como fue mencionado anteriormente, el período t hubiera sido
+de nuevo 6,17
+10.000 × 6 + 1.000 × 8
+t = –––––––––––––––––––– = 6,17
+11.000
+En el caso particular de que C = C la fórmula quedaría
+1 2
+C (t + t ) t + t
+j 1 2 1 2
+t = ––––––––––– = ––––––
+NC N
+j
+donde N representa el número de documentos. Observe que en estas expresiones no aparece la tasa de
+descuento de la operación. El resultado hubiera sido el mismo ya sea que la tasa de descuento hubiera sido el
+2% o el 200%. Sin embargo vimos que cuando aplicábamos el descuento racional un cambio en la tasa de
+interés vencida tenía influencia, aunque muy poca, en el vencimiento medio de la operación. ¿Por qué en el
+29
+
+descuento comercial el cambio en la tasa de descuento no influye sobre el resultado? Ya vimos que para que
+el descuento comercial y el racional arrojen exactamente el mismo resultado, tendríamos que utilizar para
+cada documento la tasa equivalente para cada período, según el vencimiento de cada documento. Así,
+tendríamos que calcular la d equivalente a la i en cada período, ya que la relación se ve alterada por el
+número de períodos, como fue demostrado anteriormente. En cambio, si utilizamos el descuento comercial y
+se predefine una tasa de contrato d, si bien es cierto que cuanto mayor sea ésta menor será el valor presente
+de los documentos, inmediatamente aparece implícita una tasa vencida de arbitraje que iguala el valor
+presente con la suma de los documentos (11.000) siempre en idéntico plazo. Por ejemplo si hacemos el
+cálculo con tasas de descuento de d = 2% y d = 10% mensual, el valor presente de los documentos en cada
+caso sería:
+V = 1.000 (1-0,02 × 6) + 10.000 (1- 0,02 × 8) = 9.280
+(d = 2%)
+V = 1.000 (1-0,10 × 6) + 10.000 (1- 0,10 × 8) = 2.400
+(d = 10%)
+Luego, el vencimiento medio en ambos casos sería:
+Cn – Co 11.000 - 9.280
+n = ––––––– = ––––––––––––– = 7,8181
+Cn.d 11.000 × 0,02
+Cn – Co 11.000 – 2.400
+n = ––––––– = ––––––––––––– = 7,8181
+Cn.d 11.000 × 0,10
+Luego, siempre hay implícita una tasa de interés vencida que hace que la colocación de 9.280 o de
+2.400 (2,37% mensual y 45,83% mensual) alcance en 7,8181 períodos el monto de $11.000:
+9.280 (1 + 0,0237 × 7,8181) = 11.000
+2.400 (1 + 0,4583 × 7,8181) = 11.000
+Por lo tanto, la tasa de descuento no influye en el vencimiento medio, ya que si ésta aumenta y con
+ello disminuye el valor presente de los documentos, luego surge una tasa de interés vencida mayor que
+vuelve a igualar el valor presente con la suma de los documentos siempre en el mismo plazo.
+¿Por qué el cambio en la tasa de interés sí influye en el vencimiento medio con descuento racional?
+La explicación requiere de observar los cambios en el valor de la función vencimiento medio para
+cambio en el valor de la tasa de interés, derivando la función. De acuerdo a lo visto, en un caso simple de dos
+capitales, el vencimiento medio debe cumplir la condición:
+(C + C ) / (1 + it) = C / (l + it ) + C / (1 + it ) (1)
+1 2 1 1 2 2
+Podemos despejar el tiempo “t” de la expresión (1):
+t = (t C (1 + it ) + t C (1+it) / (C (1 + it ) + C (1 + it )) (2)
+1 1 2 2 2 l 1 2 2 1
+reordenando la expresión 2, queda:
+t = (t C + t C + i t t (C + C )) / (C + C + i (C t + C t )) (3)
+l 1 2 2 1 2 1 2 1 2 1 2 2 1
+verificando en nuestro ejemplo: t = (6000 + 80.000 + 0,02 (48) 11.000) / (11000 + 0,02 (68.000)) =
+7.81
+Analicemos si es posible afirmar que la función t (i) es creciente o decreciente. Para ello, estudiemos
+el signo de t (i + Δi) – t (i):
+t (i) = (t C + t C + it t (C + C )) / (C + C + i (C t + C t )) (3)
+1 1 2 2 1 2 1 2 1 2 1 2 2 1
+t (i + Δi) = (t C + t C + (i + Δi) t t (C + C )) / (C + C + (i + Δi) (C t + C t )) (4)
+1 1 2 2 1 2 1 2 1 2 1 2 2 1
+30
+
+Restando (3) de (4) y operando:
+T (i + Δi) – t (i) = (-Δi C C (t - t )2) / (((C + C + i (C t + C t)) (C + C + (I + Δi) (C t + C
+1 2 2 1 1 2 1 2 2 l 1 2 l 2 2
+t))) (5)
+l
+Como el denominador de la expresión es siempre positivo y el numerador siempre negativo
+(excluimos el caso de t y t coincidentes), resulta que t (i + Δi) – t (i) es negativo para cualquier Δi > 0, de
+1 2
+donde podemos deducir que la función vencimiento medio es decreciente. Si verificamos los cálculos de
+nuestro ejemplo:
+t (0,02) = 96560/12360 = 7,812
+t (0,2) = 191600/24600 = 7,789
+de donde resultaría un Δt de -0,023; utilizando (5) obtenemos: Δt = 0,023
+Límites de la función
+Cuando i tiende a 0, t tiende a (de 3):
+t (i) = (t C + t C ) / (C + C ),
+1 1 2 2 1 2
+que en nuestro ejemplo sería 7,82
+Cuando i tiende a infinito, t tiende a (de 3):
+t = t t (C + C ) / (C t + C t )
+1 2 1 2 1 2 2 1
+que en nuestro ejemplo sería 7,76
+Preguntas de auto-evaluación:
+1. ¿Por qué en el cálculo del vencimiento común o el vencimiento medio debemos siempre
+calcular primero el valor presente?
+2. ¿Por qué la tasa no influye en el vencimiento medio en el descuento comercial pero sí en el
+descuento racional?
+RESUMEN
+Entendemos por régimen de interés simple aquel donde los intereses se calculan sobre el capital
+inicial. En la vida real tenemos ejemplos de cálculo de los intereses bajo el régimen simple como los
+depósitos a plazo fijo, los intereses de la caja de ahorro en el interior del período de capitalización, los ajustes
+de deudas impositivas, indemnizaciones y otros.
+En las operaciones de descuento, este se practica siempre sobre el valor nominal del documento,
+dando lugar a la conocida tasa “adelantada” o de descuento, que involucra una tasa de interés vencida
+“implícita”. Esta última es la que debe considerarse a la hora de establecer el verdadero costo financiero de
+una operación de descuento.
+Por último, el principio de equivalencia de capitales nos dice que dos capitales son equivalentes
+cuando tienen el mismo valor actual. Esto es relevante en el caso de reemplazo de pagos para el vencimiento
+común y el vencimiento medio.
+PREGUNTAS
+1. Marque la respuesta correspondiente en la siguiente expresión:
+31
+
+a) En el régimen simple de intereses, el interés periódico es: (constante / creciente / decreciente). En
+consecuencia, las tasas efectivas periódicas son (constantes / crecientes/ decrecientes).
+b) En el descuento comercial, el descuento periódico es: (constante / creciente / decreciente). En
+consecuencia, las tasas efectivas periódicas de descuento son (constantes / crecientes/ decrecientes).
+2. El valor (máximo / mínimo) que puede tomar la tasa utilizada en una operación realizada por el
+descuento comercial en un régimen simple (varía proporcionalmente con la tasa de interés utilizada en la
+operación / depende del valor que adquiere el importe a descontar / es igual al inverso del número de
+períodos que tiene la operación).
+3. En el régimen simple de interés, la expresión d/1-dn = i permite obtener la tasa de interés vencida
+equivalente en una operación de descuento comercial. Señale cuál es la tasa de descuento efectiva de la
+operación cuando n ≠ 1, si en ese caso d es una tasa nominal o efectiva y a que se debe. Por último, explique
+la relación inversa, es decir para d = i/l + in , y en que caso tanto d como i pueden ser tanto tasas nominales
+y efectivas de una operación al mismo tiempo.
+4. Un individuo retira todos los meses el interés que le produce una cuenta de ahorro y utiliza ese
+dinero para vivir. Por la forma en que se realiza la operación, se asemeja al régimen simple. ¿Por qué? ¿Qué
+tendría que ocurrir para que dicha operación se transforme en régimen compuesto?
+5. El descuento racional y el comercial son dos medidas diferentes de una misma operación. ¿En qué
+se diferencian?
+6. ¿Por qué en el vencimiento medio siempre el plazo de vencimiento cae entre los documentos que
+se reemplazan? ¿Por qué nunca puede caer en un extremo? ¿Cuáles son las dos variables que lo acercan más
+al vencimiento de alguno de los documentos que se reemplazan?
+PROBLEMAS
+l. Se depositaron $15.000.- durante un lapso de 45 días, pudiendo negociar una tasa nominal anual
+del 24%. Calcular el valor final de la inversión en el momento en que se la retira (use un año de 365 días).
+Respuesta: 15.443,83
+2. Al cabo de 30 días se obtuvo un interés de $1.000.- por un depósito a plazo fijo realizado a una
+tasa del 20% nominal anual. Se desea calcular el importe de la inversión (use un año de 365 días).
+Respuesta: 60.833,33
+3. El interés producido por una inversión realizada hace 30 días es de $10.000.- Calcular el Capital
+Inicial que se ha invertido sabiendo que la tasa de interés pactada fue del 22% nominal anual (use un año de
+365 días).
+Respuesta: 553.030,30
+4. En un régimen simple de interés se depositó un capital de $10.000.- al 5% mensual por un lapso
+de 180 días. Se desea saber el valor final o monto de la operación total, y también que monto obtuvo el
+inversor si a los 120 días retiró la suma de $500. Considere un año de 365 días (use un año de 365 días).
+Respuesta: 13.000 y 14.250
+5. Se ha efectuado un depósito a plazo fijo por 50 días al 24% nominal anual de interés, y 20 días
+más tarde se efectuó otro con igual fecha de vencimiento pero pactado al 22% nominal anual. La suma de los
+capitales invertidos fue de $35.000. Se desea calcular el importe de cada uno de los depósitos, sabiendo que
+al vencimiento se retiraron $35.854,80 (use un año de 365 días).
+Respuesta: C,= 15.000 y C2= 20.000
+6. Calcule el valor actual de un documento de $100, que es descontado un mes antes de su
+vencimiento, pactando una tasa nominal de descuento del 15% anual, en la modalidad del descuento
+comercial. Determine la tasa de descuento efectiva, el costo financiero de la operación, y luego vuelva a
+32
+
+realizar el cálculo pero descontando el documento por un período de 2 (dos) meses (se supone que los meses
+tienen 30 días y el año tiene 365 días).
+Respuesta: d = 1,2328%; i = 1,248%; d = 2,465%; i = 2,53%; V (descontado por 30 días)
+30 30 60 60
+= 98,76; V (descontado por 60 días) = 97,53
+7. Un título de valor nominal de $20.000,00 sufrió un descuento bancario con la tasa de 8% anual a
+60 días antes de su vencimiento, siendo cobrada una comisión de 1,8% sobre el valor nominal. Calcular:
+a) El valor efectivo recibido por el poseedor del título
+b) El costo efectivo de la operación
+Respuesta: a) 19.736,98 b) 3,21%
+8. Es común que muchos bienes y servicios se ofrezcan con un precio de lista (normalmente se puede
+abonar el mismo con tarjeta de crédito) y un descuento por el pago al contado. Calcule el costo financiero
+implícito incluido en la siguiente lista de precios, suponiendo que la liquidación de la tarjeta de crédito
+debería abonarla 30 días después de la compra:
+Precio Contado Precio Lista (con tarjeta)
+90 100
+Respuesta: 11,11
+9. Calcular el vencimiento medio de tres documentos por $6.000,10.000 y 8.000 con vencimiento en
+9, 5 y 8 meses, siendo la tasa de interés la misma en todos los casos.
+Respuesta: 7 meses
+10. Una persona debe afrontar los vencimientos de los siguientes documentos (descuento comercial):
+$ 6.000,00 a 30 días de plazo
+$ 4.000,00 a 60 días de plazo
+$ 8.000,00 a 92 días de plazo
+$10.000,00 a 72 días de plazo
+Si desea cancelar esas deudas con un único pago de $28.000.-, ¿cuál deberá ser el plazo para ese
+documento?
+Respuesta: 67 días
+11. El futuro del dólar se negocia al 30/6/05 a $2,92. Hoy es 4/5/05 y el dólar de referencia del
+BCRA es 2,8963. Calcule cuál es la la tasa efectiva y la TNA implícita en la operación para dicho período
+(use un año de 365 días)
+Respuesta: i = 0,818% j (m) = 5,24%
+12. Teniendo en cuenta que para plazos entre 45 y 60 días puede conseguirse una TNA para un
+depósito en pesos de 3,5% y que las TNA Para depósitos en U$S para igual plazo es de 0,50%, explique si
+existe posibilidad de arbitraje en el ejercicio anterior. ¿Cuál debería ser la TNA en pesos para que exista
+arbitraje? (asuma que no existen costos de entrada y salida y use un año de 365 días)
+Respuesta: superior al 5,74%
+13. Si el Banco Central esta queriendo colocar una letra del tipo “cupón cero para un plazo de 90
+días, ¿cuál sería el precio de colocación si el mercado está demandando un rendimiento del 2% efectivo para
+90 días?
+Respuesta: 98,039
+14. ¿Cuál será el monto acumulado al 10 de agosto de 2005 si el 24 de junio del mismo año se
+constituyó un plazo fijo por $1.000 en el Banco General y éste paga el 5% anual para ese plazo? (use un año
+de 365 días)
+Respuesta: 1.006,438
+33
+
+15. Una deuda de $500.000 se cancela mediante tres pagos iguales a los dos, cuatro y seis meses.
+Determinar el importe de cada pago, sabiendo que la tasa de valuación es del 2% mensual de interés simple.
+Respuesta: 179.835,31
+16. Una empresa de artículos para el hogar ofrece un plan de financiación que consiste en abonar el
+precio total de la siguiente forma: 30% al contado, 40% a los tres meses y el saldo a los 5 meses. Se ofrece
+una alternativa de pago que consiste en abonar mayor parte al contado y el resto en un solo pago a los 5
+meses. Teniendo en cuenta que la tasa de interés es del 2% efectivo mensual, determinar que porcentaje del
+total se abona al contado.
+Respuesta: 45,10%
+17. Se ha descontado un documento de $100.000 bajo las reglas del descuento comercial, cuyo
+vencimiento opera exactamente a los 150 días. La suma obtenida ha sido invertida en otra operación
+financiera a interés simple a la misma tasa (d = i) y por el mismo plazo, obteniendo un monto de $99.910.
+Determinar la tasa de interés utilizada en ambas operaciones, trabajando con meses de 30 días.
+Respuesta: 1%
+18. En la República Argentina el dólar estadounidense cotiza al 28/12/2003 a 2,97 pesos por dólar.
+Al 12-7-2005 cotiza a 2,88 pesos por dólar. Se desea saber cuál ha sido la revaluación porcentual del peso
+frente al dólar en dicho período.
+Respuesta: 3,125%
+19. Un capital de $50.000 fue distribuido en dos inversiones efectuadas a 60 y 30 días, ya que la
+segunda fue efectuada 30 días más tarde. La tasa de interés nominal anual pactada fue del 6%, y el interés
+total que se obtuvo ascendió a la suma de $ 394,52 Se solicita determinar el importe de cada inversión.
+Respuesta: 30.000 y 20.000
+20. Dos personas concurren a un banco y depositan entre ambas $ 120.000.- por un período de
+tiempo de 12 meses. Una de las inversiones se realizó al 1% y la otra al 2% mensual, y el monto total
+producido por ambas fue de 140.875,67 Calcular el capital y el monto de cada una.
+Respuesta: Capitales: 80.000 y 40.000 Montos: 90.146 y 50.729,67
+34
+
+REFERENCIAS BIBLIOGRÁFICAS
+DE MORAES, EUCLIDES M., “Matemática Financeira”, capítulo 1, 8° edición, Editora Sulina, Porto
+Alegre, 1983.
+Banco Central de la República Argentina, Boletín estadístico, año XLIII, N°4, abril 2002.
+35
+
+APÉNDICE 2A
+CONVERSIÓN DE TASA NOMINAL ANUAL ADELANTADA EN
+TASA EFECTIVA DE DESCUENTO
+El plazo aparece en días. Las tasas de contrato son nominales anuales adelantadas, para un año de
+365 días, y se convierten en tasas efectivas de descuento.
+36
+
+APÉNDICE 2B
+CONVERSIÓN DE TASA NOMINAL ANUAL ADELANTADA EN TASA
+DE INTERÉS EFECTIVA
+El plazo aparece en días. Las tasas de contrato son nominales anuales adelantadas, para un año de
+365 días, y se convierten en tasas efectivas de interés.
+37

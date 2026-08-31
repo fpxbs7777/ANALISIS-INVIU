@@ -1,0 +1,1137 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+ÍNDICE
+PARTE I. CONCEPTOS FUNDAMENTALES EN FINANZAS 1
+CAPÍTULO 1. FUNCIONES Y OBJETIVOS DE LAS FINANZAS 3
+1,1. De qué tratan las finanzas modernas................................................................................................3
+1,2. La maximización del valor como objetivo de la firma...................................................................11
+1,3. El gerente financiero......................................................................................................................17
+CAPÍTULO 2. MERCADOS FINANCIEROS.......................................................................21
+2,1. Interrelación entre las finanzas de la firma y los mercados financieros........................................21
+2,2. Mercados financieros.....................................................................................................................22
+2,3. Intermediación financiera...............................................................................................................28
+2,4. Activos o instrumentos financieros................................................................................................31
+2,5. Integración de los mercados financieros........................................................................................33
+CAPÍTULO 3. MERCADOS FINANCIEROS Y VALOR PRESENTE NETO 37
+3,1. Mercados financieros y su equilibrio.............................................................................................37
+3,2. Las elecciones de consumo............................................................................................................38
+3,3. Introduciendo en el análisis la inversión en activos reales............................................................40
+3,4. Referencia conceptual básica para las decisiones de inversión.....................................................44
+3,5. Tasa de interés e inflación..............................................................................................................45
+CAPÍTULO 4. VALOR TIEMPO DEL DINERO..................................................................49
+4,1. Valor futuro....................................................................................................................................50
+4,2. Valor presente................................................................................................................................55
+4,3. Anualidades....................................................................................................................................59
+4,4. Valor presente de una serie de flujos desiguales............................................................................61
+CAPÍTULO 5. ELEMENTOS DE VALUACIÓN...............................................................................63
+5,1. Aproximaciones a la determinación del valor de un activo...........................................................63
+5,2. Fundamentos de la valuación a través de flujos de fondos esperados...........................................65
+5,3. Valor de un bono de descuento puro..............................................................................................67
+5,4. Valor de un bono con cupón y principal........................................................................................67
+5,5. Valor de un bono perpetuo.............................................................................................................70
+5,6. Valor de una acción........................................................................................................................71
+5,7- Rendimiento de una acción............................................................................................................75
+PARTE II. ANÁLISIS DE INVERSIONES 77
+2
+
+CAPÍTULO 6. CRITERIOS PARA EL ANÁLISIS DE INVERSIONES.............................79
+6,1. Tasa de rentabilidad.......................................................................................................................79
+6,2. Valor presente neto........................................................................................................................84
+6,3. Relación beneficio-costo (BIC)......................................................................................................87
+6,4. Algunos puntos prácticos relacionados con el cálculo de la tasa de
+rentabilidad y el valor presente neto.....................................................................................................88
+6,5. Período de repago...........................................................................................................................92
+6,6. Tasa simple de rendimiento sobre la inversión .............................................................................95
+6,7. Período de repago ajustado por el tiempo......................................................................................96
+6,8. Tasa de rentabilidad y tasa simple de rendimiento sobre la inversión...........................................97
+CAPÍTULO 7. VALOR PRESENTE NETO VS. TASA DE RENTABILIDAD...................99
+7,1. Decisión de aceptación o de rechazo..............................................................................................99
+7,2. Consideraciones técnicas adicionales sobre la tasa de rentabilidad.............................................101
+7,3 Consideraciones técnicas adicionales sobre el valor presente neto..............................................104
+7,4. Presencia de situaciones conflictivas...........................................................................................106
+7,5. Enfoque terminal..........................................................................................................................113
+7,6. Disparidades en el tamaño y en las vidas útiles...........................................................................115
+7,7. Racionamiento de capital.............................................................................................................118
+Apéndice..............................................................................................................................................122
+CAPÍTULO 8. DEFINICIÓN DE FLUJO DE FONDOS...................................................125
+8,1. Base caja.......................................................................................................................................125
+8,2. Flujos de caja incrementales........................................................................................................126
+8,3. El tiempo de los flujos de fondos.................................................................................................127
+8,4. Flujos de fondos prescindentes del financiamiento de la inversión.............................................128
+8,5. Los flujos de fondos en proyectos interdependientes..................................................................129
+8,6. Los efectos de la inflación en los flujos de fondos......................................................................129
+8,7. Modelo general de flujo de fondo................................................................................................129
+8,8. Flujo de fondos para el accionista................................................................................................135
+81-9. Flujo de fondos para el período de repago.................................................................................137
+8,10. Inflación, flujos y criterios de análisis de inversiones...............................................................138
+8,11. Un enfoque alternativo...............................................................................................................148
+CAPÍTULO 9. RIESGO Y OPCIONES EN EL ANÁLISIS DE INVERSIONES..............151
+9,1. Introducción..................................................................................................................................151
+9,2. El riesgo en finanzas....................................................................................................................152
+9,3. Algunas dicotomías......................................................................................................................154
+9,4. La varianza como subrogante cuantitativo del riesgo..................................................................156
+9,5. La utilización de algunas funciones de probabilidad...................................................................158
+9,6. El riesgo en el tiempo...................................................................................................................161
+9,7. Modelos de simulación.................................................................................................................166
+9,8. Otras aproximaciones al tratamiento de la incertidumbre............................................................172
+9,9. Opciones reales y análisis de inversiones....................................................................................180
+Apéndice..............................................................................................................................................181
+3
+
+PARTE III. RIESGO Y RENDIMIENTO
+CAPÍTULO 10. TEORÍA DEL PORTAFOLIO...................................................................189
+10,1. Introducción................................................................................................................................189
+10,2. Rendimiento y riesgo de portafolios..........................................................................................190
+10,1 La frontera de eficiencia..............................................................................................................194
+10,4. Elección de portafolios óptimos.................................................................................................196
+10,5. La determinación de¡ conjunto de portafolios óptimos..............................................................198
+10,6. Oportunidades de inversión y portafolios dominantes...............................................................199
+10,7. La inflación y la selección de portafolios..................................................................................202
+10,8. Un ejemplo de aplicación...........................................................................................................203
+Apéndice..............................................................................................................................................208
+CAPÍTULO 11. TEORÍA DEL MERCADO DE CAPITALES Y EL MODELO DE
+FIJACIÓN DE PRECIOS DE ACTIVOS DE CAPITAL.............................................................213
+11,1. Las etapas del análisis de Markowitz.........................................................................................213
+11,2. Supuestos del CAPM.................................................................................................................214
+11,1 Teoría del mercado de capitales..................................................................................................215
+11,4. El CAPM....................................................................................................................................220
+11,5. Algunos problemas teóricos.......................................................................................................232
+11,6. La evidencia empírica sobre el CAPM......................................................................................235
+CAPÍTULO 12. OTROS MODELOS DE FIJACIÓN DE PRECIOS.................................237
+12,1. Introducción................................................................................................................................237
+12,2. Modelo de beta cero de BLACK................................................................................................238
+12,3. Modelo multifactorial de MERTON..........................................................................................240
+12,4. Modelo de fijación de precios de arbitraje.................................................................................241
+12,5. Acuerdos y desacuerdos sobre teorías para determinar estrategias de inversión.......................243
+CAPÍTULO 13. EL RENDIMIENTO REQUERIDO PARA LAS INVERSIONES 245
+13,1. Los grandes enfoques para el análisis de la tasa de rendimiento requerida...............................245
+13,2. La tasa de rendimiento requerida: aproximación del costo promedio del capital......................246
+13,3 Valor presente ajustado: otra aproximación de tasa de rendimiento requerida..........................263
+13,4. Valor presente neto de una inversión. Una visión complexiva de tres aproximaciones
+de tasa de rendimiento requerida.........................................................................................................265
+13,5. La evaluación de inversiones en un contexto de riesgo total de la firma...................................267
+13,6. Evaluando los dos métodos........................................................................................................268
+Apéndice..............................................................................................................................................269
+PARTE IV. POLÍTICAS DE FINANCIAMIENTO............................................................271
+CAPÍTULO 14. DECISIONES DE FINANCIAMIENTO Y LA HIPÓTESIS DE
+MERCADOS EFICIENTES.............................................................................................................273
+14,1. Decisiones de inversión y de financiamiento.............................................................................273
+4
+
+14,2. Mercados financieros perfectos y mercados financieros eficientes...........................................274
+14,1 Diferentes tipos de eficiencia......................................................................................................276
+14,4. Rendimiento "ab norinal"...........................................................................................................277
+14,5. Algunas críticas y aportes de hipótesis sobre mercados eficientes............................................278
+CAPÍTULO 15. LOS ELEMENTOS DEL ANÁLISIS DE DECISIONES DE
+FINANCIAMIENTO........................................................................................................................281
+15,1. Decisiones fundamentales sobre financiamiento.......................................................................281
+15,2. Tres aspectos básicos para las decisiones de financiamiento....................................................282
+15,1 Algunas diferencias entre las decisiones de inversión y las de financiamiento..........................284
+CAPÍTULO 16. COSTO DE LAS DEUDAS........................................................................285
+16, l. Algunas definiciones..................................................................................................................285
+16,2. Costo de las deudas....................................................................................................................287
+16,3. Comparación de las alternativas de la renegociación de deudas................................................296
+CAPÍTULO 17. LEASING....................................................................................................297
+17,1. Introducción................................................................................................................................297
+17,2. Valuación de una operación de leasing......................................................................................298
+17,3. Ventajas y desventajas de una operación de leasing..................................................................301
+CAPÍTULO 18. EL LEVERAGE Y SUS EFECTOS........................................................................303
+18,1. Punto de equilibrio.....................................................................................................................303
+18,2. Leverage operativo.....................................................................................................................309
+18,3. Leverage financiero....................................................................................................................315
+18,4. Leverage combinada...................................................................................................................317
+18,5. El efecto leverage: una visión....................................................................................................318
+18,6. El efecto leverage y el leverage combinado..............................................................................321
+18,7. El efecto leverage en condiciones inflacionarias.......................................................................322
+18,8. El efecto de la distribución en el tiempo del servicio de deuda,
+la inflación y el efecto leverage..........................................................................................................324
+18,9. El efecto leverage cuando la tasa de interés es negativa............................................................325
+CAPÍTULO 19. TEORÍA DE LA ESTRUCTURA FINANCIERA 329
+19,1. Modelos iníciales sobre la teoría de la estructura financiera.....................................................329
+19,2. El efecto de los impuestos..........................................................................................................336
+19,1 Efectos de los costos de bancarrota.............................................................................................342
+19,4. Efectos de los costos de agencia................................................................................................347
+19,5. Efectos de la información asimétrica y la señalización.............................................................353
+19,6. Efectos de la interacción de los mercados de insumos y de productos......................................355
+19,7. Efectos del control de la propiedad............................................................................................356
+19,8. Efectos de otras imperfecciones.................................................................................................357
+19,9. A manera de conclusión.............................................................................................................358
+CAPÍTULO 20. EVIDENCIA EMPÍRICA DE ESTRUCTURAS FINANCIERAS
+Y LOS LÍMITES DEL ENDEUDAMIENTO................................................................................361
+5
+
+20,1. La evidencia empírica sobre estructuras financieras..................................................................361
+20,2. Determinación de la mezcla de fuentes de corto y largo plazo..................................................369
+20,1 Los límites del endeudamiento de la empresa.............................................................................372
+20,4. Modelo de crecimiento autosostenido de HIGGINGS...............................................................383
+PARTE V. POLÍTICA DE DIVIDENDOS 387
+CAPÍTULO 21. FACTORES QUE INFLUYEN EN LA POLÍTICA DE DIVIDENDOS389
+21,1. La influencia de los dividendos en el valor de la empresa.........................................................389
+21,2. Factores que influyen en la práctica de la política de dividendos..............................................392
+CAPÍTULO 22. DIVIDENDOS Y SU RELACIÓN CON INVERSIONES
+Y FINANCIAMIENTO....................................................................................................................395
+22,1. Las relaciones entre inversiones, financiamiento y dividendos: un ejemplo.............................395
+22,2. Elementos para una política de dividendos residual..................................................................399
+PARTE VI. ADMINISTRACIÓN DE LOS RIESGOS FINANCIEROS 401
+CAPÍTULO 23. EVOLUCIÓN DE LA ADMINISTRACIÓN DE LOS RIESGOS
+FINANCIEROS.................................................................................................................................403
+23,1. En un mundo más riesgoso.........................................................................................................403
+23,2. Resultancias del riesgo de los precios financieros.....................................................................405
+CAPÍTULO 24. CONDICIONES DE PARIDAD EN LAS FINANZAS INTERNACIONALES
+Y FORWARDS...................................................................................................................................409
+24,1. Condiciones de paridad en finanzas internacionales..................................................................409
+24,2. Mercados forwards o a término.................................................................................................415
+CAPÍTULO 25. FUTUROS 425
+25,1. Introducción................................................................................................................................425
+25,2. Definición y características de los mercados de futuros............................................................426
+25,3. Márgenes....................................................................................................................................426
+25,4. El mercado y sus participantes...................................................................................................428
+25,5. Precio futuro y precio contado (spot).........................................................................................428
+25,6. Cobertura con futuros de divisas................................................................................................429
+CAPÍTULO 26. OPCIONES.................................................................................................433
+26,1. Introducción conceptual.............................................................................................................433
+26,2. Algunas estrategias de mercado con opciones...........................................................................440
+26,1 Factores que afectan el valor de las opciones.............................................................................447
+26,4. Los aportes de BLACK, MERTON y SCHOLES......................................................................452
+26,5. Fórmula para la valuación de una opción...................................................................................453
+26,6. Relaciones entre el modelo de opciones (MPO) y el CAPM.....................................................457
+26,7. Comparación de algunos aspectos de los forwards, de los futuros y de las opciones...............458
+6
+
+CAPÍTULO 27. SWAPS........................................................................................................461
+27,1. Definición de swap.....................................................................................................................461
+27,2. Swap de tasas de interés.............................................................................................................462
+CAPÍTULO 28. ADMINISTRACIÓN DEL RIESGO Y CREACIÓN DE VALOR...........471
+28,1. Administración del riesgo y valor..............................................................................................471
+28,2. Efectos de la administración del riesgo y la tasa de descuento..................................................472
+28,1 Efectos tributarios sobre el valor.................................................................................................472
+28,4. Efectos sobre los costos de transacciones y de serios problemas financieros...........................474
+28,5. Efectos sobre las decisiones de inversión..................................................................................475
+PARTE VIII. ADMINISTRACIÓN PARA LA CREACIÓN DEL VALOR 477
+CAPÍTULO 29. VALOR AGREGADO ECONÓMICO.......................................................479
+29,1. Objetivo financiero de la firma. Su subrogante cuantitativo.
+Las medidas de la performance...........................................................................................................479
+29,2. El EVA.......................................................................................................................................481
+29,3 MVA y EVA...............................................................................................................................483
+CAPÍTULO 30. VALUACIÓN DE EMPRESAS..................................................................487
+30,1. Las grandes aproximaciones a la valuación de una empresa en marcha....................................487
+30,2. El flujo de fondos en los métodos de flujos de fondos descontados..........................................491
+30,3. La tasa de rendimiento requerida...............................................................................................495
+30,4. Valuación de la empresa. Visión global.....................................................................................500
+30,5. Consistencias básicas.................................................................................................................501
+30,6. Ejemplo de valuación de una firma............................................................................................502
+CAPÍTULO 31. ALGORITMOS DE DIAGNÓSTICO FINANCIERO..............................509
+31,1. Semiología, diagnóstico clínico y algoritmos de diagnóstico....................................................509
+31,2. Algoritmo de diagnóstico financiero..........................................................................................514
+PARTE VIII. LIQUIDEZ Y ADMINISTRACIÓN DEL CAPITAL DE TRABAJO 529
+CAPÍTULO 32. LIQUIDEZ E INSOLVENCIA 531
+32,1. Liquidez de un activo.................................................................................................................531
+32,2. Liquidez de la firma...................................................................................................................532
+32,1 Insolvencia...................................................................................................................................547
+7
+
+CAPÍTULO 33. LA ADMINISTRACIÓN DEL EFECTIVO
+33,1. De la administración del capital de trabajo a la moderna administración
+de las finanzas de corto plazo..............................................................................................................551
+33,2, Razones para mantener caja.......................................................................................................554
+33,1 Los grandes aspectos de la administración de caja.....................................................................555
+33,4. Determinación de las reservas de caja.......................................................................................557
+33,5. La administración de los ingresos y egresos de caja..................................................................567
+33,6. Inversión de los saldos ociosos de caja......................................................................................570
+CAPÍTULO 34. ADMINISTRACIÓN DE CRÉDITOS E INVENTARIOS.......................575
+34,1. Introducción................................................................................................................................575
+34,2. Condiciones para establecer la modalidad de la venta...............................................................576
+34,1 Análisis crediticio........................................................................................................................583
+34,4. Política de cobranzas..................................................................................................................587
+34,5. Principios crediticios generales..................................................................................................589
+34,6. La inflación y las cuentas por cobrar.........................................................................................590
+34,7. Elementos sobre administración de inventarios.........................................................................594
+34,8. Consideraciones financieras de la inversión en inventarios en contextos
+inflacionarios.......................................................................................................................................604
+PARTE IX. DIAGNÓSTICOS FINANCIEROS Y PLANIFICACIÓN 605
+CAPÍTULO 35. ESTADOS CONTABLES BÁSICOS. ELEMENTOS
+INTRODUCTORIOS........................................................................................................................607
+35,1. Definición de contabilidad.........................................................................................................607
+35,2. Importancia de los estados financieros.......................................................................................608
+35,3 Estados financieros básicos.........................................................................................................609
+35,4. Algunos conceptos contables importantes.................................................................................619
+35,5. Las visiones del economista y del contador sobre valor y beneficio.........................................621
+CAPÍTULO 36. TÉCNICAS DE APOYO A LOS DIAGNÓSTICOS FINANCIEROS 625
+36,1. Introducción................................................................................................................................625
+36,2. Ratios .........................................................................................................................................626
+36,3 Sistema DUPONT.......................................................................................................................645
+36,4. Análisis discriminante multivariante..........................................................................................648
+36,5. Análisis estadístico de descomposición.....................................................................................653
+36,6. Modelos de series de tiempo en el análisis y en la planificación financieros............................655
+CÁPITULO 37. INSTRUMENTOS DE PLANIFICACIÓN FINANCIERA.....................661
+37,1. Planificación financiera de corto y de largo plazo.....................................................................661
+37,2. Desarrollo de un caso de planificación financiera de corto plazo..............................................665
+8
+
+PARTE X. ELEMENTOS DE FINANZAS INTERNACIONALES...................................685
+CAPÍTULO 38. MERCADOS FINANCIEROS INTERNACIONALES............................687
+38,1. Mercados cambiarios..................................................................................................................687
+38,2. Mercados monetarios internacionales........................................................................................692
+38,1 Mercados de eurobonos...............................................................................................................698
+CAPÍTULO 39. ADMINISTRACIÓN FINANCIERA INTERNACIONAL....................................701
+39,1. La importancia de las finanzas internacionales..........................................................................701
+39,2. Exposición a la conversión.........................................................................................................707
+39,3. Exposición económica................................................................................................................708
+39,4. Elementos de administración financiera internacional..............................................................711
+PARTE XI. FINANZAS DE EMPRESAS FINANCIERAS E INNOVACIÓN
+FINANCIERA...................................................................................................................................715
+CAPÍTULO 40. INTRODUCCIÓN A LAS FINANZAS DE INSTITUCIONES
+FINANCIERAS.................................................................................................................................717
+40,1. Algunas características de los estados financieros de las instituciones financieras..................717
+40,2. El objetivo financiero de una institución financiera..................................................................721
+40,3. Riesgo y rendimiento en instituciones financieras.....................................................................722
+CAPÍTULO 41. RENTABILIDAD DE INSTITUCIONES FINANCIERAS 725
+41,1. Introducción................................................................................................................................725
+41,2. Un modelo de rendimiento sobre el capital................................................................................725
+41,3 L os elementos de la rentabilidad................................................................................................728
+41,4. La administración del margen neto de interés o spread y los ingresos por servicios................729
+41,5. Consideraciones sobre los costos de "no intereses"...................................................................739
+41,6. Liquidez......................................................................................................................................740
+41,7. Administración del capital.........................................................................................................745
+CAPÍTULO 42. RIESGOS DE INSTITUCIONES FINANCIERAS 747
+42,1. Introducción................................................................................................................................747
+42,2. Una presentación general de los riesgos en instituciones financieras........................................748
+42,3 Riesgo crediticio..........................................................................................................................750
+42,4. Riesgo de liquidez......................................................................................................................754
+42,5. Riesgo de tasa de interés, duración e inmunización...................................................................756
+42,6. Riesgo de tipo de cambio...........................................................................................................761
+42,7. Riesgo de fraude.........................................................................................................................761
+42,8. Riesgo regulatorio......................................................................................................................762
+42,9. Riesgo de capitalización.............................................................................................................762
+42,10. Riesgo en la prestación de servicios.........................................................................................764
+42,11. Riesgo de actividades fuera de balance....................................................................................765
+CAPÍTULO 43. INNOVACIÓN FINANCIERA Y TITULARIZACIÓN
+(SECURITIZATION).......................................................................................................................767
+9
+
+43,1. Introducción................................................................................................................................768
+43,2. Causalidad de la innovación financiera......................................................................................768
+43,3. Tipos de innovación..................................................................................................................768
+43,4. Elementos de titularización........................................................................................................769
+Glosario..................................................................................................................................781
+Tablas.....................................................................................................................................825
+10
+
+GLOSARIO
+Acciones comunes. Títulos patrimoniales en manos de los "propietarios residuales" de la firma, que son los
+últimos en recibir cualquier distribución do ganancias o activos.
+Acciones preferenciales. Acciones que tienen prioridad sobre las acciones comunes, en cuanto a los
+dividendos. No pueden pagarse dividendos sobre acciones comunes a menos que se paguen dividendos sobre
+las acciones preferenciales. La tasa de dividendos sobre las preferenciales usualmente se fija al momento de
+la emisión.
+Accionista. Poseedor de acciones en una empresa. El término accionista se refiere, generalmente, a los
+propietarios de acciones comunes,
+Activo. Toda posesión de un agente económico que pueda ser intercambiado, con otros agentes y que tenga
+un valor en ese momento.
+Activo corriente. Activo que normalmente debe transformarse en efectivo dentro de un año, por ejemplo,
+disponibilidades, inventarios, etc. Este plazo, en ciertos casos es el ciclo de actividades de producción y
+comercialización de la firma.
+Activo fijo. Bienes de larga vida que poseen un individuo, una empresa o un país, y que son utilizados
+habitualmente por éstos en la generación de sus ingresos (inmuebles, equipos, etc.).
+Activo financiero. Activo intangible. Representa los derechos sobre futuros flujos de fondos.
+Activo líquido. Activo que fácilmente y con pocos costos se convierte en efectivo.
+Activos intangibles. Activos cuyo valor depende de sus particularidades físicas (por ejemplo, edificios,
+terrenos).
+Activos tangibles. Activos cuyo valor deviene de los derechos sobre futuros flujos de fondos.
+Administración de activos y pasivos. Proceso de planificación, dirección y control de los niveles, cambios
+y mezclas de las diversas partidas que componen un estado de situación.
+Administración de pasivos. Enfoque de la administración de la liquidez de un banco. Es la adquisición de
+fondos a un bajo costo para aumentar las ganancias.
+Aging. Tiempo que permanecen las cuentas a cobrar sin percibirse.
+Algoritmo. Conjunto ordenado y finito de operaciones que permiten hallar la solución de un problema.
+Algoritmo de diagnóstico. Conjunto ordenado y finito de operaciones que permiten establecer un
+diagnóstico.
+Algoritmo de diagnóstico financiero. Conjunto ordenado y finito de operaciones que permiten encontrar la
+solución de un problema financiero.
+Amortización. Reembolso de un préstamo en cuotas.
+Análisis crediticio. Proceso de determinar si un solicitante de crédito cumple con las normas de la empresa
+para poder recibirlo, y cuánto crédito se le debería otorgar.
+Análisis de duración. Para pronósticos de riesgo de tasa de interés, es el tiempo efectivo de vencimiento de
+una serie de flujos de caja fijos.
+11
+
+Análisis de equilibrio. Análisis del nivel de ventas en el cual un proyecto o la empresa obtendrían cero
+utilidades.
+Análisis de escenarios. Análisis del efecto que tienen distintos escenarios sobre el proyecto, cada uno de los
+cuales involucra una confluencia de factores.
+Análisis de regresión. En estadística, técnica para encontrar la línea más adecuada.
+Análisis de sensibilidad. Consiste en la observación de las variaciones de los criterios de análisis de
+inventarios (tasa de rentabilidad, por ejemplo) ante cambios en algunos de los parámetros que componen el
+flujo de fondos, permaneciendo constantes los restantes.
+Análisis discriminante multivariante. Técnica estadística multivariante a través de la cual se clasifica una
+observación en uno o varios grupos a priori, dependiendo de sus características individuales.
+Análisis estadístico de descomposición. Herramienta para estudiar los cambios que se producen en el
+tiempo con respecto a una situación dada. Aplicado a los estados financieros, busca identificar
+eficientemente los cambios en asignaciones, al poner de manifiesto la intensidad de los cambios y el
+momento en el cual se producen.
+Anualidad. Un flujo regular de pagos uniformes en pesos u otra unidad monetaria que dura un tiempo
+determinado. Un ejemplo de una anualidad es la parte del cupón de un bono con pagos anuales uniformes.
+Anualidad vencida. Una anualidad con un primer pago al final de un período completo, en vez de
+inmediato. Es decir, el primer pago se efectúa en la fecha 1 en vez de realizarse en la fecha 0.
+APT de un solo factor. Un caso especial de la teoría de fijación de precios por arbitraje derivado del
+modelo de un solo factor, utilizando la diversificación y el arbitraje. Muestra el rendimiento esperado sobre
+cualquier activo riesgoso como una función lineal de un solo factor. Se puede expresar el CAPM como una
+APT de un solo factor en la cual el solo factor es el portafolio de mercado.
+Arbitraje. Comprar un activo en un mercado a un precio más bajo y, simultáneamente, vender un activo
+idéntico en otro mercado a un precio más elevado. Esto se hace sin costo o riesgo alguno.
+Arbol de decisión. Técnica que permite visualizar las diferentes opciones que van apareciendo en ocasión
+del análisis de inversiones, así como las nuevas posibilidades que se abren en cada opción, produciendo un
+haz de situaciones probables.
+Arrendador. Propietario de un activo arrendado.
+Arrendamiento directo. Arrendamiento en el cual el arrendador compra equipo nuevo del fabricante y lo
+arrienda al arrendatario.
+Arrendamiento financiero. Arrendamiento no cancelable, a largo plazo, que generalmente exige que el
+arrendatario pague todos los costos de mantenimiento.
+Arrendamiento operativo. Tipo de arrendamiento en. el cual el período del contrato es menor que la vida
+del equipo, y el arrendador paga todos los costos de mantenimiento y servicio.
+Arrendatario. Quien recibe el uso de activos bajo un arrendamiento.
+Autocorrelación. La correlación, de una variable consigo misma a lo largo de intervalos de tiempo
+sucesivos.
+12
+
+Aversión al riesgo. Situación en la cual ante ' rendimientos esperados iguales se adopta la opción de menor
+riesgo. Un inversionista con aversión al riesgo sólo tomará en cuenta las carteras riesgosas, si compensan el
+riesgo mediante una prima de riesgo.
+Balance líquido neto. Medida indirecta de aproximación a la liquidez, basada en el concepto de cómo los
+activos de corto plazo son financiados por capital permanente.
+Balanza comercial. Diferencia entre las importaciones y exportaciones realizadas en un período.
+Balanza de pagos. Estado usado para registrar todas las transacciones, los pagos y los financiamientos que
+ha realizado durante un período dado, un país con el resto del mundo.
+Beneficio. Máximo valor que se puede consumir durante un tiempo y esperar estar igual al final de tal
+período como al comienzo del mismo.
+Beneficio de una empresa. Cantidad de riqueza que puede ser distribuida entre sus accionistas mientras
+mantienen su posición de riqueza en la empresa.
+Bienes de cambio. Bienes adquiridos o producidos para la venta, en proceso de producción o consumidos
+durante su producción o comercialización de bienes o servicios destinados a la venta.
+Beta. Medida de la sensibilidad de los rendimientos de un activo con respecto a los movimientos de los
+rendimientos del mercado. Es un índice del riesgo sistemático o no diversificable, y se define como el
+cociente entre la covarianza de los rendimientos de un activo con los del mercado y la varianza de los
+rendimientos del portafolio del mercado.
+Bienes de uso. Bienes tangibles usados en las actividades de una empresa, que no están destinados a la
+venta y cuya vida útil se estima superior a un año.
+Bolsas de valores. Mercados secundarios en los que los compradores y vendedores de valores (agentes) se
+encuentran en un local central para realizar sus transacciones.
+Bono. Deuda a largo plazo de una empresa, o del Estado, que compromete pagos periódicos por un tiempo
+específico.
+Bono al portador. Bono emitido sin registrar el nombre del propietario. Quienquiera que lo tenga en su
+poder, esto es, el portador, es el propietario.
+Bono bulldog. Emisión de un bono extranjero hecho en Londres.
+Bono chatarra (Junk bond). Deuda que se clasifica como especulativa, bono de baja calificación.
+Bono convertible. Bono que puede ser convertido a otra forma de valor, típicamente a acciones comunes, a
+opción del tenedor, a un precio dado por un período determinado.
+Bono de descuento puro. Bono que paga su valor facial (F), al cabo de t años, y un interés implícito. En los
+mercados eficientes el valor presente neto de este bono será cero, o sea que el VP es igual al precio inicial.
+También llamado bono cupón cero.
+Bono de grado de inversión. Deuda con calificación BBB o superior por Standard & Poor's, o Baa o
+superior por Moody's.
+Bono del Tesoro. Obligación de deuda de los gobiernos que paga cupón semestral o anualmente y se vende
+al valor de paridad o a un nivel cercano. Tiene vencimiento original de más de un año.
+13
+
+Bono samurai. Bono de un yen emitido en Tokio por parte de un prestatario no japonés.
+Bono shogun. Bono de un dólar emitido en Japón por un no residente.
+Bono sushi. Eurobono emitido por una compañía japonesa.
+Bono yankee. Bono de un dólar emitido en los Estados Unidos de América por parte de -prestatarios no
+estadounidenses.
+Brecha activos-pasivos. Medida indirecta que evalúa el grado de liquidez de una firma mediante el análisis
+de brechas. Cuando el vencimiento de los activos y su monto es menor que el vencimiento de los pasivos la
+brecha muestra una situación de potencial iliquidez.
+Calificación crediticia. Procedimiento para asignar puntaje a prestatarios sobre la base del riesgo de
+incumplimiento.
+Capacidad de endeudamiento. Capacidad de pedir prestado. La cantidad que una firma puede pedir
+prestado, que se establece en el punto en que el valor de la firma ya no aumenta.
+Capital accionario autorizado. Número máximo de acciones que una compañía puede emitir, como se
+especifica en la escritura de constitución de la compañía.
+Capital accionario emitido. Monto total de acciones que están en emisión.
+Capital accionario en circulación. Capital accionario emitido menor que el valor nominal de las acciones
+que se mantiene en la tesorería de la compañía.
+Capital de trabajo. Definido como activos corrientes menos pasivos corrientes. Medida indirecta de la
+liquidez de una empresa, entendido como el exceso de activos corrientes sobre pasivos corrientes. A veces
+se lo conoce como capital de trabajo neto.
+Capitalización. Proceso de reinvertir cada pago de interés para ganar más intereses. La capitalización se
+basa en la idea de que el interés en sí se convierte en principal y, por lo tanto, gana intereses en períodos
+subsiguientes.
+Capitalización continua. El interés se capitaliza continuamente y no a intervalos fijos.
+Capitalización de la empresa. Deuda a largo plazo más acciones preferenciales más valor neto que
+mantiene una empresa en un momento dado.
+CAPM (Capital assetpricing model). Teoría de fijación de precios de activos financieros en equilibrio, que
+demuestra que las tasas de equilibrio de rendimiento esperado en todos los activos riesgosos son función de
+su covarianza con el portafolio del mercado. Modelo desarrollado originalmente por W. SHARPE.
+Caps. Tipo de opción call europea utilizada por una de las partes que emitió un papel a tasa flotante.
+Carta de crédito. Instrumento financiero que, por una cantidad y por un periodo específico, el banco emite
+y en él establece un crédito a favor de una compañía.
+Cash cow. Empresa que utiliza todas las ganancias obtenidas por acción para pagar dividendos a los
+accionistas.
+Certificado de depósito (CD). Certificado que proporciona evidencia de un depósito bancario a plazo.
+14
+
+Ciclo de conversión de caja. Medida indirecta de la liquidez de una empresa, se toman los días en que caja
+se encuentra asociada a la producción, distribución y cobranzas menos crédito de proveedores.
+Ciclo de conversión de caja global. Período requerido para transformar un peso desembolsado en
+inventarios en un peso ingresado.
+Ciclo de conversión de caja por productos. Surge de la suma ponderada de los ciclos de cada producto
+vendido o producido por la empresa.
+Ciclo de conversión financiero. Expresa la necesidad de efectivo de la empresa en términos del periodo de
+conversión de caja.
+Ciclo de conversión financiero por producto. Tiene su origen en la ponderación de cada subciclo de los
+productos por el coeficiente correspondiente.
+Ciclos de los negocios. Movimientos ascendentes y descendentes del valor agregado global que se produce
+en la economía.
+Clínica financiera. Campo más empírico en la configuración de un diagnóstico financiero, que es singular,
+debe seguirse siempre igual, aunque siempre es diferente.
+Cobertura. Protegerse de un riesgo, tomando posición de dos o más valores o activos que estén
+correlacionados en forma negativa.
+Cobertura a plazo. Compra o venta anticipada de divisas con el fin de balancear un flujo de efectivo futuro
+conocido.
+Coeficiente de correlación. Medida estadística estandarizada que refleja la relación entre dos variables
+aleatorias.
+Collars. Contratos de tasa de interés que establecen una cap (máximo) y un floor (mínimo) en términos de,
+una escenificada tasa de interés que debe ser pagada.
+Colocación privada. La venta directa de un bono u otro título a un número limitado de inversionistas.
+Comerciabilidad. Se refiere a la facilidad y rapidez con las que se convierte un activo en efectivo.
+Comisión de compromiso. Derecho cargado por un banco sobre una línea de crédito no usada.
+Conjunto de oportunidades. Binomio rendimiento-desviación estándar que se puede esperar de todas las
+carteras que se pueden construir para un determinado conjunto de activos. También llamado conjunto
+factible.
+Conocimiento de embarque. Documento que establece la propiedad de mercancía en tránsito.
+Consol. Bono perpetuo (constante) sin fecha de vencimiento y sin reembolso del principal, que
+periódicamente hace pagos de cupones fijos.
+Contrato de futuros. Acuerdos de comprar o vender una cantidad especificada de un activo a un precio
+especificado y a un tiempo y lugar especificado.
+Correlación. Una medida estadística estandarizada de la dependencia de dos variables aleatorias. Se define
+como la covarianza dividida entre el producto y las desviaciones estándar de dos variables consideradas. El
+coeficiente de correlación toma valores que van de -1 a +1.
+15
+
+Corto plazo. Período durante el cual ciertos equipos, recursos y compromisos con respecto a los mismos
+son fijos. Se refiere también a un instrumento de deuda que tiene vencimiento de un año o menos.
+Costo de oportunidad. Alternativa más valiosa a la que se renuncia para el mismo nivel de riesgo. La tasa
+de rendimiento utilizada en el cálculo del VPN es una tasa de interés de oportunidad, que hoy se conoce
+como tasa de rendimiento requerida.
+Costo del capital. Costo de oportunidad del capital. Tasa de rendimiento requerida por los titulares del
+patrimonio.
+Costo de capital propio. Rendimiento requerido sobre las acciones comunes de una empresa en los
+mercados de capital. También se lo llama tasa de rendimiento requerida de los titulares del patrimonio, ya
+que es lo que los titulares del patrimonio pueden esperar obtener en el mercado de capital. Desde el punto de
+vista de la firma, es un costo.
+Costo fijo. Costo que es fijo en total durante un tiempo determinado y para niveles de volumen dados. No
+depende de la cantidad de bienes o servicios producidos durante el período.
+Costo promedio del capital. Desembolso que se requiere que la firma haga a los tenedores de deudas y a
+los accionistas, expresado como porcentaje del capital aportado por cada uno de ellos a la firma. El costo
+promedio del capital se calcula dividiendo el costo de capital total requerido por el monto total del capital
+aportado.
+Costo variable. Costo que varía directamente con el volumen de producción y comercialización, es cero
+cuando la producción es cero.
+Costos de agencia. Costos de los conflictos de intereses entre accionistas, titulares de bonos y gerentes, y en
+general entre los interesados en la empresa. Los costos de agencia son los costos involucrados en la
+resolución de estos conflictos. Incluyen los costos de dar a los gerentes un incentivo para maximizar la
+riqueza de los accionistas y luego monitorear su comportamiento, y el costo de proteger a los tenedores de
+bonos de los accionistas o el costo que ocurre por formar una decisión que no es la más conveniente. Los
+costos de agencia son solventados por los accionistas.
+Costos de bancarrota. Ver costos de serios problemas financieros.
+Costos de serios problemas financieros. Costos legales y administrativos de la liquidación o
+reorganización (costos directos); una reducida capacidad para hacer negocios y un incentivo para la
+aplicación de estrategias egoístas, tales como asumir grande! riesgos, invertir en forma insuficiente y sangrar
+la propiedad (costos indirectos).
+Cotización directa. Para el tipo de cambio de moneda extranjera, el número de moneda nacional necesaria
+para comprar una unidad de moneda extranjera.
+Cotización indirecta. Para las divisas, el número de unidades de moneda extranjera necesarias para
+comprar una unidad de moneda nacional.
+Covarianza. Medida estadística del grado de movimiento conjunto entre dos variables aleatorias.
+Crédito. Derechos que tiene la empresa contra terceros para percibir sumas de dinero u otros bienes o
+servicios.
+Crédito bancario. Convenio de compraventa que establece un banco emisor por cuenta y orden de un
+comprador, para pagar a un vendedor proveedor a través del banco, si cumple con lo especificado en el
+documento.
+16
+
+Cupón. Parte del certificado de un título al portador que debe entregarse para cobrar intereses. Curva de
+rendimiento. Estructura a plazo de las tasas de interés.
+Diagnóstico. Del griego dia, a través de o por medio de, y gnosis, conocimiento. Significa conocer a través
+de o por medio de.
+Diagnóstico etiológico. Explica las causas que han llevado a una empresa a ingresar en el tipo de problema
+que señala el diagnóstico nosológico.
+Diagnóstico nosológico. Explica el tipo de problemas que tiene una empresa.
+Decisiones de inversión mutuamente excluyentes. Decisiones de inversión en las que la aceptación de un
+proyecto impide la aceptación de uno o más proyectos alternos.
+Depósito de eurodólares. Depósito de dólares en un banco fuera de los Estados Unidos de América.
+Depreciación. Parte del costo de una planta o un equipo cargado a las ganancias para castigar el costo de un
+activo durante su vida útil estimada; no afecta la caja.
+Depreciación acelerada. Cualquier método de depreciación que permite mayores deducciones de
+depreciación en los primeros años de vida de un proyecto.
+Depreciación cambiaria. Pérdida de valor o poder adquisitivo del dinero en moneda nacional en relación
+con las divisas.
+Depreciación lineal. Método de depreciación por el cual, cada año, la firma deprecia una proporción
+constante de la inversión inicial menos el valor de recuperación.
+Derivado. Activo cuyo valor se deriva del precio de algún otro activo (por ejemplo, un futuro o una opción).
+Descuento. Cálculo del valor presente de un monto futuro. El proceso es lo opuesto a la capitalización.
+Descuento de caja. Descuento otorgado por una compra al contado. Una razón por la cual se ofrece
+descuentos de caja es para acelerar el cobro de las cuentas por cobrar.
+Descuento de un valor. Si un bono se está vendiendo por debajo de su valor nominal, se dice que se está
+vendido con un descuento.
+Desintermediación. Retiro de fondos de una institución financiera con el fin de invertirlos directamente.
+Desviación estándar. Raíz cuadrada positiva de la varianza.
+Deuda a corto plazo. Deuda cuyo vencimiento se espera se realice en el período igual o menor que un año.
+Deuda a largo plazo. Su vencimiento supera los doce meses a partir de la fecha de cierre del ejercicio
+económico.
+Deuda garantizada. Deuda que cuenta con garantías que la respaldan en caso de incumplimiento.
+Días en cuentas por cobrar. Período de cobranza promedio de las cuentas por cobrar.
+Distribución de frecuencias. Organización de los datos para mostrar con qué frecuencia se presentan
+ciertos valores o rangos de valores.
+17
+
+Distribución normal. Distribución simétrica acampanada de las frecuencias, que puede ser definida por su
+media y su desviación estándar.
+Distribución normal estandarizada. Una distribución normal con un valor esperado de 0 y una desviación
+estándar de 1.
+Diversificación. Tenencia de muchos activos riesgosos.
+Diversificación eficiente. Los portafolios altamente diversificados tendrán un riesgo no sistemático o
+diversificable próximo a 0. En otras palabras, el riesgo no sistemático desaparece de los portafolios, y sólo
+queda el riesgo sistemático.
+Dividendo. Pago que una firma efectúa a sus propietarios, ya sea en efectivo o en acciones.
+Dividendo en acciones. Pago de un dividendo en forma de acciones en vez de efectivo. El dividendo en
+acciones proviene de las acciones en caja, aumenta la cantidad de acciones en circulación y reduce el valor
+de cada una de ellas.
+Dividendos por acción. Cantidad de efectivo pagada a los accionistas, expresada en dólares por acción.
+Documentos comerciales. Pagarés a corto plazo no garantizados, emitidos por personas jurídicas con sólida
+posición crediticia. Su vencimiento varía hasta 270 días.
+Efecto de clientela. Argumento en la teoría de dividendos que plantea que el capital accionario atrae a los
+"clientes", en este caso los accionistas, sobre la base de su rendimiento de dividendos o impuestos.
+Efecto de FISHER. Resultado que indica que cuando ocurre la inflación esperada aumentan los tipos de
+intereses.
+Efecto leverage. Muestra las repercusiones que distintos niveles de endeudamiento tienen sobre la
+rentabilidad de los fondos propios.
+Eficiencia débil. Aproximación que plantea que un mercado financiero es eficiente con respecto a la
+información histórica de precios.
+Eficiencia fuerte. Aproximación que plantea que, el mercado es eficiente con respecto a toda la
+información disponible, pública o privada.
+Eficiencia semifuerte. Aproximación que plantea que el mercado es eficiente con respecto a toda la
+información públicamente disponible.
+Ejercicio de la opción. Acto de comprar o vender el activo subyacente mediante un contrato de opción.
+Emisión primaria. Emisión de nuevos valores por parte de una empresa.
+Emisión pública. Venta de valores al público.
+Emisión vanilla. Emisión sin características especiales. Por ejemplo, en swaps el plain vanilla.
+Enfoque de dividendos residuales. Enfoque que sugiere que una firma debe pagar dividendos únicamente
+si no tiene a su disposición en ese momento oportunidades de inversión aceptables para dichos fondos.
+Equilibrio de mercados financieros. Cuando la demanda total de préstamos por parte de los prestatarios se
+iguala a la oferta total de los fondos de los prestamistas.
+18
+
+Equivalente a la certidumbre. Flujo de efectivo que tiene el mismo valor futuro como un flujo de efectivo
+para riesgos específicos.
+Estado de fuentes y usos de fondos. Presenta los cambios contables que produjeron variaciones en las
+disponibilidades o su equivalente en un intervalo de tiempo.
+Estado de resultados. Proporciona un resumen financiero de los resultados operativos de una empresa en
+un período.
+Estado de situación patrimonial. Proporciona una visión de la situación financiera de una empresa en
+determinado momento.
+Estructura de capital. Mezcla de las diversas deudas de mediano y largo plazo y capital accionario que
+tiene una firma (fondos propios).
+Estructura financiera. Mezcla de las diversas deudas y fondos propios de una corporación utilizados para
+financiar sus actividades de inversión; las proporciones relativas de deuda a corto plazo, deuda a largo plazo
+y patrimonio de los propietarios.
+Etiología. En su acepción general, es el estudio de las causas de las cosas.
+Eurobanco. Variedad de intermediación financiera que toma depósitos (generalmente a plazo fijo) y efectúa
+préstamos en una o diversas monedas que son distintas al país donde está situado.
+Expectativas adaptativas. Expectativas de una variable basada en el promedio de antiguos valores de la
+misma.
+Expectativas homogéneas. Idea que refleja que todas las personas tienen las mismas expectativas con
+respecto a inversiones futuras, utilidades y dividendos, y la incertidumbre que ellas tienen.
+Expectativas racionales. Expectativas que reflejan óptimos pronósticos (la mejor conjetura del futuro),
+usando toda la información disponible.
+Factor de anualidad. Término utilizado para calcular el valor presente del flujo de pagos regulares durante
+un período fijo.
+Factor de descuento. Valor actual de un peso u otra unidad monetaria recibido en una fecha futura
+establecida.
+Factor de valor presente. Factor utilizado para hacer un esfimado del valor presente de una cantidad que se
+recibirá en un período futuro.
+Factoring. Acuerdo mediante el cual una institución financiera compra las cuentas por cobrar de una
+compañía y cobra la deuda.
+Fecha de expiración. Fecha de vencimiento de una opción.
+Fecha de vencimiento. Tiempo de expiración de un instrumento de deuda.
+Financiación interna. Ganancia neta más depreciación menos dividendos. La financiación interna proviene
+del flujo de caja generado a nivel interno.
+Financiamiento externo. Financiamiento que no es generado por la empresa; nuevos préstamos o una
+emisión de acciones u otros valores. (cf. financiación interna).
+19
+
+Finanzas (alcance). Su campo de estudio es cómo asignar y desplazar mejor los recursos en el tiempo en un
+contexto incierto para alcanzar los objetivos principales y el rol de la organización económica en la
+facilitación de esa asignación.
+Finanzas (objetivo). La maximización del valor.
+Floors. Opción put europea de tasa de interés, en la que los principales usuarios son los que adquirieron
+tasas flotantes.
+Flujo de caja. Efectivo generado por la firma y pagado a los acreedores y accionistas.
+Flujo de caja de operaciones. Ganancias antes de intereses y depreciación menos impuestos. Mide el
+efectivo generado de las operaciones, sin contar el gasto de capital o los requisitos de capital de trabajo.
+Flujo de caja después de intereses e impuestos. Ganancia neta más depreciación.
+Flujo de caja incremental. Diferencia entre los flujos de caja de la firma con un proyecto y sin el mismo.
+Flujo de caja libre. Cantidad de dinero (recibos de efectivo menos erogaciones en efectivo, incluyendo
+intereses y dividendos) en exceso que no se requiere para operaciones o inversiones.
+Flujo de caja total de la firma. Ingresos de caja totales menos egresos de caja totales.
+Flujo diario de fondos. Medida indirecta de liquidez de una empresa basada en la observación de la
+evolución de los flujos diarios de caja.
+Fondo de inversión abierto. Fondo mutuo donde las acciones pueden ser redimibles en cualquier momento
+al precio relacionado con el valor del activo del fondo.
+Fondo de inversión cerrado. Fondo (o sociedad de inversión) en el cual se fija un número de acciones no
+redimibles vendidas al ofrecimiento inicial y luego comercializados en el mercado fuera de la bolsa como
+acciones de capital común.
+Fondos sin comisión. Son fondos mutuos vendidos directamente al público en los cuales no hay comisiones
+de ventas por cobrar.
+Forward swaps. En éstos se fijan las tasas pero el swap no comienza hasta después de pasado un tiempo.
+Forwards. Contratos que obligan a sus propietarios a comprar un determinado bien a una fecha
+especificada, a un precio especificado (precio de ejercicio o precio forward) establecido en la organización
+del contrato.
+Fronteras de eficiencia. Gráfico que representa un conjunto de carteras que maximizan el rendimiento
+esperado en cada nivel de riesgo del portafolio.
+Fusión. Adquisición en la cual todos los activos y pasivos son absorbidos por el comprador (cf. intercambio
+de activos, intercambio de acciones); o más generalmente, cualquier combinación de dos compañías.
+Fusión conglomerada. Fusión entre dos compañías en negocios no afines.
+Fusión horizontal. Fusión entre dos compañías que fabrican productos similares.
+Fusión vertical. Fusión entre un proveedor y su cliente.
+20
+
+Futuro. Contrato para comprar un bien o valor en una fecha futura que se fija hoy. A diferencia de los
+contratos a futuro, los forwards generalmente se comercializan sobre intercambios organizados y se efectúan
+en el mercado diario.
+Ganancias de capital. Cambio positivo en el valor de un activo. Una ganancia de capital negativa es una
+pérdida de capital.
+Ganancias retenidas. Ganancias no pagadas como dividendos.
+Garantías. Activos o flujos que se otorgan en prenda en un sentido amplio como garantía de obligaciones
+contraídas.
+Goodwill. Excedente en el precio de compra, por encima del precio equitativo de mercado de los activos
+individuales adquiridos.
+Hipótesis de mercado eficiente. Los precios de los valores reflejan completamente la información
+disponible. Los inversionistas que compran bonos y acciones en un mercado eficiente deberían esperar
+obtener una ¡asa de rendimiento en equilibrio. Las firmas deberían esperar recibir el valor "equitativo"
+(valor presente) por los valores que venden.
+Impuesto de retenido. Impuesto que grava los dividendos pagados en el extranjero.
+Incumplimiento. Cuando el grupo emisor de un instrumento de deuda está imposibilitado de realizar los
+pagos de intereses o cancelar el monto de la deuda cuando llega la fecha de vencimiento.
+Índice de rentabilidad. En las inversiones, relación de los VPN (de costos y de beneficios) de los proyectos
+con la inversión inicial.
+Información interna. Información sobre una empresa, no disponible para el público y que poseen personas
+en puestos especiales dentro de una firma.
+Ingreso. Flujo de entradas por pagos, con contraprestación y sin ella.
+Ingreso (o utilidad) de operación. Ingreso ganado (o devengado) durante las operaciones bancarias en
+curso.
+Inmunización. Proceso por el cual un sujeto económico, a través de la igualación de las duraciones de sus
+activos y pasivos, queda exento del riesgo de tasa de interés.
+Insolvencia de caja. Situación en la que la empresa no tiene efectivo para hacer frente a sus obligaciones.
+Insolvencia económica en términos de bancarrota. Situación que puede ser enfocada desde dos posturas:
+1) cuando el valor presente de los fondos de caja esperados es menor que el valor presente de las deudas, o
+2) cuando el valor de mercado de un activo es menor que el valor de mercado de las deudas.
+Insolvencia en términos de bancarrota. Está determinada por el monto en que las deudas superan a los
+activos, en el sentido contable.
+Insolvencia técnica. Insuficiencia de los flujos de fondos para atender el pago de intereses y del principal
+de las deudas en las fechas fijadas.
+Instrumentos derivados. Contrato que da al poseedor del mismo la obligación o la elección de
+compraventa del activo financiero a futuro (opciones, futuros, swaps).
+Instrumentos híbridos. Deudas con derivados de tasa de interés.
+21
+
+Interés compuesto. Interés ganado tanto sobre el principal inicial como sobre el interés devengado sobre el
+principal inicial en períodos anteriores. El interés ganado en un período se vuelve, en efecto, parte del
+principal en un período posterior.
+Interés simple. Interés calculado considerando únicamente el monto original del principal.
+Intermediación financiera. Proceso de financiación indirecta donde los intermediarios financieros vinculan
+préstamos de ahorristas y prestatarios consumidores que son deficitarios.
+Intermediarios financieros. Instituciones que cumplen la función de mercado de conectar a agentes
+económicos superavitarios con deficitarios. Se puede clasificar a las instituciones financieras como de
+depósito, de ahorro contractual o de inversión. Son las instituciones (bancos, compañías de seguros, fondos
+mutuos, fondos de pensiones y compañías financieras) que prestan fondos de terceros.
+Inventario. Activo corriente, constituido por las materias primas a ser utilizadas en la producción, los
+productos en proceso y los productos terminados.
+Inversión neta. Inversión bruta o total menos depreciación.
+Lambda. Ratio utilizado para medir indirectamente la liquidez de una empresa; representa las reservas
+anticipadas de caja en términos del número de desviaciones estándar.
+Largo plazo. En financiamiento, es con referencia al instrumento de deuda que tiene un vencimiento de diez
+años o más. // En materia de costos, es el período en el que todos los costos son variables.
+Letra del tesoro. Deuda de descuento a corto plazo que vence en menos de un año. Los gobiernos emiten
+periódicamente letras del tesoro que, virtualmente, carecen de riesgo, conocidas como T-bill.
+Leverage casero. Idea que refleja que en tanto las personas naturales soliciten préstamos (y los otorguen)
+bajo los mismos términos que la firma, pueden duplicar para sí los efectos del leverage empresarial. En
+consecuencia, si se fija el precio de las firmas endeudadas a un nivel demasiado elevado, los inversionistas
+racionales simplemente solicitarán préstamos sobre cuentas personales para comprar acciones en las firmas
+sin endeudamiento operativo.
+Leverage financiero. Medida de la sensibilidad de las ganancias por acción ante cambios en las GAII.
+Leverage operativo. Medida de la sensibilidad de las GAII ante variaciones en las ventas.
+Ley de un precio. Principio importante en finanzas internacionales que señala que si dos países producen
+un bien idéntico, el precio de éste debe ser igual en ambos.
+Libid. Tasa que los bancos pagan por los depósitos. (London Interbank Bid Rate.)
+Libor. Tasa referencial más importante del mundo de eurómonedas y es la tasa de oferta interbancaria de
+Londres (London Interbank Offered Rate).
+Limean. Tasa media entre la tasa Libor y la Libid.
+Liquidez de la firma. Habilidad y capacidad de la empresa para cumplir con sus obligaciones de corto
+plazo, tal como se exigieron originalmente.
+Liquidez de un activo. Cualidad que refleja cómo se concretan la velocidad, la facilidad y el grado de
+incertidumbre con, que un activo puede intercambiarse por efectivo a un precio tal que el rendimiento del
+activo sea tan alto como el esperado en un corto período.
+22
+
+Línea del mercado de capitales. Conjunto eficiente de todos los activos, tanto riesgosos como no
+riesgosos, que brinda al inversionista las mejores oportunidades posibles superando a la frontera de
+eficiencia, menos en el punto que se iguala al portafolio de mercado.
+Línea del mercado de valores. Recta que representa el CAPM que muestra la relación de equilibrio entre el
+riesgo sistemático y las tasas de rendimiento esperadas para los activos individuales. De acuerdo con la
+LMV, el rendimiento excedente en un activo riesgoso por encima de la tasa libre de riesgo es igual que el
+retorno excedente sobre el portafolio de mercado multiplicado por el coeficiente beta.
+Margen de contribución. Monto que, cada producto adicional aporta a las utilidades después de impuestos
+del proyecto o de la empresa en su totalidad: (Precio de venta - costo variable) x (1 - Tc), donde Tc es la tasa
+del impuesto a la renta de las personas jurídicas.
+Margen de interés neto. Conocido como spread. Es la diferencia entre los intereses ganados y los intereses
+perdidos corno porcentaje de los activos.
+Medida del intervalo defensivo. Medida indirecta de la liquidez de una empresa que representa la
+estimación de los días que los activos defensivos podrían atender a los gastos operativos proyectados
+diariamente por la empresa.
+Mercado al portador. Mercado donde se negocian valores sin registrar los nombres de los propietarios,
+quien lo tenga en su poder será el propietario.
+Mercado alcista. Amplia elevación en los precios de los valores.
+Mercado cambiario. El mercado más grande del mundo, en el cual se hacen transacciones para el
+intercambio presente y futuro de las principales monedas.
+Mercado cambiario forward. Mercado donde las monedas son comercializadas para su entrega a futuro.
+Mercado cambiario spot. Mercado en el cual las monedas son comercializadas para su entrega inmediata.
+Mercado de capitales. Mercado financiero para los instrumentos de participación y para los instrumentos
+de deudas con plazos mayores que un año.
+Mercado de euromonedas. Mercado en el que se efectúan depósitos y se hacen préstamos
+denominados en una moneda diferente a la del país en el cual está ubicada la institución que realiza
+las operaciones.
+Mercado de subastas. Mercado en el cual todos los que negocian en un determinado bien se reúnen en un
+lugar para comprar o vender un activo.. Un ejemplo son las Bolsas de valores.
+Mercado financiero. Estos tratan de activos financieros que tienen flujos de fondos en el tiempo,
+habitualmente en condiciones de incertidumbre. A través de ellos los ahorros de los prestamistas son
+asignados para financiar necesidades de los prestatarios.
+Mercado financiero eficiente. Mercado en el cual los precios de mercado reflejan completamente la
+información disponible, por lo tanto, implica que no se logra obtener VPN positivos utilizando la
+información que se dispone.
+Mercado monetario internacional. Mercado de euromonedas, así como sus vinculaciones con otras partes
+de los mercados nacionales del crédito.
+Mercado primario. Mercado financiero en el que las emisiones nuevas de valores son vendidas a los
+compradores iniciales.
+23
+
+Mercado secundario. Mercado en el cual 1 os valores existentes o pendientes son negociados entre los
+inversionistas.
+Mercados perfectos. Mercados financieros perfectamente competitivos.
+Modelo de factores. Modelo en el cual el rendimiento de cada activo financiero es generado por un
+conjunto de factores llamados fuentes sistemáticas de riesgo.
+Modelos de simulación. Aportan como producto final una función de probabilidad de la tasa de
+rentabilidad (o VPN), la que se construye a partir de las respectivas funciones de probabilidad de las
+distintas variables aleatorias que intervienen en la evaluación de un proyecto.
+Motivo de transacciones. Una razón para retener el efectivo que proviene de las actividades normales de
+desembolso y cobranza de la firma.
+No sistemático. Aquello que es específico de una firma.
+Obligación. Bono n garantizado, generalmente con un vencimiento de cinco, diez, quince años o más. // Una
+obligación de deuda normalmente respaldada por el crédito general de la empresa.
+Opción. Contrato que asegura el derecho de comprar o vender un activo a un precio establecido, en un
+determinado precio.
+Opción americana. Contrato de opción que puede ser ejercido en cualquier momento hasta la fecha de su
+vencimiento. Una opción europea sólo se puede ejercer en la fecha de su vencimiento.
+Opción asiática. Opción basada en el precio promedio de los activos durante la vigencia de la opción.
+Opción de compra. Derecho, pero no obligación, de comprar una determinada cantidad de acciones o un
+determinado bien a un precio establecido, dentro de un tiempo especificado.
+Opción de venta. Derecho de vender una determinada cantidad de acciones a un determinado precio en una
+determinada fecha o antes de la misma.
+Opción europea. Contrato de opción que sólo se puede ejercer en la fecha de expiración. Se puede ejercer
+una opción americana en cualquier momento hasta la fecha de expiración.
+Operación off-shore. Operaciones efectuadas entre no residentes y que son las que efectúan los eurobancos.
+Pagaré. Documento "al portador" que contiene la promesa incondicional a quien la posee ("tenedor") de
+pagar a su orden una suma de dinero, en lugar y fecha determinados.
+Pago balloon. Pago final grande, en lugar de como se repaga un préstamo en cuotas.
+Pago con amortización al final del plazo (Bullet). Pago final único, por ejemplo, de un préstamo (en
+contraste al pago en cuotas).
+Pago de dividendos. Cantidad de efectivo pagada a los accionistas, expresada como porcentaje de las
+ganancias por acción.
+Par swap. Swap para el cual el valor presente de los pagos fijos se iguala al valor presente de los pagos
+flotantes.
+Paraclínica financiera. Conjunto de estudios y exámenes complementarios, que son técnicas de apoyo en la
+construcción de un diagnóstico financiero.
+24
+
+Pasivos corrientes. Obligaciones que se espera requerirán pago al contado al cabo de un año o del período
+de operaciones.
+Patrimonio. Participación que ostentan los titulares de acciones comunes y preferenciales en una empresa.
+También, activos totales menos pasivos totales, o activo neto.
+Patrón de saldos de cuentas a cobrar. Método que muestra qué porcentaje y antigüedad queda en el correr
+del tiempo sin cobrar de las ventas.
+Período de cobranza promedio. Tiempo promedio necesario para la cobranza de una cuenta por cobrar.
+También llamado período promedio de cobro.
+Período de repago. El período de repago de la inversión es la cantidad de años que una empresa necesita
+para recuperar la inversión inicial que requiere un proyecto, del flujo de caja que éste genera.
+Perpetuidad. Oferta de inversión con un nivel de flujo de efectivo a perpetuidad.
+Plain vanilla. Swap de tasa de interés de mayor generalidad, en el cual una contraparte conviene en hacer
+pagos fijos en base seminanual a la otra parte.
+Política de cobranza. Procedimientos seguidos por una firma en sus intentos de cobranza de las cuentas por
+cobrar.
+Portafolio. Combinación de activos. La teoría del portafolio trata acerca de la óptima solución de dichas
+combinaciones para inversores aversos al riesgo.
+Portafolio de mercado. En concepto, un índice ponderado por valor de todos los títulos. En la práctica, es
+un índice, como el S&P 500, que describe el rendimiento de todo el valor del mercado de valores o, por lo
+menos, de las acciones que confórman el índice. Una cartera de mercado representa el retorno promedio del
+inversionista.
+Portafolio eficiente. Cartera que ofrece el menor riesgo (desviación estándar) para su rendimiento esperado
+y el mayor rendimiento esperado para su nivel de riesgo.
+Posición de fondos. Medida indirecta de la liquidez de una empresa mediante la combinación de los flujos
+de fondos operativos, los pagos de dividendos y los fondos necesarios para la expansión del capital.
+Precio de ejercicio. Precio al cual el titular de una opción puede comprar (en el caso de una opción de
+compra) o vender (en el caso de una opción de venta) las acciones u otros activos subyacentes.
+Precio de liquidación. Precio del bono sin incluir el interés acumulado.
+Precio de mercado. Monto actual al que se está negociando un título en un mercado.
+Precio de suscripción. Precio que los accionistas existentes tienen permitido pagar por una acción en una
+oferta de derechos de suscripción.
+Presupuesto de caja. Estado que refleja el pronóstico de las entradas y salidas de efectivo que la firma
+espera tener en un periodo relativamente corto, por ejemplo el año siguiente. Es una herramienta de
+planificación financiera a corto plazo.
+Prima de riesgo. Rendimiento excedente que se paga sobre un activo riesgoso. Es la diferencia entre el
+rendimiento esperado sobre los activos riesgosos y el rendimiento sobre activos libres de riesgo.
+Principal. Monto de la deuda (sin intereses) que debe repagarse.
+25
+
+Principio de la adición de valor. En un mercado eficiente, el valor de la suma de dos flujos de caja es la
+suma de los valores de los flujos de caja individuales.
+Problema de agencia. Problemas que aparecen cuando las decisiones en las organizaciones (por ejemplo,
+empresas) son delegadas a "agentes" (por ejemplo, administradores) quienes actúan por delegación de
+autoridad o en representación de otras partes, que se conocen como "principales" (inversores, accionistas,
+etc.). Estos problemas son tratados por la teoría de la agencia.
+Producto bruto interno (PBI). Es el valor de los bienes y servicios finales producidos en la economía en el
+curso de un año.
+Programación cuadrática. Variante de programación lineal mediante la cual las ecuaciones son cuadráticas
+antes que lineales.
+Programación entera. Variante de la programación lineal en la cual los valores de solución deben ser
+enteros. Por ejemplo, 0 o 1.
+Programación lineal. Técnica para encontrar el máximo valor de alguna ecuación sujeta a las limitaciones
+lineales.
+Promedio aritmético. Suma de los valores observados, dividida por la cantidad total de observaciones.
+También conocida como media.
+Proyectos excluyentes mutuamente. Dos proyectos que no pueden realizarse juntos.
+Prueba ácida mayor. Prácticamente muestra lo que la empresa tiene para hacer frente a sus compromisos
+que vencerán el próximo año.
+Prueba ácida menor. Ratio para medir la liquidez que resta del numerador, los inventarios y los gastos
+pagados por adelantado.
+Racionamiento de capital. Caso donde los fondos se limitan a un monto fijo en pesos u otra unidad
+monetaria y que deben ser compartidos entre proyectos que compiten.
+Racionamiento de crédito. Es cuando el prestamista se niega a hacer préstamos aunque tos prestatarios
+estén dispuestos a pagar el interés fijado o superior, o si restringe la cantidad de préstamos, siendo la
+cantidad a dar menor a la solicitada.
+Ratio. Porcentaje cuya base es 100. Es un número expresado en términos de otro.
+Ratios causales. Aquellos que muestran las causas de los problemas de las empresas.
+Ratios de crecimiento. Intentan evaluar la evolución en el tiempo de alguna variable de una empresa.
+Ratios de efecto. Aquellos que muestran los efectos de los problemas de las empresas.
+Ratios de endeudamiento. Intentan mostrar la estrategia de financiamiento y la vulnerabilidad de la
+empresa a esa estructura de financiamiento dada.
+Ratios de liquidez. Buscan medir la habilidad que puede tener una empresa para atender sus obligaciones
+en el corto plazo, tal como estaban previstas.
+Ratios de rentabilidad. Permiten evaluar la eficiencia de la administración de la empresa con respecto a un
+determinado nivel de ventas, activos y. patrimonio neto.
+26
+
+Ratios de valuación. Intentan mostrar la evolución que en el mercado se hace de la empresa, ya que reflejan
+la influencia combinada de riesgo/rendimiento.
+Razón corriente. Ratio que busca medir la liquidez de una empresa, definido como activos
+corrientes/pasivos corrientes.
+Recibos americanos de depósito. Título emitido en un país para representar acciones de una compañía
+extranjera. (ADR.)
+Recorrido aleatorio. Movimientos, de una variable, cuyos cambios futuros no pueden predecirse, porque
+los valores dados hoy pueden ascender o descender, los cambios son independientes unos de otros y tienen
+la misma distribución de probabilidades.
+Recta característica. Línea que relaciona el rendimiento esperado de un activo con los distintos
+rendimientos del mercado. También conocida como modelo de mercado.
+Regla básica de la tasa interna de rendimiento. Aceptar el proyecto si la tasa interna de rendimiento es
+mayor que la tasa de rendimiento requerida para el mismo; rechazar el proyecto si la tasa interna de
+rendimiento es inferior a la tasa de rendimiento requerida. ,
+Regla convencional de fechas. Tratamiento, de los flujos de caja como si fueran recibidos en fechas
+exactas -fecha 0, fecha 1 y así sucesivamente- en contraste con la regla convencional de fin de año.
+Regla del período de repago descontado. Regla sobre decisiones de inversión en la que se descuentan los
+flujos de caja a una tasa de rendimiento requerida, aplicándose la regla del repago a estos flujos de caja
+descontados.
+Regla del valor presente neto. Una inversión es, aceptable si tiene un VPN positivo. Si el VPN de una
+inversión es negativo, ésta debería ser rechazada.
+Relación de retención. Ganancias retenidas divididas por las ganancias netas.
+Rendimiento abnormal acumulativo. Suma de las diferencias entre el rendimiento esperado sobre las
+acciones y el retorno real obtenido como resultado de una noticia divulgada en el mercado.
+Rendimiento al vencimiento. Tasa de descuento que compara el valor presente de los pagos de interés y el
+valor de redención con el precio actual de un bono o un activo financiero.
+Rendimiento del periodo de tenencia. Tasa de rendimiento durante un período dado.
+Rendimiento esperado. Promedio de posibles rendimientos ponderados por sus probabilidades.
+Rendimiento sobre el patrimonio. Ingreso neto después de intereses e impuestos dividido por el
+patrimonio promedio de los accionistas comunes.
+Rendimiento sobre la inversión. Generalmente, GAII en libros, como una proporción del valor en, libros
+del activo promedio.
+Renta imponible. Ingresos menos una seno de deducciones fiscalmente reguladas.
+Renta perpetua. Un flujo constante sin término de flujos de caja. Un ejemplo de esto es el Consol
+británico.
+27
+
+Renta perpetua creciente. Un flujo constante de flujos. de caja sin término que se espera aumente
+indefinidamente. Flor ejemplo, podría esperarse que los flujos de caja que recibe el arrendador de un
+edificio de departamentos aumenten cada año en un porcentaje dado.
+Riesgo. Grado de incertidumbre asociado a la posibilidad de generar un rendimiento.
+Riesgo crediticio. Calidad del portafolio de préstamos de una institución financiera.
+Riesgo de actividades fuera de balance. Sobreviene cuando la institución financiera mantiene créditos. o
+compromisos contingentes.
+Riesgo de afiliación. Variante de riesgo de prestación de servicios que sobreviene de la expansión que
+prestan algunas instituciones financieras.
+Riesgo de capitalización. Posibilidad de que una empresa financiera pierda su patrimonio neto, es decir,,
+que los costos derivados de sus riesgos equiparen el monto de patrimonio noto.
+Riesgo de estrategia de mercado. Tipo de riesgo de, prestación de servicios que se da cuando una
+institución que opera en el mercado- de servicios financieros no reconoce que debe satisfacer nuevas
+necesidades,
+Riesgo de incumplimiento. Posibilidad de que el emisor de un instrumento de deuda pueda estar
+imposibilitado de efectuar los pagos de intereses o, la cancelación del importe nominal cuando sea el
+vencimiento: del, instrumento.
+Riesgo de liquidez. Se produce cuando una institución financiera no tiene la habilidad o la posibilidad de
+atender a sus necesidades, financieras derivadas de su actividad con la excepción de hacerlo a un costo muy
+alto, superior al "normal".
+Riesgo de mercado (riesgo sistemático). Riesgo que no puede diversificarse. Afecta a todos, los activos,
+aunque en forma diferente.
+Riesgo de tasa de interés. Sobreviene por la existencia de- cambios no anticipados en las tasas.
+Riesgo de tipo de cambio. Deriva básicamente de posiciones, sobrevenidas, de los bancos, es decir, cuando
+los activos en moneda, extranjera son menores que los pasivos, en moneda extranjera.
+Riesgo de variación de precios en el mercado de valores. Riesgo asociado a la fluctuación de- los precios
+de los mercados de valores (Bolsas de valores).
+Riesgo del poder de compra o riesgo de inflación. Riesgo adjunto al poder de la compra potencial del
+flujo de caja esperado. Debido a la inflación.
+Riesgo diversificable. Riesgo que afecta específicamente a un solo activo o a un pequeño grupo de activos
+(por ejemplo, de un sector de actividad). También llamado riesgo único o no sistemático, específico o
+residual.
+Riesgo moral. Riesgo de que la existencia de un contrato cambiará el comportamiento de una o ambas
+partes del mismo.
+Riesgo no sistemático. Riesgo diversificable.
+Riesgo operativo. Riesgo que toman, los accionistas de una firma si ésta es financiada únicamente con el
+patrimonio.
+28
+
+Riesgo regulatorio. Se produce en la industria, dada la cantidad de leyes y otras regulaciones que
+influencian las actividades de las empresas financieras.
+Riesgo sistemático. Componente de riesgo de un activo que no se puede eliminar al diversificarlo. Sólo la
+porción del riesgo sistemático importa en los grandes portafolios bien diversificados. En consecuencia, sólo
+se deben vincular los rendimientos esperados a los riesgos sistemáticos.
+Riesgo tecnológico. Tipo de riesgo en la prestación de servicios que sobreviene del avance de la electrónica,
+las telecomunicaciones, y la automatización de las actividades financieras.
+RPA (Recursive partitioning algorithm). Algoritmo para clasificar empresas, a priori, conforme a un
+problema determinado (por ejemplo, bancarrota de una firma).
+Saldo compensatorio. Depósito que mantiene la firma, en un banco, en una cuenta que devenga bajo o
+ningún interés, para compensar a los bancos por préstamos o servicios bancarios otorgados.
+Saldo de caja objetivo. Cantidad óptima de efectivo que una firma debería tener, considerando el equilibrio
+entre los costos de oportunidad de tener demasiado efectivo y los costos de tener demasiado poco.
+Saldo neto en efectivo. Saldo en efectivo inicial más los recibos de caja menos los desembolsos en efectivo.
+Salidas de depósitos. Pérdidas de los depósitos cuando los depositarios retiran su dinero o demandan sus
+pagos.
+Serios problemas financieros. Eventos que preceden a. la bancarrota, ésta inclusive, tales como el
+incumplimiento de contratos da préstamo.
+Semiología. Del griego semeión, signo a síntoma, y logos, estudio. Es el estudio de los signos y síntomas,
+más generalmente es el estudio de los signos en la vida social.
+Servicio de la deuda. Pagos de interés más los reembolsos del principal a los acreedores.
+Signo. Del latín signum. Objeto, fenómeno o acción material que, natural o convencionalmente, representa o
+sustituye, a otro objeto, fenómeno o acción.
+Sindicato. En finanzas, grupo de instituciones bancarias inversionistas que se comprometen a cooperar en
+una empresa conjunta para la suscripción de una oferta de valores para reventa al público.
+Síndrome. Conjunto de fenómenos que caracterizan una situación determinada.
+Síntoma. Del latín simptoma. Indicio de una cosa que está sucediendo o va a suceder.
+Sistema de pagos interbancarios a través de la cámara de compensaciones (Clearing house
+interbankpayments system). Intercambio de cheques y saldo de cuentas entre bancos // Sistema de tasas de
+depreciación permitidas para fines tributarios.
+Sistema DuPoNT. Sistema utilizado por las empresas con el fin de analizar los estados financieros, así
+como su condición en términos financieros.
+Sistemático. Común a todos los negocios.
+Spot. Acuerdo sobre el tipo de cambio hoy para su cancelación en dos días.
+Subvaluación. Emisión de valores por debajo del valor equitativo del mercado.
+29
+
+Supuestos económicos. Ambiente económico en el que la firma espera vivir durante la vigencia del plan
+financiero.
+Suscriptor. Firma inversionista que compra una emisión de valores de la empresa y la revende a los
+inversionistas.
+Swap callable y putable. En estos tipos de swap ambas contrapartes tienen derecho a cancelar el swap a un
+determinado tiempo sin costos adicionales.
+Swap de rendimiento constante. Tipo de swap en el cual las dos contrapartes son flotantes.
+Swap de tasa de interés. En éste, una contraparte conviene en pagar a la otra intereses a tasa fija y recibir
+interés a tasa flotante.
+Swap financiero. Contrato entre dos firmas, llamadas contratares, para intercambiar una serie de flujos de
+fondos.
+Tasa de cambio. Precio de la moneda de un país en la moneda de otro.
+Tasa de crecimiento interna. Tasa máxima de crecimiento de una empresa sin financiamiento externo (cf.
+tasa de crecimiento sostenible).
+Tasa de crecimiento sostenible. La única tasa de crecimiento posible, por ejemplo, de ventas, con valores
+preestablecidos para cuatro variables: margen de utilidades, razón de pagos de dividendos, coeficiente de
+endeudamiento e índice de utilización de activos, si la firma no emite nuevas acciones.
+Tasa de descuento. Tasa utilizada para calcular el valor presente de los flujos de caja futuros, conocida
+como tasa de rendimiento requerida.
+Tasa de interés. Precio pagado por un prestatario o deudor a un prestamista o acreedor por el uso de
+recursos durante un determinado intervalo de tiempo.
+Tasa de interés de equilibrio. Tasa de interés que iguala oferta y demanda de fondos prestables.
+Tasa de interés nominal. Tasa de interés no ajustada a la inflación.
+Tasa de interés para contratos futuros. Es la que surge de los contratos futuros que están asociados a
+instrumentos de deudas.
+Tasa de interés real. Tasa de interés expresada en términos de bienes reales; es decir, tasa de interés
+nominal ajustada por el efecto de la inflación.
+Tasa de rendimientos múltiples. Más de una tasa de rentabilidad para el mismo proyecto que hacen que el
+valor presente neto del proyecto sea igual a cero. Esta situación surge cuando se utiliza el método de la tasa
+interna de rendimiento para un proyecto en el que hay flujos de caja negativos a continuación de flujos de
+caja positivos.
+Tasa de rentabilidad. Tasa de descuento a la cual el valor presente neto de una inversión es cero. La tasa
+de rentabilidad es un método para evaluar las propuestas de gastos de capital. También conocida como tasa
+interna de rendimiento.
+Tasa Prime. Tasa de préstamos referencial establecida por los bancos de los Estados Unidos de América.
+Techo. Límite superior sobre la tasa de interés en un pagaré de tasa flotante.
+30
+
+Tenor. Vencimiento de un préstamo.
+Teorema de irrelevancia. Teorema de los profs. MODIGLIANI y MILLER que sostiene que la estructura
+de capital de una firma es irrelevante para el valor de la misma.
+Teorema de la separación. Propuesta efectuada por J. TOBIN según el cual la selección del portafolio se
+puede separar en dos activos o subcomponentes de activos independientes: 1) determinación del portafolio
+riesgoso de mercado, 2) activo libre de riesgo.
+Teorema de paridad de la tasa de interés. Diferencial de la tasa de interés doméstica y la tasa de interés
+extranjera. Este diferencial será igual a la diferencia entre la tasa de cambio futuro y la tasa de cambio spot.
+Teoría de agencia. Teoría de la relación entre principales y agentes. Involucra la naturaleza de los costos de
+resolver conflictos de intereses entre ambos.
+Teoría de fijación de precios de arbitraje. Teoría de fijación de precios de activos en equilibrio derivada
+sobre la base de un modelo de factores, utilizando la diversificación y el arbitraje. Demuestra que el
+rendimiento esperado de cualquier activo riesgoso es una combinación lineal de varios factores.
+Teoría normativa. Teoría que explica cómo debe ser un fenómeno.
+Teoría positiva. Teoría que explica qué es un fenómeno.
+Teoría según J. F. WESTON. "Proposiciones, que son relaciones deducidas de axiomas fundamentales y
+definiciones, y que a un nivel teórico son sólo testeables por su consistencia interna con los axiomas y
+definiciones del sistema. Para propósitos de toma de decisiones ellas deben ser testeadas en su capacidad
+para predecir o explicar datos empíricos".
+Tipo de cambio. Precio de una moneda en términos de otra.
+Tipo de cambio a futuro. Tasa de cambio entre dos monedas, generalmente importantes, en una fecha
+futura.
+Tomadores de precio. Personas, empresas o países que responden a las tasas y precios, actuando como si
+no tuvieran influencia alguna sobre los mismos.
+Valor de mercado. Precio al que compradores y vendedores dispuestos transan los activos de una firma.
+Valor de paridad. Valor de un título que figura en el certificado, también llamado valor nominal o a la par.
+Valor de reposición. Costo actual de la reposición de los activos de la firma.
+Valor de rescate o residual. Valor de desecho de la planta o equipo.
+Valor futuro. Valor de una suma después de invertirla a una determinada tasa de interés durante el
+transcurso de uno o más períodos. También se lo llama valor compuesto.
+Valor presente. El valor de un flujo de efectivo futuro, descontado a la correspondiente tasa de interés del
+mercado (tasa de rendimiento requerida).
+Valor presente neto. Valor presente del conjunto de flujos de fondos que derivan de una inversión,
+descontados a la tasa de rendimiento requerida de la misma al momento de efectuar el desembolso de la
+inversión, menos esta inversión inicial valuada también a ese momento.
+31
+
+Valor razonable de mercado. Monto por el cual las acciones comunes pasarían de manos de un vendedor a
+poder de un comprador, ambos conociendo los hechos pertinentes y dispuestos a efectuar la transacción.
+También se lo llama precio de mercado.
+Valor residual. Generalmente, se, refiere al valor de la propiedad de un arrendador al momento que expira
+el arrendamiento o, en el análisis de inversiones, el valor neto de los activos que quedan al finalizar la vida
+útil del proyecto.
+Variables de flujo. Aquellas que valen en un determinado período, por ejemplo, ventas.
+Variables de stock. Aquellas que valen en un momento y no en un período, por ejemplo, disponibilidades.
+Varianza. Suma de los cuadrados de las desviaciones entre el valor observado de una variable aleatoria y su
+media, ponderada por sus probabilidades asociadas.
+Varianza del portafolio. Suma ponderada de las covarianzas y varianzas de los activos en una cartera.
+32

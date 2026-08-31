@@ -1,0 +1,201 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import yfinance as yf
+
+# Entradas
+seguridad = 'AMD'  # Activo objetivo
+factores = {
+    '^SPX': 'S&P 500',
+    '^IXIC': 'NASDAQ',
+    '^MXX': 'IPC México',
+    '^STOXX': 'STOXX Europa 600',
+    '^GDAXI': 'DAX',
+    '^FCHI': 'CAC 40',
+    '^VIX': 'Índice de Volatilidad',
+    'XLK': 'Sector Tecnología',
+    'XLF': 'Sector Financiero',
+    'XLV': 'Sector Salud',
+    'XLE': 'Sector Energía',
+    'XLC': 'Sector Servicios de Comunicación',
+    'XLY': 'Sector Consumo Discrecional',
+    'XLP': 'Sector Consumo Básico',
+    'XLI': 'Sector Industrial',
+    'XLB': 'Sector Materiales',
+    'XLRE': 'Sector Inmobiliario',
+    'XLU': 'Sector Servicios Públicos',
+    'SPY': 'ETF S&P 500',
+    'EWW': 'ETF MSCI México',
+    'IVW': 'ETF S&P 500 Crecimiento',
+    'IVE': 'Sector Valor',
+    'IWM': 'Sector Crecimiento',
+    'QUAL': 'Calidad',
+    'MTUM': 'Momentum',
+    'SIZE': 'Tamaño',
+    'USMV': 'Mínima Volatilidad',
+    '^MERV': 'Índice MERVAL',
+    'DX-Y.NYB': 'Índice Dólar'
+}
+
+# Función para descargar datos de Yahoo Finance
+def download_data(tickers, start_date="2024-01-01", end_date="2025-03-19"):
+    data = yf.download(tickers, start=start_date, end=end_date)['Close']
+    return data
+
+# Función para calcular la correlación y beta del activo respecto de cada factor
+def dataframe_factors(seguridad, factores):
+    tickers = [seguridad] + list(factores.keys())
+    data = download_data(tickers)
+    
+    # Calcular rendimientos diarios
+    returns = data.pct_change().dropna()
+    
+    # Rendimientos del activo y de los factores
+    seguridad_returns = returns[seguridad]
+    factores_returns = returns[list(factores.keys())]
+    
+    rows = []
+    for factor in factores:
+        # Calcular correlación: activo vs factor
+        correlacion = np.corrcoef(seguridad_returns, factores_returns[factor])[0, 1]
+        # Calcular beta: covarianza / varianza del factor
+        covarianza = np.cov(seguridad_returns, factores_returns[factor])[0, 1]
+        varianza = np.var(factores_returns[factor])
+        beta = covarianza / varianza
+        rows.append({'factor': factor, 'correlacion': correlacion, 'beta': beta})
+    
+    df = pd.DataFrame(rows)
+    df['sector'] = df['factor'].map(factores)
+    return df, data
+
+# Llamada a la función para obtener el DataFrame y los datos históricos
+df, data = dataframe_factors(seguridad, factores)
+
+print("DataFrame de Factores:")
+print(df)
+print("\nInterpretación:")
+print("El DataFrame muestra la correlación y la beta entre los rendimientos del activo '{}' y cada uno de los factores.".format(seguridad))
+print("La columna 'factor' indica el ticker, 'correlacion' la relación lineal, 'beta' la sensibilidad, y 'sector' el nombre asignado.")
+
+# Normalización de precios (para graficar en la misma escala)
+data_norm = data / data.iloc[0]
+
+# Ordenar los factores de mayor a menor correlación
+df_sorted = df.sort_values(by='correlacion', ascending=False)
+factores_ordenados = df_sorted['factor'].tolist()
+
+# Generar una paleta de colores para distinguir las series (ajustada dinámicamente)
+colores = plt.cm.tab20(np.linspace(0, 1, len(factores_ordenados)))
+
+# Función para simular un portafolio basado en rendimientos ponderados
+def simular_portafolio(data, tickers, cantidades):
+    # Calcular rendimientos diarios de los activos
+    rendimientos = data[tickers].pct_change().dropna()
+    # Calcular rendimientos ponderados por las cantidades
+    pesos = np.array(cantidades) / np.sum(cantidades)
+    portafolio_rendimientos = rendimientos.dot(pesos)
+    # Reconstruir el valor del portafolio a partir de los rendimientos acumulados
+    portafolio = (1 + portafolio_rendimientos).cumprod()
+    portafolio *= data[tickers].iloc[0].dot(pesos)  # Escalar al valor inicial
+    return portafolio
+
+# Función para descargar y agregar tickers faltantes
+def agregar_tickers_faltantes(data, tickers_faltantes, start_date="2024-01-01", end_date="2025-03-19"):
+    nuevos_datos = yf.download(tickers_faltantes, start=start_date, end=end_date)['Close']
+    return pd.concat([data, nuevos_datos], axis=1)
+
+# Función para verificar y descargar tickers faltantes
+def verificar_y_descargar_tickers(data, tickers, start_date="2024-01-01", end_date="2025-03-19"):
+    tickers_faltantes = [ticker for ticker in tickers if ticker not in data.columns]
+    if tickers_faltantes:
+        print(f"Descargando tickers faltantes: {tickers_faltantes}")
+        data = agregar_tickers_faltantes(data, tickers_faltantes, start_date, end_date)
+    return data
+
+# Parámetro para activar/desactivar la simulación del portafolio
+simular_portafolio_flag = True
+tickers_portafolio = ['^SPX', 'XLK', 'XLF', 'GGAL.BA']  # Tickers del portafolio (incluyendo GGAL.BA)
+cantidades_portafolio = [10, 20, 15, 5]  # Cantidades de activos en el portafolio
+
+# Parámetro para activar/desactivar la comparación del portafolio como activo
+comparar_portafolio_como_activo = True
+
+# Simulación del portafolio si está activado
+if simular_portafolio_flag:
+    # Verificar y descargar tickers faltantes
+    data = verificar_y_descargar_tickers(data, tickers_portafolio)
+    portafolio = simular_portafolio(data, tickers_portafolio, cantidades_portafolio)
+    data['Portafolio'] = portafolio
+    data_norm['Portafolio'] = portafolio / portafolio.iloc[0]
+    factores['Portafolio'] = 'Portafolio Simulado'
+
+    # Calcular beta y correlación del portafolio con los factores
+    portafolio_returns = data['Portafolio'].pct_change().dropna()
+    rows = []
+    for factor in factores:
+        # Alinear índices para evitar desalineación
+        factor_returns = data[factor].pct_change().dropna()
+        aligned_portafolio, aligned_factor = portafolio_returns.align(factor_returns, join='inner')
+        
+        # Calcular correlación: portafolio vs factor
+        correlacion = np.corrcoef(aligned_portafolio, aligned_factor)[0, 1]
+        # Calcular beta: covarianza / varianza del factor
+        covarianza = np.cov(aligned_portafolio, aligned_factor)[0, 1]
+        varianza = np.var(aligned_factor)
+        beta = covarianza / varianza
+        rows.append({'factor': factor, 'correlacion': correlacion, 'beta': beta})
+    
+    # Agregar los resultados del portafolio al DataFrame de factores
+    df_portafolio = pd.DataFrame(rows)
+    df_portafolio['sector'] = df_portafolio['factor'].map(factores)
+    df = pd.concat([df, df_portafolio], ignore_index=True)
+
+    # Comparar el portafolio como activo respecto de los factores
+    if comparar_portafolio_como_activo:
+        # Reemplazar el activo original por el portafolio
+        seguridad = 'Portafolio'
+        df_sorted = df.sort_values(by='correlacion', ascending=False)
+        factores_ordenados = df_sorted['factor'].tolist()
+
+    # Calcular beta y correlación del activo original respecto al portafolio
+    if 'Portafolio' in factores:
+        activo_returns = data[seguridad].pct_change().dropna()
+        aligned_activo, aligned_portafolio = activo_returns.align(portafolio_returns, join='inner')
+        correlacion_activo_portafolio = np.corrcoef(aligned_activo, aligned_portafolio)[0, 1]
+        covarianza_activo_portafolio = np.cov(aligned_activo, aligned_portafolio)[0, 1]
+        varianza_portafolio = np.var(aligned_portafolio)
+        beta_activo_portafolio = covarianza_activo_portafolio / varianza_portafolio
+        print(f"\nBeta del activo '{seguridad}' respecto al Portafolio: {beta_activo_portafolio:.2f}")
+        print(f"Correlación del activo '{seguridad}' respecto al Portafolio: {correlacion_activo_portafolio:.2f}")
+
+# Crear el gráfico de series normalizadas
+plt.figure(figsize=(16, 8))
+# Graficar la serie del activo (puede ser el portafolio si comparar_portafolio_como_activo=True)
+plt.plot(data_norm.index, data_norm[seguridad], label=f"{seguridad} - Activo", linewidth=3, color='black')
+
+# Graficar las series de los factores ordenados por correlación
+for i, factor in enumerate(factores_ordenados[:len(colores)]):  # Asegurar que no se exceda el tamaño de la paleta
+    # En el label se incluye sector, ticker, beta y correlación
+    beta_val = df_sorted[df_sorted['factor'] == factor]['beta'].values[0]
+    corr_val = df_sorted[df_sorted['factor'] == factor]['correlacion'].values[0]
+    label = "{} ({}) | Beta: {:.2f} | Corr: {:.2f}".format(factores[factor], factor, beta_val, corr_val)
+    plt.plot(data_norm.index, data_norm[factor], label=label, linewidth=2, color=colores[i])
+
+# Graficar el portafolio simulado si está activado
+if simular_portafolio_flag and not comparar_portafolio_como_activo:
+    plt.plot(data_norm.index, data_norm['Portafolio'], label="Portafolio Simulado", linewidth=3, color='red')
+
+# Actualizar el título del gráfico para incluir beta y correlación del portafolio si es activo
+if comparar_portafolio_como_activo:
+    plt.title(f"Evolución Normalizada: Portafolio Simulado como Activo\n"
+              f"Beta: {beta_activo_portafolio:.2f} | Corr: {correlacion_activo_portafolio:.2f}",
+              fontsize=16)
+else:
+    plt.title(f"Evolución Normalizada: Activo vs Factores", fontsize=16)
+
+plt.xlabel("Fecha", fontsize=14)
+plt.ylabel("Rendimientos Normalizados", fontsize=14)
+plt.legend(fontsize=10, loc='upper left', bbox_to_anchor=(1,1))
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()

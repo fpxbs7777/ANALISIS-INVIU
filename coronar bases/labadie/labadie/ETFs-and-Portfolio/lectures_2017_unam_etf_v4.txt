@@ -1,0 +1,346 @@
+ETFs AND PORTFOLIO STRATEGIES
+Mauricio Labadie, PhD
+Algorithmic Quant/Trader
+AES – Credit Suisse (London, UK)
+Workshop in Quantitative Trading 2017
+Facultad de Ciencias, UNAM
+Mexico City, 17-19 May 2017
+“The opinions and views expressed in this presentation are uniquely those of the author and do not necessarily
+represent those of Credit Suisse.”
+1 Zoology - Mauricio Labadie
+
+Disclaimer
+Everything I say during this workshop, in written and/or orally:
+www.svsamiti.org
+ Is my own and personal opinion
+ It is meant to be solely for educational purposes
+ Does not commit me or my employer to anything
+ Does not necessarily represent my employer’s point of view
+ Does not constitute any kind of investment advice
+2 ETFs - Mauricio Labadie
+
+A bit about myself
+3 ETFs - Mauricio Labadie
+
+Table of Contents
+1. Introduction to portfolios
+ Hedging
+ Basis risk
+ Replication
+2. ETFs
+ Definition, creation and redemption
+ Pros and Cons of ETFs
+ Comparison of ETFs with traditional funds and securities
+3. Portfolio strategies with ETFs
+ Examples of portfolio allocation
+4. Conclusions
+4 ETFs - Mauricio Labadie
+
+1. Introduction
+5 ETFs - Mauricio Labadie
+
+Hedging
+ Hedging is to buy or sell securities in order to guard the portfolio from adverse price
+movements
+ With a portfolio of stocks (a.k.a. delta one), the hedge is normally done with futures
+ With non-delta one derivatives (e.g. options), the hedge can be of different nature:
+ Delta hedge: underlying to protect vs price movements
+ Gamma (and Vega) hedge: other options to protect vs volatility changes
+ Rho hedge: bonds, swaps to protect vs rate changes
+www.sharemarketschool.com
+6 ETFs - Mauricio Labadie
+
+Basis Risk
+•
+What is the basis?
+www.theoptionsguide.com
+ Difference between the prices of a security and its related future
+•
+Contango: Future price > underlying price (negative basis)
+•
+Backwardation: Future price < underlying price (negative basis)
+•
+Hedging a portfolio is not a zero-sum game
+
+Correlation risk: The price of the future does not necessarily move as the value of the
+portfolio
+
+Tracking error: Even with perfect correlation, the portfolio does not have the same
+weights as the index
+•
+Examples of trading strategies that exploit the basis:
+
+Tracking: replicate the performance of an index with a given tolerance e.g. 5% of error
+
+Rebalancing: keep a desired level of systematic risk e.g. 80% of tracking an index
+
+Dispersion: difference between the index volatility and single-stock volatilities
+7 ETFs - Mauricio Labadie
+
+Replication
+ Replicating a portfolio means reproducing its cash flows with different instruments
+ Just as hedging, replicating carries a risk
+ It is not a perfect replication due to different factors: liquidity, correlation, basis
+ Index funds or “trackers”
+ They try to replicate the performance of a benchmark
+ S&P 500, MSCI Mexico, DAX, etc
+ Trackers are cheaper than traditional funds
+ Easier to track the market than beat it
+ Less transaction costs and management costs
+www.dreamstime.com
+ Replicating an index could be done in several ways
+ Full replication: buying all the constituents of the index in the right proportions
+ Sampling: only buying a subset of the constituents of the index based on a given tracking
+error tolerance e.g. 10%
+ ETFs (as we will see) are examples of index funds
+8 ETFs - Mauricio Labadie
+
+2. ETFs
+9 ETFs - Mauricio Labadie
+
+Exchange Traded Funds (ETFs)
+ Exchange Traded Funds are pooled investment funds that track a benchmark
+ Equity: equity market, sector, tailored basket
+ Bonds: treasuries, corporate, pool of sovereigns
+ Exchange Traded Commodities (ETC): oil, metals, agriculture
+ Exchange Traded Currencies (ETC): EUR, USD, MXN
+ Their aim is to minimise the “tracking error” vs benchmark
+ A good ETF will replicate the performance of its benchmark
+ Like stocks, ETFs have daily prices available and can be traded on exchanges throughout the
+day at current bid and ask prices
+10 ETFs - Mauricio Labadie
+
+How big is the ETF market?
+ 2.7tn USD invested in ETFs worldwide
+ 1.7tn USD in US Equities
+ 555bn USD in non-US Equities
+ 457bn USD in Bonds
+ 1,736 ETFs worldwide
+ 788 US Equities
+ 633 non-US equities
+ 289 Bonds
+ On London Stock Exchange
+ 900+ different ETFs are traded
+www.benzinga.com
+Sources: www.ici.org and www.hl.co.uk
+11 ETFs - Mauricio Labadie
+
+ETF creation and redemption
+Basket of stocks
+Or cash value
+ETF units
+Sources: www.vanguard.co.uk
+12 ETFs - Mauricio Labadie
+
+ETF indexing strategies (replication)
+ETFs are derivative products:
+•
+Their Net Asset Value (NAV) depends of the price of the constituents of the benchmark
+Physically backed
+ Full replication
+ All underlying securities are bought according to their weight in the index
+ This mean minimal tracking error vs index
+ Usually applied for smaller and liquid indices
+ Optimised sampling
+ Only a sub-sample of the underlying securities are bought
+ Optimal number of securities based on a target tracking error e.g. 10%
+ A risk-optimised algorithm is used to compute the parameters
+ Usually applied to broader and less liquid indices
+www.nlpca.org
+Synthetic replication
+ Swaps
+ The fund invests directly in derivatives e.g. swaps
+ Equity-linked swaps exchange a floating rate (LIBOR + fee) vs the return of an index
+13 ETFs - Mauricio Labadie
+
+Pros: low-cost exposure
+ They provide exposure to financial products and markets that would normally be too expensive
+or inconvenient to invest in
+ Example: DAX 30 (German index) ~ 12k points
+ Normal DAX  25 EUR per point ~ 300k EUR per contract
+ Mini DAX  5 EUR per point ~ 60k EUR per contract
+ But one of the DAX ETFs is ~ 107 EUR per contract
+ They are one of the lowest cost ways to “follow a market”
+ Traditional Asset manager: 0.5-1% fees per annum
+ Hedge fund: 1-2% fixed + 20% performance fees p.a.
+ ETF on DAX: 0.09% per annum
+Sources: www.bloomberg.com and www.db.com
+14 ETFs - Mauricio Labadie
+
+Pros: leverage and short
+ Leveraged ETFs:
+ 2x to 5x the performance of the benchmark
+ Good for short term bets (a few days): your gains get amplified!
+ Bad if your bet is wrong: your losses get amplified!
+ Inverse ETFs:
+ You get the inverse return of the benchmark
+ If benchmark goes up, you gain
+ If benchmark goes down, you lose
+ In other words, you buy the ETFs to short the index
+ Helpful when there are short-selling restrictions (retail and institutional investors)
+Sources: www.hl.co.uk
+15 ETFs - Mauricio Labadie
+
+Pros: Access to foreign markets
+ You can invest on any world index via your local broker
+ You can choose several currencies for the same benchmark
+Sources: www.hl.co.uk
+16 ETFs - Mauricio Labadie
+
+Cons: too many choices!
+ Different fund providers, markets, currencies, prices per share, “replication techniques”,
+management fees
+Sources: www.hl.co.uk
+17 ETFs - Mauricio Labadie
+
+Cons: riskier than stocks
+www.typepad.com
+ Liquidity risk
+ Bigger tracking error
+ More transaction costs
+ Bigger spreads
+ Harder and costlier to exit a position
+ Credit risk
+ Replication can use complex derivatives e.g. swaps
+ The issuer of the swap may not honour their contract
+ Stock-lending risk
+ In physical replication, some funds lend their holdings to investors that short-sell
+ There is a risk that the short-sellers would not give back the stocks in time
+ Sophisticated investments
+ They are like “Do It Yourself” investment tools
+ Require more knowledge than single stocks or traditional funds (macro news, trading strategies,
+transaction costs)
+18 ETFs - Mauricio Labadie
+
+3. Portfolio strategies with ETFs
+19 ETFs - Mauricio Labadie
+
+Example 1: Market neutral
+ Definition
+ The notional value of the long leg (buys) and the short leg (buys) are the same
+ In other words, the net value buys minus sells is zero
+ The short leg can be substituted by an inverse ETF
+ Assumptions
+ The long leg will outperform the short leg
+ The short leg is a hedge when prices go down
+ Construction
+ Buy: 1 unit of S&P 500 @ 40.18 GBP
+ Sell: MSCI Mexico (or buy inverse ETF)
+ We need to sell 40.18 GBP
+www.123rf.com
+ 1 unit @ 3.803 GBP
+ 10 units  38.03 GBP
+ “Basis risk” or “Tracking error”: (40.18-38.03)/40.18 = 5.35%
+20 ETFs - Mauricio Labadie
+
+Basic ETF portfolios
+ The most basic portfolio is long-only with 2 securities
+ For the next examples we will use:
+ An ETF on S&P 500: XDPG.L / XDPG:LN
+ An ETF on its volatility index, the VIX: VXIS.L / VXIS:LN
+ Sources: www.bloomberg.com
+ XDPG  VXIS
+ 1Y return = 16.68%  1Y return = -74.97%
+ Volatility 1 month = 7.13%  Volatility 1 month = 45.72%
+21 ETFs - Mauricio Labadie
+
+Example 2: Same notional weight
+ Definition
+ The notional value of each constituent is the same
+ Assumptions
+www.123rf.com
+ The long leg will outperform the short leg
+ The short leg is a hedge when prices go down
+ Construction
+ 1 unit of S&P 500 @ 40.18 GBP
+ A certain number of units of VIX
+ We need to buy 40.18 GBP
+ 1 unit @ 0.117 GBP
+ 343 units  40.13 GBP
+ Basis risk” or “Tracking error”: (40.18 - 40.13) / 40.18 = 0.12%
+22 ETFs - Mauricio Labadie
+
+Example 3: Same volatility weight
+ Definition
+ The weights are such that the volatility of each constituent is the same
+ This is a particular case of “volatility neutral” or “vega hedge”
+www.blogs.hrhero.com
+ Assumptions
+ The size of the returns are related to the current volatility
+ If the sizes are the same then the portfolio is vega-neutral
+ Construction
+ 1 unit of S&P 500 @ 40.18 GBP
+ Volatility weight (vega) in cash: 40.18 * 7.13% = 2.865 GBP
+
+A certain number of units of VIX such that in GBP terms the volatilities are the same
+ 40.18 * (7.13% / 45.72%) = 6.266 GBP
+ 53 units  6.201 GBP
+ “Net vega”: (40.18*7.13% – 6.201*45.72) / (40.18*7.13% )= 1.04%
+23 ETFs - Mauricio Labadie
+
+Example 4: Beta neutral
+ Definition
+ The net (notional) beta of the portfolio is zero (or as close as possible)
+ Assumptions
+ The betas determine how much the returns can jump relative to the market
+ Prices follow the Capital Asset Pricing Model (CAPM)
+ Construction
+thumbs.dreamstime.com
+ 1 unit of S&P 500 @ 40.18 GBP
+ Compute the beta of VIX vs S&P 500
+ Normally we use linear regression (CAPM)
+ But as a proxy let us use the 1-year returns:
+ Beta = -74.97% / 16.68% = -4.5
+ Beta value of VIX: 40.18 / 4.5 = 8.93 GBP
+ 76 units  8.892 GBP
+ “Net Beta”: (40.18*1 + 8.892*(-4.5)) / 40.18 = 0.0014
+24 ETFs - Mauricio Labadie
+
+Example 5: Markowitz
+ Definition: Efficient Frontier
+ Given a fixed return for the portfolio, compute the weights that minimise the variance
+ Given a fixed variance, compute the weights that maximise the return
+futuremattersinc.com
+ Assumptions
+ The variance-covariance matrix contains all risk factors
+ Construction
+ 1 unit of S&P 500 @ 40.18 GBP
+ Compute the weight of VIX for a target return of 10%
+ Equation 1: 𝑤 + 𝑤 = 1
+𝑆&𝑃 𝑉𝐼𝑋
+ Equation 2: 𝑟 ∗ 𝑤 + 𝑟 ∗ 𝑤 = 10%
+𝑆&𝑃 𝑆&𝑃 𝑉𝐼𝑋 𝑉𝐼𝑋
+ 2 equations and 2 unknowns  no need for variance-covariance matrix!
+ 𝑤 = 40.18 GBP
+𝑆&𝑃
+10%−16.68%∗40.18
+ 𝑤 = = 8.806 GBP (close to Beta neutral = 8.892)
+𝑉𝐼𝑋
+−74.97
+ 75 units  8.775 GBP
+ “Tracking error”: (40.18*1 + 8.892*(-4.5)) / 40.18 = 0.14%
+25 ETFs - Mauricio Labadie
+
+4. Conclusions
+26 ETFs - Mauricio Labadie
+
+Summary and conclusions
+ Summary
+ We revisited the concepts of portfolio hedging and basis risk
+ We defined an ETF
+ We described several characteristics of ETFs
+ We built some examples of portfolios using ETFs
+ Conclusions
+ ETFs are investment funds that can be traded in exchanges
+ They are low cost investment securities and derivative products
+ Cheaper than futures and traditional investment funds / trackers
+ They have several pros and cons
+ More liquid and more transparent prices than funds
+ More diversity and options than single stocks: leverage, inverse, asset classes, benchmarks
+ More risk: leverage, inverses, research, transaction costs
+27 ETFs - Mauricio Labadie
+
+Thank you for your
+attention
+www.processexcellencenetwork.com
+28 ETFs - Mauricio Labadie

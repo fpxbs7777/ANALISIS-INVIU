@@ -1,0 +1,2439 @@
+Administración de las finanzas
+de la empresa
+Aldo Hernán Alonso
+Ediciones Macchi
+México, 1982
+Este material se utiliza con fines
+exclusivamente didácticos
+
+ÍNDICE
+Prólogo ...................................................................................................................................XV
+Capítulo I. La administración financiera y el objetivo de la empresa ................................1
+Capítulo II. Metas operativas para el administrador financiero ........................................7
+La rentabilidad del capital propio .................................................................................7
+a) Rentabilidad operativa ..............................................................................................9
+b) Rentabilidad del capital propio ...............................................................................11
+Capítulo III. La dimensión de la empresa: El caso de las empresas
+medianas y pequeñas .............................................................................................................19
+Generalidades .............................................................................................................19
+Caracterización de los problemas de empresas de menor dimensión .........................20
+Un esquema básico para lograr mayor eficiencia .......................................................26
+a) Revisión de la organización y estilo de conducción .............................................26
+b) Procedimientos formales de planeamiento estratégico .........................................27
+c) Presupuestación y administración por objetivos......................................................27
+d) Sistema de información, registración y control ......................................................28
+Capítulo IV. La organización del área financiera en función de
+la dimensión y la estructura empresarias ............................................................................31
+Capítulo V. Decisiones de corto plazo ..................................................................................41
+Administración del capital de trabajo .........................................................................43
+Concepto e instrumentos de gestión ...........................................................................43
+Disponibilidades .........................................................................................................47
+a) Generalidades .........................................................................................................47
+b) Déficits transitorios de caja ....................................................................................49
+Las inversiones transitorias y su evaluación ...............................................................53
+a) Las colocaciones transitorias en el mercado de dinero ...........................................55
+b) Inversiones en el mercado de títulos públicos ........................................................56
+c) Un modelo de selección de inversiones ..................................................................60
+Créditos y cobranzas ...................................................................................................62
+Bienes de cambio ........................................................................................................68
+a) Clasificación ...........................................................................................................70
+b) Punto o momento de pedido ...................................................................................71
+c) Magnitud del pedido ...............................................................................................74
+La financiación de corto plazo ....................................................................................77
+Cuantificación de las necesidades de capital de trabajo .............................................78
+El crédito comercial ....................................................................................................85
+El crédito bancario ......................................................................................................87
+a) Negociaciones de activos financieros .....................................................................89
+b) El crédito bancario directo ......................................................................................93
+Otras alternativas ........................................................................................................97
+Políticas de capital de trabajo .....................................................................................98
+Anexos al Capítulo V ...........................................................................................................107
+Anexo capítulo V.I.: El control de efectivo y bancos . .............................................107
+a) Cuadro de ingresos y egresos ...................................................................108
+b) Estado de bancos .....................................................................................115
+c) El estado de bancos proyectado . . . . . .....................................................120
+d) Resumen de fuentes y usos de fondos .....................................................123
+Anexo capítulo V.2.: Dimensión óptima del pedido de reposición ..........................124
+Anexo capítulo V.3.: El otorgamiento de crédito como caso particular ...................128
+2
+
+Anexo capítulo V.4.: Nociones básicas de elementos y cálculos financieros ...........132
+a) Interés simple e interés compuesto ..........................................................133
+b) Las diferentes tasas ..................................................................................139
+c) El costo efectivo de un crédito (préstamo) ...............................................142
+Capítulo VI. Decisiones de largo plazo ..............................................................................145
+Las inversiones en activos no corrientes ...................................................................147
+a) Concepto de inversiones y aspectos básicos de su evaluación .............................147
+b) Un ejemplo comentado .........................................................................................150
+La estructura del financiamiento, el costo de capital y
+la política de distribución de utilidades ....................................................................168
+a) La estructura del financiamiento ...........................................................................168
+b) Endeudamiento y costo del capital .......................................................................171
+c) Probabilidades y variabilidad de los resultados ....................................................174
+d) Distribución de utilidades .....................................................................................181
+Inversión y financiamiento como instancia única en las
+empresas pequeñas y medianas .................................................................................183
+a) Necesidad de ajustes a la versión tradicional ....................................................... 183
+b) Metodología aplicable ..........................................................................................185
+Combinaciones, reorganizaciones y valuación de empresas ....................................188
+a) Tipo de combinaciones .........................................................................................189
+b) Objetivos y motivaciones de las partes .................................................................193
+c) La iniciativa y sus consecuencias .........................................................................195
+d) Problemas devaluación .........................................................................................196
+e) Reorganizaciones para evitar la insolvencia .........................................................213
+Capítulo VII. Instrumentos de análisis y gestión financiera.
+Conceptos fundamentales ...................................................................................................215
+Instrumentos y pautas generales aplicables el análisis financiero.............................215
+Información básica (naturaleza y fuentes) ................................................................220
+a) El Balance General o Estado Patrimonial .............................................................222
+b) El Cuadro de Resultados ......................................................................................223
+c) El Estado de Origen y Aplicación de Fondos .......................................................225
+d) Calidad de la información ....................................................................................229
+Ordenamiento y uso de la información básica ......................................................... 230
+a) Estructuras verticales y evolución en el tiempo ....................................................230
+b) Indices más utilizados ...........................................................................................232
+Los costos .................................................................................................................238
+a) Clasificaciones y conceptos más significativos.....................................................239
+b) Costos según las alternativas ................................................................................253
+Análisis de la relación “costo-volumen-utilidades” ..................................................254
+Pronósticos y presupuestos .......................................................................................259
+a) Los pronósticos .....................................................................................................259
+b) Los presupuestos ..................................................................................................265
+Capítulo VIII. Ajustes por inflación y riesgo ....................................................................279
+a) La inflación ...........................................................................................................279
+b) El riesgo ................................................................................................................285
+Capítulo IX. Incidencia del régimen fiscal ........................................................................289
+a) Costo del financiamiento ......................................................................................289
+b) Destinos de fondos autogenerados .......................................................................289
+c) Venta de bienes amortizables ...............................................................................290
+d) Elección del sistema de amortización ...................................................................290
+e) Comprar vs. arrendar o alquilar (leasing) .............................................................292
+f) Rentabilidad de la empresa ...................................................................................293
+3
+
+Capítulo X. Información general para la dirección ..........................................................295
+a) Evaluación económico-financiera global ..............................................................295
+b) Los mercados reales y financieros ........................................................................296
+c) Datos de la empresa ..............................................................................................298
+Capítulo XI. Comentario final ............................................................................................303
+Bibliografía ...........................................................................................................................305
+4
+
+CAPÍTULO V
+DECISIONES DE CORTO PLAZO
+Las decisiones de inversión y financiamiento pueden estar referidas a dos categorías claramente
+diferenciables, a saber: a) decisiones cuyo horizonte de planeamiento se extiende hasta un año; b) decisiones
+cuyos efectos tienen vigencia por períodos superiores al año.
+Esta división no resulta de meras especulaciones teóricas. La realidad hace evidente las diferentes
+actitudes que adoptan al respecto los responsables de tales decisiones como asimismo los distintos
+procedimientos de evaluación seguidos en cada caso al considerar variables también diferentes.
+Así por ejemplo, plantean problemas particulares en cuanto a la relación entre la capacidad
+generadora de fondos de los activos y los compromisos derivados de su financiamiento; también adquiere
+una dimensión diferente la consideración del factor incertidumbre, ya que la naturaleza de corto plazo del
+horizonte de planeamiento y la magnitud relativamente pequeña de múltiples decisiones de carácter
+repetitivo plantean dificultades que no pueden parangonarse con las motivadas en compromisos de gran
+magnitud y a largo plazo; aspectos que hacen al seguimiento y control de ambos tipos de decisiones también
+favorecen una consideración especial; en muchos casos, también difiere el nivel jerárquico dentro de la
+organización con capacidad de adoptar uno u otro tipo de decisión.
+Consecuentemente, sin ignorar la estructura analítica basada en el carácter de aplicación o de fuente
+de recursos líquidos, como tales agrupadas en las columnas del activo y pasivo respectivamente del cuadro
+patrimonial, que da unidad conceptual a la clasificación de las decisiones básicas en materia de
+administración financiera (decisiones de inversión y decisiones de financiamiento-distribución de
+dividendos), el contenido de este capítulo y los siguientes tienen un ordenamiento que está dado, en primer
+lugar, por el menor o mayor plazo al que las decisiones están referidas y, en segundo término, por su
+pertenencia a una u otra columna del cuadro patrimonial (balance general).
+El corte transversal al estado patrimonial que ello significa, abre un amplio y fructífero campo para
+el análisis basado en las proporciones deseables entre activos y pasivos corrientes (administración del capital
+de trabajo y del capital de trabajo neto); entre tales ítems y otros del cuadro de pérdidas y ganancias; en
+indicadores orientados a seguir la evolución de liquidez, rentabilidad, cobertura, rotación, etc.; en el análisis
+costo-beneficio; en el cuadro de origen y aplicación de fondos y otras alternativas a las que se irá haciendo
+referencia en lo que sigue.
+Corresponde así tratar en primer lugar las decisiones correspondientes al corto plazo entendiendo por
+ello decisiones de inversión y de financiamiento referidas a activos que se convierten en efectivo en el plazo
+máximo de un año y a pasivos que se hacen exigibles dentro de igual período.
+Previamente se entiende necesario señalar que las calificaciones o agrupaciones adoptadas no
+representan sino útiles categorías conceptuales a los fines del análisis, ya que en la realidad todas las
+decisiones en el ámbito de la empresa se interrelacionan y afectan recíprocamente, exigiendo siempre una
+instancia de análisis integral o global que resuma el efecto combinado de las múltiples interrelaciones
+existentes; así por ejemplo, es obvio que los movimientos de efectivo (corto plazo) se ven afectados por
+decisiones de largo plazo tales como las referidas a inversiones o a la obtención o atención del
+financiamiento de largo plazo.
+Administración del capital de trabajo
+La correcta administración del capital de trabajo constituye una base esencial del éxito de una
+empresa. Contrariamente, su deficiente manejo o crónica insuficiencia aparecen reiteradamente citados como
+causales del derrumbe de empresas, particularmente en el renglón de unidades de menor tamaño. Es
+merecedor, en consecuencia, de la mayor atención.
+Concepto e instrumentos de gestión
+De acuerdo con la posición que últimamente aparece con mayor sustento1, se entenderá por Capital
+de Trabajo a los activos corrientes totales de la empresa. A la diferencia entre activos corrientes y pasivos
+corrientes se la denominará Capital de Trabajo Neto.
+El tratamiento del tema reconoce como centro fundamental de atención la administración de los
+fondos líquidos de la empresa resultante de la rápida rotación de tales activos. La constante generación y uso
+1 Messuti, D, J., Ensayos sobre administración y análisis financiero, Ed. Contabilidad Moderna, Buenos Aires 1977.
+5
+
+de fondos que ello implica convierte al pronóstico del flujo de efectivo y de las partidas con él vinculadas en
+una herramienta básica. Por tal razón a pesar de tratar más adelante cada ítem del activo corriente dedicamos
+aquí unos comentarios al cuadro de ingresos y egresos que, como ya se señaló, incluye al conjunto de los
+componentes del capital de trabajo y representa un instrumento de gestión imprescindible.
+El propósito esencial de la estimación de ingresos y egresos es el de poder ejercer control sobre el
+equilibrio financiero de la empresa, o de otra manera, sobre los superávits o déficits que el tradicional
+asincronismo entre ingresos y egresos puede generar.
+En este trabajo se ha llamado “Cuadro de ingresos y egresos” a la expresión material de ese
+pronóstico, y su construcción como asimismo el modo de empleo aparecen explicitados en el Anexo Cap.
+V.1.
+En realidad, existen dos enfoques que pueden emplearse en su elaboración:
+Enfoque indirecto: el saldo de fondos líquidos es estimado a partir de las utilidades netas
+ajustadas por partidas que no constituyen movimientos reales de efectivo.
+Este procedimiento se adapta al planeamiento a largo plazo, pero no posibilita información
+ni control sobre cada partida de ingreso o egreso.
+Es empleado con frecuencia por parte de entidades financieras, que evalúan por su
+intermedio la capacidad generadora de fondos de la empresa (al mismo tiempo, la posibilidad de la
+firma de hacer frente a sus obligaciones).
+Enfoque directo: se basa en un análisis detallado de todas las cuentas que en el giro de la
+empresa ocasionan ingresos o egresos.
+Este es el procedimiento más adecuado a los fines del planeamiento y control del efectivo2, y
+es el que se adopta en este trabajo.
+Normalmente, se cuenta con una decisión sobre el efectivo mínimo que se desea mantener, por lo
+que la diferencia entre el total de ingresos y el total de egresos (o sea el excedente o déficit financiero) puede
+implicar según sea el caso, la necesidad de recurrir al crédito o la conveniencia de invertir los excedentes.
+Cuando el cuadro de ingresos y egresos no establece el destino de los superávits o el financiamiento
+necesario, se está en presencia de un cuadro no balanceado. Así por ejemplo, puede presentarse la situación
+que refleja el cuadro 1, que reproduce la parte final de un cuadro de ingresos y egresos tal como el que se
+comenta en el Anexo Cap. V.1.
+La gestión financiera apunta a lograr un equilibrio financiero que puede alcanzar a través de dos
+métodos: a) método secuencial; b) método simultáneo-
+CUADRO 1
+TOTAL EGRESOS ..... ...... .......
+SUPERAVIT O DÉFICIT FINANCIERO 1.250 680 480
+Menos: Saldo mínimo de efectivo 1.000 1.000 1.000
+SUPERAVIT (Déficit) OPERATIVO 250 (320) (520)
+--- Solicitud crédito ........
+--- Coloc. Financieras .........
+--- Depósitos bancos ........
+Por el primero, se consideran dadas las cifras de ingresos y egresos correspondientes a cada ítem, y
+se llega así a un saldo positivo o negativo. Recién entonces, se da el segundo paso consistente en adoptar una
+decisión de inversión o financiamiento. Así por ejemplo, una posibilidad entre las muchas existentes, sería la
+de invertir los $250 (miles) de superávit correspondiente a la primera semana; posteriormente y dado el
+pronóstico de faltantes para la segunda y tercera semana, podría haberse proyectado la solicitud de un
+préstamo por $900 (miles).
+La ubicación de los datos referidos a las decisiones para equilibrar el pronóstico o presupuesto al
+final del cuadro, y no junto a otros ingresos o egresos según el caso, se debe a la conveniencia de hacer
+fácilmente evidentes tales decisiones
+La crítica más importante que se le hace a este método es la no consideración de las interrelaciones
+existentes entre los distintos ítems de ingresos y egresos. Este inconveniente es superado por el método
+2 En el mismo sentido, Orgler Yair E., Administración del efectivo: métodos y modelos, Serie Wadsworth en Finanzas,
+Ed. Contables y Administrativas S.A., México, 1977.
+6
+
+simultáneo, que al tomar en cuenta tales dependencias recíprocas, convierte a los distintos ítems generadores
+de movimientos de fondos en otras tantas variables de ajuste. Así por ejemplo, podrían llegar a hacerse
+mínimas las diferencias entre ingresos y egresos a través de modificaciones en el cumplimiento de cuentas a
+pagar, ventas de inversiones financieras en cartera, postergación en días de pedidos a proveedores, etc.
+Obviamente determinar la mejor combinación entre todas las alternativas posibles es el problema central del
+encargado de la gestión financiera (el Treasurer en la literatura anglosajona).
+El responsable del manejo de los fondos de la empresa debe tener perfectamente identificadas las
+variables operativas, esto es, aquéllas sujetas a su control, como asimismo los límites a respetar respecto de
+cada una de ellas. Así por ejemplo, las partidas “Sueldos y Jornales” y “Cargas Sociales” no constituyen
+variables controlables ya que su importe y oportunidad escapan a su decisión. Las variables de decisión que
+son incorporadas al proceso de decisión correspondiente a la administración del capital de trabajo, han sido
+divididas en cuatro grandes categorías3 a saber:
+1. La programación de pagos.
+2. El financiamiento de corto plazo.
+3. Transacciones en valores negociables.
+4. Nivel del saldo de efectivo.
+Cada una de ellas constituyen temas específicos de los parágrafos que siguen, destinados a señalar
+los aspectos salientes de la administración de los agrupamientos clásicos comprendidos en la denominación
+de “Capital de Trabajo”, a saber:
+1. Disponibilidades.
+2. Inversiones transitorias.
+3. Cuentas a cobrar.
+4. Inventarios.
+Tomados en conjunto, estos activos corrientes representan por lo general, la mayor proporción de las
+inversiones totales (activos totales) en empresas de tamaño pequeño o medio, lo que por sí acuerda una alta
+significación a las decisiones con ellos relacionadas.
+Por otra parte constituyen también generalmente, el campo de decisiones más amplio y variado, ya
+que los compromisos asumidos al respecto pueden ser revisados en cortos períodos, lo que no ocurre con
+inversiones en equipo fijo, por ejemplo.
+La optimización de la gestión de cada uno y todos los rubros mencionados, tomados en forma aislada
+y en la interrelación funcional con los demás componentes del cuadro patrimonial de la empresa, hará
+posible concretar el objetivo de la empresa, y más específicamente, calificar la gestión del administrador
+financiero.
+La administración de rubros como los arriba señalados se ve fuertemente influida por la existencia de
+inflación y por distintas actitudes frente al riesgo que promueven diferentes niveles deseables de liquidez.
+Ambos aspectos requieren tratamientos especiales que más adelante se comentan (Cap. VIII).
+Disponibilidades
+a) Generalidades
+Bajo este título (Disponibilidades) se agrupan, por lo general, los ítems Caja y Bancos de los estados
+patrimoniales. Como se ha anticipado, representan tenencia de efectivo (dinero) o “cuasi-dinero”, que la
+empresa mantiene por tres motivos principales4:
+– Motivo transacción: la empresa debe disponer en todo momento de los recursos necesarios en el
+tiempo y forma requeridos por sus operaciones de compra, venta, etc.
+– Motivo previsión: la empresa debe mantener un mínimo “colchón de seguridad” bajo recursos de
+inmediata o muy pronta disponibilidad que la ponga a cubierto de imprevistos de distinto orden.
+3 Orgler, Y. E., op. cit., pág. 14.
+4 Según lo expusiera originalmente J. M. Keynes (Teoría general del empleo, el interés y el dinero) al fundamentar su
+teoría de la demanda de dinero.
+7
+
+– Motivo especulación: particulares situaciones hacen que los proveedores ofrezcan en ocasiones,
+descuentos por pago inmediato (descuentos de caja) que resultan de alto interés obtener. Para
+ello, es necesario disponer de los recursos necesarios.
+En épocas más recientes, la teoría de la cartera de inversiones permitió nuevos argumentos para
+mantener dinero en efectivo.
+Se ha enfatizado siempre la conveniencia de mantener saldos adecuados de efectivo, pero
+últimamente la preocupación por lograr tal nivel óptimo se ha visto aumentada por motivos tales como las
+importantes pérdidas provocadas por la inflación cuando se mantienen inversiones en activos monetarios, el
+elevado costo del dinero y la generalizada estrechez de capital de trabajo que padecen las empresas en
+expansión (sobre todo las medianas y pequeñas).
+El nivel deseable de disponibilidades se determina a base del conocimiento empírico que se tiene del
+problema, del enfoque financiero-institucional que presenta distintas alternativas para casos de faltantes o
+sobrantes de dinero, o de modelos analíticos que resuelven el caso a través de técnicas cuantitativas5,
+aisladamente o consideradas en conjunto, posibilidad esta última más difundida y segura.
+De todas formas el punto de partida es, en todos los casos, el conocimiento lo más preciso posible,
+del fluir de fondos de la empresa, a cuyo objeto ésta dispone de los instrumentos pertinentes, entre ellos los
+que se comentan en el Anexo Cap. V. 1.
+El administrador financiero no es un observador pasivo del cuadro que exhibe los ingresos y egresos
+corrientes. Muy por el contrario, este cuadro reflejará su actitud en favor del mejor cumplimiento de los
+objetivos de la empresa, que en materia de la administración de disponibilidades se concreta acelerando los
+ingresos y postergando los egresos hasta el último día convenido. En definitiva, el administrador financiero
+tratará de optimizar el saldo de disponibilidades (que tenderá a ser el mínimo compatible con los motivos
+enunciados) ya sea apuntando a la mayor sincronización de las entradas y salidas como a la reducción del
+dinero “en tránsito” o sea órdenes de pago (cheques) que librados por clientes muchas veces de lugares
+apartados, demoran en ser acreditados en la cuenta de la empresa por el lapso demandado por el correo en
+primer lugar y por el “clearing” bancario en segundo término.
+En cuanto a este problema, en caso de que existan clientes en número e importancia que lo
+justifiquen, puede pensarse en el depósito de los pagos con origen en cierta localidad en un banco de ésta, el
+que una vez acreditados en una cuenta local los remesa a una “cuenta recaudadora” abierta en la plaza donde
+está ubicada la empresa. El tiempo ganado puede compensar con creces el costo que el sistema implica, más
+aún si con ello se elimina otra posibilidad bastante difundida a pesar de sus graves inconvenientes: que sean
+corredores o agentes zonales de venta los encargados de cobrar en el interior.
+b) Déficits transitorios de caja
+La imposibilidad de prever con certeza el monto y “timing” de ingresos y egresos futuros, coloca con
+frecuencia al administrador financiero en la situación de tener que resolver déficits transitorios de caja, por lo
+que se ha creído conveniente ejemplificar el proceso de decisión a seguir.
+Esta situación es de tipo netamente coyuntural o circunstancial y requiere una solución inmediata. Es
+decir que el análisis de sus causas, si bien debe hacerse para saber si eventualmente debe ser adjudicado a
+deficiencias en el desempeño de funciones que hacen al planeamiento y a la ejecución de los planes, servirá
+para el futuro pero no para resolver una eventualidad que, por caso, puede ser motivada por el
+incumplimiento de pago por parte de un cliente importante o también una situación que la proyección del
+fluir de fondos anticipa para tal o cual fecha (a través de los instrumentos de gestión que se comentan en el
+Anexo V. 1.). Así por ejemplo pueden presentarse situaciones como las que ilustra el Cuadro 1.
+CUADRO 1
+Concepto M J V S D L M
+1) Ingresos
+a) op. ctes. 2.850.000 3.100.000 4.300.000 ––– ––– 3.500.000 3.900.000
+b) vtos. 10.000.000 ––– –––
+2) Egresos 2.350.000 3.600.000 4.300.000 ––– ––– 3.500.000 8.900.000
+Superávit 500.000 9.500.000 ––– ––– ––– –––
+Déficit ––– ––– ––– ––– ––– ––– 5.000.000
+5 Un modelo sugerido puede verse en Orgler, op. cit.
+8
+
+En este caso, expresamente simplificado para hacer evidente la situación que se desea mostrar, se
+observa que al día jueves se cuenta con un superávit de $ 10.000.000 resultante de adicionar el saldo positivo
+de $ 500.000 del día miércoles al del día jueves, de $ 9.500.000. Este último saldo, de $ 9.500.000, se debe al
+vencimiento de una colocación a corto plazo en el mercado de dinero, operación que puede ser renovada por
+el plazo que se desee, a una tasa nominal anual de, digamos 85 %.
+También se sabe, a través del conocimiento de la generación de fondos provenientes de las
+operaciones corrientes, que a partir del día martes, superados los días en los que se debe hacer frente a pagos
+de sueldos y jornales, y de una buena parte de los vencimientos por servicios (energía eléctrica, gas,
+teléfono) y ciertos proveedores, se puede contar con un superávit financiero diario de $ 2.500.000, dado el
+mes que transcurre (supuesta cierta estacionabilidad de ventas).
+Frente a esta situación, es probable que el responsable financiero considere al menos tres alternativas
+para enfrentar el desequilibrio del día martes, a saber: a) renovar el día jueves la inversión financiera, pero
+sólo por $ 5 millones a los efectos de poder afrontar con recursos propios el mencionado desequilibrio; b)
+recurrir a un préstamo, por el plazo mínimo con que opera el sistema bancario, por ejemplo 7 días, en cuyo
+caso la tasa nominal anual sería del 92 %, o c) hacer uso del descubierto en cuenta corriente, situación
+viabilizada por los antecedentes de la empresa y su reconocida reciprocidad comercial, principalmente el
+mantenimiento de importantes saldos en cuenta corriente en función de su elevado nivel de actividad. En tal
+caso, el banco cargaría un interés anual del. 160 % por los días y el importe correspondientes al descubierto.
+La elección de la alternativa más favorable para la empresa puede seguir el proceso de cálculo que se
+ejemplifica a continuación:
+a) Renovación parcial de la inversión financiera
+En este caso, se tiene que $ 5 millones estarán ociosos durante 6 días, o sea que el costo de tal
+financiación sería:
+K = C x t x i = 5.000.000 x 6 x 0,85 = 70.833,33
+1
+360
+donde:
+K = Costo de esta alternativa de financiamiento.
+1
+C = Capital.
+t = Tiempo (en este caso, días).
+i = Tasa de interés (en este caso, tasa proporcional diaria).
+b) Préstamo bancario
+Esta solución implica concretar un préstamo de 7 días al 92 % de interés anual en cuyo caso se tiene:
+K = C x t x i = 5.000.000 x 7 x 0,92 = 89.444,44
+2
+360
+c) Descubierto en cuenta corriente
+La alternativa de recurrir a esta financiación implica como se adelantó, un interés de 160 % por el
+tiempo y el importe que se mantenga el descubierto, por lo que se tiene:
+K = C x t x i = 5.000.000 x 1 x 1,60 + 2.500.000 x
+3
+360
+x 1 x 1,60 = 22.222,22 + 11.111,11 = 33.333,33
+360
+En conclusión, se tiene que:
+K < K < K
+3 1 2
+9
+
+o sea que la alternativa de girar en descubierto resulta con el menor costo de financiación y, por lo tanto la
+más favorable para los intereses de la empresa.
+Algunas aclaraciones adicionales resultan pertinentes. Una es que no se han considerado comisiones
+u otros costos en beneficio de una mayor claridad, lo que de todas formas no afectaría las conclusiones
+alcanzadas. Por otra parte, y de mayor importancia, se debe tener presente que frente al costo cierto que
+puede calcularse para las alternativas a) y b), el atribuido al descubierto es una hipótesis de máxima, ya que
+en la práctica se verifica que los cheques entregados son debitados en cuenta corriente en un plazo mayor
+que las 24 hs. que por lo general (y previsoramente) calcula tesorería, lo que motivaría un descubierto por un
+plazo o un importe menores, razones por las cuales el costo resultaría inferior al previsto.
+Esta circunstancia hace evidente la ventaja que solamente el descubierto ofrece: su costo, si bien
+mayor en términos de tasa nominal anual, se aplica en definitiva al importe y por el tiempo que estrictamente
+corresponden al desfasaje efectivo entre ingresos y egresos.
+En el caso que ha servido de ejemplo, se entiende que no se ha omitido considerar otras posibilidades
+tales como demorar el pago a proveedores, por ejemplo, alternativa que por lo general se rechaza dado el
+costo que significa alterar condiciones de hondo arraigo, correspondidas a su vez por condiciones de precio o
+entrega. Por otra parte, tal eventualidad, tampoco implicaría diferencias en cuanto a los costos relativos.
+El comentario efectuado debe entenderse solamente como una explicación de la actitud del
+responsable financiero que racionalmente halla que dicha solución es la más favorable dado el objetivo de la
+empresa, y no la justificación de tan reiteradas como abusivas situaciones, según puede observarse en
+muchas “cuentas corrientes” o liquidaciones de bancos. Por otra parte debe saberse que esta “solución” no es
+una operación regular para el banco, por lo que la empresa debe dar toda la información y las seguridades
+que la hagan posible.
+Las inversiones transitorias y su evaluación
+Los estados patrimoniales de la mayoría de las empresas contienen una cartera de inversiones
+financieras de carácter transitorio. La causa para que los recursos de la empresa sean destinados a usos
+distintos al giro de la propia entidad no es, precisamente, una decisión favorable a la diversificación del
+campo de actividades. Sucede que, como ya se ha anticipado, es necesario mantener cierto grado de liquidez
+no sólo para operaciones o transacciones corrientes sino para cubrirse de eventualidades o evolución cíclica
+de los negocios o como forma de “atesorar” recursos para afrontar requerimientos previstos para un futuro.
+No obstante esa liquidez no requerida de inmediato, tiene un alto costo de oportunidad en caso de
+mantenerse en “disponibilidades”, por lo que el administrador financiero procede, a efectos de no deteriorar
+la rentabilidad económica de los recursos de la firma, a su inversión en los mercados de dinero o financieros.
+Al decidir una inversión, el responsable financiero debe optar por una dada relación de equilibrio
+entre los factores rentabilidad-liquidez-seguridad.
+Por lo general, se aprecia que activos financieros con mayor rentabilidad ofrecen esta ventaja para
+compensar su mayor riesgo o menor liquidez, y viceversa. En la práctica, el problema (o la restricción) de
+liquidez se resuelve en función del flujo de fondos proyectado, que permite conocer con anticipación el
+período o los períodos en que serán necesarios los fondos. En aquellos casos en que existan distintas
+opciones que satisfagan esta restricción, la decisión se tomará teniendo en cuenta los otros dos elementos
+(riesgo y rentabilidad).
+Antes de dejar el concepto “liquidez”, se desea precisar su significado, ya que no debe aceptarse sin
+debida calificación el corrientemente empleado: “calidad inherente a un activo determinado para su
+conversión en dinero”. A base del mismo, se dice que un activo es más líquido cuando su conversión en
+dinero demanda menos tiempo.
+Tal concepto, sin embargo, omite considerar que tal conversión en dinero debe ser posible “sin
+pérdida significativa de su valor capital”, ya que caso contrario, hasta una inversión inmueble podría
+considerarse “líquida”, ya que es factible convertirla en dinero en un plazo muy breve si se está dispuesto a
+aceptar la pérdida de valor-capital (precio) que sea menester.
+La variable riesgo será tratada en otro lugar, adelantando aquí que priva en su consideración la
+apreciación subjetiva o actitud que el “decididor” tenga respecto del mismo. Además, se aclara que aún la
+variabilidad no predecible del rendimiento de un activo, constituye un elemento adicional de riesgo, de la
+misma manera que la variabilidad de la inflación. En cuanto a la variable rentabilidad, debe indicarse la
+necesidad de contar con un seguimiento diario de los rendimientos (tasas, cotizaciones, etc.) de los distintos
+activos financieros (plazo fijo, Valores Nacionales Ajustables, Bonos Externos, etc.) a los efectos de estar en
+condiciones de fundamentar una decisión. Otra información apropiada es la que brindan los banqueros
+10
+
+(comerciales y de inversión), los corredores de cambio, los agentes de bolsa, tanto en lo que hace a la
+naturaleza y condiciones de las inversiones como a la rentabilidad relativa de las mismas.
+No obstante, siempre debe ser el propio juicio el que en definitiva decida uno u otro curso de acción;
+para concretarlo, corrientemente se seguirá el razonamiento que tratan de ejemplificar los siguientes casos:
+a) Las colocaciones transitorias en el mercado de dinero
+De la misma forma que respecto de operaciones para acceder al crédito (préstamos), las colocaciones
+de fondos en el mercado financiero, aparecen muchas veces acotadas en sus posibilidades de alternativas por
+circunstancias tales como el plazo: por el cual las sumas están disponibles, grado de riesgo y de liquidez
+implicados. Así por ejemplo, recursos disponibles por 7 días (según el fluir de fondos proyectados (pueden
+hacer despreciable la alternativa de su inversión en el mercado de títulos públicos dado que el costo de entrar
+y salir del mismo (las comisiones de compra y de venta) adquieren relevancia en períodos tan cortos.
+Hecha tal aclaración, y en igualdad de otras condiciones, la conveniencia de una u otra operación
+puede ser apreciada a través del previo cálculo de la tasa de rendimiento efectivo que cada una de ellas
+implica.
+La tasa de interés efectiva adquiere significación como información decisiva cuando las operaciones
+están expresadas en tasas referidas a un período distinto de aquél o aquéllos correspondientes a la
+capitalización de los intereses ganados (ver Anexo Cap. V. 4.).
+Así por ejemplo, puede presentarse el caso de dos alternativas como las siguientes:
+a) Plazo fijo a un año, a una tasa de interés anual del 86 %.
+b) Plazo fijo a un año, a una tasa de interés anual del 85 %, capitalizable semestralmente.
+Si bien la tasa de interés referida al año, llamada tasa nominal, es superior para la alternativa (a), no
+debe pasarse por alto que la segunda posibilidad implica que los intereses ganados en el primer semestre
+estarán a su vez ganando intereses a lo largo del segundo semestre, por lo que el monto final al cabo del año
+será superior al que resultaría de sumar al capital inicial (c) el interés del 85 % (c. i.). En este caso interesa
+conocer cuál es la tasa que convierte el capital inicial c” en el monto “M” a través de la capitalización
+semestral del interés.
+Para ello se tendrá en cuenta que:
+(1 + i’) = (1 + i )2
+2
+donde:
+i' = tasa efectiva
+i = tasa nominal anual
+o sea:
+i’ = (1 + 0,85 )2 – 1 = (1.425)2 – 1 = 2,0306 – 1 = 1,03 ó 103 %
+2
+Es decir que la segunda alternativa implica una tasa efectiva del 103 % manifiestamente superior a la
+tasa ofrecida por la primera, del 86 %, en la que por el hecho de no haber discrepancias entre los períodos (al
+que está referida la tasa –el año– y al que corresponde la capitalización de los intereses –el año–), se
+confunde la tasa nominal con la efectiva.
+b) Inversiones en el mercado de títulos públicos
+Los títulos públicos constituyen una de las alternativas más atractivas para la colocación de
+excedentes transitorios.
+11
+
+CUADRO 2
+TÍTULOS EMITIDOS POR EL BANCO CENTRAL
+Título Fecha Emisión Plazo Renta Moneda Índice Ajuste Cotizac. Periodic. Comisiones
+Pago Renta Compra Venta
+VANA Mayoristas no Libre en
+1ª serie 1-12-72 6 años 7 % anual Pesos agrop. Bolsa Semestral 5% 5%
+VANA Mayoristas no
+2º serie 20-11-74 6 años 7 % anual Pesos agrop. Idem Semestral 5% 5%
+VANA Mayoristas no
+3º serie 11-09-75 10 años 7 % anual Pesos agrop. Idem Semestral 5% 5%
+VANA Mayoristas no
+4ª serie 20-02-76 10 años 7 % anual Pesos agrop. Idem Semestral 5% 5%
+VANA Mayoristas no
+5º serie 26-04-76 10 años 7 % anual Pesos agrop. Idem Semestral 5% 5%
+BONEX tasa Libor Libren en
+1ª serie 1974 5 años (180 d.) Dólares ––––– Bolsa Semestral 5% 5%
+BONEX tasa Libor
+2ª serie 1975 5 años (180 d.) Dólares ––––– Idem Semestral 5% 5%
+BONEX tasa Libor
+3º serie 1976 5 años (180 d.) Dólares ––––– Idem Semestral 5% 5%
+BONEX tasa Libor
+4º serie 1977 5 años (180 d.) Dólares ––––– Idem Semestral 5% 5%
+BONIVA 5% s/tasa merc.
+la serie promedio Libre en
+5-78 1 año Pesos ––––– Bolsa Trimestr. 5% 5%
+BONIVA 5% s/tasa merc.
+2ª serie promedio
+7-78 1 año Pesos ––––– Idem Trimestr. 5% 5%
+BONIVA 5% s/tasa merc.
+3ª serie 9-78 1 año med. Pesos ––––– Idem Trimestr. 5% 5%
+BONIVA 5% s/tasa merc.
+4ª serie 10-78 1 año med. Pesos ––––– Idem Trimestr. 5% 5%
+BONIVA 5% s/tasa merc.
+5ª serie 2-79 1 año med. Pesos ––––– Idem Trimestr. 5% 5%
+12
+
+La combinación “liquidez-rendimiento-seguridad” por ellas ofrecidas, frente a la a veces lenta
+evolución de la cotización de monedas extranjeras y al cambiante ritmo inflacionario, le acuerdan un
+amplísimo mercado (durante 1978, la cotización de los Valores Nacionales Ajustables (VANA) creció un
+146 % aproximadamente, un 80 % el precio de las monedas de oro, y un 60 % el dólar, frente a una inflación
+del 142 % según índice de precios mayoristas). Otra referencia que debe computarse es la renta de las
+colocaciones a plazo fijo en el mercado de dinero.
+Existe actualmente una oferta de títulos públicos que brinda una amplia gama de condiciones. Las
+más importantes, referidas a los títulos más difundidos aparecen resumidas en el Cuadro 2.
+Así por ejemplo los VANA tienen como característica saliente su condición de ser ajustables, es
+decir, su valor se ajusta en función del índice de Precios Mayoristas no Agropecuarios. Su renta, calculada
+sobre el capital reajustado, es de un 7 %.
+El cálculo de rentabilidad requerido para decidir este tipo de inversión es muy simple. Supuesto que
+su cotización actual no represente un nivel muy alejado de su valor par, una colocación en VANA crecerá a
+una tasa igual al índice de precios mayoristas no agropecuarios (publicado por el INDEC) menos una
+deducción equivalente a un 5 % anual, más el 7 % de renta anual. Por lo tanto, se requiere comparar el valor
+final así calculado (naturalmente deducidas las comisiones de compra y venta de los títulos) con el que
+permiten alcanzar otras alternativas.
+Los Bonos Externos, también cotizados en la Bolsa tienen la característica de estar denominados en
+dólares. Por lo tanto, su atractivo está en función de la evolución que se prevea del tipo de cambio en
+relación con su cotización a una fecha dada. Ha sido demandado en ciertos períodos como “seguro” de
+cambio, y tienen la ventaja para aquellos que desean mantener tenencias en moneda extranjera, de ofrecer
+una renta igual a la vigente en el mercado interbancario de Londres para depósitos en eurodólares a 180 días
+de plazo (tasa LIBOR, 180 días). Los servicios de la renta se pagan semestralmente, y la tasa es anticipada al
+comienzo de cada período.
+Los Bonos Nacionales de Interés Variable (BONIVA) son indexados trimestralmente con una tasa
+representativa del promedio registrado en el mercado para colocaciones a 90 días, durante los nueve días
+anteriores al período de que se trata (la llamada “tasa testigo” o tasa guía para otras decisiones), más una
+sobretasa del 5 %.
+Existen otros títulos, tales como las Letras de Tesorería y las Cédulas Hipotecarias, emitidas éstas
+por el Banco Hipotecario Nacional. Las primeras son negociables por las entidades financieras, en respuesta
+a las licitaciones efectuadas por el Banco Central.
+Las tasas pagadas por estos títulos han representado un “piso” o un “techo” para las tasas del
+mercado, según niveles de liquidez en plaza. Las Cédulas Hipotecarias son títulos cuya cotización es fijada
+originariamente por el Banco Central según evolución de precios mayoristas no agropecuarios, con una tasa
+fija del 8 % sobre el capital actualizado. Actualmente se cotizan libremente en el Mercado de Valores de la
+Bolsa.
+c) Un modelo de selección de inversiones
+Ya se ha hecho referencia a la importancia que puede adquirir el establecimiento de reglas de
+decisión como medio de incrementar la eficiencia y el control. Es importante destacar que por su intermedio
+se puede limitar según se desee la discrecionalidad de los subordinados jerárquicamente; aspecto que cobra
+relevancia tratándose de inversiones transitorias de fondos. Al respecto es posible contar con un modelo de
+selección a efectos de clasificar las distintas alternativas según lo refleja el cuadro 3.
+CUADRO 3
+FACTOR (Ponderación)
+ALTERNATIVAS Seguridad Liquidez Rentab. Orden
+DE INVERSIÓN (10) (7) (9) TOTAL Relativo
+VANA 10 (10) 9 (7) 7(9) 226 1º
+Plazo fijo (intransf.) 10 (10) 5 (7) 9 (9) 216 2º
+Aceptaciones 7 (10) 7 (7) 9 (9) 200 3º
+13
+
+Para su confección, se sigue un procedimiento similar al que se ha sugerido para calificar el mérito
+de distintas empresas consideradas como proyectos de adquisición (inversión) al tratarse el tema de
+combinaciones y reorganizaciones de empresas (Cap. VI); en este caso se procede como sigue.
+Se determinan los factores o características que serán tenidos en cuenta para calificar las distintas
+alternativas. Es tradicional al respecto, como se ha señalado ya, considerar los factores seguridad, liquidez y
+rentabilidad (rendimiento).
+Estos factores deben ser calificados (por un comité de evaluación por ejemplo), pudiendo emplearse
+al efecto una escala de 1 a 10. El valor asignado dependerá de la importancia que el decididor acuerde a cada
+uno de dichos factores; no resulta ajena al respecto, la particular situación económico-financiera de la
+empresa, ya que una particularmente alta situación de liquidez, puede motivar que este factor adquiera una
+menor importancia relativa en determinado momento.
+En el ejemplo del cuadro 3 se ha empleado la siguiente escala (son los números entre paréntesis):
+Seguridad: 10
+Liquidez: 7
+Rentabilidad: 9
+Seguidamente se precisan las distintas alternativas de inversión que se estiman dignas de ser
+consideradas, procediéndose a calificarlas respecto de los tres factores señalados, pudiéndose emplear para
+ello una escala de 1 a 10, tal como se lo ha hecho en el ejemplo.
+De tal forma, cada alternativa puede ser calificada a través de la suma de los valores asignados
+respecto de cada factor, ponderados cada uno de ellos por el peso relativo asignado a cada uno. Así por
+ejemplo, para los VANA se tiene:
+10 (10) + 9 (7) + 7 (9) = 226
+Este puntaje acuerda a tal inversión un primer orden de preferencia.
+Posteriormente, cabe considerar el mérito relativo de distintas mezclas o carteras de títulos o
+inversiones, para lo cual se empleará como factor de ponderación la participación (%) de cada inversión en el
+total del monto a invertir, con lo que podrá sostenerse mayor o menor proporción de valores de una u otra
+clase de acuerdo con la actitud frente al riesgo de los directores de la firma y de la valoración que acuerden a
+los demás factores considerados. Así por ejemplo, dos carteras diferentes dan los valores combinados que
+refleja el cuadro 4, considerando las tres alternativas citadas en el cuadro 3 con los puntajes allí obtenidos.
+CUADRO 4
+P o r c e n t a j e s Puntaje
+Cartera VANA Plazo fijo Aceptaciones Cartera
+I 60% 30% 10% 220,40
+II 40% 40% 20% 216,80
+–– –– –– –– –––
+–– –– –– –– –––
+–– –– –– –– –––
+Así por ejemplo, el puntaje o valorización relativa (P) de la cartera I se ha obtenido de la siguiente
+manera:
+P = 226 (0,60) + 216 (0,30) + 200 (0,10)
+I
+P = 135,60 + 64,80 + 20
+I
+P = 220,40
+I
+Obviamente, de las dos combinaciones consideradas, la cartera I resulta con mayores méritos
+(220,40 > 216,80).
+14
+
+Créditos y cobranzas
+La política crediticia debe guardar un difícil, inestable equilibrio entre su función promotora de
+ventas y su responsabilidad de asegurar una adecuada evolución económico-financiera de la empresa.
+El volumen de las inversiones en cuentas a cobrar de cualquier empresa es una resultante de dos
+funciones típicas del área financiera, a saber: créditos y cobranzas.
+En principio, toda cuenta a cobrar reconoce una instancia original que está dada por el otorgamiento
+de un crédito por parte de la empresa, decisión ésta que debe responder a una determinada política respecto
+de las condiciones de venta y régimen de créditos ofrecidos, variables a su vez dependientes del tipo de
+industria a la que pertenece la firma, del volumen y estacionalidad de ventas, comportamiento de la
+demanda, etc.
+Por lo tanto, una política de créditos en particular es adoptada luego de un análisis exhaustivo por
+parte de quienes tienen a su cargo la función de planeamiento dentro de la organización. Ello por la
+interrelación existente entre una determinada política de crédito y variables de tanta relevancia como el
+volumen de producción, de ventas, la rentabilidad y la liquidez de la firma, etc., a cuya evaluación se dedican
+otros capítulos de este trabajo.
+Aceptadas las restricciones externas ya aludidas, que imponen las pautas generales que debe respetar
+el administrador financiero, la evaluación o calificación crediticia de una operación en particular se apoya en
+lo que se ha dado en llamar las cinco “c”: capacidad, capital, calidad, caución y condiciones6.
+a) Capacidad: este concepto está referido a la posibilidad de que el cliente pueda cumplir con las
+obligaciones que asuma. Para ello se efectúa un análisis cuantitativo de las cifras del negocio
+(capacidad generadora de fondos, compromisos anteriores, etc.).
+b) Capital: se hace hincapié en la solvencia del cliente, no ya atendiendo su régimen de
+funcionamiento sino el valor de realización de los activos disponibles netos de compromisos con
+terceros.
+c) Calidad: este factor está referido más bien a la probabilidad de pago, enfatizando aspectos
+cualitativos, demostrativos de la voluntad de pagar que se pueda reconocer al cliente.
+d) Caución: se alude aquí a la garantía concreta que pueda ofrecer el cliente ya sean activos propios
+o de terceros, financieros o reales.
+e) Condiciones: son las características particulares de la operación, las que son determinadas por
+los anteriores factores a la luz de la evolución de variables del contexto o macroeconómicas que
+pueden incidir en la particular situación del cliente.
+A efectos de poder contar con la información requerida para tal evaluación, debe requerirse del
+cliente el suministro de información básica referida a su situación patrimonial y cuadros de resultados, los
+que serán analizados por el sector respectivo. También se hará uso de la información intercambiada y
+resumida en reuniones de asociaciones locales de crédito, que corrientemente se ponen a disposición de las
+firmas interesadas.
+Además, es usual recurrir a las difundidas “agencias de información crediticia”, quienes suministran
+datos sobre las empresas con las que el cliente trabaja a crédito, su cumplimiento, volúmenes de crédito
+utilizado, etc.
+Una serie de razones aconseja que la política de crédito sea estable a través del tiempo lo que
+favorece no sólo tareas de orden “interno” vinculadas con el planeamiento y control sino también la
+adaptación de la conducta de los clientes a una particular modalidad operativa. No obstante, la circunstancia
+de actuar en un orden cambiante, exige cierta elasticidad en lo concerniente a condiciones de venta, lo que es
+aconsejable instrumentar a través de medidas típicamente coyunturales como las referidas a los “descuentos
+de caja”.
+Así, por caso, sí la situación financiera de la empresa o las condiciones ofrecidas por firmas
+competidoras lo hacen pertinente, se podrá pasar de un 5/10 a un 15/15, neto 30 días fecha factura, queriendo
+con ello indicar que en el futuro se reconocerá un descuento del 15 % por pagos efectuados dentro de los 15
+días contados a partir de la fecha de la factura. Caso contrario, se deberá abonar el precio facturado a los
+treinta días según la política adoptada.
+En cuanto a la política de cobranza, ella determina los procedimientos corrientes de la empresa para
+hacer efectivas en tiempo y forma las cuentas a cobrar.
+6 Weston, Fred, Finanzas, Ed. El Ateneo, Buenos Aires, 1978.
+15
+
+Al respecto es menester llevar al día un registro de cuentas a cobrar ordenado por fechas de
+vencimiento. Un estrecho contacto con funcionarios de la gerencia de comercialización debe permitir lograr
+un equilibrio entre la pretensión del área financiera de ver compensada toda demora en los cobros (a través
+de intereses por mora, por ejemplo) con la necesidad de preservar las buenas relaciones con los clientes
+dentro de límites tolerables.
+De la misma forma, se sugiere en todos los casos de verificarse atrasos, una comunicación formal
+demostrativa de que tal circunstancia no pasa desapercibida a la vez de señalar las consecuencias que una
+reiteración traería aparejada (suspensión de despachos, intereses punitorios, etc.).
+Al tiempo que se preservan de tal forma intereses patrimoniales y la buena relación con clientes, se
+promueve una favorable imagen de eficiencia administrativa.
+En el seguimiento de las cuentas a cobrar se emplearán índices globales tales como el “plazo medio
+de cobranzas” o “rotación de cuentas a cobrar”, rentabilidad marginal de ventas, inversión incremental en
+cuentas a cobrar, etc., por un lado. Por el otro, el análisis de cada cliente o solicitante en particular permitirá
+adoptar una decisión concreta en cada caso que se presenta. En esta instancia, se seguirá un procedimiento de
+cálculo que se ilustra en el Anexo Cap. V. 3.
+En cuanto a la adopción de una política general de créditos, se debe entender que el aumento o
+disminución del saldo de “cuentas a cobrar” implica un “uso” o una “fuente” de fondos, respectivamente y,
+como tal, la decisión respectiva debe estar basada en un análisis de costo-beneficio.
+Los beneficios derivan del efecto que la medida, por ejemplo una liberalización de las condiciones
+de venta, tenga sobre la demanda del producto, pero en general se presume que originará ventas adicionales
+(o impedirá su disminución, con idéntico efecto). En cuanto a los costos, ellos estarían dados por el espacio y
+los gastos administrativos adicionales que demandaría, por el posible aumento de incobrables y por la mayor
+inmovilización (inversión) en cuentas a cobrar.
+En consecuencia, el cálculo del efecto que la decisión tendría sobre la rentabilidad de la firma se
+basará en la relación entre su contribución marginal y el nivel de inversión adicional exigido y el rendimiento
+mínimo pretendido para todo uso de fondos (el costo del capital).
+Así por ejemplo, puede suponerse que:
+a) El producto se vende a un precio unitario de $ 12 y sus costos totales son de $ 10 antes de
+impuestos (costos variables: $ 8). El monto anual de ventas es de 48 millones.
+b) La decisión que se debe adoptar está referida a una propuesta basada en una idea original de la
+Gerencia Comercial, consistente en llevar el plazo de ventas de uno a dos meses, en la creencia
+de que dicha alternativa posibilitará un incremento del 20 % en las ventas, mínimo necesario
+para lograr la participación en el mercado que la firma pretende.
+c) La tasa real de rendimiento mínimo, adoptada como “tasa de corte” para la aceptación de nuevas
+inversiones es del 30 % antes de impuestos, y la tasa de inflación del 100 %.
+Respecto de los costos actuales y futuros se tiene en consecuencia la información que describe el
+Cuadro 5.
+CUADRO 5
+Ventas Ventas Total de
+Concepto actuales incrementales ventas planeadas
+Costo variable $ 32.000.0007 $ 6.400.000 $ 38.400.0008
+Costo fijo $ 8.000.0009 ––––– $ 8.000.000
+Costo total $ 40.000.000 $ 6.400.000 $ 46.400.000
+Costo medio
+por unidad $ 10 $ 8 $ 9,67
+Con tales datos, es posible calcular la rentabilidad de la inversión en cuentas a cobrar (incremento
+del capital de trabajo) requerida por la propuesta, cálculo sobre el que se fundará la posición a asumir por el
+7 7 $ 8 × 4 millones de unidades.
+8 8 $ 2 × 4 millones de unidades.
+9 $ 8 × 4 (1,20).
+16
+
+Gerente de Finanzas. Dicho cálculo aparece en el Cuadro 6. Como se aprecia allí, el rendimiento de la
+inversión incremental de capital de trabajo aparece plenamente justificada desde el punto de vista
+económico-financiero, dado que el rendimiento del 435 % prometido es muy superior al 160 % exigido como
+tasa nominal anual10. Corresponde aclarar en este lugar que se tratará más adelante el efecto de la inflación
+sobre la estructura de activos y pasivos (monetarios y no monetarios).
+CUADRO 6
+a) Contribución marginal total:
+$ 2 × 800.000 ..................................................... $ 1.600.000,00
+b) Inversión incremental:
+Inversión según propuesta11:
+4.800.000 9,67
+× .......................................... $ 644.800
+6 12
+Menos: Inversión actual:
+4.000.000 10
+× ............................................. $ 276.666,7 $ 368.133,30
+12 12
+c) Rendimiento incremental (%):
+(a ÷ b) 100 ......................................................... 435 %
+Bienes de cambio
+La administración de los bienes de cambio, también llamados “inventarios” o “stock”, constituye una
+preocupación básica en toda empresa. También representa un aspecto fundamental de administración
+financiera ya que la magnitud de los recursos que demandan hacen de este ítem un factor de significativa
+incidencia en la rentabilidad de la empresa12. Consecuentemente, la definición actual de la función financiera
+determina para la gerencia homónima la necesidad de dominar los procedimientos de control de bienes de
+cambio como medio de verificar la correcta utilización de los fondos en ellos invertidos (no obstante no
+constituir por lo general, una responsabilidad operativa directa).
+En firmas de menores dimensiones, es frecuente apreciar que ante la ausencia de una política
+definida respecto de compras, éstas son decididas sobre la base de una información muy parcializada,
+muchas veces suministrada por el propio vendedor que, aunque veraz, no suele tomar en cuenta los variados
+efectos que derivan de las variaciones en el volumen de inventarios.
+Por otra parte, debe admitirse una generalizada tendencia por parte de los sectores operativos,
+fundamentalmente ventas, producción y compras, por mantener niveles de stock relativamente elevados.
+Ello se explica en la función que un determinado nivel de bienes de cambio está llamado a cumplir.
+Por un lado, debe constituir un “stock básico” que satisfaga necesidades corrientes de ventas o producción.
+También representa un “stock de seguridad”, en el sentido de que puede cubrir oscilaciones de la demanda.
+Constituye también un “stock de anticipación”, en el sentido de poder abastecer necesidades de crecimiento
+futuro. Por último, podrá implicar un “stock especulativo o de seguridad”, si por su intermedio se pretenden
+ventajas coyunturales por anticiparse a variaciones de precios o a problemas de abastecimiento.
+Frente a tales pretensiones, la gerencia financiera debe observar el comportamiento de los costos
+asociados a variaciones en el nivel de inventarios, algunos de los cuales pueden considerarse crecientes con
+el incremento de aquéllos y otros decrecientes. Por lo general se tiene costos crecientes de mantenimiento
+10 La tasa nominal de rendimiento (r) se calcula, dada la tasa real de rendimiento (r’) y la tasa de inflación (d), como
+sigue-
+r = r + d + r’. d
+= 0,30 + 1,00 + 0,30
+= 1,60 ó 160 %.
+11 La inversión en cuentas a cobrar se calcula como sigue:
+Venta anual Costo Medio Unitario
+×
+Rotación Anual Ctas.a Cobrar Precio de Venta Unitario
+12 Entre otros autores con opiniones coincidentes: Welsch, G. A., Presupuestos, Planificación y control de utilidades,
+UTEHA - Centro Regional de Ayuda Técnica, México, 1972, cap. 7.
+17
+
+(espacio, control, seguro, etc.) y costos decrecientes asociados al ordenamiento y seguimiento de los pedidos,
+que promueven los “lotes óptimos” de compra.
+Se genera así el clásico dilema planteado por la necesidad de satisfacer una demanda creciente y
+cíclica del público (comercialización) y mantener una producción estable, por un lado, y lograr que ello no
+signifique una inversión de bienes de cambio superior a la estrictamente necesaria, por el otro.
+Los problemas que debe resolver una correcta administración de estos activos pueden resumirse en
+los siguientes:
+1. ¿Qué controlar?
+2. ¿Cuándo efectuar el pedido de compra u ordenar la fabricación?
+3. ¿Cuánto comprar o fabricar?
+Estas cuestiones son resueltas según se comenta en los párrafos siguientes.
+a) Clasificación
+Dado que por lo general el rubro “Bienes de Cambio” incluye una gran variedad de artículos (sean
+materiales que entran en producción o productos de reventa) de demanda dispar y valores de muy distinto
+monto, es altamente conveniente concentrar la atención en aquellos que adquieran una mayor significación
+ya sea por su precio, su rotación, su carácter de ítem crítico o estratégico, su riesgo de obsolescencia, etc.
+A tal efecto, es muy difundido (y útil) el “criterio A B C”, que clasifica a los distintos bienes en tres
+categorías, cada una de las cuales representativa de la importancia de los mismos. Así por ejemplo, puede
+darse la situación expuesta en el cuadro 7.
+CUADRO 7
+Cantidad
+Clasificación de Unidades Valor del Stock
+A 20% 65%
+B 30% 25%
+C 50% 10%
+Puede apreciarse allí que bienes existentes en una cantidad representativa del 50 % del total sólo
+significan un 10 % del total invertido en el rubro; en cambio, el 20 % del inventario de unidades físicas
+representa un 65 % de la inversión en bienes de cambio, lo que puede orientar una diferente asignación de
+tiempo, personal y medios a su respectivo control.
+Un aspecto vinculado al número de artículos o Items en stock y a su respectiva importancia es el de
+la unificación de renglones de inventarios, por cuyo intermedio se pueden lograr importantes economías
+derivadas del mantenimiento de un menor número de artículos en existencia para satisfacer adecuadamente
+las necesidades13.
+Tales economías se pueden lograr, por lo general, a través de la estandarización de los artículos
+producidos, o la limitación o postergación de su diversificación o diferenciación.
+Así por ejemplo, emplear varios tipos de envases obliga a mantener existencias de los distintos tipos,
+cuando un óptimo nivel de stock de un solo tipo de envase unificado sería menor que la sumatoria de los
+stocks óptimos de los distintos envases, con la consiguiente disminución de costos. A su vez, el
+ordenamiento de compras de pocos artículos en cantidades mayores puede también representar otra
+significativa fuente de economías.
+b) Punto o momento de pedido
+Otro aspecto de vital importancia es la determinación de la oportunidad en que un nuevo pedido debe
+ser efectuado, para lo cual será menester tomar en cuenta el ritmo de utilización del artículo de que se trate y
+el tiempo requerido por la fabricación o la reposición del mismo. Así por caso es muy distinto el problema de
+reponer un determinado medicamento en una farmacia, que una droguería puede solucionar en un momento,
+13 Sobre este punto, Fernández Imaz, A., “Unificación de renglones de inventario: su significado e importancia”, Rev.
+Adm. de Emp., t. VIII, págs. 831-40.
+18
+
+que reponer un stock de bombas inyectoras de importación en una fábrica de automóviles, que puede
+demandar un cuatrimestre desde el instante de decidir el pedido hasta el despacho final a plaza.
+Los procedimientos para que el momento del pedido sea compatible con el objetivo de minimizar la
+inmovilización en bienes de cambio dependen así de las características particulares de cada empresa, que
+pueden ir desde el “control visual” de las existencias efectuado en el momento de retirar un artículo del
+depósito o estante (caso de las farmacias), pasando por el “inventario permanente” llevado con auxilio de
+máquinas de contabilidad que permiten resolver sencillamente este problema conjuntamente con el de su
+valuación, hasta la aplicación de fórmulas específicamente destinadas a este fin, tal como la siguiente14:
+P de P =V(P−T)+M. V.Q(P−T)
+donde:
+P de P = Punto de pedido.
+V = Unidades vendidas o empleadas en el período.
+P = Período determinado por los extremos correspondientes al momento del pedido y el de
+despacho al cliente o a planta (duración del ciclo de producción o reposición).
+T = Tiempo requerido desde el momento de aceptación de una orden por parte del proveedor
+hasta el de su entrega.
+M = Factor que permite acordar diferentes grados de seguridad (valores extremos entre 0 y 4).15
+Q = Unidades promedio de cada pedido.
+Una expresión más simple para determinar la oportunidad de efectuar el pedido es la siguiente:
+P de P = (V. d) + (a. σ)
+donde:
+P de P = Punto de pedido.
+V = Unidades vendidas o consumidas (promedio diario).
+d = Cantidad promedio de días que el proveedor demora en satisfacer el pedido.
+a = Constante que permite otorgar diferentes grados o márgenes de seguridad.
+σ = Desvío estándar del volumen de ventas durante el período de espera (d)
+Así por ejemplo, si las ventas diarias suman 700 unidades, el proveedor demora dos días en
+cumplimentar los pedidos, contados a partir de la fecha de éstos, la constante “a” adquiere para el artículo de
+que se trata el valor 3; y si el desvío estándar durante el período “de” se estima en 35, se tiene:
+P de P = (700 × 2) + (3 × 35)
+= 1.400 + 105
+= 1.505
+Se entiende en este caso que al momento en que se ordena el pedido, existe en stock una cantidad
+suficiente para hacer frente a las ventas planeadas para los días de espera (700 × 2) más un stock de
+seguridad de “a” veces el desvío estándar estimado para el período de espera (3 × 35). Como se aprecia, 1505
+unidades es un nivel de existencia mínimo que cubre 2,15 veces el volumen medio esperado de ventas
+diarias.
+Cualquiera sea el procedimiento empleado para decidir el instante de efectuar un pedido, debe
+explicitarse y discutirse la información que sirve de soporte, por ejemplo el tiempo demandado desde la
+emisión de la orden hasta la recepción de los bienes, ya que a menudo encubren sensibles ineficiencias en la
+tramitación o márgenes de seguridad excesivamente generosos.
+14 Su justificación en Snyder, A., Principles of inventory management, Financial Executive, vol. XXXII, abril 1964,
+págs. 13-21, reproducido por Van Horne, I., Foundations for Financial Management. A book of readings. R. Irwin,
+Illinois, 1966.
+15 Asumiendo que la distribución conocida como de Poisson permite aproximar aceptablemente el comportamiento de la
+demanda de tipo industrial, y dado un cierto porcentaje aceptable de pedidos que no pueden ser satisfechos por falta de
+stock (5 % por ejemplo), se determinan valores para este factor “M”; por lo general es M = 2 ó M = 3.
+19
+
+En general, deben establecerse puntos mínimos (necesidad de efectuar un nuevo pedido) y puntos
+máximos (inhibe todo nuevo pedido).
+c) Magnitud del pedido
+Existen magnitudes convenientes respecto de las compras de reposición de mercaderías o de las
+órdenes de fabricación. Tales dimensiones constituyen muchas veces soluciones de compromiso entre
+encargados de distintas áreas de la estructura de una empresa. Dadas ventas fluctuantes (cíclicas), se presenta
+la alternativa de que fluctúe la producción para seguir el ritmo de las ventas, o que se altere el nivel de los
+inventarios para mantener constante el nivel de producción sin afectar las ventas; ambos extremos son por lo
+general contrarios a la posición más conveniente. Este tipo de antinomia se presenta también respecto de la
+magnitud del pedido ya que los beneficios que puede observar el encargado de compras al hacer pedidos
+voluminosos o frecuentes pueden ser anulados por los costos crecientes de almacenamiento y de cobertura de
+los mayores riesgos.
+Para resolver este problema sobre bases más objetivas, se ha propuesto la fórmula cuya expresión
+simplificada16 es la siguiente:
+2VK
+L.E.=
+k.U
+donde:
+L. E. = Lote económico.17
+V = Ventas o unidades usadas en el período.
+K = Costo medio de colocar cada pedido u orden.
+U = Precio de reposición por unidad.
+k = Costo de mantenimiento por unidad de inventario (almacenamiento, seguros, vencimiento de la
+inversión en inventarios o costo de oportunidad del dinero, etc.).
+El empleo de las expresiones para determinar el momento y la magnitud de los pedidos puede ser
+ejemplificado a través de su aplicación a los datos indicados en el cuadro 8.
+CUADRO 8
+Símbolo Significado Valor
+V Volumen de ventas o uso.......................................................................................... 150/mes
+P Período de producción o reposición ........................................................................ 1/mes
+K Costo fijo del pedido ............................................................................................... $ 1,5
+U Costo o precio unitario de reposición ...................................................................... $ 1,1
+k Costo de mantenimiento unitario ............................................................................ $ 0,48
+T Tiempo requerido por el proveedor para satisfacer el pedido ................................. 15 días
+Q Unidades promedio de cada pedido ......................................................................... 5 días
+M Factor de seguridad ................................................................................................. 5% (1,6)
+Se tiene en consecuencia:
+a) P de P = V (P – T) + M × V.Q(P−T)
+= 150 (1 – 0,5) + 1,6 × 150×5(1−0,5)
+= 75 + 1,6 ( 250) = 75 + 1,6 (15,8) = 100
+16 Snyder, A., op. cit., pág. 74.
+17 Expresión aproximada de:
+2VK PVK K
+L.E.= + −
+CU U U
+El significado de los términos empleados es el que ya ha se ha indicado.
+20
+
+b)
+2VK 2.150×1,5
+L.E.= = = 1.023 =31,98≅32
+k.U 0.04×11
+La cantidad o magnitud lograda por aplicación de la fórmula del lote económico debe ser
+considerada una útil referencia o valor medio que admite ajustes ya que salvo desvíos importantes respecto
+de tal cifra, no se producen por lo general incrementos significativos de costos, cosa que también debe ser
+calculada y tenida en cuenta. El lote económico es, de acuerdo con esta posición, un tramo de la curva de
+costos totales y no un punto representativo de una cantidad específica.
+Como toda fórmula o expresión algebraica, ésta también requiere una completa comprensión de los
+factores que en ella intervienen y los supuestos en que se apoya. El anexo Cap. V.2 brinda otro ejemplo con
+aplicación de una fórmula también muy empleada, con el propósito de facilitar dicho entendimiento.
+También con idéntica finalidad se explicita la descomposición de la expresión aquí empleada para hacer
+evidente la vinculación del lote económico (LE) con el volumen de ventas (V), el factor de descuento o costo
+de mantener una unidad en inventario (k) y la relación de costos (K/ ), o sea:
+U
+2V.K 2 K
+L.E.= = V × ×
+kU k U
+Esta descomposición ha sido especialmente empleada para hacer evidente que es la relación de
+costos (K/ ) lo que realmente importa y no tanto valores absolutos de costos. La relación K/ puede
+U U
+permanecer virtualmente inalterada a los fines prácticos, no obstante costosos perfeccionamientos en el
+cálculo de cifras absolutas que modifican significativamente el valor relativo de tales costos. También se ha
+propiciado su uso para casos en que tanto la relación de costos (K/ ) como el factor costo de mantenimiento
+U
+en inventario (k) pueden considerarse dados o constantes, con lo que el lote económico resulta una función
+del volumen de ventas (V).
+Las extensiones al análisis del lote económico que se han propuesto en los párrafos precedentes
+pueden facilitarse construyendo tablas que exhiban de qué manera se modifica la dimensión del lote
+económico ante cambios en la relación de costos o en el volumen de ventas, según el caso.
+Para finalizar, se explicitan dos importantes conclusiones para el encargado de la administración de
+inventarios y para la propia dirección:
+a) Tanto la magnitud del lote económico de pedidos como el requerimiento de un inventario medio,
+no varían directamente con las ventas (como se ha visto, varían en función de su raíz cuadrada).
+Es contrarío al interés de la empresa aceptar reglas rígidas tales como “mantener en inventarios
+60 días de ventas”.
+En rigor, a mayor volumen de ventas corresponden pedidos e inventarios medios
+proporcionalmente menores.
+b) Los costos totales asociados a la reposición de bienes de cambio no se ven sensiblemente
+afectados ante pequeñas variaciones respecto del “lote económico óptimo”.
+Esta comprobación hace procedente usar datos no muy elaborados o difíciles de obtener para
+lograr una aceptable solución.
+La financiación de corto plazo
+Se entiende por financiación de corto plazo aquélla cuyos vencimientos operan en el plazo de un año.
+Sus componentes más importantes están dados por el crédito comercial (de proveedores) y el crédito
+bancario.
+Tales fuentes de financiamiento satisfacen las necesidades originadas en las inversiones en capital de
+trabajo. El dimensionamiento de éste es esencial para decidir la posibilidad primero, y la mezcla luego, de su
+financiamiento. Por ello dedicamos en primer lugar algunos comentarios a los métodos sugeridos para
+cuantificar dichas necesidades y, recién entonces, a las posibles fuentes capaces de proveerlo.
+21
+
+Cuantificación de las necesidades de capital de trabajo
+Existen variados procedimientos para determinar necesidades globales de financiamiento del capital
+de trabajo, como asimismo de los distintos rubros que lo integran.
+El método más elemental es el contable, que resulta de la suma de los activos operativos corrientes,
+de la propia empresa y de otras del ramo que sirven de referencia. Obviamente, no permite introducir
+aspectos de política y es afectado por todas las limitaciones emergentes del documento contable (es estático,
+resulta de diversas convenciones de uso contable, etcétera).
+También a base de información de origen contable, el procedimiento conocido como “porcentajes
+sobre ventas” suele ser empleado para pronosticar necesidades globales de financiamiento. Este método es
+comentado en el Cap. VII.
+Otro procedimiento se basa en los plazos de pagos y cobros convenidos además del costo de los
+productos y el valor de las existencias. Su cuantificación se logra por aplicación de la expresión:
+C de T = E ± Vc (n – m)
+donde:
+C de T = Capital de Trabajo Neto.
+E = Valorización de los bienes de cambio en existencia.
+Vc = Ventas mensuales a precio de costo.
+n = número de meses promedio del plazo de cobro de las ventas.
+m = número de meses promedio del plazo de pago de las compras.
+En este caso, no se toman en cuenta rubros tales como Caja y Bancos ni otras fuentes de
+financiamiento a corto plazo (crédito bancario, provisiones, etc.); tampoco hace diferencias por el monto del
+costo de materias primas y el del valor agregado en el costo de los productos.
+Otros procedimientos establecen como restricción una dada disponibilidad de fondos, a la que debe
+ajustarse el nivel de actividad. De tal forma:
+F + α. C . X ≤ D
+v
+donde:
+F = Costos Fijos.
+α = Porcentaje de ventas a crédito (promedio).
+C = Costo variable.
+v
+D = Disponibilidades (parámetro).
+X = Número (cantidad) de unidades.
+Este procedimiento prevé la posibilidad de incrementar el nivel de actividad en tanto el costo del
+dinero (i) no supere la relación entre el margen de contribución y el costo variable; o sea:
+Margen de contribución
+i ≤
+Costo variable
+Si se cuenta con un cálculo aceptable del capital de trabajo necesario en determinadas circunstancias
+y se desea saber cómo se ve afectado por las políticas de cobros y pagos que se están estudiando, puede ser
+aplicable la siguiente expresión:
+k d k' d'
+C de T =C de TN −( ⋅ + ⋅ +⋅⋅⋅)±
+K D K D
+v m v' m'
+±( ⋅ + ⋅ +⋅⋅⋅)
+V D V D
+22
+
+donde:
+C de T = Capital de Trabajo Neto.
+C de TN = Capital de Trabajo Neto Normal.
+k, k’, k”,... = Importe de los gastos para los cuales se han obtenido créditos por d, d’, d”,... días.
+K = Gastos totales a realizar.
+v, v’, v”,... = monto de ventas para las que se conceden plazos por m, m’, m”,... días.
+V = Valor total de la producción o de las existencias vendidas, en promedio, durante el
+período.
+En realidad, estas técnicas no resultan satisfactorias por varios motivos. Entre los más importantes
+pueden señalarse:
+a) parten de datos que son los que por lo general se tienen por incógnitas, como el capital de trabajo
+normal;
+b) no dan lugar al análisis de casos referidos a distintos productos o líneas de productos;
+c) no toman en cuenta la distinta naturaleza de los costos, y
+d) no prevén distintas probabilidades de ocurrencia de eventos o circunstancias que alterarían el
+requerimiento de capital de trabajo aún sin modificar las políticas básicas.
+Dejamos para el capítulo VIII el tratamiento de métodos que hacen lugar a la consideración
+probabilística de distintos requerimientos. Aquí se presenta, en cambio, un criterio que se basa en los plazos
+efectivos de fondos requeridos por los distintos tipos o familias de artículos. El mismo parte de una fórmula
+básica y muy conocida para determinar el capital de trabajo requerido en el caso de un solo artículo con un
+ciclo dado comprensivo del proceso de compra - mantenimiento en stock-pago-cobro; tal fórmula es la
+siguiente:
+C C C×d
+C de T = = =
+R 360/d 360
+donde:
+C = Costo del producto.
+R = Rotación anual del producto = 360/días de duración del ciclo correspondiente al producto (d).
+Así por ejemplo, si un artículo con un costo de $ 6.000 se paga a 30 días según condiciones ofrecidas
+por el proveedor, y se lo vende luego de mantenerlo en stock por un promedio de 15 días, con un plazo de 45
+días se tiene que:
+d = 45 + 15 – 30 = 30 días
+$6.000×30
+C de T = =$500
+360
+Si el nivel óptimo de inventario de tal artículo se ha calculado en 5000 unidades, se tiene que el
+mismo demanda una inversión permanente de capital de trabajo igual a:
+500 × 5.000 = $ 2.500.000
+Este simple ejemplo sirve para destacar que todo artículo insume y genera fondos, por lo que siempre
+se debe tratar de cuantificar el requerimiento neto o generación neta de fondos motivado por un artículo o
+mezcla de productos. En el ejemplo, se da un caso de requerimiento neto dado que el costo del artículo se
+23
+
+recupera a 45 + 15 días18 desde la fecha de compra contando con sólo 30 días de financiamiento concedido
+por el proveedor.
+Si se tratara de determinar requerimientos totales de fondos, o sea los necesarios para cubrir los
+costos fijos más los costos variables, se debe contar con los días de inmovilización requeridos por los
+distintos elementos fijos del costo asignable a cada artículo y su respectivo monto además de los
+componentes variables del costo. La fórmula19 general deviene en consecuencia:
+1= a j = m
+F +d V ×d
+C de T = Σ i i + QΣ j j
+T 365 365
+i =1 j =1
+donde:
+C de T = Capital de trabajo total.
+T
+F, V = Monto o requerimiento asociado a los i, j elementos integrantes de los costos fijos (F) y
+variables (V), éstos por unidad de producto.
+d = Días (ciclo) requeridos por cada elemento de los costos fijos o variables, distinguidos por
+los subíndices i (fijos) y i (variables).
+n, m = Cantidad de elementos del costo fijo y variable respectivamente, en que se ha dividido el
+costo total.
+Q = Cantidad de artículos.
+El “ciclo” requerido por un producto industrializado en la empresa debe comprender los días de
+espera de la materia prima, los requeridos por el proceso productivo, los que se tiene en estantes hasta ser
+vendido, los correspondientes al plazo de financiación concedido menos los días de plazo acordados por el
+proveedor de materiales o suministros diversos.
+Otros componentes variables del costo son las comisiones de vendedores, el flete de entrega,
+impuestos a los ingresos brutos, etc.
+Así por ejemplo, si el flete (a cargo del vendedor) se paga a los 12 días del mes siguiente al de la
+venta, y se lo estima en un 10 % del precio de venta se tiene un ciclo cuya duración en días es:
+30+12
+d = = 21
+2
+Si el artículo o producto vendido se cobra a 45 días, es claro que debe financiarse 45 – 21 = 24 días
+en promedio, por lo que el requerimiento adicional por este concepto, dado un costo del artículo de $ 6000 es
+de:
+$6.000(0,10)×24
+=$40
+360
+En cuanto a los costos fijos (alquileres, honorarios, sueldos y jornales, impuestos sobre la propiedad,
+servicios de “leasing”, etc.) su recupero se produce recién cuando se cobran las ventas, por lo que
+corresponde asignarles la duración del ciclo completo, ajustada por la financiación provista por los
+suministradores de los servicios (alquileres, sueldos) o las reparticiones recaudadoras (impuestos a la
+propiedad, etc.).
+Muchas veces se deciden modificaciones en la administración de activos (pasivos) corrientes o en la
+política de comercialización que no alteran el nivel de los costos fijos pues son cambios dentro de una escala
+18 Naturalmente, en este momento se percibe el precio de venta del artículo que se compone del costo de compra más el
+margen bruto que debe cubrir el costo de financiación del capital de trabajo más la contribución a la cobertura de gastos
+fijos y a la formación de utilidades netas.
+19 Ejemplos y discusión de este método en: Candioti, E. M., “Los requerimientos de capital de trabajo: técnicas para su
+determinación”, Rev. Adm. de Emp., t. II, págs. 83-95; Drimer, R. L., “Estudio analítico de necesidades de
+financiamiento”, Rev. Adm. de Emp., t. VIII, págs. 761-67.
+24
+
+en la que éstos permanecen constantes. Un caso puede ser la decisión de alargar el plazo de ventas a crédito
+de 30 a 60 días para lograr un incremento en ventas de 500 unidades, según un análisis previamente
+efectuado20. La necesidad incremental de capital de trabajo derivada de esta situación resulta de la suma
+algebraica de requerimientos y fuentes de capital trabajo. Para su cálculo se parte de la situación inicial, a la
+que corresponden los siguientes datos:
+Nivel de actividad: 2.000 unidades
+Precio: $ 3
+Costo variable: $ 2
+Escala pertinente: 1000 a 3000 (dentro de ella, no se alteran las funciones de costos).
+En tal caso se tiene:
+1) Requerimiento incremental de cuentas a cobrar 21
+⎡3(60−30)⎤
+500 =$125
+⎢ ⎥
+⎣ 360 ⎦
+2) Requerimiento incremental de inventarios
+Si la firma estima en 15 días el tiempo de inmovilización en stock, se tiene:
+($2×15)
+500 = 41,67
+360
+3) Financiamiento de proveedores
+Si se supone que un 75 % del costo directo (0,75 × 2) es financiado a 30 días por los proveedores, se
+tiene:
+⎡1,50×30⎤
+500 =62,50
+⎢ ⎥
+⎣ 360 ⎦
+4) Requerimiento adicional global de capital de trabajo
+125 + 41,67 – 62,50 = 104,17
+Además de esta información, la gerencia financiera necesita saber qué rentabilidad obtendrá esta
+inversión adicional en capital de trabajo neto. Para ello vincula el incremento esperado en la contribución
+marginal total (Δ CM ) con dicho incremento en capital de trabajo neto, (Δ C de T ). En nuestro caso, en que
+T N
+no se prevé modificaciones en precio ni en costos, se tiene una rentabilidad (r) igual a:
+ΔCM 500(P−C ) 500(3−2)
+r = T = V = = 480%
+104,17 104,17
+ΔC de T
+N
+Este rendimiento de la inversión incremental en capital de trabajo (r) debe ser comparado con el
+costo del capital (k) y, de ser superior, deben considerarse ventajosas inversiones adicionales hasta que r = k.
+20 Este análisis requiere tomar en cuenta el riesgo implicado y la posible existencia de inflación, que puede provocar
+pérdidas originadas en la mayor exposición.
+21 En este ejemplo, a diferencia de otro anterior tomamos precio de venta y no de costo con el objeto de ilustrar otra
+posición defendida por algunos autores y que nosotros encontramos más apropiada cuando se trata de medir
+rendimientos de inversiones en capital de trabajo y no sólo su nivel o cuantía, ya que el total financiado (el precio de
+venta) es un uso de fondos generados por la venta que podrían tener un destino diferente.
+25
+
+La comprensión de los procedimientos expuestos, sus ventajas y debilidades, resulta de gran utilidad
+en la instancia de tener que resolver problemas concretos, cuya solución muchas veces difiere de la propuesta
+en la versión original de una fórmula cualquiera. Por otra parte, métodos más inexactos pero de mayor
+simplicidad resultan de gran ayuda cuando se está en las etapas preliminares de identificación y
+dimensionamiento del problema bajo análisis.
+Una vez determinada la necesidad global del financiamiento, es oportuno pasar a considerar las
+distintas fuentes que puedan proveerlo.
+El crédito comercial
+El crédito suministrado por los proveedores constituye una importante fuente de financiación, en
+particular en empresas de menor tamaño relativo, por dificultad de acceder a otras fuentes y por facilidades
+derivadas de su pretendida condición de financiamiento espontáneo o autogenerado. En realidad no debe
+considerárselo así: su extensión o aceptación debe descansar en una estudiada política. No obstante, aquellas
+calificaciones de espontáneo o autogenerado se justifican por no originarse en una negociación específica de
+crédito, instrumentada en un contrato que se evidencia (como medio de prueba) en documentos especiales,
+sino que aparece vinculada a la operación comercial de compra de bienes destinados a reventa o de insumos
+para la producción corriente.
+Esta particularidad tiene dos importantes consecuencias que suelen promover su utilización en
+proporciones que pueden ser superiores a las deseables desde el punto de vista económico-financiero. Por un
+lado, su carácter casi automático, que evita las tramitaciones requeridas por operaciones con intermediarios
+financieros (bancos, financieras, etc.). Por el otro, sus costos no son en todos los casos explicitados por lo
+que suelen pasar de alguna manera inadvertidos por los responsables financieros que no disponen del tiempo,
+la organización o simplemente de la actitud crítica que promueven el mayor empleo del análisis financiero.
+Así por ejemplo, suelen ser de práctica condiciones de “10/20, 60 días fecha factura”, que significa
+un descuento de caja del 10 % para pagos efectuados dentro de los primeros veinte días de una factura de por
+ejemplo, $ 500 que, caso contrario, se debe hacer efectiva a los 60 días de su fecha de emisión. El costo
+implícito, en términos de % anual, es el siguiente:
+d 360
+k : × ×100
+c t
+donde:
+k = Costo del crédito (% anual). Tasa proporcional.
+d = Descuento ofrecido.
+c = Importe del crédito implicado.
+t = Tiempo o duración del crédito (días).
+Por lo tanto se tiene:
+50 360
+k = × ×100=0,111×9×100=100%
+450 40
+Se aprecia en consecuencia, que por no pagar al décimo día de facturada la operación, se hace uso de
+un crédito de $ 450 (500 – 50 = 450 pesos que no se pagan en ese momento) por un plazo de 40 días, con un
+costo del 100 % anual (en términos de tasa proporcional).
+Esta comprobación, en cada caso particular, deberá sin duda incitar al responsable financiero a la
+búsqueda de medios alternativos, por lo general a su alcance, salvo situaciones extremas que sólo parecen ser
+razonablemente aceptables cuando son de carácter coyuntural o circunstancial.
+Una situación similar se da cuando el proveedor ofrece precios diferenciales según las condiciones
+de pago, por ejemplo, 10 % de descuento por pago contra entrega sobre el precio de lista correspondiente al
+pago en condiciones corrientes (a 30 días).
+En tal caso, para una operación por $ 400, se tiene:
+26
+
+40 360
+k = × ×100= 0,111×12×100=133,20%
+360 30
+El crédito bancario
+Como se ha anticipado, las instituciones bancarias constituyen una de las principales fuentes de
+financiamiento a corto plazo de las empresas, sean éstas comerciales o de producción. Una investigación,
+efectuada sobre la base de encuestas22, permitió detectar respecto de empresas medianas y pequeñas, que
+muchas de ellas no utilizaban servicios ofrecidos por dichas entidades en la medida que sería aconsejable no
+obstante caer dentro de sus posibilidades reconocidamente más limitadas, ciertamente, que las abiertas a
+organizaciones de mayor dimensión.
+En muchos casos, ello deriva de no cultivar una relación más estrecha con los bancos, ya sea porque
+el actuar con más entidades que las convenientes perjudica su calificación, porque no se aprecia la ventaja de
+suministrar y mantener actualizada una información que se hace imprescindible para poder concretar
+operaciones rápidamente, porque se juzga que no se dispone del tiempo que ello demanda o porque no se
+aprecian debidamente las ventajas que derivan de una vinculación más directa y permanente.
+Los motivos para recurrir a cualquiera de las modalidades operativas ofrecidas por los bancos
+comerciales son por lo general de una gran variedad. No obstante, éstas pueden ser resumidas en dos grandes
+categorías:
+a) Por un lado, se tienen aquellas operaciones que de algún modo implican transacciones sobre
+activos de la empresa a los efectos de acelerar su conversión en efectivo, caso de negociación de
+cheques o valores al cobro, el descuento de documentos comerciales, la venta de cuentas a
+cobrar (“factoring”).
+b) Por otro lado se cuentan operaciones en las que el origen de los fondos no está dado por la
+disminución de activos corrientes, sino por el otorgamiento de un crédito cuya representación se
+traduce en un crecimiento del pasivo de la firma.
+La elección de una determinada operación de financiación se justifica por una amplia gama de
+razones que el responsable financiero debe atender; algunas de ellas obran como determinantes
+fundamentales de la elección, tal el caso del tiempo por el cual se requiere el apoyo financiero o la
+disponibilidad de activos para ser negociados. Si consideramos que tales variables son datos conocidos (que
+operan a manera de restricciones en muchos casos), queda aislado el aspecto básico que en todos los casos
+deberá ser tenido en cuenta como referencia imprescindible: el costo.
+Por todo lo expuesto, se considera necesario señalar para cada una de las formas de financiación más
+divulgadas, el cálculo requerido para la determinación del costo pertinente, como asimismo, de manera
+marginal, algunas circunstancias que promueven una elección en particular.
+a) Negociaciones de Activos Financieros
+Como se anticipó, esta categoría de operaciones de financiación tiene como característica común la
+circunstancia de implicar una negociación de activos que apunta a la aceleración de su conversión en
+disponibilidades, originando una mayor rotación del activo de que se trate.
+– Negociación de Cheques: Los cheques recibidos en pago de operaciones de venta demoran un
+cierto período para que los importes estén disponibles, dependiendo su duración de las plazas y
+entidades contra las cuales están librados y de la organización del banco en el que se depositan.
+Esta espera puede ser anulada si se procede a la negociación de dichos valores con el banco en
+que se depositan, en cuyo caso son acreditados al tiempo del depósito.
+La conversión inmediata de tales valores en disponibilidades tiene un costo que es función de las
+horas demandadas por el “clearing” bancario o por la acreditación de “valores al cobro”. Así por
+ejemplo, es corriente que la entidad bancaria cobre una comisión del 15 % para valores de 24 hs.,
+más un 3 0/ adicional por cada día subsiguiente. En caso de disponer de un importe de $ 2
+00
+22 Durante los años 1973/74 los alumnos del Curso de Administración de las Finanzas de la Empresa de la Facultad de
+Ciencias Económicas de la Universidad Nacional de La Plata efectuaron bajo la dirección del autor, una encuesta cuyos
+resultados fueron materia de discusión en los referidos cursos.
+27
+
+millones en cheques de 24 horas, $ 3 millones a 48 y $ 3 millones a 96 horas, se tendrá un costo
+(k) igual a:
+k = 2 × 0,015 + 3 X 0,018 + 3 × 0,024 = 0,03 + 0,054 + 0,072
+= $ 0,156 millones = $ 156.000
+Esto implica aproximadamente un 3 % si consideramos que el costo de $ 156.000 corresponde a
+un crédito medio de $ 5 millones23 durante 4 días, equivalente a una tasa proporcional del 270%
+anual.
+En este caso, como en todos los referidos a operaciones de financiación, debe tenerse presente
+que las entidades financieras compiten sobre bases diferentes con el objeto de captar clientes o
+nuevas operaciones, motivando diferencias significativas en las comisiones que debitan por sus
+servicios. Por lo tanto deben considerarse todas las alternativas posibles.
+– Negociación de Cuentas a Cobrar (Factoring): Esta modalidad, que la propia Ley de Entidades
+Financieras Nº 18.061/69 denominó “factoring” implica la cesión de créditos (cuentas a cobrar)
+contra una suma equivalente al monto de los créditos negociados menos el interés, las
+comisiones por gastos de análisis del crédito y eventuales retenciones en garantía de litigios por
+las mercaderías cuya venta originó el crédito negociado. Así por ejemplo, una cuenta de $ 4
+millones a 30 días puede ser negociada a una entidad que cobre un 85 % en concepto de interés
+anual más 1 % por gastos de análisis (el riesgo de incumplimiento corre por cuenta del
+prestamista o factor). Además, retiene un 5 % para cubrir la eventualidad de litigios sobre la
+mercadería entregada. En tal caso, el costo (c) es:
+c = interés + gastos (comisiones)
+0,85×4M ×30
+= +0,01×4M = 283.333 + 40.000 = 323.333
+360
+El costo efectivo, no obstante, expresado en términos de tasa proporcional anual, debe
+computarse teniendo en cuenta la suma efectivamente disponible por parte de la empresa, esto es
+el importe de los créditos transferidos menos el interés, los gastos y además la retención del 5 %,
+o sea que el costo efectivo (k) es:
+323.333×360
+k = =
+[ ]
+4M −(323.333+200.000) ×30
+323.333 360
+= × =1,116=111,6%
+3.476.667 30
+Que este costo sea superior al de otras alternativas de financiamiento es explicable: implica la
+asunción de un riesgo de difícil cuantificación en muchos casos, ya que los numerosos deudores
+implicados suelen no ser conocidos (no tienen antecedentes en el banco) y su análisis tiene un
+elevado costo para la entidad financiera.
+– Negociación de Documentos a Cobrar (Cheques diferidos): No es una práctica corriente en el
+medio argentino la negociación de documentos a cobrar en cartera. En cambio, la generalizada
+práctica de recibir “órdenes de pago” (cheques) con fecha diferida, convierten a éstos en
+virtuales “documentos a cobrar” con especiales características que hacen tanto a su seguridad
+(riesgo) como a su liquidez. Este último factor deriva de la posibilidad de su transferencia, o sea,
+de su uso como medio de pago. Las ventajas que ello implica explica su difusión como práctica
+corriente sobre todo en empresas de menor dimensión, no obstante múltiples problemas de
+control y la responsabilidad asumida por participar en una operación irregular.
+23 El crédito concedido por el banco resulta de $ 8 por un día (el 1º); $ 6 por otro día (el 2º), y de $ 3 por dos días (el 3º
+y 4º día).
+28
+
+Una firma que vende sus productos a 30 días y recibe en pago un cheque a 30 días, por ejemplo,
+puede entregarlo el mismo día que lo recibe en pago de sus obligaciones con proveedores que lo
+suelen recibir como si fuera “a la vista”. En tal caso, posibilita adelantar en 30 días la disposición
+del producido de la venta, lo cual implica una economía que se puede medir por el costo que
+tendría un financiamiento alternativo por igual monto y plazo. Por ejemplo, podría considerarse
+la alternativa del crédito bancario: 90 % anual vencido.
+El beneficio fue aún mayor hasta el 1/1/79, fecha en la que se derogó el impuesto que gravaba
+los movimientos (débitos) en cuenta corriente, ya que mediante aquel arbitrio se evitaba la
+participación de la entidad bancaria.
+– Negociación de Otros Activos: Si bien no puede considerarse un recurso corriente, existe la
+posibilidad de que en ocasiones circunstanciales pueda ser conveniente la realización de activos,
+con el objeto de solucionar situaciones coyunturales, sobre todo cuando se está en presencia de
+niveles de inventarios relativamente elevados para el período que transcurre. Así, puede pensarse
+en un ofrecimiento especial (sin duda una característica que se deseará destacar) por el lapso de
+20 días, durante el cual se rebaja un 10 % el precio de la mercadería (o se retrasa su aumento) en
+caso de pago contra entrega, con lo cual ventas proyectadas de $ 2300.000 se cobrarían con 20
+días de anticipación. El costo de esta alternativa se calcularía como sigue:
+(0,10×2.500.000)×360
+=180%
+2.500.000×20
+b) El Crédito Bancario Directo
+En este lugar se consideran alternativas de financiamiento que se originan en la creación de un
+crédito por parte de la entidad bancaria. En el apartado anterior, en cambio, se hacía referencia a la
+transferencia de un crédito ya existente.
+El crédito bancario, juntamente con el crédito comercial, constituye la forma tradicional de financiar
+el giro corriente del negocio y sus necesidades estacionales, ligado estrechamente, en consecuencia, al ciclo
+de explotación. En la práctica, el origen de tales requerimientos está dado por causas tan diversas como: a)
+acumulación de vencimientos diversos (sueldos y jornales, obligaciones previsionales, proveedores, cuentas
+a pagar, etc.); b) dificultades transitorias de tesorería (pago tardío por parte de un cliente importante, compra
+de mercaderías por importe de significación, etc.); c) necesidad de utilizar un crédito intermedio con la
+perspectiva de perfeccionar en el futuro un crédito a largo plazo, en muchos casos con garantía real; d) cielos
+cortos de fabricación o ventas (actividad agraria, fabricación y ventas de juguetes, etc.).
+El costo del crédito bancario directo, y el interés como componente básico del mismo, es función de
+varios factores, tales como la naturaleza y duración del crédito, garantías ofrecidas, la situación de la
+empresa, las condiciones del mercado financiero, la política económica general vigente, y otros.
+El cálculo del costo de las distintas formas o modalidades que puede asumir una determinada
+operación de crédito se basa en dos términos fundamentales:
+– Suma de gastos asociados a la tramitación de la operación y disposición de los fondos requeridos
+(interés, comisiones, depósitos de reciprocidad, etc.).
+– Suma de fondos efectivamente percibidos, a lo que debe atribuirse la totalidad del costo que su
+disposición ocasiona.
+Como en toda operación crediticia, ya sea vista del lado del deudor como del acreedor (en definitiva,
+no se trata sino de una misma realidad apreciada desde distintos extremos), las comparaciones en cuanto a
+costo deben efectuarse a base de su costo efectivo, lo que implica respecto del interés, el cálculo de la tasa
+efectiva de interés, según se lo ha definido y calculado (en casos de ejemplificación) en el Anexo Capítulo
+V.4.
+En cambio, es importante dejar aclarado y ejemplificado, el impacto que sobre el costo efectivo de
+una operación tienen distintas modalidades operativas:
+a) Trátase de un préstamo a un mes por un importe de $ 50 millones; dicha suma se percibe
+íntegramente, y la operación queda saldada mediante un único pago de $ 53,5 millones al fin del
+mes; el costo efectivo (k) es:
+29
+
+53,5M −50M
+k = = 7%
+50M
+b) Si el importe tanto de intereses como de comisiones ($ 3,5 M) es deducido al inicio, la empresa
+percibe $ 46.5 M, y el costo efectivo de la operación es:
+50M −46,5M 3,5
+k = = = 7,5%
+46,5M 46,5
+c) Si el pago se hace una vez transcurrido el mes (como en a), pero la institución bancaria exige un
+saldo compensador (apoyo en cuenta corriente) del 10 % se tiene un costo (k) de:
+53,5M −50M 3,5
+k = = =7,7%
+50M −5M 45
+d) Si la amortización de la deuda, total (capital + intereses) supuesta en el caso a) –$ 53,5– se
+efectuara a través de cuatro servicios de $ 13,375 semanales, la empresa gozará durante un mes
+de un crédito medio de $ 29,938 millones, como se aprecia claramente en la figura 1 (el crédito
+disponible en exceso sobre el promedio durante las dos primeras semanas está representado por
+una superficie igual a la que representa el crédito en defecto del promedio durante las dos
+últimas).
+FIGURA 1
+En este caso, como es lógico, el costo efectivo no se calcula sino en relación con el crédito
+efectivamente gozado en el período (en promedio), naturalmente inferior al caso ya visto en el
+cual la amortización tenía lugar una vez transcurrida la totalidad del período de 30 días. Se tiene
+entonces:
+3,5
+k = =11,7%
+29,938
+e) Si los gastos totales (3,5 millones) son descontados por adelantado, la suma efectivamente
+percibida es de $ 46,5 millones (caso b) ); en caso de que el crédito concedido de $ 50 millones
+se amortizara en 4 pagos de $ 12,500 millones cada uno, se habrá gozado efectivamente de un
+crédito medio de $ 27,75 millones, ya que:
+1ª semana: $ 46,5 millones
+2ª semana: $ 34,0 millones
+3ª semana: $ 21,5 millones
+30
+
+4º semana: $ 9,0 millones
+$111,0 millones ÷ 4 = $ 27,75 mill.
+Por consiguiente el costo efectivo (k) es:
+k = 3,5 = 12, 6 %
+27, 75
+Dado que en la práctica es frecuente que las modalidades operativas difieran ya sea respecto de
+los costos nominales, como de los plazos de amortización, el descuento anticipado o el pago
+diferido de intereses, etc., resulta de interés tener a mano una fórmula general que permita
+calcular, en forma rápida y sencilla, el crédito promedio que la operación posibilita y con ello, el
+costo efectivo de la misma; para ello se cuenta con la siguiente expresión:
+G S
+k = ×
+ηE−Cη(η−1)÷2 P
+En la expresión anterior:
+k: Costo efectivo.
+G: Gastos totales (intereses, comisiones, tasas, etc.).
+η: Cantidad de pagos cuotas.
+E: Suma efectivamente percibida.
+C: Importe de la cuota a pagar.
+S: Suma de subperíodos en que la operación se cancela (semanas, meses, etc.).
+P: Cantidad de subperíodos que separan el vencimiento de dos cuotas consecutivas.
+Para los dos últimos ejemplos, la aplicación de la fórmula permite comprobar los resultados ya«
+obtenidos:
+Caso d):
+3,5 4
+k = × =11,7
+13,375×4×3 1
+4×50−
+2
+Caso e):
+3,5 4
+k = × =
+12,500×4×3 1
+4×46,5−
+2
+3,5 4 14
+= × = =12,6
+186,0−75 1 111
+Otras Alternativas
+Otra posibilidad de cubrir déficits transitorios de caja está dada por el recurso a prórrogas para el
+pago de obligaciones fiscales o previsionales. En ocasiones, sucede que la conveniencia de estas alternativas
+deriva de la facilidad de acceder a un crédito cuyas condiciones son ya conocidas (son ofrecidas a la
+generalidad de los contribuyentes u obligados ante las cajas de previsión) sin requerir en consecuencia
+negociaciones especiales, y por su costo en relación a otras fuentes.
+31
+
+Si bien es cierto que la decisión de emplear o no estos créditos no se adopta en función exclusiva de
+su costo (como cualquier otra referida al financiamiento) es evidente que este factor siempre es (debiera ser)
+atendido, por lo que su cálculo es inexcusable.
+Políticas de capital de trabajo
+La administración del capital de trabajo24 está referida a la gestión de activos corrientes y de pasivos
+de corto plazo. Frente a posiciones discrepantes, fundamentalmente referidas a la terminología empleada25, el
+tratamiento que aquí se da tiene por objeto destacar:
+a) la aceptación de un cierto marco dado por políticas de largo plazo (caso de las estructuras de
+financiamiento y de la composición de activos, característica del sector o rama de actividad,
+etc.);
+b) la vinculación de tipo “horizontal” (dado un cierto cuadro o estado patrimonial) que deriva de la
+necesidad de tener en cuenta los plazos de inmovilización de recursos en ciertos activos con la
+naturaleza de su financiamiento, como asimismo con la capacidad generadora de fondos de los
+mismos;
+c) la necesidad de analizar en forma conjunta y simultánea los efectos de decisiones sobre activos y
+pasivos corrientes como asimismo de aquellas decisiones o situaciones que sin estar referidas
+directamente a tales componentes del cuadro patrimonial, los afectan a través de la interrelación
+que los vincula, caso de modificaciones en la producción corriente o en las ventas.
+En efecto, el equilibrio financiero (correspondencia entre cantidades y oportunidad de ingresos y
+egresos) requerido por el funcionamiento regular implica atender una serie de circunstancias. Así por
+ejemplo, que los activos que suponen inmovilizaciones de fondos por un largo período (activos fijos)
+requieren un financiamiento que debe ser también de largo plazo, para que los fondos que son capaces de
+generar permitan el cumplimiento de los compromisos contraídos; de allí entonces que la naturaleza de los
+activos supone una primera restricción a la libre elección de su financiamiento, afectando la relación “pasivo
+de corto plazo/financiamiento de largo plazo”.
+Asimismo, la decisión de incrementar el volumen de producción y ventas puede implicar
+simultáneamente incrementar los plazos de venta (uso de fondos) y la disponibilidad de crédito comercial
+(fuente), no necesariamente en igual proporción, de donde deriva una situación que puede representar una
+inversión incremental de fondos en activos corrientes, que a su vez reclama se atienda no sólo su
+conveniencia desde el punto de vista económico, sino la forma en que será financiado.
+Así entonces, surge la necesidad de una apreciación conjunta o global de la inversión en activos
+corrientes y la financiación de corto plazo; tómese en cuenta que, dada esta dimensión temporal (corto plazo)
+y considerados dados los niveles de activos fijos y de financiamiento a largo plazo, es a través de decisiones
+sobre aquellos elementos que se da satisfacción (o se tergiversa) una determinada política sobre relaciones
+entre activos de corto y largo plazo y sobre pasivos de corto y largo plazo, aún cuando no se altere la relación
+(diferencia o cociente) entre activos corrientes y pasivos de corto plazo.
+Lo cierto es, no obstante, que una empresa dada puede ser financiada con distintas mezclas o
+proporciones de fondos a corto y a largo plazo, dependiendo ello del equilibrio entre costo y riesgo que
+acepte el responsable financiero. Consecuentemente, pueden darse las situaciones que refleja la Figura 2:
+Empresa Ac F c/p Ac F c/p Empresa
+A B
+Ai F 1/p Ai F 1/p
+FIGURA 2
+24 También llamado capital de giro o capital circulante, liquidez corriente, etcétera.
+25 Varios autores se inclinan por llamar capital de trabajo a la diferencia entre activos corrientes y pasivos corrientes.
+Otros entienden por ello la administración de los activos corrientes, exclusivamente, en cuyo caso la diferencia entre
+activos corrientes y pasivos corrientes es llamada capital de trabajo neto (Messuti).
+32
+
+Donde:
+Ac: Activos corrientes.
+Ai: Activos inmovilizados.
+Fc/p: Financiamiento a corto plazo.
+F 1/p: Financiamiento a largo plazo.
+La Empresa A presenta una situación que se dirá de “alta liquidez”, ya que la suma de los activos
+que se hacen líquidos en el plazo máximo de un año, es superior al total de pasivos con vencimientos dentro
+del mismo lapso. Naturalmente, el riesgo asumido de no estar en condiciones de afrontar tales obligaciones,
+es menor.
+Esta posición significa por un lado un mayor costo, derivado de mantener una posición de liquidez
+superior, por lo general con una consiguiente pérdida de rentabilidad. En tal caso, se observa que fondos de
+largo plazo financian una parte de los activos corrientes.
+La Empresa B, en cambio, estará financiando activos inmovilizados con obligaciones a corto plazo,
+es decir, asume un más alto riesgo en la expectativa de aumentar su rentabilidad al disminuir los costos de
+tener una liquidez que aleje la posibilidad de desajustes o desequilibrios transitorios.
+En el Capítulo VII se trata el tema de cómo medir esta variable liquidez26. En este lugar sólo se
+necesita aclarar que la situación descripta se expresa corrientemente en términos de diferencia o de cociente:
+a) Se dirá que la Empresa A tiene un capital de trabajo positivo porque:
+Ac – F c/p > 0 (cero)
+o que la relación:
+Ac > 1
+F c/p
+b) Respecto de la empresa B, se entiende que opera con un capital negativo pues:
+Ac – F c/p < 0 (cero)
+o que la relación:
+Ac < 1
+F c/p
+Además de lo expuesto, distintas proporciones de financiación a corto y a largo plazo suelen implicar
+también distintos costos: normalmente los pasivos de corto plazo tienen menor costo27 y permiten ajustar el
+nivel del financiamiento a las reales necesidades, determinadas éstas por factores tales como ciclo de los
+negocios, variaciones estacionales de la producción, etc.
+Estas consecuencias pueden ser fácilmente interpretadas con auxilio de la Figura 3:
+26 En particular, se comenta el concepto y medición de la “liquidez dinámica” a diferencia del criterio estático aquí
+empleado.
+27 Con la consiguiente ventaja respecto de la rentabilidad de la empresa, a diferencia de los activos, que a mayor
+liquidez implican por lo general una menor rentabilidad.
+33
+
+FIGURA 3
+El volumen del financiamiento total requerido por la empresa varía con el tiempo entre un máximo
+de nivel OA y un mínimo dado por el nivel OC. Puede suponerse que el volumen OC implica una necesidad
+de financiamiento permanente o de largo plazo, de tendencia creciente quizás (como lo supone el gráfico).
+Ese financiamiento permanente es el que puede variar, para hacerse igual, superior o inferior a las
+necesidades permanentes, en cuyo caso los fondos de corto plazo deberán ser iguales, inferiores o superiores
+respectivamente a los requerimientos transitorios.
+Para aclarar el problema, puede suponerse que la empresa, a través de su responsable financiero,
+asume respecto del capital de trabajo una política que puede ser:
+a) de alta liquidez; b) de liquidez normal y, C) de baja liquidez, dentro de ciertos límites extremos, o
+sea dentro de una escala pertinente, tal como se representa en la Figura 4:
+FIGURA 4
+La política que se adopte, como se anticipó, ponderará las ventajas y desventajas asociadas a
+distintos grados de liquidez; entre un máximo y un mínimo que están dados por las mencionadas
+restricciones (derivadas de políticas de largo plazo, de la naturaleza de activos a financiar, etc.) en las figuras
+representadas por los puntos A (alta liquidez) y B (baja liquidez). El nivel aceptado buscará en consecuencia
+un equilibrio entre los riesgos y costos que cada estrategia implica, cuyo signo relativo se expone en el
+Cuadro 7 para los casos que se mencionan a manera de ejemplo:
+34
+
+CUADRO 7
+VARIABLE POLÍTICA
+Aspecto considerado A M B
+I. Riesgo de:
+• Pérdida de venta por falta de stock – < × < * +
+• Imposibilidad de cumplir obligaciones por falta de efectivo
+– < × < +
+II. Costo
+• Por inversión superior en activos corrientes (inventarios,
+etc.). + > × > –
+• Incobrables, gestión cobranzas, etc. + > × > –
+• Gastos de depósito, conservación y control + > × > –
+• Impacto sobre ventas + > × > –
+* La posición × de liquidez supone en este caso un riesgo mayor que en caso de adoptarse la política A pero
+menor que la política B (A < × < B).
+Los efectos de distintas políticas en los rubros patrimoniales pueden apreciarse a través del ejemplo
+del Cuadro 8:
+CUADRO 8
+P o l í t i c a
+Rubro patrimonial A O B
+(a) Activo corriente 500.000 400.000 300.000
+(b) Activo inmovilizado 400.000 400.000 400.000
+(c) TOTAL ACTIVO 900.000 800.000 700.000
+(d) Pasivo c/plazo (40%) 100.000 200.000 350.000
+(e) Pasivo 1/plazo (50 %) 350.000 200.000 ––––––
+(f) TOTAL DEUDAS 450.000 400.000 350.000
+(g) Patrimonio Neto 450.000 400.000 350.000
+(h) Pasivo + Patrimonio Neto 900.000 800.000 700.000
+Para conocer las implicancias de cada política respecto de la rentabilidad de la empresa, deben
+observarse sus repercusiones en el cuadro de resultados, tal como se ejemplifica en el Cuadro 9:
+CUADRO 9
+P o l í t i c a
+Concepto A O B
+(1) Ventas 7.200.000 9.200.000 11.200.000
+–Costo oper. tot. 5.760.000 (80%) 6.440.000 (70%) 10.080.000 (90%)
+(2) Ut. antes de Imp. e Int. 1.440.000 2.760.000 1.120.000
+–Interés 215.000 180.000 140.000
+Monto imponib. 1.225.000 2.580.000 980.000
+–Imp. (40%) 490.000 1.032.000 392.000
+(3) Util. Neta 735.000 1.548.000 588.000
+Es posible ahora calcular la rentabilidad, tanto económica u operativa como sobre el capital propio,
+además de sus correspondientes rotación y margen (ver Cuadro 10):
+CUADRO 10
+Concepto Cálculos * A O B
+I. Rotación (1) ÷ (c) 8 < 11,50 < 16
+II. Margen (2) ÷ (1) 0,20 < 0,30 > 0,10
+III. Rentab. operativa (I) × (II) 1,60 < 3,60 > 1,60
+IV. Rent. s/Cap. Propio (3) ÷ (g) 1,63 < 3,87 > 0,59
+35
+
+* Los números arábigos hacen referencia al dato correspondiente del cuadro 9; los romanos a este mismo
+cuadro 10 y las letras al cuadro 8.
+Se aprecia en el ejemplo que una posición de menor liquidez relativa supone un mayor índice de
+rotación. Por otra parte, la política de liquidez óptima resulta con mejor margen que las otras alternativas, lo
+que se puede atribuir a que constituye una solución de equilibrio entre los mayores costos derivados de una
+inmovilización superior de activos implicados por una liquidez más alta (A) o de la mayor frecuencia de
+pedidos y las condiciones de ventas más rigurosas (que influyen negativamente sobre ventas, suponiendo ello
+una pérdida de ingresos equiparables a un mayor costo), consecuencias de una política más restrictiva (B).
+La resultante es una rentabilidad operativa superior para la óptima (1,60 < 3,60 > 1,60), que dadas las
+políticas establecidas sobre financiamiento (Deudas ÷ · Neto = 0,50, y activos corrientes ÷ pasivos de corto
+plazo = 5;2 y 0,85 para A, 0 y B respectivamente, resulta en una rentabilidad sobre capital propio también
+superior (1,63 < 3,87 > 0,59).
+Una visión diferente del problema de la administración del capital de trabajo deriva de suponer que:
+a) la política de créditos y cobranzas; y b) la administración de stock, están dadas y que su gestión se realiza
+con máxima eficiencia28. En este caso, el problema se reduce a decisiones sobre cuantía de los fondos
+líquidos (disponibilidades más valores negociables) que resulta conveniente mantener dadas las funciones de
+costo creciente y riesgo decreciente asociadas a una mayor liquidez.
+28 Ver Van Horne, James C., Administración Financiera, Ed. Contabilidad Moderna, Buenos Aires, 1973, cap. XV.
+36
+
+ANEXOS AL CAPÍTULO V
+Anexo capítulo V.1.:
+El control de efectivo y bancos
+El Gerente de Finanzas es responsable, entre otras cosas, de que la empresa cuente con la provisión
+de fondos que sea adecuada para el correcto funcionamiento de la misma, lo que representa contar con un
+adecuado grado de liquidez. No obstante, esta liquidez no debe ser más que la estrictamente necesaria, ya
+que el objetivo de maximizar la rentabilidad es incompatible con el mantenimiento de fondos líquidos
+innecesarios y por lo tanto improductivos. Se entiende que la situación que enfrenta el Gerente de Finanzas
+es correctamente expresada al señalar que la satisfacción del objetivo “rentabilidad” reconoce como
+restricción la necesidad de mantener una adecuada “liquidez”29. Rentabilidad y liquidez aparecen así
+enfrentadas en antinomia siempre presente en opciones como seguridad vs. riesgo, valores presentes vs.
+valores futuros, etc.
+Del reconocimiento de tal realidad, nace la necesidad de conocer, con debida anticipación, el
+comportamiento futuro de ingresos y egresos, ya que todo asincronismo entre ellos reclama decisiones cuya
+bondad, muy frecuentemente, es función directa de la capacidad de anticipación de tales contingencias.
+a) Cuadro de Ingresos y Egresos
+Al respecto, un instrumento básico para la gestión financiera en el corto plazo es lo que
+denominaremos (a falta de mejor nombre) Cuadro de Ingresos y Egresos (ver Cuadro l).
+Este “Cuadro de Ingresos y Egresos” podrá ser denominado Form. 1 para distinguir la naturaleza de
+la información en él contenida de la que recogerá el “Cuadro de Ingresos y Egresos” –Form. 2–, referida ésta
+a la ejecución del plan cuya expresión financiera se volcara en el Form. 1. Así pues, el Form. 1 contendría el
+flujo de fondos previsto, día a día, para las dos primeras semanas, y globalizando semanalmente para las
+semanas 3, 4, 5 y 6. Abarcará en consecuencia un período de seis semanas, aproximadamente 45 días, plazo
+que se estima el adecuado no sólo por la modalidad de ventas (cobros) más generalizada sino también por las
+características de la operativa del mercado financiero nacional, básicamente (por ahora al menos) un
+mercado de dinero, al que se accede ya sea como tomador o demandante de fondos según sea el signo del
+transitorio desequilibrio financiero, a cuya previsión apunta el Form. 1, mientras que la constatación o
+control de concreciones o desvíos se lograría mediante el uso del Form. 2. Este podrá tener un formato como
+el ejemplificado en el Cuadro 2.
+La secuencia de las tareas requeridas por el empleo de estas herramientas de gestión, puede ser
+rápidamente esquematizada tal como lo muestra la Fig. 1. A su vez, la información requerida reconoce la
+naturaleza y el origen que se indica en la Fig. 2.
+29 En igual sentido Azulay, Mario, “Hacia un objetivo operativo para el Administrador Financiero”, Rev.
+Administración de Empresas, T. I, pág. 485/91.
+37
+
+GRÁFICO 1
+38
+
+GRÁFICO 2
+FIGURA 1
+Directivas para la elaboración de los formularios: El Form. 1 será emitido por “Planificación y
+Control”30 a base de la información suministrada por dependencias del departamento de Gestión Financiera
+como asimismo por otros de las distintas áreas funcionales. Dado el corto plazo que le es propio, muchos de
+los datos que recogerá serán ciertos ya que, dependiendo de las modalidades con que opera la empresa, se
+tendría por ejemplo que una venta $ 1 millón efectuada hace quince días, pagadero a treinta días, constituye
+un dato cierto que se reflejará entre los ingresos que se informan en el Form. 1. En cambio, el canal que
+opera al contado, sólo dispondrá de su mejor estimación para informar respecto de ingresos previstos para la
+4ª semana.
+Los distintos orígenes de la información que sirve de soporte a la resumida en el Form. 1, sumado a
+su distinta naturaleza, constituyen circunstancias que hacen aconsejable que la confección de este cuadro sea
+responsabilidad del departamento o sector “Planificación y Control”.
+30 Se tiene como referencia la estructura orgánica sugerida en el capítulo IV.
+39
+
+FIGURA 2
+En su confección se deberá tener en cuenta una serie de circunstancias propias de cada empresa. No
+obstante, las siguientes pautas pueden reconocer una validez generalizada:
+– La Gerencia Comercial (o quien haga sus veces) es la responsable de estimar las ventas que
+tendrán lugar durante el período, abarcado por el Form. 1. La información deberá especificar por
+canal de ventas, cantidad de unidades (físicas), precio por unidad (podría ser promedio
+tratándose de una familia o categoría determinada de productos) y modalidad o condiciones de
+venta (plazo de pago, interés o descuento, etc.).
+Precisamente, dado que diferentes canales suelen operar con distintas condiciones de venta, el
+cuadro de ingresos y egresos aparece identificándolos para que el sector “Planificación y
+Control” vea facilitada su tarea de traducir a términos financieros la operatoria de ventas,
+precisando importes y momentos en que se efectivizarán los ingresos.
+Así por ejemplo, el canal 1 puede estimar una venta de 150, 170, 180 y 185 unidades semanales, para
+el mes de mayo a $ 2000 por unidad, a 30 días de plazo. Cuando Planificación y Control confecciona el
+Form. 1, de fecha 1º de junio, calculará para la 3ª semana un ingreso de $ 360.000 y para la 4a semana, $
+370.000. En cambio, para las semanas 1 y 2 ya posee los datos suministrados por el Form. 2 referidos a las
+ventas que efectivamente se concretaron durante los primeros 15 días de mayo y que sólo cabe esperar
+ingresen efectivamente por la suma que exactamente corresponde al importe de la venta efectuada.
+Resumiendo, el Form. 1 es alimentado por datos ciertos (ventas ya efectuadas) por todo el período
+que alcancen a cubrir las condiciones de venta pactadas (dígase, 30 días) y por datos estimados por el plazo
+que reste hasta cubrir los 45 días. De resultar pertinente, y en ausencia de mejor base, se admitirá para las
+últimas semanas la repetición de los datos de las semanas anteriores, obviamente cuando el comportamiento
+de la variable en cuestión así lo avale.
+– El jefe de Tesorería suministrará el importe a cobrar por Documentos a Cobrar, quién lo obtiene
+del registro correspondiente o, en su defecto, el jefe de “Planificación y Control” estimará el dato
+según ventas proyectadas y las condiciones de venta fijadas.
+– El jefe de Tesorería también brindará, de acuerdo con el registro llevado al efecto, el importe de
+los ingresos correspondientes al vencimiento de colocaciones de fondos en el mercado de dinero
+o de títulos en general (depósitos a plazo fijo, Valores Nacionales Ajustables, Bonex, etc.).
+– De haber exportaciones, será normalmente la Gerencia Comercial quien brinde los datos a ellas
+referidas (ventas y condiciones de pago).
+En lo que hace a los egresos, se pueden tomar en cuenta las pautas siguientes:
+40
+
+– Sueldos y Jornales: el encargado de Personal será el responsable de estimar el dato según
+información histórica que el mismo dispone y estimaciones sobre eventuales modificaciones
+(aumentos de sueldo, incorporaciones de personal, etc.).
+– Cargas Sociales: para las primeras dos semanas (en caso de pagos quincenales) Tesorería puede
+disponer de los datos a través del archivo de obligaciones fijas a pagar. Para las otras semanas, se
+aplicará un porcentaje previamente determinado sobre las cifras estimadas por “Personal” para
+Sueldos y Jornales.
+– Obligaciones a Pagar: la información debe ser suministrada por “Tesorería”, según conste en el
+archivo de Obligaciones a Pagar.
+– Fondos Fijos: este importe es estimado por “Planificación y Control” de acuerdo con los
+importes y la frecuencia registrados corrientemente por las reposiciones.
+– Impuestos: este dato es suministrado por quien sea responsable de la sección. Si debe ser
+estimado, se calculará su importe en función de anticipos y liquidaciones anteriores.
+– Publicidad: esta información tiene origen en la Gerencia de Comercialización.
+– Compras Contado: su importe es estimado por el encargado de compras en función de los
+volúmenes de producción y datos históricos.
+– Compras de pago diferido (Cuenta Corriente, cheques o documentos a pagar): los datos serán
+informados por “Proveedores” a partir de su archivo de pedidos, con el soporte de la Orden de
+Compra correspondiente. Los importes se programarán para la fecha que resulte de considerar la
+fecha de entrega y las condiciones y días de pago.
+El Form. 2 brinda, según se aclaró, información real respecto de la ejecución de lo planeado. Por lo
+tanto, la fuente de la información que el mismo contiene, proviene de movimientos reales de fondos
+(ingresos y egresos). Por lo tanto, archivos de recibos (por ingreso según canal), órdenes de pago, etc., son
+los soportes de la información que suministra.
+b) Estado de Bancos
+Si bien el estado o cuadro de ingresos y egresos permitirá programar en el tiempo pagos y cobros
+según mejor resulte, la posibilidad (siempre concretada) de diferencias por demoras o anticipos en pagos y
+cobros, por ventas mayores o menores a las previstas, contingencias que originan movimientos de fondos no
+previstos (o por diferente importe), etc., como asimismo la necesidad de responder ágilmente a los desfasajes
+ocurridos, ya sea para recurrir al crédito o para invertir fondos que excedan el margen considerado normal,
+hacen imprescindible contar con información diaria respecto del estado de bancos, esto es, de los débitos,
+créditos y saldos previstos para cada día en cada una de las cuentas corrientes con que se opera.
+Se evitará así, por ejemplo, tener que pagar altos intereses por descubiertos en cuenta corriente31
+cuando pueden existir en Caja disponibilidades suficientes para cubrirlos o posibilidades de mantener en
+cartera cheques cuya entrega estaba prevista para la misma fecha en que el saldo negativo se prevé.
+A ese fin, es de utilidad el uso de una planilla a la que se denominará “Estado de Bancos - Form. 3”
+cuyo diseño puede ser similar al exhibido en el Cuadro 3. Su sencillez exime de comentarios sobre su
+confección y uso, ya que no representa sino la consabida conciliación que explica las diferencias que
+regularmente registran los saldos “de la chequera” (o contables) con los del banco que se trate.
+A los efectos de facilitar su elaboración, eso sí, es aconsejable el empleo de formularios
+complementarios que facilitan el vuelco de la información resumida al Form. 3. Tales formularios
+complementarios son el de “Depósitos del día - Form. 3. a”. (Cuadro 4), el de “Depósitos no acreditados -
+Form. 3. b”. (Cuadro 5) y el de “Cheques emitidos a integrar - Form. 3. c”. (Cuadro 6). El primero (Form.
+3.a.) brinda a través de la suma horizontal de los distintos tipos de depósitos el monto y subtotales
+fundamentales (depósitos en cuenta corriente y depósitos de valores al cobro) que se vuelcan en la col. 2 del
+Form. 3, según se lo puede comprobar a través de las cifras que se han empleado a título de ejemplo. Las
+planillas de caja constituyen el origen lógico de dicha información, controlable con la correspondiente suma
+de las boletas de depósito.
+31 Al presente, algunos bancos debitan un 160 % anual por dichos saldos en descubierto.
+41
+
+Día Mes Año
+1 6 79
+DEPÓSITOS DEL DÍA - Form. 3. a.
+BANCO Efectivo 24 hs. 48 hs. 72 hs. 96 hs Val. al Valores Total
+Cobro Negociables
+BANCO “A” 2.000.000 2.500.000 5.000.000 1.520.000 3.200.000 ––– 14.220.000
+BANCO “B”
+BANCO “C”
+TOTAL 2.000.000 2.500.000 5.000.000 1.520.000 3.200.000 ––– 14.220.000
+CUADRO 4
+Día Mes Año
+1 6 79
+DEPÓSITOS NO ACREDITADOS - Form. 3. b.
+BANCO 24 hs 48 hs. 72 hs. 96 hs. Subtotal Val. al TOTAL
+Ctas. Ctes. Cobro
+BANCO “A” 5.300.000 7.000.000 8.300.000 2.000.000 22.600.000 4.300.000 26.900.000
+BANCO “B”
+BANCO “C”
+BANCO “D”
+TOTAL 5.300.000 7.000.000 8.300.000 2.000.000 22.600.000 4.300.000 26.900.000
+42
+
+CUADRO 4
+El Form. 3. b. se hace necesario para tener la información actualizada sobre los montos que se harán
+disponibles día a día en función de los depósitos ya efectuados pendientes de acreditación y de los nuevos
+depósitos también clasificados según las horas de “clearing” requeridas en cada caso.
+Día Mes Año
+1 4 79
+CHEQUES EMITIDOS A ENTREGAR - Form. 3. c.
+Ch/Emitido FECHA DE ENTREGA (Pago)
+s en el día 4/6 5/6 6/6 7/6 8/6 11/6 12/6 13/6 14/6
+BANCO “A” 18.000.000 4.000.000 8.500.000 2.100.000
+BANCO “B”
+BANCO “C”
+BANCO “D”
+TOTAL
+CUADRO 6
+Así por ejemplo se observa que al finalizar el día 1/6/79, se deberá tener en cuenta que al día hábil
+siguiente (4/6/79), serán acreditados en cuenta corriente $ 5.300.000, o sea los $ 2.500.000 en cheques de 24
+horas depositados el 1/6/79 más la suma de los depósitos que el mismo Form. 3.b. correspondiente al día
+anterior (31/5/79) habrá expuesto como “a acreditar” en 48 horas, en este caso $ 2.800.000.
+Obviamente, los totales de las columnas del Form. 3.b. sumadas horizontalmente, en este caso $
+22.600.000 por depósitos en cuenta corriente y S 4.300.000 para valores al cobro, son sumas que no están
+aún disponibles, aunque contablemente así aparezca. En la col. 8 del Form. 3 tales totales aparecen, en
+consecuencia, disminuyendo el saldo financiero, resultante final que se refleja en la col. 11 de dicho
+formulario.
+Finalmente, el Form. 3.c. informa el total de cheques emitidos en el día por un lado, y por el otro, el
+importe de los cheques, clasificados siempre por banco contra el cual se gira, que serán entregados en los
+días que siguen. Este formulario, como la información que contiene, posee relevancia especial en las
+empresas que tienen establecidos determinados días de pago para sus 'diferentes proveedores, situación que
+hace posible, y muchas veces aconsejable sino necesario, la confección anticipada de las correspondientes
+órdenes de pago y cheques.
+Dado que la col. 3 del Form. 3 recoge el importe total de los cheques emitidos en el día, es obvio que
+si algunos o la totalidad de los mismos serán entregados días después, se hace necesario un ajuste para
+conocer el saldo financiero real a esa fecha.
+En consecuencia, la col. 9 del Form. 3 informa sobre el importe total de los cheques pendientes de
+entrega, información que se obtiene del Form. 3. c.
+En el ejemplo presentado, se tiene que los cheques aún no entregados suman 3 14.600.000 según
+Form. 3. c., importe que en el Form. 3, col. 9, aparece incrementando el saldo financiero por igual suma.
+En definitiva, el saldo financiero, o sea disponible en cuenta corriente al día 1/6/79 es de $
+6.667.300; el saldo de valores al cobro, presentados y aún no acreditados es de $ 6.000.000. Los $ 1.500.000
+de valores al cobro cuya acreditación aparece informada en la col. 4 del Form. 3, han pasado a engrosar las
+disponibilidades en cuenta corriente del mismo banco, tal como aparece reflejado en la parte superior de la
+misma columna32.
+32 En beneficio de la mayor claridad, se han omitido totales que podrían llegar a confundir.
+43
+
+c) El Estado de Bancos Proyectado
+Una vez en poder de la información que se ha venido refiriendo, es muy razonable pretender, y muy
+simple de obtener, una información que permita, en forma rápida, escoger la institución financiera contra la
+cual se librarán los próximos pagos o a la cual se canalizarán fondos ingresados, en todos los casos en que
+ello sea una decisión no comprometida con anterioridad.
+Al efecto se elaborará diariamente, el “Estado de bancos proyectado - Form. 3.d.”, con el diseño tipo
+que propone el Cuadro 7.
+Como seguramente se ha interpretado ya, ciertos datos tales como depósitos en efectivo, deben
+estimarse en base a un detenido análisis de la generación de fondos de la empresa (tema que se tratará más
+adelante) el que deberá permitir estimar una cifra razonablemente, aceptable, capaz de resistir su cruzamiento
+con importes que por otras vías pueden proyectarse (en función del importe y condiciones de venta, por
+ejemplo).
+Para “Acreditación de Cheques”, se partirá de los datos ciertos suministrados por el Form. 3.b., que
+se podrán ajustar para los días futuros atento la evolución regular que sigan los cobros y la política con
+bancos, de acuerdo a la cual se canalizan los depósitos.
+Los datos referidos a “Cheques a Entregar”, se toman del Form. 3.c., y se estiman otros egresos para
+los cuales no existe información de base cierta.
+Así entonces, según los datos imaginados para el ejemplo, se tiene en el Banco A al finalizar el día
+1/6/79 un saldo de $ 6.667.300. Para el día 4/6/79 se tiene un saldo de $ 12.667.300, resultante de adicionar
+al saldo inicial (el final del día 1/6/79) los ingresos, luego restar los egresos previstos para ese día, y así
+sucesivamente para los días siguientes.
+Basado solamente en la situación referida al Banco A, se está en condiciones de poder propiciar, por
+ejemplo, la inversión de $ 6.500.000 el mismo día viernes 1/6/79, por un plazo mínimo de 7 días, que puede
+ser mayor en cuanto se complete la información para un plazo más amplio.
+También puede ser colocado en el mercado financiero el saldo (superávit financiero) del lunes 4, ya
+que los egresos diarios prueban ser más que cubiertos por ingresos diarios, y así sucesivamente. En cambio,
+el superávit del día jueves 7 debe mantenerse disponible para cubrir el déficit previsto para el día viernes 8.
+Día Mes Año
+1 6 79
+ESTADO PROYECTADO DE BANCOS - FORM. 3. D.
+BANCO CONCEPTO L. 4 M. 5 M. 6 J. 7 V. 8 L. 11 M. 12 M. 13 J. 14
+1. BANCO “A” (cid:206)
+a) Saldo anterior 6.667.300 12.667.300 19.767.300 34..617.300 37.717.300
+b) Ingresos:
+- Dep. en efectivo 1.200.000 1.000.000 900.000 1.300.000 1.400.000 (cid:206)
+- Acredit. cheques 5.300.000 7.000.000 8.300.000 2.000.000 5.200.000 (cid:206)
+- Vto. coloc. financ. 10.000.000
+- TOTAL 6.500.000 8.000.000 19.200.000 3.300.000 6.600.000 (cid:206)
+(c) Egresos:
+- Pagos contado 500.000 400.000 350.000 200.000 200.000 200.000
+- Ch/a entregar 4.000.000 8.500.000 2.100.000
+-Reposic. Fondo Fijo 500.000 500.000 (cid:206)
+- TOTAL 500.000 900.000 4.350.000 200.000 9.200.000 (cid:206)
+d) Saldo [(a) + (b) – (c)] 12.667.300 19.767.300 34.617.300 37.717.300 35.117.300 (cid:206)
+2. BANCO “B”
+a) (cid:206)
+b)
+Saldo Total Diario
+Saldo Total Acumul.
+CUADRO 7
+44
+
+CUADRO 8
+CUADRO DE INGRESOS Y EGRESOS DIARIOS
+Concepto L M M J V
+(1) Ingresos 6.500.000 8.000.000 19.200.000 3.300.000 6.600.000
+(2) Egresos 500.000 900.000 4.350.000 200.000 9.200.000
+(3) Diferencia 6.000.000 7.100.000 14.850.000 3.100.000 (2.600.000)
+Queda ejemplificada así, la utilidad prestada por una información diaria sobre ingresos y egresos del
+día, que debiera pretenderse siempre ya que el saldo acumulado, útil también, no resulta el más indicado para
+la inmediata interpretación de la situación día a día que debe manejarse (ver cuadro 8).
+d) Resumen de Fuentes y Usos de Fondos
+La planilla diaria de movimientos de fondos provee los datos referidos al total de ingresos
+(discriminados por canal y otros conceptos más importantes) así como de egresos (tales como los originados
+en depósitos y pagos diversos).
+Por otra parte, con respecto a “Pago a Proveedores”, el encargado de la confección de “Ordenes de
+Pago” y los cheques respectivos, puede asimismo preparar en forma simultánea, una planilla u hoja de
+trabajo donde volcar los importes de los cheques emitidos día por día, clasificados según los conceptos más
+relevantes.
+La disponibilidad de esta información, sugiere la posibilidad de preparar un “Resumen de fuentes y
+usos de fondos. Form. 4.”, que por su sencillez y utilidad es altamente aconsejable. De tal manera, puede
+prepararse un cuadro que posibilitaría saber, diariamente, y en consecuencia para el período deseado (semana
+o mes), el importe total de ingresos y egresos discriminados ambos conceptos en sus ítems más importantes.
+Así por ejemplo se podrá conocer la relación entre ingresos y egresos totales, la proporción de gastos
+de funcionamiento y de gastos de capital (o inversiones) dentro de los egresos totales o los componentes más
+relevantes de aquéllos. En síntesis, a base de la información que puede suministrar un cuadro como el
+sugerido puede confeccionarse un gráfico como el representado en la Fig. 3.
+Esta información de carácter económico-financiero, que da cuenta de la naturaleza de los ingresos y
+egresos de fondos, es de suma utilidad dado el permanente interés demostrado por el o los propietarios-
+gerentes de empresas de reducido tamaño por conocer “qué se hizo con los fondos que han estado entrando
+durante este tiempo”, sin esperar el balance u otro tipo de información equivalente.
+Anexo capítulo V.2.:
+Dimensión óptima del pedido de reposición
+Para facilitar la comprensión del modelo básico aplicable a este problema, se ilustrará a través de un
+sencillo ejemplo cuáles son los datos mínimos que deben ser tenidos en cuenta al decidir sobre el particular.
+La información básica requerida aparece en el cuadro 1.
+CUADRO 1
+1. Nivel de stock actual:
+Unidades: 20.000
+Costo Unitario: 15
+Inversión: 300.000
+2. Ventas anuales proyectadas: 600.000 unidades
+3. Stock de seguridad: 8.000 unidades
+4. Costo por orden 430
+5. Costo de mantenimiento: almacenamiento, seguro, etc.: 1,00 por unidad
+costo financiero (int.) : 1,50 por unidad
+Total: 2,50 por unidad
+45
+
+Ref. 1 ---------- Ingresos totales
+2 ............ Egresos totales
+3 + + + + Gastos de capital (inversiones)
+FIGURA 3
+Los datos del Cuadro 1 permiten verificar el comportamiento de los componentes del costo como
+asimismo del monto global de éste, lo que surge al confeccionar un cuadro como el que se ilustra
+seguidamente, referido a distintas magnitudes del lote de compra.
+CUADRO 2
+Magnitud del pedido
+Concepto 1.000 5.000 10.000 15.000 30.000 100.000 200.000
+Números de pedidos 600 120 60 40 20 6 3
+Inventario medio 8.500 10.500 13.000 15.500 23.000 58.000 108.000
+Costo de Manten. 21.250 26.250 32.500 38750 57.500 145.000 270.000
+Costo de Ordenam. 258.000 51.600 25.800 17.200 8.600 2.580 1.290
+Costo Total 279.250 77.850 58.300 55.950 66.100 147.580 271.290
+El número de pedidos surge al dividir el monto de ventas anuales (unidades) por el volumen o
+magnitud del pedido. Así por ejemplo para uno de los casos planteados en el Cuadro 2 se tiene:
+600.000 = 40
+15.000
+Por inventario medio podemos suponer el que deriva de adicionar al stock de seguridad la mitad de
+la magnitud del pedido correspondiente al período considerado (mes), o sea:
+8.000 + 15.000 = 15.550
+2
+El costo de mantenimiento es igual a la cifra del inventario medio multiplicada por el costo de
+mantenimiento por unidad, o sea:
+15.500 × 2,50 = 38.750
+El costo de ordenamiento es igual al número o cantidad de pedidos en el período considerado por el
+costo unitario de cada orden:
+46
+
+40 × 430 = 17.200
+Consecuentemente, los costos totales son:
+C. T. = Costo de mantenimiento + Costo de ordenamiento
+= 38.750 + 17.200 = 55.950
+Cómo evolucionan los costos parciales y totales en función del tamaño del pedido surge evidente del
+Cuadro 2. Los valores allí expuestos pueden volcarse a un gráfico como el exhibido en la Figura 1, en la que
+se visualizan claramente los comportamientos de los costos de mantenimiento, de pedido y los costos totales.
+Se aprecia allí que es el pedido de 15.000 unidades el más favorable, dado que representa la magnitud
+mínima de los costos totales implicados.
+FIGURA 1
+El tamaño o lote óptimo de compra puede determinarse de manera directa por aplicación de la
+fórmula:
+2.F.V
+Q =
+c
+donde:
+Q = Cantidad óptima del pedido.
+F = Costo fijo del pedido.
+V = Ventas anuales o cantidad requerida por fábrica.
+C = Costo unitario de mantenimiento.
+En el caso planteado:
+2×430×600.000 516,0M
+Q = = = 206,4M =14.367
+2,50 2,50
+resultado que representa exactamente el tamaño del lote óptimo de compra.
+47
+
+Anexo capítulo V.3.:
+El otorgamiento de crédito como caso particular
+Adoptada la política que en líneas generales deberá seguir la empresa33, la presentación de una
+solicitud para poder operar a crédito por parte de un cliente, debe poner en marcha un procedimiento
+previamente decidido que conduzca a su aceptación o rechazo. Por lo general, son observadas tres etapas:
+a) obtención de la información necesaria;
+b) análisis de la misma, y
+c) decisión.
+En cuanto a la información, la cuantía y la calidad pretendidas deben determinarse en función de la
+importancia del pedido, costo relativo de distintas fuentes de información en relación con el beneficio
+derivado, conocimiento de las calidades del solicitante, etc.
+De todas maneras, son generalmente requeridos los estados contables, documentos que admiten
+distintos grados de validez respecto de la decisión que aquí se comenta en función de su oportunidad y
+antigüedad, el informe de auditores conteniendo ajustes por inflación, etc. También se emplean informes de
+agencias y los que distintas organizaciones de comerciantes suelen producir para uso de sus miembros.
+Asimismo son comúnmente utilizados los informes de bancos de plaza y referencias comerciales.
+El procedimiento de análisis se basa en las técnicas conocidas de “análisis e interpretación de estados
+contables” además de técnicas de flujos proyectados, características de la empresa y del sector en que se
+desenvuelve, etc. En este terreno, el criterio y la experiencia del analista de crédito juegan un importante rol;
+no obstante, es relevante evitar la subjetividad y la discrecionalidad más allá de límites razonables, lo que
+puede lograrse mediante el desarrollo de una metodología expresa de evaluación que acuerde un puntaje que
+sirva de base para la toma de decisiones.
+La relación continuada con un cliente, permitirá mantener actualizada la calificación del mismo
+(Excelente, Bueno, Regular, Malo) en función de lo cual puede decidirse la solicitud, como asimismo fijar
+los límites al crédito que puede ser otorgado. El seguimiento de los clientes permite también conocer, para
+cada categoría de clientes, los plazos efectivos medios de cobro, el costo promedio de cobranza y los
+coeficientes de quebrantos registrados. Contando con estos datos, es factible emplear fórmulas desarrolladas
+para calcular el costo de aceptar y de rechazar pedidos en función del volumen del pedido34. Obviamente,
+cuando el costo de rechazarlo es superior (o igual) al de aceptarlo, estará indicada la conveniencia de aceptar
+el pedido.
+Dichas fórmulas son las siguientes:
+r.P
+C =V(1−m)(q+ )+K
+A 360
+Donde:
+C = Costo de aceptar el pedido.
+A
+V = Monto del pedido ($).
+q = Probabilidad (tasa) de quebranto.
+r = Tasa de rendimiento requerida sobre la inversión de cuentas a cobrar.
+p = Plazo medio de cobranza (días).
+m = Contribución marginal (tasa).
+K = Costo medio de cobranza.
+Para averiguar el costo de rechazo del pedido (C ):
+R
+C = V × m (1 – q)
+R
+Donde:
+33 Es muy importante una misma postura frente a los distintos clientes, a los efectos de evitar situaciones que puedan ser
+vistas como discriminatorias.
+34 Van Horne, J., Administración Financiera, Ed. Contabilidad Moderna, Buenos Aires, 1973.
+48
+
+C = Costo de rechazar el pedido
+R
+Si se supone a título de ejemplo que la firma tiene un precio de venta unitario de $ 30, con un costo
+marginal de $ 21, se tiene que:
+m = 9 = 0,30
+30
+∴(1 – m) = 0,70
+Otros datos necesarios son la tasa de rendimiento requerida por la inmovilización de fondos, que se
+supone igual al 20 %; los costos medios de cobranza (fijos respecto del volumen del pedido), que se estiman
+en $ 8 y en $ 90 para las categorías “Bueno” y “Malo” respectivamente; el período de cobranza, de 30 y 90
+días respectivamente; y la probabilidad de quebrantos, del 2 % y del 30 % para “Bueno” y “Malo”
+respectivamente. Dado un pedido de $ 1.000 se tendrá:
+1. Costo de rechazar el pedido
+1.1. Para la categoría “Bueno”:
+C = 1.000 × 0,30 (1 – q)
+R
+= 1.000 × 0,30 (0,98)
+= 1.000 × 0,294
+= $ 294
+1.2. Para la categoría “Malo”:
+C = 1.000 × 0,30 (1 – q)
+R
+= 1.000 × 0,30 (1 – 0,30)
+= 1.000 × 0,30 (0,70)
+= $ 210
+2. Costo de aceptar el pedido
+2.1. Para la categoría “Bueno”:
+C = 1.000 (0,70) [0,02 + 0,20 × 30 ] + K
+A
+360
+= 700 [0,02 + 0.0167] + 8
+= 25,69 + 8
+= $ 33,69
+2.2. Para la categoría “Malo”:
+C = 1.000 (0,70) [0,30 + 0,20 × 90 ] + 90
+A
+360
+= 700 [0,30 + 0,05] + 90
+= 245 + 90
+= $ 335
+Para los casos resueltos se tiene, entonces:
+Calificación C C
+R A
+Cliente “B” $ 294 $ 33,69
+Cliente “M” $ 210 $ 335,00
+Consecuentemente, un pedido cuyo volumen es de $ 1.000 debería ser rechazado si proviene de un
+cliente Malo (C < C ya que 210 < 335), pero tendría que ser aceptado de originarse en un cliente de
+R A
+calificación “Bueno” (C > C ya que 294 > 33,69).
+R A
+49
+
+A los efectos de su aplicación, puede elaborarse una tabla de dos entradas que brinda para cada
+categoría de clientes, los volúmenes que hacen conveniente la aceptación del pedido 7.
+La investigación puede incluir, cuando ello parezca justificado, otros elementos; el responsable
+financiero también dispone de otros arbitrios tales como limitar el saldo de la cuenta a un importe máximo
+que, lógicamente, habrá que mantener actualizado.
+Tomada la decisión, en caso de ser favorable, debe luego programarse un puntual seguimiento de la
+cuenta que oriente las acciones que a su respecto sean pertinentes (confirmar calificaciones, enviar notas
+reclamando el cumplimiento, solicitar la intervención de abogados, interrumpir el despacho de mercaderías,
+entregar la cuenta a agencias especializadas, etc.).
+Anexo capítulo VA.:
+Nociones básicas de elementos y cálculos financieros
+Como todos sabemos, el capital tiene reconocido un “valor tiempo”, una capacidad de generar renta
+llamada comúnmente interés. Este interés puede ser calculado según que el capital original esté colocado a
+“interés simple” o “interés compuesto”.
+a) Interés Simple e Interés Compuesto
+Interés Simple: El monto, o sea el capital original más los intereses, se calcula como sigue:
+C = Co + I (donde I = Co × i × n)
+n
+∴C = Co + Co × i × n
+n
+∴C = (1 + i × n)
+n
+donde:
+C = Monto o capital al final del período n.
+n
+Co = Capital inicial.
+i = Tasa (tanto por uno).
+n = Período (genérico).
+Naturalmente, si conocemos C puede obtenerse la suma inicial necesaria para contar con esa suma
+n
+al final de “n” períodos cuando la tasa de interés “i” es también conocida. Por simple pasaje de términos se
+tiene:
+Co = C ____
+n
+(1 + i . n)
+Así por ejemplo, puede pretenderse conocer el monto que se obtendría al colocar $ 35.000 al 6 %
+mensual durante 8 meses; en este caso se resuelve la expresión:
+C = Co (1 + i × n)
+n
+= 35.000 (1 + 0,06 × 8)
+= 35.000 (1,48)
+= $ 51.800
+La característica del interés simple radica en que los intereses ganados en un período no se suman al
+capital inicial para ganar a su vez interés en el período siguiente, por lo que la suma que se invierte
+“efectivamente” en cada período es la misma suma inicial, como si al final de cada período se retiraran los
+intereses ganados en el mismo.
+Si en el ejemplo anterior se partiera del conocimiento de la suma correspondiente al período 8º, esto
+es $ 51.800 (podría ser el monto de una cuota a pagar), sabiendo además que la tasa a que se podría colocar
+el dinero es del 6%, nace la pregunta de cuál sería el capital inicial necesario para reunir aquella suma. Se lo
+puede calcular resolviendo:
+50
+
+Co = ___C _____
+n
+(1 + i × n)
+∴ = 51.800 ÷ 1,48 = $ 35.000
+Estos $ 35.000 constituyen el valor actual o presente de una suma de $ 51.800 dentro de 8 meses
+cuando se utiliza una tasa de actualización (descuento) del 8 % mensual. Inversamente, $ 51.800 es el monto
+que se obtiene con una inversión inicial de $ 35.000 colocados al 6 % mensual durante 8 meses, a interés
+simple claro está.
+Interés Compuesto: En la mayor parte de las operaciones los intereses ganados en un período se
+incorporan al capital original, y la suma o monto resultante constituye el capital inicial para el período
+subsiguiente, y así sucesivamente. En este caso, llamado “interés compuesto”, se aprecia que el interés de un
+período gana a su vez interés en el siguiente, con lo que adquiere una espectacular capacidad multiplicadora:
+el capital inicial se duplica en 9 meses cuando se lo coloca a interés compuesto al 8 % mensual y en sólo 6
+meses colocado al 12 % mensual.
+En este caso, el monto se calcula resolviendo la expresión:
+C = Co (1 + i)
+n
+Cuando se trata de un período es:
+C = Co + I (donde I = Co × i)
+n
+∴ C = Co + Co . i
+n
+= Co (1 + i)
+Cuando se trata de 1, 2, 3,..., n períodos, la fórmula adquiere la expresión arriba indicada, o sea:
+C = Co (1 + i)n
+n
+La expresión (1 + i)n está resuelta para una suma inicial de un peso ($ l), para distintas tasas (i), y
+para distintos períodos (n) en las “tablas financieras”35 en donde aparece tal como se reproduce en la Fig. 1:
+FIGURA 1
+Número de T a s a s
+Períodos 6 % 7 % 8 %
+i = 0,06 i = 0,07 i = 0,08
+• ............... ............... ...............
+• ............... ............... ...............
+5 1,338226 1,402552 1,469328
+6 1,418519 1,500730 1,586874
+7 1,503630 1,605781 1,713824
+8 1,593848 1,718186 1,850930
+• ............... ............... ...............
+• ............... ............... ...............
+Así, por ejemplo, si se desea conocer el monto (C ) que se obtiene con una suma inicial de $ 35.000
+n
+en ocho períodos al 6 % mensual de interés compuesto, se tiene:
+C = 35.000 × 1,593848
+n
+= $ 55.784,7
+Si se desea conocer la suma inicial que origina tal monto al cabo de 8 períodos cuando la tasa es del
+6 % mensual, se tiene:
+35 Tabla I en las Tablas Usuales de Lascurain, Lambiasse y Roca.
+51
+
+Co = __C __
+n
+(1 + i)n
+o lo que es igual:
+Co = C [ ___1___ ]
+n
+(1 + i)n
+que, en nuestro caso es:
+Co = 55.784,7 × 0,627412 = $ 35.000
+La expresión entre corchetes está resuelta, también respecto de un monto de $ 1, en las tablas
+financieras36; por lo tanto el problema queda reducido a una simple multiplicación. Otros problemas, también
+fáciles de resolver, se plantean cuando la suma que se invierte no es una sola en el período inicial sino una
+suma igual en cada período. Este caso se resuelve también con la ayuda de las tablas financieras37, que
+proporcionan el “factor interés” correspondiente a la colocación repetida de $ 1 por período a la tasa “i”
+durante “n” períodos. También se supera con la misma facilidad el problema de calcular cuál debe ser la
+colocación periódica (imposición) que logra al final de “n” períodos a la tasa “i”, un monto dado, ya que las
+tablas financieras38 brindan esa información referida a un monto de $ 1, por lo que nuevamente sólo se
+requiere una multiplicación.
+Otras cuestiones muy importantes se vinculan al concepto de amortizaciones, como por ejemplo,
+cuál es el valor actual o presente que se amortiza (se paga) mediante una serie de “x” pagos periódicos
+(cuotas) de “tantos” pesos cuando la tasa aplicable es “tal” o “cual”. Por ejemplo, si en un negocio de
+artículos para el hogar se ofrece un televisor en $ 680.000 al contado o en diez cuotas mensuales
+consecutivas de $ 100.000, sabiendo que el interés corriente en este tipo de operaciones es del 8 %, surge el
+interrogante de cuál es la forma de pago más conveniente (suponiendo que no hay problemas que impidan el
+pago al contado). Para ello, cabe preguntarse cuál es el valor actual de las diez cuotas de $ 100.000,
+resolviendo el caso con las tablas financieras39 que brindan la suma o deuda que se amortiza por un valor
+actual de $ 1 a través de “x” pagos a la tasa “i”. En el presente caso se tiene que:
+i = 8 % = 0,08
+n = 10
+La tabla correspondiente dice que el “factor interés” es $ 6,710081, que es la suma actual amortizada
+por la serie de 10 pagos de $ 1 a la tasa del 8 %. Como los pagos son de $ 100,000, resulta que el importe
+actual (A) amortizado con ellos, cuando la tasa es del 8 %, es de
+A = 100.000 (Factor interés) = 100.000 × 6,710081 = $ 671.008
+Como se aprecia, es conveniente el pago en cuotas, ya que el valor presente de esta modalidad
+($671.008) es menor que el del pago al contado ($ 680.000).
+Otra tabla40 brinda la “cuota” que amortiza un valor actual de $ 1 a través de “x” pagos a la tasa “i”.
+Con ella se puede resolver, por ejemplo, la pregunta de cuál sería la cuota mensual (C) necesaria para pagar
+un televisor que cuesta $ 800.000 al contado, si se lo desea pagar en diez cuotas y el interés aplicable es el 8
+% mensual.
+En este caso es:
+C = 800.000 (F I) = 800.000 × 0,149029 = 119.223,20
+36 Tabla II de Lascurain, Lambiasse y Roca.
+37 Tabla III de Lascurain, Lambiasse y Roca.
+38 Tabla III de Lascurain, Lambiasse y Roca.
+39 Tabla IV de Lascurain, Lambiasse y Roca.
+40 Tabla V de Lascurain, Lambiasse y Roca.
+52
+
+(Los textos de matemática financiera ilustran en profundidad los temas aquí sumariamente
+presentados, como asimismo los que se comentan a continuación).
+En resumen, la valuación de sumas de dinero en distintos momentos, implica la utilización de dos
+conceptos básicos. Uno es el de capitalización, que se emplea para calcular el valor que adquirirá en el
+futuro una suma que se dispone en el presente, para lo cual se emplea el “factor de capitalización”41, es decir:
+Co C
+n
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯→
+Valor original × Capitalización con = Valor final
+el factor (1 + i)n (Monto)
+Una variante de esa situación es la planteada por una serie de sumas de dinero (imposiciones) que se
+desea valorizar a un momento futuro (Tabla III de Lascurain, Lambiasse y Roca).
+El otro concepto fundamental es el de actualización, al que se recurre cuando se desea conocer el
+valor o suma inicial, contándose con la suma o valor final. En este caso el “tramo” entre “hoy” y el “futuro”
+se recorre hacia atrás con el “factor de actualización” (Tabla II).
+C
+n
+←⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Valor actual = Actualizado con el × Valor final
+o presente factor ___1___ (Monto)
+(1 + i)n
+La variante para este caso también está dada por una serie de sumas futuras de dinero cuya valuación
+debe practicarse al presente (Tabla IV).
+b) Las Diferentes Tasas
+Hasta aquí, al referirnos a interés compuesto (caso en que se produce una capitalización de intereses)
+se ha supuesto que coinciden el período de capitalización (mensual, por ejemplo) con el período al cual está
+referida la tasa (tasa mensual). Pero esto no siempre es así, pues ocurre a menudo que dentro del período al
+que se refiere la tasa tienen lugar dos o más capitalizaciones, por lo que se habla de “capitalización sub-
+periódica”.
+En el otro caso, se tiene una capitalización que se dice “periódica”, y la tasa referida a ese período se
+llama tasa nominal. Cuando la capitalización es sub-periódica se hace necesario precisar cuál es la tasa
+aplicable en cada sub-período o, si está expresada para períodos cortos (por ejemplo el mes), cuál es la tasa
+efectiva correspondiente a un período más largo (por lo general, el año), Surge así la necesidad de
+comprender el significado de las siguientes tasas:
+a) Tasa proporcional: Es la tasa periódica (anual) dividida por el número de sub-períodos.
+Ej.: Para una tasa nominal anual del 90 % capitalizable cuatrimestralmente, se tiene una tasa
+proporcional del 30 %. Por supuesto que, si la capitalización cuatrimestral se hace con la tasa
+proporcional, se obtiene al cabo del año un monto que es mayor que el que se obtiene con la
+capitalización periódica (anual) usando la tasa nominal (periódica).
+b) Tasa equivalente: Es aquélla que, utilizada en las capitalizaciones subperiódicas, lleva a la
+obtención de un monto igual que el que se logra con la tasa nominal en una capitalización
+periódica.
+En este caso, naturalmente, la tasa equivalente (i ) es menor que la tasa nominal (i ).
+e n
+c) Tasa efectiva: Es la tasa periódica que permite obtener un monto igual al que se logra con la tasa
+proporcional subperiódica, capitalizando subperiódicamente, al cabo de todo el período. Por lo
+41 Número por el cual hay que multiplicar la suma o sumas a capitalizar para obtener el valor final (C ). Este número se
+n
+halla calculado en las tablas financieras con referencia a $ 1 de suma inicial.
+53
+
+tanto la tasa efectiva (i ) debe ser mayor que la tasa nominal (i ), que está expresada también
+e n
+para el período.
+En síntesis, se tiene para cada tipo de capitalización, dos clases de tasas:
+a) Capitalización subperiódica:
+1) tasa proporcional;
+2) tasa equivalente.
+b) Capitalización periódica:
+1) tasa nominal;
+2) tasa efectiva.
+Es interesante recordar en este lugar que la tasa efectiva anual debe ser calculada y exhibida en las
+pizarras por parte de las entidades financieras, a los efectos de facilitar al inversor la comparación (y la
+selección) de los ofrecimientos. Así por ejemplo, si una entidad financiera ofrece una tasa (nominal) del 84
+% anual42 para depósitos a 360 días, y otra una tasa del 7 % mensual para depósitos a 30 días, la exigencia
+del Banco Central ilustra al inversor de la gran diferencia existente, ya que la tasa efectiva anual en el
+segundo caso es de (1,07)12 – 1 o sea de un 125 % anual.
+En otras palabras, en el primer caso un depósito de $ 100 el 1º de enero permitiría contar con un
+monto de $ 184 al 31 de diciembre, mientras que en el segundo, el mismo depósito inicial daría lugar a la
+obtención de un monto de $ 225 al 31 de diciembre.
+Si se desea comparar tasas en vez de montos (o cuando sólo se conoce la tasa nominal y el período
+de capitalización) se parte de la igualdad de los montos usando las tasas subperiódica proporcional y
+periódica efectiva (V). Así se tiene:
+C = Co (1 + i’)n
+n
+C = (1 + _i_ )m n
+n
+m
+Donde:
+i’ = tasa periódica efectiva.
+i = tasa periódica nominal.
+m = cantidad de subperíodos.
+_i_ = tasa proporcional.
+m
+n = períodos.
+Por lo tanto:
+Co (1 + i’)n = Co (1 + _i_ )m n
+m
+Simplificando los términos comunes en ambos miembros tenemos:
+1 + i’ = (1 + _i_ )m
+m
+i’ = (1 + _i_ )m – 1
+m
+Así por ejemplo, si se quiere conocer la tasa efectiva que corresponde a una tasa nominal anual del
+96 % capitalizable proporcionalmente en forma mensual (m = 12), se tiene:
+42 Nótese que 84 % / 12 meses = 7 %, pero según el ofrecimiento no existe capitalización mensual.
+54
+
+i’ = (1 + _0,96_ )m – 1
+12
+= (1,08)12 – 1 = 2,5182 – 1 = 1,52 = 152 %
+resultado que se comprueba a diario en las publicaciones sobre tasas ofrecidas en el mercado argentino.
+Otros dos términos referidos a tasas son de uso corriente: activas y pasivas, los que se comentan
+seguidamente:
+a) Tasa activa: Es aquella tasa que las entidades financieras cobran a los usuarios o beneficiarios de
+los créditos.
+b) Tasa pasiva: Es la tasa que las entidades financieras pagan a los depositantes para hacerse de
+fondos que luego transfieren a los solicitantes de préstamos.
+La diferencia entre estas tasas se conoce con la denominación de “spread”, y su nivel constituye un
+indicador de la eficiencia con que opera un sistema financiero. Otra palabra en idioma inglés es usada en este
+ámbito: el “call money”. Son los fondos que se intercambian las entidades financieras para solucionar
+situaciones transitorias, los que se transfieren a una tasa llamada comúnmente “call” o “tasa interbancaria”,
+cuyo nivel suele ser un buen indicador de la liquidez de la plaza financiera.
+c) El Costo Efectivo de un Crédito (préstamo)
+La tasa efectiva es tomada, por lo general y con toda corrección, como unidad de medida del costo
+de las operaciones financieras, uno de los aspectos decisivos en la instancia de tener que escoger entre varias
+alternativas.
+Este costo debe ser el costo efectivo total, no siendo de significación distinguir entre interés,
+comisiones, sellados, gastos de análisis, etc. interesa al respecto la suma que efectivamente ingresa a la
+empresa como resultado del préstamo y la o las sumas que deben pagarse para saldarla, datos suficientes para
+calcular el costo, tal como se ilustra a continuación.
+Supóngase que se pretende un financiamiento de $ 5 millones, los que efectivamente deben ingresar
+en la cuenta corriente de la empresa a determinada fecha. La entidad crediticia está dispuesta a concederlo en
+condiciones que la empresa considera adecuadas a sus posibilidades y conveniencia; concretamente,
+devolver 6 cuotas mensuales iguales de $ 1.066.666.
+Para calcular el costo de esta operación debe determinarse el valor de la tasa “k” que logre la
+siguiente igualdad:
+i=61.066.666
+I =5.000.000= Σ
+e i=1 (1+k)i
+Donde:
+I = Ingreso efectivo de fondos en cta. cte. o caja,
+e
+k= Tasa de descuento o de costo efectivo (por período).
+Se trata, pues, de obtener el valor de “k”, lo que debe hacerse por tanteo o aproximaciones sucesivas.
+En primer término, se prueba con una tasa mensual del 7 %, nivel que se considera “moderado”:
+6 1.066.666 1.066.666 1.066.666 1.066.666 1.066.666 1.066.666 1.066.666
+Σ = + + + + +
+1 (1+0,7)6 (1,07) (1,07)2 (1,07)3 (1,07)4 (1,07)5 (1,07)6
+⎡ 1 1 1 1 1 1 ⎤
+=1.066.666
+⎢
++ + + + +
+⎥
+⎣(1,07) (1,07)2 (1,07)3 (1,07)4 (1,07)5 (1,07)6 ⎦
+55
+
+= 1.066.666 [0,935 + 0,8734 + 0,8163 + 0,7628 + 0,7130 + 0,6664]
+= 1.066.666 (4,7669) = 5.084.690
+Esta suma es mayor que el valor presente de las sumas adeudadas (5.000.000 < 5.084.690), por lo
+que se debe interpretar que el costo del financiamiento estudiado es mayor que k = 7 %, que tentativamente
+se introdujera en el cálculo.
+Si se prueba con una tasa de descuento (k) del 8 % mensual, que se supone una hipótesis de máxima
+dadas las condiciones imperantes en el mercado de dinero, el resultado será el siguiente (utilizar Tabla IV de
+Lascurain, Lambiasse y Roca):
+1.066.666 (4,6229) = 4.931.090
+Se comprueba aquí que 4.931.090 < 5.000.000, por lo que se debe concluir que el costo efectivo es
+menor que el 8 % y mayor que 7 % (7 % < ko < 8 %). En definitiva: la tasa que iguala ambos términos es del
+7,54 % (k = 7,54 %).
+o
+Si el mismo banco (u otro con el que la firma también trabaje) ofreciera la alternativa de devolver los
+5 millones que recibiría la empresa mediante un único pago a los 6 meses, que incluye un 12 % de interés
+vencido sobre el capital reajustado según un índice de desvalorización monetaria, que la empresa estima que
+crecerá al 5 % mensual, se tendrá que lograr la tasa (k) que permita arribar a la siguiente igualdad:
+5.000.000 = __5.000.000 (1,05)6 (1 + 0,12)__
+(1 + k)6
+5.000.000 = __5.000.000 × 1,34 × 1,12__
+(1 + k)6
+5.000.000 = __7.504.000__
+(1 + k)6
+Por lo tanto se tiene que:
+(1 + k)6 = __7.504.000__ = 1,5008
+5.000.000
+Si se entra a la tabla financiera para “Montos” – (1 + i)n – por la fila o renglón correspondiente a 6
+períodos, se halla que el valor 1,50073, es decir un valor muy aproximado al buscado (1,5008) corresponde a
+una tasa del 7 %, por lo que podemos tomar a ésta como la tasa de costo efectivo de la operación ofrecida.
+En conclusión, desde el punto de vista del administrador financiero, debe recurrirse al crédito en las
+condiciones ofrecidas por la alternativa vista en último término, ya que k < k .
+2 1
+56

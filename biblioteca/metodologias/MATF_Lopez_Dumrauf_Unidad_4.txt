@@ -1,0 +1,1648 @@
+Cálculo financiero aplicado
+(Un enfoque profesional)
+Guillermo López Dumrauf
+Editorial La Ley
+2da. edición
+actualizada y ampliada
+Buenos Aires, 2006
+ISBN 987-03-0882-1
+Este material se utiliza con fines
+exclusivamente didácticos
+1
+
+CAPÍTULO 10. TÉCNICAS DE EVALUACIÓN DE PROYECTOS DE
+INVERSIÓN
+“Cuando puedes medir aquello de lo que hablas,
+y expresarlo con números, sabes algo acerca de ello;
+pero cuando no lo puedes medir,
+cuando no lo puedes expresar con números,
+tu conocimiento es pobre e insatisfactorio:
+puede ser el principio del conocimiento,
+pero apenas has avanzado en tus pensamientos a la etapa de ciencia”
+William Thomson Kelvin (1824-1907).
+Matemático y físico británico
+INTRODUCCIÓN
+Las decisiones de inversión son las más importantes en las finanzas corporativas. Piense que son
+los activos los que tienen capacidad de generar rendimientos; por lo tanto, para incrementar la riqueza de
+los accionistas, la compañía debe invertir en aquellos activos que sean capaces de crear valor. La inversión
+en maquinarias, naves industriales, equipos y activos de trabajo requiere de una planificación y una
+evaluación de las bondades de ésta. Esto es lo que entendemos por “evaluación de proyectos” y en una
+definición más amplia nos referimos al “presupuesto de capital”.
+El presupuesto de capital es importante porque hace a la alocación eficiente de los recursos: para
+crear valor debemos invertir en aquellos proyectos cuyo rendimiento superan el costo del capital necesario
+para llevarlos a cabo. Cuando la compañía consigue hacerlo, entonces incrementa la riqueza de los
+accionistas. En este capítulo describimos los métodos utilizados para medir la rentabilidad de la inversión,
+ponderando las virtudes y defectos de cada uno y también no referimos a algunos problemas de
+interpretación que suelen aparecer en las evaluaciones de proyectos.
+Es importante destacar una regla en la evaluación de proyectos: la bondad de una inversión es
+evaluada prescindiendo de cómo es financiada, para poder juzgar el mérito del negocio; un negocio es
+bueno o malo, el financiamiento no debe cambiar esto. Por lo tanto, la descripción que realizamos de los
+métodos de evaluación de proyectos suponen inversiones que se realizan con capital propio.
+Hasta fines de los años cincuenta, los primeros métodos para la evaluación de proyectos de
+inversión se basaban en resultados que proporcionados por las cifras de los libros de contabilidad y no
+tenían en cuenta el valor tiempo del dinero. Estos métodos calculaban una tasa de ganancia contable a partir
+de ratios que relacionaban categorías del estado de resultados y los balances. Una medida alternativa, que
+comenzó a utilizarse un poco después, es el Período de Recupero de la Inversión (Payback). Examinaremos
+primero los métodos contables y el Payback, describiendo sus alcances y limitaciones para luego
+concentrarnos en los métodos que los analistas –insatisfechos con las respuestas que brindaban los métodos
+anteriores– comienzan a usar a partir de los 50 los que hoy podríamos denominar “métodos tradicionales”
+como el Valor Actual Neto (VAN), la Tasa Interna de Retorno (TIR) el Período de Recupero Descontado,
+el índice de Rentabilidad y más recientemente, la Tasa Interna de Retorno Modificada.
+Después de leer este capítulo, usted debería ser capaz de:
+• Distinguir entre los principales métodos financieros para la evaluación de proyectos de inversión,
+conocer sus alcances y limitaciones.
+• Señalar algunos inconvenientes que pueden aparecer cuando se utiliza el método de la tasa interna
+de retorno y como podemos solucionarlo.
+• Explicar por qué el VAN es considerado académicamente como el mejor método.
+• Explicar cómo la TIR modificada constituye una versión mejorada de la TIR y puede ser un digno
+competidor del VAN en algunas circunstancias donde la regla directa de la TIR falla.
+2
+
+10.1. LA TASA DE RENDIMIENTO CONTABLE
+A partir de la información que suministran los libros de contabilidad, los analistas han utilizado una
+serie de medidas de rentabilidad sobre el capital invertido, que van desde simples ratios que relacionan
+alguna categoría de ganancias obtenida del estado de resultados con alguna medida de la inversión inicial
+obtenida a partir de la información del balance. No existe una medida única, también se utilizan promedios
+para las mismas categorías, y algunas versiones más refinadas proponen discriminar cuáles resultados son
+operativos y cuál es el capital operativo que lo ha generado, a los efectos de certificar la relación “resultado
+del proyecto-inversión del proyecto”(1). La razón del uso de la tasa de ganancia contable es sencilla: puede
+calcularse a partir de las cifras que proporcionan los estados financieros proyectados y es fácil de
+comunicar, teniendo en cuenta lo familiar que resulta una medida del tipo “rentabilidad sobre el capital
+invertido”.
+Una medida conocida es la tasa de rendimiento contable que consiste en dividir el beneficio medio
+esperado de un proyecto, después de amortizaciones e impuestos, por el valor promedio contable de la
+inversión:
+Utilidad neta promedio
+TRC = ––––––––––––––––––––
+Inversión media
+Se hace referencia a una “inversión media” pues debido ala depreciación, el capital invertido
+disminuye a medida que transcurre la vida útil del proyecto. Como dijimos, la ventaja de este método radica
+en su facilidad, ya que utiliza cuentas de resultados provisionales o proyectados.
+La tasa de rendimiento contable tiene otras acepciones. Por ejemplo, a veces se calcula como un
+cociente entre el resultado operativo menos impuestos y el capital empleado, que es la suma del capital de
+trabajo y los activos fijos netos invertidos(2).
+De esta forma se elimina el efecto de la estructura de capital que aparecía en la medida anterior,
+pues la utilidad neta es afectada por el pago de los intereses de la deuda, y en consecuencia se produce un
+ahorro fiscal a partir de la decisión de financiamiento. Recuerde que el mérito de un proyecto siempre debe
+evaluarse prescindiendo de la decisión de financiamiento; esto es, el proyecto será bueno o malo
+independientemente como se lo financie.
+Las principales desventajas de las medidas de rentabilidad contable son:
+• No considera el valor tiempo del dinero, ya que no tiene en cuenta el hecho de que un peso del
+presente vale más que un peso del futuro
+• Es afectada por las convenciones contables: no trabaja con el flujo de efectivo, sino con
+beneficios contables, que pueden ser muy diferentes y son afectados por las convenciones
+contables.
+Las limitaciones de la tasa de rendimiento contable pueden apreciarse claramente en la tabla 10.1
+donde tenemos tres proyectos A, B y C que tienen la misma utilidad neta promedio y como la inversión es
+de $6.000 en los tres casos, tienen la misma tasas de rentabilidad contable, que calculamos como la utilidad
+neta promedio (3000/3) dividida la inversión neta promedio(3) (5.000 + 4.000 + 1.000)/3, que comienza en
+6.000 y se va depreciando hasta llegar a 0:
+1.000
+TRC = = 33,33%
+3.000
+(1) El método EVA® de la firma Stern&Stewart de Nueva York establece una medida llamada ROIC (resultado
+operativo ajustado por impuestos / Capital empleado).
+(2) No debe confundirse la tasa de ganancia contable con el ROA (utilidad neta/activo total), que representaba una
+medida de rentabilidad de corto plazo calculada con datos históricos. La tasa de ganancia contable se calcula a partir
+de datos proyectados para varios años.
+(3) Si la inversión comienza con $6.000 y al final del año por la depreciación en línea recta es de $ 4.000, consideramos
+una inversión neta en el primer año de $5.000, en el segundo de $ 3.000 y en el último de $ 1.000
+
+Sin embargo, si bien el flujo de efectivo acumulado es igual en los tres casos (9.000) no vuelve con
+la misma rapidez: el proyecto A devuelve 4.000 el primer año, 3.000 el segundo y 2.000 el tercero. Si
+tenemos en cuenta la regla del valor tiempo del dinero, A es el mejor proyecto, luego sigue C y B se ubica
+en el último lugar.
+Año 1 Año 2 Año 3 Total
+Flujos de fondo 4.000 3.000 2.000 9.000
+Proyecto A
+Utilidad neta 2.000 1.000 0 3.000
+Flujos de fondo 2.000 3.000 4.000 9.000
+Proyecto B
+Utilidad neta 0 1.000 2.000 3.000
+Flujos de fondo 3.000 3.000 3.000 9.000
+Proyecto C
+Utilidad neta 1.000 1.000 1.000 3.000
+Tabla 10.1 Utilidad neta versus flujo de fondos
+La otra dificultad de este método aparece relacionada al uso de los promedios: tal vez la tasa de
+rendimiento contable esté escondiendo períodos donde hubo pérdidas o las utilidades fueron muy bajas. Si
+bien puede decirse en su defensa que permite comunicar también la rentabilidad de un período específico,
+tenga siempre presente que el resultado económico refleja una opinión entre varias. En cambio, el flujo de
+fondos histórico(4) es un hecho, una medida única. Los métodos que se explican a continuación utilizan
+siempre el flujo de fondos, ya que al accionista le importa cuando el dinero está disponible para ser
+utilizado.
+10.2. EL PERÍODO DE RECUPERO (PAYBACK)
+El método del período de recupero nos dice la cantidad de períodos que han de transcurrir para que
+la acumulación de los flujos de efectivo iguale a la inversión inicial. A diferencia de la tasa de rendimiento
+contable, utiliza flujos de efectivo. Suponga que tiene entre manos un proyecto “A” con el siguiente flujo
+de fondos:
+Proyecto Año 0 Año 1 Año 2 Año 3 Año 4 Año 5
+A -600 100 200 200 200 100
+Tabla 10.2 Flujo de fondos
+El payback es igual a 3,5 años ya que será necesario que transcurran tres períodos y medio para
+recuperar la inversión original. ¿Fácil de calcular, no es cierto? Una ventaja de este método radica en la
+facilidad de su cálculo y la intuición que subyace detrás del mismo.
+Desventajas del payback
+El período de recupero tiene una serie de limitaciones que comienzan cuando reparamos que no
+tiene en cuenta la rentabilidad. Sus inconvenientes son:
+• No nos dice cuál es la rentabilidad de la inversión, solamente nos dice cuanto tiempo tardamos en
+recuperarla(5)
+• No tiene en cuenta el valor tiempo del dinero
+(4) El flujo de fondos histórico no es vulnerable a las convenciones contables y representa efectivamente, un hecho. En
+cambio, es importante reconocer que el flujo de efectivo proyectado representa una opinión... entre varias posibles.
+(5) Algunos interpretan el payback como el momento en que comienzan a ganar dinero. Se olvidan del valor del
+tiempo.
+
+• No considera los flujos de fondos que se generan después de recuperada la inversión original, con
+lo cual podríamos desechar buenos proyectos cuyo flujo de efectivo se produce más tarde. El
+payback elige el que recupera antes la inversión, no el más rentable. Por ejemplo, suponga que
+cuenta con un proyecto “B”, alternativo al proyecto “A” y que presenta el siguiente flujo de fondos:
+Proyecto Año 0 Año 1 Año 2 Año 3 Año 4 Año 5 Año 6
+B -600 150 150 150 150 150 150
+Tabla 10.3 Flujo de fondos
+El payback de este proyecto es igual a 4, y siguiendo la regla, elegiríamos el proyecto A por ser el
+que recupera más rápido la inversión original; pero de esa forma asignaríamos erróneamente los recursos,
+ya que el proyecto B es claramente más rentable. La razón es que el período de recupero no tiene en cuenta
+los ingresos que siguen al momento del recupero de la inversión original, ya que sencillamente, no mide la
+rentabilidad.
+¿Es utilizado el Período de Recupero?
+Algunos estudios que se han hecho en los EE.UU.(6) demuestran que las compañías utilizan el
+método del Período de Recupero como complementario de otros métodos. Una encuesta tomada de una
+monografía realizada en la Universidad de Pennsylvania, mostró que el 28% de las empresas utilizaban el
+período de recupero como complemento de otros métodos. En la República Argentina, un importante banco
+extranjero establece para las nuevas sucursales que abre, un período de recupero máximo de 36 meses(7).
+Otra compañía muy conocida, ligada a la industria de las telecomunicaciones, utiliza el payback en
+conjunto con el valor actual neto. El período de recupero es un método intuitivo; algunos razonan su
+resultado como si a partir del período en que se recupera la inversión se comienza a ganar dinero. Lo cierto
+es que este método también puede ser utilizado con cierto argumento en economías inestables, con
+inflación aguda, donde la gran incertidumbre determina que los inversores aprecien el rápido recupero de la
+inversión y que a veces esta situación tenga un peso determinante. Sobre el final del capítulo realizamos un
+balance de los métodos donde volveremos a darle una mirada al payback.
+10.3. PERÍODO DE RECUPERO DESCONTADO (DISCOUNTED PAYBACK)
+El período de recupero descontado es una variante mejorada del payback, ya que sí tiene en cuenta
+el valor tiempo del dinero, al expresar los flujos de fondos futuros en valor presente. La diferencia con su
+primo hermano el payback, es que la acumulación de flujos que debe igualar la inversión original se
+encuentra expresada en valor presente, donde cada flujo es descontado por un tasa de interés que representa
+el costo de oportunidad del inversor. La tasa de interés de oportunidad es tratada en la sección que se
+explica el VAN, y profundizada en el capítulo 15. Esto repara el inconveniente del valor tiempo, pero
+mantiene los otros dos (sigue sin medir rentabilidad y no tiene en cuenta los flujos que se producen después
+de recuperada la inversión) que señalamos en la sección anterior. Tomando el ejemplo del proyecto B,
+donde se demoraban 4 períodos en recuperar la inversión original, al descontar cada flujo de fondos por una
+tasa de oportunidad del 10%, el recupero de la inversión toma algo más de tiempo. Siendo el factor de
+descuento igual 1/(1+i)j donde j es el período al que corresponde el flujo de efectivo, tenemos:
+(6) Véase la obra de S. Ross, R. WESTERFIELD y B. JORDÁN, Fundamentos de Finanzas Corporativas, capítulo 7,
+Valor presente neto y otros criterios de inversión.
+(7) Son criterios que emanan de la casa matriz.
+
+Período FF Factor de Valor
+descuento descontado
+1 150 0,9090 136,3
+2 150 0,8264 123,9
+3 150 0,7513 112,7
+4 150 0,6830 112,4
+5 150 0,6209 93,1
+Total 578,4
+Tabla 10.4 Flujo de fondos expresado en valor presente
+Al final del período 5 la inversión nos devuelve $ 578,4. Como necesitamos acumular $600 para
+recuperar la inversión, significa que será necesario avanzar en el período 6 para recuperarla totalmente.
+Para calcular que porción de tiempo del período 6 se precisa para lograrlo, establecemos la proporción que
+representa la diferencia que falta para alcanzar la inversión inicial (600-578,4) respecto del flujo de efectivo
+del período 5 expresado en valor presente:
+(600-578.4) = 0,255 0,255 × 12 meses = 3 meses
+150/(1,10)6
+Será necesario consumir un 25,5 % del período 6, o sea aproximadamente 3 meses si hablamos de
+períodos anuales, de manera que para recuperar la inversión totalmente harían falta 5 años y 3 meses. Como
+se observa, cuando expresamos el flujo de efectivo en valor presente se precisan más de 5 períodos para
+recuperar la inversión original. El método del discounted payback corrige una deficiencia del payback
+convencional, pero sigue olvidándose de los ingresos que se producen luego de recuperada la inversión, y
+sigue sin decirnos nada acerca de la rentabilidad del proyecto. Completada entonces la descripción de los
+métodos “antiguos” para evaluar proyectos de inversión, en las próximas secciones explicaremos los
+métodos preferidos por los analistas y que suelen entrar “en competencia' a la hora de evaluar la
+rentabilidad del proyecto.
+Preguntas de auto-evaluación:
+1. ¿Cuáles son las desventajas de la tasa de ganancia contable?
+2. ¿Cuáles son las desventajas del payback?
+10.4. EL VALOR ACTUAL NETO
+El valor actual neto (VAN) se define como el valor que resulta de la diferencia entre el valor
+presente de los futuros ingresos netos esperados (son descontados a una tasa “k” que representa el costo de
+oportunidad del capital) y el desembolso inicial de la inversión (FFo). La expresión del valor actual neto es
+la siguiente:
+FF FF FF +VT
+VAN = FFo + 1 + 2 +...........+ n
+(1+k) (1+k)2 (1+k)n
+En el último flujo de fondos aparece un término “VT” que en la terminología financiera se lo
+conoce como “valor terminal”. El valor terminal puede verse como el flujo de fondos que se obtiene si el
+negocio es liquidado, o el valor de la continuidad si el proyecto sigue en marcha, en cuyo caso suele ser
+utilizada la fórmula de la perpetuidad para estimarlo. Para calcular el VAN, los flujos de efectivo que
+genera el proyecto (FFj) son descontados previamente con la tasa de interés que representa el costo de
+oportunidad del capital (k) y luego se resta el desembolso inicial de la inversión. Simbólicamente, también
+podemos expresar la ecuación del VAN como:
+
+n
+∑FFj
+VAN = – FFo + j=1
+(1+k)j
+Ejemplo:
+Supongamos que la compañía Azzurra está pensando en invertir dinero en una cadena de pizzerías
+que le requiere una inversión de $1000 y genera un flujo de fondos neto de $500 los dos primeros años y
+$800 al final de su vida, donde se liquidan las instalaciones y el capital de trabajo (por lo tanto, en el último
+valor incluimos el valor de realización de los activos neto de impuestos). Si asumimos que el costo de
+oportunidad del capital es k = 10 %, el valor actual neto del proyecto sería:
+500 500 800
+VAN =−1000+ + + =468,82
+(1+0,10) (1+0,10)2 (1+0,10)3
+Ejemplos de aplicación con Excel® y con calculadora financiera HP 12C
+Se realiza una inversión por $10.000 que generará 3.000, 4.200 y 6.800 en los tres años siguientes.
+Suponiendo que la tasa de oportunidad es del 10%, para calcular el VAN con Excel® o calculadora HP
+12C:
+Con Excel debe introducir: = VNA(0.10, -10.000, 3.000, 4.200, 6.800) es igual a $1.188,44. Como Excel®
+considera al período 0 (cero) como un período más, se hace necesario capitalizar dicha cifra por la tasa de corte.
+Así, el VAN es igual a 1.188,44 × 1.100 1.307,28.
+Con calculadora financiera HP 12C debe introducir: -10000 y presionar la tecla azul “g” y luego “CF ” Para
+0
+los flujos siguientes debe introducirlos en secuencia: 3000 presionar “g” y luego presionar “CFj”. Lo mismo con
+los siguientes: 4200 g CFj 6800 g CFj 10 i y finalmente calculamos el VAN presionando la tecla amarilla “f” y
+por último presionamos “NPV” (net present value).
+Recursos auxiliares 10.1 El VAN paso a paso con Excel y calculadora financiera HP12C
+Como debe interpretarse el VAN
+Conceptualmente representa el valor absoluto de la riqueza que “agrega” un nuevo proyecto de
+inversión a la empresa en el momento 0 (cero). Esto es, si la empresa realiza un proyecto que tiene un VAN
+de $468,82, la empresa habría aumentado su valor presente en 468,82 luego de realizar el proyecto. Desde
+el punto de vista del mercado de capitales eficiente puede interpretarse que los inversores en acciones de
+Azzurra descontarán la información y estarán dispuestos a pagar más por sus acciones, elevando el valor
+del conjunto en $468,82.
+El VAN del proyecto de Azzurra debe ser interpretado de la siguiente forma: si invertimos hoy
+$1000 y todo sale como hemos planificado, el proyecto nos devuelve en valor presente $1.468,82 (los flujos
+de fondos futuros descontados al 10%); luego, restamos el desembolso inicial de $1.000 y la diferencia es el
+VAN. Note que un VAN positivo significa que ya hemos cubierto el costo de oportunidad del 10%, que
+viene a ser la “tasa obstáculo” que hay que superar para que valga la pena llevar a cabo el proyecto. Si el
+mercado de capitales es eficiente y sabe leer, interpretará que como la empresa realizó un proyecto con
+VAN positivo, el precio de las acciones en su conjunto debería aumentar en esa suma, ya que es valor que
+el proyecto ha agregado a la empresa. En seguida se aprecia como la regla del VAN aparece íntimamente
+relacionada con el objetivo de las finanzas: realizando proyectos que tienen VAN positivo, aumenta la
+riqueza de los accionistas:
+
+Se realiza un Aumenta el valor La riqueza de los
+proyecto con de las acciones en accionistas aumenta
+VAN = $468,8 $468,8 en $468,8
+Figura 10.1 El VAN y su relación con el aumento del valor para el accionista
+¿Cuál es la tasa de interés que debe utilizarse para calcular el VAN?
+Un proyecto siempre debe evaluarse prescindiendo de la forma en que es financiado, para que el
+mérito del mismo caiga por su propio peso. Un proyecto es bueno o malo, independientemente de la forma
+en que se lo financie. En este sentido, el proyecto se evalúa como si fuera financiado totalmente con capital
+propio. La definición más exacta que podemos dar respecto a la tasa de interés a utilizar en el cálculo del
+VAN es:
+el rendimiento de oportunidad de una alternativa de riesgo similar
+La tasa de oportunidad del inversor es denominada con frecuencia “tasa de corte” ya que establece
+una especie de obstáculo en el ordenamiento de los proyectos de inversión: aquellos proyectos que tienen
+un VAN mayor que cero se llevan a cabo; aquellos que tienen un VAN negativo no se realizan, pues su
+ejecución llevaría a una disminución en la riqueza de la empresa. La regla de decisión del VAN es entonces
+también llamada “tasa ajustada por el riesgo” “tasa de oportunidad del inversor” “costo del capital” o “tasa
+de descuento” (esta última como traducción de la expresión “discount rate”.Ya hemos aclarado en capítulos
+anteriores que en el contexto de la matemática financiera la expresión “tasa de descuento” está bien
+definida y se la utiliza para las operaciones de descuento de documentos. Algunos creen entonces que
+hablar de tasa de descuento es incorrecto para referirse al cálculo del valor presente del flujo de fondos y
+prefieren utilizar la expresión “tasa de actualización”. Como también ya hemos explicado en un capítulo
+anterior, esta expresión es menos correcta que decir “tasa de descuento” ya que “actualizar” significa hacer
+presente algo del pasado, como lo entiende la Real Academia Española. Y en el contexto del valor actual
+neto o descuento de flujos lo que hacemos es expresar los flujos futuros en su valor presente equivalente.
+No obstante, por entenderse que el verbo “actualizar” en matemática financiera se utiliza para calcular
+valores presentes, lo seguiremos utilizando en ese sentido en algunos ejemplos.
+Algunas veces, para proyectos internacionales, el costo de capital o tasa ajustada por el riesgo viene
+definido por la casa matriz. Por ejemplo, un importante banco americano define como costo de capital para
+los proyectos de apertura de sucursales el 8,5% anual. Una importante automotriz europea utiliza el 13%
+anual para sus proyectos de inversión en países considerados “riesgosos”.
+Muchos proyectos son financiados con una mezcla de capital propio y deuda, lo que da origen al
+costo promedio ponderado del capital, que se conoce como WACC (weighted average cost of capital). La
+tasa de oportunidad o costo del capital es un proceso que consume tiempo, requiere de cálculos técnicos y
+agrega en general, mucha información. En general, este punto no es tratado con profundidad en los libros
+de matemática financiera o es soslayado directamente, considerando el costo de capital como un dato para
+calcular el VAN. Debido a la importancia del tema, y a que esta obra es destinada también a practicantes y
+estudiantes de cursos de posgrado, hemos destinado el capítulo 15 al tratamiento del costo de oportunidad,
+incluyendo algunos casos reales, con particular énfasis al caso de los países emergentes, donde la mayoría
+de las empresas no tienen cotización pública de sus acciones.
+La regla del valor actual neto: si el VAN es positivo...
+La regla de decisión del VAN es muy sencilla: nos dice que debemos aceptar el proyecto cuando el
+VAN es positivo y rechazarlo cuando es negativo. En el primer caso, de aceptarse el proyecto se estaría
+creando riqueza para los accionistas y en el segundo se destruiría, siempre por el valor del VAN.
+
+> 0Aceptar
+Si el VAN es = 0¿El proyecto tiene opciones?
+< 0Rechazar
+Figura 10.2. Regla de decisión del VAN
+¿Pero qué ocurre cuando el VAN es igual a cero o muy próximo a cero? En los textos este tema
+suele responderse como que el proyecto está en un punto de “breakeven”. Generalmente tiende a pensarse
+como una situación donde el inversor podría ser indiferente a realizar el proyecto o rechazarlo, pues su
+rendimiento iguala el costo de oportunidad. En la práctica, sin embargo, la resolución de esta situación
+suele incorporar elementos que no aparecen en la regla del VAN.
+El desarrollo de la teoría de opciones reales en los últimos años nos alerta acerca de las opciones
+que los proyectos suelen tener “(por ejemplo, postergar la realización del proyecto, ampliar la inversión,
+reducirla, etc.). Los proyectos con opciones abren oportunidades para la empresa que los lleva adelante. La
+determinación del valor de estas opciones reales requiere a menudo un complejo y sofisticado cálculo
+matemático que suele consumir tiempo y esfuerzo. Pero tenga presente que siempre un proyecto con
+opciones vale más que otro proyecto idéntico sin ellas. Si el VAN del proyecto es decididamente
+positivo, usted podría ir adelante y evitarse el análisis de opciones reales. Pero cuando el mismo se
+encuentra próximo de cero, puede valer la pena y dar un paso más, para averiguar si las opciones
+contenidas en el proyecto pueden tornar positivo el VAN cuando se incorpora la flexibilidad con que cuenta
+la gerencia. En el capítulo 14 veremos como se valúa una opción a través del método binomial y
+mostraremos como agregamos el valor de la opción al Valor Actual Neto para determinar el valor del
+proyecto con la flexibilidad que nos agregan las opciones.
+Que existan proyectos con VAN positivo es precisamente lo que hace funcionar una economía
+agregada. Los cambios en las regulaciones, en la oferta y la demanda, determinan que aparezcan negocios
+nuevos y otros dejen de serlo; el empresario sólo debería realizar aquellos con VAN positivo, que son los
+que aumentarán el valor de la empresa y por lo tanto, maximizarán la riqueza de los accionistas.
+Análisis de la función del VAN
+Cuando los flujos de fondos son “convencionales” (un flujo de fondos negativo y luego siempre
+positivos) el VAN es una función decreciente de la tasa de interés de oportunidad: a medida que ésta
+aumenta, el VAN disminuye, como se muestra en la figura 10.3:
+Figura 10.3 Función del VAN
+Observe que el VAN es una función decreciente de la tasa de interés, cuya forma cóncava respecto
+de las ordenadas, se explica por las derivadas primera y segunda de la función: mientras la derivada
+
+primera es negativa, la derivada segunda es positiva; por otra parte, la función no presenta un punto de
+inflexión en su pendiente, sino que es continua.
+n FFj
+VAN = -FF + ∑ = FF (1 + k)-1 + FF (1 + k)-2 + … + FF (1 + k)-n
+0 (1+k)j 1 2 n
+j=1
+Si derivamos con respecto a la tasa de interés k, tenemos
+dVAN FF FF FF
+=− 1 +(−2) 2 +...+(−n) n
+dk (1+k)2 (1+k)3 (1+k)n+1
+El signo de esta derivada es siempre negativo, lo cual nos indica que la función es decreciente
+cuando aumenta la tasa de interés. Esta expresión la podríamos abreviar como:
+dVAN j=n j.FFj
+=−∑
+dk (1+k)j+1
+j=1
+Donde en el numerador aparece un contador positivo “j”, FFj es un flujo de fondos y el
+denominador es un factor de descuento positivo.
+Si queremos saber con que “velocidad” cambia el VAN con respecto al cambio en la tasa de
+interés, la respuesta nos la ofrece la segunda derivada:
+d2VAN FF FF FF
+=2 1 +6 2 +....+n(n+1) n
+dk2 (1+k)3 (1+k)4 (1+k)n+2
+El signo de la segunda derivada es positivo, de manera que a medida que la tasa de interés se hace
+cada vez mayor, la disminución en el VAN se hace más lenta. Esta expresión la podríamos abreviar como:
+d2VAN j=n j(j+1)FFj
+=−∑
+dk2 (1+k)j+2
+j=1
+Este análisis nos conduce a una conclusión importante: la regla del VAN siempre da la respuesta
+correcta si se cumplen dos condiciones concurrentes:
+1. El proyecto es analizado individualmente (no hay otros proyectos que compitan por los fondos)
+2. El VAN siempre es una función decreciente de la tasa de interés (para lo cual los flujos de
+fondos deben ser convencionales o simples)
+En la tabla 10.5 puede observarse como el VAN es siempre positivo para tasas de interés de hasta
+30% anual; al 35% ya es negativo. El VAN es igual a cero en alguna tasa entre el 30 y el 35%:
+k VAN
+0% $800,00
+5% $620,78
+10% $468,82
+15% $338,87
+20% $226,85
+25% $129,60
+30% $44,61
+35% $-30,13
+40% $-96,21
+Tabla 10.5 El VAN con distintas tasas de oportunidad
+
+El supuesto de la reinversión de fondos en el VAN
+¿Nos dice el VAN qué hacemos con los flujos de efectivo que proporciona el proyecto? Cuando
+miramos la mecánica del VAN pareciera que solamente expresamos los flujos de fondos en valor presente;
+aparentemente no nos dice nada acerca de lo que se hace con los fondos que nos “devuelve” el proyecto.
+Sin embargo, el supuesto matemático implícito es que se produce la reinversión de esos fondos que genera
+el proyecto a la tasa de oportunidad que fue utilizada para calcular el VAN, hasta el final de la vida útil del
+mismo. Desde el punto de vista del supuesto de la reinversión de fondos, y en términos estrictamente
+matemáticos, la tasa de corte o costo de oportunidad del capital se encuentra “presa” adentro del proyecto
+ya que si los flujos de fondos son reinvertidos a dicha tasa hasta el final de la vida del proyecto, vuelven a
+producir el mismo VAN cuando finalmente son descontados nuevamente a la tasa k por los “n” períodos
+que dura el proyecto:
+VAN = FFo + FF (1+k)n-1 + FF (l+k)n-2 + FF (l+k)n-3 +…….+ FF + VT
+1 2 3 n
+(l+ k)n
+En nuestro ejemplo:
+VAN = -1000 + 500(1 + 0,10)2 + 500(1+0,10) + 800 = 468,82
+(1 + 0,10)3
+• El VAN es el valor que resulta de la diferencia entre el desembolso inicial de la inversión y el valor presente
+de los futuros ingresos netos esperados.
+• Toda decisión financiera que pretenda agregar valor a la empresa, debe tener un VAN positivo.
+• El VAN supone que los fondos son reinvertidos a la tasa de oportunidad hasta el final de la vida del proyecto.
+El valor terminal en los proyectos de inversión
+Existen alternativas para la estimación del valor terminal del proyecto de inversión o el valor de
+una compañía. Si se asume que el negocio termina al final de un período determinado, el VT representa el
+flujo de fondos neto de impuestos que se obtiene si los activos son liquidados, incluyendo el capital de
+trabajo.
+Si se asume que el negocio continúa para siempre, generalmente la fórmula de la perpetuidad
+creciente es utilizada(8). En ese caso, el valor terminal es calculado como se muestra en la figura 10.1 donde
+se observa que la renta perpetua creciente a una razón g que se produce después del período T, se expresa
+con la fórmula que vimos en el capítulo 7 como una perpetuidad en T. Si se suman el FF y el valor de la
+T
+perpetuidad cuyo primer flujo comienza en T=1, tenemos ahora una corriente finita de T períodos y luego
+resolvemos el VAN mediante la forma tradicional:
+Figura 10.4 Valor Terminal
+(8) A veces también se utiliza un múltiplo de EBITDA (earnings before interest and taxes and depreciation and
+amortization)
+
+En términos simbólicos, queda
+T
+∑FFj
+FF (1+g)
+VAN = -FF0 + j=1 + T
+(1+k)j k(1+k)T
+10.5. LA TASA INTERNA DE RETORNO
+La tasa interna de retorno (TIR) se define como aquella tasa que descuenta el valor de los futuros
+ingresos netos esperados igualándolos con el desembolso inicial de la inversión (matemáticamente, esta
+definición es equivalente a decir que la TIR es aquella tasa que iguala el VAN a cero).
+FF FF FF +VT
+– FFo + 1 + 2 + …………+ n
+(1+TIR) (1+TIR)2 (1+TIR)n
+Que también podemos simbolizar con las expresiones
+n FFj n FFj
+FFo = ∑ o también: –FFo + ∑ = 0
+(1+TIR)j (1+TIR)j
+j=1 j=1
+En las expresiones anteriores se observa como la TIR es la tasa de interés que satisface la ecuación
+que iguala el VAN a cero o que iguala el valor presente del flujo de efectivo futuro al desembolso inicial de
+la inversión(9). No obstante, estas definiciones “matemáticas” no nos dicen mucho acerca del significado
+económico que pretende dársele a la TIR. Para poder entender bien que podemos esperar de esta medida de
+rendimiento, describiremos sus propiedades y que se pretende saber de ella.
+La TIR es una medida de rentabilidad periódica de la inversión. A diferencia del VAN, no mide
+esta en términos absolutos, sino que lo hace en términos relativos, indicando en principio, cual es el
+porcentaje de rentabilidad que obtenemos por cada peso invertido en el proyecto.
+El calificativo de “interna” viene dado porque es la tasa “implícita” del proyecto, y constituye la
+incógnita a resolver, ya que debe calcularse a partir de un procedimiento de prueba por ensayo y error como
+describiremos casi inmediatamente.
+La regla de decisión de la TIR
+Debido a que la TIR es una medida de rentabilidad relativa de la inversión, la confrontamos con la
+tasa de interés que representa el costo de oportunidad del capital para saber si un proyecto debe ser elegible
+o no:
+> k Aceptar
+Si la TIR es = k ¿El proyecto tiene opciones?
+< k Rechazar
+Figura 10. 5 Regla de decisión de la TIR
+(9) También podría definirse como la tasa que iguala el valor presente de los ingresos con el valor presente de los
+egresos.
+
+En el caso de que la TIR se encuentre muy próxima del costo del capital, el VAN también sería
+muy próximo de cero, por lo cual nuevamente se aplica lo que dijimos con respecto a dar un paso más e
+indagar si el proyecto tiene opciones y cual es su valor. Volvamos ahora al proyecto de la cadena de
+pizzerías de Azzurra para evaluarlo con la TIR:
+500 500 800
+1000 = + +
+(1+TIR) (1+TIR)2 (1+TIR)3
+La TIR del proyecto es 32,9%, y como supera el costo de oportunidad del capital (10%), también
+deberíamos aceptarlo.
+¿La TIR representa realmente la tasa de rentabilidad periódica que obtenemos en la inversión?
+¿Azzurra puede quedarse tranquila y estar segura de qué obtendrá un 32,9%? Para que esto realmente
+ocurra, deben cumplirse el supuesto implícito de la TIR acerca de la reinversión de fondos, que
+comentamos a continuación.
+El supuesto de la reinversión de fondos
+En el criterio de la TIR se supone implícitamente que cada flujo de fondos es reinvertido por el
+número de períodos que falta para finalizar la vida útil del proyecto. Por lo tanto, se supone que cada flujo
+es reinvertido por n-j períodos a la TIR; si multiplicamos y dividimos la expresión contenida en la
+sumatoria por (1+TIR)n-j nos queda:
+FFj n
+x∑ (1+TIR)n-j– FFo = 0
+(1+TIR)n
+j=1
+Esta última expresión es igual a la primera ya que muestra como los distintos flujos de fondos son
+reinvertidos hacia el futuro por el tiempo que falta hasta el período n (el exponente n-j significa que cada
+flujo j es reinvertido por los períodos que faltan desde j hasta n) y luego son actualizados a la TIR por n
+períodos. Para el caso que nos ocupa, la reinversión se vería de esta forma:
+1000 = 500(1+ 0,329)2 + 500(1+0,329) + 800
+(1+0,329)3
+El criterio de la TIR supone que los fondos que libera el proyecto son reinvertidos dentro del
+mismo o en otros proyectos similares a la misma TIR, asumiendo que ese rendimiento se mantendrá
+constante durante toda la vida del proyecto. Cuando calculamos antes la TIR del proyecto, nada nos decía
+que ésta se apartaría del 32,9%; por lo tanto, el criterio asume un rendimiento constante durante la vida
+del proyecto. Estas condiciones muchas veces no se cumplen en la práctica, donde un proyecto que
+presenta rendimientos muy grandes en algunos períodos y rendimientos muy bajos en otros (lo cual nos
+indica que la TIR es un promedio ponderado de los diferentes rendimientos que el proyecto genera en
+cada período). O podemos tener un proyecto con una TIR muy grande pero con escasas probabilidades de
+reinvertir los fondos “liberados” a la misma TIR.
+La TIR representa un rendimiento calculado “ex-ante”; la verdadera rentabilidad solamente se
+conocerá con exactitud al final de la vida del mismo y esa rentabilidad será “ex-post” que dependerá
+fundamentalmente de la tasa a la que puedan reinvertirse los fondos.
+En aquellos proyectos cuyo flujo de efectivo es muy dispar es claro que la rentabilidad no se
+mantiene constante. En aquellos proyectos que tienen TIR muy altas, la posibilidad de reinversión a la
+misma TIR dependerá en mucho de sus oportunidades de crecimiento, pues la empresa debería encontrar
+continuamente proyectos con la misma TIR. En general, las compañías que descubren un buen negocio
+muestran altas tasas de rendimiento Y crecimiento al principio (por ejemplo, telefonía celular) hasta que la
+aparición de la competencia y los productos sustitutos hace que las tasas de rendimiento converjan hacia el
+costo del capital y las tasas de crecimiento hacia el nivel de actividad económica general.
+
+Como calcular la TIR sin ayuda de calculadoras financieras
+Si bien las calculadoras financieras y las planillas electrónicas de cálculo ya traen incorporadas
+funciones para el rápido cálculo de la TIR, mostraremos ahora un procedimiento matemático para obtenerlo
+sin ayuda de calculadoras. Para ello pueden utilizarse distintos métodos de aproximación sucesiva, siendo
+el más común el de la interpolación lineal reiterada. Este consiste en un procedimiento del tipo “tanteo”
+donde inicialmente probamos con dos tasas de interés diferentes que nos aproximen a aquella que iguala el
+VAN a cero, que resultará ser la TIR. Por ejemplo, si probamos con el 20%, el VAN=226,85; esto nos
+indica que la TIR debe ser un poco mayor, digamos TIR= 0,20 + x (donde x es la incógnita). Como
+resultaría muy engorroso probar con una tasa cada vez más alta (21,22,23 por ciento, etc.) hasta encontrar
+aquella que iguala el VAN a cero, directamente probamos con una tasa lo suficientemente alta (40%) como
+para que el VAN sea negativo (-96,209). Por lo tanto, si con el 20% el VAN es mayor a cero y con el 40%
+es negativo, la TIR debe encontrarse entre estas dos tasas:
+0.20 ----------- 226,85
+TIR = 0,20+x ------- 0
+0.40----------- (-96,209)
+Con una diferencia de tasas de 0.20 (0,40-0,20) se tuvo una diferencia en el valor del VAN de
+323,06 (226,85-(-96,209)), por lo tanto para el valor de x se tendrá una diferencia de $226,85
+0,20 ----------- 323,06
+x --------------- 226,85
+Finalmente por regla de tres simple, y repitiendo la interpolación hasta obtener una aproximación
+razonable, la TIR es encontrada.
+Por lo tanto, el valor de x resulta ser
+226,85
+x = 0,20 × = 0,1404
+323,06
+El valor de x = 0,1404 sumado al 0,20 con que se calculó el primer valor (226,85) aproximan una
+TIR del 34,04%. En el ejemplo, la TIR exacta es del 32,9%, por lo que deberá reiterarse la interpolación
+hasta obtener la TIR exacta, que es la que iguala el VAN a cero.
+En la figura aparece el perfil del VAN y la TIR. El VAN disminuye conforme aumenta la tasa de
+descuento y su valor resulta ser igual a cero exactamente cuando la tasa de descuento es la TIR. Esto
+merece cierta aclaración. Que el VAN sea igual a cero, no significa que el proyecto no tenga valor, pues el
+VAN se calcula con la tasa de oportunidad, que no debe confundirse con la TIR. La TIR es la tasa
+intrínseca del proyecto, la tasa “implícita” que iguala el valor presente del flujo de efectivo futuro al
+desembolso inicial, lo que sí es equivalente a un VAN igual a cero.
+Figura 10.6 La tasa interna de retorno
+
+Cualquier tasa de interés de oportunidad (k) inferior a la TIR indicará que el proyecto debería
+aceptarse (además, note que el VAN sería mayor que cero). La situación sería exactamente la inversa si k
+fuera mayor a la TIR. Esto nos conduce a una importante conclusión:
+Ejemplos de aplicación con Excel® y con calculadora financiera HP 12C
+Se realiza una inversión por $10.000 que generará 3.000, 4.200 y 6.800 en los tres años siguientes. Para
+calcular la TIR con Excel® o calculadora financiera HP 12C:
+Con Excel® debe introducir: =TIR(-10.000, 3.000, 4.200, 6.800) es igual a 16,34%
+Con calculadora financiera HP 12C debe introducir: -10000 g CFo 300O g CFj 4200 h CFj 6800 g
+CFj 10 i y finalmente: pulsarla tecla amarilla “f” y luego la tecla “IRR”
+Recursos auxiliares 10.2 La TIR paso a paso con Excel® y calculadora financiera HP12C
+Proyectos “convencionales” o “simples”: cuando el VAN y la TIR coinciden
+Se dice que un proyecto es “convencional” o “simple” cuando comienza con un flujo de fondos
+negativo que representa el desembolso de la inversión inicial, y luego se suceden una serie de flujos de
+fondos siempre positivos hasta el final de su vida útil:
+– FFo + FF + FF + ……….+ FF + VT
+1 2 n
+Este patrón de flujos hace que la función del VAN sea decreciente cuando aumenta la tasa de
+interés de oportunidad. En los proyectos simples como el de Azzurra donde la inversión es analizada
+individualmente (Azzurra no tenía otro proyecto competitivo al de la cadena de pizzerías) siempre que sea
+elegible por el VAN, también lo será por la TIR y viceversa. Esto se debe a que si la TIR es mayor a la tasa
+de oportunidad el proyecto sería aceptado también por el VAN, ya que éste sería positivo y por lo tanto el
+proyecto será aceptado con cualquiera de los dos métodos. Si por ejemplo, la tasa de oportunidad fuera k ,
+2
+ésta sería mayor a la TIR y sería rechazado el proyecto también por el criterio del VAN, ya que éste sería
+negativo, como se observa en la figura 10.7:
+Figura 10.7 Proyectos convencionales: coincidencia entre el VAN y la TIR
+
+Si el proyecto es “convencional” y la función del VAN es entonces decreciente respecto de la tasa
+de interés, las reglas de la TIR y del VAN nos conducen a la misma decisión (aceptación o, breakeven o
+rechazo) si evaluamos al proyecto individualmente. Lo mismo aplica para el criterio del índice de
+Rentabilidad, que se explica en la sección 1.6
+• La TIR es aquella tasa que iguala el valor presente de los futuros ingresos netos esperados con el
+desembolso inicial de la inversión
+• Es una medida de rentabilidad periódica de la inversión
+• Supone implícitamente la reinversión de los fondos que devuelve el proyecto a la misma TIR hasta el final
+de su vida
+• No debe confundirse a la TIR con la tasa de interés para calcular el VAN; ya que ésta representa el costo de
+oportunidad del inversor mientras que la TIR es la tasa “intrínseca' del proyecto, que “nació” con éste.
+• Es comparada con el costo de oportunidad para determinar la elegibilidad del proyecto.
+Diferencias y analogías entre el VAN y la TIR
+A esta altura es bueno señalar algunas analogías y diferencias entre los métodos VAN y TIR ya que
+si bien ambos utilizan el mismo flujo de efectivo para el cálculo del resultado, miden aspectos diferentes de
+la rentabilidad de la inversión
+a. Ambos utilizan flujos de fondos netos de impuestos.
+b. Ambos tienen en cuenta el valor tiempo del dinero.
+c. La TIR es una incógnita del proyecto, que emerge de las condiciones propias del mismo. En
+cambio, para el cálculo del VAN es utilizado el costo de oportunidad del inversor que representa un dato
+que viene dado desde “afuera”
+d. Mientras el VAN es una medida de rentabilidad en términos absolutos, la TIR es una medida de
+rentabilidad en términos relativos (el porcentaje de rendimiento periódico que se obtiene por unidad
+monetaria invertida). En este sentido, puede decirse que el VAN es una medida de rentabilidad que traduce
+el objetivo del directivo financiero, que se entiende como la maximización del valor
+e. El VAN supone implícitamente la reinversión de fondos a la tasa de corte, mientras que la TIR
+supone implícitamente la reinversión de fondos a la misma TIR.
+Preguntas de auto-evaluación:
+1. ¿Cuáles son las diferencias básicas entre los criterios VAN y TIR?
+2. ¿Por qué no debe confundirse la TIR con el costo de oportunidad del capital?
+3. ¿Qué condiciones deben darse para que los criterios VAN y TIR produzcan la misma decisión?
+10.6. EL ÍNDICE DE RENTABILIDAD O RELACIÓN BENEFICIO-COSTO
+El índice de rentabilidad (IR) es un competidor de los métodos del VAN y de la TIR. También tiene
+en cuenta el valor tiempo del dinero. Lo obtenernos calculando el cociente entre el valor actual de los
+ingresos netos esperados y el desembolso inicial de la inversión. Observe que al igual que el VAN, el IR
+descuenta los futuros ingresos esperados con el costo de oportunidad k, pero en vez de restar el desembolso
+inicial, éste es utilizado en el cálculo como denominador. De esta forma se obtiene un coeficiente que nos
+
+dice la cantidad de veces que el valor actual de los ingresos futuros representa con respecto al desembolso
+inicial. Inmediatamente, podríamos pensar en el índice de rentabilidad del proyecto de Azzurra:
+n FFj 1.468,82
+IR = ∑ = = 1,47
+(1+k)j 1.000
+j=1
+FFo
+Regla de decisión del índice de rentabilidad
+El proyecto se acepta si el índice es mayor a 1, indiferente si es igual a 1 y no se acepta si es menor
+a 1.
+> 1 Aceptar
+Si el IR es = 1 ¿El proyecto tiene opciones?
+< 1 Rechazar
+Figura 10.8 Regla de decisión del Índice de Rentabilidad
+Sin embargo, el IR puede no ser una buena medida cuando se analizan proyectos mutuamente
+excluyentes (tenemos la alternativa de realizar un proyecto entre dos, pues sólo tenemos dinero para uno).
+En este caso, de nuevo lo mejor es seleccionar el proyecto con mayor VAN. Suponga que se tienen dos
+proyectos, A y B, que compiten por los recursos: usted tiene $200 y debe elegir el mejor proyecto (no
+existen dos proyectos A):
+Proyecto FF FF Valor actual al 10% VAN IR
+o 1
+A -100 400 363 263 3,63
+B -200 700 636 436 3,18
+Tabla 10.6 Flujo de fondos, VAN e Índice de Rentabilidad
+En el ejemplo, el proyecto A parece ser mejor al B según el IR. Sin embargo, si eligiéramos el
+proyecto A cometeríamos un error. El proyecto más rentable es el B, que tiene el mayor valor actual neto.
+Como se verá a continuación, cuando tenemos proyectos mutuamente excluyentes, el análisis del flujo de
+fondos incremental determina que el mejor proyecto es el B.
+10.7. ALGUNAS COMPLICACIONES EN LAS TÉCNICAS DE PRESUPUESTO DE CAPITAL
+A continuación mencionamos una cantidad de complicaciones que aparecen en la interpretación de
+los resultados cuando utilizamos los métodos del VAN y la TIR. Estas situaciones suelen describirse como
+críticas al método de la TIR, que aplicada como una regla directa, puede conducir a errores en la aceptación
+de proyectos de inversión. Sin embargo, veremos que dando algunos pasos más sobre la misma regla, la
+mayoría de los problemas desaparecen. Los inconvenientes más comunes lo constituyen los casos de
+proyectos mutuamente excluyentes, cambios de signo en el flujo de efectivo, reinversión de fondos, prestar
+o endeudarse, flujos no periódicos, etcétera.
+
+1er inconveniente: proyectos mutuamente excluyentes
+Vimos que cuando se consideraba individualmente una inversión y el flujo de fondos era
+convencional, el VAN y la TIR conducían a la misma decisión. Sin embargo, muchas veces la empresa
+tiene un conjunto de proyectos alternativos, puesto que los mismos compiten por los fondos que no son
+ilimitados; por lo tanto existe un racionamiento de capital. Racionamiento de capital significa que la
+empresa cuenta con una suma limitada de dinero para invertir en proyectos y querrá hacerlo en aquellos que
+presenten el mayor rendimiento.
+En esos casos, cuando deba elegir entre distintos proyectos, pueden presentarse contradicciones: el
+método de la TIR puede sugerir la inversión en el proyecto A, mientras que según el método del VAN
+puede ser más conveniente la inversión en el proyecto B. Matemáticamente, la explicación de esta
+contradicción se encuentra en:
+La diferente hipótesis de reinversión de fondos de ambos métodos, ya que el VAN supone la
+reinversión a la tasa de oportunidad, y la TIR supone la reinversión a la misma TIR.
+Por el criterio TIR se supone la reinversión de los fondos a la TIR de cada proyecto en cuestión, es
+decir cada proyecto reinvertiría fondos a TIR diferentes –a pesar de que los fondos intermedios de todos
+ellos ingresen a la empresa en conjunto para asignarlos a determinados usos– mientras que en el VAN se
+supone la reinversión de fondos una tasa uniforme que es el costo de oportunidad. Si tenemos dos proyectos
+con riesgos similares, el costo de oportunidad será igual y ser la misma tasa de reinversión en ambos casos.
+Sin embargo, la TIR de los dos proyectos podría seguir siendo diferente. Existen tres situaciones que
+pueden generar dichas contradicciones:
+1. Tamaño diferente de la inversión inicial.
+2. Diferente distribución temporal del flujo de fondos (ingresos altos al principio y bajos al final).
+3. Diferente vida útil.
+La presencia de cualquiera de estas tres situaciones no necesariamente implica una contradicción
+entre ambos métodos, sino cuando alguna de ellas pesa en forma especial. A continuación presentamos tres
+ejemplos para cada una de ellas, y se verifica que el criterio de la TIR entra en colisión con el VAN. Como
+veremos, si se pretende utilizar la TIR como criterio de selección de proyectos no se podrá estar seguro a
+menos que se analice la inversión incremental y se calcule su TIR diferencial o incremental. En todos los
+ejemplos asumiremos que los proyectos tienen un riesgo similar y calcularemos el VAN considerando un
+costo de oportunidad del diez por ciento(10).
+1. El efecto del tamaño de la inversión inicial
+Suponga que usted cuenta con $ 200 y tiene entre manos dos proyectos. El proyecto A, que podría
+tratarse de un negocio pequeño, tiene un TIR del 300%, mayor a la TIR del proyecto B, que se trata de una
+fábrica. Sin embargo, el proyecto B tiene un VAN mayor: 436 contra 263 del proyecto A
+Proyecto FF FF TIR VAN al 10%
+o 1
+A -100 400 300% 263,63
+B -200 700 250% 436,36
+Tabla 10.7 VAN y TIR de proyectos mutuamente excluyentes
+¿Qué proyecto deberíamos elegir? ¿el negocio de escala pequeña que genera un mayor porcentaje
+de rendimiento por cada peso invertido o la fábrica cuya “masa” absoluta de ganancias es casi el doble?
+¿En caso de elegir el proyecto menor, que hacer con la diferencia si tenemos $ 200 para invertir?
+El inconveniente aparece por la contradicción que arrojan los resultados cuando usamos los dos
+métodos al mismo tiempo; si evaluáramos los proyectos usando un criterio único, sólo un proyecto
+(10) Si los riesgos fueran diferentes, el costo de oportunidad del capital debe ajustarse para reflejar las diferencias de
+riesgo
+
+resultaría elegido. Por ejemplo, utilizando el criterio del VAN elegiríamos el proyecto B, que tiene el VAN
+mayor. Pero surgen varias preguntas: ¿no parece que estamos desperdiciando un rendimiento porcentual
+más alto por no invertir en A? ¿No podríamos invertir $ 100 en dos proyectos A gemelos? ¿si invertimos en
+A, qué hacemos con la diferencia?
+El paso que daremos a continuación se conoce como el cálculo de la “tasa de Fisher”(11) y está
+destinado a obtener una respuesta satisfactoria utilizando el criterio de la TIR, ya que por medio de la tasa
+de Fisher o TIR incremental veremos que habríamos arribado a la solución correcta (y veremos que nos
+conduce a la misma decisión que tomaríamos si aplicamos directamente la regla de decisión del VAN).
+El cálculo de la TIR incremental o tasa de Fisher
+Si usted quiere utilizar la TIR como criterio seleccionador de proyectos de inversión y se enfrenta a
+la contradicción señalada, tendrá que dar un paso más: calcular la TIR incremental. Para ello procedemos
+de la siguiente manera:
+Tomamos el proyecto que posee el mayor VAN con una tasa de corte=0(12) y restamos de sus flujos
+de efectivo los flujos de efectivo del otro proyecto; luego a este flujo “incremental” se le calcula la TIR,
+que resulta ser la TIR incremental o tasa de Fisher.
+Por lo tanto, calculamos el flujo incremental B-A y calculamos su TIR:
+Proyecto FF FF TIR VAN al 10%
+o 1
+B - A -100 300 200% 173
+Tabla 10.8 La TIR incremental o tasa de Fisher
+Como la TIR incremental es mayor al costo de oportunidad del capital (200% vs. 10%) llevamos
+adelante el proyecto B. La TIR incremental del 200% debe ser interpretada como la tasa diferencial
+obtenida como consecuencia de realizar la inversión en B en detrimento de A (como si B hubiera absorbido
+a A y analizamos la rentabilidad del flujo diferencial)
+Los flujos incrementales de llevar adelante el proyecto B en vez del proyecto A, muestran que la
+TIR de la inversión incremental es del 200%, que es mayor a la que hubiéramos obtenido colocando lo que
+no habíamos invertido en el proyecto A al 10%. Por lo tanto, de esta manera estamos invirtiendo el “resto”
+al 200 % y por eso, usted debería preferir el proyecto B al proyecto A.
+Si todavía tiene alguna duda, el razonamiento explícito de lo que puede hacerse con el flujo de
+fondos debería terminar de aclarar el tema: el inversor cuenta con $200 para invertir, y no existen dos
+proyectos “A”; si este fuera el caso, huelga todo comentario. Sin embargo, quiere obtener el máximo
+provecho de sus $200 y la alternativa que tiene es invertir todo en el proyecto B, donde al cabo de un año
+recogerá un flujo de fondos de $700 o, invertir $100 en el proyecto A y el excedente de $100 invertirlos a la
+tasa de oportunidad del 10% obteniendo un flujo de fondos de $110 al final del año. El flujo de fondos total
+de haber invertido en el proyecto A más el resto al 10% sumarían en total $510 (400+110).
+Proyecto B
+0 1 año
+-200 700
+(11) En honor a su descubridor, Irving Fisher, quien también descubrió el VAN.
+(12) Se calcula el VAN con una tasa cero para de esa manera determinar cuál es el proyecto que tiene el flujo de fondos
+mayor en términos absolutos, ya que de ese flujo restaremos el otro para obtener el flujo incremental.
+
+Proyecto A + $100 a la tasa de oportunidad:
+0 1 año
+Proyecto A -100 400
+$100 al 10% -100 110 (100 × 1,10)
+-200 510
+Ahora se aprecia porque conviene invertir en el proyecto B, que genera $700 al final del año. De
+esta forma, invirtiendo la misma cantidad de dinero, el flujo de fondos final es mayor con el proyecto B en
+190 (700-510). La decisión de elegir el proyecto B entonces está justificada, y es la misma decisión que
+hubiésemos adoptado de aplicar el criterio del VAN directamente (primer “round” para el VAN...)
+Volvamos por un momento al Índice de Rentabilidad examinado en la sección 1.6. Recuerde que
+teníamos los mismos proyectos A y B que acabamos de analizar confrontando los resultados del VAN y la
+TIR. La regla del IR nos decía que debíamos elegir el proyecto A, ahora podemos realizar el análisis
+diferencial también para el índice de rentabilidad. En ese caso, el IR incremental B-A sería 272,7/100 =
+2,72 y deberíamos aceptar el proyecto B frente al A. De nuevo, el criterio del VAN no se habría
+equivocado: la corrección que hacemos al IR nos dice que debemos elegir el proyecto B. La aplicación de
+la regla directa del IR nos conducía a un error ya que nos decía que el proyecto A tenía el mayor índice de
+rentabilidad.
+Proyecto FF FF VAN al 10% IR
+o 1
+B - A -100 300 272,72 2,72
+Tabla 10.9 VAN e índice de Rentabilidad
+2. Igual inversión original, diferente desarrollo en el flujo de fondos
+En el ejemplo que sigue tenemos dos proyectos que tienen el mismo desembolso inicial pero
+difieren en cuanto al desarrollo del flujo de fondos: mientras el proyecto A tiene los ingresos más altos al
+principio y al final tiene ingresos más bajos, el proyecto B presenta el caso inverso:
+Proyecto FF FF FF FF TIR VAN al 10%
+o 1 2 3
+A -1.000 800 500 100 26% 215,6
+B -1.000 100 500 1.000 20,4% 255,4
+B-A 0 -700 0 900 13,4% 39,82
+Tabla 10.10 VAN y TIR de proyectos mutuamente excluyentes
+Como vuelve a aparecer la contradicción entre ambos métodos, volvemos a calcular la TIR
+incremental B-A y nuevamente, el proyecto B (que es el que tiene el mayor VAN) resulta ser la elección
+correcta.
+Luego de ver los ejemplos anteriores, resulta apropiado reflejar en la figura 10.9 las funciones del
+VAN de ambos proyectos para ver como evolucionan los mismos a medida que cambia la tasa de
+oportunidad. Observe el lector que para la tasa del 13,4 % se produce una intersección entre ambas
+funciones. A esa tasa de interés, llamada “Tasa de Fisher” los VAN de ambos proyectos se igualan, como
+era de esperarse siendo que dicha tasa representa la TIR incremental de un proyecto frente al otro. La TIR
+incremental también establece una zona de concordancia y una zona de contradicción entre ambos criterios
+de elegibilidad. A la derecha de la tasa de Fisher, cualquier tasa de interés generaría un VAN más alto para
+
+el proyecto A, y como este también tiene la TIR más alta, habría concordancia: ambos seleccionarían el
+proyecto A.
+Si la tasa de corte se situara a la izquierda de la tasa de Fisher –como ocurre en nuestro ejemplo–
+entonces aparece una zona de contradicción, pues por el método de la TIR siempre seguiría seleccionando
+el proyecto A que tiene la TIR más alta, pero por el criterio del VAN elegiría el proyecto B.
+Figura 10.9 Tasa de Fisher, zonas de concordancia y contradicción entre el VAN y la TIR
+El efecto de la tasa de descuento en el VAN depende del desarrollo del flujo de fondos. En general,
+aquellos proyectos con ingresos más altos al final, resultarán con VAN más altos frente a aquellos
+proyectos cuyos ingresos más altos se producen al principio, cuando las tasas de descuento son “bajas”. La
+inversa se cumple cuando las tasas son “altas”(13).
+3. Diferente vida útil
+En este ejemplo, el proyecto A tiene una vida útil de tres períodos, mientras que el proyecto B
+supone perpetuidad, es decir generaría fondos por valor de 200 en forma perpetua:
+Proyecto FF FF FF FF FF TIR VAN al 10%
+o 1 2 3 4
+A -1.000 400 500 600 0 21,65% 227,65
+200 a
+B -1.000 200 200 200 20% 1.000
+perpetuidad
+200 a
+B-A 0 -200 -300 -400 19,20% 772,35
+perpetuidad
+Tabla 10.11 VAN y TIR de proyectos mutuamente excluyentes
+La TIR del proyecto B es fácil de calcular: un proyecto con una inversión de $1.000 que genera un
+flujo de fondos de $200 a perpetuidad, tiene una rentabilidad del 20%. Su VAN también es fácil de
+calcular: simplemente restamos la inversión inicial a la perpetuidad descontada al 10% (200/0,10-
+1.000=1.000). En el caso de la TIR incremental, no podemos utilizar la función TIR del Excel®
+directamente. En este caso es conveniente utilizar la función “Solver” de Excel®, resolviendo para una
+ecuación que iguale el VAN a cero. Así, para hallar la TIR de B-A se procede como muestra la figura 10.9,
+siguiendo los siguientes pasos: a) reproducimos los flujos incrementales en la fila en las celdas que van
+desde B2 hasta F2; b) en la celda F3 colocamos la perpetuidad de $200 dividida por la tasa “semilla” que
+aparece en la celda B6 (colocamos 10% sólo para que aparezca una perpetuidad en F3); c) En la fila 4,
+desde B4 hasta F4 aparece la renta perpetua transformada en finita, ya que el último flujo es la suma del
+flujo del año 4 más el valor de la perpetuidad en F3; d) En el menú Herramientas de Excel® buscamos
+Solver (si no aparece esta opción deberá instalarla con la opción “complementos”) y en la celda objetivo
+(13) Desde luego, tasas “bajas” o tasas “altas” es en este caso un concepto relativo.
+
+hacemos referencia a B7 y para el valor de la celda objetivo tildamos “valores de” y colocamos 0 (ya que
+cuando el VAN se igual a cero habremos encontrado la TIR) donde dice “cambiando la celda” hacemos
+referencia a la celda B6 (que es la TIR que buscamos); e) Finalmente, pulsamos la tecla “Resolver” y
+aparece la pantalla de la figura 10.10:
+Figura 10.10 Procedimiento para encontrarla TIR con Solver
+Finalmente, pulsamos “resolver” y aparece el resultado de Solver en la figura 10.11:
+Figura 10.11 Resultado de la TIR con Solver
+Chequeo de la tasa de Fisher con Solver
+Obviamente, la función Solver también podría haberse utilizado para revisar los cálculos de la tasa
+de Fisher en los problemas anteriores. Por ejemplo, en el problema donde los desembolsos iniciales eran
+iguales, calcularnos muy rápidamente la tasa y verificamos con el cálculo explícito que hicimos antes.
+
+Figura 10.12 Tasa de Fisher con Solver
+2do inconveniente: reinversión de fondos
+Como fue comentado anteriormente, la TIR representa un rendimiento calculado “ex-ante”; la
+verdadera rentabilidad del proyecto solamente se conocerá con exactitud al final de su vida. La rentabilidad
+“ex-post” dependerá fundamentalmente de la tasa a la que puedan reinvertirse los fondos. Suponga que
+usted tiene un proyecto cuya TIR es del 50%: la posibilidad de mantener ese rendimiento dependerá en
+mucho de sus oportunidades de crecimiento, pues la empresa debería poder reinvertirlos en el mismo
+proyecto o encontrar continuamente proyectos con la misma TIR del 50%. Lo más probable, es que si usted
+encontró un negocio “estrella”, más tarde o más temprano la competencia y la aparición de productos
+sustitutos harán que la reinversión de fondos se realice a una tasa más baja; en ese caso, la rentabilidad al
+vencimiento será menor que la TIR. La crítica al supuesto de la reinversión dé fondos en el sentido de que
+es prácticamente imposible la reinversión a tasas altas aparece tratado en forma exhaustiva en la sección
+que explicamos la TIR modificada, que pretende darnos una medida de rentabilidad periódica más ajustada
+a la realidad de las oportunidades de reinversión.
+3er inconveniente: proyectos de endeudamiento
+La regla de decisión de la TIR necesita invertirse cuando valuamos “proyectos de endeudamiento”.
+Cuando prestamos o invertimos dinero, siempre procuramos obtener la máxima tasa de retorno. En la tabla
+10.12 aparece un proyecto X que tiene un VAN de 90,91 y una TIR del 20%, y por lo tanto es un buen
+proyecto y merece aceptarse.
+Proyecto Año 0 Año 1 VAN al 10% TIR
+X -1.000 1200 90,91 20%
+Z 1.000 -1200 -90,91 20%
+Tabla 10.12 VAN y TIR de proyectos mutuamente excluyentes
+Pero el proyecto Z se trata de un proyecto de endeudamiento; cuando nos endeudamos, el flujo
+inicial es positivo (por el monto que recibimos en préstamo) y luego sigue una serie de pagos. En estos
+casos la regla de la TIR es la inversa: deberíamos aceptar aquellos proyectos de endeudamiento si su TIR es
+menor que el costo de oportunidad del capital (en este caso, la menor tasa a la que conseguimos dinero en
+préstamo). El proyecto Z tiene una TIR del 20% (sí, tiene signo positivo) y un VAN de -90,91. En este
+caso, la aplicación de la regla formal de la TIR (aceptar los proyectos que superan el costo de oportunidad
+del capital) resultaría en una incorrecta decisión de aceptación del proyecto si lo aceptamos sólo por superar
+el costo de oportunidad. Observe en la figura 10.13 como al aumentar el costo de oportunidad del capital
+aumenta el VAN; cuanto mayor sea la diferencia entre éste y la TIR del préstamo más conveniente será
+para el prestatario.
+
+Figura 10.13 El VAN y la TIR del proyecto de endeudamiento
+La crítica que se realiza en estos casos es que la TIR no tiene en cuenta la inversión en los signos
+del flujo de fondos; no cambia el signo del resultado. En realidad, esta crítica no es realmente un problema
+si recordamos que cuando usted pide dinero en un préstamo, debe pagar un interés, no recibirlo. El
+problema desaparece cuando observamos a la TIR del proyecto de endeudamiento como una “tasa de pago”
+que es lo que en realidad representa, y no como una tasa de rentabilidad.
+4to inconveniente: la estructura temporal de la tasa de interés
+En el capítulo 12 trataremos la volatilidad de los títulos de renta fija y veremos que existe una
+estructura temporal para la tasa de interés, en el sentido de que el mercado reclama una tasa diferente para
+un pago que ha de realizarse en un año dado, variando las tasas de interés año a año. En circunstancias
+normales, la denominada “curva de rendimientos” que nos indica como varían las tasas a medida que
+aumenta los plazos, tiene pendiente positiva; es decir, los pagos son descontados con una tasa más alta
+conforme nos alejamos en el tiempo. Así, la tasa de interés del segundo ano es mayor que la del primero, la
+del tercero mayor que la del segundo y así por delante. La regla de decisión de la TIR nos dice que
+debemos comparar ésta con la tasa de oportunidad para establecer la bondad de una inversión. Pero dado
+que la tasa de oportunidad de hecho estaría cambiando de período a período, ¿con cuál tasa debemos
+comparar la TIR? ¿Con la del primer año? ¿O con la del segundo? ¿O con la del tercero? Aquí la TIR no es
+capaz de eludir la estructura temporal de la tasa de interés, a menos que calculemos una media ponderada
+para las distintas tasas, algo que, por razones de simplicidad, no siempre suele realizarse.
+5to inconveniente: TIR múltiples o ausencia de una TIR
+Siempre que se analizan proyectos con flujos de fondos “convencionales” o “simples” habrá una
+sola TIR, pero cuando usted se enfrenta a proyectos “no simples” donde los flujos de fondos cambian de
+signo en más de una oportunidad, pueden ocurrir tres cosas: a) que el proyecto tenga más de una TIR (esto
+es, que exista más de una tasa que satisfaga la ecuación que convierte el VAN=0); b) que el proyecto no
+tenga una TIR (es decir que no exista una tasa que satisfaga la ecuación VAN=0) y c) que el proyecto igual
+tenga una sola TIR. Suponga los siguientes proyectos E, F y G:
+Proyecto FF FF FF TIR VAN al 10%
+o 1 2
+E -5.000 30.000 -30.000 27 % y 373 % -2.520
+F -7.000 17.000 -10.000 0% y 43% 190
+G -2.000 5.000 -5.000 Indeterminada -1.587
+Tabla 10.13 TIR múltiples
+Que los proyectos E y F tengan más de una TIR tiene una explicación matemática: por la regla de
+los signos de Descartes: un polinomio puede tener tantas raíces como cambios de signo haya en su
+desarrollo. ¿Pero cómo interpretar los resultados? La verdad es que no vale la pena; una inversión sólo
+
+puede tener un resultado, que es lo que ocurría en los proyectos denominados “simples” cuando había un
+solo cambio de signo en el flujo de fondos. No tiene sentido preguntarse cual de las dos TIR es la correcta,
+puesto que muy posiblemente ninguna lo es; no tiene sentido decir que el proyecto E rinde el 27% y el
+373% de la misma manera que no tiene sentido decir que el obelisco mide 27 metros y 373 metros de
+altura. En el caso del proyecto G, la respuesta sería aún más absurda, puesto que no hay una TIR que
+satisfaga la ecuación, lo que es equivalente a decir que el obelisco no tiene altura. La respuesta de la TIR en
+este caso debe desecharse ya que representa un número que no tiene ninguna utilidad; el resultado apenas es
+verdadero en una ecuación matemática, como se muestra para el proyecto E en la tabla 10.14:
+k VAN Proyecto E
+0% $-5.500,00
+50% $1.222,22
+100% $1.375,00
+150% $968,00
+200% $611,11
+250% $352,77
+300% $171,88
+350% $45,27
+400% $-44,00
+450% $-107,44
+500% $-152,78
+Tabla 10.14 VAN del proyecto E para diferentes tasas de oportunidad
+En las figuras 10.14, 10.15 y 10.16 puede apreciarse que existe más de una TIR en los proyectos E
+y F, y que no hay una solución para el proyecto G (la solución es indeterminada pues no hay ninguna tasa
+de interés que satisfaga la ecuación que iguala el VAN a cero).
+Figura 10.14 TIR múltiples
+Figura 10.15 TIR múltiples
+
+Figura 10.16 Inexistencia de TIR
+Observe que el VAN en estos casos también nos da una respuesta confusa: en los tres proyectos,
+según el rango de tasas de interés que se tome, aparece una zona donde el VAN aumenta a medida que la
+tasa de interés también lo hace, cuando en un proyecto convencional el VAN es una función decreciente de
+la tasa de interés. Este efecto es causado por la disminución en valor presente del flujo de fondos negativo
+que durante cierto intervalo hace que el VAN aumente.
+¿Hay alguna solución para el caso de múltiples TIR o incalculables?
+Que exista un proyecto con TIR múltiples o que ésta no pueda calcularse no significa que el
+proyecto no tenga una tasa de rentabilidad (que puede ser también negativa). El atajo clásico para
+solucionar este problema propone calcular directamente el VAN, aunque los economistas financieros han
+buscado métodos que permitan un cálculo de la rentabilidad periódica de la inversión en los casos en que se
+produce este inconveniente. Lo principal es aplicar el sentido común y hacer “explícito” el uso que le
+damos al flujo de fondos que nos devuelve el proyecto. Los gerentes no se sientan a esperar que éste se
+produzca; de hecho, si pueden torcer las circunstancias favorablemente, lo hacen. Por lo pronto, tenemos
+que pensar como se reinvertirá el flujo de fondos hasta el final de la vida del proyecto. Luego, comparando
+el valor acumulado del flujo de fondos al final de la vida con el desembolso inicial, puede calcularse una
+tasa de rentabilidad periódica compuesta. Describiremos a continuación el criterio de la TIR modificada
+(TIRM) que justamente trata esta situación que también nos sirve para definir una tasa de rentabilidad para
+los problemas descritos en esta sección.
+10.8. LA TIR MODIFICADA
+Los economistas financieros y los textos de finanzas han manifestado por años que el VAN es un
+criterio superior a la TIR. Sin embargo, los practicantes siguen encontrándose cómodos con las medidas de
+rentabilidad porcentuales y siguen utilizando la TIR en la evaluación de proyectos. Los gerentes encuentran
+en la TIR una medida más sencilla de interpretar y comunicar que el VAN.
+El criterio de la TIR modificada (TIRM) es un intento para obtener una medida de rentabilidad
+periódica cuando se producen los inconvenientes mencionados en las secciones anteriores o cuando se
+sospecha que los flujos de fondos no podrán reinvertirse a la misma TIR del proyecto calculada
+previamente. Mantiene las bondades de la TIR original pero también resuelve:
+• los problemas asociados con los proyectos no convencionales
+• la mayoría de los conflictos asociados con el ordenamiento o jerarquía de proyectos que
+compiten por los recursos.
+La TIR modificada es definida como la tasa de descuento que iguala el valor actual del valor futuro
+del flujo de efectivo (el valor de los flujos capitalizados hasta el final de la vida del proyecto) con el
+desembolso inicial:
+
+n n
+∑FF (1+k)n−j −∑ FF (1+kd)n−j
+j negativos
+FFo= j=1 j=1
+(1+TIRM)n
+El “valor futuro” resulta de capitalizar hasta el final de la vida los flujos positivos a la tasa que
+representa el costo de oportunidad del capital (asumiendo que si no podemos reinvertirlos en el proyecto
+tendremos la tasa de oportunidad “k” a mano) y los flujos negativos son financiados a una tasa kd, también
+hasta el final de la vida del proyecto(14). Es decir, “llevamos todo hasta el final”. Luego, la tasa que
+descuenta dicho valor terminal por n períodos igualándolos al desembolso inicial de la inversión, es la TIR
+modificada (TIRM). Para calcularla, hacemos un pasaje de términos y obtenemos:
+1/n
+⎡ n n ⎤
+∑FFj(1+k)n−j −∑FFnegativos(1+kd)n−j
+⎢ ⎥
+TIRM = ⎢ j=1 j=1 ⎥
+⎢ FFo ⎥
+⎢ ⎥
+⎣ ⎦
+Observe que la fórmula nos dice que debemos calcular la tasa equivalente de rendimiento
+suponiendo la reinversión de fondos positivos al costo de oportunidad del capital k y el financiamiento de
+los flujos de fondos negativos a la tasa kd que se cobra por financiarlos.
+La TIRM tiene una ventaja significativa con respecto a su prima hermana la TIR. Es una tasa de
+rentabilidad compuesta que asume que el flujo de efectivo es reinvertido al costo de capital mientras que la
+TIR asume la reinversión a la misma TIR. Cuando no podemos reinvertir a la TIR, suponer que la
+reinversión se realiza al costo de oportunidad del capital es un mejor supuesto, ya que la oportunidad de
+reinvertir a k estaría presente, y entonces la TIRM es una mejor medida de la verdadera rentabilidad
+periódica del proyecto.
+Supondremos un proyecto que requiere desembolsos al inicio, luego genera ingresos por un
+determinado período y más tarde requiere otra inyección de dinero para completarlo.
+La reinversión de fondos
+Juan es un constructor que se encontraba analizando los flujos de fondos de un proyecto de
+construcción de viviendas. Como la mayoría de los empresarios, tenía inclinación por las medidas de
+rentabilidad que pudieran expresarse en un porcentaje. Al serle expuesta la TIR del proyecto, la primera
+impresión de Juan fue sospechar acerca del 39% como tasa de rentabilidad anual. No creía que el proyecto
+pudiera generar tamaña rentabilidad, y por otra parte le preocupaba el desembolso que habría que realizar
+en el tercer año. El flujo de fondos del proyecto para la construcción de viviendas era el siguiente:
+FF FF FF FF FF FF VAN al 10% TIR
+o 1 2 3 4 5
+- 10.000 5.000 10.000 -2.000 4.000 5.000 6.494,5 39,4%
+Tabla 10.15 VAN y TIR
+En procura de una medida de rentabilidad que contemple que tal vez no sea posible la reinversión
+de los fondos a la TIR, y que por otra parte incluyera la forma en que se financiaría el egreso del tercer año,
+los analistas del proyecto calcularon la TIR modificada.
+Una forma de hacerlo consiste en suponer la reinversión de los flujos de fondos positivos a una tasa
+de reinversión segura (por convención se utiliza la tasa de oportunidad del 10% ya que ésta representa la
+oportunidad de invertir los fondos en un proyecto de riesgo similar) hasta el final del quinto año donde
+(14) Existen otras formas de calcular la TIRM. La forma que propone actualizarlos flujos negativos con el costo de
+oportunidad se describe más adelante.
+
+termina el proyecto. Los flujos de fondos negativos se supone son financiados a la tasa que nos cuesta el
+capital ajeno, que en este ejemplo es del 8%. De esta forma, los flujos de fondos negativos son vistos como
+financiando el faltante de fondos hacia el futuro. El valor acumulado al final resulta ser el valor futuro de
+los flujos de fondos. Por último, se realiza el cociente entre el valor futuro de los fondos acumulados y el
+desembolso inicial, elevado al inverso del número de períodos que dura el proyecto:
+1
+⎡5.000(1,10)4 +10.000(1,10)3+4.000(1,10)+5.000−2.000(1,08)2⎤5
+TIRM =
+⎢ ⎥
+−1
+⎣ 10.000 ⎦
+1
+⎡27.697,7⎤5
+= −1=22,6%
+⎢ ⎥
+⎣ 10.000 ⎦
+27.697,7 representa el valor futuro neto de los flujos positivos y negativos que son reinvertidos al
+diez por ciento y financiados al 8% respectivamente. Finalmente, mediante el cociente entre este valor y la
+inversión y calculando una tasa equivalente para el período de 5 años, se obtiene la TIR modificada.
+La TIRM es del 22,6%, inferior a la TIR original del 39,4%. La diferencia se explica por la
+reinversión de fondos a una tasa inferior al 39,4% y el efecto de financiarse al 8%.
+Otra forma de calcular la TIR modificada
+Existe una variante para el cálculo de la TIRM (aparentemente es el método que se conoció
+originalmente) que consiste en actualizar los flujos negativos con la tasa de oportunidad hasta el momento
+cero, integrándolos al desembolso inicial (asimilándolos a una inversión), y capitalizar los flujos positivos
+hasta el final de la vida útil también con la tasa de oportunidad del capital. La TIRM que resulta en este
+caso es del 21%, algo menor al 22,6% que obtuvimos con el método anterior.
+1
+⎡5.000(1,10)4 +10.000(1,10)3+4.000(1,10)+5.000⎤5
+TIRM =
+⎢ ⎥
+−1
+⎣
+10.000+2000(1,08)2
+⎦
+1
+⎛30.030,30⎞5
+=⎜ ⎟ −1=21%
+⎝11.587,66⎠
+El problema que existe con este método es que al actualizar los flujos de fondos negativos, cuanto
+más alta sea la tasa para financiarlos, menor serán en valores presentes, con lo cual aumenta la TIR
+modificada. Entonces, cuanto más alta sea tasa de financiamiento, mejor, lo que no tiene mucho sentido.
+Como vemos, este método no explicita la capitalización del flujo de fondos para el financiamiento, cuando
+la práctica usual sería financiarlo hacia el futuro(15).
+TIR Modificada: ejemplo de aplicación con Excel®
+La TIR modificada puede ser calculada muy fácilmente con la función TIRM de Excel®. Suponga
+que un proyecto requiere una inversión de $120.000 y generará flujos de efectivo por 39.000, 30.000,
+(15) Una discusión sobre el tema puede encontrarse en el artículo de WILLIAM R. McDANIEL, DANIEL E.
+McCARTY, and KENNETH A. JESSELE, “Discounted Cash Flor with Explicit Reinvestment Rates: Tutorial and
+Extensión”, The Financial Review, August 1988, 369-385.
+
+21.000, 37.000 y 46.000 pesos durante esos cinco años de actividades. En el año 6 es necesario financiar
+una ampliación lo que genera un flujo negativo neto para ese año de -20.000, el séptimo año termina el
+proyecto generando un flujo de $40.000. Los flujos positivos se reinvierten al 12% y el flujo negativo se
+financia al 10%. Para calcular la TIRM simplemente pulsamos el signo f*y buscamos en funciones
+financieras TIRM; luego completamos la ventana en las casillas “valores” (para los flujos de fondos) “tasa
+de financiamiento” y “tasa de reinversión” como aparece en la figura 10.17:
+Figura 10.17 TIR modificada con Excel®
+Un aviso de cuidado: tenga presente que Excel® calcula la TIRM actualizando los flujos negativos
+al momento cero (tratándolos como una inversión) y ello tiene el inconveniente mencionado anteriormente.
+El argumento para actualizar flujos de inversión es que sí esta se producirá con seguridad, la tasa para
+calcular el valor presente debe ser menor dado el menor riesgo de este flujo. Pero ya hemos descrito lo que
+ocurre cuando la tasa de financiamiento aumenta: el valor presente de los flujos negativos disminuye, con
+lo cual aumenta la TIRM cuánto más alta sea la tasa de financiamiento, lo cual no tiene mucha lógica.
+Otro caso que debe tenerse en cuenta es cuando hay proyectos mutuamente excluyentes y se
+producen contradicciones entre el VAN y la TIR. Es posible que al calcular el flujo de fondos incremental
+para obtener la tasa de Fisher, se produzca más de un cambio de signo en su desarrollo y resulte más de una
+TIR o ésta sea incalculable. En esos casos, Usted deberá calcular el VAN o la TIRM si desea obtener una
+medida de rentabilidad periódica.
+¿La TIR modificada puede corregir los errores de la TIR?
+En una sección anterior describimos una serie de situaciones donde la aplicación de la regla directa
+de la TIR conducía a un error. Vamos ahora a volver sobre los ejemplos donde mostramos esas
+complicaciones de la TIR para ver como la TIRM puede vérselas con dichos inconvenientes. Para ello
+reproduciremos dichos ejemplos realizando una comparación entre los resultados que arrojan el VAN, la
+TIR y la TIRM.
+a. El problema del tamaño de la inversión inicial
+Proyecto Año 0 Año 1 Año 2 Año 3 VAN TIR TIRM
+A -100 400 0 0 $263,64 300% 300,0%
+B -200 700 0 0 $436,36 250% 250,0%
+B-A -100 300 0 0 $172,73 200,00% 200,0%
+Tabla 10.16 VAN, TIR y TIRM incrementales
+Volviendo a nuestro problema del tamaño inicial, y calculando la TIRM, podemos ver que el VAN
+es un criterio superior en este caso a la TIR y a la TIRM pues selecciona el proyecto correcto (B) indicando
+
+la cantidad en que cambia la riqueza del accionista. Sin embargo, cuando calculamos la TIR incremental y
+la TIRM incremental (en la tercera fila) observamos que ambas son capaces de funcionar tan bien como el
+método del VAN, seleccionando el proyecto B.
+b. Diferente patrón del flujo de fondos
+Proyecto Año 0 Año 1 Año 2 Año 3 VAN TIR TIRM
+A -1.000 800 500 100 $215,63 25,99% 17,4%
+B -1.000 100 500 1.000 $255,45 20,44% 18,7%
+B-A 0 -700 0 900 $39,82 13,39% 12,2%
+Tabla 10.17 VAN, TIR y TIRM incrementales
+Aquí otra vez la TIRM y el VAN dan el mismo resultado, ya que ambos seleccionan el proyecto B.
+En este caso, no hubiera sido necesario el análisis incremental. Las TIRM que aparecen en la tabla 10.16 se
+calcularon con la función del Excel®, que como ya hemos dicho, actualiza los flujos de fondos negativos al
+momento cero. En los proyectos A y B no hay cambios de signo en el flujo de fondos, pero sí en el flujo
+incremental B-A. Observe que si hubiéramos calculado la TIRM incremental de B-A capitalizando el flujo
+de fondos del financiamiento, por ejemplo al 10% (suponiendo que nos cobren el 10% para financiar el
+flujo negativo) tendríamos al final del año tres: -700 (1,10)2+900=53 ¿Pero contra qué comparamos esta
+cifra si la inversión incremental es cero? No puede calcularse la TIRM por este último método; en este
+caso, la TIR incremental y la TIRM incremental muestran un resultado que supone comparar $900 del
+momento 3 contra los $700 del momento 1 actualizados con la TIR al momento cero en el método TIR y
+con la tasa de oportunidad en el método de la TIRM.
+c. Proyectos no convencionales
+Proyecto Año 0 Año 1 Año 2 Año 3 VAN TIR TIRM
+E -5.000 30.000 -30.000 26,79% 373,2% $ -2.520,66 5,24%
+Tabla 10.18 TIRM para proyectos con TIR múltiples
+De nuevo el VAN y la TIRM nos dan el mismo resultado: el proyecto debe ser rechazado, pues el
+VAN es negativo y la TIRM es menor al costo de oportunidad (la TIRM se calculó nuevamente con la
+función de Excel®). Observe que en este ejemplo, la TIRM se calcula suponiendo que el flujo negativo del
+año 2 se actualiza por dos períodos al 10% (suponemos que el financiamiento nos cuesta el 10%). Pero si
+hubiéramos calculado la TIRM sin actualización de los flujos negativos, sólo hubiéramos capitalizado el
+flujo positivo del año 1 y tendríamos al final del año dos: 30.000(1,10)-30.000=3.000. Comparando $3.000
+al final del año dos con una inversión inicial de $5.000 resulta una TIR negativa de -22,54%
+{[(3.000/5000)-1]1/2-1]}. Después de ver estos ejemplos, ¿podemos decir que la TIRM funciona
+razonablemente? No, fíjese que también en el primer ejemplo, para el diferente tamaño de la inversión, la
+regla directa funcionaba mal (la TIRM seleccionaba el proyecto A). La TIRM incremental funcionaba
+mejor. Sin embargo, todavía debemos seguir viendo otros ejemplos antes de dar un veredicto.
+10.9. PROYECTOS CON DIFERENTE VIDA: CUANDO LA REGLA DIRECTA
+DEL VAN PUEDE FALLAR
+Hasta donde hemos visto, el VAN, más allá de dar una respuesta confusa en el caso de proyectos no
+convencionales (donde el VAN aumentaba para cierto intervalo de aumento del costo de oportunidad),
+siempre nos daba la respuesta correcta. Vamos a mostrar ahora un caso donde la regla directa del VAN nos
+da una respuesta incorrecta, que es el caso de los proyectos con diferente vida. Esto es muy común en las
+decisiones de reemplazo de maquinarias, en proyectos de forestación y hasta en los bonos u obligaciones
+financieras.
+
+Ejemplo: una decisión de reemplazo de una maquinaria envuelve dos proyectos mutuamente
+excluyentes: mantener la vieja o comprar una nueva. Suponga que la compañía Calçados Beira Río está
+evaluando la compra de una maquinaria para la fabricación de calzado y cuenta con dos alternativas: la
+maquinaria A que tiene una vida útil de 4 años y la maquinaria B que deberá reemplazarse al cabo de 2
+años. Cuando calculamos el VAN, la TIR y la TIRM de ambas alternativas, el criterio del VAN nos dice
+que la maquinaria A es la mejor alternativa.
+Proyecto Año 0 Año 1 Año 2 Año 3 Año 4 TIR VAN al 10% TIRM
+A (4 años) -40.000 8.000 14.000 15.000 17.000 11,77% $ 1.723,93 11,17%
+B (2 años) -20.000 10.000 15.000 0 0 15.14% $1.487,60 11,99%
+Tabla 10.19 Proyectos con diferente vida
+Nuevamente aparece una contradicción entre el VAN y la TIR: el proyecto A dura 4 años y tiene el
+VAN mayor, pero por la TIR elegiríamos el proyecto B. Veremos que el caso de los proyectos con
+diferente vida nos plantea un caso donde la regla directa del VAN nos da en primera instancia, una
+respuesta incorrecta. La pregunta relevante que debemos hacernos es ¿qué ocurre al final de la vida del
+proyecto más corto? Lo más probable es que la compañía reemplace la maquinaria al final del segundo año.
+Cuando las vidas son igualadas, veremos que tanto el VAN como la TIRM dan la respuesta correcta.
+Para realizar una comparación apropiada utilizaremos la técnica de la “cadena de reemplazos” que
+consiste en evaluar el proyecto de 2 años como si al final del segundo año fuera realizado un reemplazo de
+la maquinaria por $20.000 generando una nueva corriente de efectivo idéntica a la anterior por otros dos
+años. En ese caso, el flujo del proyecto B se vería de esta forma:
+Año 0 Año 1 Año 2 Año 3 Año 4
+-20.000 10.000 -5.000 10.000 15.000
+Tabla 10.20 Flujos de fondos del proyecto B con reemplazo de la
+máquina al final del año 2
+El flujo de fondos neto del año 2 es de -5000 ya que al final de ese año se produce el reemplazo
+(15.000-20.000). De esta forma, igualamos la vida de ambos proyectos en un horizonte común de 4 años.
+Luego calculamos el VAN, la TIR y la TIRM para el proyecto B con una vida de cuatro años y entonces
+realizamos una comparación con las tres medidas de rentabilidad.
+Proyecto TIR VAN al 10% TIRM
+A 11,77% $1.723,93 11,17%
+B 15,14% $2.717,03 11,98%
+Tabla 10.21 VAN, TIR y TIRM cuando se igualan vidas
+Observe que antes de igualar las vidas de ambos proyectos, el proyecto A hubiera sido elegido por
+el criterio del VAN, mientras que el proyecto B hubiera sido seleccionado por los criterios de la TIR y la
+TIRM. Una vez que se igualan las vidas en 4 años, tanto el VAN como la TIR como la TIRM nos dicen que
+el proyecto B es el más rentable. La regla directa del VAN fallaba en este caso, mientras que la TIR y la
+TIRM, aplicadas directamente, nos daban la respuesta correcta. Si los anteriores “rounds” fueron para el
+VAN, este es para la TIR.
+El método de la anualidad equivalente
+Aunque el ejemplo anterior ilustró como es necesario extender el análisis si estamos comparando
+proyectos mutuamente excluyentes con vidas diferentes, en la práctica el cálculo puede ser un poco más
+
+complejo. Podríamos tener que comparar proyectos de 4, 5, y 9 años, en cuyo caso requeriríamos una larga
+cadena de reemplazos a lo largo de un horizonte de 180 años (el múltiplo común para proyectos de 4, 5 y 9
+años de vida). En estos casos, es posible utilizar un procedimiento más sencillo: la anualidad equivalente,
+que envuelve tres pasos:
+1. Se calcula primero el VAN de cada proyecto. De la tabla 10.18 vimos que el VAN A=1.723,93 y
+el VAN B= 1.487,60
+2. Calcular la anualidad equivalente para el VAN de cada proyecto. La fórmula para el cálculo de la
+anualidad equivalente fue vista en el capítulo de rentas temporarias y en este caso es igual a calcular la
+“cuota” de una renta temporaria inmediata donde el valor presente es igual al VAN del proyecto.
+Anualidad equivalente del proyecto A: 1.723,93 a (1,4,0.10)-1= 543,85
+Anualidad equivalente del proyecto B: 1.487,60 a (1,2,0.10)-1= 857,14
+El VAN del proyecto A tienen una anualidad equivalente de $ 543,85 para 4 años y el proyecto B
+tiene una anualidad equivalente de $ 857,14 para 2 años.
+3. Asumiendo que se realizarán continuos reemplazos al final de la vida de cada proyecto hasta el
+infinito, podemos considerar el valor presente de la perpetuidad de cada anualidad equivalente:
+543,85 / 0,10= 5.438,50
+857,14 / 0,10= 8.571,41
+El cálculo de la anualidad equivalente supone que los proyectos pueden ser renovados
+permanentemente dando forma a cash flows infinitos, donde el cash flow es la anualidad equivalente.
+Considerando vida infinita, el proyecto B es el mejor. Cuando tratamos con proyectos que tienen diferente
+vida, debemos tener cuidado de realizar los ajustes apropiados ya que en estos casos, observamos que el
+VAN tampoco era un método seguro. Este ejemplo demuestra que la TIRM a veces puede lidiar con
+proyectos donde la regla directa del VAN no funciona. Puede considerarse una mejor medida de
+rentabilidad periódica que la TIR tradicional, ya que:
+a. Permite incorporar una tasa de reinversión más ajustada a la realidad.
+b. Evita el problema que tiene la TIR cuando el proyecto tiene flujos no convencionales.
+c. Puede lidiar bastante bien con la mayoría de los problemas cuando tratamos con proyectos
+mutuamente excluyentes.
+La TIRM puede ser un buena medida al igual que el VAN pero no es infalible. Vimos que cuando
+los proyectos diferían en el tamaño o escala de la inversión, la regla puede conducir a error. También había
+problemas con la interpretación del resultado cuando los flujos de fondos cambiaban de signo y
+utilizábamos directamente la función del Excel®. Aquí los analistas deberían utilizar la TIRM incremental
+o el VAN, que aún todavía tendría problemas con los proyectos de vida desigual.
+Si Usted lo que quiere es tener una medida de la rentabilidad periódica de una inversión,
+entendida como un porcentaje de rendimiento, lo mejor es hacer explícita la interpretación económica de
+lo que ocurrirá con el flujo de efectivo: realizar las suposiciones correctas de tasas de reinversión y
+financiamiento para obtener un valor futuro al que luego podemos comparar con la inversión inicial y de
+esta manera obtener una medida de rentabilidad periódica equivalente.
+10.10. LA “DURATION” EN LA EVALUACIÓN DE PROYECTOS
+Hemos visto las diferentes técnicas de evaluación de proyectos y es hora de que hagamos un
+balance. La regla directa de la TIR se equivocaba en algunas circunstancias pero vimos que la mayoría de
+
+los problemas desaparecen cuando ponemos las cosas en perspectiva y damos un paso más tal como es
+calcular la tasa de Fisher o hacer explícita la reinversión del flujo de fondos utilizando la TIRM. Sin
+embargo, todavía los problemas Pueden subsistir, como vimos para el caso del diferente tamaño de la
+inversión inicial. También la regla directa del VAN puede fallar para proyectos con diferentes vidas. Todos
+los casos analizados hasta este momento suponían que los flujos de fondos se mantienen constantes, lo cual
+supone evaluar una inversión en condiciones de certeza. En la práctica, se realiza un análisis del riesgo del
+proyecto que incluye el análisis de sensibilidad, análisis de diferentes escenarios con probabilidades
+ponderadas y hasta la simulación de Monte Carlo. Un análisis del riesgo del proyecto se encuentra fuera del
+alcance de esta obra. Pero vamos a tratar el caso de la variación en la tasa de interés de oportunidad, lo cual
+nos acerca al concepto de la “duration”, que trataremos en forma detallada en el capítulo 12. Para Poner las
+cosas en perspectiva, supondremos el siguiente ejemplo donde aparecen dos proyectos con diferente
+inversión inicial:
+VAN
+Pay Disc. Duration
+Proy 0 1 2 TIR al TIRM IR Duration
+back Payback Modificada
+10%
+A -2.000 1.000 2.000 28,1% 561,98 24,5% 1,28 1,50 1,66 1,61 1,26
+B -4.000 4.000 1.120 22,8% 561,98 17,5% 1,14 1,00 1,39 1,19 0,97
+B-A -2.000 3.000 -880 10,0% 0,00 7,0% 1,00 0,67 0,73
+Tabla 10.22 Duration de proyectos
+El VAN de ambos proyectos es exactamente igual al 10%, pero las TIR difieren y las otras medidas
+de rentabilidad también. Para colmo, si calculamos la tasa de Fisher también es igual al 10%, que
+representa el costo de oportunidad. Las diferentes reglas nos dan respuestas distintas:
+Método Proyecto
+VAN A = B
+TIR A
+TIRM A
+Tasa de Fisher A = B
+Índice de Rentabilidad A
+Payback B
+Discounted Payback B
+Tabla 10.23 Resultados de los distintos métodos
+Las reglas del Payback y el Discounted Payback nos dicen que es mejor el proyecto B, pero ya
+hemos señalado sus defectos y hemos visto que no son confiables. El proyecto A presenta una mayor
+cantidad de indicadores favorables. ¿Significa esto que deberíamos elegirlo? No!! Nunca debemos elegir un
+proyecto por alguna metodología de “desempate” tipo “un método me dice A, el otro B, pero como el
+tercero me dice A, éste es el mejor”. Vamos ahora a refinar un poco el análisis, ya que hasta aquí hemos
+supuesto que la tasa de interés de oportunidad no varía durante la vida del proyecto y hemos utilizado la
+misma tasa para calcular el VAN de ambos proyectos.
+Utilizar la misma tasa para calcular el VAN de ambos proyectos supone que ambos tienen el mismo
+riesgo. Para un examen de este punto, remitimos al lector al capítulo 15, donde tratamos la estimación del
+costo de capital. En este capítulo, a los efectos de evidenciar las herramientas de evaluación, hemos
+supuesto que es la misma para ambos proyectos y que era un dato. Pero ¿qué ocurre si la tasa de interés
+varía? El VAN también se modificaría, y es muy claro que una suba en la tasa de interés inclinaría la
+decisión por el proyecto A y una disminución la inclinaría por el proyecto g según puede apreciarse en la
+figura 10.18:
+
+Figura 10.18 Tasa de Fisher
+Las últimas dos columnas de la tabla 10.22 nos muestran dos nuevos conceptos: la “duration” y la
+“duration modificada”. Como explicaremos en detalle estos conceptos en el capítulo 12, aquí nos
+limitaremos a decir que cuanto mayor es la duration, mayor es el cambio que sufrirá el valor presente del
+flujo de fondos (excluida la inversión inicial) para cambios en la tasa de interés (como la duration es un
+concepto que se aplica en bonos, se analiza siempre para un cambio en la TIR exigida por el mercado).
+En la práctica de la evaluación de proyectos también entran consideraciones estratégicas que no
+aparecen en la mecánica de las técnicas vistas en este capítulo. De todos modos, nos parece importante
+incorporar como un elemento en el análisis el efecto de un cambio de la tasa de interés en el tiempo.
+Nuevamente recordamos al lector que el proceso para determinar la tasa de oportunidad o el costo
+de capital de un negocio es tratado con detalle en el capítulo 15, por lo tanto remitimos a su lectura.
+Más acerca de proyectos con diferente tamaño
+En los libros de matemática financiera la explicación acerca de las reglas de decisión cuando hay
+proyectos de diferente tamaño remiten al cálculo de la Tasa de Fisher. La razón es simple: los métodos se
+plantean como si estuviéramos evaluando proyectos en condiciones de absoluta certeza. En este capítulo
+hemos dimensionado el riesgo-tasa, a partir de la duration vista en la sección anterior. El estudio de la
+duration se profundiza en el capítulo 12. Ya hemos dicho que un análisis del riesgo del proyecto se
+encuentra más allá del alcance de esta obra, pero queremos exponer brevemente algunos puntos de
+referencia que pueden ser útiles cuando existen múltiples proyectos compitiendo por los recursos y sus
+tamaños difieren significativamente. Un punto de referencia importante es un ratio que relacione el retorno
+con el riesgo, por ejemplo el VAN/σ.
+Suponga que se tiene un proyecto A donde debemos invertir 10 millones y proporciona un retorno
+de 20 millones y un proyecto B que cuesta 1.000 millones pero proporciona 100 millones como retorno. El
+retorno del proyecto A tiene un desvío estándar de 10 millones mientras que el desvío estándar del proyecto
+B es de 100 millones. Gerentes con recursos limitados por el presupuesto podrían elegir el proyecto A
+debido a que no tienen otra opción. Gerentes en busca de retornos altos con más recursos podrían elegir el
+proyecto B debido a que genera mayores retornos. Gerentes con aversión por el riesgo podrían elegir el
+proyecto A debido a su menor nivel de riesgo. Adicione unos cuantos proyectos más con diferentes riesgos
+y retornos y tendrá un problema complejo en sus manos.
+Obviamente, el coeficiente de variabilidad (retorno/desvío estándar) nos dice que la mejor relación
+retorno-riesgo la tiene el proyecto A:
+Proyecto A Proyecto B
+Coef. variabilidad
+20/10=2 100/100=1
+El proyecto A proporciona 2 unidades de retorno por cada unidad de riesgo (o por cada unidad de
+retorno requiere sólo 0,5 unidades de riesgo) mientras que el proyecto B proporciona 1 unidad de retorno
+por cada unidad de riesgo.
+
+Si pudiera replicarse el proyecto A, el gerente inteligente podría crear un portafolio replicado para
+maximizar los retornos y minimizar el riesgo, gastando 50 millones en 5 proyectos A y obtendría 100
+millones de retorno, pero arriesgando la mitad del capital que arriesga en el proyecto B.
+Aún cuando no encontremos 5 proyectos A iguales, si tomamos el riesgo y el retorno en
+consideración, puede verse que si pueden replicarse proyectos, podemos obtener retornos similares con
+menor costo y menos riesgo.
+10.11. CÁLCULO DEL VAN Y LATIR CON FLUJOS NO PERIÓDICOS
+A veces es posible que los flujos de efectivo se produzcan a intervalos irregulares de tiempo.
+Volvamos por un momento al proyecto de la cadena de pizzerías Azzurra y supongamos, solamente a los
+efectos del ejemplo, que los flujos de efectivo no se producen anualmente sino en las fechas que se
+observan en la tabla 10.24. Obviamente, como los flujos de efectivo se producen antes, el VAN y la TIR
+aumentan con respecto al ejemplo original.
+VAN NO
+TIR NO
+Proyecto 31/12/01 29/06/02 29/06/03 28/06/04 PERIÓDICO
+PERIÓDICA
+al 10%
+A -1000 500 500 800 541,52 47,1%
+Tabla 10.24 VAN y TIR no periódicos
+Si contra los pronósticos iniciales, el primer flujo de fondos se produce más rápidamente de lo
+calculado (180 días después de la inversión inicial) y los restantes flujos se producen a 1 y 2 años después
+del primero, no se mantiene la equidistancia y debemos calcular el “VAN no periódico” y la “TIR no
+periódica”. Para hacerlo, procedemos a ajustar los exponentes de los factores de actualización de acuerdo a
+la siguiente forma:
+Para el primer flujo el exponente será:
+Cantidad de días período irregular = 180 = 0,493
+365 365
+Se supone que los flujos de efectivo son anuales, por lo cual consideramos un año civil con 365
+días, aunque podría establecerse un período base diferente. Para los períodos siguientes: se suma 1 (uno) al
+valor obtenido en el paso anterior. Note que el exponente del primer período es 0,493, el segundo 1,493 y el
+tercero 2,493.
+500 500 800
+VANnoperiódico=−100+ + + =541,52
+(1+0,10)180/365 (1+k)545/365 (1+k)910/365
+Para la TIR no periódica se realiza idéntico cálculo, sólo que la obtenemos por iteración. Tanto el
+VAN no periódico como la TIR no periódica son funciones que están incorporadas en Excel® como puede
+verse en la figura 10.19. La función TIR no periódica es muy utilizada en el cálculo de la TIR de bonos
+donde los cobros de los cupones no se produce a intervalos equidistantes de tiempo y obtener un mínimo
+período común (trimestres o meses exactos) es prácticamente imposible porque los intervalos difieren en
+períodos de 180, 181, 182, 184 días, etcétera. Entonces Excel® “reperiodiza” los flujos como si fueran
+diarios, asumiendo que los días que no hay cobros, el flujo de fondos es cero. Entonces calcula una TIR
+diaria, Pero inmediatamente eleva esa TIR diaria a 365 días y entrega una TIR anual.
+
+Figura 10.19 TIR no periódica con Excel
+10.12. LOS PROYECTOS SÓLO SE ACEPTAN SI SON BUENOS PROYECTOS
+La regla número uno en la evaluación de proyectos es que su mérito debe caer por su propio peso,
+es decir que un proyecto es bueno o malo, prescindiendo de como es financiado. A pesar de ello, existe
+cierta confusión en la gerencia cuando creen que puede aceptarse un proyecto simplemente porque se
+financia con deuda barata. Lo explicaremos con un ejemplo. Imaginemos que usted, como directivo
+financiero, ha detectado un proyecto que demanda una inversión de $100 y genera un rendimiento del 20%
+al año. Pero el rendimiento de otras inversiones con riesgo similar es del 30%!! El proyecto es arriesgado,
+pero usted puede financiarlo totalmente endeudando la empresa al 10%. En la figura 10.20 aparece el flujo
+de efectivo del capital propio:
+0 1 año
+Inversión -100 FF proyecto 120
+Deuda 100 Pago interés+capital -110
+Desembolso 0 Rendimiento 10
+Figura 10.20 Flujo de efectivo del capital propio
+Usted ha ganado $10 sin invertir absolutamente nada y por lo tanto su tasa de retorno es infinita.
+Pero si los accionistas pueden conseguir un proyecto con riesgo similar, pero que rinde el 30%, le dirán a
+usted que está muy bien obtener una tasa de rendimiento del 20%, pero que el 30% es mejor. ¿Cuál es el
+costo de capital para analizar el proyecto? ¡El 30%! De esta forma, descontando el flujo de fondos del
+proyecto con el 30% observamos que su vAN es negativo y la empresa destruye valor por $7,69:
+120
+-100 + ––––– = -7,69
+(1,30)
+La equivocación de los gerentes es que creen que el costo del capital para calcular el VAN del
+proyecto es el 10% que cuesta la deuda. Absolutamente equivocado! El costo del capital es siempre el
+rendimiento de una alternativa de riesgo comparable. Tenga presente un consejo: no debe confundirse el
+origen de los recursos con el uso que se hace de éstos. En otras palabras, un mal proyecto no se transforma
+en un buen proyecto simplemente por el hecho de que pueda financiarse con deuda barata(16).
+(16) Para una explicación adicional sobre este tema véase DUMRAUF (2003).
+
+10.13. LOS PROYECTOS, LA ESTRATEGIA Y LA TEORÍA DE OPCIONES
+Las técnicas de evaluación de proyectos, como reglas matemáticas, representan una ayuda
+indispensable para evaluar la bondad de un proyecto individual o para seleccionar los mejores proyectos
+cuando existe racionamiento de capital. Sin embargo, no son infalibles y como reglas matemáticas, nos dan
+un resultado, que, generalmente, debe ser objeto de un análisis ulterior. En la práctica existen otras
+variables que deciden la suerte de un proyecto. Por ejemplo, piense en los efectos sinérgicos que podría
+tener el lanzamiento de un nuevo producto en una compañía que produce alimentos. Es posible que si el
+producto es un éxito, tal vez cree una sinergia positiva y aumente la venta de otros productos. En ese caso,
+el cash flow relevante no es solamente el del nuevo producto, sino el que contiene además el incremento en
+la venta de los productos antiguos. Pero también es posible considerar que el lanzamiento de un nuevo
+producto genere una reducción en la venta de los productos viejos; este efecto se conoce con el nombre de
+“canibalización”.
+En los últimos años, la aplicación de la teoría de opciones a los activos reales está sugiriendo que
+en el futuro los proyectos se ordenen teniendo en cuenta también las opciones que contienen. Por ejemplo,
+la opción de abandonar el negocio liquidando los activos, es una opción cuyo valor debe sumarse al
+tradicional valor actual neto. O tal vez el negocio funciona mejor de lo que pensamos y nos ofrece una
+opción de expansión realizando una inversión adicional. Muchos proyectos se desarrollan en fases, de
+forma que si la fase 1 funciona bien, se pasa a la fase siguiente y así sucesivamente. En tal sentido,
+podemos considerar a esos proyectos como un conjunto de opciones compuestas. Tratamos las opciones
+financieras y las opciones reales en los capítulos 13 y 14. Recomendamos al lector una cuidadosa lectura de
+esos capítulos; las opciones reales ofrecen una potente herramienta de valuación y estrategia en la
+evaluación de inversiones.
+RESUMEN
+A esta altura usted podría preguntarse: ¿Por qué utilizar la TIR, con todos los inconvenientes que
+tiene? Los inconvenientes de interpretación que presenta la TIR en algunos problemas prácticos, ha
+generado un marco de análisis académico donde suele realizarse una serie de críticas para justificar la
+adopción del VAN como el método más apropiado. Si bien es cierto que el VAN no adolece de varios de
+los problemas que han sido descriptos en el caso de la TIR, ambos métodos pueden ser complementarios y
+no sustitutivos. La TIR es utilizada con frecuencia en la práctica: los analistas de bonos la utilizan todo el
+tiempo, los empresarios aprecian una medida de la rentabilidad periódica y la TIR nos da una medida
+rápida de la rentabilidad de la inversión. Su popularidad en la práctica quizás se deba al hecho de que los
+analistas financieros parecen preferir hablar de tasas de rendimiento antes que de valores absolutos. Pero
+por sobretodo, es una medida fácil de comunicar; es más fácil explicar a un pequeño empresario que el
+rendimiento de una inversión es de “tanto por ciento” antes que decirle que el VAN de un proyecto es de
+“tantos pesos”.
+Por otra parte, debe tenerse en cuenta que en el caso del VAN, su cálculo previo exige la
+determinación del costo del capital, un proceso no exento de dificultades que puede consumir mucho
+tiempo y dinero. No se puede estimar el VAN, a menos que se conozca la tasa de descuento, pero aún así
+puede calcularse la TIR. Si la TIR de un proyecto es muy alta, seguramente excederá la tasa de corte, y
+entonces tienda a eludirse el cálculo del costo de capital, aceptando el proyecto. La TIR es una medida que
+puede utilizarse en la medida que se conozcan bien sus peligros. Muchos de sus inconvenientes se
+solucionaban cuando calculábamos la TIR incremental.
+Como respuesta a los inconvenientes de la TIR ha surgido tina medida mejorada como es la TIR
+modificada, que es una medida de rentabilidad periódica y que suele darnos la misma respuesta que el VAN
+excepto en el caso del diferente tamaño inicial. Todos los métodos que intentan medir la rentabilidad
+periódica necesariamente dan como resultado un promedio; la TIR representa una aproximación a la
+rentabilidad periódica de una inversión que nace con el proyecto. Cuando el supuesto de reinversión de
+fondos se aleja considerablemente de la realidad, la TIR modificada nos aproxima a una medida de
+rentabilidad periódica más razonable.
+
+PREGUNTAS
+1. Responda a las siguientes preguntas:
+a) Las TIR de los proyectos A y B son del 40 y 50%, respectivamente. Ambos proyectos tienen
+flujos convencionales y el mismo valor actual neto a una tasa del 10%. ¿Cuál de los dos proyectos tiene el
+flujo de efectivo de mayor valor absoluto?
+b) El VAN del proyecto A es mayor que el VAN del proyecto B cuando el costo de oportunidad es
+igual a cero. Ambos proyectos tienen flujos convencionales e igualan su valor actual neto cuando el costo
+de oportunidad es igual al 10%. ¿Cuál de los dos proyectos tiene la TIR más alta?
+c) Los proyectos A y B tienen exactamente el mismo desembolso inicial, flujos convencionales y
+ofrecen la misma TIR, la cual supera el costo de oportunidad del capital. Los flujos de fondos generados
+por el proyecto A son mayores que los del proyecto B, pero se producen más tarde. ¿Cuál de los dos
+proyectos tiene el VAN mayor y por qué?
+d) En un proyecto con flujos convencionales o simples, ¿el período de recupero descontado es
+siempre inferior al período de recupero (payback). Explique su respuesta.
+e) Si un proyecto tiene flujos de efectivo convencionales y el período de recupero descontado es
+inferior a la vida del proyecto, ¿qué podemos decir sobre su VAN?
+f) Si un proyecto tiene flujos de efectivo convencionales y un VAN positivo que podemos decir de:
+1) el período de recupero de la inversión 2) el índice de rentabilidad 3) la TIR.
+2. Explique por qué aquellos proyectos que tienen un flujo de efectivo mayor al final de sus vidas
+tiene un VAN más sensible a los cambios en la tasa de interés que el VAN de los proyectos cuyo flujo de
+efectivo es mayor al principio de sus vidas.
+3. ¿Qué relación existe entre la TIR y la rentabilidad requerida a un bono o a una acción? ¿Qué
+relación existe entre la TIR y la tasa efectiva de un préstamo que calcula intereses sobre saldos?
+4. Determine si es verdadera o falsa la siguiente afirmación:
+“El período de recupero descontado garantiza que todos los proyectos que aceptemos nunca tendrán
+VAN negativo, aunque es posible que rechacemos un buen proyecto, cuyo VAN es positivo”.
+5. ¿En qué caso el VAN puede darnos una respuesta confusa y cuando puede fallar?
+6. Señale cuales son las dos condiciones que deben cumplirse para que el método de la TIR da la
+misma respuesta que el VAN:
+a) ¿Cuándo el flujo de fondos cambia de signo en más de una oportunidad?
+b) ¿Cuándo los flujos de fondos se reinvierten a la tasa de corte.
+c) ¿Cuándo la función del VAN es decreciente respecto de la tasa de interés?
+d) ¿Cuándo el VAN arroja una respuesta confusa al cambiar el costo de oportunidad?
+e) ¿Cuándo el proyecto se considera individualmente?
+7. ¿Puede haber un proyecto con una TIR negativa?
+8. ¿En qué caso podría la TIR ser mayor al costo del capital y sin embargo el proyecto puede ser
+malo y debería rechazarse? Señale la respuesta correcta
+a) Cuando el flujo de fondos cambia de signo en más de una oportunidad.
+
+b) Cuando la TIR es muy alta. c) Cuando la TIR es negativa.
+9. Las siguientes sentencias sobre las reglas del valor actual neto (VAN) y la tasa interna de
+rendimiento (TIR) son verdaderas cuando consideramos proyectos individuales, excepto... (indique la
+sentencia falsa):
+a) Aceptar el proyecto si el VAN > 0 y el flujo de fondos es convencional.
+b) Aceptar el proyecto si la TIR > costo de oportunidad del capital siempre que el flujo de fondos
+sea convencional o simple.
+c) Aceptar el proyecto si la TIR > 0 siempre que el flujo de fondos sea convencional.
+d) Marque d) si no ha marcado ninguna de las anteriores.
+10. Indique la respuesta falsa de las que aparecen a continuación sobre los problemas a los que
+puede dar lugar la aplicación de la regla directa del Valor Actual Neto (VAN):
+a) Supone implícitamente que los flujos de caja van a ser reinvertidos al costo de oportunidad del
+capital.
+b) En los proyectos de endeudamiento, siempre es preferible el VAN más alto, ya que aumenta a
+medida que la tasa de oportunidad también aumenta.
+c) Con proyectos que tienen vidas diferentes, el VAN puede dar a veces una respuesta incorrecta.
+d) Cuando hay proyectos mutuamente excluyentes, el criterio del VAN da siempre la misma
+respuesta que la TIRM (TIR modificada).
+PROBLEMAS
+1. Calçados Ipanema está considerando dos planes de expansión mutuamente excluyentes. El plan
+A requiere de 35 millones de pesos e involucra la mudanza a una planta mayor que proporcionará un flujo
+de efectivo de 10 millones de pesos por año durante 20 años. El plan B requiere de 10 millones de pesos
+para un proyecto que dará un uso más intenso a la mano de obra y que tiene una corriente esperada de flujo
+de efectivo de 3 millones de pesos por año durante 20 años. La tasa requerida de rendimiento de Calçados
+Ipanema es del 10%.
+a) Calcule el VAN y la TIR de cada proyecto.
+Respuesta: TIR A: 28,38% TIR B: 29,84%; VAN A: 50,14; VAN B: 15,54.
+b) Grafique los perfiles del VAN de los planes A y B y aproxime la tasa de Fisher.
+c) Proporcione una explicación basándose en las tasas de reinversión y en los costos de
+oportunidad, en cuanto a la razón por la cual el método del VAN es mejor que el método de la TIR, cuando
+el costo de oportunidad es del 10%
+Respuesta: ver apéndice de respuestas.
+2. El proyecto A tiene una inversión inicial de 7.500 pesos y se espera que produzca un flujo de
+efectivo de 2.500 pesos anuales durante cinco años. El proyecto B tiene una inversión inicial de 35.000
+pesos y se espera que produzca flujos de efectivo de 10.000 pesos anuales durante cinco años.
+a) Calcule el VAN, la TIR y el período de recupero de cada proyecto, suponiendo una tasa
+requerida de rendimiento de 10%.
+
+b) Si el presupuesto alcanzara para realizar los dos proyectos (son proyectos independientes, no
+excluyentes), ¿los dos proyectos deberían ser seleccionados? Si son proyectos mutuamente excluyentes,
+¿qué proyecto debería ser seleccionado?
+Respuesta: ver apéndice de respuestas.
+3. Examine los siguientes flujos de efectivo para dos inversiones:
+Año Inversión A Inversión B
+0 -$100 -$100
+1 52 41
+2 63 55
+3 77 110
+¿Cuáles es el plazo de recupero de las dos inversiones? Si para aceptar una inversión se requiere un
+plazo máximo de recupero de dos años. ¿Cuál de estas dos es aceptable? ¿Es ésta necesariamente la mejor
+inversión?. Explique su respuesta.
+Respuesta: ver apéndice de respuestas.
+4. En la pregunta anterior, ¿cuál de las dos inversiones es la mejor si se requiere un rendimiento del
+5%?
+Respuesta: ver apéndice de respuestas.
+5. Una inversión bajo estudio tiene un plazo de recupero de la inversión de cinco años y un costo de
+$1 millón. Si el rendimiento requerido es del 15%, ¿cuál es el VAN en el peor de los casos? Explique su
+respuesta.
+Respuesta: - 502.823,26
+6. Un bosque puede ser talado al cabo de 1, 4 ó 6 años; cada proyecto de tala representa un
+proyecto mutuamente excluyente. Ordenados por el VAN, elegiríamos el proyecto de 6 años, por la TIR el
+de 1 año y por la TIRM el de 6 años. Iguale las vidas en 12 años y determine cual proyecto debe ser
+elegido.
+VAN al
+Proyecto Año 0 Año 1 Año 2 Año 3 Año 4 Año 5 Año 6 TIR TIRM
+10%
+1 año -1000 1.200 0 0 0 0 20,00% $90,91 11,90%
+4 años -1.000 0 0 0 1.600 0 0 12,50% $92,82 11,60%
+6 años -1.000 0 0 0 0 0 2.000 12,20% $128,95 12,20%
+Respuesta: ver apéndice de respuestas.
+7. El Gobierno de El Salvador (Centroamérica) se encuentra analizando la concesión de un servicio
+de provisión de energía. A continuación se muestran los costos de mantenimiento que tendrían las plantas
+proveedoras. El desembolso inicial del proyecto alcanza a $684.512 y sería totalmente financiado con
+capital propio. El rendimiento libre de riesgo es rf=5%, la prima esperada de mercado rm=7% y el beta para
+proyectos similares es 1,1. En base a estos datos, el Gobierno entiende que un rendimiento justo para este
+tipo de proyectos no puede superar el 12,7%. La tasa del impuesto a las ganancias es del 30%. Usted es
+contratado como consultor del Gobierno y debe calcular el ingreso anual para que la TIR del accionista no
+supere el 12,7% anual, completando los datos que faltan en el cuadro del flujo de efectivo. Para ello deberá
+utilizar la función Solver de Excel®, y una vez definida la fila de ingresos, deberá definir la tarifa de luz
+teniendo en cuenta que en la ciudad existen unas 200.000 viviendas. Asuma que no existen valores de
+recupero y el proyecto tiene una vida útil de cinco años.
+
+Año 0 Año 1 Año 2 Año 3 Año 4 Año 5
+Ingresos ? ? ? ? ?
+Costos de
+88.979 88.979 88.979 88.979 88.979
+mantenimiento
+Depreciación 136.902,4 136.902,4 136.902,4 136.902,4 136.902,4
+Costos totales
+225.881,4 225.881,4 225.881,4 225.881,4 225.881,4
+(mant = deprec)
+Resultado antes de
+? ? ? ? ?
+impuestos
+Impuestos a las
+? ? ? ? ?
+ganancias
+Flujo de fondos
+-684.512 ? ? ? ? ?
+del proyecto
+Respuesta: ver apéndice de respuestas
+8. Elegir cuál de las siguientes alternativas de inversión es más rentable, teniendo en cuenta que
+existen proyectos mutuamente excluyentes y usted cuenta con $8.000 para invertir. Utilice los criterios del
+VAN y el índice de Rentabilidad o Relación Beneficio/Costo. El costo de oportunidad es del 10%.
+Respuesta: ver apéndice de respuestas.
+9. Los proyectos A y B tienen el mismo VAN al 10%, igual índice de rentabilidad y TIRM pero
+diferente TIR, payback y discounted payback. Explique a qué se deben estos resultados y cuál de los dos
+proyectos elegiría, dado que usted cuenta con sólo $2.000 para invertir.
+Respuesta: ver apéndice de respuestas.
+10. Bio Epo es una compañía farmacéutica que está considerando una ampliación de sus equipos e
+instalaciones para los próximos años. Existen dos opciones: El equipo A cuesta $15.000 y genera un cash
+flow de $ 8.000 durante 10 años. El equipo B tiene una vida de 11 años, cuesta $ 20.000 y genera un cash
+flow de $ 9.000 por año. El costo de oportunidad del capital es del 15%. ¿Cuál opción debería ser aceptada?
+Siga el procedimiento que consiste en calcular la anualidad equivalente para el VAN de cada proyecto y
+luego asuma reemplazos a perpetuidad.
+Respuesta: el proyecto A.
+11. La compañía Rocha ha realizado la evaluación de los proyectos A, B y C con el VAN, el índice
+de rentabilidad y la TIR. Los resultados son contradictorios y Rocha cuenta con $175 para invertir. Usted
+debe determinar cuál es el mejor proyecto (son indivisibles) y para ello se le pide que realice el análisis
+incremental y además calcule la TIRM incremental asumiendo que la reinversión de fondos se producirá a
+la tasa de oportunidad del 10%.
+VAN
+Proyecto Año 0 Año 1 Año 2 Año 3 IR TIR
+al 10%
+A -100 64 64 65 $59,91 $1,60 42%
+B -150 90 90 93 $76,07 $1,51 37%
+C -175 100 100 110 $81,20 $1,46 34%
+Respuesta: ver apéndice de respuestas.
+
+REFERENCIAS BIBLIOGRÁFICAS
+SOLOMON, E. (1956) “The Arithmetic of Capital Budgeting Decisions” , en Journal of Business, Vol 29,
+N°2, Abril 1956, p. 229-239.
+TEICHROEW, D.; ROBICHEK, A; MONTALBANO, M (1965), “An Analysis of Criteria for Investment
+and Financing Decisions under Certainty”, Management Science 12, 151-179.
+TEICHROEW, D.; ROBICHEK, A; MONTALBANO, M (1965), “An Analysis of Criteria for Investment
+and Financing Decisions under Certainty”, Management Science 12, 151-179. “Mathematical
+Analysis of Rates of Return under Certainty”, Management Science 11, 395-403.
+ARCHER S.H.; D'AMBROSIO Ch. A. (1970), “The theory of business finance”, Macmillan, Toronto. Es
+un libro que reúne los mejores artículos sobre finanzas hasta la década del 70, incluyendo algunos
+sobre las técnicas de evaluación de proyectos de inversión.
+FERNÁNDEZ, N.H. (2003), “Funciones Financieras de Excel”, capítulo 4, primera edición, Errepar,
+Buenos Aires.
+FERNÁNDEZ, N. H. (2003), “Excel para contadores”, primera edición, Errepar, Buenos Aires.
+DUMRAUF, G.L. (2003) Finanzas Corporativas, Grupo Guía, Buenos Aires.
+McDANIEL, W. R.; MCCARY, D.E. and JESSELL, K.A., “Discounted Cash Flow with Explicit
+Reinvestment Rates: Tutorial and Extension,” The Financial Review, August 1988, 369-385.
+Páginas web recomendadas:
+Una nota interesante sobre la Tasa Interna de Retorno Modificada y su comparación con otros
+métodos puede encontrarse en www.fma.org/finprac/fpefw9917.pdf
+Una página con mucho material y que defiende el criterio de la TIR es:
+http://members.tripod.com/-Ray_Martin/RMenu.html
+Un paper sobre las tasas de retorno múltiples es:
+HAZEN, G. (2002) “A new Perspective on Multiple Internal Rates of Return”.
+http://fisher.osu.edu/-butler_267/DAPapers/WP030019.pdf.
+42

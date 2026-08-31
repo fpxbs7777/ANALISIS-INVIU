@@ -1,0 +1,801 @@
+Macroeconomía
+D , R
+OURNBUSCH UDIGER
+y F , S
+ISCHER TANLEY
+Cuarta Edición
+Mc. Graw Hill-Interamericana de España
+Madrid, 1988
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 16.
+16-4 DÉFICIT FINANCIADOS CON DEUDA
+En esta sección analizamos las consecuencias de los déficit. Nos concentramos aquí en los déficit
+financiados con deuda, dejando la financiación con dinero para el capítulo siguiente. Establecemos una
+separación entre déficit transitorios y déficit persistentes.
+Un déficit transitorio financiado con deuda
+El Gráfico 16-5 presenta la demanda y la oferta agregadas. Consideramos los efectos de una
+reducción impositiva. Es una reducción temporal y el déficit presupuestario se financia vendiéndole deuda al
+sector privado.
+El efecto inicial de la reducción impositiva es trasladar la curva de demanda hacia afuera, de DA a
+DA . Como el sector privado está comprando bonos durante el período del déficit, terminará poseyendo una
+1
+cantidad mayor de bonos públicos. ¿Qué efecto tiene en la demanda agregada ese aumento de la cantidad de
+deuda pública poseída por el sector privado?
+Supongamos que las personas que tienen bonos públicos los consideran una parte de su riqueza. Por
+tanto, parecería que, dado el nivel de renta, la demanda agregada aumentaría cuando la cantidad de bonos
+públicos aumenta, porque las personas que poseen esos bonos tienen más riqueza. El aumento de la riqueza
+aumenta la demanda de consumo1. Por consiguiente, la curva de demanda agregada se trasladaría a la
+derecha como consecuencia del aumento de riqueza poseída por el sector privado. Por ello presentamos la
+curva de 'demanda agregada final –después de que el gasto público ha vuelto a su nivel original– en DA ,
+2
+encima de la curva inicial DA. La diferencia entre estas dos curvas de demanda agregada surge de la mayor
+cantidad de bonos públicos, B', comparada con B en la curva inicial. Puesto que los efectos de la elevación
+de la riqueza en la demanda de consumo son probablemente pequeños, presentamos la curva de demanda
+agregada final, DA , debajo de la DA .
+2 1
+Este análisis tiene dos complicaciones. La primera es que la existencia de una mayor cantidad de
+deuda eleva los pagos de intereses en el presupuesto federal. Si el presupuesto estaba inicialmente
+equilibrado en el punto E, puede no estarlo en E ,. Por supuesto, como el nivel de precios es más elevado en
+2
+E que en E, la recaudación impositiva puede haber aumentado y quizás el presupuesto siga estando
+2
+equilibrado. Si no lo estuviera, habría que emprender una financiación adicional del déficit y esto tendría
+efectos posteriores en el equilibrio.
+1 Recuérdese la discusión de la riqueza como un factor del gasto de consumo en el Capítulo 8.
+2
+
+GRAFICO 16-5. UN DÉFICIT TRANSITORIO FINANCIADO CON DEUDA. Una reducción de los impuestos
+traslada la curva de demanda agregada de DA a DA . A corto plazo, la demanda agregada se expande. Puesto que el
+1
+déficit es transitorio, la reducción impositiva se anula posteriormente. El aumento de deuda pública que financió el
+déficit transitorio aumenta la riqueza de los poseedores de deuda pública. Cuando el déficit ha vuelto a ser normal, el
+efecto del aumento de la deuda en circulación implica una mayor demanda agregada. DA vuelve hacia atrás sólo hasta
+1
+DA ., en lugar de a DA. Hay una elevación permanente del nivel de precios y, dada la cantidad de dinero en términos
+2
+nominales, un aumento de los tipos de interés.
+¿Son riqueza los bonos? El problema Barro-Ricardo
+La segunda complicación está relacionada con la primera. Es posible que los individuos de la
+economía calculen su riqueza teniendo en cuenta los pagos impositivos que tendrán que hacer en el futuro.
+Supongamos que todo el mundo cree que la deuda publica será amortizada a la larga. En ese caso, todo el
+mundo sabría que en algún momento del futuro el sector público tendría que tener un superávit. El público
+puede pensar que el gobierno federal tendrá que subir los impuestos en alguna fecha futura para amortizar su
+riqueza y, al mismo tiempo, les sugeriría que sus impuestos van a ser más altos en el futuro. Los efectos
+netos sobre la demanda agregada podrían ser, en este caso, nulos. La cuestión que hace surgir este argumento
+se plantea a veces con la pregunta ¿son riqueza los bonos públicos?
+La cuestión de si los bonos del gobierno son riqueza neta se remonta hasta por lo menos el
+economista clásico inglés David Ricardo. Se le ha dado importancia en el trabajo de los nuevos economistas
+clásicos, en concreto en el de Robert Barro2. Por ello, se la conoce como la proposición de equivalencia de
+Barro-Ricardo. Dicha proposición afirma que la financiación del déficit mediante emisión de bonos lo único
+que hace es posponer la imposición y, por tanto., en muchos casos equivale a la imposición corriente.
+La proposición estricta de Barro-Ricardo que considera que los bonos del gobierno no son riqueza
+neta, se basa en el argumento de que las personas se dan cuenta de que sus bonos tendrán que ser pagados en
+el futuro con un incremento de impuestos. (Incidentalmente, después de suscitar esto como una posibilidad
+teórica, Ricardo rechazó su importancia en la práctica.) Si tal es el caso, un aumento del déficit
+2 Véase Robert Barro, “Are Government Bonds Net Wealth?”, Journal of Political Economy, diciembre de 1984- Un
+reto teórico reciente al enfoque de Barro-Ricardo puede verse en Olivier Blanchard, “Debt, Deficits and Finite
+Horizons”, Journal of Political Economy, abril de 1985.
+3
+
+presupuestario no acompañado por reducciones del gasto público, debería conducir a un aumento del ahorro
+que sea precisamente igual al déficit.
+Cuando el gobierno reduce los impuestos produciéndose un déficit,, el público se da cuenta de que
+los impuestos serán más elevados en el futuro. Su renta permanente no se ve afectada, por tanto, por el hecho
+de que el gobierno postergue la imposición de hoy a mañana. Su consumo, en consecuencia, tampoco
+cambia. Puesto que la reducción de impuestos aumentó la renta disponible pero no incrementó el consumo,
+deberá aumentar el ahorro. La proposición de Barro-Ricardo, por tanto, implica que una reducción de los
+impuestos corrientes que conlleva. un aumento futuro de los impuestos,, debería conducir a un incremento
+del ahorro. La incapacidad que demostró para aumentar la tasa de ahorro de los EE UU cuando se redujeron
+los impuestos en el período 1981-1983 y los déficit más elevados son una prueba importante en contra de la
+proposición.
+La investigación empírica continúa intentando resolver la cuestión de si la deuda es riqueza3. La
+discusión todavía no se ha cerrado. Los argumentos teóricos no son conclusivos y en los estudios empíricos
+es difícil aislar los efectos de la variación de la deuda en la demanda de consumo. Consideramos que las
+pruebas empíricas realizadas hasta la fecha son desfavorables a la proposición Barro-Ricardo, pero
+reconocemos que la cuestión no ha sido resuelta definitivamente.
+Financiación con deuda y con dinero
+Hay una diferencia importante entre financiar un déficit presupuestario a corto plazo con deuda y
+financiarlo con dinero. La financiación del déficit con dinero tiende a reducir el tipo de interés a corto plazo
+en comparación con la financiación mediante deuda. Esto es porque la financiación con dinero aumenta la
+cantidad nominal de dinero (trasladando hacia abajo la curva LM del modelo IS-LM mientras que la
+financiación con deuda no lo hace. A corto plazo, entonces, la financiación con deuda reduce el nivel de
+inversión en comparación con la financiación con dinero. Este es un tema conectado con la cuestión del
+efecto desplazamiento.
+También queremos comparar los efectos producidos en el nivel de precios por la financiación con
+deuda y con dinero, de un aumento temporal del gasto público. El nivel de precios sube más si se financia
+con dinero que si se financia con deuda. Hay dos razones. La primera es que la financiación con dinero
+aumenta la cantidad de dinero y la financiación con deuda no. Cuanto mayor es la cantidad de dinero, mayor
+es la demanda agregada a un nivel de precios dado. La segunda es que hemos atribuido la elevación del nivel
+de precios en el caso de la financiación con deuda al efecto riqueza sobre el consumo, producido por una
+cantidad mayor de deuda. Aunque hay discusión sobre si los bonos son riqueza, no hay ninguna con respecto
+a que el dinero sí es riqueza. Por ello, el efecto riqueza sobre el consumo es mayor en el caso de la
+financiación con dinero que en el de Financiación con deuda. Esto significa también que la demanda
+agregada será mayor, a cada nivel de precios, cuando el déficit se financia con dinero que cuando se financia
+con deuda.
+Resumamos ahora los efectos de un déficit presupuestario temporal financiado con deuda. Dicha
+financiación aumenta, probablemente, la demanda agregada, pero esto no es seguro por los posibles efectos
+en el consumo de la anticipación de las obligaciones impositivas futuras. La financiación con deuda, si se
+parte de un presupuesto equilibrado y si no se compensa con una elevación de los impuestos o con
+reducciones de otros pagos de transferencias, conduce a un déficit permanente del presupuesto porque hay
+que pagar intereses de la deuda. La financiación con deuda eleva los tipos de interés4 y reduce la inversión a
+corto plazo en comparación con los efectos de la financiación con dinero.
+Déficit persistentes financiados con deuda
+3 Se está produciendo una investigación empírica intensa sobre este asunto. Para ejemplos y revisiones véase David
+Aschauer, “Fiscal Policy and Aggregate Demand”, American Economic Review, marzo de 1985; Roger Kormendi,
+“Govermnent Debt, Government Spending and Private Sector Behavior”, American Economic Review, diciembre de
+1983; James Barth, George Iden y Frank Russek, “Do Federal Deficits Really Matter?”, Contemporary Policy Issues,
+otoño de 1984; John Tatom, “Two Views of the Effects of Goverriment Budget Deficits in the 1980s”, Federal Reserve
+Bank of St. Louis, Review, octubre de 1985.
+4 Con respecto a la relación entre los déficit y los tipos de interés, véase Gerald Dwyer, “Federal Deficits, Interest Rates
+and Monetary Policy”, Journal of Money, Credit and Banking, noviembre de 1985; Gregory Hocischer, “New Evidence
+on Deficits and Interest Rates”, Journal of Money, Credit and ~ing, febrero de 1986; y Michael Hutebinson y David
+Pyle, “The Real Interest Rate/Budget Deficit Link”,)Federal Reserve Bank of San Francisco, Review. otoño de 1984.
+4
+
+Pasamos ahora a un déficit real persistente. Supongamos, para empezar, que la economía no está
+creciendo. En ese caso, cualquier intento de mantener un déficit primario permanente financiado con deuda
+fracasará, porque a medida que la deuda se acumula en el tiempo, los pagos de intereses de la misma
+aumentan. Por tanto, los intentos de financiar la totalidad de un déficit primario determinado con deuda
+pueden no ser viables a largo plazo si la economía no está creciendo.
+La deuda, el crecimiento y la inestabilidad
+La imposibilidad de mantener un déficit primario permanente financiado con deuda en una economía
+que no crece es una conclusión dramática, que efectivamente parece justificar la preocupación respecto a los
+enormes déficit con que se enfrenta la economía de los EE. UU. Durante la próxima década. Merece la pena,
+por tanto, poner énfasis en la naturaleza del problema y resaltar además por qué es menos serio en una
+economía en crecimiento.
+Supongamos que la economía no está creciendo y que el sector público tiene un déficit
+presupuestario. Lo puede financiar emitiendo deuda. Pero en el período siguiente tiene que pagar intereses
+sobre toda la deuda que ha existido en el pasado y también sobre la nueva deuda emitida para cubrir el
+déficit del período anterior. ¿Cómo puede pagar este interés? Una forma de hacerlo es endeudarse algo más.
+Pero entonces, los intereses necesarios para atender al servicio de la deuda son todavía mayores y, como
+consecuencia, se necesita emitir aún más deuda, y así sucesivamente. Esta es la inestabilidad potencial a la
+que nos hemos referido en la sección anterior.
+GRÁFICO 16-6. LA RELACIÓN RENTA-DEUDA EN EE.UU DESDE UNA PERSPECTIVA HISTÓRICA.
+(Fuente: Congressional Budget Office, del material citado en James R. Barth y Stephen O. Morrell, “A Primer on
+Budget Deficits”, Economic Review, Banco de la Reserva Federal de Atlanta, agosto de 1982.)
+La deuda pública de, los EE UU ha crecido año tras año en el transcurso de los últimos cincuenta
+años. ¿Significa esto que el presupuesto tiende a ser incontrolable, creciendo los pagos de intereses tanto que
+hay que aumentar los impuestos continuamente hasta que ocurra algo terrible? La contestación en negativa,
+debido a que la economía ha estado creciendo.
+En el Gráfico 16-6 se representa la deuda pública de los EE UU como una fracción del PNB,
+abarcando un extenso período de tiempo que comienza a principios del siglo XIX. El hecho más
+sobresaliente es que la deuda crece rápidamente como consecuencia de los déficit prolongados que existen en
+los períodos de guerra. Posteriormente, en todos los períodos posbélicos disminuye. Durante la mayor parte
+del período desde la Segunda Guerra Mundial hasta 1974, la relación entre la deuda y el PNB nominal ha
+estado cayendo aunque la deuda estaba aumentando como consecuencia de los déficit presupuestarios.
+¿Cómo podía suceder esto? La respuesta es que la relación entre la deuda y el PNB cae cuando el PNB
+nominal crece más rápidamente que la deuda.
+Para entender este punto es útil observar por separado el numerador y el denominador de la relación
+deuda-PNB. El numerador, la deuda, crece por los déficit. El denominador, el PNB nominal, crece como
+consecuencia tanto de la inflación como del crecimiento del PNB real. Si la deuda crece más rápidamente
+que el PNB, la relación deuda-PNB aumenta. Si la deuda crece menos rápidamente que el PNB, la relación
+disminuye.
+5
+
+Consideremos dos ejemplos. En el primero, la cantidad de deuda es 500.000 millones de dólares y el
+déficit financiero con deuda es de 20.000 millones. Por tanto, la tasa de crecimiento de la deuda es del 4 % [
+= (20/500 x l00)%]. Supongamos que la inflación es del 3 %, el crecimiento real es el 4 % y que, por tanto, el
+crecimiento del PNB nominal es igual al 7 %. Con un crecimiento de la renta nominal mayor que el
+crecimiento de la deuda, la relación deuda-PNB decrece. Alternativamente, supóngase que la cantidad de
+deuda es de 1,5 billones de dólares y que el déficit es de 200.000 millones. La deuda crece al 13,33 %.
+Supóngase que la inflación es del 5 % y el crecimiento real del 4 %, de modo que el crecimiento del PNB
+real es del 9 %. Con una deuda que crece más deprisa que la renta, la relación entre la deuda y la renta
+aumenta.
+¿Por qué es útil fijarse en la relación entre la deuda y la renta en lugar de en el valor absoluto de la
+deuda? La razón es que el PNB es una medida del tamaño de la economía y la relación deuda-PNB es, por
+tanto, una medida de la magnitud de la deuda relativa al tamaño de la economía. Una deuda pública de 2
+billones de dólares habría sido abrumadora en 1929, cuando el PNB de los EE UU era de 100.000 millones
+de dólares aproximadamente –aunque el tipo de interés hubiera sido sólo el 1 %, el sector público habría
+tenido que recaudar el 20% del PNB en impuestos para pagar los intereses de la deuda–. Pero cuando el PNB
+es de más de 4 billones de dólares, una deuda de 2 billones no es tan abrumadora.
+Podemos formalizar esta discusión escribiendo la ecuación de la relación entre la deuda y la renta, y
+considerando de una forma explícita su variación a lo largo del tiempo. Definimos los siguientes símbolos:
+r = tipo de interés real o ajustado por la inflación
+x = presupuesto primario o sin intereses, medido como una fracción de la renta nominal
+y = tasa de crecimiento del PNB real
+b = relación entre la deuda y la renta
+En el apéndice mostramos que la relación deuda-renta crece a lo largo del tiempo si:
+b(r – y) – x > 0
+La evolución de la relación entre la deuda y la renta depende de la relación entre el tipo de interés
+real N, la tasa de crecimiento de la producción, y del superávit del presupuesto sin intereses. Cuanto más
+elevado sea el tipo de interés y más baja sea la tasa de crecimiento del producto, mayor será la probabilidad
+de que esté aumentando la relación deuda-renta. Un superávit sin intereses elevado tiende a reducir la
+relación deuda-renta. En el Cuadro 16-7 se resumen las condiciones que determinan que la relación deuda-
+PNB aumente o disminuya, tal como se ha calculado en el apéndice.
+En el cuadro puede verse por qué en los años cincuenta y sesenta la relación entre la deuda y la renta
+estaba disminuyendo. El tipo de interés real era casi nulo, la producción crecía de forma sostenida y el
+presupuesto sin intereses presentaba un superávit o estaba casi equilibrado. En estas circunstancias la deuda
+crece más despacio que la renta nominal y, por tanto, disminuía la relación deuda-renta, Por el contrario, en
+los años ochenta el caso es el opuesto. Los tipos de interés reales son muy altos, el crecimiento es escaso y el
+presupuesto sin intereses presenta un déficit. Como consecuencia, la relación entre la deuda y la renta está
+creciendo. Por tanto, en un período de crecimiento lento y tipos de interés elevados, los déficit tienen como
+consecuencia una relación deuda-renta creciente.
+CUADRO 16-7. DETERMINANTES DE LA RELACIÓN DEUDA-RENTA
+b(r– y) – x > 0 b(r- y) – x = 0 b(r – y) – x < 0
+La relación deuda-renta es creciente constante decreciente
+¿Qué sucedería si el déficit fuera demasiado grande, de modo que la deuda creciera relativamente a
+la renta, aparentemente sin límites? Semejante proceso no podría, en realidad, continuar indefinidamente.
+Finalmente la deuda pública eclipsa y desplaza totalmente a los otros activos y el efecto desplazamiento llega
+a ser tan intenso que el público empieza a esperar alguna actuación dirigida a equilibrar el presupuesto. Esta
+6
+
+podría consistir en inflación5, o en impuestos especiales, o en reducciones del gasto público para conseguir
+dicho equilibrio.
+¿Cómo ayuda la inflación a resolver el problema del déficit? En primer lugar, el impuesto de la
+inflación puede contribuir ligeramente a su financiación. Pero más importante, una gran inflación no
+anticipada reducirá el valor real de la cantidad de deuda pública en circulación. La deuda de la mayoría de
+los países es nominal, lo que quiere decir que el gobierno sólo está obligado a pagar un cierto número de
+dólares a los poseedores de la deuda. Una política económica que eleve el nivel de precios reduce, por tanto,
+el valor real de los pagos que el gobierno está obligado a hacer. Por tanto, siempre que la deuda sea nominal,
+puede ser prácticamente cancelada por una inflación no anticipada suficientemente grande.
+Es importante tener alguna perspectiva de la relevancia de estas condiciones extremas para el mundo
+actual. Los EE UU no se encontraban a mediados de la década de los ochenta con una crisis profunda de
+deuda tal que ésta fuese tan elevada que ensombreciese otros problemas macroeconómicos y el gobierno no
+pudiera financiar su déficit endeudándose con el público. Pero sí se encontró frente a la perspectiva de un
+rápido crecimiento de la relación entre la deuda y la renta, hasta los niveles que alcanzó en la década de los
+años cincuenta. Esta previsión fue suficiente para conseguir que el sistema político respondiese con la Ley
+Gramm-Rudman-Hollings como forma de reducir los déficit a niveles inferiores en el corto plazo.
+Sin embargo, todavía existen un cierto número de países en los que muchos años de déficit han
+acumulado una gran deuda pública que Finalmente llega a ser imposible de gestionar Muchas veces esto se
+puede ver claramente con anticipación, pero en ocasiones, una fuerte elevación de los tipos de interés reales
+junto con una pérdida importante de ingresos impositivos, quizás por una recesión mundial, puede hacer de
+repente que el problema de la deuda sea mucho más inmediato. Concretamente, este problema se les presentó
+a muchos países en desarrollo que se habían endeudado en el extranjero en el transcurso de la década de los
+setenta y en el período 1980-1981, en que el tipo de interés real todavía era bajo. Cuando éste creció, la
+magnitud de su endeudamiento les obligó a hacer elevados pagos de intereses a extranjeros, lo que para
+muchos de estos países era dificilísimo de cumplir. El resultado fue la crisis mundial de la deuda del período
+1982-1986.
+5 Véase T. Sargent y N. Wallace, “Some Unpleasant Monetarist Arithmctic”, Federal Reserve Bank of Minnesota,
+Quarterly Review, otoño de 1981. Como el titulo sugiere, el tratamiento es técnico. La principal tesis de los autores es
+que los problemas de la deuda acaban siendo problemas de inflación. Volveremos a esta cuestión en el Capítulo 17.
+7
+
+CAPÍTULO 17.
+17. 3. LOS DÉFICIT, EL CRECIMIENTO MONETARIO Y EL IMPUESTO DE LA
+INFLACIÓN
+Hemos visto cómo un aumento del crecimiento monetario se traduce, a la larga, en un aumento de la
+tasa de inflación. Pero queda aún por determinar qué es lo que determina la tasa de crecimiento monetario.
+Un argumento frecuente es que el crecimiento del dinero es el resultado de los déficit presupuestarios del
+gobierno. En esta sección examinamos algunas relaciones posibles entre el déficit presupuestario y la
+inflación.
+La restricción presupuestaria del gobierno
+El gobierno federal de los EE UU, como un todo, que incluye al Tesoro y a la Reserva Federal,
+puede financiar su déficit presupuestario de dos maneras. Puede vender bonos o bien “imprimir billetes”. Por
+esta segunda opción queremos dar a entender que la Reserva Federal aumenta el volumen de la base
+monetaria, normalmente mediante operaciones de mercado abierto, comprando parte de la deuda que el
+Tesoro ha vendido.
+La restricción presupuestaria del gobierno6, utilizada en el Capítulo 16, es:
+Déficit presupuestario = venta de bonos + aumento de la base monetaria (8)
+Hay, dos tipos de relaciones posibles entre los déficit presupuestarios y el crecimiento monetario. En
+primer lugar, a corto plazo, un aumento del déficit originado por una política fiscal expansiva tenderá a
+elevar, los tipos de interés nominales y reales. Si la Reserva Federal está tratando, de alguna manera, de
+controlar los tipos de interés, puede aumentar la tasa de crecimiento del dinero para intentar impedir que el
+tipo de interés suba. En segundo lugar, el gobierno puede estar deliberadamente aumentando a largo plazo la
+oferta monetaria como medio para obtener ingresos públicos.
+En el resto de esta sección examinaremos, en primer lugar, las conexiones a corto plazo entre el
+dinero y los déficit que provienen de la política del banco central y, posteriormente, la impresión de dinero
+como medio de financiar los déficit presupuestarios. Finalmente, conectaremos la visión a corto plazo con la
+visión a largo plazo.
+El dilema de la Reserva Federal
+Se dice que la Reserva Federal monetiza un déficit cuando adquiere parte de la deuda pública
+vendida por el Tesoro para financiarlo. En los EE UU, las autoridades monetarias gozan de independencia
+frente al Tesoro y, por tanto, pueden escoger entre monetizar o no monetizar7.
+La Reserva Federal se enfrenta típicamente a un dilema cuanto tiene que decidir si va a monetizar un
+déficit. Si no lo financia, la expansión fiscal sin el acompañamiento de una política monetaria compensatoria
+eleva los tipos de interés y, por ello, desplaza al gasto privado. La Reserva Federal puede verse, en
+consecuencia, tentada de evitar este efecto desplazamiento comprando bonos, lo que supone un aumento de
+la oferta monetaria y, por tanto, una expansión de la renta sin un aumento de los tipos de interés.
+Pero tal política de acomodación o monetización tiene un riesgo. Si la monetización lleva a un
+incremento monetario excesivo, acabará alimentando a la inflación. Con el tiempo, una mayor demanda
+agregada elevará el tipo de interés real, por lo que a la larga se producirá un efecto desplazamiento. Por
+tanto, esta política fracasará en su objetivo de evitar la contracción del gasto privado, pero tiene un coste en
+términos de una mayor inflación.
+6 Mostramos aquí la restricción flujo o restricción presupuestaria anual del gobierno. Además, el gobierno se enfrenta a
+una restricción stock del presupuesto, que indica que el valor actual de todos sus gastos futuros debe ser igual al valor
+actual de todos sus ingresos futuros. Técnicamente puede calcularse la restricción stock presupuestaria mediante la
+integración de las restricciones flujo anuales.
+7 En otros países el banco central no disfruta del mismo grado de libertad; por ejemplo, puede estar controlado por el
+Tesoro, en cuyo caso no tiene más remedio que ejecutar la orden de financiar parte o todo el déficit mediante la
+creación de base monetaria.
+8
+
+Una gran parte de la discusión sobre la política de la Reserva Federal gira en torno a la siguiente
+cuestión: ¿debe la Reserva Federal controlar la cantidad de dinero o los tipos de interés? En el contexto de un
+aumento de los déficit públicos, la contestación debe ser casi siempre que no debe acomodarse, es decir, que
+debe dejar que el tipo de interés suba y mantener la tasa de crecimiento monetario constante. Si la economía
+se encuentra cerca del pleno empleo, una política acomodante simplemente alimentaría la inflación. Una
+política fiscal poco prudente se haría todavía más potente si se la alimenta con una expansión monetaria.
+Existen otras circunstancias, sin embargo, en las que el riesgo de provocar una inflación es mucho
+más remoto. Sin lugar a dudas, en una recesión muy aguda no hay ninguna razón para no acomodar una
+expansión fiscal mediante un crecimiento monetario más elevado.
+En cualquier caso concreto, la Reserva Federal tiene que juzgar si la política monetaria debe ser
+acomodante o si, más bien, debe mantener un determinado objetivo monetario o incluso contrarrestar una
+expansión fiscal con una contracción monetaria. Para llevar a cabo la elección, tiene que decidir la
+importancia relativa que concede a la inflación y al desempleo cuando una política expansiva amenaza. con
+provocar una inflación.
+La evidencia de los EE UU
+Varios estudios han tratado de determinar cómo reacciona, en la práctica, la Reserva Federal ante los
+déficit. La cuestión en este caso es si existe una relación sistemática entre la política monetaria y el
+presupuesto. Concretamente, ¿permite la Reserva Federal que aumente el crecimiento monetario cuando
+aumenta el déficit presupuestario?
+GRAFICO 17-9. DÉFICIT PÚBLICOS Y ACOMODACIÓN MONETARIA. El gráfico presenta la variación del
+presupuesto ajustado cíclicamente expresado como fracción del PNB, y la variación de la tasa de crecimiento de la base
+monetaria. (Fuente: DRI, Inc.)
+En el Gráfico 17-9, donde se representa un diagrama de la dispersión de la variación de la tasa de
+crecimiento de la base monetaria8 y de la variación del presupuesto ajustado cíclicamente (como porcentaje
+del PNB), no se aprecia un perfil muy claro de acomodación. Tampoco nos mostraría una relación más
+estrecha un diagrama que relacionase el crecimiento monetario con el nivel del déficit.
+8 La base monetaria es el agregado relevante porque. corno se señaló en el Capitulo 16. el déficit puede financiarse bien
+mediante la venta de bonos o bien por la creación de base monetaria.
+9
+
+La evidencia empírica sobre esta cuestión es, por tanto, incierta. Hay alguna evidencia de que la
+Reserva Federal reacciona acomodándose o monetizando los déficit, al menos en parte. Pero esta evidencia
+no es concluyente, porque es difícil saber si está reaccionando frente al déficit o frente a otras variables
+macroeconómicas, concretamente al desempleo NI la tasa de inflación9.
+La cuestión de la acomodación y de la política conjunta monetaria-fiscal fue, sin duda, un tema
+importante en la discusión que llevó a la legislación sobre el control del déficit de Gramm-Rudman-Hollings
+en 1985. Las políticas monetaria y fiscal se combinaron en la primera parte de la década de los ochenta para
+elevar los tipos de interés reales hasta niveles excepcionalmente elevados. Resultado de ello fue que el dólar
+permaneció muy alto, perjudicando al comercio de EE UU, y a los deudores, tanto en los EE UU, como en
+los países en vías de desarrollo. La Reserva Federal se vio en una posición muy poco corriente: al
+mantenerse firme frente a la acomodación monetaria, elevaba el coste económico y político de una expansión
+fiscal excesiva. Dio lugar, de este modo, a que la experiencia económica de los EE UU, consistiera en una
+recuperación “descompensada”, en la que aumentaron las importaciones y disminuyeron las exportaciones.
+El presidente de la Reserva Federal, Volcker, mantuvo explícitamente la promesa de dinero más barato para
+continuar con la recuperación si el Congreso y la administración se decidían a cortar el déficit
+presupuestario.
+Por supuesto, los monetaristas estrictos consideraban que la Reserva Federal estaba jugando un papel
+excesivamente acomodante, siguiendo su costumbre “habitual” de responder a los tipos de interés elevados
+con una aceleración del crecimiento monetario. En vez de contemplar los tipos de interés observaban un
+crecimiento monetario excesivo y juzgaban, por ello, que se trataba de una acomodación. Así, algunos
+consideraron que la respuestas de la Reserva Federal a los déficit llevaría inevitablemente a una inflación
+más elevada.
+El impuesto de la inflación
+Al discutir la monetización de los déficit en los EEUU, no hemos prestado atención al hecho de que
+la financiación del gasto público mediante la creación de base monetaria es una alternativa a la recaudación
+de impuestos. Los gobiernos pueden –y algunos lo hacen– obtener una cantidad apreciable de recursos, año
+tras año, imprimiendo dinero, es decir, aumentando la base monetaria. Esta fuente de ingresos se denomina a
+veces el ejercicio del señoriaje, lo que significa que el gobierno puede obtener recursos mediante su derecho
+a crear dinero
+Cuando el sector público financia un déficit creando dinero, en realidad está imprimiendo, período
+tras periodo, el dinero que utiliza para pagar los bienes y servicios que compra. Este dinero es absorbido por
+el público. Pero. ¿por qué decide el público aumentar sus tenencias de saldos monetarios nominales período
+tras período?
+La única razón, dejando a un lado el crecimiento de la renta real, por la que el público estaría
+aumentando sus tenencias de saldos monetarios nominales, es para contrarrestar los efectos de la inflación.
+Suponiendo que la renta real no está creciendo, el público mantendrá a largo plazo un nivel constante de
+saldos reales. Pero si los precios se están elevando, el poder adquisitivo de una cantidad dada de saldos
+nominales cae. Para mantener constante el valor real de sus saldos monetarios, el público tiene que aumentar
+la cantidad de sus saldos nominales a una tasa que compense exactamente los efectos de la inflación.
+Cuando el público aumenta su cantidad de saldos nominales para compensar los efectos de la
+inflación en sus tenencias de saldos reales, está utilizando parte de su renta en aumentar sus tenencias de
+dinero nominal. Por ejemplo, piénsese en alguien que este año tiene una renta (nominal) de 20.000$. A lo
+largo del año la inflación reduce el valor de sus saldos reales. Por consiguiente, para mantener constante el
+valor real de sus tenencias de dinero, tiene que aumentar su cuenta en el banco en 300 $. Esos 300 $ no están
+disponibles para gastar. Esa persona parece que está ahorrando 300 $ en forma de tenencias de dinero pero,
+en realidad, su riqueza en términos reales no aumenta por el hecho de añadir 300 $ a sus saldos nominales.
+Lo único que está haciendo es evitar que su riqueza se reduzca como consecuencia de la inflación.
+9 Véase Alan Blinder, “1ssues in the Coordination of Monetary and Fiscal Policy”, Banco de la Reserva Federal de
+Kansas. Monetari Policy in the 1980s. 1983. y “On the Monetization of Deficits”. en Laurence Meyer, The Economic
+Consequences of Government Deficits (Kluwer-Nijhoff, 1983); Gerald Dwyer, “Federal Deficits, Interest Rates and
+Monetary Policy”. Journal of Money, Credit and Banking, noviembre de 1985: y Douglas Joines. “Deficits and Money
+Growth in the United States. 1872-1983”, Journal of Monetary Economics, noviembre de 1985.
+10
+
+La inflación actúa exactamente igual que un impuesto porque el público se ve obligado a gastar
+menos que su renta y a pagar al sector público la diferencia, a cambio del dinero adicional10. El sector
+público, por tanto, puede gastar más recursos y el público menos, lo mismo que si el sector público hubiera
+aumentado los impuestos para financiar el gasto adicional. Cuando el sector público financia su déficit
+imprimiendo dinero, que el público añade a sus tenencias de saldos nominales para mantener constante el
+valor real de sus saldos monetarios, decimos que el sector público se está financiando a sí mismo mediante el
+impuesto de la inflación11.
+¿Cuántos ingresos puede recaudar el sector público mediante el impuesto de la inflación? La
+cantidad de ingresos generados por el impuesto de la inflación es el producto del tipo impositivo (la tasa de
+inflación) por el objeto de gravamen (la base monetaria real). Cuando la producción real es constante, los
+ingresos del impuesto de la inflación están dados por:
+Ingresos del impuesto de la inflación = tasa de inflación x base monetaria real (9)
+La cantidad de recursos que el gobierno puede conseguir mediante el impuesto de la inflación se
+representa en el Gráfico 17-10 por la curva AA. Cuando la tasa de inflación es cero, el sector público no
+obtiene ingresos de la inflación12. A medida que la tasa de inflación se eleva, la cantidad recaudada
+GRÁFICO 17-10. LA INFLACIÓN COMO IMPUESTO. A una tasa de inflación nula, los ingresos por el impuesto
+de la inflación son nulos. A medida que la tasa de inflación se eleva, el sector público recibe más ingresos de la
+inflación hasta llegar al punto C, donde los ingresos alcanzan su máximo de II*. La tasa de inflación correspondiente es
+π*. A partir del punto C, la demanda de saldos reales cae tanto, a medida que se eleva la tasa de inflación, que los
+ingresos totales por el impuesto descienden.
+por el sector público mediante el impuesto de la inflación aumenta. Pero, por supuesto, a medida que la tasa
+de inflación se eleva, el público reduce sus tenencias reales de base monetaria –porque el coste de
+mantenerla está creciendo cada vez más–. El público mantiene menos efectivo y los bancos mantienen la
+menor cantidad posible de reservas. A la larga, la cantidad de base monetaria real cae tanto que desciende la
+cantidad de ingresos recibidos por el sector público mediante el impuesto de la inflación. Esto ocurre a partir
+10 Hay una complicación de este análisis. Tal como señalábamos más arriba, la cantidad que el sector público recibe es
+el aumento de la cantidad de base monetaria, porque la Reserva Federal está comprando deuda del Tesoro con base
+monetaria. Pero el público está aumentando sus tenencias tanto de depósitos bancarios como de efectivo y, por ello,
+parte del aumento de las tenencias de dinero del público no van al sector público a financiar su déficit. Esta
+complicación no cambia en absoluto la esencia del análisis.
+11 A menudo se hace referencia a la inflación como al “impuesto más cruel”. Esto no se refiere al análisis interior de la
+inflación como impuesto, sino a las redistribuciones de riqueza y de renta asociadas con la inflación no anticipada,
+analizada en el Capítulo 15.
+12 Cuando la economía está creciendo, el gobierno obtiene ingresos de su privilegio de emisión aunque no haya
+inflación. Ello se debe a que, cuando crece la demanda de base monetaria real, el gobierno puede crear base en cierta
+cuantía sin producir inflación.
+11
+
+del punto C. Esto quiere decir que hay una cantidad máxima de ingresos que el sector público puede recaudar
+a través del impuesto de la inflación: está representada en el Gráfico 17-10 por la cantidad II.*. Hay una tasa
+de inflación correspondiente, llamada π*, la tasa de inflación del estado estacionario, a la cual el impuesto de
+la inflación es máximo.
+Podemos ir ahora al Gráfico 17-3 para estudiar los efectos a largo plazo de los déficit financiados
+con dinero. Partimos del punto E. A continuación el sector público reduce los impuestos y financia el déficit
+imprimiendo dinero. Supongamos que el déficit es igual a la cantidad II'(en el Gráfico 17-10), y que, por
+tanto, puede ser totalmente financiado mediante el impuesto de la inflación. Ahora el crecimiento monetario
+ha aumentado permanentemente y la tasa de inflación llegará a ser, a largo plazo, π ', correspondiente a los
+ingresos por el impuesto de la inflación, II’.
+A largo plazo la economía alcanza el punto E”. En ese equilibrio las expectativas se han ajustado
+plenamente a la inflación y el desempleo ha vuelto a la tasa natural. La inflación es igual a la tasa de
+crecimiento del dinero13 y la tasa de inflación depende del tamaño del déficit. Cuando mayor es el déficit,
+más elevada es la tasa de inflación. El Gráfico 17-10 plantea la cuestión de qué ocurre si el gobierno intenta
+financiar un déficit mayor que II* imprimiendo dinero. No puede hacerlo. Discutiremos este tema en la
+siguiente sección, dedicada a las hiperinflaciones.
+El ingreso impositivo de la inflación
+¿Qué ingresos pueden, en realidad, obtener los gobiernos imprimiendo dinero? La cuantía es más
+bien pequeña en los países desarrollados, en los que la base monetaria real es pequeña en relación al tamaño
+de la economía. Por ejemplo, en los EEUU la base es ligeramente superior al 5% del PNB, incluso con las
+bajas tasas de inflación corrientes. Con una tasa de inflación del 10%, de acuerdo con la Ecuación (9), el
+gobierno estaría recaudando cerca del 0,5% del PNB mediante la imposición inflacionaria. Esto no es una
+cantidad insignificante, aunque tampoco es una fuente importante de ingresos públicos14. Es muy difícil creer
+que la tasa de inflación de los EEUU se fijara con el objetivo principal de obtener recursos. Más bien la
+Reserva Federal y la administración escogen políticas económicas que influyen en la tasa de inflación
+basándose en el análisis de los costes y los beneficios de la inflación de acuerdo con los criterios que se han
+visto en el Capítulo 16.
+En aquellos países donde el sistema bancario está menos desarrollado y donde, por tanto, la
+población mantiene grandes cantidades de dinero en efectivo, el gobierno consigue mayores ingresos de la
+inflación y es más proclive a conceder mayor peso al aspecto de obtención de ingresos cuando decide su
+política económica. Se han dado casos en los que el gobierno consigue hasta un 10% del PNB en ingresos
+provenientes de la creación de base monetaria. Y, como vamos a ver en la sección siguiente, en condiciones
+de inflación muy grande en que el sistema impositivo convencional se hunde, los ingresos provenientes del
+impuesto de la inflación pueden llegar a ser el último recurso del gobierno para poder seguir pagando sus
+deudas.
+La desagradable aritmética monetarista
+En un artículo muy conocido, Thomas Sargent y Neil Wallace, de la Universidad de Minnesota, han
+señalado una importante implicación de la restricción presupuestaria del gobierno representada por la
+Ecuación (7)15. Concretamente, la financiación del déficit mediante la emisión de deuda puede ser a largo
+plazo más inflacionaria que la financiación mediante la impresión de dinero.
+Este argumento se basa en el hecho de que cuando un gobierno financia un déficit mediante emisión
+de deuda, se compromete a pagar los intereses de dicha deuda en el futuro. Recuérdese la distinción del
+Capítulo 16 entre el déficit primario, sin intereses, y el déficit presupuestario total.
+13 Excepto por el ajuste que tiene en cuenta el crecimiento de la producción real.
+14 En EEUU se utiliza a veces una medida del señoriaje diferente del valor de la impresión de base monetaria. Es el
+valor de los pagos de intereses que la Reserva Federal obtiene de su cartera. Puesto que los activos de la Reserva
+Federal se obtuvieron mediante operaciones de mercado abierto que aumentaron la cantidad de base monetaria, esta es
+una medida de los intereses que se ahorra el Tesoro (puesto que la Reserva Federal paga sus beneficios al Tesoro) como
+consecuencia de la impresión del dinero que la Reserva Federal ha llevado a cabo con anterioridad la impresión de base
+monetaria es una medida del poder actual sobre los recursos obtenido como consecuencia de la impresión de dinero
+realizada durante el período.
+15 “Some Unpleasant Monetarist Arithmetic”, Federal Reserve Bank o Minneapolis, Quarterly Review, otoño de 1981.
+12
+
+Déficit total = déficit primario + pago de intereses (10)
+Combinando la Ecuación (1) con la (8), obtenemos
+Ventas de bonos + creación de base monetaria ≡ ≡ déficit primario + pago de intereses (11)
+Considérese ahora la elección entre financiación mediante deuda (venta de bonos) y financiación
+monetaria de un determinado déficit. Si se utiliza la financiación monetaria, los pagos de intereses no serán
+mayores en el futuro de lo que son ahora. Pero si el gobierno se decide por la financiación mediante deuda,
+tendrá un déficit mayor en el futuro. Este, a su vez, tendrá que ser financiado mediante impresión de dinero o
+emisión de deuda.
+Imagínense ahora las siguientes circunstancias. El gobierno tiene hoy un a determinada deuda
+pública. Supóngase que los déficit primarios de hoy y del futuro tienen un nivel constante, por ejemplo, el
+déficit primario podría ser cero. El gobierno se plantea si debe financiar su déficit corriente endeudándose o
+imprimiendo dinero. Si se financia endeudándose, tiene el propósito de hacerlo sólo los cinco primeros años
+para después financiarse con dinero.
+¿Con qué alternativa terminará siendo más elevada la tasa de inflación? Puede deducirse la respuesta
+a partir de las siguientes consideraciones. Si escoge la financiación monetaria desde el principio, tendrá que
+crear dinero a una tasa que financie los pagos de intereses de la deuda pública existente. Pero si espera cinco
+años para iniciar la financiación monetaria, tendrá que crear dinero a una tasa que financie los pagos de
+intereses de la deuda pública que existirá dentro de los cinco años. Dado que se habrán acumulado intereses
+de la deuda durante ese intervalo, la deuda será mayor dentro de cinco años y, por tanto, también lo será la
+tasa de inflación.
+Este ejemplo enseña que, debido a la acumulación de intereses, la financiación a corto plazo
+mediante emisión de deuda que termina en una financiación monetaria acabará siendo generalmente más
+inflacionaria que la financiación monetaria inmediata de un determinado déficit.
+Este cálculo aritmético es desagradable para los monetaristas porque indica que los déficit
+presupuestarios pueden influir más en la tasa de inflación futura que la tasa de crecimiento monetario
+corriente.
+La cuestión principal que plantea este ejemplo es si el gobierno puede financiar permanentemente un
+déficit dado, mediante deuda, o si no tiene más remedio que acabar financiándolo con dinero. Ello depende
+de la relación entre la tasa de crecimiento de la producción y el tipo de interés real. Como vimos en el
+Capítulo 16, si el tipo de interés real supera a la tasa de crecimiento de la producción y dado un déficit
+primario nulo, la financiación mediante deuda no puede continuar siempre, ya que la deuda se convierte en
+una proporción cada vez mayor del PNB y los pagos por intereses se hacen cada vez mayores. En esta
+situación llegará un momento en que el gobierno no tendrá más remedio que acudir a la financiación
+monetaria. El cambio a una financiación monetaria proporcionara ingresos y, además, si la deuda es nominal,
+quizás reduzca el valor de la deuda en circulación mediante la inflación no anticipada.
+Si el tipo de interés real es inferior a la tasa de crecimiento de la producción, siendo el déficit
+primario nulo, entonces el gobierno puede continuar la 'financiación mediante deuda sin que aumente la
+relación deuda-PNB. En este ,caso, la financiación mediante deuda es viable a largo plazo, y puede evitarse
+la !dura elección que plantea el ejemplo de Sargent-Wallace. Adviértase también, sin embargo, que la
+estrecha conexión examinada por Sargent y Wallace da por sentado que los déficit primarios del futuro están
+dados. Si el gobierno, en alguna fecha futura, se halla dispuesto a elevar los impuestos para pagar deudas
+crecientes de intereses, no existe una conexión necesaria entre déficit corrientes y crecimiento monetario
+futuro.
+El análisis de Sargent y Wallace deja muy claro por qué los déficit permanentes son preocupantes. Si
+la deuda pública está creciendo en términos de porcentaje del PNB, el gobierno tendrá, en algún momento,
+que aumentar los impuestos o elevar la tasa de inflación para cumplir con sus obligaciones como deudor.
+Esta es la amenaza a largo plazo que hace que al público le preocupen los déficit. Pero el largo plazo en este
+caso puede estar a una distancia de varias décadas.
+Hay un punto importante adicional. la preocupación de Sargent y Wallace se refiere a los déficit
+primarios. si el déficit total es constante en términos de porcentaje del PNB, entonces, a la larga, la relación
+deuda-PNB se estabilizará siempre que la economía crezca, aunque sea un poco. Por ejemplo, si se anunciara
+que el déficit de los EE UU iba a ser permanentemente el 5 % del PNB, ello no supondría que el porcentaje
+de la deuda respecto del PNB se tuviera que disparar. Más bien, si el déficit se financiase mediante deuda, la
+13
+
+relación deuda-PNB alcanzaría, a la larga, un estado estacionario16. La explicación es que cuando el déficit se
+mide incluyendo los pagos por intereses, el anuncio de que el déficit permanecerá constante para siempre
+indica que detrás del telón se está ajustando el déficit o superávit primarios para garantizar que los pagos por
+intereses se están haciendo sin que se dispare la relación deuda-PNB.
+17.4 LA HIPERINFLACIÓN
+Los déficit presupuestarios grandes son un componente inevitable de las inflaciones elevadísimas del
+50 al 100, o incluso al 500% anual, que se produjeron en América Latina e Israel a mediados de la década de
+los años ochenta. También son un componente de los casos aún más graves de hiperinflación. Aunque no
+hay una definición precisa de cuál es el nivel de inflación a partir del que una inflación merece el calificativo
+de hiperinflación en lugar de inflación elevada, una definición práctica es que un 1.000 % anual es la tasa
+que marca una hiperinflación.
+En una economía hiperinflacionaria, la inflación es tan penetrante y problemática que domina
+completamente la vida económica diaria. La gente se gasta una cantidad apreciable de recursos tratando de
+minimizar el daño de la inflación: tienen que hacer la compra frecuentemente, llegar a las tiendas antes de
+que suban los precios; su máxima preocupación al ahorrar o invertir es cómo protegerse de la inflación;
+reducen sus tenencias de saldos reales casi totalmente para evitar el impuesto inflacionario, pero lo tienen
+que compensar acudiendo a su banco más frecuentemente, a diario o por horas en vez de semanalmente, por
+ejemplo, para proveerse de dinero.
+Las hiperinflaciones clásicas se han producido al terminar las guerras. La más famosa de todas
+–aunque no la más aguda– fue la hiperinflación alemana de 1922-1923. La tasa de inflación media durante
+ese período fue del 322 % por mes. La tasa más alta se alcanzó en octubre de 1923, justo antes de acabar la
+hiperinflación, cuando los precios aumentaron en un 29.000 %17. En dólares, ello significa que un producto
+que costase 1 $ al principio del mes, costaría 290 $ al final del mismo. La hiperinflación más rápida fue la de
+Hungría después de la Segunda Guerra Mundial: la tasa media de inflación desde agosto de 1945 hasta julio
+de 1946 fue de un 19.800 % por mes y la tasa mensual más alta fue de un 41.900 billones por ciento18.
+Keynes, en una descripción magistral del proceso inflacionario de Austria después de la Primera
+Guerra Mundial, contaba cómo la gente pedía dos cervezas a la vez porque se quedaban sin presión a un
+ritmo más lento que la subida de su precio19. Este relato y otros similares se cuentan de todas las
+hiperinflaciones. Uno típico el la de la mujer que llevaba su dinero (casi sin valor) en una canasta y se
+encontró con que cuando la posaba en el suelo unos instantes le robaban la canasta pero dejaban el dinero.
+También se contaba que era más barato viajar en taxi que en autobús, porque el taxi se paga al final del
+trayecto, mientras que en el autobús se paga al comienzo.
+Las economías hiperinflacionarias se han caracterizado generalmente por una extensión de la
+indiciación, más con respecto al tipo de cambio que con respecto al nivel de precios. Ello se debe a que se
+hace difícil seguir midiendo los aumentos de los precios en relación con una base corriente, cuando cambian
+con tanta velocidad. En cambio, si los precios se especifican en relación con una moneda extranjera
+(dólares), la cantidad de moneda local (marcos en el caso alemán) que debe abonarse en cada transacción
+16 Este es un punto bastante técnico, pero importante. Si se mantiene el déficit público en una relación constante con el
+PNB, por ejemplo, el 5%, esto quiere decir que, detrás del telón, los mayores pagos por intereses se están llevando a
+cabo mediante elevaciones de impuestos o reducciones del gasto público. Supongamos que llamamos b a la relación
+deuda-PNB, que el PNB está creciendo a una tasa y, y que al porcentaje total del déficit respecto al PNB le llamamos dt.
+En estado estacionario la deuda pública se emite k la tasa exacta que mantenga constante la relación deuda-PNB. Esto
+quiere decir que, en estado estacionario, dt = y x b, por lo que la relación deuda-PNB en dicho estado es igual a dt1y.
+Por ejemplo, si el déficit va a ser siempre el 5 %,del PNB y la tasa de crecimiento de éste es el 4 %, la relación deuda-
+PNB en estado estacionario será 1,25 o, lo que es lo mismo, el 125 %. En ese punto, los pagos por intereses son una
+proporción constante del PNB.
+17 Datos basados en C. L. Holtferich, Die Deutsche Inflation, 1914-1923 (New York: Walter de Gruyter, 1980).
+18 Por lo menos, eso es lo que pensamos. El nivel de precios aumentó en julio de 1946 en un 41,9 x 1015 %. Los datos
+proceden de Phillip Cagan, “The Monetary Dynamics of Hyperinflation”, en Milton Friedman, (ed.) Studies in the
+Quantity Theory of Money (Chicago: University of Chicago Press, 1956). Este artículo clásico contiene datos de siete
+hiperinflaciones.
+19 John Maynard Keynes. A Tract on Monetary Reform (New York: Macmillan, 1923), que sigue siendo uno de los
+informes más legibles sobre la inflación. Véase también Thomas William Guttmann y Patricia Mechan, The Great
+Inflation (Gordon and Cremonsi, 1975) y Leland Yeager y asociados. Experiences with Stopping Inflation (Washington,
+D.C.: American Enterprise Institute, 1981).
+14
+
+puede calcularse a partir del tipo de cambio y del precio expresado en dólares. Los salarios se pagan con gran
+frecuencia; concretamente, al Final de la hiperinflación alemana se hacía varias veces al día.
+Los déficit y la hiperinflación
+Todas las economías hiperinflacionarias experimentaron déficit presupuestarios enormes e
+impresiones aceleradas de billetes. En varios casos, el origen del déficit presupuestario estuvo en los gastos
+de la guerra, que generaban una ingente deuda pública y que, además, destruían el sistema de recaudación de
+impuestos del país.
+Pero hay una interacción de doble sentido entre los déficit presupuestarios y la inflación. Los déficit
+grandes pueden llevar a una inflación acelerada al obligar a los gobiernos a imprimir dinero para
+financiarlos. A su vez, una inflación elevada hace que se incremente el déficit observado. Hay dos
+mecanismos fundamentales mediante los cuales la inflación incrementa los déficit presupuestarios.
+El sistema de recaudación de impuestos
+A medida que aumenta la tasa de inflación. la recaudación real obtenida mediante impuestos
+disminuye. La razón es que existen desfases en el cálculo como en el pago de los impuestos. Supóngase,
+considerando un ejemplo exagerado, que las personas pagan el 15 de abril impuestos respecto a la renta que
+ganaron el año anterior. Considérese una persona que haya ganado 50.000 el año anterior, por los que debe
+pagar el 15 de abril un impuesto de 10.000 $. Si, mientras tanto, los precios se han multiplicado por 10, como
+puede ocurrir en una hiperinflación, el valor real de los impuestos es sólo la décima parte de lo que debería
+ser, por lo que el déficit presupuestario puede hacerse incontrolable rápidamente.
+En principio, el sistema fiscal puede indiciarse para ajustarse a la inflación. Pero ello no es fácil,
+especialmente en el caso de los impuestos de sociedades y, en cualquier caso, incluso la indicación puede
+quedarse desfasada. Por ejemplo, si la tasa mensual de inflación es del 20 % (equivalente a una tasa anual del
+800 %), entonces incluso si la cantidad que debe pagarse ha sido ajustada con el dato más reciente del índice
+de precios, dado que se tarda un mes en recaudar los impuestos, la inflación hace que el gobierno pierda un
+20 % del valor de sus impuestos.
+Los intereses nominales y el déficit presupuestario
+Los tipos de interés nominales aumentan con la tasa de inflación e incrementan el déficit
+presupuestario observado. Para explicar este punto repetimos la Ecuación (10):
+Déficit total = déficit primario + pago de intereses (10)
+Supóngase ahora que la deuda del gobierno se encuentra en el nivel relativamente pequeño de sólo el
+20 % del PNB. Con un tipo de interés de, por ejemplo, un 10 %, los pagos totales por intereses son el 2 % del
+PNB (tipo de interés del 10% x 20% del PNB). Supongamos que la tasa de inflación aumenta en un 90 % y
+que el tipo de interés real permanece constante, de manera que el tipo de interés nominal aumenta hasta el
+100 %. Los pagos totales de intereses supondrán el 20 % del PNB (tipo de interés del 100 % x deuda igual al
+20 % del PNB), y el déficit público medido en la forma de la Ecuación (10) aumenta en, por lo menos, un 18
+% del PNB. Los datos de este ejemplo son esencialmente los de Méjico en 1986, donde el déficit
+presupuestario durante la inflación parecía muy grande, a pesar de que la parte del presupuesto que resultaba
+una vez descontados los intereses tenía superávit.
+El problema en este caso es que la forma convencional de medir el déficit incluye los intereses
+nominales de la deuda. Esto puede dar lugar a una impresión distorsionada del tamaño del déficit, porque, de
+hecho, el gobierno está pagando unos intereses muy elevados para compensar la pérdida de valor de su deuda
+en circulación por culpa de la inflación. Hay que entender que, al mismo tiempo que el gobierno se ve
+obligado a pagar tipos de interés elevados, también está recibiendo un ingreso como consecuencia de la
+pérdida de valor de su deuda en circulación debida a la inflación. Y, de hecho, en la década de los años
+setenta, muchos economistas comenzaron a calcular los déficit presupuestarios corregidos para tener en
+cuenta la inflación, es decir, teniendo en cuenta la ganancia que obtenía el gobierno por la inflación, a través
+de la pérdida del valor de su deuda.
+15
+
+El déficit presupuestario corregido para tener en cuenta la inflación calcula el déficit teniendo en
+cuenta la reducción experimentada por la deuda del gobierno en circulación como consecuencia de la
+inflación.
+Volvemos al ejemplo previo para hacer un cálculo ilustrativo. Supóngase que el tipo de interés real
+es del 5 % y que el déficit primario es cero. Entonces, si la relación deuda-PNB es del 20 %, el déficit
+presupuestario, cuando la tasa de inflación es nula, es sólo el 1 % del PNB. Cuando la tasa de inflación
+alcanza el 95 %, el tipo de interés nominal se sitúa en el 100 % y el déficit nominal se convierte en el 20 %
+del PNB, siempre que el tipo de interés real se mantenga en el 5 %.
+Aunque el principio de calcular los déficit corregidos para tener en cuenta la inflación es muy claro,
+se discute bastante si debe aplicarse. La cuestión que hay plantear es si el sector privado desea mantener el
+valor de la relación deuda-PNB. Si es así, financiará gustosamente el incremento aparente del déficit nominal
+comprando bonos –las personas necesitan incrementar sus compras de bonos precisamente porque el valor
+real de sus tenencias de bonos se está reduciendo por culpa de la inflación–. Si, por otra parte, la tasa de
+inflación es muy elevada como consecuencia de un inesperado aumento de la impresión de billetes, entonces
+el déficit corregido para tener en cuenta la inflación no mide correctamente en qué medida las personas están
+dispuestas a seguir financiando el déficit en circulación comprando bonos al tipo de interés real existente.
+El impuesto de la inflación y la aceleración de la hiperinflación
+Las tasas de crecimiento monetario son también muy elevadas durante las hiperinflaciones, del
+mismo orden de magnitud que la tasa de inflación20. Las altas tasas de crecimiento monetario se originan por
+los intentos de financiar el gasto público.
+Pero a medida que las inflaciones progresan y se deteriora el sistema de recaudación de impuestos, el
+gobierno alcanza un punto en el que intenta conseguir, mediante la impresión de dinero, una cantidad mayor
+de fondos que la máxima cantidad II* que puede obtener de acuerdo con el Gráfico 17-10. Puede tener éxito
+en este propósito temporalmente, imprimiendo dinero a una velocidad aún mayor que la prevista por el
+público. Esta aceleración del crecimiento monetario hace que se incremente la tasa de inflación y, en la
+medida en que el gobierno persista en intentar gastar más que II*, seguirá forzando al alza la tasa de
+inflación. La base monetaria real que mantiene el público se hará cada vez menor al intentar huir del
+impuesto de la inflación, y el gobierno acelerará la impresión de dinero para intentar financiar su gasto. Al
+final el proceso se quiebra.
+La detención de las hiperinflaciones
+Todas las hiperinflaciones se acaban. La dislocación de la economía se hace tan grande que el
+público no puede soportarla, y el gobierno descubre una manera de reformar su proceso presupuestario.
+Frecuentemente se crea una nueva ¡unidad monetaria y se reforma el sistema impositivo. Típicamente,
+también, se liga el tipo de cambio de la nueva unidad monetaria al de una divisa extranjera, para
+proporcionar un ancla a los precios y a las expectativas. Frecuentemente se producen intentos fallidos de
+estabilización hasta que se consigue, por fin, el éxito.
+La presencia de tantos factores desestabilizadores en una inflación, concretamente el colapso del
+sistema impositivo a medida que ésta se acentúa, junto con una economía que se encuentra enormemente
+dislocada por la inflación, sugiere una salida fascinante. Un ataque coordinado a la inflación puede detenerla
+con un coste de desempleo relativamente pequeño. Esta alternativa se utilizó en Argentina e Israel en 1985, y
+en Brasil en 1986, cuando los gobiernos congelaron los salarios y los precios. Esto detuvo la inflación de un
+solo golpe. También fijaron sus tipos de cambio e introdujeron cambios significativos en la ,política fiscal
+tendentes a acercar el presupuesto a un equilibrio a largo plazo. En cada uno de los casos hubo un
+incremento pequeño del desempleo. A pesar de las primeras señales alentadoras, el éxito final de estos
+programas estabilizadores todavía está por ver.
+Queda por analizar una última característica importante de las estabilizaciones. Las tasas de
+crecimiento monetarias que siguen a una estabilización son muy elevadas. ¿Por qué? Porque, como el
+público espera una inflación menor, los tipos de interés nominales descienden y la demanda de saldos reales
+aumenta. Al crecer ésta, el gobierno puede crear más dinero sin agudizar por ello la inflación. Por tanto, al
+20 El crecimiento monetario medio es, sin embargo, inferior a la tasa de inflación. Esto es debido a que el público reduce
+su tenencias de saldos reales durante la hiperinflación: si M/P desciende, P tiene que estar creciendo, como media, más
+deprisa que M.
+16
+
+comienzo de una estabilización que tiene éxito, el gobierno dispone de una posibilidad a su favor: puede
+financiar temporalmente parte del déficit mediante la emisión de moneda si reavivar la inflación. Pero, por
+supuesto, no "puede hacerlo durante períodos más largos sin que la inflación vuelva a surgir.
+Resumen
+1. Una expansión monetaria sostenida aumenta la producción a corto plazo. A largo plazo, un
+crecimiento monetario mayor se refleja totalmente en la inflación. Los tipos de interés reales y la
+producción vuelven a su nivel de pleno empleo. Sólo bajo condiciones de expectativas racionales
+y plena flexibilidad de los salarios y los precios, una expansión monetaria se refleja
+inmediatamente en una tasa mayor de la inflación sin ningún impacto en la producción.
+2. Una variación sostenida del crecimiento monetario eleva, a la larga, el tipo de interés nominal en
+la misma cuantía. Esta relación directa entre la inflación y los tipos de interés nominales se
+denomina efecto Fisher.
+3. A corto plazo, el incremento del crecimiento monetario dará lugar a tipos de interés nominales
+más bajos si las expectativas se ajustan lentamente. Esto recibe el nombre de efecto liquidez.
+4. Una expansión monetaria sostenida eleva, a la larga, los tipos de interés y por tanto, reduce la
+demanda de saldos reales. Ello significa que los precios deben crecer, como media, más
+rápidamente durante la transición al nuevo ,equilibrio a largo plazo.
+5. En la economía de los EEUU coinciden las tendencias grosso modo del, crecimiento del dinero y
+de la inflación. El crecimiento monetario sí afecta a la inflación, pero los efectos tienen lugar con
+un desfase poco preciso. A corto plazo, la inflación está influenciada por otras causas además del
+crecimiento monetario; por ejemplo, por los cambios en la política fiscal y los shocks de oferta.
+6. Los tipos de interés nominales tienden a reflejar la tasa de inflación de la economía de los
+EEUU. Sin embargo, el tipo de interés real no es en absoluto constante. En los primeros años de
+la década de los ochenta, el tipo de interés real aumentó fuertemente en comparación con los
+niveles de la década anterior y con los tipos medios a largo plazo.
+7. Cuando la política fiscal se hace expansiva, la Reserva Federal tiene que decidir entre monetizar
+el déficit, imprimiendo dinero para evitar un aumento de los tipos de interés y el efecto
+desplazamiento, mantener constante la tasa de crecimiento monetario o, incluso, hacer una
+política monetaria más restrictiva. Si monetiza el déficit, corre el riesgo de aumentar la tasa de
+inflación. La evidencia empírica sobre los resultados de la monetización en los EEUU es
+ambigua.
+8. La inflación es un impuesto sobre los saldos reales. Para mantener constante el poder adquisitivo
+del dinero cuando los precios aumentan, una persona no tiene más remedio que aumentar sus
+saldos nominales. De esta manera se transfieren recursos desde los poseedores de dinero a los
+emisores del mismo, en concreto al gobierno.
+9. La decisión de financiar un déficit hoy mediante la venta de bonos puede crear una mayor tasa
+de inflación en el futuro si el gobierno, a la larga no tiene más remedio que acabar financiándolo
+mediante la impresión de dinero. Esto se debe a que, si tenemos un déficit primario determinado,
+los pagos de intereses de la deuda se acumulan, incrementando los déficit futuros. Esta
+disyuntiva se plantea cuando el tipo de interés es mayor que la tasa de crecimiento de la
+producción.
+10. Las hiperinflaciones han ocurrido generalmente después de las guerras. Los déficit grandes son
+típicos de las hiperinflaciones. Los gobiernos pueden utilizar el impuesto de la inflación para
+Financiar sus déficit de forma limitada. Si el déficit que hay que financiar es muy grande, se
+dispara la inflación.
+11. Hay una interacción mutua entre la inflación y el déficit. El crecimiento de la tasa de inflación
+hace aumentar el déficit al reducir el valor real de recaudación de impuestos. Un tipo de interés
+nominal más alto eleva el déficit, tal como se mide, al aumentar el valor de los pagos por
+intereses en el presupuesto. El déficit corregido para tener en cuenta la inflación permite
+descartar este efecto.
+12. Las tasas de crecimiento monetario son muy elevadas inmediatamente después de que ha tenido
+éxito una política estabilizadora de la inflación debido a que las personas aumentan sus tenencias
+de saldos reales.
+17
+
+Términos fundamentales
+Efecto Fisher
+Efecto liquidez
+Efecto de expectativas
+Monetización de los déficit
+Hiperinflación
+Impuesto de la inflación
+Señoriaje de impresión
+Déficit corregido para tener en cuenta la inflación
+Problemas
+1. (a) Muestre gráficamente los efectos producidos en la producción y en la inflación por la
+reducción de la tasa de crecimiento monetario.
+(b) Muestre también cómo se ajusta el tipo de interés real a largo plazo.
+Especifique cuál es el supuesto de expectativas que utiliza.
+2. En el ejemplo anterior, muestre cómo el tipo de interés nominal se ajusta a una inflación menor.
+3. Mencionamos en el texto que, en condiciones de expectativas racionales y con flexibilidad total
+de los precios y los salarios, cuando aumenta la tasa de crecimiento monetario, la tasa de
+inflación se eleva inmediatamente hasta alcanzar su nuevo nivel de estado estacionario. También
+mencionamos que las tenencias de saldos reales disminuyen cuando aumenta la tasa de inflación
+esperada. ¿Cómo pueden disminuir las tenencias de saldos reales en condiciones de expectativas
+racionales si la tasa de inflación es igual a la tasa de crecimiento monetario? (Pista: si los precios
+son totalmente flexibles, pueden cambiar inmediatamente en cuanto se dispone de nueva
+información).
+4. Suponga que la relación dinero-PNB es del 10%. El gobierno está considerando elevar la tasa de
+inflación desde el 0 % actual hasta el 10% por año y cree que conseguirá un aumento de sus
+ingresos igual al 1 % del PNB si lo hace. Explique por qué este cálculo sobreestima la cuantía
+del impuesto de la inflación que va a recibir con una tasa de inflación del 10%.
+5. Durante el período 1981 -1986 el gobierno de los EEUU ha incrementado notablemente la deuda
+pública.
+(a) Explique por qué esto puede preocuparle como algo inflacionario.
+(b) Explique si de verdad le preocupa que los déficit elevados de la primera mitad de los años
+ochenta conducirán a una inflación mayor posteriormente.
+6. Al final de la hiperinflación alemana el gobierno sólo conseguía cubrir el 1 % de sus gastos con
+impuestos.
+(a) ¿Qué pasó con el resto?
+(b) ¿Cómo podría el gobierno alemán financiar el restante 99% de sus gastos? Refiérase al Gráfico
+17-10.
+7.
+(a) Si la relación deuda-PNB es del 30%, el tipo de interés nominal del 12%, la tasa de inflación
+del 7% y el déficit presupuestario total del 4% del PNB, calcule el déficit ajustado de la
+inflación.
+(b) Suponga que usted iba a descubrir en una economía inflacionaria que el presupuesto
+corregido para tener en cuenta la inflación tenía un superávit. Explique en este caso por qué
+el gobierno podría mantener una tasa de inflación reducida si fuese capaz de encontrar
+alguna manera de bajar la tasa de inflación inicialmente.
+(c) Posteriormente, explique por qué los gobiernos en medio de la década de los años ochenta
+trataron de detener las elevadas inflaciones utilizando controles de los precios y los salarios.
+8 Explique cómo, después de acabar la hiperinflación, fue posible que la cantidad nominal de dinero
+se multiplicase por 20 aproximadamente sin reiniciarse la inflación.
+9. ¿Por qué los déficit presupuestarios crean tanta preocupación? Distinga entre el corto y el largo
+plazo al desarrollar su respuesta.
+18

@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MERVAL USD vs Emergentes · Coronar Inversiones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-950: #080B14;
+    --navy-900: #0D1220;
+    --navy-800: #131A2C;
+    --navy-700: #1B2438;
+    --line: rgba(148,163,184,0.14);
+    --emerald: #10B981;
+    --gold: #E8B25A;
+    --coral: #E8735A;
+    --sky: #6EA8FE;
+    --text-hi: #EDF1F7;
+    --text-mid: #A8B3C7;
+    --text-low: #6B7690;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{
+    background:var(--navy-950); color:var(--text-hi);
+    font-family:'Space Grotesk',sans-serif;
+    -webkit-font-smoothing:antialiased;
+    height:100%;
+  }
+  body{
+    background-image:
+      radial-gradient(ellipse 900px 500px at 12% -5%, rgba(16,185,129,0.08), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 92% 8%, rgba(232,178,90,0.06), transparent 55%);
+    padding:32px 24px 60px;
+  }
+  .wrap{ max-width:1480px; margin:0 auto; }
+  .mono{ font-family:'JetBrains Mono',monospace; }
+
+  /* HEADER */
+  header{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    flex-wrap:wrap; gap:16px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:24px; margin-bottom:32px;
+  }
+  .brand{ display:flex; align-items:center; gap:10px; }
+  .brand-mark{
+    width:32px; height:32px; border-radius:8px;
+    background:linear-gradient(135deg,var(--emerald),#0B7A54);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'JetBrains Mono'; font-weight:700; font-size:13px; color:#04140E;
+  }
+  .brand-name{ font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-mid); }
+  .brand-name b{ color:var(--text-hi); font-weight:600; }
+  h1{ font-size:28px; font-weight:600; letter-spacing:-0.01em; }
+  h1 span{ color:var(--emerald); }
+  .subtitle{ color:var(--text-mid); font-size:13.5px; margin-top:4px; }
+  .updated{ font-family:'JetBrains Mono'; font-size:11.5px; color:var(--text-low); text-align:right; }
+  .updated .dot{
+    display:inline-block; width:6px; height:6px; border-radius:50%;
+    background:var(--emerald); margin-right:6px; box-shadow:0 0 8px var(--emerald);
+    animation:pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse{ 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  /* LAYOUT */
+  .grid-main{
+    display:grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+
+  /* SIDEBAR — WATCHLIST */
+  .watchlist-card{
+    background:var(--navy-900); border:1px solid var(--line); border-radius:14px;
+    overflow:hidden;
+  }
+  .wl-header{
+    padding:16px 16px 12px;
+    border-bottom:1px solid var(--line);
+  }
+  .wl-header h2{ font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.07em; color:var(--text-mid); }
+  .wl-header h2 span{ color:var(--text-hi); }
+  .wl-add-row{
+    display:flex; gap:6px; margin-top:10px;
+  }
+  .wl-add-row input{
+    flex:1; background:var(--navy-800); border:1px solid var(--line); border-radius:8px;
+    padding:8px 10px; font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-hi);
+    outline:none; transition:border-color 0.2s;
+  }
+  .wl-add-row input:focus{ border-color:var(--emerald); }
+  .wl-add-row input::placeholder{ color:var(--text-low); }
+  .wl-add-row button{
+    background:var(--emerald); border:none; border-radius:8px;
+    color:#04140E; font-weight:600; font-size:16px; line-height:1;
+    width:34px; cursor:pointer; transition:opacity 0.2s;
+  }
+  .wl-add-row button:hover{ opacity:0.85; }
+  .wl-list{
+    max-height:calc(100vh - 280px); overflow-y:auto;
+    padding:4px 0;
+  }
+  .wl-list::-webkit-scrollbar{ width:4px; }
+  .wl-list::-webkit-scrollbar-thumb{ background:var(--line); border-radius:4px; }
+  .wl-item{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:8px 16px; cursor:pointer;
+    transition:background 0.15s; border-left:3px solid transparent;
+  }
+  .wl-item:hover{ background:var(--navy-800); }
+  .wl-item.active{
+    background:rgba(16,185,129,0.08); border-left-color:var(--emerald);
+  }
+  .wl-item .sym{ font-family:'JetBrains Mono',monospace; font-size:12.5px; font-weight:500; color:var(--text-hi); }
+  .wl-item .price{ font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-mid); }
+  .wl-item .chg{ font-family:'JetBrains Mono',monospace; font-size:11px; min-width:42px; text-align:right; }
+  .wl-item .chg.up{ color:var(--emerald); }
+  .wl-item .chg.dn{ color:var(--coral); }
+  .wl-item .del-btn{
+    background:none; border:none; color:var(--text-low); cursor:pointer;
+    font-size:14px; line-height:1; padding:2px 4px; border-radius:4px; opacity:0;
+    transition:all 0.15s;
+  }
+  .wl-item:hover .del-btn{ opacity:0.6; }
+  .wl-item .del-btn:hover{ opacity:1; color:var(--coral); background:rgba(232,115,90,0.1); }
+  .wl-empty{
+    text-align:center; padding:32px 16px; color:var(--text-low); font-size:13px;
+  }
+  .wl-count{
+    font-size:11px; color:var(--text-low); margin-top:2px;
+  }
+
+  /* MAIN CONTENT */
+  .main-col{ display:flex; flex-direction:column; gap:20px; }
+
+  /* MERVAL USD PANEL */
+  .merval-panel{
+    background:var(--navy-900); border:1px solid var(--line); border-radius:14px;
+    padding:20px 24px;
+  }
+  .mp-header{
+    display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px;
+    margin-bottom:18px;
+  }
+  .mp-title .eyebrow{
+    font-family:'JetBrains Mono'; font-size:10.5px; letter-spacing:0.09em;
+    text-transform:uppercase; color:var(--emerald); display:block; margin-bottom:4px;
+  }
+  .mp-title h2{ font-size:18px; font-weight:600; }
+  .mp-title .desc{ font-size:12.5px; color:var(--text-mid); margin-top:2px; }
+  .mp-big{
+    display:flex; align-items:baseline; gap:14px;
+  }
+  .mp-big .price{
+    font-family:'JetBrains Mono'; font-size:32px; font-weight:700;
+  }
+  .mp-big .price.up{ color:var(--emerald); }
+  .mp-big .price.dn{ color:var(--coral); }
+  .mp-big .change{
+    font-family:'JetBrains Mono'; font-size:15px;
+  }
+  .mp-big .change.up{ color:var(--emerald); }
+  .mp-big .change.dn{ color:var(--coral); }
+  .mp-detail{
+    display:flex; gap:24px; flex-wrap:wrap; margin-top:8px;
+  }
+  .mp-detail-item{ }
+  .mp-detail-item .lbl{ font-size:11px; color:var(--text-low); text-transform:uppercase; letter-spacing:0.06em; }
+  .mp-detail-item .val{ font-family:'JetBrains Mono'; font-size:14px; color:var(--text-hi); margin-top:1px; }
+
+  /* COMPARISON TABLE */
+  .compare-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:12px;
+    margin-top:16px;
+  }
+  .compare-card{
+    background:var(--navy-800); border:1px solid var(--line); border-radius:12px;
+    padding:16px 18px; transition:border-color 0.2s;
+  }
+  .compare-card:hover{ border-color:rgba(148,163,184,0.3); }
+  .compare-card .flag{ font-size:22px; margin-bottom:4px; }
+  .compare-card .etf{ font-family:'JetBrains Mono'; font-size:15px; font-weight:600; }
+  .compare-card .etf-name{ font-size:12px; color:var(--text-mid); margin-bottom:6px; }
+  .compare-card .price-row{
+    display:flex; align-items:baseline; gap:10px;
+  }
+  .compare-card .price-row .val{
+    font-family:'JetBrains Mono'; font-size:22px; font-weight:600;
+  }
+  .compare-card .price-row .chg{
+    font-family:'JetBrains Mono'; font-size:13px;
+  }
+  .compare-card .price-row .chg.up{ color:var(--emerald); }
+  .compare-card .price-row .chg.dn{ color:var(--coral); }
+
+  /* TRADINGVIEW */
+  .tv-card{
+    background:var(--navy-900); border:1px solid var(--line); border-radius:14px;
+    overflow:hidden;
+  }
+  .tv-card .tv-header{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:14px 20px; border-bottom:1px solid var(--line);
+  }
+  .tv-card .tv-header h3{ font-size:14px; font-weight:600; }
+  .tv-card .tv-header .tv-controls{ display:flex; gap:8px; }
+  .tv-card .tv-header .tv-controls button{
+    background:var(--navy-800); border:1px solid var(--line); border-radius:6px;
+    padding:4px 12px; font-family:'JetBrains Mono'; font-size:11px; color:var(--text-mid);
+    cursor:pointer; transition:all 0.15s;
+  }
+  .tv-card .tv-header .tv-controls button:hover,
+  .tv-card .tv-header .tv-controls button.active{
+    background:rgba(16,185,129,0.12); border-color:var(--emerald); color:var(--emerald);
+  }
+  #tv-container{ width:100%; height:520px; }
+
+  /* FOOTER INFO */
+  .info-bar{
+    display:flex; gap:16px; flex-wrap:wrap;
+    padding:12px 20px; border-top:1px solid var(--line);
+    font-size:11px; color:var(--text-low);
+  }
+  .info-bar .src{ font-family:'JetBrains Mono'; font-size:10.5px; }
+  .info-bar a{ color:var(--sky); text-decoration:none; }
+  .info-bar a:hover{ text-decoration:underline; }
+
+  /* RESPONSIVE */
+  @media(max-width:900px){
+    .grid-main{ grid-template-columns:1fr; }
+    .wl-list{ max-height:260px; }
+    .compare-grid{ grid-template-columns:1fr; }
+    .mp-big .price{ font-size:26px; }
+  }
+
+  /* LOADING SHIMMER */
+  .shimmer{
+    display:inline-block; background:linear-gradient(90deg,var(--navy-800) 25%,var(--navy-700) 50%,var(--navy-800) 75%);
+    background-size:200% 100%; animation:shimmer 1.5s infinite;
+    border-radius:4px; color:transparent !important;
+  }
+  @keyframes shimmer{ 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HEADER -->
+  <header>
+    <div>
+      <div class="brand">
+        <div class="brand-mark">C</div>
+        <div class="brand-name"><b>Coronar</b> Inversiones</div>
+      </div>
+      <h1>MERVAL <span>USD</span> vs Emergentes</h1>
+      <div class="subtitle">Termómetro del equity argentino frente a pares · MERVAL en USD (CCL/MEP) vs Brasil (EWZ), Latinoamérica (ILF), Emergentes globales (EEM)</div>
+    </div>
+    <div class="updated">
+      <span class="dot"></span>
+      <span id="lastUpdate">cargando…</span>
+    </div>
+  </header>
+
+  <!-- GRID -->
+  <div class="grid-main">
+
+    <!-- SIDEBAR: WATCHLIST -->
+    <aside class="watchlist-card">
+      <div class="wl-header">
+        <h2>📋 <span>Watchlist</span></h2>
+        <div class="wl-add-row">
+          <input type="text" id="wlInput" placeholder="Ej: AAPL, SPY, GGAL.BA" maxlength="24" autocomplete="off">
+          <button id="wlAddBtn" title="Agregar símbolo">+</button>
+        </div>
+        <div class="wl-count" id="wlCount">0 símbolos</div>
+      </div>
+      <div class="wl-list" id="wlList">
+        <div class="wl-empty">Usá el campo de arriba para agregar símbolos.<br>Ej: AAPL, MSFT, SPY, ^MERV</div>
+      </div>
+    </aside>
+
+    <!-- MAIN COLUMN -->
+    <div class="main-col">
+
+      <!-- MERVAL USD PANEL -->
+      <section class="merval-panel" id="mervalPanel">
+        <div class="mp-header">
+          <div class="mp-title">
+            <span class="eyebrow">🇦🇷 Argentina · MERVAL USD</span>
+            <h2>MERVAL en Dólares</h2>
+            <div class="desc">CCL / MEP implícito · vs Mercados Emergentes</div>
+          </div>
+          <div class="mp-big">
+            <span class="price shimmer" id="mervUsdPrice">---.--</span>
+            <span class="change shimmer" id="mervUsdChange">---.--%</span>
+          </div>
+        </div>
+        <div class="mp-detail">
+          <div class="mp-detail-item">
+            <div class="lbl">MERVAL ARS</div>
+            <div class="val" id="mervArsVal">---</div>
+          </div>
+          <div class="mp-detail-item">
+            <div class="lbl">USD CCL</div>
+            <div class="val" id="usdCclVal">---</div>
+          </div>
+          <div class="mp-detail-item">
+            <div class="lbl">USD BLUE</div>
+            <div class="val" id="usdBlueVal">---</div>
+          </div>
+          <div class="mp-detail-item">
+            <div class="lbl">USD OFICIAL</div>
+            <div class="val" id="usdOfVal">---</div>
+          </div>
+        </div>
+
+        <!-- COMPARISON GRID -->
+        <div class="compare-grid" id="compareGrid">
+          <div class="compare-card" data-sym="EWZ">
+            <div class="flag">🇧🇷</div>
+            <div class="etf">EWZ</div>
+            <div class="etf-name">Brasil</div>
+            <div class="price-row">
+              <span class="val shimmer">--.--</span>
+              <span class="chg shimmer">--.--%</span>
+            </div>
+          </div>
+          <div class="compare-card" data-sym="ILF">
+            <div class="flag">🌎</div>
+            <div class="etf">ILF</div>
+            <div class="etf-name">Latinoamérica</div>
+            <div class="price-row">
+              <span class="val shimmer">--.--</span>
+              <span class="chg shimmer">--.--%</span>
+            </div>
+          </div>
+          <div class="compare-card" data-sym="EEM">
+            <div class="flag">🌍</div>
+            <div class="etf">EEM</div>
+            <div class="etf-name">Emergentes Globales</div>
+            <div class="price-row">
+              <span class="val shimmer">--.--</span>
+              <span class="chg shimmer">--.--%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRADINGVIEW CHART -->
+      <section class="tv-card">
+        <div class="tv-header">
+          <h3>📈 <span id="tvSymbolLabel">MERVAL (^MERV)</span></h3>
+          <div class="tv-controls">
+            <button data-interval="60" class="active">1h</button>
+            <button data-interval="D">1D</button>
+            <button data-interval="W">1W</button>
+            <button data-interval="M">1M</button>
+          </div>
+        </div>
+        <div id="tv-container"></div>
+        <div class="info-bar">
+          <span class="src">Datos: Yahoo Finance · ArgentinaDatos · BCRA</span>
+          <span>•</span>
+          <a href="#" id="tvFullscreen">Pantalla completa ↗</a>
+        </div>
+      </section>
+
+    </div><!-- /main-col -->
+  </div><!-- /grid-main -->
+</div><!-- /wrap -->
+
+<script>
+// =====================================================================
+// CONFIGURACIÓN
+// =====================================================================
+const DEFAULT_WATCHLIST = ["^MERV","SPY","EWZ","ILF","EEM","GGAL.BA","YPFD.BA","AAPL","MSFT","NVDA"];
+
+const YAHOO_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+
+// =====================================================================
+// UTILIDADES
+// =====================================================================
+function $(id){ return document.getElementById(id); }
+
+function fmt(n, d=2){ return Number(n).toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d}); }
+
+function pct(a,b){
+  if(!a||!b||b===0)return null;
+  return ((a-b)/b)*100;
+}
+
+function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }
+
+// =====================================================================
+// YAHOO FINANCE FETCH (crumbless approach con query1)
+// =====================================================================
+async function yfQuote(symbol){
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1d&interval=1d`;
+  try{
+    const res = await fetch(url,{headers:{"User-Agent":YAHOO_UA,Accept:"application/json"}});
+    if(!res.ok) return null;
+    const j = await res.json();
+    const meta = j?.chart?.result?.[0]?.meta;
+    if(!meta) return null;
+    return {
+      price: meta.regularMarketPrice ?? null,
+      prevClose: meta.chartPreviousClose ?? null,
+      currency: meta.currency ?? 'USD',
+    };
+  }catch(e){ return null; }
+}
+
+async function yfQuotePrev(symbol){
+  // Usamos 5d para tener el cierre anterior aunque sea finde
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=5d&interval=1d`;
+  try{
+    const res = await fetch(url,{headers:{"User-Agent":YAHOO_UA,Accept:"application/json"}});
+    if(!res.ok) return null;
+    const j = await res.json();
+    const result = j?.chart?.result?.[0];
+    if(!result) return null;
+    const closes = result.indicators?.quote?.[0]?.close ?? [];
+    const timestamps = result.timestamp ?? [];
+    // Buscar el último cierre que no sea null
+    let price = null, prevClose = null;
+    for(let i=closes.length-1;i>=0;i--){
+      if(closes[i]!=null && price===null) price = closes[i];
+      else if(closes[i]!=null && price!==null){ prevClose = closes[i]; break; }
+    }
+    if(price===null) price = result.meta?.regularMarketPrice ?? null;
+    if(prevClose===null) prevClose = result.meta?.chartPreviousClose ?? null;
+    return {price, prevClose, currency: result.meta?.currency ?? 'USD'};
+  }catch(e){ return null; }
+}
+
+// =====================================================================
+// ARGENTINA DATOS API
+// =====================================================================
+async function fetchDolarPrices(){
+  try{
+    const res = await fetch("https://api.argentinadatos.com/v1/cotizaciones/dolares");
+    if(!res.ok) return null;
+    return await res.json();
+  }catch(e){ return null; }
+}
+
+// =====================================================================
+// CÁLCULO MERVAL USD
+// =====================================================================
+async function calcMervalUsd(){
+  const [mervRaw, dolares] = await Promise.all([
+    yfQuotePrev("^MERV"),
+    fetchDolarPrices()
+  ]);
+  const mervArs = mervRaw?.price ?? null;
+
+  // Buscar cotizaciones
+  let ccl = null, blue = null, oficial = null;
+  if(dolares && Array.isArray(dolares)){
+    const cclData = dolares.find(d => d.casa === 'contadoconliqui');
+    const blueData = dolares.find(d => d.casa === 'blue');
+    const ofData = dolares.find(d => d.casa === 'oficial');
+    if(cclData) ccl = cclData.venta ?? cclData.compra ?? null;
+    if(blueData) blue = blueData.venta ?? blueData.compra ?? null;
+    if(ofData) oficial = ofData.venta ?? ofData.compra ?? null;
+  }
+
+  const usdRate = ccl || blue || oficial || 1200;
+  const mervUsd = mervArs && usdRate ? mervArs / usdRate : null;
+
+  // Para el cambio %, necesitamos el MERVAL USD del día anterior
+  // Aproximamos con prevClose / usdRate (misma tasa)
+  const mervPrev = mervRaw?.prevClose ?? null;
+  const mervUsdPrev = mervPrev && usdRate ? mervPrev / usdRate : null;
+  const changePct = (mervUsd != null && mervUsdPrev != null) ? pct(mervUsd, mervUsdPrev) : null;
+
+  return { mervArs, mervUsd, mervUsdPrev, changePct, ccl, blue, oficial, usdRate };
+}
+
+// =====================================================================
+// FETCH ETF COMPARISON
+// =====================================================================
+async function fetchEtfPrices(){
+  const symbols = ["EWZ","ILF","EEM"];
+  const results = await Promise.all(symbols.map(s => yfQuotePrev(s)));
+  return symbols.map((sym, i) => {
+    const r = results[i];
+    const price = r?.price ?? null;
+    const prev = r?.prevClose ?? null;
+    const chg = (price!=null && prev!=null) ? pct(price, prev) : null;
+    return { symbol: sym, price, prevClose: prev, changePct: chg };
+  });
+}
+
+// =====================================================================
+// UPDATE UI
+// =====================================================================
+async function updatePanel(){
+  const [mervalData, etfs] = await Promise.all([
+    calcMervalUsd(),
+    fetchEtfPrices()
+  ]);
+
+  const now = new Date().toLocaleString('es-AR',{timeZone:'America/Argentina/Buenos_Aires',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+  $('lastUpdate').textContent = `Actualizado ${now}`;
+
+  // MERVAL USD big
+  const priceEl = $('mervUsdPrice');
+  const chgEl = $('mervUsdChange');
+  priceEl.classList.remove('shimmer');
+  chgEl.classList.remove('shimmer');
+
+  if(mervalData.mervUsd != null){
+    priceEl.textContent = `USD ${fmt(mervalData.mervUsd, 2)}`;
+    priceEl.className = 'price' + ((mervalData.changePct??0) >= 0 ? ' up' : ' dn');
+  } else {
+    priceEl.textContent = 'USD ---.--';
+    priceEl.className = 'price';
+  }
+
+  if(mervalData.changePct != null){
+    const sign = (mervalData.changePct >= 0) ? '+' : '';
+    chgEl.textContent = `${sign}${fmt(mervalData.changePct, 2)}%`;
+    chgEl.className = 'change' + ((mervalData.changePct??0) >= 0 ? ' up' : ' dn');
+  } else {
+    chgEl.textContent = '--.--%';
+    chgEl.className = 'change';
+  }
+
+  // Detail row
+  $('mervArsVal').textContent = mervalData.mervArs ? `ARS ${fmt(mervalData.mervArs, 2)}` : '---';
+  $('usdCclVal').textContent = mervalData.ccl ? `$${fmt(mervalData.ccl, 2)}` : '---';
+  $('usdBlueVal').textContent = mervalData.blue ? `$${fmt(mervalData.blue, 2)}` : '---';
+  $('usdOfVal').textContent = mervalData.oficial ? `$${fmt(mervalData.oficial, 2)}` : '---';
+
+  // ETFS
+  etfs.forEach(e => {
+    const card = document.querySelector(`.compare-card[data-sym="${e.symbol}"]`);
+    if(!card) return;
+    const valEl = card.querySelector('.val');
+    const chgEl = card.querySelector('.chg');
+    valEl.classList.remove('shimmer');
+    chgEl.classList.remove('shimmer');
+    if(e.price != null){
+      valEl.textContent = fmt(e.price, 2);
+    } else {
+      valEl.textContent = '--.--';
+    }
+    if(e.changePct != null){
+      const sign = (e.changePct >= 0) ? '+' : '';
+      chgEl.textContent = `${sign}${fmt(e.changePct, 2)}%`;
+      chgEl.className = 'chg' + ((e.changePct??0) >= 0 ? ' up' : ' dn');
+    } else {
+      chgEl.textContent = '--.--%';
+      chgEl.className = 'chg';
+    }
+  });
+
+  // Actualizar watchlist con precios
+  updateWatchlistPrices();
+}
+
+// =====================================================================
+// WATCHLIST (ilimitada · localStorage)
+// =====================================================================
+let watchlist = [];
+let wlActive = '^MERV';
+
+function loadWatchlist(){
+  try{
+    const saved = localStorage.getItem('coronar_watchlist');
+    if(saved) watchlist = JSON.parse(saved);
+    else watchlist = [...DEFAULT_WATCHLIST];
+  }catch(e){ watchlist = [...DEFAULT_WATCHLIST]; }
+  saveWatchlist();
+}
+
+function saveWatchlist(){
+  try{ localStorage.setItem('coronar_watchlist', JSON.stringify(watchlist)); }catch(e){}
+}
+
+function renderWatchlist(){
+  const list = $('wlList');
+  $('wlCount').textContent = `${watchlist.length} símbolo${watchlist.length !== 1 ? 's' : ''}`;
+  if(watchlist.length === 0){
+    list.innerHTML = `<div class="wl-empty">Watchlist vacía.<br>Agregá símbolos con el campo de arriba.</div>`;
+    return;
+  }
+  list.innerHTML = watchlist.map(sym => `
+    <div class="wl-item ${sym === wlActive ? 'active' : ''}" data-sym="${sym}">
+      <span class="sym">${sym}</span>
+      <span style="display:flex;align-items:center;gap:8px;">
+        <span class="price wl-price" id="wl-p-${CSS.escape(sym)}">—</span>
+        <span class="chg wl-chg" id="wl-c-${CSS.escape(sym)}"></span>
+        <button class="del-btn" data-sym="${sym}" title="Quitar">✕</button>
+      </span>
+    </div>
+  `).join('');
+
+  // Eventos click para seleccionar
+  list.querySelectorAll('.wl-item').forEach(el => {
+    el.addEventListener('click', (e) => {
+      if(e.target.closest('.del-btn')) return;
+      const sym = el.dataset.sym;
+      wlActive = sym;
+      renderWatchlist();
+      changeTvSymbol(sym);
+    });
+  });
+
+  // Eventos delete
+  list.querySelectorAll('.del-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const sym = btn.dataset.sym;
+      watchlist = watchlist.filter(s => s !== sym);
+      saveWatchlist();
+      if(wlActive === sym){
+        wlActive = watchlist.length > 0 ? watchlist[0] : '';
+      }
+      renderWatchlist();
+      if(wlActive) changeTvSymbol(wlActive);
+    });
+  });
+}
+
+async function updateWatchlistPrices(){
+  if(watchlist.length === 0) return;
+  // Batch de a 5 para no saturar
+  const batchSize = 5;
+  for(let i=0; i<watchlist.length; i+=batchSize){
+    const slice = watchlist.slice(i, i+batchSize);
+    const results = await Promise.all(slice.map(sym => yfQuotePrev(sym)));
+    slice.forEach((sym, idx) => {
+      const r = results[idx];
+      const priceEl = $(`wl-p-${CSS.escape(sym)}`);
+      const chgEl = $(`wl-c-${CSS.escape(sym)}`);
+      if(!priceEl) return;
+      if(r?.price != null){
+        priceEl.textContent = fmt(r.price, 2);
+        if(r.prevClose != null && r.prevClose > 0){
+          const chg = pct(r.price, r.prevClose);
+          if(chg != null && chgEl){
+            const sign = (chg >= 0) ? '+' : '';
+            chgEl.textContent = `${sign}${fmt(chg, 2)}%`;
+            chgEl.className = 'chg ' + ((chg ?? 0) >= 0 ? 'up' : 'dn');
+          }
+        }
+      } else {
+        priceEl.textContent = '—';
+        if(chgEl){ chgEl.textContent = ''; chgEl.className = 'chg'; }
+      }
+    });
+    if(i+batchSize < watchlist.length) await sleep(300);
+  }
+}
+
+// =====================================================================
+// TRADINGVIEW WIDGET
+// =====================================================================
+let tvWidget = null;
+let tvInterval = '60';
+let tvSymbol = '^MERV';
+
+function changeTvSymbol(sym){
+  tvSymbol = sym;
+  $('tvSymbolLabel').textContent = sym;
+  if(tvWidget){
+    tvWidget.setSymbol(sym, tvInterval);
+  }
+}
+
+function initTradingView(){
+  const script = document.createElement('script');
+  script.src = 'https://s3.tradingview.com/tv.js';
+  script.async = true;
+  script.onload = () => {
+    createTvWidget();
+  };
+  document.head.appendChild(script);
+}
+
+function createTvWidget(){
+  if(!window.TradingView) return;
+  const container = $('tv-container');
+  if(!container) return;
+  container.innerHTML = '';
+
+  tvWidget = new window.TradingView.widget({
+    container_id: 'tv-container',
+    symbol: tvSymbol,
+    interval: tvInterval,
+    timezone: 'America/Argentina/Buenos_Aires',
+    theme: 'dark',
+    style: '1',
+    locale: 'es',
+    toolbar_bg: '#0D1220',
+    enable_publishing: false,
+    allow_symbol_change: true,
+    hide_side_toolbar: false,
+    studies: [
+      'RSI@tv-basicstudies',
+      'MA@tv-basicstudies',
+      'MASimple@tv-basicstudies'
+    ],
+    studies_overrides: {
+      'RSI.length': 14,
+      'MA.length': 20,
+      'MASimple.length': 50,
+    },
+    show_popup_button: true,
+    popup_width: '1000',
+    popup_height: '650',
+    autosize: true,
+    height: 520,
+    disabled_features: [
+      'use_localstorage_for_settings',
+      'header_symbol_search',
+      'symbol_search_hot_key',
+    ],
+    enabled_features: [
+      'hide_left_toolbar_by_default',
+    ],
+  });
+}
+
+// =====================================================================
+// EVENTOS
+// =====================================================================
+// Adding to watchlist
+$('wlAddBtn').addEventListener('click', addToWatchlist);
+$('wlInput').addEventListener('keydown', (e) => { if(e.key === 'Enter') addToWatchlist(); });
+
+function addToWatchlist(){
+  const input = $('wlInput');
+  const raw = input.value.trim().toUpperCase();
+  if(!raw) return;
+  // Split por comas o espacios
+  const symbols = raw.split(/[,;\s]+/).filter(s => s.length > 0);
+  symbols.forEach(s => {
+    if(!watchlist.includes(s)) watchlist.push(s);
+  });
+  input.value = '';
+  saveWatchlist();
+  renderWatchlist();
+  updateWatchlistPrices();
+}
+
+// TV interval buttons
+document.querySelectorAll('.tv-controls button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tv-controls button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    tvInterval = btn.dataset.interval;
+    if(tvWidget){
+      tvWidget.chart().setResolution(tvInterval);
+    }
+  });
+});
+
+// Fullscreen
+$('tvFullscreen').addEventListener('click', (e) => {
+  e.preventDefault();
+  const el = document.querySelector('.tv-card');
+  if(el.requestFullscreen) el.requestFullscreen();
+  else if(el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+});
+
+// =====================================================================
+// BOOT
+// =====================================================================
+loadWatchlist();
+renderWatchlist();
+initTradingView();
+updatePanel();
+
+// Auto-refresh cada 60 segundos
+setInterval(updatePanel, 60000);
+
+// Al cargar watchlist prices también después de un momento
+setTimeout(updateWatchlistPrices, 2000);
+
+console.log('🔷 Coronar MERVAL USD · Panel listo');
+console.log(`📋 Watchlist: ${watchlist.length} símbolos`);
+</script>
+</body>
+</html>

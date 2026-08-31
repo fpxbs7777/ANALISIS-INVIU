@@ -1,0 +1,38 @@
+{
+ "_ts": "2026-08-26T00:42:14.894708",
+ "data": {
+  "NVDA": {
+   "ticker": "NVDA",
+   "proxima": "2026-08-26",
+   "hora_et": 16,
+   "momento": "\ud83c\udf19",
+   "mcap_b": 5160.0,
+   "acierto": 100.0,
+   "sorp": 5.7,
+   "semaforo": "\ud83d\udfe9",
+   "n_hist": 8
+  },
+  "WSM": {
+   "ticker": "WSM",
+   "proxima": "2026-08-26",
+   "hora_et": 8,
+   "momento": "\ud83c\udf05",
+   "mcap_b": 28.0,
+   "acierto": 100.0,
+   "sorp": 8.2,
+   "semaforo": "\ud83d\udfe9",
+   "n_hist": 8
+  },
+  "BBY": {
+   "ticker": "BBY",
+   "proxima": "2026-08-27",
+   "hora_et": 8,
+   "momento": "\ud83c\udf05",
+   "mcap_b": null,
+   "acierto": 88.0,
+   "sorp": 5.8,
+   "semaforo": "\ud83d\udfe9",
+   "n_hist": 8
+  }
+ }
+}

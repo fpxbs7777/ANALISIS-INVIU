@@ -1,0 +1,46 @@
+{
+  "universo": {
+    "json_path": "unificado_completo - copia.json",
+    "tier": "AB",
+    "max_arg": 0,
+    "max_cedear": 120,
+    "min_hist_dias": 400
+  },
+  "datos": {
+    "periodo": "10y",
+    "cache_dias": 1
+  },
+  "salud": {
+    "peso_fundamental": 0.5,
+    "peso_cuant": 0.5,
+    "min_roe": 0.12,
+    "max_de": 1.0,
+    "min_margen": 0.08,
+    "fcf_positivo": true
+  },
+  "factores": {
+    "lista": ["SPY", "XLK", "XLF", "XLE", "XLV", "QUAL", "MTUM", "GLD", "^MERV"],
+    "r2_umbral": 0.40,
+    "ventana_dias": 252
+  },
+  "ciclo": {
+    "fase_import": true
+  },
+  "regimen": {
+    "lookback_dias": 63,
+    "n_analogos": 20,
+    "dist_umbral": 1.2,
+    "horizontes_dias": [21, 63, 126]
+  },
+  "optimizador": {
+    "tipos": ["long-only", "min-variance-l1", "equi-weight", "volatility-weighted", "markowitz"],
+    "max_peso": 0.25,
+    "top_n_pool": 30
+  },
+  "backtest": {
+    "inicio": "2018-01-01",
+    "rebalanceo": "M",
+    "costo_bps": 15,
+    "benchmarks": ["SPY", "^MERV"]
+  }
+}

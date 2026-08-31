@@ -1,0 +1,341 @@
+ALGORITHMIC &
+PORTFOLIO TRADING
+Mauricio Labadie, PhD
+Algorithmic Quant/Trader
+Electronic Broker (Investment Bank)
+London, UK
+Workshop in Quantitative Finance 2016
+Facultad de Ciencias, UNAM
+Mexico City, 24 May 2016
+1 Algo & Portfolio Trading - Mauricio Labadie
+
+Table of Contents
+1. Introduction
+2. Portfolio algorithm
+3. Scheduling algorithms
+4. Smart Order Routing
+5. Execution algorithms
+6. Example
+2 Algo & Portfolio Trading - Mauricio Labadie
+
+1. Introduction
+3 Algo & Portfolio Trading - Mauricio Labadie
+
+Market Order (MOs)
+ Instruction to buy (sell) a number of shares at any current price available in
+the market
+ It ensures complete execution
+ But consumes liquidity
+ MOs “pay the spread”
+ The final execution price could be very different to the current market price
+deal-too.com
+4 Algo & Portfolio Trading - Mauricio Labadie
+
+Limit Orders (LOs)
+ Instruction to buy (sell) a number of shares at a specified price or less
+(more)
+ It includes a limit price e.g. 82 USD
+ It provides liquidity to MOs
+ LOs “earn/capture the spread”
+ But there is a risk of incomplete (or no) execution
+santander.com
+5 Algo & Portfolio Trading - Mauricio Labadie
+
+Limit Order Book (LOB)
+ If the limit price does not allow a “cross” then the LO will be added to the
+LOB:
+ If we buy → bid side of the LOB
+ If we sell → ask side of the LOB
+ The LOB shows:
+ Available prices
+ Available volumes at each price
+ Number of traders
+www.istudiotech.in
+6 Algo & Portfolio Trading - Mauricio Labadie
+
+LOB: Sketch
+7 Algo & Portfolio Trading - Mauricio Labadie
+
+LOB example: LSE
+http://lseg.com
+8 Algo & Portfolio Trading - Mauricio Labadie
+
+How trading orders get to brokers
+In-house Investment Portfolio Alpha Execution
+Research ideas Managers generation Traders
+Trading
+Orders
+External Investment
+Research ideas
+Broker
+Algorithms
+Market
+9 Algo & Portfolio Trading - Mauricio Labadie
+
+2. Portfolio Algorithm
+10 Algo & Portfolio Trading - Mauricio Labadie
+
+Portfolio algorithm: paradigm
+ “The whole is bigger than the sum of the parts”
+ If correlations are zero then it is the same:
+ To send one portfolio algorithm, or
+ To send N single-name algorithms
+ But we know that correlations are not zero:
+ Random variables i.i.d. is a dream
+ Using correlations to “fine-tune” a portfolio:
+ Should be more accurate
+ and potentially more profitable
+http://www.paginasprodigy.com/ceocmty
+11 Algo & Portfolio Trading - Mauricio Labadie
+
+Portfolio algorithm: natural hedges
+ In a portfolio, the risk on some positions can be offset by the risk on others:
+ Long/short portfolios in equities
+ Delta neutral portfolios in options
+ Arbitrage: Indices and Exchange-Traded Funds (ETFs)
+ But a portfolio algorithm adds extra complexity:
+ Definition of a portfolio metric
+ Dynamic control of single-name algorithms
+http://thefinanceassociation.com/
+12 Algo & Portfolio Trading - Mauricio Labadie
+
+Portfolio algorithm: metric
+ This is the constraint at the highest level of hierarchy
+ Single-name algorithms are subordinated to the metric
+ It is a quantifiable metric (i.e. a formula) based on:
+ Reward: what is the goal we want to achieve?
+ Risk: volatility, liquidity, news, macro events, etc
+http://mathoverflow.net/
+ The input can be:
+ Past market conditions: historical
+ Current market conditions: reactive
+ Expected market conditions: forecast
+ In a nutshell, the portfolio metric “controls the velocities”:
+ “All single-name algorithms move together”
+13 Algo & Portfolio Trading - Mauricio Labadie
+
+Portfolio algorithm: tree
+Scheduling 1 SOR 1 Execution 1
+Scheduling 2 SOR 2 Execution 2
+Portfolio Algo
+(N names)
+Scheduling 3 SOR 2 Execution 3
+Scheduling N SOR N Execution N
+14 Algo & Portfolio Trading - Mauricio Labadie
+
+Portfolio algorithm: metaphor
+ Single name algorithms: the horses
+ Portfolio metric: the driver
+ Risk management: the archer
+Source: Florida Center for Instructional Technology, College of Education, University of South Florida.
+15 Algo & Portfolio Trading - Mauricio Labadie
+
+3. Scheduling Algorithms:
+when to trade?
+16 Algo & Portfolio Trading - Mauricio Labadie
+
+Scheduling algorithms: TWAP
+Time-Weighted Average Price (TWAP)
+ It is the simplest scheduling algorithm
+ Distributes the total execution evenly in time
+ Example:
+ Total number of shares is 85,000
+ Trading hours in London are from 08:00 to 16:30
+ TWAP schedule:
+ 10,000 shares every hour
+ 5,000 shares every 30 minutes
+ 1,667 shares every 10 minutes
+ Etc
+17 Algo & Portfolio Trading - Mauricio Labadie
+
+Scheduling algorithms: TWAP
+18 Algo & Portfolio Trading - Mauricio Labadie
+
+Scheduling algorithms: VWAP
+Volume-Weighted Average Price (VWAP)
+ The “bread and butter” of scheduling algorithms
+ It distributes the total execution according to historical volumes
+ It requires a (statistical) volume curve:
+ Divide the day in buckets e.g. 30 minutes
+ For each bucket e.g. from 09:00 to 09:30
+ Compute the average (or median) volume traded between 09:00 and
+09:30 in the last 20 days
+ Normalise the volume curve:
+ The sum of all buckets is equal to 1
+ Each bucket represents the percentage of daily volume
+19 Algo & Portfolio Trading - Mauricio Labadie
+
+Scheduling algorithms: VWAP
+ Example:
+ Execute 85,000 shares
+ 09:00 to 09:30 is 4.7% of (daily historical) volume
+ Number of shares: 85,000 ∗ 0.047 = 3,995
+ 16:00 to 16:30 is 11.2% of volume
+ Number of shares: 85,000 ∗ 0.112 = 9,520
+ Compare with TWAP schedule:
+ 5,000 shares every 30 minutes
+ 5.9% of volume
+20 Algo & Portfolio Trading - Mauricio Labadie
+
+Scheduling algorithms: VWAP
+21 Algo & Portfolio Trading - Mauricio Labadie
+
+4. Smart Order Routing (SOR):
+where to trade?
+22 Algo & Portfolio Trading - Mauricio Labadie
+
+Market Fragmentation
+ Primary exchanges:
+ NYSE, NASDAQ, LSE, Euronext, Xetra
+ Multilateral Trading Facilities (MTFs):
+ Also known as alternative markets:
+ Chi X, BATS, Turquoise, Aquis
+ Dark pools:
+ Block-trading facilities without pre-trade transparency:
+ To reduce market impact
+ But they have to publish post-trade information
+ Internalisers:
+ Trade with other desks within the broker/bank
+23 Algo & Portfolio Trading - Mauricio Labadie
+
+Smart Order Routing (SOR)
+ SOR is used to distribute an order into multiple venues:
+ Liquidity seeking in a fragmented market
+ Why “smart”?
+ Optimal allocation based on a dynamic “ranking” of venues
+ This ranking reflects:
+ Costs e.g. exchange commissions, rebates
+ Volumes e.g. current, historical
+ Signalling e.g. information leakage
+ Indirect costs e.g. spread
+ Quality of liquidity e.g. too many HFTs? Too few?
+24 Algo & Portfolio Trading - Mauricio Labadie
+
+SOR: Algorithm tree
+Primary
+SOR
+Exchange
+Venue Ranking
+MTF 1
+Dark Pool 1
+MTF 2
+Dark Pool 2
+Internaliser
+MTF M
+Dark Pool D
+25 Algo & Portfolio Trading - Mauricio Labadie
+
+SOR algorithm: metaphor
+ Ranking of venues: the head
+ Different venues: the hands
+“Thousand-hand Avalokitesvara Bodhisattva” dance
+Source: http://blogs.wsj.com/photojournal/2009/07/01/pictures-of-the-day-210/.
+26 Algo & Portfolio Trading - Mauricio Labadie
+
+5. Execution Algorithms:
+how to trade?
+27 Algo & Portfolio Trading - Mauricio Labadie
+
+Execution with MOs
+ Fill and Kill / Immediate or Cancel (IoC)
+ Aggressive Limit order i.e. crossing the spread
+ Tries to execute in one go all shares
+ Non-executed shares are cancelled
+ Possible partial execution
+ Risk of incomplete execution
+ Fill or Kill
+ IoC with a 100% completion requirement
+ Partial execution is not allowed
+ Risk of no execution
+28 Algo & Portfolio Trading - Mauricio Labadie
+
+Execution with LOs
+ Peg
+ Dynamically follow the best limit
+ Always updates to the best bid/ask
+ Always have price priority
+ Try to have as much queue priority as possible
+ Supported by markets
+ Risk of gaming / adverse selection
+ “Float Peg”
+ Similar to peg order
+ But the “pegged price” can be different to best limit
+ For example, we buy at (best bid – N) ticks
+ Risk of no execution if N is “too large”
+29 A lgo & Portfolio Trading - Mauricio Labadie
+
+Hybrid algorithms
+ Spread Capture
+ Tries to get the best price possible for a passive execution
+ Limit order algorithms in sequence e.g. Peg
+ Optimal placing for earning/capturing the spread:
+ “Signals” to determine when and where to post
+ Based on probability of execution
+ Spread Crossing
+ Tries to get the best price possible for an aggressive execution
+ Market order algorithms in sequence e.g. FoK
+ Optimal timing for jumping/crossing the spread:
+ Cost of waiting (queue) vs cost of spread
+ Based on probability of execution and “microstructure models”
+30 Algo & Portfolio Trading - Mauricio Labadie
+
+Hybrid algorithms: metaphor
+ Spread Capture: trapper
+ Spread Crossing: marksman
+www.deviantart.com & commons.wikimedia.org
+31 Algo & Portfolio Trading - Mauricio Labadie
+
+6. Example of
+Portfolio algorithm
+32 Algo & Portfolio Trading - Mauricio Labadie
+
+Turnover of portfolio
+ Turnover of position from Telecoms to Pharma:
+ Sell 100M USD worth of Telecoms
+ Buy 100M USD worth of Parma
+ Proceedings from the sells will finance the buys
+ Scheduling algorithm:
+ TWAP
+• Market Neutral metric:
+• 𝑀𝑒𝑡𝑟𝑖𝑐 𝑡 = 𝑉𝑎𝑙𝑢𝑒𝐵𝑢𝑦𝑠𝑈𝑠𝑑 𝑡 − 𝑉𝑎𝑙𝑢𝑒𝑆𝑒𝑙𝑙𝑠𝑈𝑠𝑑(𝑡)
+• It “naturally” reduces market risk
+• If the market goes up we lose on our buys
+• But we win on our sells
+33 Algo & Portfolio Trading - Mauricio Labadie
+
+Turnover of portfolio
+Net USD done
+(buys minus sells) Buys are going faster than sells
+“Reduce speed” on buys and “increase speed” on sells
++1M USD
+𝑁𝑒𝑡𝑈𝑠𝑑(𝑡)
+Continue the “speed check”
+until complete execution
+Time
+-1M USD
+Sells are going faster than buys
+“Reduce speed” on sells and “increase speed” on buys
+34 Algo & Portfolio Trading - Mauricio Labadie
+
+Portfolio algorithm
+ White horse: scheduling algorithm (TWAP tracker)
+ Black horse: metric (Market Neutral)
+ Driver: cost function (or metric)
+ Archer: monitoring of real time market data
+Source: Florida Center for Instructional Technology, College of Education, University of South Florida.
+35 Algo & Portfolio Trading - Mauricio Labadie
+
+References
+ Harris, “Trading and Exchanges”, Oxford University Press, 2003
+ Barry Johnson, “Algorithmic Trading & DMA”, 4Myeloma Press, 2010
+ Labadie, “Optimal algorithmic trading and market microstructure”. MSc thesis
+ Labadie, Lehalle “Optimal starting times, stopping times and risk measures for algorithmic trading”,
+Journal of Investment Strategies (Risk) Volume 3, Number 2 (December 2014)
+ Cartea, Jaimungal, Penalva, “Algorithmic and High Frequency Trading”, Cambridge University
+Press, 2015
+LOTR Movie
+36 Algo & Portfolio Trading - Mauricio Labadie
+
+Thank you for your
+attention
+37 Algo & Portfolio Trading - Mauricio Labadie

@@ -1,0 +1,628 @@
+implementa esta herramienta Aquí están los 4 archivos clave que acceden a la API de Yahoo Finance:
+
+---
+
+### 1. `src/lib/yahoo-http.ts` — Cliente HTTP bajo nivel (cookie + crumb)
+
+```typescript
+const YAHOO_UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+
+interface YahooSession {
+  cookie: string;
+  crumb: string;
+  expiresAt: number;
+}
+
+let sessionCache: YahooSession | null = null;
+
+function getSetCookies(headers: Headers): string[] {
+  const withGetSetCookie = headers as Headers & { getSetCookie?: () => string[] };
+  const setCookies = withGetSetCookie.getSetCookie?.();
+  if (setCookies?.length) return setCookies;
+  const single = headers.get("set-cookie");
+  return single ? [single] : [];
+}
+
+async function getYahooSession(forceRefresh = false): Promise<YahooSession> {
+  const now = Date.now();
+  if (!forceRefresh && sessionCache && sessionCache.expiresAt > now) return sessionCache;
+
+  const seed = await fetch("https://fc.yahoo.com", {
+    headers: { "User-Agent": YAHOO_UA, Accept: "text/html" },
+    redirect: "manual",
+  });
+  const cookie = getSetCookies(seed.headers)
+    .map((value) => value.split(";")[0])
+    .filter(Boolean)
+    .join("; ");
+
+  const crumbRes = await fetch("https://query1.finance.yahoo.com/v1/test/getcrumb", {
+    headers: { "User-Agent": YAHOO_UA, Accept: "text/plain", ...(cookie ? { Cookie: cookie } : {}) },
+  });
+  if (!crumbRes.ok) throw new Error(`Yahoo auth ${crumbRes.status}`);
+  const crumb = (await crumbRes.text()).trim();
+  if (!crumb || crumb.startsWith("{")) throw new Error("Yahoo auth invalid crumb");
+
+  sessionCache = { cookie, crumb, expiresAt: now + 20 * 60 * 1000 };
+  return sessionCache;
+}
+
+export async function fetchYahooQuoteSummaryJson<T>(
+  symbol: string,
+  modules: string[],
+  forceSessionRefresh = false,
+): Promise<{ status: number; json: T | null; errorText: string | null }> {
+  const session = await getYahooSession(forceSessionRefresh);
+  const params = new URLSearchParams({
+    modules: modules.join(","),
+    corsDomain: "finance.yahoo.com",
+    formatted: "false",
+    crumb: session.crumb,
+  });
+  const url = `https://query2.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(symbol)}?${params}`;
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": YAHOO_UA,
+      Accept: "application/json",
+      ...(session.cookie ? { Cookie: session.cookie } : {}),
+    },
+  });
+  if (res.status === 401 && !forceSessionRefresh) {
+    sessionCache = null;
+    return fetchYahooQuoteSummaryJson<T>(symbol, modules, true);
+  }
+  if (!res.ok) return { status: res.status, json: null, errorText: await res.text().catch(() => null) };
+  return { status: res.status, json: (await res.json()) as T, errorText: null };
+}
+
+export function yahooHeaders(): HeadersInit {
+  return { "User-Agent": YAHOO_UA, Accept: "application/json" };
+}
+```
+
+---
+
+### 2. `src/lib/yahoo-fetch.ts` — Server function principal (TanStack Start)
+
+```typescript
+import { createServerFn } from "@tanstack/react-start";
+import type { QuoteSummaryResult } from "@/lib/yahoo-types";
+import { fetchYahooQuoteSummaryJson } from "@/lib/yahoo-http";
+
+const DEFAULT_MODULES = [
+  "assetProfile",
+  "summaryDetail",
+  "financialData",
+  "defaultKeyStatistics",
+  "incomeStatementHistory",
+  "incomeStatementHistoryQuarterly",
+  "balanceSheetHistory",
+  "balanceSheetHistoryQuarterly",
+  "cashflowStatementHistory",
+  "cashflowStatementHistoryQuarterly",
+  "earnings",
+  "earningsHistory",
+  "earningsTrend",
+  "calendarEvents",
+  "recommendationTrend",
+  "upgradeDowngradeHistory",
+  "majorHoldersBreakdown",
+  "institutionOwnership",
+  "fundOwnership",
+  "insiderHolders",
+  "insiderTransactions",
+  "netSharePurchaseActivity",
+  "secFilings",
+];
+
+export interface YahooFetchResult {
+  symbol: string;
+  data: QuoteSummaryResult | null;
+  error: string | null;
+}
+
+export const fetchYahooSummary = createServerFn({ method: "GET" })
+  .inputValidator((input: { symbol: string; modules?: string[] }) => {
+    if (!input || typeof input.symbol !== "string") throw new Error("symbol required");
+    const symbol = input.symbol.slice(0, 24);
+    if (!/^[A-Z0-9.\-^]+$/i.test(symbol)) throw new Error("invalid symbol");
+    return { symbol, modules: input.modules };
+  })
+  .handler(async ({ data }): Promise<YahooFetchResult> => {
+    try {
+      const modules = (data.modules && data.modules.length > 0
+        ? data.modules
+        : DEFAULT_MODULES
+      ).slice(0, 30);
+      const response = await fetchYahooQuoteSummaryJson<{
+        quoteSummary?: {
+          result?: QuoteSummaryResult[];
+          error?: { description?: string };
+        };
+      }>(data.symbol, modules);
+      if (!response.json) {
+        return { symbol: data.symbol, data: null, error: `Yahoo ${response.status}` };
+      }
+      const json = response.json;
+      if (json.quoteSummary?.error) {
+        return {
+          symbol: data.symbol,
+          data: null,
+          error: json.quoteSummary.error.description ?? "Yahoo error",
+        };
+      }
+      return {
+        symbol: data.symbol,
+        data: json.quoteSummary?.result?.[0] ?? null,
+        error: null,
+      };
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Unknown error";
+      console.error("fetchYahooSummary failed:", message);
+      return { symbol: data.symbol, data: null, error: message };
+    }
+  });
+```
+
+---
+
+### 3. `src/lib/yahoo-coronar.functions.ts` — Batch para `/cliente` + resolución CEDEAR + beta/R²
+
+```typescript
+import { createServerFn } from "@tanstack/react-start";
+import { z } from "zod";
+import { fetchYahooQuoteSummaryJson, yahooHeaders } from "@/lib/yahoo-http";
+
+export interface YahooFundamentals {
+  symbol: string;
+  sector: string | null;
+  sectorKey: string | null;
+  industry: string | null;
+  trailingPE: number | null;
+  forwardPE: number | null;
+  priceToBook: number | null;
+  enterpriseToEbitda: number | null;
+  debtToEquity: number | null;
+  returnOnEquity: number | null;
+  revenueGrowth: number | null;
+  earningsGrowth: number | null;
+  freeCashflow: number | null;
+  marketCap: number | null;
+  fcfYield: number | null;
+  recommendationMean: number | null;
+  numberOfAnalystOpinions: number | null;
+  targetMeanPrice: number | null;
+  currentPrice: number | null;
+  upsideAnalistasPct: number | null;
+  error: string | null;
+}
+
+interface YQuoteSummary {
+  quoteSummary?: {
+    result?: Array<{
+      assetProfile?: { sector?: string; sectorKey?: string; industry?: string };
+      summaryDetail?: { trailingPE?: number; forwardPE?: number; priceToBook?: number };
+      financialData?: {
+        currentPrice?: number;
+        targetMeanPrice?: number;
+        recommendationMean?: number;
+        numberOfAnalystOpinions?: number;
+        debtToEquity?: number;
+        returnOnEquity?: number;
+        revenueGrowth?: number;
+        earningsGrowth?: number;
+        freeCashflow?: number;
+      };
+      defaultKeyStatistics?: {
+        forwardPE?: number;
+        trailingPE?: number;
+        priceToBook?: number;
+        enterpriseToEbitda?: number;
+      };
+      price?: { marketCap?: number };
+    }>;
+    error?: { description?: string } | null;
+  };
+}
+
+const ETF_SECTOR: Record<string, string> = {
+  technology: "XLK",
+  "financial-services": "XLF",
+  healthcare: "XLV",
+  energy: "XLE",
+  "communication-services": "XLC",
+  "consumer-cyclical": "XLY",
+  "consumer-defensive": "XLP",
+  industrials: "XLI",
+  "basic-materials": "XLB",
+  "real-estate": "XLRE",
+  utilities: "XLU",
+};
+
+async function yahooQuoteSummary(symbol: string): Promise<YahooFundamentals> {
+  const out: YahooFundamentals = {
+    symbol,
+    sector: null,
+    sectorKey: null,
+    industry: null,
+    trailingPE: null,
+    forwardPE: null,
+    priceToBook: null,
+    enterpriseToEbitda: null,
+    debtToEquity: null,
+    returnOnEquity: null,
+    revenueGrowth: null,
+    earningsGrowth: null,
+    freeCashflow: null,
+    marketCap: null,
+    fcfYield: null,
+    recommendationMean: null,
+    numberOfAnalystOpinions: null,
+    targetMeanPrice: null,
+    currentPrice: null,
+    upsideAnalistasPct: null,
+    error: null,
+  };
+  const modules = [
+    "assetProfile",
+    "summaryDetail",
+    "financialData",
+    "defaultKeyStatistics",
+    "price",
+  ].join(",");
+  try {
+    const response = await fetchYahooQuoteSummaryJson<YQuoteSummary>(symbol, modules.split(","));
+    if (!response.json) {
+      out.error = `qs ${response.status}`;
+      return out;
+    }
+    const json = response.json;
+    const r = json.quoteSummary?.result?.[0];
+    if (!r) {
+      out.error = json.quoteSummary?.error?.description ?? "no result";
+      return out;
+    }
+    out.sector = r.assetProfile?.sector ?? null;
+    out.sectorKey = r.assetProfile?.sectorKey ?? null;
+    out.industry = r.assetProfile?.industry ?? null;
+    out.trailingPE = r.summaryDetail?.trailingPE ?? r.defaultKeyStatistics?.trailingPE ?? null;
+    out.forwardPE = r.summaryDetail?.forwardPE ?? r.defaultKeyStatistics?.forwardPE ?? null;
+    out.priceToBook = r.summaryDetail?.priceToBook ?? r.defaultKeyStatistics?.priceToBook ?? null;
+    out.enterpriseToEbitda = r.defaultKeyStatistics?.enterpriseToEbitda ?? null;
+    out.debtToEquity = r.financialData?.debtToEquity ?? null;
+    out.returnOnEquity = r.financialData?.returnOnEquity ?? null;
+    out.revenueGrowth = r.financialData?.revenueGrowth ?? null;
+    out.earningsGrowth = r.financialData?.earningsGrowth ?? null;
+    out.freeCashflow = r.financialData?.freeCashflow ?? null;
+    out.marketCap = r.price?.marketCap ?? null;
+    if (out.freeCashflow != null && out.marketCap && out.marketCap > 0) {
+      out.fcfYield = out.freeCashflow / out.marketCap;
+    }
+    out.recommendationMean = r.financialData?.recommendationMean ?? null;
+    out.numberOfAnalystOpinions = r.financialData?.numberOfAnalystOpinions ?? null;
+    out.targetMeanPrice = r.financialData?.targetMeanPrice ?? null;
+    out.currentPrice = r.financialData?.currentPrice ?? null;
+    if (out.targetMeanPrice && out.currentPrice && out.currentPrice > 0) {
+      out.upsideAnalistasPct = ((out.targetMeanPrice - out.currentPrice) / out.currentPrice) * 100;
+    }
+    return out;
+  } catch (e) {
+    out.error = e instanceof Error ? e.message : "err";
+    return out;
+  }
+}
+
+interface YChart {
+  chart?: {
+    result?: Array<{
+      timestamp?: number[];
+      indicators?: { quote?: Array<{ close?: (number | null)[] }> };
+    }>;
+  };
+}
+
+async function yahooChartCloses(symbol: string, range = "1y"): Promise<number[]> {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
+    symbol,
+  )}?range=${range}&interval=1d`;
+  try {
+    const res = await fetch(url, { headers: yahooHeaders() });
+    if (!res.ok) return [];
+    const json = (await res.json()) as YChart;
+    const closes = json.chart?.result?.[0]?.indicators?.quote?.[0]?.close ?? [];
+    return closes.filter((v): v is number => typeof v === "number");
+  } catch {
+    return [];
+  }
+}
+
+interface YSearch {
+  quotes?: Array<{ symbol?: string; shortname?: string; longname?: string; quoteType?: string }>;
+}
+async function yahooResolve(query: string): Promise<string | null> {
+  const url = `https://query2.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(
+    query,
+  )}&quotesCount=3&newsCount=0`;
+  try {
+    const res = await fetch(url, { headers: yahooHeaders() });
+    if (!res.ok) return null;
+    const json = (await res.json()) as YSearch;
+    const eq = json.quotes?.find((q) => q.quoteType === "EQUITY" && q.symbol && !q.symbol.includes("."));
+    return eq?.symbol ?? json.quotes?.[0]?.symbol ?? null;
+  } catch {
+    return null;
+  }
+}
+
+export const yahooFundamentalsBatch = createServerFn({ method: "POST" })
+  .inputValidator(
+    (d: { items: Array<{ iolSymbol: string; tipo: string; pais: string; descripcion?: string }> }) =>
+      z
+        .object({
+          items: z
+            .array(
+              z.object({
+                iolSymbol: z.string().min(1).max(24),
+                tipo: z.string().max(48),
+                pais: z.string().max(8),
+                descripcion: z.string().max(256).optional(),
+              }),
+            )
+            .max(50),
+        })
+        .parse(d),
+  )
+  .handler(
+    async ({
+      data,
+    }): Promise<{
+      results: Array<{
+        iolSymbol: string;
+        yfSymbol: string | null;
+        fundamentals: YahooFundamentals | null;
+        sectorPerForward: number | null;
+        beta: number | null;
+        r2: number | null;
+        benchmarkUsado: string | null;
+      }>;
+    }> => {
+      const resolveYf = async (
+        sym: string,
+        tipo: string,
+        pais: string,
+        desc?: string,
+      ): Promise<string | null> => {
+        const t = tipo.toLowerCase();
+        if (
+          t.includes("bono") ||
+          t.includes("titulopublico") ||
+          t.includes("titulospublicos") ||
+          t.includes("obligacion") ||
+          t.includes("caucion") ||
+          t.includes("letra")
+        ) {
+          return null;
+        }
+        if (pais === "US") return sym;
+        if (t.includes("cedear")) {
+          if (desc) {
+            const r = await yahooResolve(desc);
+            if (r) return r;
+          }
+          return null;
+        }
+        return `${sym}.BA`;
+      };
+
+      const [spyCloses, mervCloses] = await Promise.all([
+        yahooChartCloses("SPY", "3mo"),
+        yahooChartCloses("^MERV", "3mo"),
+      ]);
+
+      const sectorEtfCache = new Map<string, number | null>();
+      const sectorEtfPE = async (sectorKey: string | null): Promise<number | null> => {
+        if (!sectorKey) return null;
+        const etf = ETF_SECTOR[sectorKey];
+        if (!etf) return null;
+        if (sectorEtfCache.has(etf)) return sectorEtfCache.get(etf) ?? null;
+        const f = await yahooQuoteSummary(etf);
+        const pe = f.forwardPE ?? null;
+        sectorEtfCache.set(etf, pe);
+        return pe;
+      };
+
+      const out: Array<{
+        iolSymbol: string;
+        yfSymbol: string | null;
+        fundamentals: YahooFundamentals | null;
+        sectorPerForward: number | null;
+        beta: number | null;
+        r2: number | null;
+        benchmarkUsado: string | null;
+      }> = [];
+
+      const batch = 4;
+      for (let i = 0; i < data.items.length; i += batch) {
+        const slice = data.items.slice(i, i + batch);
+        const r = await Promise.all(
+          slice.map(async (it) => {
+            const yfSymbol = await resolveYf(it.iolSymbol, it.tipo, it.pais, it.descripcion);
+            if (!yfSymbol) {
+              return {
+                iolSymbol: it.iolSymbol,
+                yfSymbol: null,
+                fundamentals: null,
+                sectorPerForward: null,
+                beta: null,
+                r2: null,
+                benchmarkUsado: null,
+              };
+            }
+            const [fund, closes3mo] = await Promise.all([
+              yahooQuoteSummary(yfSymbol),
+              yahooChartCloses(yfSymbol, "3mo"),
+            ]);
+            const sectorPE = await sectorEtfPE(fund.sectorKey);
+            const { beta, r2, benchmark } = computeBeta(closes3mo, spyCloses, mervCloses);
+            return {
+              iolSymbol: it.iolSymbol,
+              yfSymbol,
+              fundamentals: fund,
+              sectorPerForward: sectorPE,
+              beta,
+              r2,
+              benchmarkUsado: benchmark,
+            };
+          }),
+        );
+        out.push(...r);
+      }
+      return { results: out };
+    },
+  );
+
+function returns(arr: number[]): number[] {
+  const r: number[] = [];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i - 1] > 0) r.push((arr[i] - arr[i - 1]) / arr[i - 1]);
+  }
+  return r;
+}
+
+function mean(a: number[]): number {
+  return a.length ? a.reduce((x, y) => x + y, 0) / a.length : 0;
+}
+function variance(a: number[]): number {
+  if (a.length < 2) return 0;
+  const m = mean(a);
+  return a.reduce((s, x) => s + (x - m) ** 2, 0) / (a.length - 1);
+}
+function covariance(a: number[], b: number[]): number {
+  const n = Math.min(a.length, b.length);
+  if (n < 2) return 0;
+  const ax = a.slice(-n);
+  const bx = b.slice(-n);
+  const ma = mean(ax);
+  const mb = mean(bx);
+  let s = 0;
+  for (let i = 0; i < n; i++) s += (ax[i] - ma) * (bx[i] - mb);
+  return s / (n - 1);
+}
+function correlation(a: number[], b: number[]): number {
+  const sa = Math.sqrt(variance(a));
+  const sb = Math.sqrt(variance(b));
+  if (sa === 0 || sb === 0) return 0;
+  return covariance(a, b) / (sa * sb);
+}
+
+function computeBeta(
+  asset: number[],
+  spy: number[],
+  merv: number[],
+): { beta: number | null; r2: number | null; benchmark: string | null } {
+  const ra = returns(asset);
+  if (ra.length < 20) return { beta: null, r2: null, benchmark: null };
+  const rs = returns(spy);
+  const rm = returns(merv);
+  const corrSpy = rs.length >= 20 ? correlation(ra, rs) : 0;
+  const corrMerv = rm.length >= 20 ? correlation(ra, rm) : 0;
+  const r2Spy = corrSpy ** 2;
+  const r2Merv = corrMerv ** 2;
+  const useSpy = r2Spy >= r2Merv;
+  const bench = useSpy ? rs : rm;
+  if (bench.length < 20) return { beta: null, r2: null, benchmark: null };
+  const v = variance(bench);
+  if (v === 0) return { beta: null, r2: null, benchmark: useSpy ? "SPY" : "MERVAL" };
+  const beta = covariance(ra, bench) / v;
+  return {
+    beta,
+    r2: useSpy ? r2Spy : r2Merv,
+    benchmark: useSpy ? "SPY" : "MERVAL",
+  };
+}
+```
+
+---
+
+### 4. `src/lib/yahoo-types.ts` — Tipos TS del response
+
+```typescript
+export interface YahooMoney {
+  raw?: number;
+  fmt?: string;
+  longFmt?: string;
+}
+
+export type FinancialStatementRow = Record<string, any>;
+
+export interface EarningsHistoryRow {
+  quarter?: { fmt?: string };
+  epsActual?: number;
+  epsEstimate?: number;
+  epsDifference?: number;
+  surprisePercent?: number;
+  period?: string;
+}
+
+export interface RecommendationTrendRow {
+  period?: string;
+  strongBuy?: number;
+  buy?: number;
+  hold?: number;
+  sell?: number;
+  strongSell?: number;
+}
+
+export interface InsiderTransactionRow {
+  filerName?: string;
+  filerRelation?: string;
+  transactionText?: string;
+  shares?: number;
+  value?: number;
+  startDate?: { fmt?: string };
+}
+
+export interface InstitutionalHolderRow {
+  organization?: string;
+  pctHeld?: number;
+  position?: number;
+  value?: number;
+  reportDate?: { fmt?: string };
+}
+
+export interface QuoteSummaryResult {
+  incomeStatementHistory?: { incomeStatementHistory?: FinancialStatementRow[] };
+  incomeStatementHistoryQuarterly?: { incomeStatementHistory?: FinancialStatementRow[] };
+  balanceSheetHistory?: { balanceSheetStatements?: FinancialStatementRow[] };
+  balanceSheetHistoryQuarterly?: { balanceSheetStatements?: FinancialStatementRow[] };
+  cashflowStatementHistory?: { cashflowStatements?: FinancialStatementRow[] };
+  cashflowStatementHistoryQuarterly?: { cashflowStatements?: FinancialStatementRow[] };
+  earningsHistory?: { history?: EarningsHistoryRow[] };
+  earningsTrend?: { trend?: Array<Record<string, any>> };
+  recommendationTrend?: { trend?: RecommendationTrendRow[] };
+  upgradeDowngradeHistory?: { history?: Array<Record<string, any>> };
+  insiderTransactions?: { transactions?: InsiderTransactionRow[] };
+  insiderHolders?: { holders?: InsiderTransactionRow[] };
+  institutionOwnership?: { ownershipList?: InstitutionalHolderRow[] };
+  fundOwnership?: { ownershipList?: InstitutionalHolderRow[] };
+  majorHoldersBreakdown?: Record<string, number>;
+  netSharePurchaseActivity?: Record<string, any>;
+  calendarEvents?: Record<string, any>;
+  assetProfile?: Record<string, any>;
+  summaryDetail?: Record<string, any>;
+  financialData?: Record<string, any>;
+  defaultKeyStatistics?: Record<string, any>;
+  earnings?: Record<string, any>;
+  secFilings?: { filings?: Array<Record<string, any>> };
+}
+```
+
+---
+
+**Endpoints usados:**
+- `https://fc.yahoo.com` — seed cookie
+- `https://query1.finance.yahoo.com/v1/test/getcrumb` — crumb
+- `https://query2.finance.yahoo.com/v10/finance/quoteSummary/<symbol>` — fundamentals (30 módulos)
+- `https://query1.finance.yahoo.com/v8/finance/chart/<symbol>` — histórico de precios
+- `https://query2.finance.yahoo.com/v1/finance/search` — resolver CEDEAR → ticker USA con la logica de 

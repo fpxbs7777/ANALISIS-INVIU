@@ -1,0 +1,137 @@
+import requests
+import pandas as pd
+import yfinance as yf
+import time
+import re
+import json
+
+# --- CONFIGURACIÓN IOL ---
+def obtener_tokens(username, password):
+    url = 'https://api.invertironline.com/token'
+    payload = {'username': username, 'password': password, 'grant_type': 'password'}
+    response = requests.post(url, data=payload)
+    if response.status_code == 200:
+        return response.json()['access_token']
+    return None
+
+def obtener_panel(instrumento, pais, token):
+    url = f"https://api.invertironline.com/api/v2/Cotizaciones/{instrumento}/{pais}/Todos"
+    headers = {'Authorization': f'Bearer {token}'}
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        return pd.DataFrame(response.json().get('titulos', []))
+    return pd.DataFrame()
+
+# --- LÓGICA DE LIMPIEZA Y MAPEO ---
+def extraer_raiz(simbolo):
+    return re.sub(r'([A-Z]{2,})[DC]$', r'\1', simbolo)
+
+def mapear_yfinance(simbolo, cedears_limpios):
+    correcciones = {
+        'VALE.SA': 'VALE', 'TECO.BA': 'TEO', 'TGNO4.BA': 'TGNO4.SA', 'ITUB': 'ITUB4.SA'
+    }
+    if simbolo in correcciones: return correcciones[simbolo]
+    
+    raiz = extraer_raiz(simbolo)
+    if raiz.endswith(('3', '4', '5', '6', '7', '8', '9')): 
+        return raiz + '.SA'
+    elif raiz in cedears_limpios: 
+        return raiz
+    else: 
+        return raiz + '.BA'
+
+# --- LÓGICA FINANCIERA BASADA EN TÉCNICAS DE CONTABILIDAD Y FINANZAS PARA DUMMIES Y TÁCTICAS DE MERCADO ---
+# Basado en análisis fundamental básico: ratios de liquidez, rentabilidad, endeudamiento
+# Sin cálculos de semáforo, solo recopilación de datos crudos para análisis manual
+
+def obtener_datos_fundamentales(info):
+    """
+    Extrae datos fundamentales clave según técnicas de libros mencionados.
+    - Ratios de liquidez (currentRatio)
+    - Rentabilidad (ROE, ROA)
+    - Endeudamiento (debtToEquity)
+    - Valoración (P/E, P/B)
+    - Dividendos (dividendYield)
+    """
+    return {
+        'liquidez': {
+            'currentRatio': info.get('currentRatio'),
+            'quickRatio': info.get('quickRatio')
+        },
+        'rentabilidad': {
+            'returnOnEquity': info.get('returnOnEquity'),
+            'returnOnAssets': info.get('returnOnAssets'),
+            'profitMargins': info.get('profitMargins')
+        },
+        'endeudamiento': {
+            'debtToEquity': info.get('debtToEquity'),
+            'totalDebt': info.get('totalDebt'),
+            'totalCash': info.get('totalCash')
+        },
+        'valoracion': {
+            'forwardPE': info.get('forwardPE'),
+            'priceToBook': info.get('priceToBook'),
+            'enterpriseValue': info.get('enterpriseValue')
+        },
+        'dividendos': {
+            'dividendYield': info.get('dividendYield'),
+            'dividendRate': info.get('dividendRate')
+        }
+    }
+
+# --- EJECUCIÓN (credenciales desde variables de entorno) ---
+import os
+USER = os.environ.get("IOL_USERNAME", "")
+PASS = os.environ.get("IOL_PASSWORD", "") 
+token = obtener_tokens(USER, PASS)
+
+if token:
+    print("Conectado. Mapeando activos...")
+    df_cedears = obtener_panel('cedears', 'argentina', token)
+    df_locales = obtener_panel('acciones', 'argentina', token)
+    
+    cedears_limpios = set(df_cedears['simbolo'].apply(extraer_raiz))
+    todos_simbolos = list(df_cedears['simbolo']) + list(df_locales['simbolo'])
+    
+    tickers_finales = list(set([mapear_yfinance(s, cedears_limpios) for s in todos_simbolos]))
+    
+    # Para prueba: Solo el primer lote (20 tickers)
+    lote_prueba = tickers_finales[:20]
+    print(f"Probando con lote: {lote_prueba}")
+    
+    resultados = []
+    for t_symbol in lote_prueba:
+        try:
+            ticker = yf.Ticker(t_symbol)
+            info = ticker.info
+            
+            # Filtro: Solo los que tengan Sector, Industria y Descripción (Tu pedido)
+            if info and info.get('sector') and info.get('industry') and info.get('longBusinessSummary'):
+                data_point = {
+                    'ticker': t_symbol,
+                    'empresa': info.get('longName'),
+                    'sector': info.get('sector'),
+                    'industria': info.get('industry'),
+                    'market_cap': info.get('marketCap'),
+                    'pe': info.get('forwardPE'),
+                    'dy': info.get('dividendYield', 0),
+                    'descripcion': info.get('longBusinessSummary', '')[:300] + "...",
+                    # Datos fundamentales se obtienen dinámicamente desde la API para mantener actualizados
+                    # No se guardan en el JSON
+                }
+                resultados.append(data_point)
+                print(f"✅ {t_symbol} procesado.")
+            else:
+                print(f"⚠️ {t_symbol} descartado por falta de info fundamental.")
+                
+            time.sleep(0.5) # Evitar bloqueos
+        except Exception as e:
+            print(f"❌ Error en {t_symbol}: {e}")
+
+    # Guardar tickers con datos estáticos (sector, industria, descripción)
+    with open('tickers con fundamentales.json', 'w', encoding='utf-8') as f:
+        json.dump(resultados, f, ensure_ascii=False, indent=4)
+        
+    print(f"\nProceso terminado. {len(resultados)} tickers con datos fundamentales estáticos guardados.")
+else:
+    print("Error de autenticación.")

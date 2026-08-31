@@ -1,0 +1,961 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 8.
+DEFINICIÓN DEL FLUJO DE FONDOS
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Establecer los principios fundamentales para definir el flujo de fondos para el análisis de inversiones.
+(cid:1) Encontrarlas diferencias entre el flujo de fondos para analizar una inversión en sí misma y para los
+propietarios.
+8,1. BASE CAJA
+Los flujos de fondos deben computarse en base de caja. Los rendimientos del año 3 de un proyecto,
+por ejemplo, no se miden en términos de los beneficios contables obtenidos en el mismo, sino por el flujo
+neto de caja ocurrido en él. Este concepto se aplica tanto para los rendimientos como para la inversión
+inicial.
+El flujo de caja puede ser expuesto como la diferencia entre los pesos cobrados y los pesos
+pagados.
+¿A qué obedece este enfoque?
+Ello está directamente relacionado con el valor tiempo del dinero. El inversor sólo va a poder utilizar
+los fondos una vez que disponga de ellos. Puede generarse, por ejemplo, una utilidad por ventas en el año 1,
+pero que recién se va a realizar en el año 3. El valor presente de la misma es diferente, puesto que la empresa
+recién va a poder utilizar los fondos en el año 3 y no en el año 1.
+En particular, en los criterios que manejan flujos de fondos descontados, se trabajará con una base de
+caja computando las inversiones y los costos operativos no en el momento en que se devengan, sino en el
+que se pagan. Los beneficios, de la misma forma, se incluirán cuando se perciban.
+Más adelante, sin embargo, se expondrá un modelo de flujos de fondos que es comúnmente utilizado
+y significa una aproximación simplificada hacia la base caja aunque, como se verá, no lo es en su totalidad.
+El flujo de caja se distingue de los resultados contables de una propuesta de inversión. Sin embargo,
+cabe exponer alguna consideración adicional. El flujo de caja debe tornarse después de impuestos. Es decir,
+si bien según el criterio de caja, la carga por impuestos debe computarse en el flujo en el momento en que se
+hace un pago por ese concepto, para determinar el monto de los mismos es probable que se deban calcular
+los resultados atendiendo a criterios diferentes del de caja.
+A manera de ejemplo, de este aspecto cabe recordar que los cargos por depreciaciones no implican
+una salida de fondos y que, por tal motivo, no se computan en el flujo de caja, Sin embargo, las
+depreciaciones son un gasto fiscalmente deducible, y, por lo tanto, el efecto en el impuesto a la renta de las
+mismas debe tomarse para determinar el flujo de caja.
+Asimismo, en muchos países existen créditos impositivos por las inversiones que se efectúan. En
+esos casos, dichos créditos operarán como un ingreso en el momento en que se computen sobre la base caja.
+En suma, la materia prima con que trabajan los criterios de análisis de inversiones son los
+flujos de caja asociados a ellas, después de impuestos.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué criterio se usa para los flujos, si lo que se cobra o lo que se devenga.
+8,2. FLUJOS DE CAJA INCREMENTALES
+2
+
+Para la determinación de la inversión inicial y sus rendimientos, es decir, los flujos de fondos, éstos
+deben computarse sobre una base incremental. Si se va a invertir, por ejemplo, en una máquina que cuesta $
+100, y ella va a sustituir otra que se venderá en $ 20; asumiendo inexistencia de efectos impositivos, la
+inversión marginal es de $ 80. Esta es la que se toma como inversión inicial.
+Similares apreciaciones corresponden a los rendimientos.
+Para determinar los flujos de fondos marginales es conveniente utilizar la regla del con y el sin. Es
+decir, se miden los rendimientos durante toda la vida útil con la nueva inversión y sin ella. La diferencia
+entre ambos se reconoce como marginal.
+Este enfoque se debe distinguir de otro usado erróneamente con frecuencia, el del antes y el después,
+en el que se establecen las diferencias de costos y rendimientos al momento de efectuar el análisis y se
+supone que los actuales permanecerían constantes durante la vida útil de la inversión.
+En ciertos casos puede darse que los flujos de fondos incrementales sean iguales a los flujos totales.
+Ello se aprecia cuando se está en presencia de proyectos totalmente nuevos.
+Por lo tanto, los flujos de caja a considerar son aquéllos directamente atribuibles a la inversión
+bajo análisis, es decir, los flujos de caja incrementales que son la diferencia entre los flujos, medidos en
+la situación de llevar adelante el proyecto y en el caso contrario.
+Puede ser de utilidad efectuar algunos comentarios adicionales sobre el tema.
+Cuando se analizan las inversiones deben computarse en ellas no sólo los requerimientos de activos
+fijos, sino también los relacionados con el capital de trabajo neto. Es decir, deben también proyectarse las
+necesidades de inventarlos de cuentas a cobrar, así como la fuente de fondos incrementales de corto plazo
+para obtener el capital de trabajo neto. Este capital de trabajo suele ser variable en la medida en que el
+proyecto va llegando a su maduración, y el mismo, al fin de la vida útil de la inversión bajo análisis, debe
+considerarse como un ingreso, como valor residual.
+En ciertos proyectos pueden llegar a computarse ciertos costos que no incluyen necesariamente un
+egreso de caja. Es decir, debe computarse su costo de oportunidad. Tal es el caso de que un proyecto utilice
+tierras con que se cuenta y que, de no hacerse el proyecto, se podrían haber vendido. Debe en esos casos
+estimarse el costo de los fondos que se habrían obtenido si el proyecto no se hubiera llevado a la práctica, y
+agregarse a la inversión.
+La existencia de costos hundidos, es decir, salidas de caja que fueron efectuadas en el pasado, y que
+son irreversibles, no debe ser considerada en el análisis. Si se ha efectuado una reparación importante a una
+máquina, y luego aparece en el mercado otra que es más eficiente y se sustituye por aquélla arreglada, en el
+análisis incremental sólo deben tenerse en cuenta los efectos incrementales de la nueva máquina. El gasto
+efectuado en la reparación de la anterior es un costo hundido y es irrelevante a los efectos del análisis. Este
+tipo de situaciones es bastante común en decisiones comerciales.
+La asignación de ciertos costos operativos suele ser motivo de errores frecuentes. A nivel contable,
+en el cálculo del costo de un producto, es habitual que se cargue una parte de los costos generales de fábrica,
+por ejemplo.
+En el análisis de inversiones no debe considerarse una aproximación contable de aceptación de
+costos. Los que deben tomarse en cuenta son aquellos que derivan de la presencia de la nueva inversión.
+Un proyecto puede producir efectos sobre otras inversiones ya realizadas. En estos casos esos efectos
+incidentales también deben computarse en los flujos de caja.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué significan las reglas del con y el sin, y del antes y el después, y cuál se aplica.
+2. Tratamiento de los costos hundidos y del costo del capital.
+8,3. EL TIEMPO DE LOS FLUJOS DE FONDOS
+Un punto de consideración importante es el tiempo durante el cual se desarrollan los flujos de fondos
+para aplicar un criterio.
+3
+
+Existen proyectos en los cuales su vida útil es bien definida. En estos casos los flujos de fondos se
+definen para ese período, y en él se analiza el proyecto. Sin embargo, éste no es un caso que aparezca muy
+frecuentemente.
+En una gran parte de los casos, los proyectos se proponen pensando en mantenerlos por un tiempo
+muy amplio, muchas veces indefinido.
+Es preciso establecer un tiempo durante el cual se analizan los flujos. Esto dependerá de muchos
+factores. Entre ellos, la importancia de la inversión, el esfuerzo que se pueda destinar a ella, el período por el
+cual se generarán los fondos, etcétera.
+Definido un período por el cual se toman los flujos, corresponde considerar el valor residual de la
+inversión al fin del mismo.
+En realidad, el valor residual sería la suma de los flujos de fondos descontados más allá del período.
+Naturalmente, como eso es lo que no se sabe en un principio, deben buscarse otras soluciones.
+En este sentido suele utilizarse el valor de mercado de los bienes al fin del período. Este valor
+residual debe considerarse luego de deducirle los efectos tributarios.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué tiempo se utiliza para los flujos de fondos.
+8,4. FLUJOS DE FONDOS PRESCINDENTES DEL FINANCIAMIENTO DE LA
+INVERSIÓN
+Se ha señalado ya la base caja en el cómputo de los flujos de fondos. ¿Qué sucede entonces si se
+decide financiar una inversión, por ejemplo una máquina, para la cual se obtiene un financiamiento que
+permite pagarla en cinco años?
+En este caso la máquina comienza a operar sin que haya habido un ingreso de fondos por el
+préstamo, y luego, una salida para pagar la máquina.
+Si se atiene estrictamente al criterio de caja, la inversión debería desfasarse toda vez que haya que
+realizar un pago para ella.
+Sin embargo, la mayor parte de los estudiosos del tema, así como también los prácticos del análisis
+financiero de inversiones, trabajan sobre el supuesto del ingreso de fondos y el pago total de la máquina al
+inicio del proyecto, por lo que aparece como inversión el costo de la misma con prescindencia de su forma
+de pago.
+Esto es lo comúnmente utilizado para analizar inversiones.
+Más adelante, cuando se exponga el caso del análisis de inversiones en el enfoque para el accionista,
+se revisará este planteo.
+Es muy importante determinar los flujos de fondos atribuibles a una inversión con prescindencia de
+su financiamiento.
+En los flujos de caja deben computarse los flujos de fondos operativos que sean atribuibles al
+proyecto, con excepción de las fuentes de financiamiento, sus costos financieros y el pago de su
+principal, así como los dividendos.
+Habrá que concentrarse, entonces, en los flujos de caja operativos después de impuestos, por lo que
+cuando se calcula la tasa de rentabilidad, ella se compara con la tasa de rendimiento requerida después de
+impuestos (que es a su vez la tasa de descuento en el VPN).
+Deben, pues, mantenerse separados los flujos del proyecto del financiamiento del mismo. Los
+efectos que este último ajuste pueda tener sobre la decisión de inversión se analizan con detalle en el cap. 10
+y, como se señaló, aparecen a través de la tasa de rendimiento requerida.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo debe considerarse el financiamiento en el análisis de inversiones.
+4
+
+8,5. LOS FLUJOS DE FONDOS EN PROYECTOS INTERDEPENDIENTES
+Existen proyectos cuya aceptación afecta los flujos de caja de otras inversiones en la empresa. Estas
+influencias deben ser tomadas en consideración sobre una base incremental.
+Esta dependencia económica no debe confundirse con la dependencia estadística, en el sentido de
+que dos proyectos están correlacionados. Este puede ser el caso y, sin embargo, no existir dependencias
+económicas.
+8,6. LOS EFECTOS DE LA INFLACIÓN EN LOS FLUJOS DE FONDOS
+La mayor parte de los países sufren procesos inflacionarios más o menos agudos. En América Latina
+muchos de ellos tienen cifras muy importantes de inflación.
+No tomar en cuenta la inflación en los flujos de fondos afectará seguramente la validez de las
+conclusiones.
+Los flujos de fondos deben, por lo tanto, tener presente la inflación, lo que se efectúa más adelante.
+Dada su importancia, y también su complejidad, es aconsejable considerar este tema en profundidad,
+a lo cual se refiere gran parte del cap. 11.
+8,7. MODELO GENERAL DE FLUJO DE FONDOS
+Ya se ha señalado la conveniencia de trabajar sobre base caja a los efectos de determinar los flujos
+de fondos. Ese es el principio general, y cuanto más cerca se esté del mismo, más ajustada será la
+información de rentabilidad de la inversión en los criterios que trabajan con los flujos de fondos descontados.
+En la práctica del análisis de inversiones suelen usarse modelos de determinación de flujos de fondos
+que, si bien están inspirados en el citado principio, introducen simplificaciones que facilitan su
+determinación, aunque sus resultados pueden llegar a alejarse de aquél. Sin embargo, su aplicación está hoy
+día bien generalizada.
+El modelo que se expone seguidamente representa una de estas aproximaciones.
+La definición del flujo de fondos para un año cualquiera j (variando j entre 0 y n) será:
+F = (∆V – ∆C – ∆D – ∆GP) (1 – t) + ∆D + ∆GP + VRt - It
+j j j j j j j j j
+donde:
+∆V: incremento de las ventas M año j derivadas de la nueva inversión;
+j
+∆C: incremento de costos de producción, distribución, administración, etc., del año j derivados de la
+j
+inversión; dentro de estos costos no se consideran las depreciaciones, los cargos por amortización de gastos
+preliminares ni los intereses de financiamiento;
+∆D: incremento de depreciaciones del año j derivadas de la nueva inversión;
+j
+AGP: incremento de las amortizaciones de gastos preliminares del año j derivadas de la nueva inversión;
+j
+t: tasa de impuesto a la renta;
+It: inversiones a realizar en el año j, tomando en consideración sus repercusiones impositivas;
+j
+VRt: valor residual de las inversiones en el año j, después de efectos impositivos,
+j
+Como se aprecia, la definición de flujo de fondos difiere de lo que comúnmente se acepta como
+resultado de la empresa. Obsérvese que se suman las depreciaciones y la amortización de gastos
+preliminares (buscando acercarse a la base caja), al igual que se computarán los valores residuales cuando
+se vende algún activo fijo y se deducen las inversiones, como podría ser la reposición de una máquina
+desgastada.
+De la misma forma, toda vez que en un año, por aumento de las ventas o por cualquier otra razón,
+se produzca un incremento de capital de trabajo, también deberá computarse como una inversión en el año
+que se produzca y deberá, por consiguiente, deducirse en el flujo de fondos.
+5
+
+Este modelo de flujo de fondos, que es probablemente el más aceptado en la práctica y que más trata
+de acercarse a la base caja, como se ha visto, se sustenta para ello en algunos supuestos.
+Como ejemplo, supone que las ventas se cobran y los costos se pagan en el período en que se
+producen. Por lo tanto, toda vez que sea factible realizar algún afinamiento para acercarse al concepto de
+caja, debería hacerse.
+Es oportuno efectuar algunas consideraciones adicionales sobre el modelo desarrollado.
+Si se emplea este modelo, la tasa t a utilizarse deberá ser la tasa efectiva de imposición a las rentas,
+que surge de la vinculación entre el impuesto que se paga y la ganancia antes de impuestos medida en
+términos del flujo de caja.
+Asimismo, el modelo supone que el impuesto se paga en el mismo período en que se genera la renta.
+Es probable que este supuesto en inversiones de diez a veinte años de vida útil no tenga especial repercusión.
+Sin embargo, en decisiones de inversiones que abarcan períodos más cortos (meses, por ejemplo), puede ser
+de significación.
+En estas situaciones, si no quieren distorsionarse seriamente los resultados, el impuesto a la renta
+debe considerarse en el período en que se pague.
+Siguiendo en el campo de las repercusiones fiscales en el flujo de fondos, debe señalarse que las
+legislaciones tributarlas de distintos países prevén deducir de las rentas las inversiones productivas que se
+efectúen. En estos casos, también deberá considerarse el efecto fiscal de las mismas cuando se determina el
+flujo de fondos.
+A efectos de ilustrar la aplicación del modelo se incluye un ejemplo.
+Ejemplo
+Una empresa analiza la posibilidad de sustituir una máquina de su equipo industrial por otra más
+moderna, que le permite ampliar su capacidad productiva. La información que se dispone para evaluar el
+proyecto es la siguiente:
+1. Capacidad actual: 10.000 unidades anuales; capacidad proyectada con el nuevo equipo: 17.000
+unidades anuales.
+2. Características de la maquinaria actual: fue adquirida hace 5 años a un valor de $ 100.000. Su vida útil,
+de acuerdo con las normas fiscales, fue establecida en 10 años, previéndose que el equipo puede funcionar
+con igual rendimiento 5 años más del plazo señalado. El criterio de amortización fiscal es de tipo lineal.
+En la actualidad, podría ser vendido en $ 75.000.
+3. Características de la nueva maquinaria: su costo es de $ 200.000 pagaderos al contado. De acuerdo con
+criterios fiscales se le asignaría una vida útil de 10 años, y se seguiría un criterio de amortización lineal. Se
+estima que al fin de la vida útil podría ser vendida en $ 50.000.
+4. Demanda proyectada:
+- año 1: 11.000 unidades;
+- año 2: 12.000 unidades;
+- año 3: 13.000 unidades;
+- año 4: 14.000 unidades;
+- año 5 en adelante: 15.000 unidades.
+5. Precio del producto: $ 20.
+6. Costos actuales: los costos actuales se sitúan en $ 3/unidad. Los costos fijos son de $ 10.000 para el
+actual nivel de producción, esto es, por debajo de 10.000 unidades anuales.
+7. Costos proyectados: la instalación de la nueva maquinaria llevará los costos variables a $ 4/unidad, y los
+fijos, a $ 15.000. Se estima que estos últimos años se mantendrían en este nivel hasta un volumen de
+producción de 17.000 unidades al año.
+8. Capital de trabajo: los requerimientos de capital de trabajo se sitúan en $ 10 por unidad.
+9. Algunos aspectos fiscales: la actividad de la empresa es gravada por el impuesto a la renta, cuya tasa
+efectiva se sitúa en el 20 %. Este impuesto alcanza también los resultados generados por la venta de
+activos fijos.
+10. Tasa de rendimiento requerida: la tasa de rendimiento requerida del proyecto es del 10 %.
+6
+
+PROYECCIONES
+VENTAS
+Año Ventas con proyecto ($) Ventas sin proyecto ($) ∆ ventas ($)
+1 220.000 200.000 20.000
+2 240.000 200.000 40.000
+3 260.000 200.000 60.000
+4 280.000 200.000 80.000
+5-10 300.000 200.000 100.000
+COSTOS VARIABLES
+Año Costos con proyecto ($) Costos sin proyecto ($) ∆ Costos variables ($)
+1 44.000 30.000 14.000
+2 48.000 30.000 18.000
+3 52.000 30.000 22.000
+4 56.000 30.000 26.000
+5-10 60.000 30.000 30.000
+COSTOS FIJOS
+Costos fijos con proyecto Costos fijos sin proyecto
+Año ∆ Costos variables ($)
+($) ($)
+1-10 15.000 10.000 5.000
+DEPRECIACIONES
+Año Depreciaciones con Depreciaciones sin Depreciaciones ($)
+proyecto ($) proyecto ($)
+1-5 20.000 10.000 10.000
+6-10 20.000 - 20.000
+INVERSIÓN INCREMENTAL EN CAPITAL DE TRABAJO
+Capital de trabajo Capital de trabajo sin Inversión incremental
+∆ capital de trabajo
+Año con proyecto proyecto en capital de trabajo
+($)
+($) ($) ($)
+1 110.000 100.000 10.000 10.000
+2 120.000 100.000 20.000 10.000
+3 130.000 100.000 30.000 10.000
+4 140.000 100.000 40.000 10.000
+5 150.000 100.000 50.000 10.000
+6-10 150.000 100.000 50.000 -
+CÁLCULO DE VALORES RESIDUALES
+Máquina vieja (año 0)
+Costo 100.000
+Amortizaciones acumuladas 50.000
+Valor neto 50.000
+Precio de venta 75.000
+Utilidades por venta 25.000
+Efecto fiscal (20 % de 50.000) 5.000
+Valor residual (75.000 - 5.000) 70.000
+7
+
+Máquina nueva (año 0)
+Costo 200.000
+Amortizaciones acumuladas 200.000
+Valor neto 0
+Precio de venta 50.000
+Utilidades por venta 50.000
+Efecto fiscal (20 % de 50.000) 10.000
+Valor residual (50.000 - 10.000) 40.000
+Flujo de fondos del proyecto
+Fj: (∆V - ∆CV - ∆CF - ∆Dep.) (1 - t) + ∆D – It + VRt
+j j j j j j j
+F : -200.000 – 100.000 + 70.000 = (140.000)
+0
+F : (20.000 - 14.000 - 5.000 - 10.000) (1 - 0,2) + 10.000 - 10.000 = (7.200)1
+1
+F : (40.000 - 18.000 - 5.000 - 10.000) (1 - 0,2) + 10.000 - 10.000 = 5.600
+2
+F : (60.000 - 22.000 - 5.000 - 10.000) (1 - 0,2) + 10.000 - 10.000 = 18.400
+3
+F : (80.000 - 26.000 - 5.000 - 10.000) (1 - 0,2) + 10.000 - 10.000 = 31.200
+4
+F : (100. 000 - 30.000 - 5.000 - 10.000) (1 - 0,2) + 10.000 = 54.000
+5
+F : (100.000 - 30.000 - 5.000 - 20.000) (1 - 0,2) + 20.000 = 56.000
+6-9
+F : (100.000 - 30.000 - 5.000 - 20.000) (1 - 0,2) + 20,000 + 50.000 + 40.000 = 146.000
+10
+Una vez calculado el flujo de fondos del proyecto, debe procederse a la aplicación del criterio de
+análisis de la inversión seleccionada. En este ejemplo, la definición del flujo de fondos utilizada permitiría
+aplicar dos criterios que trabajan con flujos descontados, que son, de acuerdo con lo visto en los capítulos
+anteriores, el valor presente neto y la tasa de rentabilidad.
+Si bien el objetivo de este capítulo se centra en la definición del flujo de fondos, a continuación se
+verá la aplicación de los dos criterios señalados.
+A efectos de calcular el valor presente neto, se deben descontar los flujos de fondos del proyecto a la
+tasa de rendimiento requerida del mismo, que en este caso es del 10 %.
+7.200 5.600 18.400 31.200 54.000
+VPN(cid:3)(cid:2)140.000(cid:2) (cid:1) (cid:1) (cid:1) (cid:1) (cid:1)
+1,1 (cid:1) (cid:2)2 (cid:1) (cid:2)3 (cid:1) (cid:2)4 (cid:1) (cid:2)5
+1,1 1,1 1,1 1,1
+56.000 56.000 56.000 56.000 146.000
+(cid:2) (cid:2) (cid:2) (cid:2) (cid:2) (cid:1)93.257,20
+(cid:1) (cid:2)6 (cid:1) (cid:2)7 (cid:1) (cid:2)8 (cid:1) (cid:2)9 (cid:1) (cid:2)10
+1,1 1,1 1,1 1,1 1,1
+El VPN del proyecto es de $ 93.257,20; en la medida en que dicho monto es mayor que cero, el
+proyecto es aceptable. La tasa de rentabilidad es aquella tasa i que iguala el flujo de fondos del proyecto a
+cero, y que en este ejemplo es del 18,31 %, según surge del siguiente cálculo:
+7.200 5.600 18.400 31.200 54.000
+(cid:2)140.000(cid:2)
+(cid:1) (cid:2)
+(cid:1) (cid:1) (cid:1) (cid:1) (cid:1)
+1(cid:1)i (cid:1) 1(cid:1)i (cid:2)2 (cid:1) 1(cid:1)i (cid:2)3 (cid:1) 1(cid:1)i (cid:2)4 (cid:1) 1(cid:1)i (cid:2)5
+56.000 56.000 56.000 56.000 146.000
+(cid:1) (cid:1) (cid:1) (cid:1) (cid:1) (cid:3)93.257,20
+(cid:1) 1(cid:1)i (cid:2)6 (cid:1) 1(cid:1)i (cid:2)7 (cid:1) 1(cid:1)i (cid:2)8 (cid:1) 1(cid:1)i (cid:2)9 (cid:1) 1,1 (cid:2)10
+1 Supuesto: se obtiene un ahorro fiscal que se efectiviza en el mismo momento.
+8
+
+De acuerdo con la regla de aceptación, en la medida en que la tasa de rentabilidad, que en este caso
+es del 18,31 %, supera la tasa de rendimiento requerida que a los efectos del ejemplo es del 10 %, el proyecto
+resulta aceptable.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. En qué difiere el modelo general de flujo de fondos con respecto a los elementos conceptuales del
+mismo. Qué simplificaciones hace y por qué.
+8,8.. FLUJO DE FONDOS PARA EL ACCIONISTA
+Hasta ahora los desarrollos se han efectuado tomando en cuenta la inversión total, financiada con
+fondos propios y/o ajenos. Si se invierte en una máquina y se calcula la tasa de rentabilidad, el cálculo
+señalado implica obtenerla con prescindencia de la forma de financiamiento.
+Otro enfoque consistiría en analizar la rentabilidad que reporta la máquina sobre la inversión de
+fondos propios del empresario. Este es conocido como "enfoque para el accionista" o "residual".
+En este caso, debe redefinirse el flujo de fondos para un año j que tiene dos variaciones
+fundamentales con respecto al anteriormente definido, que son:
+a) por inversión se denota I t, que debe entenderse como el volumen de fondos propios asignados al
+pj
+financiamiento de la misma en el año j luego de efectos tributarios;
+b) debe deducirse del flujo de fondos del año j el servicio de la deuda contraída, esto es intereses (Ints.) y
+j
+la amortización del principal (A), así como computarse los efectos fiscales derivados, entre otros, de las
+j
+diferencias de cambios y revaluaciones.
+De esta forma el flujo de fondos de un año j cualquiera viene definido en este enfoque como:
+F = (∆V - ∆C - ∆D - ∆GP – Ints.) (1 - t) + ∆D + ∆GP - It – A + VRt
+j j j j j j j j pj j j
+Una vez obtenida la tasa de rentabilidad, el análisis de su aceptabilidad en el enfoque para el
+accionista también debe efectuarse comparándola con la tasa de rendimiento requerida. Sin embargo, esta
+tasa de rendimiento requerida es ahora la proveniente exclusivamente de los fondos propios, puesto que el
+cálculo efectuado fue de la rentabilidad de la inversión de los mismos. En el cap. 13, donde se retorna este
+tema, se verá que la tasa de descuento será la de los fondos propios con endeudamiento.
+En el caso de emplear como criterio el valor actual neto o la relación beneficio-costo, la tasa de
+descuento a utilizar será igualmente la tasa de rendimiento requerida de los fondos propios.
+Ejemplo
+Sobre la base de los mismos datos utilizados para calcular los flujos de fondos ya vistos, se
+ejemplificará su determinación en el enfoque para el accionista.
+Para ello debe considerarse la forma de financiamiento de la inversión. Suponiendo que se obtendría
+un préstamo por $ 100.000, amortizable en 10 cuotas iguales, anuales y consecutivas, venciendo la primera
+al año de otorgado el préstamo, los intereses serán del 5 % anual sobre saldos, pagaderos juntamente con el
+principal. El resto de la inversión se financia con fondos propios.
+Los intereses a pagar por el préstamo, así como la cuota de amortización del mismo, se determinan a
+continuación:
+9
+
+Monto antes de amortizar Intereses
+Año Amortización ($)
+($) ($)
+1 100.000 5.000 10.000
+2 90.000 4.500 10.000
+3 80.000 4.000 10.000
+4 70.000 3.500 10.000
+5 60.000 3.000 10.000
+6 50.000 2.500 10.000
+7 40.000 2.000 10.000
+8 30.000 1.500 10.000
+9 20.000 1.000 10.000
+10 10.000 500 10.000
+Flujo de fondos del proyecto
+F: (∆V- ∆CV - AD, Ints.) (1 - t) + AD – I t + VRt
+j j j j j j pj j
+F : (40.000)2
+0
+F : (20.000 - 14.000 - 5.000 - 10.000 - 5.000) (1 - 0,2) + 10.000 - 10.000 - 10.000 = (21.200)3
+1
+F : (40.000 - 18.000 - 5.000 - 10.000 - 4.500) (1 - 0,2) + 10.000 - 10.000 - 10.000 = 8.000
+2
+F (60.000 - 22.000 - 5.000 - 10.000 - 4.000) (1 - 0,2) + 10.000 - 10.000 - 10.000 = 5.200
+3
+F (80.000 - 26.000 - 5.000 - 10.000 - 3.500) (1 - 0,2) + 10.000 - 10.000 - 10.000 = 18.400
+4
+F : (100.000 - 30.000 - 5.000 - 10.000 - 3.000) (1 - 0,2) + 10.000 - 10.000 = 41.600
+5
+F : (100.000 - 30.000 - 5.000 - 20,000 - 2.500) (1 - 0,2) + 20.000 - 10.000 = 44.000
+6
+F : (100.000 - 30.000 - 5.000 - 20.000 - 2.000) (1 - 0,2) + 20.000 - 10.000 = 44.400
+7
+F : (100.000 - 30.000 - 5.000 - 20.000 - 1.500) (1 - 0,2) + 20.000 - 10.000 = 44.800
+8
+F : (100.000 - 30.000 - 5.000 - 20.000 - 1.000) (1 - 0,2) + 20.000 - 10.000 = 45.200
+9
+F : (100.000 - 30.000 - 5.000 - 20.000 - 500) (1 - 0,2) + 20.000 - 10.000 + 50.000 + 40.0000 135.600
+10
+A efectos de evaluar el proyecto, se aplica el criterio del valor presente neto, descontando los flujos
+de fondos a la tasa de rendimiento requerida de los fondos del inversionista, que en este ejemplo es del 15 %;
+así se obtendría:
+(cid:2)40.000(cid:2)21.200(cid:1)8.000(cid:1)5.200(cid:1)18.400(cid:1)41.600(cid:1)
+VPN(cid:3)
+(cid:1) (cid:2)2(cid:1) (cid:2)3(cid:1) (cid:2)4(cid:1) (cid:2)5
+1,15 1,15 1,15 1,15 1,15
+(cid:2)44.000(cid:2)44.400(cid:2)44.800(cid:2)45.200(cid:2)135.600
+(cid:1)66.864,09
+(cid:1) (cid:2)6(cid:1) (cid:2)7(cid:1) (cid:2)8(cid:1) (cid:2)9(cid:1) (cid:2)10
+1,15 1,15 1,15 1,15 1,15
+El valor presente neto de $ 66.864,09 indica que el proyecto es aceptable.
+Aplicando el criterio de la tasa de rentabilidad, la misma resultaría:
+(cid:2)40.000(cid:2)21.200(cid:1)8.000(cid:1)5.200(cid:1)18.400(cid:1)41.600(cid:1)
+(cid:1)
+1(cid:1)I
+(cid:2)(cid:1)
+1(cid:1)I
+(cid:2)2(cid:1)
+1(cid:1)I
+(cid:2)3(cid:1)
+1(cid:1)I
+(cid:2)4(cid:1)
+1(cid:1)I
+(cid:2)5
+2 Se obtiene como el valor de la inversión incremental menos los fondos externos, o sea: 140.000 - 100.000 = 40.000.
+3 Supuesto: se obtiene un ahorro fiscal que se efectiviza en el mismo momento.
+10
+
+(cid:2)44.000(cid:2)44.400(cid:2)44.800(cid:2)45.200(cid:2)135.600
+(cid:1)66.864,09
+(cid:1) 1(cid:2)I (cid:2)6(cid:1) 1(cid:2)I (cid:2)7(cid:1) 1(cid:2)I (cid:2)8(cid:1) 1(cid:2)I (cid:2)9(cid:1) 1(cid:2)I (cid:2)10
+TIR: 28,16 %
+En este caso, una TIR del 28,16 %, mayor que la tasa de rendimiento requerida para los fondos
+propios que se situarás en el 15 %, indicará que el proyecto es aceptable.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Dónde radican las diferencias en el enfoque para el accionista.
+8,9. FLUJO DE FONDOS PARA EL PERIODO DE REPAGO
+Tal como se vio en el capítulo anterior el período de repago emplea también en su determinación el
+flujo de fondos.
+Este tiene alguna diferencia con el comúnmente utilizado para los criterios que trabajan con flujos de
+fondos descontados.
+La misma radica en que los intereses se restan del flujo de fondos, pero no así las cuotas de
+amortización del préstamo.
+De esa forma el modelo de flujo de fondos de un año j para el criterio del período de repago será:
+Fj = (∆V - ∆C - ∆D - ∆GP - Ints.) (1 - t) + ∆D + ∆GP + VRt- It
+j j j j j j j j j
+Ejemplo
+Los flujos en este caso serían, siguiendo el mismo ejemplo ya visto en este capítulo:
+Flujos de fondos para el período de repago
+F: (∆V - ∆CV - ∆CF - ∆D – Ints.) (1 - t) + ∆D - It + VRt
+j j j j j j j j j
+F : -200.000 - 10.000 + 70.000 = 140.000
+0
+F : (20.000 - 14.000 - 5.000 - 10.000 - 5.000) (1 0,2) + 10.000 - 10.000 = (11.200)4
+1
+F : (40.000 - 18.000 - 5.000 - 10.000 - 4.500) (1 0,2) + 10.000 - 10.000 = 2.000
+2
+F : (60.000 - 22.000 - 5.000 - 10.000 - 4.000) (1. 0,2) + 10.000 - 10.000 = 15.200
+3
+F : (80.000 - 26.000 - 5.000 - 10.000 - 3.500) (10,2) + 10.000 - 10.000 = 28.400
+4
+F : (100.000 - 30.000 - 5.000 - 10.000 - 3.000) (1 - 0,2) + 10.000 = 51.600
+5
+F : (100.000 - 30.000 - 5.000 - 20.000 - 2.500) (1 - 0,2) + 20. 000 = 54.000
+6
+F : (100.000 - 30.000 - 5.000 - 20.000 - 2.000) (1 - 0,2) + 20. 000 = 54.400
+7
+F : (100. 000 - 30.000 - 5.000 - 20.000 - 1.500) (1 - 0,2) + 20.000 = 54.800
+8
+F : (100. 000 - 30.000 - 5.000 - 20.000 - 1.000) (1 - 0,2) + 20. 000 = 55.200
+9
+F : (100.000 - 30.000 - 5.000 - 20.000 - 500) (1 - 0,2) + 20.000 + 50.000 + 40.000 145.600
+10
+Para ejemplificar el cálculo del período de repago se plantea:
+4 Supuesto: se obtiene un ahorro fiscal que se efectiviza en el mismo momento.
+11
+
+F0
+t
+(cid:1)Fj
+j(cid:2)1
+Para t = 6, se cumple:
+140.000
+(cid:1)1
+140.000
+Por lo tanto, el período de repago es de 6 años.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+En qué difiere el flujo del período de repago respecto de los criterios de flujos descontados.
+8,10. INFLACIÓN, FLUJOS Y CRITERIOS DE ANÁLISIS DE INVERSIONES
+A los efectos de desarrollar el tema se ha creído oportuno partir de un ejemplo, en el caso de
+inexistencia de inflación, al que luego se le irán introduciendo modificaciones toda vez que sea necesario.
+Supóngase entonces la siguiente inversión:
+Inversión inicial 10.000
+Activos monetarios 2.000
+Activos no monetarios 8.000
+Activos fijos 6.000
+Otros 2.000
+Flujo de fondos de un año cualquiera subsiguiente:
+Ventas 25.000
+- Costos operativos 17.000
+- Depreciaciones 1.500
+Ganancia antes de impuestos 6.500
+- Impuesto a la renta (20 %) 1.300
+5.200
+La tasa de rendimiento requerida se sitúa en el 20 %.
+La vida útil de la inversión es de cuatro años, al cabo de los cuales el valor residual de los activos no
+monetarios es cero, y los restantes activos mantienen como residual su valor inicial. Fiscalmente, además, la
+depreciación es del 25 % anual.
+Sobre estos datos el flujo de fondos del proyecto sería:
+Años Inversiones ($) Ganancia neta ($) Depreciaciones ($) Valor residual ($) Flujo de fondos
+($)
+0 (10.000) (10.000)
+1 5.200 1.500 6.700
+2 5.200 1.500 6.700
+3 5.200 1.500 6.700
+4 5.200 1.500 2.000 8.700
+12
+
+La tasa de rentabilidad del proyecto es, como ya se ha visto, aquella i que satisface:
+6.700 6.700 6.700 8.700
+10.000(cid:2)
+(cid:1) (cid:2)
+(cid:1) (cid:1) (cid:1)
+1(cid:1)i (cid:1) 1(cid:1)i (cid:2)2 (cid:1) 1(cid:1)i (cid:2)3 (cid:1) 1(cid:1)i (cid:2)4
+La tasa de rentabilidad es i = 58,15 %.
+Se dijo al comienzo de este capítulo que la presencia de inflación comúnmente lleva a cambios en el
+planteo de los flujos de fondos de la inversión.
+Una de las formas de tratar el punto es trabajar con flujos en los que se hayan eliminado las
+influencias de la inflación, Es decir, operar en términos de flujos de fondos en pesos constantes, que en
+adelante se llamarán "flujos de fondos reales". Esta alternativa, que no es la única, será la que se seguirá en
+este capítulo, sin perjuicio de algunas consideraciones que se efectuarán más adelante.
+Sin embargo, en la vida práctica, se encuentran ejemplos en los cuales se determinan los flujos de
+fondos en precios del momento cero, y que luego se mantienen incambiados durante toda la vida útil del
+proyecto. Ese sería el caso en que, existiendo inflación en el periodo de análisis, se mantuvieran como flujos
+de fondos en pesos constantes o flujos de fondos reales los calculados en el momento de efectuar el análisis,
+es decir:
+Años 0 1 2 3 4
+Flujos reales ($) (10.000) 6.700 6.700 6.700 8.700
+Calcular la tasa de rentabilidad a partir de estos flujos de fondos, conociendo la existencia de
+condiciones inflacionarias, implica suponer que:
+a) el movimiento de los precios de los ingresos es igual al de los costos operativos;
+b) las normas fiscales establecen revaluaciones de los activos fijos en los períodos en que se han dividido
+los flujos del proyecto, que son iguales al incremento de los precios, de los intereses y de los costos
+operativos;
+c) la tasa de aumento de precios que interesa al inversor para medir el proyecto en términos reales es igual a
+la fluctuación de los ingresos, los costos operativos, las depreciaciones, etc.;
+d) no se toma en cuenta que existen rubros monetarios que van produciendo, como en el caso de los activos
+monetarios, pérdidas por estar expuestos al proceso inflacionario, es decir, éstos van perdiendo poder
+adquisitivo;
+e) la renta neta determinada por estos procedimientos es equivalente a la renta neta fiscal sobre la cual se
+tributa el impuesto a las rentas.
+Las repercusiones que frecuentemente acarrea trabajar con estos supuestos en los flujos de fondos y,
+en consecuencia, en los indicadores de rentabilidad, aconsejan por lo común replantearlos, de forma que
+reflejen de manera adecuada los efectos de la inflación y aumenten la significación del indicador calculado.
+Algunas precisiones iniciales
+Para efectuar estas correcciones es preciso definir previamente algunos aspectos. Ellos son:
+a) En un proceso inflacionario, los precios de los distintos bienes o servicios no aumentan al mismo ritmo.
+Se producen entonces variaciones en los precios relativos. Estos cambios y su inclusión en el análisis de
+inversiones, toman especial importancia.
+De esta forma, los precios de la empresa pueden crecer a una tasa determinada, en tanto que los costos
+pueden crecer a otra, mayor o menor. De la misma manera, los cargos por depreciaciones que suelen
+13
+
+crecer como repercusión de normas fiscales, en contextos inflacionarios lo pueden hacer a otra tasa que
+la de los precios de los productos de la empresa o de sus costos operativos.
+Es preciso, por lo tanto, consignar las distintas tasas de crecimiento de los precios involucrados en la
+inversión. Esto implica, además, una decisión de desagregación óptima donde influye el costo de la
+inversión en su comparación con los beneficios de una aproximación más afinada.
+b) Una vez definido el problema de precios relativos que influye en el flujo de fondos de una inversión, se
+ingresa en el aspecto de la obtención de los flujos reales. De lo expuesto en a) es posible llegar,
+conociendo la tasa de crecimiento de los distintos precios en juego, a obtener un flujo de fondos en
+términos corrientes de los futuros períodos en que se desarrollará la inversión.
+A efectos de trabajar en términos de unidades monetarias constantes, es preciso proceder a deflactar los
+flujos en unidades monetarias corrientes por medio de un índice que refleje los cambios ocurridos en los
+precios en la forma más adecuada.
+¿Cuál es el índice deflactor a utilizar? Las estadísticas oficiales de los países suelen compilar varios
+índices de precios. El más conocido es probable que sea el índice de precios al consumidor. Por lo
+general, este índice se calcula a partir de los consumos ponderados de una familia media urbana.
+Tomando en cuenta dichos consumos y la evolución de los precios que integran la "canasta" de bienes y
+servicios que representan un consumo típico, se determina el índice.
+La existencia en el mismo de un conjunto de bienes (alimentos, bebidas, vestimenta, etc.), que pueden
+tener escasa vinculación con muchas empresas, ha hecho que los empresarios, con frecuencia, no lo
+consideren adecuado para trabajar en términos reales en la rama de su negocio.
+Los responsables de análisis financieros y de la toma de decisiones prefieren, por lo común, trabajar con
+un índice que represente más adecuadamente el poder de compra de la firma. Este está vinculado,
+simultáneamente, a la evolución de los precios de la empresa o de sus principales insumos.
+En determinadas oportunidades, la decisión puede no revestir importancia; sin embargo, en otras puede
+ser decisiva.
+En el supuesto de una bodega que produce vino, el precio de la uva viene creciendo a razón de un 60 %
+anual, en tanto que los precios al consumo lo hacen al 25 %. Si se deflactan las cifras de ganancias por el
+segundo índice es probable que ellas crezcan en términos "reales" cuando, en los hechos, la empresa ve
+bajar, por ejemplo, su capital de trabajo, puesto que con respecto a su insumo esencial venían
+decreciendo sus ganancias reales.
+Usar el índice de precios de los principales bienes que la empresa debe adquirir está inspirado en una
+fundamentación similar que la que sustenta la utilización del índice de precios al consumo cuando se
+pretende calcular el salario real. En efecto, éste trata de medir el poder de compra de] salario, y, por lo
+tanto, el salario nominal se deflacta por el índice que mejor reflejaría -dentro de la realidad estadística
+con que se cuenta- la evolución de los precios de los bienes y servicios que una familia compra.
+El tema del índice deflactor para una inversión o para muchas variables micro y macroeconómicas es
+controvertido, y no hay soluciones que satisfagan todas las connotaciones que el fenómeno inflacionario
+lleva implícitas. En la búsqueda de soluciones que contemplen al menos los principales aspectos del
+problema, la expuesta más arriba es probable que, en este caso, dé con frecuencia una respuesta
+razonablemente satisfactoria.
+c) La exposición que tiene la inversión por mantener activos monetarios debe también reflejarse en los
+flujos de fondos.
+De esta forma se consignará la. perdida resultante de los mismos. Deberá, asimismo, establecerse una
+proyección de la evolución en términos reales de los stocks de activos monetarios. La pérdida que éstos
+ocasionen dependerá, además, de la tasa de inflación para la empresa que se ha considerado y del monto
+de los mismos.
+d) Puede haber también ganancias que resultan de financiarse con fuentes monetarias. Este aspecto ingresa
+a través de la tasa de rendimiento requerida.
+Ejemplo
+Efectuadas estas consideraciones se ejemplifican las distintas modificaciones a que puede ser posible
+el cálculo del flujo de fondos, Para ello, se toman los datos del ejemplo ya expuesto, el cual se verá
+modificado a la luz de un conjunto de supuestos, Estos son:
+a) se espera que los precios de venta de los productos de la empresa crezcan a la tasa del 15 % anual;
+14
+
+b) los precios de los costos operativos crecerían a una tasa media del 12 % anual;
+c) las normas fiscales prevén una revaluación de activos fijos para principios del período 3 del 30 %;
+d) la tasa de inflación a la que la empresa deflactará los flujos de fondos es f = 12 % anual, que representa
+la evolución del costo del principal insumo; e) los activos monetarios se mantienen constantes, en
+términos reales, año a año.
+Sobre la base de los datos ya consignados y de estos supuestos, el flujo de fondos será el siguiente:
+Años
+Concepto ($)
+0 1 2 3 4
+Ventas............................................................................. 25.000 28.750 33.063 38.022 43.725
+- Costos operativos......................................................... 17.000 19.040 21.325 23.884 26.750
+- Depreciaciones............................................................. 1.500 1.500 1.500 1.950 1.950
+Ganancias antes de impuestos........................................ 6.500 8.210 10.238 12.188 15.025
+Impuesto a la renta (20 %).............................................. 1.300 1.642 2.048 2.438 3.005
+Ganancias después de impuestos.................................... 5.200 6.568 8.190 9.750 12,020
+Depreciaciones............................................................... 1.500 1.500 1.500 1.950 1.950
+Flujo de fondos primario (en unidades monetarias 6.700 8.068 9.690 11.700 13.970
+corrientes).......................................................................
+Flujo de fondos en unidades monetarias constantes....... 6.700 7.204 7.725 8.238 8.878
+Pérdidas por exposición de activos monetarios.............. 214 214 214 214
+Valor residual de activos monetarios............................. 2.000
+Flujo de fondos real........................................................ 6.990 7.511 8.114 10.664
+Se exponen a continuación algunos detalles de cálculo de cifras contenidas en el cuadro anterior.
+Años Ventas ($) Costos operativos ($) Depreciaciones ($)
+0 25.000 17.000 1.500
+1 25.000 x 1, 15 17.000 x 1,12 1.500
+2 25. 000 x (1, 15)2 17. 000 x (1, 12)2 1.500
+3 25.000 x (1, 15)3 17. 000 x (1, 12)3 1.500 x 1,30
+4 25. 000 x (1, 15)4 1.7. 000 x (1, 12)4 1.500 x 1,30
+Cálculo de los flujos reales
+Concepto 0 1 2 3 4
+Flujo de fondos corriente 6.700 8.068 9.690 11.700 13.970
+Tasa de inflación: 12 % (índice a
+0,89286 0,79719 0,71178 0,63552
+utilizar)
+Flujo de fondos en pesos
+6.700 7.204 7.725 8.328 8.878
+constantes ($)
+Pérdida por exposición de activos monetarios
+2.000
+2.000(cid:3)
+(cid:1) (cid:2)
+(cid:1)214
+1(cid:2)0,12
+Esta pérdida se mantiene constante todos los años, puesto que se supone que los activos monetarios
+permanecen incambiados en pesos constantes del momento cero.
+El flujo de fondos y las tasas de rentabilidad en caso de inexistencia de inflación y con los supuestos
+de inestabilidad establecidos son:
+15
+
+Sin inflación Con los supuestos de inflación dados
+Años
+($) ($)
+0 (10.000) (10.000)
+1 6.700 6.990
+2 6.700 7.511
+3 6.700 7.511
+4 6.700 10.664
+Tasa de rentabilidad (%) 58,15 66,93
+Tasas nominales y tasas reales de interés
+Hace ya muchos años, el distinguido economista IRVING FISHER (1896) estableció que en
+condiciones de inflación, la tasa de interés nominal de un activo financiero se compone de la tasa real de
+interés del mismo más la tasa de inflación que se espera prevalezca.
+Siendo:
+k : tasa nominal de interés;
+d
+k: tasa real de interés;
+r
+f: tasa de inflación esperada en la vida del activo,
+se tiene que:
+k = k + f
+d r
+Esta influencia de la tasa de inflación en la tasa de interés se conoce en la literatura económica como
+el "efecto FISHER".
+De manera más operativa, hoy día el efecto FISHER se expone en términos de la siguiente
+equivalencia financiera:
+(1 + k) (1 + f) (1 + k )
+r d
+de donde la tasa nominal viene dada por:
+k = (1 + k) (1 + f) - 1
+d r
+La tasa real, a partir de la tasa de inflación y la tasa nominal de interés, es:
+(cid:3)
+kd
+(cid:2)f
+kr
+1(cid:1)f
+De esta forma, si existe una tasa esperada de inflación para el período de análisis del 10 % y la tasa
+nominal es del 25 % la tasa real será:
+0,25(cid:2)0,10
+kr
+(cid:1) (cid:1)0,136
+1,10
+16
+
+es decir, del 13,6 %
+La tasa de inflación se torna, pues, en una variable a tornar en consideración cuando se pretende
+analizar una inversión. La tasa de interés del mercado es, por lo tanto, una tasa nominal a la que hay que
+despojar del efecto de inflación que lleva implícito, para conocer la tasa real.
+Una aproximación de utilización más general, para el cálculo de la tasa de costo real de una deuda,
+se expone con el ejemplo que sigue, basado en la metodología que se verá en el capítulo del costo de las
+deudas.
+Se trataba de un préstamo en moneda nacional por $ 5.000, con un interés del 14 % anual sobre
+saldos pagaderos por año.
+La tasa de costo real será aquella i que iguale al flujo de fondos esperado en moneda constante al
+momento del préstamo.
+Concepto 0 1 2 3 4
+Monto del préstamo ($).............................. 5.000
+Intereses ($)................................................ 700 700 700 700
+Efecto fiscal ($).......................................... (140) (140) (140) (140)
+Devolución del préstamo............................
+Flujo de fondos primario............................ 5.000 560 560 560 5.560
+Deflactor (12 %)......................................... 0,89286 0,79719 0,71178 0,63552
+Flujo de fondos (en $ constantes)............... 5.000 500 446 399 3.533
+500 446 399 3.533
+5.000(cid:2) (cid:1) (cid:1) (cid:1)
+1(cid:1) kr (cid:1) 1(cid:1)
+kr
+(cid:2)2 (cid:1) 1(cid:1)
+kr
+(cid:2)3 (cid:1) 1(cid:1)
+kr
+(cid:2)4
+donde k = - 0,72 %
+r
+Tasa de rendimiento requerida
+Un error frecuente en el análisis de inversiones consiste en computar los flujos de fondos en términos
+nominales.
+Supóngase el caso de una inversión en activos no monetarios, que tiene asociados los siguientes
+flujos de fondos reales para cada uno de los años de la vida útil del proyecto:
+F = (1.000)
+0
+F = 300
+1
+F = 300
+2
+F = 300
+3
+F = 300.
+4
+El proyecto se financia con un préstamo en moneda nacional a la tasa del 20 % anual, existiendo una
+inflación esperada del 15 % anual5.
+El error frecuente es calcular el valor actual neto descontando los flujos de fondos a la tasa del 20 %.
+El valor neto sería:
+5 A esta altura, y a efectos de simplificar, no se introduce el efecto fiscal en la determinación del costo del préstamo.
+17
+
+Período Flujo ($) Factor (20%) Valor actual ($)
+0 (1.000) 1,00000 (1.000)
+1 300 0,83333 250
+2 300 0,69444 208
+3 300 0,57870 174
+4 300 0,48255 145
+Valor actual neto (223)
+Este proyecto sería rechazado desde el punto de vista de su factibilidad. Sin embargo, en este planteo
+subyace el problema de utilizar flujos de fondos reales y tasas de descuento nominales.
+Lo correcto, en este caso, es calcular el valor actual neto utilizando como tasa de descuento la tasa
+real. Esta es, por ejemplo:
+0,20(cid:2)0,15
+(cid:1)0,0435, o sea, 4,35%
+1,15
+El valor actual neto resulta en $ 80, con lo que el proyecto está en condiciones de ser aceptado.
+Una forma alternativa sería trabajar ambos elementos en términos nominales.
+De esta manera, los flujos serán:
+F = (1.000); F = 300 x 1,15 = 345; F = 300 x (1,15)2 = 397;
+0 1 2
+F = 300 x (1,15)3 = 456 y F = 300 x (1,15)4 = 524.
+3 4
+El valor actual neto será:
+345 397 456 524
+VAN(cid:1) (cid:3) (cid:3) (cid:3) (cid:2)1.000(cid:1)80
+1,2 (cid:1) (cid:2)2 (cid:1) (cid:2)3 (cid:1) (cid:2)4
+1,2 1,2 1,2
+A esta altura es oportuno señalar la necesidad de ser consistente en el tratamiento de los flujos y de
+las tasas de descuento. Si se trabaja con flujos de fondos reales deben también utilizarse tasas de descuento
+reales. Por el contrario, si se usan flujos nominales, las tasas también deben ser en términos nominales.
+La determinación de la tasa de rendimiento requerida sigue los mismos principios que se habían visto
+en el cap. 10, con la aclaración efectuada en el párrafo anterior.
+Sobre el rendimiento requerido de los fondos propios, las dificultades de determinación objetiva del
+mismo a través de los rendimientos que el mercado muestra debido al marco poco apropiado que presentan
+los mercados financieros en países subdesarrollados con inflación- llevan a que, a menudo, se fijen en
+función de la tasa requerida por el empresario sobre la base de su apreciación personal de riesgos y
+rendimientos.
+BENEGAS, GONZALEZ, MESSUTI y RAIMONDI (1977), refiriéndose al punto, establecen:
+De allí que el costo del capital propio o tasa de corte para uso de capital propio deben, en
+definitiva, ser fijados subjetivamente.
+En tal situación se tendrá una tasa que reflejará en términos reales el mínimo rendimiento que se
+juzgue prudente aceptar.
+En épocas de inflación, es preciso efectuar algunas consideraciones adicionales sobre la tasa de
+rendimiento requerida. De esta forma, en el ejemplo que se ha estado desarrollando en algunos puntos
+anteriores, las fuentes de fondos que financian el proyecto son:
+18
+
+Fuente Monto Ponderación Tasa
+($) (%) ($)
+Préstamos 5.000 50 0,72
+Fondos propios 5.000 50 18
+Tasa de corte = 0,0072 % x 0,5 + 0,18 x 0,5 = 0,0864 o sea: 8,64 %.
+Tomar la tasa de rendimiento requerida del 8,64 %, esto es, el promedio ponderado de las tasas
+reales de cada una de las fuentes de financiamiento bajo consideración implica la existencia de algunos
+supuestos, entre ellos:
+a) La ponderación de fuentes permanece incambiada durante la vida útil de la inversión. Podría pensarse,
+por el contrario, que la existencia de inflación haga cambiar las ponderaciones de las fuentes. Eso es,
+suponiendo que un proyecto comienza con la siguiente estructura financiera:
+Concepto ($) (%)
+Deudas monetarias.............................. 100 50
+Capital propio...................................... 100 50
+200 100
+Al cabo del primer año, con una inflación del 20 %, se tendrían las siguientes ponderaciones:
+Concepto ($) (%)
+Deudas monetarias.............................. 83 45,4
+(100 ÷1,2)............................................ 100 54,6
+Capital propio...................................... 183 100,0
+y así podrían seguirse modificando en futuros períodos.
+La suposición de que se mantienen incambiadas las proporciones lleva a pensar que las fuentes ajenas se
+van incrementando en términos nominales, para acompasar el crecimiento de los precios, así como los
+eventuales aumentos de fondos propios.
+En algunas circunstancias podría pensarse que se trata de un supuesto algo "fuerte". Sin embargo, debe
+recordarse que existen supuestos similares en el análisis de inversiones en condiciones de estabilidad.
+Es común evaluar una nueva inversión tomando en cuenta el rendimiento requerido que surge de una
+ponderación en función de la participación de las fuentes de financiamiento al implementarse el
+proyecto, comúnmente compuesto por una participación de deuda y otra de fondos propios. Cuando
+comienzan a amortizarse los préstamos, es bien probable que se financien con el ahorro de la empresa.
+De hecho, irán cambiando las ponderaciones. Sin embargo, el supuesto cotidiano es que se mantienen las
+proporciones, lo que equivale a suponer que las amortizaciones se financien con fuentes de costo
+idéntico, o incluso se incrementen las deudas para mantener proporciones si se reinvierten las utilidades
+en la empresa.
+b) Otro aspecto a considerar es el relativo a la incertidumbre que frecuentemente rodea a la evolución de las
+tasas nominales de interés y de la tasa de inflación. Ello incorpora una nueva fuente de riesgo que debe
+tenerse bien presente en el análisis.
+Reinando condiciones inflacionarias, se hace imprescindible agregar estudios sobre la incertidumbre del
+proyecto. De esta forma, el costo del capital se transforma en una variable aleatoria más.
+En realidad, aun en países que sufren procesos inflacionarios más benignos, la tasa de interés es una
+variable aleatoria.
+En suma, en el análisis de inversiones en condiciones inflacionarias, aparecen nuevas fuentes de
+incertidumbre que deben incorporarse en los métodos correspondientes, algunos de los cuales se fueron
+desarrollando en el cap. 7.
+c) Asimismo, en contextos subdesarrollados suelen existir tasas "subsidiadas" que impulsan los gobiernos
+con miras a incentivar cierto tipo de inversiones en algunas actividades, Estas tasas subsidiadas
+conducen con frecuencia a la existencia de tasas negativas. En muchos casos, llegan a ser realmente
+19
+
+distorsionantes de la realidad. Se ha sugerido, y parece razonable, eliminarlas para la determinación del
+costo promedio e incluirlas como un incentivo más al proyecto.
+8,11. UN ENFOQUE ALTERNATIVO
+MESSUTI (1977) en un trabajo pionero sobre el análisis de inversiones sugiere la utilización del
+enfoque "residual", en el cual se eliminan los pasivos monetarios del financiamiento, ingresando los mismos
+en pesos constantes en el flujo de fondos6
+Supóngase el siguiente ejemplo para ilustrar el enfoque:
+(cid:1) Inversión inicial: F = 1.000, de los cuales 200 son activos monetarios y 800 activos no monetarios.
+0
+(cid:1) Financiamiento: 100 de deuda monetaria con un interés del 20 % anual a cuatro años, amortizable al fin
+del período. Los intereses se pagan anualmente.
+(cid:1) Flujo de fondos en pesos constantes del momento 0: F = 400; F = 400; F = 400; F = 600.
+1 2 3 4
+(cid:1) Tasa de rendimiento requerida para los fondos propios: 12 %.
+(cid:1) Tasa de inflación: f = 20
+(cid:1) Tasa efectiva de imposición a las rentas: 20 %.
+La determinación de flujos "residuales" y el valor actual neto residual son los siguientes:
+Concepto F F F F
+1 2 3 4
+Flujo (en $ constantes)................................................. 400 400 400 600
+Costo financiamiento en términos reales ($)............... (13) (11) (9) (8)
+Pago deuda en términos reales ($)............................... (33) (28) (23) (20)
+Pérdida inflac. act. monetarios ($)............................... 354 361 368 524
+Flujo residual ($).........................................................
+354 361 368 524
+VAN(cid:3)
+(cid:1) (cid:2)
+(cid:1) (cid:1) (cid:1) (cid:2)900(cid:3)299
+1,12 (cid:1) (cid:2)2 (cid:1) (cid:2)3 (cid:1) (cid:2)4
+1,12 1,12 1,12
+El detalle de la pérdida por exposición a la inflación de los activos monetarios es el siguiente:
+200
+P1
+(cid:1)200(cid:2)
+(cid:1) (cid:2)
+(cid:1)33
+1,20
+200
+p (cid:1)167(cid:2) (cid:1)28
+2
+(cid:1) (cid:2)2
+1,20
+200
+P3
+(cid:1)139(cid:2) (cid:1)23
+(cid:1) (cid:2)3
+1,20
+200
+P4
+(cid:1)116(cid:2) (cid:1)20
+(cid:1) (cid:2)4
+1,20
+El modelo representa una interesante alternativa, particularmente útil, cuando se busca conocer la
+rentabilidad de la inversión de los fondos propios en una determinada opción.
+6 Se entienden por tales aquellos que se erosionan con la inflación.
+20
+
+Aun planteando este enfoque, y considerando la existencia de tasas subsidiadas a través de un egreso
+de fondos, lo que alivia uno de los problemas propios de este análisis, la aleatoriedad del ritmo inflacionario
+continúa presente en esta alternativa de evaluación.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+Cuál es el principio básico de correspondencia entre flujos normales, flujos reales, tasas de descuento
+reales y tasas de descuento normales.
+Definición del flujo de fondos en condiciones inflacionarias.
+Definición de la tasa de descuento en las mismas condiciones.
+21

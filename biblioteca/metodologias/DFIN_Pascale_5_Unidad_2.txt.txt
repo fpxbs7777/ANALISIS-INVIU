@@ -1,0 +1,428 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones Macchi
+3ª ed., Buenos Aires, 1998
+ISBN 950-537435-6
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 16. COSTO DE LAS DEUDAS
+OBJETIVOS DE APRENDIZAJE
+• Exponer el concepto de costo marginal y promedio de capital.
+• Desarrollar el modelo general del cálculo de costo de una deuda.
+• Aplicar el modelo general a distintos tipos de deuda.
+16,1. ALGUNAS DEFINICIONES
+Previo al análisis del tema, se ha considerado adecuado establecer algunas definiciones que se
+utilizarán posteriormente en el correr del capítulo.
+Componentes del capital
+Se entiende por componentes del capital a las distintas fuentes de financiamiento con que,
+permanentemente, cuenta la empresa.
+El capital propio y las deudas a largo plazo, entre otros, son ejemplos de estos componentes.
+Como se aprecia, es frecuente que no se incluya a las deudas de corto plazo no permanentes dentro
+del concepto de capital.
+Es decir, en el sentido relativamente estricto que se le está dando, sólo integrarían el concepto de
+capital los financiamientos permanentes y no aquellos de carácter fluctuante, que normalmente se dispone
+para financiar necesidades transitorias de la tesorería de las empresas, derivadas de requerimientos
+provenientes del ciclo productivo, como es el caso de algunos créditos bancarios o de proveedores, tal como
+se expone con detalle en el cap. 20
+El costo de los fondos propios se representará como k el de las deudas como k y el costo total del
+e d
+capital como k . Este k ya se consideró en el cap. 13 al tratar la tasa de rendimiento requerida.
+o o
+Costo marginal del capital
+Se entiende por costo marginal del capital al costo de agregar una unidad de capital a la empresa.
+Esto es, no se incluyen en este caso los anteriores financiamientos con que cuenta la empresa.
+Costo promedio del capital
+El costo promedio del capital es el que surge de la ponderación de las distintas fuentes de
+financiamiento con que cuenta la empresa en un momento dado.
+De esta forma, si existe una proporción W de deudas y W de fondos propios sería:
+1 2
+W +W = 1
+1 2
+• Ejemplo
+Suponiendo que
+k = 12 %
+d
+y que
+k = 19%
+e
+W = 0,4 y W = 0,6
+1 2
+el costo marginal del capital k sería:
+o
+2
+
+k = k W + k W = 12 × 0,4 + 19 × 0,6 = 16,2%
+o d 1 e 2
+Es decir, el costo promedio del capital será
+k = 16,2%
+o
+Naturalmente que dentro de las dos grandes fuentes de capital que se establecieron, deudas y fondos
+propios, existe una amplia gama de variedades. Por ejemplo, dentro de las deudas, éstas pueden existir en
+moneda nacional con interés fijo, en moneda extranjera, en moneda nacional indizada en función de alguna
+variable como inflación.
+En estos casos la ponderación debe contemplar, como es lógico, estas situaciones.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué es el costo marginal del capital.
+2. Qué es el costo promedio del capital.
+16.2. COSTO DE LAS DEUDAS
+A efectos de tratar el costo de las deudas, se comenzará por no tornar en consideración los efectos
+impositivos. De esta forma, el costo de la deuda estaría representado por la tasa de rentabilidad que tiene
+para el inversionista o el prestamista la operación que efectúa.
+• Ejemplo
+Si un banco presta a una empresa un capital a un año de N$ 100 y al cabo de un año recibe $ 20, el
+costo anual de este capital sería:
+20
+k = = 0,2
+d
+100
+O sea, el 20 %.
+La presencia de impuestos a las rentas y el hecho de que los intereses son un gasto deducible a los
+efectos del impuesto a la renta hacen que se denote k y tenga alguna variación con respecto a los
+di
+expresados, lo que cobra especial importancia cuando se la compara con un financiamiento propio.
+Supóngase que la empresa que recibió el préstamo de $ 1.000 y pagó los intereses de $ 20 está sujeta
+al impuesto a las rentas con una tasa del 25 %. La situación final, en el supuesto caso de financiar su
+necesidad de $ 100 con fondos propios o con deudas, es la siguiente:
+Financiamiento con
+Conceptos
+Deudas Fondos propios
+Ventas 1.000 1.000
+Costo de ventas 800 800
+Ganancia operativa 200 200
+Intereses 20
+180 200
+Impuestos (25 %) 45 50
+Ganancia neta 135 150
+3
+
+Como se aprecia, la empresa tuvo una mayor ganancia neta al financiarse con fondos propios. En ese
+caso, fue de $ 150 y en el de deudas fue de $ 135. Sin embargo, obsérvese que la mayor ganancia neta no fue
+de $ 20, como debería ser por concepto de intereses, sino que fue de $ 15. Ello se debe a que los intereses
+son deducibles fiscalmente y ello reduce el costo de las deudas. En otros términos, el gobierno paga parte del
+costo de la deuda. En el cap. 19 se efectúa un análisis detallado del efecto de los impuestos sobre las
+estructuras financieras.
+Si se observa que el impuesto es del 25 % en el ejemplo planteado, se concluye que el costo es el
+75% del interés, esto es $ 15 en lugar de $ 20.
+Generalizando tenemos que:
+k = k (1 - t)
+di d
+[1]
+donde t es la tasa de imposición a las rentas.
+Dos precisiones deben efectuarse antes de seguir adelante con estos conceptos.
+Se ha señalado que t es la tasa de imposición a las rentas. Debemos establecer que es conocido que
+existe una tasa legal y una tasa efectiva, sobre las ganancias contables de las firmas.
+Fiscalmente, suele efectuarse una serie de ajustes a las rentas determinadas contablemente, por lo
+que es común que la ganancia fiscal difiera de la contable. La tasa de impuesto que debe aplicarse sobre
+información contable es la que surge de comparar el impuesto con las ganancias contables.
+Supóngase el siguiente caso:
+Ganancia contable 100
+Ajustes fiscales 20
+Ganancia fiscal (100 - 20) 80
+Impuesto a la renta (25 %) 20
+Ganancia neta fiscal luego del 60
+impuesto a la renta
+La tasa nominal o legal del impuesto es del 25 %, en tanto que la tasa efectiva es del 20 % que surge
+de comparar los $ 20 de impuestos que deben pagarse con los $ 100 que se ganaron contablemente.
+Cuando se efectúa el cálculo del costo de las deudas después de impuestos, debe considerarse como
+la tasa efectiva de impuestos a la renta que tiene la empresa, calculada a partir de los conceptos expuestos.
+La segunda consideración a efectuar tiene vinculación con otros impuestos al capital que gravan el
+patrimonio neto, que en varios países es significativo.
+En la decisión de un nuevo financiamiento, ante la opción deudas o fondos propios, el optar por las
+deudas lleva a que se ahorren impuestos que gravan capitales. En estos casos, un refinamiento del análisis
+llevaría a que se incluyeran las repercusiones fiscales que en esta oportunidad serían beneficiosas.
+Generalizando el costo de las deudas
+Se ha definido antes el costo de las deudas como la tasa de rentabilidad del inversionista. Se verá,
+ahora, este concepto aplicado con generalidad sin considerar impuestos y luego incluyéndolos en el análisis.
+En primer lugar, se señala como concepto general que, para el cálculo del costo de una deuda, existe
+un capital que se recibe en términos netos, esto es, luego de efectuadas todas las deducciones, ya sean
+impositivas o de cualquier índole, el que luego dará lugar a una serie de pagos futuros por concepto de
+servicio de la deuda, es decir amortización e intereses.
+Si llamamos C al capital recibido y P , P , P , ... P a los pagos efectuados en el período 1, 2, 3, ... n
+1 2 3 n
+por concepto de amortizaciones y/o intereses, el costo de la deuda k se puede definir como aquel que
+d
+satisface la siguiente expresión:
+4
+
+η P
+C = ∑ 1
+(1+k )i
+i=1 d
+[2]
+• Ejemplo
+Un préstamo por $ 100 que tiene una comisión flat (por una vez) de $ 2 y que se va a pagar en dos
+cuotas anuales de $ 50 con un interés anual del 20 %, pagadero semestralmente, tendrá como costo el
+siguiente:
+C = 100 - 2 = 98
+0.2
+P = ×100=10
+1 2
+0.2
+P = ×100+50=60
+2 2
+0.2
+P = ×50=5
+3 2
+0.2
+P = ×50+50=55
+4 2
+La tasa de rendimiento de este proyecto será:
+10 60 5 55
+98 = + + +
+(1+k ) (1+k )2 (1+k )3 (1+k )4
+d d d d
+donde k = 10,83 %.
+d
+Como se trata de flujos semestrales tenemos que:
+= (1 + 0,1083)2 - 1 = 22,8%
+por lo que el costo anual de esta deuda es el 22,8 %.
+El cálculo del costo, incluyendo el efecto impositivo, será el siguiente:
+Suponiendo t = 25 % y deducible en el mismo momento que se pagan intereses o gastos, los flujos
+de fondos del préstamo serían:
+C = 100 - 2 (1 - 0,25) = 98,50
+P = 10 × (1 - 0,25) = 7,50
+1
+P = 50 + 10 (1 - 0,25) = 57,50
+2
+P = 5 × (1 - 0,25) = 3,75
+3
+P = 50 + 5 (1 - 0,25) = 53,75
+4
+El mismo costo semestral, incluyendo el efecto impositivo, sería:
+7,50 57,50 3,75 53,75
+98,50 = + + +
+(1+k ) (1+k )2 (1+k )3 (1+k )4
+t t t t
+donde k = 81,10 %.
+t
+5
+
+Como se trata de flujos semestrales tenemos que k será:
+dt
+k (1 + 0,0811)2 - 1 = 17 %
+di
+En suma, el costo de una deuda después de impuestos es la tasa de rentabilidad que resulta de
+considerar el flujo de fondos compuesto por el fondo neto recibido y los flujos de erogaciones por concepto
+de amortizaciones e intereses, incluyendo el beneficio impositivo toda vez que sea necesario.
+Algunos casos particulares del costo de las deudas
+En este punto se verán algunos casos particulares del costo de las deudas que, aunque siguen el
+principio general expuesto, su frecuente utilización en los países con menor desarrollo e inflación nos induce
+a tratarlos.
+La casuística puede ser muy grande; se utilizarán a estos efectos varios ejemplos, si se quiere, típicos
+de algunas operaciones.
+Costo de una deuda en moneda extranjera
+• Ejemplo
+En una primera aproximación, se verá el caso de un préstamo de U$S 100 otorgado por un año, a una
+tasa de interés en moneda extranjera del 15 %, pagadero al término de la operación.
+Como datos adicionales se sabe que el tipo de cambio es:
+− al inicio de la operación U$S 1,00 = $ 10,00;
+− a la fecha de cancelación U$S 1,00 = $ 14,50.
+El porcentaje de devaluación d, en el año considerado, es:
+Tipo de cambio al cierre - Tipo de cambio inicial
+d = ––––––––––––––––––––––––––––––––––––––––
+Tipo de cambio inicial
+14,5-10
+= –––––––––– = 0,45
+10
+o sea, un 45 %.
+Frecuente y erróneamente, el cálculo del costo de una deuda en moneda extranjera k se hace
+me
+sumando a la tasa de devaluación d la tasa de interés en moneda extranjera k En este caso, el cálculo hubiera
+m
+sido:
+k = d + k = 45 + 15 = 60%
+me m
+Esto es, como se expresó, erróneo.
+El cálculo correcto sin considerar los efectos impositivos ya mencionados sería:
+− se reciben U$S 100 a $ 10, o sea $ 1.000;
+− se pagan dos conceptos: amortización más intereses.
+Amortización (U$S 100 a $ 14,5) $ 1.450
+Intereses (U$S 15 a $ 14,5) $ 217,50
+6
+
+El costo, por consiguiente, será:
+1.667,50−1.000
+k = =0,6675
+me 1.000
+Es decir:
+k = 66,75%
+me
+Como se aprecia, 66,75 % es diferente del primer cálculo de 60 %. En realidad, la fórmula a aplicar
+en casos como éste es:
+k = (1 + d) (1 + k ) -1
+me m
+y no
+k = d + k
+me m
+Para el caso que nos ocupa sería:
+k = (1 + 0,45) (1 + 0,15) -1 = 0,6675
+me
+El error en la otra fórmula de cálculo se produce al no computar el efecto de la devaluación sobre los
+intereses.
+Naturalmente, esta fórmula es de aplicación en casos sencillos. En otros más complicados, el planteo
+del flujo de fondos del préstamo requerirá un cálculo refinado y su costo será la tasa de rentabilidad que surja
+del mismo.
+• Ejemplo
+Supóngase un préstamo de U$S 1.500 pagadero en tres cuotas anuales de U$S 500 cada una, con un
+interés del 20 % anual pagadero semestralmente sobre los saldos y una comisión por una sola vez del 2 %.
+La tasa de cambio por dólar es en $:
+Año 1 30/6 10
+Año 1 31/12 13
+Año 2 30/6 14,5
+Año 2 31/12 17,4
+Año 3 30/6 21,4
+Año 3 31/12 27,8
+Año 4 30/6 36,1
+¿Cuál es el costo anual efectivo de este préstamo?
+C = 1.500 × 10 - 0,02 × 1.500 × 10 = 14.700
+0,2
+P = × 1.500 × 13 = 1.950
+1
+2
+0,2
+P = × 1.500 × 14,5 + 500 × 14,5 = 9.425
+2
+2
+0,2
+P = × 1.000 × 17,4 = 1.740
+3
+2
+7
+
+0,2
+P = × 1.000 × 21,4 + 500 × 21,4 = 12.840
+4
+2
+0,2
+P = × 500 × 27,8 = 1.390
+5
+2
+0,2
+P = × 500 × 36,1 + 500 × 36,1 = 19.855
+6
+2
+1.950 9.425 1.740 12.840 1.390 19.855
+14.700 = + + + = +
+(1+k ) (1+k )2 (1+k )3 (1+k )4 (1+k )5 (1+k )6
+d d d d d d
+k = 35,21 % semestral
+me
+k = (1 + 0,3521)2 - 1
+me
+= 0,828
+o sea el 82,8 % anual.
+Naturalmente, tal como se ha expresado, deben hacerse para mayor corrección los ajustes
+impositivos correspondientes por las posibles deducciones fiscales de las diferencias de cambio, así como
+también de los intereses. Tal como fuera expuesto en varias partes de este texto, siempre debe primar, en
+términos del flujo de fondos, la base caja, es decir, cuando efectivamente se producen los ingresos y los
+egresos.
+Costo de un préstamo indizado
+Otra modalidad relativamente frecuente es la de préstamos indizados. El índice suele ser diferente
+según el tipo de préstamo. Así, existen algunos que se indizan por el índice de precios mayoristas, otros por
+el costo de vida, etcétera.
+• Ejemplo
+En el ejemplo que se desarrolla se supone un préstamo de $ 1.000 que se indiza el 31 de diciembre
+de cada año. El préstamo tiene un 18 % de interés efectivo anual que se fija anualmente sobre el valor del
+préstamo reajustado. El plazo es de dos años y no existe comisión adelantada. Los intereses y amortizaciones
+del principal se pagan en forma semestral. Los beneficios impositivos se efectivizan cada fin de año. La tasa
+de impuesto a la renta es del 30 %. El préstamo se reajusta por el índice de precios mayoristas cuyo valor es:
+Índice de precios
+Fechas
+mayoristas
+Momento 0 31/12 100
+Año 1 30/06 119
+Año 1 31/12 142
+Año 2 30/06 174
+Año 2 31/12 191
+El cálculo del costo es el siguiente:
+8
+
+El costo de esta deuda será la k que satisface:
+di
+400 279 510 423
+1.000 = + + +
+(1+k ) (1+k )2 (1+k )3 (1+k )4
+di di di di
+donde k = 21,33 %.
+di
+Puesto que es k una tasa semestral, el costo anual de la deuda será:
+di
+(1 + 0,2133)2 - 1 = 47,20%
+Si se quiere calcular el costo real del préstamo, se deberían expresar los flujos de fondos en moneda
+constante. Para ello, se supone que la inflación anual será del 15 % el primer año y del 18 % el segundo.
+El costo de la deuda se obtendrá como:
+373 243 409 312
+1.000 = + + +
+(1+k ) (1+k )2 (1+k )3 (1+k )4
+di di di di
+donde k = 12,77%
+di
+El costo anual de la deuda será:
+(1 + 0,1277)2 – 1 = 27,20%
+9
+
+Costo de los préstamos bancarios
+Si bien los préstamos de los bancos comerciales son, por lo general, a corto plazo, y por lo tanto no
+se incluyen dentro del concepto de capital que se ha establecido, serán tratados dada su extendida utilización.
+De esta forma, si se supone un préstamo por $ 1.000, al que se le descuentan los intereses de un
+trimestre por valor de $ 100 y se le exige un colateral en cuenta del 15 % del valor nominal de la operación,
+el costo de este préstamo en el supuesto de que se conceda a un año es:
+Monto neto recibido = C
+que es igual a:
+Monto nominal 1.000
+− Intereses recibidos 100
+− Apoyo en cuenta (15 % de $ 1.000) 150
+Monto neto recibido = C 750
+P = 100
+1
+P = 100
+2
+P = 100
+3
+P = 850
+4
+El costo de la deuda bancaria k trimestral es la tasa que satisface:
+b
+100 100 100 850
+750 = + + +
+(1+k ) (1+k )2 (1+k )3 (1+k )4
+b b b b
+de donde:
+kt = 13,33%
+b
+y que anualizada será:
+k = (1 + 0,1333)4 – 1 = 65%
+b
+l
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Fórmula general del cálculo del costo de una deuda.
+16,3. COMPARACIÓN DE LAS ALTERNATIVAS DE LA RENEGOCIACIÓN DE DEUDAS
+Hasta ahora se han considerado casos de cálculo de los distintos tipos de deuda. En esta elección se
+buscará efectuar algunas consideraciones vinculadas a la comparación de alternativas cuando un individuo,
+una empresa o un gobierno se ven enfrentados a renegociar una deuda que en las condiciones establecidas no
+pueden cumplir y deben buscar otras alternativas de pago. Las bases para el análisis se pueden resumir de la
+siguiente forma:
+a) Un programa de renegociación debe ser considerado como un proyecto. Como en todos los casos,
+en este proyecto existe una inversión. A cada opción de renegociación corresponderá una
+inversión, que es el monto de los recursos necesarios para financiarla. Así, por ejemplo, si la deuda
+10
+
+tiene cotizaciones en un determinado mercado y se piensa recomprar, el valor que se invierta en
+esa recompra será el monto de la inversión. Otro caso es que se cambie una deuda con intereses
+variables por otra que tenga interés fijo. En esta situación, el colateral de los intereses o capital
+será el monto invertido.
+b) El flujo de ingresos netos que comprenden a cada alternativa y, por lo tanto, a cada inversión, es el
+ahorro que se produce, calculado como la diferencia entre el servicio de deuda “con” y “sin”
+proyecto. “Sin” proyecto es el servicio vigente de la deuda y “con” proyecto es el que resulta del
+acuerdo al que se llegue con los acreedores. En este flujo se deben incluir también los intereses de
+financiar el colateral, y, si éste es financiado con fondos propios, el costo de oportunidad de la
+utilización de los mismos. Estos son ejemplos de costos o ahorros. En cada caso se deberán
+analizar los elementos que ingresan a la negociación.
+c) Determinados en condiciones de certidumbre los flujos de fondos, como ellos son riesgosos, debe
+aplicarse una corrección que contemple este aspecto.
+d) Luego, se procede a calcular el valor presente neto esperado (VPNE) de cada opción. La que
+reporte mayor VPNE será la más conveniente.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Aspectos básicos que contienen los flujos de fondos al renegociar una deuda.
+11

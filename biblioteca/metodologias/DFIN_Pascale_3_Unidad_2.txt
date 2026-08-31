@@ -1,0 +1,1110 @@
+Decisiones
+Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 9.
+RIESGO Y OPCIONES EN EL ANÁLISIS DE INVERSIONES
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Exponer una primera aproximación al riesgo de las inversiones.
+(cid:1) Analizar el riesgo de inversiones individualmente consideradas, con prescindencia del tiempo.
+(cid:1) Analizar el riesgo de las inversiones individualmente consideradas en el tiempo.
+(cid:1) Analizar la inclusión de las opciones en el análisis de inversiones.
+9,1. INTRODUCCIÓN
+En los capítulos anteriores, se ha supuesto que los distintos componentes de los modelos de análisis
+de inversiones estaban considerados en condiciones de certidumbre, esto es, eran conocidos con precisión
+por adelantado.
+El monto de la inversión inicial, su desplazamiento temporal, las ventas, precios, costos, etc., que
+integraban un proyecto se consideraron conocidos en condiciones de certeza al efectuar el análisis de
+inversiones.
+Se trató, por cierto, de un supuesto muy importante que conduce el análisis, las más de las veces, a
+posturas poco realistas.
+Lo común es que, al efectuar el estudio de una inversión, pocos elementos se conozcan con certeza;
+entre ellos pueden estar el monto de los fondos propios a aportar o el costo de una deuda que se contraerá.
+Sin embargo, la gran mayoría de las variables involucradas no se conocen por adelantado en condiciones de
+certeza, sino que, por el contrario, existe incertidumbre sobre qué valor tomarán en el futuro. ¿El precio a
+que se venderán los productos del proyecto se conocen con certeza?, ¿y los costos?, ¿y la vida útil?
+En suma, la realidad es que la mayoría de las variables que componen el flujo de fondos de un
+proyecto se encuentra, al momento de hacer el análisis, en condiciones de incertidumbre,
+Este capítulo desarrolla el análisis del riesgo de una inversión individualmente considerada, esto es,
+sin tener en cuenta sus efectos en términos del portafolio de la firma, ni la existencia de una diversificación
+eficiente. Se trata entonces de una aproximación “cruda” al análisis de riesgo, que podrá complementar los
+más afinados que se ven en los caps. 10 a 13.
+En los caps. 10, 11, 12 y 13, el primero de ellos ingresará a considerar el riesgo sobre la base de un
+portafolio de inversiones; el segundo a analizar el riesgo de una inversión cuando existe un portafolio ya
+diversificado; el tercero, a considerar otros modelos de fijación de precios de activos de capital, y el cuarto, a
+la tasa de rendimiento requerida.
+Asimismo, este capítulo trata las situaciones en las que cuando se debe adoptar una decisión
+financiera, aparecen en un cierto momento de la vida del proyecto opciones a decidir por la administración.
+9,2. EL RIESGO EN FINANZAS
+En el campo financiero el riesgo, en una primera acepción, tiene relación con las posibilidades de
+obtener un determinado rendimiento. La incertidumbre de que están impregnadas las distintas variables lleva
+a que no sea posible obtener un resultado en condiciones de certidumbre del indicador de rentabilidad (TR,
+VPN, etc.). En realidad se trata también de una variable aleatoria. La versión más difundida del riesgo en
+finanzas está representada por la variabilidad de los futuros rendimientos de una inversión en torno a su
+valor esperado.
+De esta forma, cuanto más, dispersos estén los rendimientos respecto de la media, más riesgosa será
+la inversión, y, por el contrario, cuanto más concentrada en torno a su valor esperado está la distribución de
+los rendimientos, menos riesgosa será.
+Con este concepto de riesgo se trabajará en este capítulo. Existen sin embargo, en finanzas, otras
+aproximaciones al riesgo (como es el coeficiente beta) que más adelante se analizarán.
+2
+
+Para ejemplificar el concepto se supone que se están analizando dos proyectos, A y B, que tienen los
+siguientes beneficios pronosticados según las condiciones económicas que operan:
+BENEFICIOS DE PROYECTOS (EN $)
+Condiciones económicas Proyecto A Proyecto B
+Muy malas (4.000) 800
+Malas (1.000) 1.000
+Regulares 3.500 2.500
+Buenas 4.000 3.000
+Muy buenas 6.500 3.700
+Las probabilidades de ocurrencia conocidas para cada una de las condiciones económicas son las
+siguientes:
+Condiciones económicas Probabilidades
+Muy malas 0,1
+Malas 0,2
+Regulares 0,4
+Buenas 0,2
+Muy buenas 0,1
+Una primera aproximación al análisis de la deseabilidad de ambos proyectos es ver cuál es la media
+de utilidades en cada uno de ellos; esto es, ver cuál es el valor monetario esperado. Siendo x cada uno de los
+i
+posibles eventos, P la probabilidad asignada a cada uno de ellos, y n el número de los mismos, se tiene:
+i
+n
+Valoresperado(cid:2)E(x)(cid:2)x(cid:2) (cid:1) x P
+i i
+i(cid:2)1
+El cálculo del mismo se efectuará, pues, obteniendo el “promedio ponderado” de las utilidades por
+las correspondientes probabilidades de ocurrencia.
+VALOR MONETARIO ESPERADO (EN $)
+Proyecto A Proyecto B
+Condiciones
+Ben Probab. V.M.E. Ben Probab. V.M.E.
+económicas
+(1) (2) (3 = 1 x 2) (1) (2) (3 = 1 x 2)
+Muy malas (4.000) 0,1 (400) 800 0,1 80
+Malas (1.000) 0,2 (200) 1.000 0,2 200
+Regulares 3.500 0,4 1.400 2.500 0,4 1.000
+Buenas 4.000 0,2 800 3.000 0,2 600
+Muy buenas 6.500 0,1 6.500 3.700 0,1 370
+Totales 1 2.250 1 2.250
+Los dos proyectos tienen el mismo valor monetario esperado, es decir, 2.250. Desde este ángulo sería
+indiferente inclinarse por cualquiera de ellos. Sin embargo, la dispersión de los posibles valores de las
+utilidades en torno a la media es distinta en un caso que en otro. El proyecto A tiene utilidades que van desde
+-400 hasta +6500, en tanto que el B oscila entre +800 y +3.700. El riesgo no es el mismo. Conforme al
+concepto de riesgo originalmente expuesto, el proyecto A aparece como más riesgoso por tener mayor
+dispersión de sus rendimientos probables en la media que el caso B.
+Hasta ese punto se debe llegar en este capítulo. Más adelante, cuando se desarrolle la teoría del
+portafolio, estos conceptos se enriquecerán al considerar la elección de inversiones en condiciones de
+incertidumbre, tomando en cuenta las preferencias subjetivas juntamente con las opciones de riesgo y
+rendimiento que brinda el mercado.
+El ejemplo presentado es un caso de una función de probabilidad discreta. Muy a menudo, en la vida
+práctica, las funciones de probabilidad son continuas. En estos casos, los principios señalados se mantienen
+3
+
+en forma idéntica. La fig. 9.1. muestra las funciones de probabilidad de dos proyectos que tienen la misma
+media pero diferente dispersión en torno a la misma.
+El proyecto A se encuentra más concentrado en torno a la media que el proyecto B, por lo que, en
+términos financieros, aparece el último como más riesgoso.
+Figura 9.1.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es el concepto inicial de riesgo en finanzas.
+9,3. ALGUNAS DICOTOMÍAS
+Previo a profundizar el tratamiento de los problemas de riesgo, se considera oportuno efectuar una
+revisión de algunos conceptos que pueden ser útiles.
+Riesgo e incertidumbre
+Frecuentemente se distingue entre situaciones de riesgo y de incertidumbre.
+Riesgo se refiere a aquellos casos en que se cumplen las condiciones siguientes:
+a) se saben cuáles son los eventos futuros;
+b) se conoce la dimensión de los mismos en términos de la inversión que se analiza;
+c) anticipadamente, también se conocen las probabilidades de ocurrencia de los eventos.
+Incertidumbre implica situaciones en las cuales:
+a) se tiene conocimiento anticipado de los eventos futuros;
+b) puede o no conocerse la dimensión de los mismos,
+c) no se conocen con anticipación las probabilidades de los mismos.
+La posibilidad de conocer de antemano las probabilidades de ocurrencia de los eventos lleva a
+considerar la utilización de distribuciones de probabilidades objetivas. En la vida de los negocios pueden
+aparecer estos casos, en especial, en las situaciones en que existe una amplia experiencia recogida
+4
+
+estadísticamente sobre la misma. Tal es el caso de un tambo, donde se tiene un buen conocimiento de los
+rendimientos de leche diarios, o los coeficientes de parición entre animales de distinta raza en un
+establecimiento agropecuario, o el régimen pluviométrico de una zona agrícola o ganadera.
+Las más de las veces, sin embargo, no se conocen anticipadamente las probabilidades en el análisis
+de proyectos. Por ejemplo, cuál será el costo de producción del artículo que se va a fabricar en el año 4 o en
+el 6 del proyecto, o el precio de venta que prevalecerá.
+En este caso, la determinación de la función de probabilidad de los eventos futuros es subjetiva,
+proviniendo de estimaciones, las que se suelen basar en el mayor volumen de datos, estudios, estadísticas
+conexas al tema de discusión, etcétera.
+Riesgo del proyecto y riesgo del portafolio
+Otro aspecto que se quiere resaltar son algunas dimensiones del riesgo. Ello tiene vinculación en esta
+oportunidad, con el riesgo de un proyecto individual o el riesgo de un portafolio.
+En el primer caso, que es el que importa en este capítulo, se refiere a la evaluación del riesgo de un
+proyecto independientemente considerado de las demás inversiones que pueden tener la empresa o el
+individuo, suponiendo por otra parte que la empresa no necesariamente diversifica con eficiencia.
+De esta forma se estudia la incorporación de una nueva máquina para elaborar un nuevo producto o
+para sustituir otro obsoleto, y de esta forma ahorrar costos.
+• No reparará ese enfoque si esta máquina cambia las proporciones de los distintos activos de la empresa, y si
+eso afecta el rendimiento y/o el riesgo global de la misma. Por el contrario, el enfoque del análisis del
+portafolio apunta a estudiar el riesgo y el rendimiento no de un activo aisladamente considerado, sino de una
+combinación de los mismos. A este enfoque se destina el capítulo siguiente.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es la diferencia entre riesgo e incertidumbre.
+9,4. LA VARIANZA COMO SUBROGANTE CUANTITATIVO DEL RIESGO
+Se decía, párrafos antes, que el riesgo estaba dado por la variabilidad de los rendimientos. El
+problema que sigue es cómo representar cuantitativamente el riesgo.
+Existen dos grandes subrogantes del riesgo en finanzas, que son:
+a) la varianza o la desviación estándar de la función de probabilidad de los rendimientos;
+b) el coeficiente beta, que representa el riesgo de un activo con respecto al mercado.
+El presente capítulo será dedicado al análisis de la varianza como subrogante del riesgo. Más
+adelante se tratará el coeficiente beta.
+El cálculo de la varianza sigue la fórmula siguiente:
+n
+Varianza(cid:2)Var(x)(cid:2)σ 2 (cid:2) (cid:1) (x (cid:3)x) 2 P
+i i
+i(cid:2)1
+La desviación estándar es la raíz cuadrada positiva de la varianza y se representa como:
+n
+σ(cid:2)(cid:4) (cid:1) (x (cid:3)x) 2 P
+i i
+i(cid:2)1
+La utilización de la varianza y de la desviación típica es indiferente. A mayor varianza corresponderá
+mayor desviación típica, al igual que al contrario.
+5
+
+Es probable que con mayor frecuencia se haga referencia a la desviación típica, por razones de una
+utilización más sencilla, al estar su resultado expresado en las mismas unidades que el valor esperado.
+Continuando con el ejemplo expuesto, se procederá a mostrar el cálculo de la desviación típica y la
+varianza.
+Parte II. Análisis de inversiones
+Proyecto A
+1 2 3 4 5 6 7
+Valor
+Condiciones Diferencias Cuadrado de diferencias
+Utilidades esperado Diferencias Probabilidad
+económicas cuadradas por probabilidades
+de utilidad
+xi x xi (cid:1)x (xi (cid:1)x) 2 Pi (xi (cid:1)x) 2 Pi
+Muy malas (4.000) 2.250 (6.250) 39.062.500 0,1 3.906.250
+Malas (1.000) 2.250 (3.250) 10.562.500 0,2 2.112.500
+Regulares 3.500 2.250 1.250 1.562.500 0,4 625.000
+Buenas 4.000 2.250 1.750 3.062.500 0,2 612.500
+Muy buenas 6.500 2.250 4.250 18.062.500 0,1 1.806.250
+Valor esperado x = 2.250
+Varianza (cid:1)2 = 9.062-500
+Desviación típica (cid:1)(cid:2)(cid:3)(cid:2)(cid:4)(cid:5)(cid:6)(cid:7)(cid:6)
+Proyecto B
+1 2 3 4 5 6 7
+Valor
+Condiciones Diferencias Cuadrado de diferencias
+Utilidades esperado Diferencias Probabilidad
+económicas cuadradas por probabilidades
+de utilidad
+xi x xi (cid:1)x (xi (cid:1)x) 2 Pi (xi (cid:1)x) 2 Pi
+Muy malas 800 2.250 (1.450) 2.102.500 0,1 210.250
+Malas 1.000 2.250 (1.250) 1.565.500 0,2 312.500
+Regulares 2.500 2.250 250 62.500 0,4 25.000
+Buenas 3.000 2.250 750 562.500 0,2 112.500
+Muy buenas 3.700 2.250 1.450 2.102.500 0,1 21.250
+Valor esperado x = 2.250
+Varianza (cid:1)2 = 870.500
+Desviación típica (cid:1) = 933
+El ejemplo pone de relieve que, pese a tener ambos la misma media de utilidades, tienen diferente
+variabilidad de los rendimientos.
+En suma:
+Proyectos
+Concepto A B
+Valor esperado 2.250 2.250
+Varianza 9.062.500 870.500
+Desviación típica 3.010 933
+De donde la mayor desviación típica de A (3.010) con respecto a B (933) lleva a concluir que A es un
+proyecto más riesgoso que B.
+En algunos casos puede ser conveniente complementar este análisis con el cálculo de coeficiente de
+variación que se define como:
+6
+
+σ
+CV(cid:1)
+x
+donde:
+CV: desviación de variación;
+(cid:2): desviación típica;
+x: media o valor esperado.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es la primera aproximación al subrogante cuantitativo del riesgo.
+9,5. LA UTILIZACIÓN DE ALGUNAS FUNCIONES DE PROBABILIDAD
+El caso desarrollado para ejemplificar el concepto de varianza se efectuó tomando la función de
+probabilidad de valores discretos. Muy a menudo se trabaja con funciones continuas. Dentro de ellas, la curva
+normal es frecuentemente utilizada, tanto porque una cantidad de fenómenos sociales, económicos y
+financieros siguen comportamientos similares a la misma, como por algunas propiedades estadísticas que ella
+tiene.
+La función de la curva normal viene dada por:
+(x(cid:1)µ) 2
+(cid:1)
+1 2σ2
+f(x)(cid:2) e
+2
+2πσ
+Cada curva normal puede definirse, pues, por su media ((cid:3)) y por su varianza ((cid:2)2).
+La utilización de la misma se hace calculando la variable estandarizada Z, representada por:
+x(cid:1)µ
+Z(cid:2)
+σ
+de donde Z representa en unidades de desviación típica las diferencias entre el valor de la variable y la media
+de la distribución.
+En la tabla 3 que se encuentra en el final del libro, se incluyen los valores de la superficie bajo la
+curva normal. Estos vienen dados por el área de la curva normal que aparece a la izquierda de un valor Z ,
+0
+que suele conocerse como posibilidad Z < Z . En la figura siguiente esta superficie está representada por la
+0
+parte sombreada.
+Figura 9.2.
+La curva normal tiene la propiedad de que la superficie existente entre la media y las desviaciones
+estándar sigue la secuencia que se sintetiza en el cuadro siguiente:
+7
+
+Probabilidad (%)
+(cid:8) ± (cid:1)(cid:2) 68,23
+(cid:8) ±(cid:2)(cid:9)(cid:1) 95,46
+(cid:8) ±(cid:2)(cid:4)(cid:1) 99,74
+Gráficamente se tiene:
+Figura 9.3.
+De esta forma, siguiendo con el ejemplo desarrollado en el pto. 9,4. y asumiendo que fuera una
+función normal, se tendría que las situaciones estarían caracterizadas como N (2.250, 3.010) y N (2.250,
+933). De acuerdo con lo expuesto se sabe que para el proyecto A existe un 68,26% de probabilidad de que las
+utilidades del mismo estén entre 5.260 ((cid:1) + (cid:2) = 2.250 + 3.010) y –760 ((cid:1) – (cid:2) = 2.250 – 3.010). Para el
+proyecto B, la misma probabilidad existe para 3.183 (2.250 + 933) y 1.317 (2.250 – 933).
+Las propiedades de la curva normal permiten calcular probabilidades que pueden revestir interés,
+como alcanzar o superar un determinado nivel de utilidades o de rentabilidades, que las mismas estén entre
+dos valores determinados, etcétera.
+Siguiendo el ejemplo anterior, supóngase que se deseara conocer la probabilidad de que las
+utilidades superen los 4.060 en el proyecto A. Utilizando la variable estandarizada Z, se tiene:
+4.060(cid:2)2.250
+Z (cid:1) (cid:1)0,6
+0
+3.010
+La tabla 5 que se exhibe al final del libro da que la superficie a la izquierda de ese valor de Z es de
+72,57%. Por lo tanto, la probabilidad de superar 4.060 utilidades es 1 – 0, 7257 = 0,2743 (o sea, un 27,43%).
+Las posibilidades varían entre cero y uno.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+Cuál es la utilidad de emplear la función normal.
+9,6. EL RIESGO EN EL TIEMPO
+Hasta ahora se ha estado hablando del riesgo, utilizando como subrogante del mismo la varianza o la
+desviación típica.
+8
+
+Sin embargo, no se ha incluido en el análisis la dimensión temporal. ¿Es igual el riesgo de obtener un
+flujo de fondos en el año 1, que en el año 4 o en el año 7? Normalmente no es igual.
+Un flujo de fondos puede tener la misma media en cada año, y sin embargo, distintas varianzas o
+desviaciones típicas.
+Este caso frecuentemente sería, por ejemplo:
+Flujo de fondos media Desviación típica
+Años
+($) ($)
+1 1.000 200
+2 1.000 300
+3 1.000 480
+4 1.000 620
+Gráficamente, y suponiendo normalidad, la situación planteada se representa en secciones
+transversales en la figura siguiente:
+Figura 9.4
+El análisis del riesgo en el tiempo debe relacionarse con la independencia o la correlación que
+tengan los flujos de fondos. De esta forma se distinguirá en los siguientes casos:
+a) flujo de fondos independientes en el tiempo;
+b) flujo de fondos perfectamente correlacionados en el tiempo;
+c) flujo de fondos con correlación intermedia.
+Flujo de fondos independientes en el tiempo
+El primer caso a analizar es el de los flujos de fondos independientes en el tiempo. Es decir, el flujo
+de fondos del año 1 es independiente del correspondiente al año 2, lo mismo que el 2 con respecto al flujo
+del año 3. Suponiendo que las funciones de probabilidad de los flujos de fondos estén normalmente
+distribuidas, para el año t el flujo de fondos esperado es:
+n
+F (cid:2) (cid:1) F P
+t tj tj
+j(cid:2)1
+9
+
+y la desviación típica del flujo esperado del año t es:
+n
+σ (cid:2) (cid:1) (F (cid:3)F ) 2 P
+t tj t tj
+j(cid:2)1
+Siguiendo los supuestos de independencia de los flujos de fondos entre un período y otro, que estén
+distribuidos normalmente, se llega a obtener el valor presente neto esperado de una inversión.
+Será:
+n
+F1
+VPN (cid:2) (cid:1)
+t(cid:2)0 (1(cid:3)R ) t
+t
+La desviación típica del valor presente neto será:
+2
+n σ
+σ(VPN)(cid:2)(cid:3) (cid:1) t
+t(cid:2)0 (1(cid:3)R ) 2t
+t
+Es decir, la raíz cuadrada de la sumatoria de los valores actualizados de las varianzas de los flujos de
+fondos.
+Suponiendo pues, independencia entre los flujos de fondos de un proyecto que requiere una
+inversión de $ 2.500 y que R = 10%, el cálculo del VAN y de la desviación típica en el ejemplo planteado
+f
+sería el siguiente:
+n
+1.000
+VPN (cid:1) (cid:3) (cid:2)2.000(cid:1)1.170
+t (cid:1)1 (1(cid:4) 0,10) t
+2 2 2 2
+(200) (300) (480) (620)
+σ(VPN)(cid:2) (cid:1) (cid:1) (cid:1)
+(1(cid:1)0,10) 2 (1(cid:1)0,10) 4 (1(cid:1)0,10) 6 (1(cid:1)0,10) 8
+σ(VPN)(cid:1) 403.909(cid:1)635,54
+Se utiliza la tasa libre de riesgo R para descontar a efectos de no producir una doble contabilización
+f
+del riesgo. En este caso se trata de presentar el efecto del valor tiempo del dinero. Si se hubiera utilizado la
+tasa de rendimiento no requerida, que incluye un premio por el riesgo, se estaría afectando por él en dos
+oportunidades.
+Flujo de fondos perfectamente correlacionados en el tiempo
+10
+
+Este caso es opuesto al que se ha estado analizando. Es decir, el flujo de fondos del período 2
+depende por entero del correspondiente al período 1, y así sucesivamente.
+En este caso el valor actual neto sigue la fórmula ya vista:
+n F
+VPN (cid:2) (cid:1) t
+t(cid:2)0 (1(cid:3)R ) t
+t
+La desviación típica del valor actual neto, en el caso de flujos de fondos perfectamente
+correlacionados, es:
+(cid:2)
+σ
+σ(VPN)(cid:3) (cid:1)
+t(cid:3)0 (1(cid:4)R ) t
+t
+Siguiendo con el ejemplo planteado en la sección anterior, en caso de correlación perfecta, el VPN y
+su desviación típica tendrían los siguientes valores:
+4 1.000
+VPN(cid:1) (cid:3) (cid:2)2.000(cid:1)1.170
+t(cid:1)1 (1(cid:4)0,10) 4
+200 300 480 620
+σ(VPN)(cid:1) (cid:2) (cid:2) (cid:2) (cid:1)1.214
+(1(cid:2)0,10) (1(cid:2)0,10) 2 (1(cid:2)0,10) 3 (1(cid:2)0,10) 4
+La desviación típica obtenida es de 1.214, cuando los flujos de fondos están perfectamente
+correlacionados; es mayor que la resultante cuando hay independencia entre ellos, como en este caso, que fue
+de 635,5.
+El modelo de Hillier
+El profesor FREDERICK S. HILLIER (1963) ha desarrollado un modelo en el que considera que parte
+de los flujos de fondos está perfectamente correlacionado, y parte es completamente independiente.
+En este caso, y siguiendo la simbología utilizada por el autor, se supone que y, Z(1), Z(2) …Z(m) son
+j j j j
+variables aleatorias con distribución normal, tal que:
+X = y + Z(1) + Z(2) + … + Z(m)
+j j j j j
+Donde las nuevas variables son independientes, con excepción de Z (k), Z (k), … Z(k), que están
+0 1 j
+perfectamente correlacionadas para k = 1, 2 ... m.
+La ecuación planteada muestra, pues, el flujo de fondos (X) del período j, que se compone de un
+j
+flujo independiente (.y) más diferentes flujos de fondos perfectamente correlacionados con los
+j
+correspondientes flujos de otros períodos.
+La esperanza del valor presente neto será:
+11
+
+m
+(k)
+E(y ) (cid:1) (cid:2) E (Z )
+(cid:9) µ (cid:6) j j
+n j n k (cid:3)1
+µ (cid:3) (cid:2) (cid:7) (cid:4) (cid:3) (cid:2)
+p (cid:7) j(cid:4) j
+j(cid:3)0 (cid:8)(1(cid:1) I) (cid:5) j(cid:3)0 (1(cid:1) I)
+donde:
+(cid:3) : esperanza del valor presente neto;
+p
+(cid:3): esperanza del flujo de fondos del período j;
+j
+E (y): esperanza de los flujos de fondos independientes del período j;
+j
+E (Z(k)):esperanza de los flujos de fondos perfectamente correlacionados del período j;
+j
+I: tasa de rentabilidad mínima requerida.
+La varianza del valor presente neto viene dada por la siguiente expresión:
+2
+(cid:8) (cid:14) (k) (cid:11)(cid:5)
+n (cid:8)Var(y )(cid:5) n (cid:6) n (cid:12)Var (Z )(cid:9)(cid:3)
+σ 2 (cid:2) (cid:1) (cid:6) j (cid:3) (cid:15) (cid:1) (cid:6) (cid:1) (cid:12) j (cid:9)(cid:3)
+p j(cid:2) 0 (cid:6) (cid:7)(1(cid:15)I) 2j(cid:3) (cid:4) k (cid:2)1 (cid:6)j(cid:2) 0 (cid:12) (cid:12) (1(cid:15) I) j (cid:9) (cid:9)(cid:3)
+(cid:7) (cid:13) (cid:10)(cid:4)
+donde:
+(cid:2) (2): varianza del valor presente neto;
+p
+Var (y): varianza de los flujos de fondos independientes del período j;
+j
+Var (Z(k)): varianza de los flujos de fondos dependientes del período j.
+j
+A continuación se verá el ejemplo expuesto por el propio HILLIER en su artículo.
+Esperanza Desviación
+Años Concepto Simbología
+($) estándar ($)
+0 Inversión inicial Y –600 50
+0
+1 Egresos de producción Y –250 20
+1
+2 Egresos de producción Y –200 10
+2
+3 Egresos de producción Y –200 10
+3
+4 Egresos de producción Y –200 10
+4
+5 Egresos de producción Y –100 10 10
+5
+1 Ingresos de ventas-Gastos de ventas Z 1 (1) +300 50
+2 Ingresos de ventas-Gastos de ventas Z 2 (1) +600 100
+3 Ingresos de ventas-Gastos de ventas Z 3 (1) +500 100
+4 Ingresos de ventas-Gastos de ventas Z 4 (1) +400 100
+5 Ingresos de ventas-Gastos de ventas Z 5 (1) +300 100
+HILLIER supone que el valor i = 10% y calcula, pues, el valor presente neto como:
+(cid:10)(cid:16) (1)(cid:13)(cid:7)
+5 E(cid:8) (cid:9) (cid:14) (cid:15) y j (cid:2) E (Z j (cid:11) (cid:12) (cid:5) (cid:6) 50 200
+µ (cid:1) (cid:4) (cid:1) (cid:3)600 (cid:2) (cid:2)(cid:1)(cid:2) (cid:1) 262
+p j(cid:1) 0 1,1 1,1 (1,1) 5
+12
+
+La varianza del valor presente neto será, pues:
+2
+(cid:7) (1) (cid:4)
+Var (y ) Var (Z )
+5 5 (cid:5) (cid:2)
+σ 2 (cid:1) (cid:9) j (cid:8) (cid:9) (cid:5) j (cid:2) (cid:1)
+p j(cid:1)0 (1,1) 2j j(cid:1)0 (cid:5) (cid:1) 1,1 (cid:2) 5 (cid:2)
+(cid:6) (cid:3)
+(cid:7) (cid:4)2
+1.000 50 100
+(cid:1) 2.500(cid:8)(cid:1)(cid:8) (cid:8)
+(cid:5)
+(cid:8)(cid:1)(cid:8)
+(cid:2)
+(cid:1)114.700
+(1,1)10 (cid:6)(1,1) (1,1)5(cid:3)
+donde σ (cid:1) 114.700 (cid:1)339.
+p
+El modelo del profesor HILLIER tiene el mérito de haber efectuado un avance importante en el
+análisis del riesgo en el tiempo.
+Sin embargo, debe señalarse que en la vida real no es común encontrar que los flujos de fondos de
+una inversión puedan discriminarse en dos categorías claras: independientes o perfectamente
+correlacionados. En la realidad, la mayoría de las inversiones tendrán flujos de fondos con correlaciones
+moderadas; tal es el caso que desarrolla el profesor VAN HORNE, que se verá a continuación.
+Correlaciones intermedias
+El profesor VAN HORNE (1986) ha desarrollado el caso de correlación intermedia.
+A estos efectos, en cuanto a la esperanza del VPN, la fórmula a utilizar es la misma que ya se ha
+visto, esto es:
+n F
+VPN(cid:2) (cid:1) t
+t(cid:2)0 (1(cid:3)K) t
+El modelo utiliza probabilidades condicionales, para incorporar el riesgo en el tiempo.
+La varianza se obtiene, en este caso, como:
+|
+σVPN(cid:2) (cid:1) (VPN (cid:3)VPN) 2 P
+x x
+x(cid:2)1
+donde:
+VPN : valor actual neto para las x series de flujos de caja cubriendo todos los períodos;
+x
+VPN: valor esperado de VPN;
+P : probabilidad de ocurrencia de estas series;
+X
+|: cantidad posible de flujos de caja.
+Esta sección viene a poner de relieve la importancia de la consideración, en el análisis del riesgo de
+una inversión, del grado de correlación de los flujos de fondos en el tiempo.
+Como se ha visto, si se consideran independientes, el riesgo que se asocia al proyecto es menor. Sin
+embargo, en la vida real, aparecen correlaciones. Aunque sea uno de los más complejos de implementar, el
+13
+
+caso de las probabilidades condicionadas es uno de los métodos más apropiados para la mayor parte de las
+situaciones de la vida real.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es la importancia de las correlaciones entre los flujos de fondos en el análisis de inversiones.
+9,7. MODELOS DE SIMULACIÓN
+Dentro de los modelos de simulación, el desarrollado por DAVID B. HERTZ (1964) ha tenido un
+amplio campo de aplicación.
+Estos modelos, y en particular el de HERTZ, aportan como producto final una función de
+probabilidad de la tasa de rentabilidad (o del valor presente neto), la que se construye a partir de las
+respectivas funciones de probabilidad de las distintas variables aleatorias que intervienen en la evaluación
+de un proyecto.
+Previo al desarrollo en detalle del modelo de HERTZ, se señalarán dos problemas fundamentales de
+este tipo de modelos.
+Los niveles de desagregación
+El primer problema que debe resolverse son los niveles de desagregación del análisis de riesgo. En
+realidad, la mayor parte de los elementos que intervienen en la evaluación de una inversión son variables
+aleatorias. Sin embargo, normalmente se efectúan agrupaciones a los efectos de la simulación.
+Los costos de explotación en un proyecto están conformados por distintos elementos, como podrían
+ser materias primas (las que, por lo común, son varias), materiales, mano de obra, etcétera.
+Es bien sabido que cada uno de ellos es una variable aleatoria.
+En este análisis, debe optarse por el nivel de desagregación a considerar. A manera de ejemplo, se
+toman como variables aleatorias los costos totales, o las materias primas por una parte y los demás costos por
+otra; o cada uno de los integrantes del costo.
+Similares situaciones se plantean con los ingresos, donde el precio de cada bien puede ser una
+variable aleatoria, y los volúmenes también.
+La decisión del nivel de desagregación aporta uno de los aspectos más relevantes para el éxito o el
+fracaso del análisis. La mayor desagregación podría contribuir a un mejor refinamiento; sin embargo, ello
+involucra aumentar un mayor costo de análisis y procesamiento.
+Normalmente, la decisión recae sobre un conjunto de variables que, por la importancia en la
+evaluación y la factibilidad de obtener información acerca de la misma, ameritan su elección.
+Las funciones de probabilidad
+Una vez decidido el nivel de desagregación y seleccionadas las variables aleatorias, corresponde la
+determinación de la función de probabilidad que mejor se adapta en su comportamiento.
+A veces pueden asignarse probabilidades objetivas; otras, quizá las más, deben ser subjetivas.
+Algunas seguirán funciones discretas; otras, continuas como lo normal o alguna otra distribución teórica.
+Una vez resueltos los dos problemas citados se está en condiciones de hacer operar el modelo de
+simulación.
+El proceso del modelo de HERTZ
+Para la aplicación del modelo se deben seguir los siguientes pasos:
+a) Nivel de desagregación. HERTZ selecciona el siguiente conjunto de factores que influyen sobre los flujos
+de fondos de una inversión:
+14
+
+Vinculados al mercado
+• tamaño del mercado;
+• precio de venta,
+• tasa de crecimiento del mercado;
+• proporción del mercado que corresponde al proyecto.
+Vinculados a la inversión
+• inversión requerida;
+• valor residual de la inversión;
+• vida útil de la inversión.
+Vinculados a los costos
+• costos operativos variables;
+• costos fijos.
+b) Establecimiento de las funciones de probabilidad. Seleccionados los factores, el modelo debe establecer
+las funciones de probabilidad. HERTZ sugiere, en primer lugar, el establecimiento de los rangos de
+variación de cada factor; una vez definidos los mismos se deben obtener las probabilidades de ocurrencia
+de cada suceso,
+c) Cálculo de las tasas de rendimiento. Luego de seleccionar las funciones de probabilidad de los distintos
+factores, el modelo se desarrolla, eligiendo al azar valores de los mismos y calculando la tasa de
+rentabilidad (o el valor presente neto) para cada combinación.
+A cada rentabilidad proveniente de una combinación de factores le corresponde una probabilidad que es
+igual al producto de las probabilidades de cada factor tomado en la oportunidad.
+El proceso se debe repetir muchas veces, obteniéndose igual número de tasas de rentabilidad y
+probabilidades asociadas.
+d) Función de probabilidad de la tasa de rentabilidad. El resultado de la repetición de esas combinaciones
+es la obtención de una función de probabilidad de las tasas de rentabilidad.
+La misma, en forma acumulada, se muestra gráficamente:
+Figura 9,5.
+De esta forma, el modelo de HERTZ permite mostrar la probabilidad de alcanzar o superar una tasa de
+rentabilidad o, si se prefiere, la probabilidad de que la tasa sea inferior a un determinado valor.
+En realidad, trabajando en condiciones de certidumbre se obtiene un valor de la respectiva curva. El
+modelo muestra el espectro de variación de la tasa de rentabilidad o del valor presente neto.
+15
+
+Ejemplo
+Una inversión ha sido analizada en condiciones de certeza y ha arrojado una tasa de rentabilidad del
+18%. El análisis del proyecto en condiciones de certidumbre arroja que existen tres factores que operan como
+variables aleatorias y que son:
+a) Precio:
+Precio
+Probabilidad
+($)
+10 0,2
+15 0,6
+20 0,2
+b) Costos operativos:
+Precio
+Probabilidad
+($)
+4 0,3
+5 0,4
+6 0,3
+c) Vida útil:
+Vida útil
+Probabilidad
+(años)
+10 0,7
+12 0,6
+Otros datos:
+– Las ventas se estiman en 1.000 unidades.
+– No existen impuestos.
+– El monto de la inversión inicial asciende a $ 50.000, y su valor residual es cero.
+Seleccionadas las variables aleatorias y establecidas las funciones de distribución de las mismas, se
+deben calcular la tasa de rentabilidad y la probabilidad de cada combinación, las que se resumen
+seguidamente
+16
+
+Precio Costo Vida útil Tasa
+Probabilidad
+Combinación de rentabilidad
+$ Probabilidad $ Probabilidad Años Probabilidad conjunta
+(en %)
+1 10 0,2 4 0,3 10 0,4 0,024 3,46
+2 10 0,2 5 0,4 10 0,4 0,032 0,00
+3 10 0,2 6 0,3 10 0,4 0,024 (3,86)
+4 10 0,2 4 0,3 12 0,6 0,036 6,11
+5 10 0,2 5 0,4 12 0,6 0,048 2,92
+6 10 0,2 6 0,3 12 0,6 0,036 (0,62)
+7 15 0,6 4 0,3 10 0,4 0,072 17,68
+8 15 0,6 5 0,4 10 0,4 0,096 15,10
+9 15 0,6 6 0,3 10 0,4 0,072 12,41
+10 15 0,6 4 0,3 12 0,6 0,108 19,37
+11 15 0,6 5 0,4 12 0,6 0,144 16,94
+12 15 0,6 6 0,3 12 0,6 0,108 14,43
+13 20 0,2 4 0,3 10 0,4 0,024 29,61
+14 20 0,2 5 0,4 10 0,4 0,032 27,32
+15 20 0,2 6 0,3 10 0,4 0,024 24,99
+16 20 0,2 4 0,3 12 0,6 0,036 30,71
+17 20 0,2 5 0,4 12 0,6 0,048 28,52
+18 20 0,2 6 0,3 12 0,6 0,036 26,30
+1,000
+La función de probabilidad acumulada de la tasa de rentabilidad se obtiene a través de los siguientes
+valores:
+TR Probabilidad Probabilidad de que la tasa
+Combinaciones
+% acumulada de rentabilidad sea superada
+3 (3,86) 0,0240 0,9760
+6 (0,62) 0,6000 0,9400
+2 0 0,0920 0,9080
+5 2,92 0,1400 0,9600
+1 3,46 0,1640 0,8360
+4 6,11 0,2000 0,8000
+9 12,41 0,2720 0,7280
+12 14,43 0,3800 0,6200
+8 15,10 0,4760 0,5240
+11 16,94 0,6200 0,3800
+7 17,68 0,6920 0,3080
+10 19,37 0,8000 0,2000
+15 24,99 0,8240 0,1760
+18 26,30 0,8600 0,1400
+14 27,32 0,8920 0,1080
+17 28,52 0,9400 0,0600
+13 29,61 0,9640 0,0360
+16 30,71 1 0
+17
+
+Figura 9,6.
+Sobre la base de los datos obtenidos, la probabilidad de obtener o superar una tasa de rentabilidad del
+15% será del 52,4%.
+Este tipo de ejemplos pone de relieve las limitaciones de obtener una sola tasa de rentabilidad
+suponiendo en certidumbre los distintos elementos. En estas aproximaciones lo que interesa es obtener qué
+probabilidad existe de alcanzar o superar una determinada tasa de rentabilidad.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Utilidad práctica de los modelos de simulación.
+9,8. OTRAS APROXIMACIONES AL TRATAMIENTO DE LA INCERTIDUMBRE
+Pronósticos conservadores
+En el mundo práctico del análisis de inversiones, con frecuencia se recurre a ciertos mecanismos
+para introducir de alguna forma el problema de la incertidumbre. Uno de ellos es el que tiene relación con los
+pronósticos conservadores.
+El enfoque consiste en asignar valores pesimistas a las principales variables que integran el flujo de
+fondos, o al menos, en distintas opciones, inclinarse por aquellos más conservadores o más prudentes, un
+poco sobre la base de “vamos a tomar posición más ventajosa, puesto que si el proyecto soporta esta postura,
+seguramente será más conveniente”.
+Más allá de su fácil aplicación, se reconocen serias limitaciones a este enfoque, Algunas de ellas son:
+a) No aporta, en caso de dos o más proyectos, elementos como para tomar posiciones de la misma
+intensidad de conservadorismo. Esto es, de un proyecto a otro, siempre quedará la duda de si se han
+aplicado pronósticos que reflejen en forma idéntica los niveles de incertidumbre.
+b) A menudo el pronóstico conservador opera sobre una serie de variables, produciendo un efecto
+multiplicador en el pesimismo de las estimaciones y rechazando equivocadamente, en muchos casos, los
+que podrían ser buenos proyectos.
+c) Ya más en el campo operativo, los ejecutivos, conscientes de que sus estimaciones sufrían un corte para
+hacerlas más conservadoras a medida que suben los niveles de dirección, abultan de antemano algunas
+cifras clave.
+18
+
+Estimaciones a varios niveles
+Otra aproximación al tratamiento del riesgo es proceder a calcular los criterios de rentabilidad del
+proyecto, considerando, por ejemplo, tres niveles de comportamiento de algunas de las principales variables
+involucradas. Se toman de esta forma tres estimaciones de ventas, por ejemplo, pesimista, media y óptima, lo
+mismo que los precios, etcétera.
+Si bien el procedimiento arroja información acerca de la influencia de alguna de estas variables sobre
+la rentabilidad del proyecto, no reporta una idea de la probabilidad de ocurrencia de cada situación.
+Tasa de descuento ajustada a riesgo
+El principio de que a mayor riesgo involucrado, mayor rendimiento esperado es básico en finanzas.
+Sobre esta base se ha desarrollado el procedimiento de la tasa de descuento ajustada a riesgo.
+Se supone que R es la tasa libre de riesgo y p es el premio por el riesgo. Un proyecto que tenga p* de
+f
+riesgo descontará sus flujos de fondos no sobre la base de:
+1 1
+,sino de
+j j
+(1(cid:1)R ) (1(cid:1)R (cid:1)p*)
+f f
+el valor actual neto se calculará, pues, como:
+n F
+j
+VAN*(cid:1) (cid:3)
+j(cid:1)0 (1(cid:4)R (cid:4)p*) j
+f
+dondeF es el flujo esperado para el año j.
+En capítulos siguientes se verá una mención más rigurosa del riesgo y la tasa de descuento al analizar
+el modelo de fijación de precios de activos de capital.
+En muchas ocasiones, el proyecto tiene un nivel de riesgo similar al que reporta ya directamente la
+tasa de rendimiento requerida promedio de la empresa, en cuyo caso se utilizará ésta. Sin embargo, con
+frecuencia, existen proyectos que tienen una banda de riesgo muy diferente de la medida de la empresa. En
+ese caso se deberá aplicar, según esta posición, un descuento a los flujos de fondos a una tasa que asume, a la
+tasa libre de riesgo, un premio por el riesgo específico del proyecto en cuestión. En el se verá este tema con
+mayor profundidad.
+El procedimiento tiene, como punto fundamental, aportar al análisis práctico de inversiones una
+visión intuitiva del riesgo, de fácil comprensión.
+Cuenta, sin embargo, con algunas limitaciones que se pasarán a reseñar seguidamente:
+a) Los profesores ROBICHEK y MYERS han señalado una observación en el sentido de que la tasa de
+descuento se compone de una primera porción, que es la correspondiente a la tasa libre de riesgo (R), y
+f
+una segunda (P*), que refleja la prima por el riesgo.
+1
+Al proceder a descontar los flujos de fondos a
+j
+(1(cid:4)R (cid:4)p*)
+f
+se está agregando a la compensación por el valor por el tiempo representado por R la que corresponde a la
+f
+incertidumbre. Sin embargo, dicen ROBICHEK y MYERS que la prima por el riesgo va creciendo con el
+tiempo a una tasa constante, o sea que la dispersión de la función probabilidad de los flujos de fondos
+aumenta con el tiempo en una proporción constante.
+b) Frecuentemente las empresas cuentan con procedimientos como el siguiente:
+(cid:1) para proyectos del ramo actual de la compañía, en el que ya está trabajando, la tasa de descuento será
+el 12 %;
+(cid:1) para proyectos en el ramo actual, pero en los cuales la compañía no haya ingresado, la tasa de
+descuento será el 14 %;
+19
+
+(cid:1) para proyectos de otras ramas diferentes de las que trabaja actualmente la firma, la tasa de descuento
+será el 18 %.
+Este tipo de situaciones, generalmente comunes, hacen perder de vista la individualidad de cada
+inversión, esto es, los riesgos inherentes a la misma, que pueden diferir grandemente de una a otra.
+c) Asimismo, debe señalarse que la tasa de descuento ajustada a riesgo supone aversión al riesgo por parte
+de los decisores de inversión.
+Si bien se cree que esta situación representa a la mayoría de los agentes, se debe reconocer que
+existen cantidades apreciables de buscadores de riesgo, que en lugar de que se les retribuya por tomar
+riesgos, en realidad estarían dispuestos a pagar por tomarlos.
+La determinación de la tasa libre de riesgo puede efectuarse por distintas formas, que van desde
+aproximaciones elementales hasta otras más sofisticadas. En los 9 y 10, se podrá profundizar sobre este
+aspecto, en especial a través del modelo de fijación de precios activos de capital.
+Equivalencia a la certidumbre
+El criterio de equivalencia a la certidumbre consiste en aplicar a cada flujo de fondos incierto una
+corrección para traducirlo en términos de un flujo de fondos en condiciones de certidumbre.
+El coeficiente de corrección a la certidumbre será:
+Flujo de fondos en certidumbre
+(cid:1) (cid:1)
+Flujo de fondos en incertidumbre
+Para la determinación del valor actual neto, deberán descontarse los flujos de fondos en términos de
+certidumbre a la tasa libre de riesgo. De esta forma se tiene que:
+α F
+n
+j j
+VAN*(cid:2) (cid:1)
+j
+j(cid:2)0 (1(cid:3) R )
+f
+donde:
+(cid:1) : coeficiente de corrección a la certidumbre del flujo j.
+j
+Algunas consideraciones sobre la equivalencia a la certidumbre y la tasa de descuento ajustada a riesgo
+Se pueden finalmente efectuar algunas consideraciones sobre la equivalencia a la certidumbre y la
+tasa de descuento ajustada a riesgo.
+Si se define (cid:1) como el ratio siguiente:
+j
+F
+j
+j
+(1(cid:1)i(cid:1)p*)
+α (cid:2)
+j
+F
+j
+j
+(1(cid:1)i)
+eso es igual a:
+j
+(1(cid:1)i)
+α (cid:2)
+j j
+(1(cid:1)i(cid:1)p*)
+20
+
+Si el premio por el riesgo p* es constante, a medida que crecen los períodos j, se producirá una
+disminución del ratio.
+Cuanto menor es (cid:1), mayor es el riesgo que se le está asignando al flujo del año correspondiente.
+j
+Asimismo, cuando la tasa de descuento ajustada a riesgo permanece constante, se está suponiendo
+que el riesgo aumenta a través del tiempo. En suma, se trata de criterios equivalentes.
+Para ejemplificar se suponen tres casos:
+a) p = 10% R = 4%
+f
+b) p = 8% R = 6%
+f
+c) p = 4% R = 10%
+f
+La evolución de (cid:1) será la siguiente, para cada uno de los tres casos:
+j
+Figura 9,7.
+El gráfico muestra cómo el coeficiente (cid:1) desciende a una tasa constante a medida que crecen los
+períodos. Esta caída será más acelerada, cuanto mayor sea la diferencia entre la tasa libre de riesgo (R) y la
+f
+tasa ajustada a riesgo.
+Para el caso c) planteado, por ejemplo, en el año 4 el coeficiente es de 0,864, lo que equivale a decir
+que cuando R = 10% y R + p = 14%, un flujo de fondos incierto en el año 4 de 100 equivale a 86,4 en
+f f
+certidumbre, En el año 7, (cid:1) = 0, 78, por lo que la equivalencia sería de 100 a 78.
+Este aumento del riesgo a medida que crece el tiempo, que lleva implícito el criterio de la tasa
+ajustada de riesgo, se ve a menudo confirmado en la realidad.
+En muchos casos (cid:4)(cid:5)no tiene por qué crecer a una tasa constante, como ocurre en la situación referida.
+De allí que los defensores de este criterio de la equivalencia a la certidumbre le aseguran alguna
+ventaja con respecto al de tasa de descuento ajustada a riesgo.
+En efecto, cada período tiene un riesgo propio. Una vez traducido en términos de certidumbre, cada
+uno de los flujos de fondos se descuenta a la tasa libre de riesgo, en cuyo caso la actualización toma sólo en
+consideración el valor tiempo del dinero.
+La determinación de los coeficientes de equivalencia a la certidumbre no es una tarea fácil. Su
+obtención se logra fundamentalmente en función de las actitudes ante el riesgo.
+La aversión al riesgo es un supuesto implícito en todo este tipo de análisis, a los cuales la teoría de la
+utilidad aporta el marco de referencia conceptual (ver apéndice de este capítulo).
+Los coeficientes de corrección a la certidumbre pueden elaborarse a partir de las curvas de
+indiferencia entre los rendimientos y los riesgos, donde la teoría del portafolio y la de la fijación de precios
+de los activos de capital aportan una solución. En los caps. 8 a 10 se desarrollan estas teorías.
+21
+
+Sobre esta base, las preferencias ante el riesgo tienen un alto contenido subjetivo, y pueden variar de
+una persona a otra, o incluso en una misma persona en distintos períodos.
+Análisis de sensibilidad
+El análisis de sensibilidad consiste en la observación de las variaciones de los criterios de análisis de
+inversiones (tasa de rentabilidad, valor actual neto, etc.) ante cambios en algunos de los parámetros que
+componen el flujo de fondos, permaneciendo constantes los restantes.
+Este método de aproximación al conocimiento de ciertas repercusiones de la incertidumbre de los
+proyectos es muy utilizado en la vida práctica.
+Se obtiene más valiosa información cuanto más pericia se tenga en la elección de los parámetros a
+estudiar.
+Normalmente, se hacen evolucionar los parámetros con respecto al valor original tomado en el
+análisis del proyecto.
+Suponiendo que el precio de venta utilizado originalmente haya sido $ 10 por artículo, para cuyo
+caso el TR = 18%, se efectúa la sensibilidad, quedando por ejemplo:
+TR
+Precios
+(%)
+P.O. –30% (5)
+P.O. –20% 3
+P.O. –10% 12
+Precio original 18
+P.O. +10% 25
+P.O. +20% 35
+P.O. +30% 49
+De forma se puede efectuar la sensibilidad a la vida útil, a la inversión inicial o a los costos.
+Muy a menudo se efectúan matrices, donde se cruzan eventuales evoluciones de la vida útil con los
+precios, o entre otro par de parámetros.
+Gráficamente un análisis de sensibilidad puede tomar la forma siguiente:
+Figura 9,8.
+Gráficos como el que antecede permiten apreciar la sensibilidad del proyecto ante distintos eventos.
+En este caso, el precio de venta significa el elemento al que la rentabilidad es más sensible, y la vida
+útil al que menos.
+El análisis de sensibilidad permite detectar aquellos factores que son más cruciales en la viabilidad
+de una inversión, posibilitando de esta forma que, al estar identificados, pueda profundizarse dicho análisis.
+22
+
+Asimismo, este criterio permite establecer el margen de error que es tolerable en las estimaciones de
+un proyecto.
+Sin embargo, la experiencia muestra algunos problemas en el uso del análisis de sensibilidad. Uno de
+ellos es cuando se hace sensibilidad a variables netas.
+Tal es el caso de hacer sensibilidad a la ganancia neta. Un proyecto puede ingresar en rentabilidades
+negativas cayendo la ganancia un 50%, lo cual se puede considerar poco probable. Sin embargo, un aumento
+del 5% de los costos operativos ya arrastraba al proyecto a TR negativas.
+Por otra parte, a menudo no es fácil efectuar la sensibilidad a un parámetro, haciendo permanecer a
+los otros en iguales valores puesto que las interrelaciones entre ellos son muy frecuentes.
+Asimismo, se debe tomar en consideración la evolución de las variables en el tiempo. De pronto, los
+precios son factibles de cambios a partir del año 3 del proyecto que, en los términos normales, no se hacen en
+todo el tiempo del proyecto.
+En suma, se trata de un método muy usado que puede aportar más información; sin embargo, debe
+tomarse cuidado acerca de sus limitaciones, a los efectos de un aprovechamiento más sano del mismo.
+Arboles de decisiones
+Una técnica que permite visualizar las distintas opciones que van apareciendo en ocasión del análisis
+de inversiones, así como las nuevas posibilidades que se abren en cada opción, produciendo un haz de
+situaciones probables, es la de los árboles de decisiones.
+El diagrama siguiente muestra un árbol de decisión.
+Figura 9,9.
+Se plantean dos grandes opciones: modernizar una planta o construir una nueva. A su vez, cada una
+de las mismas se enfrenta a tres eventuales demandas alta, media y baja, con las correspondientes
+probabilidades. Asimismo, para cada uno de estos eventos, puede mejorarse la fábrica con dos tipos de
+técnicas, y así sucesivamente.
+23
+
+El analista asigna probabilidades y criterios de análisis a cada uno de los eventos, por ejemplo, valor
+actual neto. Luego comienza a calcular los valores monetarios esperados de cada uno de los caminos
+trazados. Trabajando de derecha a izquierda llega a obtener la opción de mayor valor monetario esperado,
+que en esta técnica es el criterio orientador. Pueden asignarse, obviamente, medidas de dispersión para
+complementar el análisis.
+La técnica permite visualizar generalmente con claridad las distintas opciones y eventos probables, y
+los resultados de cada uno de ellos; se mantienen, sin embargo, dentro del criterio del valor monetario
+esperado, al cual se le asignan modernamente críticas de importancia a la luz de las preferencias subjetivas
+del riesgo (ver apéndice).
+9,9. OPCIONES REALES Y ANÁLISIS DE INVERSIONES
+Cada vez con más frecuencia aparecen opciones reales en las situaciones de análisis de inversiones.
+Quienes toman las decisiones en proyectos, encuentran que el valor presente neto opera adecuadamente
+durante una parte de la vida útil de la inversión y a un cierto punto aparece una opción. Ellas, como se sabe,
+son de naturaleza contingente, donde el valor presente neto o cualquier otro criterio que maneja flujos de
+fondos no pueden operar.
+Las opciones reales suelen ser de distinto tipo. Entre las más habituales se encuentran:
+a) opciones de posponer;
+b) opciones de expandir;
+c) opciones de abandonar.
+Las opciones de posponer se presentan cuando una inversión tiene, por ejemplo, una concesión para
+explotar un restaurante municipal. El contrato es por cinco años, al cabo de los cuales el concesionario tiene
+la opción de continuar por un determinado lapso. En definitiva, la opción se tomará si el negocio tiene éxito.
+En el caso de las opciones de expandir, la contingencia de tomarlas se verifica si las condiciones son
+favorables como para aumentar la escala de producción a menos niveles.
+Existen, por otra parte, opciones de abandonar, que es el caso de dejar de ejecutar un determinado
+proyecto si se dan determinadas circunstancias. Es en definitiva para quien lleva adelante el proyecto una
+opción de venta, a un determinado valor de abandono de la inversión.
+Cuando se tienen opciones como las planteadas, aparece la necesidad de crear una nueva solución
+para determinar el valor de mercado de la inversión, En este caso, ésta será:
+VM = VPN + Opc.
+Esto es, siendo VM el valor de mercado, el mismo es igual a la suma del valor presente neto (tanto
+sea de posponer como de abandonar o de expandir), más el valor de la opción.
+El cap. 26 está dedicado enteramente al tema de opciones y, por lo tanto, a la determinación del valor
+de las mismas.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuál es el valor de mercado de una inversión, en el caso de que tenga una opción en el proceso decisorio.
+REFERENCIAS SELECCIONADAS
+Para modelos de simulación puede consultarse:
+(cid:1) HERTZ, DAVID B., “Risk analysis in capital investment”, Harvard Business Review, enero-febrero de
+1964.
+El tema de opciones reales tiene un excelente tratamiento en:
+(cid:1) QUIZZ, LAURA, “Empirical testing of real-options pricing models”, Journal of Finance, junio de 1993.
+24
+
+APÉNDICE
+TEORÍA DE LA UTILIDAD
+1. Insuficiencia del valor monetario esperado
+El valor monetario esperado, como un indicador para la toma de decisiones en condiciones de
+incertidumbre, ha sido cuestionado, en gran medida, por no tomar en consideración las preferencias
+subjetivas ante el riesgo.
+Supóngase que existen dos inversiones, una A y otra B, con las siguientes probabilidades de
+ganancias o de pérdidas.
+A B
+Ganancias o pérdidas Probabilidad Ganancias o pérdidas Probabilidad
+($) ($)
++6.000 0,3 100.000 0,05
++4.000 0,4 45.000 0,2
++1.000 0,3 9.250 0,4
+–30.000 0,3
+–100.000 0,05
+Ambas inversiones tienen, como valor monetario esperado de la ganancia, idéntico resultado, o sea,
++3.700.
+Es decir, desde el punto de vista del valor monetario esperado sería indiferente elegir la inversión A o
+la B.
+Sin embargo, algunos preferirán una, y otros, la restante. Una actitud más conservadora habría de
+inclinarse por la A, en tanto que un sujeto arriesgado preferirá la B.
+Esta insuficiencia de valor monetario esperado fue expuesta en la primera mitad del siglo XVIII por
+DANIEL BERNOULLI (1754) en un trabajo donde la paradoja de San Petersburgo es acaso el más famoso
+aporte.
+BERNOULLI distingue entre pretium y molumentum de una suma de dinero, donde la primera
+expresión se refiere al monto propiamente dicho, en tanto que la segunda representa la utilidad que ella
+reporta.
+Expone su paradoja de la siguiente forma:
+Una vez un pobre hombre obtuvo un ticket de lotería que le rendiría con igual probabilidad nada o
+20.000 ducados ¿Habría este hombre evaluado su chance de ganar 10.000 ducados? ¿Habría sido
+malaconsejado en vender su ticket por 9.000 ducados?
+Me parecía que la respuesta era negativa. Por otro lado, estoy inclinado a creer que un hombre rico
+será mal aconsejado si se negara a comprar el ticket de lotería por 9.000 ducados. Sino me
+equivoco, entonces me parece claro que no todos los hombres pueden usar la misma regla para
+evaluar las apuestas. La regla establecida con anterioridad debe, por lo tanto, ser descartada.
+Cualquiera que considere el problema con perspicacia e interés averiguará que el concepto de valor
+que usamos en esta regla debe ser definido de forma que interprete cabalmente un procedimiento
+universalmente aceptado sin reservas. Para esto, la determinación del valor de un artículo no debe
+basarse en su precio, sino en la utilidad que pueda producir. El precio de un artículo depende
+solamente de sí mismo, y es igual para cualquiera; la utilidad, sin embargo, depende de las
+características particulares de la persona que la estima. No hay duda de que una ganancia de 1.000
+ducados es más significativa para un pobre que para un hombre rico, aun cuando el monto de la
+ganancia es el mismo.
+El concepto del valor monetario esperado dejó paso a otro más complejo de utilidad esperada. Esta
+utilidad tiene relación con las actitudes de los individuos ante el riesgo.
+25
+
+La posibilidad de cuantificar la utilidad tiene en VON NEUMANN y MORGENSTERN (1947) acaso a los
+más dotados autores. Ellos lograron construir un índice que expresa las preferencias particulares de los
+individuos ante situaciones riesgosas.
+2. Función de utilidad
+Los aportes de VON NEUMANN y MORGENSTERN a la teoría de la utilidad, expuestos dentro de un
+problema más general como es el comportamiento racional del individuo, fueron extraordinarios, y los
+comentarios que siguen recogen algunos aspectos de su obra.
+La formación de la función de utilidad se basa en algunas propiedades tales como:
+a) De ser el resultado A preferible al B, la utilidad de A es mayor que B, lo cual se expresa como:
+U (A) > U (B)
+b) Si una persona se encuentra en una situación Y que le representa una compensación A con la
+probabilidad p y una compensación B con probabilidad 1 – p, la utilidad de Y es igual a:
+U (Y) = p U (A) + (1 – p) U (B)
+A partir de estas propiedades se puede construir una curva de la función de utilidad, para lo cual se
+seguirá un ejemplo:
+a) Se supone que existen probabilidades p = 0,5 de ganar en una lotería 0, y (1 – p) = 0,5 de ganar 100.000.
+b) Se le asigna a 0 un índice de utilidad 0, y a 100.000 un índice 1. La elección de estos índices es
+arbitraria; lo importante es identificar la escala. Existen múltiples ejemplos de diferentes escalas para
+representar el mismo fenómeno. De esta forma, para la medición de la temperatura, la escala que trabaja
+con grados centígrados ha tomado como grado 0 el de congelación del agua, y 100 el de ebullición.
+La escala FAHRENHEIT tiene para estos dos mismos fenómenos –32 y 212, respectivamente– dos escalas
+distintas que representan lo mismo. Lo importante es pues, como se decía, identificar la escala.
+En este ejemplo se han tomado 0 y 1, lo mismo que se podrían haber tomado 10 y 100, o 50 y 900.
+c) Continuando con preguntas se pueden seguir obteniendo valores de las curvas de utilidad del individuo.
+Por ejemplo, se le puede preguntar si las probabilidades fueran p = 0,6 y p = 0,4, por qué monto cedería
+el billete. Suponiendo que conteste 50.000, se tiene que:
+U (50.000) = 0,6 U (100.000) + 0,4 U (0), o sea:
+U (50.000) = 0,6 x 1 + 0,4 x 0 = 0,6
+d) Se le pregunta luego al individuo porqué cantidad cierta está dispuesto a cambiar el billete.
+Suponiendo que contesta 35.000, se tiene que:
+U (35.000) = 0,5 U (100.000) + 0,5 U (0), o sea:
+U (35.000) = 0,5 x 1 + 0,5 x 0 = 0,5
+Y así sucesivamente se podría ir formando la curva.
+En este caso sería:
+26
+
+Figura 9,10.
+3. Función de utilidad de soslayador de riesgo
+Esta función de utilidad es acaso de las más conocidas, y representa la situación de un soslayador de
+riesgo, esto es, que está dispuesto a ceder valor monetario esperado.
+Un neutral al riesgo hubiera respondido a la primera pregunta 50.000, y a la segunda, 60.000. El
+neutral al riesgo está dispuesto a trabajar con el valor monetario esperado.
+Por otra parte, el buscador de riesgo exige más que el valor monetario,
+Las figuras que continúan muestran una representación de las funciones de ambos casos.
+Figura 9,11. Figura 9,12.
+Función de utilidad de un neutral Función de un buscador de riesgo
+En general, la teoría financiera supone a los sujetos económicos, como aversos al riesgo.
+4. Una aplicación de la teoría al análisis de inversiones
+En las secciones anteriores se repasaron ciertos aspectos centrales de la teoría. En ésta se verá alguna
+aplicación al caso del análisis de inversiones.
+Suponiendo dos inversiones, 1 y 2, que tengan las siguientes expectativas de valores actuales netos:
+27
+
+Inversión 1 Inversión 2
+VAN VAN
+Probabilidad Probabilidad
+($) ($)
+–20 0,25 –20 0,5
+200 0,5 300 0,4
+300 0,25 500 0,1
+El valor monetario esperado de cada una será:
+VME = 170
+1
+VME = 160
+2
+por lo cual la inversión 1 se preferirá a la 2.
+Si a este análisis del valor monetario esperado se agrega ahora al análisis de la teoría de la utilidad,
+se estarán incorporando las preferencias subjetivas al riesgo.
+Suponiendo que la función de utilidad sea:
+VAN VAN
+($) ($)
+–100 0
+–20 20
+100 40
+200 52
+300 85
+500 100
+Se puede calcular la utilidad esperada:
+Inversión 1 Inversión 2
+Utilidad esperada Utilidad esperada
+Utilidad Probabilidad Utilidad Probabilidad
+($) ($)
+20 0,25 5 20 0,5 10
+52 0,5 26 85 0,4 34
+85 0,25 21,25 100 0,1 10
+52,25 54
+El ejemplo planteado muestra cómo frente una decisión que favorecería a la inversión 1 cuando se
+trabaja con el valor monetario esperado, si se introducen las preferencias individuales ante el riesgo y se
+busca maximizar la utilidad esperada, la preferencia de la decisión se vuelca hacia la inversión 2.
+28

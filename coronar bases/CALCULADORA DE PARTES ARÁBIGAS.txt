@@ -1,0 +1,594 @@
+CALCULADORA DE PARTES ARÁBIGAS
+CARTA NATAL
+
+Zárate (Buenos Aires), Argentina
+Latitud: 34°05′32″S
+Longitud: 59°02′06″W
+
+20/06/1983 12:00:00 (-03)
+Zona Horaria: UT -3:00:00
+Fecha UT: 20/06/1983
+Hora UT: 15:00:00
+
+  
+DIADIA
+Fase lunar: Cuarto creciente 35.11°
+
+Lunaciones
+AC 0 Aries
+Amanecer
+Nodo en AC
+Lunación anterior
+Luna Nueva
+11/06/1983
+4:37:32 UT
+Lunación posterior
+Luna Llena
+25/06/1983
+8:31:46 UT
+Ver/Ocultar OpcionesOPCIONES
+AspectosOrbesCasasRegentesCalculadorasGráfico
+PARTES ARÁBIGAS
+Carta eclíptica
+
+Seleccione sistema de división de casas:
+
+Casas
+Placidus
+
+Aspectos a las partes arábigas
+Planetas, casas y aspectos en la carta natal
+45 Partes arábigas según Ben Ragel
++Partes arábigas
+(Haz clic en la imagen para verla completa. Incluye datos natales y posición de planetas y casas.)
+Signo Solar: Géminis
+Signo Lunar: Escorpio
+Ascendente: Virgo
+ Imagen  PDF
+
+Aspectos a las partes arábigas:
+
+Parte arábigaOrdenar por Parte	AspectoOrdenar por aspecto	PlanetaOrdenar por planeta	OrbeOrdenar por orbe
+sTauro02°24'14" Enemigos	tSextil	QSoldGéminis28°43'20"	3.68° (A)
+sTauro02°24'14" Enemigos	wOposición	WLunakEscorpio03°50'08"	1.43° (S)
+sTauro02°24'14" Enemigos	oQuincuncio	YJúpiterlSagitario03°13'31"	0.82° (A)
+sTauro02°24'14" Enemigos	wOposición	USaturnojLibra27°49'09"	4.58° (S)
+sTauro02°24'14" Enemigos	eTrígono	ONeptunolSagitario27°49'59"	4.57° (S)
+sTauro02°24'14" Enemigos	wOposición	PPlutónjLibra26°47'23"	5.61° (S)
+aAries11°22'40" Religión	tSextil	EMercuriodGéminis09°06'54"	2.26° (A)
+aAries11°22'40" Religión	eTrígono	RVenusgLeo14°00'59"	2.64° (S)
+aAries11°22'40" Religión	eTrígono	IUranolSagitario06°12'22"	5.17° (S)
+xAcuario03°17'37" Amor y amistad	rCuadratura	WLunakEscorpio03°50'08"	0.54° (S)
+xAcuario03°17'37" Amor y amistad	eTrígono	EMercuriodGéminis09°06'54"	5.82° (S)
+xAcuario03°17'37" Amor y amistad	tSextil	YJúpiterlSagitario03°13'31"	0.07° (S)
+xAcuario03°17'37" Amor y amistad	rCuadratura	USaturnojLibra27°49'09"	5.47° (S)
+xAcuario03°17'37" Amor y amistad	tSextil	IUranolSagitario06°12'22"	2.91° (A)
+kEscorpio19°29'27" Arar y sembrar	rCuadratura	RVenusgLeo14°00'59"	5.47° (A)
+cPiscis23°11'07" Audacia y fortaleza	rCuadratura	QSoldGéminis28°43'20"	5.54° (S)
+cPiscis23°11'07" Audacia y fortaleza	rCuadratura	TMartedGéminis24°07'29"	0.94° (S)
+cPiscis23°11'07" Audacia y fortaleza	rCuadratura	ONeptunolSagitario27°49'59"	4.65° (A)
+aAries19°36'27" Lugar de la enfermedad	eTrígono	RVenusgLeo14°00'59"	5.59° (A)
+aAries19°36'27" Lugar de la enfermedad	wOposición	PPlutónjLibra26°47'23"	7.18° (A)
+hVirgo01°30'03" Buena suerte en las luchas	tSextil	QSoldGéminis28°43'20"	2.78° (A)
+hVirgo01°30'03" Buena suerte en las luchas	tSextil	WLunakEscorpio03°50'08"	2.33° (S)
+hVirgo01°30'03" Buena suerte en las luchas	rCuadratura	YJúpiterlSagitario03°13'31"	1.72° (A)
+hVirgo01°30'03" Buena suerte en las luchas	tSextil	USaturnojLibra27°49'09"	3.68° (S)
+hVirgo01°30'03" Buena suerte en las luchas	rCuadratura	IUranolSagitario06°12'22"	4.71° (A)
+hVirgo01°30'03" Buena suerte en las luchas	eTrígono	ONeptunolSagitario27°49'59"	3.67° (S)
+sTauro00°59'06" Celada (Espíritu)	tSextil	QSoldGéminis28°43'20"	2.26° (A)
+sTauro00°59'06" Celada (Espíritu)	wOposición	WLunakEscorpio03°50'08"	2.85° (S)
+sTauro00°59'06" Celada (Espíritu)	wOposición	USaturnojLibra27°49'09"	3.17° (S)
+sTauro00°59'06" Celada (Espíritu)	eTrígono	ONeptunolSagitario27°49'59"	3.15° (S)
+sTauro00°59'06" Celada (Espíritu)	wOposición	PPlutónjLibra26°47'23"	4.2° (S)
+jLibra25°59'24" Copulación o amor de hombre	eTrígono	QSoldGéminis28°43'20"	2.73° (S)
+jLibra25°59'24" Copulación o amor de hombre	qConjunción	WLunakEscorpio03°50'08"	7.85° (S)
+jLibra25°59'24" Copulación o amor de hombre	eTrígono	TMartedGéminis24°07'29"	1.87° (A)
+jLibra25°59'24" Copulación o amor de hombre	qConjunción	USaturnojLibra27°49'09"	1.83° (A)
+jLibra25°59'24" Copulación o amor de hombre	tSextil	ONeptunolSagitario27°49'59"	1.84° (A)
+jLibra25°59'24" Copulación o amor de hombre	qConjunción	PPlutónjLibra26°47'23"	0.8° (A)
+lSagitario25°52'18" Firmeza, crecimiento y limpieza	wOposición	QSoldGéminis28°43'20"	2.85° (S)
+lSagitario25°52'18" Firmeza, crecimiento y limpieza	wOposición	TMartedGéminis24°07'29"	1.75° (A)
+lSagitario25°52'18" Firmeza, crecimiento y limpieza	tSextil	USaturnojLibra27°49'09"	1.95° (A)
+lSagitario25°52'18" Firmeza, crecimiento y limpieza	qConjunción	ONeptunolSagitario27°49'59"	1.96° (A)
+lSagitario25°52'18" Firmeza, crecimiento y limpieza	tSextil	PPlutónjLibra26°47'23"	0.92° (A)
+jLibra10°02'05" Enemigos (Hermes)	eTrígono	EMercuriodGéminis09°06'54"	0.92° (A)
+jLibra10°02'05" Enemigos (Hermes)	tSextil	RVenusgLeo14°00'59"	3.98° (S)
+jLibra10°02'05" Enemigos (Hermes)	tSextil	IUranolSagitario06°12'22"	3.83° (S)
+dGéminis22°17'43" Esperanza	qConjunción	QSoldGéminis28°43'20"	6.43° (S)
+dGéminis22°17'43" Esperanza	qConjunción	TMartedGéminis24°07'29"	1.83° (S)
+dGéminis22°17'43" Esperanza	eTrígono	USaturnojLibra27°49'09"	5.52° (A)
+dGéminis22°17'43" Esperanza	wOposición	ONeptunolSagitario27°49'59"	5.54° (A)
+dGéminis22°17'43" Esperanza	eTrígono	PPlutónjLibra26°47'23"	4.49° (A)
+kEscorpio11°10'26" Haber	qConjunción	WLunakEscorpio03°50'08"	7.34° (A)
+kEscorpio11°10'26" Haber	rCuadratura	RVenusgLeo14°00'59"	2.84° (S)
+jLibra11°30'16" Hermanos	eTrígono	EMercuriodGéminis09°06'54"	2.39° (A)
+jLibra11°30'16" Hermanos	tSextil	RVenusgLeo14°00'59"	2.51° (S)
+zCapricornio24°48'10" Número de hermanos	oQuincuncio	TMartedGéminis24°07'29"	0.68° (A)
+zCapricornio24°48'10" Número de hermanos	rCuadratura	USaturnojLibra27°49'09"	3.02° (A)
+zCapricornio24°48'10" Número de hermanos	rCuadratura	PPlutónjLibra26°47'23"	1.99° (A)
+gLeo00°41'32" Vida	rCuadratura	WLunakEscorpio03°50'08"	3.14° (S)
+gLeo00°41'32" Vida	eTrígono	YJúpiterlSagitario03°13'31"	2.53° (A)
+gLeo00°41'32" Vida	rCuadratura	USaturnojLibra27°49'09"	2.87° (S)
+gLeo00°41'32" Vida	eTrígono	IUranolSagitario06°12'22"	5.51° (A)
+gLeo00°41'32" Vida	rCuadratura	PPlutónjLibra26°47'23"	3.9° (S)
+xAcuario15°11'57" Sexo de los hijos	eTrígono	EMercuriodGéminis09°06'54"	6.08° (A)
+xAcuario15°11'57" Sexo de los hijos	wOposición	RVenusgLeo14°00'59"	1.18° (A)
+xAcuario15°11'57" Sexo de los hijos	eTrígono	XMedio CielodGéminis15°27'54"	0.27° (S)
+hVirgo15°06'30" Hileg	rCuadratura	EMercuriodGéminis09°06'54"	5.99° (A)
+hVirgo15°06'30" Hileg	rCuadratura	XMedio CielodGéminis15°27'54"	0.36° (S)
+lSagitario19°07'46" Voluntad y justicia	eTrígono	RVenusgLeo14°00'59"	5.11° (A)
+lSagitario19°07'46" Voluntad y justicia	wOposición	TMartedGéminis24°07'29"	5° (S)
+kEscorpio25°55'04" Madre	oQuincuncio	TMartedGéminis24°07'29"	1.79° (A)
+kEscorpio25°55'04" Madre	qConjunción	YJúpiterlSagitario03°13'31"	7.31° (A)
+kEscorpio25°55'04" Madre	iSemisextil	PPlutónjLibra26°47'23"	0.87° (A)
+kEscorpio08°25'59" Matanza	qConjunción	WLunakEscorpio03°50'08"	4.6° (A)
+kEscorpio08°25'59" Matanza	oQuincuncio	EMercuriodGéminis09°06'54"	0.68° (S)
+kEscorpio08°25'59" Matanza	rCuadratura	RVenusgLeo14°00'59"	5.58° (S)
+jLibra21°23'32" Matrimonio para varones (Hermes)	eTrígono	TMartedGéminis24°07'29"	2.73° (S)
+jLibra21°23'32" Matrimonio para varones (Hermes)	qConjunción	USaturnojLibra27°49'09"	6.43° (A)
+jLibra21°23'32" Matrimonio para varones (Hermes)	qConjunción	PPlutónjLibra26°47'23"	5.4° (A)
+aAries26°23'15" Matrimonio para mujeres (Hermes)	tSextil	QSoldGéminis28°43'20"	2.33° (S)
+aAries26°23'15" Matrimonio para mujeres (Hermes)	wOposición	WLunakEscorpio03°50'08"	7.45° (S)
+aAries26°23'15" Matrimonio para mujeres (Hermes)	tSextil	TMartedGéminis24°07'29"	2.26° (A)
+aAries26°23'15" Matrimonio para mujeres (Hermes)	wOposición	USaturnojLibra27°49'09"	1.43° (A)
+aAries26°23'15" Matrimonio para mujeres (Hermes)	eTrígono	ONeptunolSagitario27°49'59"	1.45° (A)
+aAries26°23'15" Matrimonio para mujeres (Hermes)	wOposición	PPlutónjLibra26°47'23"	0.4° (A)
+kEscorpio19°54'05" Matrimonio (Valens)	rCuadratura	RVenusgLeo14°00'59"	5.89° (A)
+aAries17°23'39" Término o final de las cosas	eTrígono	RVenusgLeo14°00'59"	3.38° (A)
+aAries13°04'31" Muerte	tSextil	EMercuriodGéminis09°06'54"	3.96° (A)
+aAries13°04'31" Muerte	eTrígono	RVenusgLeo14°00'59"	0.94° (S)
+aAries13°04'31" Muerte	eTrígono	IUranolSagitario06°12'22"	6.87° (S)
+xAcuario27°22'15" Muerte (Hermes)	eTrígono	QSoldGéminis28°43'20"	1.35° (S)
+xAcuario27°22'15" Muerte (Hermes)	eTrígono	WLunakEscorpio03°50'08"	6.46° (S)
+xAcuario27°22'15" Muerte (Hermes)	eTrígono	TMartedGéminis24°07'29"	3.25° (A)
+xAcuario27°22'15" Muerte (Hermes)	rCuadratura	YJúpiterlSagitario03°13'31"	5.85° (A)
+xAcuario27°22'15" Muerte (Hermes)	eTrígono	USaturnojLibra27°49'09"	0.45° (A)
+xAcuario27°22'15" Muerte (Hermes)	tSextil	ONeptunolSagitario27°49'59"	0.46° (A)
+xAcuario27°22'15" Muerte (Hermes)	eTrígono	PPlutónjLibra26°47'23"	0.58° (S)
+zCapricornio14°22'39" Muerte (Zaradest)	oQuincuncio	RVenusgLeo14°00'59"	0.36° (A)
+sTauro23°16'45" Navegar	iSemisextil	TMartedGéminis24°07'29"	0.85° (S)
+zCapricornio05°11'43" Rey	wOposición	QSoldGéminis28°43'20"	6.47° (A)
+zCapricornio05°11'43" Rey	tSextil	WLunakEscorpio03°50'08"	1.36° (A)
+zCapricornio05°11'43" Rey	qConjunción	ONeptunolSagitario27°49'59"	7.36° (S)
+zCapricornio05°11'43" Rey	eTrígono	ZAscendentehVirgo06°05'54"	0.9° (S)
+fCáncer08°21'40" Planeta matador	eTrígono	WLunakEscorpio03°50'08"	4.53° (A)
+fCáncer08°21'40" Planeta matador	iSemisextil	EMercuriodGéminis09°06'54"	0.75° (S)
+hVirgo10°41'45" Pleitos y los contrincantes	rCuadratura	EMercuriodGéminis09°06'54"	1.58° (A)
+hVirgo10°41'45" Pleitos y los contrincantes	rCuadratura	IUranolSagitario06°12'22"	4.49° (S)
+zCapricornio15°48'33" Lugares sobre los que se ejercerá el cargo	oQuincuncio	RVenusgLeo14°00'59"	1.79° (A)
+zCapricornio15°48'33" Lugares sobre los que se ejercerá el cargo	oQuincuncio	XMedio CielodGéminis15°27'54"	0.34° (A)
+jLibra20°34'42" Profesión y reino (B)	eTrígono	TMartedGéminis24°07'29"	3.55° (S)
+jLibra20°34'42" Profesión y reino (B)	qConjunción	USaturnojLibra27°49'09"	7.24° (A)
+jLibra20°34'42" Profesión y reino (B)	qConjunción	PPlutónjLibra26°47'23"	6.21° (A)
+hVirgo12°06'53" Propiedades (A)	rCuadratura	EMercuriodGéminis09°06'54"	3° (A)
+hVirgo12°06'53" Propiedades (A)	rCuadratura	IUranolSagitario06°12'22"	5.91° (S)
+kEscorpio10°03'31" Propiedades (B)	qConjunción	WLunakEscorpio03°50'08"	6.22° (A)
+kEscorpio10°03'31" Propiedades (B)	oQuincuncio	EMercuriodGéminis09°06'54"	0.94° (A)
+kEscorpio10°03'31" Propiedades (B)	rCuadratura	RVenusgLeo14°00'59"	3.96° (S)
+fCáncer23°30'52" Dignidad (1)	iSemisextil	TMartedGéminis24°07'29"	0.61° (S)
+fCáncer23°30'52" Dignidad (1)	rCuadratura	USaturnojLibra27°49'09"	4.3° (A)
+fCáncer23°30'52" Dignidad (1)	rCuadratura	PPlutónjLibra26°47'23"	3.28° (A)
+xAcuario10°36'05" Recuperar el cargo	eTrígono	EMercuriodGéminis09°06'54"	1.49° (A)
+xAcuario10°36'05" Recuperar el cargo	wOposición	RVenusgLeo14°00'59"	3.41° (S)
+aAries02°19'20" Perder el cargo	rCuadratura	QSoldGéminis28°43'20"	3.6° (A)
+aAries02°19'20" Perder el cargo	oQuincuncio	WLunakEscorpio03°50'08"	1.51° (S)
+aAries02°19'20" Perder el cargo	eTrígono	YJúpiterlSagitario03°13'31"	0.9° (A)
+aAries02°19'20" Perder el cargo	eTrígono	IUranolSagitario06°12'22"	3.88° (A)
+aAries02°19'20" Perder el cargo	rCuadratura	ONeptunolSagitario27°49'59"	4.49° (S)
+hVirgo21°06'29" Seso, alta reflexión y razón (Abumaxar)	rCuadratura	TMartedGéminis24°07'29"	3.02° (S)
+xAcuario00°49'09" Siervos o empleados, recaderos y mensajeros	rCuadratura	WLunakEscorpio03°50'08"	3.02° (S)
+xAcuario00°49'09" Siervos o empleados, recaderos y mensajeros	tSextil	YJúpiterlSagitario03°13'31"	2.41° (A)
+xAcuario00°49'09" Siervos o empleados, recaderos y mensajeros	rCuadratura	USaturnojLibra27°49'09"	3° (S)
+xAcuario00°49'09" Siervos o empleados, recaderos y mensajeros	rCuadratura	PPlutónjLibra26°47'23"	4.03° (S)
+dGéminis12°57'56" Viajes	qConjunción	EMercuriodGéminis09°06'54"	3.85° (A)
+dGéminis12°57'56" Viajes	tSextil	RVenusgLeo14°00'59"	1.05° (S)
+dGéminis12°57'56" Viajes	wOposición	IUranolSagitario06°12'22"	6.76° (S)
+aAries08°20'19" Victoria, buena andanza, escapamiento y defensa	tSextil	EMercuriodGéminis09°06'54"	0.78° (S)
+aAries08°20'19" Victoria, buena andanza, escapamiento y defensa	eTrígono	RVenusgLeo14°00'59"	5.68° (S)
+aAries08°20'19" Victoria, buena andanza, escapamiento y defensa	eTrígono	YJúpiterlSagitario03°13'31"	5.11° (S)
+aAries08°20'19" Victoria, buena andanza, escapamiento y defensa	eTrígono	IUranolSagitario06°12'22"	2.13° (S)
+Planetas, casas y aspectos en la carta natal:
+
+Planeta	Casa
+QSolSol	dGéminis28°43'20"	10
+WLunaLuna	kEscorpio03°50'08"	2
+EMercurioMercurio	dGéminis09°06'54"	9
+RVenusVenus	gLeo14°00'59"	12
+TMarteMarte	dGéminis24°07'29"	10
+YJúpiterJúpiter	lSagitario03°13'31"R	3
+USaturnoSaturno	jLibra27°49'09"R	2
+IUranoUrano	lSagitario06°12'22"R	3
+ONeptunoNeptuno	lSagitario27°49'59"R	4
+PPlutónPlutón	jLibra26°47'23"R	2
+Casas (Placidus)
+Casa 1 (AC)	hVirgo06°05'54"
+Casa 2	jLibra19°05'30"
+Casa 3	kEscorpio20°53'00"
+Casa 4	lSagitario15°27'54"
+Casa 5	zCapricornio07°53'48"
+Casa 6	xAcuario02°39'31"
+Casa 7	cPiscis06°05'54"
+Casa 8	aAries19°05'30"
+Casa 9	sTauro20°53'00"
+Casa 10 (MC)	dGéminis15°27'54"
+Casa 11	fCáncer07°53'48"
+Casa 12	gLeo02°39'31"
+Planeta	Aspecto	Planeta	Orbes
+QSolSol	eTrígono	WLunaLuna	5.11° (S)
+QSolSol	qConjunción	TMarteMarte	4.6° (S)
+QSolSol	eTrígono	USaturnoSaturno	0.9° (S)
+QSolSol	wOposición	ONeptunoNeptuno	0.89° (S)
+QSolSol	eTrígono	PPlutónPlutón	1.93° (S)
+WLunaLuna	iSemisextil	YJúpiterJúpiter	0.61° (S)
+WLunaLuna	qConjunción	USaturnoSaturno	6.02° (S)
+WLunaLuna	qConjunción	PPlutónPlutón	7.05° (S)
+EMercurioMercurio	wOposición	YJúpiterJúpiter	5.89° (S)
+EMercurioMercurio	wOposición	IUranoUrano	2.91° (S)
+TMarteMarte	eTrígono	USaturnoSaturno	3.69° (A)
+TMarteMarte	wOposición	ONeptunoNeptuno	3.71° (A)
+TMarteMarte	eTrígono	PPlutónPlutón	2.66° (A)
+YJúpiterJúpiter	qConjunción	IUranoUrano	2.98° (S)
+USaturnoSaturno	tSextil	ONeptunoNeptuno	0.01° (A)
+USaturnoSaturno	qConjunción	PPlutónPlutón	1.03° (A)
+IUranoUrano	rCuadratura	ZAscendenteAscendente	0.11° (A)
+ONeptunoNeptuno	tSextil	PPlutónPlutón	1.04° (A)
+45 Partes arábigas según Ben Ragel
+A continuación se listan las partes arábigas en el mismo orden en el que aparecen en el artículo Las partes arábigas en la astrología tradicional de Adela Ferrer, que es una recopilación y explicación de las partes que expone Ben Ragel en el Libro conplido en los iudicios de las estrellas.
+
+En el mismo enlace encontrarás el significado, fórmulas empleadas e interpretación de cada una de estas partes arábigas.
+
+ Selecciona las partes que quieras incluir en el gráfico de tu carta natal y pulsa el botón "Ver"
+Fortuna	Ascendente + Luna - Sol =	zCapricornio11°12'42"
+Infortunio	Ascendente + Marte - Saturno =	sTauro02°24'14"
+Amigos	Ascendente + Mercurio - Luna =	aAries11°22'40"
+Amor y amistad	Ascendente + P. Fortuna - Venus =	xAcuario03°17'37"
+Arar y sembrar	Ascendente + P. Fortuna - Saturno =	kEscorpio19°29'27"
+Audacia y fortaleza	Ascendente + P. Fortuna - Marte =	cPiscis23°11'07"
+Azemena o enfermedad	Ascendente + Marte - Saturno =	sTauro02°24'14"
+Lugar de la enfermedad	0 + Sol - Regente de 1 =	aAries19°36'27"
+Buena suerte en las luchas	Ascendente + Marte - Sol =	hVirgo01°30'03"
+Celada (Espíritu)	Ascendente + Sol - Luna =	sTauro00°59'06"
+Copulación o amor de hombre	Ascendente + Venus - Marte =	jLibra25°59'24"
+Delicias y sabor	Ascendente + P. Celada - P. Fortuna =	lSagitario25°52'18"
+Enemigos	Ascendente + Marte - Saturno =	sTauro02°24'14"
+Enemigos (Hermes)	Ascendente + Casa 12 - Regente de 12 =	jLibra10°02'05"
+Esperanza	Ascendente + Venus - Saturno =	dGéminis22°17'43"
+Firmeza, crecimiento y limpieza	Ascendente + P. Celada - P. Fortuna =	lSagitario25°52'18"
+Haber	Ascendente + Casa 2 - Regente de 2 =	kEscorpio11°10'26"
+Hermanos	Ascendente + Júpiter - Saturno =	jLibra11°30'16"
+Número de hermanos	Ascendente + Saturno - Mercurio =	zCapricornio24°48'10"
+Hijos	Ascendente + Saturno - Júpiter =	gLeo00°41'32"
+Sexo de los hijos	Ascendente + Júpiter - Marte =	xAcuario15°11'57"
+Hileg	Ascendente + Sol - 79°42′45″ =	hVirgo15°06'30"
+Ley	Ascendente + Venus - P. Celada =	lSagitario19°07'46"
+Madre	Ascendente + Luna - Venus =	kEscorpio25°55'04"
+Matanza	Sol + Luna - Marte =	kEscorpio08°25'59"
+Matrimonio para varones (Hermes)	Ascendente + Venus - Sol =	jLibra21°23'32"
+Matrimonio para mujeres (Hermes)	Ascendente + Marte - Luna =	aAries26°23'15"
+Matrimonio (Valens)	Ascendente + Saturno - Venus =	kEscorpio19°54'05"
+Mercancía	Ascendente + Mercurio - Saturno =	aAries17°23'39"
+Muerte	Saturno + Casa 8 - Luna =	aAries13°04'31"
+Muerte (Hermes)	Ascendente + Casa 8 - Saturno =	xAcuario27°22'15"
+Muerte (Zaradest)	Ascendente + Casa 7 - Saturno =	zCapricornio14°22'39"
+Navegar	Ascendente + 105 - Saturno =	sTauro23°16'45"
+Padres	Ascendente + Saturno - Sol =	zCapricornio05°11'43"
+Paz	Ascendente + Mercurio - Luna =	aAries11°22'40"
+Planeta matador	Ascendente + Ascendente - Luna =	fCáncer08°21'40"
+Pleitos y los contrincantes	Ascendente + Sol - Marte =	hVirgo10°41'45"
+Profesión y reino (A)	Ascendente + Luna - Marte =	zCapricornio15°48'33"
+Profesión y reino (B)	Medio Cielo + Luna - Sol =	jLibra20°34'42"
+Profesión y reino (C)	Ascendente + Luna - Saturno =	hVirgo12°06'53"
+Propiedades (A)	Ascendente + Luna - Saturno =	hVirgo12°06'53"
+Propiedades (B)	Casa 4 + Saturno - Regente de 4 =	kEscorpio10°03'31"
+Religión	Ascendente + Mercurio - Luna =	aAries11°22'40"
+Rey	Ascendente + Saturno - Sol =	zCapricornio05°11'43"
+Dignidad (1)	Ascendente + Júpiter - P. Profesión y reino (A) =	fCáncer23°30'52"
+Dignidad (2)	Ascendente + Júpiter - Sol =	xAcuario10°36'05"
+Perder el cargo	Saturno + Júpiter - Sol =	aAries02°19'20"
+Recuperar el cargo	Ascendente + Júpiter - Sol =	xAcuario10°36'05"
+Lugares sobre los que se ejercerá el cargo	Ascendente + Luna - Marte =	zCapricornio15°48'33"
+Seso, alta reflexión y razón (Hermes)	Ascendente + Mercurio - Saturno =	aAries17°23'39"
+Seso, alta reflexión y razón (Abumaxar)	Ascendente + Marte - Mercurio =	hVirgo21°06'29"
+Siervos o empleados, recaderos y mensajeros	Ascendente + Luna - Mercurio =	xAcuario00°49'09"
+Término o final de las cosas	Ascendente + Mercurio - Saturno =	aAries17°23'39"
+Viajes	Ascendente + Casa 9 - Regente de 9 =	dGéminis12°57'56"
+Victoria, buena andanza, escapamiento y defensa	Ascendente + Júpiter - P. Celada =	aAries08°20'19"
+Vida	Ascendente + Saturno - Júpiter =	gLeo00°41'32"
+Voluntad y justicia	Ascendente + Venus - P. Celada =	lSagitario19°07'46"
+
+
+
+
+
+
+
+
+
+
+
+CALCULADORA DE PARTES ARÁBIGAS
+CARTA NATAL
+
+Avellaneda (Buenos Aires), Argentina
+Latitud: 34°39′37″S
+Longitud: 58°22′03″W
+
+04/06/1997 22:00:00 (-03)
+Zona Horaria: UT -3:00:00
+Fecha UT: 05/06/1997
+Hora UT: 01:00:00
+
+  
+NOCHENOCHE
+Fase lunar: Cuarto menguante 86.87°
+
+Lunaciones
+AC 0 Aries
+Amanecer
+Nodo en AC
+Lunación anterior
+Luna Llena
+22/05/1997
+09:13:24 UT
+Lunación posterior
+Luna Nueva
+05/06/1997
+22:59:01 UT
+Ver/Ocultar OpcionesOPCIONES
+AspectosOrbesCasasRegentesCalculadorasGráfico
+PARTES ARÁBIGAS
+Carta eclíptica
+
+Seleccione sistema de división de casas:
+
+Casas
+Placidus
+
+Aspectos a las partes arábigas
+Planetas, casas y aspectos en la carta natal
+45 Partes arábigas según Ben Ragel
++Partes arábigas
+(Haz clic en la imagen para verla completa. Incluye datos natales y posición de planetas y casas.)
+Signo Solar: Géminis
+Signo Lunar: Géminis
+Ascendente: Acuario
+ Imagen  PDF
+
+Aspectos a las partes arábigas:
+
+Parte arábigaOrdenar por Parte	AspectoOrdenar por aspecto	PlanetaOrdenar por planeta	OrbeOrdenar por orbe
+xAcuario13°30'40" Fortuna	eTrígono	QSoldGéminis14°25'11"	0.91° (S)
+xAcuario13°30'40" Fortuna	eTrígono	WLunadGéminis11°17'25"	2.22° (A)
+xAcuario13°30'40" Fortuna	qConjunción	IUranoxAcuario08°27'52"	5.05° (S)
+hVirgo03°44'51" Enemigos	tSextil	RVenusfCáncer01°03'19"	2.69° (A)
+hVirgo03°44'51" Enemigos	rCuadratura	PPlutónlSagitario03°56'28"	0.19° (A)
+zCapricornio22°33'07" Paz	eTrígono	EMercuriosTauro23°27'38"	0.91° (S)
+zCapricornio22°33'07" Paz	eTrígono	TMartehVirgo24°19'11"	1.77° (S)
+zCapricornio22°33'07" Paz	iSemisextil	YJúpiterxAcuario21°54'04"	0.65° (A)
+zCapricornio22°33'07" Paz	rCuadratura	USaturnoaAries17°41'08"	4.87° (A)
+zCapricornio22°33'07" Paz	qConjunción	ONeptunozCapricornio29°39'29"	7.11° (A)
+hVirgo22°50'14" Amor y amistad	eTrígono	EMercuriosTauro23°27'38"	0.62° (S)
+hVirgo22°50'14" Amor y amistad	qConjunción	TMartehVirgo24°19'11"	1.48° (S)
+hVirgo22°50'14" Amor y amistad	oQuincuncio	YJúpiterxAcuario21°54'04"	0.94° (A)
+hVirgo22°50'14" Amor y amistad	eTrígono	ONeptunozCapricornio29°39'29"	6.82° (A)
+aAries14°33'22" Arar y sembrar	tSextil	QSoldGéminis14°25'11"	0.14° (A)
+aAries14°33'22" Arar y sembrar	tSextil	WLunadGéminis11°17'25"	3.27° (A)
+aAries14°33'22" Arar y sembrar	qConjunción	USaturnoaAries17°41'08"	3.13° (S)
+dGéminis29°34'23" Audacia y fortaleza	qConjunción	RVenusfCáncer01°03'19"	1.48° (S)
+dGéminis29°34'23" Audacia y fortaleza	rCuadratura	TMartehVirgo24°19'11"	5.25° (A)
+dGéminis29°34'23" Audacia y fortaleza	oQuincuncio	ONeptunozCapricornio29°39'29"	0.08° (A)
+sTauro26°44'03" Lugar de la enfermedad	qConjunción	EMercuriosTauro23°27'38"	3.27° (A)
+sTauro26°44'03" Lugar de la enfermedad	eTrígono	TMartehVirgo24°19'11"	2.41° (A)
+sTauro26°44'03" Lugar de la enfermedad	rCuadratura	YJúpiterxAcuario21°54'04"	4.83° (A)
+sTauro26°44'03" Lugar de la enfermedad	eTrígono	ONeptunozCapricornio29°39'29"	2.92° (A)
+sTauro26°44'03" Lugar de la enfermedad	wOposición	PPlutónlSagitario03°56'28"	7.21° (A)
+sTauro20°16'53" Pleitos y los contrincantes	qConjunción	EMercuriosTauro23°27'38"	3.18° (S)
+sTauro20°16'53" Pleitos y los contrincantes	eTrígono	TMartehVirgo24°19'11"	4.04° (S)
+sTauro20°16'53" Pleitos y los contrincantes	rCuadratura	YJúpiterxAcuario21°54'04"	1.62° (S)
+xAcuario07°15'08" Celada (Espíritu)	eTrígono	WLunadGéminis11°17'25"	4.04° (S)
+xAcuario07°15'08" Celada (Espíritu)	qConjunción	IUranoxAcuario08°27'52"	1.21° (A)
+xAcuario07°15'08" Celada (Espíritu)	qConjunción	ONeptunozCapricornio29°39'29"	7.59° (S)
+xAcuario07°15'08" Celada (Espíritu)	tSextil	PPlutónlSagitario03°56'28"	3.31° (S)
+kEscorpio17°07'02" Copulación o amor de hombre	wOposición	EMercuriosTauro23°27'38"	6.34° (S)
+kEscorpio17°07'02" Copulación o amor de hombre	rCuadratura	YJúpiterxAcuario21°54'04"	4.78° (S)
+kEscorpio17°07'02" Copulación o amor de hombre	oQuincuncio	USaturnoaAries17°41'08"	0.57° (S)
+xAcuario16°38'26" Firmeza, crecimiento y limpieza	eTrígono	QSoldGéminis14°25'11"	2.22° (A)
+xAcuario16°38'26" Firmeza, crecimiento y limpieza	eTrígono	WLunadGéminis11°17'25"	5.35° (A)
+xAcuario16°38'26" Firmeza, crecimiento y limpieza	qConjunción	YJúpiterxAcuario21°54'04"	5.26° (S)
+xAcuario16°38'26" Firmeza, crecimiento y limpieza	tSextil	USaturnoaAries17°41'08"	1.05° (S)
+kEscorpio03°17'12" Enemigos (Hermes)	eTrígono	RVenusfCáncer01°03'19"	2.23° (A)
+kEscorpio03°17'12" Enemigos (Hermes)	rCuadratura	IUranoxAcuario08°27'52"	5.18° (A)
+kEscorpio03°17'12" Enemigos (Hermes)	rCuadratura	ONeptunozCapricornio29°39'29"	3.63° (S)
+kEscorpio03°17'12" Enemigos (Hermes)	iSemisextil	PPlutónlSagitario03°56'28"	0.65° (A)
+kEscorpio03°17'12" Enemigos (Hermes)	qConjunción	XMedio CielokEscorpio02°19'07"	0.97° (A)
+kEscorpio27°00'42" Matrimonio (Valens)	wOposición	EMercuriosTauro23°27'38"	3.55° (A)
+kEscorpio27°00'42" Matrimonio (Valens)	tSextil	TMartehVirgo24°19'11"	2.69° (A)
+kEscorpio27°00'42" Matrimonio (Valens)	rCuadratura	YJúpiterxAcuario21°54'04"	5.11° (A)
+kEscorpio27°00'42" Matrimonio (Valens)	tSextil	ONeptunozCapricornio29°39'29"	2.65° (A)
+kEscorpio27°00'42" Matrimonio (Valens)	qConjunción	PPlutónlSagitario03°56'28"	6.93° (A)
+xAcuario21°31'29" Haber	rCuadratura	EMercuriosTauro23°27'38"	1.94° (S)
+xAcuario21°31'29" Haber	qConjunción	YJúpiterxAcuario21°54'04"	0.38° (S)
+xAcuario21°31'29" Haber	tSextil	USaturnoaAries17°41'08"	3.84° (A)
+lSagitario14°35'49" Vida	wOposición	QSoldGéminis14°25'11"	0.18° (A)
+lSagitario14°35'49" Vida	wOposición	WLunadGéminis11°17'25"	3.31° (A)
+lSagitario14°35'49" Vida	eTrígono	USaturnoaAries17°41'08"	3.09° (S)
+zCapricornio04°36'23" Seso, alta reflexión y razón (Hermes)	wOposición	RVenusfCáncer01°03'19"	3.55° (A)
+zCapricornio04°36'23" Seso, alta reflexión y razón (Hermes)	iSemisextil	PPlutónlSagitario03°56'28"	0.67° (S)
+fCáncer07°57'47" Sexo de los hijos	qConjunción	RVenusfCáncer01°03'19"	6.91° (A)
+fCáncer07°57'47" Sexo de los hijos	oQuincuncio	IUranoxAcuario08°27'52"	0.5° (A)
+gLeo23°28'56" Hileg	rCuadratura	EMercuriosTauro23°27'38"	0.02° (A)
+gLeo23°28'56" Hileg	iSemisextil	TMartehVirgo24°19'11"	0.84° (S)
+gLeo23°28'56" Hileg	wOposición	YJúpiterxAcuario21°54'04"	1.58° (A)
+gLeo23°28'56" Hileg	eTrígono	USaturnoaAries17°41'08"	5.8° (A)
+fCáncer04°11'05" Voluntad y justicia	qConjunción	RVenusfCáncer01°03'19"	3.13° (A)
+fCáncer04°11'05" Voluntad y justicia	oQuincuncio	PPlutónlSagitario03°56'28"	0.24° (S)
+cPiscis00°08'48" Madre	eTrígono	RVenusfCáncer01°03'19"	0.91° (S)
+cPiscis00°08'48" Madre	iSemisextil	ONeptunozCapricornio29°39'29"	0.49° (S)
+cPiscis00°08'48" Madre	rCuadratura	PPlutónlSagitario03°56'28"	3.79° (A)
+cPiscis01°23'26" Matanza	eTrígono	RVenusfCáncer01°03'19"	0.34° (A)
+cPiscis01°23'26" Matanza	rCuadratura	PPlutónlSagitario03°56'28"	2.55° (A)
+cPiscis01°23'26" Matanza	eTrígono	XMedio CielokEscorpio02°19'07"	0.93° (S)
+xAcuario27°01'02" Matrimonio para varones (Hermes)	rCuadratura	EMercuriosTauro23°27'38"	3.56° (A)
+xAcuario27°01'02" Matrimonio para varones (Hermes)	eTrígono	RVenusfCáncer01°03'19"	4.04° (S)
+xAcuario27°01'02" Matrimonio para varones (Hermes)	qConjunción	YJúpiterxAcuario21°54'04"	5.12° (A)
+sTauro23°24'39" Lugares sobre los que se ejercerá el cargo	qConjunción	EMercuriosTauro23°27'38"	0.05° (S)
+sTauro23°24'39" Lugares sobre los que se ejercerá el cargo	eTrígono	TMartehVirgo24°19'11"	0.91° (S)
+sTauro23°24'39" Lugares sobre los que se ejercerá el cargo	rCuadratura	YJúpiterxAcuario21°54'04"	1.51° (A)
+sTauro23°24'39" Lugares sobre los que se ejercerá el cargo	eTrígono	ONeptunozCapricornio29°39'29"	6.25° (A)
+cPiscis16°09'24" Mercancía	rCuadratura	QSoldGéminis14°25'11"	1.74° (A)
+cPiscis16°09'24" Mercancía	rCuadratura	WLunadGéminis11°17'25"	4.87° (A)
+fCáncer09°26'22" Muerte	oQuincuncio	IUranoxAcuario08°27'52"	0.97° (S)
+fCáncer09°26'22" Muerte	oQuincuncio	ZAscendentexAcuario10°22'54"	0.94° (S)
+dGéminis25°44'25" Muerte (Hermes)	qConjunción	RVenusfCáncer01°03'19"	5.32° (S)
+dGéminis25°44'25" Muerte (Hermes)	rCuadratura	TMartehVirgo24°19'11"	1.42° (A)
+dGéminis25°44'25" Muerte (Hermes)	eTrígono	YJúpiterxAcuario21°54'04"	3.84° (A)
+dGéminis03°04'40" Muerte (Zaradest)	eTrígono	IUranoxAcuario08°27'52"	5.39° (A)
+dGéminis03°04'40" Muerte (Zaradest)	eTrígono	ONeptunozCapricornio29°39'29"	3.42° (S)
+dGéminis03°04'40" Muerte (Zaradest)	wOposición	PPlutónlSagitario03°56'28"	0.86° (A)
+dGéminis03°04'40" Muerte (Zaradest)	oQuincuncio	XMedio CielokEscorpio02°19'07"	0.76° (A)
+kEscorpio13°04'02" Navegar	oQuincuncio	QSoldGéminis14°25'11"	1.35° (S)
+kEscorpio13°04'02" Navegar	oQuincuncio	WLunadGéminis11°17'25"	1.78° (A)
+kEscorpio13°04'02" Navegar	rCuadratura	IUranoxAcuario08°27'52"	4.6° (S)
+aAries07°06'57" Rey	tSextil	IUranoxAcuario08°27'52"	1.35° (A)
+aAries07°06'57" Rey	eTrígono	PPlutónlSagitario03°56'28"	3.17° (S)
+dGéminis11°17'25" Planeta matador	qConjunción	QSoldGéminis14°25'11"	3.13° (S)
+dGéminis11°17'25" Planeta matador	qConjunción	WLunadGéminis11°17'25"	0° (P)
+dGéminis11°17'25" Planeta matador	eTrígono	IUranoxAcuario08°27'52"	2.83° (S)
+dGéminis11°17'25" Planeta matador	wOposición	PPlutónlSagitario03°56'28"	7.35° (S)
+dGéminis11°17'25" Planeta matador	eTrígono	ZAscendentexAcuario10°22'54"	0.91° (A)
+kEscorpio05°26'53" Profesión y reino (B)	eTrígono	RVenusfCáncer01°03'19"	4.39° (A)
+kEscorpio05°26'53" Profesión y reino (B)	rCuadratura	IUranoxAcuario08°27'52"	3.02° (A)
+kEscorpio05°26'53" Profesión y reino (B)	rCuadratura	ONeptunozCapricornio29°39'29"	5.79° (S)
+lSagitario16°46'37" Profesión y reino (C)	wOposición	QSoldGéminis14°25'11"	2.36° (A)
+lSagitario16°46'37" Profesión y reino (C)	wOposición	WLunadGéminis11°17'25"	5.49° (A)
+lSagitario16°46'37" Profesión y reino (C)	eTrígono	USaturnoaAries17°41'08"	0.91° (S)
+aAries03°59'11" Propiedades (A)	rCuadratura	RVenusfCáncer01°03'19"	2.93° (A)
+aAries03°59'11" Propiedades (A)	eTrígono	PPlutónlSagitario03°56'28"	0.05° (S)
+fCáncer15°41'18" Propiedades (B)	rCuadratura	USaturnoaAries17°41'08"	2° (S)
+xAcuario28°12'41" Siervos o empleados, recaderos y mensajeros	rCuadratura	EMercuriosTauro23°27'38"	4.75° (A)
+xAcuario28°12'41" Siervos o empleados, recaderos y mensajeros	eTrígono	RVenusfCáncer01°03'19"	2.84° (S)
+xAcuario28°12'41" Siervos o empleados, recaderos y mensajeros	qConjunción	YJúpiterxAcuario21°54'04"	6.31° (A)
+xAcuario28°12'41" Siervos o empleados, recaderos y mensajeros	rCuadratura	PPlutónlSagitario03°56'28"	5.73° (A)
+kEscorpio08°52'18" Dignidad (1)	rCuadratura	IUranoxAcuario08°27'52"	0.41° (S)
+zCapricornio19°22'22" Dignidad (2)	eTrígono	EMercuriosTauro23°27'38"	4.09° (S)
+zCapricornio19°22'22" Dignidad (2)	eTrígono	TMartehVirgo24°19'11"	4.95° (S)
+zCapricornio19°22'22" Dignidad (2)	rCuadratura	USaturnoaAries17°41'08"	1.69° (A)
+lSagitario25°10'00" Perder el cargo	oQuincuncio	EMercuriosTauro23°27'38"	1.71° (A)
+lSagitario25°10'00" Perder el cargo	wOposición	RVenusfCáncer01°03'19"	5.89° (S)
+lSagitario25°10'00" Perder el cargo	rCuadratura	TMartehVirgo24°19'11"	0.85° (A)
+lSagitario25°10'00" Perder el cargo	tSextil	YJúpiterxAcuario21°54'04"	3.27° (A)
+jLibra17°51'46" Recuperar el cargo	eTrígono	QSoldGéminis14°25'11"	3.44° (A)
+jLibra17°51'46" Recuperar el cargo	eTrígono	WLunadGéminis11°17'25"	6.57° (A)
+jLibra17°51'46" Recuperar el cargo	eTrígono	YJúpiterxAcuario21°54'04"	4.04° (S)
+jLibra17°51'46" Recuperar el cargo	wOposición	USaturnoaAries17°41'08"	0.18° (A)
+jLibra09°31'21" Seso, alta reflexión y razón (Abumaxar)	eTrígono	QSoldGéminis14°25'11"	4.9° (S)
+jLibra09°31'21" Seso, alta reflexión y razón (Abumaxar)	eTrígono	WLunadGéminis11°17'25"	1.77° (S)
+jLibra09°31'21" Seso, alta reflexión y razón (Abumaxar)	eTrígono	IUranoxAcuario08°27'52"	1.06° (S)
+jLibra09°31'21" Seso, alta reflexión y razón (Abumaxar)	eTrígono	ZAscendentexAcuario10°22'54"	0.86° (S)
+sTauro09°27'26" Viajes	rCuadratura	IUranoxAcuario08°27'52"	0.99° (S)
+sTauro09°27'26" Viajes	rCuadratura	ZAscendentexAcuario10°22'54"	0.92° (S)
+zCapricornio25°43'58" Victoria, buena andanza, escapamiento y defensa	eTrígono	EMercuriosTauro23°27'38"	2.27° (A)
+zCapricornio25°43'58" Victoria, buena andanza, escapamiento y defensa	eTrígono	TMartehVirgo24°19'11"	1.41° (A)
+zCapricornio25°43'58" Victoria, buena andanza, escapamiento y defensa	qConjunción	ONeptunozCapricornio29°39'29"	3.93° (A)
+Planetas, casas y aspectos en la carta natal:
+
+Planeta	Casa
+QSolSol	dGéminis14°25'11"	5
+WLunaLuna	dGéminis11°17'25"	5
+EMercurioMercurio	sTauro23°27'38"	4
+RVenusVenus	fCáncer01°03'19"	5
+TMarteMarte	hVirgo24°19'11"	8
+YJúpiterJúpiter	xAcuario21°54'04"	1
+USaturnoSaturno	aAries17°41'08"	3
+IUranoUrano	xAcuario08°27'52"R	12 » 1
+ONeptunoNeptuno	zCapricornio29°39'29"R	12
+PPlutónPlutón	lSagitario03°56'28"R	10 » 11
+Casas (Placidus)
+Casa 1 (AC)	xAcuario10°22'54"
+Casa 2	cPiscis03°02'39"
+Casa 3	aAries00°07'52"
+Casa 4	sTauro02°19'07"
+Casa 5	dGéminis07°13'06"
+Casa 6	fCáncer10°35'26"
+Casa 7	gLeo10°22'54"
+Casa 8	hVirgo03°02'39"
+Casa 9	jLibra00°07'52"
+Casa 10 (MC)	kEscorpio02°19'07"
+Casa 11	lSagitario07°13'06"
+Casa 12	zCapricornio10°35'26"
+Planeta	Aspecto	Planeta	Orbes
+QSolSol	qConjunción	WLunaLuna	3.13° (A)
+QSolSol	tSextil	USaturnoSaturno	3.27° (A)
+QSolSol	eTrígono	IUranoUrano	5.96° (S)
+WLunaLuna	eTrígono	IUranoUrano	2.83° (S)
+WLunaLuna	wOposición	PPlutónPlutón	7.35° (S)
+WLunaLuna	eTrígono	ZAscendenteAscendente	0.91° (A)
+EMercurioMercurio	eTrígono	TMarteMarte	0.86° (A)
+EMercurioMercurio	rCuadratura	YJúpiterJúpiter	1.56° (S)
+EMercurioMercurio	eTrígono	ONeptunoNeptuno	6.2° (A)
+RVenusVenus	oQuincuncio	ONeptunoNeptuno	1.4° (S)
+TMarteMarte	eTrígono	ONeptunoNeptuno	5.34° (A)
+IUranoUrano	qConjunción	ZAscendenteAscendente	1.92° (S)
+45 Partes arábigas según Ben Ragel
+A continuación se listan las partes arábigas en el mismo orden en el que aparecen en el artículo Las partes arábigas en la astrología tradicional de Adela Ferrer, que es una recopilación y explicación de las partes que expone Ben Ragel en el Libro conplido en los iudicios de las estrellas.
+
+En el mismo enlace encontrarás el significado, fórmulas empleadas e interpretación de cada una de estas partes arábigas.
+
+ Selecciona las partes que quieras incluir en el gráfico de tu carta natal y pulsa el botón "Ver"
+Fortuna	Ascendente + Sol - Luna =	xAcuario13°30'40"
+Infortunio	Ascendente + Saturno - Marte =	hVirgo03°44'51"
+Amigos	Ascendente + Mercurio - Luna =	zCapricornio22°33'07"
+Amor y amistad	Ascendente + P. Fortuna - Venus =	hVirgo22°50'14"
+Arar y sembrar	Ascendente + Saturno - P. Fortuna =	aAries14°33'22"
+Audacia y fortaleza	Ascendente + P. Fortuna - Marte =	dGéminis29°34'23"
+Azemena o enfermedad	Ascendente + Saturno - Marte =	hVirgo03°44'51"
+Lugar de la enfermedad	0 + Sol - Regente de 1 =	sTauro26°44'03"
+Buena suerte en las luchas	Ascendente + Marte - Sol =	sTauro20°16'53"
+Celada (Espíritu)	Ascendente + Luna - Sol =	xAcuario07°15'08"
+Copulación o amor de hombre	Ascendente + Venus - Marte =	kEscorpio17°07'02"
+Delicias y sabor	Ascendente + P. Fortuna - P. Celada =	xAcuario16°38'26"
+Enemigos	Ascendente + Saturno - Marte =	hVirgo03°44'51"
+Enemigos (Hermes)	Ascendente + Casa 12 - Regente de 12 =	kEscorpio03°17'12"
+Esperanza	Ascendente + Saturno - Venus =	kEscorpio27°00'42"
+Firmeza, crecimiento y limpieza	Ascendente + P. Fortuna - P. Celada =	xAcuario16°38'26"
+Haber	Ascendente + Casa 2 - Regente de 2 =	xAcuario21°31'29"
+Hermanos	Ascendente + Júpiter - Saturno =	lSagitario14°35'49"
+Número de hermanos	Ascendente + Saturno - Mercurio =	zCapricornio04°36'23"
+Hijos	Ascendente + Júpiter - Saturno =	lSagitario14°35'49"
+Sexo de los hijos	Ascendente + Júpiter - Marte =	fCáncer07°57'47"
+Hileg	Ascendente + Sol - 241°19′08″ =	gLeo23°28'56"
+Ley	Ascendente + Venus - P. Celada =	fCáncer04°11'05"
+Madre	Ascendente + Venus - Luna =	cPiscis00°08'48"
+Matanza	Sol + Luna - Marte =	cPiscis01°23'26"
+Matrimonio para varones (Hermes)	Ascendente + Venus - Sol =	xAcuario27°01'02"
+Matrimonio para mujeres (Hermes)	Ascendente + Marte - Luna =	sTauro23°24'39"
+Matrimonio (Valens)	Ascendente + Saturno - Venus =	kEscorpio27°00'42"
+Mercancía	Ascendente + Mercurio - Saturno =	cPiscis16°09'24"
+Muerte	Saturno + Casa 8 - Luna =	fCáncer09°26'22"
+Muerte (Hermes)	Ascendente + Casa 8 - Saturno =	dGéminis25°44'25"
+Muerte (Zaradest)	Ascendente + Casa 7 - Saturno =	dGéminis03°04'40"
+Navegar	Ascendente + Saturno - 105 =	kEscorpio13°04'02"
+Padres	Ascendente + Sol - Saturno =	aAries07°06'57"
+Paz	Ascendente + Mercurio - Luna =	zCapricornio22°33'07"
+Planeta matador	Ascendente + Luna - Ascendente =	dGéminis11°17'25"
+Pleitos y los contrincantes	Ascendente + Marte - Sol =	sTauro20°16'53"
+Profesión y reino (A)	Ascendente + Marte - Luna =	sTauro23°24'39"
+Profesión y reino (B)	Medio Cielo + Sol - Luna =	kEscorpio05°26'53"
+Profesión y reino (C)	Ascendente + Saturno - Luna =	lSagitario16°46'37"
+Propiedades (A)	Ascendente + Luna - Saturno =	aAries03°59'11"
+Propiedades (B)	Casa 4 + Regente de 4 - Saturno =	fCáncer15°41'18"
+Religión	Ascendente + Luna - Mercurio =	xAcuario28°12'41"
+Rey	Ascendente + Sol - Saturno =	aAries07°06'57"
+Dignidad (1)	Ascendente + Júpiter - P. Profesión y reino (A) =	kEscorpio08°52'18"
+Dignidad (2)	Ascendente + P. Profesión y reino (A) - Sol =	zCapricornio19°22'22"
+Perder el cargo	Saturno + Júpiter - Sol =	lSagitario25°10'00"
+Recuperar el cargo	Ascendente + Júpiter - Sol =	jLibra17°51'46"
+Lugares sobre los que se ejercerá el cargo	Ascendente + Marte - Luna =	sTauro23°24'39"
+Seso, alta reflexión y razón (Hermes)	Ascendente + Saturno - Mercurio =	zCapricornio04°36'23"
+Seso, alta reflexión y razón (Abumaxar)	Ascendente + Mercurio - Marte =	jLibra09°31'21"
+Siervos o empleados, recaderos y mensajeros	Ascendente + Luna - Mercurio =	xAcuario28°12'41"
+Término o final de las cosas	Ascendente + Júpiter - Saturno =	lSagitario14°35'49"
+Viajes	Ascendente + Casa 9 - Regente de 9 =	sTauro09°27'26"
+Victoria, buena andanza, escapamiento y defensa	Ascendente + P. Celada - Júpiter =	zCapricornio25°43'58"
+Vida	Ascendente + Júpiter - Saturno =	lSagitario14°35'49"
+Voluntad y justicia	Ascendente + Venus - P. Celada =	fCáncer04°11'05"

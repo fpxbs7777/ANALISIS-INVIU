@@ -1,0 +1,238 @@
+{
+  "S&P 500": {
+    "ticker": "SPY",
+    "news": [
+      {
+        "title": "“That Ain’t Okay:” Dave Ramsey Blasts Couple With $150,000 in Cash and a $60,000 Car Loan",
+        "summary": "A caller with a paid-off house, a six-figure salary, and six figures in savings thought he was doing everything right. Dave Ramsey told him that kind of financial comfort can quietly cost a fortune.",
+        "pub": "2026-08-16T23:57:15Z",
+        "src": "24/7 Wall St."
+      },
+      {
+        "title": "High Dividend ETFs Are Beating the S&P 500 by 9 Points in 2026 and These 3 Pay Up to 4 Percent While Doing It",
+        "summary": "After a decade of chasing growth, dividend investors are finally having their moment in 2026, but not all high-yield ETFs are winning the same way or for the same reasons.",
+        "pub": "2026-08-16T14:46:47Z",
+        "src": "24/7 Wall St."
+      },
+      {
+        "title": "JEPQ vs. SPYI: Nearly Identical Yields, and One ETF Charges You Twice the Fee",
+        "summary": "Two ETFs with nearly identical monthly payouts are built on completely different engines, and choosing the wrong one based on yield alone could cost you far more than the fee difference suggests.",
+        "pub": "2026-08-15T22:45:07Z",
+        "src": "24/7 Wall St."
+      },
+      {
+        "title": "DIVO or JEPI: Which Monthly Dividend Actually Protects Your Principal?",
+        "summary": "Both DIVO and JEPI hand you a monthly paycheck funded by covered calls on blue-chip stocks, but one of them has been quietly compounding your principal while the other trades that growth away for a fatter yield.",
+        "pub": "2026-08-15T18:23:12Z",
+        "src": "24/7 Wall St."
+      }
+    ]
+  },
+  "Bonos 20y": {
+    "ticker": "TLT",
+    "news": [
+      {
+        "title": "ETF Zoo: Substance Over Shenanigans Still Matters in ETFs",
+        "summary": "<p>Are the days numbered for 351 exchanges, box spread, and dividend-avoiding ETFs? Tune into this episode of <em>ETF Zoo</em> to find out, plus learn why markets seem to care less and less about the struggling consumer, and what the recent NEOS acquisition could indicate for the future of the optio",
+        "pub": "2026-08-14T19:37:52Z",
+        "src": "etf.com"
+      },
+      {
+        "title": "Peter Schiff Says The Asset Everyone Calls Safe Is Down 50%, What Does Bitcoin Do Now?",
+        "summary": "Peter Schiff says the world's safest asset lost half its value. Here is what the bond selloff means for Bitcoin.",
+        "pub": "2026-08-14T18:41:03Z",
+        "src": "BeInCrypto"
+      },
+      {
+        "title": "Cooling Inflation Likely to Aid These ETF Areas",
+        "summary": "Cooling inflation and weaker job data ease Fed hike bets, but Hormuz tensions increase oil risks. See how QQQ, IWM and TLT may respond.",
+        "pub": "2026-08-14T14:41:00Z",
+        "src": "Zacks"
+      },
+      {
+        "title": "Fed- Employment Data Should Lead to Looser Policy",
+        "summary": "The July 2026 jobs report was a stark confirmation that US hiring momentum has ground to a halt. For the Federal Reserve, the data leaves little choice but to lean toward looser monetary policy to stave off further labor market deterioration, says Bryan Perry, editor of Cash Machine.",
+        "pub": "2026-08-14T05:01:00Z",
+        "src": "MoneyShow"
+      }
+    ]
+  },
+  "Tasas 10y": {
+    "ticker": "TNX",
+    "news": [
+      {
+        "title": "Bull market not at risk from the sell-off in the bond market: Yardeni",
+        "summary": "Investing.com -- Rising U.S. Treasury yields are unsettling markets, but Yardeni Research says investors should not panic, arguing that the bond selloff reflects economic resilience rather than a systemic threat to the bull market.",
+        "pub": "2026-05-20T14:09:46Z",
+        "src": "Investing.com"
+      },
+      {
+        "title": "Bond market stress, not stocks, may drive Trump response to war: Wolfe",
+        "summary": "Investing.com -- Rising bond yields and not falling stock prices is the more likely trigger for White House intervention to end the war, according to Wolfe Research, which warned that bond market stress is building to a breaking point.",
+        "pub": "2026-05-19T17:40:17Z",
+        "src": "Investing.com"
+      },
+      {
+        "title": "Why Wolfe’s Roth is increasingly cautious on risk assets",
+        "summary": "Investing.com -- Wolfe Research economist Stephanie Roth has turned more cautious on risk assets, warning that the tension between rising bond yields and resilient equity markets is becoming increasingly difficult to sustain and revising the firm's Federal Reserve call to push all expected rate cuts",
+        "pub": "2026-05-18T12:47:52Z",
+        "src": "Investing.com"
+      },
+      {
+        "title": "Bond vigilantes likely to force Warsh into hawkish pivot, strategists say",
+        "summary": "Investing.com -- Bond yields surged on Kevin Warsh's first day as Federal Reserve chair, with strategists at Yardeni Research and Bank of America warning that markets are losing patience with the central bank's easing bias and that a hawkish pivot is increasingly inevitable.",
+        "pub": "2026-05-18T11:31:38Z",
+        "src": "Investing.com"
+      }
+    ]
+  },
+  "Dólar": {
+    "ticker": "DX-Y.NYB",
+    "news": [
+      {
+        "title": "Asian Currencies Strengthen Amid Reduced Fed Rate-Hike Expectations",
+        "summary": "Asian currencies strengthened slightly against the dollar amid reduced Fed rate-hike expectations that could bolster risk appetite.",
+        "pub": "2026-08-17T01:01:00Z",
+        "src": "The Wall Street Journal"
+      },
+      {
+        "title": "Nikkei Rises 0.5%; Weaker 2Q GDP Growth Could Prompt a BOJ Hold",
+        "summary": "The Nikkei Stock Average rose 0.5% in early trade, aided by preliminary estimates showing weaker-than-expected 2Q GDP growth.",
+        "pub": "2026-08-17T00:55:00Z",
+        "src": "The Wall Street Journal"
+      },
+      {
+        "title": "The Cavs' Tristan Thompson Told Teammates to Long Bitcoin: 'Stack Digital Gold, Buy it Every Day'",
+        "summary": "NBA champion Tristan Thompson on Tuesday said he shorted HYPE at $61 and exited with a profit, while telling teammates to buy Bitcoin every single day. Why Thompson Is Buying Bitcoin Daily? Thompson appeared on Anthony Pompliano’s podcast, saying he...",
+        "pub": "2026-08-16T10:46:03Z",
+        "src": "Benzinga"
+      },
+      {
+        "title": "New surveys show central banks are ditching the dollar and buying more gold instead — should you follow along?",
+        "summary": "The Official Monetary and Financial Institutions Forum (OMFIF) noted the trend as a first.",
+        "pub": "2026-08-16T10:20:00Z",
+        "src": "Moneywise"
+      }
+    ]
+  },
+  "Oro": {
+    "ticker": "GC=F",
+    "news": [
+      {
+        "title": "Small Cap Watch: D3 Energy, Astral Resources, Surefire and Dalaroo advance company programs",
+        "summary": "The S&P/ASX Small Ordinaries (ASX: XSO) finished Friday at 3,517.10 points, down 24.30 points or 0.69% for the session. Over the past five trading days, the small-cap benchmark has lost 27.00 points, or 0.76%, leaving the index at 3,517.10. Against the softer small-cap market backdrop,...",
+        "pub": "2026-08-16T23:19:00Z",
+        "src": "Proactive"
+      },
+      {
+        "title": "Why Is Sezzle (SEZL) Pursuing A National Bank Charter Now?",
+        "summary": "Sezzle (NasdaqCM: SEZL) is shifting its regulatory plan to pursue a national bank charter, moving away from its previous industrial loan company structure. New state buy now, pay later regulations are cited by the company as a key factor behind this change in direction. A national bank charter would",
+        "pub": "2026-08-16T17:08:11Z",
+        "src": "Simply Wall St."
+      },
+      {
+        "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
+        "summary": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has legs depends on a handful of cost and macro variables that could flip the story overnight.",
+        "pub": "2026-08-16T14:21:44Z",
+        "src": "24/7 Wall St."
+      },
+      {
+        "title": "Murphy Oil (MUR) Has Investors Looking Closer After Its Latest Update",
+        "summary": "Why Murphy Oil’s latest earnings matter for investors Murphy Oil (MUR) just released its second quarter 2026 results, reporting revenue of US$928.31 million and net income of US$232.18 million, along with updated production guidance and a confirmed quarterly dividend. See our latest analysis for Mur",
+        "pub": "2026-08-16T14:07:59Z",
+        "src": "Simply Wall St."
+      }
+    ]
+  },
+  "Commodities CRB": {
+    "ticker": "^SPGSCI",
+    "news": []
+  },
+  "Energía": {
+    "ticker": "XLE",
+    "news": [
+      {
+        "title": "Sector Update: Energy Stocks Rise Friday",
+        "summary": "Energy stocks rose Friday with the NYSE Energy Sector Index gaining 1.3% and the State Street Energy",
+        "pub": "2026-08-14T20:06:18Z",
+        "src": "MT Newswires"
+      },
+      {
+        "title": "Sector Update: Energy Stocks Rise Friday Afternoon",
+        "summary": "Energy stocks were higher Friday afternoon, with the NYSE Energy Sector Index rising 1.4% and the St",
+        "pub": "2026-08-14T17:54:02Z",
+        "src": "MT Newswires"
+      },
+      {
+        "title": "Exchange-Traded Funds Mixed, US Equities Fall After Midday",
+        "summary": "Broad Market Indicators Broad-market exchange-traded fund IWM rose and IVV edged lower. Active",
+        "pub": "2026-08-14T17:21:21Z",
+        "src": "MT Newswires"
+      },
+      {
+        "title": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
+        "summary": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks.",
+        "pub": "2026-08-14T14:00:00Z",
+        "src": "Zacks"
+      }
+    ]
+  },
+  "Tecnología": {
+    "ticker": "XLK",
+    "news": [
+      {
+        "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
+        "summary": "Tech just got cheaper without a bear market taking a wrecking ball to stock prices.",
+        "pub": "2026-08-16T11:43:20Z",
+        "src": "Yahoo Finance"
+      },
+      {
+        "title": "Exchange-Traded Funds Mixed, US Equities Fall After Midday",
+        "summary": "Broad Market Indicators Broad-market exchange-traded fund IWM rose and IVV edged lower. Active",
+        "pub": "2026-08-14T17:21:21Z",
+        "src": "MT Newswires"
+      },
+      {
+        "title": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
+        "summary": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks.",
+        "pub": "2026-08-14T14:00:00Z",
+        "src": "Zacks"
+      },
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday Amid Retail Sales Data",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra",
+        "pub": "2026-08-14T13:13:48Z",
+        "src": "MT Newswires"
+      }
+    ]
+  },
+  "VIX": {
+    "ticker": "^VIX",
+    "news": [
+      {
+        "title": "S&P 500 Pulls Back from High as Market's Fear Gauge Keeps Its Cool",
+        "summary": "The S&P 500 on Friday pulled back from its record high after another soft economic data release, but the market’s fear gauge continued to snooze.  The S&P 500 was down 0.2%.  The Nasdaq Composite was down 0.3%.",
+        "pub": "2026-08-14T20:02:08Z",
+        "src": "Barrons.com"
+      },
+      {
+        "title": "Wall Street’s Fear Gauge Goes Silent. It’s Worth Listening To.",
+        "summary": "Wall Street’s benchmark reading of investor concern, often referred to as the “fear index,” is trading near the lowest levels of the year this week as a surprising summer rally has stocks hitting all-time highs.  The Cboe Volatility Index, or  designed as a real-time estimate of the market’s expecte",
+        "pub": "2026-08-14T11:55:00Z",
+        "src": "Barrons.com"
+      },
+      {
+        "title": "Are ‘boring’ sectors back?",
+        "summary": "Volatility is desirable for many investors, but there’s still a lot to be said for picking up well-valued companies alongside growth stocks.",
+        "pub": "2026-08-14T11:45:59Z",
+        "src": "Moneyweek"
+      },
+      {
+        "title": "Wall Street Fear Index Signals Calm as Stock Futures Drift",
+        "summary": "Investors weren't sweating the small stuff on Friday, even as the U.S.'s threat of an indefinite naval blockade against Iran pushed oil prices higher. The Cboe Volatility Index, or VIX, was flat at 14.",
+        "pub": "2026-08-14T10:12:15Z",
+        "src": "Barrons.com"
+      }
+    ]
+  }
+}

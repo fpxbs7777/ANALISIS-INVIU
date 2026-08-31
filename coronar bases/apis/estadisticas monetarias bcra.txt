@@ -1,0 +1,782 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Estadísticas",
+    "description": "",
+    "contact": {
+      "name": "API BCRA Consultas Técnicas",
+      "email": "api@bcra.gob.ar"
+    },
+    "license": {
+      "name": "Aviso legal",
+      "url": "https://www.bcra.gob.ar/Varios/Aviso_legal.asp"
+    },
+    "version": "v4"
+  },
+  "servers": [
+    {
+      "url": "https://api.bcra.gob.ar/",
+      "description": ""
+    }
+  ],
+  "paths": {
+    "/estadisticas/v4.0/Metodologia/{idVariable}": {
+      "get": {
+        "tags": [
+          "Metodologia"
+        ],
+        "parameters": [
+          {
+            "name": "idVariable",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MetadatoResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MetadatoResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MetadatoResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/estadisticas/v4.0/Metodologia": {
+      "get": {
+        "tags": [
+          "Metodologia"
+        ],
+        "parameters": [
+          {
+            "name": "Limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MetadatoListResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MetadatoListResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MetadatoListResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/estadisticas/v4.0/Monetarias": {
+      "get": {
+        "tags": [
+          "Monetarias"
+        ],
+        "parameters": [
+          {
+            "name": "IdVariable",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Categoria",
+            "in": "query",
+            "schema": {
+              "maxLength": 255,
+              "minLength": 0,
+              "type": "string"
+            }
+          },
+          {
+            "name": "Periodicidad",
+            "in": "query",
+            "schema": {
+              "maxLength": 1,
+              "minLength": 0,
+              "type": "string"
+            }
+          },
+          {
+            "name": "Moneda",
+            "in": "query",
+            "schema": {
+              "maxLength": 5,
+              "minLength": 0,
+              "type": "string"
+            }
+          },
+          {
+            "name": "TipoSerie",
+            "in": "query",
+            "schema": {
+              "maxLength": 100,
+              "minLength": 0,
+              "type": "string"
+            }
+          },
+          {
+            "name": "UnidadExpresion",
+            "in": "query",
+            "schema": {
+              "maxLength": 100,
+              "minLength": 0,
+              "type": "string"
+            }
+          },
+          {
+            "name": "Limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MonetariasResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MonetariasResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MonetariasResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/estadisticas/v4.0/Monetarias/{IdVariable}": {
+      "get": {
+        "tags": [
+          "Monetarias"
+        ],
+        "operationId": "DatosV4",
+        "parameters": [
+          {
+            "name": "IdVariable",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Desde",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Hasta",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatosMonetariaResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatosMonetariaResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatosMonetariaResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DatosMonetaria": {
+        "type": "object",
+        "properties": {
+          "idVariable": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "detalle": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DetalleMonetaria"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DatosMonetariaResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/Metadata"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DatosMonetaria"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleMonetaria": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date",
+            "example": "2025-08-21"
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Metadata": {
+        "type": "object",
+        "properties": {
+          "resultset": {
+            "$ref": "#/components/schemas/Resultset"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Metadato": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "detalle": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MetadatoListResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/Metadata"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Metadato"
+              }
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MetadatoResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Metadato"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Monetarias": {
+        "type": "object",
+        "properties": {
+          "idVariable": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipoSerie": {
+            "type": "string",
+            "nullable": true
+          },
+          "periodicidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "unidadExpresion": {
+            "type": "string",
+            "nullable": true
+          },
+          "moneda": {
+            "type": "string",
+            "nullable": true
+          },
+          "primerFechaInformada": {
+            "type": "string",
+            "format": "date",
+            "nullable": true,
+            "example": "2025-08-21"
+          },
+          "ultFechaInformada": {
+            "type": "string",
+            "format": "date",
+            "nullable": true,
+            "example": "2025-08-21"
+          },
+          "ultValorInformado": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MonetariasResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/Metadata"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Monetarias"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResponseError": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Resultset": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "offset": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "limit": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
+
+
+Autorización
+Para usar el API es necesario autorizarse frente al mismo. Esto se logra agregando a todos los requests un header de autorización, usando el TOKEN que se adquiere registrándose.
+
+Luego de adquirir el TOKEN agregue el siguiente Header a sus requests:
+
+Authorization: BEARER {TOKEN}
+
+El TOKEN expira un año después de haber sido otorgado, luego de lo cual debe requerir uno nuevo.
+
+Limite de Uso
+Se permite un máximo de 100 consultas diarias.
+
+Advertencia
+Este servicio gratuito no ofrece ninguna garantía de que seguirá funcionando en el futuro o que no pueda contener errores. En particular, dado que el servicio se basa en la información que provee el BCRA (así como otras fuentes) si alguna de la información presentada en esas fuentes es incorrectas, esos errores serán replicados en el servicio. Ademas de esto, dado que las fuentes de donde se accede a la información pueden cambiar en su formato, el servicio puede verse interrumpido por cambios en las mismas. El proveedor de este servicio no asume ninguna responsabilidad con respecto a la continuidad o calidad del servicio, solo puede utilizar este servicio si acepta estas condiciones.
+
+Respuestas
+Las respuestas de las consultas al API devuelven JSON y salvo la de /milestones tienen la siguiente estructura:
+
+            [
+                {
+                    "d": fecha en formato MySQL,
+                    "v": valor del indicador para esa fecha.
+                }
+            ]
+        
+O sea son un array de objetos con dos parámetros: d que contiene la fecha en formato MySQL (YYYY-MM-DD) y v que contiene el valor. Ej:
+
+[{"d":"2003-01-02","v":10501},{"d":"2003-01-03","v":10505},{"d":"2003-01-06","v":10564},{"d":"2003-01-07","v":10605},{"d":"2003-01-08","v":10652},{"d":"2003-01-09","v":10663},{"d":"2003-01-10","v":10645},{"d":"2003-01-13","v":10664},{"d":"2003-01-14","v":10693} .... ]
+Repuesta Milestones
+La respuesta de la consulta a /milestones tiene la forma:
+
+            [
+                {
+                    "d": fecha en formato MySQL,
+                    "e": evento,
+                    "t": el tipo de evento [pres|econ|bcra|misc]                }
+            ]
+        
+Consultas Disponibles
+https://api.estadisticasbcra.com/milestones : eventos relevantes (presidencia, ministros de economía, presidentes del BCRA, cepo al dólar)
+https://api.estadisticasbcra.com/base : base monetaria
+https://api.estadisticasbcra.com/base_usd: base monetaria dividida USD
+https://api.estadisticasbcra.com/base_usd_of: base monetaria dividida USD Oficial
+https://api.estadisticasbcra.com/reservas : reservas internacionales
+https://api.estadisticasbcra.com/base_div_res : base monetaria dividida reservas internacionales
+https://api.estadisticasbcra.com/usd : cotización del USD
+https://api.estadisticasbcra.com/usd_of : cotización del USD Oficial
+https://api.estadisticasbcra.com/usd_of_minorista : cotización del USD Oficial (Minorista)
+https://api.estadisticasbcra.com/var_usd_vs_usd_of : porcentaje de variación entre la cotización del USD y el USD oficial
+https://api.estadisticasbcra.com/circulacion_monetaria : circulación monetaria
+https://api.estadisticasbcra.com/billetes_y_monedas : billetes y monedas
+https://api.estadisticasbcra.com/efectivo_en_ent_fin : efectivo en entidades financieras
+https://api.estadisticasbcra.com/depositos_cuenta_ent_fin : depositos de entidades financieras en cuenta del BCRA
+https://api.estadisticasbcra.com/depositos : depósitos
+https://api.estadisticasbcra.com/cuentas_corrientes : cuentas corrientes
+https://api.estadisticasbcra.com/cajas_ahorro : cajas de ahorro
+https://api.estadisticasbcra.com/plazo_fijo : plazos fijos
+https://api.estadisticasbcra.com/tasa_depositos_30_dias : tasa de interés por depósitos
+/////
+https://api.estadisticasbcra.com/prestamos : prestamos
+https://api.estadisticasbcra.com/tasa_prestamos_personales : tasa préstamos personales
+https://api.estadisticasbcra.com/tasa_adelantos_cuenta_corriente : tasa adelantos cuenta corriente
+https://api.estadisticasbcra.com/porc_prestamos_vs_depositos : porcentaje de prestamos en relación a depósitos
+https://api.estadisticasbcra.com/lebac : LEBACs
+https://api.estadisticasbcra.com/leliq : LELIQs
+https://api.estadisticasbcra.com/lebac_usd : LEBACs en USD
+https://api.estadisticasbcra.com/leliq_usd : LELIQs en USD
+https://api.estadisticasbcra.com/leliq_usd_of : LELIQs en USD Oficial
+https://api.estadisticasbcra.com/tasa_leliq : Tasa de LELIQs
+https://api.estadisticasbcra.com/m2_privado_variacion_mensual : M2 privado variación mensual
+https://api.estadisticasbcra.com/cer : CER
+https://api.estadisticasbcra.com/uva : UVA
+https://api.estadisticasbcra.com/uvi : UVI
+https://api.estadisticasbcra.com/tasa_badlar : tasa BADLAR
+https://api.estadisticasbcra.com/tasa_baibar : tasa BAIBAR
+https://api.estadisticasbcra.com/tasa_tm20 : tasa TM20
+https://api.estadisticasbcra.com/tasa_pase_activas_1_dia : tasa pase activas a 1 día
+https://api.estadisticasbcra.com/tasa_pase_pasivas_1_dia : tasa pase pasivas a 1 día
+https://api.estadisticasbcra.com/inflacion_mensual_oficial : inflación mensual oficial
+https://api.estadisticasbcra.com/inflacion_interanual_oficial : inflación inteanual oficial
+https://api.estadisticasbcra.com/inflacion_esperada_oficial : inflación esperada oficial
+https://api.estadisticasbcra.com/dif_inflacion_esperada_vs_interanual : diferencia entre inflación interanual oficial y esperada
+https://api.estadisticasbcra.com/var_base_monetaria_interanual : variación base monetaria interanual
+https://api.estadisticasbcra.com/var_usd_interanual : variación USD interanual
+https://api.estadisticasbcra.com/var_usd_oficial_interanual : variación USD (Oficial) interanual
+https://api.estadisticasbcra.com/var_merval_interanual : variación merval interanual
+https://api.estadisticasbcra.com/var_usd_anual : variación anual del dólar (porcentaje de variación de la cotización del dólar un año despues a la cotización de la fecha indicada)
+https://api.estadisticasbcra.com/var_usd_of_anual : variación anual del dólar oficial (porcentaje de variación de la cotización del dólar oficial un año despues a la cotización de la fecha indicada)
+https://api.estadisticasbcra.com/var_merval_anual : variación anual del MERVAL (porcentaje de variación del MERVAL un año despues al la cotización de la fecha indicada)
+https://api.estadisticasbcra.com/merval : MERVAL
+https://api.estadisticasbcra.com/merval_usd : MERVAL dividido cotización del USD

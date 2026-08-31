@@ -1,0 +1,922 @@
+Cálculo Financiero Aplicado
+(Un enfoque profesional)
+Guillermo López Dumrauf
+Editorial La Ley
+2da. edición actualizada y
+ampliada, Buenos Aires, 2006
+ISBN 987-03-0882-1
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 6. RENTAS TEMPORARIAS
+“La formulación de un problema, es más importante que su solución”
+Albert Einstein (1879-1955).
+Físico alemán
+INTRODUCCIÓN
+Cuando hablamos de rentas(1) nos referimos a una sucesión de pagos que se producen con intervalos
+equidistantes de tiempo. Existen numerosas variantes de rentas en la vida real tales como:
+• las cuotas que se abonan por los préstamos que otorgan las entidades financieras
+• los depósitos que realizamos a los fondos de pensión y jubilación con el objeto de formar un capital
+que luego sustente nuestra vida pasiva
+• los alquileres de los inmuebles
+• las cuotas que cobran las instituciones educativas
+• el flujo de fondos de un proyecto de inversión
+• el flujo de dividendos que distribuye una empresa
+• la constitución de un fondo de amortización (sinking fund) por parte de una empresa que quiere
+reunir una suma de dinero con el fin de amortizar el capital de un préstamo
+• los cupones de interés y amortización que pagan los bonos públicos o privadas
+• las cuotas que se abonan en un contrato de leasing
+Y muchos otros casos; donde existe una corriente de pagos, se encuentra involucrada una renta. En
+este capítulo le enseñamos cómo valuar una renta. Cuando hablamos de “valuar” una renta nos referimos al
+proceso matemático que permite determinar el valor que tiene dicha corriente de pagos en un momento
+determinado. Para esto es crucial saber trasladarse a lo largo del eje de tiempo, y nuestro primer paso será
+aprender cómo se calcula el valor actual o presente de una renta temporaria. La renta temporaria inmediata es
+como la madre de todas las rentas; un conocimiento claro de su deducción y su significado facilita luego
+abordar las otras. Cada renta involucra una deducción matemática de su valor, pero se verá que un
+conocimiento exhaustivo de la renta temporaria inmediata permitirá pasar a las otras rentas simplemente
+ajustando los detalles correspondientes. Por ejemplo, si el pago es adelantado o vencido, si hay un aplazo o
+diferimiento de los pagos, si el número de pagos se extiende indeterminadamente transformándose en una
+perpetuidad, etcétera. El lema será entonces, “vista una renta, vistas todas las rentas”; pasamos a las demás
+haciendo los ajustes correspondientes en las fórmulas.
+Después de leer este capítulo, usted debería ser capaz de:
+• Calcular el valor de una corriente de pagos en cualquier momento del tiempo.
+(1) En algunos textos también se utiliza la denominación “anualidades”. Preferimos rentas, ya que muchas corrientes de
+pagos involucran cuotas que se realizan en forma mensual, trimestral, etcétera. Por ejemplo, en los préstamos es común
+que haya pagos mensuales.
+2
+
+• Aplicarlas fórmulas de rentas temporarias en problemas de la vida real, tales como planes de
+jubilación, planes de ahorro previo, el valor actual de una serie de pagos futuros y muchos otros casos.
+• Calcular la tasa de interés contenida en una renta, que representa una “tasa implícita” a menudo
+llamada “tasa interna de retorno”.
+• Realizar análisis de sensibilidad para el valor de las rentas y sus categorías asociadas, utilizando
+funciones de la planilla de cálculo.
+6.1. RENTAS TEMPORARIAS
+Toda renta es una sucesión de pagos con vencimiento en épocas equidistantes y fijas. De allí surge el
+concepto de período, como el intervalo de tiempo que media entre dos pagos consecutivos. Sí llamamos “C”
+a los pagos realizados al vencimiento de cada período, una corriente finita de n cuotas o pagos se vería de la
+siguiente forma en un eje de tiempo:
+0 1 2 3 p n
+C C C C C
+Figura 6.1 Corriente de pagos a intervalos equidistantes de tiempo
+Mencionamos en la introducción que existen en la vida real una gran cantidad de ejemplos donde se
+realizan pagos periódicos con distintas finalidades, pero en todos los casos interesa conocer el valor de la
+corriente en un momento determinado. Por ejemplo, al solicitante de un crédito bancario le interesaría
+conocer cuál es la suma de dinero que puede solicitar en préstamo sabiendo que puede pagar una cantidad
+fija de dinero en concepto de cuota; a la persona que deposita cantidades fijas de dinero con el objeto de
+formar un capital en un plan de ahorro le interesaría conocer cuál será el monto que acumulará al cabo de una
+determinada cantidad de períodos; al inversor en activos financieros le interesaría aplicar las fórmulas de las
+rentas para la fijación de precios de acciones o bonos a través del valor actual de los futuros ingresos
+esperados y así sucesivamente. Todas esas rentas tienen un valor que puede ser expresado en diferentes
+momentos de tiempo y esto es precisamente lo que veremos a lo largo de este capítulo.
+Notación simbólica a utilizar
+Las funciones serán expresadas simbólicamente por argumentos (parámetros) colocados a
+continuación entre paréntesis. Se reservan las letras minúsculas para las funciones unitarias (donde las cuotas
+son siempre de $1) y letras mayúsculas para los valores de cuotas superiores a la unidad. Estas notaciones
+son simbólicas y no son “operables”, es decir no se efectúan cálculos con ellas, pero se revelarán
+particularmente útiles cuando los problemas tienen muchos detalles y resulta conveniente un planteo
+simbólico previo al uso de las fórmulas que luego pueden utilizarse con seguridad una vez que ha sido
+planteado correctamente el problema. Las notaciones que utilizaremos tendrán una forma de este tipo
+f (1,n,i,g)
+Cada categoría dentro del paréntesis tiene un significado que se comenta a continuación.
+1. El primer lugar dentro del paréntesis indica cuántos períodos median entre el momento en que se
+efectúa el primer pago con respecto y el momento de la valuación (MV) de la renta. Como normalmente los
+pagos pueden ser vencidos o adelantados respecto del momento en que se contrata la renta, se indica con 1
+(uno) si los pagos son vencidos, y 0 (cero) si los pagos son adelantados. En cambio, aparecerá “p+1” ó “p”
+cuando se trate de una renta diferida.
+3
+
+2. “n” indica el número de pagos que tiene la renta. Usaremos n si es una renta temporaria, y ∞ si es
+una renta perpetua.
+3. “i” representa la tasa de interés que se usa para valuar la renta.
+4. El cuarto lugar sólo se utiliza en el caso de las rentas variables: es decir aquellas rentas donde los
+pagos varían periódicamente en progresión aritmética o geométrica; utilizaremos “R” para la razón de
+variabilidad de las cuotas que varían en progresión aritmética y “g” si las cuotas varían en progresión
+geométrica. Las rentas variables serán tratadas en el próximo capítulo.
+Una clasificación operativa para las rentas
+La clasificación de las rentas es muy amplia, pero a los fines estrictos de las aplicaciones del cálculo
+financiero, adoptaremos una que sirva a los propósitos de quien debe enfrentarse con problemas en la
+práctica. La clasificación básica de rentas entonces será aquella que tiene en cuenta el momento de iniciación
+de los pagos, por lo cual distinguiremos entre tres tipos de renta:
+1. INMEDIATA cuando el momento de iniciación de los pagos coincide con el de valuación;
+2. DIFERIDA cuando el momento de iniciación de pagos se difiere respecto del momento de valuación y
+3. ANTICIPADA cuando el momento de iniciación se anticipa respecto del momento devaluación.
+Para determinar si una renta es inmediata, diferida o anticipada, siempre debemos observar donde
+se ubica el momento de iniciación de los pagos con respecto al momento de la valuación.
+A continuación podemos ubicar en un eje de tiempo cada una de las rentas principales. Así, la renta
+inmediata de pagos vencidos tiene su momento de valuación en el momento 0 (cero); la renta diferida tiene
+su valuación tantos períodos antes de 0 (cero) según el tamaño del período de diferimiento y la imposición
+(que es un caso particular de la renta anticipada) tiene su valuación al final del último período (n).
+En la figura 6.2 se muestra una corriente de n pagos vencidos con distintos momentos devaluación.
+Si valuamos esos pagos en cero, se trataría de un valor presente que se calcula como si fuera una renta
+temporaria inmediata de pagos vencidos (por ejemplo, queremos saber cuánto vale hoy una corriente de
+cuotas que pagamos por un préstamo). Si queremos valuar los mismos pagos pero en el momento final “n”,
+podría tratarse de un plan de ahorro, donde son depositadas n cuotas que ganan interés hasta el período n.
+Finalmente, si queremos valuar la corriente de pagos en algún momento antes del inicio de los pagos (que
+aparece como momento cero en el eje de tiempo) se tratará de un problema de renta diferida, donde por
+ejemplo, podría ser el caso de un préstamo con un período de gracia.
+Diferida Inmediata Imposición
+MI=MV MV
+MV 0 1 2 3 p n
+C C C C C
+Plazo de
+diferimiento
+Figura 6.2 Momentos de valuación de una renta de pagos vencidos
+4
+
+Rentas de pagos vencidos y de pagos adelantados
+Los pagos pueden hacerse al principio del período o al final de éste, dando lugar a las rentas
+adelantadas y vencidas. Por ejemplo, en un préstamo los pagos son siempre vencidos (recibo hoy el préstamo
+y la primer cuota la abono dentro de un mes) y en general, muchos servicios se pagan en cuotas que se
+abonan por adelantado, tal es el caso de los alquileres o las cuotas de los colegios privados.
+0 1 2 3 4
+C C C C
+El pago se realiza al final
+de cada período
+Figura 6.3 Pagos vencidos. Los pagos se realizan al final de cada período
+(ej.: cuotas de préstamos)
+0 1 2 3 4
+C C C C
+El pago se realiza al principio
+de cada período
+Figura 6.4 Pagos adelantados. Los pagos se realizan al comienzo de cada período
+(ej.: las cuotas que se abonan en los establecimientos educativos)
+Renta temporaria inmediata de pagos vencidos
+A continuación se realiza la deducción sistemática para la fórmula del valor actual o presente de una
+renta temporaria inmediata de pagos vencidos. Esta demostración es efectuada con cierto detalle por
+considerarse que la renta inmediata de pagos vencidos es la renta “madre” de todas las rentas, siendo las
+demás, derivaciones de ésta, ya que aparece en la mayoría de los problemas de matemática financiera y su
+fórmula se utiliza en una gran cantidad de circunstancias. Luego veremos que las fórmulas de rentas pueden
+derivarse simplemente al adaptar algunos componentes como el número de períodos, el momento de la
+valuación o la razón de variabilidad de las cuotas. La figura 6.5 muestra una corriente de pagos unitarios que
+se realizan durante n períodos (la línea punteada del eje de tiempo sugiere que sigue una cierta cantidad de
+pagos después del período p) que aparecen actualizados al período 0 con la tasa de interés i:
+5
+
+0 1 2 3 p n
+$1 $1 $1 $1 $1
+1
+(1 + i)
+1
+(1 + i)2
+1
+(1 + i)3
+1
+(1 + i)n
+Figura 6.5 Valor actual de una corriente de pagos vencidos
+Luego de expresar los pagos en el eje de tiempo y actualizarlos al momento cero, deben seguirse los
+siguientes pasos:
+1) Sumamos los valores actuales obtenidos. Observamos que del polinomio surge una progresión
+geométrica decreciente, ya que cada término es igual al anterior multiplicado por 1/(1+i), que es la razón de
+la progresión y es menor a 1 (uno) ya que 1/(1+i) <1 (la tasa de interés asume un valor positivo) y cada
+término disminuye su valor con respecto al anterior:
+1 1 1 1
+S = –––– + ––––– + –––––– + ………. + ––––––
+(1 + i) (1 + i)2 (1 + i)3 (1 + i)n
+2) Aplicamos la fórmula de la progresión geométrica: observe que la renta temporaria inmediata es
+una suma de valores actuales. El análisis matemático nos brinda una fórmula para calcular el valor de la
+suma de términos de una progresión geométrica decreciente, que es:
+1 – qn
+S = a –––––
+1
+1 – q
+1
+Donde a representa el primer término de la progresión y q es a razón de la progresión, que
+1
+(1+i)
+1
+como vimos antes, también es igual a
+(1+i)
+Si reemplazamos en la fórmula de S resulta:
+1
+1−
+1 (1+i)n
+S = ×
+(1+i) 1
+1−
+(1+i)
+6
+
+De acuerdo con la nomenclatura utilizada en Cálculo Financiero, llamaremos a esta expresión(2):
+(1+i)n −1
+a (l,n,i) =
+(1+i)ni
+que representa la expresión de una renta temporaria inmediata de pagos unitarios vencidos. Esta forma de
+calcular el valor de una renta para pagos unitarios permite tabular los resultados de dicha expresión para
+diferentes valores del número de períodos y de la tasa de interés, donde los valores para pagos unitarios,
+tasas de interés y períodos diferentes aparecen en las famosas “tablas financieras”, que cayeron en desuso
+con la aparición de las calculadoras electrónicas que traen incorporadas la mayoría de las funciones
+financieras. No obstante, permite obtener factores de actualización que en algunos casos puede facilitar la
+presentación de trabajos cuando trabajamos con valores actuales. Por ejemplo, es posible tabular la expresión
+a (1,n,i) que en el caso de n = 10 e i = 10% tendrá un valor de:
+a (1,10,0,10) = 6,144
+Para utilizar la fórmula general, donde los pagos no son iguales a la unidad, simplemente
+multiplicamos la fórmula anterior por la cuota de la renta C. Adoptaremos la letra mayúscula “V” para la
+expresión, conforme a la notación genérica del cálculo financiero. Suponiendo que la cuota fuera de $100,
+tendríamos:
+(1+i)n −1 (1,10)10 −1
+V (l,n,i) = C × = 100 × = 614,45
+(1+i)ni (1,10)10×0,10
+En la práctica, a veces puede resultar cómodo expresar la fórmula de la renta temporaria de pagos
+vencidos de otras formas equivalentes. Por ejemplo:
+1
+1−
+(1+i)n −1 (1+i)n
+V = (l,n,i) = C × = C ×
+(1+i)ni i
+o también
+⎡1 1 ⎤
+V (1,n,i) = C × ⎢ − ⎥
+⎣i (1+i)ni⎦
+Ejemplo:
+Usted puede adquirir un automóvil a través del pago de 55 cuotas mensuales de $300. Siendo la tasa
+de interés de oportunidad del 1% mensual (la tasa que usted podría ganar depositando su dinero en una
+institución financiera) se desea saber cuál es el valor actual o presente de las mencionadas 55 cuotas (debería
+ser igual al valor de contado del automóvil) teniendo en cuenta que usted desea saber cuanto representa hoy
+esa corriente de pagos futura.
+(1+0,01)55 −1
+V (1,55,0.01) = 300 × = 12.644,15
+(1+0,01)55×0,01
+La misma fórmula podría ser utilizada para otros problemas diferentes. Por ejemplo, usted podría
+estar queriendo determinar el precio de un activo que le genera una renta de $300 durante 55 meses. Como el
+valor de los activos debe reflejar el valor presente de su flujo de efectivo futuro, utilizaría para determinar su
+(2) La fórmula de la renta temporaria inmediata de pagos vencidos es una de las más utilizadas en el cálculo financiero
+aplicado.
+7
+
+valor la fórmula de la renta inmediata y llegaría a la conclusión de que el valor del activo hoy debería ser de
+$12.644,15.
+Otra forma de pensar el problema anterior, sería suponer el caso de la educación de un niño que
+demanda el pago de 55 cuotas mensuales de $300 en una institución privada (suponemos que las cuotas son
+todas consecutivas, para facilitar el razonamiento). En ese caso, la cifra de $12.644,15 representaría no sólo
+el valor presente de las cuotas futuras, sino que además puede ser interpretada como el dinero que el padre
+del niño debería mantener en una cuenta bancaria que genera el 1% mensual, sobre la cual ser realizarían
+extracciones todos los meses hasta agotarla con la extracción para la cuota 55.
+Fórmulas derivadas de la renta temporaria inmediata
+Valor de la cuota
+Para calcular el valor de la cuota realizamos un simple pasaje de términos:
+(1+i)ni
+C = V (1,n,i) ×
+(1+i)n −1
+Número de períodos
+Partiendo de la expresión de la renta temporaria inmediata
+(1+i)n −1
+V = C ×
+(1+i)ni
+Podemos despejar el número de períodos utilizando logaritmos. Para ello primero conviene dividir la
+expresión del valor de la renta por la cuota y pasar la tasa de interés multiplicando; luego separamos los
+términos del numerador y los dividimos por el denominador:
+Vi (1+i)n 1
+= −
+C (1+i)n (1+i)n
+1 Vi
+=1−
+(1+i)n C
+C
+(1 + i)n =
+C−Vi
+Finalmente, podemos utilizar logaritmos
+⎛ C ⎞
+n ln (1 + i) = ln ⎜ ⎟
+⎝C−Vi⎠
+⎛ C ⎞
+1n⎜ ⎟
+⎝C−Vi⎠
+n =
+1n(1+i)
+8
+
+Tasa de interés
+La obtención de la tasa de interés se explica en detalle en una próxima sección.
+Renta temporaria inmediata de pagos adelantados
+Hasta el momento hemos considerado a los pagos como vencidos respecto del momento de
+iniciación de los mismos. Como las cuotas que se abonan en las instituciones educativas son en general
+pagos que se realizan por período adelantado, vamos a ver ahora el caso de los pagos adelantados.
+La renta temporaria inmediata pero con pagos adelantados es igual a la renta temporaria inmediata de
+pagos vencidos, sólo que en este caso los pagos se realizan por período adelantado, de tal manera que se paga
+al principio del período la cuota que antes se abonaba al final de éste (observe en el eje de tiempo que el
+primer pago no es actualizado por encontrarse al principio del período y el último pago se encuentra al
+principio del último período que es el final del período n-1).
+0 1 2 n-1 n
+$1 $1 $1 $1
+1
+(1 + i)
+1
+(1 + i)2
+1
+(1 + i)n-1
+Figura 6.6 Valor actual de una corriente de pagos adelantados
+Luego damos los mismos pasos que seguimos para la deducción de la renta temporaria inmediata de
+pagos vencidos: sumamos los valores actuales y aplicamos la fórmula de la suma de términos de una
+progresión geométrica decreciente
+1 1 1
+S = 1 + ––––– + –––––– + ……….. + ––––
+(1 + i) (1 + i)2 (1 + i)n-1
+1
+1−
+(1+i)n (1+i)n −1
+S = 1 × = (1 + i) ×
+1 (1+i)ni
+1−
+(1+i)
+De acuerdo con la nomenclatura utilizada en Cálculo Financiero, llamaremos a esta expresión:
+(1+i)n −1
+a (0,n,i) = (1 + i) ×
+(1+i)ni
+9
+
+Para utilizar la fórmula general, donde los pagos no son iguales a la unidad, simplemente
+multiplicamos la fórmula anterior por la cuota de la renta
+(1+i)n −1
+V (0,n,i) = C × (1 + i) ×
+(1+i)ni
+Volviendo a nuestro ejemplo donde queríamos calcular el valor actual de las cuotas que se abonaban
+a la institución educativa, por período adelantado, éste sería:
+(1+0,01)55 −1
+V (0,55,0.01) = 300 × (1,01) × = 12.770,6
+(1+0,01)55×0,01
+Resolución de rentas con Excel®
+Ejemplo: supongamos que desee comprar una póliza de seguros por la cual deberá pagar $500 al
+final de cada mes durante los próximos 20 años. El costo de la anualidad es $60.000 y el dinero pagado
+devengará un interés del 8 por ciento. Para determinar si la compra de la póliza es una buena inversión, use
+la función VA para calcular el valor actual introduciendo:
+= VA (0,08/12; 12*20; 500; 0) luego ENTER y su resultado es igual a $ -59.777,15
+El resultado es negativo, ya que muestra el dinero que pagaría (flujo de caja negativo). El valor
+actual de la anualidad ($59.777,15) es menor que lo que pagaría ($60.000) y, por tanto, determina que no
+sería una buena inversión.
+También puede utilizar directamente en el menú la tecla de función “f*”e introducir los datos del
+problema como se muestra en la figura 6.7:
+Figura 6.7 Cálculo del valor actual con Excel®
+Resolución con calculadora financiera Hewlett Packard HP 12C
+En este caso debe introducir el valor de la cuota con un signo negativo y luego pulsar “PMT”: -500
+PMT; luego la tasa de interés debe introducirla como 8/12 y luego pulsar “i”; la cantidad de períodos como la
+cantidad de meses que hay en 20 años: 12*20 y pulsar “n” y finalmente pulsar “PV” para obtener la
+respuesta.
+10
+
+Rentas diferidas
+La renta diferida es igual a su correspondiente inmediata de pagos vencidos, actualizada por el
+período de diferimiento. Por ejemplo, si los pagos fueran por período vencido, un préstamo que se abona en
+6 cuotas, pero que tiene un período de gracia de dos meses, y recién abona la primera cuota al final del tercer
+período, se vería de la siguiente manera en un eje de tiempo:
+0 1 2 3 4 5 6 7 8
+C C C C C C
+Período de
+diferimiento
+6 cuotas
+El pago vencido se difiere por un
+período “p”
+Figura 6.8 Corriente de pagos con período de diferimiento
+(1+i)6 −1 1
+V (p + 1,6,i) = C × ×
+(1+i)6i (1+i)2
+Note que el primer espacio de la notación simbólica ahora es “p + 1” por encontrarse el primer pago
+a p + 1 períodos respecto del momento de la valuación.
+La fórmula es igual a la que utilizamos en una renta temporaria inmediata de 6 pagos vencidos y la
+multiplicamos por 1/(1 + i)2 para actualizarla por los dos períodos de diferimiento. Desde el punto de vista
+estrictamente matemático, el resultado es el mismo si el pago se hubiera considerado vencido respecto
+del momento 3 o adelantado respecto del momento 4; en este último caso, si bien deberíamos haber
+considerado un período de diferimiento p = 3, al utilizar la fórmula para los pagos adelantados se multiplica
+por (1 + i) y se produce una simplificación de términos que generan una ecuación equivalente a la utilizada
+para pagos vencidos al considerar un período p=2:
+(1+i)n −1 1
+V (p + 1,n,i) = C × × × (1 + i)
+(1+i)ni (1+i)3
+Para la notación simbólica, de aquí en adelante denotaremos con vp el período de diferimiento,
+donde
+1 1
+v = y vp =
+1+i (1+i)p
+Ejemplo
+Durante los años noventa, cierta empresa vendía electrodomésticos y equipos de música en cuotas
+fijas, permitiendo diferir el pago inicial por 90 días, abonando con tarjeta de crédito. Ciertamente se trataba
+de una renta diferida, donde el período de diferimiento era igual a 2 (dos) si los pagos se consideraban
+vencidos. Suponga que usted debía abonar 6 cuotas fijas de $100 por un equipo de audio, y que la tasa de la
+financiación era del 2%; en ese caso, el valor actual de los pagos era:
+11
+
+(1+0,02)6 −1 1
+V (p + 1,6,0,02) = 100 × × = 538,39
+(1+0,02)6×0,02 (1+0,02)2
+O en forma equivalente, si usted lo que quería averiguar era la cuota que debía abonar por un bien
+cuyo precio de contado era de $538,39:
+1+0,02)6×0,02
+C = 538,39 × × (1+0,02)2 = 100
+(1+0,02)6 −1
+Rentas anticipadas e imposiciones
+Esta clase de rentas se denominan “anticipadas” precisamente por anticiparse sus pagos al momento
+de la valuación. El caso más común es el de la “imposición” donde el período de valuación es “n”, de forma
+tal que todos los pagos son valuados en el último período, conformando una suma de montos a interés
+compuesto. Una imposición vencida representa el típico caso de un plan de ahorro con el objetivo de
+acumular una suma de dinero al final de un período determinado, con un objetivo preciso, como puede ser
+adquirir un automóvil, reponer una maquinaria o amortizar una deuda.
+En rigor de verdad, la imposición es una suma de montos a interés compuesto. Casos concretos de
+imposiciones son los aportes que realizan los individuos a los fondos de pensión con el objetivo de acumular
+el capital que luego financiará la jubilación, o los fondos de amortización (sinking funds) que constituyen las
+empresas con el objetivo de acumular el capital necesario para redimir una obligación con vencimiento al
+final de dicho plazo de ahorro. Si bien la mayoría de las imposiciones son de pagos adelantados,
+comenzaremos por mostrar la fórmula para el caso de los pagos vencidos y luego pasaremos a ver el caso de
+los pagos adelantados.
+Imposición de pagos vencidos
+Si bien la fórmula de la imposición, como se verá luego, es posible obtenerla directamente al
+capitalizar por n períodos el valor de la renta inmediata de pagos vencidos, primero realizaremos una
+demostración explícita de esto, al capitalizar cada uno de los pagos hasta el período final, como se muestra a
+continuación en el siguiente eje de tiempo:
+Figura 6.9 Imposición de pagos vencidos
+Al sumar los valores futuros, y aplicar la propiedad conmutativa de la suma, obtenemos una
+progresión geométrica creciente, de razón (1 + i), ya que cada término resulta igual al anterior multiplicado
+por l + i:
+S = 1 + (1 + i) + (1 + i)2 + ……. (1 + i)n-1
+12
+
+Al aplicar la fórmula de la suma de términos para una progresión geométrica creciente, tenemos:
+qn −1
+S = a
+1
+q−1
+y al reemplazar a = 1 y q = 1 + i nos queda finalmente:
+1
+(1+i)n −1
+S =
+i
+De acuerdo con la nomenclatura del cálculo financiero, llamaremos a esta expresión:
+(1+i)n −1
+S (1,n,i) =
+i
+Y la fórmula general, para el caso de cuotas diferentes de la unidad, sería igual a la anterior
+multiplicada por la cuota correspondiente:
+(1+i)n −1
+A (1,n,i) = C ×
+i
+Imposiciones de pagos adelantados
+En la práctica, todas las imposiciones son de pagos adelantados(3), pues se comienza a ahorrar
+“hoy”, no dentro de un período. Al igual que en el caso de la renta temporaria, la fórmula para la imposición
+de pagos adelantados es igual a la de pagos vencidos, multiplicada por (1 + i), ya que se gana interés por un
+período más. Los pagos por período adelantado se verían de la siguiente forma en un eje de tiempo:
+Figura 6.10 Imposición de pagos adelantados
+La suma de términos se vería de esta forma:
+S = (1+i) + (1+i)2 + ………… (1+i)n
+(3) Tal vez podría asimilarse los ahorros que se realizan en un fondo de pensión como una imposición vencida, ya que el
+aporte se calcula sobre un salario que se abona por período vencido.
+13
+
+Observe que ahora el primer período gana intereses por (1 + i)n y el último por (1 + i). Finalmente, al
+reemplazar en la fórmula para la suma de términos de una progresión geométrica creciente, con una cuota
+igual a C, tenemos:
+(1+i)n −1
+A (0,n,i) = C × (1 + i) ×
+i
+Como puede apreciar, la fórmula para el valor de una imposición de pagos adelantados, es igual al de
+la imposición de pagos vencidos, multiplicada por l + i.
+Ejemplo
+Puesto que su objetivo es acumular un capital que le permita comprar el inmueble que tanto desea,
+usted quiere determinar el capital acumulado que resulta de depositar en una institución financiera durante 24
+meses la suma de $7.341,28, siendo que gana una tasa de interés del 1% mensual:
+(1,01)24 −1
+A (0,24,0.01) = 7.341,28 × (1,01) × = 200.000
+0,01
+Alternativamente, usted podría haber planteado el problema como la cuota que debería depositar
+mensualmente para acumular $200.000; en ese caso, puede despejar la cuota con un simple pasaje de
+términos:
+(1,01)24 −1
+200.000 = C × (1,01)
+0,01
+Si despejamos la cuota, resulta C = 7.341,28
+0,01
+C = 200.000 × × (1,01) = 7.341,28
+(1,01)24 −1
+Si las cuotas se hubieran considerado como vencidas, hubiera sido necesaria una cuota más alta, de
+7.414,7. En cambio, con pagos adelantados, para formar el mismo capital de $200.000.- se requiere una
+cuota menor, ya que al depositar la cuota al principio de cada período y no al final, se gana interés por un
+período más.
+Diferencia entre una renta anticipada y una imposición
+Toda imposición es una renta anticipada, pues los pagos se anticipan al momento de valuación
+que se produce en el último período. Pero no toda renta anticipada es una imposición, ya que si bien los
+pagos pueden anticiparse al momento de valuación, éste puede ubicarse antes o después de n, como muestra
+en la figura 6.11 y la condición de “anticipación de pagos al momento devaluación” seguiría cumpliéndose:
+Momento de valuación
+Anticipada Imposición Anticipada
+0 1 2 n-1 n n+1
+C C C C C
+Figura 6.11 Diferencia entre imposición y renta anticipada
+14
+
+6.2. RELACIONES Y CATEGORÍAS IMPORTANTES DE LAS RENTAS
+Existe una cantidad de relaciones importantes entre las rentas que hemos descrito en las secciones
+anteriores y que tratamos a continuación.
+Renta inmediata e imposición
+Una imposición es igual a una renta inmediata capitalizada por n períodos:
+(1 + i)n
+a (1,n,i) s(1,n,i)
+Ya que si capitalizamos el valor de la renta inmediata a(1, n, i) por n períodos a la tasa de interés i
+obtenemos el valor de la imposición:
+(1+i)n −1 (1+i)n −1
+× (l + i)n =
+(1+i)ni i
+Obviamente, al actualizar el valor de la imposición, obtenemos la renta inmediata:
+(1+i)n −1 1 (1+i)n −1
+× =
+i (1+i)n (1+i)ni
+Resumiendo, una imposición es igual a una renta inmediata capitalizada por n períodos a una tasa de
+interés i:
+a (1,n,i).(1+i)n = s (1,n,i)
+Y una renta inmediata es igual a una imposición actualizada por n períodos a una tasa de interés i:
+1
+s (1,n,i) × = a (1,n,i)
+(1+i)n
+Diferencia entre las cuotas de una renta inmediata y una imposición
+La diferencia entre la cuota de una renta inmediata de pagos vencidos y la cuota de una imposición
+con pagos vencidos es igual a la tasa de interés “i”, mientras que la diferencia entre la cuota de una renta
+inmediata de pagos adelantados y la cuota de una imposición de pagos adelantados es igual a la tasa de
+descuento “d”:
+a (1, n,i)-1 – s(1,n,i)-1 = i
+a (0,n,i)-1 – s (0,n,i)-1 = d
+Recuerde que las fórmulas anteriores representan la cuota para una renta inmediata vencida cuyo
+valor es igual a $1 y la cuota de una imposición vencida cuyo valor final también es igual a $1: a(1,n,i)-1 = 1
+y s (1,n,i)-1 = 1
+Si reemplazamos en las fórmulas tenemos:
+15
+
+[ ]
+(1+i)n.i i i(1+i)n −1
+− = =i
+(1+i)n −1 (1+i)n −1 (1+i)n −1
+Y en el caso de los pagos adelantados:
+[ ]
+(1+i)n.i 1 i 1 i(1+i)n−1 1 i
+× − × = × = =d
+(1+i)n−1 (1+i) (1+i)n−1 (1+i) (1+i)n −1 (1+i) (1+i)
+¿Por qué en el primer caso la diferencia es igual a “i”? Esto es porque la cuota de un préstamo
+siempre contiene los intereses que se cobran por éste, mientras que en una imposición de pagos vencidos las
+cuotas no contienen interés, puesto que al abonarse son cuotas puras de capital que sólo ganarán intereses en
+el futuro, como por ejemplo los aportes que se hacen en un fondo de pensión.
+De forma tal que (1+i) representa la cuota que se abona por un préstamo de $1 y si calculamos la
+diferencia con la cuota de una imposición vencida de $1 obtenemos:
+(1 + i) –1 = i
+En cuanto al segundo caso, si bien es muy difícil encontrar una renta inmediata de pagos adelantados
+(el pago por adelantado de los servicios educativos podría ser un caso), la cuota de la renta inmediata de
+pagos adelantados para un V = $1 se amortiza con una cuota de C = $1 (esto sólo tiene relevancia desde el
+punto de vista teórico puesto que sería el caso de recibir un préstamo de $1 y devolverlo en forma inmediata,
+de forma que el pago también sería igual a $1 y no tendría interés), mientras que la cuota adelantada de una
+imposición solo formará A = $1 al cabo de un período cuando gane interés, de manera que resulta inferior en
+el porcentaje “d” calculado sobre el valor final de $1, de manera que (1 - d) impuesto por un período resulte
+un valor de $1.
+Por lo tanto 1 - (1 -d) = d
+c) Una renta inmediata de pagos adelantados es igual a una renta inmediata de pagos vencidos
+multiplicada por (l + i):
+(1+i)n −1
+a (1,n,i) × (1 + i) = a (0,n,i) = × (1 + i)
+(1+i)ni
+Resumiendo, las relaciones fundamentales de las rentas son las siguientes:
+1) Toda renta de pagos adelantados es igual a su correspondiente de pagos vencidos, capitalizada por
+un período más (la fórmula es igual a la de pagos vencidos multiplicada por (1 + i).
+2) Toda renta diferida es igual a su correspondiente inmediata actualizada por p períodos, donde p
+representa el número de períodos por los que se difiere el primer pago.
+3) La diferencia entre la cuota de una renta inmediata y la cuota de una imposición es igual a la tasa
+de interés vencida “i”.
+4) Una imposición es igual a una renta inmediata capitalizada por n períodos a la tasa de interés i,
+mientras que una renta inmediata es igual a una imposición actualizada por n períodos a la tasa de interés “i”.
+Cuadro resumen del valor de las rentas temporarias
+Conociendo la fórmula de la renta inmediata temporaria de pagos vencidos, podemos obtener las
+fórmulas de las otras rentas adicionando los factores de capitalización y actualización correspondientes. La
+fila de la renta inmediata y columna de los pagos vencidos de la tabla 6.1 representa la fórmula genérica:
+para pasar a las fórmulas de las otras rentas (imposición, diferida y sus versiones con pagos vencidos y
+16
+
+adelantados) solamente precisamos multiplicar por los factores correspondientes para obtener la fórmula
+requerida.
+1. Por ejemplo, para obtener la renta diferida, simplemente actualizamos la inmediata por el factor
+1
+vp =
+(1+i)p
+2. Para obtener cualquier renta de pagos adelantados, multiplicamos por (1 + i).
+3. Para obtener la imposición, multiplicamos por (l + i)n:
+Pagos
+Diferida Pagos vencidos Imposición
+adelantados
+(1+i)n −1
+Inmediata (1 + i)
+(1+i)ni
+(1+i)n −1
+Diferida vp (1 + i)
+(1+i)ni
+(1+i)n −1
+Imposición (1 + i) (1 + i)n
+(1+i)ni
+Tabla 6.1 Resumen de fórmulas de rentas temporarias
+En el próximo capítulo repetiremos el esquema completándolo con las rentas perpetuas y las rentas
+variables.
+Rentas fraccionadas o asincrónicas
+En este tipo de renta la frecuencia de los pagos y las capitalizaciones no coinciden, por lo tanto, se
+las denomina “asincrónicas”. Si bien no es común encontrar contratos con este tipo de rentas, puede
+asimilárselas por ejemplo, a un proyecto de inversión donde los flujos de fondos se producen con intervalos
+de tiempo no homogéneos. Para valuar este tipo de renta debe sincronizarse la frecuencia en el pago de las
+cuotas con el período de capitalización, lo cual se puede hacer de dos formas: 1) calculando una tasa
+equivalente y 2) en el caso de una renta con contrato, cambiando éste para sincronizar la cuota con el
+momento en que se paga la tasa de interés.
+1) A través del cálculo de una tasa equivalente
+Calculando una tasa equivalente se puede sincronizar la frecuencia de los pagos con el período en
+que está expresada la tasa de interés. Este método tiene la ventaja de no necesitar cambiar el contrato, pues
+respeta la equivalencia financiera.
+Ejemplo: ¿Cuál será el valor actual de una serie de pagos que deben realizarse en el lapso de 4 años,
+con cuotas bimestrales vencidas de $10.000 cada una, que se capitalizan cuatrimestralmente al 12% anual?
+Todo resulta más fácil si convertimos la tasa nominal al bimestre: primero la proporcionamos al
+cuatrimestre, puesto que su capitalización es cuatrimestral, y luego calculamos su equivalente bimestral:
+(1 + 0,12/3)0,5 – 1 = 0,0198039 = 1,98%
+(1+0,0198)24 −1
+V = 10.000 = 189.560
+(1+0,0198)240,0198
+17
+
+2) Reperiodizando la cuota para hacerla coincidir con el momento en que capitalizan los intereses.
+En ese caso, las cuotas serán cuatrimestrales, y deberán corresponder a una renta cuyo valor presente es de
+$189.560 (debemos tener como dato el valor presente para poder calcular el valor de la cuota: en este caso,
+tomamos como valor presente el obtenido en el paso anterior ya que dichas sumas son equivalentes desde el
+punto de vista financiero). En ese caso, el valor de la cuota sería:
+(1+0,12/3)12 −1
+C =189.560 = 4.732,27
+(1+0,12/3)12×0,12/3
+También podría ocurrir que deudor y acreedor se pongan de acuerdo en sincronizar el pago de la
+cuota con el momento en que capitaliza la tasa de interés. La diferencia con el método anterior es que este
+último requiere acuerdo entre deudor y acreedor pues habría que cambiar el contrato.
+Análisis y gráficos de las funciones de rentas
+Se muestran a continuación las funciones de las cuotas y los valores para las rentas inmediatas y
+anticipadas, por considerárselas las de más frecuente utilización práctica. En las figuras 6.12 y 6.13 se
+muestra cómo evoluciona el valor de una renta inmediata cuando la cuota C=$1 y la evolución del valor de la
+cuota, cuando el valor de las rentas inmediatas a(1,n,i) = a(0,n,i) = $1 y aumenta el número de períodos hasta
+20. En ambos casos la tasa de interés utilizada es del 20% periódico.
+En el caso del valor de la renta inmediata, se observa que su valor aumenta hasta alcanzar un techo,
+debido a que a pesar de que aumenta el número de períodos, los pagos futuros tienden a cero en valor
+presente. El valor de la renta inmediata de pagos adelantados se ubica por encima de la renta inmediata de
+pagos vencidos, pues es capitalizada por un período más.
+Figura 6.12 Valor de la renta temporaria inmediata cuando varía el número de períodos
+En el caso de los valores de la cuota, siendo que los valores actuales a(1,n,i) = a(0,n,i) = 1, estos caen
+permanentemente hasta tender a cero a medida que el número de períodos se hace mayor. El valor de la
+cuota de pagos vencidos se ubica por encima de la cuota con pagos adelantados, como se observa en la figura
+6.12, pues es necesaria una cuota mayor para obtener los mismos valores presentes a(1,n,i) = a(0,n,i) = 1.
+18
+
+Figura 6.13 Cuota de una renta inmediata cuando varía el número de períodos
+En las figura 6.14 se muestra como evoluciona el valor de una imposición cuando la cuota es unitaria
+y en la figura 6.15 se muestra cómo evoluciona el valor de la cuota cuando el valor de la imposición (el valor
+futuro acumulado) también es igual a uno, a medida que aumenta el número de períodos. En ambos casos la
+tasa de interés es del 20%.
+Mientras el valor de la renta anticipada sube permanentemente, el valor de la cuota desciende
+permanentemente, pues sería necesario una cuota cada vez menor para alcanzar un valor s(1, n, i) = s(0,n,i) =
+1 a medida que aumenta el número de períodos.
+El valor de la imposición de pagos adelantados se ubica por encima de la imposición de pagos
+vencidos, pues es capitalizada por un período más.
+Figura 6.14 Valor de la imposición cuando varía el número de períodos
+Los valores de la cuota descienden permanentemente, pues siendo que los valores futuros s
+(l,n,i)=s(0, n, i)=1, estos caen permanentemente hasta tender a cero a medida que el número de períodos se
+hace mayor. El valor de la cuota de pagos vencidos se ubica por encima de la cuota con pagos adelantados,
+pues es necesaria una cuota mayor para obtener el mismo valor futuro s(1, n, i)=s(0, n, i)=1
+Figura 6.15 Valor de la cuota de la imposición cuando varía el número de períodos
+19
+
+Cálculo de la tasa implícita de una renta con interpolación lineal
+Existen muchos casos de rentas que involucran un flujo de fondos que contiene una tasa de interés
+“implícita” que hace equivalentes a esas corrientes de dinero en un momento dado, en congruencia con la ley
+financiera del interés compuesto.
+Todas las rentas que hemos visto hasta ahora, todos los préstamos que calculan intereses sobre saldo,
+o los planes de ahorro cuyas cuotas ganan intereses hacia el futuro, o los proyectos de inversión donde existe
+un flujo de fondos futuro tienen una tasa de interés intrínseca o implícita, cuyo cálculo se resuelve por
+diversos métodos de prueba por ensayo y error (binomio de Newton-Rhapson, iteraciones sucesivas, Baily,
+bisección, interpolación lineal reiterada). Describimos aquí el método de la interpolación lineal, por
+encontrarlo el más intuitivo a los efectos de su aplicación práctica.
+El método de la interpolación lineal
+La interpolación proporcional es un método que permite por aproximación, al interpolar linealmente,
+obtener el valor de la tasa de interés de una renta. La mejor forma de mostrarlo es con un ejemplo. Suponga
+que usted tiene los siguientes datos y le falta la tasa de interés:
+V = 100 ; C = 60; n = 2 ; i = ?
+El procedimiento comienza con un ensayo por prueba y error; usted realiza una primera prueba con
+una tasa del 10% para ver que tanto se acerca el resultado al valor buscado (V=100). Si con una tasa del 10
+% el valor presente es de 104,13, evidentemente necesitamos una tasa de interés más alta que el 10% (más
+alta en x puntos porcentuales) de forma tal que el valor descontado de la corriente se iguale a 100. Para ello
+probamos con el 20%, obteniendo un valor más bajo que 100, de 91,66.
+0,10 ––––––––– 104,13
+i =0,10+x ––––––––– 100
+0,20 ––––––––– 91,66
+Ahora sabemos que la tasa de interés verdadera se encuentra entre el 10 y el 20%, puesto que con el
+10% el valor es mayor a 100 y con el 20% queda por debajo. Esto puede verse en la figura 6.16 donde para
+cada valor de la tasa de interés corresponde un valor para la función en la ordenada:
+Figura 6.16 Interpolación lineal, error por exceso
+20
+
+Si probando con una diferencia de tasas de 10 puntos porcentuales (0,20 - 0,10) obtuvimos una
+diferencia entre los valores presentes de 12,47 (104,13 - 91,66), luego x puntos porcentuales representan una
+diferencia de 4,13 (104,13-100):
+0,10 ––––––– 12,47
+x ––––––– 4,13
+Finalmente, despejamos la incógnita x por regla de tres simple:
+4,13
+× = 0,10 × = 0,0331
+12,47
+De forma tal que la i aproximada es 0,10 + x = 0,1331
+En realidad, 13,31% es solamente una aproximación de la tasa de interés verdadera, puesto que es un
+valor que se ubica sobre la línea recta, y no sobre la función que en realidad es una curva. Si unimos con una
+línea recta los dos puntos de referencia (0.10; 104, 13) y (0.20; 91, 66), y teniendo en cuenta que la función
+del valor actual no es una línea recta, sino que tiene pendiente negativa y es cóncava al eje de las y, se
+comprenderá que la interpolación lineal es sólo una aproximación, y que en el primer calculo se comete
+un error de interpolación igual a:
+Error de interpolación: i aproximada - i verdadera
+En tal sentido, la función lineal es una auxiliar para el cálculo de la i; ya que el valor de la renta no
+está medido sobre la recta sino que se encuentra sobre la función.
+Como puede apreciarse en los gráficos este error puede ser por exceso o por defecto, según
+hablemos de una renta cuya función sea decreciente (renta inmediata) o creciente (renta anticipada) respecto
+de la tasa de interés, ya que la pendiente de la línea no es igual a la pendiente de la función. A medida que se
+repite la interpolación con la i que obtuve en el primer cálculo, el arco se vuelve más pequeño mejorando la
+aproximación hasta que se hace tangente en el punto donde se ha encontrado finalmente el valor para la tasa
+de interés.
+Por ejemplo, al descontar la corriente con el 13,31 % el valor obtenido es de 99,68 que es un valor
+bastante aproximado pero todavía subsiste una pequeña diferencia, por lo cual deberíamos continuar la
+interpolación hasta obtener el valor exacto.
+¿Hasta dónde debe continuarse con la interpolación? El método de “tanteo” debería continuarse hasta
+cerciorarse de haber obtenido la tasa de interés exacta hasta el último dígito; por ejemplo, en el caso anterior,
+donde la i era 13,06 % no tendría sentido continuar el cálculo cuando los primeros cuatro dígitos después de
+la coma se repiten:
+i = 0,130682
+i = 0,130678
+i = 0,130672
+La función financiera “Tasa” de Excel nos permite calcular mucho más rápido la tasa implícita en
+una renta:
+Figura 6.17 Tasa implícita de una renta con Excel®
+21
+
+Otros gráficos posibles para la interpolación lineal: el error por defecto en el caso de la imposición
+El caso de la tasa de interés contenida en una imposición nos plantea una interpolación donde surge
+un error por defecto, según puede apreciarse en la figura 6.17. Suponga que el valor de una imposición es
+A(1,10,i)=1.593,74 la cuota C=100 y n=10
+Figura 6.18 Interpolación lineal, error por defecto
+0,08 ––––––– 1.448,65
+i = 0,08 + x ––––––– 1.593,74
+0,12 ––––––– 1.754,87
+Luego, para una diferencia de tasas de 4 puntos porcentuales:
+0,04 –––––––– 306,21
+x –––––––– 145,09
+145,09
+× = 0,04 × = 0,01985
+306,4
+Con lo cual la i aproximada es 0,08 + 0,01985 = 0,0985 y hay que continuar la interpolación hasta
+encontrar la i verdadera que es del 10%.
+La función Tasa de Excel® nos permite calcular mucho más rápido la tasa implícita en una renta.
+Un ejemplo del mundo real: estimación de la renta de jubilación
+Durante la vida laboral, los individuos realizan aportes a los Fondos de Jubilación y Pensión, con el
+objetivo de acumular un capital que luego sirva para financiar la renta de jubilación durante la vida pasiva. Si
+suponemos que un individuo comienza a trabajar a los 20 años y se jubila a los 65, ha realizado aportes por
+45 años, que equivale a 540 meses. Los aportes son mensuales y una porción de los mismos “capitaliza”,
+vale decir que gana intereses y permite formar el capital que luego financia la jubilación. Supongamos que la
+porción del aporte que capitaliza es de $150 y que la tasa de interés(4) que gana es del 0,5% mensual; en ese
+caso el capital a los 65 años es una imposición por 540 meses, como se muestra en el eje de tiempo:
+(4) Es conveniente pensar en términos de una tasa de interés real
+22
+
+20 años 65 años 85 años
+150 s(1;540;0,005)=413.398,89
+Vida activa: 540 meses Vida pasiva: 240 meses
+Luego, el valor final de los aportes capitalizados ($413.398,89) resulta ser el valor presente de las
+rentas que se percibirán durante el período de la jubilación. Puesto que la esperanza de vida es de 20 años
+(240 meses) para obtener el valor del haber de la jubilación mensual sólo tenemos que despejar la cuota de la
+fórmula de la renta inmediata:
+(1+0,005)240 −1
+A(l;540;0,005) = C × = 413.398,89
+(1+0,005)2400,005
+Despejando, C= 2.961,72 que representa el monto de la jubilación mensual. También podemos
+recurrir a la función de Excel para calcular el valor futuro y corroborar nuestros cálculos:
+Figura 6.19 Cálculo del valor del valor futuro (imposición)
+Análisis de sensibilidad del valor de una renta con Excel®
+En la vida real, es común realizar un análisis del tipo “que pasa sí...” para observar el efecto que
+tiene un cambio en una variable aislada sobre otra. En matemática financiera, y en particular en las rentas,
+nos preguntamos por ejemplo, como cambiaría un valor presente o futuro si cambia la tasa de interés; o como
+cambia la cuota si se alarga el número de períodos, etcétera.
+Este tipo de análisis se conoce como “análisis sensitivo” o “análisis de sensibilidad”. Con la
+herramienta “tabla” de Excel® es muy fácil realizar algo que tomaría varios cálculos con una calculadora de
+bolsillo, y aunque con Excel® también pueden montarse los datos en una planilla de cálculo; la función
+“tabla” es más eficiente.
+Ejemplo: Deseamos calcular el valor presente de una corriente de 120 cuotas mensuales, la tasa de
+interés es inicialmente el 1% y la cuota es de $100. El valor presente de la renta (es una renta temporaria
+inmediata de pagos vencidos) es
+(1,10)120 −1
+V (1,120,0.01) = 100 × = 6.970,05
+(1,10)120×0,10
+En la figura 6.19 se aprecia como es el procedimiento. Primero, calcule el valor presente de la renta
+con la función financiera “Valor Actual” de Excel®, utilizando como tasa de interés, la que figura en la celda
+A2. Luego haga una referencia a esa tasa escribiendo en la celda A4 “=A2” y también haga una referencia al
+23
+
+valor presente copiando en la celda B4 “=B2”. Seguidamente “pinte” toda la sección que va desde A4 hasta
+B13. A continuación, vaya al menú y pulse “Datos” y luego “Tabla”. Aparecerá la ventana de la figura 6.20
+que le pide que introduzca una celda de entrada. Elija columna y referencie la celda A2. Finalmente, pulse
+aceptar y aparecerán los resultados de la figura 6.21.
+Figura 6.20 Uso de la función “Tabla” para el análisis de sensibilidad
+Figura 6.21 Resultados del análisis de sensibilidad
+Los resultados eran los que se esperaban; a medida que la tasa de interés aumenta, el valor presente
+disminuye. Con Excel® podemos muchos otros análisis sensitivos (por ejemplo, como afecta la tasa de
+interés en la cuota) en forma eficiente y rápida.
+RESUMEN
+Cuando hablamos de rentas nos referimos a toda corriente de pagos que se realizan a intervalos
+equidistantes de tiempo. Esos pagos pueden tener diferentes momentos devaluación, dependiendo del
+problema que se trate. Por ejemplo, es muy común que se calculen valores actuales de pagos futuros en el
+caso de un préstamo o de un proyecto de inversión. El caso inverso se presenta cuando queremos conocer
+cual es el valor futuro de depositar sumas de dinero en una institución financiera con el objetivo de acumular
+un capital con un fin específico, en cuyo caso valuamos la corriente de pagos en un momento “n”.
+Existe una cantidad de relaciones importantes entre las rentas, por las cuales podemos obtener una a
+partir de otra muy rápidamente al incorporar el factor correspondiente. La clave para la valuación de rentas
+es saber “moverse” en el eje de tiempo.
+En la vida real hay numerosos ejemplos donde aplicamos las fórmulas de rentas. En particular, son
+muy útiles cuando tenemos que analizar planes de jubilación o retiro, costo de operaciones financieras y
+muchos otros casos.
+24
+
+PREGUNTAS
+1 ¿Qué valor arroja la diferencia entre la cuota de una renta inmediata y la cuota de una imposición?
+2. ¿Cuál es la relación entre una renta inmediata y una imposición?
+3. ¿Por qué el valor de una renta inmediata de pagos adelantados es mayor que el que resulta cuando
+los pagos son vencidos?
+4. Cuando se extiende el número de períodos, el valor del pago periódico en una renta temporaria
+inmediata se reduce permanentemente hasta alcanzar un valor mínimo cuando n tiende a infinito. ¿Cuál es
+ese valor y por qué?
+PROBLEMAS
+1. Determinar el valor actual de una serie de 24 pagos vencidos, iguales y consecutivos de $ 1.000
+cada uno, si se sabe que las cuotas se abonan al vencimiento de cada período, y que la tasa de valuación de
+cada período es del 10 %.
+Respuesta: 8.984,74
+2. Ídem anterior, pero ahora nos ofrecen un plan cuyo primer vencimiento opera en el tercer período
+posterior a la fecha de otorgamiento, y la tasa de valuación de cada período es del 8 %.
+Respuesta: 9.026,71
+3. Ídem al problema anterior, pero suponiendo pagos adelantados. El primer vencimiento opera al
+final del segundo mes siguiente a la fecha del otorgamiento.
+Respuesta: 9.748,85
+4. José pretendía reunir la suma de $ 15.000.- con el objeto de comprarse un automóvil. Teniendo en
+cuenta que la tasa nominal anual para depósitos a plazo fijo rondaba en el 10 % anual, determine qué suma
+mensual debería depositar durante 24 meses para reunir la suma de dinero necesaria para la compra del
+automóvil.
+Respuesta: suponiendo pagos adelantados, C=562,48
+5. Ídem anterior, pero suponiendo que José va a contar con una suma adicional de $5.000 al cabo de
+6 meses de iniciado el ahorro y que integra al capital acumulado con el objeto de reunir la suma de dinero
+pretendida en menos tiempo. Calcule cuantos meses demoraría José para reunir $15.000 si continúa con el
+mismo ritmo de depósitos.
+Respuesta: 15,85 meses (15 meses y 25 días)
+6. Master S.A. adeuda al banco Databank 3 cánones de $2.144 cada uno, correspondientes a los
+meses de junio, julio y agosto. Los vencimientos operan los días 26 de cada mes y el porcentaje de
+actualización en caso de mora es del 4% mensual. El 26 de Septiembre la empresa restituye el bien recibido
+en leasing y se pacta una refinanciación en 5 cuotas fijas de $1.665 cada una. Determine si la tasa efectiva
+implícita contenida en la refinanciación es similar a la que se utiliza en los casos de mora.
+Respuesta: 6,28% mensual
+7. El 1/1/2002 se ha comprado una propiedad mediante la entrega de 30 documentos iguales,
+mensuales y consecutivos que vencen a partir del 1/2/02. El importe de cada documento es de $2.000.- hasta
+25
+
+diciembre de 2003, y a partir del 1/1/04 inclusive aumentan su importe a $5.000 cada uno. Sabiendo que la
+tasa de interés utilizada es del 2% mensual, ¿cuál es el valor equivalente de contado de la propiedad?
+Respuesta: 57.105,66
+8. José se encuentra evaluando los costos de una formación completa en ciencias económicas y desea
+calcular el valor presente de todos los costos asociados con su educación. José usaría 4 años para obtener una
+licenciatura, cuyo costo es de $8.000 por cada año. Luego usaría otros 2 años para obtener su Master en
+Administración de Empresas, donde debería pagar $9.000 por año. Finalmente, un Doctorado insumiría 4
+años más, a un costo de $9.000 por año. Si la tasa de interés de oportunidad de José es del 10% anual, ¿Cuál
+es el valor presente de los costos de la educación? Adicionalmente, calcule cuál debería ser su renta anual
+equivalente para recuperar la inversión suponiendo que Juan hoy tiene 28 años y espera trabajar hasta los 65
+años (hasta jubilarse). Note que debería para ello calcular también cual sería el valor futuro de los costos de
+educación al momento de comenzar a trabajar. Note que la respuesta también puede ser ampliada para
+reconocer no sólo el valor del tiempo sino también el ingreso diferencial que generaría una educación
+superior.
+Respuesta: Valor presente=52.131,23; Valor futuro=135.214,98 C=13.931.19 (Se sugiere
+comparar la respuesta con la renta anual que obtiene una persona sin estudios universitarios)
+9. Para que su hijo reciba U$S 100.000.- al cumplir 17 años, usted realiza depósitos mensuales
+adelantados a partir de la fecha de nacimiento, que ganan el 4% anual. Dicha cantidad debería servir para
+financiar los costos de los estudios universitarios, incluyendo alimentación y vivienda en un país extranjero.
+Determinar el importe de cada depósito, sabiendo que no se realizan pagos cuando el hijo cumple 15 años.
+Suponga un año de 360 días.
+Respuesta: 341,92
+10. ídem problema anterior, pero ahora suponga que el padre recién comienza a ahorrar cuando el
+hijo cuenta con 12 años.
+Respuesta: 1.503,31
+11. El valor actual de una renta de 18 cuotas, valuadas al 4% mensual, es de $ 100.000.- Calcular: a)
+El valor de la cuota b) ¿Con qué suma se cancela la renta, junto con la décima cuota? c) Si no se pagaron las
+cuotas número 10, 11 y 12, ¿de qué importe deben ser las restantes?
+Respuesta: C=7.899,33; V =81.083,52 ; C=473,6
+10
+12. El valor actual de una renta de 24 cuotas mensuales adelantadas que corresponden a los pagos
+que se realizan en un Posgrado de Economía es de $15.000 valuadas al 1% mensual. Si luego de la cuota 16
+se desean pagar $1.000.- por mes, ¿cuántas cuotas más se deberán abonar?
+Respuesta: 5,58
+13. Un colegio cobra diez mensualidades de $500 en carácter de cuota para el ciclo primario. El
+padre de un alumno ofrece pagar las diez mensualidades por adelantado, solicitando un descuento del 20%
+por pago en efectivo. El colegio rechaza la oferta aduciendo que no precisa efectivo y que no le conviene la
+propuesta. La tasa de interés de oportunidad del colegio es del 1%. ¿Quién tiene razón?
+Respuesta: el colegio
+14. En el ejemplo anterior, ¿se modificaría la respuesta si la tasa de interés de oportunidad del
+colegio fuera del 5% mensual?
+Respuesta: sí, en ese caso se invierte la respuesta y el colegio debería aceptar
+26
+
+15. Un plan de ahorro establece que deben depositarse 48 cuotas fijas, mensuales y consecutivas,
+pero sólo se han abonado 30 de ellas. La tasa de interés es del 12% anual con capitalización mensual (año
+360 días). Las 18 restantes se depositan regularmente después de transcurridos 5 meses sin depósitos. ¿Cuál
+ha sido la cuota mensual si al final de la operación la cuenta tiene un saldo de $30.000?
+Respuesta: 473,6
+REFERENCIAS BIBLIOGRÁFICAS
+FERNÁNDEZ, NÉSTOR H., (2003) “Funciones Financieras de Excel”, capítulo 3, 1ª edición, Errepar,
+Buenos Aires.
+27

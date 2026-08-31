@@ -1,0 +1,639 @@
+La televisión económica
+Enrique Bustamante
+Editorial Gedisa
+Barcelona, 1999
+Este material se utiliza con fines
+exclusivamente didácticos
+
+III. LA TELEVISIÓN REGULADA
+Los modelos fundadores
+Como se sabe, la inmensa mayoría de los sistemas televisivos de todo el mundo nacieron y se
+conformaron en los años cuarenta o cincuenta como modelos públicos, directamente dependientes de los
+Estados y con carácter de monopolio. Las estructuras creadas anteriormente en cada país para la radio y, en
+general, la arquitectura tradicional en las redes de comunicación, influyeron poderosamente en esa decisión.
+La gestión de un recurso escaso como eran las frecuencias hertzianas, la conciencia sobre la importancia
+político-cultural de la radiotelevisión, o el consenso sobre la necesidad de preservar a ese aparato de la
+presión comercial fueron frecuentemente las principales razones alegadas, cuando no simplemente la
+inexistencia de grupos privados fuertes e interesados en el sector.
+En casi toda Europa occidental se constituye así un modelo específico de televisión estatal de
+servicio público, caracterizado por unos objetivos pedagógicos de la oferta de programas, la financiación
+dominante a través de un impuesto ad hoc (el canon), y por una siempre relativa pero progresiva
+autonomización de la gestión respecto de los Gobiernos. Este modelo, inimaginable en ausencia de un
+régimen parlamentario democrático, suponía en su dibujo ideal un triple monopolio público: de producción
+(nacional e interna en una proporción dominante); de programación (único operador autorizado a ofertar sus
+productos) y de difusión (con control directo generalmente de la propia red de difusión de la señal). Y
+durante años se convertirá en un diseño de referencia para la televisión estatal en todo el mundo. El Reino
+Unido, en especial, representará su encarnación más celebrada, junto con el también sistema mixto japonés.
+Por el contrario, en Estados Unidos se conforma un modelo antitético, en el que –sobre la base de la
+experiencia y estructura empresarial radiofónica– se constituye un oligopolio de tres networks (cadenas) –
+NBC, CBS y ABC–, que operarán a partir de una red de emisoras propias y afiliadas, con financiación
+comercial exclusiva. La filosofía central de su funcionamiento, que algunos confunden con su legitimación
+por el localismo, es que la naturaleza del broadcasting (la televisión en cadena) debe ser decidida por las
+fuerzas del mercado y no por la acción del Gobierno (Streeter,1983 ). Lo cual no impidió que los organismos
+estatales (FCC o Comisión Federal de Comunicaciones, Congreso, jueces...) jugaran permanentemente un
+papel decisivo: tanto en su constitución radiofónica bajo forma de arbitraje gubernamental para separar las
+funciones y los monopolios (entre la radiodifusión y la telefonía con ATT, por ejemplo) e incluso como
+accionista ocasional a través del ejército y la armada de algunas empresas; como en la protección del
+oligopolio de las tres grandes networks frente a los intentos de competencia; como sobre todo en la
+generación de un complejo sistema de reglas para la producción y la programación. En definitiva, el sistema
+norteamericano de televisión debe ser visto como “el producto integrado de una coordinación oligopolística
+entre las mayores compañías y el Gobierno” (ídem), sin que la televisión pública o PBS jugara nunca un rol
+destacado en el comportamiento de ese sistema. Pero la televisión norteamericana llegó a ser también un
+paradigma de la aplicación de las reglas del mercado y de la televisión concebida como business.
+En uno y otro caso, sin embargo, el Estado jugó un papel clave en la definición de los sistemas
+televisivos nacionales a través de una regulación constante, entendida como el conjunto de “intervenciones
+intencionales de las autoridades públicas para orientar, en caso necesario dirigir, las conductas de los actores
+de un sistema audiovisual de tal forma que participen en el funcionamiento correcto del sistema”
+(Guillou/Padioleau,1988:11). Un concepto macroeconómico, vinculado a la economía política, que incluye
+las leyes pero también las reglas y acuerdos, las acciones y omisiones de los Gobiernos, e incluso los
+“hábitos y rigideces” según algún autor, que contribuirían también a la reproducción del sistema (Kopp,
+1990: 82-83).
+Los orígenes de las televisiones públicas
+Aunque las justificaciones oficiales sobre el establecimiento de las televisiones públicas en Europa y
+sus correspondientes monopolios –citadas en el capítulo anterior–, son bastante frecuentes y repetidas en los
+documentos oficiales, las causas profundas de ese modelo han sido debatidas y controvertidas por su
+complejidad. El simple contraste entre dos sistemas radiofónicos contrapuestos como el estadounidense y el
+británico, a partir de desarrollos iniciales similares e incluso en ocasiones las mismas empresas, es ya
+llamativo. Pero las televisiones públicas europeas obedecen a razones y a contextos que no pueden
+enteramente asimilarse a los de la radio.
+2
+
+Muchos autores han señalado así la inexistencia en los países europeos occidentales, al concluir la II
+Guerra Mundial, de un mercado de consumo suficientemente amplio como para garantizar tanto la venta
+masiva de receptores como la rentabilidad de la publicidad. El Estado, como ocurrió también inicialmente en
+muchos países de América Latina o de otras regiones, jugó pues un papel de precursor para generar un
+“espacio estatal homogéneo” (Flichy, 1980: 62-63) en un doble mercado interrelacionado: la fuerte inversión
+requerida en infraestructuras que permitió la expansión y universalización del servicio, y la producción
+sistemática de programas que hizo atractivo el nuevo medio y suscitó una compra masiva de receptores a
+precios baratos. Estaríamos pues ante una medida de política industrial, variable más económica que política
+del modelo estadounidense Barberio/ Macchitella, 1992:117).
+La trascendencia de esta lógica es mayor para algunos autores. Se ha destacado así que los Estados
+cumplían una función de garantizar las condiciones generales de reproducción del capital como un todo
+(Holzer, 1976), lo que explicaría la debilidad y fracaso de los intentos privatizadores durante años. En esta
+línea, y en uno de los análisis más profundos el tema, se ha señalado que la garantía por el Estado de la
+producción de programas y la venta de aparatos, constituyó un auténtico “pacto fordista” porque la creación
+de una audiencia de masas y el acceso de los anunciantes a ella fue una “herramienta clave del marketing
+fordista” (Garnham, 1991). Pero a esta visión macroeconómica hay que añadir una explicación política.
+La mayor parte de los países europeos salía de la Guerra Mundial con una soberanía nacional y un
+sistema político debilitado. Y para restaurar el consenso y la identidad nacional era indispensable una
+televisión estatal centralizada y su acceso sistemático a la población. No era en cambio el caso de los Estados
+Unidos, cuyo sistema político salía fortalecido del conflicto. Las excepciones a esos sistemas pueden
+también explicarse en clave política. De forma que sabemos que en Alemania se constituyó una estructura
+descentralizada y federalizada por imposición de los aliados durante la ocupación, con la evidente intención
+de dificultar la resurrección del “espíritu nacional” alemán (Wuggening/Giegler, 1990). Y se podría apuntar
+que la aceptación tan rápida en el Reino Unido de un sistema mixto controlado bajo la concepción de
+servicio público tiene mucho que ver con las peculiaridades de un país que no fue invadido y que mantenía
+lazos estrechos con Estados Unidos, de la misma forma que su implantación en Japón tiene relación con la
+necesidad de compaginar la ocupación estadounidense con la situación de un país desmoralizado (Garnham,
+1991).
+Además de este pacto explícito de las principales fuerzas políticas, internas y externas en ocasiones,
+sustentado sobre la imagen de un Estado neutral y árbitro entre las clases sociales, se ha apuntado en muchos
+países de estructura democrática la existencia de un acuerdo implícito con el sector intelectual, que habría
+contribuido a sostener poderosamente también el monopolio público: los intelectuales, como en el Reino
+Unido o en Francia, disfrutaban de los medios de producción y de cierta libertad de creación fuera de la
+información, mientras el Estado y los gobiernos se aseguraban el control de esta última.
+Tales consideraciones iluminan también el funcionamiento práctico de los monopolios públicos
+durante años. La famosa trilogía de funciones y objetivos –educar, informar, entretener, por ese orden– fue
+compatible con un control político efectivo de los Gobiernos en el poder, que ejercían su visión paternalista
+en combinación con una perspectiva elitista de la cultura, basada en los patrones de la clase media-alta.,
+como se ha analizado ampliamente sobre todo en el caso británico, con la BBC como “pivote” de la cultura
+nacional (Kumar, 1981:265). Pese a lo cual, la televisión pública será oficialmente presentada como el
+portavoz oficial y unificado de la nación entera (la “voz de Francia”, en palabras de De Gaulle).
+Estos componentes peculiares no pueden sin embargo predicarse del caso latinoamericano, en donde
+las cadenas se comercializaron y privatizaron en cuanto hubo un mercado relativamente amplio; y en donde
+las televisiones públicas supervivientes adoptaron con frecuencia un esquema autoritario, sin consenso social
+ni modelo de servicio público (Muraro, 1985; Roncagliolo, 1995: 299). Tampoco pueden en general
+proyectarse sobre otros sistemas de corte autoritario como el español del franquismo o el portugués, o sobre
+las televisiones del socialismo real de los países del centro y este de Europa, realizadas sobre bases muy
+diferentes. En cuanto al caso de la Public Broadcasting Service estadounidense, su nacimiento tardío en
+1967, su filosofía mixta entre el localismo y la educación y su propia estructura no permiten pensarla
+siquiera como una compensación parcial al modelo dominante comercial (Pasquier, 1990:20-22).
+La crisis de los monopolios europeos en su “edad de oro” puede ser rastreada a través de muchos
+años y de variados síntomas. La creación de los segundos canales significaba de alguna forma el
+reconocimiento de una pluralidad de gustos entre los ciudadanos y la necesidad de delegar hacia ellos la
+función cultural más estricta. La descentralización, que en ocasiones llevó a la generación de los terceros
+canales, mostró asimismo que el centralismo original resultaba insoportable. La progresiva introducción de la
+publicidad en los años sesenta y setenta, aun siempre minoritaria en relación al conjunto de la financiación,
+indicaba que la financiación procedente del canon comenzaba a avizorar un horizonte de saturación, tras los
+3
+
+años de crecimiento natural por la expansión del número de hogares con televisor y de los receptores en
+color. Pero la auténtica crisis llegará de la mano de la instauración generalizada por la desregulación de
+“sistemas mixtos” o “duales”, denominaciones puramente jurídicas que sólo indican la coexistencia entre dos
+tipos de titularidad y de objetivos, pero ocultan la diversidad de situaciones y de equilibrios que se generan
+entre ellas.
+En el análisis de esta crisis y de las reacciones y respuestas planteadas nos ocuparemos sobre todo de
+las televisiones públicas europeas, porque es difícil analizar por las razones apuntadas la crisis permanente
+en América Latina o sacar lecciones de la crisis de los sistemas estatales de los países del Este europeo en los
+años 90, confrontados al choque directo de la llegada de la economía de mercado y la internacionalización
+(Autissier/Mattelart, 1992). En cuanto a la PBS de Estados Unidos, además de su peso marginal en las
+audiencias, los analistas coinciden en señalar su crisis congénita por la confusión conceptual de objetivos, su
+organización fragmentada y la escasez y dispersión de su financiación (Pasquier, 1990: 20-22; Tracey,
+1995:165-167).
+La desestabilización
+Durante varias décadas, los sistemas europeo y estadounidense descritos se mantuvieron incólumes
+en sus trazos esenciales (Ver Cuadro 1). Aunque esta afirmación ha ocultado a menudo la incesante llegada
+de innovaciones técnicas y de acontecimientos sociopolíticos y económicos, con las transformaciones
+consiguientes de la televisión, bien visibles en los operadores públicos europeos. En el primer terreno habría
+así que recordar en los años sesenta la aplicación del videotape, que destruyó la supuesta especificidad
+televisiva del directo, la instauración de los segundos canales al impulso de las señales VHF, la aparición
+posterior en ocasiones de los terceros canales regionales; y, en el plano social, cabría citar la introducción
+paulatina de la publicidad en muchas televisiones públicas europeas desde la segunda mitad de los años
+cincuenta, la crisis política que repercutió duramente sobre las radiotelevisiones públicas de Francia o Italia
+en 1968-1969, o los tardíos intentos de reforma de 1974-1975 en esos mismos países.
+Por huir asimismo de una perspectiva eurocéntrica, puede destacarse que en la mayoría de los países
+de América Latina, pese al origen estatal de la radio y, en parte, de la televisión, la dinámica comercial y
+privada avanzó rápidamente y se generalizó ya en los años cincuenta y sesenta. Contribuyeron en parte a ese
+rápido auge las intensas inversiones desarrolladas por grupos privados regionales como el de Goar Mestre,
+aliados a las grandes cadenas estadounidenses, y la retirada de estas últimas desde los años setenta para
+quedar sólo como proveedores privilegiados de programas no alteró ya este estatus. La televisión adoptó
+ciertamente en algunos países estructuras originales, como en Chile en donde la inexistencia de grupos
+privados fuertes en la radio permitió confiar las cadenas televisivas a las universidades, o en Colombia, con
+una curiosa estructura de televisión pública alquilada a programadoras privadas por franjas horarias. En
+todos los casos, sin embargo, el movimiento de comercialización fue arrollador y absorbió las iniciativas
+públicas o no lucrativas, instaurando una casi completa hegemonía privada que sólo se romperá en algún país
+muy puntualmente (Fox, 1989).
+La desestabilización de ambos sistemas de referencia, el estadounidense comercial y el de servicio
+público europeo va a producirse, en períodos diferentes, por un proceso de desregulación, término
+ciertamente polisémico, importado de Estados Unidos como ariete de una ideología neoliberal y escasamente
+por tanto inocente, pero cuya generalización es hoy tan fuerte que difícilmente podríamos bautizar esos
+fenómenos de otra forma. Veremos su significado y expansión más detalladamente en el próximo capítulo,
+pero podemos adelantar que no significó nunca una eliminación pura y simple de las intervenciones y
+regulaciones estatales.
+4
+
+Cuadro 1. Los modelos fundadores en televisión
+Televisión Pública Televisión Comercial
+Papel del Estado Estado-gestor Estado-árbitro
+Garantía del pluralismo Gestión pública Mercado competencia)
+Financiación Canon Publicidad
+Dinámica dominante Política/Cultura Economía/Política
+Objetivos programáticos Información/ Educación/ Entretenimiento
+Entretenimiento
+Producción Propia- Nacional Múltiple
+(Propia/ajena)
+(Nacional/ Importada)
+Destinatario Ciudadano Consumidor
+Legitimación Satisfacción Cantidad (Fidelidad)
+(audiencia acumulada)
+Regulaciones nacionales y regionales
+La historia de la televisión, pero también como hemos señalado la proliferación de legislaciones
+sobre el audiovisual en pleno período de desregulación, demuestran claramente que estamos ante un sector
+eternamente regulado y condicionado por los Estados, que definen así las reglas de oro de la economía de la
+televisión. Más aun que en cualquier otro sector de la economía, la “mano invisible” del mercado no actúa
+pues nunca de forma pura y los actores y su competencia se desarrollan en el contexto de las
+reglamentaciones nacionales e internacionales, de su control y grado de cumplimiento, de las regulaciones
+explícitas o implícitas que se da cada sociedad. Pero también podría decirse, en sentido contrario, que las
+regulaciones que no tienen en cuenta la economía de la televisión resultan inaplicables o terminan por
+fracasar.
+En el muy liberal contexto estadounidense de la televisión clásica, el modelo de network estuvo
+predeterminado sobre todo por las prohibiciones de concentración (cada cadena no podía poseer más de siete
+emisoras primero, doce después) que obligaron al sistema de afiliación de emisoras, y por las limitaciones a
+la programación propia en horarios de máxima audiencia –el finsyn-run– que potenciaron a las productoras
+independientes de las cadenas y generaron el mercado de la syndication, o agencias dé venta a las emisoras
+independientes. En el sistema mixto británico, el servicio público común a cadenas públicas y privadas se
+practicó por autoridades de control con estrictas normas sobre la programación y la producción, y la
+desregulación francesa ha ido acompañada de poderes reforzados para las “altas autoridades del audiovisual”
+en el sistema más controlado que se conoce. Incluso el período de competencia salvaje de a-regulación
+italiana, ha sido seguido por una cierta re-regulación desde 1990 con la Ley Mammi y, sobre todo, desde
+1992.
+La desregulación, además de su proliferación legislativa consiguiente sobre el sector, ha implicado la
+generalización en la mayoría de los países industrializados de instituciones específicas destinadas a regular y
+controlar la televisión y el audiovisual. El desprestigio de la acción directa de los Gobiernos en este campo,
+pero también la complejidad y mutación de los sistemas televisivos, han conducido así a la formación de
+“altas autoridades” de diversa composición y elección, más o menos independientes de los Gobiernos, con
+mayores o menores funciones de regulación, control y sanción, pero que intentan siempre ejercer sus
+misiones en medio de sistemas cada vez más turbulentos (Guillou/Padioleau, 1988:22).
+La regulación y, en general, la política televisiva estatal puede clasificarse en los siguientes
+apartados:
+– Determinación de los actores televisivos y de su entorno competitivo:
+a) Por la concesión o autorización de las frecuencias consideradas propiedad pública
+(incluso en el caso de su subasta como en el Reino Unido, pero sometida a criterios
+interpretables como la calidad o la viabilidad económica), por las condiciones
+exigidas (cahiers de charge) y por el trato fiscal posterior.
+b) Por las reglas anti-concentración sobre la propiedad de los canales o sus accionistas
+(frecuentemente con limitaciones a la propiedad cruzada con otros medios), que
+5
+
+implican a menudo condiciones expresas a sus empresas (acciones nominativas,
+prohibición de salida a bolsa...).
+– Protección a otros sectores por razones de política industrial o cultural:
+a) Protección frecuente a los fabricantes de equipos nacionales, mediante estándares
+técnicos, procedimientos de homologación, etc.
+b) Protección a otros medios de comunicación frente a la competencia televisiva: a la
+prensa, limitando los sectores (la distribución en Francia) o los tipos de publicidad
+televisiva; al cine, limitando en horarios, días y número la emisión de filmes
+(minuciosamente reguladas en la normativa francesa).
+c) Protección a la industria de producción frente a la competencia exterior pero
+también, internamente, cara a la fuerza de los difusores: mediante cuotas de
+programación o de inversión, regulación de las “ventanas” de explotación del filme,
+límites o cuotas en la programación o el control de la producción propia,
+estipulación de los derechos de autor...
+– Protección a los consumidores a través de límites o prohibiciones a la publicidad en productos,
+cantidad, fórmulas, espacios de inserción...
+La regulación europea
+En la regulación de la televisión ha surgido sin embargo otro agente importante, las regiones de
+países en proceso de integración y sus instituciones, que colaboran al deterioro de la soberanía nacional al
+detraer una parte de las competencias del Estado-nación. El signo de su acción sólo puede entenderse en el
+marco de una economía global “regionalizada” (Castells, 1996:127) en donde una serie de países vecinos
+deciden integrarse para incrementar sus economías de escala y sus ventajas comparativas a partir de la
+unificación y fortalecimiento de sus mercados internos. Es el caso de la Unión Europea, pero también del
+Tratado de Libre Comercio (EE.UU. con Canadá y México) o del Mercosur (Argentina, Brasil, Uruguay y
+Paraguay). Y esta naturaleza determina su papel en el audiovisual.
+El caso de la Unión Europea, por su mayor antigüedad y madurez en esta trayectoria aparece hoy
+como un ejemplo a analizar. La cultura no figura en ningún texto del Tratado de Roma de 1957 ni en el Acta
+Única de 1986 y sólo será contemplada de forma subsidiaria a la responsabilidad de los Estados-miembros
+en el Tratado de Maastricht de 1992. El audiovisual no entrará así en la agenda de la Comisión Europea más
+que a partir de la sentencia del Tribunal Europea sobre el caso Sacchi, de 1974, que da por sentada la
+naturaleza de servicio económico de la televisión. El objetivo desde entonces de la Unión Europea en este
+capítulo será doble: la armonización de las regulaciones nacionales para remover obstáculos al “mercado
+único” de la televisión y del audiovisual, y la protección –industrial y cultural– de la producción en este
+campo (Godoy, 1995). Y con ocasión de las negociaciones del GATT sobre la libertad de comercio mundial,
+la UE aparecerá como un actor unificado para defender la “excepción cultural” o derecho a la protección de
+su cultura y su audiovisual.
+En estos terrenos, y dejando al margen los programas y acciones de fomento (como el programa
+MEDIA) o los múltiples informes y documentos de debate, la regulación europea que afecta más
+directamente a la televisión es la Directiva de Televisión Sin Fronteras, preparada a partir del Libro Verde de
+1984 y promulgada finalmente en octubre de 1989 tras años de polémica y de lucha de los lobbies en
+Bruselas de la publicidad, las cadenas y los productores. Desde una perspectiva económica, sus disposiciones
+afectan especialmente a la programación y la producción de las cadenas televisivas, así como a la emisión de
+publicidad (Ver Cuadro 2).
+Sin embargo, la disminución de obligaciones para los radiodifusores de muchos países europeos que
+supone estas normas, la ambigüedad de los términos de muchas de sus exigencias –“siempre que sea
+posible”, “progresivamente”…–,y las incertidumbres sobre su cumplimiento efectivo, han llevado a
+numerosos autores a considerar que la política televisiva de la UE era mucho más consecuentemente
+desreguladora y “liberalizadora” que reguladora y protectora del audiovisual europeo (Regourd, 1992,
+Collins, 1994). Lo que no fue obstáculo para que muchos empresarios y publicistas la tacharan de
+intervencionista y reglamentista en relación a normativas nacionales más flexibles o al incumplimiento
+general de sus exigencias en algunos países. Los debates y polémicas se renovaron en ocasión de la revisión
+de la Directiva a los cinco años, con la negativa de la Comisión y del Parlamento (Octubre de 1996) a hacer
+obligatorias sus cuotas y concretar más sus términos. De forma que la “nueva Directiva” de televisión sin
+Fronteras de Junio de 1997 contiene sólo modificaciones menores.
+6
+
+Cuadro 2. La directiva de televisión sin fronteras (1989-1997)
+(Disposiciones de mayor impacto económico)
+Programación y producción
+♦Mayoría del tiempo de antena para obras europeas “siempre que sea posible”, alcanzada
+“progresivamente”, no inferior a media nacional de 1988 (art. 4, 1989).
+• Excluidos: información, deportes, concursos, publicidad, teletexto (Ídem).
+• Excluida: telecompra (Íd.).
+♦Producción Independiente de obras europeas: 10 por 100 del tiempo de antena o 10 por 100 del
+presupuesto de programación, a elección de cada Estado (art. 5).
+• Con una proporción adecuada de obras recientes (Ídem).
+• Excluidos los géneros citados anteriormente (Ídem), más telecompra (Íd.).
+♦ Plazos temporales a la emisión de películas: dos años tras su estreno en salas, un año en coproducciones
+por las cadenas.
+Publicidad
+♦ Límites de espacios: fácilmente identificables, y separados de los programas por medios ópticos y / o
+acústicos (art. 10).
+• Insertada entre las emisiones o en sus interrupciones naturales (art. 11)
+• En los largometrajes: cada 45 minutos, más otra interrupción si su duración supera dos o más
+tramos completos de 45 minutos (art. 11).
+• No insertadas en servicios religiosos, ni en emisiones informativas políticas, documentales,
+religiosas o infantiles que no superen los 30 minutos (art. 11).
+♦Límites de tiempo: publicidad no más del 15 por 100 del tiempo de antena, ni con televenta más del 20
+por 100. En total no más del 20 por 100 de cada hora (excluida autopromoción) (art. 18).
+♦Límites para productos: prohibición a los anuncios de tabaco (art. 13), limitaciones a los de medicamentos
+(art. 14) y bebidas alcohólicas (art. 15).
+Por otra parte, las críticas a la vertiente economicista y de mercado de la política de la Unión
+Europea y de su olvido de la cultura no han faltado tampoco (Schlesinger, 1997; Mattelart, 1995). Y la
+incapacidad de la Comisión Europea para poner en marcha disposiciones anti-concentración específicas para
+los medios de comunicación tras el debate inacabado del Libro Verde sobre la. Concentración y el
+Pluralismo de 1992, ha incidido asimismo en este sentido. En el plano de las televisiones públicas también,
+como veremos, las actuaciones de la Comisión han sido mucho más mercantilistas que favorecedoras del
+servicio público.
+En todo caso, la acción de la Unión Europea en el campo televisivo, incluyendo campos conexos
+como la regulación de la tecnología o de los derechos de autor, debe verse en esa dinámica
+desregulación/regulación, en la que se juegan concepciones muy diferentes de sociedad y de la propia
+integración regional: intervencionistas/mercantilistas, dirigistas versus ultraliberales (Collins, 1994). Pero
+también debe verse como un terreno de batalla de los diversos intereses nacionales: países pequeños-países
+grandes, industrias cinematográficas fuertes versus industrias especializadas en la televisión.
+El ejemplo europeo puede en todo caso trasladarse a otros procesos de integración, como el TLC,
+que ha agudizado los debates en Canadá sobre la televisión y el audiovisual nacional, pese a que su acuerdo
+con EE.UU. incluía una cláusula de excepción cultural. En México, en donde tal precaución no fue adoptada,
+se ha señalado que la privatización de la televisión pública en 1993 era una consecuencia a priori de la
+integración en el TLC, y posteriormente fueron liberalizadas las reglas de propiedad sobre la prensa y la
+televisión, así corno la protección sobre el audiovisual (Crovi, 1995). En cuanto al Mercosur, constituido en
+1995, es pronto para analizar sus consecuencias, pero numerosos investigadores han clamado ya por una
+política televisiva y de comunicación de integración regional (Vassallo/Marques, 1997).
+7
+
+IV. LA TELEVISIÓN DESREGULADA
+Desregulaciones en cadena
+Iniciada en Estados Unidos desde finales de los años sesenta en numerosas áreas de servicios y redes
+de comunicaciones antes protegidos por el “interés público” (de la banca al transporte interurbano al agua o
+las telecomunicaciones), la desregulación llega al audiovisual en la segunda mitad de la década de los setenta
+bajo dos formas fundamentales articuladas: la remoción de las restricciones reglamentarias que pesaban
+sobre la televisión por cable y la flexibilización y desaparición progresiva de las normas que habían regido el
+funcionamiento de la televisión y que habían estructurado el sector audiovisual en su conjunto,
+especialmente las que limitaban la concentración y las que ordenaban los contenidos. En ambos terrenos, hay
+una filosofía de fondo dirigida a disminuir la intervención del Estado y a potenciar la competencia, como
+regla suprema identificada no sólo con el desarrollo económico sino también con la garantía del pluralismo.
+Una década después, si marcamos el caso italiano como pionero en 1976, la desregulación alcanza a
+la televisión de la Europa occidental, para irse desarrollando en oleadas sucesivas y con tipologías variadas
+en cada país hasta la actualidad. En Italia, tomará una apariencia de prolongada alegalidad tras la sentencia
+del Tribunal Constitucional que autorizaba la televisión privada local, hasta constituir lo que algunos autores
+llamaron el “laboratorio” de experimentación salvaje de las fuerzas del mercado y de la concentración. La
+originalidad francesa será la privatización en subasta de la primera cadena pública, con brusca
+desestabilización del equilibrio público-privado. La peculiaridad española incluirá la comercialización total
+de la televisión pública, previamente a la autorización de las cadenas privadas. La desregulación belga, en
+cambio, se introducirá por las cadenas importadas del exterior a través del cable, que originaron una
+importante evasión de capitales de anunciantes nacionales, dispuestos a escapar por esa vía a la estricta
+regulación publicitaria nacional.
+Las diferencias sustanciales entre la desregulación en Estados Unidos y Europa, destacadas por
+muchos investigadores, son decisivas para entender ambos procesos. En Estados Unidos, los cambios se
+orientan sobre todo a permitir el desarrollo de la tercera generación del audiovisual (el cable, la televisión de
+pago, la oferta fragmentada), se realizan de forma relativamente ordenada (aunque con retrocesos y
+resistencias ocasionales) por instancias unificadas como la FCC, y suponen una profundización en la
+filosofía competitiva y de mercado imperante desde hacía décadas. En Europa, la desregulación se centra en
+la segunda generación audiovisual (la televisión de masas) al adquirir el significado de desmantelamiento de
+los monopolios públicos de programación y, muchas veces, de difusión, con la apertura a la iniciativa
+privada y a la competencia; pero también comprende la flexibilización (“liberalización”) de las normas que
+regían la publicidad y la asunción misma por parte de los servicios públicos de una dinámica crecientemente
+comercial; además se realiza con formas, ritmos e instancias diferentes en cada país, y supone un cambio
+cualitativo en la filosofía de base que había reinado durante décadas (monopolio público = pluralismo)
+(Lange-Renaud, 1988: 11-24).
+Transición al mercado
+Más allá de las diferencias, hay indudables connotaciones comunes en ambas regiones.
+Especialmente el retroceso relativo de la intervención estatal y el reforzamiento de una lógica comercial, de
+un ascenso en la mercantilización general de la televisión. Más específicamente, algunos autores han
+observado para el caso europeo que la desregulación parece significar una disminución de las reglas cuando
+en realidad ha implicado, en la mayoría de los países, una proliferación legislativa sobre la televisión sin
+parangón en toda su historia. De forma que su significado estricto sería el de re-regulación, y más
+exactamente el de trans-regulación, de transición de una regulación estatal a una empresarial, de una lógica
+político-cultural a una lógica económica, aunque la política permanezca omnipresente, camuflada bajo el
+manto de la competencia y del mercado (Musso-Pineau, 1990: 198). En definitiva, se asiste en general a “una
+comercialización de la esfera pública: el derecho privado tiende a sustituir al derecho público, el contrato a la
+legislación, el consumidor-telespectador al ciudadano telespectador” (Lange/Renaud, 1988:24).
+Esta interpretación conlleva además una interrogación sobre las causas de la desregulación, que no
+pueden ser encerradas en las justificaciones deterministas habituales sobre la innovación tecnológica, cuando
+se comprueba que en Europa y en otros muchos países ese proceso nada tuvo que ver en un primer momento
+con los nuevos soportes y nuevas redes, sino que se centró en la televisión clásica por ondas hertzianas. Las
+explicaciones sobre las modas políticas e ideológicas tienen también sus limitaciones, aunque sepamos que el
+8
+
+pensamiento desregulador surgió como reacción al pensamiento keynesiano de los demócratas, bajo el
+mandato de Nixon, y se expandió después en oleadas concéntricas hasta convertirse en la corriente
+dominante en la administración estadounidense y en muchos de los gobiernos europeos. En Estados Unidos,
+se ha destacado la colaboración o la pasividad de algunos monopolios sectoriales (caso en parte de la ATT en
+la telefonía) en la eliminación de su propia exclusiva sobre mercados saturados a cambio de la libertad de
+entrada en nuevos sectores emergentes; e incluso, como en el caso de la televisión, se ha historiado el cambio
+en la correlación de fuerzas entre los diferentes lobbies en presencia (los networks, las majors, los
+cableoperadores). Pero en algunos grandes países europeos también se ha señalado cómo los partidos en el
+Gobierno. (los conservadores británicos en 1954 o la democracia cristiana italiana a finales de los años
+setenta), colaboraron activamente en la apertura a los actores privados para prevenir o compensar la pérdida
+de poder que conllevaba el cuestionamiento de su poder dominante sobre las televisiones públicas.
+En el terreno europeo, la sorprendente coincidencia en pocos años de la desregulación generalizada
+en países de muy distintas tradiciones y estructuras –y tras años de intentos privatizadores generalmente
+frustrados– no podría ser explicada solamente por importaciones y contaminaciones ideológicas, sino
+también por fenómenos económicos y sociales generales. Así, se ha señalado que la desregulación televisiva
+en Italia, Francia y otros países europeos y el rápido despegue de los canales privados coincide con un
+notable ascenso de las inversiones inmateriales (publicitarias, comunicativas) de las empresas en esos países
+(Musso/Pineau, 1990), lo que explicaría no sólo la búsqueda por su parte de más amplios soportes
+publicitarios sino también su exigencia de una mayor adecuación entre contenidos televisivos y mensajes
+comerciales. Esta presión a su vez se traduciría en la flexibilidad de condiciones legales y de tarifas, así
+como en fórmulas de publicidad indirecta como el patrocinio, el bartering –o trueque de programas por
+publicidad– o el product placement –colocación de reclamos publicitarios en el interior de los programas–. Y
+sin embargo, este proceso se da igualmente en países que no disfrutaron de un incremento significativo de
+inversiones publicitarias tras la instauración de la competencia privada.
+La desregulación debe verse, pues, como un proceso complejo en cuya expansión intervienen
+conmociones sociales en profundidad, desde la crisis del keynesianismo como legitimación de la
+intervención estatal y del Estado del Bienestar, la internacionalización de la economía como más adelante
+veremos, la apetencia de grupos y capitales excendentarios en busca de mercados abultados y en crecimiento,
+hasta las grandes transformaciones económicas y culturales sufridas por muchos países en las últimas
+décadas. En este sentido, por ejemplo, se ha interpretado que la desestabilización de la televisión pública e
+incluso de los oligopolios privados encaja en el agotamiento del modelo fordista, caracterizado por la
+producción y el consumo masivo de bienes estandarizados sobre la base de una gama limitada de
+necesidades homogéneas, y enlaza con una nueva oleada post-fordista, de producción flexible y diferenciada
+para segmentos precisos de consumidores (Garnham, 1994).
+Desregulaciones nacionales peculiares
+En todo caso, ese movimiento general en su orientación y sus objetivos guarda singularidades
+destacadas en cada país, nacidas de las tradiciones, las instituciones y las resistencias de cada marco
+nacional. De forma que la vía y los grados alcanzados en cada uno de los grandes países europeos traen
+consigo moralejas interesantes, además de prestar la base para analizar las muy diferentes situaciones y
+estrategias de las televisiones públicas del viejo continente que analizaremos en el Capítulo 5. Aunque el
+orden cronológico sea siempre discutible, permite al menos una visión evolutiva:
+Reino Unido
+Aparentemente lleva a cabo la primera desregulación, avant la lettre, en 1955, como consecuencia de
+una campaña organizada de los conservadores con los lobbies de la publicidad y la electrónica que se salda
+con la instauración de la televisión privada (Independent TV) mediante quince sociedades que actúan en otras
+tantas áreas regionales. Sin embargo, la consideración general de servicio público, la estricta separación de
+fuentes financieras (con la publicidad prohibida en la BBC) y el rígido control (por la ITA, luego
+Independent Broadcasting Authority) , de televisiones privadas monopolistas en cada mercado van a fundar
+justamente el paradigma de una competencia “cortés”, e incluso de sistema equilibrado por antonomasia. Ni
+el desplome inicial de la BBC, readucida al 28 por 100 de las audiencias pero recuperada después, ni la
+creación de Channel Four en 1982, con un estatuto no comercial y alimentada financieramente por la ITV,
+pondrán en cuestión este equilibrio.
+9
+
+La auténtica desregulación británica, tardía en términos europeos, se inicia, con efectos retardados en
+1989-90 (surgimiento de BSB y Sky Channel y su fusión) y, de forma inmediata, en 1991 con una primicia
+mundial: la venta de las frecuencias hertzianas en subasta (Richeri, 1994: 225-231) en función del pago
+ofrecido por cada aspirante al Estado, aunque con garantías de calidad programática y de viabilidad
+financiera como correctores. El resultado fue la caída de varios concesionarios privados, especialmente de
+Thames TV tras 23 años de emisiones, la entrada de nuevos actores como Carlton TV, y el impulso a la
+maximización de los beneficios. Autorizadas las compra-ventas de licencias desde 1994, se inicia una carrera
+de absorciones que en los últimos años ha llevado, por ejemplo, a la adquisición de Central por Carlton o de
+Anglia por Meridian. Es más, desde 1993 Channel 4 debe autofinanciarse por publicidad y en 1998, tras un
+largo proceso, se creó Channel 5, consagrando una competencia comercial múltiple
+(Alvarado/Locksley/Paskin, 1992; Scannell, 1995).
+Italia
+En términos reales, la desregulación italiana inaugura el proceso en Europa con una vía original: las
+sentencias del Tribunal Constitucional autorizando la televisión por cable (1974) y local después (1976), y la
+alegalidad absoluta durante quince años en que, mientras se suceden los proyectos de ley frustrados, actúa
+sólo la dinámica del mercado. En el “eslabón más débil de Europa” según un dictamen general para esos
+momentos, centenares de televisiones locales van a dar lugar a un proceso de concentración acelerado en
+torno a los canales de Berlusconi que opera primero con Canale 5-Canale 10, para absorber en 1982-1983 a
+sus dos grandes competidores, Italia 1 (del grupo Rusconi) y Rete Quattro (perteneciente a Mondadori),
+paradójicamente nacidos en el seno de grupos de comunicación tradicionales frente al origen de Fininvest en
+la construcción. Se conforma así un duopolio público-privado casi perfecto, con los tres canales de
+Berlusconi frente a los tres de la RAI (Martini, 1985). Con la diferencia de que si Fininvest consigue pronto
+construir una programación conjuntada de mando a distancia (Musso/Pineau, 1990), los canales de la RAI
+quedarán divididos durante años por el sistema de “lottizacione” engendrado desde 1975, un reparto de la
+gestión de las cadenas y de las cuotas de poder interno entre los grandes partidos políticos
+(Musso/Pineau,1990; Gaetano/Silva, 1992).
+Francia
+La existencia de emisoras periféricas (TeleLuxemburgo y Tele-Montecarlo) desde los años
+cincuenta, con el Estado francés como accionista importante es una peculiaridad especial de Francia. La
+reforma de la radiotelevisión pública francesa (ORTF) en 1974, con su separación en siete sociedades, que
+obligó a competir a las tres cadenas públicas por una cuota de audiencia que determinaba el reparto de las
+subvenciones, constituye una curiosa experiencia de simulacro del mercado. Pero la auténtica desregulación
+despega en 1984, cuando una ley del audiovisual declara que “la comunicación audiovisual es libre”. Primera
+paradójica consecuencia en la televisión, ese mismo año comienza a operar Canal Plus, codificada por ondas,
+con la empresa estatal Havas como accionista dominante más adelante privatizada. La autorización por el
+Gobierno socialista y antes de perder las elecciones, de dos televisiones privadas, la Cinq y M 6 abre a la
+competencia comercial, además de estar a punto de hacer quebrar a Canal Plus.
+La derecha en el poder no sólo cambiará a los concesionarios de esas cadenas, sino que abordará una
+primicia mundial: la privatización del primer canal público, TF 1, que es entregado al grupo de construcción
+Bouygues con una inmediata desestabilización no sólo del peso de la televisión pública sino también de los
+competidores privados. De forma que la Cinq, compartida primero por Berlusconi con el grupo Hersant y
+luego con Hachette, inicia un ejemplar círculo vicioso de caída de audiencias y de recursos hasta verse
+obligado a cerrar sus emisiones en 1992, con el 11 por 100 de la audiencia. En el lugar –insoportable– de esa
+pantalla oscura nacerá en 1991 ARTE y luego, compartiendo frecuencia, la Cinquième, “televisión del saber,
+la formación y el empleo”. Pero, como culminación simbólica de ese proceso la vuelta posterior de los
+Gobiernos de derecha traerá consigo la eliminación del concepto tradicional de servicio público para la
+televisión privada, no restaurado posteriormente por los socialistas (Gournay/ Musso/Pineau, 1985;
+Brochard, 1996; Lamizet, 1996; Regourd, 1997).
+Alemania
+El caso de Alemania está marcado por la descentralización implantada por las fuerzas
+estadounidenses de ocupación tras la II Guerra Mundial, con atribución de las competencias culturales y
+10
+
+televisivas a los Länder (Estados), en consonancia con una estructura federal. Pero muestra además la
+resistencia presentada por un sistema de televisión pública fuertemente implantado y asumido por las
+instancias políticas y judiciales (el Tribunal Constitucional especialmente). De forma que la televisión
+privada va a ser autorizada solamente por satélite-cable a partir de 1982, impulsando así un desarrollo
+potente de estos soportes. No es hasta 1987 que el conjunto de los Länder –socialdemócratas y
+democristianos– acuerda aceptar que la televisión privada se difunda también por ondas.
+Las fuertes restricciones a la emisión y la financiación publicitarias de los canales públicos (el
+“federal” ARD, y el estatal ZDF), y el reparto consiguiente de fuentes financieras así como la especialización
+mayoritaria por soportes van a constituir también un “sistema cortés” de competencia. Aunque este equilibrio
+se muestra cada vez más difícil de mantener a través de los años por la competencia agudizada por la
+audiencia (Hoffmann/Rienn, 1995; Hickethier, 1996).
+España
+La desregulación en la televisión española guarda profundas diferencias con los casos anteriores, al
+partir de la inexistencia durante la dictadura de una concepción de servicio público y del consiguiente fracaso
+del canon (Bustamante, 1989). La publicidad, omnipresente desde su inicio, soportará buena parte de la
+financiación junto con las subvenciones de los presupuestos estatales.
+En términos modernos, sin embargo, los primeros intentos de desregulación se remontan a los
+proyectos frustrados de ley de los diputados y los Gobiernos centristas en 1981-82. Cegada la “vía italiana”
+tras la sentencia salomónica del Tribunal Constitucional de 1982 (“La televisión privada no está
+necesariamente impuesta ni impedida por la Constitución”, “es una decisión política”) serán los Gobiernos
+socialistas quienes autoricen la iniciativa privada en 1987 (Ley de Ordenación de las Telecomunicaciones) y
+en 1988 (Ley de TV Privada). Pero en los años ochenta se suceden acontecimientos desreguladores previos
+importantes: desde 1982 a 1988 surgen los canales autonómicos cuya competencia con la televisión pública
+central rememora el simulacro de competencia pública de Francia en los años setenta; y desde 1983, el
+Gobierno retira la práctica totalidad de las subvenciones estatales a RTVE y la obliga a financiarse
+enteramente por la publicidad en una dinámica insólita en toda Europa occidental. La llegada de los canales
+privados en 1989-90 consagrará un sistema enteramente comercial y encarnizadamente competitivo
+(Bustamante/Zallo, 1988; Bustamante, 1995; Vilches, 1996).
+El panorama en los restantes países de la Europa occidental es similar, aunque sus tiempos y formas
+sean diferentes. En Grecia entra la televisión privada en 1989, en Portugal en 1990, en Irlanda en 1991. En
+casi todos ellos podría predicarse el principio popularizado en Francia en los años ochenta: “toda
+desregulación oculta a otra”, es decir a cada movimiento liberalizador le sucede otro más profundo. Pero esa
+visión resulta parcial, porque, en realidad, la desregulación está sometida también en muchos países a
+movimientos de retroceso y avance periódicos, de transregulación y re-regulación, como muestra el mismo
+caso europeo e incluso el ejemplo estadounidense. Más claro aún es el caso general de América Latina en
+donde, como hemos visto, la primera desregulación se efectúa tempranamente para instaurar un régimen
+comercial casi general mientras que, en el seno de los Gobiernos reformistas de los años setenta, se dan en
+muchos países intentos de restaurar regulaciones gubernamentales e incluso de reforzar o recrear televisiones
+públicas. Es el caso del Chile de la Unidad Popular, de la nacionalización formal de la mayoría de las
+acciones de las televisiones comerciales que efectuó el Gobierno de Velasco Alvarado en Perú, de la
+creación de la televisión de la República Mexicana en el período de López Portillo en México (luego
+transformada en Imevisión). Pero en todos estos países podemos comprobar nuevas desregulaciones
+posteriores, durante los regímenes militares que les sucedieron generalmente o en años recientes. Este último
+es el caso de la privatización de Imevisión en 1993 en México, o de la reciente autorización de nuevos
+canales de ámbito nacional y programación continua en Colombia, que amenaza terminar por la sola fuerza
+de la rejilla de programación con el discutible pero peculiar sistema de “servicio público” alquilado por
+horarios.
+11
+
+XV: EPÍLOGO: LA TELEVISIÓN DEL FUTURO
+Como hemos visto, la televisión no ha cesado de transformarse a lo largo de su existencia, aunque en los
+últimos veinticinco años esos cambios tiendan a acelerarse para conformar múltiples soportes, contenidos y
+modalidades. En el seno de esta televisión transformista corren sin embargo corrientes comunes, la televisión
+cultural, la televisión política, la televisión económica... Pero es esta última, signo de los tiempos en nuestras
+sociedades, la que prima por encima de todas las demás –sin anularlas nunca– arrastrándolas, integrándolas
+en su dinámica, subordinándolas a sus imperativos.
+La interpretación histórica de esta evolución ha hecho correr mucha tinta entre investigadores y
+divulgadores:
+− Desde los años setenta se generalizó en la investigación en comunicación una clasificación
+de la televisión por etapas sucesivas, que intentaba dar cuenta de esos cambios en base a las
+tecnologías utilizadas. Para esta visión determinista de la comunicación, la televisión se
+dividía en megatelevisión (por satélite y transnacional), macro (las televisiones nacionales
+por ondas), meso (la televisión local por cable) y microtelevisión (la televisión individual
+con el vídeo). Pero el desarrollo contradictorio de las tecnologías aplicadas a la televisión
+acabó pronto empíricamente con estas ilusiones.
+− En los ochenta, aun hubo autores que tradujeron esta tipología a una terminología más
+moderna para hablar de broad-casting o televisión en cadena, de narrowcasting o televisión
+fragmentada y de pointcasting o televisión interactiva e individual (Missika, J.L./Wolton, D.,
+1983:259-261). Pero, como señalaron otros investigadores, la fragmentación no podía
+convertirse en criterio fundamental de juicio, ni su grado en la comunicación social cabía
+deducirse de la simple proyección de unas posibilidades tecnológicas que no prejuzgaban las
+prácticas concretas suscitadas. La explicación a partir de la sola variable tecnológica era
+engañosa y, en todo caso, esos presuntos escalones del proceso resultaban acumulativos y
+coexistían entre sí (Miège/Pajon/Salaüm, 1986:202-203). Por añadidura, el trascendente paso
+de la televisión pública y monopolista en muchos países a la televisión comercial
+competitiva aparecía minimizado e integrado en un mismo modelo televisivo de
+broadcasting, y caricaturizado bajo la disyuntiva apriorística entre “televisión de Estado” y
+“televisión de sociedad”.
+Todo ello no ha evitado que múltiples adivinos y fabricantes de best sellers hayan seguido
+profetizando periódicamente la llegada inmediata y arrolladora de la televisión individual, interactiva,
+personal, en la que los máximos avances tecnológicos se fusionarían milagrosamente con la oferta y la
+demanda masivas por la simple actuación del mercado, para proporcionarnos automáticamente el reino de la
+libertad absoluta.
+En términos más realistas y fructíferos, la evolución televisiva en Europa (y más concretamente en la
+Europa-Sur) ha sido descrita como una “ley de tres estados”: el paso de la televisión como “bien público” a
+“producto” y de éste a “servicio”, pero añadiendo que estos tres modelos se superponen como otras tantas
+capas, coexistiendo entre sí aunque con dinámicas diferentes (marginación del servicio público,
+estancamiento de la publicidad, ascenso del pago directo) (Musso, 1994). De forma que las diferentes
+modalidades televisivas pueden ser vistas hoy como un sistema, como una constelación en expansión en la
+que todas ellas conviven mientras se condicionan mutuamente, se interrelacionan, chocan y luchan en
+ocasiones.
+Así, la televisión pública sobrevivirá seguramente durante muchos años en Europa, pero su crisis
+múltiple irá reduciendo su peso relativo y su impacto en el sistema si no es capaz de generar un nuevo
+modelo, susceptible de desarrollarse también en los nuevos canales con nuevas formas de oferta de servicio
+público. La televisión publicitaria abierta mantendrá con seguridad durante décadas su papel estelar y su
+fuerza económica, imprescindibles para toda una serie de marcas y productos de consumo masivo, pero la
+erosión de su audiencia y del presupuesto-tiempo conseguido de sus espectadores acentuará sus dificultades.
+Ambos tipos de televisión no obstante pueden encontrar en pocos años una nueva oportunidad con el
+desarrollo de la digitalización de las ondas herzianas, que permitiría una nueva estrategia multicanal más
+compleja, la mejora radical de la señal (con televisión de alta definición) y la entrada en un diversificado
+abanico de servicios. Por su parte las televisiones de pago tienen ante sí enormes oportunidades de mercado,
+aunque limitadas por la riqueza y su reparto en cada país. Sin embargo, el despliegue simultáneo de múltiples
+12
+
+soportes competitivos en el corto-medio plazo puede plantear difíciles situaciones y probables fracasos
+rotundos en el camino.
+Una política televisiva y audiovisual, económica y cultural a un tiempo, desde los Estados, las
+regiones o los organismos supranacionales podría minimizar estos riesgos y ayudar a construir un sistema
+televisivo equilibrado de futuro. De ello depende en suma que una región, un país o un conjunto de Estados
+jueguen un papel activo en este campo en el futuro o se limiten a generar mercados cuyo valor añadido
+emigre sistemáticamente hacia el exterior. Como los documentos de la Unión Europea han reconocido
+reiteradamente, el gran reto reside en los contenidos y servicios (UE, 1997; UE, 1998, a) que se convierten
+en la clave estratégica del futuro: de su producción y control local depende en buena medida el
+aprovechamiento de ese potencial de crecimiento económico y de empleo prometido por el audiovisual y, en
+conjunto, por las nuevas redes de información y comunicación. Sin contar con el importante envite cultural y
+social implícito en esos campos.
+La problemática de la concentración no coincide sino parcialmente con el interrogante anterior. En
+defensa de la industria local se ha apelado muchas veces a las grandes unidades económicas, a los mayores
+operadores que podían ejercer como campeones mundiales de nuestros intereses económicos y nuestras
+identidades culturales en el audiovisual. Pero la dimensión gigantesca de algunos de esos operadores de la
+era digital plantea graves interrogantes al pluralismo creativo y político, sin que el mapa de sus alianzas
+coincida muchas veces con las regiones económico-culturales. Se ha subrayado así la enorme importancia de
+que las redes ofrezcan acceso abierto a todos los proveedores de contenidos (UE, 1998, b). Y habría que
+recalcar el papel que pueden cumplir en este caso las pequeñas y medianas empresas, la producción local y
+regional, y el Estado a través del desarrollo del concepto de servicio público.
+La perspectiva de la industria cultural es también aquí enriquecedora. En términos de los dos polos
+de referencia señalados anteriormente, se interpretó durante años que el modelo de productos editoriales
+sostenía una pugna histórica con el de la cultura de flujo. El primero, surgido con anterioridad, habría sido
+destronado con la televisión masiva que implantó la hegemonía de la cultura de flujo. Pero los desarrollos
+posteriores de la televisión en nuevas redes parecían presagiar una renovada lucha en la que los productos
+culturales podían conseguir su revancha, que algunos autores identificaban incluso con la restauración del
+pluralismo y la libertad de elección del consumidor. La idealización del funcionamiento actual de los
+productos editoriales, del pluralismo creativo y la libertad de competencia en el mundo del libro, del disco o
+del cine, no era ciertamente la menor de las objeciones que presentaba esa lectura.
+El análisis reciente de otros investigadores ha teñido esta reflexión de mayor realismo empírico. Las
+nuevas redes parecen estar consagrando, no la vuelta al modelo de mercancías culturales aisladas, sino la
+aparición al impulso siempre de la mercantilización (“conmodification”) creciente de la cultura de un nuevo
+modelo en ascenso paulatino, la “lógica de club”, capaz de ofrecer ambos tipos de servicios culturales a
+distancia, bajo demanda expresa y con acceso instantáneo, con pago directo por el usuario pero también con
+apelación a la financiación publicitaria (Tremblay, 1997). Lógica en fin de mestizaje, cuya dinámica llevaría
+también la mercantilización hacia informaciones y contenidos culturales antes sustraídos del mercado. Y que
+se acompaña en su ascenso de una nueva transformación del papel del Estado en la cultura y la
+comunicación, como simple complemento del sector privado y promotor de la demanda (Lacroix/Tremblay,
+1997:104-109), con graves interrogantes sobre el porvenir de la cultura y del espacio público.
+En términos concretos sobre nuestro ámbito, parece evidente que hasta las más avanzadas fórmulas
+de televisión se basan íntegramente sobre modalidades de pago por el consumidor (Lafrance, 1996; Miége,
+1997:62), incluso en el caso de contenidos antes considerados como de dominio público o integrados
+inveteradamente en una dinámica de gratuidad. Parece dibujarse así una orientación totalitaria de mercado
+que llevaría al pay per society (Mosco/Wasko, 1988), sin resquicio alguno para la información libre o
+gratuita. La modernización y profundización del servicio público en las nuevas redes se hace pues mucho
+más urgente y trascendental. O si se quiere, el desarrollo del servicio universal en tanto derecho de acceso de
+los ciudadanos a los servicios de información esenciales. A condición de que este concepto, tan evolutivo y
+plástico en sus vicisitudes históricas, pierda su carácter de “salario mínimo” (Hersberg, 1996) para reconocer
+en una geometría variable las nuevas necesidades irrenunciables de información y comunicación para todos
+en todas las sociedades (Burgelmann, 1996). La Televisión Económica, imperativo inevitable de viabilidad
+financiera en definitiva, no niega en absoluto estas posibilidades.
+13

@@ -1,0 +1,900 @@
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+High-Frequency Trading (HFT)
+Mauricio LABADIE
+PhD - Quantitative Researcher
+LinktodownloadPDFstobeannouncedat
+https://www.facebook.com/congreso.deactuaria
+February14,2014
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Outline
+1 WhatisHFT?
+2 Marketimpactandoptimalexecution
+3 Inventoryriskandmarket-making
+4 Conclusions
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+1 WhatisHFT?
+2 Marketimpactandoptimalexecution
+3 Inventoryriskandmarket-making
+4 Conclusions
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+The rise of HFT I
+Floorandphonetradersusedtodominateexchanges.
+Butthatwasinthepast...
+Source: http://www.benkepple.com
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+The rise of HFT II
+Threebigevolutionsinfinancialmarkets
+1 Automatisation: marketsbecameelectronic.
+2 Fragmentation: stockmarketscompetewithalternativevenuesanddarkpools.
+3 Information: faster,richeranddigitalreal-timedata.
+Thebirthofalgorithmictrading
+Systematicinvestmentdecisions: tradingrulesarecoded,pricesaremonitoredby
+dedicatedprograms.
+Productivitygainsviaautomatisation: lesshumanresources,lessrepetitivetasks.
+WidespreaduseofQuantitativeFinancetools: portfoliooptimisation,pricing,
+executionprotocols,etc.
+⇒ Algorithmictrading: tradersmonitorwhilstrobotsexecute.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+The rise of HFT III
+HFTs=algotraders+highspeed.
+Source: http://www.investmentnews.com
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+The rise of HFT IV
+ThebirthofHFT
+Algorithmictrading: robottradersarefaster,morereactiveandmoreaccurate
+thanhumantraders.
+Informationaccesibilityatveryhighspeed: real-timedataflowwithlowlatency
+e.g. directmarketaccessandco-location.
+Technologicaladvancesincomputing: dataprocessing,parallelcomputing,
+over-clocking,etc.
+⇒ HFT=algotradersusingspeedastheirmainadvantage.
+Remark: HFTdoesnotnecessarilymeanveryfrequenttrading.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+The rise of HFT V
+Exchangesnowarejustservers.
+HFTshavetheirserversthereaswell: co-location.
+Source: http://www.wired.co.uk
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HFTs are heterogeneous
+HFTstrategies: TheSECdefinition
+1 Market-making.
+2 HFarbitrage.
+3 HFdirectional.
+4 Manipulators.
+Thesestrategiesarenotnew: thenoveltyistheuseofspeedasacompetitive
+advantage.
+AlternativedefinitionofHFTsbasedonliquidity+strategy
+1 Makers: market-makers.
+2 Takers: arbitrageanddirectional.
+3 Gamers.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HF Makers I
+Definition
+Theyareliquidityproviders,i.e. theyuseLOs.
+Theyplaytheroleofdealers: theyofferaskandbidquotes,earningthespread.
+Forliquidstocks,spread=0.01USD:
+(cid:63) Itisaverysmallpotentialgainpertrade.
+(cid:63) Butiftherearelotsoftrades,thegaincanbeimportant.
+Speedisimportant:
+(cid:63) Fastandfrequenttrades: earnthespreadasmanytimesaspossible.
+(cid:63) PriorityintheLOB:bethefirstinpriceandtimetoenhanceexecution.
+(cid:63) Highreactivity: quickresponsetoliquidityandmarketfluctuations.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HF Makers II
+HFmarket-makers: faster,morereactive,moreresilient.
+Source: http://williambanzai7.blogspot.mx
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HF Takers I
+Definition
+Theyareliquidityconsumers,i.e. theyuseMOs.
+Theyarenotdealers: theirgaindoesnotcomefromthespread.
+Theyusespeedtocaptureprofitableopportunitiesbeforeothers:
+(cid:63) Arbitragee.g. correlationsandcross-market.
+(cid:63) Directionalstrategiese.g. newstrading.
+Ingeneral,HFtakersconsumeliquidityfromHFmakers:
+(cid:63) HFmakersandtakersplaybetweenthem: zero-sumgame.
+(cid:63) Theydonotmaketheirprofitsoutofretailtraders.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HF Takers II
+HFdirectional: innewstrading,fastermeansricher. 95pips∼0.7%.
+Source: http://www.dailyfx.com
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HF Gamers I
+Definition
+Theyexploitstructuraldeficienciesofelectronicmarkets.
+TheyusebothLOsandMOs,accordingtotheirstrategy.
+ExamplesofHFgamerstrategies
+Spoofing: youplacesellLOsnotmeanttobeexecuted,givingafalseimpression
+ofsellingshares,whenyourrealorderisabuy.
+Momentumignition: youluretraderstotradequicklyandcausearapidprice
+move. Thisisdonebytradinghighlycorrelatedinstruments.
+Flashtrades: youcan“see”ordersarrivingtotheLOBbeforetheyaremade
+public,andmakeaprofitbyfront-runningthem.
+Stuffing: yousendandimmediatelycancellotsofLOstoconfusemarketsand
+traders.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HF Gamers II
+HFgamingislikePoker: forceotherplayerstoerrorsandbethefirsttoseize
+opportunities,butitshouldremainwithinthelimitsofwhatisaccepted.
+Source: http://www.zerochan.net
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HFT vs financial efficiency and stability I
+HFTsaremutable
+Makerscanbecometakerswhentheyneedtoreducetheirinventory.
+Takerscanbecomemakerswhentheysetatake-profitorder.
+GamerscanbehaveasmakersortakerssincetheyusebothMOsandLOsto
+exploitinfrastructurecracks.
+ButHFTsarespecialisedinstrategies
+Mostofthetime:
+(cid:63) MakersuseLOsonbothaskandbidsides.
+(cid:63) TakersuseMOsandone-sidedLOs.
+(cid:63) Gamersexploitmarket“glitches”.
+⇒ DifferentiatebetweenHFTstrategiestoassesstheirsystemicimpactandrisk.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HFT vs financial efficiency and stability II
+Gamerscanbeharmful
+Thereissomeconsensuson“bad”HTFstrategies:
+Gamersmanipulatemarketpriceswithartificialquotes: spoofing.
+Theycancauseshort-termmarketdisruptions: momentumignition.
+Theyhave“insidertrader”behaviour: flashtrades.
+TheyoverflowLOBswithnoiseordersthatareimmediatelycancelled: stuffing.
+Butmakersandtakersareratherbeneficial
+Thereissomeconsensuson“good”HTFstrategies:
+HFmakersimproveliquidityandreducespreads.
+HFtakers(arbitrageurs)instantaneouslycorrectmarketinefficiencies.
+ConcerningHFmakersandtakersvsmarketvolatility:
+(cid:63) Thereisnoconsensusinempiricalstudies.
+(cid:63) ButitseemsHTmakersandtakersingeneraldonotincreaseit.
+(cid:63) Andinsomecasestheyevendecreaseit.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+HFT vs financial efficiency and stability III
+Don’tblamegamers,blamemarketsandregulators
+Gamersonlyusewhatmarketsandregulatorsallowthemto:
+TheNationalBestBidandOffer(NBBO)andzeromargincallsallowspoofing.
+The5mslatencybetweenNY(NYSE)andChicago(CME)allowsformomentum
+ignition.
+Flashtradesarelegalinseveralmarkets.
+Ifelectronicmarketsgetstuffedwithnoiseordersisbecausetheyneedbetter
+infrastructureand/orbetterLOBrules.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+1 WhatisHFT?
+2 Marketimpactandoptimalexecution
+3 Inventoryriskandmarket-making
+4 Conclusions
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Market impact I
+StatisticalpropertiesofMOs
+TheaveragesizeofabuyMOisthevolumeatthebestask:
+(cid:63) Ingeneral,MOsonlyconsumeoneleveloftheLOB.
+ThereishiddenliquidityintheLOB:
+(cid:63) Ifthebestaskisconsumed,itcanbeinstantlyreplenishedwithicebergs.
+Thereislatentliquidityinthemarket:
+(cid:63) WhentherearemanybuyMOshittingtheask,newliquidityproviderscan
+appearwithLOsatthebestask.
+Thereisresilienceandadaptabilityinthemarket:
+(cid:63) WhenthereisapredictablebuyingpatternofMOs(e.g. executionalgo),the
+marketislessreactivetobuyMOsthantosellMOs.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Market impact II
+Whymarketimpactisconcave
+Letv bethesizeoftheMOandh(v)themarket-impactfunction:
+Asv increases,theMOconsumesmoreliquidityandtestsmarket’sdepth.
+⇒ v (cid:55)→h(v)isincreasing,i.e. h(cid:48)(v)>0.
+Butaswesaw,market’sresilienceandadaptabilityincreasesinv.
+⇒ v (cid:55)→h(cid:48)(v)isdecreasing,i.e. h(cid:48)(cid:48)(v)<0.
+Therefore,themarketimpacth(v)isconcaveinthesizev oftheMO.
+RecallthatinKylemodel,themarketimpactwasassumedlinear.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Market impact III
+Marketimpactisconcave.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Optimal trading curves I
+Trader’sdilemma
+Ifwetradeslow,priceswillmoveawayfromtheircurrentquote.
+⇒ Marketrisk.
+Ifwetradefast,ourorderwilldrivepricesawayfromthecurrentquote.
+⇒ Market(orprice)impact.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Optimal trading curves II
+Optimaltradingcurve
+IntheMarkowitzportfolioweminimisetheriskwhilstmaximisingthereturn.
+⇒ Efficientfrontier.
+Followingthisidea,wecanminimisebothmarketimpactandmarketrisk.
+⇒ Optimaltradingcurve.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: model I
+Executiontimesandtradesizes
+AssumewedecidedtoexecuteN tradesatevenly-distributedtimes:
+0=t0<t1<t2<···<t
+N
+=T, tn−tn−1=τ constant ∀n.
+Everytimetn webuyvn shares. Thisdefinesthetradingcurve
+N
+(v1,...,v
+N
+), (cid:88) vn=v∗
+n=1
+Thegoalistofindtheoptimaltradingcurve(v1,...,v
+N
+).
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: model II
+Marketimpactfunction
+BasedonAlmgren2001,Almgrenetal2005andBouchaud2003wedefine:
+h(vn)=κσnτ1/2
+(cid:18)vn (cid:19)γ
+Vn
+where
+vn isthenumberofshareswetradedattimetn.
+σn andVn aretheintradayvolatilityandvolumecurves,respectively.
+κ>0andγ∈(0,1)arethemarket-impactparameters.
+Empiricallyγ∼1/2,butitcanbecalibratedindividuallyforeachstock.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: model III
+Pricemodel
+AssumeaBrownianmotionmodel:
+Sn+1=Sn+σn+1τ1/2εn+1, εn∼N(0,1) i.i.d.
+Anymartingalecanbeused,provided(εn)N
+n=1
+arei.i.d. ofmeanzeroandvariance1.
+Wealthprocess
+N
+(cid:88)
+W(v1,...,v
+N
+) = vn(Sn+h(vn))
+n=1
+= (cid:88)
+N
+vnSn+ (cid:88)
+N
+κσnτ1/2vn
+(cid:18)vn (cid:19)γ
+n=1 n=1
+Vn
+= idealcost+marketimpact
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: solution I
+ImplementationShortfall(IS)
+ForanISalgorithm,thebenchmarkisthepriceatthemomentwhenthe
+executionstarts.
+⇒ Therelativewealthprocessisthus
+N
+W(cid:93)(v1,...,v
+N
+)=W −S0 (cid:88) vn.
+n=1
+Changeofvariables
+N
+(cid:88)
+xn:= vi ⇐⇒ vn=xn−xn+1
+i=n
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: solution II
+RelativewealthprocessforIS
+Aftersomealgebra,itcanbeshownthat
+W(cid:93)(x1,...,x
+N
+) = (cid:88)
+n
+N
+=1
+xnσnτ1/2εn+ (cid:88)
+n
+N
+=1
+κσnτ1/2 (xn−
+V
+xn
+n γ
+−1)γ+1
+= (cid:32) (cid:88)
+n
+N
+=1
+xnσnεn+ (cid:88)
+n
+N
+=1
+κσn (xn−
+V
+xn
+n γ
+−1)γ+1 (cid:33) τ1/2.
+Normalisedrelativewealth
+Wewillconsidertherelativewealthpertimeunit,i.e.
+W(cid:93)
+W˜(x1,...,x
+N
+) :=
+τ1/2
+=
+(cid:88)
+n
+N
+=1
+xnσnεn+
+(cid:88)
+n
+N
+=1
+κσn
+(xn−
+V
+xn
+n γ
+−1)γ+1
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: solution III
+Meanandvariance
+E(W˜)= (cid:88)
+n
+N
+=1
+κσn (xn−
+V
+xn
+n γ
++1)γ+1 , V(W˜)= (cid:88)
+n
+N
+=1
+x
+n
+2σ
+n
+2
+Costfunctional
+J
+λ
+(x1,...,x
+N
+) = E(W˜)+λV(W˜)
+= (cid:88)
+n
+N
+=1
+κσn (xn−
+V
+xn
+n γ
++1)γ+1 +λ (cid:88)
+n
+N
+=1
+x
+n
+2σ
+n
+2
+whereλ>0istherisk-aversionparameter. Observethat
+J
+λ
+(x1,...,x
+N
+)=marketimpact+λ×marketrisk
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: solution IV
+Optimalitycondition
+ThecriticalpointsofJ
+λ
+arefoundbysolving∂J
+λ
+/∂xn=0foralln:
+κσn(γ+1) (xn−
+V
+x
+n γ
+n+1)γ −κσn−1(γ+1) (xn−
+V
+1
+n γ
+−
++1
+xn)γ +2λσ
+n
+2xn=0.
+Optimaltradingcurve
+Theoptimaltradingcurve(v1,...,v
+N
+)fortheISalgoisthen
+vn−1=Vn−1 (cid:34) σn (cid:18)vn (cid:19)γ + 2λ σ n 2 (cid:32) (cid:88) N vi (cid:33)(cid:35)1/γ
+σn−1 Vn κ(γ+1)σn−1
+i=n
+withtheconditions
+N
+v0=0, v
+N+1
+=0, (cid:88) vn=v∗
+n=1
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Almgren-Chriss: numerical simulations I
+NumericalexampleoftheISalgorithm.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+1 WhatisHFT?
+2 Marketimpactandoptimalexecution
+3 Inventoryriskandmarket-making
+4 Conclusions
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Market-making: rules of the game I
+Whatisamarket-maker(MM)?
+Atraderwhopostsfirmbuying(bid)andselling(ask)quotesontheLOB.
+Liquidityprovider⇒earnsthespread.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Market-making: rules of the game II
+RisksforaMM
+Adverseselection: IfaMMsellsanassetitisnotnecessarilygoodnews.
+Inventoryrisk: Uncertaintyontheexecutionofherlimitorders.
+Mean-reversionstrategy: MMssellwhenassetsgoup,buywhenassetsgodown.
+⇒ Potentialrisksontrends.
+StrategyofaMM
+MMsusethespreadtocontrolinventoryandcompensatefromadverseselection.
+MMslosemoneyvsinformedtradersbutmakemoneyvsnoisetraders.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic control: state variables
+StatevariablesinaMarkovianworld
+Themid-priceS(t),e.g. ajumpprocessoranItˆodiffusion.
+ThehalfmarketspreadZ(t):
+(cid:63) Bestask=S(t)+Z(t),bestbid=S(t)−Z(t)
+ThevolatilityΣ(t).
+Themarket-maker’squotesp± andhercontrolsδ±:
+p+(t)=S(t)+δ+, p−(t)=S(t)−δ−.
+TheinventoryQ(t):
+dQ(t)=dN−(t)−dN+(t),
+wheredN+(t)anddN−(t)aretwoindependentPoissonprocessesofintensity
+λ±(δ±)=Ae−K(t)[z+δ±].
+ThecashX(t):
+dX(t)=[S(t)+δ+]dN+(t)−[S(t)−δ−]dN−(t).
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic control: arrival of MOs
+Marketorderintensitiesλ± areextrapolatedwhenδ±≤−z (dottedlines).
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic control: HJB equation
+Controls
+Fromallstatevariables,theMMcanonlycontrolδ+ andδ−.
+WewilldenoteY(t)the(Markovian)vectorofnon-controlledvariables:
+Y(t)=(S(t),Σ(t),Z(t),...)
+Valuefunctionwhenutility=PNL
+u(t,y,q,x)= max E t,y,q,x[X(T)+Q(T)S(T)].
+δ±∈A
+Hamilton-Jacobi-Bellman(HJB)equation
+(∂t+L)u+ max Ae−k[z+δ+](cid:2) u(t,y,q−1,x+(s+δ+))−u(t,s,q,x) (cid:3)
+δ+∈A
++ max Ae−k[z+δ−](cid:2) u(t,y,q+1,x−(s−δ−))−u(t,y,q,x) (cid:3) =0
+δ−∈A
+u(T,y,q,x)=x+qs
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic control: inventory penalties and transaction costs I
+Inventorypenalties
+Apenaltyatexpiry,dependingonthespread:
+Π1(T)=ηZ(T)Q2(T), η≥0.
+⇒ Transactioncostsforclearinginventoryatt=T withamarketorder.
+Anintegral(path-dependent)penalty,dependingonthevolatility:
+(cid:90) T
+Π2(T)=ν Σ2(ξ)Q2(ξ)dξ, ν≥0.
+t
+⇒ Trackingerrorwithrespecttoaflat-inventoryposition.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic control: inventory penalties and transaction costs II
+Valuefunctionwhenutility=PNL−inventorypenalty
+(cid:104) (cid:105)
+u(t,y,q,x)= max E t,y,q,x X(T)+Q(T)S(T)−εΠ(T) , Π:=Π1+Π2.
+δ±∈A
+HJBwithinventorypenaltyandtransactioncosts
+(∂t+L)u+ max Ae−k[z+δ+](cid:2) u(t,y,q−1,x+(s+δ+)−α)−u(t,y,q,x) (cid:3)
+δ+∈A
++ max Ae−k[z+δ−](cid:2) u(t,y,q+1,x−(s−δ−)−α)−u(t,y,q,x) (cid:3) =ενσ2q2
+δ−∈A
+u(T,y,q,x)=x+sq−εηzq2
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic controls: solution
+Optimalcontrols
+ψα∗ =
+2
++2α+2επ˜+O
+(cid:0) ε2(cid:1)
+(MM’sspread)
+k
+rα∗ = s+∆−2εqπ˜+O
+(cid:0) ε2(cid:1)
+(centreoftheMM’sspread)
+where
+∆ := E t,y[S(T)]−s (directionalbet)
+(cid:20)(cid:90) T (cid:21)
+π˜ := ηE t,y[Z(T)]+νE t,y Σ2dξ
+t
+= η×expectedspread+ν×expectedvolatility
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic controls: remarks I
+Expectedgainspertrade
+Theexpectedgainpertradedspreadisψα∗=ψ0∗+2α.
+TheMMpays2αpertradedspread.
+⇒ Theexpectedgainpertradedspreadisconstantandequaltoψ0∗.
+Inventorymanagement
+q>0and∆=0and⇒rα∗<s,i.e. theMMisratherselling.
+q<0and∆=0and⇒rα∗>s,i.e. theMMisratherbuying.
+Directionalbet
+∆>0andq=0⇒rα∗>s,i.e. theMMisratherbuying.
+∆<0andq=0⇒rα∗<s,i.e. theMMisratherselling.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Stochastic controls: remarks II
+Theeffectoftransactioncosts
+Ifα>0:
+TheMMcompensatestheirlossintransactioncostsbywideningthespread.
+⇒ Gainpertradedspreadconstantbutsmallerprobabilityofexecution.
+IfallMMshavewiderspreads⇒biggermarketspreads,hencelessliquidity.
+Ifα<0i.e. thereisarebate:
+TheMMsystematicallyreducestheirspread.
+⇒ Gainpertradedspreadconstantbutbiggerprobabilityofexecution.
+TheMMcouldevenbuyandsellatthesameprice,earningnoprofitexceptfor
+therebate.
+⇒ Scalpingorrebatearbitrage.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Numerical simulations: typical trading day with mean-reversion
+n=1000,s=3000,µ=3009(+0.3%),ε=0.001,z =0.5,α=0.05.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Numerical simulations: martingale vs mean-reversion
+Simulations=10k,n=1000,s=3000,µ=3009(+0.3%),z =0.5,ε=0.001,
+α=0.05.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Numerical simulations: effect of inventory risk ε
+Simulations=10k,n=1000,s=3000,µ=3009(+0.3%),z =0.5,α=0.05.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Numerical simulations: effect of transaction costs α
+Simulations=10k,n=1000,s=3000,µ=3009(+0.3%),z =0.5,ε=0.001.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+1 WhatisHFT?
+2 Marketimpactandoptimalexecution
+3 Inventoryriskandmarket-making
+4 Conclusions
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+Final comments
+Summaryofthispresentation
+WeexplainedwhatisHFTandreviewedthedifferentkindsofHFTplayers.
+Wesawindetailtheeffectofmarketimpact.
+Weworkedanexampleofoptimalexecution(IS)viamean-varianceanalysis.
+WeworkedanexampleofoptimalHFmarket-makingwithstochasticcontrol.
+WesawtheriskprofileandPNLdistributionofamarket-maker,andhowitvaries
+oninventoryaversionandtransactioncosts.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+References I
+Onlinedocumentson“bad”HFTs
+ZeroHedge. WatchTheBannedHFTSpoofingAlgoInAction.
+http://www.zerohedge.com/news/2013-07-23/watch-banned-hft-spoofing-algo-action
+ZeroHedge. HowAlgosOrchestrate“MomentumIgnition”Chaos. Basedona
+Nanexreport. http://www.zerohedge.com/news/2012-12-28/how-algos-orchestrate-
+momentum-ignition-chaos
+MarketsWiki. Spoofing. http://www.marketswiki.com/mwiki/Spoofing
+MarketsWiki. FlashTrading. http://www.marketswiki.com/mwiki/Flashtrading
+Cr´editSuisse(2012)High-FrequencyTrading: measurement,detectionand
+response. PDFreport.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+References II
+OnlinedocumentsonHFTingeneral
+InstitutLouisBachelier(2013). High-frequencytrading,liquidityandstability.
+Opinionsetd´ebatsNo. 2. PDFreport.
+BrunoBiais,ThierryFoucault(2014). High-frequencytradingandmarketquality.
+PPTpresentationatInstitutLouisBachelier. InFrench.
+http://www.louisbachelier.org//actualites/article/matinale-scientifique-high-frequency-
+trading-liquidity-and-stability-27829-27829
+Charles-AlbertLehalle,Fr´ed´ericAbergel,MathieuRosenbaum(2014).
+Comprendrelesenjeuxdutradinghautefr´equence. PDFpresentationatInstitut
+LouisBachelier. InFrench.
+PWCUK(2013)Financialtransactiontax: theimpactsandarguments. PDF
+report.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+References III
+Books
+Jean-PhilippeBouchaud,MarcPotters(2003)Theoryoffinancialriskand
+derivativepricing,2nd. edition. Cambridge.
+BarryJohnson(2010)AlgorithmictradingandDMA.4MyelomaPress.
+Charles-AlbertLehalle,SophieLaruelle(2013)Marketmicrostructureinpractice.
+WorldScientific.
+AlexanderMcNeil,Ru¨digerFrey,PaulEmbrechts(2005)Quantitativerisk
+management. PrincetonUniversityPress.
+HuyˆenPham(2010)Continuous-timestochasticcontrolandoptimizationwith
+financialapplications. Springer.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+References IV
+Articlesonmarketimpactandoptimalexecution
+RobertAlmgren,NeilChriss,(2001)Optimalexecutionofportfoliotransactions.
+JournalofRisk,Vol. 3,No. 2,pp. 5-39.
+RobertAlmgren,CheeThum,EmmanuelHauptman,HongLi(2005)Equity
+marketimpact. Risk,Julyissue,pp. 57-62.
+Jean-PhilippeBouchaud,DoyneFarmer,FabrizioLillo(2008)Howmarketsslowly
+digestchangesinsupplyanddemand. PreprintArXiv.
+MauricioLabadie,Charles-AlbertLehalle(2013)Optimalstartingtimes,stopping
+timesandriskmeasuresforalgorithmictrading: TargetCloseandImplementation
+Shortfall. PreprintArXiv,toappearinJournalofInvestmentStrategies.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+References V
+Articlesonstochasticcontrolandtrading
+MarcoAvellaneda,SashaStoikov(2008)High-frequencytradinginalimit-order
+book. QuantitativeFinanceVol. 8No. 3.
+AlvaroCartea,SebastianJaimungal(2012)RiskMetricsandFineTuningofHigh
+FrequencyTradingStrategies. Preprint,toappearinMathematicalFinance.
+PietroFodra,MauricioLabadie(2012)High-frequencymarket-makingwith
+inventoryconstraintsanddirectionalbets. PreprintArXiv.
+PietroFodra,MauricioLabadie(2013)High-frequencymarket-makingfor
+multi-dimensionalMarkovprocesses. PreprintArXiv.
+OlivierGu´eant,Charles-AlbertLehalle,Joaqu´ınFern´andez-Tapia(2011)Dealing
+withinventoryrisk. PreprintArXiv.
+FabienGuilbaud,HuyˆenPham(2011)Optimalhighfrequencytradingwithlimit
+andmarketorders. Preprint,toappearinQuantitativeFinance.
+MauricioLABADIE High-FrequencyTrading(HFT)
+
+WhatisHFT?
+Marketimpactandoptimalexecution
+Inventoryriskandmarket-making
+Conclusions
+THANKYOUFORYOURATTENTION
+Source: newheightsabq.org,ayceblog.blogspot.com
+MauricioLABADIE High-FrequencyTrading(HFT)

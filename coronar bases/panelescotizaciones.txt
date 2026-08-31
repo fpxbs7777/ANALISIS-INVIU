@@ -1,0 +1,99 @@
+import requests
+import pandas as pd
+from tokens import obtener_tokens, refrescar_token
+
+# Credenciales de usuario (usar variables de entorno)
+import os
+username = os.environ.get("IOL_USERNAME", "")
+password = os.environ.get("IOL_PASSWORD", "")
+
+# Obtener los tokens una sola vez
+bearer_token, refresh_token = obtener_tokens(username, password)
+if not bearer_token or not refresh_token:
+    raise Exception('Error al obtener los tokens')
+
+def obtener_cotizaciones(instrumento, pais):
+    url = f"https://api.invertironline.com/api/v2/Cotizaciones/{instrumento}/{pais}/Todos"
+    headers = {
+        'Accept': 'application/json',
+        'Authorization': f'Bearer {bearer_token}'
+    }
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        data = response.json()
+        if 'titulos' in data:
+            return pd.DataFrame(data['titulos'])
+        else:
+            print('No se encontraron datos de títulos en la respuesta.')
+            return pd.DataFrame()
+    else:
+        print(f'Error en la solicitud: {response.status_code}')
+        print(response.text)
+        return pd.DataFrame()
+
+# Funciones específicas para cada tipo de cotización
+def obtener_cotizaciones_adrs():
+    return obtener_cotizaciones('adrs', 'estados_unidos')
+
+def obtener_cotizaciones_acciones_eeuu():
+    return obtener_cotizaciones('acciones', 'estados_unidos')
+
+def obtener_cotizaciones_acciones():
+    return obtener_cotizaciones('acciones', 'argentina')
+
+def obtener_cotizaciones_titulos_publicos():
+    return obtener_cotizaciones('titulosPublicos', 'argentina')
+
+def obtener_cotizaciones_obligaciones_negociables():
+    return obtener_cotizaciones('obligacionesNegociables', 'argentina')
+
+def obtener_cotizaciones_cedears():
+    return obtener_cotizaciones('cedears', 'argentina')
+
+def obtener_cotizaciones_cauciones():
+    return obtener_cotizaciones('cauciones', 'argentina')
+
+
+import pandas as pd
+from panelescotizaciones import (
+    obtener_cotizaciones_adrs,
+    obtener_cotizaciones_acciones_eeuu,
+    obtener_cotizaciones_acciones,
+    obtener_cotizaciones_titulos_publicos,
+    obtener_cotizaciones_obligaciones_negociables,
+    obtener_cotizaciones_cedears,
+    obtener_cotizaciones_cauciones
+)
+
+# Obtener cotizaciones de diferentes instrumentos
+df_adrs = obtener_cotizaciones_adrs()
+df_acciones_eeuu = obtener_cotizaciones_acciones_eeuu()
+df_acciones = obtener_cotizaciones_acciones()
+df_titulos_publicos = obtener_cotizaciones_titulos_publicos()
+df_obligaciones_negociables = obtener_cotizaciones_obligaciones_negociables()
+df_cedears = obtener_cotizaciones_cedears()
+df_cauciones = obtener_cotizaciones_cauciones()
+
+# Imprimir los DataFrames en el explorador de variables
+print("ADRs:")
+print(df_adrs)
+print("Acciones EEUU:")
+print(df_acciones_eeuu)
+print("Acciones Argentina:")
+print(df_acciones)
+print("Títulos Públicos:")
+print(df_titulos_publicos)
+print("Obligaciones Negociables:")
+print(df_obligaciones_negociables)
+print("CEDEARs:")
+print(df_cedears)
+print("Cauciones:")
+print(df_cauciones)
+
+# Combinar todos los DataFrames en uno solo
+df_todos = pd.concat([df_adrs, df_acciones_eeuu, df_acciones, df_titulos_publicos, df_obligaciones_negociables, df_cedears, df_cauciones], ignore_index=True)
+
+# Imprimir el DataFrame combinado
+#print("Todos los instrumentos:")
+
+#print(df_todos)

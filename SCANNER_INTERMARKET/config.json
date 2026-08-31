@@ -1,0 +1,36 @@
+{
+  "intervalo_min": 15,
+  "lookback_dias": 252,
+  "roc_umbral_pct": 2.0,
+  "main_period": "2y",
+  "credit_start": "2016-01-01",
+  "credit_warning_pct": 90,
+  "credit_critical_pct": 95,
+  "credit_stress_pct": 20,
+  "vix_warn": 20,
+  "vix_alert": 25,
+  "eventos_dias": 10,
+  "noticias_dias": 2,
+  "fast_ma": 50,
+  "slow_ma": 200,
+  "watchlist_portafolio": ["PAM", "AMZN", "GOOGL", "IBM", "MU", "NU", "NVDA", "SMH", "SPY", "TSM", "URA", "XLE"],
+  "noticias_queries": [
+    { "q": "Federal Reserve interest rates decision", "cluster": "tasas" },
+    { "q": "\"S&P 500\" stock market today", "cluster": "equity" },
+    { "q": "oil prices crude energy", "cluster": "commodities" },
+    { "q": "inflation CPI PCE data", "cluster": "macro" }
+  ],
+  "ratios": [
+    { "id": "CRB_BONO", "num": "GSG", "den": "TLT", "desc": "Commodities vs Bonos (inflacion)", "fase_key": null },
+    { "id": "XLY_XLP", "num": "XLY", "den": "XLP", "desc": "Confianza consumidor", "fase_key": "xly_xlp" },
+    { "id": "IWM_SPY", "num": "IWM", "den": "SPY", "desc": "Apetito de riesgo small caps", "fase_key": "iwm_spy" },
+    { "id": "IYT_DIA", "num": "IYT", "den": "DIA", "desc": "Transports confirman Dow", "fase_key": null },
+    { "id": "XLY_SPY", "num": "XLY", "den": "SPY", "desc": "Discrecional vs mercado amplio", "fase_key": null },
+    { "id": "QQQ_SPY", "num": "QQQ", "den": "SPY", "desc": "Liderazgo tecnologico", "fase_key": "qqq_spy" },
+    { "id": "GLD_USO", "num": "GLD", "den": "USO", "desc": "Miedo geopolitico vs demanda", "fase_key": null },
+    { "id": "EFA_EEM", "num": "EFA", "den": "EEM", "desc": "Desarrollados vs emergentes", "fase_key": null },
+    { "id": "IEF_BIL", "num": "IEF", "den": "BIL", "desc": "Proxy pendiente de curva", "fase_key": null },
+    { "id": "IVW_IVE", "num": "IVW", "den": "IVE", "desc": "Growth vs Value", "fase_key": null }
+  ],
+  "macro_extra": ["^VIX", "DX-Y.NYB"]
+}

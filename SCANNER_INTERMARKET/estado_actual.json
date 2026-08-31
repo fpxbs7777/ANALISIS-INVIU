@@ -1,0 +1,166 @@
+{
+ "timestamp_utc": "2026-08-26T02:58:47.194841+00:00",
+ "fase": {
+  "num": 3,
+  "name": "Late Expansion",
+  "conf": "ALTA",
+  "match_pct": 100,
+  "desc": "Bonos caen (inflacion). Comm fuertes. Mercado angosto.",
+  "clave": "Energia, Oro, Agricultura, Salud, Utilities"
+ },
+ "ratios": [
+  {
+   "id": "CRB_BONO",
+   "desc": "Commodities vs Bonos (inflacion)",
+   "tend": 1,
+   "roc63": 3.86,
+   "ma": "alcista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "XLY_XLP",
+   "desc": "Confianza consumidor",
+   "tend": -1,
+   "roc63": -5.6,
+   "ma": "bajista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "IWM_SPY",
+   "desc": "Apetito de riesgo small caps",
+   "tend": 0,
+   "roc63": 0.95,
+   "ma": "alcista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "IYT_DIA",
+   "desc": "Transports confirman Dow",
+   "tend": -1,
+   "roc63": -2.49,
+   "ma": "alcista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "XLY_SPY",
+   "desc": "Discrecional vs mercado amplio",
+   "tend": -1,
+   "roc63": -4.97,
+   "ma": "bajista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "QQQ_SPY",
+   "desc": "Liderazgo tecnologico",
+   "tend": -1,
+   "roc63": -4.67,
+   "ma": "alcista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "GLD_USO",
+   "desc": "Miedo geopolitico vs demanda",
+   "tend": 0,
+   "roc63": 8.85,
+   "ma": "bajista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "EFA_EEM",
+   "desc": "Desarrollados vs emergentes",
+   "tend": 1,
+   "roc63": 6.73,
+   "ma": "bajista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "IEF_BIL",
+   "desc": "Proxy pendiente de curva",
+   "tend": 0,
+   "roc63": -0.74,
+   "ma": "bajista",
+   "nuevo_cruce": false
+  },
+  {
+   "id": "IVW_IVE",
+   "desc": "Growth vs Value",
+   "tend": -1,
+   "roc63": -3.94,
+   "ma": "alcista",
+   "nuevo_cruce": false
+  }
+ ],
+ "credito": {
+  "IG": {
+   "pct": 91.6,
+   "valor": 1.1428,
+   "nivel": "WARN_COMPLACENCIA"
+  },
+  "HY": {
+   "pct": 99.6,
+   "valor": 0.8547,
+   "nivel": "ALERTA_COMPLACENCIA"
+  }
+ },
+ "vix": {
+  "valor": 15.45,
+  "z252": -0.81,
+  "nivel": "OK"
+ },
+ "noticias": [
+  {
+   "cluster": "tasas",
+   "n": 4,
+   "neto": -1
+  },
+  {
+   "cluster": "equity",
+   "n": 25,
+   "neto": 2
+  },
+  {
+   "cluster": "commodities",
+   "n": 11,
+   "neto": 1
+  },
+  {
+   "cluster": "macro",
+   "n": 0,
+   "neto": 0
+  }
+ ],
+ "noticias_neto_total": 2,
+ "eventos": [
+  {
+   "ticker": "NVDA",
+   "fecha": "2026-08-26",
+   "faltan_dias": 0,
+   "eps_est": 2.09,
+   "beat_rate_8q": "8/8"
+  }
+ ],
+ "senales_activas": [
+  {
+   "nivel": "WARN",
+   "tipo": "CREDITO",
+   "id": "IG",
+   "sentido": "WARN_COMPLACENCIA",
+   "texto": "Credito IG percentil 92% elevado"
+  },
+  {
+   "nivel": "ALERTA",
+   "tipo": "CREDITO",
+   "id": "HY",
+   "sentido": "ALERTA_COMPLACENCIA",
+   "texto": "Credito HY en percentil 100% (ALERTA_COMPLACENCIA)"
+  },
+  {
+   "nivel": "INFO",
+   "tipo": "EVENTO",
+   "id": "NVDA_2026-08-26",
+   "sentido": "catalizador",
+   "texto": "Earnings NVDA en 0d (2026-08-26) EPS est 2.09 | beat 8Q 8/8"
+  }
+ ],
+ "errores": []
+}

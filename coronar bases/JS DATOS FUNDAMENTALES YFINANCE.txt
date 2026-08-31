@@ -1,0 +1,843 @@
+/**
+ * Script JavaScript Completo con TODOS los Datos Fundamentales de yFinance
+ * Basado en api yfinance.txt - Incorpora todos los módulos disponibles
+ * Datos completos: Balance Sheet, Income Statement, Cash Flow, Analistas, Holdings, etc.
+ */
+
+class IOLCompleteFundamentalsAnalyzer {
+    constructor() {
+        this.apis = {
+            iol: {
+                base: 'https://api.invertironline.com/api/v2',
+                credentials: {
+                    username: process.env.IOL_USERNAME || '',
+                    password: process.env.IOL_PASSWORD || ''
+                }
+            },
+            yfinance: {
+                chart: 'https://query1.finance.yahoo.com/v8/finance/chart',
+                quoteSummary: 'https://query2.finance.yahoo.com/v10/finance/quoteSummary',
+                modules: 'https://query1.finance.yahoo.com/v1/finance/quoteSummary'
+            }
+        };
+        
+        this.tokenCache = null;
+        this.dataframes = {
+            cedears: [],
+            acciones_locales: [],
+            acciones_eeuu: [],
+            adrs: []
+        };
+    }
+
+    // ========================================
+    // 1. OBTENER TODOS LOS MÓDULOS DE DATOS FUNDAMENTALES (basado en api yfinance.txt)
+    // ========================================
+    async obtenerTodosLosDatosFundamentales(ticker, simboloIOL) {
+        if (!ticker) return null;
+
+        try {
+            // MÓDULOS COMPLETOS DISPONIBLES EN YFINANCE (basado en api yfinance.txt)
+            const modules = [
+                // Información básica y perfil
+                'summaryProfile',
+                'quoteType',
+                'defaultKeyStatistics',
+                
+                // Datos financieros completos
+                'financialData',
+                'balanceSheetHistory',
+                'balanceSheetHistoryQuarterly',
+                'incomeStatementHistory',
+                'incomeStatementHistoryQuarterly',
+                'cashflowStatementHistory',
+                'cashflowStatementHistoryQuarterly',
+                
+                // Métricas de mercado
+                'price',
+                'summaryDetail',
+                
+                // Análisis de analistas
+                'earningsTrend',
+                'earningsHistory',
+                'recommendationTrend',
+                'recommendationTrend',
+                'financialsTemplate',
+                
+                // Estimaciones y proyecciones
+                'earningsEstimate',
+                'revenueEstimate',
+                'epsTrend',
+                'epsRevisions',
+                'growthEstimates',
+                
+                // Tenencias accionarias
+                'institutionOwnership',
+                'fundOwnership',
+                'majorDirectorsHolders',
+                'majorHoldersBreakdown',
+                'insiderHolders',
+                'insiderTransactions',
+                'netSharePurchaseActivity',
+                
+                // Calendario y eventos
+                'calendarEvents',
+                'secFilings',
+                'upgradeDowngradeHistory',
+                
+                // Datos de ETFs/Mutual Funds
+                'fundOwnership',
+                'fundPerformance',
+                'topHoldings',
+                'sectorWeightings',
+                
+                // Datos de sostenibilidad
+                'esgScores',
+                'sustainability',
+                
+                // Datos técnicos
+                'indexTrend',
+                'industryTrend',
+                
+                // Información corporativa
+                'companyOfficers',
+                'companyState',
+                'governanceTimeseries',
+                
+                // Datos de opciones y warrants
+                'optionsChain',
+                
+                // Datos históricos TTM
+                'ttmFinancials',
+                'ttmBalanceSheet',
+                'ttmCashflow',
+                'ttmIncomeStatement',
+                
+                // Metadata
+                'symbol'
+            ];
+
+            const response = await fetch(
+                `${this.apis.yfinance.quoteSummary}/${ticker}?modules=${modules.join(',')}`
+            );
+
+            if (response.ok) {
+                const data = await response.json();
+                const quoteSummary = data.quoteSummary?.result?.[0];
+                
+                if (quoteSummary) {
+                    return this.procesarDatosFundamentalesCompletos(quoteSummary, ticker, simboloIOL);
+                }
+            }
+        } catch (error) {
+            console.error(`❌ Error obteniendo todos los fundamentales de ${ticker}:`, error);
+        }
+        
+        return null;
+    }
+
+    // ========================================
+    // 2. PROCESAMIENTO COMPLETO DE DATOS FUNDAMENTALES
+    // ========================================
+    procesarDatosFundamentalesCompletos(quoteSummary, ticker, simboloIOL) {
+        const procesar = (path, defaultValue = null) => {
+            const keys = path.split('.');
+            let value = quoteSummary;
+            for (const key of keys) {
+                if (value && typeof value === 'object' && key in value) {
+                    value = value[key];
+                } else {
+                    return defaultValue;
+                }
+            }
+            return value?.raw || value || defaultValue;
+        };
+
+        const procesarArray = (path, defaultValue = []) => {
+            const keys = path.split('.');
+            let value = quoteSummary;
+            for (const key of keys) {
+                if (value && typeof value === 'object' && key in value) {
+                    value = value[key];
+                } else {
+                    return defaultValue;
+                }
+            }
+            return Array.isArray(value) ? value : defaultValue;
+        };
+
+        return {
+            // ========================================
+            // INFORMACIÓN BÁSICA Y PERFIL CORPORATIVO
+            // ========================================
+            ticker: ticker,
+            simboloIOL: simboloIOL,
+            nombre: procesar('summaryProfile.longName', simboloIOL),
+            nombreCorto: procesar('quoteType.shortName', simboloIOL),
+            sector: procesar('summaryProfile.sector', 'No disponible'),
+            industria: procesar('summaryProfile.industry', 'No disponible'),
+            descripcion: procesar('summaryProfile.longBusinessSummary', 'No disponible'),
+            pais: procesar('summaryProfile.country', 'No disponible'),
+            ciudad: procesar('summaryProfile.city', 'No disponible'),
+            estado: procesar('summaryProfile.state', 'No disponible'),
+            direccion: procesar('summaryProfile.address1', 'No disponible'),
+            telefono: procesar('summaryProfile.phone', 'No disponible'),
+            sitioWeb: procesar('summaryProfile.website', 'No disponible'),
+            empleados: procesar('summaryProfile.fullTimeEmployees', 0),
+            fundacion: procesar('summaryProfile.companyOfficers.0.yearBorn', 'No disponible'),
+            zip: procesar('summaryProfile.zip', 'No disponible'),
+            
+            // ========================================
+            // DATOS DE MERCADO Y PRECIOS
+            // ========================================
+            precioActual: procesar('price.regularMarketPrice', 0),
+            precioAnterior: procesar('price.regularMarketPreviousClose', 0),
+            precioApertura: procesar('price.regularMarketOpen', 0),
+            precioMaximoDia: procesar('price.regularMarketDayHigh', 0),
+            precioMinimoDia: procesar('price.regularMarketDayLow', 0),
+            variacionDiaria: procesar('price.regularMarketChangePercent', 0),
+            variacionAbsoluta: procesar('price.regularMarketChange', 0),
+            volumen: procesar('price.regularMarketVolume', 0),
+            volumenPromedio: procesar('price.averageDailyVolume3Month', 0),
+            volumenPromedio10Dias: procesar('price.averageDailyVolume10Day', 0),
+            capitalizacion: procesar('price.marketCap', 0),
+            capitalizacionTotal: procesar('summaryDetail.marketCap', 0),
+            floatShares: procesar('summaryDetail.floatShares', 0),
+            sharesOutstanding: procesar('summaryDetail.sharesOutstanding', 0),
+            
+            // ========================================
+            // RANGOS 52 SEMANAS
+            // ========================================
+            maximo52Semanas: procesar('summaryDetail.fiftyTwoWeekHigh', 0),
+            minimo52Semanas: procesar('summaryDetail.fiftyTwoWeekLow', 0),
+            variacion52Semanas: procesar('summaryDetail.fiftyTwoWeekChange', 0),
+            
+            // ========================================
+            // VALORACIÓN COMPLETA
+            // ========================================
+            trailingPE: procesar('defaultKeyStatistics.trailingPE', 0),
+            forwardPE: procesar('defaultKeyStatistics.forwardPE', 0),
+            priceToSales: procesar('defaultKeyStatistics.priceToSalesTrailing12Months', 0),
+            priceToBook: procesar('defaultKeyStatistics.priceToBook', 0),
+            priceToCashFlow: procesar('defaultKeyStatistics.priceToCashflow', 0),
+            enterpriseValue: procesar('defaultKeyStatistics.enterpriseValue', 0),
+            enterpriseToRevenue: procesar('defaultKeyStatistics.enterpriseToRevenue', 0),
+            enterpriseToEbitda: procesar('defaultKeyStatistics.enterpriseToEbitda', 0),
+            
+            // ========================================
+            // RENTABILIDAD COMPLETA
+            // ========================================
+            returnOnEquity: procesar('financialData.returnOnEquity', 0),
+            returnOnAssets: procesar('financialData.returnOnAssets', 0),
+            returnOnCapital: procesar('financialData.returnOnCapital', 0),
+            profitMargins: procesar('financialData.profitMargins', 0),
+            operatingMargins: procesar('financialData.operatingMargins', 0),
+            grossMargins: procesar('financialData.grossMargins', 0),
+            ebitdaMargins: procesar('financialData.ebitdaMargins', 0),
+            netProfitMargin: procesar('financialData.netProfitMargin', 0),
+            
+            // ========================================
+            // ENDEUDAMIENTO Y LIQUIDEZ COMPLETOS
+            // ========================================
+            debtToEquity: procesar('financialData.debtToEquity', 0),
+            currentRatio: procesar('financialData.currentRatio', 0),
+            quickRatio: procesar('financialData.quickRatio', 0),
+            cashRatio: procesar('financialData.cashRatio', 0),
+            totalDebt: procesar('financialData.totalDebt', 0),
+            totalCash: procesar('financialData.totalCash', 0),
+            totalDebtToTotalAssets: procesar('financialData.totalDebtToTotalAssets', 0),
+            totalCashPerShare: procesar('financialData.totalCashPerShare', 0),
+            
+            // ========================================
+            // CRECIMIENTO COMPLETO
+            // ========================================
+            earningsGrowth: procesar('defaultKeyStatistics.earningsGrowth', 0),
+            revenueGrowth: procesar('defaultKeyStatistics.revenueGrowth', 0),
+            earningsQuarterlyGrowth: procesar('defaultKeyStatistics.earningsQuarterlyGrowth', 0),
+            revenueQuarterlyGrowth: procesar('defaultKeyStatistics.revenueQuarterlyGrowth', 0),
+            earningsGrowthRate: procesar('financialData.earningsGrowthRate', 0),
+            revenueGrowthRate: procesar('financialData.revenueGrowthRate', 0),
+            ebitdaGrowth: procesar('financialData.ebitdaGrowth', 0),
+            
+            // ========================================
+            // DIVIDENDOS COMPLETOS
+            // ========================================
+            dividendYield: procesar('summaryDetail.dividendYield', 0),
+            dividendRate: procesar('summaryDetail.dividendRate', 0),
+            dividendPerShare: procesar('defaultKeyStatistics.dividendPerShare', 0),
+            payoutRatio: procesar('defaultKeyStatistics.payoutRatio', 0),
+            dividendYield5YrAvg: procesar('defaultKeyStatistics.dividendYield5yrAvg', 0),
+            lastDividendDate: procesar('defaultKeyStatistics.lastDividendDate', null),
+            lastDividendValue: procesar('defaultKeyStatistics.lastDividendValue', 0),
+            
+            // ========================================
+            // RIESGO Y VOLATILIDAD COMPLETOS
+            // ========================================
+            beta: procesar('defaultKeyStatistics.beta', 0),
+            beta3Year: procesar('defaultKeyStatistics.beta3Year', 0),
+            trailingAtr: procesar('defaultKeyStatistics.trailingAtr', 0),
+            impliedVolatility: procesar('defaultKeyStatistics.impliedVolatility', 0),
+            sharpeRatio: procesar('defaultKeyStatistics.sharpeRatio', 0),
+            
+            // ========================================
+            // ANÁLISIS TÉCNICO COMPLETO
+            // ========================================
+            rsi14: procesar('defaultKeyStatistics.rsi14', 0),
+            rsi50: procesar('defaultKeyStatistics.rsi50', 0),
+            averageVolume10days: procesar('defaultKeyStatistics.averageVolume10days', 0),
+            averageVolume: procesar('defaultKeyStatistics.averageVolume', 0),
+            
+            // ========================================
+            // RECOMENDACIONES DE ANALISTAS COMPLETAS
+            // ========================================
+            recomendacionCompra: procesar('recommendationTrend.trend.0.buy', 0),
+            recomendacionMantenimiento: procesar('recommendationTrend.trend.0.hold', 0),
+            recomendacionVenta: procesar('recommendationTrend.trend.0.sell', 0),
+            recomendacionFuerteCompra: procesar('recommendationTrend.trend.0.strongBuy', 0),
+            recomendacionFuerteVenta: procesar('recommendationTrend.trend.0.strongSell', 0),
+            targetPriceMean: procesar('financialData.targetMeanPrice', 0),
+            targetPriceHigh: procesar('financialData.targetHighPrice', 0),
+            targetPriceLow: procesar('financialData.targetLowPrice', 0),
+            numberOfAnalysts: procesar('financialData.numberOfAnalystOpinions', 0),
+            
+            // ========================================
+            // ESTIMACIONES Y PROYECCIONES COMPLETAS
+            // ========================================
+            epsEstimateCurrentYear: procesar('earningsEstimate.0.estimate', 0),
+            epsEstimateNextYear: procesar('earningsEstimate.1.estimate', 0),
+            epsEstimateNextQuarter: procesar('earningsEstimate.2.estimate', 0),
+            revenueEstimateCurrentYear: procesar('revenueEstimate.0.estimate', 0),
+            revenueEstimateNextYear: procesar('revenueEstimate.1.estimate', 0),
+            revenueEstimateNextQuarter: procesar('revenueEstimate.2.estimate', 0),
+            epsTrendCurrent: procesar('epsTrend.current', 0),
+            epsTrend7DaysAgo: procesar('epsTrend.7daysAgo', 0),
+            epsTrend30DaysAgo: procesar('epsTrend.30daysAgo', 0),
+            epsTrend60DaysAgo: procesar('epsTrend.60daysAgo', 0),
+            epsTrend90DaysAgo: procesar('epsTrend.90daysAgo', 0),
+            
+            // ========================================
+            // FLUJO DE CAJA COMPLETO
+            // ========================================
+            freeCashFlow: procesar('financialData.freeCashflow', 0),
+            operatingCashFlow: procesar('financialData.operatingCashflow', 0),
+            leveredFreeCashFlow: procesar('financialData.leveredFreeCashflow', 0),
+            cashFlowPerShare: procesar('defaultKeyStatistics.cashFlowPerShare', 0),
+            
+            // ========================================
+            // INGRESOS Y GANANCIAS COMPLETAS
+            // ========================================
+            totalRevenue: procesar('financialData.totalRevenue', 0),
+            totalRevenuePerShare: procesar('financialData.totalRevenuePerShare', 0),
+            grossProfits: procesar('financialData.grossProfits', 0),
+            netIncome: procesar('financialData.netIncome', 0),
+            netIncomePerShare: procesar('financialData.netIncomePerShare', 0),
+            ebitda: procesar('financialData.ebitda', 0),
+            operatingIncome: procesar('financialData.operatingIncome', 0),
+            
+            // ========================================
+            // BALANCE GENERAL COMPLETO
+            // ========================================
+            totalAssets: procesar('balanceSheetHistory.0.totalAssets', 0),
+            totalLiabilities: procesar('balanceSheetHistory.0.totalLiab', 0),
+            totalStockholderEquity: procesar('balanceSheetHistory.0.totalStockholderEquity', 0),
+            bookValue: procesar('balanceSheetHistory.0.totalStockholderEquity', 0),
+            bookValuePerShare: procesar('defaultKeyStatistics.bookValue', 0),
+            tangibleBookValue: procesar('defaultKeyStatistics.tangibleBookValue', 0),
+            tangibleBookValuePerShare: procesar('defaultKeyStatistics.tangibleBookValuePerShare', 0),
+            
+            // ========================================
+            // TENENCIAS ACCIONARIAS COMPLETAS
+            // ========================================
+            institutionalHolders: procesarArray('institutionOwnership.ownership', []),
+            fundHolders: procesarArray('fundOwnership.ownership', []),
+            majorHolders: procesarArray('majorDirectorsHolders.holders', []),
+            insiderHolders: procesarArray('insiderHolders.holders', []),
+            insiderTransactions: procesarArray('insiderTransactions.transactions', []),
+            insiderPurchases: procesarArray('insiderPurchases.purchases', []),
+            insiderRosterHolders: procesarArray('insiderRosterHolders.holders', []),
+            
+            // ========================================
+            // DATOS DE ETFs/MUTUAL FUNDS (si aplica)
+            // ========================================
+            fundFamily: procesar('quoteType.fundFamily', null),
+            fundCategory: procesar('quoteType.category', null),
+            fundYield: procesar('summaryDetail.yield', 0),
+            fundMorningStarRating: procesar('summaryDetail.morningStarRating', 0),
+            fundInceptionDate: procesar('summaryDetail.fundInceptionDate', null),
+            
+            // ========================================
+            // CALENDARIO Y EVENTOS COMPLETOS
+            // ========================================
+            earningsDate: procesar('calendarEvents.earnings.earningsDate', null),
+            earningsAverage: procesar('calendarEvents.earnings.earningsAverage', 0),
+            earningsLow: procesar('calendarEvents.earnings.earningsLow', 0),
+            earningsHigh: procesar('calendarEvents.earnings.earningsHigh', 0),
+            revenueAverage: procesar('calendarEvents.earnings.revenueAverage', 0),
+            revenueLow: procesar('calendarEvents.earnings.revenueLow', 0),
+            revenueHigh: procesar('calendarEvents.earnings.revenueHigh', 0),
+            exDividendDate: procesar('calendarEvents.dividends.exDividendDate', null),
+            dividendDate: procesar('calendarEvents.dividends.dividendDate', null),
+            payDate: procesar('calendarEvents.dividends.payDate', null),
+            
+            // ========================================
+            // FILINGS REGULATORIOS
+            // ========================================
+            secFilings: procesarArray('secFilings.filings', []),
+            
+            // ========================================
+            // DATOS DE SOSTENIBILIDAD Y ESG
+            // ========================================
+            esgScores: procesar('esgScores', null),
+            sustainability: procesar('sustainability', null),
+            
+            // ========================================
+            // DATOS TÉCNICOS AVANZADOS
+            // ========================================
+            indexTrend: procesar('indexTrend', null),
+            industryTrend: procesar('industryTrend', null),
+            
+            // ========================================
+            // OFICIALES Y GOBIERNO CORPORATIVO
+            // ========================================
+            companyOfficers: procesarArray('companyOfficers', []),
+            
+            // ========================================
+            // METADATA Y TIMESTAMPS
+            // ========================================
+            timestamp: new Date().toISOString(),
+            fuente: 'Yahoo Finance',
+            datosCompletos: true,
+            totalModulosObtenidos: Object.keys(quoteSummary).length
+        };
+    }
+
+    // ========================================
+    // 3. OBTENER TOKEN IOL (sin cambios)
+    // ========================================
+    async obtenerTokenIOL() {
+        if (this.tokenCache && !this.isTokenExpired(this.tokenCache)) {
+            return this.tokenCache.token;
+        }
+
+        try {
+            const response = await fetch(`${this.apis.iol.base}/token`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({
+                    username: this.apis.iol.credentials.username,
+                    password: this.apis.iol.credentials.password,
+                    grant_type: 'password'
+                })
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                this.tokenCache = {
+                    token: data.access_token,
+                    expires: Date.now() + (data.expires_in * 1000)
+                };
+                console.log('✅ Token IOL obtenido exitosamente');
+                return this.tokenCache.token;
+            }
+        } catch (error) {
+            console.error('❌ Error obteniendo token IOL:', error);
+        }
+        return null;
+    }
+
+    isTokenExpired(tokenCache) {
+        return !tokenCache || Date.now() > tokenCache.expires;
+    }
+
+    // ========================================
+    // 4. OBTENER COTIZACIONES IOL (sin cambios)
+    // ========================================
+    async obtenerCotizaciones(instrumento, pais) {
+        const token = await this.obtenerTokenIOL();
+        if (!token) return [];
+
+        try {
+            const url = `${this.apis.iol.base}/Cotizaciones/${instrumento}/${pais}/Todos`;
+            const headers = {
+                'Accept': 'application/json',
+                'Authorization': `Bearer ${token}`
+            };
+
+            const response = await fetch(url, { headers });
+            
+            if (response.status === 200) {
+                const data = await response.json();
+                if (data.titulos && data.titulos.length > 0) {
+                    console.log(`✅ ${instrumento}/${pais}: ${data.titulos.length} títulos`);
+                    return data.titulos;
+                } else {
+                    console.log(`⚠️ ${instrumento}/${pais}: Sin datos de títulos`);
+                    return [];
+                }
+            } else {
+                console.log(`❌ Error en ${instrumento}/${pais}: ${response.status}`);
+                return [];
+            }
+        } catch (error) {
+            console.error(`❌ Error procesando ${instrumento}/${pais}:`, error);
+            return [];
+        }
+    }
+
+    // ========================================
+    // 5. PROCESAMIENTO CON DATOS COMPLETOS
+    // ========================================
+    async procesarActivoCompleto(titulo, tipoInstrumento, pais, categoria) {
+        try {
+            // Clasificar el activo
+            const clasificacion = this.clasificarActivo(titulo, tipoInstrumento, pais);
+            
+            // Obtener TODOS los datos fundamentales completos
+            const fundamentales = await this.obtenerTodosLosDatosFundamentales(
+                clasificacion.tickerYFinance, 
+                titulo.simbolo
+            );
+            
+            // Combinar datos
+            const activoCompleto = {
+                // Datos de IOL
+                simboloIOL: titulo.simbolo,
+                descripcionIOL: titulo.descripcion || titulo.simbolo,
+                precioIOL: titulo.precio,
+                variacionIOL: titulo.variacionPorcentual,
+                volumenIOL: titulo.volumen,
+                monedaIOL: titulo.moneda,
+                
+                // Clasificación
+                tipo: clasificacion.tipo,
+                categoria: categoria,
+                tickerYFinance: clasificacion.tickerYFinance,
+                descripcionCompleta: clasificacion.descripcion,
+                
+                // Datos fundamentales COMPLETOS
+                ...(fundamentales || {}),
+                
+                // Metadata de procesamiento
+                datosFundamentalesDisponibles: !!fundamentales,
+                timestampProcesamiento: new Date().toISOString(),
+                modulosObtenidos: fundamentales?.totalModulosObtenidos || 0
+            };
+            
+            return activoCompleto;
+            
+        } catch (error) {
+            console.error(`❌ Error procesando ${titulo.simbolo}:`, error);
+            return null;
+        }
+    }
+
+    // ========================================
+    // 6. CLASIFICACIÓN DE ACTIVOS (sin cambios)
+    // ========================================
+    clasificarActivo(titulo, tipoInstrumento, pais) {
+        const simbolo = titulo.simbolo || '';
+        const descripcion = titulo.descripcion || '';
+        
+        switch (tipoInstrumento) {
+            case 'cedears':
+                return {
+                    tipo: 'CEDEAR',
+                    categoria: 'cedears',
+                    tickerYFinance: this.mapearTickerCEDEAR(simbolo),
+                    descripcion: `CEDEAR - ${descripcion}`
+                };
+            
+            case 'acciones':
+                if (pais === 'argentina') {
+                    return {
+                        tipo: 'ACCION LOCAL',
+                        categoria: 'acciones_locales',
+                        tickerYFinance: this.mapearAccionLocal(simbolo),
+                        descripcion: `Acción Argentina - ${descripcion}`
+                    };
+                } else if (pais === 'estados_unidos') {
+                    return {
+                        tipo: 'ACCION EEUU',
+                        categoria: 'acciones_eeuu',
+                        tickerYFinance: simbolo,
+                        descripcion: `Acción EE.UU - ${descripcion}`
+                    };
+                }
+                break;
+            
+            case 'adrs':
+                return {
+                    tipo: 'ADR',
+                    categoria: 'adrs',
+                    tickerYFinance: simbolo,
+                    descripcion: `ADR - ${descripcion}`
+                };
+        }
+        
+        return {
+            tipo: 'DESCONOCIDO',
+            categoria: 'otros',
+            tickerYFinance: simbolo,
+            descripcion: descripcion
+        };
+    }
+
+    mapearTickerCEDEAR(simbolo) {
+        return simbolo.replace('.BA', '').replace('.D', '').replace('.C', '');
+    }
+
+    mapearAccionLocal(simbolo) {
+        return simbolo.replace('.BA', '');
+    }
+
+    // ========================================
+    // 7. EJECUCIÓN PRINCIPAL CON DATOS COMPLETOS
+    // ========================================
+    async ejecutarAnalisisCompleto() {
+        console.log('🚀 Iniciando análisis COMPLETO con TODOS los datos fundamentales de yFinance...');
+        
+        try {
+            // 1. Obtener todas las cotizaciones
+            const [
+                dfAdrs,
+                dfAccionesEEUU,
+                dfAcciones,
+                dfCedears
+            ] = await Promise.all([
+                this.obtenerCotizaciones('adrs', 'estados_unidos'),
+                this.obtenerCotizaciones('acciones', 'estados_unidos'),
+                this.obtenerCotizaciones('acciones', 'argentina'),
+                this.obtenerCotizaciones('cedears', 'argentina')
+            ]);
+
+            console.log('📊 Resumen de cotizaciones obtenidas:');
+            console.log(`ADRs: ${dfAdrs.length}`);
+            console.log(`Acciones EE.UU: ${dfAccionesEEUU.length}`);
+            console.log(`Acciones Argentina: ${dfAcciones.length}`);
+            console.log(`CEDEARs: ${dfCedears.length}`);
+
+            // 2. Procesar cada tipo con datos completos
+            const [
+                resultadosCedears,
+                resultadosAccionesLocales,
+                resultadosAccionesEEUU,
+                resultadosADRs
+            ] = await Promise.all([
+                this.procesarTipoConDatosCompletos(dfCedears, 'cedears', 'argentina', 'cedears'),
+                this.procesarTipoConDatosCompletos(dfAcciones, 'acciones', 'argentina', 'acciones_locales'),
+                this.procesarTipoConDatosCompletos(dfAccionesEEUU, 'acciones', 'estados_unidos', 'acciones_eeuu'),
+                this.procesarTipoConDatosCompletos(dfAdrs, 'adrs', 'estados_unidos', 'adrs')
+            ]);
+            
+            // 3. Guardar en dataframes
+            this.dataframes = {
+                cedears: resultadosCedears,
+                acciones_locales: resultadosAccionesLocales,
+                acciones_eeuu: resultadosAccionesEEUU,
+                adrs: resultadosADRs
+            };
+            
+            // 4. Mostrar resumen completo
+            this.mostrarResumenCompleto();
+            
+            // 5. Retornar dataframes
+            return this.dataframes;
+            
+        } catch (error) {
+            console.error('❌ Error en análisis completo:', error);
+            return null;
+        }
+    }
+
+    async procesarTipoConDatosCompletos(titulos, tipoInstrumento, pais, categoria) {
+        console.log(`🔄 Procesando ${categoria} con DATOS COMPLETOS: ${titulos.length} activos`);
+        
+        const resultados = [];
+        
+        for (const titulo of titulos) {
+            const resultado = await this.procesarActivoCompleto(titulo, tipoInstrumento, pais, categoria);
+            if (resultado) {
+                resultados.push(resultado);
+            }
+        }
+        
+        console.log(`✅ ${categoria} completado: ${resultados.length} activos con datos`);
+        return resultados;
+    }
+
+    // ========================================
+    // 8. MOSTRAR RESUMEN COMPLETO
+    // ========================================
+    mostrarResumenCompleto() {
+        console.log('\n📊 ===== ANÁLISIS COMPLETO CON TODOS LOS DATOS FUNDAMENTALES =====');
+        
+        const tabs = [
+            { nombre: 'CEDEARs', data: this.dataframes.cedears },
+            { nombre: 'Acciones Locales', data: this.dataframes.acciones_locales },
+            { nombre: 'Acciones EE.UU', data: this.dataframes.acciones_eeuu },
+            { nombre: 'ADRs', data: this.dataframes.adrs }
+        ];
+        
+        tabs.forEach(tab => {
+            console.log(`\n📋 TAB: ${tab.nombre}`);
+            console.log(`📊 Total activos: ${tab.data.length}`);
+            
+            const conDatosCompletos = tab.data.filter(a => a.datosFundamentalesDisponibles);
+            console.log(`✅ Con datos completos: ${conDatosCompletos.length}`);
+            
+            if (conDatosCompletos.length > 0) {
+                // Top 3 con más módulos obtenidos
+                const topModulos = conDatosCompletos
+                    .sort((a, b) => (b.modulosObtenidos || 0) - (a.modulosObtenidos || 0))
+                    .slice(0, 3);
+                
+                console.log('🏆 Top 3 con más datos fundamentales:');
+                topModulos.forEach((activo, index) => {
+                    console.log(`${index + 1}. ${activo.simboloIOL} - ${activo.nombre || 'Sin nombre'}`);
+                    console.log(`   Módulos obtenidos: ${activo.modulosObtenidos || 0}`);
+                    console.log(`   Sector: ${activo.sector || 'N/A'}`);
+                    console.log(`   ROE: ${activo.returnOnEquity ? (activo.returnOnEquity * 100).toFixed(1) + '%' : 'N/A'}`);
+                    console.log(`   PER: ${activo.trailingPE ? activo.trailingPE.toFixed(1) : 'N/A'}`);
+                    console.log(`   Beta: ${activo.beta ? activo.beta.toFixed(2) : 'N/A'}`);
+                    console.log(`   Analistas: ${activo.numberOfAnalysts || 0}`);
+                });
+            }
+        });
+        
+        // Estadísticas globales
+        const totalActivos = Object.values(this.dataframes).flat().length;
+        const totalConDatos = Object.values(this.dataframes)
+            .flat()
+            .filter(a => a.datosFundamentalesDisponibles).length;
+        
+        console.log('\n📈 ESTADÍSTICAS GLOBALES:');
+        console.log(`📊 Total de activos procesados: ${totalActivos}`);
+        console.log(`✅ Con datos fundamentales completos: ${totalConDatos}`);
+        console.log(`📊 Tasa de éxito: ${((totalConDatos/totalActivos)*100).toFixed(1)}%`);
+        
+        console.log('\n🎯 DATOS FUNDAMENTALES DISPONIBLES POR ACTIVO:');
+        const datosPorActivo = Object.values(this.dataframes)
+            .flat()
+            .filter(a => a.datosFundamentalesDisponibles);
+        
+        if (datosPorActivo.length > 0) {
+            const promedioModulos = datosPorActivo.reduce((sum, a) => sum + (a.modulosObtenidos || 0), 0) / datosPorActivo.length;
+            console.log(`📊 Promedio de módulos por activo: ${promedioModulos.toFixed(1)}`);
+            
+            // Verificar disponibilidad de datos clave
+            const conROE = datosPorActivo.filter(a => a.returnOnEquity && a.returnOnEquity > 0).length;
+            const conPER = datosPorActivo.filter(a => a.trailingPE && a.trailingPE > 0).length;
+            const conBeta = datosPorActivo.filter(a => a.beta && a.beta > 0).length;
+            const conAnalistas = datosPorActivo.filter(a => a.numberOfAnalysts && a.numberOfAnalysts > 0).length;
+            const conDividendos = datosPorActivo.filter(a => a.dividendYield && a.dividendYield > 0).length;
+            
+            console.log(`📊 Con ROE: ${conROE} (${((conROE/datosPorActivo.length)*100).toFixed(1)}%)`);
+            console.log(`📊 Con PER: ${conPER} (${((conPER/datosPorActivo.length)*100).toFixed(1)}%)`);
+            console.log(`📊 Con Beta: ${conBeta} (${((conBeta/datosPorActivo.length)*100).toFixed(1)}%)`);
+            console.log(`📊 Con analistas: ${conAnalistas} (${((conAnalistas/datosPorActivo.length)*100).toFixed(1)}%)`);
+            console.log(`📊 Con dividendos: ${conDividendos} (${((conDividendos/datosPorActivo.length)*100).toFixed(1)}%)`);
+        }
+        
+        console.log('\n✅ Análisis COMPLETO finalizado exitosamente!');
+    }
+
+    // ========================================
+    // 9. EXPORTACIÓN COMPLETA
+    // ========================================
+    exportarTabCSV(tabNombre, data, filename) {
+        if (!data || data.length === 0) {
+            console.log(`⚠️ No hay datos para exportar en ${tabNombre}`);
+            return;
+        }
+
+        const headers = Object.keys(data[0]);
+        const csvContent = [
+            headers.join(','),
+            ...data.map(activo => 
+                headers.map(header => `"${activo[header] || ''}"`).join(',')
+            )
+        ].join('\n');
+
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = filename;
+        link.click();
+        
+        console.log(`📁 ${tabNombre} con DATOS COMPLETOS exportado a ${filename}`);
+    }
+
+    exportarTodasLasTabsCompletas() {
+        const tabs = [
+            { nombre: 'CEDEARs', data: this.dataframes.cedears, prefix: 'cedears_completos' },
+            { nombre: 'Acciones Locales', data: this.dataframes.acciones_locales, prefix: 'acciones_locales_completas' },
+            { nombre: 'Acciones EE.UU', data: this.dataframes.acciones_eeuu, prefix: 'acciones_eeuu_completas' },
+            { nombre: 'ADRs', data: this.dataframes.adrs, prefix: 'adrs_completos' }
+        ];
+
+        tabs.forEach(tab => {
+            this.exportarTabCSV(tab.nombre, tab.data, `${tab.prefix}.csv`);
+        });
+
+        // Exportar dataframe combinado completo
+        const todosLosActivos = Object.values(this.dataframes).flat();
+        this.exportarTabCSV('Todos los Activos - Datos Completos', todosLosActivos, 'todos_los_activos_completos.csv');
+    }
+
+    // ========================================
+    // 10. OBTENER DATAFRAME ESPECÍFICO
+    // ========================================
+    getDataframe(tab) {
+        return this.dataframes[tab] || [];
+    }
+
+    getTodosLosDataframes() {
+        return this.dataframes;
+    }
+}
+
+// ========================================
+// EJECUCIÓN PRINCIPAL
+// ========================================
+async function ejecutarAnalisisCompletoFundamental() {
+    const analyzer = new IOLCompleteFundamentalsAnalyzer();
+    
+    console.log('🎯 Iniciando análisis COMPLETO con TODOS los datos fundamentales de yFinance...');
+    
+    try {
+        // Ejecutar análisis completo
+        const dataframes = await analyzer.ejecutarAnalisisCompleto();
+        
+        if (dataframes) {
+            // Exportar todas las tabs con datos completos
+            analyzer.exportarTodasLasTabsCompletas();
+            
+            // Retornar para uso posterior
+            return dataframes;
+        } else {
+            console.error('❌ No se pudo completar el análisis');
+            return null;
+        }
+    } catch (error) {
+        console.error('❌ Error en ejecución principal:', error);
+        return null;
+    }
+}
+
+// Ejecutar automáticamente si se corre el script
+if (typeof window !== 'undefined') {
+    // Entorno de navegador
+    window.analizarActivosIOLCompleto = ejecutarAnalisisCompletoFundamental;
+    window.analyzerCompleto = new IOLCompleteFundamentalsAnalyzer();
+    
+    console.log('🚀 Para ejecutar el análisis COMPLETO, llama a: analizarActivosIOLCompleto()');
+    console.log('🔍 Para obtener dataframe específico: analyzerCompleto.getDataframe("cedears")');
+} else {
+    // Entorno Node.js
+    ejecutarAnalisisCompletoFundamental();
+}
+
+// Exportar para uso como módulo
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { IOLCompleteFundamentalsAnalyzer, ejecutarAnalisisCompletoFundamental };
+}

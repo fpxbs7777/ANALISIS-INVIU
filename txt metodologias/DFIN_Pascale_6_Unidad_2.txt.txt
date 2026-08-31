@@ -1,0 +1,582 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones Macchi
+3ª ed., Buenos Aires, 1998
+ISBN 950-537435-6
+Este material se utiliza con fines
+exclusivamente didácticos
+
+CAPÍTULO 20. EVIDENCIA EMPÍRICA DE ESTRUCTURAS
+FINANCIERAS Y LOS LÍMITES DEL ENDEUDAMIENTO
+OBJETIVOS DE APRENDIZAJE
+• Analizar la evidencia empírica con respecto a las estructuras financieras en los países
+industrializados y en procesos de industrialización.
+• Analizar el modelo general de financiamiento de la empresa, y la determinación de las deudas a corto
+y largo plazo.
+• Presentar las distintas aproximaciones a los límites del endeudamiento de la empresa.
+• Exponer los modelos de crecimiento autosostenido de la empresa.
+20,1. LA EVIDENCIA EMPÍRICA SOBRE ESTRUCTURAS FINANCIERAS
+La sección busca presentar los resultados de la evidencia empírica en los patrones de
+comportamiento de las estructuras financieras en países del Grupo de los 7 (G-7) y en países en proceso de
+industrialización.
+La evidencia empírica sobre estructuras financieras en países del G-7
+RAJAN y ZINGALES (1995) han estudiado las estructuras financieras en los países del G-7, sus
+fuentes y usos de fondos, así como las correlaciones entre los factores que explicarán el endeudamiento en
+los Estados Unidos de América.
+El cuadro 20,1 muestra los datos de estados de situación de balances agregados de empresas no
+financieras. Cabe señalar que los autores circunscriben su análisis a grandes empresas que cotizan sus
+acciones en los mercados bursátiles.
+Cuadro 20,1. Estados de situación (agregados de empresas seleccionadas, en %).
+2
+
+Asimismo, RAJAN y ZINGALES analizan las medianas de los indicadores de endeudamiento de las
+empresas (cuadro 20,2) En este caso, se han ajustado los balances para darle homogeneidad en razón de la
+diversidad de aspectos que los mismos pueden ilustrar. Los índices de endeudamiento utilizados son:
+Pasivos/Activos totales, que es la definición más amplia, puede, en muchos casos, brindar
+información sobre la realidad de la firma en cuanto a un riesgo de crédito en el corto plazo. La inclusión de
+las cuentas a pagar, habitualmente utilizada por razones de transacciones, puede hacer crecer el ratio, al igual
+que las deudas por pensiones, y en cierta forma desfigurar algunos de los aspectos que se quieren investigar.
+Se puede sostener que una definición más apropiada es medir las deudas financieras (corto y largo
+plazo) a activos totales. Sin embargo, este ratio puede estar influido por las cuentas a pagar, que al incluirse
+en los activos llevan a disminuir el mismo.
+También se puede definir el endeudamiento como deudas financieras totales a activos totales netos
+(activos totales menos cuentas a pagar); esta definición elimina los problemas citados en el indicador
+anterior.
+Otra medida de endeudamiento utilizada por el citado estudio es deuda financiera a capital,
+entendiendo por tal, en este caso, las deudas totales más el patrimonio neto.
+Cuadro 20,2. Endeudamiento ajustado.
+Los autores complementan la información exponiendo las fuentes de financiamiento en términos de
+lo que sería un cuadro de fuentes y usos de fondos. El cuadro 20,3 presenta los resultados.
+Cuadro 20,3. Fuentes de financiamiento externo.
+3
+
+PRIMER PLANO
+FACTORES DE ALTA CORRELACIÓN CON EL ENDEUDAMIENTO
+En 1991, HARRIS y RAVIV establecieron que el concepto de endeudamiento crecía
+con: activos fijos, oportunidades de inversión, atajos fiscales y el tamaño de la firma,
+y que decrecía con los gastos de publicidad, la volatilidad, gastos de bancarrota y el
+grado de único del producto.
+RAJAN y ZINGALES (1995) toman cuatro de los factores anteriormente expuestos:
+a) tangibilidad (activos fijos a activos totales) y b) ratio de mercado a libros (una
+aproximación a la medida de oportunidades de inversión), que se calcula como valor
+de libros de los activos menos el valor de libro del patrimonio neto más el valor de
+mercado del patrimonio neto dividido el valor de libros de los activos, y tamaño que
+se mide a través del logaritmo de las ventas netas y rentabilidad como GNAIDD
+dividido el valor de libros de los activos.
+El modelo estimado es:
+Endeudamiento de la firma = α + β tangibilidad + β valor de mercado a libros + β
+1 2 3
+log. ventas + β rentabilidad + ε
+i 4 i i
+Los valores expresados entre paréntesis son desviaciones estándar.
+Cuadro 20,4. Factores correlacionados con deuda a libro y mercado de capital.
+Los resultados son aproximadamente los esperados. La tangibilidad tiene una alta
+correlación en todos los países, mercado a libros tiene una correlación negativa en
+todos los países. El tamaño es prácticamente correlacionado en todos los países
+menos en Alemania. La rentabilidad es negativamente correlacionada en todos los
+países menos Alemania.
+Un análisis de los hallazgos presentados para países del G-7 sugiere:
+a) Ser muy cuidadoso con las interpretaciones entre países. No siempre se toman muestras de igual
+representatividad, los intereses contables son diferentes y el tratamiento de la inflación también
+puede serlo.
+b) La razón corriente en los distintos países es (cuadro 20.1):
+Estados Unidos Japón Alemania Francia Italia Reino Unido Canadá
+1,44 1,37 1,98 1,35 1,31 1,37 1,44
+4
+
+c) El endeudamiento (cuadro 20,2) medido como pasivo a activos totales se muestra bastante
+errático, con externos a 69 % en Francia y 47 % en el Reino Unido.
+En cambio, si se toman medidas más depuradas que ponen de relieve la política financiera
+propiamente dicha, como deudas financieras a capital, se llega a evoluciones mucho más estables
+con las excepciones de Alemania y Reino Unido que están por debajo y para las cuales RAJAN y
+ZINGALES sugieren una mayor profundidad de análisis.
+d) El análisis del financiamiento externo a través de los flujos de fondos (cuadro 20.3) pone de
+relieve que para países como los Estados Unidos o el Reino Unido la cantidad de financiamiento
+externo es inferior a la del interno. En Japón, consistentemente, se obtienen más fondos externa
+que internamente.
+La evidencia empírica sobre estructuras financieras en países en proceso de industrialización
+En este caso, las anotadas limitaciones de comparaciones, que se hicieron a nivel de países del G-7,
+son frecuentemente más severas. Las muestras son diferentes en representatividad, tamaño y sector que
+utilizan, las diferencias contables son habitualmente más marcadas; las inflaciones y, en términos más
+generales, la inestabilidad monetaria de la economía son aun mucho mayores, a pesar de una notoria
+tendencia al combate contra la inflación en los países de América Latina.
+Tomando en cuenta lo expuesto se exponen algunos casos.
+Para el caso uruguayo, investigaciones realizadas arrojan el siguiente estado de situación patrimonial
+agregado de la industria manufacturera de 200 y más obreros, coticen o no en bolsa, sean multinacionales o
+nacionales.
+Cuadro 20,5. Uruguay-industria manufacturera.
+Balances agrupados (en %), 1991.
+5
+
+Del cuadro 20,5 se desprende que la razón corriente es 1,27 y que el endeudamiento total es 67,4 %
+(pasivo sobre activo). Este indicador pasa a 59 % si se calcula como deudas financieras a activo neto o
+deudas financieras a patrimonio para ser comparable con el citado estudio de RAJAN y ZINGALES.
+Las deudas en moneda extranjera en las deudas totales (en %), luego de haber crecido hasta 1983 (en
+1982 se produce una fuerte depreciación del peso uruguayo), se mantienen estables en torno del 65/66 %,
+cifras que, aunque no presentadas en el cuadro, forman parte del trabajo de base (PASCALE, 1994).
+PRIMER PLANO
+ARGENTINA: ESTRUCTURAS FINANCIERAS
+Para el caso argentino se presentan los resultados de dos estructuras: VALES y GUTIERREZ (1993),
+con información de 48 empresas, y FORNERO y PELLEGRINO (1995) sobre 30 empresas
+seleccionadas entre las que cotizan en la bolsa con activos superiores a 100 millones de dólares; los
+resultados son:
+Cuadro 20,6. Composición de activo y pasivo en Argentina en %
+de valores contables agregados.
+Calculados los ratios de endeudamiento en términos de tres indicadores arrojan los siguientes valores:
+Cuadro 20,7
+Además de los estudios sobre la evidencia empírica en Uruguay y Argentina, puede ser de interés
+exponer algunos puntos salientes de una investigación llevada a cabo por la Corporación Financiera
+Internacional del Banco Mundial a cargo de A. SINGH (1995), que muestra la comparación en términos de
+flujo.
+6
+
+Cuadro 20,8. Países en proceso de industrialización.
+Financiamientos interno y externo (en %).
+Metodológicamente, los datos del estado de SINGH se determinan como:
+− Financiamiento interno del crecimiento
+GDI – dividendos
+Δ activos netos
+Por activos netos se entiende al total de activos menos activos corrientes.
+− Financiamiento externo de largo plazo del crecimiento
+Δ deuda a largo plazo
+Δ activos netos
+− Financiamiento externo de fondos propios del crecimiento
+1. (financiamiento externo deudas a largo plazo - financiamiento interno)
+Al igual que en los países industrializados, las comparaciones entre los datos del país deben ser
+cuidadosas:
+a) Para Argentina y Uruguay, los datos son de diferentes ramas industriales y también de tamaño y
+tienen bases muestrales diferentes. Teniendo en cuenta esos aspectos, pueden ser utilizados con
+fines referenciales en cada país.
+b) En cuanto al análisis de flujos se advierten del mismo las diferencias amplias de políticas
+financieras. Corea, Tailandia y Turquía con bajos financiamientos internos, del 15,8, 14,7 y 13,4 %
+respectivamente y, por el contrario, Pakistán con 67,5 %. El promedio de todos los países fue de
+32 %.
+Para estos países, con respecto al financiamiento externo se tiene que un 41 % de los fondos
+provienen de financiamientos externos propios y un 16 % de externos ajenos.
+c) Aunque sea en términos de flujos, los indicadores vinculados al financiamiento de países en
+proceso de industrialización se muestran mucho más erráticos que los relativos a países del G-7.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cómo evoluciona el endeudamiento ante distintos indicadores.
+2. Cuáles son los factores de correlación con el endeudamiento.
+3. Cuánto representan los financiamientos externo e interno en los países del G-7 y en proceso de
+industrialización.
+7
+
+20,2. DETERMINACIÓN DE LA MEZCLA DE FUENTES DE CORTO Y LARGO PLAZO
+La determinación de la mezcla de deudas de corto y largo plazo, dentro de la estructura financiera, es
+una de las decisiones más importantes en este tema.
+Para tratarlas se ha estimado oportuno efectuar dos aproximaciones:
+a) modelo general de financiamiento de la empresa;
+b) aproximación a través de riesgos y rendimientos.
+Modelo general de financiamiento de la empresa
+Es habitual clasificar, contablemente, a los activos en corrientes y no corrientes. Entre los primeros
+aparecen como típicos los inventarios, las cuentas a cobrar y las disponibilidades. Los activos fijos son un
+ejemplo clásico de la segunda clase.
+Si bien desde el punto de vista contable los inventarios se clasifican como activos corrientes, desde el
+punto de vista financiero se suele distinguir en ellos una parte que es fluctuante y otra que es permanente. En
+esta última porción de los inventarios deben situarse los stocks mínimos.
+Una apreciación similar puede hacerse, por ejemplo, con las disponibilidades. Es difícil que una
+empresa no tenga establecida una caja mínima, esto es, un nivel bajo el cual no descienden sus
+disponibilidades.
+De la misma forma, se podría repasar la situación de los demás activos corrientes, donde se
+percibiría una porción permanente.
+Pero, juntamente con esta proporción permanente que se aprecia en cada uno de los activos
+corrientes, otra parte de los mismos es fluctuante. Ello tiene directa relación con el ciclo de caja de la
+empresa. El proceso de adquisición de materias primas cuando se financia con proveedores, por ejemplo,
+lleva a acrecentar los activos corrientes. Luego, durante el proceso de manufacturación, se agregan a ellos
+otros insumos, tales como mano de obra, gastos, etc.; vuelven, entonces, a crecer los activos corrientes. Es
+probable que la empresa vuelva a recurrir a fuentes de financiamiento ajenas para financiar estas nuevas
+inversiones. Por último, vende los productos y se supone que lo hace a crédito. En esta oportunidad vuelven
+a crecer los activos. Aquí se produce el pico de la inversión del ciclo. Finalmente, con el cobro de las cuentas
+a cobrar y el correspondiente pago de los financiamientos utilizados para solventar el ciclo, los activos
+corrientes decrecen.
+Si bien experimentan un decrecimiento, los mismos se ubican a un nivel superior del que tenían
+cuando se inició el ciclo. Ello se debe, básicamente, al ahorro de la empresa (utilidades retenidas más
+depreciaciones).
+Figura 20,1.
+Los activos fijos, por otra parte, tienen una naturaleza permanente.
+En suma, desde el punto de vista financiero, los activos se pueden clasificar en fluctuantes y
+permanentes.
+8
+
+Entre los primeros están las inversiones en activos corrientes que se derivan del ciclo de producción
+y comercialización de la empresa.
+En los permanentes se suma a los activos no corrientes la posición permanente de los activos
+corrientes.
+Esta distinción de los activos en fluctuantes y permanentes, que se recoge gráficamente, lleva su
+contrapartida en el financiamiento. Así, las fuentes de corto plazo, como loe préstamos que otorgan los
+bancos comerciales o los créditos de los proveedores, se destinan en gran parte al financiamiento de los
+activos corrientes fluctuantes.
+Por el contrario, el financiamiento de los activos permanentes (tanto corrientes cono fijos) debe
+realizarse con fuentes de mediano y largo plazo, dentro de las que se encuentran las fuentes propias (ya sean
+externas o internas), o ajenas (contratadas o espontáneas).
+En la práctica, en ciertos casos, no resulta sencilla la distinción conceptual que se efectúa. No
+obstante, reviste una importancia capital en la administración financiera de la empresa. Su desconocimiento
+o la imposibilidad de ser consecuente con el mismo, ya sea por razones internas o externas a la empresa,
+pueden acarrear consecuencias y, a menudo, plantean cuadros de muy difícil solución.
+Esta es la primera respuesta a la pregunta sobre qué proporción de fondos de corto y largo plazo
+aportar al financiamiento de los activos de la empresa.
+Es útil efectuar algunas consideraciones adicionales sobre el tema:
+− De la misma forma que existen activos corrientes permanentes pueden existir pasivos
+corrientes que tengan cierta naturaleza permanente. En este sentido, puede concebirse que
+una parte del crédito de proveedores sea permanente.
+− Cuando una empresa financia parte de sus activos fluctuantes con fuentes de largo plazo se
+producen excesos de fondos en ciertos períodos, que debe buscar invertir (ver fig. 20,2).
+Por el contrario, si se presenta el caso que una parte de los activos permanentes se financia con
+fondos de corto plazo, se observará que las fuentes de corto plazo se deberán transformar en financiamientos
+permanentes. Esto es claro cuando existen renovaciones permanentes de las deudas bancarias de corto plazo,
+transformándose de hecho, en mediano plazo.
+− Esta circunstancia no debe confundirse con el hecho de que la empresa tiene o puede tener
+varios ciclos superpuestos, en cuyo caso sería difícil que apareciera sin fuentes de corto
+plazo. Esto es particularmente notorio en empresas que no presentan una marcada
+estacionalidad en su producción y ventas. Gráficamente puede observarse en la fig. 20.3
+Figura 20,2. Figura 20,3.
+Introduciendo riesgos y rendimientos
+La aproximación expuesta del modelo general de financiamiento de la empresa es una respuesta a la
+decisión de mezcla de fuentes de corto y largo plazo.
+Sin embargo, ella no es más que una determinada postura frente a un determinado riesgo y
+rendimiento.
+9
+
+Es bien conocido que las fuentes de corto plazo suelen tener un menor costo que las de mediano y
+largo plazo.
+En este sentido, un empresario, aun conociendo el modelo general de financiamiento de la empresa,
+puede decidir financiar parte de los activos permanentes con fondos de corto plazo. En este caso, tendrá un
+mayor rendimiento esperado, que tiene asociado, a su vez, un mayor riesgo.
+Por el contrario, un empresario averso al riesgo, en una actitud conservadora, puede llegara financiar
+con fondos de largo plazo los activos corrientes fluctuantes. En ese caso, tendrá menor riesgo, pero el
+rendimiento esperado será también menor.
+Según la actitud ante el riesgo y su correspondencia en los rendimientos, el empresario puede optar
+por decisiones que no son las propuestas por el modelo general de financiamiento de la empresa.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué son un activo permanente y un activo fluctuante.
+2. Qué tipos de activos corrientes hay.
+3. Qué establece el modelo general de financiamiento de la empresa.
+20,3. LOS LÍMITES DEL ENDEUDAMIENTO DE LA EMPRESA
+Los límites del endeudamiento de la empresa se abordarán al estudiar el análisis de ganancias y los
+flujos de caja.
+Análisis de ganancias antes de impuestos e intereses, y ganancias por acción
+Para ejemplificar, se supone que se debe financiar la expansión de una planta, que alcanza a
+$1.000.000.
+Este monto se puede financiar como:
+a) acciones, cuya cotización es de $ 20 cada una, lo que demandaría 50.000 acciones;
+b) deuda, con un costo del 10 % anual.
+En la actualidad existen 450.000 acciones integradas. Por razones de simplicidad se asume que no
+existe deuda antes de efectuar esta nueva inversión.
+El estado de resultados proyectado para el ejercicio luego de efectuar la citada inversión sería:
+El cuadro muestra que, para un nivel de $ 700.000 de ganancia antes de impuestos e intereses
+esperada, la opción de financiar con acciones reporta mayor ganancia por acción ($ 0,98), en tanto que si se
+opta por financiar con deudas se llega a una ganancia por acción de $ 0,93.
+En este tipo de análisis suele ser interesante graficar la evolución de las ganancias por acción como
+una función de la ganancia antes de impuestos y de intereses.
+En el caso de financiar con acciones la ecuación sería:
+10
+
+GAII (1 - t)
+GPA = –––––––––––
+N
+c
+Donde:
+GAII: ganancia antes de impuestos e intereses;
+GPA: ganancia por acción;
+t: tasa de imposición a las rentas (en tanto por uno);
+N : número de acciones luego de la emisión.
+c
+En este caso sería:
+GAII (1 – 0,3)
+GPA = ––––––––––
+500.000
+Para la situación de financiar con deudas, la ecuación sería:
+(GAII – I) (1 – t)
+GPA = ––––––––––––
+N
+D
+Donde:
+I: monto de intereses del período;
+N : número de acciones suponiendo deuda.
+D
+Siguiendo el ejemplo, la GPA sería:
+(GAII – 100.000) (1 – 0,3)
+GPA = –––––––––––––––––––––––––
+450.000
+Gráficamente la situación sería la siguiente:
+Figura 20,4.
+El punto de equilibrio, es decir, aquel nivel de ganancias antes de impuestos e intereses que hace
+indiferente financiar la expansión con deudas o con acciones, surge al igualar:
+11
+
+GAII (1 - t) (GAII - I) (1 - t)
+N N
+c D
+De donde se llega a que la GAII de equilibrio se expresa como:
+N . I. (1 – t) N . I
+c c
+GAII = –––––––––––––– = –––––––
+(N - N ) (1 – t) N - N
+c D c D
+y aplicada al caso visto sería:
+GAII = 1.000.000, que iguala las ganancias por acción.
+En el cuadro que continúa se aprecia la evolución de las ganancias por acción ante tres opciones de
+financiamiento: sólo acción, sólo deuda y 50 % acciones con 50 % deuda. En cada una de ellas, a su vez, se
+exponen tres niveles de comportamiento de las ganancias antes de impuestos y de intereses.
+Cuando la ganancia antes de impuestos e intereses supera $ 1.000.000, resulta más conveniente
+aumentar el nivel de endeudamiento. En tanto, por debajo del monto señalado, los mayores beneficios se
+obtienen cuanto mayor es la proporción de fondos propios.
+Los análisis de este tipo permiten visualizar el impacto que distintos planes de financiamiento tienen
+sobre las GPA. Desde el momento que las GAII son inciertas se hace más importante, para efectuar la
+decisión, tener una idea de la variabilidad de los resultados.
+En ciertos casos, puede ser de interés llegar a determinar la influencia de políticas alternativas de
+financiamiento en las ganancias por acción no comprometidas (GPANC), en lugar de las ganancias por
+acción. En estas situaciones, la GPANC es la que se obtiene luego de deducir la amortización de la deuda.
+La ecuación para el financiamiento con acciones quedaría:
+GAII (1 – t)
+GPANC = –––––––––––––
+N
+c
+En el caso del financiamiento con deuda sería:
+(GAII – I) (1 – t) -D
+GPANC = ––––––––––––––––––
+N
+D
+Donde:
+D: monto de la amortización de deuda del periodo.
+Si se agrega al estado de resultados el monto de la amortización se llega a:
+12
+
+En el caso planteado las ganancias no comprometidas por acción son $ 0,98 para la situación de
+financiar con acciones y $ 0,156 si se financia con deudas.
+En este caso la gráfica efectuada queda como sigue:
+Figura 20,5.
+El punto de equilibrio, en este caso, se producirá cuando:
+(GAII - I) (1 - t) – D GAII (1 - t)
+–––––––––––––––– = ––––––––––––
+N N
+D c
+Y se llega a que la GAII en equilibrio sería:
+N I (1 – t) - N D
+C C
+GAII = ––––––––––––––––––
+(N -N ) (1 – t)
+C D
+En el ejemplo planteado la ganancia de equilibrio resulta ser de $6.000.000, que iguala la GPA en
+$8,4.
+500.000 × 100.000 (1 - 0,3) × 500.000 × 350.000
+GAII = ––––––––––––––––––––––––––––––––––––––––– = 6.000.000
+(500.000 - 450.000) (1 - 0,3)
+Los flujos de caja y la carga de la deuda
+Otra forma de enfocar el punto que se viene analizando es a través de la evaluación de las
+posibilidades de repago de las deudas, analizando los flujos de caja. Este análisis se efectuará a través de dos
+tipos de instrumentos que son:
+a) los ratios de cobertura;
+b) los flujos de caja propiamente dichos.
+13
+
+Ratios de cobertura
+Distintos ratios se han desarrollado y utilizado para tratar de evaluar la cobertura que tiene una
+empresa de los compromisos derivados de su endeudamiento.
+Ellos son básicamente:
+GAII
+I
+[1]
+Donde GAII es la ganancia antes de impuestos y de interés, e I es el monto de intereses, ambos,
+naturalmente, correspondientes al mismo período.
+El segundo ratio comúnmente utilizado es:
+GAII
+I + P
+(1 – t)
+Donde se agrega P, que es el pago del principal. Como se observa se divide entre (1 - t) donde t es la
+tasa de impuesto a la renta. Dado que las ganancias son antes de impuesto se efectúa esta corrección para
+homogeneizar los términos de la comparación.
+Esto es, con un impuesto a la renta del 50 % y con una ganancia después de impuestos de $ 200.000,
+se necesitarán $ 400.000 antes de impuestos para atender el pago de una amortización de una deuda por $
+200.000.
+Un tercer ratio, conocido habitualmente como cobertura del servicio de deuda, sería:
+GN + I + D
+I + P
+Donde GN es el monto de la ganancia neta después de impuestos y de intereses y D es el monto de
+las depreciaciones.
+A efectos de visualizar el cálculo de estos ratios se plantea el siguiente ejemplo. Se supone el
+siguiente estado de resultados de una firma y que la misma debe hacer frente a la amortización de un
+préstamo por $ 350.000.
+El cálculo del primer ratio planteado sería, pues:
+GAII = 1.200.000 = 6
+I 200.000
+Entonces, la GAII representa 6 veces el monto de intereses pagos.
+El segundo de ellos:
+14
+
+1.200.000
+GAII = =1,7
+P 350.000
+1+ (1−t) 200.000 +
+(1−0,3)
+En términos homogeneizados, la GAII alcanza 1,7 veces para pagar los intereses y la amortización
+del préstamo.
+El tercer ratio planteado se expresaba como:
+GN+I+D 700.000+200.000+100.000
+= =1,8
+I +P 200.000+350.000
+Y éste incluye las depreciaciones a efectos del cálculo de la cobertura.
+Estos ratios merecen algunos comentarios:
+a) No miden en realidad la liquidez, esto es, la disponibilidad para hacer frente a un servicio de
+deuda, desde el momento en que es bien conocido que ante cambios en las variables de stocks,
+como los inventarios, cuentas a cobrar, etc., el flujo de fondos disponible para hacer frente al
+servicio de la deuda puede ser bien diferente del expuesto en los ratios.
+El último de los ratios considerados busca en su numerador acercarse más a una base caja.
+b) En el denominador de los ratios deben incluirse, toda vez que corresponda, los pagos por concepto
+de leasing así como dividendos preferidos.
+e) Las ganancias no son una variable que pueda considerarse en condiciones de certidumbre, por lo
+tanto, siempre que el análisis se enriquezca tomando en consideración la función de probabilidad
+de la ganancia será más útil el resultado obtenido que, a su vez, será función de probabilidad del
+ratio.
+En algunas oportunidades, no sólo las ganancias son una variable aleatoria. Según el tipo de
+préstamo, también lo puede ser el principal.
+d) Por lo tanto, los resultados que aporta el cálculo de estos ratios deben considerarse una
+aproximación preliminar a la capacidad de repago de deudas.
+Su utilidad crece en la medida en que el análisis sea a más largo plazo.
+Los flujos de caja
+Se han visto los ratios de cobertura como instrumentos para ayudar en la toma de decisiones
+vinculada a la estructura financiera y, más precisamente, en este caso, a los niveles de endeudamiento de una
+empresa.
+En esta sección se verá la aplicación del análisis de los flujos de fondo a la decisión de
+endeudamiento, que se basan en los aportes del prof. G. DONALDSON (1971).
+La capacidad de endeudamiento de la empresa viene dada, en definitiva, por aquel nivel de deuda
+que la empresa debe tener, conforme a los objetivos que los propietarios les asignan a sus inversiones. En
+este caso, el riesgo de colapso financiero, así como la inflexibilidad financiera juegan un rol decisivo para
+una estrategia operativa.
+El flujo de fondos debe arrojar datos sobre algunos aspectos básicos como:
+a) Analizar la situación de la empresa, evaluando las probabilidades de colapso y/o serias
+dificultades financieras que, incluso, pueden llevarla a la bancarrota.
+En este sentido, es importante estudiar si los flujos de fondos soportan un determinado nivel de
+endeudamiento en condiciones adversas.
+Entre las condiciones adversas típicas se encuentran los períodos recesivos. En el ejemplo que se
+ve más adelante, se supone una recesión y se analiza la posibilidad de una empresa de soportar
+ciertos niveles de endeudamiento ante una eventualidad de este tipo.
+Se quiere señalar que cuando se hace referencia a condiciones adversas no es solamente a la
+situación de recesión. Los acontecimientos implícitos de tipo político, económico o tecnológico
+15
+
+dan campo bien amplio a los flujos de fondos, para mostrar la capacidad de la empresa de hacer
+frente a las contingencias.
+b) Sin perjuicio de que el flujo de fondos puede dar alguna luz sobre la flexibilidad financiera que
+permita formular estrategias operativas, de carácter industrial o comercial, no debe olvidarse que
+la estructura financiera debe adaptarse a lo que la estrategia operativa marque y no a la inversa.
+Esto es, la empresa no debería decidir su estructura financiera por elementos que sólo tienen que
+ver con el lado derecho del balance. Por el contrario, si bien el componente financiero por sí no
+sólo tiene gran importancia, sino que también tiene posibilidades en forma autónoma de ser una
+fuente para cumplir con los objetivos de los accionistas, no debe perderse de vista que, en su
+conjunto, la estructura financiera debe estar diseñada para servir a las estrategias comerciales o
+industriales de la firma.
+Seguidamente, se presenta un ejemplo que reúne una aplicación del flujo de fondos para el análisis
+de la capacidad de endeudamiento de la firma.
+• Ejemplo
+Se verá un ejemplo para ilustrar el comportamiento del flujo de fondos y su utilización como
+instrumento en la decisión del nivel de endeudamiento.
+Sobre el ejemplo se puede señalar:
+a) Supone un proceso de recesión en el cual las ventas decaen y los márgenes brutos de contribución
+también. El ejemplo se desarrolla en cinco años, recuperando al final del quinto año los niveles del
+comienzo.
+b) La presentación del flujo de caja se hará para tres niveles diferentes de endeudamiento, que son:
+33 %, 50 % y 67 %, medida como un porcentaje de los activos.
+Las deudas serán $ 100, $ 150 y $ 200 respectivamente, y se amortizan en un 10 % en forma anual,
+devengando un interés del 9 % anual sobre los saldos.
+c) El cuadro del flujo de fondos se compone de tres partes bien definidas:
+• Flujo operativo de caja. Surge de deducir a los ingresos los costos operativos sin incluir
+aquellos que no implican egresos financieros.
+• Inversiones de la empresa. Toda empresa para desarrollarse necesita efectuar inversiones, ya
+sea para aumentar la capacidad productiva, mejorar tecnológicamente o cubrir necesidades
+adicionales de capital de trabajo permanente.
+• Flujos derivados del financiamiento. En este caso aparecen los pagos de intereses,
+amortización de deudas, así como pagos de dividendos.
+d) No se consideran, por razones de simplicidad, aspectos impositivos.
+e) Las inversiones en casos de recesión, como es habitual, decrecen.
+16
+
+17
+
+De los cuadros se pueden extraer algunas conclusiones:
+a) En el caso del menor endeudamiento (33 %) solamente en el año de mayor retracción se produce
+un flujo final negativo de caja. Asimismo, obsérvese que si se reducen en el año 3 los dividendos,
+el flujo podría revertirse.
+b) En la situación de un 50 % de endeudamiento aparecen dos años de saldos negativos, en uno de
+ellos, el tercero, deberían reducirse drásticamente los dividendos a efectos de que no apareciera un
+saldo negativo.
+c) En el caso del 67 % de endeudamiento, todos los años son negativos, e incluso, en alguno de ellos,
+ni eliminando los dividendos se nivelaría la situación.
+En este caso, si una recesión como la del año 3 se extendiera por un período más amplio, la empresa
+mostraría una acumulación de problemas financieros.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Sobre qué basa el modelo de G. DONALDSON los límites del endeudamiento de la empresa.
+20,4. MODELO DE CRECIMIENTO AUTOSOSTENIDO DE HIGGINS
+Vinculados a la política de endeudamiento de la empresa y con las tasas de crecimiento de las
+mismas se han desarrollado modelos que buscan medir el ritmo de crecimiento de las empresas, de forma tal
+que éste sea financiado sin violentar relaciones de deudas a fondos propios que la empresa ha definido como
+la política más adecuada para contribuir a maximizar el valor.
+Normalmente, los modelos toman, como variable para medir el crecimiento de las empresas a las
+ventas. Uno de los modelos más conocidos es el expuesto por el prof. ROBERT C. HIGGINS.
+El modelo busca determinar cuál es la tasa de crecimiento de las ventas, dados una tasa de margen
+sobre ventas, un ratio de determinación de utilidades, una relación deseada de endeudamiento y una rotación
+de activos.
+La secuencia para llegar a la proposición del modelo es la siguiente:
+1. Ganancia neta = margen s/ventas x ventas próximo año:
+GN = m . s (1 + g)
+GN: ganancia neta;
+m: margen sobre ventas;
+s: ventas del año presente;
+g: tasa de crecimiento de las ventas.
+Ello aporta el primer elemento, esto es, la ganancia neta.
+2. Adiciones de utilidades retenidas = GN × ratio de retención de utilidades:
+Adiciones U. R. = m . s (1 + g) (1 - b)
+U. R.: utilidades retenidas;
+b: tasa de distribución de utilidades.
+El segundo paso muestra qué financiamiento interno se va a tener.
+3. Se mantiene el ratio de endeudamiento: D/E:
+18
+
+D: deudas;
+E: fondos propios.
+En esta etapa, dado un determinado financiamiento interno se pasa a cuál es el financiamiento con
+deudas al que se puede llegar.
+Endeudamiento adicional = adiciones de U.R. . D/E
+= m . s (1 + g) (1 - b) . D/E
+4. Suponiendo una tasa de rotación de activos constante (S/A), los requerimientos adicionales de
+ventas gS serán iguales a gA:
+Adición de activos = adición U. R. + adición D
+E+D A
+dado que: 1 + D/E = =
+E E
+M(1−b)A/E
+g* =
+A/S−m(1−b)A/E
+[2]
+La ecuación [2] muestra la expresión final del modelo de HIGGINS.
+Cabe señalar que si existen, por ejemplo, aportes de capital además de las utilidades retenidas,
+incluyéndolos a partir del paso 3, se puede llegar a un nuevo modelo donde, manteniendo constantes los
+demás parámetros, se aumentará la tasa de crecimiento de las ventas.
+• Ejemplo
+Suponiendo:
+m = 4% b = 40% D/E = 0,5 S/A = 3
+0,04(1−0,4)1,5
+g* = =12,1%
+1/3−0,04(1−0,4)1,5
+de donde la tasa de crecimiento de las ventas, que sea autosostenida, es del 12,1 % en el próximo año
+(suponiendo que la venta sea anual).
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE.
+1. Objetivo de los modelos de crecimiento autosostenido.
+2. Principales parámetros que manejan.
+REFERENCIAS SELECCIONADAS
+Para los límites del endeudamiento de la empresa:
+• DONALDSON, GORDON, Corporate debt capacity, 1971.
+Para modelo de crecimiento:
+• HIGGINS, ROBERT, Analysis for financial decisions, 1992.
+19
+
+Para evidencia empírica de estructuras financieras:
+• PASCALE, RICARDO, Finanzas de las empresas uruguayas, Banco Central del Uruguay, 1994.
+• FORNERO, R. Y PELLEGRINO, A., “Endeudamiento de las empresas: existen diferencias
+sistemáticas entre países”, Ejecutivos de Finanzas, 1996.
+• VALES, R. y GUTIERREZ, “La estructura de financiamiento y la comparación de los activos de las
+empresas”, Ejecutivos de Finanzas, 1993.
+• RAJAN, R. Y ZINGALES, L., “What do we know about capital? Some evidence from international
+data”, Journal of Finance, diciembre de 1995.
+20

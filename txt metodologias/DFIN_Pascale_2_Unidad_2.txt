@@ -1,0 +1,861 @@
+Decisiones Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 18
+EL LEVERAGE Y SUS EFECTOS
+OBJETIVOS DE APRENDIZAJE
+(cid:1) Estudiar, en general, conceptuar y determinar el punto de equilibrio de la empresa en el campo de la
+administración.
+(cid:1) Comprender la vinculación entre el endeudamiento y el rendimiento sobre los fondos propios.
+(cid:1) Examinar y determinar el leverage operativo, financiero y combinado.
+(cid:1) Conceptuar el efecto leverage en general,
+18,1. PUNTO DE EQUILIBRIO
+Cada artículo que se vende aporta a la empresa lo que se ha denominado "margen de contribución",
+que surge como diferencia entre el costo variable de, venta y el precio de venta.
+Este margen de contribución va absorbiendo una parte de costos fijos. En un momento determinado,
+por la venta de una cierta cantidad de productos, la suma de los márgenes de contribución que han dejado
+estos productos llega a absorber todos los costos fijos. Es, entonces, cuando la empresa alcanza el punto de
+equilibrio.
+Se puede definir el punto de equilibrio como aquel en el cual los ingresos provenientes de un
+determinado volumen de ventas igualan al total de costos.
+También se lo puede considerar como el punto en el que la empresa ni gana ni pierde. Si vende más
+de ese volumen de ventas que la hace estar en equilibrio, entonces la empresa está obteniendo beneficios en
+su explotación; en cambio, si vende por debajo del punto de equilibrio, se llega a la conclusión de que el giro
+de la empresa no es económicamente rentable y debe realizar una revisión de sus políticas y procedimientos
+para que no se produzcan pérdidas.
+Dado que en el desarrollo del capítulo se hará referencia a una serie de símbolos, es importante
+resumirlos antes de comenzar a hacer uso intensivo de ellos, para que el lector vea facilitada su tarea:
+CT :costos totales.
+CP :costos fijos de producción + los de administración + los de distribución.
+CV :costos variables totales de producción + los de administración + los de distribución.
+cv :costos variables unitarios de producción + los de administración + los de
+distribución.
+p :precio de venta.
+V :venta total en valores.
+Pe =Ve :punto de equilibrio en unidades monetarias.
+Pe = Qe :punto de equilibrio en unidades físicas.
+MC=V=CV :margen de contribución de un volumen dado de ventas.
+mc = p = cv :unidad marginal unitaria (valor absoluto).
+rc = (p - cv) = p : razón de contribución (relativa).
+R :resultado (ganancia o pérdida).
+Q :cantidad total vendida.
+rcv = cv = P :razón de costos variables.
+El punto de equilibrio en empresas que comercializan un solo producto
+El análisis de la determinación del punto de equilibrio en empresas que comercializan un solo producto se
+hará en unidades físicas de ventas y en pesos de ventas.
+a) En unidades
+2
+
+Algebraicamente, la relación que se establece desde el punto de vista conceptual es: el total de ventas
+en el punto de equilibrio es igual que el conjunto de costos variables de estas ventas más los costos fijos de la
+empresa.
+Es decir:
+Qp = cvQ + CF
+Q (p – cv) – CF = 0
+Q (p-cv) = CF
+CF
+Q = –––––––––
+(p – cv)
+Por lo tanto:
+CF
+Qe = ––––– [1]
+mc
+La determinación del punto de equilibrio en unidades se obtendrá dividiendo los costos fijos por el
+margen de contribución unitario (que es igual al precio de venta menos los costos variables unitarios).
+Cuando la empresa vende por encima de ese punto de equilibrio, cada unidad adicional vendida va a
+ir dejando una utilidad.
+La ganancia sería:
+Unidad = pQ - CF - cvQ
+Si la empresa está operando por debajo del punto de equilibrio está produciendo pérdidas que se
+pueden cuantificar así:
+Pérdida = CF + cvQ - pQ
+Se ve ahora la representación gráfica del punto de equilibrio, mostrando en la fig. 18,1 la de costo; en
+la fig. 18,2 la de los ingresos y en la fig. 18.3, la determinación del punto de nivelación.
+Figura 18, 1. Figura 18,2, Figura 18..3,
+3
+
+b) En pesos de ventas
+Las ecuaciones de ingresos y egresos, dado un volumen de venta medio en unidades monetarias X,
+serían:
+y (cid:2) X
+CV
+CT (cid:2) X (cid:1) CF
+p
+donde el punto de equilibrio se expresaría como:
+CF
+X (cid:1) [2]
+CV
+1 -
+P
+La determinación del punto de equilibrio en unidades monetarias se obtendrá dividiendo los costos
+fijos por la razón de contribución.
+El punto de equilibrio en empresas que comercializan varios productos
+Se propone el análisis del punto de equilibrio de una empresa cuando ella comercializa varios
+productos que es, en la realidad, el caso más común.
+En algunas empresas que venden varios artículos se podrían dividir sus costos fijos totales entre los
+diferentes productos y así construir puntos de equilibrio parciales para cada producto.
+Supóngase una empresa que comercializa tres productos A, B y C cuyos gráficos de equilibrio son
+los siguientes:
+Figura 18,4. Figura 18,5. Figura 18,6,
+Producto A. Producto B. Producto C,
+El producto que más rápidamente alcanza el equilibrio es B mientras que C trabaja siempre a
+pérdida.
+Como se puede apreciar, resulta a menudo muy provechoso para los ejecutivos saber los puntos de
+equilibrio parciales de cada producto, para incrementar la producción de unos e, incluso, eliminar la de otros.
+A la mayoría de los ejecutivos les interesa conocer el punto de equilibrio general de la empresa.
+A primera vista parece que el punto de equilibrio general de la empresa es la suma de los puntos de
+equilibrio parciales de cada producto. Pero, ¿cuán cierto es? ¿siempre se da o puede ser que no suceda
+nunca?
+A este respecto resulta muy ilustrativo lo que expresa la N.A.C.A. en The analysis of cost volumen
+profit relationship. Allí establece que la suma de los puntos de equilibrio no es igual al punto de equilibrio
+global, a menos que la cifra de ventas para cada producto o línea de productos guarde la misma relación
+4
+
+porcentual con respecto al total de ventas que el punto de equilibrio parcial guarda con el punto de equilibrio
+global para la empresa".
+La ecuación es:
+CV
+y (cid:1) X (cid:2) CF
+p
+y (cid:1) p.X
+y (cid:1) X
+Donde CF no tiene ningún inconveniente, pero cv + p sí lo tiene y se obtiene ponderando las razones
+de costos variables para cada producto; de acuerdo con las ventas que se estima que tendrá cada uno en el
+período venidero. La suma de esas ponderaciones es igual que la razón de costos variables promedio de
+todos los productos teniendo en cuenta una determinada composición de las ventas.
+La ecuación de los ingresos es igual, no presenta modificaciones.
+Se sobreentiende que la única forma de obtener este gráfico es en unidades monetarias.
+Esta es la forma de determinación del punto de equilibrio en una empresa que comercializa varios
+productos. Se estima, entonces, cuál va a ser la composición total de las ventas y sobre la base de ello se
+pondera el coeficiente angular de la recta de costos.
+La razón de esta ponderación queda clara. Por cada peso de venta de la empresa, en promedio,
+¿cuántos costos variables se incurren? En promedio y manteniendo una determinada proporción, estos costos
+variables están determinados por su ponderación.
+Se tiene una limitación evidente en la determinación del punto de equilibrio global para la empresa,
+porque es instantánea.
+A esto se le ha respondido que se pueden hacer varias combinaciones de productos y ver luego cuál
+se ha acercado más o cuál se va acercando más, para ir controlando la gestión empresarial.
+Supuestos y críticas del análisis del punto de equilibrio
+Evidentemente, el análisis del punto de equilibrio puede resultar un instrumento de importancia para
+ser considerado en la toma de decisiones. Sin embargo, se estima conveniente hacer un análisis crítico de sus
+supuestos y limitaciones para que, con el conocimiento de ellos, se pueda hacer un uso adecuado y utilizarlos
+como herramienta segura.
+Entre los supuestos sobre los que se basa el análisis del punto de equilibrio están los siguientes:
+- constancia en los precios de- venta;
+- constancia en el costo de los factores productivos;
+- constancia en la eficiencia de los factores productivos;
+- constancia en el volumen de los costos fijos;
+- constancia en la composición de las ventas totales cuando se comercializa más de un producto.
+De estos supuestos se desprende una serie de críticas, que a continuación se detallan; entre las más
+importantes están:
+1. La curva de los costos totales no debería ser representada por una recta. La curva de los costos totales no
+es lineal sino que, por el contrario, tiene una inflexión cuando empiezan a operar los factores a menor
+productividad.
+Los autores estudiosos del tema no se han quedado callados ante esta crítica y señalan que, sí se conoce
+la variación exacta de los costos totales, ellos se pueden también representar fielmente.
+El análisis del punto de equilibrio no depende de la suposición de que los costos totales son lineales sino
+de la habilidad del analista para estimar los costos a diferentes niveles de venta.
+2. Por otra parte, la curva de los ingresos tampoco puede ser representada por una recta. Graficarlos así
+implica que se está operando en un mercado de competencia perfecta ya que el precio de cualquier
+cantidad de productos que vayan al mercado es el mismo.
+5
+
+De más está decir que está lejos de la realidad suponer un mercado de competencia perfecta y más difícil
+aun en países como los nuestros.
+3. ¿Cuál es la evolución de las curvas de costos y de ingresos en realidad? Sería la siguiente:
+Figura 18,7
+De acuerdo con lo expuesto, los costos totales se representan así porque en un determinado momento
+empiezan a operar los rendimientos decrecientes. Y si los ingresos totales tienen esa evolución es porque
+se produce una saturación del mercado.
+Si se supone que se representa en el eje de las x el porcentaje de capacidad de producción utilizada, la
+empresa va a tener dos puntos de equilibrio, uno al 60 % y el otro al 100 % de la capacidad de
+producción.
+Y si la empresa debe operar entre estos dos márgenes, el punto en que más le conviene situarse es aquel
+en que la distancia entre los costos totales y los ingresos totales sea mayor,
+4. Cuando una empresa opera con varios productos no se puede representar e1 eje de las x unidades. Ya fue
+analizada esta crítica y se apreció que en estos casos no queda otra alternativa que representar el eje de
+las x en unidades monetarias.
+5. Cuando una empresa comercializa varios productos con diferentes márgenes de utilidad tendrá el análisis
+del punto de equilibrio un valor relativo.
+Sin embargo, una serie de gráficos del punto de equilibrio puede mostrar el resultado de la venta de
+diferentes combinaciones de productos.
+6. En términos generales, puede decirse que el análisis del punto de equilibrio es esencialmente estático,
+instantáneo y que deja de lado todo lo que pueda ser un análisis dinámico.
+7. También se expresa a menudo que los objetivos perseguidos por los gráficos del punto de equilibrio
+pueden lograrse mediante tabulaciones e informes.
+Evidentemente es correcta esta observación, pero el análisis gráfico del punto de equilibrio tiene la
+ventaja de ofrecer un cuadro de alternativas a todos los niveles de operación.
+6
+
+8. Esta crítica tiene relación con el sistema de costos utilizado. El análisis del punto de equilibrio supone,
+tácitamente, que sólo las ventas pueden afectar a los ingresos. Esto es válido si se usa costeo directo,
+pero si se usa el costeo tradicional las entradas estarán también influidas por las fluctuaciones del
+inventario, puesto que la absorción de los costos fijos dependerá del volumen de producción y no de las
+ventas.
+Ante esta afirmación se hace el siguiente comentario: cuando el análisis del punto de equilibrio se usa
+con fines de planeamiento, se puede partir de la base de que el inventario de productos terminados no va
+a cambiar. Sí se usa para controlar utilidades y no se emplea el costeo directo, entonces las fluctuaciones
+en los inventarios influirán en las entradas reales.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Concepto y cálculo del punto de equilibrio cuando se comercializan varios productos.
+18,2. LEVERAGE OPERATIVO
+El análisis del punto de equilibrio dio una primera visión de las relaciones entre la estructura de
+costos y los ingresos de la empresa. Sin embargo, para responder a preguntas tales como: ¿cuál sería la
+evolución de los resultados, si cambiaran las ventas?, se deben efectuar cálculos adicionales no previstos
+directamente por esta técnica.
+En ese sentido, el leverage operativo es un indicador que muestra cómo evolucionan las
+ganancias antes de impuestos y de intereses ante los cambios en las ventas.
+Es conveniente observar que solamente ingresan en el análisis las ventas y los costos fijos y
+variables. No se incluyen los intereses e impuesto a la renta.
+El enfoque del leverage parte de la idea central de que los resultados finales de una empresa se dan
+en función de dos grandes variables, las cuales son:
+a) La estructura de costos, es decir, para efectuar una misma producción pueden buscarse distintas
+combinaciones de costos fijos y variables. Una empresa muy automatizada tendrá probablemente un
+mayor componente de costos fijos que otra del mismo ramo y escala de producción, donde el factor
+trabajo sea preponderante.
+b) La estructura financiera, esto es ¿cuál es la estrategia de financiamiento que la empresa adoptó? ¿cuál es
+la proporción de deudas a fondos propios?
+Dos empresas, del mismo ramo y similar tamaño, pueden tener idénticas estructuras de costos
+operativos fijos y variables y, sin embargo, una tiene un ratio de deudas a activos totales de 0,8, en tanto que
+la otra lo tiene de 0,5.
+En suma, este modelo distingue dos estructuras (de costos y financiera), lo que da lugar al cálculo
+de dos indicadores para cuantificar sus efectos. La estructura de costos da lugar al leverage operativo. La
+estructura financiera al leverage financiero.
+Asimismo, cabe señalar que se suelen distinguir dos tipos de riesgos en las empresas, los cuales son:
+a) riesgo del negocio;
+b) riesgo financiero.
+El riesgo del negocio tiene que ver con la variabilidad que tienen las ganancias antes de impuestos y
+de intereses. Esta se mide a través de la desviación típica de la función de probabilidad de las ganancias
+antes de impuestos y de intereses.
+En el riesgo del negocio influyen diversos factores: la rama industrial en la que está situada la
+empresa, la demanda del producto, la competencia, la estructura de activos de la empresa, y el leverage
+operativo. Es importante considerar que el leverage operativo es uno de los elementos que influyen en el
+riesgo del negocio. Más adelante se volverá a tratar sobre el riesgo financiero.
+El cálculo del leverage operativo se efectúa a través del siguiente cociente:
+7
+
+Variación de la GAII
+L.O. (cid:1)
+Variación de las ventas
+Si se designa:
+Q :ventas en unidades;
+p :precio unitario del artículo;
+cv :costo variable unitario del artículo;
+CF: :costos fijos del período.
+Los costos fijos y las unidades de ventas deben referirse al mismo período.
+La determinación de cada uno de los elementos es la siguiente:
+Incremento de las ganancias por las ventas adicionales
+Variación de la GAII (cid:1)
+Ganancias antesdelaumentodeventas
+(cid:1) (cid:2)
+(cid:2)Q p-cv
+Variación de la GAII(cid:3) (cid:1) (cid:2)
+Q p-cv (cid:1)CF
+Por otra parte:
+Incremento de ventas
+Variación en las ventas (cid:1)
+Ventas antes del aumento
+(cid:1)Q
+Variación de las ventas (cid:2)
+Q
+El leverage operativo queda en:
+(cid:1) (cid:2)
+Q (cid:4) (cid:1)Q p - cv
+(cid:1) (cid:2) (cid:1) (cid:2)
+Q p - cv (cid:2) CF (cid:1)Q p - cv Q
+L.O. (cid:3) (cid:1)Q (cid:3) Q (cid:1) p - cv (cid:2) (cid:2) CF x (cid:1)Q
+Q
+De donde el leverage operativo es:
+(cid:1) (cid:2)
+Q p - cv
+L.O. (cid:2) (cid:1) (cid:2) [3]
+Q p - cv (cid:1) CF
+Ejemplo
+Si se designa a:
+Q :1 .000 unidades;
+p :20;
+cv :15;
+CF: :1.700.
+8
+
+(cid:1) (cid:2)
+1.000 20 - 15
+L.O. (cid:2) (cid:1) (cid:2) (cid:2) 1,51515
+1.000 20 - 15 - 1.700
+¿Qué significado puede tener un L. O. de 1,515? Este indicador, en el ejemplo, se puede interpretar
+en el sentido de que un crecimiento de las ventas del 100 % trae aparejado un aumento de las GAII del 151,5
+%, que un aumento del 20 % de las ventas tiene un incremento del 30,30 % en las GAII o que un descenso en
+las ventas del 10 % trae una baja en las GAII del 15,15%
+Este indicador puede ser de utilidad por la sencillez de su cálculo, que unido a la información que
+reporta, lo hacen una herramienta útil. Sin embargo, es importante efectuar algunas consideraciones
+adicionales a efectos de su mejor interpretación y uso:
+a) El L. O. calculado es válido para un nivel de ventas establecido. En el ejemplo anterior, cuando las ventas
+son 1.000 unidades, el L. O. es 1,515.
+Si en cambio las ventas son 2.000 unidades, tenemos un L. O. de 1,205.
+(cid:1) (cid:2)
+2.000 20 - 15
+L.O. (cid:2) (cid:1) (cid:2) (cid:2) 1,205
+2.000 20-15 (cid:3) 1.700
+Se llega, entonces, a un leverage operativo diferente, en este caso, menor.
+En efecto, cuanto más se aleja del punto de equilibrio antes de impuestos y de intereses, que en este
+caso es:
+1.700
+(cid:1) 340 unidades
+20(cid:2)15
+menor será, obviamente, el L. O.
+Si, por el contrario, calculamos el L. O. para 400 unidades éste crece llegando a:
+(cid:1) (cid:2)
+400 20-15
+(cid:1) (cid:2) (cid:2) 6,667
+400 20-15 (cid:3)1.700
+para 10.000 unidades sería:
+(cid:1) (cid:2)
+10.000 20-15
+(cid:1) (cid:2) (cid:1) 1,035
+10.000 20-15 (cid:2)1.700
+Ello es, incluso, intuitivamente evidente, en la medida en que las ganancias actuales se consideran en
+la base de comparación.
+El fenómeno expuesto puede representarse gráficamente en la siguiente forma:
+9
+
+Figura 18,8.
+b) Una segunda consideración tiene relación con la estructura de costos.
+En el ejemplo anterior ella era:
+Costos variables (1.000 x 15) 15.000
+Costos fijos 1.700
+Costos totales 16.700
+Con esa configuración se llegaba a un L. O. = 1,515
+Si la estructura hubiera sido otra, por ejemplo:
+Costos variables (1.000 x 13) 13.000
+Costos fijos 3.700
+Costos totales 16.700
+(cid:1) (cid:2)
+1.000 20-13
+L.O.(cid:2)
+(cid:1) (cid:2)
+(cid:2)2,121
+1.000 20-13 (cid:3)3.700
+Una forma de expresar las repercusiones de la estructura de costos en el leverage operativo es:
+cuanto mayor es la proporción de los costos fijos en los costos totales, dejando los demás factores iguales, el
+L. O. es mayor.
+Ello sobreviene del hecho de que cuantos más costos fijos existan, una vez superados los mismos, los
+movimientos en las ventas traerán repercusiones proporcionalmente mayores en las utilidades.
+c) El cálculo del L. O., tal cual se vio, parte del supuesto de que los distintos parámetros involucrados no
+sufrirán cambios. En muchas oportunidades, este supuesto puede no estar muy alejado de la realidad.
+Sin embargo, otras veces los aumentos muy importantes en las ventas deberían darse con un cambio
+en los precios. En un caso como éste, si se supone que el nuevo precio de venta sea p' y que no se cambian
+los otros parámetros, la fórmula del L. O. quedaría como:
+10
+
+(cid:1) (cid:2) (cid:1) (cid:2)
+Q(cid:4)∆Q p (cid:3)(cid:2)cv CF Q p-cv (cid:2)CF
+(cid:1) (cid:2) (cid:1) (cid:2)(cid:1) (cid:2) (cid:1) (cid:2)
+Q p-cv (cid:2)CF Q(cid:4)∆Q p (cid:3)(cid:2)cv (cid:2)Q p(cid:2)cv Q
+L.O.(cid:5) (cid:5)
+(cid:1) (cid:2)
+(cid:1)
+∆Q Q p(cid:2)cv (cid:2)CF ∆Q
+Q
+Ejemplo
+Siguiendo con el ejemplo anterior y suponiendo que p' = 25 se tiene que el L. O. sería para un
+aumento de ventas del 100 %.
+(cid:1) (cid:2)(cid:1) (cid:2) (cid:1) (cid:2)
+1.000(cid:4)1.000 25(cid:3)15 (cid:3)1.000 20(cid:3)15 1.000
+(cid:2)
+(cid:1) (cid:2)
+1.000 20(cid:3)15 (cid:3)1.700 1.000
+20.000-5.000 15.000
+(cid:1) (cid:1)4,545
+5.000-1.700 3.300
+En este caso, el L. O. no sólo dependerá de las ventas antes del aumento, sino también del aumento
+de las ventas. Esto es, no sólo depende de Q, sino también de ∆Q.
+d) El caso planteado hasta ahora era de un solo producto. En la vida real, el caso más común es que la
+empresa tenga varios.
+El cálculo del L. O. queda en este caso como:
+Ventas netas-Costos variable total de las ventas
+L.O.(cid:2)
+Ventas netas- Costo variable total de las ventas-Costos fijos
+Esta forma de cálculo, lleva a que su utilización sea más válida como constante, es la suma de los
+montos de cada producto en términos del volumen de los mismos.
+e) Por último, debe recordarse que la presencia de un alto L. O. está significando una mayor variabilidad de
+las GAII ante los cambios en las ventas, lo que implica un mayor riesgo del negocio.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Riesgo del negocio.
+2. Influencia de un aumento en los costos fijos sobre el leverage operativo.
+18,3. LEVERAGE FINANCIERO
+Como se señaló anteriormente, aparecen dos grandes tipos de riesgos en la empresa: el de negocio y
+el financiero. El leverage operativo es un indicador de uno de los aspectos que involucra el riesgo del
+negocio.
+El leverage financiero se debe vincular al riesgo financiero.
+El L. F. es un indicador que determina la variación en las ganancias netas por acción, que
+provendrían de un cambio en las ganancias antes de impuestos y de intereses, Esto es:
+11
+
+Variación en las ganancias por acción
+L.F. (cid:1)
+Variación en las GAII
+El cociente se puede expresar, entonces, de la siguiente forma:
+Incremento de las ganancias por acción por ventas adicionales
+Variación en las ganancias por acción (cid:1)
+Ganancias por acción antes del aumento de venta
+Dicho cociente se expresaría como:
+(cid:1) (cid:2)(cid:1) (cid:2)
+∆Q p-cv 1(cid:1)t
+(cid:2)
+(cid:1) (cid:2)
+N
+(cid:1) (cid:2)(cid:1) (cid:2)
+Q p(cid:1)cv (cid:1) CF(cid:1)I 1(cid:1)t
+N
+donde los nuevos símbolos que aparecen son:
+N : número de acciones;
+t : tasa de impuestos sobre la renta en tanto por uno;
+I : monto de intereses.
+La variación en las GAII:
+(cid:1) (cid:2)
+∆Q p(cid:1)cv
+(cid:1) (cid:2)
+Q p(cid:1)cv (cid:1)CF
+El leverage financiero es igual a:
+(cid:1) (cid:2)(cid:1) (cid:2)
+∆Q p(cid:1)cv 1(cid:1)t
+N
+(cid:1) (cid:2) (cid:1) (cid:2)(cid:1) (cid:2)
+Q p(cid:1)cv (cid:1) CF(cid:1)I 1(cid:1)t
+(cid:1) (cid:2) (cid:1) (cid:2)
+L.F.(cid:2)
+∆Q (cid:1) p
+N
+(cid:1)cv (cid:2)
+(cid:2)
+Q (cid:1) p
+∆
+(cid:1)
+Q
+cv
+p
+(cid:2)
+(cid:1)
+(cid:1)
+c
+C
+v
+F(cid:1)I
+(cid:3) Q
+∆
+p
+Q
+(cid:1)
+(cid:1) p
+cv
+(cid:1)c
+(cid:1)
+v
+C
+(cid:2)
+F
+[4]
+(cid:1) (cid:2)
+Q p(cid:1)cv (cid:1)CF
+(cid:1) (cid:2)
+Q p(cid:1)cv (cid:1)CF
+L.F.(cid:2)
+(cid:1) (cid:2)
+Q p(cid:1)cv (cid:1)CF(cid:1)I
+Ejemplo
+Siguiendo con el ejemplo que se viene desarrollando, suponiendo que I = $ 3.000 tenemos que:
+12
+
+(cid:1) (cid:2)
+1.000 20(cid:2)15 (cid:2)1.700
+L.F.(cid:1)
+(cid:1) (cid:2)
+(cid:1)11,0
+1.000 20(cid:2)15 (cid:2)1.700(cid:2)3.000
+La interpretación del L. F. obtenido es que, ante un cambio del 100 % de las GAII, se produce un
+cambio de 1,10 % en las ganancias por acción.
+Sobre este indicador cabe señalar que:
+a) supone que se mantiene incambiada la estructura financiera y de costos de la empresa o, dicho en otros
+términos, que ni el monto de los intereses ni el de los demás costos varían cuando se modifica la
+ganancia antes de impuestos y de intereses;
+b) un monto mayor de interés hace aumentar, mientras existan resultados positivos, el nivel del leverage
+financiero. Concomitantemente con ello se incrementa el riesgo de que, ante un comportamiento adverso
+de las GAII, se produzca un efecto negativo en las ganancias por acción.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Riesgo financiero.
+2. Influencia de los intereses sobre el leverage operativo.
+18,4. LEVERAGE COMBINADO
+Hasta ahora se han tratado el grado de leverage operativo y el financiero. Cada uno de ellos arrojaba
+información financiera. El primero, ¿qué efecto tiene un cambio de las ventas en las GAII? El segundo, ¿qué
+repercusiones tiene una variación en las GAII en las ganancias por acción?
+El leverage combinado da información sobre la influencia de un cambio en las ventas en la ganancia
+neta por acción.
+Una síntesis de los distintos efectos de leverage sería la siguiente:
+Leverage Cambio en Efecto sobre
+Operativo Ventas GAII
+Financiero GAII Ganancias por acción
+Combinado Ventas Ganancias por acción
+Así, pues, el leverage combinado es:
+Variación en las ganancias por acción
+L.C.(cid:1)
+Variación en las ventas
+En resumen, este indicador abarca desde el extremo de las ventas al de las ganancias por acción,
+resumiendo, por lo tanto, a los efectos de leverage operativo y financiero.
+El leverage combinado es, pues, el producto de los dos.
+De esta forma:
+(cid:1) (cid:2) (cid:1) (cid:2)
+Q p-cv Q p-cv CF
+L.C.(cid:3) L.O. (cid:2) L.F. (cid:3) (cid:1) (cid:2) (cid:2) (cid:1) (cid:2)
+Q p-cv (cid:1)CF Q p(cid:1)cv (cid:1)CF(cid:1)I
+de donde:
+13
+
+(cid:1) (cid:2)
+Q p(cid:1)cv
+L.C. (cid:2) (cid:1) (cid:2) [5]
+Q p(cid:1)cv (cid:1)CF(cid:1)I
+Ejemplo
+Siguiendo el ejemplo que se viene desarrollando, se han obtenido los siguientes valores:
+L. O. = 1,51515
+L. F. = 11,0
+El leverage combinado será igual a:
+(cid:1) (cid:2)
+1.000 20(cid:3)15 5.000
+L.C.(cid:2)
+(cid:1) (cid:2)
+(cid:2) (cid:2)16.667
+1.000 20(cid:3)15 (cid:3)1.700(cid:3)3.000 300
+La cifra obtenida es igual a 1,51515 x 11,0 = 16,667.
+La interpretación de este valor sería, en el caso planteado, que un aumento del 100 % en las ventas
+llevaría a un incremento del 1.666,7 % en las ganancias por acción.
+Cabe señalar que rige para el caso del leverage combinado la conjunción de supuestos que se han
+establecido para los dos conceptos anteriores. Entre ellos merece destacarse que el mismo es válido para un
+determinado nivel de ventas y una determinada estructura financiera.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué es el leverage combinado y cómo se calcula.
+18,5. EL EFECTO LEVERAGE; UNA VISIÓN GLOBAL
+Se han visto en los puntos anteriores el leverage operativo, el financiero y el combinado. En éste se
+efectuarán algunas generalizaciones acerca del efecto leverage.
+Se deben entender por efecto leverage, en general, las repercusiones que tienen sobre la
+rentabilidad de los fondos propios los diferentes grados de endeudamiento que puede adoptar la
+empresa.
+Una buena forma de exponer el efecto leverage es suponer distintos niveles de endeudamiento,
+dejando los demás elementos constantes para analizar la variación en la rentabilidad de los activos. En este
+caso, la misma se muestra a través de la comparación de la ganancia antes de impuestos y de intereses con
+respecto a los activos.
+Ejemplo
+El ejemplo que sigue muestra el efecto leverage sobre las siguientes bases:
+a) se toman dos niveles de endeudamiento que son: 0 y 50 %;
+b) el nivel de los activos es de $ 20.000;
+c) las deudas tienen un costo de 30 %;
+d) la rentabilidad de los activos se considera en tres situaciones: 16,5 %, 29 % y 41,5%.
+14
+
+Ventas (1.000 x 20) 20.000 30.000 40.000
+Costos variables (1.000 x 15.000 22.500 30.000
+15)
+Costos fijos 1.700 1.700 1.700
+GAII 3.300 5.800 8.300
+Rent. s/activos 16,5 29 41,5
+Endeudamiento = 0%
+GAII 3.300 5.800 8.300
+Impuesto a la renta 25 % 825 1.450 2.075
+GDI 2.475 4.350 6.225
+GPA (2.000 acc. a $ 10 1.238 2.175 3.113
+c/acción)
+Rent. s/capital (%) 12,38 21,75 31,13
+Endeudamiento = 50%
+GAII 3.300 5.800 8.300
+Interés (30 % s/ 10.000) 3.000 3.000 3.000
+Ganancia imponible 300 2.800 5.300
+Impuesto a la renta 25 % 75 700 1.325
+GDI 225 2.100 3.975
+GPA (1.000 acc. a $ 10 0,225 2.100 3.975
+c/acción)
+Rent. s/capital (%) 2,25 21,0 39,75
+Del cuadro expuesto se puede concluir:
+a) Cuando una empresa no tiene endeudamiento, un aumento en el nivel de rentabilidad de los activos se
+corresponde con un idéntico incremento en el retorno sobre el capital. Así, cuando la rentabilidad sobre
+los activos pasa del 16,5 % al 29 %, es decir tiene un crecimiento del 75,8 %, la rentabilidad de los
+fondos propios pasa de 12,38 % a 21,75 %, lo que significa, también, un aumento del 75,8%,
+b) Cuando la empresa comienza a endeudarse, como en el caso del 50 % de deudas a activos totales, la
+situación cambia. Un aumento del 75,8 % en la rentabilidad de los activos se corresponde con un 833,3
+% en el retorno sobre el capital.
+Cuando pasa del 29 % al 41,5 %, es decir, crece un 53,1 %, la rentabilidad del capital es del 89,3 %.
+c) En el caso planteado en las dos primeras situaciones, es decir, cuando la rentabilidad de los activos es del
+16,5 % y del 29 %, la rentabilidad sobre los fondos propios es superior con cero endeudamiento.
+Por el contrario, cuando la rentabilidad es el 41,5 %, en el caso de un 50 % de endeudamiento se obtiene
+una mayor rentabilidad sobre los fondos propios (39,75 %) que cuando hay cero endeudamiento
+(31,13%)
+d) Si se efectuara el análisis al 30 % de rentabilidad, de los activos, que es la misma tasa del costo de las
+deudas, se llegaría a la siguiente situación:
+Endeudamiento
+Detalle
+0 50%
+Rent. s/activos (%) 30 30
+GAII 6.000 6.000
+Intereses - 3.000
+––––––––– –––––––––
+Ganancia imponible 5.000 3.000
+Impuesto a la renta (1.500) (750)
+––––––––– –––––––––
+4.500 2.250
+Rent. s/capital (%) 22,5 22,5
+Es decir, se llega a que en los dos se alcanza el mismo nivel de rentabilidad sobre el capital. En estos
+casos, cuando se pasa de una rentabilidad de activos del 30 % al 41,5 %, o sea, un aumento del 38,3 % en el
+caso de 0 endeudamiento, la rentabilidad de los fondos propios crece del 22,5 % al 31,13 %, o sea, aumenta
+38,4 %. En cambio, en el caso en que la empresa esté endeudada al 50 %, se pasa del 22,5 % al 39,75 %, con
+lo que se aumenta un 76,7 % la rentabilidad del capital propio.
+A esta altura es posible señalar que:
+15
+
+El efecto leverage muestra las repercusiones que distintos niveles de endeudamiento tienen
+sobre la rentabilidad de los fondos propios. Cuando la tasa de rentabilidad antes de impuestos y de
+intereses sobre los activos supera el costo de las deudas, los incrementos en la rentabilidad de aquéllos
+provocarán aumentos más que proporcionales en la rentabilidad de los capitales propios. De la misma
+manera, si se da el caso contrario, se produce un efecto leverage negativo, o sea, cuando el costo de las
+deudas supera al retorno de los activos.
+El gráfico siguiente muestra la rentabilidad de los fondos propios ante cambios en la rentabilidad de
+los activos para distintos niveles de endeudamiento.
+Figura 18,9
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Qué es y cuándo se aprecia positivamente el efecto leverage.
+18,6. EL EFECTO LEVERAGE Y EL LEVERAGE COMBINADO
+A efectos de tener un panorama que vincule los distintos conceptos vistos, tal el caso del efecto
+leverage y el combinado, se analizarán los resultados obtenidos en uno y otro caso.
+Sobre la base de los datos, se tiene que la rentabilidad sobre el capital para el caso el 50 % de
+endeudamiento pasa del 2,25 % al 21 %. Es decir crece el 833,3 %.
+El leverage combinado sería:
+(cid:1) (cid:2)
+Q p(cid:3)cv 1.000 (cid:2) 5
+L.C.(cid:1)
+(cid:1) (cid:2)
+(cid:1) (cid:1)16,667
+Q p(cid:3)cv (cid:3)CF(cid:3)I 1.000 (cid:2) o -1.700 - 3.000
+Si las ventas suben un 50 %, es decir, pasan de $ 20.000 a $ 30.000, las ganancias sobre el capital
+crecerán el 50 % de 16,667, o sea, 0,5 x 16,667 = 8,3334.
+Por lo tanto, para reconstruir los hallazgos del efecto leverage con los del combinado se tiene que:
+2,25 % + (8,3334 × 2,25 %) = 21 %
+que equivale a lo obtenido en el ejemplo del leverage.
+Si las ventas crecen un 100 %, se tiene entonces que las ganancias en porcentaje crecerán 16,667
+veces, con lo que se llega a:
+16
+
+2,25 % + (16,667 × 2,25 %) = 39,75 %
+que era el resultado antes obtenido.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Consistencia del leverage combinado y del efecto leverage.
+18,7. EL EFECTO LEVERAGE EN CONDICIONES INFLACIONARIAS
+Dentro del análisis del efecto leverage, existen distintos supuestos que se han podido apreciar como,
+por ejemplo, la constancia de las Inversiones ante cambios en la rentabilidad de los activos.
+Cuando se introduce la inflación se deben traer a consideración otros supuestos básicos:
+a) los resultados que se obtienen en términos nominales son idénticos a los reales;
+b) el impuesto a la renta que se obtiene en términos de las ganancias nominales es idéntico al que se
+obtendría de calcular los resultados reales;
+c) el análisis supone que tanto las rentabilidades como los costos se efectivizan simultáneamente al fin del
+período de análisis. Esto tiene una doble repercusión. Por una parte, influye sobre el supuesto de
+reinversión de fondos a la misma tasa que la tasa de rentabilidad de los activos y, en segundo lugar,
+influye sobre la depreciación en el caso de pasivos monetarios.
+En otros términos, no se tiene en cuenta el desplazamiento en el tiempo de los flujos de costos.
+La inexistencia de estas situaciones en la realidad da lugar a que se efectúen algunas consideraciones
+adicionales.
+Leverage, resultados reales y efectos positivos
+A estos efectos se deberán reconstruir los cálculos efectuados estableciendo algunos supuestos:
+a) se ajustan las GAII nominales a las reales. Para ello, luego de aplicar el método habitual de la empresa a
+estos efectos, las reales son un 80 % de las nominales. En ellas no se toman en cuenta los pasivos
+monetarios, pero sí se podrían considerar los activos monetarios;
+b) el impuesto ala renta sólo contempla, parcialmente, el impacto de la inflación que es, por otra parte, el
+más común de los casos;
+c) la tasa de inflación es del 20 %;
+d) los distintos elementos quedan después de estos ajustes en valores del mismo poder adquisitivo.
+Endeudamiento = 0%
+GAII 2.640 4.640 6.640
+Impuesto a la renta (1) (619) (1.088) (1.556)
+Ganancia antes de 2.021 3.552 5.084
+exposición de pasivos
+monetarios
+Ganancia por exposición de - - -
+pasivos monetarios
+Ganancia después de 2.021 3.552 5.084
+exposición de pasivos
+monetarios
+GPA 1.011 1.776 2.542
+Rent. s/cap. (%) 10,11 17,76 25,42
+Endeudamiento = 50%
+GAII 2.640 4.640 6.640
+17
+
+Interés (2) (2.500) (2.500) (2.500)
+Impuesto a la renta (3) (56,25) (525) (994)
+Ganancia antes de 83,75 1.615 3.146
+exposición de pasivos
+monetarios
+Ganancia por exposición de 1.667 1.667 1.667
+pasivos monetarios
+Ganancia después de 1.750 3.282 4.813
+exposición de pasivos
+monetarios
+GPA 1,75 3,28 4,81
+Rent. p/acc. (%) 17,5 32,8 48,1
+(1) El cálculo del impuesto a la renta es: (0,9 × 825) ÷ 1,2 = 619 y así sucesivamente.
+(2) La determinación de los intereses es 3.000 ÷ 1,2.
+(3) Por ej.: (75 × 0,9) ÷ 1,2 = 56,25.
+(4) 10.000 - (10.000 ÷ 1,2) = 1,667.
+Considerando los efectos inflacionarios, las ventajas de un mayor endeudamiento son diferentes del
+caso de estabilidad de precios.
+Así, un crecimiento del 50% en las ventas físicas trae un incremento del 87,4%. En el ejemplo de
+estabilidad era de 833,3%.
+No se han tomado en consideración dos aspectos adicionales que se irán agregando seguidamente.
+Estos son: a) las repercusiones de la distribución en el tiempo del servicio de deuda en el efecto leverage; y
+b) el efecto leverage en condiciones de tasa de interés negativa.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Efectos de la inflación sobre el efecto leverage.
+18,8. EL EFECTO DE LA DISTRIBUCIÓN EN EL TIEMPO DEL SERVICIO DE DEUDA,
+LA INFLACIÓN Y EL EFECTO LEVERAGE
+Se ha señalado que, tal como se ha visto hasta ahora, el efecto leverage supone que tanto los retornos
+como los costos del financiamiento se reciben y se pagan, en el mismo momento y al final del período.
+Sin embargó, la realidad suele ser distinta. El ritmo de pago del servicio de deuda no tiene por qué
+coincidir con la generación de beneficios de una inversión. Esta realidad tiene repercusión sobre el
+patrimonio. Ello se debe a la reinversión de los fondos y a la afectación que, en época de inflación, suelen
+tener los servicios de la deuda.
+Ejemplo
+Un ejemplo permitirá comprender con mayor claridad el efecto que se está exponiendo.
+Se supone una inversión de $ 1.000 financiada con un crédito monetario de $ 600 y por $ 400 de
+fondos propios.
+La misma genera los diferentes beneficios antes de intereses y después de depreciaciones en
+términos constantes que son: año 1, $ 600; año 2, $ 600; año 3, $ 600.
+Dado que interesa destacar el efecto de la distribución en el tiempo del servicio de deuda no se
+considerará la existencia de impuesto a la renta.
+Conviene considerar la rentabilidad sobre el capital propio en los dos casos:
+a) la deuda se paga toda al fin del año 3 y la tasa de interés es el 30 % anual;
+b) la deuda se paga en cuotas iguales anuales, al fin de cada año, con un costo del 30 % anual.
+La inflación se supone constante durante los tres años a una tasa del 20 % anual.
+18
+
+1° CASO: PAGO DE LA DEUDA AL FINAL
+Años
+Concepto
+0 1 2 3
+1. Inversión (400)
+2. Beneficios ($ constantes) 600 600 600
+3. Intereses ($ corrientes) 180 180 180
+4. Intereses ($ constantes) (150) (125) (104)
+5. Deuda ($ corrientes) 600
+6. Deuda ($ constantes) (347)
+Flujo de fondos (- 1 + 2 - 4 - 6) (400) 450 475 149
+La tasa de rentabilidad de los fondos propios en el caso planteado es: 86,86%
+2° CASO: PAGO DE LA DEUDA EN CUOTAS ANUALES
+Años
+Concepto
+0 1 2 3
+1. Inversión (400)
+2. Beneficios ($ constantes). 600 600 600
+3. Cuota (cap. + int.) ($ corrientes) 317 320 260
+4. Cuota ($ constantes) 317 222 150
+Flujo de fondos (- 1 + 2 - 4) (400) 283 378 450
+Obviamente, la tasa de rentabilidad de los fondos propios disminuye, en este caso, ubicándose en
+67,37 %.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Efectos de la distribución en el tiempo del servicio de deuda.
+18,9 EL EFECTO LEVERAGE CUANDO LA TASA DE INTERÉS REAL ES NEGATIVA
+La presencia de alta tasa de inflación, no sólo en el mundo subdesarrollado sino en los países
+industrializados, trae aparejado que se produzcan tasas de interés negativas. Esto es, cuando el costo de
+endeudamiento es inferior a la tasa de inflación. Es importante hacer algunas referencias sobre el efecto de
+leverage en condiciones de tasa de interés real negativa.
+A efectos de centrar el problema que se trata en este punto, se obviará la consideración de los
+impuestos sobre las rentas.
+Para exponer mejor el tema se desarrollará la rentabilidad del capital propio.
+PN : patrimonio neto;
+p :proporción que el patrimonio neto, o sea, los fondos propios, tiene en el financiamiento de los
+activos;
+t :tasa de rentabilidad de los activos;
+i :tasa de interés real sobre las deudas.
+El retorno bruto de los activos sería: Ar.
+El costo del financiamiento es igual que la tasa de interés por la proporción de los activos
+financiados con deudas.
+19
+
+(cid:1) (cid:2)
+A1(cid:1)p i
+El retorno neto de los activos será entonces:
+(cid:1) (cid:1) (cid:2)(cid:2)
+A r- 1-p i
+Si se compara con el patrimonio neto reportará la rentabilidad sobre el capital propio.
+De donde:
+(cid:1) (cid:1) (cid:2)(cid:2)
+Ar- 1-p i
+K (cid:1)
+PN
+Efectuando operaciones se tendrá que:
+(cid:1) (cid:2)
+Ar-Ai(cid:1)Aip A r(cid:2)i
+K (cid:3) (cid:3) (cid:1)i
+PN PN
+Algunos ejemplos a partir de una tasa de interés real negativa
+Se supone:
+i = 10%;
+r = 14%;
+p = 0,6.
+Se tendrá que:
+14(cid:3)10
+K (cid:1) (cid:2)10(cid:1)30%
+0,6
+Si la proporción del capital propio fuera el 50 % se tendría:
+14(cid:3)10
+K (cid:1) (cid:2)10(cid:1)38%
+0,5
+Si fuera el 30 % se obtendría:
+14(cid:3)10
+K (cid:1) (cid:2)10(cid:1)70%
+0,3
+Si la tasa fuera negativa pero al 5 % se tendría para una proporción del 60, 50, 40 y 30 % de fondos
+propios:
+20
+
+14(cid:3)5
+K (cid:1) (cid:2)5(cid:1) 26,7%
+0,6
+14(cid:3)5
+K (cid:1) (cid:2)5(cid:1)33%
+0,5
+14(cid:3)5
+K (cid:1) (cid:2)5(cid:1) 42,5%
+0,4
+14(cid:3)5
+K (cid:1) (cid:2)5(cid:1)58,3%
+0,3
+Si la tasa de interés negativa fuera del 12 % se tendría para las respectivas proporciones de fondos
+propios:
+14(cid:3)12
+K (cid:1) (cid:2)12(cid:1)31,3%
+0,6
+14(cid:3)12
+K (cid:1) (cid:2)12(cid:1)40%
+0,5
+14(cid:3)12
+K (cid:1) (cid:2)12(cid:1)53%
+0,4
+14(cid:3)12
+K (cid:1) (cid:2)12(cid:1)74,7%
+0,3
+Figura 18,10.
+De este análisis puede desprenderse que:
+Cuando la tasa de interés es negativa, menores proporciones de capital propio en el
+financiamiento de activos traerán aparejados mayor rentabilidad de los fondos propios. Este efecto es
+más importante cuando mayor es la tasa de interés negativa y menor la proporción de fondos propios.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Efectos de la tasa de interés negativa sobre el leverage.
+21
+
+REFERENCIAS SELECCIONADAS
+Para el efecto de leverage se recomienda:
+HASLEM, JOHN A., "Leverage effects on corporage earnings", Arizona Review, N° 19, marzo de 1970,
+págs. 7 a 11.
+Para el punto de equilibrio puede ser de utilidad:
+PASCALE, RICARDO, Introducción al costeo directo, Facultad de Ciencias Económicas y de
+Administración, Montevideo, 1968.
+22

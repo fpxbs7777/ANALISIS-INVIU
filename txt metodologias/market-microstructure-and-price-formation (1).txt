@@ -1,0 +1,847 @@
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Market Microstructure and Price Formation
+Mauricio LABADIE
+PhD - Quantitative Researcher
+February12,2014
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Outline
+1 EfficientMarkets,InformationAsymmetryandMicrostructure
+2 Price-formationprocess1: Kyle
+3 Price-formationprocess2: Glosten-Milgrom
+4 Conclusions
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+1 EfficientMarkets,InformationAsymmetryandMicrostructure
+2 Price-formationprocess1: Kyle
+3 Price-formationprocess2: Glosten-Milgrom
+4 Conclusions
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Efficient Market Theory (EMT) I
+PostulatesoftheEMT(1/2)
+Allmarketsareequal. Theycanbeconsideredasaliquidandfrictionlessstock
+markets,whereagentsbuyandsellassets.
+Allassetsaresimilarandcomparable. Theycanbefullycharacterisedbythe
+couplerisk-return. WecancomparedviatheSharperatio=return/risk.
+Thereisauniquemarketprice. Allassetshaveafundamentalvaluep∞,which
+canvarybutonlyexogenouslye.g. withnews.
+Informationiscompleteandperfect. Allinvestorshavethesameinformation,e.g.
+thedistributionofthepricesand/orreturns.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Efficient Market Theory (EMT) II
+PostulatesoftheEMT(2/2)
+Marketsareefficient. Thecurrentpricept isthebestestimateofp∞ giventhe
+currentinformationFt ⇒martingale.
+Allinvestorsareequalandrational. Theyallhavethesameinformationand
+maximisetheirprofits. Onlydifferenceistheirutilityfunction.
+Rationalexpectations. Allinvestorsareequallyrationalandsharethesame
+informationviapt andFt ⇒sameforecasts.
+Noendogenouscrashes. Bigchangesinpricescanonlybeproducedexternally.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Efficient Market Theory (EMT) III
+CritiquetotheEMT(1/2)
+Allmarketsareequal. Marketshavetransactioncosts,regulationsandvanishing
+liquidity. Theydifferinarchitecture,geography,creditworthiness...
+Allassetsaresimilarandcomparable. Commoditiescanbephysicalorpaper.
+Thousandsofliquidstocksvshandfulofliquidcurrencies.
+Thereisauniquemarketprice. Buttherearemanypricescoexisting: bid,ask,
+mid,lasttrade,average(intimeorvolume),OHLC(open-high-low-close)...
+Informationiscompleteandperfect. Accesstoreal-timeinformationisexpensive
+andgivesarealedge⇒InformationAsymmetry.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Efficient Market Theory (EMT) IV
+CritiquetotheEMT(2/2)
+Marketsareefficient. Theycanbeefficientinthelongrunbutnot
+instantaneously: theyneedtimetodigestnewinformation.
+Allinvestorsareequalandrational. Investorshavedifferentinvestmentstylesor
+biases,andsometimestheyhaveherdbehaviour.
+Rationalexpectations. Aninvestorcanchoosewiththeheart,notwiththehead:
+iPhoneorAndroid? BMWorMercedesBenz? Redorblueshirt?
+Noendogenouscrashes. BlackMondayandportfolioinsurance(Oct191987)?
+FlashCrashandHFT(May62010)? Subprimes(2007)?
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Information Asymmetry I
+Description
+JosephStiglitzwontheNobelPriceinEconomicsin2001forhisworkonInformation
+Asymmetry:
+AccordingtotheEMT,informationiscompleteandperfect.
+Butinreality,informationisnothomogeneouslydistributed:
+(cid:63) Yahoo! Finance: freebut15-minutedelay.
+(cid:63) Bloomberg: 25kUSD/yearbutreal-timequotesandnews.
+Evenifinformationwerepublicandfree,thereareasymmetrieseverywhere:
+(cid:63) Sources: Reuters,FinancialTimes,eveningnews,etc.
+(cid:63) Informationprocessing: C++,Java,R,Matlab,Excel,etc.
+(cid:63) Analysis: macroeconomics,accounting,statistics,timeseries,etc.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Information Asymmetry II
+Principalhypothesis
+Therearetwotypesoftradersorinvestors: informedandnon-informedtraders.
+Informedtraders:
+(cid:63) Theyhaveaninformationaladvantageanduseitforprofit.
+⇒ Directionaltraders.
+(cid:63) Theyknowthefundamentalpriceofanassete.g. Kylemodel.
+(cid:63) Theyknowifpriceswillgoupordownbasedonsomeprivatenewse.g.
+Glosten-Milgrommodel.
+Non-informedtraders:
+(cid:63) Theyhavenoinformationonfundamentalprices.
+(cid:63) Theytradeinanydirection,basedonnon-fundamentalse.g. hedging,
+brokerage,etc.
+(cid:63) Theiractionshidethetradingofinformedtraders.
+⇒ Noisetraders.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Information Asymmetry III
+Informationgivesanedge
+Acesstodata:
+(cid:63) Moreinformation⇒decision-makingprocessmorerobust.
+(cid:63) High-frequencytraderspaytohavefaster,cleanerdataatthemillisecond
+scale.
+Knowledgeandinference:
+(cid:63) Morereliableinferencesgiveanadvantage: KyleandGlosten-Milgrom.
+(cid:63) Brainpower: Accesstoinformationcouldbefree,butminingandprocessing
+itfastergivesanadvantage.
+⇒ Braindrain,highly-skilledindividuals(PhDs,MBAs,Masters)inFinance.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Information Asymmetry IV
+Insidertrading
+Itistradingapubliccompany’sstockwithprivateinformation:
+(cid:63) Youareawareofacrucialeventbeforeitgoespublic: newproductrelease,
+CEOresign,merger,bankrupcy,etc.
+(cid:63) Youknowthequarterlyresultsbeforetheconferencecallwithinvestors.
+Itisillegalbecauseitisconsideredasunfair:
+(cid:63) Ithurtsinvestorswhoignoretheprivateinformation.
+(cid:63) Itcanhurtthereputationofafirm.
+(cid:63) Atleast93countrieshavelawsagainstinsidertrading.
+Butthereisacasesupportinginsidertrading:
+(cid:63) Compromisebetweenpreservingincentivesforinnovationandmantaining
+accuratesecuritiespricing.
+(cid:63) Itisanefficientcompensationscheme: corporateentrepreneursand
+performancebonuses.
+(cid:63) Itishardtodetectandpunish,sowhywastemoneyonit?
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Market Microstructure I
+Definition
+Harris2002: “Itisthebranchoffinancialeconomicsthatinvestigatestradingand
+theorganisationofmarkets”.
+Eachmarket,assetandinvestorisconsideredunique.
+Different,almostoppositeapproachofEMT:
+(cid:63) EMTisaxiomatic,deductive,top-down.
+(cid:63) Microstructureisempirical,inductive,bottom-up.
+AnalogywithNewton’sNaturalPhilosophyandSciences:
+(cid:63) Empirical,intuitiveapproach,avoidingaprioriassumptions.
+(cid:63) Mechanismsandanalogiesratherthanaxiomsandtheorems.
+(cid:63) Generalprinciplesemergefromparticularcasessharingsamebehaviour.
+⇒ OutofmainstreamEconomics.
+⇒ Newapproaches: Statistics,Econophysics,ComputerScience,Evolution,etc.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Market Microstructure II
+Microstructureindetail
+Heterogeneousfactorshavetobetakenintoaccount,casebycase:
+Marketdesign: floorvselectronicmarkets,priority/matchingrules,tradingtimes,
+lunchbreaks,etc.
+Agents: brokers,dealers,market-makers,informedtraders,noisetraders,
+arbitrageurs,etc.
+Transactioncosts: commissions,fees,spreads,marketimpact,marketrisk,etc.
+Liquidity: fluctuationsinvolume,fragmentedmarkets,darkpools,etc.
+Benchmarks: open,close,OHLC(open-high-low-close),VWAP(volume-weighted
+averageprice),etc.
+Prices: bid,ask,mid,lasttraded,average(intimeorinvolume),etc.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Market Microstructure III
+CrucialconceptsinMicrostructure
+Feedback:
+(cid:63) Thestructureanddynamicsofmarketsinfluencethebehaviourofagents.
+(cid:63) Everysingleactionofeverysingleagentinfluencesthemarket.
+⇒ Feedbackloopmarket↔agent.
+(cid:63) InEMT,agentsareinfinitesimal⇒nofeedback.
+Emergence:
+(cid:63) Fromallinteractionsmarket↔agentandagent↔agent,newproperties
+appear.
+(cid:63) Addorremoveanagentoramarketfeature⇒oldpropertiescandisappear
+andnewonesappear.
+⇒ Systemstheory: thewholeisalwaysbiggerthanthesumofitsparts.
+Meta-stability:
+(cid:63) Twooppositeforceskeepthingsinequilibrium: Butterflyeffectvsmarket
+resilience.
+(cid:63) Smallvariations⇒thesystem’sequilibriumdoesnotchange.
+(cid:63) Butwithbigchangesoldequilibriacandisappearandnewequilibriaarise.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+1 EfficientMarkets,InformationAsymmetryandMicrostructure
+2 Price-formationprocess1: Kyle
+3 Price-formationprocess2: Glosten-Milgrom
+4 Conclusions
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Kyle Model (1985). Description I
+Hypotheses
+Themodelproposesaniterativeprice-formationprocess.
+Therearetwotypesoftraders:
+(cid:63) Oneinformedtrader,whoknowsthefundamentalpricep0 oftheasset.
+(cid:63) Severalnon-informedtradersornoisetraders,whoeitherignorep0 ortrade
+regardlessofprice(e.g. hedgers).
+Thereisonedealer,whoknowsthelawv˜∼N(p0,Σ0)butignoresthe
+fundamentalvaluep0.
+Thenon-informedtraders,whocompletelyignorev˜,buyaquantityu˜∼N(0,σ2)
+u
+ofshares.
+Theinformedtraderknowsp0 andbuysaquantityx˜ofshares.
+Thedealerobservesthenetaggregatedvolumex+u butdoesnotknowthe
+valuesx andu separately.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Kyle Model (1985). Description II
+Dealer’sprice
+Itisalinearfunctionoftheaggregatedvolumesheobserves,i.e.
+P(x+u)=µ+λ(x+u), (1)
+where
+λisthemarketimpact,i.e. theamountinEURthedealerchangesherpriceµ
+pertradedshare.
+1/λrepresentsthedepthofthemarket,i.e. thenumberoftradedsharesneeded
+topushthepriceby1EUR.
+Themarketimpactisassumedlinear.
+Informedtrader’sprofit
+E[(v˜−P(x+u˜))x|v˜=v]=(v−µ)x−λx2. (2)
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Kyle Model (1985). Equilibrium I
+Optimalsharesfortheinformedtrader
+Forauniquemaximumof (2)weassumeλ>0. Thevalueofx thatmaximisesthe
+informedtrader’sprofitisthus
+1
+X(v)=β(v−µ), β:= .
+2λ
+ProjectionTheorem
+IfY =(Y1,Y2)(cid:48) isabivariateNormalrandomvariableofmeanandcovariancematrix
+m =
+(cid:18) m1 (cid:19)
+, Σ=
+(cid:18) σ
+1
+2 σ12 (cid:19)
+Y m2 σ12 σ
+2
+2
+then
+E[Y1|Y2]=m1+ σ
+σ
+1
+2
+2(Y2−m2). (3)
+2
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Kyle Model (1985). Equilibrium II
+ApplicationoftheProjectionTheorem
+ForthevectorY =(v˜,x˜+u˜)(cid:48),onecanshowthat
+(cid:18) (cid:19) (cid:18) (cid:19)
+m =
+p0
+, Σ=
+Σ0 βΣ0
+.
+Y β(p0−µ) βΣ0 σ
+u
+2+β2Σ0
+Therefore,theProjectionTheoremimpliesthat
+E[v˜|x˜+u˜]=p0+
+σ
+u
+2+
+βΣ
+β
+0
+2Σ0
+(x˜+u˜−β(p0−µ)). (4)
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Kyle Model (1985). Equilibrium III
+Optimalvaluesofλ,β andµ
+Inanefficientmarketwehave
+P(x˜+u˜)=E[v˜|x˜+u˜]
+foreveryµ,x˜andu˜.
+Ifwechooseµ=p0 andx˜+u˜=1then
+λ=
+βΣ0
+=
+1(cid:18)Σ0 (cid:19)1/2
+, β=
+1
+=
+(cid:18)σ
+u
+2(cid:19)1/2
+.
+σ
+u
+2+β2Σ0 2 σ
+u
+2 2λ Σ0
+Fromabovewehave
+µ+λ(x˜+u˜)=p0+λ(x˜+u˜−β(p0−µ)).
+Therefore,ifwechoosex˜=u˜=0then
+µ−p0=λβ(µ−p0).
+Butsinceλβ=1/2wenecessarilyhavethatµ=p0.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Kyle Model (1985). Equilibrium IV
+Kyle’sequilibrium
+P(x˜+u˜) = p0+λ(x˜+u˜) (5)
+X(v˜) = β(v˜−p0),
+β := (cid:0) σ
+u
+2/Σ0 (cid:1)1/2 ,
+λ := (1/2)
+(cid:0)
+Σ0/σ
+u
+2(cid:1)1/2
+.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Remarks I
+Optimalsharesanduncertainty
+Theoptimalnumberofsharestobuyfortheinformedtraderis
+(cid:18)σ2(cid:19)1/2
+x =β(v−p0)= u (v−p0)
+Σ0
+andherprofitπ˜ is
+β
+π˜=(v−p0)x−λx2= (v−p0)2.
+2
+Therefore,
+E[π˜]=
+2
+1(cid:0) σ
+u
+2Σ0 (cid:1)1/2 .
+Ifσ2 increasesthenx andπ˜ increase: moreprofitandhidinginthecrowd.
+u
+IfΣ0 decreasesthenx increasesbutπ˜ decreases: losingstealth,actingfaster.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Remarks II
+Ateachiteration,thepricevariancegetsreduced
+Var(p˜) = λ2Var(x˜+u˜)
+= 1
+4
+Σ
+σ2
+0 (cid:0) β2Σ0+σ
+u
+2(cid:1)
+u
+=
+1Σ0 (cid:0) 2σ2(cid:1)
+4σ2 u
+u
+1
+= Σ0.
+2
+⇒ Withhertrade,theinformedtraderrevealshalfofherinformationtothedealer.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Remarks III
+Asymptoticsofthedealer’svariance
+Recursively,onecanshowthat
+(cid:18)1(cid:19)n
+Var(p˜n)= Σ0.
+2
+Therefore,
+lim Var(p˜n)=0.
+n→∞
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Remarks IV
+Asymptoticsofthedealer’sprice
+Letp∞ bethefundamentalvalue,knownbytheinformedtrader. Afterniterations
+thedealer’spriceis
+pn = pn−1+λ(x˜+u˜)
+1
+= pn−1+ (p∞−pn−1)+λu˜.
+2
+Rearrangingweobtain
+1
+pn−pn−1=− (pn−1−p∞)+λu˜.
+2
+SolvingtheassociatedODE
+1
+dp=− (p−p∞)+λu˜
+2
+yields
+p(t)=p∞+(p(0)−p∞−2λu˜)e−t/2+2λu˜. (6)
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Remarks V
+Thedealer’spriceconvergestothefundamentalprice
+Takingexpectationson(6)andusingE[u˜]=0weobtain
+E[p(t)]=p∞+(p(0)−p∞)e−t/2.
+InconsequenceE[p(t)]→p∞.
+Recallthatλ=(1/2)(Σ0/σ
+u
+2)1/2. AfteronestepwehaveΣ1=Σ0/2,which
+impliesthat
+(cid:18)1(cid:19)1/2
+λ1=
+2
+λ0, λ0:=(1/2)(Σ0/σ
+u
+2)1/2.
+Recursivelyweobtainthat
+(cid:18)1(cid:19)n/2
+λn= λ0.
+2
+Inconsequenceλn→0,whichimpliesthatp(t)→p∞.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Remarks VI
+Marketefficiency
+Themarketisasymptoticallyefficient: thedealer’spricept convergestothe
+fundamentalpricep∞.
+Butitisnotinstantaneouslyefficient: thedealerneedsseveraltradingroundsto
+hitthefundamentalprice.
+⇒ Marketneedstimetodigestnewinformation.
+Thankstoinformedtraders,themarketisefficientinthelongrun.
+Butintheshortrun,informedtraderscanmakesubstantialprofits.
+⇒ α(cid:54)=0isnotincontradictionwithmarketefficiency.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Remarks VII
+Themodeldoesnotrequireafundamentalprice
+Thedealerknowsthattheinformedtraderknowsthefundamentalpricep∞.
+Everyiteration,thedealerextractsinformationfromtheinformedtrader’sflow
+andherpricegetsclosertop∞.
+Thisholdsforanypricetheinformedtraderchooses: thedealer’spriceconverges
+towhateverpricep(cid:93) theinformedtraderthinksisfair.
+Itdoesnotmatterifp(cid:93)(cid:54)=p∞ orevenifp∞ doesnotexistatall.
+⇒ Theinformedtraderdrivestheprice-formationprocess.
+⇒ FinancialbubblesandcrashesarenotasexogenousastheEMTclaims.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+1 EfficientMarkets,InformationAsymmetryandMicrostructure
+2 Price-formationprocess1: Kyle
+3 Price-formationprocess2: Glosten-Milgrom
+4 Conclusions
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Glosten-Milgrom Model (1985). Description I
+Hypotheses
+Themodeltriestoexplainhowthedealerupdatesherpricegiventhatthelast
+ordershereceivedwasasellorabuy.
+AsintheKylemodel,wehaveseveralinformedtraders,severalnon-informed
+tradersandonedealer.
+Attimet=0theassetV hasapriceV0.
+Attimet=0therearenews: goodnewswithprobabilityθ andbadnewswith
+probability1−θ.
+Goodnews⇒newpriceisV+>V0;badnews⇒newpriceisV−<V0.
+Everybodyknowsthenews’effect,butonlyinformedtradersknowifthenewsare
+goodorbad.
+Attimet=0thedealerreceivesanorder,eitherabuyQ=B orasellQ=S.
+Shedoesnotknowiftheordercomesfromaninformedoranon-informedtrader,
+butsheknowstheprobabilities: µforinformed,1−µfornon-informed.
+Ifgood(resp. bad)newstheinformedtradersbuy(resp. sell)withprobability1.
+Non-informedtradersalwaysbuywithprobabilityγB andsellwithprobabilityγS.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Glosten-Milgrom Model (1985). Description II
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Glosten-Milgrom Model (1985). Solution I
+Dealer’spriceupdates
+Attimet=1thedealerupdatesherselling(ask)pricea1 andherbuying(bid)price
+b1 asafunctionofthelastorderQ shereceived:
+a1 = E[V|Q=B]=V+P[V =V+|Q=B]+V−P[V =V−|Q=B], (7)
+b1 = E[V|Q=S]=V+P[V =V+|Q=S]+V−P[V =V−|Q=S].
+Toobtaina1 andb1 weonlyneedtocomputetheprobabilities
+P[V =V±|Q=B,S].
+Bayes’Theorem
+ForanytwoeventsX andY wehave
+P[Y|X]P[X]
+P[X|Y]= .
+P[Y]
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Glosten-Milgrom Model (1985). Solution II
+ApplicationofBayes’Theorem
+WefirstcomputeP[V =V+|Q=B]:
+P[B|V+]P[V+]
+P[V+|B] =
+P[B]
+P[B|V+]P[V+]
+= . (8)
+P[B|V+]P[V+]+P[B|V−]P[V−]
+Eachelementof (8)iscomputedusingthedecisiontree:
+P[V+]=θ.
+P[V−]=1−θ.
+P[B|V+]=µ×1+(1−µ)×γB.
+P[B|V−]=µ×0+(1−µ)×γB.
+Similarly,wecompute
+P[V+|S], P[V−|B] and P[V−|S].
+Withthesefourconditionalprobabilities,thedealercanupdateherquotesusing(7).
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 1 I
+PreparingBayes’bazooka
+SupposeV+=100,V−=20andθ=µ=γB =γS =1/2.
+Att=0thedealer’spriceis
+E[V]=(100)(1/2)+(20)(1/2)=60.
+Att=1wecomputethedirectconditionalprobabilities:
+(cid:63) P[V+]=P[V−]=1/2.
+(cid:63) P[B|V+]=P[S|V−]=(1/2)(1)+(1/2)(1/2)=3/4.
+(cid:63) P[S|V+]=P[B|V−]=(1/2)(0)+(1/2)(1/2)=1/4.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 1 II
+ShootingBayes’bazooka
+Att=1weinferviaBayes’Theoremthereverseconditionalprobabilities:
+P[B|V+]P[V+]
+P[V+|B] =
+P[B|V+]P[V+]+P[B|V−]P[V−]
+(3/4)(1/2)
+= =3/4,
+(3/4)(1/2)+(1/4)(1/2)
+P[B|V−]P[V−]
+P[V−|B] =
+P[B|V+]P[V+]+P[Q=B|V−]P[V−]
+(1/4)(1/2)
+= =1/4.
+(3/4)(1/2)+(1/4)(1/2)
+P[V+|S]=1/4, P[V−|S]=3/4.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 1 III
+Thedealerupdatesherquotes
+a1 = E[V|B]
+= V+P[V+|B]+V−P[V−|B]
+= (100)(3/4)+(20)(1/4)=80.
+b1 = E[V|S]
+= V+P[V+|S]+V−P[V−|S]
+= (100)(1/4)+(20)(3/4)=40.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 1 IV
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 2 I
+PreparingBayes’bazooka
+Supposethatattimet=1thedealerreceivedabuy,i.e. Q1=B. Fromtheprevious
+stepwecomputed
+P[V+|B1]=3/4, P[V−|B1]=1/4,
+Sincethedecisiontreeisvalidforalltimes,wefindthatQ1 andQ2 areindependent.
+Therefore,
+P[B2|V+]=P[S2|V−]=3/4,
+P[S2|V+]=P[B2|V−]=1/4.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 2 II
+ShootingBayes’bazookagivenQ1=B
+P[V+|B2,B1] =
+P[B2|V+]P[
+P
+V
+[B
++
+2
+|
+|
+B
+V
+1
++
+]+
+]P
+P
+[V
+[B
++
+2
+|
+|
+B
+V
+1
+−
+]
+]P[V−|B1]
+(3/4)(3/4)
+= =9/10.
+(3/4)(3/4)+(1/4)(1/4)
+P[V−|B2,B1] =
+P[B2|V+]P
+P
+[V
+[B
++
+2
+|
+|
+B
+V
+1
+−
+]+
+]P
+P
+[V
+[B
+−
+2|
+|
+V
+B1
+−
+]
+]P[V−|B1]
+(1/4)(1/4)
+= =1/10.
+(3/4)(3/4)+(1/4)(1/4)
+P[V+|S2,B1]=P[V+|B2,S1]=1/2.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 2 III
+ThedealerupdatesherquotesgivenQ1=B
+a2(Q1=B) = E[V|B2,B1]
+= (100)(9/10)+(20)(1/10)=92.
+b2(Q1=B) = E[V|S2,B1]
+= (100)(1/2)+(20)(1/2)=60.
+ThedealerupdatesherquotesgivenQ1=S
+a2(Q1=S) = E[V|B2,S1]
+= (100)(1/2)+(20)(1/2)=60.
+b2(Q1=S) = E[V|S2,S1]
+= (100)(1/10)+(20)(9/10)=28.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Numerical solution for t = 2 IV
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+1 EfficientMarkets,InformationAsymmetryandMicrostructure
+2 Price-formationprocess1: Kyle
+3 Price-formationprocess2: Glosten-Milgrom
+4 Conclusions
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+Final comments
+Summaryofthispresentation
+WedescribedandchallengedtheEfficientMarketTheory(EMT).
+WesawwhatisInformationAsymmetryandhowittacklessomeofthe
+“defaults”oftheEMT.
+WecomparedtheapproachofMicrostructurewiththatoftheEMT.
+Weunderstoodtheprice-formationprocess(KyleandGlosten-Milgrom):
+(cid:63) Dealerstryingtoinferpriceinformationfromtradingflow.
+(cid:63) Informedtraderstryingtohidetheirintentionsbehindnoisetraders.
+(cid:63) Everytradingroundleaksinformationfrominformedtraderstodealers.
+(cid:63) Marketsareefficient: asymptotically,notinstantaneously.
+⇒ Hide-and-seekgamebetweendealersandinformedtraders.
+Wehadafirstglimpseofmarketimpact:
+(cid:63) Buying(selling)pushespricesup(down).
+(cid:63) Themoreyoutrade,themoreyoupushmarketpricesagainstyou.
+(cid:63) Linear,althoughinrealityitisnonlinear: concave.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+References
+Books
+LawrenceHarris(2002)Tradingandexchanges. OxfordUniversityPress.
+MaureenO’Hara(1995)Marketmicrostructuretheory. Blackwell.
+GeorgeSoros(2008)Thenewparadigmforfinancialmarkets. PublicAffairs.
+Articles
+Jean-PhilippeBouchaud,DoyneFarmer,FabrizioLillo(2008)Howmarketsslowly
+digestchangesinsupplyanddemand. PreprintArXiv.
+Jean-PhilippeBouchaud(2009)Priceimpact. PreprintArXiv.
+LawrenceGlosten,PaulMilgrom(1985)Bid,askandtransactionpricesinan
+specialistmarketwithheterogeneouslyinformedtraders. J.Fin.Econ. 1471-100.
+AlbertKyle(1985)Continuousauctionsandinsidertrading. Econometrica,
+Vol.53No.61315-1336.
+MauricioLABADIE MarketMicrostructureandPriceFormation
+
+EfficientMarkets,InformationAsymmetryandMicrostructure
+Price-formationprocess1:Kyle
+Price-formationprocess2:Glosten-Milgrom
+Conclusions
+THANKYOUFORYOURATTENTION
+Source: newheightsabq.org,ayceblog.blogspot.com
+MauricioLABADIE MarketMicrostructureandPriceFormation

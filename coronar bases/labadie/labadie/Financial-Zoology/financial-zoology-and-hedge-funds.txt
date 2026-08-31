@@ -1,0 +1,892 @@
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Financial Zoology and Hedge Funds
+Mauricio LABADIE
+PhD - Quantitative Researcher
+February11,2014
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Outline
+1 ZoologyofFinancialMarkets
+2 HedgeFunds
+3 Leverage,short-sellingandderivatives
+4 Conclusions
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+1 ZoologyofFinancialMarkets
+2 HedgeFunds
+3 Leverage,short-sellingandderivatives
+4 Conclusions
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Financial markets as a biological system
+Whya“Zoology”ofcapitalmarkets?
+Allfinancialagentshavetheirownparticularnicheinthemarket: species.
+Allmarketshaveinfrastructure(geography),regulations(Natureconstraints),
+investmentopportunities(food)andagents(species): ecosystem.
+Allagentsarerelated,eitherinacooperativeoracompetitiveway: symbiosis,
+parasitismandfoodchain.
+Agentscanchangetheirstrategiestoenhanceprofit,andonlythebestones
+remain: mutationandnaturalselection.
+Whenmarketruleschangeornewplayerscomein,allagentsneedtoadaptor
+die: invasions,evolutionaryadaptationandextinction.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents I
+Retailbanks
+Theypaythedepositors’savingsatalowerinterestrate.
+Theyloanatahigherinterestrate.
+Theirprofitisthedifferencebetweenbothinterestrates.
+Theideaistomakecapitalflowwhereitisneeded: fromsaverstoentrepreneurs.
+⇒ Riskmanagement=creditworthiness.
+Businessmodelisnotcomplexnorsophisticated: dullbanking
+Investmentbanks
+Theysellfinancialinstrumentstoinvestors: sellingside.
+Theycreatenewproductsunderinvestors’demand.
+Complexproductsrequirestrongriskmanagementpolicies: quants.
+Profitmadebyvolumeandmargin/primeoverthehedgingpriceoftheproduct:
+flowtrading.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents II
+Markets
+Amarketiswhereabuyerofaninstrumentmeetsaseller.
+Itcanbeanexchangeoranover-the-counter(OTC)market.
+Atransactioninanexchange:
+(cid:63) Isdonewithlistedorstandardinstruments,e.g. futuresorlistedoptions.
+(cid:63) Hasaclearinghouse: clearingmarginsanddailysettlements.
+⇒ Nocounterpartyorcreditrisk.
+AtransactioninanOTCmarket:
+(cid:63) Isdonewithanyimaginableinstrumente.g. forwardsorexoticoptions.
+(cid:63) Buthasnoguaranteethatthetradingpartswillhonourtheagreement.
+⇒ Counterpartyorcreditrisk.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents III
+Brokers
+Theyaremiddlemen: linkbetweeninvestorsandfinancialmarkets.
+Ingeneraltheyparticipateinexchanges,buttheycanalsohaveOTCclients.
+Theychargeafee: fixed(accountmanagement)and/orpercontracttraded
+(unitarypriceorpercentageofwholetransaction).
+Theirgoodreputationisaguaranteeofthetrade: investorswhodonotknow
+eachothercanbuyorsellassetsinfullconfidenceviathebroker.
+Profitmadebyvolume.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents IV
+Market-makers
+Theyareagentswhobuyandsellassetsinfinancialmarket.
+Theymakefirmquotes: oncetheyshowapriceandavolume,theyareboundto
+tradeatthoseconditionsifthereisawillingcounterparty.
+⇒ Liquidityproviders.
+Theirbuying(bid)priceissmallerthantheirselling(ask)price.
+⇒ Oneachbuy-and-selltransactiontheyearnthespread: thedifferencebetweenthe
+askandthebidprices.
+Smallsavers
+Theyputtheirmoneyinretailbanks,earninganinterestrate.
+Ifthereistrustinthebank,saversleavetheirmoneyinside;ifthereisnotrust
+theywithdrawtheirmoney.
+Whenseveralsaverswithdrawtheirmoneyatthesametime,thebankcan
+becomeinsolventorbankrupt: bankrun.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents V
+Smallinvestors
+Peoplewithlessthan100kUSD.
+Theydonothaveaccesstoallfinancialservicesdirectly: theygothrough
+middlemen(e.g. brokersandinvestmentbanks).
+Theyhaveaninformationdisadvantagewithrespecttofinancialservices
+providers⇒morelegalprotection.
+Qualifiedinvestors
+Legalpersons(individuals)withmorethan250kUSD.
+Theyareconsideredtohavethesameinformationandsophisticationthanany
+financialservicesprovider⇒lesslegalprotection.
+Theycanaccesscomplexinvestmentstrategieswithhigherreturn(but
+potentiallyhigherrisk).
+Theytendtosearchforhighreturnswithashort-andmiddle-terminvestment
+horizon(lessthan5years).
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents VI
+Institutionalinvestors
+Theyarelegalentities(notindividuals)withcapitalover100MUSD.
+Theyareassophisticatedasqualifiedinvestors: accesstoallassetclassesand
+investmentstrategies.
+Theyhaverestrictionsandcontrolsduetolawandinternalmandates: pension
+funds,sovereignfunds,insurers,reinsurers,etc.
+For(re)insurers,thiswillchangewithSolvencyII:theywillbemorelikeasset
+management.
+Theytendtodiversifytheirriskandlookforstablelong-termreturns(10+years).
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents VII
+Assetmanagement
+Theyareprofessionalsofportfoliomanagement(assetsorbasketsofassets).
+Theyinvestonfinancialinstrumentsonbehalfoftheirclients: qualifiedinvestors,
+institutionalinvestors.
+Insomecases,theycanmanagemoneyfromsmallinvestorsviapooling,
+investmentvehicles,etc...
+TheychargeafeeontheamountofmoneyinvestedinthemorAUM(Assets
+UnderManagement).
+Dependingontheirmandatetheycanusedifferentstrategieswithdifferent
+investmenthorizons.
+Theyhaveriskmanagementpoliciesandcanusedifferentriskmeasures: Sharpe
+Ratio,MaximumDrawdown,Value-at-Risk(VaR),ExpectedShortfall(CVaR),
+stresstests,MonteCarlo,etc.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents VIII
+Proptraders
+Theyspeculateincapitalmarketswiththeirownmoney.
+⇒ Theyhavethehighestflexibilityoninvestmentstrategies: derivatives(vanilla,
+exotic,structured),high-frequencytrading,etc...
+BeforetheDodd-Frankreform,inparticulartheVolckerRule:
+(cid:63) Bigcommercialbanksusedtohavetheirownproptradingdesks: dedicated
+teamsspeculatingonbehalfofthefirm.
+(cid:63) Proptradingteamswerelegallyandaccountablyseparatedfromtherestof
+theinvestmentbank.
+(cid:63) Nowproptradinginbanksisalmostbanned,butmarket-makersinbanksare
+exoneratedoftheVolkerrule.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents IX
+Arbitrageurs
+Anarbitrageistotakeadvantageofamarketinefficiency.
+Anarbitrageurisgenerallyaspeculator,buttheirroleistomakemarketsmore
+efficient.
+Examplesofarbitrage:
+Pricesormispricingarbitrage: buyandsellinstrumentsthatarefarfromtheir
+fundamentalprice.
+Venuesorspacearbitrage: buyandsellthesameproductintwodifferent
+markets,cashingthepricedifference.
+Timevalueorterm-structurearbitrage: interestratesandvolatility,calendar
+strategieswithoptions.
+Statisticalarbitrageorstatarb: spotandexploitpricepatternsthatare
+statisticallyrobust.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents X
+Primebrokers
+Primebrokersorcreditlinesarethebankersofinvestmentmanagementfirms. The
+servicestheyofferare:
+Borrowmoneytofundmanagers,sotheycanbuyassets.
+Borrowassetstofundmanagers,sotheycanshort-sellthem.
+Theyassumethecounterpartyriskofthefund: theirreputationandduediligence
+arevital.
+Theyofferlegal,accountableandcommercialadvisoryandsupport.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Description of financial agents XI
+Hedgefunds
+Theyusesophisticatedandinnovativeinvestmentstrategies:
+(cid:63) Technicalandfinancialknowledgeabovecompetitors.
+(cid:63) Morerigorousriskmanagementthantraditionalassetmanagers.
+Theyareveryactivei.e. highturnover,unliketheclassicbuy-and-holdstrategies.
+Theychargehighfees,bothonAUMandonperformance,buttheyguaranteean
+absolutereturn.
+⇒ Veryaggressivebusinessmodel: only50%surviveafter3yearsoflaunch.
+Generallytheyaresmallandlookforinvestmentniches: smallisbeautiful.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+In summary ...
+ZoologyoftheFinancialMarkets
+Retailbanks.
+Investmentbanks.
+Markets: exchangesandOTC.
+Middlemen: brokersandmarket-makers.
+Smallsavers(retailagents).
+Smallinvestors.
+Institutionalinvestorse.g. pensionandsovereignfunds.
+Portfolio/assetmanagers.
+Proptraders.
+Arbitrageurs.
+Primebrokers.
+Hedgefunds.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+1 ZoologyofFinancialMarkets
+2 HedgeFunds
+3 Leverage,short-sellingandderivatives
+4 Conclusions
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Hedge funds and their ecosystem
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Different return philosophy I
+CapitalAssetPricingModel(CAPM):alphaandbeta
+Thealphaandbetaofafinancialasset(orinvestmentfund)aredefinedas
+r =α+βr +ε,
+A M
+wherer isthereturnoftheasset(orfund),r themarketreturnandεisa
+A M
+zero-meanerror(orthogonaltor ).
+M
+βr isthepartofthereturnthatisexplainedbythemarketreturnr andthe
+M M
+correlationbetweenr andr : β isthemarketexposure.
+A M
+αisthepartofthereturnthatisnotexplainedbymarketfluctuations: theHoly
+Grialoftheassetmanagement.
+AccordingtotheEfficientMarketTheory(EMT),weshouldhaveα=0.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Different return philosophy II
+Relativereturn
+Itistheextrareturnwithrespecttoabenchmark,e.g. themarketreturnr .
+M
+β isameasureofmarketexposure: ifβ>1theassetiscalledaggresiveor
+cyclical,ifβ<1itisdefensiveornon-cyclical.
+αmeasureshowskilledisthemanager: itistheexcessreturnoverthemarket
+exposure.
+Inthetraditionalassetmanagement,aslongasr >r themanagerisdoinga
+A M
+goodjob: stock-picking.
+However,onecouldhavethat0>r >r .
+A M
+Butthemanagerishappynevertheless: −10%isarelativereturnof+5%with
+respecttoa−15%benchmark,right?
+Butwhatisinrealitythemarketreturn? Indices,trackers,ETFs,etc.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Different return philosophy III
+Absolutereturn
+Itisareturnwithoutbenchmark: themantraofallhedgefunds.
+Thegoalistodeliverpositivereturns,uncorrelatedwiththemarket.
+⇒ Protectorhedgethemoneyofinvestors.
+Inotherwords,theabsolutereturnaimsforβ=0whilstmaximisingα.
+Butinordertohaveazeromarketexposure,themanagerneedsaminimum
+amountoflibertytoenterandexitherpositions.
+⇒ Aggressive,innovativeinvestmentstrategieswithrigorousriskmanagement.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Fees I
+The2%rule
+Atraditionalinvestmentfundchargesanannualfeeof2%onthetotalvalueof
+AssetsUnderManagement(AUM).
+Forexample,ifaninvestorbuys100MEURofthefund,themanagertakesa2M
+EURcutformanagingtheaccount.
+Ifthefund’sreturnisatleast2%abovethebenchmark,thefeeisjustified:
+(cid:63) Otherwise,theinvestorhasanegativenetreturnvsthebenchmark.
+Forcompetitiveness,thefundcanapplyasmallerAUMfee.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Fees II
+The2/20rule
+Ahedgefundalsochargesafeeof2%oftheAUM.
+Butthereisasecondfeethatdistinguisheshedgefundsfromtraditionalasset
+managers: theperformancefee.
+Theperformancefeecanvarybetween10%and20%,but20%isstandardinthe
+industry.
+Forexample,supposeahedgefundhasatotalreturnof10%:
+(cid:63) Theclientgetsanetreturnof8%=10%×(1−0.2).
+(cid:63) Thehedgefundpockets2%=10%×0.2.
+(cid:63) Totalfeecollectedbythehedgefundis4%=2%AUM+2%performance.
+⇒ Twicethefeeofatraditionalassetmanager.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Fees III
+Thehigh-watermarkandhurdleraterules
+Sincethe2/20feestructureishigh,investorsdemandguaranteesorinsurances:
+The20%performancefeeonlytriggersifthecumulativereturnofthefundis
+abovethelatestpeak: high-watermark.
+Theperformancefeetriggersonlyifthereturnisaboveacertainthresholdor
+hurdleratee.g. LIBOR(LondonInterbankOfferedRate)oT-notes(US
+Treasury).
+Thebusinessmodelofhedgefundsisveryaggressive
+Theyneedtodeliversustainablereturnsaboveboththehurdlerate(e.g. market)
+andotherassetmanagers.
+Anunluckyyear+high-watermarkcanblocktheperformancefeeforyears.
+⇒ Lowsurvivalrateofhedgefunds.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Fees IV
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Convergence of interests
+Hedgefunds: interestsalignedwithinvestors’
+Theinvestorsleavetheirmoneyinacommonaccount: pooling.
+Inahedgefund,managersandfoundersputtheirmoneyinthesamepooling:
+skininthegame.
+Thebonusesofemployeesareblockedforseveralyears,buteachyearthe
+correspondingamountisdepositedinthepooling.
+Moreover,theperformancefeetriggersonlyif:
+(cid:63) Thereturnisabovethehurdlerate.
+(cid:63) Thecumulativereturnisabovethehigh-watermark.
+⇒ Bothinvestorsandhedgefundmanagersareonthesameboat.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Light-handed regulation
+The3wishesofahedgefund
+Lightredtape: toaccessdifferentcapitalmarketsandreachmorepotential
+investors.
+Lowtaxes: thelowerthetaxes,thebiggerthenetreturnsfortheinvestors(and
+thefund).
+Libertyofmanagement: toaccessallpossibleinvestmentstrategiestomaximise
+αandminimiseβ.
+Inthesearchofthepromisedland
+Hedgefundsareaccountablylocatedintax-friendlylocations:
+Off-shore. TaxhavensoutsidethejurisdictionofUSandEU:e.g. Bahamas,
+Bermuda,CaymanIslands,VirginIslands.
+On-shore. Low-taxzoneswithinUSandEU:Delaware,Ireland,Luxembourg,
+Switzerland,Cyprus.
+Butmanagersarephysicallylocatedinfinancialcentres: NY,London,Paris,etc.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Limited access
+Forqualifiedinvestorsonly
+Tokeeptheirlegalexemptionsandasameasuretoprotectsmallinvestors,hedge
+fundsneedtosatisfy2conditions:
+Zeromarketing: itistheinvestorswhosollicitthehedgefund,nottheotherway
+around.
+(cid:63) Thisisabouttochange: theSECliftedthemarketingbanonJuly2013.
+Onlyforhigh-net-worthindividuals:
+(cid:63) atleast1MEURofassets,
+(cid:63) oranannualsalaryabove200kUSDinthelast2years(300kUSDfor
+marriedcouples),
+(cid:63) andwithaminimalinvestmentinthehedgefundof125kEUR.
+Thegoalisthatonlythoseindividualswithsufficientfinancialknowledgeandmoney
+shouldinvestinhedgefunds.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Aggressive and innovative investment strategies I
+Hedgefundsareheterogeneous
+AccordingtoHedgeFundResearchInc.,hedgefundscanbe:
+Equity: market-neutral,fundamental(growth/value),quantitativedirectional,
+sector-based,shortbias.
+Eventdriven: activist,creditarbitrage,distressed/restructuring,mergerarbitrage,
+privateequity.
+Macrodiscretionaryorsystematic: activetrading(HFT),commodities,currency.
+Relativevalue: asset-backed,convertiblearbitrage,fixed-income(corporateor
+sovereign),volatility,realestate.
+Multi-strategy: amixofseveralofthepreviousstrategies.
+Fundoffunds: aportfolioconsistingonseveralhedgefunds.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Aggressive and innovative investment strategies II
+The3jewelsofahedgefund
+Leverage:
+(cid:63) ItallowstotakepositionsworthmorethantheAUM.
+(cid:63) Itamplifiesprofits: leverage=(cid:96)⇒profit=return×(cid:96).
+(cid:63) Butitalsoamplifieslosses: handlewithcare.
+Short-selling:
+(cid:63) Itiscommonlyreferredas“sellingwhatyoudonotown”,butismore
+complexthanthat.
+(cid:63) Thefundcanonlysellthoseassetstheprimebrokerborrows,payingafee
+(interestrate).
+(cid:63) Itallowstobuyandsellassets: ridethewaveupwardordownward.
+Derivatives:
+(cid:63) Theyprovideprofitsunderspecificmarketconditions: pay-off.
+(cid:63) Theyhaveleveragestrongerthannormalassets.
+(cid:63) Butbeware: onecanlosemorethantheinitialbete.g. nakedoptions.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+In summary, what is a hedge fund?
+Ahedgefundisaninvestmentfund...
+1 Withadifferentphilosophyofreturn: absolutereturn.
+2 Withperformancefees,highwatermarkandhurdlerate.
+3 Withmanagersandinvestorssharingthesamegoal: skininthegame.
+4 Withlightregulation: locatedinlow-taxzones.
+5 Withlimitedliquidityandaccess: onlyqualifiedinvestorsandwithdrawalsat
+specificdates.
+6 Withdiverseinvestmentstrategiesbutalwaysusingleverage,short-sellingand/or
+derivatives.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Remarks on the hedge fund industry I
+Intheory,hedgefundsarenotmarketbeaters
+AbsolutereturnmeanspositivereturnsinALLmarketconditions.
+Hedgemeanstoprotect/coverpositions,reducingmarketexposure.
+Alphameansreturnsdecorrelatedfrommarketfluctuations.
+Bymarketefficiency⇒hedgefundsareexpectedtohavereducedreturnswhen
+marketsarebullish.
+Inpractice,hedgefundscanbemarketbeaters
+Usingalpha,betaandleverage,hedgefundscanbeatthemarketsystematically:
+Inbullishmarkets⇒maximiseandleveragebeta.
+Inbearishmarkets⇒minimisebetawhilstmaximisingandleveragingalpha.
+Ifalphaisbigenoughandbetaissmall⇒leveragealphaandforgetaboutbeta.
+⇒ Nohedgingbutrathermakingleveraged,speculativebets.
+⇒ Aninvestmenttoogoodtobetrueisprobablyso,e.g. bubbles,subprimes,
+Madoff.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Remarks on the hedge fund industry II
+Performance2013forStandard&Poors(S&P)
+S&P500istheindexofthe500biggestmarketcapitalisationswithcommon
+stocklistedonNYSEandNASDAQ.
+S&P500made29.60%in2013,or32.39%includingdividends.
+AnS&P500tracker(traditionalfund)askfeesaround0.70%forretailinvestors
+and0.35%forinstitutionalinvestors.
+AnS&P500ETF(exchange-tradedfund)askfeesaround0.40%foreveryone.
+⇒ Investingintrackers/ETFsin2013wouldhaveyielded29%.
+Hedgefundshavenotbeenverysuccessfullately
+Thelasttimehedgefundsbeatthemarketwasin2008: −19%vs−37%.
+In2013hedgefundsmade7.4%ofnetaveragereturn.
+Only10outofthe100bestlarge(+1bnUSD)hedgefundsoutperformedthe
+S&P500.
+Althoughthebesthedgefundmade84.2%.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+1 ZoologyofFinancialMarkets
+2 HedgeFunds
+3 Leverage,short-sellingandderivatives
+4 Conclusions
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Leverage I
+Definition
+Theleverageisthequotientofthetotalvalueofthefund’spositionsoverthe
+totalvalueofthefund’sassets:
+positions
+leverage=
+AUM
+Forexample,ifahedgefundhas1MEURofAUMandatotalexposureof3M
+EURthenitsleverageis3.
+Duringthe2007crisis,theinvestmentbankshadaleverageof30.
+TheBaselIIrulesrequirebankstoholdliquidassetsofatleast8%oftheirtotal
+positions,i.e. aleverageofmaximum12.5.
+However,BaselIIIrequiresatleast10.5%of liquidassets,i.e. aleverageof
+maximum9.5.
+Historically,hedgefundshavebeenbelow5(currentlyitisaround1.5).
+Butwhatisaliquidassetanyway?
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Leverage II
+Example1: buyingatmargin
+Supposethehedgefundhas1MEURofAUM.
+Theprimebrokerauthorisesacreditlineof2MEUR,i.e. a50%marginor
+leverage=2.
+Thefundbuys2MEURofastockofunitarypriceof10EUR,i.e. 200kstocks.
+Whathappensifthethestockgoesupto10.10?
+(cid:63) Profitof10%inthemarket.
+⇒ Profitof10%×2=20%forthefund.
+Butwhatifthestockgoesdownto9.90?
+(cid:63) Lossof10%inthemarket.
+⇒ Lossof10%×2=20%forthefund.
+Iftheprimebrokerauthorisesamarginof5%i.e. aleverage=20:
+(cid:63) Aprofitof10%inthemarket⇒aprofitof200%forthefund.
+(cid:63) Butalossof10%inthemarket⇒alossof200%forthefund.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Leverage III
+Example2: carrytrade
+Thehedgefundopensacreditlinewithitsprimebrokerto:
+(cid:63) Buy1MUSDofhigh-yieldbondse.g. Mexico’sat4%.
+(cid:63) Sell1MUSDoflow-yieldbondse.g. USat1%.
+Thehedgefundpocketsthedifferenceorspread
+4%−1%=3%
+Ifthefundhasaleverageof5(i.e. a20%margin)thenitsprofitis:
+3%×5=15%
+Risksoncarrytrade:
+Thehigh-yieldbondhasahighercreditriskthanthelow-yieldbond: market
+primeofrisk.
+Ifthespreadistoosmall,smallchangesinmonetarypoliciescankillthedeal.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Leverage IV
+Risksofleverage
+Leverageisadouble-edgedswordsinceonecanlosemorethantheinitialbet:
+Itisnotforeveryone,onlyknowledgeableinvestorsshoulduseit.
+Buttherearealotofwebsitesforretailtradingwithleverageabove400:
+⇒ Forexample,aFrenchForexbrokeroffersacreditlineof800kEURvs2kEURof
+deposit.
+⇒ Adropof0.5%onthetradedcurrencyimpliesalossof200%forthetrader.
+Whenretailtraderslosemoremoneythanwhattheybetbecausetheydonot
+understandwhatisleverage,whoistoblame?
+Moralofthetale
+Atraderneedstounderstandtherisksofinvestinginaleveragedinstrument.
+Otherwise,theycangetburntasIcarus.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Short-selling I
+Definition
+Ashortsellistosellanassetnowwiththeideaofbuyingitbacklaterata
+smallerprice,makingaprofit.
+Butshort-sellingismorethanjustsellingwhatyoudonotown:
+(cid:63) Thefundhastoborrowtheassettoitsprimebroker.
+(cid:63) Thefundpaysafee(interestrate)forborrowingtheasset.
+(cid:63) Thefundhastoreturntheborrowedassetwhentheprimebrokerwantsit
+back.
+⇒ Short-sellingisprofitableforthefundonlyiftheexpectedreturnisgreaterthan
+theprimebroker’sinterestrate.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Short-selling II
+Example1: short-sellingstocks
+AhedgefundbetsthanAdidaswillendthedayataloss.
+Thehedgefundborrowsfromhisprimebroker1MEURworthofAdidasstocks.
+Assumethanthefundpaysafeeof0.1%forborrowingthestock:
+(cid:63) IfAdidasgoesdown1%thefundgetsaprofit:
+−(−1%)−0.1%=+0.9%
+(cid:63) ButifAdidasgoesupby1%thefundloses:
+−(+1%)−0.1%=−1.1%
+⇒ Asymmetricbet: Withshort-sellingthereismoreriskthanwithlong-only
+positions.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Short-selling III
+Example2: leverageandlong/short
+Ahedgefundhas1MEURofAUM
+Thefundopensacreditlinewithitsprimebrokerto:
+(cid:63) Buy2MEURofL’Or´eal: longleg
+(cid:63) Sell1MEURofCarrefour: shortleg
+⇒ Theleverageisthus
+2M+1M 3M
+= =3
+1M 1M
+Along-onlyfundcannotshort-sell: theonlywaytobeatthemarketistopick
+stocksthatoutperformthemarket.
+Traditionallong-shortfundsfollowthe150/50rule: upto150%ofAUMinlong
+positionsandupto50%inshortpositions⇒leverage=2.
+Hedgefundshavetotallibertyonhowmuchtheycanlongorshort,aslongas
+theyrespecttheleverageauthorisedbytheirprimebroker.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Short-selling IV
+Example3: market-neutralportfoliosandpairtrading
+Apair-tradingstrategyconsistsinbuyingoneassetandsellinganother,both
+stronglycorrelated: e.g. HSBCandBarclays.
+Amarket-neutralportfolioP isbuiltbybuyingx sharesofHSBCandsellingy
+sharesofBarclays,suchthatthemarketexposureofP iszero:
+β =xβ −yβ =0
+P HSBC Barclays
+IfHSBCandBarclaysarestronglycorrelatedthentheytendtomovetogether:
+β =β
+HSBC Barclays
+ThespreadHSBC–Barclaysconsistsonbuying1shareofHSBC(longleg)whilst
+selling1shareofBarclays(shortleg).
+Thebetisthatthespreadhasamean-revertingdynamic: HSBCandBarclays
+canlosemomentarilytheircorrelation,butthemarketwilleventuallycorrectit.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Short-selling V
+Oneofmanystatarbstrategies: mean-revertingpair-trading.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Derivatives I
+Properties
+Theyhaveanintrinsicleverageeffect: options,CDS,CDO,etc.
+Theyallowtheinvestortohavespecificreturnprofiles: payoff.
+⇒ Hugepotentialofdiversificationandhedging.
+⇒ Theyneedarigorousandsophisticatedriskmanagement: dynamichedgingto
+controlthesensitivitiestothemarketorgreeks.
+Theycanbestandardised(listed)orcustomised(over-the-counter).
+Theycanbeascomplexastheinvestmentbankthatsellsthemandtheinvestor
+whobuysthemcanafford.
+⇒ Realisticandrobustmathematicalmodelsarecrucial.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Derivatives II
+Example1: intrinsicleverageeffectofderivatives(1/2)
+Supposewebuyacalloptiononastockwiththefollowingparameters:
+SpotpriceS =100EUR.
+StrikeK =100EUR.
+MaturityT months.
+TwopossibleoutcomesattimeT:
+P[S(T)=101]=P[S(T)=103]=1/2
+⇒ Priceoftheoptionis2EUR:
+E[(S(T)−K)+]=(101−100)×1/2+(103−100)×1/2=2
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Derivatives III
+Example1: intrinsicleverageeffectofderivatives(2/2)
+SupposethatS(T)=103EUR:
+Ifweboughttheassetthenthereturnis3%: +3EURfrom100EURinvested.
+Ifweboughttheoptionthenthereturnis50%: +1EURfrom2EURinvested.
+ButifS(T)=101EUR:
+Theassetreturnis1%: +1EURfrom100EURinvested.
+Theoptionreturnis−50%: −1EURfrom2EURinvested.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Derivatives IV
+The“Greeks”
+Everyderivativeproduct(e.g. anoption)hasseveralparameters:
+Derivative=C(S,t,K,T,r,σ)
+Foreachparameter,asensibilityorgreekiscomputed:
+Spotprice: ∂C =∆(delta)
+∂S
+Time: ∂C =Θ(theta)
+∂t
+Delta:
+∂2C
+=Γ(gamma)
+∂S2
+Interestrate: ∂C =ρ(rho)
+∂r
+Volatility: ∂C =V (vega)
+∂σ
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Derivatives V
+Example2: market-neutralportfoliosandderivatives
+Aninvestorbuys/sellsaderivativeC: avanilla/exoticoption,aCDS,etc.
+Thederivative’ssensitivitytothemarketismeasuredby∆,i.e. thefluctuations
+oftheassetpriceS.
+Inordertohedgethederivative,theinvestorbuysa(signed)quantity∆ofshares.
+Aportfolioismarket-neutralifitishedgedagainstmarketrisk.
+ThetotalportfolioP=C−∆S ismarket-neutral,i.e. insensitivetofluctuations
+inS:
+∆(P) = ∂P/∂S
+= ∂C/∂S−∆=0.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Derivatives VI
+Imperfect∆-hedge
+Themarket-neutralityofaportfolioP via∆-hedgeisnotperfect:
+First-orderhedge: ∆(P)iszerobutnotnecessarilyΓ(P).
+The∆-hedgehastobedoneinfinitelyoften: impossiblebecauseoftransaction
+costs(broker’sfees,taxes,overnightinterestrates,etc).
+∆canbeanynumber,butinpracticeithastobeaninteger: wecannotbuy/sell
+3.1416shares,canwe?
+⇒ The∆-hedgeofatraderisdonewithinthelimitsofariskbudget,i.e. the
+minimumandmaximumexposureincurrency(notinshares):
+∆min<∆<∆max.
+Buthowistheriskbudgetdefined? Askyourriskmanager.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+1 ZoologyofFinancialMarkets
+2 HedgeFunds
+3 Leverage,short-sellingandderivatives
+4 Conclusions
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+Final comments
+Summaryofthispresentation
+Wedescribedthefinancialzoologyandhowalldifferentagentsinteractinthis
+competitive,highlyadaptiveecosystem.
+Weexplainedwhatisahedgefundanddistilledtheirmaincharacteristics.
+Wesawindetailtheinvestmenttoolsofahedgefund: leverage,short-sellingand
+derivatives.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+References I
+Articles
+AndrewLo(2004)Theadaptivemarketshypothesis. JournalofPortfolio
+Management.
+EverettEhrlich(2011)Thechangingroleofhedgefundsinthegobaleconomy.
+PreprintSSRN.
+Booksonhedgefunds
+GuillaumeMonarcha,JerˆomeTe¨ıletche(2013)Leshedgefunds. LaD´ecouverte.
+RobertJaeger(2003)Allabouthedgefunds. McGraw-Hill.
+Franc¸ois-SergeLhabitant(2007)Handbookofhedgefunds. Wiley.
+SebastianMallaby(2010)MoreMoneythanGod. Bloomsbury.
+MauricioLABADIE FinancialZoologyandHedgeFunds
+
+ZoologyofFinancialMarkets
+HedgeFunds
+Leverage,short-sellingandderivatives
+Conclusions
+References II
+Booksonderivatives
+JohnHull(2011)Options,futuresandotherderivatives. Pearson.
+StevenShreve(2004)StochasticcalculusforFinance,volumes1and2. Springer.
+AlbertShyriaev(1999)EssentialsofstochasticFinance: facts,models,theory.
+WorldScientificPublishing.
+PaulWilmott(2006)QuantitativeFinance,3volumes,Wiley.
+MauricioLABADIE FinancialZoologyandHedgeFunds

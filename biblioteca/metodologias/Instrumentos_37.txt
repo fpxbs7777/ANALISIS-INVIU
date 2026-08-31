@@ -1,0 +1,753 @@
+Decisiones
+Financieras
+Ricardo Pascale
+Ediciones MACCHI
+Buenos Aires
+Este material se utiliza con fines
+exclusivamente didácticos.
+
+CAPÍTULO 37
+INSTRUMENTOS DE PLANIFICACIÓN FINANCIERA
+OBJETIVOS DE APRENDIZAJE
+• Analizar el proceso de la planificación financiera, en especial la de corto plazo.
+• Exponer la construcción de un sistema presupuestario de corto plazo, con desarrollo de los elementos
+que cada uno de los presupuestos debe tener.
+• Vincular cada uno de los presupuestos que generan información con los productos finales de la planifi-
+cación, esto es, el presupuesto del fluir de caja, el presupuesto del estado de resultados y el presupuesto
+del estado de situación.
+37,1. PLANIFICACIÓN FINANCIERA DE CORTO Y DE LARGO PLAZO
+En este capitulo, dentro del proceso de planificación financiera, se verán con mayor intensidad los
+aspectos vinculados al corto plazo. La planificación financiera no debe considerarse como un ejercicio arit-
+mético en el que se efectúan presupuestos. Es una actividad multidisciplinaria en la cual debe existir, entre
+los participantes, una compenetración de los objetivos de la firma y de sus estrategias. Ellas se resumen de
+alguna forma en las tres grandes decisiones financieras de la empresa, esto es: inversión, financiamiento y
+dividendos.
+La planificación financiera puede, a efectos más bien pedagógicos, distinguirse en; planificación fi-
+nanciera de largo plazo y de cono plazo.
+La planificación financiera de largo plazo, frecuentemente conocida como estratégica, busca cubrir
+fundamentalmente dos aspectos:
+– la planificación de las acciones financieras de largo plazo;
+– la anticipación del impacto financiero de esas acciones,
+Habitualmente, esta planificación opera en un horizonte temporal de cinco años aunque, a veces,
+puede llegar a diez o reducirse a dos o tres.
+Naturalmente este horizonte, en particular en contextos inciertos y cambiantes, es revisado con pe-
+riodicidad, a la vez que en toda oportunidad que la evolución de los hechos, que puedan afectar con cierta
+intensidad a la firma, lo amerite.
+El contenido básico de la planificación financiera de largo plazo está compuesto por distintos ele-
+mentos, entre los que se destacan:
+– Objetivos y metas que se persiguen en el largo plazo.
+– Estrategias de la empresa, donde se establece la forma en que se proyecta alcanzar las metas establecidas.
+– Planeamiento de las acciones a realizar, por ejemplo, planes de desarrollo de productos, de penetración
+en nuevos mercados, de reorganización empresarial.
+La planificación financiera de largo plazo también incluye desarrollo de los clientes y adiestramiento
+de recursos humanos, entre otros aspectos.
+Definida la planificación financiera de largo plazo, de ella surgen los elementos básicos para la pla-
+nificación financiera de corto plazo.
+La planificación financiera de corto plazo, también conocida como operativa, trata de:
+– planificar las acciones financieras de corto plazo;
+– anticipar el impacto financiero de esas acciones.
+La planificación financiera de corto plazo, que cubre habitualmente un año, culmina en lo que se podría lla-
+mar los tres productos principales de la misma, que son:
+– Presupuesto del fluir de caja (PFC).
+2
+
+– Presupuesto del estado de resultados (PER).
+– Presupuesto del estado de situación (PES).
+La secuencia para la elaboración de estos estados proyectados no es necesariamente única para todo
+tipo de empresas.
+En cualquier caso, se efectúan consideraciones que puedan tener algún grado general de aplicabili-
+dad o, al menos, ser una referencia útil en el seguimiento del tema.
+La obtención de los tres estados señalados (coloreados en la fig. 37,1), se nutre de ciertos insumos
+que conforman el resto de la figura.
+Dentro de los insumos referenciados, el presupuesto de ventas aparece como pivote y da, en alguna
+medida, el tono general al resto de la planificación.
+Un presupuesto de ventas contiene un conjunto de información básica para la planificación financie-
+ra de la empresa: el tipo de productos que se proyectan vender, sus volúmenes, sus precios, su distribución
+temporal, su distribución geográfica, la forma de comercialización por canales, por financiación y el esfuerzo
+publicitario.
+La confección de un presupuesto de ventas toma, entonces, datos de la evolución macroeconómica y
+también información interna de la empresa.
+Como se observa en la fig. 37,1 todo el sistema de planificación financiera está inmerso en un con-
+texto económico y político que se proyecta para el año de la planificación.
+Es importante considerar el contexto político por sus repercusiones sobre el devenir económico del
+país. Un cambio de gobierno o la proximidad de un acto eleccionario importante, a veces, traen repercusio-
+nes económicas que se pueden explicitar en el momento o en un futuro más o menos cercano.
+El contexto económico general es también de vital importancia para la planificación. En efecto,
+además de la proyección de algunas variables económicas clave es esencial tener un claro entendimiento de
+las políticas económicas gubernamentales doméstica e internacional. Las repercusiones sobre la empresa de
+un área de integración económica, como es el Mercosur, pueden ser, a veces, trascendentes para la situación
+de la empresa.
+En función de las variables económicas, que es importante proyectar para el plan financiero, apare-
+cen:
+• Nivel de actividad económica (PBI global y sectorial):
+• Consumo global.
+• Precios al consumo.
+• Precios mayoristas.
+• Empleo.
+• Poder de compra.
+• Tipo de cambio.
+• Tasas de interés.
+• Crédito.
+El análisis, detallado de la proyección macroeconómica escapa a los objetivos del texto; en todo ca-
+so, su inclusión en una proyección es necesaria.
+Los tres estados fiscales se nutren de insumos que surgen, en buena medida, del presupuesto de ven-
+tas. Entre ellos, el presupuesto de producción, donde se prevén la producción, los inventarios, el desarrollo
+en el tiempo de aquélla, así como los insumos necesarios para completar la producción final.
+Los presupuestos de inversiones en activos fijos y el presupuesto de recursos humanos necesa-
+rios para llevar adelante los planes y las ventas de la firma, así como el plan financiero, esto es, cómo se
+está pensando financiar la actividad de la empresa, complementan los insumos proyectados.
+Debe señalarse, además, un insumo de información que no es proyectada, es decir, los estados fi-
+nancieros actuales, que aportan datos que suelen ser básicos para asentar las proyecciones.
+Con los anteriores insumos se puede elaborar el estado de resultados proyectado, que luego, a la luz
+del presupuesto del fluir de caja, puede tener una nueva retroalimentación de información que también al-
+canza naturalmente al estado de situación proyectado. Esto es, podría decirse que se elaboran estados finan-
+cieros que luego se van refinando para llegar a las proyecciones finales.
+3
+
+Figura 37,1. Esquema de la planificación financiera de corto plazo
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. En qué consiste la planificación financiera de corto plazo.
+2. Definir un esquema de planificación financiera.
+37,2. DESARROLLO DE UN CASO DE PLANIFICACION FINANCIERA DE CORTO
+PLAZO
+Una vez efectuado el ejercicio empresarial de fijar objetivos, metas estrategias y acciones, que en-
+marcarán la administración para el próximo año, es preciso definir las estimaciones de la evolución de las
+distintas variables que operarán en el contexto económico.
+Con estos elementos se está en condiciones de empezar a transitar la aritmética del sistema de plani-
+ficación financiera, en este caso, de corto plazo.
+4
+
+Se ha pensado que es oportuno efectuar el tratamiento del mismo a través del desarrollo de un ejem-
+plo. La casuística intrínseca que tiene el tema siempre va a ser parcial para su aplicación a un nuevo caso,
+aunque se expone con la esperanza de que pueda ser de utilidad para dar un marco general de referencia.
+La secuencia de esta aritmética sería como sigue:
+Estados financieros actuales
+Al 31/12/98 los estados financieros son:
+ESTADO DE SITUACION PATRIMONIAL
+Activo
+Caja y bancos 285.000
+Créditos por ventas 3.000.000
+Otros créditos 230.000
+Bienes de cambio
+– Materias primas 1.800.000
+– Productos terminados 1.200.000 3.000.000
+Total activo corriente 6.515.000
+Bienes de uso
+– Terrenos 325.000
+– Edificios 3.000.000
+– Depreciaciones Acumuladas Edificio (600.000) 2.400.000
+– Máquinas e Instalaciones 3.700.000
+– Depreciac. Acum. Máquinas e Instalaciones (1.500.000) 2.200.000 4.925.000
+Total activo 11.440.000
+Pasivo
+Proveedores 1.450.000
+Préstamos bancarios 9l5.000
+Sueldos y jornales a pagar 330.000
+Acreedores por leyes sociales 194.000
+Acreedores fiscales 776.000
+Total pasivo corriente 3.665.000
+Deudas a largo plazo 2.000.000
+Total pasivo no corriente 2.000.000
+Capital integrado 2.000.000
+Reserva p/revaluación de bienes de uso 1.800.000
+Utilidades retenidas 1.176.000
+Utilidades del ejercicio 799.000
+Total patrimonio 5.775.000
+Total pasivo y patrimonio 11.440.000
+ESTADO DE RESULTADOS
+Ventas 9.452.000
+Costos variables (2.900.000) 6.552.000
+Costos fijos (3.887.000)
+Prev. impuesto al patrimonio (110.000) (3.997.000)
+Ganancia antes de impuestos e intereses 2.555.000
+Costos financieros (1.490.000)
+Ganancia antes de impuestos 1.065.000
+Impuesto a la renta (266.000)
+Ganancia neta 799.000
+5
+
+Presupuesto de ventas
+Las ventas, que se distribuyen uniformemente en el tiempo, se han estimado en volumen y en precio
+para cada semestre de la siguiente forma:
+Unidades Precio unitario
+1er. semestre 25.000 por mes $ 50
+2do. semestre 30.000 por mes $ 55
+Las ventas se realizan un 100% a crédito pasando, en el ejercicio 1999 que se proyecta, a 90 días de
+plazo. Las ventas, al igual que las compras, están gravadas con el impuesto al valor agregado del 18%, que se
+paga a los 90 días del mes en que se generó el impuesto.
+Los datos del presupuesto de ventas van a alimentar de información a los presupuestos finales (resul-
+tados, situación y caja).
+Las ventas serían entonces:
+1er. semestre 2do. semestre Total
+Unidades físicas 25.000 x 6 = 150.000 30.000 x 6 = 180.000 330.000
+Unidades monetarias 50 x 150.000 = 7.500.000 55 x 180.000 = 9.900.000 17.400.000
+de donde:
+PER: $ 17.400.000
+de donde:
+PFC 1er semestre = 4.425.000 = 25.000 unidades/mes · 3 meses · 50 $/unidad · 1,18 (inclusión del IVA)
+PFC 2do semestre = 10.266.000 = 4.425.000 + 30.000 unidades/mes · 3 meses · 55 $/unidad · 1,18 (inclusión
+del IVA)
+Estos datos corresponden a las ventas proyectadas para 1999. A fines de 1998 existe un stock de
+cuentas a cobrar de ventas efectuadas durante el año por $ 3.000.000 que, como la política de créditos es a
+120 días de plazo, ingresarán en el primer semestre.
+De donde:
+PFC: 1er. semestre 3.000.000
+Para el presupuesto de estado de situación se tiene como cuentas a cobrar:
+PES = 5.841.000 = 30.000 unidades/mes · 3 meses · 55 $/unidad · 1,18 (inclusión del IVA)
+Presupuesto de producción
+Los costos variables unitarios que se asumen que se pagan al contado son:
+1er. semestre 2do. semestre
+Materia prima (2 kilos por unidad) $ 7 el Kg. $ 9 el Kg.
+Mano de obra directa (1 hora por unidad) $ 5 la hora $ 6 la hora
+Gastos variables de fábrica $ 3 por unidad $ 5 por unidad
+Los costos fijos de producción, administración y ventas (incluyendo depreciaciones) son: $ 320.750
+y $ 380.750 para el primero y segundo semestres, de los cuales son remuneraciones personales $ 200.000 y
+$ 240.000, respectivamente. Se supone que también se pagan al contado.
+La política de inventarios de materias primas y de productos terminados es mantener 4 meses de ven-
+tas proyectadas, revisándolas cuando Sea necesario.
+6
+
+Al 31/12/98, el inventario de materias primas era de 300.000 Kg. inventariados a $6 el kilo y el de
+productos terminados de 100.000 unidades a $12 por unidad.
+La empresa utiliza el sistema FIFO sigla inglesa que significa “First In, First Out” o “Primero Entrado, Pri-
+mero Salido”–. Este es un método para valuación de existencias y determinación de costos.
+Cada mes debe producirse para un horizonte de 4 meses de ventas y debe comprarse para un horizonte de 4
+meses de producción.
+Existencia 4 meses 1er semestre = 25.000 unidades · 2 kgs/unidad · 4 meses
+Existencia 4 meses 2do semestre = 30.000 unidades · 2 kgs/unidad · 4 meses
+Stock inicial de productos terminados: 100.000 unidades
+Stock 4 meses: 1er. semestre: 25.000 x 4 = 100.000
+2do. semestre: 30.000 x 4 = 120.000
+1er. semestre 2do. semestre
+Meses 1 al 6: 25.000 x 6 = 150.000 u Mes 7: 30.000 + 20.000 = 50.000 u
+Meses 8 al 12: 30.000 x 5 = 150.000 u
+Sobre la base de la producción estimada en el año se confeccionan las proyecciones de compras, que son:
+Stock inicial de materias primas: 300.000 Kg. a $ 6 = $ 1.800.000
+Stock 4 meses: 1er. semestre: 25.000 x 2 x 4 meses = 200.000 Kg.
+2do. semestre: 30.000 x 2 x 4 meses = 240.000 Kg.
+1 2 3 4 5 6 Total
+ler. Semestre
+Unidades físicas (Kg.) – – 50.000 50.000 50.000 50.000 200.000
+Unidades monetarias ($ 7) – – 350.000 350.000 350.000 350.000 1.400.000
+7 8 9 10 11 12 Total
+2do. semestre
+Unidades físicas (Kg.) 140.000 (*) 60.000 60.000 60.000 60.000 60.000 440.000
+Unidades monetarias ($ 9) 1.260.000 540.000 540.000 540.000 540.000 540.000 3.960.000
+(*) Δ Stock de materias primas 40.000 Kg. + Δ Stock de productos terminados 40.000 Kg. + consumo mes 60.000.
+Las compras de 140.000 kilogramos en el mes 7 son porque en ese mes se producirán 50.000 unidades (30.000 por las
+ventas del segundo semestre y 20.000 por la elevación de existencias de productos terminados de 100.000 a 120.000)
+que equivalen a 100.000 kilogramos de materia prima, y por el incremento de existencias de materias primas de 50.000
+a 60.000 kilogramos por cuatro meses de producción, es decir 40.000 kilogramos adicionales).
+De ellas, para el presupuesto del flujo de caja, surgen como egresos los siguientes datos, sabiendo
+que los proveedores conceden un crédito de 150 días:
+1er. semestre: 0
+2do. semestre: 350.000 x 4 x 1,18 = 1.652.000
+1.260.000 x 1,18 = 1.486.800 3.138.800
+de donde:
+PFC: 1er. semestre 0
+2do. semestre $ 3.138.800
+Durante el primer semestre se producirá el pago de los proveedores que se deben al 31/12/98, esto
+es:
+7
+
+PFC: 1er. semestre 1.450.000
+En cuanto tiene que ver con el presupuesto de estado de situación al 31/12/99, las referencias a com-
+pras son:
+Stock materias primas al 31/12/99 ............ = 240.000 Kg. x 9 = 2.160.000
+Proveedores: 60.000 x 9 x 5 x 1,18 = 3.186.000
+de donde:
+PES-materias primas: $ 2.160.000
+PES-proveedores: $ 3.186.000
+Existencias de Materias Primas (en kgs.)
+Mes Al Inicio Compras Consumo Al final
+1 300.000 50.000 250.000
+2 250.000 50.000 200.000
+3 200.000 50.000 50.000 200.000
+4 200.000 50.000 50.000 200.000
+5 200.000 50.000 50.000 200.000
+6 200.000 50.000 50.000 200.000
+7 200.000 140.000 100.000 240.000
+8 240.000 60.000 60.000 240.000
+9 240.000 60.000 60.000 240.000
+10 240.000 60.000 60.000 240.000
+11 240.000 60.000 60.000 240.000
+12 240.000 60.000 60.000 240.000
+Existencias de Materias Primas (en $$$)
+Mes Al Inicio Compras Consumo Al final
+1 1.800.000 300.000 1.500.000
+2 1.500.000 300.000 1.200.000
+3 1.200.000 350.000 300.000 1.250.000
+4 1.250.000 350.000 300.000 1.300.000
+5 1.300.000 350.000 300.000 1.350.000
+6 1.350.000 350.000 300.000 1.400.000
+7 1.400.000 1.260.000 700.000 1.960.000
+8 1.960.000 540.000 420.000 2.080.000
+9 2.080.000 540.000 460.000 2.160.000
+10 2.160.000 540.000 540.000 2.160.000
+11 2.160.000 540.000 540.000 2.160.000
+12 2.160.000 540.000 540.000 2.160.000
+8
+
+Existencias de Productos Terminados (en unidades)
+Mes Al Inicio Producción Ventas Al final
+1 100.000 25.000 25.000 100.000
+2 100.000 25.000 25.000 100.000
+3 100.000 25.000 25.000 100.000
+4 100.000 25.000 25.000 100.000
+5 100.000 25.000 25.000 100.000
+6 100.000 25.000 25.000 100.000
+7 100.000 50.000 30.000 120.000
+8 120.000 30.000 30.000 120.000
+9 120.000 30.000 30.000 120.000
+10 120.000 30.000 30.000 120.000
+11 120.000 30.000 30.000 120.000
+12 120.000 30.000 30.000 120.000
+Existencias de Productos Terminados (en $$$)
+Costo de
+Mes Al Inicio Producción Al final
+Ventas
+1 1.200.000 500.000 300.000 1.400.000
+2 1.400.000 500.000 300.000 1.600.000
+3 1.600.000 500.000 300.000 1.800.000
+4 1.800.000 500.000 300.000 2.000.000
+5 2.000.000 500.000 500.000 2.000.000
+6 2.000.000 500.000 500.000 2.000.000
+7 2.000.000 1.250.000 600.000 2.650.000
+8 2.650.000 750.000 600.000 2.800.000
+9 2.800.000 790.000 600.000 2.990.000
+10 2.990.000 870.000 700.000 3.160.000
+11 3.160.000 870.000 750.000 3.280.000
+12 3.280.000 870.000 750.000 3.400.000
+Totales 8.400.000 6.200.000
+Existencia Final de Productos Terminados
+Materia Prima (40.000 un a $ 7+200.000 un a $ 9) 2.080.000
+Mano de Obra (30.000 un x 1 hr./un x 4 meses x $ 6) 720.000
+Gastos Fabricación (30.000 x 4 meses x $ 5) 600.000
+EFPT 3.400.000
+Proveedores
+Primer Se- Segundo
+mestre Semestre
+Deuda al Inicio 1.450.000 1.652.000
+Compras 1.652.000 4.672.800
+Sub-total 3.102.000 6.324.800
+Pagos -1.450.000 -3.138.800
+Deuda al Final 1.652.000 3.186.000
+9
+
+Luego, se procede a calcular los costos de mano de obra que impactarán en el PER, el PFC y el PES.
+Para el cálculo, se considera que los aportes patronales son el 35 % (que están incluidos en el sueldo) y el del
+empleado el 15%.
+1er. semestre
+Datos mensuales
+a) = jornales nominales + aportes patronales 25.000 hs. x 5 $/hr.= $ 125.000
+jorn. nom.+ ap. pat
+b) = jornales nominales = (*) 92.593
+1,35
+c) = aporte patronal 35 % b)x35% 32.407
+d) = aporte obrero 15 % b)x15% 13.889
+e) = jornal líquido 78.704
+Total semestre: 125.000 x 6 = 750.000
+2do. Semestre
+ler. Mes 2do. al 6to. mes
+a) 50.000 x 6 = 300.000 30.000 x 6 = 180.000
+b) 222.222 133. 333
+c) 77.778 46.667
+d) 33.333 20.000
+e) 188.889 113.333
+300.000 + 180.000 x 5 = 1.200.000
+(*) El costo total salarial (CTS) para la empresa es el “jornal nominal” –o sueldo bruto– (JN) más los aportes patronales
+(AP) –expresados a través de la Tasa de Aportes Patronales (TAP)– que se calculan sobre el jornal nominal, es decir:
+CTS = JN x (1+TAP) por lo cual JN = CTS / (1+TAP)
+Los datos para el PFC serían:
+125.000 x 5 = 625.000 125.000 + 300.000 x 180.000 x 4 = 1.145.000
+de donde:
+PFC: $ 1.145.000
+Asimismo, para el PFC se debe adicionar en el primer semestre el monto del saldo del rubro al
+31/12/98, por lo que:
+PFC: $ 330.000
+Para el PES, los cálculos a tener en cuenta son:
+PES: Jornales a pagar 31/12/99 113.333
+Y
+PES: Acreedores por leyes sociales $ 66.667
+10
+
+Los gastos variables de fábrica conforme a lo expuesto son:
+1er. Semestre 2do. semestre
+Gastos mensuales: 25.000 x $ 3 = 75.000 1er. mes: 50.000 x $ 5 = 250.000
+2do. al 6to. mes: 30.000 x $ 5 = 150.000
+Gastos totales: 75.000 x 6 meses = 450.000 250.000 + 150.000 x 5 meses = 1.000.000
+de donde como egresos del PFC serán:
+PFC: 1er. semestre $ 450.000
+2do. semestre $ 1.000.000
+A esta altura puede efectuarse un cálculo de los costos variables de producción, que será:
+FIFO
+1er. semestre 2do. semestre
+Materias primas: 25.000 x 2 Kg./unidad x 6 meses x 7º mes: 50.000 x 2 Kg. x $ 7 = 700.000
+$6/unidad = 1.800.000 8º mes: 30.000 x 2 x 7 = 420.000
+9º mes: 20.000 x 2 x 7 = 280.000
+9º mes: 10.000 x 2 x 9 = 180.000
+10º al 12º mes: 30.000 x 2 x 3 x 9 = 1.620.000
+3.200.000
+Mano de obra: 25.000 x 6 meses x $ 5 = 750.000 (1) 200.000 x $ 6 = 1.200.000
+Gastos variables de fábrica: 25.000 x 6 meses x $ 3 = 450.000 200.000 x $ 5 = 1.000.000
+Total costos variables: 1er. semestre: $ 3.000.000 2do. semestre: $ 5.400.000
+(1) Las 200.000 unidades se componen de 50.000 unidades del mes 7 y de 30.000 unidades del mes 8 al mes 12
+Por lo que para el PER se computarán los siguientes:
+Costos variables de producción
+Inventario inicial de productos terminados: $ 1.200.000
++ Producción: $ 8.400.000
+– Inventario final (*): – 3.400.000
+Costo de Productos Terminados Vendidos $ 6.200.000
+de donde:
+PER: $ 6.200.000
+(*) Para el PES al 31/12/99 el stock de productos terminados será:
+Stock de productos terminados al 31/12/99 120.000 u, que se componen:
+Producido 4to. al 6to. mes, 2do. semestre = 90.000 u x $ 29 = 2.610.000
+3er. mes, 2do. semestre = 10.000 u x $ 29 = 290.000
+3er. mes, 2do. semestre = 20.000 u x $ 25 = 500.000
+$ 3.400.000
+CV = $ 29 = (MP = 9 x 2 Kg.)+(MO = 6 x 1 hora) + (6F = 5)
+CV = $ 25 = (MP = 7 x 2) + (MO = 6) + (6F = 5)
+11
+
+Presupuesto de inversiones
+La empresa necesita comprar una nueva máquina que tiene un costo de $ 4.000.000, y la forma de
+pago es la siguiente: 25% al contado y 75% en 4 cuotas iguales, semestrales y consecutivas más un interés
+del 20% semestral sobre saldos pagaderos junto con la cuota. El primer pago vence el 30/6/99.
+A su vez, vende una máquina que había sido adquirida en el ejercicio 92/93, cuyo costo revaluado al
+31/12/98 era de $ 400.000. El precio de venta contado fue de $ 300.000.
+Ambas operaciones no están gravadas con el impuesto al valor agregado.
+La empresa deprecia los bienes de uso: edificios: 2% anual; máquinas e instalaciones: 10% anual,
+comenzando a depreciar al año siguiente de su ingreso al activo.
+Las normas legales referentes a revaluaciones de los bienes de uso admiten un coeficiente único del
+10% anual sobre los valores contables a fin del ejercicio anterior. Contablemente, las mismas se realizan al
+principio del ejercicio, pero con posterioridad a la venta del activo fijo.
+Plan financiero
+Algunos aspectos financieros fundamentales se expresan seguidamente.
+En cuanto a los préstamos bancarios responden a un crédito a 4 meses renovable parcialmente a su
+vencimiento. La última renovación se realizó el 31/12/98. En vencimientos futuros deberá abonarse un 15%
+por concepto de intereses cuatrimestrales vencidos. Las amortizaciones del crédito se realizarán a razón de
+un tercio sobre el monto al 31/12/99 en cada vencimiento.
+Las deudas a largo plazo tienen relación con el saldo de un crédito que vence el 31/12/2000. Las
+amortizaciones, iguales y consecutivas, y los intereses del 18% semestral vencido sobre saldos se realizan en
+el último día de diciembre y de junio de cada año.
+El proyecto de distribución de utilidades a presentar a la asamblea general de accionistas es el siguiente:
+– Dividendo en efectivo: $ 200.000
+– Dividendo en acciones: $ 400.000
+– Utilidades retenidas: $ 199.000 $ 799.000
+Se estima que los dividendos en efectivo se abonarán en agosto de 1999.
+La empresa cuenta, a su vez, con líneas de préstamos bancarios no utilizadas por hasta un monto de
+$ 4.500.000 con vencimientos a un año con un interés adelantado del 30%.
+De esta forma, se pueden efectuar estimaciones de algunas de estas deudas y su reflejo en el PER,
+PFC y PES.
+Compra de bienes de uso: contado $ 1.000.000 (2/1/99)
+Vencimiento Saldo Cuota Intereses Total egreso
+30/6/99 3.000.000 750.000 600.000 1.350.000
+31/12/99 2.250.000 750.000 450.000 1.200.000
+30/6/2000 1.500.000 750.000 300.000 1.050.000
+31/12/2000 750.000 750.000 150.000 900.000
+1er. semestre: Pago contado = 1.000.000
+1er. pago = 1.350.000 $ 2.350.000
+2do. semestre: 2do. pago = $ 1.200.000
+de donde:
+PFC: 1er. semestre $ 2.350.000
+2do. semestre $ 1.200.000
+Intereses del ejercicio: 600.000 + 450.000 = 1.050.000
+12
+
+de donde:
+PER: $ 1.050.000
+Acreedores compra máquina (cuotas a vencer 30/6/00 y 31/12/00): 1.500.000
+PES: $ 1.500.000
+Préstamos bancarios a corto plazo
+Fecha Intereses (15%) Amortización préstamos (1/3)
+1ra. renovación 30/4/98 s/915 = 137.250 305.000
+2da. renovación 31/8/99 s/610 = 91.500 305.000
+3ra. renovación 31/12/99 s/305 = 45.750 305.000
+274.500
+Cuota Total 1er. semestre: 137.250 + 305.000 = 442.250
+Cuota Total 2do. semestre: 91.500 + 45.750 + 610.000 = 747.250
+de donde:
+PFC: 1er. semestre $ 442.250
+2do. semestre $ 747.250
+PER: $ 274.500
+Préstamos a largo plazo
+Vencimiento Saldo Cuota Intereses Total egreso
+30/6/99 2.000.000 500.000 360.000 860.000
+31/12/99 1.500.000 500.000 270.000 770.000
+30/6/2000 1.000.000 500.000 180.000 680.000
+31/12/2000 500.000 500.000 90.000 590.000
+Intereses del ejercicio = 360.000 + 270.000 = $ 630.000
+de donde:
+PFC: 1er. semestre $ 860.000
+2do. semestre $ 770.000
+PES: $ 1.000.000
+PER: $ 630.000
+Presupuesto del fluir de caja
+La presentación de este presupuesto reconoce tres grandes partes que son:
+a) Flujos operativos
+En esta parte del PFC se presentan los ingresos y egresos de efectivos que implican cambios en la posi-
+ción corriente de la firma y que tienen que ver con las operaciones diarias de la misma. Dos ítems que in-
+tegran los rubros corrientes no se presentan en esta sección: el saldo de caja y la posición corriente de la
+deuda a largo plazo.
+13
+
+b) Flujos no operativos
+Esta parte del PFC tiene relación con los rubros no operativos, tales como: pagos, de créditos, de provee-
+dores de largo plazo, compra de activo fijo, pagos de dividendos.
+c) Flujos del financiamiento
+Esta tercera parte del PFC tiene relación con los flujos vinculados, sobre todo, al manejo de las líneas de
+financiamiento de corto plazo que son los que, en definitiva, cierran el cuadro, a lo que se adicionan los
+movimientos de préstamos financieros de largo plazo (intereses + principal).
+Los datos para el PFC ya fueron generados en los pasos anteriores; en todo caso, a esta altura se de-
+ben incorporar algunos elementos vinculados a los aspectos fiscales y de gastos fijos, sin perjuicio de que
+ellos reporten datos para el PER y el PES.
+El detalle de gastos fijos a incluir será:
+1er. semestre 2do. semestre
+Datos mensuales
+Sueldos nominales 200.000 240.000
+Aporte patronal (35%) 70.000 84.000
+Depreciaciones (*) 35.750 35.750
+Otros gastos 15.000 21.000
+320.750 380.750
+Total semestre: 320.750 x 6 = 1.924.500
+380.750 x 6 = 2.284.500
+Aporte obrero (15%) 30.000 36.000
+Sueldos líquidos 170.000 204.000
+(*) Depreciaciones: Edificio: 2 % s/3.000.000 x 1,10 = 66.000 Mens. 5.500
+Máquinas: l0 % s/(3.700.000 – 400.000) x 1,10 = 363.000 Mens. 30.250
+35.750
+En relación con los presupuestos, los datos son:
+Caja
+Sueldo aportes retenciones Sueldo aportes retencs. sueldo
+170.000 x 5 + (70.000 + 30.000) x 5 + 170.000 + 70.000 + 30.000 + 204.000 x 5 +
++ 15.000 x 6 = 1.440.000 + (84.000 + 36.000) x 5 + 21.000 x 6 = 2.016.000
+otros gastos aportes retencs. otros gastos
+Situación
+Sueldo a pagar 31/12/99: $ 204.000
+Acreedores por leyes sociales: 84.000 + 36.000 = $ 120.000
+Resultados
+Gastos fijos: 1.924.500 + 2.284.500 = 4.209.000
+de donde para los tres presupuestos será:
+PFC: 1er.semestre 1.440.000
+2do. semestre 2.016.000
+PES: Sueldos a pagar $ 204.000
+Acreedores por leyes sociales $ 120.000
+PER: 4.209.000
+En cuanto a los aspectos fiscales, a efectos de una mayor claridad, ha parecido oportuno presentar,
+primero, la situación del impuesto al valor agregado, y luego, de otros impuestos.
+Con respecto al impuesto al valor agregado se tiene que:
+14
+
+2do semestre
+1er. semestre
+IVA s/ventas – 18% s/7.500.000 = 1.350.000 18% s/9.900.000 = 1.782.000
+IVA s/compras – 18% s/1.400.000 = 252.000 18% s/3.960.000 = 712.800
+1.098.000 1.069.200
+Caja
+1 2 3 4 5 6
+IVA ventas 225.000 225.000 225.000 225.000 225.000 225.000
+IVA compras – – 63.000 63.000 63.000 63.000
+1er. semestre: 612.000 2do. semestre: 486.000 + 469.800 = $ 955.800
+7 8 9 10 11 12
+IVA ventas 297.000 297.000 297.000 297.000 297.000 297.000
+IVA compras 226.800 97.200 97.200 97.200 97.200 97.200
+Situación acreedores fiscales: $ 599.400
+Con lo que:
+PFC: 1er. semestre $ 612.000
+2do. semestre $ 955.800
+PES: Acreedores fiscales $ 599.400
+En cuanto tiene relación con los acreedores fiscales, el saldo está compuesto por el impuesto al valor
+agregado de octubre, noviembre, diciembre de 1998 y los correspondientes impuestos a la renta y al patri-
+monio que aparecen en el estado de resultados del ejercicio finalizado al 31/12/98.
+Los adelantos de impuestos (renta y patrimonio) son de:
+Enero a marzo/99 $ 40.000 p/mes
+Mayo y junio/99 $ 44.000 p/mes
+Julio a diciembre/99 $ 55.000 p/mes
+Ambos impuestos se abonan antes de los 110 días de finalizado el ejercicio.
+El impuesto al patrimonio estimado para el ejercicio correspondiente a 1999 es de $ 150.000.
+De lo anteriormente expuesto se deduce que los montos involucrados en acreedores fiscales son:
+IVA oct. nov. y dic. 400.000
+IRIC ejercicio 98 266.000
+Patrimonio 98 110.000 $ 776.000 Saldo 31/12/98
+Adelantos IRIC y patrimonio al 31/12/98 230.000
+Adelantos de enero/febrero/marzo 99 120.000 $ 350.000
+Saldo deuda año anterior a pagar en el primer semestre ´99 $ 426.000
+de lo que por acreedores fiscales se tiene:
+PFC: $ 426.000
+1er. semestre: adelantos (*) = 1/2/3 = 120.000 + 5/99 y 6/99 = 88.000 = 208.000
+2do. semestre: adelantos julio-diciembre = 55.000 x 6 = 330.000
+Adelantos IRIC y patrimonio ejercicio 99 = 88.000 + 330.000 = $ 418.000
+(*) Aclaración: los $ 120.000 pagados en el primer trimestre corresponden a impuestos del año ´98 que se liquidan y
+saldan al cuarto mes (en abril), de ahí en más los adelantos corresponden a impuestos del ejercicio ´99.
+15
+
+de donde:
+PFC: 1er. semestre $ 208.000
+2do. semestre $ 330.000
+PES: $ 418.000
+Sobre la base de las consideraciones y cálculos expuestos, y sabiendo que la empresa tiene como po-
+lítica mantener un saldo mínimo de $ 200.000, se arriba al siguiente presupuesto del fluir de caja:
+1er. semestre 2do. semestre Total
+I. Caja inicial 285.000 200.000 285.000
+Créditos ventas (E.S.) 3.000.000 – 3.000.000
+Ventas a crédito 4.425.000 10.266.000 14.691.000
+IL Total ingresos operat. 7.425.000 10.266.000 17.691.000
+Proveedores (E.S.) 1.450.000 – 1.450.000
+Compras materias primas – 3.138.800 3.138.800
+Sueldos y jornales a pagar (E.S.) 330.000 – 330.000
+Mano de obra directa 625.000 1.145.000 1.770.000
+Gastos variables de fábrica 450.000 1.000.000 1.450.000
+Gastos fijos 1.440.000 2.016.000 3.456.000
+Acreedores por leyes sociales (E.S.) 194.000 – 194.000
+IVA 612.000 955.800 1.567.800
+Acreedores fiscales 426.000 – 426.000
+Adelantos IRIC y patrimonio 208.000 330.000 538.000
+III. Total egresos operat. 5.735.000 8.585.600 14.320.600
+Venta bienes de uso 300.000 – 300.000
+IV. Total ingresos no operat. 300.000 – 300.000
+Compra bienes de uso 2.350.000 1.200.000 3.550.000
+Distribución dividendos – 200.000 200.000
+V. Total egresos no operar. 2.350.000 1.400.000 3.750.000
+VI. Flujo neto de caja (360.000) 280.400 (79.600)
+VII. Saldo primario (75.000) 480.400 205.400
+Pago préstamo bancario a corto plazo (442.250) (747.250) (1.189.500)
+Pago préstamo a largo plazo (860.000) (770.000) (1.630.000)
+Sub-Total (1.377.250) (1.036.850) (2.614.100)
+Créditos a corto plazo (*) 2.253.214 1.766.929 4.020.143
+Intereses a corto plazo (*) (675.964) (530.079) (1.206.043)
+VIII. Caja final 200.000 200.000 200.000
+Del mismo se desprenden aspectos a ser utilizados por el PES y por el PER.
+Los préstamos bancarios llegan a $ 4.020.143, de donde:
+PES: $ 4.020.143
+(*) Al monto de los préstamos y de sus intereses se arriba de la siguiente forma:
+1er. semestre 2do. semestre
+Saldo primario (75.000) 480.400
+Pago préstamo c/p (442.250) (747.250)
+Pago préstamo l/p (860.000) (770.000)
+Saldo final (200.000) (200.000)
+Fondos necesarios $ (1.577.250) $ (1.236.850)
+16
+
+Dado que lo que ingresa es el neto, O sea, préstamo por
+1.577.250 1.236.850
+Préstamo = =$2.253.214 =$1.766.929
+(1-30%) (1-30%)
+Los intereses son la diferencia = Intereses = $ 530.079
+= 675.964 (2.253.214 – 1.577.250) (1.766.929 – 1.236.850)
+Nota: el 30% es la tasa de interés adelantada que figura en el ítem “Plan Financiero”. Como el interés se cobra por ade-
+lantado, se debe solicitar un importe tal que luego de deducido el 30% termine quedando el importe que se necesita, por
+ello se divide por el neto a percibir que es del 70% (1-30%).
+Los intereses del préstamo tomado a fin del primer semestre son anuales, por lo tanto la mitad es un resulta-
+do del ejercicio y el resto son “Intereses No Devengados” que corresponden a “Gastos pagados por anticipa-
+do” en el Activo.
+Los intereses del préstamo tomado a fin del segundo semestre son, en su totalidad, “Intereses No Devenga-
+dos” que corresponden a “Gastos pagados por anticipado” en el Activo.
+de donde: de donde:
+PER: $ 337.982
+PES: $ 337.982 + PES: $ 530.079 = PES: $ 868.061
+Presupuesto de estado de resultados
+De lo expuesto antes se llega al siguiente presupuesto de estado de resultados:
+Ventas 17.400.000
+Gastos variables de producción 6.200.000
+M. operativo bruto 11.200.000
+Gastos fijos 4.209.000
+Pres. imp. patrim. 150.000
+Utilidad vta. máq. (1) (100.000) 4.259.000
+GAII 6.941.000
+Gastos financieros 2.292.482
+- Intereses por compra bienes de uso 1.050.000
+- Intereses por prést. corto plazo 274.500
+- Intereses por prést. largo plazo 630.000
+- Intereses por nuevos préstamos 337.982
+Ganancias antes de impuestos 4.648.518
+Impuesto 25% 1.162.130
+Ganancia neta 3.486.388
+(1) Costo revaluado $ 400.000 - depreciaciones $ 40.000 x 5 = $ 200.000 Valor Residual
+$ 300.000 Precio venta
+$ 100.000 Utilidad
+Cálculo de la revaluación de los Bienes de Uso
+A partir del párrafo final del “Presupuesto de Inversiones” que especifica que “Las normas legales referentes
+a revaluaciones de los bienes de uso admiten un coeficiente único del 10% anual sobre los valores contables
+a fin del ejercicio anterior. Contablemente, las mismas se realizan al principio del ejercicio, pero con poste-
+rioridad a la venta del activo fijo.”, la venta de una máquina y los datos de Bienes de Uso del Estado de Si-
+tuación Patrimonial histórico (al 31/12/98), se procede al cálculo de la revaluación de los Bienes de Uso:
+17
+
+Revaluación
+Valor de ori- Revaluación de las Revaluación
+Bien Depreciaciones del Valor de
+gen depreciaciones Neta
+origen
+Terrenos 325.000 0 32.500 0 32.500
+Edificios 3.000.000 600.000 300.000 60.000 240.000
+Máq. e Inst. (inicio) 3.700.000 1.500.000 370.000 150.000 220.000
+Máq. e Inst. (venta) -400.000 -200.000 -40.000 -20.000 -20.000
+Totales 6.625.000 1.900.000 662.500 190.000 472.500
+El cuadro anterior es la revaluación de los Bienes de Uso, ahora falta el cálculo de las depreciaciones del ejercicio.
+Valor de ori- Depreciaciones Depreciaciones
+Bien Valor Residual
+gen revaluado del ejercicio Acumuladas
+Terrenos 357.500 0 0 357.500
+Edificios 3.300.000 66.000 726.000 2.574.000
+Máq. e Inst. (1) 7.630.000 363.000 1.793.000 5.837.000
+Totales 11.287.500 429.000 2.519.000 8.768.500
+(1) Máq. e Inst. (sin compra) = 3.700.000 – 400.000 + 370.000 – 40.000 = 3.630.000
+Máq. e Inst. = 3.630.000 + 4.000.000 (compra) = 7.630.000
+Depreciaciones Acumuladas Máq. e Inst. = 1.500.000 - 200.000 + 150.000 – 20.000 + 3.630.000·10% = 1.793.000
+Presupuesto de estado de situación
+Activo
+Caja y bancos 200.000
+Créditos por ventas 5.841.000
+Otros créditos (fiscales) 418.000
+Bienes de cambio
+Materias primas 2.160.000
+Productos terminados 3.400.000 5.560.000
+Bienes de uso
+Terrenos 357.500
+Edificios 3.300.000
+Depreciac. Acum. Edificios (1) (726.000) 2.574.000
+Maquinarias e instalaciones 7.630.000
+Depreciac. Acum. Maq. e I. (2) (1.793.000) 5.837.000
+Gastos p. por anticipado
+Intereses a vencer 868.061
+Total activo 21.655.561
+Pasivo
+Proveedores 3.186.000
+Préstamos bancarios 4.020.143
+Sueldos y jornales a pagar 317.333
+Jornales 113.333
+Sueldos 204.000
+Acreedores por leyes sociales 186.667
+Jornales 66.667
+Sueldos 120.000
+Acreedores fiscales
+IVA 599.400
+Impuestos al patrimonio 150.000
+IRIC 1.162.130 1.911.530
+Acreedores compra de bienes de uso 1.500.000
+Deuda largo plazo 1.000.000
+Patrimonio Neto
+Capital integrado (3) 2.400.000
+Reserva, rev. activo fijo (4) 2.272.500
+Utilidades retenidas (5) 1.375.000
+Utilidad del ejercicio 3.486.388
+18
+
+Total Pasivo y Patrimonio Neto 21.655.561
+(1) 600.000 x 1,10 + 66.000 = 726.000
+(2) (1.500.000 – 200.000) x 1,l0 + 363.000 = 1.793.000.
+(3) Capital integrado: del estado de situación patrimonial al 31/12/98 se obtiene el importe al inicio que es de $
+2.000.000 a los que se les suman los dividendos en acciones por $ 400.000 lo que da $ 2.400.000
+(4) Reserva, rev. activo fijo: aquí se parte del saldo inicial del estado de situación patrimonial al 31/12/98 que es de $
+1.800.000 a los que se adiciona el importe por revalúo de este ejercicio (última fila, última columna del cuadro de reva-
+luación de los Bienes de Uso) por $ 472.500 lo que da $ 2.272.500
+(5) Utilidades Retenidas: aquí hay que partir del estado de situación patrimonial al 31/12/98 del que se obtiene el impor-
+te al inicio que es de $ 1.176.000 a los que se les suman los resultados del ejercicio al 31/12/98 por $ 799.000 y se le
+restan los dividendos en efectivo por $ 200.000 y dividendos en acciones por $ 400.000 por lo cual el saldo final es de $
+1.375.000.
+PUNTOS QUE DEBEN SER COMPRENDIDOS ANTES DE SEGUIR ADELANTE
+1. Cuáles son las principales vinculaciones de cada uno de los presupuestos que generan insumos de infor-
+mación (ventas, producción, etc.), con respecto a los tres presupuestos que son el producto final de la
+planificación financiera de corto plazo.
+19

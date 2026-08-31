@@ -1,0 +1,2141 @@
+Cap 04 8/24/03 10:42 PM Page 1
+Aspectos
+institucionales del
+4
+mercado de capitales
+4.1 ESQUEMA MACROECONÓMICO DE FLUJO DE 4.4 VALORES DE RENTA FIJA
+FONDOS 4.4.1 Letras del tesoro
+4.2 MERCADO FINANCIERO 4.4.2 Certificados de depósito
+4.2.1 Mercado bancario 4.4.3 Papeles comerciales
+4.2.1.1 Bancos comerciales 4.4.4 Repos
+4.2.1.2 Bancos de inversión privados 4.4.5 Eurodólares
+4.2.1.3 Bancos hipotecarios 4.4.6 Notas del tesoro
+4.2.1.4 Bancos privados de desarrollo (finan- 4.4.7 Bonos del tesoro
+cieras) 4.4.8 Títulos de gobiernos
+4.2.1.5 Bancos de ahorro 4.4.9 Títulos de provincias y municipios
+4.2.1.6 Instituciones oficiales de crédito 4.4.10 Bonos corporativos
+4.2.2 Mercado de capitales 4.5 VALORES DE RENTA VARIABLE
+4.2.2.1 Intermediarios financieros no banca- 4.5.1 Acciones ordinarias
+rios 4.5.2 Acciones preferentes o privilegiadas
+4.2.2.2 Otros inversores institucionales 4.5.3 ADR
+4.2.3 Mercados para realizar operaciones 4.5.4 CEDEAR
+4.2.3.1 La bolsa de comercio 4.5.5 Índices bursátiles
+4.2.3.2 El mercado de valores 4.5.5.1 Argentina
+4.2.3.3 La caja de valores 4.5.5.2 Brasil
+4.3 ENTES REGULADORES 4.5.5.3 México
+4.3.1 Banco central 4.5.5.4 España
+4.3.2 Comisión Nacional de Valores 4.5.5.5 Estados Unidos
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 2
+2 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+E
+n el presente capítulo se explicará el cas superavitarias a aquellas deficitarias, es
+porqué o la razón de ser de los merca- decir, dado el esquema macroeconómico de
+dos financieros; cómo se conforma el flujo de fondos, se necesitan los mercados fi-
+sistema financiero; cuáles son sus institucio- nancieros para canalizar el ahorro. En térmi-
+nes participantes; cuáles son los principales nos generales, las empresas privadas y el
+instrumentos que se transan en los merca- sector público son típicas unidades deficita-
+dos financieros y sus principales caracterís- rias y, por lo tanto, demandantes de fondos.
+ticas; y describiremos los principales índices Las unidades domésticas o familias, al con-
+bursátiles del mundo. trario, suelen ser en términos agregados uni-
+dades económicas superavitarias, oferentes
+Es muy común escuchar a la gente hablar
+de fondos.
+del mercado financiero, pero más de una
+vez alguien se ha preguntado qué es real- Antes de entrar en detalle sobre el fun-
+mente el mercado financiero y no le fue muy cionamiento del sistema financiero, es con-
+sencillo encontrar una explicación. veniente tener una visión general de la
+función que cumple el esquema macroeco-
+Un buen intento sería buscar en un dic-
+nómico del flujo de fondos en el circuito
+cionario, donde encontraríamos que, desde
+económico.
+un punto de vista general, el mercado es “un
+sitio público destinado permanentemente, o en La fig. 4-1 muestra la vinculación entre
+días señalados, para vender, comprar o per- la actividad productiva y comercial que de-
+mutar géneros o mercaderías”; mientras que sarrollan las empresas, por un lado, y la par-
+financiero es “aquello perteneciente o relativo ticipación que en este esquema tienen las
+a la hacienda, a las cuestiones bancarias y familias y el gobierno por el otro. En la par-
+bursátiles o a las mercantiles”. te superior se puede apreciar la interrela-
+ción entre las empresas y las
+Considerando al mercado como un siste-
+familias. Éstas aportan trabajo
+ma (normalmente no localizado en un espa-
+a las empresas y a cambio re- Fig.
+cio físico concreto) a través del cual las
+4 - 1
+empresas ofrecen bienes y
+servicios demandados por Ingreso de las familias
+consumidores sobre la ba-
+se del precio fijado libre-
+Ingreso de las empresas Gastos de las familias
+mente por la adecuación EMPRESA FAMILIAS
+de la oferta y la demanda,
+es posible aproximarse al
+Gastos del gobierno
+concepto de mercado fi-
+Impuestos nanciero determinando su
+objeto, que es la negocia-
+GOBIERNO
+ción de los denominados
+activos financieros, los
+Créditos
+cuales pueden ser defini- Endeudamiento
+dos como activos intangi- del gobierno
+bles que dan derecho a
+uno o más pagos futuros.
+Depósitos
+La función económica MERCADO FINANCIERO
+básica o primaria de los
+mercados financieros es la
+transferencia de recursos
+de las unidades económi- Mercado bancario Mercado de capitales
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 3
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 3
+ciben salarios. Este ingreso lo destinan a intermediando fondos a través de la transfe-
+consumo, pago de impuestos y ahorro. El rencia de instrumentos financieros median-
+consumo consiste en la compra de bienes y te distintos mecanismos.
+servicios a las empresas, lo cual representa
+la principal fuente de ingreso de dinero pa-
+ra éstas. Por su parte, los impuestos son un 4.2 MERCADO FINANCIERO
+ingreso para el gobierno.
+Según la manera en que se observe el mer-
+El ahorro es destinado por las familias a la cado financiero, podemos encontrar diferen-
+compra de instrumentos financieros (bonos, tes clasificaciones o subdivisiones de él que
+acciones, plazo fijos, fondos comunes, etc.) a permiten una mejor comprensión de su al-
+través del sistema financiero, a la compra de cance.
+activos físicos (autos, inmuebles, etc.) o para
+El mercado financiero puede ser dividido
+afrontar gastos imprevistos.
+en dos grandes subgrupos:
+Si se supone al conjunto de familias como
+• Mercado bancario o de dinero
+un sector que ahorra desde el punto de vista
+financiero y al de empresas como un sector • Mercado de capitales
+que necesita financiarse por naturaleza, en
+El mercado bancario ofrece y demanda ac- la parte inferior del gráfico vemos cómo el
+tivos financieros que por su propia naturale-
+sistema financiero es el canal por donde cir-
+za no sólo están destinados a la financiación
+culan los ahorros netos de un sector (fami-
+de proyectos, sino también a cubrir necesi-
+lias) para financiar las necesidades del otro
+dades de tipo coyuntural o temporario. Se
+(empresas).
+trata de instrumentos de elevada liquidez y
+Por último tenemos al sector gobierno bajo riesgo. Las instituciones típicas de este
+que por un lado realiza gastos en bienes y mercado son las entidades financieras que
+servicios y por el otro obtiene ingresos a tra- captan depósitos a la vista o a corto plazo. Es-
+vés de los impuestos que pagan las familias te mercado es de intermediación indirecta
+y las empresas. efectuada por los bancos y las restantes enti-
+dades financieras no bancarias, que al recibir
+Si esta relación de ingresos y gastos no es-
+depósitos de muchos ahorristas vuelven a
+tá balanceada, el gobierno debe:
+prestar el dinero a otras personas y empre-
+• Pedir prestado, si los gastos son más
+sas; además asumen el riesgo de esos présta-
+grandes que los ingresos (situación de mos, que se encuentra diversificado entre
+déficit fiscal).
+todos los préstamos otorgados por el banco.
+• Prestar, si se presenta una situación de su- En esta forma de intermediación las entida-
+perávit fiscal (cuando los ingresos son su- des financieras trabajan con un margen o di-
+periores a los egresos). ferencia de precio entre las tasas a las que
+toman los fondos y a las que los colocan.
+El mercado de capitales ofrece y demanda
+4.1 ESQUEMA
+activos financieros de mediano y largo pla-
+MACROECONÓMICO
+zo, como las obligaciones negociables y las
+DE FLUJO DE FONDOS
+acciones. Las instituciones clásicas del mer-
+En este orden de ideas hemos definido al cado de capitales son las bolsas y los merca-
+mercado financiero como el conjunto de ins- dos de valores, que proveen liquidez a los
+tituciones, medios y mercados cuyo fin pri- activos financieros negociados, compatibili-
+mordial es canalizar el ahorro que generan zando las preferencias temporales de emi-
+las unidades de gasto con superávit hacia los sores e inversores. El mercado de capitales
+prestatarios o unidades de gasto con déficit, es de intermediación directa, ya que consis-
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 4
+4 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Cuadro
+4-1
+te en realizar la operación
+Mercado bancario Bancos comerciales
+solicitada por un cliente,
+Bancos de inversión privados
+tarea que se cumple a
+Hipotecarios
+cambio de una comisión.
+Financieras
+En este tipo de interme-
+De ahorro
+diación el riesgo lo asume
+el inversor y el banco de Instituciones oficiales de crédito
+inversión actúa sólo como
+Mercado de Intermediarios financieros no ban-
+intermediario.
+capitales carios
+Desde otro punto de vis- Cooperativas de fomento
+ta, los mercados de capita- Fondos comunes de inver
+les pueden clasificarse en: sión
+• Mercados primarios Inversores institucionales
+AFJP
+• Mercados secundarios
+Compañías de seguros
+En los mercados prima- Mercados de valores
+rios se negocian las nuevas Bolsas
+emisiones canalizando di-
+Mercados extrabursátiles
+rectamente los ahorros a la
+inversión productiva, mien-
+tras que en los mercados secundarios se nego- tante de las instituciones financieras. A tra-
+cian activos financieros ya colocados. Estos vés de ellos fluye una gran proporción de los
+últimos cumplen la importante función de do- recursos totales del sistema bancario. Éstos
+tar de liquidez a las inversiones, permitiendo constituyen el mecanismo más desarrollado
+de igual manera la desinversión. Dado que co- y eficaz para la movilización del ahorro y su
+múnmente el inversor no puede recurrir al canalización hacia usos productivos, debido
+emisor para exigir el reembolso anticipado o a su acceso a los ahorristas a través de su
+rescate de su inversión, resulta necesaria la amplio sistema de sucursales.
+existencia de mercados secundarios que de
+La fuente más importante de fondos de cor-
+manera eficiente cumplan la función de otor-
+to plazo para los bancos comerciales proviene
+gar liquidez a las inversiones. Como explica-
+de los depósitos a la vista de los individuos y
+mos antes, el mercado financiero se divide en
+de las empresas. También, en menor propor-
+un mercado bancario y un mercado de capita-
+ción, captan fondos a corto plazo a través de
+les, en donde los participantes de cada uno se otros instrumentos propios del mercado de di-
+podrían agrupar como muestra el cuadro 4-1.
+nero, como depósitos a plazo, de ahorro y
+Del cuadro anterior se puede apreciar la otras obligaciones a la vista y a plazo, tanto en
+complejidad del mercado financiero, por lo moneda nacional como extranjera.
+que es muy importante describir las princi-
+Los bancos comerciales, los cuales en su
+pales funciones y características de cada
+gran mayoría son del sector privado, están
+uno de sus participantes.
+íntimamente ligados con el mercado de di-
+nero y operan principalmente a corto plazo.
+4.2.1 Mercado bancario
+Las operaciones activas más importantes
+de los bancos comerciales son, fundamental-
+4.2.1.1. Bancos comerciales
+mente, operaciones de crédito comercial a
+Tanto en América Latina como en otras corto plazo y revisten la forma de descuen-
+partes del mundo son los bancos comercia- tos, préstamos directos, préstamos prenda-
+les los que constituyen el grupo más impor- rios, créditos simples, etc.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 5
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 5
+En el mercado bancario latinoamericano 4.2.1.3 Bancos hipotecarios
+ocupa un lugar importante la absorción de
+Éstos operan en estrecha colaboración
+valores gubernamentales, que se realiza co-
+con los bancos comerciales, básicamente ac-
+mo consecuencia de disposiciones dictadas
+túan en un terreno especializado del merca-
+por la autoridad monetaria y crediticia con do financiero canalizando sus recursos hacia
+el propósito de efectuar un control moneta- el financiamiento de la vivienda.
+rio o para obtener recursos adicionales con
+Han tenido mucho éxito en la moviliza-
+que financiar parte de la inversión pública.
+ción del ahorro interno mediante la securi-
+Además de sus propias operaciones acti- tización de sus carteras de activos, proceso
+vas y pasivas, los bancos comerciales reali- que consiste en convertir los flujos de fon-
+zan también otras diversas actividades, que dos originados por activos líquidos en títu-
+consisten básicamente en la administración los valores, los que se colocan entre los
+de valores, servicios de caja y tesorería, cus- inversores. Ejemplos: Banco Nacional Hipo-
+todia y compra venta de títulos valores y di- tecario de México, Banco Ecuatoriano de la
+visas, servicios de cobranzas, etc. También Vivienda, Corporación de Fomento de la Vi-
+desempeñan con frecuencia labores de fidei- vienda de Chile.
+comiso.
+4.2.1.4 Bancos privados de En general el establecimiento de los ban-
+desarrollo (financieras)
+cos comerciales se encuentra sujeto a la au-
+torización del Ministerio de Hacienda o Las funciones de éstas son fomentar la
+Economía, o el Banco Central. Su régimen organización y expansión de empresas in-
+legal y administrativo está determinado por dustriales, suscribir participación y otros
+la legislación bancaria respectiva, comple- valores emitidos por empresas industriales
+mentada en ocasiones con la ley del Banco o comerciales, emitir sus propios bonos y
+Central u otras disposiciones en la materia. recibir depósitos a plazos, los cuales son de-
+nominados préstamos. Su papel principal
+La supervisión por parte del Estado de las
+es suministrar a las empresas créditos que
+bancos comerciales está encomendada a las éstas no pueden obtener de los bancos co-
+superintendencias bancarias, aun cuando en
+merciales. Dada su mayor flexibilidad en
+ciertos países el instituto central ejerce esa
+relación con los bancos comerciales, las fi-
+función o bien la ejercen ambos organismos nancieras pueden prestar con riesgos credi-
+en forma complementaria. ticios inaceptables para los bancos.
+Esta supervisión se aplica básicamente a Participan en forma muy activa en el fi-
+la observancia de normas legales y adminis- nanciamiento de ventas a plazo de bienes du-
+trativas, y al envío periódico de información raderos de consumo, de planes de exhibición
+financiera y contable a las autoridades com- y venta de distribuidores de automóviles, et-
+petentes. También comprende visitas perió- cétera. Ejemplos: Financiera Privada de Mé-
+dicas para inspección de esas instituciones xico, Financiera de Colombia, Corporación
+privadas. Venezolana de Fomento, Banco Nacional de
+Desenvolvimiento Económico de Brasil.
+4.2.1.2 Bancos de inversión privados
+Son todas aquellas instituciones privadas 4.2.1.5 Bancos de ahorro
+cuyas operaciones principales se canalizan a Estas instituciones captan volúmenes im-
+plazos más largos. En este grupo se incluyen portantes de ahorro en Europa y EE.UU.,
+las instituciones financieras, las sociedades pero no en los países de América Latina.
+de capitalización, los bancos de ahorro y Son el medio más eficaz del que disponen
+préstamo y, las más importantes dentro de las familias de bajos ingresos para adquirir
+este grupo, los bancos hipotecarios. una vivienda, ya que no tienen acceso a la
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 6
+6 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+financiación en los bancos comerciales. cional de Crédito Cooperativo de Brasil, Insti-
+Ejemplo: Patronato del Ahorro Nacional de tuto de Fomento Industrial de El Salvador.
+México, Banco de Crédito Popular de Brasil,
+Caja Colombiana de Ahorro.
+4.2.2 Mercado de capitales
+4.2.1.6 Instituciones oficiales
+4.2.2.1 Intermediarios financieros
+de crédito
+no bancarios
+El objetivo de éstas es el desarrollo de sec-
+Podemos dividir a estas instituciones en:
+tores específicos de la economía. Este grupo
+de instituciones proporciona financiamiento • De carácter público.Entre éstas se destacan
+a mediano y largo plazo, en su mayoría en las cooperativas de fomento. Este grupo de
+forma de créditos, descuentos e inversión en instituciones obtiene sus recursos de diver-
+valores. Sus recursos se canalizan en espe- sas fuentes, entre las cuales las más impor-
+cial hacia los sectores industrial, agrícola, tantes son los aportes del estado, los
+minero y obrero, y en menor grado hacia el créditos internos y externos, y la emisión
+financiamiento de infraestructura. de valores de renta fija. La mayor parte de
+este grupo de intermediarios financieros
+En cuanto a la obtención de recursos, la
+emplea sus recursos en créditos e inversio-
+fuente principal son los aportes del gobierno nes en valores a diferentes términos, con
+a su capital o a fondos especiales constitui-
+una tendencia creciente hacia el mediano
+dos en fideicomiso, la emisión de valores, los
+y largo plazo, con el objetivo de financiar
+depósitos que reciben de las empresas y par-
+actividades básicas en las respectivas eco-
+ticulares, y los créditos obtenidos del banco
+nomías. Su función esencial es colaborar
+central u otras instituciones gubernamenta-
+con el crecimiento económico mediante la
+les o privadas, los cuales con frecuencia son
+promoción y desarrollo de empresas públi-
+complementados con recursos del exterior.
+cas y privadas.
+Las formas principales de obtención de
+Estos organismos se encuentran regula-
+recursos en el largo plazo son la emisión de
+dos y administrados generalmente por
+valores, los créditos externos y los aportes y
+sus propias leyes orgánicas, y la supervi-
+créditos gubernamentales. Dentro de los va-
+sión estatal se realiza en general por las
+lores, las cédulas hipotecarias ocupan un lu-
+contralorías generales.
+gar destacado.
+La supervisión reviste los mismos aspec-
+En general, las instituciones oficiales de tos señalados en el caso de los otros tipos
+crédito se encuentran reguladas legal y ad- de instituciones y es también de carácter
+ministrativamente por las leyes bancarias de
+permanente. Ejemplos: Corporación de
+carácter general o por las leyes que les die-
+Fomento de la Producción de Chile, Cor-
+ron origen.
+poración Venezolana de Fomento.
+La supervisión del Estado en este grupo de
+• De carácter privado. Dentro de este grupo
+instituciones está a cargo de la superinten-
+se incluyen las llamadas sociedades de in-
+dencia de bancos y, en otros países, del ban-
+versión, tanto de carácter abierto como
+co central o de un ministerio competente. En
+cerrado, como ser los fondos comunes de
+general, la supervisión se aplica básicamente
+inversión.
+a la observancia de las normas legales y ad-
+ministrativas, al análisis de los estados finan- La fuente principal de recursos de las so-
+cieros y contables, mediante su envío ciedades de inversión es la emisión y co-
+periódico y a otros aspectos que aseguren la locación de sus propias cuotapartes.
+canalización de recursos. Ejemplos: Banco In-
+Las operaciones activas de las sociedades
+dustrial de la República Argentina, Banco Na-
+de inversión están constituidas en su ma-
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 7
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 7
+yoría por inversiones en acciones comunes Los distintos organismos de seguridad so-
+y preferentes de empresas industriales, co- cial destinan la mayor parte de sus recur-
+merciales, agrícolas y financieras. En casi sos a la prestación de servicios médicos,
+todos los países en los que existe este tipo seguros de distinta clase en beneficio de
+de sociedades se establecen diversas limita- los asegurados, pensiones, jubilaciones,
+ciones a la inversión de sus recursos en una etc., para los que fueron creados. Sin em-
+sola empresa. bargo, en ocasiones constituyen un medio
+importante para canalizar al mercado re-
+Para poder iniciar operaciones, estas so-
+cursos a largo plazo, a través de la compra
+ciedades deben ser autorizadas previa-
+de valores públicos y privados, y del otor-
+mente por el Ministerio de Hacienda y
+gamiento de créditos a largo plazo. El sec-
+por la Comisión Nacional de Valores. Se
+tor de mayor importancia para el destino
+encuentran reglamentadas por leyes es-
+del financiamiento de largo plazo está
+pecificas de sociedades de inversión y por
+constituido por los mismos asegurados.
+disposiciones de las comisiones de valo-
+Igualmente importante es el financia-
+res o superintendencias de sociedades
+miento que estas entidades conceden al
+anónimas, o de las dos entidades y del sector público, por medio de la adquisi-
+Banco Central.
+ción de valores gubernamentales.
+En algunos casos el tratamiento fiscal de
+Estos organismos se rigen generalmente
+este tipo de sociedades ha sido un factor por las respectivas legislaciones generales
+de importancia en su crecimiento.
+de previsión social.
+Las sociedades de inversión están sujetas
+Las labores de supervisión de estos orga-
+a la supervisión de la comisión de valores, nismos son realizadas generalmente por
+del banco central, y del ministerio de ha- el ministerio de trabajo. Ejemplos: Caja
+cienda, o bien de las superintendencias del Seguro Social de Panamá, Instituto Me-
+de sociedades anónimas. xicano del Seguro Social, Caja de Jubila-
+ciones y Pensiones de Paraguay, ANSES
+En términos generales dicha supervisión
+de Argentina.
+consiste básicamente en la vigilancia de
+su funcionamiento legal, en el envío pe- • Sector privado. En este grupo están com-
+riódico y análisis de la información finan- prendidas, principalmente, las compañías
+ciera y contable, y en visitas que realizan aseguradoras privadas y las administrado-
+inspectores competentes. ras privadas de fondos de pensión. Estas
+instituciones canalizan una parte impor-
+4.2.2.2 Otros inversores tante de sus recursos hacia el mercado de
+institucionales capitales, principalmente a través de la
+compra de valores de renta fija, públicos
+Dividimos a estas instituciones en:
+y privados, y el otorgamiento de créditos
+• Sector público. Dentro de este grupo se in- a largo plazo (cuadros 4-2 y 4-3).
+cluyen principalmente los organismos de
+Las instituciones de seguros, además de
+seguridad social, las cajas de previsión,
+sus labores propias, realizan otro tipo de
+etc. Dichas instituciones son un mecanis-
+actividades que repercuten en el funcio-
+mo muy importante de captación de aho-
+namiento y evolución del mercado de ca-
+rro. La mayor parte de ellas obtiene sus
+pitales, como inversiones inmobiliarias,
+recursos de fuentes similares: cuotas obre-
+inversiones de renta fija o variable, con-
+ro-patronales y aportes del gobierno. Este
+cesión de préstamos de todo tipo, etc.
+grupo cuenta además con los rendimien-
+tos de las inversiones que realizan con sus Las compañías aseguradoras están regula-
+recursos primarios y los aportes de otras das por legislaciones de tipo especifico pa-
+instituciones. ra este grupo de organismos.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 8
+8 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Cuadro
+4-2 Activos de fondos de pensión y fondos comunes de América Latina
+(millones U$S)
+Año Total Activos Activos Activos Activos
+activos F. pensión Acc. Bonos Extranj. Fdos. comunes Acc. Bonos Extranj.
+1994 155.395 82.802 36,2 63,8 0 74.016 9,1 90,9 0
+1995 172.739 91.129 29 71 0,1 85.727 4,9 95,1 0
+1996 229.872 107.182 29,1 70,7 0,2 137.027 5,2 94,8 0
+1997 251.043 125.387 33,8 65,8 0,4 150.330 11 89 0,1
+1998 256.755 132.025 23,8 74,6 1,5 151.174 7,7 92,2 0
+1999 266.669 135.595 26,6 69,8 3,7 161.160 8,9 90,6 0,5
+2000 306.972 151.740 22,4 74 3,6 189.008 8,3 91,3 0,4
+2001 299.106 148.559 20,8 74,8 4,2 182.046 8,3 91,2 0,6
+Cuadro
+4-3 Apertura entre fondos de pensión y fondos comunes por país (millo-
+nes U$S)
+Año Argentina Brasil Chile México
+Pensión Mutual Pensión Mutual Pensión Mutual Pensión Mutual
+1994 517 389 58.100 60.227 23.926 2.113 - 11.285
+1995 2.492 643 62.698 74.949 25.358 2.551 - 7.579
+1996 5.323 1.869 73.418 122.187 27.495 2.815 - 10.016
+1997 8.816 5.347 83.435 126.632 30.876 4.247 755 13.467
+1998 11.526 6.865 81.910 129.006 31.146 2.734 5.730 12.204
+1999 16.787 7.082 70.876 129.896 34.501 3.653 11.026 20.035
+2000 20.381 7.556 75.497 157.312 35.886 4.481 16.997 19.218
+La supervisión estatal —realizada normal- financieros a través de la reunión de com-
+mente por las superintendencias de segu- pradores y vendedores de títulos valores.
+ros y de las administradoras de fondos de
+Considerando la manera en que se llevan
+pensión correspondientes— consiste en el
+a cabo las operaciones del mercado de capi-
+análisis de la información financiera y con-
+tales podemos diferenciar dos sistemas o es-
+table, enviada periódicamente al organis-
+quemas de operación:
+mo supervisor, y en la observancia de las
+normas legales y administrativas, por un • Sistema bursátil
+lado, y por otro en las visitas periódicas del
+• Sistema extrabursátil.
+inspector del organismo. En general la su-
+pervisión es de carácter permanente. Las
+En la actualidad hay distintos modelos de
+compañías de seguros son también someti-
+organización de los sistemas bursátiles exis-
+das a un régimen de control cualitativo y
+tentes en la legislación universal sobre ne-
+cuantitativo de sus activos; en ambos casos
+gociación de títulos valores, ellos son;
+se imponen limites y orientaciones a la
+composición de su cartera. • Sistema de bolsa libre, utilizado en países
+como Gran Bretaña, Suecia y Luxemburgo,
+y en Hong Kong.
+4.2.3 Mercados para
+realizar operaciones
+• Sistema de bolsa oficial, utilizado en paí-
+Como describimos antes, el mercado de ses como Italia, Alemania, Grecia, Austria,
+capitales es el sistema o mecanismo desarro- Holanda, Sudáfrica, Finlandia, Noruega y
+llado para facilitar el intercambio de activos Dinamarca.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 9
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 9
+• Sistema de bolsa privada bajo control esta- • Proporcionar la infraestructura, la supervi-
+tal, utilizado en el resto de los países. sión y los servicios necesarios para la rea-
+lización de los procesos de emisión,
+Las instituciones que conforman los siste-
+colocación e intercambio de valores, títu-
+mas bursátiles tienden a ofrecer un ámbito
+los y otros instrumentos financieros.
+de alta calidad a nivel internacional, de ma-
+nera que emisores, operadores, inversores y • Establecer los requisitos para cotizar.
+analistas encuentren una plaza con todas las
+• Autorizar, suspender y cancelar la cotiza-
+condiciones de información, transparencia,
+ción de títulos valores.
+correctas practicas negociables, normas para
+combatir las operaciones con información • Controlar el cumplimiento de las disposi-
+reservada, sistemas de liquidación totalmen- ciones legales y reglamentarias por parte
+te confiables y seguros, costos competitivos de las sociedades cuyos títulos valores co-
+y otras exigencias. ticen.
+En un sistema bursátil, las distintas insti- • Dictar las normas y medidas necesarias
+tuciones que participan son las expuestas en para asegurar la veracidad de los balances
+la fig. 4-2, cada una de las cuales cumple un y demás documentos que deben presen-
+importante rol en la actividad bursátil. tar o publicar las sociedades cuyos títulos
+valores tengan cotización autorizada.
+• Efectuar inspecciones en los libros, pape-
+les e instalaciones de las sociedades que
+Fig.
+4 - 2 Comisión Nacional soliciten autorización para cotizar títu-
+de Valores los valores o que la tengan acordada.
+Bolsa de Mercado de • Dictar normas reglamentarias que
+Comercio Valores aseguren la veracidad en el registro
+de las cotizaciones publicando las
+mismas y los precios corrientes.
+Caja de Valores
+• Difundir la normativa, las actividades
+y las operatorias del sistema bursátil.
+4.2.3.1 La bolsa de comercio
+Entre las bolsas del mundo se pueden
+Es una institución privada que se consti- destacar:
+tuye bajo la forma de sociedad anónima o
+• Bolsa de comercio de Buenos Aires
+asociación civil. Las empresas que requie-
+ren recursos (dinero) para financiar su ope- • Bolsa de valores de San Pablo
+ración o proyectos de expansión, pueden
+• Bolsa de valores de Río de Janeiro
+obtenerlo a través del mercado bursátil,
+mediante la emisión de valores (acciones, • Bolsa mexicana de valores
+obligaciones, papel comercial, etc.) que son
+• New York stock exchange
+puestos a disposición de los inversionistas
+(colocados) e intercambiados (comprados y • American stock exchange
+vendidos) en la bolsa de comercio, en un
+• Bolsa de valores de Madrid
+mercado de libre competencia y con igual-
+dad de oportunidades para todos sus parti- • Bolsa de valores de Barcelona
+cipantes.
+Para operar dentro de las bolsas el régi-
+Entre las principales funciones de la bol- men legal requiere la organización de mer-
+sa de comercio se destacan las que se deta- cados de valores que agrupen a los agentes y
+llan a continuación. sociedades de bolsa.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 10
+10 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+4.2.3.2 El mercado de valores mecanismos de mercado, condiciones y
+plazos de pago.
+Es la institución formada por agentes de
+bolsa que negocian títulos valores públicos o • Garantiza la liquidación de las operacio-
+privados, y deben obligatoriamente consti- nes que se negocian en el recinto.
+tuirse bajo la forma de sociedades anónimas.
+• Aplica sanciones disciplinarias a los agen-
+Sus accionistas son exclusivamente las socie-
+tes y sociedades de bolsa que violen el es-
+dades de bolsa autorizadas para realizar inter-
+tatuto y demás normas en vigor.
+mediación en el mercado bursátil, las cuales
+poseen una acción cada una. Sus funciones Dado el gran número de operaciones que
+son realizar operaciones de compraventa de se llevan a cabo en las bolsas del mundo, se-
+valores; brindar asesoría a las empresas en la
+ria en extremo ineficiente que cada opera-
+colocación de valores y a los inversionistas en
+ción finalizara con una transferencia física
+la constitución de sus carteras; recibir fondos
+de los títulos valores del vendedor al compra-
+en concepto de operaciones con valores, y
+dor. Este proceso es facilitado a través de las
+realizar transacciones con valores mediante
+entidades liquidadoras o “clearinghouses”,
+los sistemas electrónicos de la Bolsa por me- que ayudan a reducir los costos de transfe-
+dio de sus operadores.
+rencia y en el mejor de los casos permiten la
+El Mercado de Valores cumple las siguien- inmovilización de los títulos casi por comple-
+tes funciones primarias: to a través de un registro electrónico de los
+títulos administrados por sus miembros.
+• Lleva el registro de agentes y sociedades
+bursátiles.
+4.2.3.3 La caja de valores
+• Capacita y toma el examen de idoneidad a
+Es una institución privada que provee ser-
+los agentes, vigila su desempeño profesio-
+vicios de depósito colectivo y administración
+nal y respalda sus operaciones.
+de títulos valores, lo que permite la liquida-
+• Regula, coordina e instrumenta los diversos ción automática de las transferencias resul-
+aspectos de las transacciones inherentes a tantes de las transacciones diarias (fig.4-3).
+Caja de Valores S.A.
+Fig.
+4 - 3
+D Recibe sólo depósitos de:
+e
+p
+o
+s
+i
+t Agentes de Mercados de Bancos y Depositarias Caja de ahorro
+a bolsa valores financieras de FCI y seguro
+n
+t
+C
+e
+s o
+m
+Se depositan títulos
+i
+públicos y privados t
+propiedad de: e
+n
+t
+e
+Inversores s
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 11
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 11
+La caja firma un contrato de depósito co- • Central de Custodia e de Liquidaçao Fi-
+lectivo con el depositante, que es una perso- nanceira de Títulos —CETIP— (Brasil)
+na o institución autorizada para efectuar
+• S.D. INDEVAL (México)
+depósitos colectivos de títulos valores. Esos
+títulos valores son propiedad del inversor, • Depository Trust Company —DTC— (Esta-
+quien los deposita bajo el nombre de comi- dos Unidos)
+tente. Con la aparición del depositante y el
+• Federal Reserve Bank Financial Services
+comitente, la caja procede a registrar a la or-
+(Estados Unidos) den del primero el depósito colectivo, y a
+nombre del segundo la especie entregada. • Servicio de Compensación y Liquidación
+La cuenta del depositante se desagregará en de Valores —SCLV— (España)
+tantas subcuentas como comitentes tenga.
+• Clearstream (internacional)
+Las principales funciones que cumple la
+• Euroclear (internacional)
+caja son:
+Como se ha mencionado con anterioridad,
+• Custodia títulos valores públicos y priva-
+existen sistemas extrabursátiles, denomina-
+dos.
+dos mercados abiertos u “over the counter”,
+en los que se opera con valores fuera de un
+• Percibe dividendos y los acredita, también
+recinto bursátil. revalúos, rentas y amortizaciones, como
+asimismo los canjes de acciones resueltas Operar a través del mercado abierto signi-
+por los emisores. fica no pagar aranceles ni derechos caracte-
+rísticos del mercado bursátil. Así se logra una
+• Emite y entrega certificados para concu-
+auténtica baja en el costo de entrada y salida
+rrencia a asambleas.
+de las especies transadas, lo que hace más
+• Envía estados de cuenta trimestrales, con atractivo a los grandes capitales conducirse a
+todos los movimientos del período. través de este sistema. El mercado “over the
+counter” está muy automatizado. Posee re-
+• Actúa como agente pagador de dividendos, des de comunicación que permiten a los par-
+revalúos, etcétera, de empresas con coti- ticipantes (dealers) conocer todos los precios
+zación bursátil y también como agente pa- del mercado al instante. Estos dealers tienen
+gador del Banco Central, para los títulos terminales de computadora en donde ingre-
+emitidos por el gobierno. san sus precios de compra y venta de las ac-
+ciones o títulos que operan, y deben estar
+• Lleva registros de accionistas y obligacio-
+preparados para ejecutar operaciones al pre-
+nistas de empresas que los soliciten.
+cio que ofrecen. Tan pronto como ingresan
+un precio de compra o de venta para un acti-
+• Imputa directamente, cumpliendo las or-
+vo, el mismo es ingresado en un sistema cen-
+denes de los agentes de bolsa, las compras
+tral y puede ser observado por todos los
+o ventas realizadas por los inversores.
+operadores del mercado suscriptos en sus
+En cada país se puede encontrar una agen- propias terminales. A medida que se introdu-
+cia de liquidación o depositaria central, como: cen nuevas cotizaciones van reemplazando a
+las anteriores. El inversor sabe el precio de
+• Caja de Valores —CVSA— (Argentina)
+su operación en el momento, por lo que eli-
+mina dudas acerca de si compró al mejor pre-
+• Cámara de Liquidaçao e Custodia —CLC—
+cio posible o no. Además no tiene costo
+(Brasil)
+alguno, ya que la ganancia para el operador
+• Companhia Brasileira de Liquidaçao e está en el “spread” o diferencia de precio de
+Custodia —CBLC— (Brasil) compra y venta (cuadro 4-4).
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 12
+12 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Cuadro
+4-4
+Diferencias entre el sistema bursátil y el extrabursátil
+Diferencia Sistema bursátil Sistema extrabursátil
+Adquisición de una acción Sí No
+por el agente
+Precio Determinado por el mercado Precio cierto, concertado
+Destino de los títulos El cliente, pues el agente opera Cartera propia (dealer)
+por mandato (broker)
+Horario Más reducido Más prolongado
+Pedido de mejor precio del fijado No se puede Se puede
+Fraccionar grandes tenencias No se puede Se puede
+Operar títulos autorizados por No opera Sí, puede operar
+la CNV pero no por la bolsa
+Garantía de la operatoria El mercado Sólo el operador o institución
+que la efectúa
+Caja de valores Propia Usa la del mercado de valores
+Lugar donde opera Recinto de la bolsa Sus oficinas
+preponderantemente
+Ofrecimiento de la operación Viva voz Sistema informático
+Remuneración del agente Comisión, salvo mercado Diferencia entre compra y ven-
+ta mayorista
+Aranceles y derechos Sí, excepto mercado mayorista No se abona
+para especies determinadas
+Registro de la operación De inmediato, consignando Sólo se coloca en pantalla el
+cotización y volumen precio de la operación y los
+demás datos al terminar la jor-
+nada
+4.3 ENTES REGULADORES oportunidades estas emisiones pueden ser
+colocadas en la banca privada, por medio del
+4.3.1 Banco central instrumento de encaje obligatorio para movi-
+lizar un volumen considerable de recursos in-
+En la mayoría de los países existe la figu-
+ternos hacia el financiamiento de las ra del banco central, el cual se encuentra fa-
+necesidades del sector gubernamental. Ade-
+cultado para intervenir en el mercado de
+más, en ciertas ocasiones el banco central
+capitales con el objetivo de colaborar con su
+apoya la liquidez de estos instrumentos con
+sano y armónico desarrollo. La política mo-
+una garantía de recompra, tácita o explícita.
+netaria y crediticia adoptada por los distin-
+Por otra parte, el banco central ha inter-
+tos países ejerce una influencia que se hace
+venido con alguna frecuencia en el mercado
+sentir directamente en el funcionamiento de
+de valores de renta fija, de emisión privada,
+los mercados financieros a largo plazo.
+para apoyar su liquidez y evitar fluctuacio-
+En algunos países del mundo el banco cen- nes excesivas en sus precios, algunas veces
+tral interviene en grado y extensión diverso en forma temporal y otras de manera per-
+en los mercados de capitales. Por un lado, ab- manente, con el claro propósito de robuste-
+sorbe una buena parte de los valores emitidos cer la confianza de los inversores y atraer un
+por el gobierno, los cuales representan una volumen mayor de ahorros de la comunidad
+alta parte de la proporción total. En algunas hacia ese tipo de inversiones.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 13
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 13
+En mayor o menor medida y con más o Banco Central de Brasil. Es un ente au-
+menos éxito, los bancos centrales han trata- tárquico federal integrante del sistema finan-
+do siempre de orientar un volumen crecien- ciero nacional brasileño. Fue creado en 1964
+te de financiamiento del sistema bancario para asegurar la estabilidad del poder de
+hacia las necesidades de largo plazo. Con es- compra de la moneda y la solidez del siste-
+te propósito han utilizado los diversos instru- ma financiero nacional. Antes de su creación
+mentos a su disposición, en especial el el papel de autoridad monetaria era ejercido
+encaje, los controles directos, los cupos de re- por la Superintendencia de la Moneda y el
+descuento, las tasas diferenciales de interés, Crédito (SUMOC), por el Banco de Brasil y
+etcétera. por el Tesoro Nacional.
+Podemos citar las funciones del banco La SUMOC tenia como finalidad ejercer el
+central en distintos países. control monetario y preparar la organización
+de un Banco Central. Tenia la obligación de
+Banco Central de la República Argenti-
+fijar los porcentuales de reservas obligatorias
+na. El Banco Central es una entidad autár-
+para los bancos comerciales, y las tasas de re-
+quica del Estado Nacional, cuyas principal
+descuento y de asistencia financiera para la
+misión es preservar el valor de la moneda,
+liquidez. El Banco de Brasil desempeñaba la
+mientras que sus funciones fundamentales
+función de banco de gobierno, mediante el
+son regular el volumen del crédito bancario
+control de las operaciones de comercio exte-
+y los medios de pago, concentrar y movili-
+rior. Por ultimo, el Tesoro Nacional era el ór-
+zar las reservas internacionales, y actuar co-
+gano emisor del papel moneda.
+mo agente financiero del gobierno.
+A partir de la creación del Banco Central,
+Además tiene a su cargo la vigilancia de
+éste desempeño la función de banco de ban-
+los mercados de valores y para esto aplica la
+cos y de autoridad monetaria. Su función
+Ley de Entidades Financieras. La política de
+principal es formular la gestión de la política
+regulación del crédito se ejerce por medio
+monetaria y cambiaria, compatible con las di-
+de redescuentos y adelantos a los bancos co-
+rectivas del gobierno federal, la regulación
+merciales y al gobierno, así como a través de del sistema financiero nacional, y la adminis-
+variaciones en la tasa de encaje legal. La in-
+tración del sistema de pagos.
+tervención del Banco Central en el mercado
+El Banco Central de Brasil cuenta con un
+de capitales trata de lograr una mayor cana-
+comité de política monetaria (COPOM), el
+lización de recursos a largo plazo hacia los
+cual fue creado en 1996 con el objetivo de
+sectores considerados prioritarios por el go-
+establecer las directrices de la política mo-
+bierno de cada país.
+netaria y de definir las tasas de interés, por
+Éste actúa como agente financiero del Es- medio de un proceso transparente como el
+tado Nacional, y depositario y agente del país que provee el Federal Open Market Commit-
+ante las instituciones monetarias, bancarias y tee del Banco Central de los EE.UU.
+financieras internacionales a las cuales la na-
+Los objetivos de éste son establecer direc-
+ción haya adherido; concentra y administra
+trices, definir metas en las tasas de interés y
+las reservas de oro, divisas y otros activos ex-
+regular la tasa de inflación. Este comité se
+ternos, y ejecuta la política cambiaría en un
+reúne mensualmente en dos sesiones dia-
+todo de acuerdo con el Congreso Nacional.
+rias de trabajo.
+Está facultado para emitir billetes, le está pro-
+hibido extender préstamos al gobierno, em- Banco de México. Por mandato constitu-
+presas o individuos, tomar participaciones cional el Banco de México, creado en sep-
+societarias en empresas comerciales, pagar tiembre de 1925, es autónomo. Su objetivo
+intereses por depósitos y otorgar garantías a prioritario es procurar la estabilidad del po-
+cualquier empresa o individuo. der adquisitivo de la moneda. Se le entrego
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 14
+14 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+la exclusiva facultad de crear moneda, tanto • Respetando las funciones anteriores como
+mediante la acuñación de piezas metálicas parte integrante del eurosistema, la Ley
+como a través de la emisión de billetes. Se le de Autonomía otorga al Banco de España
+encargó la regulación de la circulación mo- el desempeño de las siguientes funciones:
+netaria, de los tipos de interés y del cambio
+• Poseer y gestionar las reservas de divisas y
+sobre el exterior. Asimismo, se convirtió en
+metales preciosos no transferidas al Banco
+asesor financiero y banquero del gobierno
+Central Europeo.
+federal. Además de los atributos propios de
+un banco de emisión, se le otorgaron tam- • Supervisar la solvencia y el comporta-
+bién facultades para operar como institución miento de las entidades de crédito, otras
+ordinaria de crédito y descuento. entidades y mercados financieros, cuya
+supervisión le haya sido atribuida, de
+Sus esfuerzos principales están dirigidos
+acuerdo con las disposiciones vigentes.
+a controlar la inflación y a corregir los dese-
+• Promover el buen funcionamiento y esta-
+quilibrios de la economía.
+bilidad del sistema financiero y, sin per-
+Banco de España. Fue fundado en 1782 juicio de las funciones del BCE, de los
+y su fundación estuvo estrechamente vincu- sistemas de pagos nacionales.
+lada con el crecimiento de la deuda pública
+• Poner en circulación la moneda metálica
+española.
+y desempeñar, por cuenta del Estado, las
+El inicio de la Unión Económica y Mone- demás funciones que se le encomienden
+taria Europea y la constitución del Sistema respecto a ella.
+Europeo de Bancos Centrales (SEBC), y del • Elaborar y publicar las estadísticas relacio-
+Banco Central Europea (BCE), han supuesto
+nadas con sus funciones y asistir al BCE
+una redefinición de algunas de las funciones
+en la recopilación de la información esta-
+que tradicionalmente venían desarrollando
+dística necesaria.
+los bancos centrales nacionales de los países
+participantes en la zona del euro. El Banco • Prestar los servicios de tesorería y agente
+de España podrá dictar las normas precisas financiero de la deuda pública.
+para el ejercicio de sus funciones.
+• Asesorar al gobierno, así como realizar los
+El Banco de España participa en el desa- informes y estudios que resulten proce-
+rrollo de las siguientes funciones básicas atri- dentes.
+buidas al SEBC:
+• Ejercer las demás competencias que la le-
+• Definir y ejecutar la política monetaria de gislación le atribuya.
+la zona del euro, con el objetivo principal
+Reserva Federal de los Estados Unidos.
+de mantener la estabilidad de precios en
+El sistema de reserva federal es el guardián
+el conjunto dicha zona. de la moneda nacional americana y cumple
+diversos roles como parte de sus responsabi-
+• Realizar las operaciones de cambio de di-
+lidades para resguardar la salud económica
+visas que sean coherentes con las dispo-
+del país.
+siciones del Artículo 109 del Tratado de
+la Unión Europea, así como poseer y ges- Las responsabilidades a su cargo se cen-
+tionar las reservas oficiales de divisas del tran sobre todo en sostener una economía
+Estado. sana en aras de alcanzar los objetivos de:
+• Promover el buen funcionamiento del sis- • Pleno empleo.
+tema de pagos en la zona del euro.
+• Tasas de interés sustentables que sorteen
+• Emitir los billetes de curso legal. los peligros de deflación e inflación.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 15
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 15
+Además desempeña roles de: pública y establecer las normas a las que
+se deben ajustar.
+• Política monetaria: adquiriendo y vendien-
+do letras del tesoro a fin de brindar liqui- • Fiscalizar el cumplimiento de la ley y apli-
+dez o restringirla, según las necesidades. car las penalidades correspondientes.
+• Banquero y prestamista: es el banco princi- • Controlar las sociedades emisoras.
+pal americano, facilitando dinero a los ban-
+• Aprobar los reglamentos y supervisar las
+cos que integran sus sistema. Sus bancos
+bolsas y mercados de valores.
+miembros tienen acceso directo al redes-
+cuento y anticipos. • Controlar las operaciones de la Caja de va-
+lores.
+• Auditor: supervisa los bancos del sistema
+para que cumplan con las leyes vigentes • Llevar el registro de los fondos comunes
+y la calidad de los préstamos otorgados. de inversión y sociedades calificadoras de
+riesgo.
+• Depositario: del oro y divisas entregadas
+por los bancos centrales extranjeros en • Regular los mercados de futuros y opcio-
+“The New York Federal Reserve Bank”. nes.
+• Contralor: de la cantidad de dinero en cir- En los distintos países existe un organis-
+culación, de la impresión de billetes y acu- mo regulador, entre los que destacamos:
+ñación de moneda.
+• Comisión Nacional de Valores, CNV (Ar-
+El sistema de la reserva federal está inte- gentina)
+grado por tres organismos:
+• Commissão de Valores Mobiliarios, CVM
+• El Comité Federal de Mercado Abierto (Brasil)
+(FOMC, Federal Open Market Committee):
+• Superintendencia de Valores y Seguros,
+éste se reúne cada 6 semanas para evaluar
+SVS (Chile)
+la economía y fijar la política monetaria.
+• Comisión Nacional Bancaria y de Valores,
+• La Junta de Gobernadores: su objetivo es
+CNBV (México)
+otorgar estabilidad e independencia.
+• Securities and Exchange Commission,
+• 12 bancos regionales de la Reserva Federal
+SEC (Estados Unidos)
+(BRF): la misión es palpar las necesidades
+financieras de las economías que supervi- Luego de haber definido al mercado fi-
+san y aplicar las directivas del FOMC. nanciero y sus participantes, es necesario te-
+ner una clara noción de los principales
+instrumentos que se transan en el mercado
+4.3.2. Comisión Nacional
+y sus características.
+de Valores
+Principales instrumentos
+La intervención del gobierno en el siste-
+ma bursátil está representada en la Comisión
+Nacional de Valores. Entre sus principales
+Renta Renta
+funciones encontramos:
+fija variable
+• Autorizar la oferta pública de títulos valo-
+res.
+• Llevar el índice general de agentes de bol- 4.4 VALORES DE RENTA FIJA
+sa inscriptos en los mercados de valores.
+Dentro de esta clase de instrumentos se
+• Llevar el registro de las personas físicas y pueden distinguir dos grupos, como muestra
+jurídicas autorizadas para efectuar oferta la fig. 4-4.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 16
+16 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Fig.
+4 - 4
+Corto plazo Largo plazo
+Letras del tesoro Notas del tesoro
+Certificados de depósito Bonos del tesoro
+Papeles comerciales Títulos de gobiernos
+Repos Títulos de provincias
+Eurodólares Títulos municipales
+Bonos corporativos
+4.4.1 Letras del tesoro 4.4.3 Papeles comerciales
+A nadie debería sorprenderle que el go- Son pagarés de corto plazo sin garantía,
+bierno americano dependa en gran medida emitidos por entidades financieras y no fi-
+de la deuda financiera. Sus ingresos rara vez nancieras. Este tipo de título es emitido fre-
+cubren sus gastos y la diferencia se financia cuentemente por grandes compañías que
+a través de la emisión de deuda. Además, se poseen líneas de crédito bancarias inutiliza-
+debe emitir nueva deuda para obtener los das haciendo altamente probable el pago de
+fondos necesarios para el pago de la deuda este préstamo a su vencimiento. Como re-
+anterior. sultado, las tasas de interés de los comercial
+papers demuestran esto, al ser relativamen-
+Los treasury bills se emiten sobre la base
+te bajas en comparación con las de otros tí-
+de descuentos con vencimientos de hasta
+tulos corporativos de renta fija. Los papeles
+52 semanas y bajo denominaciones de mil
+comerciales (commercial papers) usualmen- dólares y más. Estos títulos se venden a tra-
+te se emiten en denominaciones de mil dó-
+vés de subasta y las ofertas pueden ser pre-
+lares o más, con vencimientos de hasta 270 sentadas en un tramo competitivo o no
+días. Este tipo de título generalmente no es
+competitivo.
+transable, pero el emisor puede que desee
+Con una oferta competitiva el inversor prepagarlo de ser necesario.
+define el precio que está dispuesto a pagar,
+mientras que con una oferta no competitiva
+4.4.4 Repos
+el inversor acuerda pagar el precio prome-
+dio de todas las ofertas que son aceptadas Es frecuente que un inversor (o una insti-
+por el tesoro. Los inversores pueden com- tución financiera) le venda a otro inversor
+prar las nuevas emisiones del treasury bill a un instrumento financiero y que acuerde re-
+través de cualquiera de los bancos de la re- comparárselo a un precio preestablecido a
+serva federal o indirectamente en un banco una fecha futura. Este tipo de transacción se
+o broker. denomina acuerdo de recompra y represen-
+ta, en esencia, una operación de colocación
+o toma de fondos.
+4.4.2 Certificados de
+depósito
+4.4.5 Eurodólares
+Son certificados que representan depósitos
+a plazo en bancos comerciales o entidades de En el mundo de las finanzas internacio-
+ahorro o préstamo. Dichos certificados pue- nales los certificados de depósitos de corto
+den estas asegurados por distintas entidades plazo por montos elevados, que son denomi-
+pero con montos máximos. Además, estos ti- nados en dólares y concertados con bancos
+pos de depósitos pueden ser emitidos en im- fuera de los Estados Unidos (frecuentemen-
+portes de 100,000 dólares o más, tienen un te en Londres), son conocidos como depósi-
+vencimiento predeterminado y generalmen- tos de eurodólares. Las condiciones de oferta
+te son negociables. y demanda de estos instrumentos pueden
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 17
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 17
+diferir debido a restricciones impuestas por ción del banco central y en menor medida a
+los Estados Unidos y otros gobiernos, con el través de las bolsas de valores.
+propósito de prevenir diferencias entre las
+La supervisión consiste en examinar el
+tasas de interés de los eurodólares y los de-
+cumplimiento por parte del emisor de las
+pósitos de Estados Unidos. A diferencia de
+normas legales y administrativas, del destino
+los certificados de depósitos emitidos por
+de los fondos, su denominación, tasa de inte-
+bancos americanos, los eurodólares no po-
+rés y otros aspectos. Ésta suele ser formal y
+seen el seguro de depósito federal.
+legislativa. La supervisión se realiza normal-
+mente previa a la emisión y se extiende a
+4.4.6 Notas del tesoro etapas posteriores.
+Estos instrumentos se emiten con venci-
+Los organismos que intervienen en la su-
+mientos que van de 1 a 10 años y generalmen-
+pervisión son, en general, los respectivos
+te tienen cupones de interés semestrales. Las representantes del poder legislativo, la Con-
+notas del tesoro se emiten en denominacio- traloría General, el Ministerio de Hacienda
+nes de mil dólares o más. En la mayoría de los y el Banco Central.
+casos se lleva a cabo una subasta con tramo
+competitivo y no competitivo. Este instru-
+4.4.9 Títulos de provincias mento se opera activamente en los mercados
+y municipios
+secundarios y cotizan en forma clean, es decir
+sin tener en cuenta los intereses devengados. Éstos tienen, en términos generales, ca-
+racterísticas similares a los valores emitidos
+por el Gobierno Nacional. Las emisiones se
+4.4.7 Bonos del tesoro realizan con denominación de 100 y múlti-
+Este instrumento posee un plazo de ven- plos, aun cuando existen bonos provinciales
+cimiento mayor a los diez años. Su denomi-
+sin denominación destinados a la cancela-
+nación mínima es de 1.000 dólares. A
+ción de deudas anteriores, o bien a consti-
+diferencia de los Treasury Notes, algunas
+tuir los aportes de los gobiernos respectivos
+emisiones de Treasury Bonds tienen cláusu- a diferentes institutos de previsión social o
+las de rescate anticipado, que permiten al
+entidades autónomas.
+gobierno prepagar el bono durante un perío-
+Tanto las tasas de interés como los plazos
+do determinado (usualmente este período
+de amortización son muy diversos.
+empieza 5 a 10 años antes del vencimiento).
+En general este tipo de valores está garan-
+4.4.8 Títulos de gobiernos tizado por los ingresos de los gobiernos esta-
+tales o municipales y con frecuencia llevan
+Estos valores se emiten en denominacio-
+el apoyo del gobierno federal.
+nes de 100 y múltiplos con una ligera ten-
+dencia hacia cifras altas en relación con La colocación se efectúa principalmente
+otros valores del mercado. El plazo de amor- por el propio emisor, el Banco Central, los
+tización de estos títulos es muy variable; sin organismos oficiales, y en menor medida los
+embargo, éstos suelen ser de largo plazo. En bancos privados.
+general ofrecen como garantía los ingresos
+La liquidez de este tipo de instrumentos
+públicos de la nación y el aval o garantía so-
+proviene únicamente de las propias condi-
+lidaria del Estado. La colocación de estos va-
+ciones del mercado, aun cuando es relativa-
+lores la realiza por lo general el propio
+mente frecuente que reciban el apoyo del
+emisor a través de alguno de sus órganos
+Banco Central.
+ejecutivos: la Secretaria de Finanzas o Eco-
+nomía, la Contraloría General, la Tesorería, En lo que respecta a la supervisión de la
+etc. En ocasiones se colocan con la interven- emisión de este tipo de valores, podemos de-
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 18
+18 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+cir que en su mayoría es facultad de una res (por ejemplo, se puede restringir el mon-
+combinación de entidades federales con or- to de futuras emisiones adicionales). La emi-
+ganismos provinciales. sión de este tipo de bonos generalmente se
+documenta a través de un indenture, que
+Los fondos captados por los gobiernos pro-
+describe los términos de la relación legal en-
+vinciales tienen una aplicación más concreta
+tre el emisor y los tenedores. Los tenedores
+y menos diversificada que la de los valores
+de estos títulos suelen tener representación
+gubernamentales, canalizándose principal-
+organizada a través del trustee(un banco o fi-
+mente a la construcción de obras públicas es-
+deicomiso) que actúa defendiendo los dere-
+tatales y servicios de beneficios colectivos,
+chos de los inversores. Éstos ofrecen como
+como pavimentación, alumbrado, parques
+garantías los activos e ingresos de la firma
+públicos, etc. También se han emitido valo-
+emisora, aun cuando en varios casos se esti-
+res de renta fija con el objeto de consolidar
+pulan garantías hipotecarias y prendarías.
+deudas anteriores.
+La colocación la realiza directamente el
+4.4.10 Bonos corporativos emisor, aunque suelen acudir a la interme-
+diación de la bolsa o de otras instituciones
+La denominación de los títulos es de 100
+financieras. Estos valores se colocan entre el
+y múltiplos. En general estos valores los co-
+público, las mismas empresas y otros inver- loca directamente la empresa emisora, aun
+sores financieros.
+cuando en ocasiones se acude a la interme-
+diación de la bolsa de valores y otras entida- Estos valores dependen generalmente del
+des financieras. Tanto las tasas de interés mercado para contar con liquidez. Están suje-
+como los plazos de amortización suelen ser tos a la supervisión y aprobación de la junta
+muy variables.
+directiva de la empresa emisora, además de
+Frecuentemente se establecen restriccio- otros organismos gubernamentales encarga-
+nes sobre las actividades que puede reali- dos de la regulación y vigilancia del mercado
+zar el emisor, con el fin de de valores, como la Superintendencia de ban-
+Cuadro p
+ci
+r
+ó
+o
+n
+p o
+ad
+rc
+ic
+io
+io
+n
+n
+a
+a
+r
+l
+u
+a
+n
+lo
+a
+s
+p
+e
+r
+m
+ot
+i
+e
+so
+c-
+-
+c
+V
+o
+a
+s
+lo
+o
+re
+s
+s
+o
+,
+c
+e
+i
+l
+e
+M
+da
+in
+d
+i
+e
+s
+s
+te
+a
+r
+n
+io
+ó
+d
+n
+e
+im
+H
+a
+a
+s
+c
+,
+i e
+la
+n d
+C
+a
+o
+,
+m
+et
+i
+c
+s
+.
+ión de
+4-5
+Eurobono 144 a Yankee
+Rango de monto 50 a 500 mm 100 mm + 250 mm+
+Roadshow Telefónico One on ones Extensivo
+Costos up front Bajo Medios Altos
+Spread Alto Más alto Menor
+Tiempo hasta emisión 6 a 12 semanas 8 a 12 semanas 10 a 14 semanas
+Covenants Estrictos — —
+Liquidez Muy baja Buena Alta
+Inversores A finish A finish/rotación Sin restric.
+No resid us No resid/qib
+Registración SEC No Puede tener reg rigths Sí
+Registración en CNV Sí Sí Sí
+Benchmark futuras No. Depende de la compañía Sí
+emisiones No tiene mercado
+secundario
+Acceso futuro a No Sí Alta
+mercado
+Cobertura research No Regular Muy buena
+Plazo de la emisión — Mayor eurobono Mayor 144a
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 19
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 19
+La supervisión se aplica al cumplimiento privilegio consiste en un mayor número de
+de las normas legales y administrativas de la votos en las asambleas.
+firma emisora, de la situación financiera, co-
+Las acciones de voto limitado tienen cier-
+berturas, emisión, etc., y suele realizarse an-
+tas prerrogativas o derechos de naturaleza
+tes de la emisión.
+patrimonial, los que pueden consistir en: un
+Los fondos son destinados generalmente dividendo preferente fijo anual, o sea paga-
+al financiamiento de inversiones de capital, dero antes de repartir el dividendo entre los
+como complemento de otras fuentes de fon- accionistas ordinarios, un dividendo acumu-
+dos financieros. lativo, es decir que si en un ejercicio anual
+las utilidades de la empresa no alcanzan a
+A la hora de emitir un bono las empresas
+cubrir el dividendo fijo pactado, la parte in-
+deben decidir qué tipo registración desean
+soluta se acumulará a la cantidad que deben
+obtener, ya que de ésta dependen varios as-
+cobrar las acciones preferentes en ejercicios
+pectos del instrumento.
+posteriores, y, por ultimo, un reembolso pre-
+En el cuadro 4-5 se detallan las principa- ferente en caso de disolución de la sociedad.
+les características de los distintos tipos de
+emisiones realizadas en los EE.UU. 4.5.3 ADR
+Una de las formas en que las acciones de
+una compañía no americana pueden ser
+4.5 VALORES DE RENTA
+operadas en los Estados Unidos, es a través
+VARIABLE
+de un American Depositary Receipt (ADR).
+Éste es un activo financiero emitido por un
+4.5.1 Acciones ordinarias
+banco de los EE.UU. y representa la propie-
+Las acciones ordinarias suelen conferir a dad indirecta de un cierto número de accio-
+sus tenedores iguales derechos patrimonia- nes de una compañía extranjera que están
+les y corporativos. Los primeros otorgan depositadas en un banco en el país de origen
+una participación en las utilidades de la em- de la compañía emisora.
+presa y en la cuota de la liquidación en caso
+La ventaja de un ADR sobre la propiedad
+de disolverse la sociedad; los derechos de ti-
+directa es que el inversor no tiene que
+po corporativo se refieren a la participación
+preocuparse por la entrega de los certifica-
+en el manejo de la compañía, a través de
+dos de acciones o la conversión de los divi-
+sus órganos de administración, y al derecho
+dendos a dólares. El banco depositario
+de inspeccionar los libros de la misma, y co-
+automáticamente hace la conversión para nocer su situación económica y financiera.
+el inversor y le envía todos los reportes fi-
+Las acciones pueden ser nominativas o al nancieros de la empresa; por estos servicios
+portador; para la transmisión de propiedad el inversor abona al banco un arancel rela-
+de las primeras se requiere un endoso y en tivamente pequeño.
+algunos casos especiales la aprobación de la
+junta directiva y el registro correspondiente
+4.5.4 CEDEAR
+en los libros de la sociedad, mientras que pa-
+De la misma forma que existe el ADR, las
+ra las segundas basta la simple entrega.
+instituciones extranjeras pueden cotizar en
+bolsas locales a través de los certificados de
+4.5.2 Acciones preferentes
+depósito, en el caso de Argentina existe el
+o privilegiadas
+CEDEAR, Certificado de Depósito Argentino,
+Son aquellas que en general otorgan en el cual es un recibo de depósito negociable
+una relación inversa, derechos especiales de que representa los títulos valores emitidos
+tipo patrimonial con voto limitado o cuyo por una institución extranjera.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 20
+20 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Éstos son emitidos por una institución ar- Información on-line sobre el índice bursátil
+gentina autorizada por los organismos regu-
+En sistemas de bolsa:
+ladores argentinos para emitir y cotizar los
+CEDEAR en la Bolsa de Comercio de Buenos SIB, sistema de información bursátil.
+Aires en la Argentina.
+SIU, sistema de información unidireccio-
+Los derechos de los titulares de CEDEAR nal.
+son similares a los que tienen los tenedores
+En otros países:
+de los títulos valores representados.
+Reuters Bloomberg
+4.5.5 Índices bursátiles CMA Agr. Dow Jones Telerate
+Son una medida estadística diseñada para
+CMA San Pablo Rio Valores
+mostrar los cambios de una o más variables
+Nosis
+relacionadas a través del tiempo. Podemos
+calcularlos como una razón matemática pro-
+ducto de una fórmula, que refleja la tenden- 4.5.5.2 Brasil
+cia de una muestra determinada. Índice Bovespa (Ibovespa). Éste es un índi-
+ce de precios que mide el retorno de una
+Refiriéndonos específicamente a los índi-
+cartera teórica de acciones constituida el 2
+ces bursátiles, se puede decir que expresan
+de enero de 1968 a partir de una aplicación
+el rendimiento del mercado accionario, en
+hipotética.
+función de las variaciones de precios de una
+muestra balanceada, ponderada y represen- La participación de cada acción en la car-
+tativa del conjunto de acciones cotizadas en tera tiene relación directa con la representa-
+las bolsas de valores de los distintos países. tividad de ese título en el mercado a la vista
+ajustado al tamaño de la muestra.
+4.5.5.1 Argentina
+En cuanto al criterio de selección de la
+Índice Merval. Este índice se basa en el va- cartera, para que la acción sea incluida en el
+lor de mercado de una cartera de acciones, Ibovespa es necesario que reúna simultá-
+seleccionada de acuerdo con la participación neamente los siguientes requisitos:
+en la cantidad de transacciones y el monto
+• Estar incluida en la lista de acciones co-
+operado en la bolsa de comercio de Buenos
+rrespondiente al conjunto que representa
+Aires.
+un nivel de negociación del 80%;
+La nómina de sociedades y sus pondera-
+• Tener una participación en términos de ciones se actualizan trimestralmente, de
+volumen superior a 0,1% del total;
+acuerdo con la participación en el mercado
+en los últimos seis meses. • Haber sido negociada en más del 80% del
+El índice se computa así: total de las ruedas del período.
+Metodología de cálculo. El índice Bovespa
+n
+∑
+I = Q × C es calculado en intervalos de 30 segundos,
+t i it
+considerando los últimos precios de las ope-
+i=1
+raciones efectuadas en el mercado a la vista
+En donde: (lote-tipo) como las acciones componentes
+de su cartera. La cartera teórica es determi-
+I = valor del índice en el período “t”.
+t nada cuatrimestralmente.
+Q = cantidad teórica de la acción “i”.
+i ∑ n
+C = cotización de la acción “i” en el pe- IvobespaT = P × Q
+it it it
+ríodo “t”. i=1
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 21
+ASPECTOS INSTITUCIONALES DEL MERCADO DE CAPITALES 21
+En donde: El cuanto al criterio de selección de la
+cartera, el IPC constituye un fiel indicador
+Ibovespa T = índice Bovespa en el instan-
+de las fluctuaciones del mercado accionario,
+te T.
+gracias a dos conceptos fundamentales; el
+N= número total de acciones componen- primero de ellos es la representatividad de
+tes de la cartera teórica. la muestra en cuanto a la operatividad del
+mercado, que es asegurada mediante la se-
+Pit = último precio de la acción “i” en el
+lección de las emisoras líderes, que a su vez
+instante “t”.
+es determinada sobre la base de su nivel de
+Qit = cantidad teórica de la acción “i” de bursatilidad. El segundo concepto es que la
+la cartera en el instante “t”. estructura de cálculo contempla la dinámi-
+ca del valor de capitalización de mercado,
+Información on-line sobre el índice bursátil:
+representado éste por el valor de capitaliza-
+En sistema de bolsa: ción de las emisoras que constituyen la
+muestra del IPC.
+Terminales BOVESPA
+El tamaño de la muestra del IPC está de- En Internet:
+terminado en función de los siguientes as-
+Se actualiza cada 30 segundos y la direc- pectos:
+ción es www.bovespa.com.br
+• Representatividad del desempeño del mer-
+cado en su conjunto.
+4.5.5.3 México
+Índice IPC: índice de precios y cotizaciones. • Número de empresas que cumplieron con
+Este índice expresa el rendimiento del mer- todos los criterios de selección.
+cado accionario en función de las variacio- • Características del mercado de valores me-
+nes de precios de una muestra balanceada,
+xicano.
+ponderada y representativa del conjunto de
+acciones cotizadas en la bolsa de valores • Facilidad para la identificación y opera-
+mexicana. ción con portafolios o sociedades que pre-
+tendan obtener el rendimiento promedio
+Las acciones industriales, comerciales y
+de mercado.
+de servicios han sido los instrumentos tradi-
+cionales del mercado bursátil, y desde su ori- La metodología de cálculo del IPC es la si-
+gen tienen como característica la movilidad guiente:
+de precios y la variabilidad de rendimientos.
+ n  ∑
+Las fluctuaciones en la cotización de ca-  P × Q 
+it it
+da título responden a la libre concertación  
+i=1
+I =I ×  
+entre la oferta y la demanda en el sistema t t-1 n
+ ∑ 
+electrónico de negociación, transacción y P × Q × F
+ it-1 it-1 it 
+ 
+asignación del mercado de capitales, rela- i=1
+cionada con el desarrollo de las emisoras y
+de sus resultados financieros, así como con En donde
+las condiciones generales de la economía
+I = índice en tiempo “t”.
+t
+nacional e internacional.
+P = precio de la emisora “i” en el día “t”.
+it
+La tendencia general de las variaciones de
+precios de todas las emisoras y series cotiza- Q it = acciones de la emisora “i” el día “t”.
+das en la BMV, generada por las operaciones
+F = factor de ajustes por ex derechos.
+i
+de compra-venta en cada sesión de remates,
+se refleja automáticamente en el IPC. I = 1,2,3 ........n
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP
+
+Cap 04 8/24/03 10:42 PM Page 22
+22 ADMINISTRACIÓN DE CARTERAS DE INVERSIÓN
+Información on-line sobre el índice bursátil J= cantidad utilizada para ajustar el valor
+del índice por ampliaciones de capital.
+En sistemas de bolsa:
+Información on-line sobre el índice bursátil:
+A través de SIVA y SIVA 25
+www.bolsamadrid.es
+4.5.5.4 España
+4.5.5.5 Estados Unidos
+Índice IBEX-35. Éste es el índice oficial
+del mercado continuo interconectado per- Índice Dow Jones industrial.Este índice fue
+teneciente a las cuatro bolsas españolas: introducido en mayo de 1896 por Charles
+Madrid, Barcelona, Bilbao y Valencia. La so- Dow y es el índice bursátil más antiguo que
+ciedad de bolsa, entidad supervisora del aún continúa en vigencia. Actualmente está
+mercado, calcula, publica y difunde el índi- compuesto por las mayores compañías del
+ce en tiempo real. NYSE (large blue-chips companies).
+Es un índice ponderado por capitalización n
+y está compuesto por los valores más líqui- ÍndiceDJI = ∑ P × 1
+t i,t dos cotizados a través del mercado continuo Divisor
+i=1
+de las 4 bolsas españolas.
+La metodología de cálculo es la siguiente:
+El Ibex-35 está diseñado para servir de
+subyacente a la contratación de derivados Índice Standard & Poors 500.Este índice re-
+sobre índices: opciones y futuros. Un comité presenta una mejora con respecto al Dow
+de expertos compuesto por representantes Jones en dos sentidos: primero, es un índice
+independientes del sistema financiero espa- más abarcativo ya que incluye a 500 empre-
+ñol lo supervisa y revisa su composición ca- sas (industriales, transporte y servicios pú-
+da 6 meses. blicos que representan el 80% del volumen
+transado en el NYSE), fundamentalmente
+Su metodología de cálculo es la siguiente:
+acciones que cotizan en el NYSE, pero tam-
+n bién considera al NASDAQ y AMEX. Segun-
+∑
+Cap do, es un índice que pondera por valor de
+i(t)
+Ibex35 =Ibex35 × i=1 mercado (capitalización bursátil) y no por
+t t-1 ∑ n precios, como el Dow Jones.
+Cap ± J
+i(t-1) La metodología de cálculo es la siguiente:
+i=1
+n En donde: ∑
+C i,t
+t = momento de cálculo del índice. IndiceS& P 500= i=1 ×100 n
+∑
+Cap = capitalización de la compañía C
+i,0
+incluida en el índice. (Si llamamos s al i=1
+número de acciones emitidas de c en el
+El S&P 500 se obtiene calculando la capi-
+momento t —c es la compañía incluida en el
+talización bursátil de las 500 empresas que
+índice— y p al precio de las acciones de c en
+el momento t, Cap = s × p.) componen el índice en el momento t y t-1.
+El incremento porcentual de la capitaliza-
+∑Cap = suma de la capitalización de to- ción bursátil de un día al otro representa la
+das las compañías incluidas en el índice. variación del índice.
+.socitcádid
+etnemavisulcxe
+nos
+senif
+sus
+,semliuQ
+ed
+lanoicaN
+dadisrevinU
+al
+ed
+osu
+arap
+se
+lairetam
+etsE
+.lairotide
+al
+ed
+otircse
+osimrep
+nis
+latot
+o
+laicrap
+nóiccudorper
+us
+adibihorP

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "../../../../../Desktop/clientes",
+    },
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "coronar bases",
+  },
+}
